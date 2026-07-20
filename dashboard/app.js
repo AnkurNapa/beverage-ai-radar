@@ -1,4 +1,4 @@
-// Beverage-AI Radar dashboard. Reads radar.json (exported by src/radar.py),
+// Beverage-AI Radar dashboard. Reads data.json (exported by `radar export`),
 // renders breakdown bars + a filterable company grid. Vanilla, no deps.
 
 const $ = (id) => document.getElementById(id);
@@ -37,7 +37,7 @@ function fillSelect(el, values) {
 
 function card(c) {
   const chips = [
-    c.beverage_vertical && `<span class="chip">${esc(c.beverage_vertical)}</span>`,
+    c.vertical && `<span class="chip">${esc(c.vertical)}</span>`,
     c.ai_use_case && `<span class="chip">${esc(c.ai_use_case)}</span>`,
     c.ai_maturity && `<span class="chip chip--muted">${esc(c.ai_maturity)}</span>`,
     c.status === "dormant" && `<span class="chip chip--dormant">dormant</span>`,
@@ -59,7 +59,7 @@ function apply() {
   const fv = $("f-vertical").value, fu = $("f-usecase").value,
     fm = $("f-maturity").value, fs = $("f-status").value;
   const shown = ALL.filter((c) => {
-    if (fv && c.beverage_vertical !== fv) return false;
+    if (fv && c.vertical !== fv) return false;
     if (fu && c.ai_use_case !== fu) return false;
     if (fm && c.ai_maturity !== fm) return false;
     if (fs && c.status !== fs) return false;
@@ -78,19 +78,19 @@ function apply() {
 async function main() {
   let data;
   try {
-    data = await (await fetch("radar.json")).json();
+    data = await (await fetch("data.json")).json();
   } catch {
-    $("grid").innerHTML = `<p class="empty">Could not load radar.json. Run <code>python3 src/radar.py build</code> first.</p>`;
+    $("grid").innerHTML = `<p class="empty">Could not load data.json. Run <code>radar export</code> first.</p>`;
     return;
   }
-  ALL = data.companies || [];
-  $("meta").textContent = `${ALL.length} companies · updated ${esc(data.generated || "")}`;
+  ALL = Array.isArray(data) ? data : data.companies || [];
+  $("meta").textContent = `${ALL.length} companies tracked`;
 
-  renderBars($("bd-vertical"), counts(ALL, "beverage_vertical"));
+  renderBars($("bd-vertical"), counts(ALL, "vertical"));
   renderBars($("bd-usecase"), counts(ALL, "ai_use_case"));
   renderBars($("bd-maturity"), counts(ALL, "ai_maturity"));
 
-  fillSelect($("f-vertical"), counts(ALL, "beverage_vertical").map((p) => p[0]));
+  fillSelect($("f-vertical"), counts(ALL, "vertical").map((p) => p[0]));
   fillSelect($("f-usecase"), counts(ALL, "ai_use_case").map((p) => p[0]));
   fillSelect($("f-maturity"), counts(ALL, "ai_maturity").map((p) => p[0]));
 

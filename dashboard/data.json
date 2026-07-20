@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Tastry",
+    "domain": "tastry.com",
+    "hq_location": "San Luis Obispo, USA",
+    "founded_year": 2015,
+    "size_employees": null,
+    "vertical": "wine",
+    "ai_use_case": "sensory",
+    "ai_maturity": "shipping",
+    "funding_stage": "Seed",
+    "total_raised": "$4M",
+    "key_people": null,
+    "notable_customers_partners": null,
+    "short_description": "AI sensory sciences matching wine chemistry to palate.",
+    "source_urls": [
+      "https://tastry.com"
+    ],
+    "first_seen": "2019-01-01",
+    "last_seen": "2025-06-01",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "key": "tastry.com"
+  },
+  {
+    "name": "OldCask",
+    "domain": "oldcask.com",
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "ai_use_case": null,
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "notable_customers_partners": null,
+    "short_description": null,
+    "source_urls": [
+      "https://oldcask.com"
+    ],
+    "first_seen": "2021-01-01",
+    "last_seen": "2023-01-01",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "key": "oldcask.com"
+  }
+]

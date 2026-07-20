@@ -4,5 +4,5 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 *.sqlite
-dashboard/data.json
 .http_cache/
+# dashboard/data.json is intentionally NOT ignored: GitHub Pages publishes it.
