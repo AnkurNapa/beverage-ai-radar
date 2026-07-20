@@ -10,8 +10,28 @@ from radar.outputs.report import render_report
 
 
 def _live_sources():
-    """Assembled in Task 12 integration. Empty here keeps CLI importable."""
-    return []
+    """The assembled source list for a live run.
+
+    Discovery: curated seed (reliable, human-verified) + web search (best-effort)
+    + trade press (no-op until per-site parsers are added).
+    Enrichment: GitHub (keyless), Crunchbase + LinkedIn (degrade to no-op).
+    """
+    from radar.sources.curated_seed import CuratedSeedSource
+    from radar.sources.web_search import WebSearchSource, default_search_fn
+    from radar.sources.trade_press import TradePressSource, DEFAULT_FEEDS, default_parse_fn
+    from radar.sources.github_product import GithubProductSource
+    from radar.sources.crunchbase import CrunchbaseSource
+    from radar.sources.linkedin import LinkedInSource
+    from radar.live_adapters import gh_lookup, cb_lookup, li_lookup
+
+    return [
+        CuratedSeedSource(config.SEED_PATH),
+        WebSearchSource(default_search_fn),
+        TradePressSource(DEFAULT_FEEDS, default_parse_fn),
+        GithubProductSource(gh_lookup),
+        CrunchbaseSource(cb_lookup),
+        LinkedInSource(li_lookup),
+    ]
 
 
 def main(argv=None) -> int:

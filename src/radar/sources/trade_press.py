@@ -6,8 +6,16 @@ from radar.classify import classify
 from radar.model import Company
 
 DEFAULT_FEEDS: list[str] = [
-    # Fill real trade-press listing URLs during integration (Task 12).
+    # Per-site listing URLs go here, each paired with a per-site parser. Left
+    # empty on purpose: a generic HTML link parser turns every nav link into a
+    # fake company, so this source stays a no-op until a real feed + parser pair
+    # is added.
 ]
+
+
+def default_parse_fn(html: str) -> list[dict]:
+    """No generic trade-press parser exists (would emit junk). Returns []."""
+    return []
 
 
 class TradePressSource:

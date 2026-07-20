@@ -4,6 +4,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DB_PATH = PROJECT_ROOT / "radar.sqlite"
 DASHBOARD_DIR = PROJECT_ROOT / "dashboard"
 HTTP_CACHE_DIR = PROJECT_ROOT / ".http_cache"
+SEED_PATH = PROJECT_ROOT / "data" / "seed.json"
 
 # Obsidian vault mirror target
 VAULT_DIR = Path.home() / "Documents" / "obsidian" / "Beverage-AI Radar"
