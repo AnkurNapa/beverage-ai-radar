@@ -31,7 +31,10 @@ def render_report(store: Store, today: date | None = None) -> str:
     for c in sorted(active, key=lambda x: x.name.lower()):
         vertical = c.vertical.value if c.vertical else "unclassified"
         use = c.ai_use_case or "unspecified use case"
-        lines.append(f"- **{c.name}** ({vertical}, {use}). {c.short_description or ''}".rstrip())
+        people = f" People: {c.key_people}." if c.key_people else ""
+        lines.append(
+            f"- **{c.name}** ({vertical}, {use}). {c.short_description or ''}{people}".rstrip()
+        )
     lines += ["", "## Dormant companies", ""]
     for c in sorted(dormant, key=lambda x: x.name.lower()):
         lines.append(f"- {c.name} (last seen {c.last_seen})")

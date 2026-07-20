@@ -19,6 +19,7 @@ def _note(company, today: date) -> str:
         f"vertical: {company.vertical.value if company.vertical else ''}",
         f"ai_use_case: {company.ai_use_case or ''}",
         f"ai_maturity: {company.ai_maturity.value if company.ai_maturity else ''}",
+        f"key_people: {company.key_people or ''}",
         f"status: {status.value}",
         f"last_seen: {company.last_seen or ''}",
         "---",
@@ -27,8 +28,10 @@ def _note(company, today: date) -> str:
         "",
         company.short_description or "",
         "",
-        "## Evidence",
     ]
+    if company.key_people:
+        fm += ["## People", company.key_people, ""]
+    fm += ["## Evidence"]
     fm += [f"- {u}" for u in company.source_urls]
     return "\n".join(fm) + "\n"
 

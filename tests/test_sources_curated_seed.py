@@ -11,6 +11,7 @@ SEED = [
         "vertical": "wine",
         "ai_use_case": "sensory",
         "ai_maturity": "shipping",
+        "key_people": "Katerina Axelsson (CEO)",
         "source_urls": ["https://tastry.com"],
         "first_seen": "2019-01-01",
         "last_seen": "2025-06-01",
@@ -44,6 +45,7 @@ def test_curated_seed_parses_and_drops_stale(tmp_path):
     tastry = next(c for c in companies if c.key == "tastry.com")
     assert tastry.vertical == BeverageVertical.WINE
     assert tastry.ai_maturity == AIMaturity.SHIPPING
+    assert tastry.key_people == "Katerina Axelsson (CEO)"
     # unknown vertical string coerces to None instead of crashing
     weird = next(c for c in companies if c.key == "weird.io")
     assert weird.vertical is None

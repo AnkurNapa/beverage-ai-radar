@@ -10,7 +10,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "Series A",
     "total_raised": "$12.4M",
-    "key_people": null,
+    "key_people": "Katerina Axelsson (CEO, Founder)",
     "notable_customers_partners": null,
     "short_description": "Sensory sciences company combining analytical chemistry, consumer flavor preference data and machine learning to predict how wines will perform in market. Sells wine AI tools to wineries and retailers.",
     "source_urls": [
@@ -39,7 +39,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "Series A",
     "total_raised": "$4M",
-    "key_people": null,
+    "key_people": "Jason Cohen (Founder, Chief Scientist), John Dori (Co-Founder)",
     "notable_customers_partners": null,
     "short_description": "AI company that models human sensory perception of flavor, aroma and texture to predict consumer preference for food and beverage products including beer and spirits. Acquired by NIQ in 2025.",
     "source_urls": [
@@ -68,7 +68,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Pam Dillon (CEO, Co-Founder), Andrew Sussman (Co-Founder)",
     "notable_customers_partners": null,
     "short_description": "B2B2C AI personalization and recommendation platform for wine, beer and spirits that acts as a virtual sommelier. Formerly known as Wine Ring, it added generative AI capabilities in 2023.",
     "source_urls": [
@@ -99,7 +99,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Denham D'Silva (CEO, Founder), Jamie Sherrah (CTO), Anton van den Hengel (Founder)",
     "notable_customers_partners": null,
     "short_description": "Adelaide company using generative AI and machine learning to design personalized beverage recipes, starting in craft beer with the award-winning Rodney AI IPA and later expanding into wellness drinks.",
     "source_urls": [
@@ -128,7 +128,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Cathy Huyghe (CEO, Co-Founder), Chris Huyghe (Co-Founder)",
     "notable_customers_partners": null,
     "short_description": "Data analytics platform built for wineries and spirits brands that aggregates sales channel data and applies predictive analytics and forecasting to drive direct-to-consumer growth.",
     "source_urls": [
@@ -157,7 +157,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Tom Shapland (CEO, Co-Founder), Jeff LaBarge (Co-Founder)",
     "notable_customers_partners": null,
     "short_description": "Agtech company whose in-field sensors and Tule Vision smartphone app use AI to measure crop evapotranspiration and vine water stress from a photo, widely used in California vineyards. Acquired by CropX in 2023.",
     "source_urls": [
@@ -186,7 +186,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Sushma Shankar (CEO, Co-Founder), Natalia Efremova (CTO, Co-Founder), David Carter (Co-Founder)",
     "notable_customers_partners": null,
     "short_description": "Founded by Oxford researchers, its VineSignal platform combines satellite imagery, ground sensors and machine learning to predict grape maturity, yield, soil moisture and disease pressure for vineyards.",
     "source_urls": [
@@ -215,7 +215,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Rogerio Nogueira (CEO, Co-Founder)",
     "notable_customers_partners": null,
     "short_description": "Portuguese company whose WINEGRID system pairs multiparameter fermentation sensors with an IoT platform and an AI engine for real-time classification, anomaly detection and prediction during winemaking.",
     "source_urls": [
@@ -244,7 +244,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Angel Modarres (CEO), Arsalan Vossough (CTO, Co-Founder)",
     "notable_customers_partners": null,
     "short_description": "Silicon Valley wine search and recommendation platform by BetterAI using machine learning, generative AI, natural language processing and computer vision, with a Smart Somm chatbot trained by sommeliers.",
     "source_urls": [
@@ -301,7 +301,7 @@
     "ai_maturity": "pilot",
     "funding_stage": null,
     "total_raised": "$10M",
-    "key_people": null,
+    "key_people": "Josh Silverman (Chief Science Advisor), Brad Brown (Senior Scientist)",
     "notable_customers_partners": null,
     "short_description": "Stanford-founded company merging biosensors, data science and AI to quantify taste and smell, with sensory and product-recommendation applications for beer and other beverage makers.",
     "source_urls": [
@@ -330,7 +330,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "Series A",
     "total_raised": "$15M",
-    "key_people": null,
+    "key_people": "Brett Danielson (Co-founder and CEO), Grant Hobar (Co-founder), Hunter Markle (Co-founder)",
     "notable_customers_partners": null,
     "short_description": "Draft beverage management company whose non-intrusive sensors and analytics platform track a dozen variables such as flow, temperature, pressure and line cleanliness to optimize draft beer quality and inventory.",
     "source_urls": [
@@ -359,7 +359,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Jared Resnick (Founder and CEO), John Considine (CTO)",
     "notable_customers_partners": null,
     "short_description": "Maker of the BrewMonitor real-time fermentation monitoring system for breweries, using IoT sensors and adaptive analytics trained on tens of thousands of fermentations to flag events and anomalies. Rebranded to Sennos.",
     "source_urls": [
@@ -388,7 +388,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Mark Young (Founder and CEO)",
     "notable_customers_partners": null,
     "short_description": "On-premise alcohol management company whose Alcohol Intelligence platform captures and analyzes real-time draft and inventory data across beer, wine and spirits for bars and restaurant chains.",
     "source_urls": [
@@ -416,7 +416,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "Series C",
     "total_raised": "$99M",
-    "key_people": null,
+    "key_people": "Ramsey Masri (CEO)",
     "notable_customers_partners": null,
     "short_description": "Aerial spectral imagery and analytics platform that applies machine learning and plant science to detect water, pest, disease and fertilizer issues early, with California vineyards among its customers.",
     "source_urls": [
@@ -501,7 +501,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "public",
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Michel Doukeris (CEO)",
     "notable_customers_partners": null,
     "short_description": "AB InBev applied machine learning (Google TensorFlow, via Pluto7) to filtration sensor data at its Newark brewery, increasing barrelage per filter run by about 60 percent while stabilizing beer taste. Its Beck's brand also released Autonomous, a beer with a recipe and branding generated by AI.",
     "source_urls": [
@@ -529,7 +529,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "public",
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Hideki Horiguchi (President and CEO)",
     "notable_customers_partners": null,
     "short_description": "Kirin built a proprietary AI recipe system, developed with Mitsubishi Research Institute, that draws on roughly 20 years of internal ingredient and tasting data to translate desired sensory profiles into ingredient combinations. Kirin plans to bring AI-supported beers to market from March 2026.",
     "source_urls": [
@@ -557,7 +557,7 @@
     "ai_maturity": "pilot",
     "funding_stage": "public",
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Masaki Oga (President, Sapporo Holdings)",
     "notable_customers_partners": null,
     "short_description": "Sapporo partnered with IBM Japan to build an AI system for product development, where marketers input a concept plus up to ten flavor descriptors and a reference product from 170 past Sapporo beverages to generate new recipe candidates.",
     "source_urls": [
@@ -584,7 +584,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "public",
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Dolf van den Brink (Chairman of the Executive Board and CEO)",
     "notable_customers_partners": null,
     "short_description": "Heineken uses AI across production and supply chain, including predicting beer color in production, AI vision systems for bottle and can inspection, and machine learning demand forecasting that integrates sales, weather, events and social sentiment. Its DataPrime platform unifies data across 70-plus operating companies.",
     "source_urls": [
@@ -612,7 +612,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "public",
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Rahul Goyal (President and CEO)",
     "notable_customers_partners": null,
     "short_description": "Molson Coors-owned Atwater Brewery released an Artificial Intelligence IPA whose recipe was developed using ChatGPT, using Centennial, Citra, Amarillo and Hull Melon hops. The 6.9 percent ABV beer was served on draft across Atwater taprooms in Michigan.",
     "source_urls": [
@@ -640,7 +640,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "seed",
     "total_raised": "$4.78M",
-    "key_people": null,
+    "key_people": "Pal Ingebrigtsen (Co-Founder), Michael Kononsky (Co-Founder), Magnus Valmot (CEO)",
     "notable_customers_partners": null,
     "short_description": "PLAATO is a Norwegian manufacturing-intelligence platform for brewing and distilling whose Pro sensors feed real-time gravity and temperature data into predictive models that forecast when and at what final gravity a fermentation will end. It serves 250-plus breweries, cideries and distilleries.",
     "source_urls": [
@@ -668,7 +668,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "seed",
     "total_raised": "EUR 960K",
-    "key_people": null,
+    "key_people": "Petros Venetopoulos (Co-Founder & CEO), Mads Andersen (Co-Founder & CTO), Jens Ringsholm (Co-Founder)",
     "notable_customers_partners": null,
     "short_description": "Zymoscope was a Danish drinktech startup offering a non-invasive fermentation management platform combining proprietary sensors, algorithms and a mobile app for real-time remote monitoring of beer fermentation. It raised a roughly 960K euro seed round in 2021 and filed for bankruptcy in August 2024.",
     "source_urls": [
@@ -696,7 +696,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Matthew Peetz (Founder & CEO)",
     "notable_customers_partners": null,
     "short_description": "Propagate Lab, a Colorado craft-beverage yeast supplier, launched Yeast Buddy in 2024, a conversational LLM chatbot trained on its internal knowledge that guides brewers through a library of more than 120 yeast strains to select the right pitch for a target flavor and ABV.",
     "source_urls": [
@@ -724,7 +724,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "seed",
     "total_raised": "$7.96M",
-    "key_people": null,
+    "key_people": "Jenny Lemieux (Co-Founder & CEO), Jonathan Binas (Co-Founder & CTO)",
     "notable_customers_partners": null,
     "short_description": "Canadian ag-tech company whose multispectral computer-vision system mounts to farm equipment to capture per-plant data in vineyards and orchards for automated fruit counting, early yield prediction and plant-health insights.",
     "source_urls": [
@@ -752,7 +752,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Richard van der Put (CEO), Christopher MacDonald (COO)",
     "notable_customers_partners": null,
     "short_description": "Vineyard crop diagnostics provider using aerial and satellite imaging with AI-powered analytics to map vine vigor, detect grapevine disease and guide vineyard management, mainly in California and France. Formed in 2018 from the merger of SkySquirrel Technologies and Scientific Aerial Imaging.",
     "source_urls": [
@@ -780,7 +780,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Richard Petersik (Founder & CEO), Paul Petersik (Founder, R&D), Max Nowack (Founder & CTO)",
     "notable_customers_partners": null,
     "short_description": "German winetech startup delivering AI-based vine disease and weather forecasts that adjust for local factors such as slope, exposure and altitude, paired with a vineyard farm-management system aimed at cutting pesticide use.",
     "source_urls": [
@@ -808,7 +808,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "acquired",
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Hayden Wolf (CEO & President), Jean Rovani (Director of AI Engineering)",
     "notable_customers_partners": null,
     "short_description": "Carnegie Mellon spinout that combines plant-level imaging cameras with deep learning to assess vine health, count grape clusters and estimate berry color and size for vineyards. Acquired by Kubota Corporation in 2024 after strategic investments from Kubota and Oeneo.",
     "source_urls": [
@@ -836,7 +836,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "seed",
     "total_raised": "$6.47M",
-    "key_people": null,
+    "key_people": "Adam Koeppel (Co-Founder & CEO), Tyler Locke (Co-Founder & CTO)",
     "notable_customers_partners": null,
     "short_description": "Predictive agriculture company whose in-canopy and soil sensor arrays feed machine-learning models that forecast vineyard risks up to four days ahead, including wildfire smoke taint, powdery mildew, pests and extreme weather.",
     "source_urls": [
@@ -864,7 +864,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Aymeric Barthes (Co-Founder & CEO), Gaetan Severac (Co-Founder)",
     "notable_customers_partners": null,
     "short_description": "French agricultural robotics maker whose autonomous electric Ted robot uses lidar, camera and GPS guidance to mechanically weed vineyards, with hundreds of units deployed across multiple continents.",
     "source_urls": [
@@ -892,7 +892,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Philip James (Founder & CEO), Kevin Jessen (SVP Technology & Product)",
     "notable_customers_partners": null,
     "short_description": "Direct-to-consumer wine club operated by Penrose Hill that uses proprietary WinePrint taste-profiling technology to build individual palate profiles and recommend personalized wine selections to members.",
     "source_urls": [
@@ -920,7 +920,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Zac Brandenberg (Co-Founder & CEO), Barry Collier (Co-Founder & CTO/CPO)",
     "notable_customers_partners": null,
     "short_description": "Beverage-alcohol technology company whose AI suite (PAIR / DRINKS Recommend) powers personalized wine recommendations for online retailers, reporting large lifts in session conversions and revenue per session.",
     "source_urls": [
@@ -948,7 +948,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Laurie Millotte (Founder & CEO)",
     "notable_customers_partners": null,
     "short_description": "Creative-tech company producing photorealistic wine and beverage product imagery via 3D rendering, and adding generative-AI tools to help brands create marketing visuals and content at scale.",
     "source_urls": [
@@ -976,7 +976,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Scott Bolin (Co-founder and CEO), Joel Pawlak (Co-founder), Anthony Moniello (Co-CEO), Rob Mason (Co-CEO)",
     "notable_customers_partners": null,
     "short_description": "Spirits technology company that uses predictive analytics, sensors and gas chromatography to model chemical profiles and control flavor outcomes during rapid barrel-alternative finishing of whiskey and other spirits.",
     "source_urls": [
@@ -1005,7 +1005,7 @@
     "ai_maturity": "pilot",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Radoslaw Pilarski (Lead / Coordinator)",
     "notable_customers_partners": null,
     "short_description": "Community whisky blending initiative (Whisky Project Ltd) that uses a genetic-algorithm AI, robotics-driven bottling and crowdsourced sensory feedback to iteratively optimize new whisky blends.",
     "source_urls": [
@@ -1090,7 +1090,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "Seed",
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Marc De Kuyper (Founder and CEO)",
     "notable_customers_partners": null,
     "short_description": "Miami business-intelligence platform founded by Marc De Kuyper that delivers AI-driven sales, marketing and strategic-planning insights to beverage alcohol brands, drawing on a proprietary dataset of millions of menus and venues.",
     "source_urls": [
@@ -1119,7 +1119,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Sylvain Thibaud (CEO and Co-founder), Julien Laithier (President)",
     "notable_customers_partners": null,
     "short_description": "Bordeaux startup whose Tastee AI tool digitizes wine tasting notes into structured, comparable taste data, developed with French research institute INRIA and able to analyze comments in 32 languages.",
     "source_urls": [
@@ -1203,7 +1203,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "Seed",
     "total_raised": "$13.04M",
-    "key_people": null,
+    "key_people": "Phil Mikhaylov (CEO and Co-founder), A.J. Heindel (Co-founder)",
     "notable_customers_partners": null,
     "short_description": "Online auction platform for rare spirits and fine wine that authenticates every bottle through a proprietary system combining expert review with machine-learning algorithms trained on 500,000-plus historical transactions and 1 million-plus photos to detect inconsistencies.",
     "source_urls": [
@@ -1231,7 +1231,7 @@
     "ai_maturity": "shipping",
     "funding_stage": "Series B",
     "total_raised": "$73.5M",
-    "key_people": null,
+    "key_people": "Alon Chen (CEO and Co-founder)",
     "notable_customers_partners": null,
     "short_description": "GenAI food and beverage intelligence platform that ingests real-time consumer signals to guide product and marketing decisions, publishing dedicated wine, spirits and beer trend analytics for alcohol brands. Raised a $50M Series B in 2025.",
     "source_urls": [
@@ -1259,7 +1259,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Pulkit K. Agrawal (Founder and CEO)",
     "notable_customers_partners": null,
     "short_description": "Maker of Beer30 brewery-management software whose demand-planning module uses sales forecasts to predict production needs, plus a Brewery Command Center analytics platform. Serves 500-plus breweries across 20-plus countries.",
     "source_urls": [
@@ -1287,7 +1287,7 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
+    "key_people": "Daniel Protz (Founder and CEO)",
     "notable_customers_partners": null,
     "short_description": "Digital sensory and product-testing company using AI and data science to evaluate flavor, aroma, texture and mouthfeel with everyday consumers, with expertise explicitly spanning alcoholic drinks alongside food and beverages.",
     "source_urls": [

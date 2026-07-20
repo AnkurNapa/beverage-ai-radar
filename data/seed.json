@@ -16,7 +16,8 @@
       "https://pitchbook.com/profiles/company/148658-59"
     ],
     "first_seen": "2018-01-01",
-    "last_seen": "2024-03-01"
+    "last_seen": "2024-03-01",
+    "key_people": "Katerina Axelsson (CEO, Founder)"
   },
   {
     "name": "Analytical Flavor Systems (Gastrograph AI)",
@@ -35,7 +36,8 @@
       "https://www.gastrograph.com/"
     ],
     "first_seen": "2013-01-01",
-    "last_seen": "2025-01-01"
+    "last_seen": "2025-01-01",
+    "key_people": "Jason Cohen (Founder, Chief Scientist), John Dori (Co-Founder)"
   },
   {
     "name": "Preferabli",
@@ -54,7 +56,8 @@
       "https://www.digitalcommerce360.com/2024/12/16/albertsons-ai-preferabli-wine-selection/"
     ],
     "first_seen": "2012-01-01",
-    "last_seen": "2024-12-16"
+    "last_seen": "2024-12-16",
+    "key_people": "Pam Dillon (CEO, Co-Founder), Andrew Sussman (Co-Founder)"
   },
   {
     "name": "IntelligentX",
@@ -73,7 +76,8 @@
       "https://www.forbes.com/sites/bernardmarr/2019/02/01/how-artificial-intelligence-is-used-to-make-beer/"
     ],
     "first_seen": "2016-07-15",
-    "last_seen": "2019-02-01"
+    "last_seen": "2019-02-01",
+    "key_people": "Hew Leith (Co-Founder), Rob McInerney (Co-Founder)"
   },
   {
     "name": "Deep Liquid",
@@ -92,7 +96,8 @@
       "https://www.adelaide.edu.au/aiml/news/list/2025/03/19/deep-liquid-democratising-ai-one-beverage-at-a-time"
     ],
     "first_seen": "2020-01-01",
-    "last_seen": "2025-03-19"
+    "last_seen": "2025-03-19",
+    "key_people": "Denham D'Silva (CEO, Founder), Jamie Sherrah (CTO), Anton van den Hengel (Founder)"
   },
   {
     "name": "Enolytics",
@@ -111,7 +116,8 @@
       "https://www.enolytics.com/news-and-press/enolytics-launches-enolytics-live-a-real-time-mobile-app-for-tracking-wine-sales-performance"
     ],
     "first_seen": "2022-01-01",
-    "last_seen": "2025-12-01"
+    "last_seen": "2025-12-01",
+    "key_people": "Cathy Huyghe (CEO, Co-Founder), Chris Huyghe (Co-Founder)"
   },
   {
     "name": "Tule Technologies",
@@ -130,7 +136,8 @@
       "https://wineindustryadvisor.com/2021/11/03/artificial-intelligence-in-the-vineyard/"
     ],
     "first_seen": "2014-01-01",
-    "last_seen": "2023-01-31"
+    "last_seen": "2023-01-31",
+    "key_people": "Tom Shapland (CEO, Co-Founder), Jeff LaBarge (Co-Founder)"
   },
   {
     "name": "Mackmyra",
@@ -148,7 +155,8 @@
       "https://scotchwhisky.com/magazine/latest-news/27140/mackmyra-launches-first-ai-created-whisky/"
     ],
     "first_seen": "2019-06-19",
-    "last_seen": "2019-06-19"
+    "last_seen": "2019-06-19",
+    "key_people": "Magnus Dandanell (CEO, Co-Founder), Angela D'Orazio (Master Blender)"
   },
   {
     "name": "Deep Planet",
@@ -167,7 +175,8 @@
       "https://www.portoprotocol.com/solution/deep-planet-vinesignal-an-innovative-vineyard-decision-support-platform/"
     ],
     "first_seen": "2018-01-01",
-    "last_seen": "2025-03-02"
+    "last_seen": "2025-03-02",
+    "key_people": "Sushma Shankar (CEO, Co-Founder), Natalia Efremova (CTO, Co-Founder), David Carter (Co-Founder)"
   },
   {
     "name": "Watgrid (WINEGRID)",
@@ -186,7 +195,8 @@
       "https://wineindustryadvisor.com/2022/10/13/winegrid-developed-a-new-solution-to-monitor-wine-storage/"
     ],
     "first_seen": "2017-01-01",
-    "last_seen": "2022-10-13"
+    "last_seen": "2022-10-13",
+    "key_people": "Rogerio Nogueira (CEO, Co-Founder)"
   },
   {
     "name": "VinoVoss (BetterAI)",
@@ -204,7 +214,8 @@
       "https://resident.com/tech-and-gear/2024/12/29/wine-of-the-times-ai-now-predicts-your-perfect-pour"
     ],
     "first_seen": "2024-02-21",
-    "last_seen": "2024-12-29"
+    "last_seen": "2024-12-29",
+    "key_people": "Angel Modarres (CEO), Arsalan Vossough (CTO, Co-Founder)"
   },
   {
     "name": "Crafted ERP",
@@ -242,7 +253,8 @@
       "https://www.hbs.edu/faculty/Pages/item.aspx?num=59548"
     ],
     "first_seen": "2018-01-01",
-    "last_seen": "2020-10-07"
+    "last_seen": "2020-10-07",
+    "key_people": "Scott Savage (CEO), James Lew (Senior Director, Data Science)"
   },
   {
     "name": "Aromyx",
@@ -261,7 +273,8 @@
       "https://stanforddaily.com/2019/10/11/stanford-grads-startup-aromyx-aims-to-quantify-taste-and-smell/"
     ],
     "first_seen": "2019-10-11",
-    "last_seen": "2023-01-01"
+    "last_seen": "2023-01-01",
+    "key_people": "Josh Silverman (Chief Science Advisor), Brad Brown (Senior Scientist)"
   },
   {
     "name": "Bright Cellars",
@@ -279,7 +292,8 @@
       "https://www.predictiveanalyticsworld.com/machinelearningtimes/analytics-make-bright-cellars-pandora-wine-clubs/8776/"
     ],
     "first_seen": "2015-09-03",
-    "last_seen": "2017-05-24"
+    "last_seen": "2017-05-24",
+    "key_people": "Joe Megibow (CEO), Richard Yau (Co-founder), Joe Laurendi (Co-founder)"
   },
   {
     "name": "BarTrack",
@@ -298,7 +312,8 @@
       "https://www.crunchbase.com/organization/bartrack"
     ],
     "first_seen": "2018-01-01",
-    "last_seen": "2022-04-28"
+    "last_seen": "2022-04-28",
+    "key_people": "Brett Danielson (Co-founder and CEO), Grant Hobar (Co-founder), Hunter Markle (Co-founder)"
   },
   {
     "name": "Vivino",
@@ -317,7 +332,8 @@
       "https://money.cnn.com/2017/08/01/smallbusiness/vivino-wine-app/index.html"
     ],
     "first_seen": "2010-01-01",
-    "last_seen": "2017-08-01"
+    "last_seen": "2017-08-01",
+    "key_people": "Heini Zachariassen (Co-founder and past CEO), Theis Sondergaard (Co-founder)"
   },
   {
     "name": "Precision Fermentation (Sennos)",
@@ -336,7 +352,8 @@
       "https://aithority.com/technology/analytics/precision-fermentation-streamlines-craft-beer-quality-control-with-data-management-capabilities/"
     ],
     "first_seen": "2021-01-01",
-    "last_seen": "2025-06-01"
+    "last_seen": "2025-06-01",
+    "key_people": "Jared Resnick (Founder and CEO), John Considine (CTO)"
   },
   {
     "name": "BeerBoard",
@@ -354,7 +371,8 @@
       "https://www.brewbound.com/news/supplier-news/applebees-expands-use-of-beerboard-platform/"
     ],
     "first_seen": "2018-01-01",
-    "last_seen": "2025-06-01"
+    "last_seen": "2025-06-01",
+    "key_people": "Mark Young (Founder and CEO)"
   },
   {
     "name": "Ceres Imaging (Ceres AI)",
@@ -373,7 +391,8 @@
       "https://www.crunchbase.com/organization/ceres-imaging"
     ],
     "first_seen": "2014-01-01",
-    "last_seen": "2021-09-01"
+    "last_seen": "2021-09-01",
+    "key_people": "Ramsey Masri (CEO)"
   },
   {
     "name": "Sommify",
@@ -427,7 +446,8 @@
       "https://news.microsoft.com/europe/2017/12/05/beer-fingerprinting-project-artificial-intelligence-create-next-pint/"
     ],
     "first_seen": "2017-11-07",
-    "last_seen": "2018-10-15"
+    "last_seen": "2018-10-15",
+    "key_people": "Jacob Aarup-Andersen (CEO)"
   },
   {
     "name": "Anheuser-Busch InBev",
@@ -445,7 +465,8 @@
       "https://www.thedrinksbusiness.com/2023/03/ab-inbev-launches-ai-beer-named-becks-autonomous/"
     ],
     "first_seen": "2019-01-01",
-    "last_seen": "2023-04-12"
+    "last_seen": "2023-04-12",
+    "key_people": "Michel Doukeris (CEO)"
   },
   {
     "name": "Kirin Holdings",
@@ -463,7 +484,8 @@
       "https://www.inside.beer/news/detail/japan-kirin-accelerates-beer-innovation-with-ai-driven-brewing"
     ],
     "first_seen": "2021-08-31",
-    "last_seen": "2026-06-01"
+    "last_seen": "2026-06-01",
+    "key_people": "Hideki Horiguchi (President and CEO)"
   },
   {
     "name": "Sapporo Breweries",
@@ -480,7 +502,8 @@
       "https://www.techtimes.com/articles/288536/20230304/sapporo-is-now-using-artificial-intelligence-to-develop-new-products.htm"
     ],
     "first_seen": "2023-03-04",
-    "last_seen": "2023-03-04"
+    "last_seen": "2023-03-04",
+    "key_people": "Masaki Oga (President, Sapporo Holdings)"
   },
   {
     "name": "Heineken",
@@ -498,7 +521,8 @@
       "https://aimagazine.com/machine-learning/heineken-use-ai-control-volatile-demand"
     ],
     "first_seen": "2024-04-24",
-    "last_seen": "2025-08-19"
+    "last_seen": "2025-08-19",
+    "key_people": "Dolf van den Brink (Chairman of the Executive Board and CEO)"
   },
   {
     "name": "Molson Coors (Atwater Brewery)",
@@ -516,7 +540,8 @@
       "https://craftbusinessdaily.com/atwater-brewery-launches-ai-developed-beer/"
     ],
     "first_seen": "2023-01-01",
-    "last_seen": "2023-01-31"
+    "last_seen": "2023-01-31",
+    "key_people": "Rahul Goyal (President and CEO)"
   },
   {
     "name": "PLAATO",
@@ -534,7 +559,8 @@
       "https://www.forbes.com/sites/danieladelorenzo/2023/06/08/norwegian-startup-plaato-is-brewing-the-largest-revolution-in-the-food-tech-industry/"
     ],
     "first_seen": "2023-06-08",
-    "last_seen": "2024-05-28"
+    "last_seen": "2024-05-28",
+    "key_people": "Pal Ingebrigtsen (Co-Founder), Michael Kononsky (Co-Founder), Magnus Valmot (CEO)"
   },
   {
     "name": "Zymoscope",
@@ -552,7 +578,8 @@
       "https://agfundernews.com/zymoscope-raises-1m-for-its-data-driven-beer-brewing-tech"
     ],
     "first_seen": "2021-02-24",
-    "last_seen": "2024-08-01"
+    "last_seen": "2024-08-01",
+    "key_people": "Petros Venetopoulos (Co-Founder & CEO), Mads Andersen (Co-Founder & CTO), Jens Ringsholm (Co-Founder)"
   },
   {
     "name": "Propagate Lab",
@@ -570,7 +597,8 @@
       "https://www.brewbound.com/pr/2024/08/13/propagate-lab-puts-artificial-intelligence-to-work-for-brewers"
     ],
     "first_seen": "2024-08-13",
-    "last_seen": "2024-08-13"
+    "last_seen": "2024-08-13",
+    "key_people": "Matthew Peetz (Founder & CEO)"
   },
   {
     "name": "Deschutes Brewery",
@@ -588,7 +616,8 @@
       "https://fsd.servicemax.com/2017/06/06/deschutes-brewing-perfect-pint-iot/"
     ],
     "first_seen": "2017-06-06",
-    "last_seen": "2019-08-12"
+    "last_seen": "2019-08-12",
+    "key_people": "Gary Fish (Founder), Peter Skrbek (CEO)"
   },
   {
     "name": "Vivid Machines",
@@ -606,7 +635,8 @@
       "https://www.crunchbase.com/organization/vivid-machines"
     ],
     "first_seen": "2023-04-13",
-    "last_seen": "2026-06-01"
+    "last_seen": "2026-06-01",
+    "key_people": "Jenny Lemieux (Co-Founder & CEO), Jonathan Binas (Co-Founder & CTO)"
   },
   {
     "name": "VineView",
@@ -624,7 +654,8 @@
       "https://wineindustryadvisor.com/2026/06/30/vineview-celebrates-25-years-as-trusted-partner-to-california-winegrowers/"
     ],
     "first_seen": "2018-01-01",
-    "last_seen": "2026-07-01"
+    "last_seen": "2026-07-01",
+    "key_people": "Richard van der Put (CEO), Christopher MacDonald (COO)"
   },
   {
     "name": "VineForecast",
@@ -642,7 +673,8 @@
       "https://www.foodnavigator.com/Article/2023/11/09/vineforecast-cutting-pesticide-use-on-grapevines-with-ai-tech/"
     ],
     "first_seen": "2021-01-01",
-    "last_seen": "2023-11-09"
+    "last_seen": "2023-11-09",
+    "key_people": "Richard Petersik (Founder & CEO), Paul Petersik (Founder, R&D), Max Nowack (Founder & CTO)"
   },
   {
     "name": "Bloomfield Robotics",
@@ -660,7 +692,8 @@
       "https://www.businesswire.com/news/home/20230117006087/en/Bloomfield-Robotics-Announces-Investments-From-Kubota-Corporation-and-Oeneo"
     ],
     "first_seen": "2018-01-01",
-    "last_seen": "2024-06-01"
+    "last_seen": "2024-06-01",
+    "key_people": "Hayden Wolf (CEO & President), Jean Rovani (Director of AI Engineering)"
   },
   {
     "name": "Agrology",
@@ -678,7 +711,8 @@
       "https://www.businesswire.com/news/home/20221128005112/en/Agrology-Raises-SEED-Funding-to-Drive-Growth-and-Help-Farmers-Combat-Climate-Change"
     ],
     "first_seen": "2019-01-01",
-    "last_seen": "2026-06-01"
+    "last_seen": "2026-06-01",
+    "key_people": "Adam Koeppel (Co-Founder & CEO), Tyler Locke (Co-Founder & CTO)"
   },
   {
     "name": "Naio Technologies",
@@ -696,7 +730,8 @@
       "https://www.therobotreport.com/ted-weeding-robot-naio-technologies-rolls-out-new-version/"
     ],
     "first_seen": "2011-01-01",
-    "last_seen": "2026-01-01"
+    "last_seen": "2026-01-01",
+    "key_people": "Aymeric Barthes (Co-Founder & CEO), Gaetan Severac (Co-Founder)"
   },
   {
     "name": "Scanopy",
@@ -732,7 +767,8 @@
       "https://www.cbinsights.com/company/drinks"
     ],
     "first_seen": "2015-01-01",
-    "last_seen": "2026-01-01"
+    "last_seen": "2026-01-01",
+    "key_people": "Philip James (Founder & CEO), Kevin Jessen (SVP Technology & Product)"
   },
   {
     "name": "DRINKS",
@@ -750,7 +786,8 @@
       "https://www.cbinsights.com/company/drinks"
     ],
     "first_seen": "2014-01-01",
-    "last_seen": "2026-01-01"
+    "last_seen": "2026-01-01",
+    "key_people": "Zac Brandenberg (Co-Founder & CEO), Barry Collier (Co-Founder & CTO/CPO)"
   },
   {
     "name": "Outshinery",
@@ -768,7 +805,8 @@
       "https://wineindustryadvisor.com/2025/09/29/outshinery-launches-new-platform/"
     ],
     "first_seen": "2016-01-01",
-    "last_seen": "2025-09-29"
+    "last_seen": "2025-09-29",
+    "key_people": "Laurie Millotte (Founder & CEO)"
   },
   {
     "name": "Next Century Spirits",
@@ -787,7 +825,8 @@
       "https://www.crunchbase.com/organization/next-century-spirits"
     ],
     "first_seen": "2020-07-29",
-    "last_seen": "2024-02-08"
+    "last_seen": "2024-02-08",
+    "key_people": "Scott Bolin (Co-founder and CEO), Joel Pawlak (Co-founder), Anthony Moniello (Co-CEO), Rob Mason (Co-CEO)"
   },
   {
     "name": "Whisky Project",
@@ -805,7 +844,8 @@
       "https://sifted.eu/articles/ai-whisky-beer"
     ],
     "first_seen": "2025-01-01",
-    "last_seen": "2025-10-01"
+    "last_seen": "2025-10-01",
+    "key_people": "Radoslaw Pilarski (Lead / Coordinator)"
   },
   {
     "name": "Kigtek Solutions",
@@ -843,7 +883,8 @@
       "https://www.circumstancedistillery.com/"
     ],
     "first_seen": "2019-11-05",
-    "last_seen": "2020-07-01"
+    "last_seen": "2020-07-01",
+    "key_people": "Liam Hirt (Co-founder), Danny Walker (Co-founder and Distiller)"
   },
   {
     "name": "Whiskey Wise Group",
@@ -880,7 +921,8 @@
       "https://refreshmiami.com/news/pop-the-champagne-for-rapidly-scaling-alcohol-insights-platform-overproof/"
     ],
     "first_seen": "2018-01-01",
-    "last_seen": "2025-06-11"
+    "last_seen": "2025-06-11",
+    "key_people": "Marc De Kuyper (Founder and CEO)"
   },
   {
     "name": "Winespace",
@@ -898,7 +940,8 @@
       "https://www.forbes.com/sites/jillbarth/2024/02/23/how-ai-helps-winemakers-understand-what-people-taste/"
     ],
     "first_seen": "2024-02-23",
-    "last_seen": "2025-06-01"
+    "last_seen": "2025-06-01",
+    "key_people": "Sylvain Thibaud (CEO and Co-founder), Julien Laithier (President)"
   },
   {
     "name": "Sante",
@@ -952,7 +995,8 @@
       "https://www.forbes.com/sites/sharonedelson/2025/05/12/unicorn-democratizes-the-buying-and-selling-of-spirits-with-online-auctions/"
     ],
     "first_seen": "2019-01-01",
-    "last_seen": "2025-05-12"
+    "last_seen": "2025-05-12",
+    "key_people": "Phil Mikhaylov (CEO and Co-founder), A.J. Heindel (Co-founder)"
   },
   {
     "name": "Tastewise",
@@ -970,7 +1014,8 @@
       "https://retailtechinnovationhub.com/home/2025/6/10/food-and-beverage-intelligence-platform-tastewise-raises-50m-in-series-b-funding-led-by-telus-global-ventures"
     ],
     "first_seen": "2017-01-01",
-    "last_seen": "2025-06-10"
+    "last_seen": "2025-06-10",
+    "key_people": "Alon Chen (CEO and Co-founder)"
   },
   {
     "name": "The 5th Ingredient",
@@ -988,7 +1033,8 @@
       "https://the5thingredient.com/story/"
     ],
     "first_seen": "2017-10-01",
-    "last_seen": "2025-04-15"
+    "last_seen": "2025-04-15",
+    "key_people": "Pulkit K. Agrawal (Founder and CEO)"
   },
   {
     "name": "FlavorWiki",
@@ -1006,6 +1052,7 @@
       "https://www.foodnavigator.com/Article/2018/01/10/FlavorWiki-s-digital-flavour-profiling-promises-to-slash-NPD-costs/"
     ],
     "first_seen": "2018-01-10",
-    "last_seen": "2025-06-01"
+    "last_seen": "2025-06-01",
+    "key_people": "Daniel Protz (Founder and CEO)"
   }
 ]

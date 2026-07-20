@@ -53,6 +53,7 @@ class CuratedSeedSource:
                     vertical=_enum(BeverageVertical, r.get("vertical")),
                     ai_use_case=r.get("ai_use_case"),
                     ai_maturity=_enum(AIMaturity, r.get("ai_maturity")),
+                    key_people=r.get("key_people"),
                     funding_stage=r.get("funding_stage"),
                     total_raised=r.get("total_raised"),
                     short_description=r.get("short_description"),

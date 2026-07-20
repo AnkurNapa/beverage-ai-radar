@@ -50,6 +50,7 @@ function card(c) {
     ${c.hq_location ? `<span class="loc">${esc(c.hq_location)}${c.founded_year ? " · founded " + c.founded_year : ""}</span>` : ""}
     <div class="chips">${chips}</div>
     ${c.short_description ? `<p>${esc(c.short_description)}</p>` : ""}
+    ${c.key_people ? `<p class="people"><span aria-hidden="true">👤</span> ${esc(c.key_people)}</p>` : ""}
     ${srcs ? `<div class="srcs">${srcs}</div>` : ""}
   </article>`;
 }
@@ -64,7 +65,7 @@ function apply() {
     if (fm && c.ai_maturity !== fm) return false;
     if (fs && c.status !== fs) return false;
     if (q) {
-      const hay = `${c.name} ${c.hq_location} ${c.short_description}`.toLowerCase();
+      const hay = `${c.name} ${c.hq_location} ${c.short_description} ${c.key_people || ""}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
