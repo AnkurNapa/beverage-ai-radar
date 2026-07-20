@@ -5,18 +5,23 @@ from radar.sources import run_source
 
 
 class GoodSource:
-    name = "good"; kind = "discovery"
+    name = "good"
+    kind = "discovery"
 
     def discover(self, fetcher):
-        return [Company(name="X", domain="x.com", last_seen=date(2026, 1, 1),
-                        first_seen=date(2026, 1, 1))]
+        return [
+            Company(
+                name="X", domain="x.com", last_seen=date(2026, 1, 1), first_seen=date(2026, 1, 1)
+            )
+        ]
 
     def enrich(self, company, fetcher):
         return company
 
 
 class BadSource:
-    name = "bad"; kind = "discovery"
+    name = "bad"
+    kind = "discovery"
 
     def discover(self, fetcher):
         raise RuntimeError("boom")

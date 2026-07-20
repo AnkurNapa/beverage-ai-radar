@@ -7,14 +7,27 @@ from radar.outputs.json_export import export_json
 
 def seed(tmp_path):
     s = Store(tmp_path / "t.sqlite")
-    s.upsert(Company(name="BrewBrain", domain="brewbrain.ai",
-                     vertical=BeverageVertical.BEER, ai_use_case="recipe / flavor prediction",
-                     source_urls=["https://brewbrain.ai"],
-                     first_seen=date(2026, 1, 1), last_seen=date(2026, 6, 1)))
-    s.upsert(Company(name="OldCask", domain="oldcask.com",
-                     vertical=BeverageVertical.WHISKEY,
-                     source_urls=["https://oldcask.com"],
-                     first_seen=date(2021, 1, 1), last_seen=date(2023, 1, 1)))
+    s.upsert(
+        Company(
+            name="BrewBrain",
+            domain="brewbrain.ai",
+            vertical=BeverageVertical.BEER,
+            ai_use_case="recipe / flavor prediction",
+            source_urls=["https://brewbrain.ai"],
+            first_seen=date(2026, 1, 1),
+            last_seen=date(2026, 6, 1),
+        )
+    )
+    s.upsert(
+        Company(
+            name="OldCask",
+            domain="oldcask.com",
+            vertical=BeverageVertical.WHISKEY,
+            source_urls=["https://oldcask.com"],
+            first_seen=date(2021, 1, 1),
+            last_seen=date(2023, 1, 1),
+        )
+    )
     return s
 
 

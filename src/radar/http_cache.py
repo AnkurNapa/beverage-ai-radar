@@ -8,12 +8,17 @@ from typing import Callable
 
 def _default_transport(url: str) -> str:
     import httpx
+
     return httpx.get(url, timeout=20, follow_redirects=True).text
 
 
 class CachedFetcher:
-    def __init__(self, cache_dir: Path, min_interval_s: float = 1.0,
-                 transport: Callable[[str], str] | None = None):
+    def __init__(
+        self,
+        cache_dir: Path,
+        min_interval_s: float = 1.0,
+        transport: Callable[[str], str] | None = None,
+    ):
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         self.min_interval_s = min_interval_s

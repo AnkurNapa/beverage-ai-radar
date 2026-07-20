@@ -19,7 +19,11 @@ def _serialize(company, today: date) -> dict:
         else:
             row[f.name] = v
     row["key"] = company.key
-    status = compute_status(company.last_seen, today, ACTIVE_MONTHS) if company.last_seen else Status.DORMANT
+    status = (
+        compute_status(company.last_seen, today, ACTIVE_MONTHS)
+        if company.last_seen
+        else Status.DORMANT
+    )
     row["status"] = status.value
     return row
 

@@ -10,8 +10,12 @@ class WebSearchSource:
     name = "web_search"
     kind = "discovery"
 
-    def __init__(self, search_fn: Callable[[str], list[dict]],
-                 queries: list[str] | None = None, today: date | None = None):
+    def __init__(
+        self,
+        search_fn: Callable[[str], list[dict]],
+        queries: list[str] | None = None,
+        today: date | None = None,
+    ):
         self.search_fn = search_fn
         self.queries = queries or DISCOVERY_QUERIES
         self.today = today or date.today()
@@ -27,10 +31,14 @@ class WebSearchSource:
                 text = f"{r['title']} {r['snippet']}"
                 tags = classify(text)
                 c = Company(
-                    name=r["title"], domain=r["url"],
+                    name=r["title"],
+                    domain=r["url"],
                     short_description=r["snippet"],
-                    source_urls=[r["url"]], first_seen=seen, last_seen=seen,
-                    latest_news_headline=r["title"], **tags,
+                    source_urls=[r["url"]],
+                    first_seen=seen,
+                    last_seen=seen,
+                    latest_news_headline=r["title"],
+                    **tags,
                 )
                 out[c.key] = c  # de-dupe within the sweep
         return list(out.values())

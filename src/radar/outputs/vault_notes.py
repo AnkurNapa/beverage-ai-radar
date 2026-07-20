@@ -7,7 +7,11 @@ from radar.store import Store
 
 
 def _note(company, today: date) -> str:
-    status = compute_status(company.last_seen, today, ACTIVE_MONTHS) if company.last_seen else Status.DORMANT
+    status = (
+        compute_status(company.last_seen, today, ACTIVE_MONTHS)
+        if company.last_seen
+        else Status.DORMANT
+    )
     fm = [
         "---",
         f"name: {company.name}",
@@ -17,9 +21,12 @@ def _note(company, today: date) -> str:
         f"ai_maturity: {company.ai_maturity.value if company.ai_maturity else ''}",
         f"status: {status.value}",
         f"last_seen: {company.last_seen or ''}",
-        "---", "",
-        f"# {company.name}", "",
-        company.short_description or "", "",
+        "---",
+        "",
+        f"# {company.name}",
+        "",
+        company.short_description or "",
+        "",
         "## Evidence",
     ]
     fm += [f"- {u}" for u in company.source_urls]

@@ -7,15 +7,21 @@ import re
 
 
 class BeverageVertical(str, Enum):
-    BEER = "beer"; WHISKEY = "whiskey"; WINE = "wine"; MULTIPLE = "multiple"
+    BEER = "beer"
+    WHISKEY = "whiskey"
+    WINE = "wine"
+    MULTIPLE = "multiple"
 
 
 class AIMaturity(str, Enum):
-    RESEARCH = "research"; PILOT = "pilot"; SHIPPING = "shipping"
+    RESEARCH = "research"
+    PILOT = "pilot"
+    SHIPPING = "shipping"
 
 
 class Status(str, Enum):
-    ACTIVE = "active"; DORMANT = "dormant"
+    ACTIVE = "active"
+    DORMANT = "dormant"
 
 
 def _slug(text: str) -> str:

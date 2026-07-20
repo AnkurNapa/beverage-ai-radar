@@ -16,7 +16,9 @@ class CrunchbaseSource:
         data = self.lookup_fn(company) or {}
         if not data:
             return company
-        urls = sorted(set(company.source_urls) | ({data["source_url"]} if data.get("source_url") else set()))
+        urls = sorted(
+            set(company.source_urls) | ({data["source_url"]} if data.get("source_url") else set())
+        )
         return replace(
             company,
             funding_stage=data.get("funding_stage") or company.funding_stage,

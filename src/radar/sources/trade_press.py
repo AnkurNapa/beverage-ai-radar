@@ -14,8 +14,9 @@ class TradePressSource:
     name = "trade_press"
     kind = "discovery"
 
-    def __init__(self, feed_urls: list[str], parse_fn: Callable[[str], list[dict]],
-                 today: date | None = None):
+    def __init__(
+        self, feed_urls: list[str], parse_fn: Callable[[str], list[dict]], today: date | None = None
+    ):
         self.feed_urls = feed_urls
         self.parse_fn = parse_fn
         self.today = today or date.today()
@@ -30,9 +31,15 @@ class TradePressSource:
                 if seen < cutoff:
                     continue
                 tags = classify(f"{r['title']} {r['snippet']}")
-                c = Company(name=r["title"], domain=r["url"],
-                            short_description=r["snippet"], source_urls=[r["url"]],
-                            first_seen=seen, last_seen=seen,
-                            latest_news_headline=r["title"], **tags)
+                c = Company(
+                    name=r["title"],
+                    domain=r["url"],
+                    short_description=r["snippet"],
+                    source_urls=[r["url"]],
+                    first_seen=seen,
+                    last_seen=seen,
+                    latest_news_headline=r["title"],
+                    **tags,
+                )
                 out[c.key] = c
         return list(out.values())

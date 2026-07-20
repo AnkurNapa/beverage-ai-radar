@@ -12,8 +12,14 @@ RECENCY_YEARS = 5
 ACTIVE_MONTHS = 18
 
 DISCOVERY_QUERIES = [
-    "AI brewery", "GenAI winemaking", "machine learning distillery",
-    "AI sensory beer", "computer vision wine quality", "AI flavor prediction beer",
-    "generative AI wine marketing", "demand forecasting brewery AI",
-    "whiskey distillery machine learning", "AI beverage quality control",
+    "AI brewery",
+    "GenAI winemaking",
+    "machine learning distillery",
+    "AI sensory beer",
+    "computer vision wine quality",
+    "AI flavor prediction beer",
+    "generative AI wine marketing",
+    "demand forecasting brewery AI",
+    "whiskey distillery machine learning",
+    "AI beverage quality control",
 ]

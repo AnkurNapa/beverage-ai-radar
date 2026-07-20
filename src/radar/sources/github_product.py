@@ -15,9 +15,13 @@ class GithubProductSource:
         data = self.lookup_fn(company) or {}
         if not data:
             return company
-        urls = sorted(set(company.source_urls) |
-                      {u for u in (data.get("github_url"), data.get("product_url")) if u})
-        return replace(company,
-                       github_url=data.get("github_url") or company.github_url,
-                       product_url=data.get("product_url") or company.product_url,
-                       source_urls=urls)
+        urls = sorted(
+            set(company.source_urls)
+            | {u for u in (data.get("github_url"), data.get("product_url")) if u}
+        )
+        return replace(
+            company,
+            github_url=data.get("github_url") or company.github_url,
+            product_url=data.get("product_url") or company.product_url,
+            source_urls=urls,
+        )

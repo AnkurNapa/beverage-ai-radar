@@ -11,6 +11,7 @@ class LinkedInSource:
     size_employees, hq_location, source_url}. Injected so tests never
     drive a real browser.
     """
+
     name = "linkedin"
     kind = "enrichment"
 
@@ -21,10 +22,14 @@ class LinkedInSource:
         data = self.lookup_fn(company) or {}
         if not data:
             return company
-        urls = sorted(set(company.source_urls) | ({data["source_url"]} if data.get("source_url") else set()))
-        return replace(company,
-                       linkedin_url=data.get("linkedin_url") or company.linkedin_url,
-                       key_people=data.get("key_people") or company.key_people,
-                       size_employees=data.get("size_employees") or company.size_employees,
-                       hq_location=data.get("hq_location") or company.hq_location,
-                       source_urls=urls)
+        urls = sorted(
+            set(company.source_urls) | ({data["source_url"]} if data.get("source_url") else set())
+        )
+        return replace(
+            company,
+            linkedin_url=data.get("linkedin_url") or company.linkedin_url,
+            key_people=data.get("key_people") or company.key_people,
+            size_employees=data.get("size_employees") or company.size_employees,
+            hq_location=data.get("hq_location") or company.hq_location,
+            source_urls=urls,
+        )

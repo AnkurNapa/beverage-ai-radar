@@ -11,14 +11,22 @@ def render_report(store: Store, today: date | None = None) -> str:
     companies = store.all()
     active, dormant = [], []
     for c in companies:
-        bucket = active if (c.last_seen and compute_status(c.last_seen, today, ACTIVE_MONTHS) == Status.ACTIVE) else dormant
+        bucket = (
+            active
+            if (c.last_seen and compute_status(c.last_seen, today, ACTIVE_MONTHS) == Status.ACTIVE)
+            else dormant
+        )
         bucket.append(c)
 
     verticals = Counter(c.vertical.value for c in active if c.vertical)
     use_cases = Counter(c.ai_use_case for c in active if c.ai_use_case)
 
-    lines = ["# Beverage-AI Landscape Radar", "",
-             f"Snapshot: {today.isoformat()}. {len(active)} active, {len(dormant)} dormant.", ""]
+    lines = [
+        "# Beverage-AI Landscape Radar",
+        "",
+        f"Snapshot: {today.isoformat()}. {len(active)} active, {len(dormant)} dormant.",
+        "",
+    ]
     lines += ["## Active companies", ""]
     for c in sorted(active, key=lambda x: x.name.lower()):
         vertical = c.vertical.value if c.vertical else "unclassified"

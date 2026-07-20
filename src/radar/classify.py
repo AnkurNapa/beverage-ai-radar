@@ -8,12 +8,18 @@ _VERTICAL_TERMS = {
 }
 
 _USE_CASES = [
-    ("quality control / computer vision", ["computer vision", "quality control", "defect", "inspection"]),
+    (
+        "quality control / computer vision",
+        ["computer vision", "quality control", "defect", "inspection"],
+    ),
     ("recipe / flavor prediction", ["flavor", "recipe", "aroma", "taste prediction"]),
     ("demand forecasting", ["demand forecast", "forecasting", "inventory"]),
     ("sensory", ["sensory", "tasting panel"]),
     ("supply chain", ["supply chain", "logistics"]),
-    ("GenAI marketing", ["genai marketing", "generative ai marketing", "content generation", "marketing product"]),
+    (
+        "GenAI marketing",
+        ["genai marketing", "generative ai marketing", "content generation", "marketing product"],
+    ),
 ]
 
 _MATURITY = [
@@ -33,6 +39,8 @@ def classify(text: str) -> dict:
     else:
         vertical = None
 
-    use_case = next((label for label, terms in _USE_CASES if any(term in t for term in terms)), None)
+    use_case = next(
+        (label for label, terms in _USE_CASES if any(term in t for term in terms)), None
+    )
     maturity = next((m for m, terms in _MATURITY if any(term in t for term in terms)), None)
     return {"vertical": vertical, "ai_use_case": use_case, "ai_maturity": maturity}

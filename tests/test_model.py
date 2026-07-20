@@ -20,6 +20,10 @@ def test_compute_status_dormant_past_window():
 
 
 def test_company_key_uses_dedup_key():
-    c = Company(name="Acme AI", domain="https://acme-ai.com",
-                vertical=BeverageVertical.BEER, last_seen=date(2026, 1, 1))
+    c = Company(
+        name="Acme AI",
+        domain="https://acme-ai.com",
+        vertical=BeverageVertical.BEER,
+        last_seen=date(2026, 1, 1),
+    )
     assert c.key == "acme-ai.com"
