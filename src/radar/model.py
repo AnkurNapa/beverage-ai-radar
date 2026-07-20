@@ -59,6 +59,7 @@ class Company:
     founded_year: int | None = None
     size_employees: str | None = None
     vertical: BeverageVertical | None = None
+    company_type: str | None = None  # "product" (default) | "service"
     ai_use_case: str | None = None
     ai_maturity: AIMaturity | None = None
     funding_stage: str | None = None

@@ -52,6 +52,7 @@ function peopleHtml(c) {
 function card(c) {
   const chips = [
     c.vertical && `<span class="chip">${esc(c.vertical)}</span>`,
+    c.company_type === "service" && `<span class="chip chip--muted">service</span>`,
     c.ai_use_case && `<span class="chip">${esc(c.ai_use_case)}</span>`,
     c.ai_maturity && `<span class="chip chip--muted">${esc(c.ai_maturity)}</span>`,
     c.status === "dormant" && `<span class="chip chip--dormant">dormant</span>`,

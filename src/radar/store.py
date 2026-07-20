@@ -22,6 +22,12 @@ class Store:
         self.conn.execute(
             f"CREATE TABLE IF NOT EXISTS companies (key TEXT PRIMARY KEY, name TEXT, {cols})"
         )
+        # add columns for any dataclass field missing from an older DB, so new
+        # fields work on unattended (cron) runs that never drop the sqlite file.
+        have = {r[1] for r in self.conn.execute("PRAGMA table_info(companies)")}
+        for f in fields(Company):
+            if f.name not in have:
+                self.conn.execute(f"ALTER TABLE companies ADD COLUMN {f.name} TEXT")
         self.conn.commit()
 
     def _to_row(self, c: Company) -> dict:
