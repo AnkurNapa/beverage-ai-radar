@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Aromyx",
+    "people": [
+      {"name": "Josh Silverman", "role": "Chief Science Advisor", "linkedin": "https://www.linkedin.com/in/josh-silverman-2176263"},
+      {"name": "Brad Brown", "role": "Senior Scientist", "linkedin": "https://www.linkedin.com/in/brad-brown-bb57293"}
+    ]
+  },
+  {
+    "name": "Bright Cellars",
+    "people": [
+      {"name": "Joe Megibow", "role": "CEO", "linkedin": "https://www.linkedin.com/in/megibow"},
+      {"name": "Richard Yau", "role": "Co-founder", "linkedin": "https://www.linkedin.com/in/richardsyau"},
+      {"name": "Joe Laurendi", "role": "Co-founder", "linkedin": "https://www.linkedin.com/in/jlaurendi"}
+    ]
+  },
+  {
+    "name": "BarTrack",
+    "people": [
+      {"name": "Brett Danielson", "role": "Co-founder and CEO", "linkedin": "https://www.linkedin.com/in/brett-danielson-8549b9154"},
+      {"name": "Grant Hobar", "role": "Co-founder", "linkedin": "https://www.linkedin.com/in/grant-hobar"},
+      {"name": "Hunter Markle", "role": "Co-founder", "linkedin": "https://www.linkedin.com/in/hunter-markle-082075135"}
+    ]
+  },
+  {
+    "name": "Vivino",
+    "people": [
+      {"name": "Heini Zachariassen", "role": "Co-founder and past CEO", "linkedin": "https://www.linkedin.com/in/heini"},
+      {"name": "Theis Sondergaard", "role": "Co-founder", "linkedin": "https://www.linkedin.com/in/theissondergaard"}
+    ]
+  },
+  {
+    "name": "Precision Fermentation (Sennos)",
+    "people": [
+      {"name": "Jared Resnick", "role": "Founder and CEO", "linkedin": "https://www.linkedin.com/in/jared-resnick-9b8745115"},
+      {"name": "John Considine", "role": "CTO", "linkedin": null}
+    ]
+  },
+  {
+    "name": "BeerBoard",
+    "people": [
+      {"name": "Mark Young", "role": "Founder and CEO", "linkedin": "https://www.linkedin.com/in/mark-young-7b8b554"}
+    ]
+  },
+  {
+    "name": "Ceres Imaging (Ceres AI)",
+    "people": [
+      {"name": "Ramsey Masri", "role": "CEO", "linkedin": "https://www.linkedin.com/in/ramsey-masri-11392"}
+    ]
+  },
+  {
+    "name": "Carlsberg",
+    "people": [
+      {"name": "Jacob Aarup-Andersen", "role": "CEO", "linkedin": "https://www.linkedin.com/in/jacob-aarup-andersen"}
+    ]
+  },
+  {
+    "name": "Anheuser-Busch InBev",
+    "people": [
+      {"name": "Michel Doukeris", "role": "CEO", "linkedin": "https://www.linkedin.com/in/michel-doukeris"}
+    ]
+  },
+  {
+    "name": "Kirin Holdings",
+    "people": [
+      {"name": "Hideki Horiguchi", "role": "President and CEO", "linkedin": "https://www.linkedin.com/in/hideki-horiguchi-63879185"}
+    ]
+  },
+  {
+    "name": "Sapporo Breweries",
+    "people": [
+      {"name": "Masaki Oga", "role": "President, Sapporo Holdings", "linkedin": null}
+    ]
+  },
+  {
+    "name": "Heineken",
+    "people": [
+      {"name": "Dolf van den Brink", "role": "Chairman of the Executive Board and CEO", "linkedin": "https://www.linkedin.com/in/dolfvandenbrink"}
+    ]
+  }
+]

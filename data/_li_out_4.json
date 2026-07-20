@@ -1,0 +1,75 @@
+[
+  {
+    "name": "DRINKS",
+    "people": [
+      {"name": "Zac Brandenberg", "role": "Co-Founder & CEO", "linkedin": "https://www.linkedin.com/in/zac-brandenberg"},
+      {"name": "Barry Collier", "role": "Co-Founder & CTO/CPO", "linkedin": "https://www.linkedin.com/in/barrycollier"}
+    ]
+  },
+  {
+    "name": "Outshinery",
+    "people": [
+      {"name": "Laurie Millotte", "role": "Founder & CEO", "linkedin": "https://www.linkedin.com/in/lauriemillotte"}
+    ]
+  },
+  {
+    "name": "Next Century Spirits",
+    "people": [
+      {"name": "Scott Bolin", "role": "Co-founder and CEO", "linkedin": null},
+      {"name": "Joel Pawlak", "role": "Co-founder", "linkedin": "https://www.linkedin.com/in/joel-pawlak-a7301336"},
+      {"name": "Anthony Moniello", "role": "Co-CEO", "linkedin": "https://www.linkedin.com/in/anthony-moniello-89933615"},
+      {"name": "Rob Mason", "role": "Co-CEO", "linkedin": "https://www.linkedin.com/in/rob-w-mason"}
+    ]
+  },
+  {
+    "name": "Whisky Project",
+    "people": [
+      {"name": "Radoslaw Pilarski", "role": "Lead / Coordinator", "linkedin": "https://www.linkedin.com/in/rpilarski"}
+    ]
+  },
+  {
+    "name": "Circumstance Distillery",
+    "people": [
+      {"name": "Liam Hirt", "role": "Co-founder", "linkedin": "https://www.linkedin.com/in/liamhirt"},
+      {"name": "Danny Walker", "role": "Co-founder and Distiller", "linkedin": "https://www.linkedin.com/in/danny-walker-distiller"}
+    ]
+  },
+  {
+    "name": "Overproof",
+    "people": [
+      {"name": "Marc De Kuyper", "role": "Founder and CEO", "linkedin": "https://www.linkedin.com/in/marcdekuyper"}
+    ]
+  },
+  {
+    "name": "Winespace",
+    "people": [
+      {"name": "Sylvain Thibaud", "role": "CEO and Co-founder", "linkedin": "https://www.linkedin.com/in/sylvain-thibaud"},
+      {"name": "Julien Laithier", "role": "President", "linkedin": "https://www.linkedin.com/in/julien-laithier"}
+    ]
+  },
+  {
+    "name": "Unicorn Auctions",
+    "people": [
+      {"name": "Phil Mikhaylov", "role": "CEO and Co-founder", "linkedin": "https://www.linkedin.com/in/philmikhaylov"},
+      {"name": "A.J. Heindel", "role": "Co-founder", "linkedin": "https://www.linkedin.com/in/ajheindel"}
+    ]
+  },
+  {
+    "name": "Tastewise",
+    "people": [
+      {"name": "Alon Chen", "role": "CEO and Co-founder", "linkedin": "https://www.linkedin.com/in/alonchen"}
+    ]
+  },
+  {
+    "name": "The 5th Ingredient",
+    "people": [
+      {"name": "Pulkit K. Agrawal", "role": "Founder and CEO", "linkedin": "https://www.linkedin.com/in/pulkitkagrawal"}
+    ]
+  },
+  {
+    "name": "FlavorWiki",
+    "people": [
+      {"name": "Daniel Protz", "role": "Founder and CEO", "linkedin": "https://www.linkedin.com/in/daniel-protz-707b772a"}
+    ]
+  }
+]

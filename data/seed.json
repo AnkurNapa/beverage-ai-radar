@@ -17,7 +17,14 @@
     ],
     "first_seen": "2018-01-01",
     "last_seen": "2024-03-01",
-    "key_people": "Katerina Axelsson (CEO, Founder)"
+    "key_people": "Katerina Axelsson (CEO, Founder)",
+    "people": [
+      {
+        "name": "Katerina Axelsson",
+        "role": "CEO, Founder",
+        "linkedin": "https://www.linkedin.com/in/katerina-axelsson-a3888078"
+      }
+    ]
   },
   {
     "name": "Analytical Flavor Systems (Gastrograph AI)",
@@ -37,7 +44,19 @@
     ],
     "first_seen": "2013-01-01",
     "last_seen": "2025-01-01",
-    "key_people": "Jason Cohen (Founder, Chief Scientist), John Dori (Co-Founder)"
+    "key_people": "Jason Cohen (Founder, Chief Scientist), John Dori (Co-Founder)",
+    "people": [
+      {
+        "name": "Jason Cohen",
+        "role": "Founder, Chief Scientist",
+        "linkedin": "https://www.linkedin.com/in/jason-cohen-897164127"
+      },
+      {
+        "name": "John Dori",
+        "role": "Co-Founder",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Preferabli",
@@ -57,7 +76,19 @@
     ],
     "first_seen": "2012-01-01",
     "last_seen": "2024-12-16",
-    "key_people": "Pam Dillon (CEO, Co-Founder), Andrew Sussman (Co-Founder)"
+    "key_people": "Pam Dillon (CEO, Co-Founder), Andrew Sussman (Co-Founder)",
+    "people": [
+      {
+        "name": "Pam Dillon",
+        "role": "CEO, Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/pam-dillon-b8b77a7"
+      },
+      {
+        "name": "Andrew Sussman",
+        "role": "Co-Founder",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "IntelligentX",
@@ -77,7 +108,19 @@
     ],
     "first_seen": "2016-07-15",
     "last_seen": "2019-02-01",
-    "key_people": "Hew Leith (Co-Founder), Rob McInerney (Co-Founder)"
+    "key_people": "Hew Leith (Co-Founder), Rob McInerney (Co-Founder)",
+    "people": [
+      {
+        "name": "Hew Leith",
+        "role": "Co-Founder",
+        "linkedin": "https://uk.linkedin.com/in/hewleith"
+      },
+      {
+        "name": "Rob McInerney",
+        "role": "Co-Founder",
+        "linkedin": "https://uk.linkedin.com/in/remcinerney"
+      }
+    ]
   },
   {
     "name": "Deep Liquid",
@@ -97,7 +140,24 @@
     ],
     "first_seen": "2020-01-01",
     "last_seen": "2025-03-19",
-    "key_people": "Denham D'Silva (CEO, Founder), Jamie Sherrah (CTO), Anton van den Hengel (Founder)"
+    "key_people": "Denham D'Silva (CEO, Founder), Jamie Sherrah (CTO), Anton van den Hengel (Founder)",
+    "people": [
+      {
+        "name": "Denham D'Silva",
+        "role": "CEO, Founder",
+        "linkedin": "https://au.linkedin.com/in/denham-d-silva-5b560a5"
+      },
+      {
+        "name": "Jamie Sherrah",
+        "role": "CTO",
+        "linkedin": "https://au.linkedin.com/in/jsherrah"
+      },
+      {
+        "name": "Anton van den Hengel",
+        "role": "Founder",
+        "linkedin": "https://au.linkedin.com/in/antonvandenhengel"
+      }
+    ]
   },
   {
     "name": "Enolytics",
@@ -117,7 +177,19 @@
     ],
     "first_seen": "2022-01-01",
     "last_seen": "2025-12-01",
-    "key_people": "Cathy Huyghe (CEO, Co-Founder), Chris Huyghe (Co-Founder)"
+    "key_people": "Cathy Huyghe (CEO, Co-Founder), Chris Huyghe (Co-Founder)",
+    "people": [
+      {
+        "name": "Cathy Huyghe",
+        "role": "CEO, Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/cathy-huyghe-332307"
+      },
+      {
+        "name": "Chris Huyghe",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/chrishuyghe"
+      }
+    ]
   },
   {
     "name": "Tule Technologies",
@@ -137,7 +209,19 @@
     ],
     "first_seen": "2014-01-01",
     "last_seen": "2023-01-31",
-    "key_people": "Tom Shapland (CEO, Co-Founder), Jeff LaBarge (Co-Founder)"
+    "key_people": "Tom Shapland (CEO, Co-Founder), Jeff LaBarge (Co-Founder)",
+    "people": [
+      {
+        "name": "Tom Shapland",
+        "role": "CEO, Co-Founder",
+        "linkedin": null
+      },
+      {
+        "name": "Jeff LaBarge",
+        "role": "Co-Founder",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Mackmyra",
@@ -156,7 +240,19 @@
     ],
     "first_seen": "2019-06-19",
     "last_seen": "2019-06-19",
-    "key_people": "Magnus Dandanell (CEO, Co-Founder), Angela D'Orazio (Master Blender)"
+    "key_people": "Magnus Dandanell (CEO, Co-Founder), Angela D'Orazio (Master Blender)",
+    "people": [
+      {
+        "name": "Magnus Dandanell",
+        "role": "CEO, Co-Founder",
+        "linkedin": "https://se.linkedin.com/in/magnusdandanell-3a8389178"
+      },
+      {
+        "name": "Angela D'Orazio",
+        "role": "Master Blender",
+        "linkedin": "https://se.linkedin.com/in/angela-d-orazio-6a306761"
+      }
+    ]
   },
   {
     "name": "Deep Planet",
@@ -176,7 +272,24 @@
     ],
     "first_seen": "2018-01-01",
     "last_seen": "2025-03-02",
-    "key_people": "Sushma Shankar (CEO, Co-Founder), Natalia Efremova (CTO, Co-Founder), David Carter (Co-Founder)"
+    "key_people": "Sushma Shankar (CEO, Co-Founder), Natalia Efremova (CTO, Co-Founder), David Carter (Co-Founder)",
+    "people": [
+      {
+        "name": "Sushma Shankar",
+        "role": "CEO, Co-Founder",
+        "linkedin": "https://uk.linkedin.com/in/sushmashankar1"
+      },
+      {
+        "name": "Natalia Efremova",
+        "role": "CTO, Co-Founder",
+        "linkedin": "https://uk.linkedin.com/in/nataliaef"
+      },
+      {
+        "name": "David Carter",
+        "role": "Co-Founder",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Watgrid (WINEGRID)",
@@ -196,7 +309,14 @@
     ],
     "first_seen": "2017-01-01",
     "last_seen": "2022-10-13",
-    "key_people": "Rogerio Nogueira (CEO, Co-Founder)"
+    "key_people": "Rogerio Nogueira (CEO, Co-Founder)",
+    "people": [
+      {
+        "name": "Rogerio Nogueira",
+        "role": "CEO, Co-Founder",
+        "linkedin": "https://pt.linkedin.com/in/rogerionogueira"
+      }
+    ]
   },
   {
     "name": "VinoVoss (BetterAI)",
@@ -215,7 +335,19 @@
     ],
     "first_seen": "2024-02-21",
     "last_seen": "2024-12-29",
-    "key_people": "Angel Modarres (CEO), Arsalan Vossough (CTO, Co-Founder)"
+    "key_people": "Angel Modarres (CEO), Arsalan Vossough (CTO, Co-Founder)",
+    "people": [
+      {
+        "name": "Angel Modarres",
+        "role": "CEO",
+        "linkedin": null
+      },
+      {
+        "name": "Arsalan Vossough",
+        "role": "CTO, Co-Founder",
+        "linkedin": "https://ca.linkedin.com/in/arsalan-vossough"
+      }
+    ]
   },
   {
     "name": "Crafted ERP",
@@ -254,7 +386,19 @@
     ],
     "first_seen": "2018-01-01",
     "last_seen": "2020-10-07",
-    "key_people": "Scott Savage (CEO), James Lew (Senior Director, Data Science)"
+    "key_people": "Scott Savage (CEO), James Lew (Senior Director, Data Science)",
+    "people": [
+      {
+        "name": "Scott Savage",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/scott-savage-bb3402a"
+      },
+      {
+        "name": "James Lew",
+        "role": "Senior Director, Data Science",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Aromyx",
@@ -274,7 +418,19 @@
     ],
     "first_seen": "2019-10-11",
     "last_seen": "2023-01-01",
-    "key_people": "Josh Silverman (Chief Science Advisor), Brad Brown (Senior Scientist)"
+    "key_people": "Josh Silverman (Chief Science Advisor), Brad Brown (Senior Scientist)",
+    "people": [
+      {
+        "name": "Josh Silverman",
+        "role": "Chief Science Advisor",
+        "linkedin": "https://www.linkedin.com/in/josh-silverman-2176263"
+      },
+      {
+        "name": "Brad Brown",
+        "role": "Senior Scientist",
+        "linkedin": "https://www.linkedin.com/in/brad-brown-bb57293"
+      }
+    ]
   },
   {
     "name": "Bright Cellars",
@@ -293,7 +449,24 @@
     ],
     "first_seen": "2015-09-03",
     "last_seen": "2017-05-24",
-    "key_people": "Joe Megibow (CEO), Richard Yau (Co-founder), Joe Laurendi (Co-founder)"
+    "key_people": "Joe Megibow (CEO), Richard Yau (Co-founder), Joe Laurendi (Co-founder)",
+    "people": [
+      {
+        "name": "Joe Megibow",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/megibow"
+      },
+      {
+        "name": "Richard Yau",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/richardsyau"
+      },
+      {
+        "name": "Joe Laurendi",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/jlaurendi"
+      }
+    ]
   },
   {
     "name": "BarTrack",
@@ -313,7 +486,24 @@
     ],
     "first_seen": "2018-01-01",
     "last_seen": "2022-04-28",
-    "key_people": "Brett Danielson (Co-founder and CEO), Grant Hobar (Co-founder), Hunter Markle (Co-founder)"
+    "key_people": "Brett Danielson (Co-founder and CEO), Grant Hobar (Co-founder), Hunter Markle (Co-founder)",
+    "people": [
+      {
+        "name": "Brett Danielson",
+        "role": "Co-founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/brett-danielson-8549b9154"
+      },
+      {
+        "name": "Grant Hobar",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/grant-hobar"
+      },
+      {
+        "name": "Hunter Markle",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/hunter-markle-082075135"
+      }
+    ]
   },
   {
     "name": "Vivino",
@@ -333,7 +523,19 @@
     ],
     "first_seen": "2010-01-01",
     "last_seen": "2017-08-01",
-    "key_people": "Heini Zachariassen (Co-founder and past CEO), Theis Sondergaard (Co-founder)"
+    "key_people": "Heini Zachariassen (Co-founder and past CEO), Theis Sondergaard (Co-founder)",
+    "people": [
+      {
+        "name": "Heini Zachariassen",
+        "role": "Co-founder and past CEO",
+        "linkedin": "https://www.linkedin.com/in/heini"
+      },
+      {
+        "name": "Theis Sondergaard",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/theissondergaard"
+      }
+    ]
   },
   {
     "name": "Precision Fermentation (Sennos)",
@@ -353,7 +555,19 @@
     ],
     "first_seen": "2021-01-01",
     "last_seen": "2025-06-01",
-    "key_people": "Jared Resnick (Founder and CEO), John Considine (CTO)"
+    "key_people": "Jared Resnick (Founder and CEO), John Considine (CTO)",
+    "people": [
+      {
+        "name": "Jared Resnick",
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/jared-resnick-9b8745115"
+      },
+      {
+        "name": "John Considine",
+        "role": "CTO",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "BeerBoard",
@@ -372,7 +586,14 @@
     ],
     "first_seen": "2018-01-01",
     "last_seen": "2025-06-01",
-    "key_people": "Mark Young (Founder and CEO)"
+    "key_people": "Mark Young (Founder and CEO)",
+    "people": [
+      {
+        "name": "Mark Young",
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/mark-young-7b8b554"
+      }
+    ]
   },
   {
     "name": "Ceres Imaging (Ceres AI)",
@@ -392,7 +613,14 @@
     ],
     "first_seen": "2014-01-01",
     "last_seen": "2021-09-01",
-    "key_people": "Ramsey Masri (CEO)"
+    "key_people": "Ramsey Masri (CEO)",
+    "people": [
+      {
+        "name": "Ramsey Masri",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/ramsey-masri-11392"
+      }
+    ]
   },
   {
     "name": "Sommify",
@@ -447,7 +675,14 @@
     ],
     "first_seen": "2017-11-07",
     "last_seen": "2018-10-15",
-    "key_people": "Jacob Aarup-Andersen (CEO)"
+    "key_people": "Jacob Aarup-Andersen (CEO)",
+    "people": [
+      {
+        "name": "Jacob Aarup-Andersen",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/jacob-aarup-andersen"
+      }
+    ]
   },
   {
     "name": "Anheuser-Busch InBev",
@@ -466,7 +701,14 @@
     ],
     "first_seen": "2019-01-01",
     "last_seen": "2023-04-12",
-    "key_people": "Michel Doukeris (CEO)"
+    "key_people": "Michel Doukeris (CEO)",
+    "people": [
+      {
+        "name": "Michel Doukeris",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/michel-doukeris"
+      }
+    ]
   },
   {
     "name": "Kirin Holdings",
@@ -485,7 +727,14 @@
     ],
     "first_seen": "2021-08-31",
     "last_seen": "2026-06-01",
-    "key_people": "Hideki Horiguchi (President and CEO)"
+    "key_people": "Hideki Horiguchi (President and CEO)",
+    "people": [
+      {
+        "name": "Hideki Horiguchi",
+        "role": "President and CEO",
+        "linkedin": "https://www.linkedin.com/in/hideki-horiguchi-63879185"
+      }
+    ]
   },
   {
     "name": "Sapporo Breweries",
@@ -503,7 +752,14 @@
     ],
     "first_seen": "2023-03-04",
     "last_seen": "2023-03-04",
-    "key_people": "Masaki Oga (President, Sapporo Holdings)"
+    "key_people": "Masaki Oga (President, Sapporo Holdings)",
+    "people": [
+      {
+        "name": "Masaki Oga",
+        "role": "President, Sapporo Holdings",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Heineken",
@@ -522,7 +778,14 @@
     ],
     "first_seen": "2024-04-24",
     "last_seen": "2025-08-19",
-    "key_people": "Dolf van den Brink (Chairman of the Executive Board and CEO)"
+    "key_people": "Dolf van den Brink (Chairman of the Executive Board and CEO)",
+    "people": [
+      {
+        "name": "Dolf van den Brink",
+        "role": "Chairman of the Executive Board and CEO",
+        "linkedin": "https://www.linkedin.com/in/dolfvandenbrink"
+      }
+    ]
   },
   {
     "name": "Molson Coors (Atwater Brewery)",
@@ -541,7 +804,14 @@
     ],
     "first_seen": "2023-01-01",
     "last_seen": "2023-01-31",
-    "key_people": "Rahul Goyal (President and CEO)"
+    "key_people": "Rahul Goyal (President and CEO)",
+    "people": [
+      {
+        "name": "Rahul Goyal",
+        "role": "President and CEO",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "PLAATO",
@@ -560,7 +830,24 @@
     ],
     "first_seen": "2023-06-08",
     "last_seen": "2024-05-28",
-    "key_people": "Pal Ingebrigtsen (Co-Founder), Michael Kononsky (Co-Founder), Magnus Valmot (CEO)"
+    "key_people": "Pal Ingebrigtsen (Co-Founder), Michael Kononsky (Co-Founder), Magnus Valmot (CEO)",
+    "people": [
+      {
+        "name": "Pal Ingebrigtsen",
+        "role": "Co-Founder",
+        "linkedin": null
+      },
+      {
+        "name": "Michael Kononsky",
+        "role": "Co-Founder",
+        "linkedin": null
+      },
+      {
+        "name": "Magnus Valmot",
+        "role": "CEO",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Zymoscope",
@@ -579,7 +866,24 @@
     ],
     "first_seen": "2021-02-24",
     "last_seen": "2024-08-01",
-    "key_people": "Petros Venetopoulos (Co-Founder & CEO), Mads Andersen (Co-Founder & CTO), Jens Ringsholm (Co-Founder)"
+    "key_people": "Petros Venetopoulos (Co-Founder & CEO), Mads Andersen (Co-Founder & CTO), Jens Ringsholm (Co-Founder)",
+    "people": [
+      {
+        "name": "Petros Venetopoulos",
+        "role": "Co-Founder & CEO",
+        "linkedin": null
+      },
+      {
+        "name": "Mads Andersen",
+        "role": "Co-Founder & CTO",
+        "linkedin": null
+      },
+      {
+        "name": "Jens Ringsholm",
+        "role": "Co-Founder",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Propagate Lab",
@@ -598,7 +902,14 @@
     ],
     "first_seen": "2024-08-13",
     "last_seen": "2024-08-13",
-    "key_people": "Matthew Peetz (Founder & CEO)"
+    "key_people": "Matthew Peetz (Founder & CEO)",
+    "people": [
+      {
+        "name": "Matthew Peetz",
+        "role": "Founder & CEO",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Deschutes Brewery",
@@ -617,7 +928,19 @@
     ],
     "first_seen": "2017-06-06",
     "last_seen": "2019-08-12",
-    "key_people": "Gary Fish (Founder), Peter Skrbek (CEO)"
+    "key_people": "Gary Fish (Founder), Peter Skrbek (CEO)",
+    "people": [
+      {
+        "name": "Gary Fish",
+        "role": "Founder",
+        "linkedin": null
+      },
+      {
+        "name": "Peter Skrbek",
+        "role": "CEO",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Vivid Machines",
@@ -636,7 +959,19 @@
     ],
     "first_seen": "2023-04-13",
     "last_seen": "2026-06-01",
-    "key_people": "Jenny Lemieux (Co-Founder & CEO), Jonathan Binas (Co-Founder & CTO)"
+    "key_people": "Jenny Lemieux (Co-Founder & CEO), Jonathan Binas (Co-Founder & CTO)",
+    "people": [
+      {
+        "name": "Jenny Lemieux",
+        "role": "Co-Founder & CEO",
+        "linkedin": null
+      },
+      {
+        "name": "Jonathan Binas",
+        "role": "Co-Founder & CTO",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "VineView",
@@ -655,7 +990,19 @@
     ],
     "first_seen": "2018-01-01",
     "last_seen": "2026-07-01",
-    "key_people": "Richard van der Put (CEO), Christopher MacDonald (COO)"
+    "key_people": "Richard van der Put (CEO), Christopher MacDonald (COO)",
+    "people": [
+      {
+        "name": "Richard van der Put",
+        "role": "CEO",
+        "linkedin": null
+      },
+      {
+        "name": "Christopher MacDonald",
+        "role": "COO",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "VineForecast",
@@ -674,7 +1021,24 @@
     ],
     "first_seen": "2021-01-01",
     "last_seen": "2023-11-09",
-    "key_people": "Richard Petersik (Founder & CEO), Paul Petersik (Founder, R&D), Max Nowack (Founder & CTO)"
+    "key_people": "Richard Petersik (Founder & CEO), Paul Petersik (Founder, R&D), Max Nowack (Founder & CTO)",
+    "people": [
+      {
+        "name": "Richard Petersik",
+        "role": "Founder & CEO",
+        "linkedin": null
+      },
+      {
+        "name": "Paul Petersik",
+        "role": "Founder, R&D",
+        "linkedin": null
+      },
+      {
+        "name": "Max Nowack",
+        "role": "Founder & CTO",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Bloomfield Robotics",
@@ -693,7 +1057,19 @@
     ],
     "first_seen": "2018-01-01",
     "last_seen": "2024-06-01",
-    "key_people": "Hayden Wolf (CEO & President), Jean Rovani (Director of AI Engineering)"
+    "key_people": "Hayden Wolf (CEO & President), Jean Rovani (Director of AI Engineering)",
+    "people": [
+      {
+        "name": "Hayden Wolf",
+        "role": "CEO & President",
+        "linkedin": null
+      },
+      {
+        "name": "Jean Rovani",
+        "role": "Director of AI Engineering",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Agrology",
@@ -712,7 +1088,19 @@
     ],
     "first_seen": "2019-01-01",
     "last_seen": "2026-06-01",
-    "key_people": "Adam Koeppel (Co-Founder & CEO), Tyler Locke (Co-Founder & CTO)"
+    "key_people": "Adam Koeppel (Co-Founder & CEO), Tyler Locke (Co-Founder & CTO)",
+    "people": [
+      {
+        "name": "Adam Koeppel",
+        "role": "Co-Founder & CEO",
+        "linkedin": null
+      },
+      {
+        "name": "Tyler Locke",
+        "role": "Co-Founder & CTO",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Naio Technologies",
@@ -731,7 +1119,19 @@
     ],
     "first_seen": "2011-01-01",
     "last_seen": "2026-01-01",
-    "key_people": "Aymeric Barthes (Co-Founder & CEO), Gaetan Severac (Co-Founder)"
+    "key_people": "Aymeric Barthes (Co-Founder & CEO), Gaetan Severac (Co-Founder)",
+    "people": [
+      {
+        "name": "Aymeric Barthes",
+        "role": "Co-Founder & CEO",
+        "linkedin": null
+      },
+      {
+        "name": "Gaetan Severac",
+        "role": "Co-Founder",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "Scanopy",
@@ -768,7 +1168,19 @@
     ],
     "first_seen": "2015-01-01",
     "last_seen": "2026-01-01",
-    "key_people": "Philip James (Founder & CEO), Kevin Jessen (SVP Technology & Product)"
+    "key_people": "Philip James (Founder & CEO), Kevin Jessen (SVP Technology & Product)",
+    "people": [
+      {
+        "name": "Philip James",
+        "role": "Founder & CEO",
+        "linkedin": null
+      },
+      {
+        "name": "Kevin Jessen",
+        "role": "SVP Technology & Product",
+        "linkedin": null
+      }
+    ]
   },
   {
     "name": "DRINKS",
@@ -787,7 +1199,19 @@
     ],
     "first_seen": "2014-01-01",
     "last_seen": "2026-01-01",
-    "key_people": "Zac Brandenberg (Co-Founder & CEO), Barry Collier (Co-Founder & CTO/CPO)"
+    "key_people": "Zac Brandenberg (Co-Founder & CEO), Barry Collier (Co-Founder & CTO/CPO)",
+    "people": [
+      {
+        "name": "Zac Brandenberg",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/zac-brandenberg"
+      },
+      {
+        "name": "Barry Collier",
+        "role": "Co-Founder & CTO/CPO",
+        "linkedin": "https://www.linkedin.com/in/barrycollier"
+      }
+    ]
   },
   {
     "name": "Outshinery",
@@ -806,7 +1230,14 @@
     ],
     "first_seen": "2016-01-01",
     "last_seen": "2025-09-29",
-    "key_people": "Laurie Millotte (Founder & CEO)"
+    "key_people": "Laurie Millotte (Founder & CEO)",
+    "people": [
+      {
+        "name": "Laurie Millotte",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/lauriemillotte"
+      }
+    ]
   },
   {
     "name": "Next Century Spirits",
@@ -826,7 +1257,29 @@
     ],
     "first_seen": "2020-07-29",
     "last_seen": "2024-02-08",
-    "key_people": "Scott Bolin (Co-founder and CEO), Joel Pawlak (Co-founder), Anthony Moniello (Co-CEO), Rob Mason (Co-CEO)"
+    "key_people": "Scott Bolin (Co-founder and CEO), Joel Pawlak (Co-founder), Anthony Moniello (Co-CEO), Rob Mason (Co-CEO)",
+    "people": [
+      {
+        "name": "Scott Bolin",
+        "role": "Co-founder and CEO",
+        "linkedin": null
+      },
+      {
+        "name": "Joel Pawlak",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/joel-pawlak-a7301336"
+      },
+      {
+        "name": "Anthony Moniello",
+        "role": "Co-CEO",
+        "linkedin": "https://www.linkedin.com/in/anthony-moniello-89933615"
+      },
+      {
+        "name": "Rob Mason",
+        "role": "Co-CEO",
+        "linkedin": "https://www.linkedin.com/in/rob-w-mason"
+      }
+    ]
   },
   {
     "name": "Whisky Project",
@@ -845,7 +1298,14 @@
     ],
     "first_seen": "2025-01-01",
     "last_seen": "2025-10-01",
-    "key_people": "Radoslaw Pilarski (Lead / Coordinator)"
+    "key_people": "Radoslaw Pilarski (Lead / Coordinator)",
+    "people": [
+      {
+        "name": "Radoslaw Pilarski",
+        "role": "Lead / Coordinator",
+        "linkedin": "https://www.linkedin.com/in/rpilarski"
+      }
+    ]
   },
   {
     "name": "Kigtek Solutions",
@@ -884,7 +1344,19 @@
     ],
     "first_seen": "2019-11-05",
     "last_seen": "2020-07-01",
-    "key_people": "Liam Hirt (Co-founder), Danny Walker (Co-founder and Distiller)"
+    "key_people": "Liam Hirt (Co-founder), Danny Walker (Co-founder and Distiller)",
+    "people": [
+      {
+        "name": "Liam Hirt",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/liamhirt"
+      },
+      {
+        "name": "Danny Walker",
+        "role": "Co-founder and Distiller",
+        "linkedin": "https://www.linkedin.com/in/danny-walker-distiller"
+      }
+    ]
   },
   {
     "name": "Whiskey Wise Group",
@@ -922,7 +1394,14 @@
     ],
     "first_seen": "2018-01-01",
     "last_seen": "2025-06-11",
-    "key_people": "Marc De Kuyper (Founder and CEO)"
+    "key_people": "Marc De Kuyper (Founder and CEO)",
+    "people": [
+      {
+        "name": "Marc De Kuyper",
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/marcdekuyper"
+      }
+    ]
   },
   {
     "name": "Winespace",
@@ -941,7 +1420,19 @@
     ],
     "first_seen": "2024-02-23",
     "last_seen": "2025-06-01",
-    "key_people": "Sylvain Thibaud (CEO and Co-founder), Julien Laithier (President)"
+    "key_people": "Sylvain Thibaud (CEO and Co-founder), Julien Laithier (President)",
+    "people": [
+      {
+        "name": "Sylvain Thibaud",
+        "role": "CEO and Co-founder",
+        "linkedin": "https://www.linkedin.com/in/sylvain-thibaud"
+      },
+      {
+        "name": "Julien Laithier",
+        "role": "President",
+        "linkedin": "https://www.linkedin.com/in/julien-laithier"
+      }
+    ]
   },
   {
     "name": "Sante",
@@ -996,7 +1487,19 @@
     ],
     "first_seen": "2019-01-01",
     "last_seen": "2025-05-12",
-    "key_people": "Phil Mikhaylov (CEO and Co-founder), A.J. Heindel (Co-founder)"
+    "key_people": "Phil Mikhaylov (CEO and Co-founder), A.J. Heindel (Co-founder)",
+    "people": [
+      {
+        "name": "Phil Mikhaylov",
+        "role": "CEO and Co-founder",
+        "linkedin": "https://www.linkedin.com/in/philmikhaylov"
+      },
+      {
+        "name": "A.J. Heindel",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/ajheindel"
+      }
+    ]
   },
   {
     "name": "Tastewise",
@@ -1015,7 +1518,14 @@
     ],
     "first_seen": "2017-01-01",
     "last_seen": "2025-06-10",
-    "key_people": "Alon Chen (CEO and Co-founder)"
+    "key_people": "Alon Chen (CEO and Co-founder)",
+    "people": [
+      {
+        "name": "Alon Chen",
+        "role": "CEO and Co-founder",
+        "linkedin": "https://www.linkedin.com/in/alonchen"
+      }
+    ]
   },
   {
     "name": "The 5th Ingredient",
@@ -1034,7 +1544,14 @@
     ],
     "first_seen": "2017-10-01",
     "last_seen": "2025-04-15",
-    "key_people": "Pulkit K. Agrawal (Founder and CEO)"
+    "key_people": "Pulkit K. Agrawal (Founder and CEO)",
+    "people": [
+      {
+        "name": "Pulkit K. Agrawal",
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/pulkitkagrawal"
+      }
+    ]
   },
   {
     "name": "FlavorWiki",
@@ -1053,6 +1570,374 @@
     ],
     "first_seen": "2018-01-10",
     "last_seen": "2025-06-01",
-    "key_people": "Daniel Protz (Founder and CEO)"
+    "key_people": "Daniel Protz (Founder and CEO)",
+    "people": [
+      {
+        "name": "Daniel Protz",
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/daniel-protz-707b772a"
+      }
+    ]
+  },
+  {
+    "name": "Pluto7",
+    "domain": "pluto7.com",
+    "hq_location": "Mountain View, United States",
+    "founded_year": 2017,
+    "vertical": "beer",
+    "company_type": "service",
+    "ai_use_case": "AI consulting",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "AI and machine learning consultancy on Google Cloud that builds supply chain and manufacturing planning solutions for producers. Delivered a machine learning model to optimize beer filtration and demand forecasting for brewer AB InBev.",
+    "source_urls": [
+      "https://pluto7.com/googlecloud/ab-inbev-with-machine-learning-this-buds-for-you/",
+      "https://pluto7.com/about-us/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Ohanafy",
+    "domain": "ohanafy.com",
+    "hq_location": "Wilmington, United States",
+    "founded_year": 2022,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "demand forecasting",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Software vendor selling an AI-powered operating system built on Salesforce to beverage suppliers, distributors, and retailers. Its AI agents automate demand forecasting, billing reconciliation, and route optimization for customers such as Sierra Nevada Brewing.",
+    "source_urls": [
+      "https://www.ohanafy.com/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Enavate",
+    "domain": "enavate.com",
+    "hq_location": "Denver, United States",
+    "founded_year": 2016,
+    "vertical": "wine",
+    "company_type": "service",
+    "ai_use_case": "AI consulting",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Microsoft Dynamics 365 ERP consulting and solutions firm with a dedicated beverage and wine practice, including the VinPoint winery platform. It implements AI tooling such as Microsoft Copilot and Power Apps to automate operations for wineries and beverage producers.",
+    "source_urls": [
+      "https://www.enavate.com/blog/how-artificial-intelligence-is-making-a-real-impact-on-the-wine-industry"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Overview",
+    "domain": "overview.ai",
+    "hq_location": "Palo Alto, United States",
+    "founded_year": 2018,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "quality control / computer vision",
+    "ai_maturity": "shipping",
+    "funding_stage": "seed",
+    "total_raised": null,
+    "short_description": "Vendor of AI-powered vision inspection systems (smart cameras plus the OVX platform) sold to manufacturers. Its solutions inspect beverage cans and bottles at high line speeds for defects, fill level, and seal quality.",
+    "source_urls": [
+      "https://www.overview.ai/blog/ai-beverage-can-bottle-inspection/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Infinity Sky AI",
+    "domain": "infinitysky.ai",
+    "hq_location": "Charlottetown, Canada",
+    "founded_year": null,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "AI consulting",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "AI automation agency and custom development studio that builds bespoke AI systems for breweries, wineries, and distilleries. Projects cover demand forecasting, inventory management, production scheduling, quality control, and TTB compliance automation.",
+    "source_urls": [
+      "https://infinitysky.ai/blog/ai-automation-breweries-wineries-distilleries-2026"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Algorithm Factory",
+    "domain": "algorithm-factory.com",
+    "hq_location": "Vienna, Austria",
+    "founded_year": null,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "demand forecasting",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Supply chain planning software provider whose Sunstice platform is tailored to breweries and beverage manufacturers. It sells AI-based demand forecasting and production optimization to beverage makers, with reference customers including Heineken, BrewDog, and Paulaner.",
+    "source_urls": [
+      "https://www.algorithm-factory.com/en/sunstice/beverage-industry/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Virtualworkforce",
+    "domain": "virtualworkforce.ai",
+    "hq_location": "Rotterdam, Netherlands",
+    "founded_year": null,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "supply chain",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "No-code AI agent platform sold to beverage distributors that integrates with their ERP, WMS, and POS systems. Its agents automate order capture, invoice dispute detection, inventory replenishment, and supplier engagement.",
+    "source_urls": [
+      "https://virtualworkforce.ai/ai-assistant-for-beverage-distribution/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Haber",
+    "domain": "haberwater.com",
+    "hq_location": "Chicago, United States",
+    "founded_year": 2017,
+    "vertical": "beer",
+    "company_type": "service",
+    "ai_use_case": "quality control",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Industrial AI and autonomous process-optimization company that sells to process manufacturers including breweries. It applies AI to brewing water treatment, ingredient dosing, and process control to improve consistency and reduce cost.",
+    "source_urls": [
+      "https://haberwater.com/post/ai-in-beer-brewing"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "RouteMagic",
+    "domain": "routemagic.app",
+    "hq_location": "Mildenhall, United Kingdom",
+    "founded_year": null,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "demand forecasting",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Vendor of AI demand forecasting and route automation software for direct-store-delivery distribution, with beverages as a named vertical. It uses an N-BEATS neural time-series model to predict 30-day demand per product and customer and to automate ordering and routing.",
+    "source_urls": [
+      "https://www.routemagic.app/solutions/ai-automation/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "DRAMS",
+    "domain": "drams-software.com",
+    "hq_location": "Aberdeen, United Kingdom",
+    "founded_year": null,
+    "vertical": "whiskey",
+    "company_type": "service",
+    "ai_use_case": "supply chain",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Spirits inventory and cask management software vendor serving whisky and other aged-spirits distilleries worldwide. Its platform adds business intelligence, wood-performance analytics, and long-term production planning on top of cask tracking.",
+    "source_urls": [
+      "https://drams-software.com/articles/wood-management-enhancing-operational-efficiency/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "GMware",
+    "domain": "gmware.com",
+    "hq_location": "Austin, United States",
+    "founded_year": null,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "demand forecasting",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Retail-intelligence software vendor whose Shield Suite sells AI demand forecasting to beverage-alcohol distributors. Its models blend depletions, POS data, weather, and event calendars to predict event-driven demand across tens of thousands of storefronts.",
+    "source_urls": [
+      "https://gmware.com/blog/beverage-distributor-demand-forecasting-ai"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Aromalytics",
+    "domain": "aromalyticsai.com",
+    "hq_location": "Recife, Brazil",
+    "founded_year": null,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "sensory",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Aromalytics offers an AI electronic-nose platform delivered as software and hardware as a service, digitizing smell to replace human sensory panels for food and beverage quality control and adulteration detection. It serves drinks and food manufacturers plus safety agencies.",
+    "source_urls": [
+      "https://www.aromalyticsai.com/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "FlavorActiV",
+    "domain": "flavoractiv.com",
+    "hq_location": "Watlington, United Kingdom",
+    "founded_year": null,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "sensory",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "FlavorActiV is a sensory-services provider selling GMP flavour standards, taster calibration, panel training, and analytical instruments including an aroma-analysing electronic nose to breweries and beverage makers. It supports professional tasting panels across beer, spirits, and other categories.",
+    "source_urls": [
+      "https://www.flavoractiv.com/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Alpha MOS",
+    "domain": "alpha-mos.com",
+    "hq_location": "Toulouse, France",
+    "founded_year": null,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "sensory",
+    "ai_maturity": "shipping",
+    "funding_stage": "public",
+    "total_raised": null,
+    "short_description": "Alpha MOS is a publicly listed sensory-analysis solution vendor that builds electronic nose, electronic tongue, and electronic eye instruments and also runs outsourced sensory-analysis labs for food and beverage clients including beer, wine, and spirits makers. Its instruments use pattern-recognition algorithms to objectify taste and aroma.",
+    "source_urls": [
+      "https://www.alpha-mos.com/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Cypheme",
+    "domain": "cypheme.com",
+    "hq_location": "Paris, France",
+    "founded_year": 2016,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "quality control / computer vision",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Cypheme provides an AI computer-vision anti-counterfeit service where consumers photograph a tamper-resistant Noise Print label with a smartphone to authenticate a product in seconds. Wine and spirits brands are among the industries it protects against counterfeiting.",
+    "source_urls": [
+      "https://www.cypheme.com/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Authentic Vision",
+    "domain": "authenticvision.com",
+    "hq_location": "Salzburg, Austria",
+    "founded_year": 2012,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "quality control / computer vision",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Authentic Vision sells a smartphone authentication service built on unique Holographic Fingerprint security labels that let anyone verify a bottle and detect counterfeits. Wine and spirits are core industries served, with AI-backed verification and geolocation analytics.",
+    "source_urls": [
+      "https://www.authenticvision.com/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Wine Luthier",
+    "domain": "wineluthier.com",
+    "hq_location": null,
+    "founded_year": null,
+    "vertical": "wine",
+    "company_type": "service",
+    "ai_use_case": "recipe / flavor prediction",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Wine Luthier is an AI service for wineries that converts a wine's physical parameters into objective flavor data and computes exact blending percentages to reach a target profile. Its tools cover flavor visualization, competitive positioning, and blend optimization for enology and production teams.",
+    "source_urls": [
+      "https://wineluthier.com/en/technology/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "VerAIsonio",
+    "domain": "veraison.io",
+    "hq_location": null,
+    "founded_year": null,
+    "vertical": "wine",
+    "company_type": "service",
+    "ai_use_case": "AI consulting",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "VerAIsonio is a data and AI consulting firm specialized in the wine industry, helping producers, merchants, and trade organisations apply AI to customer segmentation, demand forecasting, pricing, and supply-chain decisions from vineyard to market. It positions AI as support for winemaking domain expertise.",
+    "source_urls": [
+      "https://www.veraison.io/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "Brewing-AI",
+    "domain": "brewing-ai.com",
+    "hq_location": "Vevey, Switzerland",
+    "founded_year": null,
+    "vertical": "beer",
+    "company_type": "service",
+    "ai_use_case": "recipe / flavor prediction",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Brewing-AI, a solution from AlpVision SA, offers breweries a deep-reinforcement-learning system that combines operator settings with near-infrared spectroscopy and sensor data to recommend optimal fermentation parameters and hold beer quality steady across batches. It is sold as a process-optimization service to brewers.",
+    "source_urls": [
+      "https://brewing-ai.com/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
+  },
+  {
+    "name": "IWSR",
+    "domain": "theiwsr.com",
+    "hq_location": "London, United Kingdom",
+    "founded_year": 1971,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "consumer insight / trend prediction",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "IWSR is a data, analytics, and insight service for the beverage alcohol industry, combining data science with human intelligence to model the global wine, beer, and spirits market. It sells trend forecasting and market intelligence to producers, distributors, and investors.",
+    "source_urls": [
+      "https://www.theiwsr.com/"
+    ],
+    "first_seen": "2026-07-21",
+    "last_seen": "2026-07-21"
   }
 ]

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Tastry",
+    "people": [
+      {"name": "Katerina Axelsson", "role": "CEO, Founder", "linkedin": "https://www.linkedin.com/in/katerina-axelsson-a3888078"}
+    ]
+  },
+  {
+    "name": "Analytical Flavor Systems (Gastrograph AI)",
+    "people": [
+      {"name": "Jason Cohen", "role": "Founder, Chief Scientist", "linkedin": "https://www.linkedin.com/in/jason-cohen-897164127"},
+      {"name": "John Dori", "role": "Co-Founder", "linkedin": null}
+    ]
+  },
+  {
+    "name": "Preferabli",
+    "people": [
+      {"name": "Pam Dillon", "role": "CEO, Co-Founder", "linkedin": "https://www.linkedin.com/in/pam-dillon-b8b77a7"},
+      {"name": "Andrew Sussman", "role": "Co-Founder", "linkedin": null}
+    ]
+  },
+  {
+    "name": "IntelligentX",
+    "people": [
+      {"name": "Hew Leith", "role": "Co-Founder", "linkedin": "https://uk.linkedin.com/in/hewleith"},
+      {"name": "Rob McInerney", "role": "Co-Founder", "linkedin": "https://uk.linkedin.com/in/remcinerney"}
+    ]
+  },
+  {
+    "name": "Deep Liquid",
+    "people": [
+      {"name": "Denham D'Silva", "role": "CEO, Founder", "linkedin": "https://au.linkedin.com/in/denham-d-silva-5b560a5"},
+      {"name": "Jamie Sherrah", "role": "CTO", "linkedin": "https://au.linkedin.com/in/jsherrah"},
+      {"name": "Anton van den Hengel", "role": "Founder", "linkedin": "https://au.linkedin.com/in/antonvandenhengel"}
+    ]
+  },
+  {
+    "name": "Enolytics",
+    "people": [
+      {"name": "Cathy Huyghe", "role": "CEO, Co-Founder", "linkedin": "https://www.linkedin.com/in/cathy-huyghe-332307"},
+      {"name": "Chris Huyghe", "role": "Co-Founder", "linkedin": "https://www.linkedin.com/in/chrishuyghe"}
+    ]
+  },
+  {
+    "name": "Tule Technologies",
+    "people": [
+      {"name": "Tom Shapland", "role": "CEO, Co-Founder", "linkedin": null},
+      {"name": "Jeff LaBarge", "role": "Co-Founder", "linkedin": null}
+    ]
+  },
+  {
+    "name": "Mackmyra",
+    "people": [
+      {"name": "Magnus Dandanell", "role": "CEO, Co-Founder", "linkedin": "https://se.linkedin.com/in/magnusdandanell-3a8389178"},
+      {"name": "Angela D'Orazio", "role": "Master Blender", "linkedin": "https://se.linkedin.com/in/angela-d-orazio-6a306761"}
+    ]
+  },
+  {
+    "name": "Deep Planet",
+    "people": [
+      {"name": "Sushma Shankar", "role": "CEO, Co-Founder", "linkedin": "https://uk.linkedin.com/in/sushmashankar1"},
+      {"name": "Natalia Efremova", "role": "CTO, Co-Founder", "linkedin": "https://uk.linkedin.com/in/nataliaef"},
+      {"name": "David Carter", "role": "Co-Founder", "linkedin": null}
+    ]
+  },
+  {
+    "name": "Watgrid (WINEGRID)",
+    "people": [
+      {"name": "Rogerio Nogueira", "role": "CEO, Co-Founder", "linkedin": "https://pt.linkedin.com/in/rogerionogueira"}
+    ]
+  },
+  {
+    "name": "VinoVoss (BetterAI)",
+    "people": [
+      {"name": "Angel Modarres", "role": "CEO", "linkedin": null},
+      {"name": "Arsalan Vossough", "role": "CTO, Co-Founder", "linkedin": "https://ca.linkedin.com/in/arsalan-vossough"}
+    ]
+  },
+  {
+    "name": "Bespoken Spirits",
+    "people": [
+      {"name": "Scott Savage", "role": "CEO", "linkedin": "https://www.linkedin.com/in/scott-savage-bb3402a"},
+      {"name": "James Lew", "role": "Senior Director, Data Science", "linkedin": null}
+    ]
+  }
+]
