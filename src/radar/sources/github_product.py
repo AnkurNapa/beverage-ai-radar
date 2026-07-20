@@ -12,6 +12,10 @@ class GithubProductSource:
         self.lookup_fn = lookup_fn
 
     def enrich(self, company: Company, fetcher) -> Company:
+        # already enriched: skip the API call. On the persistent cron DB this
+        # means only new/un-enriched companies hit GitHub, so runs stay fast.
+        if company.github_url:
+            return company
         data = self.lookup_fn(company) or {}
         if not data:
             return company
