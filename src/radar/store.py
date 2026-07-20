@@ -8,7 +8,7 @@ from radar.model import Company, BeverageVertical, AIMaturity, Status
 
 _ENUM_FIELDS = {"vertical": BeverageVertical, "ai_maturity": AIMaturity, "status": Status}
 _DATE_FIELDS = {"first_seen", "last_seen"}
-_LIST_FIELDS = {"source_urls"}
+_LIST_FIELDS = {"source_urls", "people"}
 
 
 class Store:

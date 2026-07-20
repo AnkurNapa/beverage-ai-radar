@@ -35,6 +35,20 @@ function fillSelect(el, values) {
   }
 }
 
+function peopleHtml(c) {
+  // Prefer structured people (name + LinkedIn link); fall back to the plain string.
+  if (Array.isArray(c.people) && c.people.length) {
+    const items = c.people.map((p) => {
+      const nm = esc(p.name);
+      const link = safeUrl(p.linkedin);
+      const named = link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${nm}</a>` : nm;
+      return p.role ? `${named} <span class="role">(${esc(p.role)})</span>` : named;
+    }).join(", ");
+    return `<p class="people"><span aria-hidden="true">👤</span> ${items}</p>`;
+  }
+  return c.key_people ? `<p class="people"><span aria-hidden="true">👤</span> ${esc(c.key_people)}</p>` : "";
+}
+
 function card(c) {
   const chips = [
     c.vertical && `<span class="chip">${esc(c.vertical)}</span>`,
@@ -50,7 +64,7 @@ function card(c) {
     ${c.hq_location ? `<span class="loc">${esc(c.hq_location)}${c.founded_year ? " · founded " + c.founded_year : ""}</span>` : ""}
     <div class="chips">${chips}</div>
     ${c.short_description ? `<p>${esc(c.short_description)}</p>` : ""}
-    ${c.key_people ? `<p class="people"><span aria-hidden="true">👤</span> ${esc(c.key_people)}</p>` : ""}
+    ${peopleHtml(c)}
     ${srcs ? `<div class="srcs">${srcs}</div>` : ""}
   </article>`;
 }

@@ -3,6 +3,7 @@ from datetime import date
 from pathlib import Path
 from radar.config import ACTIVE_MONTHS
 from radar.model import compute_status, Status
+from radar.outputs.people_fmt import people_md
 from radar.store import Store
 
 
@@ -29,8 +30,9 @@ def _note(company, today: date) -> str:
         company.short_description or "",
         "",
     ]
-    if company.key_people:
-        fm += ["## People", company.key_people, ""]
+    pm = people_md(company)
+    if pm:
+        fm += ["## People", pm, ""]
     fm += ["## Evidence"]
     fm += [f"- {u}" for u in company.source_urls]
     return "\n".join(fm) + "\n"

@@ -58,6 +58,8 @@ body { margin: 0; background: var(--bg); color: var(--ink);
 .chip--muted { background: var(--line); color: var(--muted); }
 .chip--dormant { background: oklch(from var(--dormant) l c h / .2); color: var(--dormant); }
 .company .people { font-size: .82rem; color: var(--muted); }
+.company .people a { color: var(--accent-2); }
+.company .people .role { opacity: .8; }
 .company .srcs { margin-top: auto; font-size: .78rem; }
 .company .srcs a { color: var(--accent-2); }
 .empty { color: var(--muted); grid-column: 1 / -1; padding: 2rem; text-align: center; }

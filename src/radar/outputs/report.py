@@ -3,6 +3,7 @@ from collections import Counter
 from datetime import date
 from radar.config import ACTIVE_MONTHS
 from radar.model import compute_status, Status
+from radar.outputs.people_fmt import people_md
 from radar.store import Store
 
 
@@ -31,7 +32,8 @@ def render_report(store: Store, today: date | None = None) -> str:
     for c in sorted(active, key=lambda x: x.name.lower()):
         vertical = c.vertical.value if c.vertical else "unclassified"
         use = c.ai_use_case or "unspecified use case"
-        people = f" People: {c.key_people}." if c.key_people else ""
+        pm = people_md(c)
+        people = f" People: {pm}." if pm else ""
         lines.append(
             f"- **{c.name}** ({vertical}, {use}). {c.short_description or ''}{people}".rstrip()
         )

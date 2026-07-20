@@ -64,6 +64,7 @@ class Company:
     funding_stage: str | None = None
     total_raised: str | None = None
     key_people: str | None = None
+    people: list = field(default_factory=list)  # [{name, role, linkedin}]
     notable_customers_partners: str | None = None
     short_description: str | None = None
     source_urls: list[str] = field(default_factory=list)
