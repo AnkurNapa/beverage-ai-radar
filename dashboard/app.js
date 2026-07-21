@@ -143,7 +143,7 @@ function card(c) {
   const srcs = (c.source_urls || []).map(safeUrl).filter(Boolean).map((u, i) =>
     `<a href="${esc(u)}" target="_blank" rel="noopener">source ${i + 1}</a>`).join(" · ");
   const site = safeUrl(c.domain ? `https://${c.domain}` : "");
-  return `<article class="company" data-status="${esc(c.status)}">
+  return `<article class="company is-clickable" data-status="${esc(c.status)}" data-route="c/${esc(encodeURIComponent(c.key))}">
     <div class="company__head">
       ${logoHtml(c)}
       <div class="company__id">
@@ -212,6 +212,9 @@ function buildPeople() {
       rows.push({
         name: p.name, role: p.role || "", linkedin: p.linkedin || "",
         company: c.name, vertical: c.vertical || "", status: c.status,
+        // individuals carry their bio + evidence on the company row itself
+        desc: c.company_type === "individual" ? c.short_description || "" : "",
+        sources: c.company_type === "individual" ? (c.source_urls || []) : [],
       });
     }
   }
@@ -224,7 +227,7 @@ function personRow(p) {
   const nm = safeUrl(p.linkedin)
     ? `<a href="${esc(p.linkedin)}" target="_blank" rel="noopener">${esc(p.name)}</a>`
     : esc(p.name);
-  return `<article class="person" data-status="${esc(p.status)}">
+  return `<article class="person is-clickable" data-status="${esc(p.status)}" data-route="p/${esc(slug(p.name))}">
     ${avatarHtml(p.name, "avatar--person")}
     <div class="person__body">
       <div class="person__name">${nm}${p.linkedin ? ' <span class="li">in</span>' : ""}</div>
@@ -249,11 +252,111 @@ function applyPeople() {
     : `<p class="empty">No people match.</p>`;
 }
 
+let CURRENT_TAB = "companies";
 function showView(which) {
-  for (const v of ["companies", "people", "resources"]) {
+  CURRENT_TAB = which;
+  location.hash = "";
+  for (const v of ["companies", "people", "resources", "about"]) {
     $("view-" + v).hidden = which !== v;
     $("tab-" + v).classList.toggle("is-active", which === v);
   }
+  $("view-detail").hidden = true;
+  $("tabs").hidden = false;
+  window.scrollTo(0, 0);
+}
+
+const slug = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+// --- Detail pages (hash-routed, deep-linkable) ---------------------------
+function showDetail(html) {
+  for (const v of ["companies", "people", "resources", "about"]) $("view-" + v).hidden = true;
+  $("tabs").hidden = true;
+  $("detail").innerHTML = html;
+  $("view-detail").hidden = false;
+  window.scrollTo(0, 0);
+}
+
+function row(label, value) {
+  return value ? `<div class="drow"><dt>${esc(label)}</dt><dd>${value}</dd></div>` : "";
+}
+
+function companyDetail(c) {
+  const link = (u, t) => safeUrl(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t || u)}</a>` : "";
+  const people = (c.people || []).map((p) => {
+    const nm = safeUrl(p.linkedin) ? link(p.linkedin, p.name) : esc(p.name);
+    return `<li>${nm}${p.role ? ` <span class="muted">(${esc(p.role)})</span>` : ""}</li>`;
+  }).join("");
+  const sources = (c.source_urls || []).map(safeUrl).filter(Boolean)
+    .map((u, i) => `<li>${link(u, `Source ${i + 1}: ${u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 48)}`)}</li>`).join("");
+  const fund = [c.funding_stage, c.total_raised].filter(Boolean).join(" · ");
+  return `<article class="detail">
+    <div class="detail__head">
+      ${logoHtml(c)}
+      <div>
+        <div class="detail__kind">${c.company_type === "individual" ? "Individual" : "Company / venture"}</div>
+        <h1>${esc(c.name)}</h1>
+        ${c.ai_use_case ? `<p class="usecase">${esc(c.ai_use_case)}</p>` : ""}
+      </div>
+    </div>
+    <div class="chips">
+      ${c.vertical ? `<span class="chip chip--v chip--${esc(c.vertical)}">${esc(c.vertical)}</span>` : ""}
+      ${c.ai_maturity ? `<span class="chip chip--mat chip--${esc(c.ai_maturity)}">${esc(c.ai_maturity)}</span>` : ""}
+      <span class="chip ${c.status === "dormant" ? "chip--dormant" : "chip--shipping"}">${esc(c.status || "")}</span>
+    </div>
+    ${c.short_description ? `<p class="detail__desc">${esc(c.short_description)}</p>` : ""}
+    <dl class="detail__facts">
+      ${row("Headquarters", esc(c.hq_location))}
+      ${row("Founded", c.founded_year)}
+      ${row("Vertical", esc(c.vertical))}
+      ${row("AI maturity", esc(c.ai_maturity))}
+      ${row("Status", esc(c.status))}
+      ${row("Funding", esc(fund))}
+      ${row("Website", link(c.domain ? `https://${c.domain}` : "", c.domain))}
+      ${row("GitHub", link(c.github_url))}
+      ${row("Product", link(c.product_url))}
+      ${row("First seen", esc(c.first_seen))}
+      ${row("Last seen", esc(c.last_seen))}
+    </dl>
+    ${people ? `<h2>People</h2><ul class="detail__list">${people}</ul>` : ""}
+    ${sources ? `<h2>Sources &amp; evidence</h2><ul class="detail__list">${sources}</ul>` : ""}
+  </article>`;
+}
+
+function personDetail(p) {
+  const link = (u, t) => safeUrl(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t || u)}</a>` : "";
+  return `<article class="detail">
+    <div class="detail__head">
+      ${avatarHtml(p.name, "avatar--person")}
+      <div>
+        <div class="detail__kind">Person</div>
+        <h1>${esc(p.name)}</h1>
+        ${p.role ? `<p class="usecase">${esc(p.role)}</p>` : ""}
+      </div>
+    </div>
+    <div class="chips">${p.vertical ? `<span class="chip chip--v chip--${esc(p.vertical)}">${esc(p.vertical)}</span>` : ""}</div>
+    ${p.desc ? `<p class="detail__desc">${esc(p.desc)}</p>` : ""}
+    <dl class="detail__facts">
+      ${row("Company", esc(p.company))}
+      ${row("Vertical", esc(p.vertical))}
+      ${row("LinkedIn", link(p.linkedin))}
+    </dl>
+    ${p.sources?.length ? `<h2>Sources</h2><ul class="detail__list">${p.sources.map((u) => `<li>${link(u)}</li>`).join("")}</ul>` : ""}
+  </article>`;
+}
+
+function route() {
+  const m = (location.hash || "").match(/^#\/(c|p)\/(.+)$/);
+  if (!m) { showView(CURRENT_TAB); return; }
+  const [, kind, id] = m;
+  const key = decodeURIComponent(id);
+  if (kind === "c") {
+    const c = ALL.find((x) => x.key === key);
+    if (c) return showDetail(companyDetail(c));
+  } else if (kind === "p") {
+    const p = PEOPLE.find((x) => slug(x.name) === key);
+    if (p) return showDetail(personDetail(p));
+  }
+  showView(CURRENT_TAB);
 }
 
 // --- Resources view (papers, news, repos, videos) ------------------------
@@ -379,8 +482,22 @@ async function main() {
   $("tab-companies").addEventListener("click", () => showView("companies"));
   $("tab-people").addEventListener("click", () => showView("people"));
   $("tab-resources").addEventListener("click", () => showView("resources"));
+  $("tab-about").addEventListener("click", () => showView("about"));
+
+  // card click -> detail route (but let inner links behave normally)
+  const cardNav = (e) => {
+    if (e.target.closest("a")) return;
+    const el = e.target.closest("[data-route]");
+    if (el) location.hash = "#/" + el.dataset.route;
+  };
+  $("grid").addEventListener("click", cardNav);
+  $("people-list").addEventListener("click", cardNav);
+  $("detail-back").addEventListener("click", (e) => { e.preventDefault(); location.hash = ""; });
 
   await loadResources();
+
+  window.addEventListener("hashchange", route);
+  route();
 }
 
 main();

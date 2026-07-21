@@ -3,9 +3,88 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Beverage-AI Radar</title>
-  <meta name="description" content="A landscape report on companies and people applying AI to beer, whiskey, and wine." />
+  <title>Beverage-AI Radar | AI, Data &amp; Analytics in Beer, Whiskey &amp; Wine</title>
+  <meta name="description" content="A curated, source-cited landscape of companies, people, research, and case studies applying artificial intelligence, machine learning, and data analytics to the beer, whiskey, and wine industries." />
+  <meta name="keywords" content="beverage AI, brewing AI, AI in beer, AI in wine, AI in whiskey, distillery machine learning, winery analytics, brewery data science, beverage business intelligence, food and beverage AI, fermentation AI, sensory AI, flavor prediction, beverage industry data" />
+  <meta name="author" content="Ankur Napa" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://ankurnapa.github.io/beverage-ai-radar/" />
+  <meta name="theme-color" content="#0067b8" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Beverage-AI Radar" />
+  <meta property="og:title" content="Beverage-AI Radar | AI, Data &amp; Analytics in Beer, Whiskey &amp; Wine" />
+  <meta property="og:description" content="A curated, source-cited landscape of companies, people, research, and case studies applying AI and data to beer, whiskey, and wine." />
+  <meta property="og:url" content="https://ankurnapa.github.io/beverage-ai-radar/" />
+  <meta property="og:image" content="https://ankurnapa.github.io/beverage-ai-radar/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Beverage-AI Radar | AI &amp; Data in Beer, Whiskey &amp; Wine" />
+  <meta name="twitter:description" content="A curated, source-cited landscape of who is applying AI and data across beer, whiskey, and wine." />
+  <meta name="twitter:image" content="https://ankurnapa.github.io/beverage-ai-radar/og.png" />
+
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📡</text></svg>" />
+
+  <!-- Structured data: helps search + generative engines cite this dataset -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://ankurnapa.github.io/beverage-ai-radar/#website",
+        "url": "https://ankurnapa.github.io/beverage-ai-radar/",
+        "name": "Beverage-AI Radar",
+        "description": "A curated, source-cited landscape of companies, people, research, and case studies applying AI and data to beer, whiskey, and wine.",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "Dataset",
+        "name": "Beverage-AI Radar",
+        "description": "An open, hand-verified dataset tracking companies, individuals, research papers, news, case studies, open-source repositories, and talks that apply artificial intelligence, machine learning, and data analytics to the beer, whiskey, and wine industries. Every record carries a source URL.",
+        "url": "https://ankurnapa.github.io/beverage-ai-radar/",
+        "keywords": ["beverage AI", "brewing", "distilling", "winemaking", "machine learning", "data analytics", "business intelligence"],
+        "creator": {
+          "@type": "Person",
+          "name": "Ankur Napa",
+          "url": "https://www.linkedin.com/in/ankur-napa/"
+        },
+        "isAccessibleForFree": true,
+        "license": "https://github.com/AnkurNapa/beverage-ai-radar",
+        "distribution": {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://ankurnapa.github.io/beverage-ai-radar/data.json"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Beverage-AI Radar?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Beverage-AI Radar is a curated, source-cited landscape of the companies, people, research, and case studies applying artificial intelligence and data analytics to the beer, whiskey, and wine industries." }
+          },
+          {
+            "@type": "Question",
+            "name": "Who is applying AI to beer, whiskey, and wine?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The radar tracks over 100 companies and individuals across beer, whiskey, and wine, from flavor prediction and sensory analytics to demand forecasting, computer vision, and generative AI, each with links to public evidence." }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I get listed on Beverage-AI Radar?",
+            "acceptedAnswer": { "@type": "Answer", "text": "If you build, analyse, or research AI and data for beer, whiskey, or wine, message Ankur Napa on LinkedIn or open a suggestion on the GitHub repository, and your entry will be added." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -17,10 +96,11 @@
 
   <section class="kpis wrap" id="kpis" aria-label="Headline figures"></section>
 
-  <nav class="tabs wrap" aria-label="Views">
+  <nav class="tabs wrap" id="tabs" aria-label="Views">
     <button id="tab-companies" class="tab is-active" type="button">Companies &amp; ventures</button>
     <button id="tab-people" class="tab" type="button">People</button>
     <button id="tab-resources" class="tab" type="button">Research &amp; resources</button>
+    <button id="tab-about" class="tab" type="button">About</button>
   </nav>
 
   <main class="wrap" id="view-companies">
@@ -93,9 +173,47 @@
     <section id="res-grid" class="grid" aria-live="polite"></section>
   </main>
 
+  <main class="wrap" id="view-about" hidden>
+    <article class="about">
+      <h2>Why this exists</h2>
+      <p>I am Ankur Napa, a brewer who learned to code. I spent years on the brewery floor and then years in data, and I kept meeting people quietly doing the same thing: using AI, machine learning, and analytics to make better beer, whiskey, and wine. We were all working in parallel and rarely finding each other.</p>
+      <p>Beverage-AI Radar is my attempt to fix that. It is one honest, source-cited map of who is applying AI and data across the drinks industry: the companies, the open-source projects, the research, the case studies, and above all the people. Every entry links to real evidence. Nothing here is invented.</p>
+
+      <h2>How it helps</h2>
+      <ul>
+        <li><strong>Find the field.</strong> See at a glance who is shipping, who is piloting, and who is researching across beer, whiskey, and wine.</li>
+        <li><strong>Find the people.</strong> Analysts, data scientists, BI and market-intelligence leaders, and independent builders, each with a public profile.</li>
+        <li><strong>Find the evidence.</strong> Papers, news, vendor and industry-body case studies, repositories, and talks, all in one filterable place.</li>
+        <li><strong>Find each other.</strong> The whole point is to help people working on the same problems meet, compare notes, and build together.</li>
+      </ul>
+
+      <h2>Are you working in this field?</h2>
+      <p>If you build, analyse, or research AI and data for beer, whiskey, or wine and you are not on this radar yet, that is my gap, not yours. I would love to add you. Reach out and I will include you.</p>
+      <p class="about__cta">
+        <a href="https://www.linkedin.com/in/ankur-napa/" target="_blank" rel="noopener">Message me on LinkedIn to get listed</a>
+        <a href="https://github.com/AnkurNapa/beverage-ai-radar" target="_blank" rel="noopener">Suggest an entry on GitHub</a>
+      </p>
+
+      <h2>Updates</h2>
+      <ul class="changelog" id="changelog">
+        <li><span class="cl-date">2026-07-22</span> Added dedicated detail pages, an About and mission page, and full SEO. Extended the tracking window to 10 years.</li>
+        <li><span class="cl-date">2026-07-22</span> Added a Research &amp; resources tab: 18 papers, 26 news and case studies, 23 repositories, and 16 talks, all source-cited.</li>
+        <li><span class="cl-date">2026-07-22</span> Added a People discovery lane for data, BI, and market-intelligence practitioners.</li>
+        <li><span class="cl-date">2026-07-21</span> Rebuilt the dashboard in a Microsoft Fluent style, made the site public, and added logos, avatars, and full filters.</li>
+        <li><span class="cl-date">2026-07-20</span> First public build: curated company landscape with daily refresh.</li>
+      </ul>
+      <p class="about__note">Method: hand-verified seed data, refreshed by an automated pipeline. Every fact carries a source URL. Corrections and additions are welcome.</p>
+    </article>
+  </main>
+
+  <main class="wrap" id="view-detail" hidden>
+    <a class="back" id="detail-back" href="#">&larr; Back to radar</a>
+    <div id="detail"></div>
+  </main>
+
   <footer class="foot wrap">
     <strong>Beverage-AI Radar</strong> &mdash; a curated, source-cited landscape.
-    Every entry carries evidence links; company logos via Clearbit; people shown only with public professional profiles.
+    Every entry carries evidence links; people shown only with public professional profiles.
     Regenerated by the <code>radar</code> pipeline. No account, no tracking.
   </footer>
 

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ankurnapa.github.io/beverage-ai-radar/sitemap.xml
