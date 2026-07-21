@@ -6,9 +6,6 @@
   <title>Beverage-AI Radar</title>
   <meta name="description" content="A landscape report on companies and people applying AI to beer, whiskey, and wine." />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📡</text></svg>" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -43,11 +40,21 @@
         <option value="dormant">Dormant only</option>
       </select>
       <select id="f-type" aria-label="Type"><option value="">All types</option></select>
+      <select id="f-funding" aria-label="Funding stage"><option value="">All funding</option></select>
+      <select id="f-country" aria-label="Country"><option value="">All countries</option></select>
       <select id="f-source" aria-label="Source"><option value="">All sources</option></select>
+      <select id="f-from" aria-label="Founded from year"><option value="">Founded: from</option></select>
+      <select id="f-to" aria-label="Founded to year"><option value="">Founded: to</option></select>
       <select id="f-people" aria-label="People">
         <option value="">Any people</option>
         <option value="named">Has named people</option>
         <option value="linkedin">Has a LinkedIn link</option>
+      </select>
+      <select id="s-sort" aria-label="Sort">
+        <option value="name">Sort: A–Z</option>
+        <option value="recent">Sort: recently active</option>
+        <option value="founded-new">Sort: newest founded</option>
+        <option value="founded-old">Sort: oldest founded</option>
       </select>
       <span id="count" class="count"></span>
     </section>

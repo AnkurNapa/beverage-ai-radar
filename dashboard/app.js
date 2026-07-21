@@ -67,6 +67,22 @@ function sourceOf(c) {
   return "Web research";
 }
 
+// Normalize free-text funding stage into a few clean buckets (seed/Seed -> Seed).
+function fundingBucket(c) {
+  const f = (c.funding_stage || "").toLowerCase();
+  if (!f) return "";
+  if (/public/.test(f)) return "Public";
+  if (/acqui/.test(f)) return "Acquired";
+  if (/bootstrap/.test(f)) return "Bootstrapped";
+  if (/seed/.test(f)) return "Seed";
+  if (/series\s*a/.test(f)) return "Series A";
+  if (/series\s*b/.test(f)) return "Series B";
+  if (/series\s*c/.test(f)) return "Series C";
+  if (/series|vc/.test(f)) return "Later stage";
+  return "Other";
+}
+const countryOf = (c) => (c.hq_location || "").split(",").pop().trim();
+
 function hasNamed(c) {
   return (c.people && c.people.length) || !!c.key_people;
 }
@@ -147,21 +163,37 @@ function apply() {
   const q = $("q").value.trim().toLowerCase();
   const fv = $("f-vertical").value, fu = $("f-usecase").value,
     fm = $("f-maturity").value, fs = $("f-status").value,
-    ft = $("f-type").value, fsrc = $("f-source").value, fp = $("f-people").value;
+    ft = $("f-type").value, fsrc = $("f-source").value, fp = $("f-people").value,
+    ffund = $("f-funding").value, fcty = $("f-country").value, sort = $("s-sort").value,
+    yFrom = +$("f-from").value || 0, yTo = +$("f-to").value || 9999;
   const shown = ALL.filter((c) => {
+    // timeline: when a year bound is set, keep only entries with a founded_year in range
+    if (($("f-from").value || $("f-to").value)) {
+      if (!c.founded_year || c.founded_year < yFrom || c.founded_year > yTo) return false;
+    }
     if (fv && c.vertical !== fv) return false;
     if (fu && c._theme !== fu) return false;
     if (fm && c.ai_maturity !== fm) return false;
     if (fs && c.status !== fs) return false;
     if (ft && (c.company_type || "product") !== ft) return false;
+    if (ffund && fundingBucket(c) !== ffund) return false;
+    if (fcty && countryOf(c) !== fcty) return false;
     if (fsrc && sourceOf(c) !== fsrc) return false;
     if (fp === "named" && !hasNamed(c)) return false;
     if (fp === "linkedin" && !hasLinkedin(c)) return false;
     if (q) {
-      const hay = `${c.name} ${c.hq_location} ${c.short_description} ${c.key_people || ""}`.toLowerCase();
+      const hay = `${c.name} ${c.hq_location} ${c.short_description} ${c.ai_use_case || ""} ${c.key_people || ""}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
+  });
+  const yr = (c) => c.founded_year || 0;
+  const seen = (c) => c.last_seen || "";
+  shown.sort((a, b) => {
+    if (sort === "recent") return seen(b).localeCompare(seen(a)) || a.name.localeCompare(b.name);
+    if (sort === "founded-new") return yr(b) - yr(a) || a.name.localeCompare(b.name);
+    if (sort === "founded-old") return (yr(a) || 9999) - (yr(b) || 9999) || a.name.localeCompare(b.name);
+    return a.name.localeCompare(b.name);
   });
   $("count").textContent = `${shown.length} of ${ALL.length}`;
   $("grid").innerHTML = shown.length
@@ -270,9 +302,15 @@ async function main() {
   fillSelect($("f-usecase"), counts(ALL, "_theme").map((p) => p[0]));
   fillSelect($("f-maturity"), counts(ALL, "ai_maturity").map((p) => p[0]));
   fillSelect($("f-type"), counts(ALL.map((c) => ({ company_type: c.company_type || "product" })), "company_type").map((p) => p[0]));
+  fillSelect($("f-funding"), counts(ALL.map((c) => ({ f: fundingBucket(c) })).filter((x) => x.f), "f").map((p) => p[0]));
+  fillSelect($("f-country"), counts(ALL.filter((c) => countryOf(c)).map((c) => ({ c: countryOf(c) })), "c").map((p) => p[0]));
   fillSelect($("f-source"), counts(ALL.map((c) => ({ source: sourceOf(c) })), "source").map((p) => p[0]));
+  const years = [...new Set(ALL.map((c) => c.founded_year).filter(Boolean))].sort((a, b) => a - b);
+  fillSelect($("f-from"), years.map(String));
+  fillSelect($("f-to"), years.map(String));
 
-  for (const id of ["q", "f-vertical", "f-usecase", "f-maturity", "f-status", "f-type", "f-source", "f-people"]) {
+  for (const id of ["q", "f-vertical", "f-usecase", "f-maturity", "f-status", "f-type",
+    "f-funding", "f-country", "f-source", "f-from", "f-to", "f-people", "s-sort"]) {
     $(id).addEventListener("input", apply);
   }
   apply();
