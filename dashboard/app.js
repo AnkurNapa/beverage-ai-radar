@@ -9,6 +9,22 @@ const safeUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "";
 
 let ALL = [];
 
+// Where a company was discovered, derived from its evidence URLs + type.
+function sourceOf(c) {
+  const urls = (c.source_urls || []).join(" ").toLowerCase();
+  if (/drinktec\.com|yontex/.test(urls)) return "Drinktec";
+  if (/agfundernews/.test(urls)) return "AgFunder";
+  if (c.company_type === "service") return "Service research";
+  return "Web research";
+}
+
+function hasNamed(c) {
+  return (c.people && c.people.length) || !!c.key_people;
+}
+function hasLinkedin(c) {
+  return (c.people || []).some((p) => p.linkedin);
+}
+
 function counts(list, field) {
   const m = new Map();
   for (const c of list) {
@@ -73,12 +89,17 @@ function card(c) {
 function apply() {
   const q = $("q").value.trim().toLowerCase();
   const fv = $("f-vertical").value, fu = $("f-usecase").value,
-    fm = $("f-maturity").value, fs = $("f-status").value;
+    fm = $("f-maturity").value, fs = $("f-status").value,
+    ft = $("f-type").value, fsrc = $("f-source").value, fp = $("f-people").value;
   const shown = ALL.filter((c) => {
     if (fv && c.vertical !== fv) return false;
     if (fu && c.ai_use_case !== fu) return false;
     if (fm && c.ai_maturity !== fm) return false;
     if (fs && c.status !== fs) return false;
+    if (ft && (c.company_type || "product") !== ft) return false;
+    if (fsrc && sourceOf(c) !== fsrc) return false;
+    if (fp === "named" && !hasNamed(c)) return false;
+    if (fp === "linkedin" && !hasLinkedin(c)) return false;
     if (q) {
       const hay = `${c.name} ${c.hq_location} ${c.short_description} ${c.key_people || ""}`.toLowerCase();
       if (!hay.includes(q)) return false;
@@ -109,8 +130,10 @@ async function main() {
   fillSelect($("f-vertical"), counts(ALL, "vertical").map((p) => p[0]));
   fillSelect($("f-usecase"), counts(ALL, "ai_use_case").map((p) => p[0]));
   fillSelect($("f-maturity"), counts(ALL, "ai_maturity").map((p) => p[0]));
+  fillSelect($("f-type"), counts(ALL.map((c) => ({ company_type: c.company_type || "product" })), "company_type").map((p) => p[0]));
+  fillSelect($("f-source"), counts(ALL.map((c) => ({ source: sourceOf(c) })), "source").map((p) => p[0]));
 
-  for (const id of ["q", "f-vertical", "f-usecase", "f-maturity", "f-status"]) {
+  for (const id of ["q", "f-vertical", "f-usecase", "f-maturity", "f-status", "f-type", "f-source", "f-people"]) {
     $(id).addEventListener("input", apply);
   }
   apply();
