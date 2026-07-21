@@ -1,0 +1,148 @@
+# Beverage-AI outreach checklist
+
+70 people from the radar with a LinkedIn profile. Tick each off as you send a connection request.
+
+Note template (personalized per person below): `Hi <First>, I map how AI is being applied across beer, wine and spirits and came across <Company>. Would love to connect.`
+
+> Tip: keep to ~15-20/day; basic LinkedIn caps free invite notes at ~5/month.
+
+- [ ] **A.J. Heindel** — Co-founder · Unicorn Auctions — [https://www.linkedin.com/in/ajheindel](https://www.linkedin.com/in/ajheindel)
+  - Note: Hi A.J., I map how AI is being applied across beer, wine and spirits and came across Unicorn Auctions. Would love to connect.
+- [ ] **Adam Koeppel** — Co-Founder & CEO · Agrology — [https://www.linkedin.com/in/adamkoeppel](https://www.linkedin.com/in/adamkoeppel)
+  - Note: Hi Adam, I map how AI is being applied across beer, wine and spirits and came across Agrology. Would love to connect.
+- [ ] **Alon Chen** — CEO and Co-founder · Tastewise — [https://www.linkedin.com/in/alonchen](https://www.linkedin.com/in/alonchen)
+  - Note: Hi Alon, I map how AI is being applied across beer, wine and spirits and came across Tastewise. Would love to connect.
+- [ ] **Angela D'Orazio** — Master Blender · Mackmyra — [https://se.linkedin.com/in/angela-d-orazio-6a306761](https://se.linkedin.com/in/angela-d-orazio-6a306761)
+  - Note: Hi Angela, I map how AI is being applied across beer, wine and spirits and came across Mackmyra. Would love to connect.
+- [ ] **Anthony Moniello** — Co-CEO · Next Century Spirits — [https://www.linkedin.com/in/anthony-moniello-89933615](https://www.linkedin.com/in/anthony-moniello-89933615)
+  - Note: Hi Anthony, I map how AI is being applied across beer, wine and spirits and came across Next Century Spirits. Would love to connect.
+- [ ] **Anton van den Hengel** — Founder · Deep Liquid — [https://au.linkedin.com/in/antonvandenhengel](https://au.linkedin.com/in/antonvandenhengel)
+  - Note: Hi Anton, I map how AI is being applied across beer, wine and spirits and came across Deep Liquid. Would love to connect.
+- [ ] **Arsalan Vossough** — CTO, Co-Founder · VinoVoss — [https://ca.linkedin.com/in/arsalan-vossough](https://ca.linkedin.com/in/arsalan-vossough)
+  - Note: Hi Arsalan, I map how AI is being applied across beer, wine and spirits and came across VinoVoss. Would love to connect.
+- [ ] **Aymeric Barthes** — Co-Founder & CEO · Naio Technologies — [https://www.linkedin.com/in/aymeric-barthes](https://www.linkedin.com/in/aymeric-barthes)
+  - Note: Hi Aymeric, I map how AI is being applied across beer, wine and spirits and came across Naio Technologies. Would love to connect.
+- [ ] **Barry Collier** — Co-Founder & CTO/CPO · DRINKS — [https://www.linkedin.com/in/barrycollier](https://www.linkedin.com/in/barrycollier)
+  - Note: Hi Barry, I map how AI is being applied across beer, wine and spirits and came across DRINKS. Would love to connect.
+- [ ] **Brad Brown** — Senior Scientist · Aromyx — [https://www.linkedin.com/in/brad-brown-bb57293](https://www.linkedin.com/in/brad-brown-bb57293)
+  - Note: Hi Brad, I map how AI is being applied across beer, wine and spirits and came across Aromyx. Would love to connect.
+- [ ] **Brett Danielson** — Co-founder and CEO · BarTrack — [https://www.linkedin.com/in/brett-danielson-8549b9154](https://www.linkedin.com/in/brett-danielson-8549b9154)
+  - Note: Hi Brett, I map how AI is being applied across beer, wine and spirits and came across BarTrack. Would love to connect.
+- [ ] **Cathy Huyghe** — CEO, Co-Founder · Enolytics — [https://www.linkedin.com/in/cathy-huyghe-332307](https://www.linkedin.com/in/cathy-huyghe-332307)
+  - Note: Hi Cathy, I map how AI is being applied across beer, wine and spirits and came across Enolytics. Would love to connect.
+- [ ] **Chris Huyghe** — Co-Founder · Enolytics — [https://www.linkedin.com/in/chrishuyghe](https://www.linkedin.com/in/chrishuyghe)
+  - Note: Hi Chris, I map how AI is being applied across beer, wine and spirits and came across Enolytics. Would love to connect.
+- [ ] **Christopher MacDonald** — COO · VineView — [https://www.linkedin.com/in/christopher-macdonald-9170542](https://www.linkedin.com/in/christopher-macdonald-9170542)
+  - Note: Hi Christopher, I map how AI is being applied across beer, wine and spirits and came across VineView. Would love to connect.
+- [ ] **Daniel Protz** — Founder and CEO · FlavorWiki — [https://www.linkedin.com/in/daniel-protz-707b772a](https://www.linkedin.com/in/daniel-protz-707b772a)
+  - Note: Hi Daniel, I map how AI is being applied across beer, wine and spirits and came across FlavorWiki. Would love to connect.
+- [ ] **Danny Walker** — Co-founder and Distiller · Circumstance Distillery — [https://www.linkedin.com/in/danny-walker-distiller](https://www.linkedin.com/in/danny-walker-distiller)
+  - Note: Hi Danny, I map how AI is being applied across beer, wine and spirits and came across Circumstance Distillery. Would love to connect.
+- [ ] **Denham D'Silva** — CEO, Founder · Deep Liquid — [https://au.linkedin.com/in/denham-d-silva-5b560a5](https://au.linkedin.com/in/denham-d-silva-5b560a5)
+  - Note: Hi Denham, I map how AI is being applied across beer, wine and spirits and came across Deep Liquid. Would love to connect.
+- [ ] **Dolf van den Brink** — Chairman of the Executive Board and CEO · Heineken — [https://www.linkedin.com/in/dolfvandenbrink](https://www.linkedin.com/in/dolfvandenbrink)
+  - Note: Hi Dolf, I map how AI is being applied across beer, wine and spirits and came across Heineken. Would love to connect.
+- [ ] **Gaetan Severac** — Co-Founder · Naio Technologies — [https://www.linkedin.com/in/gaetansev](https://www.linkedin.com/in/gaetansev)
+  - Note: Hi Gaetan, I map how AI is being applied across beer, wine and spirits and came across Naio Technologies. Would love to connect.
+- [ ] **Gary Fish** — Founder · Deschutes Brewery — [https://www.linkedin.com/in/gary-fish-33865917](https://www.linkedin.com/in/gary-fish-33865917)
+  - Note: Hi Gary, I map how AI is being applied across beer, wine and spirits and came across Deschutes Brewery. Would love to connect.
+- [ ] **Grant Hobar** — Co-founder · BarTrack — [https://www.linkedin.com/in/grant-hobar](https://www.linkedin.com/in/grant-hobar)
+  - Note: Hi Grant, I map how AI is being applied across beer, wine and spirits and came across BarTrack. Would love to connect.
+- [ ] **Hayden Wolf** — CEO & President · Bloomfield Robotics — [https://www.linkedin.com/in/haydenwolf](https://www.linkedin.com/in/haydenwolf)
+  - Note: Hi Hayden, I map how AI is being applied across beer, wine and spirits and came across Bloomfield Robotics. Would love to connect.
+- [ ] **Heini Zachariassen** — Co-founder and past CEO · Vivino — [https://www.linkedin.com/in/heini](https://www.linkedin.com/in/heini)
+  - Note: Hi Heini, I map how AI is being applied across beer, wine and spirits and came across Vivino. Would love to connect.
+- [ ] **Hew Leith** — Co-Founder · IntelligentX — [https://uk.linkedin.com/in/hewleith](https://uk.linkedin.com/in/hewleith)
+  - Note: Hi Hew, I map how AI is being applied across beer, wine and spirits and came across IntelligentX. Would love to connect.
+- [ ] **Hideki Horiguchi** — President and CEO · Kirin Holdings — [https://www.linkedin.com/in/hideki-horiguchi-63879185](https://www.linkedin.com/in/hideki-horiguchi-63879185)
+  - Note: Hi Hideki, I map how AI is being applied across beer, wine and spirits and came across Kirin Holdings. Would love to connect.
+- [ ] **Hunter Markle** — Co-founder · BarTrack — [https://www.linkedin.com/in/hunter-markle-082075135](https://www.linkedin.com/in/hunter-markle-082075135)
+  - Note: Hi Hunter, I map how AI is being applied across beer, wine and spirits and came across BarTrack. Would love to connect.
+- [ ] **Jacob Aarup-Andersen** — CEO · Carlsberg — [https://www.linkedin.com/in/jacob-aarup-andersen](https://www.linkedin.com/in/jacob-aarup-andersen)
+  - Note: Hi Jacob, I map how AI is being applied across beer, wine and spirits and came across Carlsberg. Would love to connect.
+- [ ] **Jamie Sherrah** — CTO · Deep Liquid — [https://au.linkedin.com/in/jsherrah](https://au.linkedin.com/in/jsherrah)
+  - Note: Hi Jamie, I map how AI is being applied across beer, wine and spirits and came across Deep Liquid. Would love to connect.
+- [ ] **Jared Resnick** — Founder and CEO · Precision Fermentation — [https://www.linkedin.com/in/jared-resnick-9b8745115](https://www.linkedin.com/in/jared-resnick-9b8745115)
+  - Note: Hi Jared, I map how AI is being applied across beer, wine and spirits and came across Precision Fermentation. Would love to connect.
+- [ ] **Jason Cohen** — Founder, Chief Scientist · Analytical Flavor Systems — [https://www.linkedin.com/in/jason-cohen-897164127](https://www.linkedin.com/in/jason-cohen-897164127)
+  - Note: Hi Jason, I map how AI is being applied across beer, wine and spirits and came across Analytical Flavor Systems. Would love to connect.
+- [ ] **Jean Rovani** — Director of AI Engineering · Bloomfield Robotics — [https://www.linkedin.com/in/jean-rovani-a7a34b339](https://www.linkedin.com/in/jean-rovani-a7a34b339)
+  - Note: Hi Jean, I map how AI is being applied across beer, wine and spirits and came across Bloomfield Robotics. Would love to connect.
+- [ ] **Jenny Lemieux** — Co-Founder & CEO · Vivid Machines — [https://www.linkedin.com/in/jennylemieux](https://www.linkedin.com/in/jennylemieux)
+  - Note: Hi Jenny, I map how AI is being applied across beer, wine and spirits and came across Vivid Machines. Would love to connect.
+- [ ] **Joe Laurendi** — Co-founder · Bright Cellars — [https://www.linkedin.com/in/jlaurendi](https://www.linkedin.com/in/jlaurendi)
+  - Note: Hi Joe, I map how AI is being applied across beer, wine and spirits and came across Bright Cellars. Would love to connect.
+- [ ] **Joe Megibow** — CEO · Bright Cellars — [https://www.linkedin.com/in/megibow](https://www.linkedin.com/in/megibow)
+  - Note: Hi Joe, I map how AI is being applied across beer, wine and spirits and came across Bright Cellars. Would love to connect.
+- [ ] **Joel Pawlak** — Co-founder · Next Century Spirits — [https://www.linkedin.com/in/joel-pawlak-a7301336](https://www.linkedin.com/in/joel-pawlak-a7301336)
+  - Note: Hi Joel, I map how AI is being applied across beer, wine and spirits and came across Next Century Spirits. Would love to connect.
+- [ ] **Josh Silverman** — Chief Science Advisor · Aromyx — [https://www.linkedin.com/in/josh-silverman-2176263](https://www.linkedin.com/in/josh-silverman-2176263)
+  - Note: Hi Josh, I map how AI is being applied across beer, wine and spirits and came across Aromyx. Would love to connect.
+- [ ] **Julien Laithier** — President · Winespace — [https://www.linkedin.com/in/julien-laithier](https://www.linkedin.com/in/julien-laithier)
+  - Note: Hi Julien, I map how AI is being applied across beer, wine and spirits and came across Winespace. Would love to connect.
+- [ ] **Katerina Axelsson** — CEO, Founder · Tastry — [https://www.linkedin.com/in/katerina-axelsson-a3888078](https://www.linkedin.com/in/katerina-axelsson-a3888078)
+  - Note: Hi Katerina, I map how AI is being applied across beer, wine and spirits and came across Tastry. Would love to connect.
+- [ ] **Kevin Jessen** — SVP Technology & Product · Firstleaf — [https://www.linkedin.com/in/kevinejessen](https://www.linkedin.com/in/kevinejessen)
+  - Note: Hi Kevin, I map how AI is being applied across beer, wine and spirits and came across Firstleaf. Would love to connect.
+- [ ] **Laurie Millotte** — Founder & CEO · Outshinery — [https://www.linkedin.com/in/lauriemillotte](https://www.linkedin.com/in/lauriemillotte)
+  - Note: Hi Laurie, I map how AI is being applied across beer, wine and spirits and came across Outshinery. Would love to connect.
+- [ ] **Liam Hirt** — Co-founder · Circumstance Distillery — [https://www.linkedin.com/in/liamhirt](https://www.linkedin.com/in/liamhirt)
+  - Note: Hi Liam, I map how AI is being applied across beer, wine and spirits and came across Circumstance Distillery. Would love to connect.
+- [ ] **Magnus Dandanell** — CEO, Co-Founder · Mackmyra — [https://se.linkedin.com/in/magnusdandanell-3a8389178](https://se.linkedin.com/in/magnusdandanell-3a8389178)
+  - Note: Hi Magnus, I map how AI is being applied across beer, wine and spirits and came across Mackmyra. Would love to connect.
+- [ ] **Magnus Valmot** — CEO · PLAATO — [https://www.linkedin.com/in/magnusvalmot](https://www.linkedin.com/in/magnusvalmot)
+  - Note: Hi Magnus, I map how AI is being applied across beer, wine and spirits and came across PLAATO. Would love to connect.
+- [ ] **Marc De Kuyper** — Founder and CEO · Overproof — [https://www.linkedin.com/in/marcdekuyper](https://www.linkedin.com/in/marcdekuyper)
+  - Note: Hi Marc, I map how AI is being applied across beer, wine and spirits and came across Overproof. Would love to connect.
+- [ ] **Mark Young** — Founder and CEO · BeerBoard — [https://www.linkedin.com/in/mark-young-7b8b554](https://www.linkedin.com/in/mark-young-7b8b554)
+  - Note: Hi Mark, I map how AI is being applied across beer, wine and spirits and came across BeerBoard. Would love to connect.
+- [ ] **Matthew Peetz** — Founder & CEO · Propagate Lab — [https://www.linkedin.com/in/matthew-peetz-58851676](https://www.linkedin.com/in/matthew-peetz-58851676)
+  - Note: Hi Matthew, I map how AI is being applied across beer, wine and spirits and came across Propagate Lab. Would love to connect.
+- [ ] **Max Nowack** — Founder & CTO · VineForecast — [https://www.linkedin.com/in/max-nowack](https://www.linkedin.com/in/max-nowack)
+  - Note: Hi Max, I map how AI is being applied across beer, wine and spirits and came across VineForecast. Would love to connect.
+- [ ] **Michael Kononsky** — Co-Founder · PLAATO — [https://www.linkedin.com/in/kononsky](https://www.linkedin.com/in/kononsky)
+  - Note: Hi Michael, I map how AI is being applied across beer, wine and spirits and came across PLAATO. Would love to connect.
+- [ ] **Michel Doukeris** — CEO · Anheuser-Busch InBev — [https://www.linkedin.com/in/michel-doukeris](https://www.linkedin.com/in/michel-doukeris)
+  - Note: Hi Michel, I map how AI is being applied across beer, wine and spirits and came across Anheuser-Busch InBev. Would love to connect.
+- [ ] **Natalia Efremova** — CTO, Co-Founder · Deep Planet — [https://uk.linkedin.com/in/nataliaef](https://uk.linkedin.com/in/nataliaef)
+  - Note: Hi Natalia, I map how AI is being applied across beer, wine and spirits and came across Deep Planet. Would love to connect.
+- [ ] **Pam Dillon** — CEO, Co-Founder · Preferabli — [https://www.linkedin.com/in/pam-dillon-b8b77a7](https://www.linkedin.com/in/pam-dillon-b8b77a7)
+  - Note: Hi Pam, I map how AI is being applied across beer, wine and spirits and came across Preferabli. Would love to connect.
+- [ ] **Peter Skrbek** — CEO · Deschutes Brewery — [https://www.linkedin.com/in/peter-skrbek-104a3615](https://www.linkedin.com/in/peter-skrbek-104a3615)
+  - Note: Hi Peter, I map how AI is being applied across beer, wine and spirits and came across Deschutes Brewery. Would love to connect.
+- [ ] **Petros Venetopoulos** — Co-Founder & CEO · Zymoscope — [https://www.linkedin.com/in/petven](https://www.linkedin.com/in/petven)
+  - Note: Hi Petros, I map how AI is being applied across beer, wine and spirits and came across Zymoscope. Would love to connect.
+- [ ] **Phil Mikhaylov** — CEO and Co-founder · Unicorn Auctions — [https://www.linkedin.com/in/philmikhaylov](https://www.linkedin.com/in/philmikhaylov)
+  - Note: Hi Phil, I map how AI is being applied across beer, wine and spirits and came across Unicorn Auctions. Would love to connect.
+- [ ] **Philip James** — Founder & CEO · Firstleaf — [https://www.linkedin.com/in/philipjames](https://www.linkedin.com/in/philipjames)
+  - Note: Hi Philip, I map how AI is being applied across beer, wine and spirits and came across Firstleaf. Would love to connect.
+- [ ] **Pulkit K. Agrawal** — Founder and CEO · The 5th Ingredient — [https://www.linkedin.com/in/pulkitkagrawal](https://www.linkedin.com/in/pulkitkagrawal)
+  - Note: Hi Pulkit, I map how AI is being applied across beer, wine and spirits and came across The 5th Ingredient. Would love to connect.
+- [ ] **Radoslaw Pilarski** — Lead / Coordinator · Whisky Project — [https://www.linkedin.com/in/rpilarski](https://www.linkedin.com/in/rpilarski)
+  - Note: Hi Radoslaw, I map how AI is being applied across beer, wine and spirits and came across Whisky Project. Would love to connect.
+- [ ] **Rahul Goyal** — President and CEO · Molson Coors — [https://www.linkedin.com/in/rahuldgoyal](https://www.linkedin.com/in/rahuldgoyal)
+  - Note: Hi Rahul, I map how AI is being applied across beer, wine and spirits and came across Molson Coors. Would love to connect.
+- [ ] **Ramsey Masri** — CEO · Ceres Imaging — [https://www.linkedin.com/in/ramsey-masri-11392](https://www.linkedin.com/in/ramsey-masri-11392)
+  - Note: Hi Ramsey, I map how AI is being applied across beer, wine and spirits and came across Ceres Imaging. Would love to connect.
+- [ ] **Richard Yau** — Co-founder · Bright Cellars — [https://www.linkedin.com/in/richardsyau](https://www.linkedin.com/in/richardsyau)
+  - Note: Hi Richard, I map how AI is being applied across beer, wine and spirits and came across Bright Cellars. Would love to connect.
+- [ ] **Richard van der Put** — CEO · VineView — [https://www.linkedin.com/in/richard-van-der-put-4a8aa17](https://www.linkedin.com/in/richard-van-der-put-4a8aa17)
+  - Note: Hi Richard, I map how AI is being applied across beer, wine and spirits and came across VineView. Would love to connect.
+- [ ] **Rob Mason** — Co-CEO · Next Century Spirits — [https://www.linkedin.com/in/rob-w-mason](https://www.linkedin.com/in/rob-w-mason)
+  - Note: Hi Rob, I map how AI is being applied across beer, wine and spirits and came across Next Century Spirits. Would love to connect.
+- [ ] **Rob McInerney** — Co-Founder · IntelligentX — [https://uk.linkedin.com/in/remcinerney](https://uk.linkedin.com/in/remcinerney)
+  - Note: Hi Rob, I map how AI is being applied across beer, wine and spirits and came across IntelligentX. Would love to connect.
+- [ ] **Rogerio Nogueira** — CEO, Co-Founder · Watgrid — [https://pt.linkedin.com/in/rogerionogueira](https://pt.linkedin.com/in/rogerionogueira)
+  - Note: Hi Rogerio, I map how AI is being applied across beer, wine and spirits and came across Watgrid. Would love to connect.
+- [ ] **Scott Savage** — CEO · Bespoken Spirits — [https://www.linkedin.com/in/scott-savage-bb3402a](https://www.linkedin.com/in/scott-savage-bb3402a)
+  - Note: Hi Scott, I map how AI is being applied across beer, wine and spirits and came across Bespoken Spirits. Would love to connect.
+- [ ] **Sushma Shankar** — CEO, Co-Founder · Deep Planet — [https://uk.linkedin.com/in/sushmashankar1](https://uk.linkedin.com/in/sushmashankar1)
+  - Note: Hi Sushma, I map how AI is being applied across beer, wine and spirits and came across Deep Planet. Would love to connect.
+- [ ] **Sylvain Thibaud** — CEO and Co-founder · Winespace — [https://www.linkedin.com/in/sylvain-thibaud](https://www.linkedin.com/in/sylvain-thibaud)
+  - Note: Hi Sylvain, I map how AI is being applied across beer, wine and spirits and came across Winespace. Would love to connect.
+- [ ] **Theis Sondergaard** — Co-founder · Vivino — [https://www.linkedin.com/in/theissondergaard](https://www.linkedin.com/in/theissondergaard)
+  - Note: Hi Theis, I map how AI is being applied across beer, wine and spirits and came across Vivino. Would love to connect.
+- [ ] **Tyler Locke** — Co-Founder & CTO · Agrology — [https://www.linkedin.com/in/tylerlocke](https://www.linkedin.com/in/tylerlocke)
+  - Note: Hi Tyler, I map how AI is being applied across beer, wine and spirits and came across Agrology. Would love to connect.
+- [ ] **Zac Brandenberg** — Co-Founder & CEO · DRINKS — [https://www.linkedin.com/in/zac-brandenberg](https://www.linkedin.com/in/zac-brandenberg)
+  - Note: Hi Zac, I map how AI is being applied across beer, wine and spirits and came across DRINKS. Would love to connect.
