@@ -112,6 +112,58 @@ function apply() {
     : `<p class="empty">No companies match these filters.</p>`;
 }
 
+// --- People view ---------------------------------------------------------
+let PEOPLE = [];
+
+function buildPeople() {
+  const rows = [];
+  for (const c of ALL) {
+    for (const p of c.people || []) {
+      if (!p.name) continue;
+      rows.push({
+        name: p.name, role: p.role || "", linkedin: p.linkedin || "",
+        company: c.name, vertical: c.vertical || "", status: c.status,
+      });
+    }
+  }
+  rows.sort((a, b) => a.name.localeCompare(b.name));
+  return rows;
+}
+
+function personRow(p) {
+  const nm = safeUrl(p.linkedin)
+    ? `<a href="${esc(p.linkedin)}" target="_blank" rel="noopener">${esc(p.name)}</a>`
+    : esc(p.name);
+  return `<article class="person" data-status="${esc(p.status)}">
+    <div class="person__name">${nm}${p.linkedin ? ' <span class="li">in</span>' : ""}</div>
+    <div class="person__meta">${esc(p.role)}${p.role ? " · " : ""}<strong>${esc(p.company)}</strong>${p.vertical ? ` · ${esc(p.vertical)}` : ""}</div>
+  </article>`;
+}
+
+function applyPeople() {
+  const q = $("pq").value.trim().toLowerCase();
+  const fv = $("fp-vertical").value, fl = $("fp-linkedin").value;
+  const shown = PEOPLE.filter((p) => {
+    if (fv && p.vertical !== fv) return false;
+    if (fl && !p.linkedin) return false;
+    if (q && !`${p.name} ${p.role} ${p.company}`.toLowerCase().includes(q)) return false;
+    return true;
+  });
+  const withLi = shown.filter((p) => p.linkedin).length;
+  $("pcount").textContent = `${shown.length} people · ${withLi} with LinkedIn`;
+  $("people-list").innerHTML = shown.length
+    ? shown.map(personRow).join("")
+    : `<p class="empty">No people match.</p>`;
+}
+
+function showView(which) {
+  const people = which === "people";
+  $("view-companies").hidden = people;
+  $("view-people").hidden = !people;
+  $("tab-companies").classList.toggle("is-active", !people);
+  $("tab-people").classList.toggle("is-active", people);
+}
+
 async function main() {
   let data;
   try {
@@ -137,6 +189,14 @@ async function main() {
     $(id).addEventListener("input", apply);
   }
   apply();
+
+  // People view
+  PEOPLE = buildPeople();
+  fillSelect($("fp-vertical"), [...new Set(PEOPLE.map((p) => p.vertical).filter(Boolean))].sort());
+  for (const id of ["pq", "fp-vertical", "fp-linkedin"]) $(id).addEventListener("input", applyPeople);
+  applyPeople();
+  $("tab-companies").addEventListener("click", () => showView("companies"));
+  $("tab-people").addEventListener("click", () => showView("people"));
 }
 
 main();
