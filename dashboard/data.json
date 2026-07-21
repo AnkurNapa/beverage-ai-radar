@@ -2936,5 +2936,174 @@
     "latest_news_headline": null,
     "why_interesting": null,
     "key": "smartdrs.com"
+  },
+  {
+    "name": "Bira 91 (B9 Beverages)",
+    "domain": "bira91.com",
+    "hq_location": "New Delhi, India",
+    "founded_year": 2015,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "brand",
+    "ai_use_case": "AI/ML digital core + data-lake analytics for demand and decisioning",
+    "ai_maturity": "pilot",
+    "funding_stage": "Series (VC-backed)",
+    "total_raised": "$500M+ (approx, various rounds)",
+    "key_people": "Ankur Jain (CEO & Founder)",
+    "people": [
+      {
+        "name": "Ankur Jain",
+        "role": "CEO & Founder",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Indian premium beer brand. In July 2023 Bira 91 partnered with Accenture to build a cloud digital core on SAP S/4HANA integrating its data lake with 'artificial intelligence and machine learning' plus intelligent search/analytics, to drive demand responsiveness and data-driven decision-making across its supply chain and operations.",
+    "source_urls": [
+      "https://newsroom.accenture.com/news/2023/bira-91-collaborates-with-accenture-to-accelerate-enterprise-reinvention-journey",
+      "https://www.business-standard.com/companies/news/accenture-to-transform-beer-company-bira91-s-technology-platform-123071800250_1.html"
+    ],
+    "first_seen": "2023-07-18",
+    "last_seen": "2023-07-18",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "key": "bira91.com"
+  },
+  {
+    "name": "United Breweries Limited (Kingfisher, Heineken-owned)",
+    "domain": "unitedbreweries.com",
+    "hq_location": "Bengaluru, India",
+    "founded_year": 1857,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "brewery",
+    "ai_use_case": "ML demand forecasting (SKU/retailer level) on a shared data platform",
+    "ai_maturity": "shipping",
+    "funding_stage": "Public",
+    "total_raised": null,
+    "key_people": "Jelle Van Etten (CDO, Heineken)",
+    "people": [
+      {
+        "name": "Jelle Van Etten",
+        "role": "Chief Data Officer, Heineken",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "India's largest brewer (Kingfisher), majority-owned by Heineken. Heineken's Databricks-based DataPrime data platform runs ML demand forecasting at SKU and retailer level plus Promo Advisor / pricing tools in production; the group's data pipelines into the central data lake are managed from a shared-service center in India. India is thus an operating node of the production ML data platform, not just a consumer.",
+    "source_urls": [
+      "https://diginomica.com/cdo-interview-jelle-van-etten-brews-heinekens-data-standards",
+      "https://www.databricks.com/customers/heineken-international"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2025-04-01",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "key": "unitedbreweries.com"
+  },
+  {
+    "name": "Carlsberg India (Carlsberg Group India GCC)",
+    "domain": "carlsbergindia.in",
+    "hq_location": "Gurugram, India",
+    "founded_year": 2007,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "brewery (with India IT/AI capability center)",
+    "ai_use_case": "AI-driven pricing/demand forecasting + automation-led ops + GenAI reporting",
+    "ai_maturity": "pilot",
+    "funding_stage": "Public",
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "Carlsberg launched its first-ever IT Global Capability Centre in Gurugram (Sept 2025, with GSPANN, 300+ staff, Hyderabad support) to drive automation and 'scale AI implementations' worldwide. The group runs concrete AI use cases including AI-driven pricing/premiumization analytics, demand forecasting, and GenAI that auto-generates ~80% of financial-reporting commentary, with India as a critical delivery hub.",
+    "source_urls": [
+      "https://infotechlead.com/cio/carlsberg-accelerates-digital-transformation-with-ai-driven-pricing-premiumization-and-data-led-growth-strategy-94634",
+      "https://www.bwmarketingworld.com/article/carlsberg-taps-into-indias-tech-talent-pool-with-first-gcc-embeds-ai-automation-571467",
+      "https://www.carlsberggroup.com/newsroom/carlsberg-group-launches-its-first-ever-it-global-capability-centre-in-gurugram/"
+    ],
+    "first_seen": "2025-09-03",
+    "last_seen": "2025-09-03",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "key": "carlsbergindia.in"
+  },
+  {
+    "name": "iWort",
+    "domain": "iwort.com",
+    "hq_location": "Bengaluru, India",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "beer-tech / AI vendor",
+    "ai_use_case": "consumer-preference NLP, recipe optimization ML, predictive maintenance, demand forecasting",
+    "ai_maturity": "pilot",
+    "funding_stage": "Bootstrapped",
+    "total_raised": null,
+    "key_people": "Ankur Napa (Founder & Product Owner)",
+    "people": [
+      {
+        "name": "Ankur Napa",
+        "role": "Founder & Product Owner",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "India-based data-science and AI platform for the brewing industry founded by brewmaster-turned-data-scientist Ankur Napa (ex-AB InBev, SABMiller, United Breweries). It runs algorithms that analyze consumer reviews to detect beer-preference shifts, ML models that correlate ingredients/methods with consumer satisfaction for recipe optimization, predictive-maintenance and demand-forecasting models, on a Python/Azure/GCP/Power BI + IoT stack.",
+    "source_urls": [
+      "https://www.brewer-world.com/smart-brewing-at-iwort-using-algorithms-to-keep-up-with-beer-tastes/",
+      "https://www.imarcgroup.com/insight/ai-is-transforming-india-beer-industry"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2025-06-01",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "key": "iwort.com"
+  },
+  {
+    "name": "ReFlow Tech",
+    "domain": "reflowtech.in",
+    "hq_location": "India",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "beer-tech vendor",
+    "ai_use_case": "AI-driven batch-consistency analytics on fermentation IoT data",
+    "ai_maturity": "shipping",
+    "funding_stage": "Bootstrapped",
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "Indian smart-manufacturing vendor whose brewery product monitors temperature, pressure, specific gravity, pH and DO in real time and layers 'AI-driven analytics' on the historical batch data to improve batch-to-batch consistency scientifically, replacing manual brew logs. Live product with at least one named brewery client (2Pints).",
+    "source_urls": [
+      "https://reflowtech.in/brewery",
+      "https://www.imarcgroup.com/insight/ai-is-transforming-india-beer-industry"
+    ],
+    "first_seen": "2025-01-01",
+    "last_seen": "2026-06-01",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "key": "reflowtech.in"
   }
 ]

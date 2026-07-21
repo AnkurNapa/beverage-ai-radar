@@ -9,6 +9,27 @@ const safeUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "";
 
 let ALL = [];
 
+// ai_use_case is free text (~36 distinct strings), useless as a breakdown.
+// Bucket it into a handful of themes; first matching rule wins, specific first.
+// ponytail: keyword heuristic, ~9 buckets / 0 "Other" on current data —
+// add a rule (or a per-company override field) when a new use case lands in "Other".
+const THEME_RULES = [
+  [/vineyard|disease|yield|robot|germination|malting|barley/, "Agriculture & crop"],
+  [/quality|computer vision|inspection|traceability/, "Quality & inspection"],
+  [/sensory|flavor|recipe|taste|preference/, "Sensory & recipe"],
+  [/consumer|trend|recommendation|personaliz|insight/, "Consumer & personalization"],
+  [/demand|forecast|pricing|sales/, "Demand & pricing"],
+  [/supply chain|logistics|container|deposit return/, "Supply chain"],
+  [/genai|marketing/, "GenAI & marketing"],
+  [/consult/, "Consulting"],
+  [/fermentation|production|digital twin|cip\b|process|batch|maintenance|iiot|iot|line|draft|operating system|worker|knowledge|workflow|data platform|assistant|agent|sensor/, "Process & operations"],
+];
+const themeOf = (c) => {
+  const t = (c.ai_use_case || "").toLowerCase();
+  for (const [re, name] of THEME_RULES) if (re.test(t)) return name;
+  return "Other";
+};
+
 // Where a company was discovered, derived from its evidence URLs + type.
 function sourceOf(c) {
   const urls = (c.source_urls || []).join(" ").toLowerCase();
@@ -93,7 +114,7 @@ function apply() {
     ft = $("f-type").value, fsrc = $("f-source").value, fp = $("f-people").value;
   const shown = ALL.filter((c) => {
     if (fv && c.vertical !== fv) return false;
-    if (fu && c.ai_use_case !== fu) return false;
+    if (fu && c._theme !== fu) return false;
     if (fm && c.ai_maturity !== fm) return false;
     if (fs && c.status !== fs) return false;
     if (ft && (c.company_type || "product") !== ft) return false;
@@ -126,7 +147,8 @@ function buildPeople() {
       });
     }
   }
-  rows.sort((a, b) => a.name.localeCompare(b.name));
+  // Reachable-first: people with a LinkedIn link sort above the rest, then by name.
+  rows.sort((a, b) => (!!b.linkedin - !!a.linkedin) || a.name.localeCompare(b.name));
   return rows;
 }
 
@@ -173,14 +195,15 @@ async function main() {
     return;
   }
   ALL = Array.isArray(data) ? data : data.companies || [];
+  for (const c of ALL) c._theme = themeOf(c);
   $("meta").textContent = `${ALL.length} companies tracked`;
 
   renderBars($("bd-vertical"), counts(ALL, "vertical"));
-  renderBars($("bd-usecase"), counts(ALL, "ai_use_case"));
+  renderBars($("bd-usecase"), counts(ALL, "_theme"));
   renderBars($("bd-maturity"), counts(ALL, "ai_maturity"));
 
   fillSelect($("f-vertical"), counts(ALL, "vertical").map((p) => p[0]));
-  fillSelect($("f-usecase"), counts(ALL, "ai_use_case").map((p) => p[0]));
+  fillSelect($("f-usecase"), counts(ALL, "_theme").map((p) => p[0]));
   fillSelect($("f-maturity"), counts(ALL, "ai_maturity").map((p) => p[0]));
   fillSelect($("f-type"), counts(ALL.map((c) => ({ company_type: c.company_type || "product" })), "company_type").map((p) => p[0]));
   fillSelect($("f-source"), counts(ALL.map((c) => ({ source: sourceOf(c) })), "source").map((p) => p[0]));
