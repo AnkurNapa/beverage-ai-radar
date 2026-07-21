@@ -21,9 +21,12 @@
   <key>WorkingDirectory</key>
   <string>/Users/ankurnapa/Documents/beverage-ai-radar</string>
 
-  <!-- every 2 hours (twice per 4-hour window) -->
-  <key>StartInterval</key>
-  <integer>7200</integer>
+  <!-- once a day at 07:30 -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>7</integer>
+    <key>Minute</key><integer>30</integer>
+  </dict>
 
   <key>StandardOutPath</key>
   <string>/Users/ankurnapa/Documents/beverage-ai-radar/radar.log</string>
