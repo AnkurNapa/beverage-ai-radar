@@ -3057,7 +3057,7 @@
       {
         "name": "Ankur Napa",
         "role": "Founder & Product Owner",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/ankur-napa/"
       }
     ],
     "notable_customers_partners": null,
@@ -3105,5 +3105,42 @@
     "latest_news_headline": null,
     "why_interesting": null,
     "key": "reflowtech.in"
+  },
+  {
+    "name": "Ankur Napa",
+    "domain": null,
+    "hq_location": "Bangalore, India",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "AI/ML tooling for brewing and beverage: recipe/flavor prediction, sensory analytics, consumer-review NLP, demand forecasting; ships hands-on web apps and calculators",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ankur Napa (Independent builder \u2014 brewing data science & AI)",
+    "people": [
+      {
+        "name": "Ankur Napa",
+        "role": "Independent builder \u2014 brewing data science & AI",
+        "linkedin": "https://www.linkedin.com/in/ankur-napa/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Brewmaster-turned-data-scientist (ex-AB InBev, SABMiller, United Breweries) building AI/data tools across beer, whiskey and wine as an independent practitioner. Founder of iWort; ships open web apps (brewing calculators, flavor-forge, brewery analytics) and writes on the gap between the number and the floor reality.",
+    "source_urls": [
+      "https://ankurnapa.github.io/",
+      "https://github.com/AnkurNapa",
+      "https://www.linkedin.com/in/ankur-napa/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/ankur-napa/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "key": "ankur-napa::india"
   }
 ]

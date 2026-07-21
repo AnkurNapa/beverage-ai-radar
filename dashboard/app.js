@@ -7,6 +7,34 @@ const esc = (s) => (s ?? "").replace(/[&<>"]/g, (c) =>
 // only http(s) links are clickable; anything else (javascript:, data:) is dropped.
 const safeUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "";
 
+// Deterministic warm palette for initials avatars (hash name -> hue band).
+const AVATAR_HUES = [18, 32, 44, 280, 200, 340, 150];
+function initials(name) {
+  const parts = (name || "?").trim().split(/\s+/).filter(Boolean);
+  return ((parts[0]?.[0] || "?") + (parts.length > 1 ? parts[parts.length - 1][0] : "")).toUpperCase();
+}
+function avatarHue(name) {
+  let h = 0;
+  for (const ch of name || "") h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return AVATAR_HUES[h % AVATAR_HUES.length];
+}
+function avatarHtml(name, cls = "") {
+  const hue = avatarHue(name);
+  return `<span class="avatar ${cls}" style="--h:${hue}" aria-hidden="true">${esc(initials(name))}</span>`;
+}
+// Company logo via Clearbit (public, keyless). Falls back to an initials tile
+// on load error (no domain, or Clearbit has none) with zero extra requests.
+function logoHtml(c) {
+  const fallback = avatarHtml(c.name, "avatar--logo");
+  if (c.company_type === "individual") return avatarHtml(c.name, "avatar--logo avatar--person");
+  if (!c.domain) return fallback;
+  // Google's favicon service: public, reliable, returns real brand marks.
+  // (Clearbit's logo API was discontinued after the HubSpot acquisition.)
+  const src = `https://www.google.com/s2/favicons?domain=${esc(c.domain)}&sz=64`;
+  return `<span class="logo"><img class="logo__fav" src="${src}" alt="" loading="lazy" width="28" height="28"
+    onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />${fallback}</span>`;
+}
+
 let ALL = [];
 
 // ai_use_case is free text (~36 distinct strings), useless as a breakdown.
@@ -87,23 +115,31 @@ function peopleHtml(c) {
 }
 
 function card(c) {
+  const individual = c.company_type === "individual";
   const chips = [
-    c.vertical && `<span class="chip">${esc(c.vertical)}</span>`,
+    c.vertical && `<span class="chip chip--v chip--${esc(c.vertical)}">${esc(c.vertical)}</span>`,
+    individual && `<span class="chip chip--indiv">individual</span>`,
     c.company_type === "service" && `<span class="chip chip--muted">service</span>`,
-    c.ai_use_case && `<span class="chip">${esc(c.ai_use_case)}</span>`,
-    c.ai_maturity && `<span class="chip chip--muted">${esc(c.ai_maturity)}</span>`,
+    c.ai_maturity && `<span class="chip chip--mat chip--${esc(c.ai_maturity)}">${esc(c.ai_maturity)}</span>`,
     c.status === "dormant" && `<span class="chip chip--dormant">dormant</span>`,
     c.funding_stage && `<span class="chip chip--muted">${esc(c.funding_stage)}${c.total_raised ? " · " + esc(c.total_raised) : ""}</span>`,
   ].filter(Boolean).join("");
   const srcs = (c.source_urls || []).map(safeUrl).filter(Boolean).map((u, i) =>
     `<a href="${esc(u)}" target="_blank" rel="noopener">source ${i + 1}</a>`).join(" · ");
+  const site = safeUrl(c.domain ? `https://${c.domain}` : "");
   return `<article class="company" data-status="${esc(c.status)}">
-    <h3>${esc(c.name)}</h3>
-    ${c.hq_location ? `<span class="loc">${esc(c.hq_location)}${c.founded_year ? " · founded " + c.founded_year : ""}</span>` : ""}
+    <div class="company__head">
+      ${logoHtml(c)}
+      <div class="company__id">
+        <h3>${esc(c.name)}</h3>
+        ${c.hq_location ? `<span class="loc">${esc(c.hq_location)}${c.founded_year ? " · " + c.founded_year : ""}</span>` : ""}
+      </div>
+    </div>
+    ${c.ai_use_case ? `<p class="usecase">${esc(c.ai_use_case)}</p>` : ""}
     <div class="chips">${chips}</div>
     ${c.short_description ? `<p>${esc(c.short_description)}</p>` : ""}
     ${peopleHtml(c)}
-    ${srcs ? `<div class="srcs">${srcs}</div>` : ""}
+    <div class="srcs">${site ? `<a href="${esc(site)}" target="_blank" rel="noopener">website ↗</a>${srcs ? " · " : ""}` : ""}${srcs}</div>
   </article>`;
 }
 
@@ -157,8 +193,11 @@ function personRow(p) {
     ? `<a href="${esc(p.linkedin)}" target="_blank" rel="noopener">${esc(p.name)}</a>`
     : esc(p.name);
   return `<article class="person" data-status="${esc(p.status)}">
-    <div class="person__name">${nm}${p.linkedin ? ' <span class="li">in</span>' : ""}</div>
-    <div class="person__meta">${esc(p.role)}${p.role ? " · " : ""}<strong>${esc(p.company)}</strong>${p.vertical ? ` · ${esc(p.vertical)}` : ""}</div>
+    ${avatarHtml(p.name, "avatar--person")}
+    <div class="person__body">
+      <div class="person__name">${nm}${p.linkedin ? ' <span class="li">in</span>' : ""}</div>
+      <div class="person__meta">${esc(p.role)}${p.role ? " · " : ""}<strong>${esc(p.company)}</strong>${p.vertical ? ` · ${esc(p.vertical)}` : ""}</div>
+    </div>
   </article>`;
 }
 
@@ -186,6 +225,30 @@ function showView(which) {
   $("tab-people").classList.toggle("is-active", people);
 }
 
+function renderKpis() {
+  const n = ALL.length;
+  const active = ALL.filter((c) => c.status === "active").length;
+  const shipping = ALL.filter((c) => c.ai_maturity === "shipping").length;
+  const individuals = ALL.filter((c) => c.company_type === "individual").length;
+  const peopleCount = ALL.reduce((s, c) => s + (c.people?.length || 0), 0);
+  const verticals = new Set(ALL.map((c) => c.vertical).filter(Boolean)).size;
+  const cards = [
+    [n, "tracked", "companies & ventures"],
+    [active, "active", "seen in the last 18 months"],
+    [shipping, "shipping", "product in market, not just research"],
+    [verticals, "verticals", "beer · whiskey · wine · multiple"],
+    [peopleCount, "people", `named across the landscape`],
+    [individuals, "individuals", "solo builders, not just companies"],
+  ];
+  $("kpis").innerHTML = cards.map(([num, label, sub]) => `
+    <div class="kpi">
+      <span class="kpi__num">${num}</span>
+      <span class="kpi__label">${esc(label)}</span>
+      <span class="kpi__sub">${esc(sub)}</span>
+    </div>`).join("");
+  $("meta").textContent = `${n} entries · ${active} active · ${peopleCount} people.`;
+}
+
 async function main() {
   let data;
   try {
@@ -196,7 +259,8 @@ async function main() {
   }
   ALL = Array.isArray(data) ? data : data.companies || [];
   for (const c of ALL) c._theme = themeOf(c);
-  $("meta").textContent = `${ALL.length} companies tracked`;
+
+  renderKpis();
 
   renderBars($("bd-vertical"), counts(ALL, "vertical"));
   renderBars($("bd-usecase"), counts(ALL, "_theme"));

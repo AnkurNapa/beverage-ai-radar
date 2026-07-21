@@ -17,6 +17,7 @@ def _live_sources():
     Enrichment: GitHub (keyless), Crunchbase + LinkedIn (degrade to no-op).
     """
     from radar.sources.curated_seed import CuratedSeedSource
+    from radar.sources.curated_people import CuratedPeopleSource
     from radar.sources.web_search import WebSearchSource, default_search_fn
     from radar.sources.trade_press import TradePressSource, DEFAULT_FEEDS, default_parse_fn
     from radar.sources.github_product import GithubProductSource
@@ -26,6 +27,7 @@ def _live_sources():
 
     return [
         CuratedSeedSource(config.SEED_PATH),
+        CuratedPeopleSource(config.PEOPLE_SEED_PATH),
         WebSearchSource(default_search_fn),
         TradePressSource(DEFAULT_FEEDS, default_parse_fn),
         GithubProductSource(gh_lookup),

@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-07-22. 69 active, 21 dormant.
+Snapshot: 2026-07-22. 70 active, 21 dormant.
 
 ## Active companies
 
@@ -8,6 +8,7 @@ Snapshot: 2026-07-22. 69 active, 21 dormant.
 - **Algorithm Factory** (multiple, demand forecasting). Supply chain planning software provider whose Sunstice platform is tailored to breweries and beverage manufacturers. It sells AI-based demand forecasting and production optimization to beverage makers, with reference customers including Heineken, BrewDog, and Paulaner.
 - **Allie AI** (multiple, factory-trained AI agents for production lines). Allie AI embeds AI agents into manufacturing operations that observe, learn, and act across machines and sensors to detect deviations and recommend corrective actions. It is used on beverage lines by producers including Heineken and PepsiCo.
 - **Alpha MOS** (multiple, sensory). Alpha MOS is a publicly listed sensory-analysis solution vendor that builds electronic nose, electronic tongue, and electronic eye instruments and also runs outsourced sensory-analysis labs for food and beverage clients including beer, wine, and spirits makers. Its instruments use pattern-recognition algorithms to objectify taste and aroma.
+- **Ankur Napa** (multiple, AI/ML tooling for brewing and beverage: recipe/flavor prediction, sensory analytics, consumer-review NLP, demand forecasting; ships hands-on web apps and calculators). Brewmaster-turned-data-scientist (ex-AB InBev, SABMiller, United Breweries) building AI/data tools across beer, whiskey and wine as an independent practitioner. Founder of iWort; ships open web apps (brewing calculators, flavor-forge, brewery analytics) and writes on the gap between the number and the floor reality. People: [Ankur Napa](https://www.linkedin.com/in/ankur-napa/) (Independent builder — brewing data science & AI).
 - **Antares Vision Group** (multiple, AI and blockchain product traceability and inspection data). Antares Vision Group provides an integrated software and hardware ecosystem for product quality inspection and end-to-end traceability. It applies artificial intelligence and blockchain to connected data management across the supply chain.
 - **Aromalytics** (multiple, sensory). Aromalytics offers an AI electronic-nose platform delivered as software and hardware as a service, digitizing smell to replace human sensory panels for food and beverage quality control and adulteration detection. It serves drinks and food manufacturers plus safety agencies.
 - **Authentic Vision** (multiple, quality control / computer vision). Authentic Vision sells a smartphone authentication service built on unique Holographic Fingerprint security labels that let anyone verify a bottle and detect counterfeits. Wine and spirits are core industries served, with AI-backed verification and geolocation analytics.
@@ -36,7 +37,7 @@ Snapshot: 2026-07-22. 69 active, 21 dormant.
 - **Indeex** (multiple, brewery digital twin with AI production analytics). Indeex provides an industrial digital twin and AI-powered analytics software platform for breweries and beverage producers. It connects to existing equipment to deliver real-time visibility, process optimization, and performance improvements across the production cycle.
 - **Infinity Sky AI** (multiple, AI consulting). AI automation agency and custom development studio that builds bespoke AI systems for breweries, wineries, and distilleries. Projects cover demand forecasting, inventory management, production scheduling, quality control, and TTB compliance automation.
 - **INTECH Automation & Intelligence (EmpowerGPT)** (multiple, on-premise AI knowledge and workflow platform). EmpowerGPT is a secure AI platform for enterprise knowledge management and workflow automation that runs on-premise without cloud dependency. For beverage and liquid-food manufacturers it processes technical manuals, production documents, and compliance records.
-- **iWort** (beer, consumer-preference NLP, recipe optimization ML, predictive maintenance, demand forecasting). India-based data-science and AI platform for the brewing industry founded by brewmaster-turned-data-scientist Ankur Napa (ex-AB InBev, SABMiller, United Breweries). It runs algorithms that analyze consumer reviews to detect beer-preference shifts, ML models that correlate ingredients/methods with consumer satisfaction for recipe optimization, predictive-maintenance and demand-forecasting models, on a Python/Azure/GCP/Power BI + IoT stack. People: Ankur Napa (Founder & Product Owner).
+- **iWort** (beer, consumer-preference NLP, recipe optimization ML, predictive maintenance, demand forecasting). India-based data-science and AI platform for the brewing industry founded by brewmaster-turned-data-scientist Ankur Napa (ex-AB InBev, SABMiller, United Breweries). It runs algorithms that analyze consumer reviews to detect beer-preference shifts, ML models that correlate ingredients/methods with consumer satisfaction for recipe optimization, predictive-maintenance and demand-forecasting models, on a Python/Azure/GCP/Power BI + IoT stack. People: [Ankur Napa](https://www.linkedin.com/in/ankur-napa/) (Founder & Product Owner).
 - **IWSR** (multiple, consumer insight / trend prediction). IWSR is a data, analytics, and insight service for the beverage alcohol industry, combining data science with human intelligence to model the global wine, beer, and spirits market. It sells trend forecasting and market intelligence to producers, distributors, and investors.
 - **Kigtek Solutions** (whiskey, quality control / computer vision). Scottish systems-integration firm whose CaskTEK platform adds AI vision, automated quality capture and real-time analytics to whisky cask filling, disgorging and traceability to cut product loss for large distillers.
 - **Kirin Holdings** (beer, recipe / flavor prediction). Kirin built a proprietary AI recipe system, developed with Mitsubishi Research Institute, that draws on roughly 20 years of internal ingredient and tasting data to translate desired sensory profiles into ingredient combinations. Kirin plans to bring AI-supported beers to market from March 2026. People: [Hideki Horiguchi](https://www.linkedin.com/in/hideki-horiguchi-63879185) (President and CEO).
@@ -100,7 +101,7 @@ Snapshot: 2026-07-22. 69 active, 21 dormant.
 
 ## By vertical (active)
 
-- multiple: 34
+- multiple: 35
 - beer: 17
 - wine: 14
 - whiskey: 4
@@ -141,3 +142,4 @@ Snapshot: 2026-07-22. 69 active, 21 dormant.
 - AI-driven pricing/demand forecasting + automation-led ops + GenAI reporting: 1
 - consumer-preference NLP, recipe optimization ML, predictive maintenance, demand forecasting: 1
 - AI-driven batch-consistency analytics on fermentation IoT data: 1
+- AI/ML tooling for brewing and beverage: recipe/flavor prediction, sensory analytics, consumer-review NLP, demand forecasting; ships hands-on web apps and calculators: 1

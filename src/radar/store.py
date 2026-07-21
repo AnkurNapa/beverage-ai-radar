@@ -94,6 +94,12 @@ class Store:
                 continue
             if f.name == "source_urls":
                 merged.source_urls = sorted(set(old.source_urls) | set(nv))
+            elif f.name == "people":
+                # curated lanes are authoritative for people; a non-empty new
+                # list replaces (so seed corrections propagate). Enrichment emits
+                # [], which is falsy here, so it can never clobber curated people.
+                if nv:
+                    merged.people = nv
             elif f.name == "first_seen":
                 merged.first_seen = min(x for x in (old.first_seen, nv) if x)
             elif f.name == "last_seen":

@@ -21,10 +21,46 @@
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink);
   font-family: Inter, system-ui, sans-serif; line-height: 1.5; }
-.hero { padding: 2.5rem 1.5rem 1.5rem; max-width: 1100px; margin: 0 auto; }
-.brand { font-family: Fraunces, serif; font-weight: 600; font-size: clamp(1.8rem, 1rem + 3vw, 2.8rem); }
-.tag { color: var(--muted); margin: .4rem 0 0; max-width: 60ch; }
 .wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem 3rem; }
+
+/* --- Report hero ------------------------------------------------------- */
+.hero { padding: 3rem 1.5rem 1.25rem; border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, oklch(from var(--accent) l c h / .06), transparent); }
+.hero__eyebrow { font-size: .72rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--accent); display: inline-flex; align-items: center; gap: .4rem; }
+.hero__title { font-family: Fraunces, serif; font-weight: 600; line-height: 1.02;
+  font-size: clamp(2.2rem, 1rem + 5vw, 4rem); margin: .5rem 0 .4rem; letter-spacing: -.01em; }
+.hero__lede { color: var(--muted); margin: 0; max-width: 62ch; font-size: 1.05rem; }
+.hero__lede em { color: var(--ink); font-style: normal; font-weight: 600; }
+.hero__meta { display: block; margin-top: .6rem; font-size: .85rem; color: var(--accent); font-weight: 500; }
+
+/* --- KPI band ---------------------------------------------------------- */
+.kpis { display: grid; grid-template-columns: repeat(6, 1fr); gap: .75rem;
+  padding-top: 1.5rem; padding-bottom: 1.5rem; }
+@media (max-width: 860px) { .kpis { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 460px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+.kpi { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 1rem 1.1rem; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+.kpi__num { font-family: Fraunces, serif; font-weight: 700; font-size: 2.1rem; line-height: 1;
+  color: var(--accent); font-variant-numeric: tabular-nums; }
+.kpi__label { font-weight: 600; font-size: .82rem; margin-top: .35rem; text-transform: capitalize; }
+.kpi__sub { color: var(--muted); font-size: .72rem; margin-top: .15rem; }
+
+/* --- Logos & avatars --------------------------------------------------- */
+.logo { position: relative; width: 44px; height: 44px; flex: none; }
+.logo__fav { position: absolute; inset: 0; margin: auto; width: 28px; height: 28px; object-fit: contain;
+  border-radius: 6px; }
+.logo::before { content: ""; position: absolute; inset: 0; border-radius: 10px;
+  background: var(--surface); border: 1px solid var(--line); }
+.logo__fav { z-index: 1; }
+.avatar { width: 44px; height: 44px; flex: none; border-radius: 10px; display: flex;
+  align-items: center; justify-content: center; font-weight: 600; font-size: .95rem;
+  color: oklch(35% 0.09 var(--h)); background: oklch(88% 0.07 var(--h)); }
+.logo .avatar { position: absolute; inset: 0; display: none; }
+.avatar--person { border-radius: 999px; }
+@media (prefers-color-scheme: dark) {
+  .avatar { color: oklch(92% 0.05 var(--h)); background: oklch(45% 0.09 var(--h)); }
+}
 
 .tabs { display: flex; gap: .5rem; margin: 0 auto 1rem; padding: 0 1.5rem; }
 .tab { font: inherit; font-weight: 600; cursor: pointer; padding: .5rem 1rem;
@@ -37,7 +73,9 @@ body { margin: 0; background: var(--bg); color: var(--ink);
 
 .people-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: .75rem; }
 .person { background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
-  padding: .8rem 1rem; box-shadow: var(--shadow); transition: transform .15s ease; }
+  padding: .8rem 1rem; box-shadow: var(--shadow); transition: transform .15s ease;
+  display: flex; gap: .7rem; align-items: center; }
+.person__body { min-width: 0; }
 .person:hover { transform: translateY(-2px); }
 .person[data-status="dormant"] { opacity: .72; }
 .person__name { font-family: Fraunces, serif; font-size: 1.02rem; }
@@ -71,14 +109,31 @@ body { margin: 0; background: var(--bg); color: var(--ink);
   transition: transform .15s ease, box-shadow .15s ease; }
 .company:hover { transform: translateY(-2px); box-shadow: 0 4px 8px oklch(0% 0 0 / .08), 0 16px 40px oklch(0% 0 0 / .1); }
 .company[data-status="dormant"] { opacity: .72; }
-.company h3 { font-family: Fraunces, serif; font-size: 1.15rem; margin: 0; }
+.company__head { display: flex; gap: .75rem; align-items: center; }
+.company__id { min-width: 0; }
+.company h3 { font-family: Fraunces, serif; font-size: 1.15rem; margin: 0; line-height: 1.15; }
 .company .loc { color: var(--muted); font-size: .8rem; }
+.company .usecase { font-size: .82rem; font-weight: 600; color: var(--accent); margin: 0; }
 .company p { margin: 0; font-size: .9rem; }
 .chips { display: flex; flex-wrap: wrap; gap: .35rem; }
 .chip { font-size: .7rem; padding: .18rem .5rem; border-radius: 999px; background: oklch(from var(--accent) l c h / .13);
   color: var(--accent); font-weight: 500; white-space: nowrap; }
 .chip--muted { background: var(--line); color: var(--muted); }
 .chip--dormant { background: oklch(from var(--dormant) l c h / .2); color: var(--dormant); }
+.chip--indiv { background: oklch(from var(--accent-2) l c h / .15); color: var(--accent-2); }
+/* vertical-coded chips */
+.chip--beer { background: oklch(85% 0.12 85 / .5); color: oklch(42% 0.12 70); }
+.chip--whiskey { background: oklch(80% 0.11 55 / .5); color: oklch(40% 0.13 45); }
+.chip--wine { background: oklch(82% 0.10 10 / .5); color: oklch(42% 0.14 5); }
+.chip--multiple { background: oklch(85% 0.07 200 / .5); color: oklch(42% 0.10 240); }
+/* maturity-coded chips */
+.chip--shipping { background: oklch(85% 0.11 150 / .5); color: oklch(40% 0.12 155); }
+.chip--pilot { background: oklch(88% 0.10 95 / .5); color: oklch(44% 0.11 80); }
+.chip--research { background: var(--line); color: var(--muted); }
+@media (prefers-color-scheme: dark) {
+  .chip--beer,.chip--whiskey,.chip--wine,.chip--multiple,
+  .chip--shipping,.chip--pilot { color: oklch(92% 0.02 80); }
+}
 .company .people { font-size: .82rem; color: var(--muted); }
 .company .people a { color: var(--accent-2); }
 .company .people .role { opacity: .8; }

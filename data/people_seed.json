@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Ankur Napa",
+    "role": "Independent builder — brewing data science & AI",
+    "linkedin": "https://www.linkedin.com/in/ankur-napa/",
+    "location": "Bangalore, India",
+    "vertical": "multiple",
+    "ai_use_case": "AI/ML tooling for brewing and beverage: recipe/flavor prediction, sensory analytics, consumer-review NLP, demand forecasting; ships hands-on web apps and calculators",
+    "ai_maturity": "shipping",
+    "short_description": "Brewmaster-turned-data-scientist (ex-AB InBev, SABMiller, United Breweries) building AI/data tools across beer, whiskey and wine as an independent practitioner. Founder of iWort; ships open web apps (brewing calculators, flavor-forge, brewery analytics) and writes on the gap between the number and the floor reality.",
+    "source_urls": [
+      "https://www.linkedin.com/in/ankur-napa/",
+      "https://github.com/AnkurNapa",
+      "https://ankurnapa.github.io/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22"
+  }
+]
