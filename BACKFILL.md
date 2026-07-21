@@ -78,3 +78,18 @@ public repo. Until then, preview locally:
 PYTHONPATH=src .venv/bin/python -m radar.cli export
 cd dashboard && python3 -m http.server 8099   # http://localhost:8099
 ```
+
+## Drinktec re-pull (biennial fair)
+
+Drinktec's exhibitor UI is a JS app, but it is backed by a public Directus JSON
+API: `https://yontex.directus.app/items/exhibitor` (paginated, English
+descriptions + company website URLs). To refresh after the next Drinktec
+edition: fetch that endpoint, filter descriptions for AI/ML/data/software
+signals (exclude bottling/filling/packaging machinery), take the company's own
+website as the domain, tag `company_type` product/service, and merge into
+data/seed.json. Not wired into the 2h cron on purpose: the fair is biennial, so
+the exhibitor list barely changes between editions.
+
+AgFunder is a news feed, handled by the signals watcher (src/radar/signals.py);
+it is agtech-broad, so beverage-AI companies there are sparse and mostly already
+tracked. Re-run the on-demand agent pass if you want to sweep it again.
