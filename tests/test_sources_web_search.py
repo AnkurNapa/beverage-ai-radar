@@ -12,7 +12,7 @@ def test_converts_recent_results_and_drops_stale():
     companies = src.discover(fetcher=None)
     keys = {c.key for c in companies}
     assert "brewbrain.ai" in keys
-    assert "oldwine.com" not in keys  # 2019 is older than 5 years
+    assert "oldwine.com" not in keys  # 2012 is older than 10 years
     bb = next(c for c in companies if c.key == "brewbrain.ai")
     assert bb.vertical == BeverageVertical.BEER
     assert "https://brewbrain.ai/news" in bb.source_urls

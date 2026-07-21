@@ -15,5 +15,163 @@
     ],
     "first_seen": "2024-01-01",
     "last_seen": "2026-07-22"
+  },
+  {
+    "name": "Bart Watson",
+    "role": "President and CEO, former Chief Economist (craft beer market data and analytics) — Brewers Association",
+    "linkedin": "https://www.linkedin.com/in/bart-watson/",
+    "location": "Boulder, Colorado, USA",
+    "vertical": "beer",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "short_description": "PhD economist who built the Brewers Association's craft beer production, sales, and market intelligence data program and was long the public face of US beer industry statistics.",
+    "source_urls": [
+      "https://www.brewersassociation.org/association-news/bart-watson-named-president-and-chief-executive-officer-of-the-brewers-association/",
+      "https://www.linkedin.com/in/bart-watson/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22"
+  },
+  {
+    "name": "Erin Schmidt",
+    "role": "Director, Commercial Analytics — Molson Coors Beverage Company",
+    "linkedin": "https://www.linkedin.com/in/erin-schmidt-92a18a4/",
+    "location": "Milwaukee, Wisconsin, USA",
+    "vertical": "beer",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "short_description": "Leads commercial and business analytics for Molson Coors across the Americas, with a decade in beverage revenue management and business intelligence.",
+    "source_urls": [
+      "https://business.wisc.edu/centers/nicholas/blog/erin-schmidt-director-commerical-analytics-molson-coors/",
+      "https://www.linkedin.com/in/erin-schmidt-92a18a4/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22"
+  },
+  {
+    "name": "Willy Lin",
+    "role": "Former Product Lead, Tech Supply (brewery data and predictive analytics) — Amazon (formerly Anheuser-Busch InBev)",
+    "linkedin": "https://www.linkedin.com/in/willy-lin/",
+    "location": "New York, USA",
+    "vertical": "beer",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "short_description": "At AB InBev he moved plant-floor brewery data to the cloud and built predictive analytics to make breweries more efficient; profiled by Cornell Tech before moving on.",
+    "source_urls": [
+      "https://admissions.tech.cornell.edu/2022/01/05/data-science-in-brewing-willy-lin-orie-20/",
+      "https://www.linkedin.com/in/willy-lin/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22"
+  },
+  {
+    "name": "Amanda Dobbyn",
+    "role": "Data scientist / senior data engineer; author of a widely cited beer-styles data science project — independent (beer project); now Indigo",
+    "linkedin": "https://www.linkedin.com/in/amanda-dobbyn/",
+    "location": "Chicago, USA",
+    "vertical": "beer",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "short_description": "Built a public clustering and classification analysis of 45,000-plus beers to test whether beer styles hold up statistically, a well-known beer data science project.",
+    "source_urls": [
+      "https://aedobbyn.github.io/beer-data-science/",
+      "https://www.linkedin.com/in/amanda-dobbyn/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22"
+  },
+  {
+    "name": "Cathy Huyghe",
+    "role": "Co-Founder and CEO, wine and spirits data analytics / business intelligence — Enolytics",
+    "linkedin": "https://www.linkedin.com/in/cathy-huyghe-332307/",
+    "location": "Atlanta, Georgia, USA",
+    "vertical": "multiple",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "short_description": "Co-founded Enolytics in 2016 to bring big-data business intelligence to wine and spirits companies worldwide, building analytics apps on the Qlik platform.",
+    "source_urls": [
+      "https://www.enolytics.com/our-team",
+      "https://www.linkedin.com/in/cathy-huyghe-332307/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22"
+  },
+  {
+    "name": "Lulie Halstead",
+    "role": "Co-Founder and former CEO, wine consumer research and market intelligence — Wine Intelligence (IWSR Group), now independent advisor",
+    "linkedin": "https://www.linkedin.com/in/lulie-halstead-1b3b8826/",
+    "location": "London, United Kingdom",
+    "vertical": "wine",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "short_description": "Founded Wine Intelligence in 2002 and built it into the leading global wine consumer research and market intelligence firm before its acquisition by IWSR.",
+    "source_urls": [
+      "https://winebc.com/industry/lulie-halstead/",
+      "https://www.linkedin.com/in/lulie-halstead-1b3b8826/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22"
+  },
+  {
+    "name": "Alan Talbot",
+    "role": "Director, Analytics Group (wine industry databases and data-driven analysis) — Wines Vines Analytics (WineBusiness Analytics)",
+    "linkedin": "https://www.linkedin.com/in/alanltalbot/",
+    "location": "Sonoma, California, USA",
+    "vertical": "wine",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "short_description": "Runs the analytics group behind the wine industry's production and market databases and data reports at WineBusiness Analytics.",
+    "source_urls": [
+      "https://theorg.com/org/wines-vines-analytics/org-chart/alan-talbot",
+      "https://www.linkedin.com/in/alanltalbot/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22"
+  },
+  {
+    "name": "Solène Bergaire",
+    "role": "Lead Data Scientist (revenue growth management, pricing and promotion analytics) — Pernod Ricard",
+    "linkedin": "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108",
+    "location": "Paris, France",
+    "vertical": "multiple",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "short_description": "Leads data science projects on pricing and promotion optimization for a top premium spirits group whose brands include Jameson and The Glenlivet whiskies.",
+    "source_urls": [
+      "https://conference-mlops.com/speakers/solene-bergaire/",
+      "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22"
+  },
+  {
+    "name": "Tom Kornegay",
+    "role": "SVP, Head of Data, Analytics and Insights (Enterprise Data Center of Excellence) — Southern Glazer's Wine & Spirits",
+    "linkedin": null,
+    "location": "Miami, Florida, USA",
+    "vertical": "multiple",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "short_description": "Hired in 2024 to lead the enterprise data, analytics and insights strategy for the largest US wine and spirits distributor.",
+    "source_urls": [
+      "https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22"
+  },
+  {
+    "name": "Duan Peng",
+    "role": "SVP, Head of Data Science, AI and Machine Learning — Southern Glazer's Wine & Spirits",
+    "linkedin": null,
+    "location": "Miami, Florida, USA",
+    "vertical": "multiple",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "short_description": "Leads the enterprise data science and AI/ML strategy at Southern Glazer's Wine & Spirits' new Enterprise Data Center of Excellence.",
+    "source_urls": [
+      "https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22"
   }
 ]

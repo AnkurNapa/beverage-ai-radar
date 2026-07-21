@@ -1,0 +1,814 @@
+[
+  {
+    "kind": "paper",
+    "title": "Predicting and improving complex beer flavor through machine learning",
+    "url": "https://www.nature.com/articles/s41467-024-46346-0",
+    "vertical": "beer",
+    "meta": "Michiel Schreurs, et al. · Nature Communications · 2024",
+    "summary": "Gradient boosting models trained on chemical and sensory data from 250 beers plus 180,000 consumer reviews predict flavor and appreciation and reveal specific compounds that drive taste.",
+    "sort": 2024
+  },
+  {
+    "kind": "paper",
+    "title": "From Data to Draught: Modelling and Predicting Mixed-Culture Beer Fermentation Dynamics Using Autoregressive Recurrent Neural Networks",
+    "url": "https://www.mdpi.com/2673-3951/5/1/11",
+    "vertical": "beer",
+    "meta": "et al. · Modelling (MDPI) · 2024",
+    "summary": "Autoregressive recurrent neural networks capture the time-dependent dynamics of mixed-culture beer fermentation and forecast its trajectory better than static models.",
+    "sort": 2024
+  },
+  {
+    "kind": "paper",
+    "title": "Enhancing beer authentication, quality, and control assessment using non-invasive spectroscopy through bottle and machine learning modeling",
+    "url": "https://ift.onlinelibrary.wiley.com/doi/full/10.1111/1750-3841.17670",
+    "vertical": "beer",
+    "meta": "Harris, et al. · Journal of Food Science · 2025",
+    "summary": "Near-infrared spectroscopy read through the bottle plus machine learning classifies beer fermentation type and authenticity without opening the container.",
+    "sort": 2025
+  },
+  {
+    "kind": "paper",
+    "title": "Predictive modeling using artificial intelligence for sensory panel assessments of customized beer production",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1878450X25002124",
+    "vertical": "beer",
+    "meta": "et al. · Applied Food Research · 2025",
+    "summary": "AI models trained on production parameters predict trained sensory panel scores for customized beers, cutting reliance on full panel sessions.",
+    "sort": 2025
+  },
+  {
+    "kind": "paper",
+    "title": "Predicting acetic acid content in the final beer using neural networks and support vector machine",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/jib.50",
+    "vertical": "beer",
+    "meta": "Zhang, et al. · Journal of the Institute of Brewing · 2012",
+    "summary": "Neural networks and support vector machines predict end-of-fermentation acetic acid levels in commercial-scale beer from early process variables.",
+    "sort": 2012
+  },
+  {
+    "kind": "paper",
+    "title": "Learning algorithms for identification of whisky using portable Raman spectroscopy",
+    "url": "https://arxiv.org/abs/2309.13087",
+    "vertical": "whiskey",
+    "meta": "Kwang Jun Lee, Alexander C. Trowbridge, et al. · arXiv (later Current Research in Food Science) · 2023",
+    "summary": "Machine learning on portable Raman spectra identifies whisky brand at over 99 percent accuracy and quantifies ethanol and methanol, even through unopened bottles.",
+    "sort": 2023
+  },
+  {
+    "kind": "paper",
+    "title": "Quick insights into whisky: investigating rapid and efficient methods for sensory evaluation and chemical analysis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10556146/",
+    "vertical": "whiskey",
+    "meta": "et al. · Foods · 2023",
+    "summary": "A linear classifier (OWSum) and a CNN on GC-MS molecular data classify whisky odor attributes and origin, matching or beating human experts and flagging marker compounds like menthol and methyl decanoate.",
+    "sort": 2023
+  },
+  {
+    "kind": "paper",
+    "title": "Recent advances in whiskey analysis for authentication, discrimination, and quality control",
+    "url": "https://ift.onlinelibrary.wiley.com/doi/10.1111/1541-4337.13249",
+    "vertical": "whiskey",
+    "meta": "Okolo, et al. · Comprehensive Reviews in Food Science and Food Safety · 2023",
+    "summary": "A review of analytical and chemometric methods, including machine learning on spectroscopy and chromatography data, for authenticating and grading whiskey.",
+    "sort": 2023
+  },
+  {
+    "kind": "paper",
+    "title": "Machine learning-based predictive modelling for the enhancement of wine quality",
+    "url": "https://www.nature.com/articles/s41598-023-44111-9",
+    "vertical": "wine",
+    "meta": "et al. · Scientific Reports · 2023",
+    "summary": "Ensemble models on physicochemical measurements predict wine quality scores and rank the features that most influence quality.",
+    "sort": 2023
+  },
+  {
+    "kind": "paper",
+    "title": "Wine feature importance and quality prediction: A comparative study of machine learning algorithms with unbalanced data",
+    "url": "https://arxiv.org/abs/2310.01584",
+    "vertical": "wine",
+    "meta": "et al. · arXiv · 2023",
+    "summary": "Compares classifiers on imbalanced wine quality data and identifies alcohol, sulphates and volatile acidity as leading quality predictors.",
+    "sort": 2023
+  },
+  {
+    "kind": "paper",
+    "title": "Wine Quality Prediction with Ensemble Trees: A Unified, Leak-Free Comparative Study",
+    "url": "https://arxiv.org/abs/2506.06327",
+    "vertical": "wine",
+    "meta": "et al. · arXiv · 2025",
+    "summary": "A leakage-controlled benchmark shows gradient-boosted and random forest ensembles give the most reliable wine quality predictions when evaluation is done cleanly.",
+    "sort": 2025
+  },
+  {
+    "kind": "paper",
+    "title": "End-to-end deep learning for directly estimating grape yield from ground-based imagery",
+    "url": "https://arxiv.org/abs/2208.02394",
+    "vertical": "wine",
+    "meta": "et al. · Computers and Electronics in Agriculture (arXiv preprint) · 2022",
+    "summary": "Deep models trained on 23,581 yield points and over 100,000 vehicle-mounted images estimate vineyard grape yield directly, comparing detection, CNN regression and transformer architectures.",
+    "sort": 2022
+  },
+  {
+    "kind": "paper",
+    "title": "Grape detection, segmentation and tracking using deep neural networks and three-dimensional association",
+    "url": "https://arxiv.org/abs/1907.11819",
+    "vertical": "wine",
+    "meta": "Santos, et al. · arXiv (later Computers and Electronics in Agriculture) · 2019",
+    "summary": "CNNs detect, segment and track grape clusters in the field with F1 up to 0.91, enabling automated berry counting for yield estimation.",
+    "sort": 2019
+  },
+  {
+    "kind": "paper",
+    "title": "Digital Assessment and Classification of Wine Faults Using a Low-Cost Electronic Nose, Near-Infrared Spectroscopy and Machine Learning Modelling",
+    "url": "https://www.mdpi.com/1424-8220/22/6/2303",
+    "vertical": "wine",
+    "meta": "Claudia Gonzalez Viejo, Sigfredo Fuentes · Sensors · 2022",
+    "summary": "A low-cost electronic nose and NIR spectra with machine learning detect and classify wine faults at 90 to 97 percent accuracy for red and white wines.",
+    "sort": 2022
+  },
+  {
+    "kind": "paper",
+    "title": "Machine Learning in Fine Wine Price Prediction",
+    "url": "https://wine-economics.org/jwe_articles/machine-learning-in-fine-wine-price-prediction/",
+    "vertical": "wine",
+    "meta": "et al. · Journal of Wine Economics · 2015",
+    "summary": "Gaussian process regression and multi-task learning on Liv-Ex 100 price histories forecast fine wine prices more accurately than ARMA and GARCH baselines.",
+    "sort": 2015
+  },
+  {
+    "kind": "paper",
+    "title": "From Words to Ratings: Machine Learning and NLP for Wine Reviews",
+    "url": "https://doi.org/10.3390/beverages11030080",
+    "vertical": "wine",
+    "meta": "et al. · Beverages · 2025",
+    "summary": "Transformer embeddings of expert tasting notes predict wine ratings and show that language markers such as complexity and harmony track higher expert scores.",
+    "sort": 2025
+  },
+  {
+    "kind": "paper",
+    "title": "Learning to Taste: A Multimodal Wine Dataset (WineSensed)",
+    "url": "https://openreview.net/forum?id=VeJgZYhT7H",
+    "vertical": "wine",
+    "meta": "et al. · NeurIPS · 2023",
+    "summary": "Introduces WineSensed, 897k label images and 824k reviews plus human flavor-distance rankings, to learn joint representations of wine vision, language and flavor.",
+    "sort": 2023
+  },
+  {
+    "kind": "paper",
+    "title": "Multiclass classification of diseased grape leaf identification using deep convolutional neural network (DCNN) classifier",
+    "url": "https://www.nature.com/articles/s41598-024-59562-x",
+    "vertical": "wine",
+    "meta": "et al. · Scientific Reports · 2024",
+    "summary": "A deep CNN classifies grapevine leaf images into healthy and diseased classes such as black rot, esca and leaf blight for early vineyard disease detection.",
+    "sort": 2024
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "AB InBev: With machine learning, this Bud's for you",
+    "url": "https://pluto7.com/googlecloud/ab-inbev-with-machine-learning-this-buds-for-you/",
+    "vertical": "beer",
+    "meta": "Pluto7 · 2019 · Anheuser-Busch InBev",
+    "summary": "AB InBev applied Google Cloud machine learning to its beer filtration process to predict K-filter issues and keep taste and quality consistent.",
+    "sort": "2019"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "From seed to sip: How Anheuser-Busch InBev uses AI to drive growth",
+    "url": "https://news.microsoft.com/transform/from-seed-to-sip-how-anheuser-busch-inbev-uses-ai-to-drive-growth/",
+    "vertical": "beer",
+    "meta": "Microsoft Transform · 2018-11 · Anheuser-Busch InBev",
+    "summary": "AB InBev deploys AI across farming (Smart Barley), customer chatbots, and Azure-based supply chain and back-office automation.",
+    "sort": "2018-11"
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "Carlsberg turns to artificial intelligence in Beer Fingerprinting project",
+    "url": "https://www.beveragedaily.com/Article/2017/11/07/Carlsberg-turns-to-artificial-intelligence-in-Beer-Fingerprinting-project/",
+    "vertical": "beer",
+    "meta": "BeverageDaily · 2017-11-07 · Carlsberg",
+    "summary": "Carlsberg partnered with Microsoft and two Danish universities on a sensor and AI system to map flavor fingerprints and speed new beer development.",
+    "sort": "2017-11-07"
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "How Heineken Is Brewing Success With Generative AI",
+    "url": "https://www.forbes.com/sites/bernardmarr/2024/10/16/how-heineken-is-brewing-success-with-generative-ai/",
+    "vertical": "beer",
+    "meta": "Forbes · 2024-10-16 · Heineken",
+    "summary": "Heineken is scaling generative and predictive AI across brewing, forecasting, and salesforce recommendations as part of its best-connected-brewer strategy.",
+    "sort": "2024-10-16"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Brewing with Artificial Intelligence (AI)",
+    "url": "https://www.theheinekencompany.com/newsroom/brewing-with-ai/",
+    "vertical": "beer",
+    "meta": "The HEINEKEN Company · 2025-02-05 · Heineken",
+    "summary": "Heineken details three production AI products, AIDDA for sales, Allocation AI for marketing spend, and Promo Advisor for promotions, running across global operating companies.",
+    "sort": "2025-02-05"
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "Will AI and machine learning revolutionize how brewers develop beer?",
+    "url": "https://www.beveragedaily.com/Article/2024/04/24/will-ai-and-machine-learning-revolutionize-how-brewers-develop-beer/",
+    "vertical": "beer",
+    "meta": "BeverageDaily · 2024-04-24 · Sapporo Breweries",
+    "summary": "Survey of AI-assisted recipe development including St Austell's Hand Brewed by Robots AI-PA and Sapporo's IBM-built N-Wing Star flavor design system.",
+    "sort": "2024-04-24"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Sennos brings intelligent fermentation control to craft beer with M3 sensor rollout",
+    "url": "https://www.craftbrewingbusiness.com/featured/sennos-brings-intelligent-fermentation-control-to-craft-beer-with-m3-sensor-rollout/",
+    "vertical": "beer",
+    "meta": "Craft Brewing Business · 2025 · Sennos (Precision Fermentation)",
+    "summary": "Rebranded from Precision Fermentation, Sennos rolled out its in-tank M3 sensor and AI analytics to give breweries real-time gravity, pH, and dissolved-oxygen monitoring.",
+    "sort": "2025"
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "Diageo launches generative AI bottle for Johnnie Walker",
+    "url": "https://www.beveragedaily.com/Article/2024/07/25/Diageo-launches-generative-AI-bottle-for-Johnnie-Walker/",
+    "vertical": "whiskey",
+    "meta": "BeverageDaily · 2024-07-25 · Diageo",
+    "summary": "Diageo used generative AI so consumers could co-create personalized Johnnie Walker Blue Label labels in the style of artist Scott Naismith.",
+    "sort": "2024-07-25"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Diageo Brings Consumers Industry First Experience with FlavorPrintConnect Technology",
+    "url": "https://www.diageo.com/en/news-and-media/press-releases/2024/diageo-brings-consumers-industry-first-experience-with-flavorprintconnect-technology",
+    "vertical": "whiskey",
+    "meta": "Diageo · 2024-11-04 · Diageo",
+    "summary": "Diageo paired Single Malt tasting kits with an AI FlavorPrintConnect masterclass that matches drinkers' flavor preferences and returns tailored whisky recommendations.",
+    "sort": "2024-11-04"
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "Distillery in Scotland using SmokeDNAi technology to create limited edition whisky",
+    "url": "https://www.foxnews.com/tech/distillery-scotland-using-ai-create-limited-edition-whisky",
+    "vertical": "whiskey",
+    "meta": "Fox News · 2024-03 · Diageo",
+    "summary": "Diageo's Port Ellen used its SmokeDNAi algorithms on gas-chromatography data to decode cask maturation chemistry and craft the Gemini twin whisky release.",
+    "sort": "2024-03"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "The story behind the world's first AI-created whisky",
+    "url": "https://news.microsoft.com/source/emea/features/the-story-behind-the-worlds-first-ai-created-whisky/",
+    "vertical": "whiskey",
+    "meta": "Microsoft Source EMEA · 2019 · Mackmyra",
+    "summary": "Sweden's Mackmyra worked with Fourkind and Microsoft Azure to generate whisky recipes from millions of blend combinations, releasing the AI-created Intelligens.",
+    "sort": "2019"
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "Pernod Ricard rated top European company in the 2024 Data and AI Human Capital Report",
+    "url": "https://www.pernod-ricard.com/en/media/pernod-ricard-rated-top-european-company-2024-data-ai-human-capital-report-world-rankings",
+    "vertical": "multiple",
+    "meta": "Pernod Ricard · 2024-04-04 · Pernod Ricard",
+    "summary": "Pernod Ricard was ranked the top European and leading drinks company for data and AI talent, citing tools like its D-Star sales platform and Genie gen-AI marketing pilot.",
+    "sort": "2024-04-04"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Artificial Intelligence Can Now Taste: Transforming Winemaking With Tastry",
+    "url": "https://www.forbes.com/sites/bernardmarr/2021/06/28/artificial-intelligence-can-now-tastetransforming-winemaking-with-tastry/",
+    "vertical": "wine",
+    "meta": "Forbes · 2021-06-28 · Tastry",
+    "summary": "Tastry combines gas chromatography-mass spectrometry with machine learning to profile wines and predict how consumer palates will score them for wineries and retailers.",
+    "sort": "2021-06-28"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Using Artificial Intelligence to Predict a Wine's Success",
+    "url": "https://grapeandwinemag.com/2024/07/01/using-artificial-intelligence-to-predict-a-wines-success/",
+    "vertical": "wine",
+    "meta": "Grape and Wine Magazine · 2024-07-01 · Tastry",
+    "summary": "Profile of how Tastry's chemistry-plus-AI platform helps wineries predict market success and match blends to consumer palate segments.",
+    "sort": "2024-07-01"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "E. & J. Gallo deploys data-driven app to harvest a better grape",
+    "url": "https://www.cio.com/article/230368/e-j-gallo-deploys-data-driven-app-to-harvest-a-better-grape.html",
+    "vertical": "wine",
+    "meta": "CIO · 2017-07-18 · E. & J. Gallo Winery",
+    "summary": "Gallo built a mobile, GIS-integrated app for field reps to digitize grape assessment and harvest scheduling across its vineyards.",
+    "sort": "2017-07-18"
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "The AI Revolution In Wine Fraud Detection",
+    "url": "https://www.forbes.com/sites/bernardmarr/2024/01/30/the-ai-revolution-in-wine-fraud-detection/",
+    "vertical": "wine",
+    "meta": "Forbes · 2024-01-30",
+    "summary": "Machine learning applied to chemical fingerprints from spectroscopy and chromatography can trace a wine to its vineyard and vintage to detect counterfeits.",
+    "sort": "2024-01-30"
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "Amid local push to advance AI farming tech, mom and pop wineries fear being left behind",
+    "url": "https://www.pressdemocrat.com/2026/04/11/artificial-intelligence-impact-on-sonoma-county-small-wineries/",
+    "vertical": "wine",
+    "meta": "The Press Democrat · 2026-04-11 · E. & J. Gallo Winery",
+    "summary": "Sonoma County winemaking is adopting AI and robotics for harvest and vineyard control, with trials at Gallo, Silver Oak, and Treasury Wine Estates raising access concerns for small producers.",
+    "sort": "2026-04-11"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Coopers Brewery brews better beer with Tableau",
+    "url": "https://www.tableau.com/solutions/customer/coopers-brewery-brews-better-beer-tableau",
+    "vertical": "beer",
+    "meta": "Tableau · 2016 · Coopers Brewery",
+    "summary": "Australia's largest family-owned brewery adopted Tableau analytics to turn brewing and supply-chain data into data-driven decisions that spurred growth.",
+    "sort": "2016"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Wine achieves a single source of truth across a growing company",
+    "url": "https://www.tableau.com/solutions/customer/wine-achieves-single-source-truth-across-growing-company",
+    "vertical": "wine",
+    "meta": "Tableau · 2012",
+    "summary": "A growing wine company standardized on Tableau so business units could self-serve prebuilt sales dashboards from a single source of truth.",
+    "sort": "2012"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "How data and AI are helping Deschutes Brewery respond to beer trends faster",
+    "url": "https://news.microsoft.com/transform/how-data-and-ai-are-helping-deschutes-brewery-respond-to-beer-trends-faster/",
+    "vertical": "beer",
+    "meta": "Microsoft · 2019-08-07 · Deschutes Brewery",
+    "summary": "Deschutes Brewery used Azure SQL Database and Azure Machine Learning Studio to spot beer trends earlier and automate operational alerts.",
+    "sort": "2019-08-07"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "For the love of beer: New Belgium brews up data-centric approach to sustainable business growth",
+    "url": "https://news.microsoft.com/features/for-the-love-of-beer-new-belgium-brews-up-data-centric-approach-to-sustainable-business-growth/",
+    "vertical": "beer",
+    "meta": "Microsoft · 2015-03-12 · New Belgium Brewing",
+    "summary": "New Belgium Brewing ran Dynamics CRM and Dynamics AX with a custom field app to give Beer Rangers nightly sales, inventory, and account data.",
+    "sort": "2015-03-12"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Tapping into the Cloud: how Carlsberg uses Azure to understand its customers",
+    "url": "https://news.microsoft.com/europe/2017/07/03/tapping-cloud-carlsberg-uses-azure-understand-customers/",
+    "vertical": "beer",
+    "meta": "Microsoft · 2017-07-03 · Carlsberg Group",
+    "summary": "Carlsberg moved its digital innovation to Azure, using data lakes, IoT, and AI to segment customers and pinpoint when and where people decide to buy beer.",
+    "sort": "2017-07-03"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "AB InBev: With machine learning, this Bud's for you",
+    "url": "https://cloud.google.com/customers/abinbev-pluto7",
+    "vertical": "beer",
+    "meta": "Google Cloud · 2018 · Anheuser-Busch InBev",
+    "summary": "AB InBev with partner Pluto7 built a TensorFlow and BigQuery model on Google Cloud to optimize beer filtration, raising barrelage per filter run by 60 percent.",
+    "sort": "2018"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Lion Brewery case study",
+    "url": "https://cloud.google.com/customers/lion-brewery",
+    "vertical": "beer",
+    "meta": "Google Cloud · Lion",
+    "summary": "Brewer Lion built cloud infrastructure on Google Cloud with BigQuery and Looker Studio to cut TCO and improve demand-forecast accuracy with AI.",
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Economic Impact of the Craft Brewing Industry",
+    "url": "https://www.brewersassociation.org/statistics-and-data/economic-impact-data/",
+    "vertical": "beer",
+    "meta": "Brewers Association · 2025",
+    "summary": "The Brewers Association runs an ongoing statistics and data program quantifying craft beer's national and state-level economic impact and production figures.",
+    "sort": "2025"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Grist Analytics and the American Society of Brewing Chemists (ASBC) Partner to Advance Brewing Science and Quality",
+    "url": "https://www.brewbound.com/news/grist-analytics-and-the-american-society-of-brewing-chemists-asbc-partner-to-advance-brewing-science-and-quality/",
+    "vertical": "beer",
+    "meta": "ASBC · 2023-04 · Grist Analytics",
+    "summary": "ASBC partnered with Grist Analytics to explore using data and analytics to improve beer quality and consistency across breweries of all sizes.",
+    "sort": "2023-04"
+  },
+  {
+    "kind": "repo",
+    "title": "Brewtarget/brewtarget",
+    "url": "https://github.com/Brewtarget/brewtarget",
+    "vertical": "beer",
+    "meta": "★ 356 · C++",
+    "summary": "Mature open-source brewing recipe calculator covering mash, hops, gravity, and style math, a strong reference for brewing calculator apps.",
+    "stars": 356,
+    "sort": 356
+  },
+  {
+    "kind": "repo",
+    "title": "openbrewerydb/openbrewerydb",
+    "url": "https://github.com/openbrewerydb/openbrewerydb",
+    "vertical": "beer",
+    "meta": "★ 211 · Jupyter Notebook",
+    "summary": "Widely used open brewery dataset and API backing many beer data and discovery tools.",
+    "stars": 211,
+    "sort": 211
+  },
+  {
+    "kind": "repo",
+    "title": "beerjson/beerjson",
+    "url": "https://github.com/beerjson/beerjson",
+    "vertical": "beer",
+    "meta": "★ 162 · JavaScript",
+    "summary": "The canonical modern data interchange format for beer recipes, the schema most brewing data tooling standardizes on.",
+    "stars": 162,
+    "sort": 162
+  },
+  {
+    "kind": "repo",
+    "title": "homebrewing/brauhausjs",
+    "url": "https://github.com/homebrewing/brauhausjs",
+    "vertical": "beer",
+    "meta": "★ 135 · CoffeeScript",
+    "summary": "Reusable JavaScript engine for computing OG, FG, ABV, IBU, and color from recipe inputs.",
+    "stars": 135,
+    "sort": 135
+  },
+  {
+    "kind": "repo",
+    "title": "rogerioxavier/X-Wines",
+    "url": "https://github.com/rogerioxavier/X-Wines",
+    "vertical": "wine",
+    "meta": "★ 76 · Jupyter Notebook",
+    "summary": "Large open wine ratings dataset built specifically for training recommendation and ML models.",
+    "stars": 76,
+    "sort": 76
+  },
+  {
+    "kind": "repo",
+    "title": "scheb/beer-analytics",
+    "url": "https://github.com/scheb/beer-analytics",
+    "vertical": "beer",
+    "meta": "★ 47 · Python",
+    "summary": "Data-driven analysis of thousands of beer recipes surfacing ingredient and style trends, close to sensory and recipe ML work.",
+    "stars": 47,
+    "sort": 47
+  },
+  {
+    "kind": "repo",
+    "title": "Suraj-G-Rao/Wine-Quality-Prediction",
+    "url": "https://github.com/Suraj-G-Rao/Wine-Quality-Prediction",
+    "vertical": "wine",
+    "meta": "★ 45 · Jupyter Notebook",
+    "summary": "End-to-end MLOps example predicting wine quality from physicochemical features, a template for productionizing beverage quality models.",
+    "stars": 45,
+    "sort": 45
+  },
+  {
+    "kind": "repo",
+    "title": "sharmaroshan/Wine-Quality-Predictions",
+    "url": "https://github.com/sharmaroshan/Wine-Quality-Predictions",
+    "vertical": "wine",
+    "meta": "★ 34 · Jupyter Notebook",
+    "summary": "Well-documented worked example of ML on the classic wine quality dataset, a common starting point for wine sensory modeling.",
+    "stars": 34,
+    "sort": 34
+  },
+  {
+    "kind": "repo",
+    "title": "meanphil/bjcp-guidelines-2015",
+    "url": "https://github.com/meanphil/bjcp-guidelines-2015",
+    "vertical": "beer",
+    "meta": "★ 34 · XML",
+    "summary": "Machine-readable BJCP style guidelines, foundational data for beer style classifiers and recipe style-fit checks.",
+    "stars": 34,
+    "sort": 34
+  },
+  {
+    "kind": "repo",
+    "title": "tijilicious/Wine-quality-prediction-and-validation-",
+    "url": "https://github.com/tijilicious/Wine-quality-prediction-and-validation-",
+    "vertical": "wine",
+    "meta": "★ 25 · Jupyter Notebook",
+    "summary": "Classification approach to wine quality with validation, useful reference for sensory-grade prediction.",
+    "stars": 25,
+    "sort": 25
+  },
+  {
+    "kind": "repo",
+    "title": "SmedbergM/BJCP_2015",
+    "url": "https://github.com/SmedbergM/BJCP_2015",
+    "vertical": "beer",
+    "meta": "★ 18 · Python",
+    "summary": "Structured BJCP style data with parsing code, handy for building style-aware brewing tools.",
+    "stars": 18,
+    "sort": 18
+  },
+  {
+    "kind": "repo",
+    "title": "WillNetsky/beer_recommender",
+    "url": "https://github.com/WillNetsky/beer_recommender",
+    "vertical": "beer",
+    "meta": "★ 18 · Jupyter Notebook",
+    "summary": "Recommender system trained on beer review data, directly relevant to flavor and preference modeling for beer.",
+    "stars": 18,
+    "sort": 18
+  },
+  {
+    "kind": "repo",
+    "title": "OTGApps/BJCPStyleGuide",
+    "url": "https://github.com/OTGApps/BJCPStyleGuide",
+    "vertical": "beer",
+    "meta": "★ 17 · HTML",
+    "summary": "Reference app packaging BJCP style data for lookups, a model for BJCP tooling.",
+    "stars": 17,
+    "sort": 17
+  },
+  {
+    "kind": "repo",
+    "title": "jrbourbeau/openbrewerydb-python",
+    "url": "https://github.com/jrbourbeau/openbrewerydb-python",
+    "vertical": "beer",
+    "meta": "★ 16 · Python",
+    "summary": "Python client that makes the Open Brewery DB dataset easy to pull into data and ML pipelines.",
+    "stars": 16,
+    "sort": 16
+  },
+  {
+    "kind": "repo",
+    "title": "beerjson/bjcp-json",
+    "url": "https://github.com/beerjson/bjcp-json",
+    "vertical": "beer",
+    "meta": "★ 15 · JavaScript",
+    "summary": "BJCP styles expressed in BeerJSON, bridging style guidelines and the modern recipe data standard.",
+    "stars": 15,
+    "sort": 15
+  },
+  {
+    "kind": "repo",
+    "title": "ascholer/bjcp-styleview",
+    "url": "https://github.com/ascholer/bjcp-styleview",
+    "vertical": "beer",
+    "meta": "★ 15 · JavaScript",
+    "summary": "Interactive BJCP style browser, a useful UI pattern for beer style tools.",
+    "stars": 15,
+    "sort": 15
+  },
+  {
+    "kind": "repo",
+    "title": "lrdodge/bjcp-style-data",
+    "url": "https://github.com/lrdodge/bjcp-style-data",
+    "vertical": "beer",
+    "meta": "★ 12 · Ruby",
+    "summary": "Multi-format BJCP style data set aimed squarely at programmatic processing and analysis.",
+    "stars": 12,
+    "sort": 12
+  },
+  {
+    "kind": "repo",
+    "title": "Wall-Brew-Co/brew-bot",
+    "url": "https://github.com/Wall-Brew-Co/brew-bot",
+    "vertical": "beer",
+    "meta": "★ 12 · Clojure",
+    "summary": "Generative recipe engine for beer, relevant to automated recipe design and exploration.",
+    "stars": 12,
+    "sort": 12
+  },
+  {
+    "kind": "repo",
+    "title": "mikeschmidt69/fermonitor",
+    "url": "https://github.com/mikeschmidt69/fermonitor",
+    "vertical": "beer",
+    "meta": "★ 11 · Python",
+    "summary": "Sensor-driven fermentation monitoring and control, the data-capture layer for fermentation modeling.",
+    "stars": 11,
+    "sort": 11
+  },
+  {
+    "kind": "repo",
+    "title": "davesteps/homebrewR",
+    "url": "https://github.com/davesteps/homebrewR",
+    "vertical": "beer",
+    "meta": "★ 10 · R",
+    "summary": "R-based recipe exploration and comparison, useful for statistical analysis of beer recipe data.",
+    "stars": 10,
+    "sort": 10
+  },
+  {
+    "kind": "repo",
+    "title": "theoretick/awesome-open-beer",
+    "url": "https://github.com/theoretick/awesome-open-beer",
+    "vertical": "beer",
+    "meta": "★ 9 · Markdown",
+    "summary": "Directory of open recipe sources, a discovery hub for real beer recipe training data.",
+    "stars": 9,
+    "sort": 9
+  },
+  {
+    "kind": "repo",
+    "title": "activatedgeek/winemag-dataset",
+    "url": "https://github.com/activatedgeek/winemag-dataset",
+    "vertical": "wine",
+    "meta": "★ 7 · Python",
+    "summary": "Text-rich wine review corpus commonly used for NLP, sentiment, and variety-prediction models.",
+    "stars": 7,
+    "sort": 7
+  },
+  {
+    "kind": "repo",
+    "title": "IanRFerguson/whiskey-ml",
+    "url": "https://github.com/IanRFerguson/whiskey-ml",
+    "vertical": "whiskey",
+    "meta": "★ 2 · Python",
+    "summary": "One of the few open ML pipelines targeting whiskey flavor modeling, directly on-theme for distilling sensory work.",
+    "stars": 2,
+    "sort": 2
+  },
+  {
+    "kind": "video",
+    "title": "Case Study: How a Large Brewery Uses Machine Learning for Preventive Maintenance (Cloud Next '18)",
+    "url": "https://www.youtube.com/watch?v=-D9Z2Ka9Q5E",
+    "vertical": "beer",
+    "meta": "Google Cloud Tech · 2018",
+    "summary": "Google Cloud case study on a large brewery applying machine learning to predict equipment failures and drive preventive maintenance on the beer production line.",
+    "thumb": "https://img.youtube.com/vi/-D9Z2Ka9Q5E/hqdefault.jpg",
+    "sort": 2018
+  },
+  {
+    "kind": "video",
+    "title": "Using artificial intelligence to make beer better | Rob McInerney | TEDxGoodenoughCollege",
+    "url": "https://www.youtube.com/watch?v=og5B5RNJ7Gw",
+    "vertical": "beer",
+    "meta": "TEDx Talks · 2017",
+    "summary": "IntelligentX co-founder Rob McInerney explains how his company uses AI and customer feedback loops to iteratively design and improve beer recipes.",
+    "thumb": "https://img.youtube.com/vi/og5B5RNJ7Gw/hqdefault.jpg",
+    "sort": 2017
+  },
+  {
+    "kind": "video",
+    "title": "IntelligentX - Using AI to Make Better Beer",
+    "url": "https://www.youtube.com/watch?v=GrvITpr8Y7o",
+    "vertical": "beer",
+    "meta": "Exponential Investor · 2018",
+    "summary": "Profile of IntelligentX Brewing Company and how its AI system turns drinker feedback into reformulated beer recipes.",
+    "thumb": "https://img.youtube.com/vi/GrvITpr8Y7o/hqdefault.jpg",
+    "sort": 2018
+  },
+  {
+    "kind": "video",
+    "title": "Predicting beer quality using machine learning and analytical chemistry for sustainable brewing",
+    "url": "https://www.youtube.com/watch?v=CSy5oBV4FDs",
+    "vertical": "beer",
+    "meta": "GitHub · 2024",
+    "summary": "Technical talk on combining analytical chemistry measurements with machine learning models to predict beer quality and support more sustainable brewing.",
+    "thumb": "https://img.youtube.com/vi/CSy5oBV4FDs/hqdefault.jpg",
+    "sort": 2024
+  },
+  {
+    "kind": "video",
+    "title": "How Data Visualization Transforms Brewery Operations w/ Jeremy Carney & Pulkit K. Agrawal",
+    "url": "https://www.youtube.com/watch?v=pBNLkxlV7PU",
+    "vertical": "beer",
+    "meta": "Craft Beer Professionals · 2025",
+    "summary": "Panel on turning brewery production, ingredient, and yield data into dashboards and insights that improve day-to-day brewing operations.",
+    "thumb": "https://img.youtube.com/vi/pBNLkxlV7PU/hqdefault.jpg",
+    "sort": 2025
+  },
+  {
+    "kind": "video",
+    "title": "The Brewer's Data Playbook: Step-by-Step Data Techniques You Can Use Today w/ Michele Doyle (Sennos)",
+    "url": "https://www.youtube.com/watch?v=nRezlSp4qhs",
+    "vertical": "beer",
+    "meta": "Craft Beer Professionals · 2025",
+    "summary": "Michele Doyle of Sennos (Precision Fermentation) walks breweries through practical data-analytics techniques for fermentation and business decisions.",
+    "thumb": "https://img.youtube.com/vi/nRezlSp4qhs/hqdefault.jpg",
+    "sort": 2025
+  },
+  {
+    "kind": "video",
+    "title": "431: Using Taproom Data and Insights to Optimize Brewery Decision Making, Presented by Arryved",
+    "url": "https://www.youtube.com/watch?v=WpxGpyIVtyQ",
+    "vertical": "beer",
+    "meta": "Craft Beer and Brewing · 2025",
+    "summary": "Arryved-presented session on how taproom point-of-sale data and analytics guide brewery pricing, menu, and operational decisions.",
+    "thumb": "https://img.youtube.com/vi/WpxGpyIVtyQ/hqdefault.jpg",
+    "sort": 2025
+  },
+  {
+    "kind": "video",
+    "title": "How Consumer Preference-AI Creates Food and Beverage Innovation | AI Summit 2022 | Gastrograph AI",
+    "url": "https://www.youtube.com/watch?v=RRrPNHpp6fY",
+    "vertical": "multiple",
+    "meta": "Gastrograph AI · 2022",
+    "summary": "Gastrograph AI presents at the AI Summit on modeling human sensory perception to predict consumer preference and drive food and beverage product innovation.",
+    "thumb": "https://img.youtube.com/vi/RRrPNHpp6fY/hqdefault.jpg",
+    "sort": 2022
+  },
+  {
+    "kind": "video",
+    "title": "The Science of Flavor - with Jason Cohen from Gastrograph AI. TTN 584",
+    "url": "https://www.youtube.com/watch?v=9xJ3JF09tOo",
+    "vertical": "multiple",
+    "meta": "Get Through The Noise · 2021",
+    "summary": "Gastrograph AI founder Jason Cohen discusses the science of flavor and how AI models sensory data to forecast how products will taste to consumers.",
+    "thumb": "https://img.youtube.com/vi/9xJ3JF09tOo/hqdefault.jpg",
+    "sort": 2021
+  },
+  {
+    "kind": "video",
+    "title": "Sensory AI - How Tastry Taught Artificial Intelligence to Taste",
+    "url": "https://www.youtube.com/watch?v=FzQGwEY60yY",
+    "vertical": "wine",
+    "meta": "Bernard Marr · 2021",
+    "summary": "Tastry founder Katerina Axelsson explains how the company built sensory AI that chemically analyzes wine and matches it to individual consumer palates.",
+    "thumb": "https://img.youtube.com/vi/FzQGwEY60yY/hqdefault.jpg",
+    "sort": 2021
+  },
+  {
+    "kind": "video",
+    "title": "Teaching a Computer to Taste with Tastry Founder and CEO Katerina Axelsson",
+    "url": "https://www.youtube.com/watch?v=0DNK8Nx2poU",
+    "vertical": "wine",
+    "meta": "The Story of Wine · 2024",
+    "summary": "Podcast interview with Tastry CEO Katerina Axelsson on using chemistry plus machine learning to predict wine preferences and guide production and retail.",
+    "thumb": "https://img.youtube.com/vi/0DNK8Nx2poU/hqdefault.jpg",
+    "sort": 2024
+  },
+  {
+    "kind": "video",
+    "title": "242: How Artificial Intelligence (AI) Will Change the Wines You Drink with Dina Blikshteyn",
+    "url": "https://www.youtube.com/watch?v=3OJ83X1VyxE",
+    "vertical": "wine",
+    "meta": "Natalie MacLean · 2023",
+    "summary": "Discussion of how AI is reshaping winemaking, recommendation, and the wine industry, with AI and patent expert Dina Blikshteyn.",
+    "thumb": "https://img.youtube.com/vi/3OJ83X1VyxE/hqdefault.jpg",
+    "sort": 2023
+  },
+  {
+    "kind": "video",
+    "title": "AI in vineyards",
+    "url": "https://www.youtube.com/watch?v=BfjTpQXloLk",
+    "vertical": "wine",
+    "meta": "plantandfood · 2024",
+    "summary": "Plant and Food Research scientists demonstrate AI tools built to streamline vineyard management and wine production.",
+    "thumb": "https://img.youtube.com/vi/BfjTpQXloLk/hqdefault.jpg",
+    "sort": 2024
+  },
+  {
+    "kind": "video",
+    "title": "ARTIFICIAL INTELLIGENCE WITHIN THE WHISKY INDUSTRY",
+    "url": "https://www.youtube.com/watch?v=HsRKURYlxY4",
+    "vertical": "whiskey",
+    "meta": "NOT ANOTHER WHISKY PODCAST · 2023",
+    "summary": "Podcast episode exploring how artificial intelligence is being applied across whisky production, blending, and the wider industry.",
+    "thumb": "https://img.youtube.com/vi/HsRKURYlxY4/hqdefault.jpg",
+    "sort": 2023
+  },
+  {
+    "kind": "video",
+    "title": "World's First Whiskey Created With Artificial Intelligence",
+    "url": "https://www.youtube.com/watch?v=zNyTOJ1xstI",
+    "vertical": "whiskey",
+    "meta": "Bernard Marr · 2019",
+    "summary": "Coverage of Mackmyra's AI-generated Swedish whisky, where machine learning proposed recipes from existing casks and sales data for a master blender to finalize.",
+    "thumb": "https://img.youtube.com/vi/zNyTOJ1xstI/hqdefault.jpg",
+    "sort": 2019
+  },
+  {
+    "kind": "video",
+    "title": "The distillery with an AI-backed plan to lift their spirits",
+    "url": "https://www.youtube.com/watch?v=SCfTWQZeVb8",
+    "vertical": "whiskey",
+    "meta": "Dropbox · 2021",
+    "summary": "Customer story on Bespoken Spirits using data and AI to rapidly age and tune spirits, iterating on flavor profiles far faster than traditional barrel maturation.",
+    "thumb": "https://img.youtube.com/vi/SCfTWQZeVb8/hqdefault.jpg",
+    "sort": 2021
+  }
+]

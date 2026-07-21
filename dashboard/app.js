@@ -250,11 +250,67 @@ function applyPeople() {
 }
 
 function showView(which) {
-  const people = which === "people";
-  $("view-companies").hidden = people;
-  $("view-people").hidden = !people;
-  $("tab-companies").classList.toggle("is-active", !people);
-  $("tab-people").classList.toggle("is-active", people);
+  for (const v of ["companies", "people", "resources"]) {
+    $("view-" + v).hidden = which !== v;
+    $("tab-" + v).classList.toggle("is-active", which === v);
+  }
+}
+
+// --- Resources view (papers, news, repos, videos) ------------------------
+let RES = [];
+const KIND_LABEL = { paper: "Paper", news: "News", repo: "Repo", video: "Video" };
+
+function resCard(r) {
+  const url = safeUrl(r.url);
+  const title = url
+    ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(r.title)}</a>`
+    : esc(r.title);
+  const label = r.kind === "news" && r.label ? r.label : KIND_LABEL[r.kind] || r.kind;
+  const media = r.kind === "video" && r.thumb
+    ? `<a class="res__thumb" href="${esc(url)}" target="_blank" rel="noopener">
+         <img src="${esc(safeUrl(r.thumb))}" alt="" loading="lazy" />
+         <span class="res__play" aria-hidden="true">▶</span></a>`
+    : "";
+  return `<article class="res res--${esc(r.kind)}">
+    ${media}
+    <div class="res__body">
+      <div class="res__tags">
+        <span class="chip chip--kind chip--${esc(r.kind)}">${esc(label)}</span>
+        ${r.vertical ? `<span class="chip chip--v chip--${esc(r.vertical)}">${esc(r.vertical)}</span>` : ""}
+      </div>
+      <h3 class="res__title">${title}</h3>
+      ${r.meta ? `<div class="res__meta">${esc(r.meta)}</div>` : ""}
+      ${r.summary ? `<p class="res__sum">${esc(r.summary)}</p>` : ""}
+    </div>
+  </article>`;
+}
+
+function applyRes() {
+  const q = $("rq").value.trim().toLowerCase();
+  const fk = $("fr-kind").value, fv = $("fr-vertical").value;
+  const shown = RES.filter((r) => {
+    if (fk && r.kind !== fk) return false;
+    if (fv && r.vertical !== fv) return false;
+    if (q && !`${r.title} ${r.summary} ${r.meta}`.toLowerCase().includes(q)) return false;
+    return true;
+  });
+  $("rcount").textContent = `${shown.length} of ${RES.length}`;
+  $("res-grid").innerHTML = shown.length
+    ? shown.map(resCard).join("")
+    : `<p class="empty">No resources match these filters.</p>`;
+}
+
+async function loadResources() {
+  try {
+    RES = await (await fetch("resources.json")).json();
+  } catch { RES = []; }
+  // kind order paper/news/repo/video, then by sort desc within kind
+  const order = { paper: 0, news: 1, repo: 2, video: 3 };
+  RES.sort((a, b) => (order[a.kind] - order[b.kind]) || (`${b.sort}`).localeCompare(`${a.sort}`));
+  if (!RES.length) { $("tab-resources").hidden = true; return; }
+  fillSelect($("fr-vertical"), [...new Set(RES.map((r) => r.vertical).filter(Boolean))].sort());
+  for (const id of ["rq", "fr-kind", "fr-vertical"]) $(id).addEventListener("input", applyRes);
+  applyRes();
 }
 
 function renderKpis() {
@@ -322,6 +378,9 @@ async function main() {
   applyPeople();
   $("tab-companies").addEventListener("click", () => showView("companies"));
   $("tab-people").addEventListener("click", () => showView("people"));
+  $("tab-resources").addEventListener("click", () => showView("resources"));
+
+  await loadResources();
 }
 
 main();

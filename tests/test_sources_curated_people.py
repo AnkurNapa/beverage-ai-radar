@@ -21,7 +21,7 @@ PEOPLE = [
         "role": "Researcher",
         "location": "Nowhere",
         "source_urls": [],
-        "last_seen": "2019-01-01",
+        "last_seen": "2010-01-01",
     },
 ]
 
@@ -32,7 +32,7 @@ def test_people_lane_parses_flags_individual_and_drops_stale(tmp_path):
     people = CuratedPeopleSource(p, today=date(2026, 7, 22)).discover(fetcher=None)
     names = {c.name for c in people}
     assert "Ada Brewer" in names  # recent, kept
-    assert "Stale Sam" not in names  # 2019 last_seen older than 5 years
+    assert "Stale Sam" not in names  # 2010 last_seen older than 10 years
 
     ada = next(c for c in people if c.name == "Ada Brewer")
     assert ada.company_type == "individual"

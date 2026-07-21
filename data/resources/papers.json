@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Predicting and improving complex beer flavor through machine learning",
+    "authors": "Michiel Schreurs, et al.",
+    "year": 2024,
+    "venue": "Nature Communications",
+    "vertical": "beer",
+    "url": "https://www.nature.com/articles/s41467-024-46346-0",
+    "finding": "Gradient boosting models trained on chemical and sensory data from 250 beers plus 180,000 consumer reviews predict flavor and appreciation and reveal specific compounds that drive taste."
+  },
+  {
+    "title": "From Data to Draught: Modelling and Predicting Mixed-Culture Beer Fermentation Dynamics Using Autoregressive Recurrent Neural Networks",
+    "authors": "et al.",
+    "year": 2024,
+    "venue": "Modelling (MDPI)",
+    "vertical": "beer",
+    "url": "https://www.mdpi.com/2673-3951/5/1/11",
+    "finding": "Autoregressive recurrent neural networks capture the time-dependent dynamics of mixed-culture beer fermentation and forecast its trajectory better than static models."
+  },
+  {
+    "title": "Enhancing beer authentication, quality, and control assessment using non-invasive spectroscopy through bottle and machine learning modeling",
+    "authors": "Harris, et al.",
+    "year": 2025,
+    "venue": "Journal of Food Science",
+    "vertical": "beer",
+    "url": "https://ift.onlinelibrary.wiley.com/doi/full/10.1111/1750-3841.17670",
+    "finding": "Near-infrared spectroscopy read through the bottle plus machine learning classifies beer fermentation type and authenticity without opening the container."
+  },
+  {
+    "title": "Predictive modeling using artificial intelligence for sensory panel assessments of customized beer production",
+    "authors": "et al.",
+    "year": 2025,
+    "venue": "Applied Food Research",
+    "vertical": "beer",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1878450X25002124",
+    "finding": "AI models trained on production parameters predict trained sensory panel scores for customized beers, cutting reliance on full panel sessions."
+  },
+  {
+    "title": "Predicting acetic acid content in the final beer using neural networks and support vector machine",
+    "authors": "Zhang, et al.",
+    "year": 2012,
+    "venue": "Journal of the Institute of Brewing",
+    "vertical": "beer",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/jib.50",
+    "finding": "Neural networks and support vector machines predict end-of-fermentation acetic acid levels in commercial-scale beer from early process variables."
+  },
+  {
+    "title": "Learning algorithms for identification of whisky using portable Raman spectroscopy",
+    "authors": "Kwang Jun Lee, Alexander C. Trowbridge, et al.",
+    "year": 2023,
+    "venue": "arXiv (later Current Research in Food Science)",
+    "vertical": "whiskey",
+    "url": "https://arxiv.org/abs/2309.13087",
+    "finding": "Machine learning on portable Raman spectra identifies whisky brand at over 99 percent accuracy and quantifies ethanol and methanol, even through unopened bottles."
+  },
+  {
+    "title": "Quick insights into whisky: investigating rapid and efficient methods for sensory evaluation and chemical analysis",
+    "authors": "et al.",
+    "year": 2023,
+    "venue": "Foods",
+    "vertical": "whiskey",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10556146/",
+    "finding": "A linear classifier (OWSum) and a CNN on GC-MS molecular data classify whisky odor attributes and origin, matching or beating human experts and flagging marker compounds like menthol and methyl decanoate."
+  },
+  {
+    "title": "Recent advances in whiskey analysis for authentication, discrimination, and quality control",
+    "authors": "Okolo, et al.",
+    "year": 2023,
+    "venue": "Comprehensive Reviews in Food Science and Food Safety",
+    "vertical": "whiskey",
+    "url": "https://ift.onlinelibrary.wiley.com/doi/10.1111/1541-4337.13249",
+    "finding": "A review of analytical and chemometric methods, including machine learning on spectroscopy and chromatography data, for authenticating and grading whiskey."
+  },
+  {
+    "title": "Machine learning-based predictive modelling for the enhancement of wine quality",
+    "authors": "et al.",
+    "year": 2023,
+    "venue": "Scientific Reports",
+    "vertical": "wine",
+    "url": "https://www.nature.com/articles/s41598-023-44111-9",
+    "finding": "Ensemble models on physicochemical measurements predict wine quality scores and rank the features that most influence quality."
+  },
+  {
+    "title": "Wine feature importance and quality prediction: A comparative study of machine learning algorithms with unbalanced data",
+    "authors": "et al.",
+    "year": 2023,
+    "venue": "arXiv",
+    "vertical": "wine",
+    "url": "https://arxiv.org/abs/2310.01584",
+    "finding": "Compares classifiers on imbalanced wine quality data and identifies alcohol, sulphates and volatile acidity as leading quality predictors."
+  },
+  {
+    "title": "Wine Quality Prediction with Ensemble Trees: A Unified, Leak-Free Comparative Study",
+    "authors": "et al.",
+    "year": 2025,
+    "venue": "arXiv",
+    "vertical": "wine",
+    "url": "https://arxiv.org/abs/2506.06327",
+    "finding": "A leakage-controlled benchmark shows gradient-boosted and random forest ensembles give the most reliable wine quality predictions when evaluation is done cleanly."
+  },
+  {
+    "title": "End-to-end deep learning for directly estimating grape yield from ground-based imagery",
+    "authors": "et al.",
+    "year": 2022,
+    "venue": "Computers and Electronics in Agriculture (arXiv preprint)",
+    "vertical": "wine",
+    "url": "https://arxiv.org/abs/2208.02394",
+    "finding": "Deep models trained on 23,581 yield points and over 100,000 vehicle-mounted images estimate vineyard grape yield directly, comparing detection, CNN regression and transformer architectures."
+  },
+  {
+    "title": "Grape detection, segmentation and tracking using deep neural networks and three-dimensional association",
+    "authors": "Santos, et al.",
+    "year": 2019,
+    "venue": "arXiv (later Computers and Electronics in Agriculture)",
+    "vertical": "wine",
+    "url": "https://arxiv.org/abs/1907.11819",
+    "finding": "CNNs detect, segment and track grape clusters in the field with F1 up to 0.91, enabling automated berry counting for yield estimation."
+  },
+  {
+    "title": "Digital Assessment and Classification of Wine Faults Using a Low-Cost Electronic Nose, Near-Infrared Spectroscopy and Machine Learning Modelling",
+    "authors": "Claudia Gonzalez Viejo, Sigfredo Fuentes",
+    "year": 2022,
+    "venue": "Sensors",
+    "vertical": "wine",
+    "url": "https://www.mdpi.com/1424-8220/22/6/2303",
+    "finding": "A low-cost electronic nose and NIR spectra with machine learning detect and classify wine faults at 90 to 97 percent accuracy for red and white wines."
+  },
+  {
+    "title": "Machine Learning in Fine Wine Price Prediction",
+    "authors": "et al.",
+    "year": 2015,
+    "venue": "Journal of Wine Economics",
+    "vertical": "wine",
+    "url": "https://wine-economics.org/jwe_articles/machine-learning-in-fine-wine-price-prediction/",
+    "finding": "Gaussian process regression and multi-task learning on Liv-Ex 100 price histories forecast fine wine prices more accurately than ARMA and GARCH baselines."
+  },
+  {
+    "title": "From Words to Ratings: Machine Learning and NLP for Wine Reviews",
+    "authors": "et al.",
+    "year": 2025,
+    "venue": "Beverages",
+    "vertical": "wine",
+    "url": "https://doi.org/10.3390/beverages11030080",
+    "finding": "Transformer embeddings of expert tasting notes predict wine ratings and show that language markers such as complexity and harmony track higher expert scores."
+  },
+  {
+    "title": "Learning to Taste: A Multimodal Wine Dataset (WineSensed)",
+    "authors": "et al.",
+    "year": 2023,
+    "venue": "NeurIPS",
+    "vertical": "wine",
+    "url": "https://openreview.net/forum?id=VeJgZYhT7H",
+    "finding": "Introduces WineSensed, 897k label images and 824k reviews plus human flavor-distance rankings, to learn joint representations of wine vision, language and flavor."
+  },
+  {
+    "title": "Multiclass classification of diseased grape leaf identification using deep convolutional neural network (DCNN) classifier",
+    "authors": "et al.",
+    "year": 2024,
+    "venue": "Scientific Reports",
+    "vertical": "wine",
+    "url": "https://www.nature.com/articles/s41598-024-59562-x",
+    "finding": "A deep CNN classifies grapevine leaf images into healthy and diseased classes such as black rot, esca and leaf blight for early vineyard disease detection."
+  }
+]

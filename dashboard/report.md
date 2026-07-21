@@ -1,30 +1,36 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-07-22. 70 active, 21 dormant.
+Snapshot: 2026-07-22. 80 active, 30 dormant.
 
 ## Active companies
 
 - **Agrology** (wine, disease / yield prediction). Predictive agriculture company whose in-canopy and soil sensor arrays feed machine-learning models that forecast vineyard risks up to four days ahead, including wildfire smoke taint, powdery mildew, pests and extreme weather. People: [Adam Koeppel](https://www.linkedin.com/in/adamkoeppel) (Co-Founder & CEO), [Tyler Locke](https://www.linkedin.com/in/tylerlocke) (Co-Founder & CTO).
+- **Alan Talbot** (wine, data analytics / BI / market intelligence for beverage). Runs the analytics group behind the wine industry's production and market databases and data reports at WineBusiness Analytics. People: [Alan Talbot](https://www.linkedin.com/in/alanltalbot/) (Director, Analytics Group (wine industry databases and data-driven analysis) — Wines Vines Analytics (WineBusiness Analytics)).
 - **Algorithm Factory** (multiple, demand forecasting). Supply chain planning software provider whose Sunstice platform is tailored to breweries and beverage manufacturers. It sells AI-based demand forecasting and production optimization to beverage makers, with reference customers including Heineken, BrewDog, and Paulaner.
 - **Allie AI** (multiple, factory-trained AI agents for production lines). Allie AI embeds AI agents into manufacturing operations that observe, learn, and act across machines and sensors to detect deviations and recommend corrective actions. It is used on beverage lines by producers including Heineken and PepsiCo.
 - **Alpha MOS** (multiple, sensory). Alpha MOS is a publicly listed sensory-analysis solution vendor that builds electronic nose, electronic tongue, and electronic eye instruments and also runs outsourced sensory-analysis labs for food and beverage clients including beer, wine, and spirits makers. Its instruments use pattern-recognition algorithms to objectify taste and aroma.
+- **Amanda Dobbyn** (beer, data analytics / BI / market intelligence for beverage). Built a public clustering and classification analysis of 45,000-plus beers to test whether beer styles hold up statistically, a well-known beer data science project. People: [Amanda Dobbyn](https://www.linkedin.com/in/amanda-dobbyn/) (Data scientist / senior data engineer; author of a widely cited beer-styles data science project — independent (beer project); now Indigo).
 - **Ankur Napa** (multiple, AI/ML tooling for brewing and beverage: recipe/flavor prediction, sensory analytics, consumer-review NLP, demand forecasting; ships hands-on web apps and calculators). Brewmaster-turned-data-scientist (ex-AB InBev, SABMiller, United Breweries) building AI/data tools across beer, whiskey and wine as an independent practitioner. Founder of iWort; ships open web apps (brewing calculators, flavor-forge, brewery analytics) and writes on the gap between the number and the floor reality. People: [Ankur Napa](https://www.linkedin.com/in/ankur-napa/) (Independent builder — brewing data science & AI).
 - **Antares Vision Group** (multiple, AI and blockchain product traceability and inspection data). Antares Vision Group provides an integrated software and hardware ecosystem for product quality inspection and end-to-end traceability. It applies artificial intelligence and blockchain to connected data management across the supply chain.
 - **Aromalytics** (multiple, sensory). Aromalytics offers an AI electronic-nose platform delivered as software and hardware as a service, digitizing smell to replace human sensory panels for food and beverage quality control and adulteration detection. It serves drinks and food manufacturers plus safety agencies.
 - **Authentic Vision** (multiple, quality control / computer vision). Authentic Vision sells a smartphone authentication service built on unique Holographic Fingerprint security labels that let anyone verify a bottle and detect counterfeits. Wine and spirits are core industries served, with AI-backed verification and geolocation analytics.
 - **Bar Analytics** (beer, beer sales and quality analytics with AI insights). Bar Analytics runs a beer analytics platform that provides real-time sales and quality data with AI insights on beer performance globally.
+- **Bart Watson** (beer, data analytics / BI / market intelligence for beverage). PhD economist who built the Brewers Association's craft beer production, sales, and market intelligence data program and was long the public face of US beer industry statistics. People: [Bart Watson](https://www.linkedin.com/in/bart-watson/) (President and CEO, former Chief Economist (craft beer market data and analytics) — Brewers Association).
 - **BeerBoard** (multiple, demand forecasting). On-premise alcohol management company whose Alcohol Intelligence platform captures and analyzes real-time draft and inventory data across beer, wine and spirits for bars and restaurant chains. People: [Mark Young](https://www.linkedin.com/in/mark-young-7b8b554) (Founder and CEO).
 - **beON consult GmbH** (beer, IT, data, and AI consultancy for breweries). beON consult is an IT consultancy focused on IT, data, and AI for breweries and brewery groups. It helps brewers connect and evolve digital brewing processes across the full IT lifecycle.
 - **Brewing-AI** (beer, recipe / flavor prediction). Brewing-AI, a solution from AlpVision SA, offers breweries a deep-reinforcement-learning system that combines operator settings with near-infrared spectroscopy and sensor data to recommend optimal fermentation parameters and hold beer quality steady across batches. It is sold as a process-optimization service to brewers.
 - **Carlsberg India (Carlsberg Group India GCC)** (beer, AI-driven pricing/demand forecasting + automation-led ops + GenAI reporting). Carlsberg launched its first-ever IT Global Capability Centre in Gurugram (Sept 2025, with GSPANN, 300+ staff, Hyderabad support) to drive automation and 'scale AI implementations' worldwide. The group runs concrete AI use cases including AI-driven pricing/premiumization analytics, demand forecasting, and GenAI that auto-generates ~80% of financial-reporting commentary, with India as a critical delivery hub.
+- **Cathy Huyghe** (multiple, data analytics / BI / market intelligence for beverage). Co-founded Enolytics in 2016 to bring big-data business intelligence to wine and spirits companies worldwide, building analytics apps on the Qlik platform. People: [Cathy Huyghe](https://www.linkedin.com/in/cathy-huyghe-332307/) (Co-Founder and CEO, wine and spirits data analytics / business intelligence — Enolytics).
 - **Crafted ERP** (multiple, demand forecasting). Beverage ERP built on Oracle NetSuite by Doozy Solutions, offering breweries and distilleries AI-driven demand forecasting, inventory optimization and production planning across beer and spirits.
 - **Cypheme** (multiple, quality control / computer vision). Cypheme provides an AI computer-vision anti-counterfeit service where consumers photograph a tamper-resistant Noise Print label with a smartphone to authenticate a product in seconds. Wine and spirits brands are among the industries it protects against counterfeiting.
 - **Deep Liquid** (beer, recipe / flavor prediction). Adelaide company using generative AI and machine learning to design personalized beverage recipes, starting in craft beer with the award-winning Rodney AI IPA and later expanding into wellness drinks. People: [Denham D'Silva](https://au.linkedin.com/in/denham-d-silva-5b560a5) (CEO, Founder), [Jamie Sherrah](https://au.linkedin.com/in/jsherrah) (CTO), [Anton van den Hengel](https://au.linkedin.com/in/antonvandenhengel) (Founder).
 - **Deep Planet** (wine, quality control / computer vision). Founded by Oxford researchers, its VineSignal platform combines satellite imagery, ground sensors and machine learning to predict grape maturity, yield, soil moisture and disease pressure for vineyards. People: [Sushma Shankar](https://uk.linkedin.com/in/sushmashankar1) (CEO, Co-Founder), [Natalia Efremova](https://uk.linkedin.com/in/nataliaef) (CTO, Co-Founder), David Carter (Co-Founder).
 - **DRAMS** (whiskey, supply chain). Spirits inventory and cask management software vendor serving whisky and other aged-spirits distilleries worldwide. Its platform adds business intelligence, wood-performance analytics, and long-term production planning on top of cask tracking.
 - **DRINKS** (wine, recommendation / personalization). Beverage-alcohol technology company whose AI suite (PAIR / DRINKS Recommend) powers personalized wine recommendations for online retailers, reporting large lifts in session conversions and revenue per session. People: [Zac Brandenberg](https://www.linkedin.com/in/zac-brandenberg) (Co-Founder & CEO), [Barry Collier](https://www.linkedin.com/in/barrycollier) (Co-Founder & CTO/CPO).
+- **Duan Peng** (multiple, data analytics / BI / market intelligence for beverage). Leads the enterprise data science and AI/ML strategy at Southern Glazer's Wine & Spirits' new Enterprise Data Center of Excellence. People: Duan Peng (SVP, Head of Data Science, AI and Machine Learning — Southern Glazer's Wine & Spirits).
 - **Enavate** (wine, AI consulting). Microsoft Dynamics 365 ERP consulting and solutions firm with a dedicated beverage and wine practice, including the VinPoint winery platform. It implements AI tooling such as Microsoft Copilot and Power Apps to automate operations for wineries and beverage producers.
 - **Enolytics** (wine, demand forecasting). Data analytics platform built for wineries and spirits brands that aggregates sales channel data and applies predictive analytics and forecasting to drive direct-to-consumer growth. People: [Cathy Huyghe](https://www.linkedin.com/in/cathy-huyghe-332307) (CEO, Co-Founder), [Chris Huyghe](https://www.linkedin.com/in/chrishuyghe) (Co-Founder).
+- **Erin Schmidt** (beer, data analytics / BI / market intelligence for beverage). Leads commercial and business analytics for Molson Coors across the Americas, with a decade in beverage revenue management and business intelligence. People: [Erin Schmidt](https://www.linkedin.com/in/erin-schmidt-92a18a4/) (Director, Commercial Analytics — Molson Coors Beverage Company).
 - **Factbird** (multiple, manufacturing data platform with AI assistant). Factbird provides a manufacturing data platform with plug-and-play data capture, real-time OEE and root-cause analysis, and an AI assistant that lets teams query production data. It helps manufacturers make faster, data-driven decisions.
 - **Firstleaf** (wine, recommendation / personalization). Direct-to-consumer wine club operated by Penrose Hill that uses proprietary WinePrint taste-profiling technology to build individual palate profiles and recommend personalized wine selections to members. People: [Philip James](https://www.linkedin.com/in/philipjames) (Founder & CEO), [Kevin Jessen](https://www.linkedin.com/in/kevinejessen) (SVP Technology & Product).
 - **FlavorActiV** (multiple, sensory). FlavorActiV is a sensory-services provider selling GMP flavour standards, taster calibration, panel training, and analytical instruments including an aroma-analysing electronic nose to breweries and beverage makers. It supports professional tasting panels across beer, spirits, and other categories.
@@ -42,6 +48,7 @@ Snapshot: 2026-07-22. 70 active, 21 dormant.
 - **Kigtek Solutions** (whiskey, quality control / computer vision). Scottish systems-integration firm whose CaskTEK platform adds AI vision, automated quality capture and real-time analytics to whisky cask filling, disgorging and traceability to cut product loss for large distillers.
 - **Kirin Holdings** (beer, recipe / flavor prediction). Kirin built a proprietary AI recipe system, developed with Mitsubishi Research Institute, that draws on roughly 20 years of internal ingredient and tasting data to translate desired sensory profiles into ingredient combinations. Kirin plans to bring AI-supported beers to market from March 2026. People: [Hideki Horiguchi](https://www.linkedin.com/in/hideki-horiguchi-63879185) (President and CEO).
 - **Laminar (H2Ok Innovations)** (multiple, in-line sensors plus AI to optimize CIP). H2Ok Innovations uses in-line spectral sensors and a machine learning solution to optimize Clean-In-Place, product changeovers, and downtime in food and beverage factories. It is deployed with global producers including AB InBev and Coca-Cola.
+- **Lulie Halstead** (wine, data analytics / BI / market intelligence for beverage). Founded Wine Intelligence in 2002 and built it into the leading global wine consumer research and market intelligence firm before its acquisition by IWSR. People: [Lulie Halstead](https://www.linkedin.com/in/lulie-halstead-1b3b8826/) (Co-Founder and former CEO, wine consumer research and market intelligence — Wine Intelligence (IWSR Group), now independent advisor).
 - **Naio Technologies** (wine, quality control / computer vision). French agricultural robotics maker whose autonomous electric Ted robot uses lidar, camera and GPS guidance to mechanically weed vineyards, with hundreds of units deployed across multiple continents. People: [Aymeric Barthes](https://www.linkedin.com/in/aymeric-barthes) (Co-Founder & CEO), [Gaetan Severac](https://www.linkedin.com/in/gaetansev) (Co-Founder).
 - **Ohanafy** (multiple, demand forecasting). Software vendor selling an AI-powered operating system built on Salesforce to beverage suppliers, distributors, and retailers. Its AI agents automate demand forecasting, billing reconciliation, and route optimization for customers such as Sierra Nevada Brewing.
 - **OMMM Operations Management Solutions GmbH** (multiple, AI-driven production and supply chain planning). OMMM develops AI-powered optimization software that improves production and supply chain planning for industrial sites. It targets real-time optimal planning to reduce resource waste and raise output.
@@ -61,9 +68,11 @@ Snapshot: 2026-07-22. 70 active, 21 dormant.
 - **seedalive GmbH** (beer, AI evaluation of malting barley germination). seedalive offers a test-kit method that determines germination energy and water sensitivity of malting barley in about three hours. Its method is based on AI-based evaluation of a dynamic bioassay usable at goods receiving.
 - **Smart DRS** (multiple, AI-powered deposit return system with container ID codes). Smart DRS is an AI-powered deposit return system that assigns each container a unique 2D identification code to cut fraud and enable crushing. It turns production lines into smart lines using non-invasive high-speed reading for producers, operators, and retailers.
 - **SmartSkin Technologies** (multiple, digital container twins and line data analytics). SmartSkin Technologies delivers manufacturing intelligence through digital container twins and proprietary software that give producers actionable line data. It is deployed with beverage manufacturers across more than 170 production sites worldwide.
+- **Solène Bergaire** (multiple, data analytics / BI / market intelligence for beverage). Leads data science projects on pricing and promotion optimization for a top premium spirits group whose brands include Jameson and The Glenlivet whiskies. People: [Solène Bergaire](https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108) (Lead Data Scientist (revenue growth management, pricing and promotion analytics) — Pernod Ricard).
 - **Sommelier.bot** (multiple, sensory). Berlin-based AI agent for the wine and spirits industry offering a chatbot that gives consumers personalized drink recommendations.
 - **Tastewise** (multiple, GenAI marketing). GenAI food and beverage intelligence platform that ingests real-time consumer signals to guide product and marketing decisions, publishing dedicated wine, spirits and beer trend analytics for alcohol brands. Raised a $50M Series B in 2025. People: [Alon Chen](https://www.linkedin.com/in/alonchen) (CEO and Co-founder).
 - **The 5th Ingredient** (beer, demand forecasting). Maker of Beer30 brewery-management software whose demand-planning module uses sales forecasts to predict production needs, plus a Brewery Command Center analytics platform. Serves 500-plus breweries across 20-plus countries. People: [Pulkit K. Agrawal](https://www.linkedin.com/in/pulkitkagrawal) (Founder and CEO).
+- **Tom Kornegay** (multiple, data analytics / BI / market intelligence for beverage). Hired in 2024 to lead the enterprise data, analytics and insights strategy for the largest US wine and spirits distributor. People: Tom Kornegay (SVP, Head of Data, Analytics and Insights (Enterprise Data Center of Excellence) — Southern Glazer's Wine & Spirits).
 - **Unicorn Auctions** (multiple, quality control / computer vision). Online auction platform for rare spirits and fine wine that authenticates every bottle through a proprietary system combining expert review with machine-learning algorithms trained on 500,000-plus historical transactions and 1 million-plus photos to detect inconsistencies. People: [Phil Mikhaylov](https://www.linkedin.com/in/philmikhaylov) (CEO and Co-founder), [A.J. Heindel](https://www.linkedin.com/in/ajheindel) (Co-founder).
 - **United Breweries Limited (Kingfisher, Heineken-owned)** (beer, ML demand forecasting (SKU/retailer level) on a shared data platform). India's largest brewer (Kingfisher), majority-owned by Heineken. Heineken's Databricks-based DataPrime data platform runs ML demand forecasting at SKU and retailer level plus Promo Advisor / pricing tools in production; the group's data pipelines into the central data lake are managed from a shared-service center in India. India is thus an operating node of the production ML data platform, not just a consumer. People: Jelle Van Etten (Chief Data Officer, Heineken).
 - **VerAIsonio** (wine, AI consulting). VerAIsonio is a data and AI consulting firm specialized in the wine industry, helping producers, merchants, and trade organisations apply AI to customer segmentation, demand forecasting, pricing, and supply-chain decisions from vineyard to market. It positions AI as support for winemaking domain expertise.
@@ -71,6 +80,7 @@ Snapshot: 2026-07-22. 70 active, 21 dormant.
 - **Virtualworkforce** (multiple, supply chain). No-code AI agent platform sold to beverage distributors that integrates with their ERP, WMS, and POS systems. Its agents automate order capture, invoice dispute detection, inventory replenishment, and supplier engagement.
 - **Vivid Machines** (wine, quality control / computer vision). Canadian ag-tech company whose multispectral computer-vision system mounts to farm equipment to capture per-plant data in vineyards and orchards for automated fruit counting, early yield prediction and plant-health insights. People: [Jenny Lemieux](https://www.linkedin.com/in/jennylemieux) (Co-Founder & CEO), Jonathan Binas (Co-Founder & CTO).
 - **Whisky Project** (whiskey, recipe / flavor prediction). Community whisky blending initiative (Whisky Project Ltd) that uses a genetic-algorithm AI, robotics-driven bottling and crowdsourced sensory feedback to iteratively optimize new whisky blends. People: [Radoslaw Pilarski](https://www.linkedin.com/in/rpilarski) (Lead / Coordinator).
+- **Willy Lin** (beer, data analytics / BI / market intelligence for beverage). At AB InBev he moved plant-floor brewery data to the cloud and built predictive analytics to make breweries more efficient; profiled by Cornell Tech before moving on. People: [Willy Lin](https://www.linkedin.com/in/willy-lin/) (Former Product Lead, Tech Supply (brewery data and predictive analytics) — Amazon (formerly Anheuser-Busch InBev)).
 - **Wine Luthier** (wine, recipe / flavor prediction). Wine Luthier is an AI service for wineries that converts a wine's physical parameters into objective flavor data and computes exact blending percentages to reach a target profile. Its tools cover flavor visualization, competitive positioning, and blend optimization for enology and production teams.
 - **Winespace** (wine, sensory). Bordeaux startup whose Tastee AI tool digitizes wine tasting notes into structured, comparable taste data, developed with French research institute INRIA and able to analyze comments in 32 languages. People: [Sylvain Thibaud](https://www.linkedin.com/in/sylvain-thibaud) (CEO and Co-founder), [Julien Laithier](https://www.linkedin.com/in/julien-laithier) (President).
 - **Zaptic** (multiple, AI-native connected worker platform). Zaptic is an AI-native connected worker platform that digitizes frontline manufacturing work and uses AI to share knowledge and guide continuous improvement. Global beverage manufacturers use it to accelerate digital transformation programs.
@@ -81,34 +91,44 @@ Snapshot: 2026-07-22. 70 active, 21 dormant.
 - Anheuser-Busch InBev (last seen 2023-04-12)
 - Aromyx (last seen 2023-01-01)
 - BarTrack (last seen 2022-04-28)
+- Bespoken Spirits (last seen 2020-10-07)
 - Bira 91 (B9 Beverages) (last seen 2023-07-18)
 - Bloomfield Robotics (last seen 2024-06-01)
+- Bright Cellars (last seen 2017-05-24)
+- Carlsberg (last seen 2018-10-15)
 - Ceres Imaging (Ceres AI) (last seen 2021-09-01)
+- Circumstance Distillery (last seen 2020-07-01)
+- Deschutes Brewery (last seen 2019-08-12)
+- IntelligentX (last seen 2019-02-01)
+- Mackmyra (last seen 2019-06-19)
 - Molson Coors (Atwater Brewery) (last seen 2023-01-31)
 - Next Century Spirits (last seen 2024-02-08)
 - PLAATO (last seen 2024-05-28)
 - Preferabli (last seen 2024-12-16)
 - Propagate Lab (last seen 2024-08-13)
 - Sapporo Breweries (last seen 2023-03-04)
+- Scanopy (last seen 2019-06-01)
 - Sommify (last seen 2023-01-01)
 - Tastry (last seen 2024-03-01)
 - Tule Technologies (last seen 2023-01-31)
 - VineForecast (last seen 2023-11-09)
 - VinoVoss (BetterAI) (last seen 2024-12-29)
+- Vivino (last seen 2017-08-01)
 - Watgrid (WINEGRID) (last seen 2022-10-13)
 - Whiskey Wise Group (last seen 2024-01-01)
 - Zymoscope (last seen 2024-08-01)
 
 ## By vertical (active)
 
-- multiple: 35
-- beer: 17
-- wine: 14
+- multiple: 39
+- beer: 21
+- wine: 16
 - whiskey: 4
 
 ## By use case (active)
 
 - quality control / computer vision: 10
+- data analytics / BI / market intelligence for beverage: 10
 - demand forecasting: 9
 - sensory: 6
 - recipe / flavor prediction: 5

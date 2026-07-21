@@ -10,7 +10,7 @@ PEOPLE_SEED_PATH = PROJECT_ROOT / "data" / "people_seed.json"
 # Obsidian vault mirror target
 VAULT_DIR = Path.home() / "Documents" / "obsidian" / "Beverage-AI Radar"
 
-RECENCY_YEARS = 5
+RECENCY_YEARS = 10
 ACTIVE_MONTHS = 18
 
 DISCOVERY_QUERIES = [

@@ -1,0 +1,262 @@
+[
+  {
+    "title": "AB InBev: With machine learning, this Bud's for you",
+    "publication": "Pluto7",
+    "date": "2019",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Anheuser-Busch InBev",
+    "url": "https://pluto7.com/googlecloud/ab-inbev-with-machine-learning-this-buds-for-you/",
+    "summary": "AB InBev applied Google Cloud machine learning to its beer filtration process to predict K-filter issues and keep taste and quality consistent."
+  },
+  {
+    "title": "From seed to sip: How Anheuser-Busch InBev uses AI to drive growth",
+    "publication": "Microsoft Transform",
+    "date": "2018-11",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Anheuser-Busch InBev",
+    "url": "https://news.microsoft.com/transform/from-seed-to-sip-how-anheuser-busch-inbev-uses-ai-to-drive-growth/",
+    "summary": "AB InBev deploys AI across farming (Smart Barley), customer chatbots, and Azure-based supply chain and back-office automation."
+  },
+  {
+    "title": "Carlsberg turns to artificial intelligence in Beer Fingerprinting project",
+    "publication": "BeverageDaily",
+    "date": "2017-11-07",
+    "kind": "news",
+    "vertical": "beer",
+    "company": "Carlsberg",
+    "url": "https://www.beveragedaily.com/Article/2017/11/07/Carlsberg-turns-to-artificial-intelligence-in-Beer-Fingerprinting-project/",
+    "summary": "Carlsberg partnered with Microsoft and two Danish universities on a sensor and AI system to map flavor fingerprints and speed new beer development."
+  },
+  {
+    "title": "How Heineken Is Brewing Success With Generative AI",
+    "publication": "Forbes",
+    "date": "2024-10-16",
+    "kind": "news",
+    "vertical": "beer",
+    "company": "Heineken",
+    "url": "https://www.forbes.com/sites/bernardmarr/2024/10/16/how-heineken-is-brewing-success-with-generative-ai/",
+    "summary": "Heineken is scaling generative and predictive AI across brewing, forecasting, and salesforce recommendations as part of its best-connected-brewer strategy."
+  },
+  {
+    "title": "Brewing with Artificial Intelligence (AI)",
+    "publication": "The HEINEKEN Company",
+    "date": "2025-02-05",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Heineken",
+    "url": "https://www.theheinekencompany.com/newsroom/brewing-with-ai/",
+    "summary": "Heineken details three production AI products, AIDDA for sales, Allocation AI for marketing spend, and Promo Advisor for promotions, running across global operating companies."
+  },
+  {
+    "title": "Will AI and machine learning revolutionize how brewers develop beer?",
+    "publication": "BeverageDaily",
+    "date": "2024-04-24",
+    "kind": "news",
+    "vertical": "beer",
+    "company": "Sapporo Breweries",
+    "url": "https://www.beveragedaily.com/Article/2024/04/24/will-ai-and-machine-learning-revolutionize-how-brewers-develop-beer/",
+    "summary": "Survey of AI-assisted recipe development including St Austell's Hand Brewed by Robots AI-PA and Sapporo's IBM-built N-Wing Star flavor design system."
+  },
+  {
+    "title": "Sennos brings intelligent fermentation control to craft beer with M3 sensor rollout",
+    "publication": "Craft Brewing Business",
+    "date": "2025",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Sennos (Precision Fermentation)",
+    "url": "https://www.craftbrewingbusiness.com/featured/sennos-brings-intelligent-fermentation-control-to-craft-beer-with-m3-sensor-rollout/",
+    "summary": "Rebranded from Precision Fermentation, Sennos rolled out its in-tank M3 sensor and AI analytics to give breweries real-time gravity, pH, and dissolved-oxygen monitoring."
+  },
+  {
+    "title": "Diageo launches generative AI bottle for Johnnie Walker",
+    "publication": "BeverageDaily",
+    "date": "2024-07-25",
+    "kind": "news",
+    "vertical": "whiskey",
+    "company": "Diageo",
+    "url": "https://www.beveragedaily.com/Article/2024/07/25/Diageo-launches-generative-AI-bottle-for-Johnnie-Walker/",
+    "summary": "Diageo used generative AI so consumers could co-create personalized Johnnie Walker Blue Label labels in the style of artist Scott Naismith."
+  },
+  {
+    "title": "Diageo Brings Consumers Industry First Experience with FlavorPrintConnect Technology",
+    "publication": "Diageo",
+    "date": "2024-11-04",
+    "kind": "case-study",
+    "vertical": "whiskey",
+    "company": "Diageo",
+    "url": "https://www.diageo.com/en/news-and-media/press-releases/2024/diageo-brings-consumers-industry-first-experience-with-flavorprintconnect-technology",
+    "summary": "Diageo paired Single Malt tasting kits with an AI FlavorPrintConnect masterclass that matches drinkers' flavor preferences and returns tailored whisky recommendations."
+  },
+  {
+    "title": "Distillery in Scotland using SmokeDNAi technology to create limited edition whisky",
+    "publication": "Fox News",
+    "date": "2024-03",
+    "kind": "news",
+    "vertical": "whiskey",
+    "company": "Diageo",
+    "url": "https://www.foxnews.com/tech/distillery-scotland-using-ai-create-limited-edition-whisky",
+    "summary": "Diageo's Port Ellen used its SmokeDNAi algorithms on gas-chromatography data to decode cask maturation chemistry and craft the Gemini twin whisky release."
+  },
+  {
+    "title": "The story behind the world's first AI-created whisky",
+    "publication": "Microsoft Source EMEA",
+    "date": "2019",
+    "kind": "case-study",
+    "vertical": "whiskey",
+    "company": "Mackmyra",
+    "url": "https://news.microsoft.com/source/emea/features/the-story-behind-the-worlds-first-ai-created-whisky/",
+    "summary": "Sweden's Mackmyra worked with Fourkind and Microsoft Azure to generate whisky recipes from millions of blend combinations, releasing the AI-created Intelligens."
+  },
+  {
+    "title": "Pernod Ricard rated top European company in the 2024 Data and AI Human Capital Report",
+    "publication": "Pernod Ricard",
+    "date": "2024-04-04",
+    "kind": "news",
+    "vertical": "multiple",
+    "company": "Pernod Ricard",
+    "url": "https://www.pernod-ricard.com/en/media/pernod-ricard-rated-top-european-company-2024-data-ai-human-capital-report-world-rankings",
+    "summary": "Pernod Ricard was ranked the top European and leading drinks company for data and AI talent, citing tools like its D-Star sales platform and Genie gen-AI marketing pilot."
+  },
+  {
+    "title": "Artificial Intelligence Can Now Taste: Transforming Winemaking With Tastry",
+    "publication": "Forbes",
+    "date": "2021-06-28",
+    "kind": "case-study",
+    "vertical": "wine",
+    "company": "Tastry",
+    "url": "https://www.forbes.com/sites/bernardmarr/2021/06/28/artificial-intelligence-can-now-tastetransforming-winemaking-with-tastry/",
+    "summary": "Tastry combines gas chromatography-mass spectrometry with machine learning to profile wines and predict how consumer palates will score them for wineries and retailers."
+  },
+  {
+    "title": "Using Artificial Intelligence to Predict a Wine's Success",
+    "publication": "Grape and Wine Magazine",
+    "date": "2024-07-01",
+    "kind": "case-study",
+    "vertical": "wine",
+    "company": "Tastry",
+    "url": "https://grapeandwinemag.com/2024/07/01/using-artificial-intelligence-to-predict-a-wines-success/",
+    "summary": "Profile of how Tastry's chemistry-plus-AI platform helps wineries predict market success and match blends to consumer palate segments."
+  },
+  {
+    "title": "E. & J. Gallo deploys data-driven app to harvest a better grape",
+    "publication": "CIO",
+    "date": "2017-07-18",
+    "kind": "case-study",
+    "vertical": "wine",
+    "company": "E. & J. Gallo Winery",
+    "url": "https://www.cio.com/article/230368/e-j-gallo-deploys-data-driven-app-to-harvest-a-better-grape.html",
+    "summary": "Gallo built a mobile, GIS-integrated app for field reps to digitize grape assessment and harvest scheduling across its vineyards."
+  },
+  {
+    "title": "The AI Revolution In Wine Fraud Detection",
+    "publication": "Forbes",
+    "date": "2024-01-30",
+    "kind": "news",
+    "vertical": "wine",
+    "company": "",
+    "url": "https://www.forbes.com/sites/bernardmarr/2024/01/30/the-ai-revolution-in-wine-fraud-detection/",
+    "summary": "Machine learning applied to chemical fingerprints from spectroscopy and chromatography can trace a wine to its vineyard and vintage to detect counterfeits."
+  },
+  {
+    "title": "Amid local push to advance AI farming tech, mom and pop wineries fear being left behind",
+    "publication": "The Press Democrat",
+    "date": "2026-04-11",
+    "kind": "news",
+    "vertical": "wine",
+    "company": "E. & J. Gallo Winery",
+    "url": "https://www.pressdemocrat.com/2026/04/11/artificial-intelligence-impact-on-sonoma-county-small-wineries/",
+    "summary": "Sonoma County winemaking is adopting AI and robotics for harvest and vineyard control, with trials at Gallo, Silver Oak, and Treasury Wine Estates raising access concerns for small producers."
+  },
+  {
+    "title": "Coopers Brewery brews better beer with Tableau",
+    "publication": "Tableau",
+    "date": "2016",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Coopers Brewery",
+    "url": "https://www.tableau.com/solutions/customer/coopers-brewery-brews-better-beer-tableau",
+    "summary": "Australia's largest family-owned brewery adopted Tableau analytics to turn brewing and supply-chain data into data-driven decisions that spurred growth."
+  },
+  {
+    "title": "Wine achieves a single source of truth across a growing company",
+    "publication": "Tableau",
+    "date": "2012",
+    "kind": "case-study",
+    "vertical": "wine",
+    "company": "",
+    "url": "https://www.tableau.com/solutions/customer/wine-achieves-single-source-truth-across-growing-company",
+    "summary": "A growing wine company standardized on Tableau so business units could self-serve prebuilt sales dashboards from a single source of truth."
+  },
+  {
+    "title": "How data and AI are helping Deschutes Brewery respond to beer trends faster",
+    "publication": "Microsoft",
+    "date": "2019-08-07",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Deschutes Brewery",
+    "url": "https://news.microsoft.com/transform/how-data-and-ai-are-helping-deschutes-brewery-respond-to-beer-trends-faster/",
+    "summary": "Deschutes Brewery used Azure SQL Database and Azure Machine Learning Studio to spot beer trends earlier and automate operational alerts."
+  },
+  {
+    "title": "For the love of beer: New Belgium brews up data-centric approach to sustainable business growth",
+    "publication": "Microsoft",
+    "date": "2015-03-12",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "New Belgium Brewing",
+    "url": "https://news.microsoft.com/features/for-the-love-of-beer-new-belgium-brews-up-data-centric-approach-to-sustainable-business-growth/",
+    "summary": "New Belgium Brewing ran Dynamics CRM and Dynamics AX with a custom field app to give Beer Rangers nightly sales, inventory, and account data."
+  },
+  {
+    "title": "Tapping into the Cloud: how Carlsberg uses Azure to understand its customers",
+    "publication": "Microsoft",
+    "date": "2017-07-03",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Carlsberg Group",
+    "url": "https://news.microsoft.com/europe/2017/07/03/tapping-cloud-carlsberg-uses-azure-understand-customers/",
+    "summary": "Carlsberg moved its digital innovation to Azure, using data lakes, IoT, and AI to segment customers and pinpoint when and where people decide to buy beer."
+  },
+  {
+    "title": "AB InBev: With machine learning, this Bud's for you",
+    "publication": "Google Cloud",
+    "date": "2018",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Anheuser-Busch InBev",
+    "url": "https://cloud.google.com/customers/abinbev-pluto7",
+    "summary": "AB InBev with partner Pluto7 built a TensorFlow and BigQuery model on Google Cloud to optimize beer filtration, raising barrelage per filter run by 60 percent."
+  },
+  {
+    "title": "Lion Brewery case study",
+    "publication": "Google Cloud",
+    "date": "",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Lion",
+    "url": "https://cloud.google.com/customers/lion-brewery",
+    "summary": "Brewer Lion built cloud infrastructure on Google Cloud with BigQuery and Looker Studio to cut TCO and improve demand-forecast accuracy with AI."
+  },
+  {
+    "title": "Economic Impact of the Craft Brewing Industry",
+    "publication": "Brewers Association",
+    "date": "2025",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "",
+    "url": "https://www.brewersassociation.org/statistics-and-data/economic-impact-data/",
+    "summary": "The Brewers Association runs an ongoing statistics and data program quantifying craft beer's national and state-level economic impact and production figures."
+  },
+  {
+    "title": "Grist Analytics and the American Society of Brewing Chemists (ASBC) Partner to Advance Brewing Science and Quality",
+    "publication": "ASBC",
+    "date": "2023-04",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Grist Analytics",
+    "url": "https://www.brewbound.com/news/grist-analytics-and-the-american-society-of-brewing-chemists-asbc-partner-to-advance-brewing-science-and-quality/",
+    "summary": "ASBC partnered with Grist Analytics to explore using data and analytics to improve beer quality and consistency across breweries of all sizes."
+  }
+]

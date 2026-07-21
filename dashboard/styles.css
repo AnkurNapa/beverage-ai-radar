@@ -26,7 +26,12 @@
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink);
-  font-family: var(--font); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+  font-family: var(--font); line-height: 1.5; -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word; }
+/* grid/flex children must be allowed to shrink below their content min-width */
+.grid > *, .people-list > *, .kpis > *, .breakdowns > * { min-width: 0; }
+.company__id, .person__body, .res__body { min-width: 0; }
+.company h3, .company .usecase, .res__title, .person__name { overflow-wrap: anywhere; }
 a { color: var(--accent); }
 .wrap { max-width: 1200px; margin: 0 auto; padding: 0 2rem 3rem; }
 
@@ -115,7 +120,7 @@ a { color: var(--accent); }
 .company p { margin: 0; font-size: .9rem; }
 .chips { display: flex; flex-wrap: wrap; gap: .35rem; }
 .chip { font-size: .7rem; padding: .18rem .5rem; border-radius: 2px; background: #f3f2f1;
-  color: var(--muted); font-weight: 600; white-space: nowrap; }
+  color: var(--muted); font-weight: 600; }
 @media (prefers-color-scheme: dark) { .chip { background: #3b3a39; } }
 .chip--muted { background: var(--line); color: var(--muted); }
 .chip--dormant { background: #fde7e9; color: #a4262c; }
@@ -153,8 +158,53 @@ a { color: var(--accent); }
 .person__meta { font-size: .82rem; color: var(--muted); margin-top: .15rem; }
 .person__meta strong { color: var(--ink); font-weight: 600; }
 
+/* --- Resources (papers / news / repos / videos) ------------------------ */
+.res-intro { color: var(--muted); font-size: .95rem; margin: .25rem 0 1.25rem; max-width: 70ch; }
+.res { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); overflow: hidden; display: flex; flex-direction: column;
+  transition: box-shadow .1s ease, border-color .1s ease; }
+.res:hover { box-shadow: var(--shadow-hover); border-color: var(--muted); }
+.res__thumb { position: relative; display: block; aspect-ratio: 16 / 9; background: #000; }
+.res__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.res__play { position: absolute; inset: 0; margin: auto; width: 46px; height: 46px;
+  display: flex; align-items: center; justify-content: center; font-size: 1.1rem; color: #fff;
+  background: rgba(196,26,26,0.92); border-radius: 999px; padding-left: 3px; }
+.res__body { padding: 1rem 1.15rem; display: flex; flex-direction: column; gap: .4rem; }
+.res__tags { display: flex; gap: .35rem; flex-wrap: wrap; }
+.res__title { font-size: 1.02rem; font-weight: 600; margin: 0; line-height: 1.25; }
+.res__title a { color: var(--ink); text-decoration: none; }
+.res__title a:hover { color: var(--accent); text-decoration: underline; }
+.res__meta { font-size: .78rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.res__sum { font-size: .86rem; margin: 0; color: var(--ink); }
+.chip--kind { color: #fff; }
+.chip--paper { background: #5c2d91; }   /* purple */
+.chip--news { background: #0067b8; }    /* blue */
+.chip--repo { background: #24292f; }    /* github black */
+.chip--video { background: #c4141a; }   /* youtube red */
+
 /* --- Footer ------------------------------------------------------------ */
 .foot { text-align: center; color: var(--muted); font-size: .82rem; padding: 2.5rem 2rem 3rem;
   border-top: 1px solid var(--line); margin-top: 1rem; }
 .foot code { background: #f3f2f1; padding: .1rem .35rem; border-radius: 2px; }
 @media (prefers-color-scheme: dark) { .foot code { background: #3b3a39; } }
+
+/* --- Responsive -------------------------------------------------------- */
+@media (max-width: 720px) {
+  .wrap { padding: 0 1rem 2.5rem; }
+  .hero { padding: 2rem 1rem 1.25rem; }
+  .hero__lede { font-size: 1rem; }
+  /* tabs scroll horizontally instead of wrapping/squishing */
+  .tabs { padding: 0 1rem; gap: 1.1rem; overflow-x: auto; -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { white-space: nowrap; flex: none; }
+  /* every control takes a full row so nothing is cramped */
+  .controls { gap: .5rem; }
+  .controls input, .controls select { flex: 1 1 100%; width: 100%; }
+  .count { margin-left: 0; }
+  .grid, .people-list, .breakdowns { grid-template-columns: 1fr; }
+  .foot { padding: 2rem 1rem 2.5rem; }
+}
+@media (min-width: 721px) and (max-width: 1000px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}

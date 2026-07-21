@@ -22,8 +22,8 @@ SEED = [
         "vertical": "whiskey",
         "ai_maturity": "pilot",
         "source_urls": ["https://oldcask.com"],
-        "first_seen": "2018-01-01",
-        "last_seen": "2019-01-01",
+        "first_seen": "2010-01-01",
+        "last_seen": "2012-01-01",
     },
     {
         "name": "Weird",
@@ -41,7 +41,7 @@ def test_curated_seed_parses_and_drops_stale(tmp_path):
     companies = CuratedSeedSource(p, today=date(2026, 7, 20)).discover(fetcher=None)
     keys = {c.key for c in companies}
     assert "tastry.com" in keys  # recent, kept
-    assert "oldcask.com" not in keys  # 2019 last_seen is older than 5 years
+    assert "oldcask.com" not in keys  # 2012 last_seen is older than 10 years
     tastry = next(c for c in companies if c.key == "tastry.com")
     assert tastry.vertical == BeverageVertical.WINE
     assert tastry.ai_maturity == AIMaturity.SHIPPING
