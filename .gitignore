@@ -6,3 +6,7 @@ __pycache__/
 *.sqlite
 .http_cache/
 # dashboard/data.json is intentionally NOT ignored: GitHub Pages publishes it.
+
+# launchd job logs
+radar.log
+radar.err.log
