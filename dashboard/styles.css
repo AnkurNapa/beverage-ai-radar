@@ -229,50 +229,52 @@ a:hover { color: var(--accent-hover); }
   font-size: .78rem; font-weight: 400; letter-spacing: .1em; text-transform: uppercase;
   color: var(--muted); margin: 0 0 1.25rem;
 }
-.bars { display: grid; gap: .1rem; }
-.bar {
-  display: grid; grid-template-columns: 1fr auto; gap: .45rem .75rem; align-items: baseline;
-  font: inherit; font-size: .95rem; font-weight: 300; text-align: left; width: 100%; cursor: pointer;
-  background: none; border: 0; border-radius: 0; padding: .7rem 0 .55rem;
-  border-bottom: 1px solid var(--line); color: var(--body);
+/* --- Breakdown: one stacked proportion bar + a legend --------------------
+   A row per category ran ~700px tall on the ten-category theme panel. The
+   composition is the point, so one bar carries it and the legend carries
+   identity and counts. The legend is also the relief for the two palette
+   entries that sit under 3:1 on white: every segment is named and numbered,
+   never colour alone. */
+.bars { display: block; }
+.stack {
+  display: flex; width: 100%; height: 16px; margin: .35rem 0 1rem;
+  border-radius: 4px; overflow: hidden;
+  gap: 2px;                       /* surface gap between fills, not a border */
+  background: var(--line);
+}
+.seg {
+  display: block; min-width: 3px; background: var(--paint);
+  transition: filter .18s ease, opacity .18s ease;
+}
+.seg[data-filter] { cursor: pointer; }
+.seg:hover { filter: brightness(1.12); }
+.stack:has(.is-on) .seg:not(.is-on) { opacity: .35; }
+
+.keys { display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; }
+.key {
+  display: inline-flex; align-items: baseline; gap: .4rem;
+  font: inherit; font-size: .82rem; font-weight: 300; color: var(--body);
+  background: none; border: 0; padding: .15rem 0; cursor: pointer; text-align: left;
   transition: color .18s ease;
 }
-.bar:hover, .bar.is-on { color: var(--ink); background: none; }
-.bar__label { color: inherit; }
-.bar:hover .bar__label { color: var(--ink); }
-.bar.is-on .bar__label { font-weight: 400; }
-/* Count and share sit next to each other, so they must never read as one
-   number. A literal separator in the markup guarantees that even with no CSS. */
-.bar__n {
-  font-variant-numeric: tabular-nums; font-weight: 400; color: var(--ink);
-  display: flex; align-items: baseline; gap: .5rem; white-space: nowrap;
+.key:hover, .key.is-on { color: var(--ink); }
+.key.is-on .key__label { font-weight: 400; }
+.key__dot {
+  width: 9px; height: 9px; flex: none; background: var(--paint);
+  border-radius: 2px; transform: translateY(-1px);
 }
-.bar__sep { display: none; }                 /* CSS present: spacing does the work */
-.bar__pct {
-  font-size: .72rem; font-weight: 300; color: var(--muted);
-  letter-spacing: .04em; text-align: right;
+.key.is-on .key__dot { box-shadow: 0 0 0 2px var(--bg), 0 0 0 3px var(--paint); }
+.key__n { font-variant-numeric: tabular-nums; font-weight: 400; color: var(--ink); }
+.key__pct { font-size: .72rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.keys .key:not([data-filter]) { cursor: default; }
+
+@media (prefers-color-scheme: dark) {
+  /* Dark is stepped for the dark surface, not an automatic flip of the light hues. */
+  .seg { background: var(--paint-dark); }
+  .key__dot { background: var(--paint-dark); }
+  .key.is-on .key__dot { box-shadow: 0 0 0 2px var(--bg), 0 0 0 3px var(--paint-dark); }
 }
-.bar__track {
-  grid-column: 1 / -1; height: 4px; margin-top: .5rem;
-  background: var(--line); border-radius: 0; overflow: hidden;
-}
-.bar__fill {
-  height: 100%; background: var(--accent); border-radius: 0; display: block;
-  transition: opacity .18s ease, filter .18s ease;
-}
-.bar:hover .bar__fill { filter: brightness(1.15); }
-.bar.is-on .bar__fill { box-shadow: 0 0 0 1px var(--accent); }
-/* Colour the vertical breakdown to the same keys the cards use, so the panel
-   and the grid read as one system rather than two unrelated blue charts. */
-.bar[data-key="beer"]     .bar__fill { background: #c8931f; }
-.bar[data-key="whiskey"]  .bar__fill { background: #a2542a; }
-.bar[data-key="wine"]     .bar__fill { background: #7d2338; }
-.bar[data-key="multiple"] .bar__fill { background: var(--accent); }
-/* Maturity reads as a pipeline: shipping is the strong state, research the faintest. */
-.bar[data-key="shipping"] .bar__fill { background: #0b7a3b; }
-.bar[data-key="pilot"]    .bar__fill { background: #8a8a8a; }
-.bar[data-key="research"] .bar__fill { background: var(--line-strong); }
-/* tell people the rows are filters, once per panel */
+/* tell people the legend and segments are filters */
 .card h2::after {
   content: " · click to filter"; color: var(--line-strong); letter-spacing: .06em;
 }
@@ -355,12 +357,12 @@ a:hover { color: var(--accent-hover); }
 /* Vertical keys the tint, read off the chip the card already renders. */
 .company:has(.chip--beer)     { --tint: #f6ecd8; --tint-ink: #6b4d10; }
 .company:has(.chip--whiskey)  { --tint: #f2e2d6; --tint-ink: #6b3a1c; }
-.company:has(.chip--wine)     { --tint: #f2dfe3; --tint-ink: #6b1f31; }
+.company:has(.chip--wine)     { --tint: #eee0f6; --tint-ink: #55206b; }
 .company:has(.chip--multiple) { --tint: #e3e8fb; --tint-ink: #1f2f6b; }
 @media (prefers-color-scheme: dark) {
   .company:has(.chip--beer)     { --tint: #2c2415; --tint-ink: #e8cd93; }
   .company:has(.chip--whiskey)  { --tint: #2c1d14; --tint-ink: #e8b58f; }
-  .company:has(.chip--wine)     { --tint: #2c151c; --tint-ink: #e89aab; }
+  .company:has(.chip--wine)     { --tint: #241830; --tint-ink: #cba3e8; }
   .company:has(.chip--multiple) { --tint: #171f38; --tint-ink: #a8b8f0; }
   .company .company__head .logo::before { background: var(--tint, #1b232d); }
 }
@@ -402,9 +404,9 @@ a:hover { color: var(--accent-hover); }
 .chip--indiv { color: var(--accent); border-left-color: var(--accent); }
 /* Vertical + maturity keep their colour coding, carried by the rule not a pill. */
 .chip--v, .chip--mat { color: var(--ink); }
-.chip--beer { border-left-color: #c8931f; }
-.chip--whiskey { border-left-color: #a2542a; }
-.chip--wine { border-left-color: #7d2338; }
+.chip--beer { border-left-color: #D99A22; }
+.chip--whiskey { border-left-color: #C25A1E; }
+.chip--wine { border-left-color: #9B3FB5; }
 .chip--multiple { border-left-color: var(--accent); }
 .chip--shipping { border-left-color: #0b7a3b; }
 .chip--pilot { border-left-color: #8a8a8a; }

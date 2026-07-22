@@ -125,30 +125,71 @@ function counts(list, field) {
   return [...m.entries()].sort((a, b) => b[1] - a[1]);
 }
 
-function renderBars(el, pairs, filterId) {
-  // Bars are sized against the largest row so the shape stays readable, but the
-  // number people actually want is the share of the whole, so show both.
-  const max = Math.max(1, ...pairs.map((p) => p[1]));
+// Palettes are validated, not eyeballed: every set below passes the lightness
+// band, chroma floor, CVD separation and normal-vision floor in BOTH modes
+// (adjacent pairlist, which is what a stacked bar uses).
+const PAL = {
+  // Verticals keep their semantic hues so the panel matches the card bands.
+  vertical: { multiple: ["#2E5BFF", "#5C82FF"], beer: ["#D99A22", "#C98500"],
+              wine: ["#9B3FB5", "#A96BD8"], whiskey: ["#C25A1E", "#D95926"] },
+  // Themes have no inherent colour, so they take a fixed categorical order.
+  // Assigned by rank and never cycled; past seven slots the tail folds to Other.
+  theme: [["#2a78d6", "#3987e5"], ["#eb6834", "#d95926"], ["#1baf7a", "#199e70"],
+          ["#eda100", "#c98500"], ["#e87ba4", "#d55181"], ["#008300", "#008300"],
+          ["#4a3aa7", "#9085e9"]],
+  // Maturity is ordinal (research -> pilot -> shipping), so one hue, light to dark.
+  maturity: { research: ["#A9BEEE", "#33447A"], pilot: ["#6E8FE0", "#4A67B8"],
+              shipping: ["#1E3FCC", "#7C95F0"] },
+  other: ["#8A8A8A", "#7C7C7C"],
+};
+const MAX_SLOTS = 7;   // an 8th hue would have to be invented; fold instead
+
+function paintOf(kind, label, i) {
+  const key = String(label).toLowerCase();
+  if (kind === "theme") return (PAL.theme[i] || PAL.other);
+  return (PAL[kind] && PAL[kind][key]) || PAL.other;
+}
+
+// One stacked proportion bar per panel plus a legend, rather than a row per
+// category. Ten categories used to run ~700px tall; this is about 90px and
+// still shows the whole composition at a glance.
+function renderBars(el, pairs, filterId, kind) {
   const total = pairs.reduce((sum, p) => sum + p[1], 0) || 1;
-  el.innerHTML = pairs.map(([label, n]) => {
-    const pct = Math.round((n / total) * 100);
-    return `
-    <button class="bar" type="button" aria-pressed="false" data-key="${esc(String(label).toLowerCase())}"
-      ${filterId ? `data-filter="${esc(filterId)}" data-value="${esc(label)}"` : ""}>
-      <span class="bar__label">${esc(label)}</span>
-      <span class="bar__n">${n}<span class="bar__sep" aria-hidden="true"> · </span><span class="bar__pct">${pct}% of ${total}</span></span>
-      <span class="bar__track"><span class="bar__fill" style="width:${(n / max) * 100}%"></span></span>
+  // Fold the tail so no slot ever needs an invented hue.
+  let rows = pairs.slice(0, MAX_SLOTS).map(([l, n], i) => ({ label: l, n, paint: paintOf(kind, l, i), real: true }));
+  const tail = pairs.slice(MAX_SLOTS);
+  if (tail.length) {
+    const merged = rows.find((r) => String(r.label).toLowerCase() === "other");
+    const tailSum = tail.reduce((sum, p) => sum + p[1], 0);
+    if (merged) merged.n += tailSum;
+    else rows.push({ label: "Other", n: tailSum, paint: PAL.other, real: false });
+    rows = rows.sort((a, b) => b.n - a.n);
+  }
+  const pct = (n) => Math.round((n / total) * 100);
+  const seg = (r) => `<span class="seg" style="flex:${r.n};--paint:${r.paint[0]};--paint-dark:${r.paint[1]}"
+      title="${esc(r.label)} · ${r.n} of ${total} · ${pct(r.n)}%"
+      ${filterId && r.real ? `data-filter="${esc(filterId)}" data-value="${esc(r.label)}"` : ""}></span>`;
+  const key = (r) => `
+    <button class="key" type="button" aria-pressed="false"
+      style="--paint:${r.paint[0]};--paint-dark:${r.paint[1]}"
+      ${filterId && r.real ? `data-filter="${esc(filterId)}" data-value="${esc(r.label)}"` : ""}>
+      <span class="key__dot" aria-hidden="true"></span><span class="key__label">${esc(r.label)}</span>
+      <span class="key__n">${r.n}</span><span class="key__pct">${pct(r.n)}%</span>
     </button>`;
-  }).join("");
-  if (filterId) el.querySelectorAll(".bar").forEach((b) => b.addEventListener("click", () => {
-    const sel = $(b.dataset.filter);
-    const turningOn = sel.value !== b.dataset.value;
-    sel.value = turningOn ? b.dataset.value : "";
+  el.innerHTML = `
+    <div class="stack" role="img" aria-label="${esc(rows.map((r) => `${r.label} ${r.n}`).join(", "))}">${rows.map(seg).join("")}</div>
+    <div class="keys">${rows.map(key).join("")}</div>`;
+
+  if (!filterId) return;
+  el.querySelectorAll("[data-filter]").forEach((node) => node.addEventListener("click", () => {
+    const sel = $(node.dataset.filter);
+    const turningOn = sel.value !== node.dataset.value;
+    sel.value = turningOn ? node.dataset.value : "";
     sel.dispatchEvent(new Event("input"));
-    // one active row per panel, so the panel always shows what is filtering
-    el.querySelectorAll(".bar").forEach((o) => {
-      o.classList.toggle("is-on", o === b && turningOn);
-      o.setAttribute("aria-pressed", String(o === b && turningOn));
+    el.querySelectorAll("[data-filter]").forEach((o) => {
+      const on = o.dataset.value === node.dataset.value && turningOn;
+      o.classList.toggle("is-on", on);
+      if (o.hasAttribute("aria-pressed")) o.setAttribute("aria-pressed", String(on));
     });
     $("grid").scrollIntoView({ behavior: "smooth", block: "start" });
   }));
@@ -532,9 +573,9 @@ async function main() {
 
   renderKpis();
 
-  renderBars($("bd-vertical"), counts(ALL, "vertical"), "f-vertical");
-  renderBars($("bd-usecase"), counts(ALL, "_theme"), "f-usecase");
-  renderBars($("bd-maturity"), counts(ALL, "ai_maturity"), "f-maturity");
+  renderBars($("bd-vertical"), counts(ALL, "vertical"), "f-vertical", "vertical");
+  renderBars($("bd-usecase"), counts(ALL, "_theme"), "f-usecase", "theme");
+  renderBars($("bd-maturity"), counts(ALL, "ai_maturity"), "f-maturity", "maturity");
 
   fillSelect($("f-vertical"), counts(ALL, "vertical").map((p) => p[0]));
   fillSelect($("f-usecase"), counts(ALL, "_theme").map((p) => p[0]));
