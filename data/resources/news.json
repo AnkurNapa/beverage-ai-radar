@@ -478,5 +478,25 @@
     "company": "Arryved",
     "url": "https://arryved.com/products/brewery-management/",
     "summary": "Arryved's product page for brewery operations, covering production planning, depletion-based inventory analytics and real-time reporting."
+  },
+  {
+    "title": "Bengaluru's brewmaster-turned-data scientist uses AI to decode beer palate shifts",
+    "publication": "Mid-Day",
+    "date": "2024-07-26",
+    "kind": "news",
+    "vertical": "beer",
+    "company": "iWort",
+    "url": "https://www.mid-day.com/mumbai-guide/things-to-do/article/mid-day-45th-anniversary-special-mead-of-the-future-23368067",
+    "summary": "Mid-Day 45th anniversary feature (by Shriram Iyengar) on Ankur Napa, the Bengaluru brewmaster turned data scientist using AI to read how the Indian beer palate is shifting and to guide what breweries brew next."
+  },
+  {
+    "title": "Smart Brewing at iWort: Using Algorithms to Keep Up with Beer Tastes",
+    "publication": "Brewer World",
+    "date": "2024-08-08",
+    "kind": "interview",
+    "vertical": "beer",
+    "company": "iWort",
+    "url": "https://www.brewer-world.com/smart-brewing-at-iwort-using-algorithms-to-keep-up-with-beer-tastes/",
+    "summary": "Brewer World interview (by Manaswita Goswami) with Ankur Napa, founder of iWort, on moving from brewmaster to data scientist and using algorithms to track shifting beer tastes and drive recipe and production decisions."
   }
 ]

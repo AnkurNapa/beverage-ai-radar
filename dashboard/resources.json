@@ -708,6 +708,28 @@
     "sort": ""
   },
   {
+    "kind": "news",
+    "label": "news",
+    "title": "Bengaluru's brewmaster-turned-data scientist uses AI to decode beer palate shifts",
+    "url": "https://www.mid-day.com/mumbai-guide/things-to-do/article/mid-day-45th-anniversary-special-mead-of-the-future-23368067",
+    "vertical": "beer",
+    "meta": "Mid-Day · 2024-07-26 · iWort",
+    "summary": "Mid-Day 45th anniversary feature (by Shriram Iyengar) on Ankur Napa, the Bengaluru brewmaster turned data scientist using AI to read how the Indian beer palate is shifting and to guide what breweries brew next.",
+    "year": 2024,
+    "sort": "2024-07-26"
+  },
+  {
+    "kind": "news",
+    "label": "interview",
+    "title": "Smart Brewing at iWort: Using Algorithms to Keep Up with Beer Tastes",
+    "url": "https://www.brewer-world.com/smart-brewing-at-iwort-using-algorithms-to-keep-up-with-beer-tastes/",
+    "vertical": "beer",
+    "meta": "Brewer World · 2024-08-08 · iWort",
+    "summary": "Brewer World interview (by Manaswita Goswami) with Ankur Napa, founder of iWort, on moving from brewmaster to data scientist and using algorithms to track shifting beer tastes and drive recipe and production decisions.",
+    "year": 2024,
+    "sort": "2024-08-08"
+  },
+  {
     "kind": "blog",
     "title": "AI in Sensory and the QA System",
     "url": "https://ankurnapa.github.io/2026/ai-brewery-lab-sensory-qa-system/",
