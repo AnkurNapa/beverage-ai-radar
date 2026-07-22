@@ -391,9 +391,13 @@ function resCard(r) {
 function applyRes() {
   const q = $("rq").value.trim().toLowerCase();
   const fk = $("fr-kind").value, fv = $("fr-vertical").value;
+  const yFrom = +$("fr-from").value || 0, yTo = +$("fr-to").value || 9999;
+  const yBound = $("fr-from").value || $("fr-to").value;
   const shown = RES.filter((r) => {
     if (fk && r.kind !== fk) return false;
     if (fv && r.vertical !== fv) return false;
+    // year filter: when a bound is set, keep only items with a year in range
+    if (yBound && (!r.year || r.year < yFrom || r.year > yTo)) return false;
     if (q && !`${r.title} ${r.summary} ${r.meta}`.toLowerCase().includes(q)) return false;
     return true;
   });
@@ -412,7 +416,10 @@ async function loadResources() {
   RES.sort((a, b) => (order[a.kind] - order[b.kind]) || (`${b.sort}`).localeCompare(`${a.sort}`));
   if (!RES.length) { $("tab-resources").hidden = true; return; }
   fillSelect($("fr-vertical"), [...new Set(RES.map((r) => r.vertical).filter(Boolean))].sort());
-  for (const id of ["rq", "fr-kind", "fr-vertical"]) $(id).addEventListener("input", applyRes);
+  const resYears = [...new Set(RES.map((r) => r.year).filter(Boolean))].sort((a, b) => a - b);
+  fillSelect($("fr-from"), resYears.map(String));
+  fillSelect($("fr-to"), resYears.map(String));
+  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-from", "fr-to"]) $(id).addEventListener("input", applyRes);
   applyRes();
 }
 

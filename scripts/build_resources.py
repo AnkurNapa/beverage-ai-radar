@@ -38,8 +38,15 @@ def _norm_papers(rows):
             "vertical": r.get("vertical", "multiple"),
             "meta": " · ".join(x for x in (r.get("authors"), r.get("venue"), str(r.get("year") or "")) if x),
             "summary": r.get("finding", ""),
+            "year": r.get("year"),
             "sort": r.get("year") or 0,
         }
+
+
+def _year_from(date):
+    """Pull a 4-digit year off a free-text date like '2024' or '2024-11-04'."""
+    s = str(date or "")
+    return int(s[:4]) if s[:4].isdigit() else None
 
 
 def _norm_news(rows):
@@ -55,6 +62,7 @@ def _norm_news(rows):
             "vertical": r.get("vertical", "multiple"),
             "meta": " · ".join(x for x in (r.get("publication"), r.get("date"), r.get("company")) if x),
             "summary": r.get("summary", ""),
+            "year": _year_from(r.get("date")),
             "sort": r.get("date") or "",
         }
 
@@ -73,6 +81,7 @@ def _norm_repos(rows):
             "meta": " · ".join(x for x in (f"★ {stars}", r.get("language")) if x),
             "summary": r.get("relevance") or r.get("description", ""),
             "stars": stars,
+            "year": None,
             "sort": stars,
         }
 
@@ -91,6 +100,7 @@ def _norm_videos(rows):
             "meta": " · ".join(x for x in (r.get("channel"), str(r.get("year") or "")) if x),
             "summary": r.get("summary", ""),
             "thumb": f"https://img.youtube.com/vi/{vid}/hqdefault.jpg",
+            "year": r.get("year"),
             "sort": r.get("year") or 0,
         }
 
