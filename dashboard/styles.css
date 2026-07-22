@@ -241,14 +241,16 @@ a:hover { color: var(--accent-hover); }
 .bar__label { color: inherit; }
 .bar:hover .bar__label { color: var(--ink); }
 .bar.is-on .bar__label { font-weight: 400; }
+/* Count and share sit next to each other, so they must never read as one
+   number. A literal separator in the markup guarantees that even with no CSS. */
 .bar__n {
   font-variant-numeric: tabular-nums; font-weight: 400; color: var(--ink);
-  display: flex; align-items: baseline; gap: .5rem;
+  display: flex; align-items: baseline; gap: .5rem; white-space: nowrap;
 }
-/* share of the whole, the number that makes the row mean something */
+.bar__sep { display: none; }                 /* CSS present: spacing does the work */
 .bar__pct {
   font-size: .72rem; font-weight: 300; color: var(--muted);
-  letter-spacing: .04em; min-width: 2.6em; text-align: right;
+  letter-spacing: .04em; text-align: right;
 }
 .bar__track {
   grid-column: 1 / -1; height: 4px; margin-top: .5rem;

@@ -136,7 +136,7 @@ function renderBars(el, pairs, filterId) {
     <button class="bar" type="button" aria-pressed="false" data-key="${esc(String(label).toLowerCase())}"
       ${filterId ? `data-filter="${esc(filterId)}" data-value="${esc(label)}"` : ""}>
       <span class="bar__label">${esc(label)}</span>
-      <span class="bar__n">${n}<span class="bar__pct">${pct}%</span></span>
+      <span class="bar__n">${n}<span class="bar__sep" aria-hidden="true"> · </span><span class="bar__pct">${pct}% of ${total}</span></span>
       <span class="bar__track"><span class="bar__fill" style="width:${(n / max) * 100}%"></span></span>
     </button>`;
   }).join("");
