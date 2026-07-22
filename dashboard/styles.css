@@ -241,6 +241,7 @@ a { color: var(--accent); }
 /* --- Footer ------------------------------------------------------------ */
 .foot { text-align: center; color: var(--muted); font-size: .82rem; padding: 2.5rem 2rem 3rem;
   border-top: 1px solid var(--line); margin-top: 1rem; }
+.foot a { color: var(--accent); }
 .foot code { background: #f3f2f1; padding: .1rem .35rem; border-radius: 2px; }
 @media (prefers-color-scheme: dark) { .foot code { background: #3b3a39; } }
 
