@@ -83,6 +83,27 @@ function fundingBucket(c) {
 }
 const countryOf = (c) => (c.hq_location || "").split(",").pop().trim();
 
+// Detect named tech platforms mentioned in free text (specific before generic).
+const PLATFORM_RULES = [
+  ["Microsoft Fabric", /microsoft fabric|ms fabric|\bfabric\b/i],
+  ["Power BI", /power ?bi/i],
+  ["Azure", /\bazure\b/i],
+  ["Microsoft", /microsoft|dynamics 365|\bm365\b/i],
+  ["Tableau", /tableau/i],
+  ["Google Cloud", /google cloud|\bgcp\b|bigquery|vertex ai/i],
+  ["AWS", /\baws\b|amazon web services|sagemaker/i],
+  ["Snowflake", /snowflake/i],
+  ["Databricks", /databricks/i],
+  ["Qlik", /\bqlik\b/i],
+  ["SAS", /\bSAS\b/],
+  ["OSIsoft / PI", /osisoft|aveva|\bpi system\b/i],
+  ["Streamlit", /streamlit/i],
+];
+function platformsOf(text) {
+  const t = text || "";
+  return PLATFORM_RULES.filter(([, re]) => re.test(t)).map(([name]) => name);
+}
+
 function hasNamed(c) {
   return (c.people && c.people.length) || !!c.key_people;
 }
@@ -171,8 +192,10 @@ function apply() {
     fm = $("f-maturity").value, fs = $("f-status").value,
     ft = $("f-type").value, fsrc = $("f-source").value, fp = $("f-people").value,
     ffund = $("f-funding").value, fcty = $("f-country").value, sort = $("s-sort").value,
+    fplat = $("f-platform").value,
     yFrom = +$("f-from").value || 0, yTo = +$("f-to").value || 9999;
   const shown = ALL.filter((c) => {
+    if (fplat && !c._platforms.includes(fplat)) return false;
     // timeline: exclude only entries whose known founded_year falls outside the
     // range. Undated entries stay visible so the filter narrows, not empties.
     if (($("f-from").value || $("f-to").value) && c.founded_year
@@ -397,12 +420,13 @@ function resCard(r) {
 
 function applyRes() {
   const q = $("rq").value.trim().toLowerCase();
-  const fk = $("fr-kind").value, fv = $("fr-vertical").value;
+  const fk = $("fr-kind").value, fv = $("fr-vertical").value, fp = $("fr-platform").value;
   const yFrom = +$("fr-from").value || 0, yTo = +$("fr-to").value || 9999;
   const yBound = $("fr-from").value || $("fr-to").value;
   const shown = RES.filter((r) => {
     if (fk && r.kind !== fk) return false;
     if (fv && r.vertical !== fv) return false;
+    if (fp && !r._platforms.includes(fp)) return false;
     // year filter: exclude only dated items outside the range; undated items
     // (e.g. repos, videos with no year) stay visible so content is not emptied.
     if (yBound && r.year && (r.year < yFrom || r.year > yTo)) return false;
@@ -419,6 +443,7 @@ async function loadResources() {
   try {
     RES = await (await fetch("resources.json")).json();
   } catch { RES = []; }
+  for (const r of RES) r._platforms = platformsOf(`${r.title || ""} ${r.summary || ""} ${r.meta || ""}`);
   // kind order paper/news/repo/video, featured first within a kind, then sort desc
   const order = { paper: 0, news: 1, repo: 2, video: 3 };
   RES.sort((a, b) => (order[a.kind] - order[b.kind])
@@ -426,10 +451,11 @@ async function loadResources() {
     || (`${b.sort}`).localeCompare(`${a.sort}`));
   if (!RES.length) { $("tab-resources").hidden = true; return; }
   fillSelect($("fr-vertical"), [...new Set(RES.map((r) => r.vertical).filter(Boolean))].sort());
+  fillSelect($("fr-platform"), counts(RES.flatMap((r) => r._platforms).map((p) => ({ p })), "p").map((x) => x[0]));
   const resYears = [...new Set(RES.map((r) => r.year).filter(Boolean))].sort((a, b) => a - b);
   fillSelect($("fr-from"), resYears.map(String));
   fillSelect($("fr-to"), resYears.map(String));
-  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-from", "fr-to"]) $(id).addEventListener("input", applyRes);
+  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-from", "fr-to"]) $(id).addEventListener("input", applyRes);
   applyRes();
 }
 
@@ -466,7 +492,10 @@ async function main() {
     return;
   }
   ALL = Array.isArray(data) ? data : data.companies || [];
-  for (const c of ALL) c._theme = themeOf(c);
+  for (const c of ALL) {
+    c._theme = themeOf(c);
+    c._platforms = platformsOf(`${c.short_description || ""} ${c.ai_use_case || ""}`);
+  }
 
   renderKpis();
 
@@ -478,6 +507,7 @@ async function main() {
   fillSelect($("f-usecase"), counts(ALL, "_theme").map((p) => p[0]));
   fillSelect($("f-maturity"), counts(ALL, "ai_maturity").map((p) => p[0]));
   fillSelect($("f-type"), counts(ALL.map((c) => ({ company_type: c.company_type || "product" })), "company_type").map((p) => p[0]));
+  fillSelect($("f-platform"), counts(ALL.flatMap((c) => c._platforms).map((p) => ({ p })), "p").map((x) => x[0]));
   fillSelect($("f-funding"), counts(ALL.map((c) => ({ f: fundingBucket(c) })).filter((x) => x.f), "f").map((p) => p[0]));
   fillSelect($("f-country"), counts(ALL.filter((c) => countryOf(c)).map((c) => ({ c: countryOf(c) })), "c").map((p) => p[0]));
   fillSelect($("f-source"), counts(ALL.map((c) => ({ source: sourceOf(c) })), "source").map((p) => p[0]));
@@ -486,7 +516,7 @@ async function main() {
   fillSelect($("f-to"), years.map(String));
 
   for (const id of ["q", "f-vertical", "f-usecase", "f-maturity", "f-status", "f-type",
-    "f-funding", "f-country", "f-source", "f-from", "f-to", "f-people", "s-sort"]) {
+    "f-platform", "f-funding", "f-country", "f-source", "f-from", "f-to", "f-people", "s-sort"]) {
     $(id).addEventListener("input", apply);
   }
   apply();
