@@ -1,0 +1,82 @@
+[
+  {
+    "title": "SDS 755: Brewing Beer with A.I., with Beau Warren",
+    "show": "Super Data Science Podcast",
+    "date": "2024-02-06",
+    "vertical": "beer",
+    "url": "https://www.superdatascience.com/podcast/sds-755-brewing-beer-with-a-i-with-beau-warren",
+    "summary": "Species X head brewer Beau Warren explains how he cleaned 180 features across 300-plus beers and used AutoML tools to generate a machine-learning-designed lager."
+  },
+  {
+    "title": "Ep 24: Artificial Intelligence (AI) in Brewing",
+    "show": "The Modern Brewer Podcast",
+    "date": "2024-06-10",
+    "vertical": "beer",
+    "url": "https://www.buzzsprout.com/2202528/episodes/15219065-ep-24-artificial-intelligence-ai-in-brewing-ankur-napa",
+    "summary": "Brewer and senior data analyst Ankur Napa walks through machine learning, fermentation monitoring, and predictive analytics for brewhouse efficiency."
+  },
+  {
+    "title": "Episode 063: Utilizing Predictive Analytics to Improve Quality and Maximize Capacity at Deschutes Brewery",
+    "show": "Master Brewers Podcast",
+    "date": "2021-10-11",
+    "vertical": "beer",
+    "url": "https://www.masterbrewerspodcast.com/063",
+    "summary": "Deschutes brewmaster Brian Faivre describes how one of the largest craft brewers uses data and predictive analytics tools to improve process and capacity."
+  },
+  {
+    "title": "Episode 309: Predicting and improving complex beer flavor through machine learning",
+    "show": "Master Brewers Podcast",
+    "date": "2024-06-03",
+    "vertical": "beer",
+    "url": "https://www.masterbrewerspodcast.com/309",
+    "summary": "Kevin Verstrepen and Michiel Schreurs discuss their Nature Communications research using chemical analytics and machine learning to predict and improve beer flavor."
+  },
+  {
+    "title": "Episode 253: [LIVE] Artificial Intelligence and Brewing",
+    "show": "Tap the Craft Podcast",
+    "date": "",
+    "vertical": "beer",
+    "url": "https://tapthecraft.com/episodes/episode-253-live-artificial-intelligence-and-brewing",
+    "summary": "Hosts Denny Luce and Kris McKenzie discuss AI in brewing and consumer engagement, referencing the Deep Liquid beer AI project."
+  },
+  {
+    "title": "Better Data Science and AI Technologies for Better Vine and Wine?",
+    "show": "Harvard Data Science Review Podcast",
+    "date": "2025-08-29",
+    "vertical": "wine",
+    "url": "https://hdsr.podbean.com/e/better-data-science-and-ai-technologies-for-better-vine-and-wine/",
+    "summary": "Scout CEO Kia Behnia and Tastry founder Katerina Axelsson cover AI for precision viticulture and consumer preference prediction across the wine chain."
+  },
+  {
+    "title": "Ep 71: Data Science and AI in the wine industry with Aubrey Terrazas",
+    "show": "Eat Sleep Wine Repeat",
+    "date": "2021-11-08",
+    "vertical": "wine",
+    "url": "https://eatsleepwinerepeat.podbean.com/e/ep-71-data-science-and-ai-in-the-wine-industry-with-ms-candidate-aubrey-terrazas-part-2/",
+    "summary": "Sommelier and data science MS candidate Aubrey Terrazas explains using data science to match customers to wines from vineyard to glass."
+  },
+  {
+    "title": "Mapping Flavor Profiles for Wine w/ Katerina Axelsson, Tastry",
+    "show": "XChateau Wine Podcast",
+    "date": "2023-11-11",
+    "vertical": "wine",
+    "url": "https://www.xchateau.com/mapping-flavor-profiles-for-wine-w-katerina-axelsson-tastry/",
+    "summary": "Tastry CEO Katerina Axelsson details an AI and analytical-chemistry system that maps wine flavor profiles to consumer taste data for winemaking decisions."
+  },
+  {
+    "title": "Getting more sales analytics manpower with AI w/ Jeremy Hart, Somm.ai",
+    "show": "XChateau Wine Podcast",
+    "date": "2026-04-14",
+    "vertical": "wine",
+    "url": "https://www.xchateau.com/getting-more-sales-analytics-manpower-with-ai-w-jeremy-hart-sommai/",
+    "summary": "Somm.ai co-founder Jeremy Hart explains AI-driven sales analytics across roughly 100,000 on-premise wine accounts for benchmarking and pricing."
+  },
+  {
+    "title": "The distillery with an AI-backed plan to lift their spirits",
+    "show": "Working Smarter",
+    "date": "2025-10-15",
+    "vertical": "whiskey",
+    "url": "https://podcasts.apple.com/us/podcast/the-distillery-with-an-ai-backed-plan-to-lift-their-spirits/id1634463632?i=1000731947174",
+    "summary": "Bespoken Spirits uses machine learning to finish whiskey in days rather than years and applies AI to marketing for a small team."
+  }
+]

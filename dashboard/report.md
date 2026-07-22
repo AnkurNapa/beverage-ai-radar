@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-07-22. 80 active, 30 dormant.
+Snapshot: 2026-07-22. 82 active, 30 dormant.
 
 ## Active companies
 
@@ -13,6 +13,7 @@ Snapshot: 2026-07-22. 80 active, 30 dormant.
 - **Ankur Napa** (multiple, AI/ML tooling for brewing and beverage: recipe/flavor prediction, sensory analytics, consumer-review NLP, demand forecasting; ships hands-on web apps and calculators). Brewmaster-turned-data-scientist (ex-AB InBev, SABMiller, United Breweries) building AI/data tools across beer, whiskey and wine as an independent practitioner. Founder of iWort; ships open web apps (brewing calculators, flavor-forge, brewery analytics) and writes on the gap between the number and the floor reality. People: [Ankur Napa](https://www.linkedin.com/in/ankur-napa/) (Independent builder — brewing data science & AI).
 - **Antares Vision Group** (multiple, AI and blockchain product traceability and inspection data). Antares Vision Group provides an integrated software and hardware ecosystem for product quality inspection and end-to-end traceability. It applies artificial intelligence and blockchain to connected data management across the supply chain.
 - **Aromalytics** (multiple, sensory). Aromalytics offers an AI electronic-nose platform delivered as software and hardware as a service, digitizing smell to replace human sensory panels for food and beverage quality control and adulteration detection. It serves drinks and food manufacturers plus safety agencies.
+- **Arryved** (beer, taproom/point-of-sale data & analytics for craft beverage operators). Arryved is a point-of-sale and operations platform built specifically for craft beverage businesses such as breweries, taprooms, cideries and distilleries. It unifies service, online ordering, production, payments and reporting into a single data model that delivers real-time, brewery-specific analytics. Its aggregate POS dataset spans more than 2,000 taprooms and is used, with the Brewers Association, to analyze industry taproom sales trends.
 - **Authentic Vision** (multiple, quality control / computer vision). Authentic Vision sells a smartphone authentication service built on unique Holographic Fingerprint security labels that let anyone verify a bottle and detect counterfeits. Wine and spirits are core industries served, with AI-backed verification and geolocation analytics.
 - **Bar Analytics** (beer, beer sales and quality analytics with AI insights). Bar Analytics runs a beer analytics platform that provides real-time sales and quality data with AI insights on beer performance globally.
 - **Bart Watson** (beer, data analytics / BI / market intelligence for beverage). PhD economist who built the Brewers Association's craft beer production, sales, and market intelligence data program and was long the public face of US beer industry statistics. People: [Bart Watson](https://www.linkedin.com/in/bart-watson/) (President and CEO, former Chief Economist (craft beer market data and analytics) — Brewers Association).
@@ -32,6 +33,7 @@ Snapshot: 2026-07-22. 80 active, 30 dormant.
 - **Enolytics** (wine, demand forecasting). Data analytics platform built for wineries and spirits brands that aggregates sales channel data and applies predictive analytics and forecasting to drive direct-to-consumer growth. People: [Cathy Huyghe](https://www.linkedin.com/in/cathy-huyghe-332307) (CEO, Co-Founder), [Chris Huyghe](https://www.linkedin.com/in/chrishuyghe) (Co-Founder).
 - **Erin Schmidt** (beer, data analytics / BI / market intelligence for beverage). Leads commercial and business analytics for Molson Coors across the Americas, with a decade in beverage revenue management and business intelligence. People: [Erin Schmidt](https://www.linkedin.com/in/erin-schmidt-92a18a4/) (Director, Commercial Analytics — Molson Coors Beverage Company).
 - **Factbird** (multiple, manufacturing data platform with AI assistant). Factbird provides a manufacturing data platform with plug-and-play data capture, real-time OEE and root-cause analysis, and an AI assistant that lets teams query production data. It helps manufacturers make faster, data-driven decisions.
+- **First Key Consulting** (multiple, advising brewers on data infrastructure and AI for demand forecasting). First Key is a brewing and beverage industry consulting firm with more than 40 years of experience working across 50-plus countries. It advises brewers and beverage companies on strategy, finance, operations, engineering, supply chain and more. It publishes an Insights series that includes articles on how AI and big data apply to beer and beverage supply chains. People: Dr. Jack Buffington (Director of Supply Chain & Sustainability).
 - **Firstleaf** (wine, recommendation / personalization). Direct-to-consumer wine club operated by Penrose Hill that uses proprietary WinePrint taste-profiling technology to build individual palate profiles and recommend personalized wine selections to members. People: [Philip James](https://www.linkedin.com/in/philipjames) (Founder & CEO), [Kevin Jessen](https://www.linkedin.com/in/kevinejessen) (SVP Technology & Product).
 - **FlavorActiV** (multiple, sensory). FlavorActiV is a sensory-services provider selling GMP flavour standards, taster calibration, panel training, and analytical instruments including an aroma-analysing electronic nose to breweries and beverage makers. It supports professional tasting panels across beer, spirits, and other categories.
 - **FlavorWiki** (multiple, sensory). Digital sensory and product-testing company using AI and data science to evaluate flavor, aroma, texture and mouthfeel with everyday consumers, with expertise explicitly spanning alcoholic drinks alongside food and beverages. People: [Daniel Protz](https://www.linkedin.com/in/daniel-protz-707b772a) (Founder and CEO).
@@ -120,8 +122,8 @@ Snapshot: 2026-07-22. 80 active, 30 dormant.
 
 ## By vertical (active)
 
-- multiple: 39
-- beer: 21
+- multiple: 40
+- beer: 22
 - wine: 16
 - whiskey: 4
 
@@ -163,3 +165,5 @@ Snapshot: 2026-07-22. 80 active, 30 dormant.
 - consumer-preference NLP, recipe optimization ML, predictive maintenance, demand forecasting: 1
 - AI-driven batch-consistency analytics on fermentation IoT data: 1
 - AI/ML tooling for brewing and beverage: recipe/flavor prediction, sensory analytics, consumer-review NLP, demand forecasting; ships hands-on web apps and calculators: 1
+- advising brewers on data infrastructure and AI for demand forecasting: 1
+- taproom/point-of-sale data & analytics for craft beverage operators: 1

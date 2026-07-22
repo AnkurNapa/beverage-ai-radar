@@ -258,5 +258,225 @@
     "company": "Grist Analytics",
     "url": "https://www.brewbound.com/news/grist-analytics-and-the-american-society-of-brewing-chemists-asbc-partner-to-advance-brewing-science-and-quality/",
     "summary": "ASBC partnered with Grist Analytics to explore using data and analytics to improve beer quality and consistency across breweries of all sizes."
+  },
+  {
+    "title": "National Beer Sales & Production Data",
+    "publication": "Brewers Association",
+    "date": "2025",
+    "kind": "data-program",
+    "vertical": "beer",
+    "company": "Brewers Association",
+    "url": "https://www.brewersassociation.org/statistics-and-data/national-beer-stats/",
+    "summary": "Charts and data tables of U.S. beer production, sales, and brewery counts from 1873 to present, updated annually for craft industry analysis."
+  },
+  {
+    "title": "State Craft Beer Sales & Production Statistics",
+    "publication": "Brewers Association",
+    "date": "2025",
+    "kind": "statistics",
+    "vertical": "beer",
+    "company": "Brewers Association",
+    "url": "https://www.brewersassociation.org/statistics-and-data/state-craft-beer-stats/",
+    "summary": "Per-state craft beer production volumes, brewery counts, and economic figures compiled into browsable statistical breakdowns."
+  },
+  {
+    "title": "Brewery Operations Benchmarking Survey (BOBS)",
+    "publication": "Brewers Association",
+    "date": "",
+    "kind": "data-program",
+    "vertical": "beer",
+    "company": "Brewers Association",
+    "url": "https://www.brewersassociation.org/bobs/",
+    "summary": "Biannual anonymized operations survey giving craft brewers benchmark data and best-practice tools to measure and improve their businesses."
+  },
+  {
+    "title": "Industry Benchmarking Data",
+    "publication": "Brewers Association",
+    "date": "",
+    "kind": "data-program",
+    "vertical": "beer",
+    "company": "Brewers Association",
+    "url": "https://www.brewersassociation.org/statistics-and-data/industry-benchmarking-data/",
+    "summary": "Aggregated financial, operations, salary, and demographic benchmarking datasets (spreadsheets on revenue, COGS, margins) for member breweries."
+  },
+  {
+    "title": "Insights & Analysis",
+    "publication": "Brewers Association",
+    "date": "",
+    "kind": "publication",
+    "vertical": "beer",
+    "company": "Brewers Association",
+    "url": "https://www.brewersassociation.org/category/insights/",
+    "summary": "Ongoing analytical articles from BA economists interpreting craft market data, consumer trends, and survey results for the industry."
+  },
+  {
+    "title": "Mixed Signals: 2026 Consumer Survey",
+    "publication": "Brewers Association",
+    "date": "2026",
+    "kind": "analysis",
+    "vertical": "beer",
+    "company": "Brewers Association",
+    "url": "https://www.brewersassociation.org/insights/mixed-signals-2026-consumer-survey/",
+    "summary": "SWOT-style data analysis of the BA and Harris Poll consumer survey, separating meaningful craft-drinker engagement trends from noise."
+  },
+  {
+    "title": "Statistics & Trends Resource Hub",
+    "publication": "Brewers Association",
+    "date": "",
+    "kind": "data-program",
+    "vertical": "beer",
+    "company": "Brewers Association",
+    "url": "https://www.brewersassociation.org/resource-hub/statistics-trends/",
+    "summary": "Central hub aggregating BA statistics, trend reports, and data resources on the craft brewing market."
+  },
+  {
+    "title": "Technical Quarterly (TQ)",
+    "publication": "MBAA",
+    "date": "",
+    "kind": "publication",
+    "vertical": "beer",
+    "company": "Master Brewers Association of the Americas",
+    "url": "https://www.mbaa.com/technical-quarterly",
+    "summary": "Peer-reviewed online journal (archive 1964 to present) publishing brewing science including process control, quality monitoring, and statistical method papers."
+  },
+  {
+    "title": "Top 10 Technical Quarterly Articles of 2021",
+    "publication": "MBAA",
+    "date": "2021",
+    "kind": "technical-paper",
+    "vertical": "beer",
+    "company": "Master Brewers Association of the Americas",
+    "url": "https://www.mbaa.com/publications/Pages/2021top10.aspx",
+    "summary": "Curated list of most-read TQ papers, including Fermentation Quality Control by Tim Faith on building measurable QC into the brewing recipe."
+  },
+  {
+    "title": "2026-2027 Course Schedule",
+    "publication": "MBAA",
+    "date": "2026",
+    "kind": "course",
+    "vertical": "beer",
+    "company": "Master Brewers Association of the Americas",
+    "url": "https://www.mbaa.com/courses",
+    "summary": "Professional course catalog including a Six Sigma course applying statistical process-control methods to brewery quality and operations."
+  },
+  {
+    "title": "Continuing Education and Webinars",
+    "publication": "MBAA",
+    "date": "",
+    "kind": "course",
+    "vertical": "beer",
+    "company": "Master Brewers Association of the Americas",
+    "url": "https://www.mbaa.com/education",
+    "summary": "On-the-job education program with webinars and short courses covering process control, quality, and data-driven brewery operations."
+  },
+  {
+    "title": "ASBC Methods of Analysis",
+    "publication": "ASBC",
+    "date": "",
+    "kind": "data-tool",
+    "vertical": "multiple",
+    "company": "American Society of Brewing Chemists",
+    "url": "http://methods.asbcnet.org/",
+    "summary": "Over 220 peer-reviewed analytical methods spanning malt, wort, beer, microbiology, sensory, and dedicated statistical analysis procedures."
+  },
+  {
+    "title": "ASBC Statistical Analysis Methods",
+    "publication": "ASBC",
+    "date": "",
+    "kind": "data-tool",
+    "vertical": "multiple",
+    "company": "American Society of Brewing Chemists",
+    "url": "https://www.asbcnet.org/Methods/StatisticalAnalysis/pages/default.aspx",
+    "summary": "Standardized statistical procedures for brewing labs including linear calibration and confidence-interval construction for analytical data."
+  },
+  {
+    "title": "Grist Analytics and ASBC Partnership",
+    "publication": "ASBC",
+    "date": "2023",
+    "kind": "partnership",
+    "vertical": "beer",
+    "company": "American Society of Brewing Chemists",
+    "url": "https://www.asbcnet.org/Membership/Documents/Grist-ASBC%20Press%20Release_2023.04.pdf",
+    "summary": "Partnership bringing Grist Analytics brew, cellar, and packaging data platform to ASBC for automated real-time quality feedback and predictive scheduling."
+  },
+  {
+    "title": "Scottish Section Webinar: Digitise Your Distillery for Success",
+    "publication": "IBD",
+    "date": "",
+    "kind": "webinar",
+    "vertical": "multiple",
+    "company": "Institute of Brewing & Distilling",
+    "url": "https://www.cibd.org.uk/events/past-events/scottish-section-webinar-digitise-your-distillery-for-success/",
+    "summary": "Webinar on digitising brewing and distilling operations, covering real-time digital plant records and enabling production optimisations through machine learning."
+  },
+  {
+    "title": "Beer in the Era of Big Data and AI",
+    "publication": "First Key Consulting",
+    "date": "2024",
+    "kind": "news",
+    "vertical": "beer",
+    "company": "First Key Consulting",
+    "url": "https://firstkey.com/beer-in-the-era-of-big-data-and-ai/",
+    "summary": "First Key argues that brewers must build foundational data infrastructure and analytics before they can successfully leverage AI and big data."
+  },
+  {
+    "title": "How AI is Revolutionizing Demand Forecasting in Beverage Supply Chains",
+    "publication": "First Key Consulting",
+    "date": "",
+    "kind": "news",
+    "vertical": "multiple",
+    "company": "First Key Consulting",
+    "url": "https://firstkey.com/how-ai-is-revolutionizing-demand-forecasting-in-beverage-supply-chains/",
+    "summary": "The article explains how machine learning and predictive analytics improve beverage demand forecasting accuracy, inventory turnover and waste reduction versus traditional history-based methods."
+  },
+  {
+    "title": "Managing Profitability Through Complexity: FP&A's Role in the Modern Beverage Company",
+    "publication": "First Key Consulting",
+    "date": "",
+    "kind": "news",
+    "vertical": "multiple",
+    "company": "First Key Consulting",
+    "url": "https://firstkey.com/managing-profitability-through-complexity-fpas-role-in-the-modern-beverage-company/",
+    "summary": "The piece covers how FP&A, rolling forecasts, scenario planning and capacity modeling help beverage companies protect margins."
+  },
+  {
+    "title": "Insights",
+    "publication": "First Key Consulting",
+    "date": "",
+    "kind": "news",
+    "vertical": "multiple",
+    "company": "First Key Consulting",
+    "url": "https://firstkey.com/insights/",
+    "summary": "First Key's ongoing article hub publishing its latest thinking on brewing and beverage industry topics, including data and AI."
+  },
+  {
+    "title": "What Top Breweries Are Doing Right: Winning Strategies To Grow Taproom Sales Recap",
+    "publication": "Arryved",
+    "date": "2024",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Arryved",
+    "url": "https://arryved.com/level-up-with-arryved/what-top-breweries-are-doing-right-winning-strategies-to-grow-taproom-sales-recap/",
+    "summary": "Using Arryved POS data across 2,000-plus taprooms analyzed with the Brewers Association, this recap identifies taproom sales trends such as rising food sales and declining draft beer share."
+  },
+  {
+    "title": "MarginEdge Streamlines Brewery Operations with Arryved POS Integration",
+    "publication": "Arryved",
+    "date": "",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Arryved",
+    "url": "https://arryved.com/press-release/marginedge-streamlines-brewery-operations-with-arryved-pos-integration/",
+    "summary": "Announces an integration that exports Arryved sales data into MarginEdge for cost analysis, product-usage insight and accurate financial reporting."
+  },
+  {
+    "title": "Brewery Management",
+    "publication": "Arryved",
+    "date": "",
+    "kind": "news",
+    "vertical": "beer",
+    "company": "Arryved",
+    "url": "https://arryved.com/products/brewery-management/",
+    "summary": "Arryved's product page for brewery operations, covering production planning, depletion-based inventory analytics and real-time reporting."
   }
 ]

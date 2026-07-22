@@ -466,6 +466,248 @@
     "sort": "2023-04"
   },
   {
+    "kind": "news",
+    "label": "data-program",
+    "title": "National Beer Sales & Production Data",
+    "url": "https://www.brewersassociation.org/statistics-and-data/national-beer-stats/",
+    "vertical": "beer",
+    "meta": "Brewers Association · 2025 · Brewers Association",
+    "summary": "Charts and data tables of U.S. beer production, sales, and brewery counts from 1873 to present, updated annually for craft industry analysis.",
+    "year": 2025,
+    "sort": "2025"
+  },
+  {
+    "kind": "news",
+    "label": "statistics",
+    "title": "State Craft Beer Sales & Production Statistics",
+    "url": "https://www.brewersassociation.org/statistics-and-data/state-craft-beer-stats/",
+    "vertical": "beer",
+    "meta": "Brewers Association · 2025 · Brewers Association",
+    "summary": "Per-state craft beer production volumes, brewery counts, and economic figures compiled into browsable statistical breakdowns.",
+    "year": 2025,
+    "sort": "2025"
+  },
+  {
+    "kind": "news",
+    "label": "data-program",
+    "title": "Brewery Operations Benchmarking Survey (BOBS)",
+    "url": "https://www.brewersassociation.org/bobs/",
+    "vertical": "beer",
+    "meta": "Brewers Association · Brewers Association",
+    "summary": "Biannual anonymized operations survey giving craft brewers benchmark data and best-practice tools to measure and improve their businesses.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "data-program",
+    "title": "Industry Benchmarking Data",
+    "url": "https://www.brewersassociation.org/statistics-and-data/industry-benchmarking-data/",
+    "vertical": "beer",
+    "meta": "Brewers Association · Brewers Association",
+    "summary": "Aggregated financial, operations, salary, and demographic benchmarking datasets (spreadsheets on revenue, COGS, margins) for member breweries.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "publication",
+    "title": "Insights & Analysis",
+    "url": "https://www.brewersassociation.org/category/insights/",
+    "vertical": "beer",
+    "meta": "Brewers Association · Brewers Association",
+    "summary": "Ongoing analytical articles from BA economists interpreting craft market data, consumer trends, and survey results for the industry.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "analysis",
+    "title": "Mixed Signals: 2026 Consumer Survey",
+    "url": "https://www.brewersassociation.org/insights/mixed-signals-2026-consumer-survey/",
+    "vertical": "beer",
+    "meta": "Brewers Association · 2026 · Brewers Association",
+    "summary": "SWOT-style data analysis of the BA and Harris Poll consumer survey, separating meaningful craft-drinker engagement trends from noise.",
+    "year": 2026,
+    "sort": "2026"
+  },
+  {
+    "kind": "news",
+    "label": "data-program",
+    "title": "Statistics & Trends Resource Hub",
+    "url": "https://www.brewersassociation.org/resource-hub/statistics-trends/",
+    "vertical": "beer",
+    "meta": "Brewers Association · Brewers Association",
+    "summary": "Central hub aggregating BA statistics, trend reports, and data resources on the craft brewing market.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "publication",
+    "title": "Technical Quarterly (TQ)",
+    "url": "https://www.mbaa.com/technical-quarterly",
+    "vertical": "beer",
+    "meta": "MBAA · Master Brewers Association of the Americas",
+    "summary": "Peer-reviewed online journal (archive 1964 to present) publishing brewing science including process control, quality monitoring, and statistical method papers.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "technical-paper",
+    "title": "Top 10 Technical Quarterly Articles of 2021",
+    "url": "https://www.mbaa.com/publications/Pages/2021top10.aspx",
+    "vertical": "beer",
+    "meta": "MBAA · 2021 · Master Brewers Association of the Americas",
+    "summary": "Curated list of most-read TQ papers, including Fermentation Quality Control by Tim Faith on building measurable QC into the brewing recipe.",
+    "year": 2021,
+    "sort": "2021"
+  },
+  {
+    "kind": "news",
+    "label": "course",
+    "title": "2026-2027 Course Schedule",
+    "url": "https://www.mbaa.com/courses",
+    "vertical": "beer",
+    "meta": "MBAA · 2026 · Master Brewers Association of the Americas",
+    "summary": "Professional course catalog including a Six Sigma course applying statistical process-control methods to brewery quality and operations.",
+    "year": 2026,
+    "sort": "2026"
+  },
+  {
+    "kind": "news",
+    "label": "course",
+    "title": "Continuing Education and Webinars",
+    "url": "https://www.mbaa.com/education",
+    "vertical": "beer",
+    "meta": "MBAA · Master Brewers Association of the Americas",
+    "summary": "On-the-job education program with webinars and short courses covering process control, quality, and data-driven brewery operations.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "data-tool",
+    "title": "ASBC Methods of Analysis",
+    "url": "http://methods.asbcnet.org/",
+    "vertical": "multiple",
+    "meta": "ASBC · American Society of Brewing Chemists",
+    "summary": "Over 220 peer-reviewed analytical methods spanning malt, wort, beer, microbiology, sensory, and dedicated statistical analysis procedures.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "data-tool",
+    "title": "ASBC Statistical Analysis Methods",
+    "url": "https://www.asbcnet.org/Methods/StatisticalAnalysis/pages/default.aspx",
+    "vertical": "multiple",
+    "meta": "ASBC · American Society of Brewing Chemists",
+    "summary": "Standardized statistical procedures for brewing labs including linear calibration and confidence-interval construction for analytical data.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "partnership",
+    "title": "Grist Analytics and ASBC Partnership",
+    "url": "https://www.asbcnet.org/Membership/Documents/Grist-ASBC%20Press%20Release_2023.04.pdf",
+    "vertical": "beer",
+    "meta": "ASBC · 2023 · American Society of Brewing Chemists",
+    "summary": "Partnership bringing Grist Analytics brew, cellar, and packaging data platform to ASBC for automated real-time quality feedback and predictive scheduling.",
+    "year": 2023,
+    "sort": "2023"
+  },
+  {
+    "kind": "news",
+    "label": "webinar",
+    "title": "Scottish Section Webinar: Digitise Your Distillery for Success",
+    "url": "https://www.cibd.org.uk/events/past-events/scottish-section-webinar-digitise-your-distillery-for-success/",
+    "vertical": "multiple",
+    "meta": "IBD · Institute of Brewing & Distilling",
+    "summary": "Webinar on digitising brewing and distilling operations, covering real-time digital plant records and enabling production optimisations through machine learning.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "Beer in the Era of Big Data and AI",
+    "url": "https://firstkey.com/beer-in-the-era-of-big-data-and-ai/",
+    "vertical": "beer",
+    "meta": "First Key Consulting · 2024 · First Key Consulting",
+    "summary": "First Key argues that brewers must build foundational data infrastructure and analytics before they can successfully leverage AI and big data.",
+    "year": 2024,
+    "sort": "2024"
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "How AI is Revolutionizing Demand Forecasting in Beverage Supply Chains",
+    "url": "https://firstkey.com/how-ai-is-revolutionizing-demand-forecasting-in-beverage-supply-chains/",
+    "vertical": "multiple",
+    "meta": "First Key Consulting · First Key Consulting",
+    "summary": "The article explains how machine learning and predictive analytics improve beverage demand forecasting accuracy, inventory turnover and waste reduction versus traditional history-based methods.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "Managing Profitability Through Complexity: FP&A's Role in the Modern Beverage Company",
+    "url": "https://firstkey.com/managing-profitability-through-complexity-fpas-role-in-the-modern-beverage-company/",
+    "vertical": "multiple",
+    "meta": "First Key Consulting · First Key Consulting",
+    "summary": "The piece covers how FP&A, rolling forecasts, scenario planning and capacity modeling help beverage companies protect margins.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "Insights",
+    "url": "https://firstkey.com/insights/",
+    "vertical": "multiple",
+    "meta": "First Key Consulting · First Key Consulting",
+    "summary": "First Key's ongoing article hub publishing its latest thinking on brewing and beverage industry topics, including data and AI.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "What Top Breweries Are Doing Right: Winning Strategies To Grow Taproom Sales Recap",
+    "url": "https://arryved.com/level-up-with-arryved/what-top-breweries-are-doing-right-winning-strategies-to-grow-taproom-sales-recap/",
+    "vertical": "beer",
+    "meta": "Arryved · 2024 · Arryved",
+    "summary": "Using Arryved POS data across 2,000-plus taprooms analyzed with the Brewers Association, this recap identifies taproom sales trends such as rising food sales and declining draft beer share.",
+    "year": 2024,
+    "sort": "2024"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "MarginEdge Streamlines Brewery Operations with Arryved POS Integration",
+    "url": "https://arryved.com/press-release/marginedge-streamlines-brewery-operations-with-arryved-pos-integration/",
+    "vertical": "beer",
+    "meta": "Arryved · Arryved",
+    "summary": "Announces an integration that exports Arryved sales data into MarginEdge for cost analysis, product-usage insight and accurate financial reporting.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "Brewery Management",
+    "url": "https://arryved.com/products/brewery-management/",
+    "vertical": "beer",
+    "meta": "Arryved · Arryved",
+    "summary": "Arryved's product page for brewery operations, covering production planning, depletion-based inventory analytics and real-time reporting.",
+    "year": null,
+    "sort": ""
+  },
+  {
     "kind": "repo",
     "title": "Brewtarget/brewtarget",
     "url": "https://github.com/Brewtarget/brewtarget",
@@ -1120,5 +1362,105 @@
     "featured": true,
     "year": null,
     "sort": 0
+  },
+  {
+    "kind": "podcast",
+    "title": "SDS 755: Brewing Beer with A.I., with Beau Warren",
+    "url": "https://www.superdatascience.com/podcast/sds-755-brewing-beer-with-a-i-with-beau-warren",
+    "vertical": "beer",
+    "meta": "Super Data Science Podcast · 2024-02-06",
+    "summary": "Species X head brewer Beau Warren explains how he cleaned 180 features across 300-plus beers and used AutoML tools to generate a machine-learning-designed lager.",
+    "year": 2024,
+    "sort": "2024-02-06"
+  },
+  {
+    "kind": "podcast",
+    "title": "Ep 24: Artificial Intelligence (AI) in Brewing",
+    "url": "https://www.buzzsprout.com/2202528/episodes/15219065-ep-24-artificial-intelligence-ai-in-brewing-ankur-napa",
+    "vertical": "beer",
+    "meta": "The Modern Brewer Podcast · 2024-06-10",
+    "summary": "Brewer and senior data analyst Ankur Napa walks through machine learning, fermentation monitoring, and predictive analytics for brewhouse efficiency.",
+    "year": 2024,
+    "sort": "2024-06-10"
+  },
+  {
+    "kind": "podcast",
+    "title": "Episode 063: Utilizing Predictive Analytics to Improve Quality and Maximize Capacity at Deschutes Brewery",
+    "url": "https://www.masterbrewerspodcast.com/063",
+    "vertical": "beer",
+    "meta": "Master Brewers Podcast · 2021-10-11",
+    "summary": "Deschutes brewmaster Brian Faivre describes how one of the largest craft brewers uses data and predictive analytics tools to improve process and capacity.",
+    "year": 2021,
+    "sort": "2021-10-11"
+  },
+  {
+    "kind": "podcast",
+    "title": "Episode 309: Predicting and improving complex beer flavor through machine learning",
+    "url": "https://www.masterbrewerspodcast.com/309",
+    "vertical": "beer",
+    "meta": "Master Brewers Podcast · 2024-06-03",
+    "summary": "Kevin Verstrepen and Michiel Schreurs discuss their Nature Communications research using chemical analytics and machine learning to predict and improve beer flavor.",
+    "year": 2024,
+    "sort": "2024-06-03"
+  },
+  {
+    "kind": "podcast",
+    "title": "Episode 253: [LIVE] Artificial Intelligence and Brewing",
+    "url": "https://tapthecraft.com/episodes/episode-253-live-artificial-intelligence-and-brewing",
+    "vertical": "beer",
+    "meta": "Tap the Craft Podcast",
+    "summary": "Hosts Denny Luce and Kris McKenzie discuss AI in brewing and consumer engagement, referencing the Deep Liquid beer AI project.",
+    "year": null,
+    "sort": ""
+  },
+  {
+    "kind": "podcast",
+    "title": "Better Data Science and AI Technologies for Better Vine and Wine?",
+    "url": "https://hdsr.podbean.com/e/better-data-science-and-ai-technologies-for-better-vine-and-wine/",
+    "vertical": "wine",
+    "meta": "Harvard Data Science Review Podcast · 2025-08-29",
+    "summary": "Scout CEO Kia Behnia and Tastry founder Katerina Axelsson cover AI for precision viticulture and consumer preference prediction across the wine chain.",
+    "year": 2025,
+    "sort": "2025-08-29"
+  },
+  {
+    "kind": "podcast",
+    "title": "Ep 71: Data Science and AI in the wine industry with Aubrey Terrazas",
+    "url": "https://eatsleepwinerepeat.podbean.com/e/ep-71-data-science-and-ai-in-the-wine-industry-with-ms-candidate-aubrey-terrazas-part-2/",
+    "vertical": "wine",
+    "meta": "Eat Sleep Wine Repeat · 2021-11-08",
+    "summary": "Sommelier and data science MS candidate Aubrey Terrazas explains using data science to match customers to wines from vineyard to glass.",
+    "year": 2021,
+    "sort": "2021-11-08"
+  },
+  {
+    "kind": "podcast",
+    "title": "Mapping Flavor Profiles for Wine w/ Katerina Axelsson, Tastry",
+    "url": "https://www.xchateau.com/mapping-flavor-profiles-for-wine-w-katerina-axelsson-tastry/",
+    "vertical": "wine",
+    "meta": "XChateau Wine Podcast · 2023-11-11",
+    "summary": "Tastry CEO Katerina Axelsson details an AI and analytical-chemistry system that maps wine flavor profiles to consumer taste data for winemaking decisions.",
+    "year": 2023,
+    "sort": "2023-11-11"
+  },
+  {
+    "kind": "podcast",
+    "title": "Getting more sales analytics manpower with AI w/ Jeremy Hart, Somm.ai",
+    "url": "https://www.xchateau.com/getting-more-sales-analytics-manpower-with-ai-w-jeremy-hart-sommai/",
+    "vertical": "wine",
+    "meta": "XChateau Wine Podcast · 2026-04-14",
+    "summary": "Somm.ai co-founder Jeremy Hart explains AI-driven sales analytics across roughly 100,000 on-premise wine accounts for benchmarking and pricing.",
+    "year": 2026,
+    "sort": "2026-04-14"
+  },
+  {
+    "kind": "podcast",
+    "title": "The distillery with an AI-backed plan to lift their spirits",
+    "url": "https://podcasts.apple.com/us/podcast/the-distillery-with-an-ai-backed-plan-to-lift-their-spirits/id1634463632?i=1000731947174",
+    "vertical": "whiskey",
+    "meta": "Working Smarter · 2025-10-15",
+    "summary": "Bespoken Spirits uses machine learning to finish whiskey in days rather than years and applies AI to marketing for a small team.",
+    "year": 2025,
+    "sort": "2025-10-15"
   }
 ]

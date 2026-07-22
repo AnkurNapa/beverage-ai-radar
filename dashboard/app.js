@@ -98,6 +98,11 @@ const PLATFORM_RULES = [
   ["SAS", /\bSAS\b/],
   ["OSIsoft / PI", /osisoft|aveva|\bpi system\b/i],
   ["Streamlit", /streamlit/i],
+  // industry bodies (so their resources are filterable too)
+  ["MBAA", /\bMBAA\b|master brewers association/i],
+  ["Brewers Association", /brewers association/i],
+  ["ASBC", /\bASBC\b|society of brewing chemists/i],
+  ["IBD", /institute of brewing/i],
 ];
 function platformsOf(text) {
   const t = text || "";
@@ -390,7 +395,7 @@ function route() {
 
 // --- Resources view (papers, news, repos, videos) ------------------------
 let RES = [];
-const KIND_LABEL = { paper: "Paper", news: "News", repo: "Repo", video: "Video" };
+const KIND_LABEL = { paper: "Paper", news: "News", repo: "Repo", video: "Video", podcast: "Podcast" };
 
 function resCard(r) {
   const url = safeUrl(r.url);
@@ -445,7 +450,7 @@ async function loadResources() {
   } catch { RES = []; }
   for (const r of RES) r._platforms = platformsOf(`${r.title || ""} ${r.summary || ""} ${r.meta || ""}`);
   // kind order paper/news/repo/video, featured first within a kind, then sort desc
-  const order = { paper: 0, news: 1, repo: 2, video: 3 };
+  const order = { paper: 0, news: 1, repo: 2, video: 3, podcast: 4 };
   RES.sort((a, b) => (order[a.kind] - order[b.kind])
     || ((b.featured ? 1 : 0) - (a.featured ? 1 : 0))
     || (`${b.sort}`).localeCompare(`${a.sort}`));

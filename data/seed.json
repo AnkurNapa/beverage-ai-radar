@@ -2425,5 +2425,45 @@
     "last_seen": "2026-06-01",
     "key_people": null,
     "people": []
+  },
+  {
+    "name": "First Key Consulting",
+    "domain": "firstkey.com",
+    "hq_location": null,
+    "founded_year": null,
+    "vertical": "multiple",
+    "company_type": "service",
+    "ai_use_case": "advising brewers on data infrastructure and AI for demand forecasting",
+    "ai_maturity": "research",
+    "key_people": "Dr. Jack Buffington (Director of Supply Chain & Sustainability)",
+    "people": [],
+    "short_description": "First Key is a brewing and beverage industry consulting firm with more than 40 years of experience working across 50-plus countries. It advises brewers and beverage companies on strategy, finance, operations, engineering, supply chain and more. It publishes an Insights series that includes articles on how AI and big data apply to beer and beverage supply chains.",
+    "source_urls": [
+      "https://firstkey.com/",
+      "https://firstkey.com/insights/",
+      "https://firstkey.com/consulting-services/"
+    ],
+    "first_seen": "2026-07-22",
+    "last_seen": "2026-07-22"
+  },
+  {
+    "name": "Arryved",
+    "domain": "arryved.com",
+    "hq_location": null,
+    "founded_year": null,
+    "vertical": "beer",
+    "company_type": "product",
+    "ai_use_case": "taproom/point-of-sale data & analytics for craft beverage operators",
+    "ai_maturity": "shipping",
+    "key_people": "",
+    "people": [],
+    "short_description": "Arryved is a point-of-sale and operations platform built specifically for craft beverage businesses such as breweries, taprooms, cideries and distilleries. It unifies service, online ordering, production, payments and reporting into a single data model that delivers real-time, brewery-specific analytics. Its aggregate POS dataset spans more than 2,000 taprooms and is used, with the Brewers Association, to analyze industry taproom sales trends.",
+    "source_urls": [
+      "https://arryved.com/platform/arryved-overview/",
+      "https://www.arryved.com/products/",
+      "https://arryved.com/products/brewery-management/"
+    ],
+    "first_seen": "2026-07-22",
+    "last_seen": "2026-07-22"
   }
 ]

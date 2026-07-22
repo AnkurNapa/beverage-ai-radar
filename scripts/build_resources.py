@@ -107,12 +107,29 @@ def _norm_videos(rows):
         }
 
 
+def _norm_podcasts(rows):
+    for r in rows:
+        if not r.get("url"):
+            continue
+        yield {
+            "kind": "podcast",
+            "title": r.get("title", ""),
+            "url": r["url"],
+            "vertical": r.get("vertical", "multiple"),
+            "meta": " · ".join(x for x in (r.get("show"), str(r.get("date") or "")) if x),
+            "summary": r.get("summary", ""),
+            "year": _year_from(r.get("date")),
+            "sort": r.get("date") or "",
+        }
+
+
 def build():
     items = []
     items += list(_norm_papers(_load("papers.json")))
     items += list(_norm_news(_load("news.json")))
     items += list(_norm_repos(_load("repos.json")))
     items += list(_norm_videos(_load("videos.json")))
+    items += list(_norm_podcasts(_load("podcasts.json")))
 
     # dedupe by url (case-insensitive), keep first
     seen, deduped = set(), []
