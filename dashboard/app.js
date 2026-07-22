@@ -99,13 +99,19 @@ function counts(list, field) {
   return [...m.entries()].sort((a, b) => b[1] - a[1]);
 }
 
-function renderBars(el, pairs) {
+function renderBars(el, pairs, filterId) {
   const max = Math.max(1, ...pairs.map((p) => p[1]));
   el.innerHTML = pairs.map(([label, n]) => `
-    <div class="bar">
-      <span class="bar__label">${esc(label)}</span><span>${n}</span>
+    <button class="bar" type="button" ${filterId ? `data-filter="${esc(filterId)}" data-value="${esc(label)}"` : ""}>
+      <span class="bar__label">${esc(label)}</span><span class="bar__n">${n}</span>
       <span class="bar__track"><span class="bar__fill" style="width:${(n / max) * 100}%"></span></span>
-    </div>`).join("");
+    </button>`).join("");
+  if (filterId) el.querySelectorAll(".bar").forEach((b) => b.addEventListener("click", () => {
+    const sel = $(b.dataset.filter);
+    sel.value = sel.value === b.dataset.value ? "" : b.dataset.value;
+    sel.dispatchEvent(new Event("input"));
+    $("grid").scrollIntoView({ behavior: "smooth", block: "start" });
+  }));
 }
 
 function fillSelect(el, values) {
@@ -167,10 +173,10 @@ function apply() {
     ffund = $("f-funding").value, fcty = $("f-country").value, sort = $("s-sort").value,
     yFrom = +$("f-from").value || 0, yTo = +$("f-to").value || 9999;
   const shown = ALL.filter((c) => {
-    // timeline: when a year bound is set, keep only entries with a founded_year in range
-    if (($("f-from").value || $("f-to").value)) {
-      if (!c.founded_year || c.founded_year < yFrom || c.founded_year > yTo) return false;
-    }
+    // timeline: exclude only entries whose known founded_year falls outside the
+    // range. Undated entries stay visible so the filter narrows, not empties.
+    if (($("f-from").value || $("f-to").value) && c.founded_year
+        && (c.founded_year < yFrom || c.founded_year > yTo)) return false;
     if (fv && c.vertical !== fv) return false;
     if (fu && c._theme !== fu) return false;
     if (fm && c.ai_maturity !== fm) return false;
@@ -380,6 +386,7 @@ function resCard(r) {
       <div class="res__tags">
         <span class="chip chip--kind chip--${esc(r.kind)}">${esc(label)}</span>
         ${r.vertical ? `<span class="chip chip--v chip--${esc(r.vertical)}">${esc(r.vertical)}</span>` : ""}
+        ${r.featured ? `<span class="chip chip--featured">★ by Ankur Napa</span>` : ""}
       </div>
       <h3 class="res__title">${title}</h3>
       ${r.meta ? `<div class="res__meta">${esc(r.meta)}</div>` : ""}
@@ -396,8 +403,9 @@ function applyRes() {
   const shown = RES.filter((r) => {
     if (fk && r.kind !== fk) return false;
     if (fv && r.vertical !== fv) return false;
-    // year filter: when a bound is set, keep only items with a year in range
-    if (yBound && (!r.year || r.year < yFrom || r.year > yTo)) return false;
+    // year filter: exclude only dated items outside the range; undated items
+    // (e.g. repos, videos with no year) stay visible so content is not emptied.
+    if (yBound && r.year && (r.year < yFrom || r.year > yTo)) return false;
     if (q && !`${r.title} ${r.summary} ${r.meta}`.toLowerCase().includes(q)) return false;
     return true;
   });
@@ -411,9 +419,11 @@ async function loadResources() {
   try {
     RES = await (await fetch("resources.json")).json();
   } catch { RES = []; }
-  // kind order paper/news/repo/video, then by sort desc within kind
+  // kind order paper/news/repo/video, featured first within a kind, then sort desc
   const order = { paper: 0, news: 1, repo: 2, video: 3 };
-  RES.sort((a, b) => (order[a.kind] - order[b.kind]) || (`${b.sort}`).localeCompare(`${a.sort}`));
+  RES.sort((a, b) => (order[a.kind] - order[b.kind])
+    || ((b.featured ? 1 : 0) - (a.featured ? 1 : 0))
+    || (`${b.sort}`).localeCompare(`${a.sort}`));
   if (!RES.length) { $("tab-resources").hidden = true; return; }
   fillSelect($("fr-vertical"), [...new Set(RES.map((r) => r.vertical).filter(Boolean))].sort());
   const resYears = [...new Set(RES.map((r) => r.year).filter(Boolean))].sort((a, b) => a - b);
@@ -460,9 +470,9 @@ async function main() {
 
   renderKpis();
 
-  renderBars($("bd-vertical"), counts(ALL, "vertical"));
-  renderBars($("bd-usecase"), counts(ALL, "_theme"));
-  renderBars($("bd-maturity"), counts(ALL, "ai_maturity"));
+  renderBars($("bd-vertical"), counts(ALL, "vertical"), "f-vertical");
+  renderBars($("bd-usecase"), counts(ALL, "_theme"), "f-usecase");
+  renderBars($("bd-maturity"), counts(ALL, "ai_maturity"), "f-maturity");
 
   fillSelect($("f-vertical"), counts(ALL, "vertical").map((p) => p[0]));
   fillSelect($("f-usecase"), counts(ALL, "_theme").map((p) => p[0]));

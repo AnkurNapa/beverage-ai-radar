@@ -100,6 +100,8 @@ def _norm_videos(rows):
             "meta": " · ".join(x for x in (r.get("channel"), str(r.get("year") or "")) if x),
             "summary": r.get("summary", ""),
             "thumb": f"https://img.youtube.com/vi/{vid}/hqdefault.jpg",
+            "channel": r.get("channel", ""),
+            "featured": bool(r.get("featured")),
             "year": r.get("year"),
             "sort": r.get("year") or 0,
         }

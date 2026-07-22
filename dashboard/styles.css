@@ -89,11 +89,19 @@ a { color: var(--accent); }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 1.25rem 1.4rem; box-shadow: var(--shadow); }
 .card h2 { font-size: 1rem; font-weight: 600; margin: 0 0 1rem; }
-.bars { display: grid; gap: .55rem; }
-.bar { display: grid; grid-template-columns: 1fr auto; gap: .5rem; align-items: center; font-size: .85rem; }
+.bars { display: grid; gap: .35rem; }
+.bar { display: grid; grid-template-columns: 1fr auto; gap: .3rem .5rem; align-items: center;
+  font: inherit; font-size: .85rem; text-align: left; width: 100%; cursor: pointer;
+  background: none; border: 1px solid transparent; border-radius: 6px; padding: .35rem .5rem;
+  color: var(--ink); transition: background .1s, border-color .1s; }
+.bar:hover { background: oklch(from var(--accent) l c h / .08); border-color: var(--line); }
+.bar:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 .bar__label { color: var(--muted); }
+.bar:hover .bar__label { color: var(--ink); }
+.bar__n { font-variant-numeric: tabular-nums; font-weight: 600; }
 .bar__track { grid-column: 1 / -1; height: 6px; background: var(--line); border-radius: 2px; overflow: hidden; }
 .bar__fill { height: 100%; background: var(--accent); border-radius: 2px; }
+@media (prefers-color-scheme: dark) { .bar:hover { background: oklch(from var(--accent) l c h / .18); } }
 
 /* --- Controls (Fluent inputs) ----------------------------------------- */
 .controls { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin-bottom: 1.5rem; }
@@ -181,6 +189,8 @@ a { color: var(--accent); }
 .chip--news { background: #0067b8; }    /* blue */
 .chip--repo { background: #24292f; }    /* github black */
 .chip--video { background: #c4141a; }   /* youtube red */
+.chip--featured { background: #ffb900; color: #3b2f00; }
+.res--video.res:has(.chip--featured), .res:has(.chip--featured) { border-color: #ffb900; box-shadow: 0 0 0 1px #ffb900, var(--shadow); }
 
 /* --- About / mission --------------------------------------------------- */
 .about { max-width: 760px; background: var(--surface); border: 1px solid var(--line);

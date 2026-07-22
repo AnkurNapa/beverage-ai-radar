@@ -1,18 +1,296 @@
 [
-  {"title": "Case Study: How a Large Brewery Uses Machine Learning for Preventive Maintenance (Cloud Next '18)", "channel": "Google Cloud Tech", "video_id": "-D9Z2Ka9Q5E", "url": "https://www.youtube.com/watch?v=-D9Z2Ka9Q5E", "vertical": "beer", "year": 2018, "summary": "Google Cloud case study on a large brewery applying machine learning to predict equipment failures and drive preventive maintenance on the beer production line."},
-  {"title": "Using artificial intelligence to make beer better | Rob McInerney | TEDxGoodenoughCollege", "channel": "TEDx Talks", "video_id": "og5B5RNJ7Gw", "url": "https://www.youtube.com/watch?v=og5B5RNJ7Gw", "vertical": "beer", "year": 2017, "summary": "IntelligentX co-founder Rob McInerney explains how his company uses AI and customer feedback loops to iteratively design and improve beer recipes."},
-  {"title": "IntelligentX - Using AI to Make Better Beer", "channel": "Exponential Investor", "video_id": "GrvITpr8Y7o", "url": "https://www.youtube.com/watch?v=GrvITpr8Y7o", "vertical": "beer", "year": 2018, "summary": "Profile of IntelligentX Brewing Company and how its AI system turns drinker feedback into reformulated beer recipes."},
-  {"title": "Predicting beer quality using machine learning and analytical chemistry for sustainable brewing", "channel": "GitHub", "video_id": "CSy5oBV4FDs", "url": "https://www.youtube.com/watch?v=CSy5oBV4FDs", "vertical": "beer", "year": 2024, "summary": "Technical talk on combining analytical chemistry measurements with machine learning models to predict beer quality and support more sustainable brewing."},
-  {"title": "How Data Visualization Transforms Brewery Operations w/ Jeremy Carney & Pulkit K. Agrawal", "channel": "Craft Beer Professionals", "video_id": "pBNLkxlV7PU", "url": "https://www.youtube.com/watch?v=pBNLkxlV7PU", "vertical": "beer", "year": 2025, "summary": "Panel on turning brewery production, ingredient, and yield data into dashboards and insights that improve day-to-day brewing operations."},
-  {"title": "The Brewer's Data Playbook: Step-by-Step Data Techniques You Can Use Today w/ Michele Doyle (Sennos)", "channel": "Craft Beer Professionals", "video_id": "nRezlSp4qhs", "url": "https://www.youtube.com/watch?v=nRezlSp4qhs", "vertical": "beer", "year": 2025, "summary": "Michele Doyle of Sennos (Precision Fermentation) walks breweries through practical data-analytics techniques for fermentation and business decisions."},
-  {"title": "431: Using Taproom Data and Insights to Optimize Brewery Decision Making, Presented by Arryved", "channel": "Craft Beer and Brewing", "video_id": "WpxGpyIVtyQ", "url": "https://www.youtube.com/watch?v=WpxGpyIVtyQ", "vertical": "beer", "year": 2025, "summary": "Arryved-presented session on how taproom point-of-sale data and analytics guide brewery pricing, menu, and operational decisions."},
-  {"title": "How Consumer Preference-AI Creates Food and Beverage Innovation | AI Summit 2022 | Gastrograph AI", "channel": "Gastrograph AI", "video_id": "RRrPNHpp6fY", "url": "https://www.youtube.com/watch?v=RRrPNHpp6fY", "vertical": "multiple", "year": 2022, "summary": "Gastrograph AI presents at the AI Summit on modeling human sensory perception to predict consumer preference and drive food and beverage product innovation."},
-  {"title": "The Science of Flavor - with Jason Cohen from Gastrograph AI. TTN 584", "channel": "Get Through The Noise", "video_id": "9xJ3JF09tOo", "url": "https://www.youtube.com/watch?v=9xJ3JF09tOo", "vertical": "multiple", "year": 2021, "summary": "Gastrograph AI founder Jason Cohen discusses the science of flavor and how AI models sensory data to forecast how products will taste to consumers."},
-  {"title": "Sensory AI - How Tastry Taught Artificial Intelligence to Taste", "channel": "Bernard Marr", "video_id": "FzQGwEY60yY", "url": "https://www.youtube.com/watch?v=FzQGwEY60yY", "vertical": "wine", "year": 2021, "summary": "Tastry founder Katerina Axelsson explains how the company built sensory AI that chemically analyzes wine and matches it to individual consumer palates."},
-  {"title": "Teaching a Computer to Taste with Tastry Founder and CEO Katerina Axelsson", "channel": "The Story of Wine", "video_id": "0DNK8Nx2poU", "url": "https://www.youtube.com/watch?v=0DNK8Nx2poU", "vertical": "wine", "year": 2024, "summary": "Podcast interview with Tastry CEO Katerina Axelsson on using chemistry plus machine learning to predict wine preferences and guide production and retail."},
-  {"title": "242: How Artificial Intelligence (AI) Will Change the Wines You Drink with Dina Blikshteyn", "channel": "Natalie MacLean", "video_id": "3OJ83X1VyxE", "url": "https://www.youtube.com/watch?v=3OJ83X1VyxE", "vertical": "wine", "year": 2023, "summary": "Discussion of how AI is reshaping winemaking, recommendation, and the wine industry, with AI and patent expert Dina Blikshteyn."},
-  {"title": "AI in vineyards", "channel": "plantandfood", "video_id": "BfjTpQXloLk", "url": "https://www.youtube.com/watch?v=BfjTpQXloLk", "vertical": "wine", "year": 2024, "summary": "Plant and Food Research scientists demonstrate AI tools built to streamline vineyard management and wine production."},
-  {"title": "ARTIFICIAL INTELLIGENCE WITHIN THE WHISKY INDUSTRY", "channel": "NOT ANOTHER WHISKY PODCAST", "video_id": "HsRKURYlxY4", "url": "https://www.youtube.com/watch?v=HsRKURYlxY4", "vertical": "whiskey", "year": 2023, "summary": "Podcast episode exploring how artificial intelligence is being applied across whisky production, blending, and the wider industry."},
-  {"title": "World's First Whiskey Created With Artificial Intelligence", "channel": "Bernard Marr", "video_id": "zNyTOJ1xstI", "url": "https://www.youtube.com/watch?v=zNyTOJ1xstI", "vertical": "whiskey", "year": 2019, "summary": "Coverage of Mackmyra's AI-generated Swedish whisky, where machine learning proposed recipes from existing casks and sales data for a master blender to finalize."},
-  {"title": "The distillery with an AI-backed plan to lift their spirits", "channel": "Dropbox", "video_id": "SCfTWQZeVb8", "url": "https://www.youtube.com/watch?v=SCfTWQZeVb8", "vertical": "whiskey", "year": 2021, "summary": "Customer story on Bespoken Spirits using data and AI to rapidly age and tune spirits, iterating on flavor profiles far faster than traditional barrel maturation."}
+  {
+    "title": "Case Study: How a Large Brewery Uses Machine Learning for Preventive Maintenance (Cloud Next '18)",
+    "channel": "Google Cloud Tech",
+    "video_id": "-D9Z2Ka9Q5E",
+    "url": "https://www.youtube.com/watch?v=-D9Z2Ka9Q5E",
+    "vertical": "beer",
+    "year": 2018,
+    "summary": "Google Cloud case study on a large brewery applying machine learning to predict equipment failures and drive preventive maintenance on the beer production line."
+  },
+  {
+    "title": "Using artificial intelligence to make beer better | Rob McInerney | TEDxGoodenoughCollege",
+    "channel": "TEDx Talks",
+    "video_id": "og5B5RNJ7Gw",
+    "url": "https://www.youtube.com/watch?v=og5B5RNJ7Gw",
+    "vertical": "beer",
+    "year": 2017,
+    "summary": "IntelligentX co-founder Rob McInerney explains how his company uses AI and customer feedback loops to iteratively design and improve beer recipes."
+  },
+  {
+    "title": "IntelligentX - Using AI to Make Better Beer",
+    "channel": "Exponential Investor",
+    "video_id": "GrvITpr8Y7o",
+    "url": "https://www.youtube.com/watch?v=GrvITpr8Y7o",
+    "vertical": "beer",
+    "year": 2018,
+    "summary": "Profile of IntelligentX Brewing Company and how its AI system turns drinker feedback into reformulated beer recipes."
+  },
+  {
+    "title": "Predicting beer quality using machine learning and analytical chemistry for sustainable brewing",
+    "channel": "GitHub",
+    "video_id": "CSy5oBV4FDs",
+    "url": "https://www.youtube.com/watch?v=CSy5oBV4FDs",
+    "vertical": "beer",
+    "year": 2024,
+    "summary": "Technical talk on combining analytical chemistry measurements with machine learning models to predict beer quality and support more sustainable brewing."
+  },
+  {
+    "title": "How Data Visualization Transforms Brewery Operations w/ Jeremy Carney & Pulkit K. Agrawal",
+    "channel": "Craft Beer Professionals",
+    "video_id": "pBNLkxlV7PU",
+    "url": "https://www.youtube.com/watch?v=pBNLkxlV7PU",
+    "vertical": "beer",
+    "year": 2025,
+    "summary": "Panel on turning brewery production, ingredient, and yield data into dashboards and insights that improve day-to-day brewing operations."
+  },
+  {
+    "title": "The Brewer's Data Playbook: Step-by-Step Data Techniques You Can Use Today w/ Michele Doyle (Sennos)",
+    "channel": "Craft Beer Professionals",
+    "video_id": "nRezlSp4qhs",
+    "url": "https://www.youtube.com/watch?v=nRezlSp4qhs",
+    "vertical": "beer",
+    "year": 2025,
+    "summary": "Michele Doyle of Sennos (Precision Fermentation) walks breweries through practical data-analytics techniques for fermentation and business decisions."
+  },
+  {
+    "title": "431: Using Taproom Data and Insights to Optimize Brewery Decision Making, Presented by Arryved",
+    "channel": "Craft Beer and Brewing",
+    "video_id": "WpxGpyIVtyQ",
+    "url": "https://www.youtube.com/watch?v=WpxGpyIVtyQ",
+    "vertical": "beer",
+    "year": 2025,
+    "summary": "Arryved-presented session on how taproom point-of-sale data and analytics guide brewery pricing, menu, and operational decisions."
+  },
+  {
+    "title": "How Consumer Preference-AI Creates Food and Beverage Innovation | AI Summit 2022 | Gastrograph AI",
+    "channel": "Gastrograph AI",
+    "video_id": "RRrPNHpp6fY",
+    "url": "https://www.youtube.com/watch?v=RRrPNHpp6fY",
+    "vertical": "multiple",
+    "year": 2022,
+    "summary": "Gastrograph AI presents at the AI Summit on modeling human sensory perception to predict consumer preference and drive food and beverage product innovation."
+  },
+  {
+    "title": "The Science of Flavor - with Jason Cohen from Gastrograph AI. TTN 584",
+    "channel": "Get Through The Noise",
+    "video_id": "9xJ3JF09tOo",
+    "url": "https://www.youtube.com/watch?v=9xJ3JF09tOo",
+    "vertical": "multiple",
+    "year": 2021,
+    "summary": "Gastrograph AI founder Jason Cohen discusses the science of flavor and how AI models sensory data to forecast how products will taste to consumers."
+  },
+  {
+    "title": "Sensory AI - How Tastry Taught Artificial Intelligence to Taste",
+    "channel": "Bernard Marr",
+    "video_id": "FzQGwEY60yY",
+    "url": "https://www.youtube.com/watch?v=FzQGwEY60yY",
+    "vertical": "wine",
+    "year": 2021,
+    "summary": "Tastry founder Katerina Axelsson explains how the company built sensory AI that chemically analyzes wine and matches it to individual consumer palates."
+  },
+  {
+    "title": "Teaching a Computer to Taste with Tastry Founder and CEO Katerina Axelsson",
+    "channel": "The Story of Wine",
+    "video_id": "0DNK8Nx2poU",
+    "url": "https://www.youtube.com/watch?v=0DNK8Nx2poU",
+    "vertical": "wine",
+    "year": 2024,
+    "summary": "Podcast interview with Tastry CEO Katerina Axelsson on using chemistry plus machine learning to predict wine preferences and guide production and retail."
+  },
+  {
+    "title": "242: How Artificial Intelligence (AI) Will Change the Wines You Drink with Dina Blikshteyn",
+    "channel": "Natalie MacLean",
+    "video_id": "3OJ83X1VyxE",
+    "url": "https://www.youtube.com/watch?v=3OJ83X1VyxE",
+    "vertical": "wine",
+    "year": 2023,
+    "summary": "Discussion of how AI is reshaping winemaking, recommendation, and the wine industry, with AI and patent expert Dina Blikshteyn."
+  },
+  {
+    "title": "AI in vineyards",
+    "channel": "plantandfood",
+    "video_id": "BfjTpQXloLk",
+    "url": "https://www.youtube.com/watch?v=BfjTpQXloLk",
+    "vertical": "wine",
+    "year": 2024,
+    "summary": "Plant and Food Research scientists demonstrate AI tools built to streamline vineyard management and wine production."
+  },
+  {
+    "title": "ARTIFICIAL INTELLIGENCE WITHIN THE WHISKY INDUSTRY",
+    "channel": "NOT ANOTHER WHISKY PODCAST",
+    "video_id": "HsRKURYlxY4",
+    "url": "https://www.youtube.com/watch?v=HsRKURYlxY4",
+    "vertical": "whiskey",
+    "year": 2023,
+    "summary": "Podcast episode exploring how artificial intelligence is being applied across whisky production, blending, and the wider industry."
+  },
+  {
+    "title": "World's First Whiskey Created With Artificial Intelligence",
+    "channel": "Bernard Marr",
+    "video_id": "zNyTOJ1xstI",
+    "url": "https://www.youtube.com/watch?v=zNyTOJ1xstI",
+    "vertical": "whiskey",
+    "year": 2019,
+    "summary": "Coverage of Mackmyra's AI-generated Swedish whisky, where machine learning proposed recipes from existing casks and sales data for a master blender to finalize."
+  },
+  {
+    "title": "The distillery with an AI-backed plan to lift their spirits",
+    "channel": "Dropbox",
+    "video_id": "SCfTWQZeVb8",
+    "url": "https://www.youtube.com/watch?v=SCfTWQZeVb8",
+    "vertical": "whiskey",
+    "year": 2021,
+    "summary": "Customer story on Bespoken Spirits using data and AI to rapidly age and tune spirits, iterating on flavor profiles far faster than traditional barrel maturation."
+  },
+  {
+    "title": "AI-Powered Beer Recipe Optimizer (iWort)",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "iT9bhzsS9OQ",
+    "url": "https://www.youtube.com/watch?v=iT9bhzsS9OQ",
+    "vertical": "beer",
+    "year": null,
+    "summary": "Demo of iWort, an AI-powered beer recipe optimizer built by Ankur Napa.",
+    "featured": true
+  },
+  {
+    "title": "Supervised Machine Learning in the Brewing Process with No Coding",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "jz3xKnr0t-Y",
+    "url": "https://www.youtube.com/watch?v=jz3xKnr0t-Y",
+    "vertical": "beer",
+    "year": null,
+    "summary": "Applying supervised machine learning to the brewing process without writing code.",
+    "featured": true
+  },
+  {
+    "title": "I Turned My Brewery Into a 3D Digital Twin on Microsoft Fabric",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "uZ1r0_0EW4Y",
+    "url": "https://www.youtube.com/watch?v=uZ1r0_0EW4Y",
+    "vertical": "beer",
+    "year": null,
+    "summary": "Building a 3D digital twin of a brewery on Microsoft Fabric.",
+    "featured": true
+  },
+  {
+    "title": "How Beer Breweries Use Microsoft Fabric for Process Data (Power BI Beer Analytics)",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "DX-dDIBesYA",
+    "url": "https://www.youtube.com/watch?v=DX-dDIBesYA",
+    "vertical": "beer",
+    "year": null,
+    "summary": "How breweries use Microsoft Fabric and Power BI for process data and beer analytics.",
+    "featured": true
+  },
+  {
+    "title": "What Vibrational Sensors Have to Do With Brewing Beer (Brewing 4.0)",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "zjqG0U4lby8",
+    "url": "https://www.youtube.com/watch?v=zjqG0U4lby8",
+    "vertical": "beer",
+    "year": null,
+    "summary": "Using vibrational sensors and Brewing 4.0 concepts in beer production.",
+    "featured": true
+  },
+  {
+    "title": "What Does Beer Have to Do With Data Science?",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "9ZmnQO7xksY",
+    "url": "https://www.youtube.com/watch?v=9ZmnQO7xksY",
+    "vertical": "beer",
+    "year": null,
+    "summary": "How data science applies to beer and brewing.",
+    "featured": true
+  },
+  {
+    "title": "Brewing Data Analysis: Data-Driven Brewing Process",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "w-jJEKLIOJ0",
+    "url": "https://www.youtube.com/watch?v=w-jJEKLIOJ0",
+    "vertical": "beer",
+    "year": null,
+    "summary": "A data-driven view of the brewing process.",
+    "featured": true
+  },
+  {
+    "title": "Streamlit EDA for a Heineken Data Scientist Interview Assignment",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "Q9-uUHxCBuc",
+    "url": "https://www.youtube.com/watch?v=Q9-uUHxCBuc",
+    "vertical": "beer",
+    "year": null,
+    "summary": "Exploratory data analysis in Streamlit for a Heineken data scientist assignment.",
+    "featured": true
+  },
+  {
+    "title": "Simplify BJCP Beer Styles With a Dashboard",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "829nbB_oZy4",
+    "url": "https://www.youtube.com/watch?v=829nbB_oZy4",
+    "vertical": "beer",
+    "year": null,
+    "summary": "A user-friendly dashboard for exploring BJCP beer styles.",
+    "featured": true
+  },
+  {
+    "title": "5 Skills for a Brewing Data Analyst",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "OvIRRDN-RUU",
+    "url": "https://www.youtube.com/watch?v=OvIRRDN-RUU",
+    "vertical": "beer",
+    "year": null,
+    "summary": "Five skills for working as a brewing data analyst.",
+    "featured": true
+  },
+  {
+    "title": "Brewing Data Science: Structured Thinking",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "hFceyblaMiM",
+    "url": "https://www.youtube.com/watch?v=hFceyblaMiM",
+    "vertical": "beer",
+    "year": null,
+    "summary": "Structured thinking for brewing data science.",
+    "featured": true
+  },
+  {
+    "title": "Beer Statistics",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "SYftw2g7ApQ",
+    "url": "https://www.youtube.com/watch?v=SYftw2g7ApQ",
+    "vertical": "beer",
+    "year": null,
+    "summary": "Statistics applied to beer.",
+    "featured": true
+  },
+  {
+    "title": "Brewing Data Science?",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "LI7mSMOEg88",
+    "url": "https://www.youtube.com/watch?v=LI7mSMOEg88",
+    "vertical": "beer",
+    "year": null,
+    "summary": "An introduction to what brewing data science is.",
+    "featured": true
+  },
+  {
+    "title": "Brewing Analytical Thinking",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "PhhMAqhqGKU",
+    "url": "https://www.youtube.com/watch?v=PhhMAqhqGKU",
+    "vertical": "beer",
+    "year": null,
+    "summary": "Analytical thinking applied to brewing.",
+    "featured": true
+  },
+  {
+    "title": "Orange Data Mining Workshop",
+    "channel": "Brewing Data Science | Ankur Napa",
+    "video_id": "tvAJ2pLOZfc",
+    "url": "https://www.youtube.com/watch?v=tvAJ2pLOZfc",
+    "vertical": "beer",
+    "year": null,
+    "summary": "A workshop on data mining with Orange, applied to brewing.",
+    "featured": true
+  }
 ]
