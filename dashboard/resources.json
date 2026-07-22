@@ -730,6 +730,50 @@
     "sort": "2024-08-08"
   },
   {
+    "kind": "news",
+    "label": "case-study",
+    "title": "How AI-led transformation helped a major brewer grow (Asahi)",
+    "url": "https://www.ey.com/en_us/alliances/asahi-ai-transformation",
+    "vertical": "beer",
+    "meta": "EY · 2025 · Asahi Europe & International",
+    "summary": "Asahi Europe & International worked with EY and Microsoft on a managed-services approach that rewrote its trade promotion optimisation using AI.",
+    "year": 2025,
+    "sort": "2025"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Carlsberg brews innovation with scalable cloud infrastructure",
+    "url": "https://www.accenture.com/us-en/case-studies/cloud/carlsberg-cloud-innovation",
+    "vertical": "beer",
+    "meta": "Accenture · 2026-01-02 · Carlsberg",
+    "summary": "Accenture moved Carlsberg to a scalable, flexible cloud infrastructure with an automated application landscape, the platform layer its data and analytics work runs on.",
+    "year": 2026,
+    "sort": "2026-01-02"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "HEINEKEN: an AI-infused digital transformation",
+    "url": "https://www.ibm.com/case-studies/heineken",
+    "vertical": "beer",
+    "meta": "IBM · 2025 · HEINEKEN",
+    "summary": "IBM case study on HEINEKEN's comprehensive, AI-infused digital transformation across its global brewing and commercial operations.",
+    "year": 2025,
+    "sort": "2025"
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "Data Science in Brewing: Willy Lin, ORIE '20",
+    "url": "https://tech.cornell.edu/news/data-science-in-brewing-willy-lin-orie-20/",
+    "vertical": "beer",
+    "meta": "Cornell Tech · 2021-10-19",
+    "summary": "Cornell Tech profile of Willy Lin on applying operations research and data science to brewing, and why understanding the industry's data matters as automation and AI drive production.",
+    "year": 2021,
+    "sort": "2021-10-19"
+  },
+  {
     "kind": "blog",
     "title": "AI in Sensory and the QA System",
     "url": "https://ankurnapa.github.io/2026/ai-brewery-lab-sensory-qa-system/",

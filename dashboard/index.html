@@ -85,6 +85,26 @@
   }
   </script>
 
+  <!-- Google Analytics 4. Set GA_MEASUREMENT_ID to the real G-XXXXXXXXXX and
+       reporting starts; while it is the placeholder this block loads nothing
+       at all, so the site ships no tracker until you opt in deliberately. -->
+  <script>
+    window.GA_MEASUREMENT_ID = "G-XXXXXXXXXX"; // <-- replace with your ID
+    (function () {
+      var id = window.GA_MEASUREMENT_ID;
+      if (!id || /^G-X+$/.test(id)) return;             // placeholder: no-op
+      if (navigator.doNotTrack === "1") return;         // honour Do Not Track
+      var s = document.createElement("script");
+      s.async = true;
+      s.src = "https://www.googletagmanager.com/gtag/js?id=" + id;
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { dataLayer.push(arguments); };
+      gtag("js", new Date());
+      gtag("config", id, { anonymize_ip: true });
+    })();
+  </script>
+
   <!-- Newsreader stands in for Bower, the licensed McKinsey display serif:
        same contemporary high-contrast editorial serif, open licence. -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -257,9 +277,10 @@
     <a href="https://ankurnapa.github.io/">Ankur Napa</a>.
     Every entry carries evidence links; people shown only with public professional profiles.
     Read the <a href="https://ankurnapa.github.io/">Beer, Wine &amp; Whiskey AI blog</a> &middot;
-    <a href="https://github.com/AnkurNapa/beverage-ai-radar">source on GitHub</a>. No account, no tracking.
+    <a href="https://github.com/AnkurNapa/beverage-ai-radar">source on GitHub</a>.
+    No account needed. Anonymised visit stats only, via Google Analytics; Do Not Track is honoured.
   </footer>
 
-  <script type="module" src="app.js"></script>
+  <script type="module" src="app.js?v=20260722b"></script>
 </body>
 </html>

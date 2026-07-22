@@ -231,19 +231,49 @@ a:hover { color: var(--accent-hover); }
 }
 .bars { display: grid; gap: .1rem; }
 .bar {
-  display: grid; grid-template-columns: 1fr auto; gap: .45rem .5rem; align-items: baseline;
-  font: inherit; font-size: .9rem; font-weight: 300; text-align: left; width: 100%; cursor: pointer;
-  background: none; border: 0; border-radius: 0; padding: .6rem 0;
+  display: grid; grid-template-columns: 1fr auto; gap: .45rem .75rem; align-items: baseline;
+  font: inherit; font-size: .95rem; font-weight: 300; text-align: left; width: 100%; cursor: pointer;
+  background: none; border: 0; border-radius: 0; padding: .7rem 0 .55rem;
   border-bottom: 1px solid var(--line); color: var(--body);
   transition: color .18s ease;
 }
-.bar:hover { color: var(--ink); background: none; }
+.bar:hover, .bar.is-on { color: var(--ink); background: none; }
 .bar__label { color: inherit; }
 .bar:hover .bar__label { color: var(--ink); }
-.bar__n { font-variant-numeric: tabular-nums; font-weight: 400; color: var(--ink); }
-.bar__track { grid-column: 1 / -1; height: 2px; background: var(--line); border-radius: 0; overflow: hidden; }
-.bar__fill { height: 100%; background: var(--accent); border-radius: 0; transition: opacity .18s ease; }
-.bar:hover .bar__fill { opacity: .75; }
+.bar.is-on .bar__label { font-weight: 400; }
+.bar__n {
+  font-variant-numeric: tabular-nums; font-weight: 400; color: var(--ink);
+  display: flex; align-items: baseline; gap: .5rem;
+}
+/* share of the whole, the number that makes the row mean something */
+.bar__pct {
+  font-size: .72rem; font-weight: 300; color: var(--muted);
+  letter-spacing: .04em; min-width: 2.6em; text-align: right;
+}
+.bar__track {
+  grid-column: 1 / -1; height: 4px; margin-top: .5rem;
+  background: var(--line); border-radius: 0; overflow: hidden;
+}
+.bar__fill {
+  height: 100%; background: var(--accent); border-radius: 0; display: block;
+  transition: opacity .18s ease, filter .18s ease;
+}
+.bar:hover .bar__fill { filter: brightness(1.15); }
+.bar.is-on .bar__fill { box-shadow: 0 0 0 1px var(--accent); }
+/* Colour the vertical breakdown to the same keys the cards use, so the panel
+   and the grid read as one system rather than two unrelated blue charts. */
+.bar[data-key="beer"]     .bar__fill { background: #c8931f; }
+.bar[data-key="whiskey"]  .bar__fill { background: #a2542a; }
+.bar[data-key="wine"]     .bar__fill { background: #7d2338; }
+.bar[data-key="multiple"] .bar__fill { background: var(--accent); }
+/* Maturity reads as a pipeline: shipping is the strong state, research the faintest. */
+.bar[data-key="shipping"] .bar__fill { background: #0b7a3b; }
+.bar[data-key="pilot"]    .bar__fill { background: #8a8a8a; }
+.bar[data-key="research"] .bar__fill { background: var(--line-strong); }
+/* tell people the rows are filters, once per panel */
+.card h2::after {
+  content: " · click to filter"; color: var(--line-strong); letter-spacing: .06em;
+}
 
 /* --- Controls: underlined fields, no chrome ----------------------------- */
 .controls {

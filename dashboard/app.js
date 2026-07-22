@@ -126,16 +126,30 @@ function counts(list, field) {
 }
 
 function renderBars(el, pairs, filterId) {
+  // Bars are sized against the largest row so the shape stays readable, but the
+  // number people actually want is the share of the whole, so show both.
   const max = Math.max(1, ...pairs.map((p) => p[1]));
-  el.innerHTML = pairs.map(([label, n]) => `
-    <button class="bar" type="button" ${filterId ? `data-filter="${esc(filterId)}" data-value="${esc(label)}"` : ""}>
-      <span class="bar__label">${esc(label)}</span><span class="bar__n">${n}</span>
+  const total = pairs.reduce((sum, p) => sum + p[1], 0) || 1;
+  el.innerHTML = pairs.map(([label, n]) => {
+    const pct = Math.round((n / total) * 100);
+    return `
+    <button class="bar" type="button" aria-pressed="false" data-key="${esc(String(label).toLowerCase())}"
+      ${filterId ? `data-filter="${esc(filterId)}" data-value="${esc(label)}"` : ""}>
+      <span class="bar__label">${esc(label)}</span>
+      <span class="bar__n">${n}<span class="bar__pct">${pct}%</span></span>
       <span class="bar__track"><span class="bar__fill" style="width:${(n / max) * 100}%"></span></span>
-    </button>`).join("");
+    </button>`;
+  }).join("");
   if (filterId) el.querySelectorAll(".bar").forEach((b) => b.addEventListener("click", () => {
     const sel = $(b.dataset.filter);
-    sel.value = sel.value === b.dataset.value ? "" : b.dataset.value;
+    const turningOn = sel.value !== b.dataset.value;
+    sel.value = turningOn ? b.dataset.value : "";
     sel.dispatchEvent(new Event("input"));
+    // one active row per panel, so the panel always shows what is filtering
+    el.querySelectorAll(".bar").forEach((o) => {
+      o.classList.toggle("is-on", o === b && turningOn);
+      o.setAttribute("aria-pressed", String(o === b && turningOn));
+    });
     $("grid").scrollIntoView({ behavior: "smooth", block: "start" });
   }));
 }

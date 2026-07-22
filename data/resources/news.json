@@ -498,5 +498,45 @@
     "company": "iWort",
     "url": "https://www.brewer-world.com/smart-brewing-at-iwort-using-algorithms-to-keep-up-with-beer-tastes/",
     "summary": "Brewer World interview (by Manaswita Goswami) with Ankur Napa, founder of iWort, on moving from brewmaster to data scientist and using algorithms to track shifting beer tastes and drive recipe and production decisions."
+  },
+  {
+    "title": "How AI-led transformation helped a major brewer grow (Asahi)",
+    "publication": "EY",
+    "date": "2025",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Asahi Europe & International",
+    "url": "https://www.ey.com/en_us/alliances/asahi-ai-transformation",
+    "summary": "Asahi Europe & International worked with EY and Microsoft on a managed-services approach that rewrote its trade promotion optimisation using AI."
+  },
+  {
+    "title": "Carlsberg brews innovation with scalable cloud infrastructure",
+    "publication": "Accenture",
+    "date": "2026-01-02",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Carlsberg",
+    "url": "https://www.accenture.com/us-en/case-studies/cloud/carlsberg-cloud-innovation",
+    "summary": "Accenture moved Carlsberg to a scalable, flexible cloud infrastructure with an automated application landscape, the platform layer its data and analytics work runs on."
+  },
+  {
+    "title": "HEINEKEN: an AI-infused digital transformation",
+    "publication": "IBM",
+    "date": "2025",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "HEINEKEN",
+    "url": "https://www.ibm.com/case-studies/heineken",
+    "summary": "IBM case study on HEINEKEN's comprehensive, AI-infused digital transformation across its global brewing and commercial operations."
+  },
+  {
+    "title": "Data Science in Brewing: Willy Lin, ORIE '20",
+    "publication": "Cornell Tech",
+    "date": "2021-10-19",
+    "kind": "news",
+    "vertical": "beer",
+    "company": "",
+    "url": "https://tech.cornell.edu/news/data-science-in-brewing-willy-lin-orie-20/",
+    "summary": "Cornell Tech profile of Willy Lin on applying operations research and data science to brewing, and why understanding the industry's data matters as automation and AI drive production."
   }
 ]
