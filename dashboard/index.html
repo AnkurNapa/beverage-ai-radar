@@ -92,6 +92,10 @@
     <div class="hero__eyebrow"><span aria-hidden="true">📡</span> Landscape Report</div>
     <h1 class="hero__title">Beverage-AI Radar</h1>
     <p class="hero__lede">Who is applying artificial intelligence to <em>beer</em>, <em>whiskey</em>, and <em>wine</em> &mdash; the companies, the people, and how far along they are. <span id="meta" class="hero__meta"></span></p>
+    <div class="hero__search">
+      <input id="globalq" type="search" placeholder="Search everything: companies, people, papers, blogs, podcasts…" aria-label="Search everything" />
+      <div id="global-hint" class="global-hint" aria-live="polite"></div>
+    </div>
   </header>
 
   <section class="kpis wrap" id="kpis" aria-label="Headline figures"></section>
@@ -100,6 +104,7 @@
     <button id="tab-companies" class="tab is-active" type="button">Companies &amp; ventures</button>
     <button id="tab-people" class="tab" type="button">People</button>
     <button id="tab-resources" class="tab" type="button">Research &amp; resources</button>
+    <button id="tab-podcasts" class="tab" type="button">Podcasts</button>
     <button id="tab-about" class="tab" type="button">About</button>
   </nav>
 
@@ -165,6 +170,7 @@
         <option value="">All kinds</option>
         <option value="paper">Research papers</option>
         <option value="news">News &amp; case studies</option>
+        <option value="blog">Blogs</option>
         <option value="repo">GitHub repos</option>
         <option value="video">Videos</option>
         <option value="podcast">Podcasts</option>
@@ -176,6 +182,16 @@
       <span id="rcount" class="count"></span>
     </section>
     <section id="res-grid" class="grid" aria-live="polite"></section>
+  </main>
+
+  <main class="wrap" id="view-podcasts" hidden>
+    <p class="res-intro">Podcasts and episodes on data, analytics, and AI in beer, whiskey, and wine. Every item links to the show.</p>
+    <section class="controls" aria-label="Podcast filters">
+      <input id="podq" type="search" placeholder="Search podcast, show, topic…" aria-label="Search podcasts" />
+      <select id="fpod-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
+      <span id="podcount" class="count"></span>
+    </section>
+    <section id="pod-grid" class="grid" aria-live="polite"></section>
   </main>
 
   <main class="wrap" id="view-about" hidden>

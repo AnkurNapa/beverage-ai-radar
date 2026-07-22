@@ -290,7 +290,7 @@ let CURRENT_TAB = "companies";
 function showView(which) {
   CURRENT_TAB = which;
   location.hash = "";
-  for (const v of ["companies", "people", "resources", "about"]) {
+  for (const v of ["companies", "people", "resources", "podcasts", "about"]) {
     $("view-" + v).hidden = which !== v;
     $("tab-" + v).classList.toggle("is-active", which === v);
   }
@@ -303,7 +303,7 @@ const slug = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(
 
 // --- Detail pages (hash-routed, deep-linkable) ---------------------------
 function showDetail(html) {
-  for (const v of ["companies", "people", "resources", "about"]) $("view-" + v).hidden = true;
+  for (const v of ["companies", "people", "resources", "podcasts", "about"]) $("view-" + v).hidden = true;
   $("tabs").hidden = true;
   $("detail").innerHTML = html;
   $("view-detail").hidden = false;
@@ -395,7 +395,7 @@ function route() {
 
 // --- Resources view (papers, news, repos, videos) ------------------------
 let RES = [];
-const KIND_LABEL = { paper: "Paper", news: "News", repo: "Repo", video: "Video", podcast: "Podcast" };
+const KIND_LABEL = { paper: "Paper", news: "News", blog: "Blog", repo: "Repo", video: "Video", podcast: "Podcast" };
 
 function resCard(r) {
   const url = safeUrl(r.url);
@@ -450,7 +450,7 @@ async function loadResources() {
   } catch { RES = []; }
   for (const r of RES) r._platforms = platformsOf(`${r.title || ""} ${r.summary || ""} ${r.meta || ""}`);
   // kind order paper/news/repo/video, featured first within a kind, then sort desc
-  const order = { paper: 0, news: 1, repo: 2, video: 3, podcast: 4 };
+  const order = { paper: 0, news: 1, blog: 2, repo: 3, video: 4, podcast: 5 };
   RES.sort((a, b) => (order[a.kind] - order[b.kind])
     || ((b.featured ? 1 : 0) - (a.featured ? 1 : 0))
     || (`${b.sort}`).localeCompare(`${a.sort}`));
@@ -462,6 +462,20 @@ async function loadResources() {
   fillSelect($("fr-to"), resYears.map(String));
   for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-from", "fr-to"]) $(id).addEventListener("input", applyRes);
   applyRes();
+
+  // dedicated Podcasts page
+  const pods = RES.filter((r) => r.kind === "podcast");
+  fillSelect($("fpod-vertical"), [...new Set(pods.map((p) => p.vertical).filter(Boolean))].sort());
+  const applyPods = () => {
+    const q = $("podq").value.trim().toLowerCase(), fv = $("fpod-vertical").value;
+    const shown = pods.filter((p) =>
+      (!fv || p.vertical === fv) && (!q || `${p.title} ${p.summary} ${p.meta}`.toLowerCase().includes(q)));
+    $("podcount").textContent = `${shown.length} podcast${shown.length === 1 ? "" : "s"}`;
+    $("pod-grid").innerHTML = shown.length ? shown.map(resCard).join("") : `<p class="empty">No podcasts match.</p>`;
+  };
+  for (const id of ["podq", "fpod-vertical"]) $(id).addEventListener("input", applyPods);
+  applyPods();
+  if (!pods.length) $("tab-podcasts").hidden = true;
 }
 
 function renderKpis() {
@@ -534,6 +548,7 @@ async function main() {
   $("tab-companies").addEventListener("click", () => showView("companies"));
   $("tab-people").addEventListener("click", () => showView("people"));
   $("tab-resources").addEventListener("click", () => showView("resources"));
+  $("tab-podcasts").addEventListener("click", () => showView("podcasts"));
   $("tab-about").addEventListener("click", () => showView("about"));
 
   // card click -> detail route (but let inner links behave normally)
@@ -547,6 +562,22 @@ async function main() {
   $("detail-back").addEventListener("click", (e) => { e.preventDefault(); location.hash = ""; });
 
   await loadResources();
+
+  // global search: one box drives every tab + shows where matches are
+  const gq = $("globalq");
+  const globalSearch = () => {
+    const v = gq.value;
+    for (const id of ["q", "pq", "rq", "podq"]) { const el = $(id); if (el) { el.value = v; el.dispatchEvent(new Event("input")); } }
+    const q = v.trim().toLowerCase();
+    if (!q) { $("global-hint").innerHTML = ""; return; }
+    const nC = ALL.filter((c) => `${c.name} ${c.hq_location} ${c.short_description} ${c.ai_use_case || ""} ${c.key_people || ""}`.toLowerCase().includes(q)).length;
+    const nP = PEOPLE.filter((p) => `${p.name} ${p.role} ${p.company}`.toLowerCase().includes(q)).length;
+    const nR = RES.filter((r) => `${r.title} ${r.summary} ${r.meta}`.toLowerCase().includes(q)).length;
+    const seg = (n, label, view) => `<button class="ghint ${n ? "" : "is-empty"}" data-view="${view}">${n} ${label}</button>`;
+    $("global-hint").innerHTML = `Found: ${seg(nC, "companies", "companies")}${seg(nP, "people", "people")}${seg(nR, "resources", "resources")}`;
+    $("global-hint").querySelectorAll(".ghint").forEach((b) => b.addEventListener("click", () => showView(b.dataset.view)));
+  };
+  gq.addEventListener("input", globalSearch);
 
   window.addEventListener("hashchange", route);
   route();

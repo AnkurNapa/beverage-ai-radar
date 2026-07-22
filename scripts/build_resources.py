@@ -123,10 +123,28 @@ def _norm_podcasts(rows):
         }
 
 
+def _norm_blogs(rows):
+    for r in rows:
+        if not r.get("url"):
+            continue
+        yield {
+            "kind": "blog",
+            "title": r.get("title", ""),
+            "url": r["url"],
+            "vertical": r.get("vertical", "multiple"),
+            "meta": " · ".join(x for x in (r.get("blog"), r.get("author"), str(r.get("date") or "")) if x),
+            "summary": r.get("summary", ""),
+            "featured": bool(r.get("featured")),
+            "year": _year_from(r.get("date")),
+            "sort": r.get("date") or "",
+        }
+
+
 def build():
     items = []
     items += list(_norm_papers(_load("papers.json")))
     items += list(_norm_news(_load("news.json")))
+    items += list(_norm_blogs(_load("blogs.json")))
     items += list(_norm_repos(_load("repos.json")))
     items += list(_norm_videos(_load("videos.json")))
     items += list(_norm_podcasts(_load("podcasts.json")))

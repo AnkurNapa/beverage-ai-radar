@@ -45,6 +45,19 @@ a { color: var(--accent); }
 .hero__lede { color: var(--muted); margin: 0; max-width: 66ch; font-size: 1.1rem; font-weight: 400; }
 .hero__lede em { color: var(--ink); font-style: normal; font-weight: 600; }
 .hero__meta { display: block; margin-top: .6rem; font-size: .9rem; color: var(--accent); font-weight: 600; }
+.hero__search { margin-top: 1.5rem; max-width: 640px; }
+#globalq { width: 100%; font: inherit; font-size: 1.05rem; padding: .85rem 1.1rem;
+  border: 1px solid var(--muted); border-radius: var(--radius); background: var(--surface); color: var(--ink); }
+#globalq:hover { border-color: var(--ink); }
+#globalq:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px oklch(from var(--accent) l c h / .3); }
+.global-hint { margin-top: .6rem; display: flex; flex-wrap: wrap; gap: .5rem; align-items: center;
+  font-size: .85rem; color: var(--muted); }
+.ghint { font: inherit; font-size: .82rem; font-weight: 600; cursor: pointer; padding: .3rem .7rem;
+  border: 1px solid var(--accent); border-radius: 999px; background: oklch(from var(--accent) l c h / .1);
+  color: var(--accent); }
+.ghint:hover { background: var(--accent); color: #fff; }
+.ghint.is-empty { border-color: var(--line); background: none; color: var(--muted); cursor: default; }
+.ghint.is-empty:hover { background: none; color: var(--muted); }
 
 /* --- KPI band ---------------------------------------------------------- */
 .kpis { display: grid; grid-template-columns: repeat(6, 1fr); gap: .75rem;
@@ -190,6 +203,7 @@ a { color: var(--accent); }
 .chip--repo { background: #24292f; }    /* github black */
 .chip--video { background: #c4141a; }   /* youtube red */
 .chip--podcast { background: #7c3aed; }  /* podcast purple */
+.chip--blog { background: #0b8043; }      /* blog green */
 .chip--featured { background: #ffb900; color: #3b2f00; }
 .res--video.res:has(.chip--featured), .res:has(.chip--featured) { border-color: #ffb900; box-shadow: 0 0 0 1px #ffb900, var(--shadow); }
 
