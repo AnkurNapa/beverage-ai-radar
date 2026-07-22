@@ -3,7 +3,9 @@ name: Deploy dashboard to Pages
 on:
   push:
     branches: [main]
-    paths: [dashboard/**, .github/workflows/pages.yml]
+    paths: [dashboard/**, data/resources/**, scripts/build_resources.py, .github/workflows/pages.yml]
+  schedule:
+    - cron: "17 6 * * *"   # daily: auto-pull newest blog posts into the radar
   workflow_dispatch:
 
 permissions:
@@ -23,6 +25,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Refresh resources (auto-pull newest blog posts)
+        run: python3 scripts/build_resources.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

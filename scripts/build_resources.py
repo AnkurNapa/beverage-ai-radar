@@ -9,11 +9,76 @@ url (video_id for videos), and writes a single file the dashboard fetches.
 Run: python3 scripts/build_resources.py
 """
 import json
+import re
+import urllib.request
+import xml.etree.ElementTree as ET
+from html import unescape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "data" / "resources"
 OUT = ROOT / "dashboard" / "resources.json"
+
+ANKUR_FEED = "https://ankurnapa.github.io/feed.xml"
+ANKUR_BLOG = "Beer, Wine & Whiskey AI (Ankur Napa)"
+ANKUR_CACHE = SRC / "_ankur_blogs.cache.json"
+ANKUR_LIMIT = 24
+
+
+def _vertical_from(cats, text):
+    """Map a post's category tags / text to a beverage vertical."""
+    blob = (" ".join(cats) + " " + text).lower()
+    if re.search(r"wine|winemak|winery|vineyard", blob):
+        return "wine"
+    if re.search(r"distill|whisk|maturation|spirit", blob):
+        return "whiskey"
+    if re.search(r"brew|beer|malt", blob):
+        return "beer"
+    return "multiple"
+
+
+def _fetch_ankur_blogs(limit=ANKUR_LIMIT):
+    """Auto-pull Ankur Napa's newest posts from his blog RSS feed.
+
+    Returns featured blog records. On any network/parse failure, falls back to
+    the last good cache so a build never breaks offline. On success, refreshes
+    the cache. ponytail: newest-N by feed order (feed is already reverse-chron).
+    """
+    try:
+        req = urllib.request.Request(ANKUR_FEED, headers={"User-Agent": "beverage-ai-radar"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            xml = r.read(4_000_000)  # cap size
+        # defend against XXE / billion-laughs without a new dep: a plain RSS feed
+        # has no DTD or entity declarations, so reject any that does.
+        if b"<!DOCTYPE" in xml or b"<!ENTITY" in xml:
+            raise ValueError("feed contains DTD/entity declarations, refusing to parse")
+        items = ET.fromstring(xml).findall(".//item")
+        out = []
+        for it in items[:limit]:
+            g = lambda tag: (it.findtext(tag) or "").strip()
+            link = g("link")
+            if not link:
+                continue
+            cats = [c.text or "" for c in it.findall("category")]
+            desc = unescape(re.sub(r"<[^>]+>", "", g("description")))
+            year = None
+            m = re.search(r"\b(20\d\d)\b", g("pubDate"))
+            if m:
+                year = int(m.group(1))
+            out.append({
+                "title": unescape(g("title")), "blog": ANKUR_BLOG, "author": "Ankur Napa",
+                "date": str(year) if year else "", "vertical": _vertical_from(cats, g("title")),
+                "url": link, "summary": desc, "featured": True,
+            })
+        if out:
+            ANKUR_CACHE.write_text(json.dumps(out, indent=2, ensure_ascii=False))
+            print(f"auto-pulled {len(out)} Ankur blog posts from feed")
+            return out
+    except Exception as exc:
+        print(f"feed pull failed ({type(exc).__name__}: {exc}); using cache")
+    if ANKUR_CACHE.exists():
+        return json.loads(ANKUR_CACHE.read_text())
+    return []
 
 
 def _load(name):
@@ -144,7 +209,8 @@ def build():
     items = []
     items += list(_norm_papers(_load("papers.json")))
     items += list(_norm_news(_load("news.json")))
-    items += list(_norm_blogs(_load("blogs.json")))
+    items += list(_norm_blogs(_fetch_ankur_blogs()))  # auto-pulled newest, featured
+    items += list(_norm_blogs(_load("blogs.json")))  # other curated blogs
     items += list(_norm_repos(_load("repos.json")))
     items += list(_norm_videos(_load("videos.json")))
     items += list(_norm_podcasts(_load("podcasts.json")))
