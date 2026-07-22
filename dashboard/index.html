@@ -85,9 +85,35 @@
   }
   </script>
 
+  <!-- Newsreader stands in for Bower, the licensed McKinsey display serif:
+       same contemporary high-contrast editorial serif, open licence. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400&display=swap" />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Masthead: wordmark, section nav, utility links. The section nav carries
+       the original tab button ids, so app.js wiring is untouched. -->
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="topbar__brand" href="./">Beverage-AI&nbsp;Radar</a>
+      <nav class="topnav" id="tabs" aria-label="Views">
+        <button id="tab-companies" class="tab is-active" type="button">Companies &amp; ventures</button>
+        <button id="tab-people" class="tab" type="button">People</button>
+        <button id="tab-resources" class="tab" type="button">Research &amp; resources</button>
+        <button id="tab-podcasts" class="tab" type="button">Podcasts</button>
+        <button id="tab-about" class="tab" type="button">About</button>
+      </nav>
+      <div class="topbar__util">
+        <a href="https://www.linkedin.com/in/ankur-napa/" target="_blank" rel="noopener">Get listed</a>
+        <span aria-hidden="true">|</span>
+        <a href="https://github.com/AnkurNapa/beverage-ai-radar" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </header>
+
   <header class="hero wrap">
     <div class="hero__eyebrow"><span aria-hidden="true">📡</span> Landscape Report</div>
     <h1 class="hero__title">Beverage-AI Radar</h1>
@@ -99,14 +125,6 @@
   </header>
 
   <section class="kpis wrap" id="kpis" aria-label="Headline figures"></section>
-
-  <nav class="tabs wrap" id="tabs" aria-label="Views">
-    <button id="tab-companies" class="tab is-active" type="button">Companies &amp; ventures</button>
-    <button id="tab-people" class="tab" type="button">People</button>
-    <button id="tab-resources" class="tab" type="button">Research &amp; resources</button>
-    <button id="tab-podcasts" class="tab" type="button">Podcasts</button>
-    <button id="tab-about" class="tab" type="button">About</button>
-  </nav>
 
   <main class="wrap" id="view-companies">
     <section class="breakdowns" aria-label="Breakdowns">
