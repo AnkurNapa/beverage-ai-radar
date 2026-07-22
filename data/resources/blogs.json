@@ -128,5 +128,65 @@
     "url": "https://www.enolytics.com/news-and-press/diving-into-artificial-intelligence-and-its-role-in-the-future-of-the-wine-industry",
     "summary": "Wine-data-analytics firm's take on where AI, machine learning, and predictive analytics fit in vineyard, cellar, and sales workflows.",
     "featured": false
+  },
+  {
+    "title": "How Breweries Use Tableau, Azure Databricks & ADF to Deliver Consistent Beer Quality",
+    "blog": "Medium (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025-08-30",
+    "vertical": "beer",
+    "url": "https://medium.com/@napaankur/how-breweries-use-tableau-azure-databricks-adf-to-deliver-consistent-beer-quality-and-maximize-52a25307afda",
+    "summary": "How breweries wire Tableau dashboards onto Azure Databricks and Azure Data Factory to hold batch-to-batch quality and ingredient efficiency, replacing manual checks and experience with traceable pipelines.",
+    "featured": true
+  },
+  {
+    "title": "Brewing Up Success: The Impact of Predictive Data Analytics",
+    "blog": "Medium (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023-01-19",
+    "vertical": "beer",
+    "url": "https://medium.com/@napaankur/brewing-up-success-the-impact-of-predictive-data-analytics-bf8190170da2",
+    "summary": "Predictive analytics in the brewery: finding patterns in process data to forecast performance, optimise the brew and make better ingredient decisions.",
+    "featured": true
+  },
+  {
+    "title": "Supervised Machine Learning in Brewing by a Brewer with no coding",
+    "blog": "Medium (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022-03-18",
+    "vertical": "beer",
+    "url": "https://medium.com/@napaankur/superwised-machine-learning-in-brewing-by-a-brewer-with-no-coding-581aaa8754ee",
+    "summary": "A brewer's walkthrough of supervised learning applied to brewing without writing code: classifying whether a beer meets consumer needs, and predicting process quality parameters such as pH and alcohol percentage.",
+    "featured": true
+  },
+  {
+    "title": "Brewing Industry 4.0",
+    "blog": "Medium (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020-08-23",
+    "vertical": "beer",
+    "url": "https://medium.com/@napaankur/brewing-industry-4-0-cfef46c223d4",
+    "summary": "What Industry 4.0 means for a 150-year-old industrialised craft, and why big data, AI and machine learning are expected to reshape brewing by 2030.",
+    "featured": true
+  },
+  {
+    "title": "Inferential Statistics and Beer Making: How Data Can Improve Your Brew",
+    "blog": "Medium (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023-01-19",
+    "vertical": "beer",
+    "url": "https://medium.com/@napaankur/inferential-statistics-and-beer-making-how-data-can-improve-your-brew-ab0f876ec6ac",
+    "summary": "Using inferential statistics to reason from a sample to the whole population across the brewing steps, so process decisions rest on evidence rather than impression.",
+    "featured": true
+  },
+  {
+    "title": "Unlocking the Significance of T-Tests in the Brewing Process",
+    "blog": "Medium (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023-01-19",
+    "vertical": "beer",
+    "url": "https://medium.com/@napaankur/unlocking-the-significance-of-t-tests-in-the-brewing-process-37d9a76ad2f3",
+    "summary": "William Gosset, the Guinness statistician who published as Student, invented the t-test in 1908; a look at brewing's first data scientist and where the test still applies on the brewdeck.",
+    "featured": true
   }
 ]
