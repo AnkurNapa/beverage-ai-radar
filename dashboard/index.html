@@ -85,11 +85,11 @@
   }
   </script>
 
-  <!-- Google Analytics 4. Set GA_MEASUREMENT_ID to the real G-XXXXXXXXXX and
-       reporting starts; while it is the placeholder this block loads nothing
-       at all, so the site ships no tracker until you opt in deliberately. -->
+  <!-- Google Analytics 4, same property as ankurnapa.github.io (_config.yml).
+       Radar traffic therefore lands in that property alongside the blog; split
+       it in GA with a hostname filter, or swap in a radar-only data stream. -->
   <script>
-    window.GA_MEASUREMENT_ID = "G-XXXXXXXXXX"; // <-- replace with your ID
+    window.GA_MEASUREMENT_ID = "G-1ZHW47YJDC"; // same property as the blog
     (function () {
       var id = window.GA_MEASUREMENT_ID;
       if (!id || /^G-X+$/.test(id)) return;             // placeholder: no-op
