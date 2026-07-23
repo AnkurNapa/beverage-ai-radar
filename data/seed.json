@@ -2485,5 +2485,44 @@
     "last_seen": "2026-07-23",
     "key_people": "",
     "people": []
+  },
+  {
+    "name": "MontBlancAI",
+    "domain": "montblanc.ai",
+    "hq_location": "Montreal, Canada",
+    "founded_year": null,
+    "vertical": "multiple",
+    "ai_use_case": "process & operations",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Operational-intelligence platform that turns existing plant data into real-time insight for process manufacturers, with a dedicated brewery and distillery offering that detects fermentation deviations and flags issues before they become production losses. Ships as a module inside Ignition SCADA.",
+    "source_urls": [
+      "https://www.montblanc.ai/en/industries/breweries-distilleries",
+      "https://www.montblanc.ai/en/about-us"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-23",
+    "key_people": "",
+    "people": []
+  },
+  {
+    "name": "Symrise (SymVision)",
+    "domain": "symrise.com",
+    "hq_location": "Holzminden, Germany",
+    "founded_year": 2003,
+    "vertical": "multiple",
+    "ai_use_case": "consumer insight / trend prediction",
+    "ai_maturity": "shipping",
+    "funding_stage": "Public",
+    "total_raised": null,
+    "short_description": "Global flavour and fragrance house whose SymVision platform uses AI to predict taste, nutrition and health trends and steer food and beverage product development. Beverage is one of several categories it serves, not its sole focus.",
+    "source_urls": [
+      "https://www.symrise.com/taste-nutrition-health/food-beverage/symvision/"
+    ],
+    "first_seen": "2023-01-01",
+    "last_seen": "2026-07-23",
+    "key_people": "",
+    "people": []
   }
 ]

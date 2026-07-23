@@ -190,6 +190,16 @@
     "sort": 2025
   },
   {
+    "kind": "paper",
+    "title": "AI-driven 5G IoT e-nose for whiskey classification",
+    "url": "https://link.springer.com/article/10.1007/s10489-025-06425-1",
+    "vertical": "whiskey",
+    "meta": "et al. · Applied Intelligence (Springer) · 2025",
+    "summary": "An electronic-nose sensor array streamed over 5G IoT, with learning algorithms classifying whiskies from their volatile profile.",
+    "year": 2025,
+    "sort": 2025
+  },
+  {
     "kind": "news",
     "label": "case-study",
     "title": "AB InBev: With machine learning, this Bud's for you",
@@ -793,6 +803,17 @@
     "summary": "Survey of where AI has moved from novelty to routine on the brewdeck, and what it changes for brewers who long treated the craft as instinct and tradition.",
     "year": 2026,
     "sort": "2026-06-03"
+  },
+  {
+    "kind": "news",
+    "label": "case-study",
+    "title": "Raising the bar with AI analytics: how Diageo drives manufacturing innovation",
+    "url": "https://software.strategy.com/customer-stories/diageo",
+    "vertical": "whiskey",
+    "meta": "Strategy · 2025 · Diageo",
+    "summary": "Diageo applies AI analytics across its manufacturing estate, the spirits counterpart to the brewing case studies already tracked.",
+    "year": 2025,
+    "sort": "2025"
   },
   {
     "kind": "blog",

@@ -548,5 +548,15 @@
     "company": "",
     "url": "https://www.americancraftbeer.com/the-impact-of-ai-on-the-beer-industry/",
     "summary": "Survey of where AI has moved from novelty to routine on the brewdeck, and what it changes for brewers who long treated the craft as instinct and tradition."
+  },
+  {
+    "title": "Raising the bar with AI analytics: how Diageo drives manufacturing innovation",
+    "publication": "Strategy",
+    "date": "2025",
+    "kind": "case-study",
+    "vertical": "whiskey",
+    "company": "Diageo",
+    "url": "https://software.strategy.com/customer-stories/diageo",
+    "summary": "Diageo applies AI analytics across its manufacturing estate, the spirits counterpart to the brewing case studies already tracked."
   }
 ]
