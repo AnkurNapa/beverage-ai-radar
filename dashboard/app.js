@@ -50,6 +50,10 @@ const THEME_RULES = [
   [/supply chain|logistics|container|deposit return/, "Supply chain"],
   [/genai|marketing/, "GenAI & marketing"],
   [/consult/, "Consulting"],
+  // Compliance is its own business function, not a leftover: licensing,
+  // excise, label approval and reporting sit on every producer and
+  // distributor regardless of what they brew.
+  [/complian|licens|excise|regulat|permit/, "Compliance & licensing"],
   [/fermentation|production|digital twin|cip\b|process|batch|maintenance|iiot|iot|line|draft|operating system|worker|knowledge|workflow|data platform|assistant|agent|sensor/, "Process & operations"],
 ];
 const themeOf = (c) => {

@@ -2524,5 +2524,100 @@
     "last_seen": "2026-07-23",
     "key_people": "",
     "people": []
+  },
+  {
+    "name": "Solera",
+    "domain": "solera.vin",
+    "hq_location": null,
+    "founded_year": null,
+    "vertical": "wine",
+    "ai_use_case": "recommendation / personalization",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Winery operating system spanning vineyard operations, cellar management, lab tracking, compliance, inventory, DTC and wine club in one platform, with AI built into the workflow. Covers the direct-to-consumer end of the chain that most production-focused tools stop short of.",
+    "source_urls": [
+      "https://solera.vin/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-23",
+    "key_people": "",
+    "people": []
+  },
+  {
+    "name": "Alcohol Compliance Company",
+    "domain": "alcoholcompco.com",
+    "hq_location": "United States",
+    "founded_year": null,
+    "vertical": "multiple",
+    "ai_use_case": "compliance & licensing",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "AI-assisted alcohol and tobacco compliance: licensing, permitting, reporting and label approvals, with expert human review on top of the automation. Covers the regulatory layer every producer and distributor carries.",
+    "source_urls": [
+      "https://alcoholcompco.com/"
+    ],
+    "first_seen": "2023-01-01",
+    "last_seen": "2026-07-23",
+    "key_people": "",
+    "people": []
+  },
+  {
+    "name": "Wizata",
+    "domain": "wizata.com",
+    "hq_location": null,
+    "founded_year": null,
+    "vertical": "multiple",
+    "ai_use_case": "process & operations",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Industrial AI platform for process manufacturers with a dedicated beer and beverage line, applying machine learning to optimise plant operations and the energy and utility load that comes with them.",
+    "source_urls": [
+      "https://www.wizata.com/resources/the-ideal-candidate-for-ai-optimization-winery-brewery"
+    ],
+    "first_seen": "2023-01-01",
+    "last_seen": "2026-07-23",
+    "key_people": "",
+    "people": []
+  },
+  {
+    "name": "Lineview",
+    "domain": "lineview.com",
+    "hq_location": null,
+    "founded_year": null,
+    "vertical": "multiple",
+    "ai_use_case": "packaging line performance",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Guided manufacturing intelligence built for beverage packaging lines, targeting OEE gains and production visibility. Fills the packaging end of the chain, which sits between brewing and distribution and is thinly covered elsewhere on this radar.",
+    "source_urls": [
+      "https://www.lineview.com/"
+    ],
+    "first_seen": "2022-01-01",
+    "last_seen": "2026-07-23",
+    "key_people": "",
+    "people": []
+  },
+  {
+    "name": "Harmony AI",
+    "domain": "tryharmony.ai",
+    "hq_location": null,
+    "founded_year": null,
+    "vertical": "multiple",
+    "ai_use_case": "supply chain",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "short_description": "Back-office automation for beverage distributors, aimed at the order-to-cash and administrative margin leak that happens off the truck rather than on it.",
+    "source_urls": [
+      "https://www.tryharmony.ai/back-office-automation-for-beverage-distribution-companies"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-23",
+    "key_people": "",
+    "people": []
   }
 ]
