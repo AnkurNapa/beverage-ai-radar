@@ -160,5 +160,14 @@
     "vertical": "wine",
     "url": "https://www.nature.com/articles/s41598-024-59562-x",
     "finding": "A deep CNN classifies grapevine leaf images into healthy and diseased classes such as black rot, esca and leaf blight for early vineyard disease detection."
+  },
+  {
+    "title": "Predicting Wine Quality Under Changing Climate: An Integrated Approach Combining Machine Learning, Statistical and Climatic Analysis",
+    "authors": "et al.",
+    "year": 2025,
+    "venue": "Beverages (MDPI)",
+    "vertical": "wine",
+    "url": "https://www.mdpi.com/2306-5710/11/4/116",
+    "finding": "Combines machine learning with statistical and climatic analysis to predict wine quality as the climate shifts, modelling how climatic factors, region and viticultural practice interact."
   }
 ]

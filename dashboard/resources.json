@@ -180,6 +180,16 @@
     "sort": 2024
   },
   {
+    "kind": "paper",
+    "title": "Predicting Wine Quality Under Changing Climate: An Integrated Approach Combining Machine Learning, Statistical and Climatic Analysis",
+    "url": "https://www.mdpi.com/2306-5710/11/4/116",
+    "vertical": "wine",
+    "meta": "et al. · Beverages (MDPI) · 2025",
+    "summary": "Combines machine learning with statistical and climatic analysis to predict wine quality as the climate shifts, modelling how climatic factors, region and viticultural practice interact.",
+    "year": 2025,
+    "sort": 2025
+  },
+  {
     "kind": "news",
     "label": "case-study",
     "title": "AB InBev: With machine learning, this Bud's for you",
@@ -772,6 +782,17 @@
     "summary": "Cornell Tech profile of Willy Lin on applying operations research and data science to brewing, and why understanding the industry's data matters as automation and AI drive production.",
     "year": 2021,
     "sort": "2021-10-19"
+  },
+  {
+    "kind": "news",
+    "label": "news",
+    "title": "How AI Is Reshaping the Beer Industry",
+    "url": "https://www.americancraftbeer.com/the-impact-of-ai-on-the-beer-industry/",
+    "vertical": "beer",
+    "meta": "American Craft Beer · 2026-06-03",
+    "summary": "Survey of where AI has moved from novelty to routine on the brewdeck, and what it changes for brewers who long treated the craft as instinct and tradition.",
+    "year": 2026,
+    "sort": "2026-06-03"
   },
   {
     "kind": "blog",
@@ -1498,6 +1519,17 @@
     "stars": 2,
     "year": null,
     "sort": 2
+  },
+  {
+    "kind": "repo",
+    "title": "seriallink/beer-datasets",
+    "url": "https://github.com/seriallink/beer-datasets",
+    "vertical": "beer",
+    "meta": "★ 1",
+    "summary": "Ready-made beer review corpus for analytics and ML work: reviews joined to breweries, beers and users, sized for pipeline and CDC testing rather than a toy sample.",
+    "stars": 1,
+    "year": null,
+    "sort": 1
   },
   {
     "kind": "video",

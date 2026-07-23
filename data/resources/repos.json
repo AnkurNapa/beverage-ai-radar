@@ -1,25 +1,218 @@
 [
-  {"full_name": "Brewtarget/brewtarget", "url": "https://github.com/Brewtarget/brewtarget", "description": "Main Brewtarget source code repository, a cross-platform desktop application for creating and calculating beer recipes.", "stars": 356, "language": "C++", "vertical": "beer", "relevance": "Mature open-source brewing recipe calculator covering mash, hops, gravity, and style math, a strong reference for brewing calculator apps."},
-  {"full_name": "openbrewerydb/openbrewerydb", "url": "https://github.com/openbrewerydb/openbrewerydb", "description": "An open-source dataset of breweries, cideries, brewpubs, and bottleshops.", "stars": 211, "language": "Jupyter Notebook", "vertical": "beer", "relevance": "Widely used open brewery dataset and API backing many beer data and discovery tools."},
-  {"full_name": "beerjson/beerjson", "url": "https://github.com/beerjson/beerjson", "description": "Development repository for the BeerJSON format standard.", "stars": 162, "language": "JavaScript", "vertical": "beer", "relevance": "The canonical modern data interchange format for beer recipes, the schema most brewing data tooling standardizes on."},
-  {"full_name": "homebrewing/brauhausjs", "url": "https://github.com/homebrewing/brauhausjs", "description": "A beer recipe calculator for homebrewing that runs on servers and in browsers.", "stars": 135, "language": "CoffeeScript", "vertical": "beer", "relevance": "Reusable JavaScript engine for computing OG, FG, ABV, IBU, and color from recipe inputs."},
-  {"full_name": "rogerioxavier/X-Wines", "url": "https://github.com/rogerioxavier/X-Wines", "description": "A world wines dataset with user ratings for recommendation systems and general use.", "stars": 76, "language": "Jupyter Notebook", "vertical": "wine", "relevance": "Large open wine ratings dataset built specifically for training recommendation and ML models."},
-  {"full_name": "scheb/beer-analytics", "url": "https://github.com/scheb/beer-analytics", "description": "Analyzing the composition of beer recipes and visualizing results in a human-friendly way.", "stars": 47, "language": "Python", "vertical": "beer", "relevance": "Data-driven analysis of thousands of beer recipes surfacing ingredient and style trends, close to sensory and recipe ML work."},
-  {"full_name": "Suraj-G-Rao/Wine-Quality-Prediction", "url": "https://github.com/Suraj-G-Rao/Wine-Quality-Prediction", "description": "A complete ML pipeline with data ingestion, validation, transformation, model training, and evaluation using MLflow tracking for wine quality.", "stars": 45, "language": "Jupyter Notebook", "vertical": "wine", "relevance": "End-to-end MLOps example predicting wine quality from physicochemical features, a template for productionizing beverage quality models."},
-  {"full_name": "sharmaroshan/Wine-Quality-Predictions", "url": "https://github.com/sharmaroshan/Wine-Quality-Predictions", "description": "Predicting the quality of red wine using machine learning regression algorithms with data visualization and analysis.", "stars": 34, "language": "Jupyter Notebook", "vertical": "wine", "relevance": "Well-documented worked example of ML on the classic wine quality dataset, a common starting point for wine sensory modeling."},
-  {"full_name": "meanphil/bjcp-guidelines-2015", "url": "https://github.com/meanphil/bjcp-guidelines-2015", "description": "XML source of the 2015 BJCP beer style guidelines.", "stars": 34, "language": "XML", "vertical": "beer", "relevance": "Machine-readable BJCP style guidelines, foundational data for beer style classifiers and recipe style-fit checks."},
-  {"full_name": "tijilicious/Wine-quality-prediction-and-validation-", "url": "https://github.com/tijilicious/Wine-quality-prediction-and-validation-", "description": "Predicts wine quality (good, average, bad) from features like pH and alcohol content.", "stars": 25, "language": "Jupyter Notebook", "vertical": "wine", "relevance": "Classification approach to wine quality with validation, useful reference for sensory-grade prediction."},
-  {"full_name": "SmedbergM/BJCP_2015", "url": "https://github.com/SmedbergM/BJCP_2015", "description": "Text and XML versions of the Beer Judge Certification Program 2015 style guidelines.", "stars": 18, "language": "Python", "vertical": "beer", "relevance": "Structured BJCP style data with parsing code, handy for building style-aware brewing tools."},
-  {"full_name": "WillNetsky/beer_recommender", "url": "https://github.com/WillNetsky/beer_recommender", "description": "A beer recommendation engine project.", "stars": 18, "language": "Jupyter Notebook", "vertical": "beer", "relevance": "Recommender system trained on beer review data, directly relevant to flavor and preference modeling for beer."},
-  {"full_name": "OTGApps/BJCPStyleGuide", "url": "https://github.com/OTGApps/BJCPStyleGuide", "description": "Official BJCP style guide iOS application.", "stars": 17, "language": "HTML", "vertical": "beer", "relevance": "Reference app packaging BJCP style data for lookups, a model for BJCP tooling."},
-  {"full_name": "jrbourbeau/openbrewerydb-python", "url": "https://github.com/jrbourbeau/openbrewerydb-python", "description": "Python wrapper for the Open Brewery DB API.", "stars": 16, "language": "Python", "vertical": "beer", "relevance": "Python client that makes the Open Brewery DB dataset easy to pull into data and ML pipelines."},
-  {"full_name": "beerjson/bjcp-json", "url": "https://github.com/beerjson/bjcp-json", "description": "BJCP beer style guidelines in the BeerJSON format.", "stars": 15, "language": "JavaScript", "vertical": "beer", "relevance": "BJCP styles expressed in BeerJSON, bridging style guidelines and the modern recipe data standard."},
-  {"full_name": "ascholer/bjcp-styleview", "url": "https://github.com/ascholer/bjcp-styleview", "description": "A viewer for browsing and comparing BJCP beer styles.", "stars": 15, "language": "JavaScript", "vertical": "beer", "relevance": "Interactive BJCP style browser, a useful UI pattern for beer style tools."},
-  {"full_name": "lrdodge/bjcp-style-data", "url": "https://github.com/lrdodge/bjcp-style-data", "description": "Official BJCP style guidelines in various data formats to facilitate data processing.", "stars": 12, "language": "Ruby", "vertical": "beer", "relevance": "Multi-format BJCP style data set aimed squarely at programmatic processing and analysis."},
-  {"full_name": "Wall-Brew-Co/brew-bot", "url": "https://github.com/Wall-Brew-Co/brew-bot", "description": "A quick way to generate randomized beer recipes.", "stars": 12, "language": "Clojure", "vertical": "beer", "relevance": "Generative recipe engine for beer, relevant to automated recipe design and exploration."},
-  {"full_name": "mikeschmidt69/fermonitor", "url": "https://github.com/mikeschmidt69/fermonitor", "description": "Homebrew fermentation controller.", "stars": 11, "language": "Python", "vertical": "beer", "relevance": "Sensor-driven fermentation monitoring and control, the data-capture layer for fermentation modeling."},
-  {"full_name": "davesteps/homebrewR", "url": "https://github.com/davesteps/homebrewR", "description": "An app to explore and compare beer recipes.", "stars": 10, "language": "R", "vertical": "beer", "relevance": "R-based recipe exploration and comparison, useful for statistical analysis of beer recipe data."},
-  {"full_name": "theoretick/awesome-open-beer", "url": "https://github.com/theoretick/awesome-open-beer", "description": "A curated list of breweries that open source their beer recipes.", "stars": 9, "language": "Markdown", "vertical": "beer", "relevance": "Directory of open recipe sources, a discovery hub for real beer recipe training data."},
-  {"full_name": "activatedgeek/winemag-dataset", "url": "https://github.com/activatedgeek/winemag-dataset", "description": "Dataset of wine reviews scraped from Wine Enthusiast Magazine.", "stars": 7, "language": "Python", "vertical": "wine", "relevance": "Text-rich wine review corpus commonly used for NLP, sentiment, and variety-prediction models."},
-  {"full_name": "IanRFerguson/whiskey-ml", "url": "https://github.com/IanRFerguson/whiskey-ml", "description": "Machine learning pipeline with Docker and dbt to model whiskey flavors.", "stars": 2, "language": "Python", "vertical": "whiskey", "relevance": "One of the few open ML pipelines targeting whiskey flavor modeling, directly on-theme for distilling sensory work."}
+  {
+    "full_name": "Brewtarget/brewtarget",
+    "url": "https://github.com/Brewtarget/brewtarget",
+    "description": "Main Brewtarget source code repository, a cross-platform desktop application for creating and calculating beer recipes.",
+    "stars": 356,
+    "language": "C++",
+    "vertical": "beer",
+    "relevance": "Mature open-source brewing recipe calculator covering mash, hops, gravity, and style math, a strong reference for brewing calculator apps."
+  },
+  {
+    "full_name": "openbrewerydb/openbrewerydb",
+    "url": "https://github.com/openbrewerydb/openbrewerydb",
+    "description": "An open-source dataset of breweries, cideries, brewpubs, and bottleshops.",
+    "stars": 211,
+    "language": "Jupyter Notebook",
+    "vertical": "beer",
+    "relevance": "Widely used open brewery dataset and API backing many beer data and discovery tools."
+  },
+  {
+    "full_name": "beerjson/beerjson",
+    "url": "https://github.com/beerjson/beerjson",
+    "description": "Development repository for the BeerJSON format standard.",
+    "stars": 162,
+    "language": "JavaScript",
+    "vertical": "beer",
+    "relevance": "The canonical modern data interchange format for beer recipes, the schema most brewing data tooling standardizes on."
+  },
+  {
+    "full_name": "homebrewing/brauhausjs",
+    "url": "https://github.com/homebrewing/brauhausjs",
+    "description": "A beer recipe calculator for homebrewing that runs on servers and in browsers.",
+    "stars": 135,
+    "language": "CoffeeScript",
+    "vertical": "beer",
+    "relevance": "Reusable JavaScript engine for computing OG, FG, ABV, IBU, and color from recipe inputs."
+  },
+  {
+    "full_name": "rogerioxavier/X-Wines",
+    "url": "https://github.com/rogerioxavier/X-Wines",
+    "description": "A world wines dataset with user ratings for recommendation systems and general use.",
+    "stars": 76,
+    "language": "Jupyter Notebook",
+    "vertical": "wine",
+    "relevance": "Large open wine ratings dataset built specifically for training recommendation and ML models."
+  },
+  {
+    "full_name": "scheb/beer-analytics",
+    "url": "https://github.com/scheb/beer-analytics",
+    "description": "Analyzing the composition of beer recipes and visualizing results in a human-friendly way.",
+    "stars": 47,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "Data-driven analysis of thousands of beer recipes surfacing ingredient and style trends, close to sensory and recipe ML work."
+  },
+  {
+    "full_name": "Suraj-G-Rao/Wine-Quality-Prediction",
+    "url": "https://github.com/Suraj-G-Rao/Wine-Quality-Prediction",
+    "description": "A complete ML pipeline with data ingestion, validation, transformation, model training, and evaluation using MLflow tracking for wine quality.",
+    "stars": 45,
+    "language": "Jupyter Notebook",
+    "vertical": "wine",
+    "relevance": "End-to-end MLOps example predicting wine quality from physicochemical features, a template for productionizing beverage quality models."
+  },
+  {
+    "full_name": "sharmaroshan/Wine-Quality-Predictions",
+    "url": "https://github.com/sharmaroshan/Wine-Quality-Predictions",
+    "description": "Predicting the quality of red wine using machine learning regression algorithms with data visualization and analysis.",
+    "stars": 34,
+    "language": "Jupyter Notebook",
+    "vertical": "wine",
+    "relevance": "Well-documented worked example of ML on the classic wine quality dataset, a common starting point for wine sensory modeling."
+  },
+  {
+    "full_name": "meanphil/bjcp-guidelines-2015",
+    "url": "https://github.com/meanphil/bjcp-guidelines-2015",
+    "description": "XML source of the 2015 BJCP beer style guidelines.",
+    "stars": 34,
+    "language": "XML",
+    "vertical": "beer",
+    "relevance": "Machine-readable BJCP style guidelines, foundational data for beer style classifiers and recipe style-fit checks."
+  },
+  {
+    "full_name": "tijilicious/Wine-quality-prediction-and-validation-",
+    "url": "https://github.com/tijilicious/Wine-quality-prediction-and-validation-",
+    "description": "Predicts wine quality (good, average, bad) from features like pH and alcohol content.",
+    "stars": 25,
+    "language": "Jupyter Notebook",
+    "vertical": "wine",
+    "relevance": "Classification approach to wine quality with validation, useful reference for sensory-grade prediction."
+  },
+  {
+    "full_name": "SmedbergM/BJCP_2015",
+    "url": "https://github.com/SmedbergM/BJCP_2015",
+    "description": "Text and XML versions of the Beer Judge Certification Program 2015 style guidelines.",
+    "stars": 18,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "Structured BJCP style data with parsing code, handy for building style-aware brewing tools."
+  },
+  {
+    "full_name": "WillNetsky/beer_recommender",
+    "url": "https://github.com/WillNetsky/beer_recommender",
+    "description": "A beer recommendation engine project.",
+    "stars": 18,
+    "language": "Jupyter Notebook",
+    "vertical": "beer",
+    "relevance": "Recommender system trained on beer review data, directly relevant to flavor and preference modeling for beer."
+  },
+  {
+    "full_name": "OTGApps/BJCPStyleGuide",
+    "url": "https://github.com/OTGApps/BJCPStyleGuide",
+    "description": "Official BJCP style guide iOS application.",
+    "stars": 17,
+    "language": "HTML",
+    "vertical": "beer",
+    "relevance": "Reference app packaging BJCP style data for lookups, a model for BJCP tooling."
+  },
+  {
+    "full_name": "jrbourbeau/openbrewerydb-python",
+    "url": "https://github.com/jrbourbeau/openbrewerydb-python",
+    "description": "Python wrapper for the Open Brewery DB API.",
+    "stars": 16,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "Python client that makes the Open Brewery DB dataset easy to pull into data and ML pipelines."
+  },
+  {
+    "full_name": "beerjson/bjcp-json",
+    "url": "https://github.com/beerjson/bjcp-json",
+    "description": "BJCP beer style guidelines in the BeerJSON format.",
+    "stars": 15,
+    "language": "JavaScript",
+    "vertical": "beer",
+    "relevance": "BJCP styles expressed in BeerJSON, bridging style guidelines and the modern recipe data standard."
+  },
+  {
+    "full_name": "ascholer/bjcp-styleview",
+    "url": "https://github.com/ascholer/bjcp-styleview",
+    "description": "A viewer for browsing and comparing BJCP beer styles.",
+    "stars": 15,
+    "language": "JavaScript",
+    "vertical": "beer",
+    "relevance": "Interactive BJCP style browser, a useful UI pattern for beer style tools."
+  },
+  {
+    "full_name": "lrdodge/bjcp-style-data",
+    "url": "https://github.com/lrdodge/bjcp-style-data",
+    "description": "Official BJCP style guidelines in various data formats to facilitate data processing.",
+    "stars": 12,
+    "language": "Ruby",
+    "vertical": "beer",
+    "relevance": "Multi-format BJCP style data set aimed squarely at programmatic processing and analysis."
+  },
+  {
+    "full_name": "Wall-Brew-Co/brew-bot",
+    "url": "https://github.com/Wall-Brew-Co/brew-bot",
+    "description": "A quick way to generate randomized beer recipes.",
+    "stars": 12,
+    "language": "Clojure",
+    "vertical": "beer",
+    "relevance": "Generative recipe engine for beer, relevant to automated recipe design and exploration."
+  },
+  {
+    "full_name": "mikeschmidt69/fermonitor",
+    "url": "https://github.com/mikeschmidt69/fermonitor",
+    "description": "Homebrew fermentation controller.",
+    "stars": 11,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "Sensor-driven fermentation monitoring and control, the data-capture layer for fermentation modeling."
+  },
+  {
+    "full_name": "davesteps/homebrewR",
+    "url": "https://github.com/davesteps/homebrewR",
+    "description": "An app to explore and compare beer recipes.",
+    "stars": 10,
+    "language": "R",
+    "vertical": "beer",
+    "relevance": "R-based recipe exploration and comparison, useful for statistical analysis of beer recipe data."
+  },
+  {
+    "full_name": "theoretick/awesome-open-beer",
+    "url": "https://github.com/theoretick/awesome-open-beer",
+    "description": "A curated list of breweries that open source their beer recipes.",
+    "stars": 9,
+    "language": "Markdown",
+    "vertical": "beer",
+    "relevance": "Directory of open recipe sources, a discovery hub for real beer recipe training data."
+  },
+  {
+    "full_name": "activatedgeek/winemag-dataset",
+    "url": "https://github.com/activatedgeek/winemag-dataset",
+    "description": "Dataset of wine reviews scraped from Wine Enthusiast Magazine.",
+    "stars": 7,
+    "language": "Python",
+    "vertical": "wine",
+    "relevance": "Text-rich wine review corpus commonly used for NLP, sentiment, and variety-prediction models."
+  },
+  {
+    "full_name": "IanRFerguson/whiskey-ml",
+    "url": "https://github.com/IanRFerguson/whiskey-ml",
+    "description": "Machine learning pipeline with Docker and dbt to model whiskey flavors.",
+    "stars": 2,
+    "language": "Python",
+    "vertical": "whiskey",
+    "relevance": "One of the few open ML pipelines targeting whiskey flavor modeling, directly on-theme for distilling sensory work."
+  },
+  {
+    "full_name": "seriallink/beer-datasets",
+    "url": "https://github.com/seriallink/beer-datasets",
+    "description": "Curated dataset of beer reviews, breweries, beers and users based on BeerAdvocate data.",
+    "relevance": "Ready-made beer review corpus for analytics and ML work: reviews joined to breweries, beers and users, sized for pipeline and CDC testing rather than a toy sample.",
+    "language": "",
+    "stars": 1,
+    "vertical": "beer"
+  }
 ]

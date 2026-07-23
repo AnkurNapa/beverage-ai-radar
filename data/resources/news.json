@@ -538,5 +538,15 @@
     "company": "",
     "url": "https://tech.cornell.edu/news/data-science-in-brewing-willy-lin-orie-20/",
     "summary": "Cornell Tech profile of Willy Lin on applying operations research and data science to brewing, and why understanding the industry's data matters as automation and AI drive production."
+  },
+  {
+    "title": "How AI Is Reshaping the Beer Industry",
+    "publication": "American Craft Beer",
+    "date": "2026-06-03",
+    "kind": "news",
+    "vertical": "beer",
+    "company": "",
+    "url": "https://www.americancraftbeer.com/the-impact-of-ai-on-the-beer-industry/",
+    "summary": "Survey of where AI has moved from novelty to routine on the brewdeck, and what it changes for brewers who long treated the craft as instinct and tradition."
   }
 ]
