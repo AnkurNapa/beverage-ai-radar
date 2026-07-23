@@ -499,6 +499,23 @@ function applyRes() {
     if (q && !`${r.title} ${r.summary} ${r.meta}`.toLowerCase().includes(q)) return false;
     return true;
   });
+  // Optional recency sort. Dated items order by their real publish date; the
+  // undated ones (repos, some videos) sink to the end rather than jump around.
+  const sortMode = $("fr-sort").value;
+  if (sortMode === "newest" || sortMode === "oldest") {
+    // Recency keys off the real date string when present (news/blogs carry a
+    // full YYYY-MM-DD in `sort`; papers carry a year). Repos sort by stars,
+    // which is not a date, so key on `year` to decide dated-ness and sink the
+    // undated to the bottom in both directions.
+    const dated = (r) => r.year != null && r.year !== "";
+    const key = (r) => (`${r.sort}`.match(/^\d/) ? `${r.sort}` : `${r.year || ""}`);
+    shown.sort((a, b) => {
+      if (dated(a) !== dated(b)) return dated(a) ? -1 : 1;
+      if (!dated(a)) return 0;
+      const av = key(a), bv = key(b);
+      return sortMode === "newest" ? bv.localeCompare(av) : av.localeCompare(bv);
+    });
+  }
   $("rcount").textContent = `${shown.length} of ${RES.length}`;
   $("res-grid").innerHTML = shown.length
     ? shown.map(resCard).join("")
@@ -521,7 +538,7 @@ async function loadResources() {
   const resYears = [...new Set(RES.map((r) => r.year).filter(Boolean))].sort((a, b) => a - b);
   fillSelect($("fr-from"), resYears.map(String));
   fillSelect($("fr-to"), resYears.map(String));
-  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-from", "fr-to"]) $(id).addEventListener("input", applyRes);
+  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-from", "fr-to", "fr-sort"]) $(id).addEventListener("input", applyRes);
   applyRes();
 
   // dedicated Podcasts page
