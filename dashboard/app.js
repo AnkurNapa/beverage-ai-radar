@@ -140,13 +140,13 @@ const PAL = {
   // Assigned by rank and never cycled; past seven slots the tail folds to Other.
   theme: [["#2a78d6", "#3987e5"], ["#eb6834", "#d95926"], ["#1baf7a", "#199e70"],
           ["#eda100", "#c98500"], ["#e87ba4", "#d55181"], ["#008300", "#008300"],
-          ["#4a3aa7", "#9085e9"]],
+          ["#4a3aa7", "#9085e9"], ["#e34948", "#e66767"]],
   // Maturity is ordinal (research -> pilot -> shipping), so one hue, light to dark.
   maturity: { research: ["#A9BEEE", "#33447A"], pilot: ["#6E8FE0", "#4A67B8"],
               shipping: ["#1E3FCC", "#7C95F0"] },
   other: ["#8A8A8A", "#7C7C7C"],
 };
-const MAX_SLOTS = 7;   // an 8th hue would have to be invented; fold instead
+const MAX_SLOTS = 8;   // the validated palette tops out at 8; a 9th would be invented
 
 function paintOf(kind, label, i) {
   const key = String(label).toLowerCase();
@@ -165,17 +165,19 @@ function renderBars(el, pairs, filterId, kind) {
   if (tail.length) {
     const merged = rows.find((r) => String(r.label).toLowerCase() === "other");
     const tailSum = tail.reduce((sum, p) => sum + p[1], 0);
-    if (merged) merged.n += tailSum;
-    else rows.push({ label: "Other", n: tailSum, paint: PAL.other, real: false });
+    const names = tail.map(([l, n]) => `${l} ${n}`).join(", ");
+    if (merged) { merged.n += tailSum; merged.folded = names; }
+    else rows.push({ label: "Other", n: tailSum, paint: PAL.other, real: false, folded: names });
     rows = rows.sort((a, b) => b.n - a.n);
   }
   const pct = (n) => Math.round((n / total) * 100);
   const seg = (r) => `<span class="seg" style="flex:${r.n};--paint:${r.paint[0]};--paint-dark:${r.paint[1]}"
-      title="${esc(r.label)} · ${r.n} of ${total} · ${pct(r.n)}%"
+      title="${esc(r.label)} · ${r.n} of ${total} · ${pct(r.n)}%${r.folded ? ` — includes ${esc(r.folded)}` : ""}"
       ${filterId && r.real ? `data-filter="${esc(filterId)}" data-value="${esc(r.label)}"` : ""}></span>`;
   const key = (r) => `
     <button class="key" type="button" aria-pressed="false"
       style="--paint:${r.paint[0]};--paint-dark:${r.paint[1]}"
+      title="${r.folded ? `includes ${esc(r.folded)}` : esc(r.label)}"
       ${filterId && r.real ? `data-filter="${esc(filterId)}" data-value="${esc(r.label)}"` : ""}>
       <span class="key__dot" aria-hidden="true"></span><span class="key__label">${esc(r.label)}</span>
       <span class="key__n">${r.n}</span><span class="key__pct">${pct(r.n)}%</span>
