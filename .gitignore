@@ -10,3 +10,4 @@ __pycache__/
 # launchd job logs
 radar.log
 radar.err.log
+.gstack/
