@@ -2465,5 +2465,25 @@
     ],
     "first_seen": "2026-07-22",
     "last_seen": "2026-07-22"
+  },
+  {
+    "name": "Ekos",
+    "domain": "goekos.com",
+    "hq_location": "Charlotte, United States",
+    "founded_year": 2014,
+    "vertical": "multiple",
+    "ai_use_case": "production data / reporting",
+    "ai_maturity": "shipping",
+    "funding_stage": "Series B",
+    "total_raised": "$21M",
+    "short_description": "Business-management software for craft beverage producers (breweries, wineries, cideries, distilleries, seltzer), covering inventory, production, sales and accounting with reporting on top. Serves close to 2,000 businesses on six continents. Ekos makes no public AI or machine-learning claims; it is tracked here as the system of record that brewery production data comes out of, not as an AI vendor.",
+    "source_urls": [
+      "https://www.goekos.com/",
+      "https://www.goekos.com/blog/ekos-raises-21-million-series-b-to-digitally-connect"
+    ],
+    "first_seen": "2014-01-01",
+    "last_seen": "2026-07-23",
+    "key_people": "",
+    "people": []
   }
 ]
