@@ -42,6 +42,12 @@ def main(argv=None) -> int:
     sub.add_parser("run")
     sub.add_parser("export")
     sub.add_parser("report")
+    sub.add_parser("gaps")
+    sub.add_parser("scout-brief")
+    p_merge = sub.add_parser("scout-merge")
+    p_merge.add_argument("files", nargs="+")
+    p_merge.add_argument("--check-domains", action="store_true")
+    sub.add_parser("scout-liveness")
     args = parser.parse_args(argv)
 
     store = Store(config.DB_PATH)
@@ -56,6 +62,53 @@ def main(argv=None) -> int:
         print("exported")
     elif args.cmd == "report":
         print(render_report(store))
+    elif args.cmd == "gaps":
+        from radar.scout.gaps import find_gaps
+
+        for g in find_gaps(store.all(), date.today()):
+            print(f"{g['axis']:>10}  {g['value']:<28} {g['count']:>4}  {g['reason']}")
+    elif args.cmd == "scout-brief":
+        import json as _json
+        from radar.scout.briefs import load_surfaces, render_briefs
+        from radar.scout.gaps import find_gaps
+
+        gaps = find_gaps(store.all(), date.today())
+        surfaces = load_surfaces(config.SCOUT_SURFACES_PATH)
+        existing = [
+            f"{c['name']} | {c.get('domain') or ''}"
+            for c in _json.loads(config.SEED_PATH.read_text())
+        ]
+        written = render_briefs(surfaces, gaps, existing, config.SCOUT_DIR, date.today())
+        print(f"{len(written)} briefs in {config.SCOUT_DIR / 'briefs'}")
+        for p in written:
+            print(f"  {p}")
+    elif args.cmd == "scout-merge":
+        import json as _json
+        from radar.scout.merge import load_finds, merge
+        from radar.scout.liveness import check
+
+        seed = _json.loads(config.SEED_PATH.read_text())
+        reachable = check if args.check_domains else None
+        seed, added, quarantined = merge(seed, load_finds(args.files), reachable)
+        config.SEED_PATH.write_text(_json.dumps(seed, indent=2, ensure_ascii=False) + "\n")
+        config.SCOUT_DIR.mkdir(parents=True, exist_ok=True)
+        (config.SCOUT_DIR / "quarantine.json").write_text(_json.dumps(quarantined, indent=2))
+        print(f"added {len(added)}: {', '.join(c['name'] for c in added)}")
+        for state in ("duplicate", "blocked", "rejected"):
+            hits = [q for q in quarantined if q["state"] == state]
+            if hits:
+                print(f"{state} {len(hits)}: {'; '.join(q['name'] for q in hits)}")
+        print(f"seed now {len(seed)}")
+    elif args.cmd == "scout-liveness":
+        import json as _json
+        from radar.scout.liveness import recheck
+
+        result = recheck(store.all(), today=date.today())
+        config.SCOUT_DIR.mkdir(parents=True, exist_ok=True)
+        (config.SCOUT_DIR / "liveness.json").write_text(_json.dumps(result, indent=2))
+        print(f"dead {len(result['dead'])}, blocked {len(result['blocked'])}")
+        for d in result["dead"]:
+            print(f"  dead: {d['name']} ({d['domain']})")
     return 0
 
 

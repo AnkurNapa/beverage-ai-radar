@@ -77,6 +77,11 @@ class Company:
     product_url: str | None = None
     latest_news_headline: str | None = None
     why_interesting: str | None = None
+    # Provenance: "curated" for hand-checked entries, "scout:<surface>" for
+    # agent-found ones. verified stays False until a human confirms, so one bad
+    # sweep can be identified and undone instead of quietly contaminating the set.
+    discovered_by: str | None = None
+    verified: bool | None = None
 
     @property
     def key(self) -> str:

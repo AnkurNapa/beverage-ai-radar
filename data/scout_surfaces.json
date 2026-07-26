@@ -1,0 +1,51 @@
+[
+  {
+    "id": "microsoft",
+    "label": "Microsoft AppSource and Azure Marketplace",
+    "hint": "appsource.microsoft.com, azuremarketplace.microsoft.com, Dynamics 365 Business Central beverage verticals, Microsoft partner case studies for brewing, distilling and wine.",
+    "yield": "high",
+    "note": "Richest marketplace surface: the beverage ERP vertical genuinely lives here."
+  },
+  {
+    "id": "aws",
+    "label": "AWS Marketplace and partner ecosystem",
+    "hint": "aws.amazon.com/marketplace, AWS Data Exchange, SageMaker model packages, Bedrock builds, AWS partner case studies.",
+    "yield": "medium",
+    "note": "Thin on beverage SaaS listings but productive for data products and model packages."
+  },
+  {
+    "id": "google",
+    "label": "Google Cloud Marketplace and partner ecosystem",
+    "hint": "cloud.google.com/marketplace, AI Agent Marketplace, Google Cloud customer case studies, BigQuery commercial datasets.",
+    "yield": "low",
+    "note": "The catalog itself is auth-walled and not indexed. Only the case-study and partner side yields. Consider running this surface less often."
+  },
+  {
+    "id": "industrial",
+    "label": "Industrial automation, historians, MES and packaging OEMs",
+    "hint": "Process historians, MES and OEE platforms, filling and packaging line OEMs, inline sensor and spectroscopy vendors, and their AI or predictive analytics products applied to brewing, distilling or winemaking.",
+    "yield": "low",
+    "note": "Heavy AI-washing. Demand a named brewery, distillery or winery customer, not generic food and beverage boilerplate."
+  },
+  {
+    "id": "whiskey",
+    "label": "Whiskey, whisky and spirits",
+    "hint": "Scotch, Irish, bourbon, Japanese and Indian distilling technology, cask and maturation modelling, blending and flavour prediction, cask investment platforms, spirits e-nose and analytical chemistry, provenance and counterfeit detection, spirits market data.",
+    "yield": "medium",
+    "note": "Historically the thinnest vertical. Cask investment marketing is especially prone to hollow AI claims."
+  },
+  {
+    "id": "wine",
+    "label": "Wine technology outside the US and UK",
+    "hint": "Italy, Spain, France, Portugal, Germany, Austria, Greece, Chile, Argentina, Australia, New Zealand and South Africa. Precision viticulture, cellar software with ML, wine sensory and chemistry prediction, traceability, e-commerce personalisation, wine market data.",
+    "yield": "high",
+    "note": "Counters the US and UK skew. Non-English sites are fine, translate the facts."
+  },
+  {
+    "id": "beer",
+    "label": "Beer plus route to market",
+    "hint": "Brewery management software with real ML, fermentation and quality analytics, hop and malt supply chain data, taproom analytics, brewery energy AI. Plus distributor and supplier analytics, on-premise and retail execution, alcohol e-commerce, DTC personalisation, pricing and trade promotion.",
+    "yield": "high",
+    "note": "Two halves; cover both. Brewery ERP with an AI badge is common, check for real ML."
+  }
+]

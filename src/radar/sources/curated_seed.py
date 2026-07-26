@@ -63,6 +63,9 @@ class CuratedSeedSource:
                     first_seen=_parse_date(r.get("first_seen")) or last_seen,
                     last_seen=last_seen,
                     latest_news_headline=r.get("latest_news_headline"),
+                    # Seed entries are hand-checked unless a scout says otherwise.
+                    discovered_by=r.get("discovered_by") or "curated",
+                    verified=r.get("verified", True),
                 )
             )
         return out

@@ -22,7 +22,44 @@ install needed. Run the package with `PYTHONPATH=src`.
 PYTHONPATH=src .venv/bin/python -m radar.cli run       # discover + enrich + regenerate all outputs
 PYTHONPATH=src .venv/bin/python -m radar.cli export     # rewrite dashboard/data.json from the store
 PYTHONPATH=src .venv/bin/python -m radar.cli report     # print the market-landscape report
+
+PYTHONPATH=src .venv/bin/python -m radar.cli gaps           # what coverage is thin right now
+PYTHONPATH=src .venv/bin/python -m radar.cli scout-brief    # write one scout brief per surface
+PYTHONPATH=src .venv/bin/python -m radar.cli scout-merge .scout/finds/*.json
+PYTHONPATH=src .venv/bin/python -m radar.cli scout-liveness # find dead/blocked domains
 ```
+
+## Agentic scouting
+
+The seed is the only real growth lever (the live discovery sources return
+nothing in practice), so growing the radar means adding verified companies to
+`data/seed.json`. That loop is now semi-automated:
+
+1. `scout-brief` computes coverage gaps from the store and renders one brief per
+   surface in `data/scout_surfaces.json` (marketplaces, industrial automation,
+   whiskey, wine, beer and route to market). Gaps and the skip list are
+   generated every run, never hand-maintained.
+2. One agent per brief runs in parallel, each verifying every company against
+   the vendor's own site. Claude Code drives this; there is no API key in the
+   pipeline. The `beverage-radar-scout` skill orchestrates it.
+3. `scout-merge` validates and merges: required fields, dedupe on normalized
+   name and domain, near-duplicate detection (three scouts returned Encompass
+   Technologies under three product names), and a two-source rule requiring one
+   source on the company's own domain. Rejects go to `.scout/quarantine.json`.
+
+**Blocked is not rejected.** A 403 or Cloudflare wall means the check failed,
+not that the company is fake, so those quarantine as `blocked` for a later pass
+with a real browser. The first sweep lost Oculyze, ProLeiT/brewmaxx and Anton
+Paar that way, all genuinely in scope.
+
+**Honesty over volume.** Roughly a third of found companies have no real ML.
+They stay in, labelled plainly as systems of record, sensor vendors or plain BI.
+Inflating marketing language into an AI claim is the one unforgivable error.
+
+**Provenance.** Every company carries `discovered_by` (`curated` or
+`scout:<surface>`) and `verified`. Agent-found entries are `verified: false`
+until a human confirms them, and the dashboard filters on it, so a bad sweep can
+be identified and undone rather than quietly contaminating the set.
 
 ## Data sources
 

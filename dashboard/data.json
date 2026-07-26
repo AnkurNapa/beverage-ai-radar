@@ -34,7 +34,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "tastry.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "tastry.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Analytical Flavor Systems (Gastrograph AI)",
@@ -76,7 +79,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "gastrograph.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "gastrograph.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Preferabli",
@@ -120,7 +126,10 @@
     "product_url": "https://preferabli.com",
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "preferabli.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "preferabli.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Deep Liquid",
@@ -167,7 +176,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "deepliquid.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "deepliquid.ai",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Enolytics",
@@ -209,7 +221,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "enolytics.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "enolytics.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Tule Technologies",
@@ -251,7 +266,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "tule-technologies::unknown"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "tule-technologies::unknown",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Deep Planet",
@@ -298,7 +316,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "deepplanet.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "deepplanet.ai",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Watgrid (WINEGRID)",
@@ -335,7 +356,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "watgrid.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "watgrid.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "VinoVoss (BetterAI)",
@@ -376,7 +400,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "vinovoss.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "vinovoss.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Crafted ERP",
@@ -407,7 +434,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "craftederp.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "craftederp.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Aromyx",
@@ -449,7 +479,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "aromyx.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "aromyx.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "BarTrack",
@@ -496,7 +529,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "bartrack::unknown"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "bartrack::unknown",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Precision Fermentation (Sennos)",
@@ -538,7 +574,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "precisionfermentation.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "precisionfermentation.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "BeerBoard",
@@ -574,7 +613,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "beerboard.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "beerboard.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Ceres Imaging (Ceres AI)",
@@ -611,7 +653,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "ceres.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "ceres.ai",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Sommify",
@@ -641,7 +686,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "sommify::finland"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "sommify::finland",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Sommelier.bot",
@@ -671,7 +719,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "sommelier.bot"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "sommelier.bot",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Anheuser-Busch InBev",
@@ -707,7 +758,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "ab-inbev.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "ab-inbev.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Kirin Holdings",
@@ -743,7 +797,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "kirinholdings.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "kirinholdings.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Sapporo Breweries",
@@ -778,7 +835,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "sapporoholdings.jp"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "sapporoholdings.jp",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Heineken",
@@ -814,7 +874,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "theheinekencompany.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "theheinekencompany.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Molson Coors (Atwater Brewery)",
@@ -850,7 +913,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "molsoncoors.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "molsoncoors.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "PLAATO",
@@ -896,7 +962,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "plaato.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "plaato.ai",
+    "theme": "Process & operations"
   },
   {
     "name": "Zymoscope",
@@ -942,7 +1011,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "zymoscope.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "zymoscope.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Propagate Lab",
@@ -978,7 +1050,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "propagatelab.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "propagatelab.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Vivid Machines",
@@ -1019,7 +1094,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "vividmachines.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "vividmachines.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "VineView",
@@ -1060,7 +1138,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "vineview.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "vineview.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "VineForecast",
@@ -1106,7 +1187,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "vineforecast.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "vineforecast.com",
+    "theme": "Agriculture & crop"
   },
   {
     "name": "Bloomfield Robotics",
@@ -1147,7 +1231,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "bloomfield.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "bloomfield.ai",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Agrology",
@@ -1188,7 +1275,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "agrology.ag"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "agrology.ag",
+    "theme": "Agriculture & crop"
   },
   {
     "name": "Naio Technologies",
@@ -1229,7 +1319,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "naio-technologies.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "naio-technologies.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Firstleaf",
@@ -1270,7 +1363,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "firstleaf.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "firstleaf.com",
+    "theme": "Consumer & personalization"
   },
   {
     "name": "DRINKS",
@@ -1311,7 +1407,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "drinks.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "drinks.com",
+    "theme": "Consumer & personalization"
   },
   {
     "name": "Outshinery",
@@ -1347,7 +1446,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "outshinery.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "outshinery.com",
+    "theme": "GenAI & marketing"
   },
   {
     "name": "Next Century Spirits",
@@ -1399,7 +1501,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "nextcenturyspirits.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "nextcenturyspirits.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Whisky Project",
@@ -1435,7 +1540,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "whiskyproject.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "whiskyproject.ai",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Kigtek Solutions",
@@ -1466,7 +1574,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "kigtek.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "kigtek.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Whiskey Wise Group",
@@ -1496,7 +1607,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "whiskey-wise-group::united-kingdom"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "whiskey-wise-group::united-kingdom",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Overproof",
@@ -1533,7 +1647,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "overproof.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "overproof.com",
+    "theme": "GenAI & marketing"
   },
   {
     "name": "Winespace",
@@ -1574,7 +1691,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "winespace.fr"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "winespace.fr",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Sante",
@@ -1604,7 +1724,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "sante::united-states"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "sante::united-states",
+    "theme": "Supply chain"
   },
   {
     "name": "Scotch",
@@ -1634,7 +1757,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "scotch::united-states"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "scotch::united-states",
+    "theme": "Supply chain"
   },
   {
     "name": "Unicorn Auctions",
@@ -1675,7 +1801,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "unicornauctions.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "unicornauctions.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Tastewise",
@@ -1711,7 +1840,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "tastewise.io"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "tastewise.io",
+    "theme": "GenAI & marketing"
   },
   {
     "name": "The 5th Ingredient",
@@ -1747,7 +1879,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "the5thingredient.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "the5thingredient.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "FlavorWiki",
@@ -1783,7 +1918,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "flavorwiki.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "flavorwiki.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Pluto7",
@@ -1813,7 +1951,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "pluto7.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "pluto7.com",
+    "theme": "Consulting"
   },
   {
     "name": "Ohanafy",
@@ -1842,7 +1983,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "ohanafy.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "ohanafy.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Enavate",
@@ -1871,7 +2015,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "enavate.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "enavate.com",
+    "theme": "Consulting"
   },
   {
     "name": "Overview",
@@ -1900,7 +2047,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "overview.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "overview.ai",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Infinity Sky AI",
@@ -1929,7 +2079,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "infinitysky.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "infinitysky.ai",
+    "theme": "Consulting"
   },
   {
     "name": "Algorithm Factory",
@@ -1958,7 +2111,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "algorithm-factory.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "algorithm-factory.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Virtualworkforce",
@@ -1987,7 +2143,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "virtualworkforce.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "virtualworkforce.ai",
+    "theme": "Supply chain"
   },
   {
     "name": "Haber",
@@ -2016,7 +2175,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "haberwater.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "haberwater.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "RouteMagic",
@@ -2045,7 +2207,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "routemagic.app"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "routemagic.app",
+    "theme": "Demand & pricing"
   },
   {
     "name": "DRAMS",
@@ -2074,7 +2239,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "drams-software.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "drams-software.com",
+    "theme": "Supply chain"
   },
   {
     "name": "GMware",
@@ -2103,7 +2271,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "gmware.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "gmware.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Aromalytics",
@@ -2132,7 +2303,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "aromalyticsai.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "aromalyticsai.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "FlavorActiV",
@@ -2161,7 +2335,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "flavoractiv.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "flavoractiv.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Alpha MOS",
@@ -2190,7 +2367,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "alpha-mos.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "alpha-mos.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Cypheme",
@@ -2219,7 +2399,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "cypheme.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "cypheme.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Authentic Vision",
@@ -2248,7 +2431,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "authenticvision.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "authenticvision.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Wine Luthier",
@@ -2277,7 +2463,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "wineluthier.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "wineluthier.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "VerAIsonio",
@@ -2306,7 +2495,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "veraison.io"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "veraison.io",
+    "theme": "Consulting"
   },
   {
     "name": "Brewing-AI",
@@ -2335,7 +2527,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "brewing-ai.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "brewing-ai.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "IWSR",
@@ -2364,7 +2559,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "theiwsr.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "theiwsr.com",
+    "theme": "Consumer & personalization"
   },
   {
     "name": "Saga Robotics",
@@ -2395,7 +2593,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "sagarobotics.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "sagarobotics.com",
+    "theme": "Agriculture & crop"
   },
   {
     "name": "Indeex",
@@ -2425,7 +2626,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "indeex.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "indeex.ai",
+    "theme": "Process & operations"
   },
   {
     "name": "Quantis International",
@@ -2455,7 +2659,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "quantis.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "quantis.ai",
+    "theme": "Process & operations"
   },
   {
     "name": "Pubinno",
@@ -2485,7 +2692,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "pubinno.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "pubinno.com",
+    "theme": "Process & operations"
   },
   {
     "name": "OMMM Operations Management Solutions GmbH",
@@ -2515,7 +2725,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "ommm.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "ommm.ai",
+    "theme": "Supply chain"
   },
   {
     "name": "Laminar (H2Ok Innovations)",
@@ -2545,7 +2758,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "runlaminar.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "runlaminar.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Antares Vision Group",
@@ -2575,7 +2791,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "antaresvisiongroup.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "antaresvisiongroup.com",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Zaptic",
@@ -2605,7 +2824,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "zaptic.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "zaptic.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Flowsight GmbH",
@@ -2635,7 +2857,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "flowsight.de"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "flowsight.de",
+    "theme": "Process & operations"
   },
   {
     "name": "beON consult GmbH",
@@ -2665,7 +2890,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "beon.net"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "beon.net",
+    "theme": "Consulting"
   },
   {
     "name": "SmartSkin Technologies",
@@ -2695,7 +2923,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "smartskintech.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "smartskintech.com",
+    "theme": "Supply chain"
   },
   {
     "name": "Parsable",
@@ -2725,7 +2956,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "parsable.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "parsable.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Factbird",
@@ -2755,7 +2989,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "factbird.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "factbird.com",
+    "theme": "Process & operations"
   },
   {
     "name": "FuturMaster",
@@ -2785,7 +3022,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "futurmaster.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "futurmaster.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Bar Analytics",
@@ -2815,7 +3055,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "co.uk"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "co.uk",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Allie AI",
@@ -2845,7 +3088,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "allie-ai.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "allie-ai.com",
+    "theme": "Process & operations"
   },
   {
     "name": "INTECH Automation & Intelligence (EmpowerGPT)",
@@ -2875,7 +3121,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "empowergpt.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "empowergpt.ai",
+    "theme": "Process & operations"
   },
   {
     "name": "seedalive GmbH",
@@ -2905,7 +3154,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "seedalive.de"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "seedalive.de",
+    "theme": "Agriculture & crop"
   },
   {
     "name": "Smart DRS",
@@ -2935,7 +3187,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "smartdrs.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "smartdrs.com",
+    "theme": "Supply chain"
   },
   {
     "name": "Bira 91 (B9 Beverages)",
@@ -2971,7 +3226,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "bira91.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "bira91.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "United Breweries Limited (Kingfisher, Heineken-owned)",
@@ -3007,7 +3265,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "unitedbreweries.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "unitedbreweries.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Carlsberg India (Carlsberg Group India GCC)",
@@ -3038,7 +3299,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "carlsbergindia.in"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "carlsbergindia.in",
+    "theme": "Demand & pricing"
   },
   {
     "name": "iWort",
@@ -3074,7 +3338,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "iwort.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "iwort.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "ReFlow Tech",
@@ -3104,7 +3371,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "reflowtech.in"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "reflowtech.in",
+    "theme": "Process & operations"
   },
   {
     "name": "Ankur Napa",
@@ -3141,7 +3411,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "ankur-napa::india"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "ankur-napa::india",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "IntelligentX",
@@ -3183,7 +3456,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "intelligentx::united-kingdom"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "intelligentx::united-kingdom",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Mackmyra",
@@ -3224,7 +3500,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "mackmyra.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "mackmyra.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Bespoken Spirits",
@@ -3266,7 +3545,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "bespokenspirits.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "bespokenspirits.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Bright Cellars",
@@ -3312,7 +3594,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "brightcellars.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "brightcellars.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Vivino",
@@ -3354,7 +3639,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "vivino.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "vivino.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Carlsberg",
@@ -3390,7 +3678,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "carlsberggroup.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "carlsberggroup.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Deschutes Brewery",
@@ -3431,7 +3722,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "deschutesbrewery.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "deschutesbrewery.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Scanopy",
@@ -3461,7 +3755,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "scanopy::france"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "scanopy::france",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Circumstance Distillery",
@@ -3503,7 +3800,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "circumstancedistillery.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "circumstancedistillery.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Bart Watson",
@@ -3539,7 +3839,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "bart-watson::usa"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "bart-watson::usa",
+    "theme": "Market data & valuation"
   },
   {
     "name": "Erin Schmidt",
@@ -3575,7 +3878,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "erin-schmidt::usa"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "erin-schmidt::usa",
+    "theme": "Market data & valuation"
   },
   {
     "name": "Willy Lin",
@@ -3611,7 +3917,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "willy-lin::usa"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "willy-lin::usa",
+    "theme": "Market data & valuation"
   },
   {
     "name": "Amanda Dobbyn",
@@ -3647,7 +3956,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "amanda-dobbyn::usa"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "amanda-dobbyn::usa",
+    "theme": "Market data & valuation"
   },
   {
     "name": "Cathy Huyghe",
@@ -3683,7 +3995,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "cathy-huyghe::usa"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "cathy-huyghe::usa",
+    "theme": "Market data & valuation"
   },
   {
     "name": "Lulie Halstead",
@@ -3719,7 +4034,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "lulie-halstead::united-kingdom"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "lulie-halstead::united-kingdom",
+    "theme": "Market data & valuation"
   },
   {
     "name": "Alan Talbot",
@@ -3755,7 +4073,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "alan-talbot::usa"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "alan-talbot::usa",
+    "theme": "Market data & valuation"
   },
   {
     "name": "Sol\u00e8ne Bergaire",
@@ -3791,7 +4112,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "sol-ne-bergaire::france"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "sol-ne-bergaire::france",
+    "theme": "Market data & valuation"
   },
   {
     "name": "Tom Kornegay",
@@ -3826,7 +4150,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "tom-kornegay::usa"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "tom-kornegay::usa",
+    "theme": "Market data & valuation"
   },
   {
     "name": "Duan Peng",
@@ -3861,7 +4188,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "duan-peng::usa"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "duan-peng::usa",
+    "theme": "Market data & valuation"
   },
   {
     "name": "First Key Consulting",
@@ -3892,7 +4222,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "firstkey.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "firstkey.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Arryved",
@@ -3923,7 +4256,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "arryved.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "arryved.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Ekos",
@@ -3953,7 +4289,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "goekos.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "goekos.com",
+    "theme": "Process & operations"
   },
   {
     "name": "MontBlancAI",
@@ -3983,7 +4322,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "montblanc.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "montblanc.ai",
+    "theme": "Process & operations"
   },
   {
     "name": "Symrise (SymVision)",
@@ -4012,7 +4354,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "symrise.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "symrise.com",
+    "theme": "Consumer & personalization"
   },
   {
     "name": "Solera",
@@ -4041,7 +4386,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "solera.vin"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "solera.vin",
+    "theme": "Consumer & personalization"
   },
   {
     "name": "Alcohol Compliance Company",
@@ -4070,7 +4418,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "alcoholcompco.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "alcoholcompco.com",
+    "theme": "Compliance & licensing"
   },
   {
     "name": "Wizata",
@@ -4099,7 +4450,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "wizata.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "wizata.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Lineview",
@@ -4128,7 +4482,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "lineview.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "lineview.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Harmony AI",
@@ -4157,7 +4514,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "tryharmony.ai"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "tryharmony.ai",
+    "theme": "Supply chain"
   },
   {
     "name": "AVEVA (PI System, formerly OSIsoft)",
@@ -4187,7 +4547,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "aveva.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "aveva.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Krones",
@@ -4217,7 +4580,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "krones.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "krones.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Rockwell Automation (FactoryTalk, Plex)",
@@ -4247,7 +4613,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "rockwellautomation.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "rockwellautomation.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Siemens (Opcenter)",
@@ -4277,7 +4646,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "siemens.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "siemens.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "AccountTouch",
@@ -4307,7 +4679,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "accounttouch.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "accounttouch.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Andavi Solutions (GreatVines)",
@@ -4337,7 +4712,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "andavisolutions.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "andavisolutions.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Dimensional Insight",
@@ -4367,7 +4745,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "dimins.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "dimins.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Dolia",
@@ -4397,7 +4778,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "getdolia.com"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "getdolia.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Prefe",
@@ -4427,7 +4811,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "prefe::unknown"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "prefe::unknown",
+    "theme": "Demand & pricing"
   },
   {
     "name": "InnoVint",
@@ -4457,7 +4844,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "innovint.us"
+    "discovered_by": "curated",
+    "verified": true,
+    "key": "innovint.us",
+    "theme": "Process & operations"
   },
   {
     "name": "Vicinity Software (VicinityBrew)",
@@ -4487,7 +4877,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "vicinitysoftware.com"
+    "discovered_by": "scout:microsoft",
+    "verified": false,
+    "key": "vicinitysoftware.com",
+    "theme": "Process & operations"
   },
   {
     "name": "CAP Vision (CAP Vignes)",
@@ -4517,7 +4910,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "capvision.fr"
+    "discovered_by": "scout:microsoft",
+    "verified": false,
+    "key": "capvision.fr",
+    "theme": "Process & operations"
   },
   {
     "name": "EOS Solutions (EOS WineSuite / EOS Wine)",
@@ -4547,7 +4943,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "eos-solutions.it"
+    "discovered_by": "scout:microsoft",
+    "verified": false,
+    "key": "eos-solutions.it",
+    "theme": "Process & operations"
   },
   {
     "name": "KLH Consulting (Vintegrate)",
@@ -4577,7 +4976,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "klhconsulting.com"
+    "discovered_by": "scout:microsoft",
+    "verified": false,
+    "key": "klhconsulting.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Aptean",
@@ -4608,7 +5010,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "aptean.com"
+    "discovered_by": "scout:microsoft",
+    "verified": false,
+    "key": "aptean.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Encompass Technologies",
@@ -4638,7 +5043,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "encompasstech.com"
+    "discovered_by": "scout:google",
+    "verified": false,
+    "key": "encompasstech.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Quantiphi (OrderSmart)",
@@ -4669,7 +5077,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "quantiphi.com"
+    "discovered_by": "scout:microsoft",
+    "verified": false,
+    "key": "quantiphi.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Vinsight",
@@ -4699,7 +5110,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "vinsight.net"
+    "discovered_by": "scout:microsoft",
+    "verified": false,
+    "key": "vinsight.net",
+    "theme": "Process & operations"
   },
   {
     "name": "LiquorChat",
@@ -4729,7 +5143,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "liquorchat.ai"
+    "discovered_by": "scout:microsoft",
+    "verified": false,
+    "key": "liquorchat.ai",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Prosper Insights & Analytics",
@@ -4760,7 +5177,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "prosperinsights.com"
+    "discovered_by": "scout:aws",
+    "verified": false,
+    "key": "prosperinsights.com",
+    "theme": "Consumer & personalization"
   },
   {
     "name": "Alt/Finance (ALT/FNDATA)",
@@ -4790,7 +5210,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "altfndata.com"
+    "discovered_by": "scout:aws",
+    "verified": false,
+    "key": "altfndata.com",
+    "theme": "Market data & valuation"
   },
   {
     "name": "LikeFolio",
@@ -4820,7 +5243,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "likefolio.com"
+    "discovered_by": "scout:aws",
+    "verified": false,
+    "key": "likefolio.com",
+    "theme": "Consumer & personalization"
   },
   {
     "name": "Selartag",
@@ -4850,7 +5276,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "selartag.com"
+    "discovered_by": "scout:aws",
+    "verified": false,
+    "key": "selartag.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "BEERSOFT",
@@ -4880,7 +5309,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "beersoft.ca"
+    "discovered_by": "scout:aws",
+    "verified": false,
+    "key": "beersoft.ca",
+    "theme": "Process & operations"
   },
   {
     "name": "Vision33 (Brutos)",
@@ -4910,7 +5342,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "vision33.com"
+    "discovered_by": "scout:aws",
+    "verified": false,
+    "key": "vision33.com",
+    "theme": "Other"
   },
   {
     "name": "Complexica",
@@ -4949,7 +5384,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "complexica.com"
+    "discovered_by": "scout:whiskey",
+    "verified": false,
+    "key": "complexica.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Commerce7",
@@ -4985,7 +5423,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "commerce7.com"
+    "discovered_by": "scout:google",
+    "verified": false,
+    "key": "commerce7.com",
+    "theme": "Process & operations"
   },
   {
     "name": "LibDib (LibTech / Supplier Cloud)",
@@ -5024,7 +5465,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "libdib.com"
+    "discovered_by": "scout:google",
+    "verified": false,
+    "key": "libdib.com",
+    "theme": "GenAI & marketing"
   },
   {
     "name": "Constellation Brands",
@@ -5059,7 +5503,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "cbrands.com"
+    "discovered_by": "scout:google",
+    "verified": false,
+    "key": "cbrands.com",
+    "theme": "Consumer & personalization"
   },
   {
     "name": "Lion Brewery (Ceylon) PLC",
@@ -5089,7 +5536,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "lionbeer.com"
+    "discovered_by": "scout:google",
+    "verified": false,
+    "key": "lionbeer.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "GEA Group",
@@ -5119,7 +5569,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "gea.com"
+    "discovered_by": "scout:industrial",
+    "verified": false,
+    "key": "gea.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Augury",
@@ -5149,7 +5602,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "augury.com"
+    "discovered_by": "scout:industrial",
+    "verified": false,
+    "key": "augury.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Ziemann Holvrieka",
@@ -5179,7 +5635,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "ziemann-holvrieka.com"
+    "discovered_by": "scout:industrial",
+    "verified": false,
+    "key": "ziemann-holvrieka.com",
+    "theme": "Consumer & personalization"
   },
   {
     "name": "Endress+Hauser",
@@ -5209,7 +5668,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "endress.com"
+    "discovered_by": "scout:industrial",
+    "verified": false,
+    "key": "endress.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Emerson",
@@ -5239,7 +5701,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "emerson.com"
+    "discovered_by": "scout:industrial",
+    "verified": false,
+    "key": "emerson.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Sidel",
@@ -5269,7 +5734,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "sidel.com"
+    "discovered_by": "scout:industrial",
+    "verified": false,
+    "key": "sidel.com",
+    "theme": "Process & operations"
   },
   {
     "name": "SymphonyAI",
@@ -5299,7 +5767,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "symphonyai.com"
+    "discovered_by": "scout:industrial",
+    "verified": false,
+    "key": "symphonyai.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Evocon",
@@ -5329,7 +5800,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "evocon.com"
+    "discovered_by": "scout:industrial",
+    "verified": false,
+    "key": "evocon.com",
+    "theme": "Process & operations"
   },
   {
     "name": "TeepTrak",
@@ -5359,7 +5833,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "teeptrak.com"
+    "discovered_by": "scout:industrial",
+    "verified": false,
+    "key": "teeptrak.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Rare Whisky 101",
@@ -5389,7 +5866,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "rarewhisky101.com"
+    "discovered_by": "scout:whiskey",
+    "verified": false,
+    "key": "rarewhisky101.com",
+    "theme": "Market data & valuation"
   },
   {
     "name": "WhiskyInvestDirect",
@@ -5419,7 +5899,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "whiskyinvestdirect.com"
+    "discovered_by": "scout:whiskey",
+    "verified": false,
+    "key": "whiskyinvestdirect.com",
+    "theme": "Market data & valuation"
   },
   {
     "name": "SipSource",
@@ -5449,7 +5932,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "sipsource.com"
+    "discovered_by": "scout:whiskey",
+    "verified": false,
+    "key": "sipsource.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Ai Palette",
@@ -5479,7 +5965,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "aipalette.com"
+    "discovered_by": "scout:whiskey",
+    "verified": false,
+    "key": "aipalette.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Endless West",
@@ -5509,7 +5998,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "endlesswest.com"
+    "discovered_by": "scout:whiskey",
+    "verified": false,
+    "key": "endlesswest.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "FIVE x 5 Solutions",
@@ -5539,7 +6031,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "fx5.com"
+    "discovered_by": "scout:whiskey",
+    "verified": false,
+    "key": "fx5.com",
+    "theme": "Compliance & licensing"
   },
   {
     "name": "Spirit Sight",
@@ -5569,7 +6064,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "spiritsight.co"
+    "discovered_by": "scout:whiskey",
+    "verified": false,
+    "key": "spiritsight.co",
+    "theme": "Demand & pricing"
   },
   {
     "name": "CaskX",
@@ -5599,7 +6097,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "caskx.com"
+    "discovered_by": "scout:whiskey",
+    "verified": false,
+    "key": "caskx.com",
+    "theme": "Market data & valuation"
   },
   {
     "name": "WhiskyCircle",
@@ -5629,7 +6130,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "whiskycircle.app"
+    "discovered_by": "scout:whiskey",
+    "verified": false,
+    "key": "whiskycircle.app",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "IES (Integrated Environmental Solutions)",
@@ -5659,7 +6163,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "iesve.com"
+    "discovered_by": "scout:whiskey",
+    "verified": false,
+    "key": "iesve.com",
+    "theme": "Process & operations"
   },
   {
     "name": "AI4Whisky",
@@ -5689,7 +6196,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "ai4whisky.com"
+    "discovered_by": "scout:whiskey",
+    "verified": false,
+    "key": "ai4whisky.com",
+    "theme": "Process & operations"
   },
   {
     "name": "Cropsy Technologies",
@@ -5736,7 +6246,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "cropsy.tech"
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "key": "cropsy.tech",
+    "theme": "Agriculture & crop"
   },
   {
     "name": "Chouette",
@@ -5766,7 +6279,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "chouette.vision"
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "key": "chouette.vision",
+    "theme": "Agriculture & crop"
   },
   {
     "name": "Fruition Sciences",
@@ -5805,7 +6321,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "fruitionsciences.com"
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "key": "fruitionsciences.com",
+    "theme": "Agriculture & crop"
   },
   {
     "name": "PlantVoice",
@@ -5848,7 +6367,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "plantvoice.farm"
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "key": "plantvoice.farm",
+    "theme": "Agriculture & crop"
   },
   {
     "name": "Vinhood",
@@ -5878,7 +6400,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "vinhood.com"
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "key": "vinhood.com",
+    "theme": "Sensory & recipe"
   },
   {
     "name": "Elaisian",
@@ -5908,7 +6433,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "elaisian.com"
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "key": "elaisian.com",
+    "theme": "Agriculture & crop"
   },
   {
     "name": "Agricolus",
@@ -5938,7 +6466,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "agricolus.com"
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "key": "agricolus.com",
+    "theme": "Agriculture & crop"
   },
   {
     "name": "BitMetrics",
@@ -5973,7 +6504,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "bitmetrics.ai"
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "key": "bitmetrics.ai",
+    "theme": "Quality & inspection"
   },
   {
     "name": "Wine Services",
@@ -6003,7 +6537,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "wine-services.com"
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "key": "wine-services.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "TerraClim",
@@ -6033,7 +6570,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "terraclim.com"
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "key": "terraclim.com",
+    "theme": "Agriculture & crop"
   },
   {
     "name": "VIP (Vermont Information Processing)",
@@ -6063,7 +6603,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "vipinsights.com"
+    "discovered_by": "scout:beer",
+    "verified": false,
+    "key": "vipinsights.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Provi",
@@ -6102,7 +6645,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "provi.com"
+    "discovered_by": "scout:beer",
+    "verified": false,
+    "key": "provi.com",
+    "theme": "Consumer & personalization"
   },
   {
     "name": "LiquidRails",
@@ -6132,7 +6678,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "liquidrails.ai"
+    "discovered_by": "scout:beer",
+    "verified": false,
+    "key": "liquidrails.ai",
+    "theme": "Consumer & personalization"
   },
   {
     "name": "AccelPay",
@@ -6162,7 +6711,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "accelpay.io"
+    "discovered_by": "scout:beer",
+    "verified": false,
+    "key": "accelpay.io",
+    "theme": "GenAI & marketing"
   },
   {
     "name": "WISK",
@@ -6192,7 +6744,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "wisk.ai"
+    "discovered_by": "scout:beer",
+    "verified": false,
+    "key": "wisk.ai",
+    "theme": "Process & operations"
   },
   {
     "name": "Vistaar Technologies",
@@ -6222,7 +6777,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "vistaar.com"
+    "discovered_by": "scout:beer",
+    "verified": false,
+    "key": "vistaar.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Next Glass",
@@ -6252,7 +6810,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "nextglass.co"
+    "discovered_by": "scout:beer",
+    "verified": false,
+    "key": "nextglass.co",
+    "theme": "Consumer & personalization"
   },
   {
     "name": "PourMyBeer",
@@ -6287,7 +6848,10 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "pourmybeer.com"
+    "discovered_by": "scout:beer",
+    "verified": false,
+    "key": "pourmybeer.com",
+    "theme": "Demand & pricing"
   },
   {
     "name": "Brewers Association (Barley assistant)",
@@ -6317,6 +6881,9 @@
     "product_url": null,
     "latest_news_headline": null,
     "why_interesting": null,
-    "key": "brewersassociation.org"
+    "discovered_by": "scout:beer",
+    "verified": false,
+    "key": "brewersassociation.org",
+    "theme": "Compliance & licensing"
   }
 ]

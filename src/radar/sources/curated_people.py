@@ -57,6 +57,8 @@ class CuratedPeopleSource:
                     company_type="individual",
                     vertical=_enum(BeverageVertical, r.get("vertical")),
                     ai_use_case=r.get("ai_use_case"),
+                    discovered_by="curated",
+                    verified=True,
                     ai_maturity=_enum(AIMaturity, r.get("ai_maturity")),
                     key_people=f"{r['name']} ({role})" if role else r["name"],
                     people=[

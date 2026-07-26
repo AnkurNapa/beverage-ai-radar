@@ -9,6 +9,7 @@ from radar.model import Company, BeverageVertical, AIMaturity, Status
 _ENUM_FIELDS = {"vertical": BeverageVertical, "ai_maturity": AIMaturity, "status": Status}
 _DATE_FIELDS = {"first_seen", "last_seen"}
 _LIST_FIELDS = {"source_urls", "people"}
+_BOOL_FIELDS = {"verified"}
 
 
 class Store:
@@ -40,6 +41,8 @@ class Store:
                 row[f.name] = json.dumps(v)
             elif f.name in _DATE_FIELDS:
                 row[f.name] = v.isoformat()
+            elif f.name in _BOOL_FIELDS:
+                row[f.name] = "1" if v else "0"
             elif isinstance(v, (BeverageVertical, AIMaturity, Status)):
                 row[f.name] = v.value
             else:
@@ -56,6 +59,8 @@ class Store:
                 data[f.name] = json.loads(v)
             elif f.name in _DATE_FIELDS:
                 data[f.name] = date.fromisoformat(v)
+            elif f.name in _BOOL_FIELDS:
+                data[f.name] = v in ("1", "True", "true", 1, True)
             elif f.name in _ENUM_FIELDS:
                 data[f.name] = _ENUM_FIELDS[f.name](v)
             elif f.name in {"founded_year"}:

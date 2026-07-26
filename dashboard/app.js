@@ -37,33 +37,23 @@ function logoHtml(c) {
 
 let ALL = [];
 
-// ai_use_case is free text (~36 distinct strings), useless as a breakdown.
-// Bucket it into a handful of themes; first matching rule wins, specific first.
-// ponytail: keyword heuristic, ~9 buckets / 0 "Other" on current data —
-// add a rule (or a per-company override field) when a new use case lands in "Other".
-const THEME_RULES = [
-  [/vineyard|disease|yield|robot|germination|malting|barley/, "Agriculture & crop"],
-  [/quality|computer vision|inspection|traceability/, "Quality & inspection"],
-  [/sensory|flavor|recipe|taste|preference/, "Sensory & recipe"],
-  [/consumer|trend|recommendation|personaliz|insight/, "Consumer & personalization"],
-  [/demand|forecast|pricing|sales/, "Demand & pricing"],
-  [/supply chain|logistics|container|deposit return/, "Supply chain"],
-  [/genai|marketing/, "GenAI & marketing"],
-  [/consult/, "Consulting"],
-  // Compliance is its own business function, not a leftover: licensing,
-  // excise, label approval and reporting sit on every producer and
-  // distributor regardless of what they brew.
-  [/complian|licens|excise|regulat|permit/, "Compliance & licensing"],
-  [/fermentation|production|digital twin|cip\b|process|batch|maintenance|iiot|iot|line|draft|operating system|worker|knowledge|workflow|data platform|assistant|agent|sensor/, "Process & operations"],
-];
-const themeOf = (c) => {
-  const t = (c.ai_use_case || "").toLowerCase();
-  for (const [re, name] of THEME_RULES) if (re.test(t)) return name;
-  return "Other";
-};
+// ai_use_case is free text (~40 distinct strings), useless as a breakdown, so
+// it gets bucketed into a handful of themes. The rules used to live here; they
+// now live in src/radar/themes.py and the theme arrives precomputed on each row,
+// so the gap analysis and this page cannot drift apart. Regenerate with
+// `radar export` after changing a rule.
+const themeOf = (c) => c.theme || "Other";
 
-// Where a company was discovered, derived from its evidence URLs + type.
+// Where a company was discovered. discovered_by is authoritative when present
+// ("curated" or "scout:<surface>"); older rows fall back to the URL heuristic.
+// Agent-found entries stay separable from hand-checked ones on purpose: if a
+// sweep goes bad you need to know which rows to distrust.
 function sourceOf(c) {
+  if (c.discovered_by) {
+    return c.discovered_by.startsWith("scout:")
+      ? `Scout: ${c.discovered_by.slice(6)}`
+      : "Hand-verified";
+  }
   const urls = (c.source_urls || []).join(" ").toLowerCase();
   if (/drinktec\.com|yontex/.test(urls)) return "Drinktec";
   if (/agfundernews/.test(urls)) return "AgFunder";

@@ -1,0 +1,68 @@
+"""Is a domain alive, dead, or just blocking us?
+
+Three states, not two. Seven real companies were lost in the first sweep to
+403s and Cloudflare, which is a fetching problem, not evidence that they do not
+exist. Blocked entries are held for a browser pass rather than rejected.
+"""
+
+from __future__ import annotations
+
+from datetime import date
+
+BLOCKED_CODES = {401, 403, 405, 406, 429, 503}
+
+
+def check(domain: str, get=None) -> bool | None:
+    """True alive, False dead, None blocked (retry with a real browser)."""
+    if not domain:
+        return False
+    if get is None:
+        get = _default_get
+    try:
+        status = get(f"https://{domain.removeprefix('https://').removeprefix('http://')}")
+    except Exception:
+        return False
+    if status is None:
+        return False
+    if status in BLOCKED_CODES:
+        return None
+    return 200 <= status < 400
+
+
+def _default_get(url: str) -> int | None:
+    import httpx
+
+    try:
+        resp = httpx.get(
+            url,
+            timeout=15,
+            follow_redirects=True,
+            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"},
+        )
+        return resp.status_code
+    except Exception:
+        return None
+
+
+def recheck(companies: list, get=None, today: date | None = None) -> dict:
+    """Recheck existing entries so quiet deaths get noticed.
+
+    A company that folds keeps its old last_seen and just ages out over 18
+    months; nothing in the pipeline notices. This does, cheaply and with no LLM.
+    """
+    today = today or date.today()
+    dead, blocked = [], []
+    for c in companies:
+        if not c.domain:
+            continue
+        state = check(c.domain, get)
+        if state is False:
+            dead.append({"name": c.name, "domain": c.domain})
+        elif state is None:
+            blocked.append({"name": c.name, "domain": c.domain})
+    return {
+        "checked": today.isoformat(),
+        "dead": dead,
+        "blocked": blocked,
+        "note": "dead domains need a human call: mark dormant, correct the domain, or delete",
+    }

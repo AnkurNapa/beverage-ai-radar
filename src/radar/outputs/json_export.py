@@ -6,6 +6,7 @@ from pathlib import Path
 from radar.config import ACTIVE_MONTHS
 from radar.model import compute_status, Status
 from radar.store import Store
+from radar.themes import theme_of
 
 
 def _serialize(company, today: date) -> dict:
@@ -19,6 +20,8 @@ def _serialize(company, today: date) -> dict:
         else:
             row[f.name] = v
     row["key"] = company.key
+    # Computed here so the dashboard does not carry a second copy of the rules.
+    row["theme"] = theme_of(company.ai_use_case)
     status = (
         compute_status(company.last_seen, today, ACTIVE_MONTHS)
         if company.last_seen

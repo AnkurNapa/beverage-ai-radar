@@ -11,3 +11,4 @@ __pycache__/
 radar.log
 radar.err.log
 .gstack/
+.scout/

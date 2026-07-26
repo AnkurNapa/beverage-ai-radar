@@ -24,7 +24,9 @@
         "role": "CEO, Founder",
         "linkedin": "https://www.linkedin.com/in/katerina-axelsson-a3888078"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Analytical Flavor Systems (Gastrograph AI)",
@@ -56,7 +58,9 @@
         "role": "Co-Founder",
         "linkedin": null
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Preferabli",
@@ -88,7 +92,9 @@
         "role": "Co-Founder",
         "linkedin": null
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "IntelligentX",
@@ -120,7 +126,9 @@
         "role": "Co-Founder",
         "linkedin": "https://uk.linkedin.com/in/remcinerney"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Deep Liquid",
@@ -157,7 +165,9 @@
         "role": "Founder",
         "linkedin": "https://au.linkedin.com/in/antonvandenhengel"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Enolytics",
@@ -189,7 +199,9 @@
         "role": "Co-Founder",
         "linkedin": "https://www.linkedin.com/in/chrishuyghe"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Tule Technologies",
@@ -221,7 +233,9 @@
         "role": "Co-Founder",
         "linkedin": null
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Mackmyra",
@@ -252,7 +266,9 @@
         "role": "Master Blender",
         "linkedin": "https://se.linkedin.com/in/angela-d-orazio-6a306761"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Deep Planet",
@@ -289,7 +305,9 @@
         "role": "Co-Founder",
         "linkedin": null
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Watgrid (WINEGRID)",
@@ -316,7 +334,9 @@
         "role": "CEO, Co-Founder",
         "linkedin": "https://pt.linkedin.com/in/rogerionogueira"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "VinoVoss (BetterAI)",
@@ -347,7 +367,9 @@
         "role": "CTO, Co-Founder",
         "linkedin": "https://ca.linkedin.com/in/arsalan-vossough"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Crafted ERP",
@@ -366,7 +388,9 @@
       "https://craftederp.com/solutions/distillery-edition"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2025-06-01"
+    "last_seen": "2025-06-01",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Bespoken Spirits",
@@ -398,7 +422,9 @@
         "role": "Senior Director, Data Science",
         "linkedin": null
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Aromyx",
@@ -430,7 +456,9 @@
         "role": "Senior Scientist",
         "linkedin": "https://www.linkedin.com/in/brad-brown-bb57293"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Bright Cellars",
@@ -466,7 +494,9 @@
         "role": "Co-founder",
         "linkedin": "https://www.linkedin.com/in/jlaurendi"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "BarTrack",
@@ -503,7 +533,9 @@
         "role": "Co-founder",
         "linkedin": "https://www.linkedin.com/in/hunter-markle-082075135"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Vivino",
@@ -535,7 +567,9 @@
         "role": "Co-founder",
         "linkedin": "https://www.linkedin.com/in/theissondergaard"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Precision Fermentation (Sennos)",
@@ -567,7 +601,9 @@
         "role": "CTO",
         "linkedin": null
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "BeerBoard",
@@ -593,7 +629,9 @@
         "role": "Founder and CEO",
         "linkedin": "https://www.linkedin.com/in/mark-young-7b8b554"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Ceres Imaging (Ceres AI)",
@@ -620,7 +658,9 @@
         "role": "CEO",
         "linkedin": "https://www.linkedin.com/in/ramsey-masri-11392"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Sommify",
@@ -638,7 +678,9 @@
       "https://www.the-buyer.net/insight/how-sommify-s-ai-solution-can-help-the-on-trade-and-its-suppliers-sell-more-wine"
     ],
     "first_seen": "2022-01-01",
-    "last_seen": "2023-01-01"
+    "last_seen": "2023-01-01",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Sommelier.bot",
@@ -656,7 +698,9 @@
       "https://futuredrinksexpo.com/en/blog/insights-64/pix-the-worlds-first-wine-discovery-platform-with-ceo-paul-mabray-352.htm"
     ],
     "first_seen": "2019-01-01",
-    "last_seen": "2025-06-01"
+    "last_seen": "2025-06-01",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Carlsberg",
@@ -682,7 +726,9 @@
         "role": "CEO",
         "linkedin": "https://www.linkedin.com/in/jacob-aarup-andersen"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Anheuser-Busch InBev",
@@ -708,7 +754,9 @@
         "role": "CEO",
         "linkedin": "https://www.linkedin.com/in/michel-doukeris"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Kirin Holdings",
@@ -734,7 +782,9 @@
         "role": "President and CEO",
         "linkedin": "https://www.linkedin.com/in/hideki-horiguchi-63879185"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Sapporo Breweries",
@@ -759,7 +809,9 @@
         "role": "President, Sapporo Holdings",
         "linkedin": null
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Heineken",
@@ -785,7 +837,9 @@
         "role": "Chairman of the Executive Board and CEO",
         "linkedin": "https://www.linkedin.com/in/dolfvandenbrink"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Molson Coors (Atwater Brewery)",
@@ -811,7 +865,9 @@
         "role": "President and CEO",
         "linkedin": "https://www.linkedin.com/in/rahuldgoyal"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "PLAATO",
@@ -847,7 +903,9 @@
         "role": "CEO",
         "linkedin": "https://www.linkedin.com/in/magnusvalmot"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Zymoscope",
@@ -883,7 +941,9 @@
         "role": "Co-Founder",
         "linkedin": null
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Propagate Lab",
@@ -909,7 +969,9 @@
         "role": "Founder & CEO",
         "linkedin": "https://www.linkedin.com/in/matthew-peetz-58851676"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Deschutes Brewery",
@@ -940,7 +1002,9 @@
         "role": "CEO",
         "linkedin": "https://www.linkedin.com/in/peter-skrbek-104a3615"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Vivid Machines",
@@ -971,7 +1035,9 @@
         "role": "Co-Founder & CTO",
         "linkedin": null
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "VineView",
@@ -1002,7 +1068,9 @@
         "role": "COO",
         "linkedin": "https://www.linkedin.com/in/christopher-macdonald-9170542"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "VineForecast",
@@ -1038,7 +1106,9 @@
         "role": "Founder & CTO",
         "linkedin": "https://www.linkedin.com/in/max-nowack"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Bloomfield Robotics",
@@ -1069,7 +1139,9 @@
         "role": "Director of AI Engineering",
         "linkedin": "https://www.linkedin.com/in/jean-rovani-a7a34b339"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Agrology",
@@ -1100,7 +1172,9 @@
         "role": "Co-Founder & CTO",
         "linkedin": "https://www.linkedin.com/in/tylerlocke"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Naio Technologies",
@@ -1131,7 +1205,9 @@
         "role": "Co-Founder",
         "linkedin": "https://www.linkedin.com/in/gaetansev"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Scanopy",
@@ -1149,7 +1225,9 @@
       "https://www.reussir.fr/vigne/scanopy-democratise-lusage-des-drones-en-viticulture"
     ],
     "first_seen": "2017-01-01",
-    "last_seen": "2019-06-01"
+    "last_seen": "2019-06-01",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Firstleaf",
@@ -1180,7 +1258,9 @@
         "role": "SVP Technology & Product",
         "linkedin": "https://www.linkedin.com/in/kevinejessen"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "DRINKS",
@@ -1211,7 +1291,9 @@
         "role": "Co-Founder & CTO/CPO",
         "linkedin": "https://www.linkedin.com/in/barrycollier"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Outshinery",
@@ -1237,7 +1319,9 @@
         "role": "Founder & CEO",
         "linkedin": "https://www.linkedin.com/in/lauriemillotte"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Next Century Spirits",
@@ -1279,7 +1363,9 @@
         "role": "Co-CEO",
         "linkedin": "https://www.linkedin.com/in/rob-w-mason"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Whisky Project",
@@ -1305,7 +1391,9 @@
         "role": "Lead / Coordinator",
         "linkedin": "https://www.linkedin.com/in/rpilarski"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Kigtek Solutions",
@@ -1324,7 +1412,9 @@
       "https://www.insider.co.uk/news/digital-whisky-cask-filling-system-22357319"
     ],
     "first_seen": "2021-01-01",
-    "last_seen": "2025-06-01"
+    "last_seen": "2025-06-01",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Circumstance Distillery",
@@ -1356,7 +1446,9 @@
         "role": "Co-founder and Distiller",
         "linkedin": "https://www.linkedin.com/in/danny-walker-distiller"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Whiskey Wise Group",
@@ -1374,7 +1466,9 @@
       "https://www.streetinsider.com/Newsfile/Whiskey+Wise+Group+Launches+an+AI-driven+App,+Redefining+the+Landscape+of+Whiskey+Casks+in+2023./22667088.html"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2024-01-01"
+    "last_seen": "2024-01-01",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Overproof",
@@ -1401,7 +1495,9 @@
         "role": "Founder and CEO",
         "linkedin": "https://www.linkedin.com/in/marcdekuyper"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Winespace",
@@ -1432,7 +1528,9 @@
         "role": "President",
         "linkedin": "https://www.linkedin.com/in/julien-laithier"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Sante",
@@ -1450,7 +1548,9 @@
       "https://www.ycombinator.com/companies/sante"
     ],
     "first_seen": "2023-07-01",
-    "last_seen": "2026-02-12"
+    "last_seen": "2026-02-12",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Scotch",
@@ -1468,7 +1568,9 @@
       "https://retailtechinnovationhub.com/home/2026/6/4/liquor-retail-technology-specialist-scotch-raises-a-glass-to-20-million-series-a-funding-round"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-06-04"
+    "last_seen": "2026-06-04",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Unicorn Auctions",
@@ -1499,7 +1601,9 @@
         "role": "Co-founder",
         "linkedin": "https://www.linkedin.com/in/ajheindel"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Tastewise",
@@ -1525,7 +1629,9 @@
         "role": "CEO and Co-founder",
         "linkedin": "https://www.linkedin.com/in/alonchen"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "The 5th Ingredient",
@@ -1551,7 +1657,9 @@
         "role": "Founder and CEO",
         "linkedin": "https://www.linkedin.com/in/pulkitkagrawal"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "FlavorWiki",
@@ -1577,7 +1685,9 @@
         "role": "Founder and CEO",
         "linkedin": "https://www.linkedin.com/in/daniel-protz-707b772a"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Pluto7",
@@ -1596,7 +1706,9 @@
       "https://pluto7.com/about-us/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Ohanafy",
@@ -1614,7 +1726,9 @@
       "https://www.ohanafy.com/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Enavate",
@@ -1632,7 +1746,9 @@
       "https://www.enavate.com/blog/how-artificial-intelligence-is-making-a-real-impact-on-the-wine-industry"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Overview",
@@ -1650,7 +1766,9 @@
       "https://www.overview.ai/blog/ai-beverage-can-bottle-inspection/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Infinity Sky AI",
@@ -1668,7 +1786,9 @@
       "https://infinitysky.ai/blog/ai-automation-breweries-wineries-distilleries-2026"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Algorithm Factory",
@@ -1686,7 +1806,9 @@
       "https://www.algorithm-factory.com/en/sunstice/beverage-industry/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Virtualworkforce",
@@ -1704,7 +1826,9 @@
       "https://virtualworkforce.ai/ai-assistant-for-beverage-distribution/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Haber",
@@ -1722,7 +1846,9 @@
       "https://haberwater.com/post/ai-in-beer-brewing"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "RouteMagic",
@@ -1740,7 +1866,9 @@
       "https://www.routemagic.app/solutions/ai-automation/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "DRAMS",
@@ -1758,7 +1886,9 @@
       "https://drams-software.com/articles/wood-management-enhancing-operational-efficiency/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "GMware",
@@ -1776,7 +1906,9 @@
       "https://gmware.com/blog/beverage-distributor-demand-forecasting-ai"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Aromalytics",
@@ -1794,7 +1926,9 @@
       "https://www.aromalyticsai.com/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "FlavorActiV",
@@ -1812,7 +1946,9 @@
       "https://www.flavoractiv.com/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Alpha MOS",
@@ -1830,7 +1966,9 @@
       "https://www.alpha-mos.com/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Cypheme",
@@ -1848,7 +1986,9 @@
       "https://www.cypheme.com/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Authentic Vision",
@@ -1866,7 +2006,9 @@
       "https://www.authenticvision.com/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Wine Luthier",
@@ -1884,7 +2026,9 @@
       "https://wineluthier.com/en/technology/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "VerAIsonio",
@@ -1902,7 +2046,9 @@
       "https://www.veraison.io/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Brewing-AI",
@@ -1920,7 +2066,9 @@
       "https://brewing-ai.com/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "IWSR",
@@ -1938,7 +2086,9 @@
       "https://www.theiwsr.com/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Saga Robotics",
@@ -1958,7 +2108,9 @@
       "https://sagarobotics.com/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Indeex",
@@ -1977,7 +2129,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Quantis International",
@@ -1996,7 +2150,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Pubinno",
@@ -2015,7 +2171,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "OMMM Operations Management Solutions GmbH",
@@ -2034,7 +2192,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Laminar (H2Ok Innovations)",
@@ -2053,7 +2213,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Antares Vision Group",
@@ -2072,7 +2234,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Zaptic",
@@ -2091,7 +2255,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Flowsight GmbH",
@@ -2110,7 +2276,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "beON consult GmbH",
@@ -2129,7 +2297,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "SmartSkin Technologies",
@@ -2148,7 +2318,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Parsable",
@@ -2167,7 +2339,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Factbird",
@@ -2186,7 +2360,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "FuturMaster",
@@ -2205,7 +2381,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Bar Analytics",
@@ -2224,7 +2402,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Allie AI",
@@ -2243,7 +2423,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "INTECH Automation & Intelligence (EmpowerGPT)",
@@ -2262,7 +2444,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "seedalive GmbH",
@@ -2281,7 +2465,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Smart DRS",
@@ -2300,7 +2486,9 @@
       "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21"
+    "last_seen": "2026-07-21",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Bira 91 (B9 Beverages)",
@@ -2327,7 +2515,9 @@
         "role": "CEO & Founder",
         "linkedin": null
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "United Breweries Limited (Kingfisher, Heineken-owned)",
@@ -2354,7 +2544,9 @@
         "role": "Chief Data Officer, Heineken",
         "linkedin": null
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Carlsberg India (Carlsberg Group India GCC)",
@@ -2376,7 +2568,9 @@
     "first_seen": "2025-09-03",
     "last_seen": "2025-09-03",
     "key_people": null,
-    "people": []
+    "people": [],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "iWort",
@@ -2403,7 +2597,9 @@
         "role": "Founder & Product Owner",
         "linkedin": "https://www.linkedin.com/in/ankur-napa/"
       }
-    ]
+    ],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "ReFlow Tech",
@@ -2424,7 +2620,9 @@
     "first_seen": "2025-01-01",
     "last_seen": "2026-06-01",
     "key_people": null,
-    "people": []
+    "people": [],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "First Key Consulting",
@@ -2444,7 +2642,9 @@
       "https://firstkey.com/consulting-services/"
     ],
     "first_seen": "2026-07-22",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Arryved",
@@ -2464,7 +2664,9 @@
       "https://arryved.com/products/brewery-management/"
     ],
     "first_seen": "2026-07-22",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Ekos",
@@ -2484,7 +2686,9 @@
     "first_seen": "2014-01-01",
     "last_seen": "2026-07-23",
     "key_people": "",
-    "people": []
+    "people": [],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "MontBlancAI",
@@ -2504,7 +2708,9 @@
     "first_seen": "2024-01-01",
     "last_seen": "2026-07-23",
     "key_people": "",
-    "people": []
+    "people": [],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Symrise (SymVision)",
@@ -2523,7 +2729,9 @@
     "first_seen": "2023-01-01",
     "last_seen": "2026-07-23",
     "key_people": "",
-    "people": []
+    "people": [],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Solera",
@@ -2542,7 +2750,9 @@
     "first_seen": "2024-01-01",
     "last_seen": "2026-07-23",
     "key_people": "",
-    "people": []
+    "people": [],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Alcohol Compliance Company",
@@ -2561,7 +2771,9 @@
     "first_seen": "2023-01-01",
     "last_seen": "2026-07-23",
     "key_people": "",
-    "people": []
+    "people": [],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Wizata",
@@ -2580,7 +2792,9 @@
     "first_seen": "2023-01-01",
     "last_seen": "2026-07-23",
     "key_people": "",
-    "people": []
+    "people": [],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Lineview",
@@ -2599,7 +2813,9 @@
     "first_seen": "2022-01-01",
     "last_seen": "2026-07-23",
     "key_people": "",
-    "people": []
+    "people": [],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Harmony AI",
@@ -2618,7 +2834,9 @@
     "first_seen": "2024-01-01",
     "last_seen": "2026-07-23",
     "key_people": "",
-    "people": []
+    "people": [],
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "AVEVA (PI System, formerly OSIsoft)",
@@ -2634,7 +2852,9 @@
       "https://resources.osisoft.com/presentations/ai-and-ml-based-analytics-using-aveva%E2%84%A2-pi-system%E2%84%A2-data/"
     ],
     "first_seen": "2021-03-01",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Krones",
@@ -2650,7 +2870,9 @@
       "https://www.krones.com/en/company/press/krones-improves-beverage-production-simulation-through-digital-twins-with-integrated-ai-agents.php"
     ],
     "first_seen": "2023-01-01",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Rockwell Automation (FactoryTalk, Plex)",
@@ -2666,7 +2888,9 @@
       "https://storybook.link/RockwellSleeman/"
     ],
     "first_seen": "2020-01-01",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Siemens (Opcenter)",
@@ -2682,7 +2906,9 @@
       "https://www.indx.com/en/posts/mes-for-the-brewing-industry-based-on-siemens-simatic-it-product"
     ],
     "first_seen": "2020-01-01",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "AccountTouch",
@@ -2696,7 +2922,9 @@
       "https://www.brewbound.com/pr/2025/11/11/accounttouch-releases-ai-insights-the-new-way-to-sell-in-beveragealcohol"
     ],
     "first_seen": "2025-11-11",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Andavi Solutions (GreatVines)",
@@ -2710,7 +2938,9 @@
       "https://andavisolutions.com/greatvines-sales-management/"
     ],
     "first_seen": "2022-01-01",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Dimensional Insight",
@@ -2725,7 +2955,9 @@
       "https://www.dimins.com/"
     ],
     "first_seen": "2020-01-01",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Dolia",
@@ -2742,7 +2974,9 @@
     ],
     "first_seen": "2025-01-01",
     "last_seen": "2026-05-15",
-    "key_people": "Giovanni Binello (Co-Founder), Eraldo Federico Acchiappati (Co-Founder), Andrea Aschei (Co-Founder)"
+    "key_people": "Giovanni Binello (Co-Founder), Eraldo Federico Acchiappati (Co-Founder), Andrea Aschei (Co-Founder)",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Prefe",
@@ -2755,7 +2989,9 @@
       "https://chronicle.lu/category/business-1/61490-wine-tech-challenge-recognises-luxembourg-distribution-startup-dolia"
     ],
     "first_seen": "2025-01-01",
-    "last_seen": "2026-05-15"
+    "last_seen": "2026-05-15",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "InnoVint",
@@ -2770,7 +3006,9 @@
       "https://www.winebusiness.com/wbm/article/307036"
     ],
     "first_seen": "2020-01-01",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "curated",
+    "verified": true
   },
   {
     "name": "Vicinity Software (VicinityBrew)",
@@ -2785,7 +3023,9 @@
       "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.vicinitymanufacturinginc1611072213539%7CAID.vicinitybrew_102021%7CPAPPID.cea2aa9f-b8d7-4d91-8a13-fc5822dd1d2e?tab=Overview"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:microsoft",
+    "verified": false
   },
   {
     "name": "CAP Vision (CAP Vignes)",
@@ -2800,7 +3040,9 @@
       "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/pubid.cap_vision%7Caid.capvignes%7Cpappid.e29cd0d2-4869-4272-a9b0-46d85322a991?tab=overview"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:microsoft",
+    "verified": false
   },
   {
     "name": "EOS Solutions (EOS WineSuite / EOS Wine)",
@@ -2815,7 +3057,9 @@
       "https://appsource.microsoft.com/en-gb/product/dynamics-365-business-central/pubid.eos_solutions%7Caid.ex080_eoswinebase%7Cpappid.f80a27e3-d9cf-4b2b-8602-1bd35dcc67ec?tab=overview"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:microsoft",
+    "verified": false
   },
   {
     "name": "KLH Consulting (Vintegrate)",
@@ -2831,7 +3075,9 @@
       "https://www.westerncomputer.com/resources/blog/wine-erp-why-you-should-build-on-the-microsoft-stack"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:microsoft",
+    "verified": false
   },
   {
     "name": "Aptean",
@@ -2849,7 +3095,9 @@
       "https://rcpmag.com/blogs/rcp-channel-briefing/2026/04/aptean-introduces-appcentral.aspx"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:microsoft",
+    "verified": false
   },
   {
     "name": "Encompass Technologies",
@@ -2866,7 +3114,9 @@
     ],
     "first_seen": "2026-07-26",
     "last_seen": "2026-07-26",
-    "key_people": "Jonathan O'Neil (Co-founder), Kent O'Neil (Co-founder)"
+    "key_people": "Jonathan O'Neil (Co-founder), Kent O'Neil (Co-founder)",
+    "discovered_by": "scout:google",
+    "verified": false
   },
   {
     "name": "Quantiphi (OrderSmart)",
@@ -2883,7 +3133,9 @@
       "https://cdn.quantiphi.com/2021/08/ab61955e-ordersmart-for-beer-distributors.pdf"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:microsoft",
+    "verified": false
   },
   {
     "name": "Vinsight",
@@ -2899,7 +3151,9 @@
     ],
     "first_seen": "2026-07-26",
     "last_seen": "2026-07-26",
-    "key_people": "Simon Lampen (Founder)"
+    "key_people": "Simon Lampen (Founder)",
+    "discovered_by": "scout:microsoft",
+    "verified": false
   },
   {
     "name": "LiquorChat",
@@ -2913,7 +3167,9 @@
       "https://liquorchat.ai/blog/how-beverage-distributors-can-build-a-real-time-retail-execution-dashboard-with-ai-pulled-depletion-and-shelf-data"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:microsoft",
+    "verified": false
   },
   {
     "name": "Prosper Insights & Analytics",
@@ -2931,7 +3187,9 @@
     ],
     "first_seen": "2026-07-26",
     "last_seen": "2026-07-26",
-    "key_people": "Gary Drenik (CEO and Co-Founder), Phil Rist (Co-Founder)"
+    "key_people": "Gary Drenik (CEO and Co-Founder), Phil Rist (Co-Founder)",
+    "discovered_by": "scout:aws",
+    "verified": false
   },
   {
     "name": "Alt/Finance (ALT/FNDATA)",
@@ -2945,7 +3203,9 @@
       "https://aws.amazon.com/marketplace/pp/prodview-j7kcrruz6bjse"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:aws",
+    "verified": false
   },
   {
     "name": "LikeFolio",
@@ -2962,7 +3222,9 @@
     ],
     "first_seen": "2026-07-26",
     "last_seen": "2026-07-26",
-    "key_people": "Andy Swan (Co-Founder), Landon Swan (Co-Founder)"
+    "key_people": "Andy Swan (Co-Founder), Landon Swan (Co-Founder)",
+    "discovered_by": "scout:aws",
+    "verified": false
   },
   {
     "name": "Selartag",
@@ -2978,7 +3240,9 @@
     ],
     "first_seen": "2026-07-26",
     "last_seen": "2026-07-26",
-    "key_people": "Herve Lemaire (Founder and President)"
+    "key_people": "Herve Lemaire (Founder and President)",
+    "discovered_by": "scout:aws",
+    "verified": false
   },
   {
     "name": "BEERSOFT",
@@ -2993,7 +3257,9 @@
       "https://aws.amazon.com/bedrock/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:aws",
+    "verified": false
   },
   {
     "name": "Vision33 (Brutos)",
@@ -3005,7 +3271,9 @@
       "https://aws.amazon.com/marketplace/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:aws",
+    "verified": false
   },
   {
     "name": "Complexica",
@@ -3032,7 +3300,9 @@
         "name": "Zbigniew Michalewicz",
         "role": "Chief Scientist"
       }
-    ]
+    ],
+    "discovered_by": "scout:whiskey",
+    "verified": false
   },
   {
     "name": "Commerce7",
@@ -3056,7 +3326,9 @@
         "role": "President and founder",
         "linkedin": "https://ca.linkedin.com/in/andrewkamphuis"
       }
-    ]
+    ],
+    "discovered_by": "scout:google",
+    "verified": false
   },
   {
     "name": "LibDib (LibTech / Supplier Cloud)",
@@ -3082,7 +3354,9 @@
         "name": "Richard Brashears",
         "role": "General Manager, LibTech"
       }
-    ]
+    ],
+    "discovered_by": "scout:google",
+    "verified": false
   },
   {
     "name": "Constellation Brands",
@@ -3104,7 +3378,9 @@
         "name": "Ryan Mason",
         "role": "Director, Head of DTC Growth and Strategy"
       }
-    ]
+    ],
+    "discovered_by": "scout:google",
+    "verified": false
   },
   {
     "name": "Lion Brewery (Ceylon) PLC",
@@ -3119,7 +3395,9 @@
       "https://cloud.google.com/customers/lion-brewery"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:google",
+    "verified": false
   },
   {
     "name": "GEA Group",
@@ -3134,7 +3412,9 @@
       "https://www.gea.com/en/products/brewery-systems/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:industrial",
+    "verified": false
   },
   {
     "name": "Augury",
@@ -3149,7 +3429,9 @@
       "http://www.augury.com/blog/machine-health/save-the-beer-save-the-day-utilizing-machine-health-in-the-beverage-industry/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:industrial",
+    "verified": false
   },
   {
     "name": "Ziemann Holvrieka",
@@ -3164,7 +3446,9 @@
       "https://indeex.ai/indeex-and-ziemann-holvrieka-announce-strategic-cooperation-and-joint-presence-at-drinktec2025/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:industrial",
+    "verified": false
   },
   {
     "name": "Endress+Hauser",
@@ -3179,7 +3463,9 @@
       "https://portal.endress.com/wa001/dla/5000581/3669/000/00/SO00008B24EN_US%20Brewing.pdf"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:industrial",
+    "verified": false
   },
   {
     "name": "Emerson",
@@ -3194,7 +3480,9 @@
       "https://www.emerson.com/en-us/automation/measurement-instrumentation/common-applications/measurement-instrumentation-for-fermentation-in-brewing"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:industrial",
+    "verified": false
   },
   {
     "name": "Sidel",
@@ -3209,7 +3497,9 @@
       "https://www.sidel.com/en/about/media/evo-on-impact/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:industrial",
+    "verified": false
   },
   {
     "name": "SymphonyAI",
@@ -3224,7 +3514,9 @@
       "https://www.foodengineeringmag.com/articles/103508-symphonyai-debuts-8-apps-for-food-and-beverage-manufacturing"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:industrial",
+    "verified": false
   },
   {
     "name": "Evocon",
@@ -3239,7 +3531,9 @@
       "https://evocon.com/case-studies/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:industrial",
+    "verified": false
   },
   {
     "name": "TeepTrak",
@@ -3254,7 +3548,9 @@
       "https://teeptrak.com/en/us-food-beverage-oee-case-study-2026/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:industrial",
+    "verified": false
   },
   {
     "name": "Rare Whisky 101",
@@ -3269,7 +3565,9 @@
       "https://www.rarewhisky101.com/indices"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:whiskey",
+    "verified": false
   },
   {
     "name": "WhiskyInvestDirect",
@@ -3286,7 +3584,9 @@
       "https://www.whiskyinvestdirect.com/about-whisky/total-quantity-whisky-stock"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:whiskey",
+    "verified": false
   },
   {
     "name": "SipSource",
@@ -3301,7 +3601,9 @@
       "https://www.wswa.org/news/wswas-latest-sipsourcer-forecast-signals-continued-industry-headwinds-modest-improvement-ahead"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:whiskey",
+    "verified": false
   },
   {
     "name": "Ai Palette",
@@ -3317,7 +3619,9 @@
       "https://www.mack-brands.com/blog/ai-in-the-spirits-industry-where-tradition-meets-technology"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:whiskey",
+    "verified": false
   },
   {
     "name": "Endless West",
@@ -3332,7 +3636,9 @@
       "https://www.alcoholprofessor.com/blog-posts/molecular-spirits-glyph"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:whiskey",
+    "verified": false
   },
   {
     "name": "FIVE x 5 Solutions",
@@ -3347,7 +3653,9 @@
       "https://www.vendorpick.ai/distillery"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:whiskey",
+    "verified": false
   },
   {
     "name": "Spirit Sight",
@@ -3362,7 +3670,9 @@
       "https://ncd.io/blog/iot-in-the-barrel-aged-spirits-industry/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:whiskey",
+    "verified": false
   },
   {
     "name": "CaskX",
@@ -3377,7 +3687,9 @@
       "https://lochsofwhisky.com/blog/whisky-investment-statistics-cask-values-auction-records-market-growth"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:whiskey",
+    "verified": false
   },
   {
     "name": "WhiskyCircle",
@@ -3393,7 +3705,9 @@
       "https://startup-weekly.com/Dutch-startup-WhiskyCircle-launches-app-to-unite-global-whisky-enthusiasts/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:whiskey",
+    "verified": false
   },
   {
     "name": "IES (Integrated Environmental Solutions)",
@@ -3408,7 +3722,9 @@
       "https://www.iesve.com/discoveries/view/31476/digital-twins-manufacturing-waste-heat"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:whiskey",
+    "verified": false
   },
   {
     "name": "AI4Whisky",
@@ -3424,7 +3740,9 @@
     ],
     "first_seen": "2026-07-26",
     "last_seen": "2026-07-26",
-    "key_people": "Shiwen Zhuang (Researcher, ICBD Heriot-Watt), Annie Hill (Professor of Brewing and Distilling)"
+    "key_people": "Shiwen Zhuang (Researcher, ICBD Heriot-Watt), Annie Hill (Professor of Brewing and Distilling)",
+    "discovered_by": "scout:whiskey",
+    "verified": false
   },
   {
     "name": "Cropsy Technologies",
@@ -3459,7 +3777,9 @@
         "name": "Rory Buchanan",
         "role": "Co-founder"
       }
-    ]
+    ],
+    "discovered_by": "scout:wine",
+    "verified": false
   },
   {
     "name": "Chouette",
@@ -3476,7 +3796,9 @@
       "https://www.kubota.com/news/2023/20230206.html"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:wine",
+    "verified": false
   },
   {
     "name": "Fruition Sciences",
@@ -3503,7 +3825,9 @@
         "name": "Thibaut Scholasch",
         "role": "Co-founder"
       }
-    ]
+    ],
+    "discovered_by": "scout:wine",
+    "verified": false
   },
   {
     "name": "PlantVoice",
@@ -3533,7 +3857,9 @@
         "name": "Pierluigi Lodi Rizzini",
         "role": "Legal and Co-founder"
       }
-    ]
+    ],
+    "discovered_by": "scout:wine",
+    "verified": false
   },
   {
     "name": "Vinhood",
@@ -3551,7 +3877,9 @@
       "https://www.efanews.eu/?item=61862"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:wine",
+    "verified": false
   },
   {
     "name": "Elaisian",
@@ -3569,7 +3897,9 @@
       "https://www.cbinsights.com/company/elaisian"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:wine",
+    "verified": false
   },
   {
     "name": "Agricolus",
@@ -3585,7 +3915,9 @@
       "https://www.crunchbase.com/organization/agricolus"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:wine",
+    "verified": false
   },
   {
     "name": "BitMetrics",
@@ -3607,7 +3939,9 @@
         "name": "Mar Masulli",
         "role": "CEO"
       }
-    ]
+    ],
+    "discovered_by": "scout:wine",
+    "verified": false
   },
   {
     "name": "Wine Services",
@@ -3623,7 +3957,9 @@
       "https://www.wine-services.com/en/competitive-intelligence-success-wine-industry/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:wine",
+    "verified": false
   },
   {
     "name": "TerraClim",
@@ -3638,7 +3974,9 @@
       "https://www.foodformzansi.co.za/south-africa-wine-wins-top-award-for-climate-intelligence-tech/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:wine",
+    "verified": false
   },
   {
     "name": "VIP (Vermont Information Processing)",
@@ -3653,7 +3991,9 @@
       "https://www.brewbound.com/pr/2026/07/24/vip-introduces-vip-intelligence-the-beverage-industrys-purposebuilt-ai"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:beer",
+    "verified": false
   },
   {
     "name": "Provi",
@@ -3680,7 +4020,9 @@
         "name": "David Herman",
         "role": "Chief Product Officer"
       }
-    ]
+    ],
+    "discovered_by": "scout:beer",
+    "verified": false
   },
   {
     "name": "LiquidRails",
@@ -3694,7 +4036,9 @@
       "https://www.swell.is/content/ecommerce-platforms-wine-spirits"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:beer",
+    "verified": false
   },
   {
     "name": "AccelPay",
@@ -3708,7 +4052,9 @@
       "https://www.accelpay.io/blog/how-to-sell-alcohol-online/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:beer",
+    "verified": false
   },
   {
     "name": "WISK",
@@ -3722,7 +4068,9 @@
       "https://www.wisk.ai/for/wisk-bar-management-software"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:beer",
+    "verified": false
   },
   {
     "name": "Vistaar Technologies",
@@ -3736,7 +4084,9 @@
       "https://www.vistaar.com/2026/03/30/top-alcohol-revenue-management-software-solutions/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:beer",
+    "verified": false
   },
   {
     "name": "Next Glass",
@@ -3752,7 +4102,9 @@
       "https://www.prnewswire.com/news-releases/untappd-for-business-revolutionizes-digital-menu-customization-with-ai-powered-design-tool-302282240.html"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:beer",
+    "verified": false
   },
   {
     "name": "PourMyBeer",
@@ -3774,7 +4126,9 @@
         "name": "Josh Goodman",
         "role": "Founder and CEO"
       }
-    ]
+    ],
+    "discovered_by": "scout:beer",
+    "verified": false
   },
   {
     "name": "Brewers Association (Barley assistant)",
@@ -3789,6 +4143,8 @@
       "https://washingtonbeerblog.com/maintaining-the-human-touch-in-an-ai-driven-beer-world/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26"
+    "last_seen": "2026-07-26",
+    "discovered_by": "scout:beer",
+    "verified": false
   }
 ]
