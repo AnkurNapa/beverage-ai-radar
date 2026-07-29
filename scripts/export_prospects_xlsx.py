@@ -96,9 +96,12 @@ def summary_sheet(wb, rows):
 def tracker_sheet(wb, rows):
     """Tier 1-2 only: the rows you would actually email, with room to record it."""
     ws = wb.create_sheet("Outreach tracker")
+    # Domain check sits before the empty columns on purpose: a row whose site
+    # no longer resolves is one you want to see BEFORE you write the email,
+    # not after.
     cols = ["Tier", "Company", "Region", "Segment", "Wedge", "Who to approach",
-            "Status", "Date contacted", "Response", "Next step", "Notes"]
-    widths = [6, 34, 18, 22, 24, 40, 14, 14, 16, 24, 34]
+            "Domain check", "Status", "Date contacted", "Response", "Next step", "Notes"]
+    widths = [6, 34, 18, 22, 24, 40, 30, 14, 14, 16, 24, 34]
     ws["A1"] = "Tier 1-2 targets. The last five columns are yours to fill in."
     ws["A1"].font = Font(italic=True, size=10, color="666560")
     header(ws, 2, cols, widths)
@@ -106,6 +109,7 @@ def tracker_sheet(wb, rows):
     live.sort(key=lambda x: (x["tier"], x["region"], x["company"]))
     data = [[x["tier"], x["company"], x["region"], x.get("segment", ""),
              x.get("wedge_group") or x.get("wedge", ""), x.get("entry", ""),
+             x.get("domain_status", ""),
              None, None, None, None, None] for x in live]
     write_rows(ws, 3, data, [x["tier"] for x in live])
     ws.auto_filter.ref = f"A2:{get_column_letter(len(cols))}{2 + len(data)}"
@@ -117,15 +121,16 @@ def all_sheet(wb, rows):
     ws = wb.create_sheet("All targets")
     cols = ["Tier", "Company", "Region", "Vertical", "HQ", "Segment", "Pain",
             "Wedge", "Wedge group", "Who to approach", "Capabilities",
-            "Sources", "Provenance"]
-    widths = [6, 32, 16, 11, 24, 22, 62, 30, 20, 38, 26, 9, 14]
+            "Sources", "Provenance", "Domain check"]
+    widths = [6, 32, 16, 11, 24, 22, 62, 30, 20, 38, 26, 9, 14, 30]
     header(ws, 1, cols, widths)
     rows = sorted(rows, key=lambda x: (x["tier"], x["region"], x["company"]))
     data = [[x["tier"], x["company"], x["region"], x.get("vertical", ""), x.get("hq", ""),
              x.get("segment", ""), x.get("pain", ""), x.get("wedge", ""),
              x.get("wedge_group", ""), x.get("entry", ""),
              ", ".join(x.get("capabilities") or []),
-             len(x.get("source_urls") or []), x.get("discovered_by", "original")]
+             len(x.get("source_urls") or []), x.get("discovered_by", "original"),
+             x.get("domain_status", "")]
             for x in rows]
     write_rows(ws, 2, data, [x["tier"] for x in rows])
     ws.auto_filter.ref = f"A1:{get_column_letter(len(cols))}{1 + len(data)}"
