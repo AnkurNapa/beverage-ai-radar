@@ -20,6 +20,12 @@
   --line: #e4e4e1;            /* hairline rule */
   --line-strong: #c4c4c0;
   --accent: #2251ff;          /* McKinsey blue */
+  /* The radar trace gets its own token. In light it borrows the brand accent,
+     because a green wash on white reads as a highlighter rather than a screen.
+     In dark it becomes phosphor green: a lit trace decaying on a dark ground
+     is the entire visual language of radar, and borrowing the brand blue there
+     would throw away the one place the metaphor can actually land. */
+  --radar: var(--accent);
   --accent-hover: #1a3ecc;
   --navy: #051c2c;            /* deep brand navy, used for the footer band */
   --dormant: #8a8a8a;
@@ -38,6 +44,7 @@
     --ink: #e8edf2; --body: #c2ccd6; --muted: #97a3b0;
     --line: #212c38; --line-strong: #33404f;
     --accent: #6f8cff; --accent-hover: #94a9ff; --navy: #05090d;
+    --radar: #35e07a;         /* P7-ish phosphor, pulled back from pure #00ff41 */
     --dormant: #6b7683;
     --shadow-lift: 0 2px 18px rgba(0, 0, 0, .6);
   }
@@ -989,7 +996,7 @@ body > *:not(.ambient) { position: relative; z-index: 1; }
 .ambient__rings {
   background: repeating-radial-gradient(circle at var(--ax, 50%) var(--ay, 40%),
     transparent 0 78px,
-    color-mix(in oklab, var(--accent) 45%, transparent) 78px 79.5px,
+    color-mix(in oklab, var(--radar) 45%, transparent) 78px 79.5px,
     transparent 79.5px 160px);
   opacity: .05;
   animation: ambient-drift 38s cubic-bezier(.42, 0, .58, 1) infinite alternate;
@@ -1030,8 +1037,8 @@ body[data-view="prospects"] .ambient__rings { --ax: 82%; --ay: 62%; }
 body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07; }
 
 @media (prefers-color-scheme: dark) {
-  .ambient__rings { opacity: .08; }
-  .ambient__grid { opacity: .045; }
+  .ambient__rings { opacity: .1; }
+  .ambient__grid { opacity: .05; --hx: color-mix(in oklab, var(--radar) 30%, transparent); }
   .ambient__sweep { opacity: .5; }
 }
 
@@ -1060,7 +1067,7 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
    forget about it, which is the whole intent. */
 .ambient__sweep {
   background: conic-gradient(from 0deg at var(--ax, 50%) var(--ay, 40%),
-    color-mix(in oklab, var(--accent) 60%, transparent) 0deg,
+    color-mix(in oklab, var(--radar) 60%, transparent) 0deg,
     transparent 26deg, transparent 360deg);
   opacity: .3;
   mask-image: radial-gradient(circle at var(--ax, 50%) var(--ay, 40%),
@@ -1080,7 +1087,7 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
 .ambient__blips i {
   position: absolute; left: var(--bx); top: var(--by);
   width: 5px; height: 5px; margin: -2.5px 0 0 -2.5px;
-  border-radius: 50%; background: var(--accent);
+  border-radius: 50%; background: var(--radar);
   opacity: 0;
   animation: ambient-blip 26s ease-out infinite;
   animation-delay: var(--bd);
@@ -1099,7 +1106,7 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
 @media (prefers-color-scheme: dark) {
   .ambient__sweep { opacity: .5; }
   .ambient__blips i { width: 6px; height: 6px; margin: -3px 0 0 -3px;
-                      box-shadow: 0 0 10px 2px color-mix(in oklab, var(--accent) 55%, transparent); }
+                      box-shadow: 0 0 12px 3px color-mix(in oklab, var(--radar) 60%, transparent); }
 }
 @media (max-width: 720px) {
   .ambient__blips i { width: 4px; height: 4px; margin: -2px 0 0 -2px; }
