@@ -11,44 +11,39 @@
   /* Pure #000 on pure #fff is the highest contrast available and reads as
      glare over long sessions. Softening both ends keeps well above WCAG AA
      while taking the hard edge off; the ratio is still ~16:1 for headlines. */
-  --bg: #fbfbfa;
-  --surface: #ffffff;
-  --raised: #ffffff;          /* hover-lift card face */
-  --ink: #1a1a1a;             /* headlines */
-  --body: #3d3d3d;            /* body copy */
-  --muted: #656565;           /* darkened from #6e6e6e: 4.5:1 against --bg */
-  --line: #e4e4e1;            /* hairline rule */
-  --line-strong: #c4c4c0;
-  --accent: #2251ff;          /* McKinsey blue */
-  /* The radar trace gets its own token. In light it borrows the brand accent,
-     because a green wash on white reads as a highlighter rather than a screen.
-     In dark it becomes phosphor green: a lit trace decaying on a dark ground
-     is the entire visual language of radar, and borrowing the brand blue there
-     would throw away the one place the metaphor can actually land. */
-  --radar: var(--accent);
+  /* One neutral family. Every grey shares hue 95 at C .005: previously --bg and
+     the rules were warm (H 106) while --ink, --body and --muted were pure
+     neutral (C 0), so the page ran two grey families at once and the cards
+     read as a different material from the text on them.
 
-  /* Vertical hues, generated in OKLCH at a FIXED lightness and chroma.
-     The previous set spread 0.188 in lightness: beer sat at L .729 and wine at
-     L .542, so beer visually shouted and wine receded at identical size, which
-     invents a hierarchy between categories that have none. Holding L and C
-     constant and varying only hue is what makes a categorical palette read as
-     a set of equals.
-
-     Hue angles stay semantic — gold, copper, purple — but pushed to a 50deg
-     separation where they were 31deg. Gold and copper are genuinely adjacent
-     in the world, so that is as far apart as they can honestly go; the chip
-     label carries the rest. */
-  --v-beer: #A27A00;      /* OKLCH .60 .145  90deg  gold   */
-  --v-whiskey: #C65D36;   /* OKLCH .60 .145  40deg  copper */
-  --v-wine: #AA5EAF;      /* OKLCH .60 .145 325deg  purple */
-  --accent-hover: #1a3ecc;
-  --navy: #051c2c;            /* deep brand navy, used for the footer band */
-  --dormant: #8a8a8a;
+     --bg is also darker than it was (L .968, was .988). A white card on a
+     .988 ground measured 1.035:1, which is not a boundary anyone can see, so
+     cards floated and the hairline did all the work at 1.23:1. */
+  --bg: #F5F4F1;
+  --surface: #FFFFFF;
+  --raised: #FFFFFF;          /* hover-lift card face */
+  --ink: #1B1B17;             /* headlines */
+  --body: #42413D;            /* body copy */
+  --muted: #6A6965;
+  /* Cards carry NO fill in this design; they are delineated by the rule alone,
+     so the rule has to actually be visible. At L .906 it measured 1.20:1
+     against the ground, which is a suggestion of a boundary rather than one. */
+  --line: #D0CFCC;            /* hairline rule, 1.42:1 on --bg */
+  --line-strong: #B2B1AD;
+  --accent: #2D56CD;          /* OKLCH .50 .19 265deg */
+  --accent-hover: #1536AC;
+  --navy: #0F182E;            /* same hue family as the accent, not a stray blue */
+  --dormant: #8A8986;
   --radius: 0;                /* square. McKinsey rounds nothing. */
-  --shadow-lift: 0 2px 18px rgba(0, 0, 0, .13);
+  --shadow-lift: 0 2px 18px rgba(0, 0, 0, .10);
   --serif: Newsreader, Bower, Georgia, "Times New Roman", serif;
   --font: "McKinsey Sans", "Helvetica Neue", Calibri, Corbel, Helvetica, Arial, sans-serif;
   --measure: 66ch;
+  --radar: var(--accent);
+
+  --v-beer: #9D7C00;      /* OKLCH .60 .123  90deg  gold   */
+  --v-whiskey: #BD6444;   /* OKLCH .60 .123  40deg  copper */
+  --v-wine: #A565A8;      /* OKLCH .60 .123 325deg  purple */
 }
 @media (prefers-color-scheme: dark) {
   /* The reference is committed light. Dark stays a restrained token swap so
@@ -70,7 +65,7 @@
     /* Same hues, lifted to L .78: a colour that reads correctly on white is
        too dark to carry on a near-black ground. Chroma is unchanged, so the
        three stay equals in dark exactly as they do in light. */
-    --v-beer: #DBB232; --v-whiskey: #FF956D; --v-wine: #E695EA;
+    --v-beer: #D8B345; --v-whiskey: #FF9874; --v-wine: #E299E6;
     --dormant: #6b7683;
     --shadow-lift: 0 2px 18px rgba(0, 0, 0, .6);
   }
@@ -396,15 +391,15 @@ a:hover { color: var(--accent-hover); }
 /* individuals get the same band, not a circle, so the grid stays even */
 .company .company__head > .avatar--person { aspect-ratio: 16 / 9; border-radius: 0; }
 /* Vertical keys the tint, read off the chip the card already renders. */
-.company:has(.chip--beer) { --tint: #F7F0DB; --tint-ink: #6D5100; }
-.company:has(.chip--whiskey) { --tint: #FFEAE2; --tint-ink: #863C21; }
-.company:has(.chip--wine) { --tint: #FAEAFB; --tint-ink: #733D76; }
-.company:has(.chip--multiple) { --tint: #e3e8fb; --tint-ink: #1f2f6b; }
+.company:has(.chip--beer) { --tint: #F8F2E4; --tint-ink: #634D00; }
+.company:has(.chip--whiskey) { --tint: #FFEEE9; --tint-ink: #882F07; }
+.company:has(.chip--wine) { --tint: #FAEEFA; --tint-ink: #723176; }
+.company:has(.chip--multiple) { --tint: #ECF3FF; --tint-ink: #2D4A96; }
 @media (prefers-color-scheme: dark) {
-  .company:has(.chip--beer)  { --tint: #27200B; --tint-ink: #E4C87C; }
-  .company:has(.chip--whiskey)  { --tint: #2F1B13; --tint-ink: #FFB599; }
-  .company:has(.chip--wine)  { --tint: #291B2A; --tint-ink: #ECB4EF; }
-  .company:has(.chip--multiple) { --tint: #171f38; --tint-ink: #a8b8f0; }
+  .company:has(.chip--beer)  { --tint: #231E0E; --tint-ink: #E6C873; }
+  .company:has(.chip--whiskey)  { --tint: #2A1A14; --tint-ink: #FFB79D; }
+  .company:has(.chip--wine)  { --tint: #251A25; --tint-ink: #EFB2F2; }
+  .company:has(.chip--multiple)  { --tint: #181E2B; --tint-ink: #B2CAFF; }
   .company .company__head .logo::before { background: var(--tint, #1b232d); }
 }
 .company__id { min-width: 0; }
