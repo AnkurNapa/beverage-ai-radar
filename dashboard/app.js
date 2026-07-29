@@ -406,10 +406,14 @@ let CURRENT_TAB = "companies";
 function showView(which) {
   CURRENT_TAB = which;
   track("tab_view", { tab: which });
+  document.body.dataset.view = which;      // drives the ambient geometry
   location.hash = "";
   for (const v of VIEWS) {
     $("view-" + v).hidden = which !== v;
-    $("tab-" + v).classList.toggle("is-active", which === v);
+    const tab = $("tab-" + v);
+    tab.classList.toggle("is-active", which === v);
+    // Screen readers announce the selected tab from this, not from a CSS class.
+    tab.setAttribute("aria-selected", String(which === v));
   }
   $("view-detail").hidden = true;
   $("tabs").hidden = false;
@@ -540,7 +544,7 @@ function resCard(r) {
   const label = r.kind === "news" && r.label ? r.label : KIND_LABEL[r.kind] || r.kind;
   const media = r.kind === "video" && r.thumb
     ? `<a class="res__thumb" href="${esc(url)}" target="_blank" rel="noopener">
-         <img src="${esc(safeUrl(r.thumb))}" alt="" loading="lazy" />
+         <img src="${esc(safeUrl(r.thumb))}" alt="" loading="lazy" width="480" height="360" />
          <span class="res__play" aria-hidden="true">▶</span></a>`
     : "";
   return `<article class="res res--${esc(r.kind)}">
@@ -1208,6 +1212,48 @@ function renderViews(section, tab) {
   });
 }
 
+// On a phone the filter row is 16 stacked controls, 818px tall, taller than
+// the screen itself, and the map adds another. Between the hero, the KPI strip
+// and both, the first actual result sat 4.3 screens down: the page opened on
+// its own chrome rather than on its content. Both collapse behind a toggle
+// below 720px and stay open on desktop, where there is room for them.
+function makeCollapsible(el, label, openByDefault) {
+  const bar = document.createElement("button");
+  bar.type = "button";
+  bar.className = "disclose";
+  bar.setAttribute("aria-expanded", String(openByDefault));
+  bar.innerHTML = `<span>${esc(label)}</span><span class="disclose__c"></span>`;
+  el.insertAdjacentElement("beforebegin", bar);
+  el.classList.add("collapsible");
+  const set = (open) => {
+    el.classList.toggle("is-open", open);
+    bar.setAttribute("aria-expanded", String(open));
+  };
+  set(openByDefault);
+  bar.addEventListener("click", () => set(bar.getAttribute("aria-expanded") !== "true"));
+  return { bar, set };
+}
+
+function wireCollapsibles() {
+  const phone = window.matchMedia("(max-width: 720px)");
+  const made = [];
+  for (const section of document.querySelectorAll(".controls")) {
+    const n = section.querySelectorAll("select, input").length;
+    made.push(makeCollapsible(section, `Filters & search (${n})`, !phone.matches));
+  }
+  for (const card of document.querySelectorAll(".wmap-card")) {
+    made.push(makeCollapsible(card, "Map", !phone.matches));
+  }
+  // Breakdown bars are secondary analysis, and 646px of it on a phone sits
+  // between the reader and every result.
+  for (const bd of document.querySelectorAll(".breakdowns")) {
+    made.push(makeCollapsible(bd, "Breakdowns", !phone.matches));
+  }
+  // Follow the breakpoint live rather than only at load, so rotating a phone
+  // or resizing a window does not leave the page in the wrong mode.
+  phone.addEventListener("change", (e) => made.forEach((m) => m.set(!e.matches)));
+}
+
 function wireFilterVisibility() {
   for (const section of document.querySelectorAll(".controls")) {
     const bar = document.createElement("div");
@@ -1390,6 +1436,7 @@ async function main() {
   gq.addEventListener("input", globalSearch);
 
   wireFilterVisibility();
+  wireCollapsibles();
   renderWhatsNew();
   renderHint(CURRENT_TAB);
 

@@ -889,3 +889,176 @@ svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
   font: inherit; padding: .05rem .28rem; margin-right: .2rem;
   border: 1px solid var(--line-strong); border-radius: 3px;
 }
+
+/* --- Skip link ------------------------------------------------------------
+   First focusable element on the page. Without it a keyboard user tabs the
+   whole masthead and every filter before reaching a single result. */
+.skip {
+  position: absolute; left: -9999px; top: 0; z-index: 200;
+  background: var(--accent); color: #fff; padding: .7rem 1.1rem;
+  text-decoration: none; border-radius: 0 0 4px 0;
+}
+.skip:focus { left: 0; }
+
+/* --- Disclosure for filters and map --------------------------------------
+   On a phone these two blocks were taller than the viewport and pushed the
+   first result 4.3 screens down. */
+.disclose {
+  display: none; width: 100%; align-items: center; justify-content: space-between;
+  font: inherit; font-size: .82rem; cursor: pointer; text-align: left;
+  padding: .8rem .1rem; margin: 0 0 .4rem;
+  background: none; border: 0; border-bottom: 1px solid var(--line); color: var(--ink);
+}
+.disclose__c::after { content: "＋"; color: var(--muted); }
+.disclose[aria-expanded="true"] .disclose__c::after { content: "－"; }
+
+@media (max-width: 720px) {
+  .disclose { display: flex; }
+  /* min-height 0 rather than display:none so the panel can animate and so
+     focus inside it is not lost while it is closed */
+  .collapsible { display: none; }
+  .collapsible.is-open { display: block; }
+  .controls.collapsible.is-open { display: flex; }
+
+  /* WCAG 2.5.8: 24px minimum target. Touch guidance says 44px; these were
+     22x19 and smaller, which is a miss-tap every time on a phone. */
+  .controls select, .controls input, .tab, .fchip, .vchip button,
+  .wnew__b, .hint__x, .starb, .wmap__back, .cmdk__i {
+    min-height: 44px;
+  }
+  .starb { min-width: 44px; display: inline-flex; align-items: center; justify-content: center; }
+  .fchip, .vchip button, .wnew__b { padding-top: .6rem; padding-bottom: .6rem; }
+
+  /* The map was 303x152 with 11px labels. Taller box, bigger labels, and the
+     count text drops out entirely below this size: the tooltip carries it. */
+  svg.wmap { min-height: 210px; }
+  .wc__num { font-size: 9px; }
+}
+
+@media (max-width: 420px) {
+  .wc__num { display: none; }     /* unreadable at this width; tooltip still works */
+}
+
+@media (max-width: 720px) {
+  .breakdowns.collapsible { display: none; }
+  .breakdowns.collapsible.is-open { display: grid; }
+
+  /* Six KPI cards stacked was 484px. A two-column grid of compact tiles says
+     the same thing in a quarter of the height. */
+  .kpis { grid-template-columns: 1fr 1fr; gap: .5rem; }
+  .kpis .kpi { padding: .6rem .7rem; }
+  .kpi__num { font-size: 1.5rem; }
+  .kpi__sub { display: none; }        /* the label alone carries it at this size */
+
+  /* The hero lede is a full paragraph of scene-setting above the tool itself. */
+  .hero { padding-top: 1.2rem; padding-bottom: 1rem; }
+  .hero__lede { font-size: 1rem; line-height: 1.5; }
+  .hero__lede br { display: none; }
+}
+
+@media (max-width: 720px) {
+  .vchip__x { min-width: 44px; }   /* the last sub-24px control */
+}
+
+/* --- Ambient background ---------------------------------------------------
+   The geometry has to mean something to THIS audience — brewers, distillers,
+   winemakers and the data people who work with them — or it is just wallpaper.
+   Three layers, each a literal reference held at an abstract distance:
+
+   1. RIPPLE   concentric rings on a liquid surface. Doubles as a radar sweep,
+               which is the name of the thing. Two readings, one shape.
+   2. LATTICE  a hexagonal field, not a square grid. Hexagons are what the
+               chemistry of this industry looks like on paper: hop acids,
+               esters, phenols. A square grid would have said "dashboard";
+               a hex field says "fermentation science".
+   3. RISE     carbonation. Slow upward drift, the one motion every person in
+               this industry watches in a glass without thinking about it.
+
+   Restraint is the whole brief. 3-5% opacity, 30-60s periods. If you notice it
+   moving while reading, it has failed. transform and opacity only, so it stays
+   on the compositor: this page already carries 17k DOM nodes and the
+   background must cost nothing. */
+.ambient {
+  position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden;
+  contain: strict;
+}
+body > *:not(.ambient) { position: relative; z-index: 1; }
+.ambient__rings, .ambient__grid, .ambient__rise { position: absolute; inset: -25%; }
+
+/* 1. Ripple. One paint for the whole set via repeating-radial-gradient. */
+.ambient__rings {
+  background: repeating-radial-gradient(circle at var(--ax, 50%) var(--ay, 40%),
+    transparent 0 78px,
+    color-mix(in oklab, var(--accent) 45%, transparent) 78px 79.5px,
+    transparent 79.5px 160px);
+  opacity: .05;
+  animation: ambient-drift 38s cubic-bezier(.42, 0, .58, 1) infinite alternate;
+  will-change: transform;
+}
+
+/* 2. Hex lattice. Three 60-degree gradient sets interleave into a honeycomb
+      without a single extra element or an image request. */
+.ambient__grid {
+  --hx: color-mix(in oklab, var(--ink) 26%, transparent);
+  background-image:
+    linear-gradient(60deg,  var(--hx) 1px, transparent 1px),
+    linear-gradient(-60deg, var(--hx) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--hx) 1px, transparent 1px);
+  background-size: 104px 60px;
+  opacity: .03;
+  animation: ambient-lattice 54s linear infinite;
+  will-change: transform;
+}
+
+/* 3. Carbonation. Two dot fields at different scales and speeds, so the rise
+      never reads as a single repeating tile. */
+.ambient__rise {
+  background-image:
+    radial-gradient(circle at 20% 80%, color-mix(in oklab, var(--accent) 55%, transparent) 1.6px, transparent 1.7px),
+    radial-gradient(circle at 68% 40%, color-mix(in oklab, var(--accent) 40%, transparent) 2.4px, transparent 2.5px);
+  background-size: 190px 240px, 310px 380px;
+  opacity: .05;
+  animation: ambient-rise 60s linear infinite;
+  will-change: transform;
+}
+
+@keyframes ambient-drift {
+  from { transform: scale(1) rotate(0deg); }
+  to   { transform: scale(1.12) rotate(3.5deg); }
+}
+@keyframes ambient-lattice {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-104px, -60px, 0); }
+}
+@keyframes ambient-rise {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(0, -240px, 0); }   /* exactly one tile: seamless */
+}
+
+/* Per-view character: the ripple originates somewhere different on each tab,
+   so switching views shifts the horizon rather than redrawing the same frame. */
+body[data-view="companies"] .ambient__rings { --ax: 26%; --ay: 34%; }
+body[data-view="people"]    .ambient__rings { --ax: 74%; --ay: 30%; }
+body[data-view="resources"] .ambient__rings { --ax: 50%; --ay: 68%; }
+body[data-view="jobs"]      .ambient__rings { --ax: 18%; --ay: 72%; }
+body[data-view="prospects"] .ambient__rings { --ax: 82%; --ay: 62%; }
+body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07; }
+
+@media (prefers-color-scheme: dark) {
+  .ambient__rings { opacity: .08; }
+  .ambient__grid { opacity: .045; }
+  .ambient__rise { opacity: .07; }
+}
+
+/* Motion is a preference. Reduced motion holds the geometry still rather than
+   removing it, so the page does not restyle for those readers. */
+@media (prefers-reduced-motion: reduce) {
+  .ambient__rings, .ambient__grid, .ambient__rise { animation: none; }
+}
+
+/* A phone is a small canvas held close to the face; the field is heavier there
+   for the same perceived weight, and one layer is dropped to save fill rate. */
+@media (max-width: 720px) {
+  .ambient__grid { background-size: 76px 44px; }
+  .ambient__rise { display: none; }
+}

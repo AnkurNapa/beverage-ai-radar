@@ -113,23 +113,31 @@
 
   <!-- version query busts the 10-minute Pages cache on every restyle;
        bump it whenever styles.css changes -->
-  <link rel="stylesheet" href="styles.css?v=9790cce817" />
+  <link rel="stylesheet" href="styles.css?v=fb90beb9ab" />
 </head>
-<body>
+<body data-view="companies">
+  <a class="skip" href="#main">Skip to content</a>
+  <!-- Ambient geometry. Decorative only, so it is hidden from assistive tech
+       and cannot receive pointer events. -->
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__rings"></div>
+    <div class="ambient__grid"></div>
+    <div class="ambient__rise"></div>
+  </div>
   <!-- Masthead: wordmark, section nav, utility links. The section nav carries
        the original tab button ids, so app.js wiring is untouched. -->
   <header class="topbar">
     <div class="topbar__inner">
       <a class="topbar__brand" href="./">Beverage-AI&nbsp;Radar</a>
-      <nav class="topnav" id="tabs" aria-label="Views">
-        <button id="tab-companies" class="tab is-active" type="button">Companies &amp; ventures</button>
-        <button id="tab-people" class="tab" type="button">People</button>
-        <button id="tab-resources" class="tab" type="button">Research &amp; resources</button>
-        <button id="tab-jobs" class="tab" type="button">Jobs</button>
+      <nav class="topnav" id="tabs" role="tablist" aria-label="Views">
+        <button id="tab-companies" class="tab is-active" type="button" role="tab" aria-controls="view-companies" aria-selected="true">Companies &amp; ventures</button>
+        <button id="tab-people" class="tab" type="button" role="tab" aria-controls="view-people" aria-selected="false">People</button>
+        <button id="tab-resources" class="tab" type="button" role="tab" aria-controls="view-resources" aria-selected="false">Research &amp; resources</button>
+        <button id="tab-jobs" class="tab" type="button" role="tab" aria-controls="view-jobs" aria-selected="false">Jobs</button>
         <!-- Prospects is private: prospects.json is gitignored, so the published
              site never receives it and app.js hides this tab when it is absent. -->
-        <button id="tab-prospects" class="tab" type="button" hidden>Prospects</button>
-        <button id="tab-about" class="tab" type="button">About</button>
+        <button id="tab-prospects" class="tab" type="button" role="tab" aria-controls="view-prospects" aria-selected="false" hidden>Prospects</button>
+        <button id="tab-about" class="tab" type="button" role="tab" aria-controls="view-about" aria-selected="false">About</button>
       </nav>
       <div class="topbar__util">
         <a href="https://www.linkedin.com/in/ankur-napa/" target="_blank" rel="noopener">Get listed</a>
@@ -153,7 +161,8 @@
   <div class="wrap" id="hintbar" hidden></div>
   <section class="kpis wrap" id="kpis" aria-label="Headline figures"></section>
 
-  <main class="wrap" id="view-companies">
+  <main id="main">
+  <section class="wrap view" id="view-companies">
     <section class="card wmap-card" aria-label="Where the companies are">
       <h2>Where they are <span class="wmap-hint">click a country to filter</span></h2>
       <div id="world-companies"></div>
@@ -208,9 +217,9 @@
     </section>
 
     <section id="grid" class="grid" aria-live="polite"></section>
-  </main>
+  </section>
 
-  <main class="wrap" id="view-people" hidden>
+  <section class="wrap view" id="view-people" hidden>
     <section class="controls" aria-label="People filters">
       <input id="pq" type="search" placeholder="Search person, role, company…" aria-label="Search people" />
       <select id="fp-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
@@ -226,9 +235,9 @@
       <div id="world-people"></div>
     </section>
     <section id="people-list" class="people-list" aria-live="polite"></section>
-  </main>
+  </section>
 
-  <main class="wrap" id="view-resources" hidden>
+  <section class="wrap view" id="view-resources" hidden>
     <p class="res-intro">Papers, news, case studies, open-source repositories, and talks on AI and data in beverage. Every item links to its source.</p>
     <section class="controls" aria-label="Resource filters">
       <input id="rq" type="search" placeholder="Search title, summary, source…" aria-label="Search resources" />
@@ -253,10 +262,10 @@
       <span id="rcount" class="count"></span>
     </section>
     <section id="res-grid" class="grid" aria-live="polite"></section>
-  </main>
+  </section>
 
 
-  <main class="wrap" id="view-jobs" hidden>
+  <section class="wrap view" id="view-jobs" hidden>
     <p class="res-intro">Open roles applying AI, data, and analytics in beer, whiskey, and wine. Swept from public job postings; every row links to the original posting. <span id="jobs-stamp" class="hero__meta"></span></p>
     <section class="controls" aria-label="Job filters">
       <input id="jq" type="search" placeholder="Search title, company, location…" aria-label="Search jobs" />
@@ -273,9 +282,9 @@
       <div id="world-jobs"></div>
     </section>
     <section id="jobs-grid" class="grid" aria-live="polite"></section>
-  </main>
+  </section>
 
-  <main class="wrap" id="view-prospects" hidden>
+  <section class="wrap view" id="view-prospects" hidden>
     <p class="res-intro"><strong>Private.</strong> Outreach targets for pitching AI, data and analytics into beer, whiskey and wine. This tab only exists on a local copy: <code>prospects.json</code> is gitignored, so it is never published. <span id="prospects-stamp" class="hero__meta"></span></p>
     <section class="controls" aria-label="Prospect filters">
       <input id="prq" type="search" placeholder="Search company, pain, wedge, contact…" aria-label="Search prospects" />
@@ -290,9 +299,9 @@
       <div id="world-prospects"></div>
     </section>
     <section id="prospects-grid" class="grid" aria-live="polite"></section>
-  </main>
+  </section>
 
-  <main class="wrap" id="view-about" hidden>
+  <section class="wrap view" id="view-about" hidden>
     <article class="about">
       <h2>Why this exists</h2>
       <p>I am Ankur Napa, a brewer who learned to code. I spent years on the brewery floor and then years in data, and I kept meeting people quietly doing the same thing: using AI, machine learning, and analytics to make better beer, whiskey, and wine. We were all working in parallel and rarely finding each other.</p>
@@ -323,11 +332,12 @@
       </ul>
       <p class="about__note">Method: hand-verified seed data, refreshed by an automated pipeline. Every fact carries a source URL. Corrections and additions are welcome.</p>
     </article>
-  </main>
+  </section>
 
-  <main class="wrap" id="view-detail" hidden>
+  <section class="wrap view" id="view-detail" hidden>
     <a class="back" id="detail-back" href="#">&larr; Back to radar</a>
     <div id="detail"></div>
+  </section>
   </main>
 
   <footer class="foot wrap">
@@ -339,6 +349,6 @@
     No account needed. Anonymised visit stats only, via Google Analytics; Do Not Track is honoured.
   </footer>
 
-  <script type="module" src="app.js?v=f8334fde7a"></script>
+  <script type="module" src="app.js?v=52ed49d8b9"></script>
 </body>
 </html>
