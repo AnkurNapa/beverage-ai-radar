@@ -208,6 +208,10 @@ def _norm_blogs(rows):
 def build():
     items = []
     items += list(_norm_papers(_load("papers.json")))
+    # Swept from OpenAlex by scripts/sweep_papers.py. Kept in its own file so a
+    # re-sweep never overwrites the hand-verified papers.json, and so the
+    # provenance of any given row is obvious from where it lives.
+    items += list(_norm_papers(_load("papers_openalex.json")))
     items += list(_norm_news(_load("news.json")))
     items += list(_norm_blogs(_fetch_ankur_blogs()))  # auto-pulled newest, featured
     items += list(_norm_blogs(_load("blogs.json")))  # other curated blogs
