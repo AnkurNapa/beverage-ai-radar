@@ -1133,3 +1133,62 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
 @media (max-width: 720px) {
   .ambient__blips i { width: 4px; height: 4px; margin: -2px 0 0 -2px; }
 }
+
+/* --- Filter rail ----------------------------------------------------------
+   On a laptop the filter row sat above the results, so scrolling the grid
+   scrolled the controls off screen and changing one filter meant scrolling
+   back up. At 1100px and wider the controls become a sticky left rail: the
+   filters stay in view the whole time and the results get the remaining
+   width, which is the layout every faceted-search tool converges on for the
+   same reason.
+
+   Below 1100px it stays a collapsible row (see the disclosure rules), because
+   a rail on a narrow screen just eats the width the content needs. */
+@media (min-width: 1100px) {
+  .view.wrap { max-width: 1500px; }
+
+  #view-companies, #view-resources, #view-jobs, #view-prospects, #view-people {
+    display: grid;
+    grid-template-columns: 250px minmax(0, 1fr);
+    grid-template-areas: "rail body";
+    column-gap: 2.5rem;
+    align-items: start;
+  }
+  /* Everything that is not the rail flows into the body column. The :not()
+     matters: an ID-prefixed rule outranks a bare .controls selector, so
+     without it the rail would be assigned to the body column and stretch to
+     full width. */
+  #view-companies > *:not(.controls):not(.chipbar):not(.viewbar),
+  #view-resources > *:not(.controls):not(.chipbar):not(.viewbar),
+  #view-jobs > *:not(.controls):not(.chipbar):not(.viewbar),
+  #view-prospects > *:not(.controls):not(.chipbar):not(.viewbar),
+  #view-people > *:not(.controls):not(.chipbar):not(.viewbar) { grid-area: body; min-width: 0; }
+
+  #view-companies > .controls, #view-resources > .controls, #view-jobs > .controls,
+  #view-prospects > .controls, #view-people > .controls {
+    grid-area: rail;
+    position: sticky; top: 96px;          /* clears the sticky masthead */
+    display: flex; flex-direction: column; align-items: stretch;
+    gap: .1rem;
+    max-height: calc(100vh - 120px); overflow-y: auto;
+    margin: 0; padding: 0 1rem 1rem 0;
+    border-bottom: 0; border-right: 1px solid var(--line);
+  }
+  .controls input, .controls select { width: 100%; padding: .55rem .1rem; }
+  .controls input { flex: none; }
+  .controls .count { margin: .6rem 0 0; }
+
+  /* Chip bar and saved views follow the rail rather than the old row spacing. */
+  #view-companies > .chipbar, #view-resources > .chipbar, #view-jobs > .chipbar,
+  #view-prospects > .chipbar, #view-people > .chipbar,
+  #view-companies > .viewbar, #view-resources > .viewbar, #view-jobs > .viewbar,
+  #view-prospects > .viewbar, #view-people > .viewbar { grid-area: rail; margin: 0 1rem 0 0; }
+  .chipbar { padding-top: .6rem; }
+  .viewbar { padding-bottom: .8rem; border-bottom: 1px solid var(--line); }
+}
+
+/* Size chip: quieter than a vertical, since it is inferred rather than stated. */
+.chip--size {
+  background: transparent; border: 1px dashed var(--line-strong);
+  color: var(--muted); text-transform: lowercase;
+}

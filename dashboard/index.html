@@ -113,7 +113,7 @@
 
   <!-- version query busts the 10-minute Pages cache on every restyle;
        bump it whenever styles.css changes -->
-  <link rel="stylesheet" href="styles.css?v=0c9a3ffd74" />
+  <link rel="stylesheet" href="styles.css?v=02ee141234" />
 </head>
 <body data-view="companies">
   <a class="skip" href="#main">Skip to content</a>
@@ -187,16 +187,35 @@
     </section>
 
     <section class="controls" aria-label="Filters">
-      <input id="q" type="search" placeholder="Search name, location, description…" aria-label="Search" />
-      <select id="f-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
-      <select id="f-usecase" aria-label="Theme"><option value="">All themes</option></select>
-      <select id="f-capability" aria-label="Capability"><option value="">All capabilities</option></select>
-      <select id="f-scope" aria-label="Scope">
+      <input id="q" title="Searches name, location, description, use case and people." type="search" placeholder="Search name, location, description…" aria-label="Search" />
+      <select id="f-vertical" title="Which drink the company works on: beer, whiskey, wine, or several." aria-label="Vertical"><option value="">All verticals</option></select>
+      <select id="f-usecase" title="The business problem being solved, e.g. quality, demand, supply chain." aria-label="Theme"><option value="">All themes</option></select>
+      <select id="f-capability" title="What kind of solution it is: IoT, AI, ERP, BI, ESG or consultancy. A company can be several." aria-label="Capability"><option value="">All capabilities</option></select>
+      <select id="f-size" title="Rough organisation size, inferred from funding, type and public fact. Most rows are unknown: there is no employee count in this data." aria-label="Size">
+        <option value="">All sizes</option>
+        <option value="micro">Micro (solo / one-person)</option>
+        <option value="small">Small (seed stage)</option>
+        <option value="mid">Mid (Series A/B)</option>
+        <option value="large">Large (Series C+, listed)</option>
+        <option value="multinational">Multinational</option>
+        <option value="unknown">Size not known</option>
+      </select>
+      <select id="f-region" title="Country grouped into the same regions the Prospects tab uses." aria-label="Region"><option value="">All regions</option></select>
+      <select id="f-evidence" title="How many independent sources back this entry. One is an assertion; two or more is corroboration." aria-label="Evidence">
+        <option value="">Any evidence</option>
+        <option value="2">Two or more sources</option>
+        <option value="1">Single source only</option>
+      </select>
+      <select id="f-hiring" title="Companies with an open role in the Jobs tab right now." aria-label="Hiring">
+        <option value="">Hiring or not</option>
+        <option value="1">Hiring now</option>
+      </select>
+      <select id="f-scope" title="Built for drinks, or a horizontal vendor that also sells into drinks." aria-label="Scope">
         <option value="">Built for drinks + horizontal</option>
         <option value="beverage-native">Built for drinks only</option>
         <option value="horizontal">Horizontal vendors only</option>
       </select>
-      <select id="f-seen" aria-label="Reading state">
+      <select id="f-seen" title="Your own reading history, stored in this browser only." aria-label="Reading state">
         <option value="">Read + unread</option>
         <option value="new">Not opened yet</option>
         <option value="seen">Already opened</option>
@@ -204,25 +223,25 @@
         <option value="frequent">Opened more than once</option>
         <option value="star">Shortlisted only</option>
       </select>
-      <select id="f-maturity" aria-label="Maturity"><option value="">All maturity</option></select>
-      <select id="f-status" aria-label="Status">
+      <select id="f-maturity" title="How far along the AI work is: research, pilot, or shipping." aria-label="Maturity"><option value="">All maturity</option></select>
+      <select id="f-status" title="Active means seen in the last 18 months. Dormant means it has gone quiet." aria-label="Status">
         <option value="">Active + dormant</option>
         <option value="active">Active only</option>
         <option value="dormant">Dormant only</option>
       </select>
-      <select id="f-type" aria-label="Type"><option value="">All types</option></select>
-      <select id="f-platform" aria-label="Platform"><option value="">All platforms & bodies</option></select>
-      <select id="f-funding" aria-label="Funding stage"><option value="">All funding</option></select>
-      <select id="f-country" aria-label="Country"><option value="">All countries</option></select>
-      <select id="f-source" aria-label="Source"><option value="">All sources</option></select>
-      <select id="f-from" aria-label="Founded from year"><option value="">Founded: from</option></select>
-      <select id="f-to" aria-label="Founded to year"><option value="">Founded: to</option></select>
-      <select id="f-people" aria-label="People">
+      <select id="f-type" title="Product company, service firm, or an individual builder." aria-label="Type"><option value="">All types</option></select>
+      <select id="f-platform" title="Named platforms and industry bodies mentioned in the entry." aria-label="Platform"><option value="">All platforms & bodies</option></select>
+      <select id="f-funding" title="Funding stage, where it is known." aria-label="Funding stage"><option value="">All funding</option></select>
+      <select id="f-country" title="Where the company is based." aria-label="Country"><option value="">All countries</option></select>
+      <select id="f-source" title="How this entry was found: curated by hand, or discovered by a scout sweep." aria-label="Source"><option value="">All sources</option></select>
+      <select id="f-from" title="Earliest founding year to include." aria-label="Founded from year"><option value="">Founded: from</option></select>
+      <select id="f-to" title="Latest founding year to include." aria-label="Founded to year"><option value="">Founded: to</option></select>
+      <select id="f-people" title="Entries with a named person, or a reachable LinkedIn profile." aria-label="People">
         <option value="">Any people</option>
         <option value="named">Has named people</option>
         <option value="linkedin">Has a LinkedIn link</option>
       </select>
-      <select id="s-sort" aria-label="Sort">
+      <select id="s-sort" title="Ordering. The last two use your own reading history." aria-label="Sort">
         <option value="name">Sort: A–Z</option>
         <option value="recent">Sort: recently active</option>
         <option value="founded-new">Sort: newest founded</option>
@@ -366,6 +385,6 @@
     No account needed. Anonymised visit stats only, via Google Analytics; Do Not Track is honoured.
   </footer>
 
-  <script type="module" src="app.js?v=b2457ad888"></script>
+  <script type="module" src="app.js?v=369c0693ef"></script>
 </body>
 </html>

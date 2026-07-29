@@ -252,6 +252,7 @@ function card(c) {
     c.funding_stage && `<span class="chip chip--muted">${esc(c.funding_stage)}${c.total_raised ? " · " + esc(c.total_raised) : ""}</span>`,
     ...(c.capabilities || []).map(capChip),
     c.scope === "horizontal" && `<span class="chip chip--muted" title="Serves several industries, not built for drinks">horizontal</span>`,
+    c.size && c.size !== "unknown" && `<span class="chip chip--size" title="Inferred size">${esc(c.size)}</span>`,
     seenChip(c.key),
   ].filter(Boolean).join("");
   const srcs = (c.source_urls || []).map(safeUrl).filter(Boolean).map((u, i) =>
@@ -282,6 +283,8 @@ function apply() {
     ft = $("f-type").value, fsrc = $("f-source").value, fp = $("f-people").value,
     ffund = $("f-funding").value, fcty = $("f-country").value, sort = $("s-sort").value,
     fplat = $("f-platform").value, fcap = $("f-capability").value, fseen = $("f-seen").value, fscope = $("f-scope").value,
+    fsize = $("f-size").value, freg = $("f-region").value,
+    fev = $("f-evidence").value, fhire = $("f-hiring").value,
     yFrom = +$("f-from").value || 0, yTo = +$("f-to").value || 9999;
   const shown = ALL.filter((c) => {
     if (fplat && !c._platforms.includes(fplat)) return false;
@@ -293,6 +296,11 @@ function apply() {
     if (fu && c._theme !== fu) return false;
     if (fcap && !(c.capabilities || []).includes(fcap)) return false;
     if (fscope && c.scope !== fscope) return false;
+    if (fsize && c.size !== fsize) return false;
+    if (freg && c.region !== freg) return false;
+    if (fev === "2" && (c.evidence || 0) < 2) return false;
+    if (fev === "1" && (c.evidence || 0) !== 1) return false;
+    if (fhire && !HIRING.has(c.name)) return false;
     if (fseen === "star" && !isStarred(c.key)) return false;
     if (fseen === "new" && seenState(c.key) !== "new") return false;
     if (fseen === "seen" && seenState(c.key) === "new") return false;
@@ -626,6 +634,9 @@ async function loadResources() {
 
 // --- Jobs view (open roles in the same field) ----------------------------
 let JOBS = [];
+// Companies with an open role right now. Built from the Jobs feed rather than
+// stored on the company, so it can never go stale relative to the postings.
+const HIRING = new Set();
 
 function jobCard(j) {
   const url = safeUrl(j.url);
@@ -648,6 +659,7 @@ function jobCard(j) {
 
 async function loadJobs() {
   try { JOBS = await (await fetch("jobs.json")).json(); } catch { JOBS = []; }
+  for (const j of JOBS) if (j.tracked_company) HIRING.add(j.tracked_company);
   if (!JOBS.length) { $("tab-jobs").hidden = true; return; }
   const latest = JOBS.map((j) => j.posted).filter(Boolean).sort().pop();
   if (latest) $("jobs-stamp").textContent = `Latest posting ${latest}.`;
@@ -1363,6 +1375,7 @@ async function main() {
   fillSelect($("f-vertical"), counts(ALL, "vertical"));
   fillSelect($("f-usecase"), counts(ALL, "_theme").map((p) => p[0]));
   fillSelect($("f-maturity"), counts(ALL, "ai_maturity"));
+  fillSelect($("f-region"), counts(ALL.filter((c) => c.region), "region"));
   // Multi-valued, so counts() (which reads one field) does not apply here.
   const capTally = {};
   for (const c of ALL) for (const k of c.capabilities || []) capTally[k] = (capTally[k] || 0) + 1;
@@ -1377,7 +1390,7 @@ async function main() {
   fillSelect($("f-from"), years.map(String));
   fillSelect($("f-to"), years.map(String));
 
-  for (const id of ["q", "f-vertical", "f-usecase", "f-capability", "f-scope", "f-seen", "f-maturity", "f-status", "f-type",
+  for (const id of ["q", "f-vertical", "f-usecase", "f-capability", "f-scope", "f-size", "f-region", "f-evidence", "f-hiring", "f-seen", "f-maturity", "f-status", "f-type",
     "f-platform", "f-funding", "f-country", "f-source", "f-from", "f-to", "f-people", "s-sort"]) {
     $(id).addEventListener("input", apply);
   }
@@ -1417,6 +1430,10 @@ async function main() {
 
   await loadResources();
   await loadJobs();
+  // The grid rendered before the jobs feed arrived, so HIRING was empty. A
+  // saved view with "hiring now" set would have shown nothing. Re-apply once
+  // the cross-tab fact exists.
+  if (HIRING.size) apply();
   await loadProspects();
 
   // global search: one box drives every tab + shows where matches are
