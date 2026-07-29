@@ -99,3 +99,13 @@ def test_liveness_states():
     assert check("x.com", get=lambda u: 403) is None
     assert check("x.com", get=lambda u: 404) is False
     assert check("", get=lambda u: 200) is False
+
+
+def test_liveness_transport_failure_is_blocked_not_dead():
+    """Only a missing DNS record proves a domain is gone; TLS and connection
+    failures are our client's problem and must not kill a live company."""
+    def boom(url):
+        raise OSError("[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version")
+    assert check("arryved.com", get=boom) is None
+    assert check("x.com", get=lambda u: None) is None
+    assert check("gone.example", get=lambda u: "dns") is False

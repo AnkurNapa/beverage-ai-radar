@@ -10,6 +10,11 @@ from __future__ import annotations
 from datetime import date
 
 BLOCKED_CODES = {401, 403, 405, 406, 429, 503}
+# Only DNS having no record for a domain is evidence the domain is gone. A TLS
+# handshake rejection, a refused connection or a timeout are all failures of
+# *our* client, and mis-read live companies as dead: arryved.com and
+# gastrograph.com both refuse this client's TLS and are plainly trading.
+DNS_MARKER = "dns"
 
 
 def check(domain: str, get=None) -> bool | None:
@@ -21,9 +26,11 @@ def check(domain: str, get=None) -> bool | None:
     try:
         status = get(f"https://{domain.removeprefix('https://').removeprefix('http://')}")
     except Exception:
+        return None
+    if status == DNS_MARKER:
         return False
     if status is None:
-        return False
+        return None  # TLS/connection/timeout: our problem, retry with a browser
     if status in BLOCKED_CODES:
         return None
     return 200 <= status < 400
@@ -40,7 +47,11 @@ def _default_get(url: str) -> int | None:
             headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"},
         )
         return resp.status_code
-    except Exception:
+    except Exception as exc:
+        # httpx wraps the resolver error, so match on the OS message rather than
+        # the exception class, which is ConnectError for every transport failure.
+        if "nodename nor servname" in str(exc) or "Name or service not known" in str(exc):
+            return DNS_MARKER
         return None
 
 
