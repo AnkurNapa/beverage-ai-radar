@@ -100,8 +100,9 @@ def tracker_sheet(wb, rows):
     # no longer resolves is one you want to see BEFORE you write the email,
     # not after.
     cols = ["Tier", "Company", "Region", "Segment", "Wedge", "Who to approach",
-            "Domain check", "Status", "Date contacted", "Response", "Next step", "Notes"]
-    widths = [6, 34, 18, 22, 24, 40, 30, 14, 14, 16, 24, 34]
+            "Domain check", "Contact email", "Contact phone", "Named contact",
+            "Status", "Date contacted", "Response", "Next step", "Notes"]
+    widths = [6, 34, 18, 22, 24, 40, 30, 30, 26, 34, 14, 14, 16, 24, 34]
     ws["A1"] = "Tier 1-2 targets. The last five columns are yours to fill in."
     ws["A1"].font = Font(italic=True, size=10, color="666560")
     header(ws, 2, cols, widths)
@@ -110,6 +111,9 @@ def tracker_sheet(wb, rows):
     data = [[x["tier"], x["company"], x["region"], x.get("segment", ""),
              x.get("wedge_group") or x.get("wedge", ""), x.get("entry", ""),
              x.get("domain_status", ""),
+             ", ".join(x.get("contact_emails") or []),
+             x.get("contact_phone", ""),
+             "; ".join(f'{c["name"]} ({c["role"]}) {c["email"]}' for c in (x.get("contact_people") or [])),
              None, None, None, None, None] for x in live]
     write_rows(ws, 3, data, [x["tier"] for x in live])
     ws.auto_filter.ref = f"A2:{get_column_letter(len(cols))}{2 + len(data)}"
@@ -151,6 +155,52 @@ def sources_sheet(wb, rows):
     return len(data)
 
 
+def contacts_sheet(wb, rows):
+    """One row per published contact point.
+
+    Only what a company puts on its own site. Nothing here is pattern-guessed
+    from a name, and nothing is scraped from a profile: a fabricated address
+    either bounces or reaches the wrong person, and both cost more than a
+    blank cell. Where a company publishes no contact, the row simply says so.
+    """
+    ws = wb.create_sheet("Contacts")
+    header(ws, 1, ["Company", "Region", "Tier", "Name", "Role", "Email", "Phone",
+                   "Postal address", "How we know", "Source", "Checked"],
+           [32, 15, 6, 24, 34, 32, 28, 46, 22, 44, 12])
+    data = []
+    for x in sorted(rows, key=lambda r: (r["tier"], r["region"], r["company"])):
+        emails = x.get("contact_emails") or []
+        people = x.get("contact_people") or []
+        if not emails and not people and not x.get("contact_phone") and not x.get("press_people"):
+            continue
+        for c in people:
+            data.append([x["company"], x["region"], x["tier"], c["name"], c["role"],
+                         c["email"], x.get("contact_phone", ""), x.get("contact_address", ""),
+                         "published by company", x.get("contact_source", ""),
+                         x.get("contact_checked", "")])
+        # Press-named executives carry no email on purpose: the company did not
+        # publish one for them, and inventing one is how a lead list becomes junk.
+        for c in x.get("press_people") or []:
+            data.append([x["company"], x["region"], x["tier"], c["name"], c["role"],
+                         "", x.get("contact_phone", ""), x.get("contact_address", ""),
+                         f"named in trade press {c['reported']}", c["source"],
+                         x.get("press_checked", "")])
+        for e in emails:
+            data.append([x["company"], x["region"], x["tier"], "", "general enquiry", e,
+                         x.get("contact_phone", ""), x.get("contact_address", ""),
+                         "published by company", x.get("contact_source", ""),
+                         x.get("contact_checked", "")])
+        if not emails and not people:
+            data.append([x["company"], x["region"], x["tier"], "", "phone only", "",
+                         x.get("contact_phone", ""), x.get("contact_address", ""),
+                         "published by company", x.get("contact_source", ""),
+                         x.get("contact_checked", "")])
+    write_rows(ws, 2, data)
+    ws.auto_filter.ref = f"A1:K{1 + len(data)}"
+    ws.sheet_view.showGridLines = False
+    return len(data)
+
+
 def main() -> int:
     if not SRC.exists():
         print(f"no prospect list at {SRC}")
@@ -161,12 +211,14 @@ def main() -> int:
     summary_sheet(wb, rows)
     n_track = tracker_sheet(wb, rows)
     all_sheet(wb, rows)
+    n_contacts = contacts_sheet(wb, rows)
     n_src = sources_sheet(wb, rows)
     OUT.mkdir(parents=True, exist_ok=True)
     path = OUT / "Prospects.xlsx"
     wb.save(path)
     print(f"{len(rows)} targets -> {path}")
-    print(f"  Summary · Outreach tracker ({n_track} rows) · All targets ({len(rows)}) · Sources ({n_src})")
+    print(f"  Summary · Outreach tracker ({n_track}) · Contacts ({n_contacts}) · "
+          f"All targets ({len(rows)}) · Sources ({n_src})")
     print(f"  {path.stat().st_size / 1024:.0f} kb")
     return 0
 
