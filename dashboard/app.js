@@ -282,13 +282,10 @@ function apply() {
     ft = $("f-type").value, fsrc = $("f-source").value, fp = $("f-people").value,
     ffund = $("f-funding").value, fcty = $("f-country").value, sort = $("s-sort").value,
     fplat = $("f-platform").value, fcap = $("f-capability").value, fseen = $("f-seen").value, fscope = $("f-scope").value,
-    yFrom = +$("f-from").value || 0, yTo = +$("f-to").value || 9999;
+    fera = $("f-era").value;
   const shown = ALL.filter((c) => {
     if (fplat && !c._platforms.includes(fplat)) return false;
-    // timeline: exclude only entries whose known founded_year falls outside the
-    // range. Undated entries stay visible so the filter narrows, not empties.
-    if (($("f-from").value || $("f-to").value) && c.founded_year
-        && (c.founded_year < yFrom || c.founded_year > yTo)) return false;
+    if (!inEra(c.founded_year, fera)) return false;
     if (fv && c.vertical !== fv) return false;
     if (fu && c._theme !== fu) return false;
     if (fcap && !(c.capabilities || []).includes(fcap)) return false;
@@ -567,15 +564,14 @@ function resCard(r) {
 function applyRes() {
   const q = $("rq").value.trim().toLowerCase();
   const fk = $("fr-kind").value, fv = $("fr-vertical").value, fp = $("fr-platform").value;
-  const yFrom = +$("fr-from").value || 0, yTo = +$("fr-to").value || 9999;
-  const yBound = $("fr-from").value || $("fr-to").value;
+  const fera = $("fr-era").value;
   const shown = RES.filter((r) => {
     if (fk && r.kind !== fk) return false;
     if (fv && r.vertical !== fv) return false;
     if (fp && !r._platforms.includes(fp)) return false;
     // year filter: exclude only dated items outside the range; undated items
     // (e.g. repos, videos with no year) stay visible so content is not emptied.
-    if (yBound && r.year && (r.year < yFrom || r.year > yTo)) return false;
+    if (!inEra(r.year, fera)) return false;
     if (q && !`${r.title} ${r.summary} ${r.meta}`.toLowerCase().includes(q)) return false;
     return true;
   });
@@ -616,10 +612,10 @@ async function loadResources() {
   if (!RES.length) { $("tab-resources").hidden = true; return; }
   fillSelect($("fr-vertical"), [...new Set(RES.map((r) => r.vertical).filter(Boolean))].sort());
   fillSelect($("fr-platform"), counts(RES.flatMap((r) => r._platforms).map((p) => ({ p })), "p").map((x) => x[0]));
-  const resYears = [...new Set(RES.map((r) => r.year).filter(Boolean))].sort((a, b) => a - b);
-  fillSelect($("fr-from"), resYears.map(String));
-  fillSelect($("fr-to"), resYears.map(String));
-  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-from", "fr-to", "fr-sort"]) $(id).addEventListener("input", applyRes);
+  // Papers reach back to 1994 but 188 of 259 dated items are 2020s, so the
+  // recent buckets are the ones that earn a place here.
+  fillEras($("fr-era"), RES, (r) => r.year);
+  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-era", "fr-sort"]) $(id).addEventListener("input", applyRes);
   applyRes();
 
 }
@@ -853,6 +849,57 @@ function renderKpis(rows = ALL) {
   if (!filtered) $("meta").textContent = `${n} entries · ${active} active · ${peopleCount} people.`;
 }
 
+
+// --- Period buckets --------------------------------------------------------
+// The year filters were two selects each, listing every distinct year in the
+// data: 1847, 1857, 1864, one company apiece, 36 options to pick a range from.
+// Nobody wants "founded between 1857 and 1903". These are the periods people
+// actually think in, each carrying its own count so the choice is informed,
+// and each derived from the data rather than hard-coded.
+const NOW = new Date().getFullYear();
+const ERAS = [
+  { id: "recent2", label: "Last 2 years", lo: NOW - 2, hi: 9999 },
+  { id: "recent5", label: "Last 5 years", lo: NOW - 5, hi: 9999 },
+  { id: "2020s", label: "2020s", lo: 2020, hi: 2029 },
+  { id: "2010s", label: "2010s", lo: 2010, hi: 2019 },
+  { id: "2000s", label: "2000s", lo: 2000, hi: 2009 },
+  { id: "pre2000", label: "Before 2000", lo: 0, hi: 1999 },
+];
+const eraById = (id) => ERAS.find((e) => e.id === id);
+
+/** Build the options for a period select, dropping empty buckets.
+ *  Undated rows get an option of their own rather than being folded into every
+ *  bucket: a large share of this data has no year, and hiding that inside the
+ *  other choices made "2010s (52)" return 159. */
+function fillEras(el, rows, yearOf, only) {
+  const pool = only ? ERAS.filter((e) => only.includes(e.id)) : ERAS;
+  for (const e of pool) {
+    const n = rows.filter((r) => { const y = yearOf(r); return y && y >= e.lo && y <= e.hi; }).length;
+    if (!n) continue;
+    const o = document.createElement("option");
+    o.value = e.id;
+    o.textContent = `${e.label} (${n})`;
+    el.appendChild(o);
+  }
+  const undated = rows.filter((r) => !yearOf(r)).length;
+  if (undated) {
+    const o = document.createElement("option");
+    o.value = "undated";
+    o.textContent = `No year recorded (${undated})`;
+    el.appendChild(o);
+  }
+}
+
+/** True when the row passes. Every option's count now matches the number of
+ *  results it produces, which is the property that makes a count worth
+ *  showing at all. */
+function inEra(year, eraId) {
+  if (!eraId) return true;
+  if (eraId === "undated") return !year;
+  if (!year) return false;
+  const e = eraById(eraId);
+  return !!e && year >= e.lo && year <= e.hi;
+}
 
 // --- Icons ---------------------------------------------------------------
 // Inline SVG rather than emoji: emoji render as a different glyph on every
@@ -1373,12 +1420,12 @@ async function main() {
   fillSelect($("f-funding"), counts(ALL.map((c) => ({ f: fundingBucket(c) })).filter((x) => x.f), "f").map((p) => p[0]));
   fillSelect($("f-country"), counts(ALL.filter((c) => countryOf(c)).map((c) => ({ c: countryOf(c) })), "c").map((p) => p[0]));
   fillSelect($("f-source"), counts(ALL.map((c) => ({ source: sourceOf(c) })), "source").map((p) => p[0]));
-  const years = [...new Set(ALL.map((c) => c.founded_year).filter(Boolean))].sort((a, b) => a - b);
-  fillSelect($("f-from"), years.map(String));
-  fillSelect($("f-to"), years.map(String));
+  // A company founded last year is not "recent" the way a paper is, so the
+  // rolling buckets are dropped here and the decades kept.
+  fillEras($("f-era"), ALL, (c) => c.founded_year, ["2020s", "2010s", "2000s", "pre2000"]);
 
   for (const id of ["q", "f-vertical", "f-usecase", "f-capability", "f-scope", "f-seen", "f-maturity", "f-status", "f-type",
-    "f-platform", "f-funding", "f-country", "f-source", "f-from", "f-to", "f-people", "s-sort"]) {
+    "f-platform", "f-funding", "f-country", "f-source", "f-era", "f-people", "s-sort"]) {
     $(id).addEventListener("input", apply);
   }
   apply();
