@@ -1135,56 +1135,41 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
 }
 
 /* --- Filter rail ----------------------------------------------------------
-   On a laptop the filter row sat above the results, so scrolling the grid
-   scrolled the controls off screen and changing one filter meant scrolling
-   back up. At 1100px and wider the controls become a sticky left rail: the
-   filters stay in view the whole time and the results get the remaining
-   width, which is the layout every faceted-search tool converges on for the
-   same reason.
+   On a laptop the controls sat above the results, so scrolling the grid
+   scrolled them away and changing a filter meant scrolling back up. At 1100px
+   and wider they become a sticky left rail.
 
-   Below 1100px it stays a collapsible row (see the disclosure rules), because
-   a rail on a narrow screen just eats the width the content needs. */
+   The columns are two wrapper elements built in app.js, not grid areas. Naming
+   an area and assigning several children to it stacks them in one cell rather
+   than flowing them, which put the rail, the chip bar and the saved views on
+   top of each other. With one element per column the grid has exactly two
+   children and nothing can overlap.
+
+   Below 1100px the wrappers simply stop being a grid and everything returns to
+   normal block flow, so the collapsible row behaves as before. */
 @media (min-width: 1100px) {
   .view.wrap { max-width: 1500px; }
-
-  #view-companies, #view-resources, #view-jobs, #view-prospects, #view-people {
+  .view:has(> .rail) {
     display: grid;
     grid-template-columns: 250px minmax(0, 1fr);
-    grid-template-areas: "rail body";
     column-gap: 2.5rem;
     align-items: start;
   }
-  /* Everything that is not the rail flows into the body column. The :not()
-     matters: an ID-prefixed rule outranks a bare .controls selector, so
-     without it the rail would be assigned to the body column and stretch to
-     full width. */
-  #view-companies > *:not(.controls):not(.chipbar):not(.viewbar),
-  #view-resources > *:not(.controls):not(.chipbar):not(.viewbar),
-  #view-jobs > *:not(.controls):not(.chipbar):not(.viewbar),
-  #view-prospects > *:not(.controls):not(.chipbar):not(.viewbar),
-  #view-people > *:not(.controls):not(.chipbar):not(.viewbar) { grid-area: body; min-width: 0; }
-
-  #view-companies > .controls, #view-resources > .controls, #view-jobs > .controls,
-  #view-prospects > .controls, #view-people > .controls {
-    grid-area: rail;
-    position: sticky; top: 96px;          /* clears the sticky masthead */
-    display: flex; flex-direction: column; align-items: stretch;
-    gap: .1rem;
+  .rail {
+    position: sticky; top: 96px;
     max-height: calc(100vh - 120px); overflow-y: auto;
-    margin: 0; padding: 0 1rem 1rem 0;
-    border-bottom: 0; border-right: 1px solid var(--line);
+    padding-right: 1rem; border-right: 1px solid var(--line);
   }
-  .controls input, .controls select { width: 100%; padding: .55rem .1rem; }
-  .controls input { flex: none; }
-  .controls .count { margin: .6rem 0 0; }
+  .body { min-width: 0; }
 
-  /* Chip bar and saved views follow the rail rather than the old row spacing. */
-  #view-companies > .chipbar, #view-resources > .chipbar, #view-jobs > .chipbar,
-  #view-prospects > .chipbar, #view-people > .chipbar,
-  #view-companies > .viewbar, #view-resources > .viewbar, #view-jobs > .viewbar,
-  #view-prospects > .viewbar, #view-people > .viewbar { grid-area: rail; margin: 0 1rem 0 0; }
-  .chipbar { padding-top: .6rem; }
-  .viewbar { padding-bottom: .8rem; border-bottom: 1px solid var(--line); }
+  .rail .controls {
+    display: flex; flex-direction: column; align-items: stretch; gap: .1rem;
+    margin: 0; padding: 0; border-bottom: 0;
+  }
+  .rail .controls input, .rail .controls select { width: 100%; padding: .55rem .1rem; }
+  .rail .controls input { flex: none; }
+  .rail .count { margin: .6rem 0 0; }
+  .rail .chipbar, .rail .viewbar { margin: .7rem 0 0; }
 }
 
 /* Size chip: quieter than a vertical, since it is inferred rather than stated. */

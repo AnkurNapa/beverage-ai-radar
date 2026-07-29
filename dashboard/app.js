@@ -1248,6 +1248,30 @@ function makeCollapsible(el, label, openByDefault) {
   return { bar, set };
 }
 
+// Two real columns, built in the DOM rather than with grid-template-areas.
+// Assigning several children to one named area does not flow them: it stacks
+// them in the same cell, which is exactly what happened — the filter rail, the
+// chip bar and the saved views all landed on top of each other, and so did the
+// map, the breakdowns and the results grid. Wrapping each column in its own
+// element is the fix, because then the grid has exactly two children.
+function buildColumns() {
+  for (const view of document.querySelectorAll(".view")) {
+    if (view.id === "view-about" || view.id === "view-detail") continue;
+    const controls = view.querySelector(":scope > .controls");
+    if (!controls) continue;
+    const rail = document.createElement("aside");
+    rail.className = "rail";
+    const body = document.createElement("div");
+    body.className = "body";
+    view.insertBefore(rail, view.firstChild);
+    view.appendChild(body);
+    for (const el of [...view.children]) {
+      if (el === rail || el === body) continue;
+      (el.matches(".controls, .chipbar, .viewbar") ? rail : body).appendChild(el);
+    }
+  }
+}
+
 function wireCollapsibles() {
   const phone = window.matchMedia("(max-width: 720px)");
   const made = [];
@@ -1455,6 +1479,7 @@ async function main() {
   gq.addEventListener("input", globalSearch);
 
   wireFilterVisibility();
+  buildColumns();          // after the chip and view bars exist, so they move too
   wireCollapsibles();
   renderWhatsNew();
   renderHint(CURRENT_TAB);
