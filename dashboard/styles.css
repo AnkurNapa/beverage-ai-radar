@@ -1177,3 +1177,19 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
   background: transparent; border: 1px dashed var(--line-strong);
   color: var(--muted); text-transform: lowercase;
 }
+
+/* --- Hero, only where it earns its space --------------------------------
+   The banner sat above every tab: an eyebrow, an h1 that repeats the wordmark
+   already in the masthead, and a lede explaining what the site is. On the
+   landing view that is orientation. On the Jobs tab, four scrolls into a
+   session, it is 434px of something you have already read.
+
+   The h1 and lede stay in the DOM on every view so the document keeps one
+   heading and search engines keep the description; they are simply not
+   rendered once you have moved on. The global search is the exception: it is
+   the primary tool, so it stays. */
+body:not([data-view="companies"]) .hero__eyebrow,
+body:not([data-view="companies"]) .hero__title,
+body:not([data-view="companies"]) .hero__lede { display: none; }
+body:not([data-view="companies"]) .hero { padding-top: .75rem; padding-bottom: 0; }
+body:not([data-view="companies"]) .hero__search { margin-top: 0; }
