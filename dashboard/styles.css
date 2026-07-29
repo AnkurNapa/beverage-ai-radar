@@ -619,3 +619,166 @@ a:hover { color: var(--accent-hover); }
 @media (prefers-reduced-motion: reduce) {
   * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+/* Capability chips: the second axis (IoT, AI, ERP, BI, ESG, consultancy).
+   Deliberately quieter than the vertical chip so the card still reads
+   company-first, capability-second. */
+.chip--cap {
+  background: transparent;
+  border: 1px solid rgba(0, 103, 184, 0.35);
+  color: #0067b8;
+  font-size: 0.72rem;
+}
+@media (prefers-color-scheme: dark) {
+  .chip--cap { border-color: rgba(120, 180, 240, 0.4); color: #7ab4f0; }
+}
+
+/* --- Filter visibility ---------------------------------------------------
+   An active filter must look different from an idle one. Before this, all
+   fourteen selects on the Companies tab looked identical whether set or not. */
+.controls select.is-active,
+.controls input.is-active {
+  border-bottom-color: var(--accent);
+  border-bottom-width: 2px;
+  font-weight: 400;
+  color: var(--accent);
+}
+
+/* Removable chips summarising current filter state, below the controls. */
+.chipbar {
+  display: flex; flex-wrap: wrap; gap: .5rem; align-items: center;
+  margin: -1.75rem 0 2rem;
+}
+.fchip {
+  display: inline-flex; align-items: center; gap: .4rem;
+  font: inherit; font-size: .75rem; line-height: 1;
+  padding: .4rem .6rem; cursor: pointer;
+  background: color-mix(in oklab, var(--accent) 8%, transparent);
+  border: 1px solid color-mix(in oklab, var(--accent) 30%, transparent);
+  border-radius: 999px; color: var(--ink);
+  transition: background .15s ease, border-color .15s ease;
+}
+.fchip:hover { background: color-mix(in oklab, var(--accent) 16%, transparent); }
+.fchip__k { text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-size: .65rem; }
+.fchip__v { font-weight: 400; }
+.fchip__x { color: var(--muted); font-size: .95rem; margin-left: .1rem; }
+.fchip:hover .fchip__x { color: var(--accent); }
+.fchip--clear {
+  background: transparent; border-style: dashed; color: var(--muted);
+}
+.fchip--clear:hover { color: var(--accent); border-color: var(--accent); }
+
+
+/* Below tablet the 16-column grid becomes unreadable, so show names instead
+   of trying to preserve geography at 3px per tile. */
+@media (max-width: 720px) {
+  .wmap { grid-template-columns: repeat(auto-fill, minmax(5.5rem, 1fr)); }
+  .wtile { grid-column: auto !important; grid-row: auto !important; flex-direction: row; gap: .35rem; }
+  .wtile__k { display: inline; font-size: .7rem; }
+  .wtile__c { display: none; }             /* full name is shown at this size */
+}
+
+
+/* Capability chips carry a small inline icon; same stroke family as the map. */
+.chip--cap { display: inline-flex; align-items: center; gap: .3rem; }
+.chip--cap svg { width: 11px; height: 11px; flex: none; opacity: .8; }
+
+/* --- World map (projected choropleth) ------------------------------------
+   Geometry is built offline by scripts/build_worldmap.py and served locally;
+   nothing is fetched from a CDN at runtime. */
+.wmap-card { margin-bottom: 2rem; }
+.wmap-hint {
+  font-size: .7rem; text-transform: uppercase; letter-spacing: .1em;
+  color: var(--muted); font-weight: 300; margin-left: .75rem;
+}
+svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
+
+/* Countries with no data stay visible but recede: the shape of the world is
+   the context that makes the filled countries legible. */
+.wc {
+  fill: var(--line); stroke: var(--bg); stroke-width: .6;
+  transition: fill .15s ease;
+}
+.wc--has {
+  fill: color-mix(in oklab, var(--accent) calc(var(--w, .5) * 100%), var(--line));
+  cursor: pointer;
+}
+.wc--has:hover { fill: var(--accent); }
+.wc--has:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.wc--has.is-on { stroke: var(--ink); stroke-width: 1.4; }
+
+.wmap__legend {
+  display: flex; align-items: center; gap: .4rem; margin-top: .6rem;
+  font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em;
+}
+.wmap__scale { display: inline-flex; gap: 2px; }
+.wmap__scale i {
+  width: 14px; height: 8px; display: block;
+  background: color-mix(in oklab, var(--accent) calc(var(--w) * 100%), var(--line));
+}
+.wmap__spacer { flex: 0 0 .5rem; }
+.wmap__note { margin-left: auto; text-transform: none; letter-spacing: 0; }
+
+/* City-states have no drawable polygon; a marker keeps them on the map. */
+.wc--dot { stroke: var(--bg); stroke-width: 1; }
+.wc--dot.is-on { stroke: var(--ink); stroke-width: 1.6; }
+
+/* Count labels: only on landmasses big enough to hold them (see LABEL_MIN_AREA).
+   Non-interactive so they never swallow a click meant for the country. */
+.wc__num {
+  font-size: 11px; font-weight: 600; fill: var(--bg);
+  text-anchor: middle; dominant-baseline: central;
+  pointer-events: none; paint-order: stroke;
+  stroke: color-mix(in oklab, var(--ink) 55%, transparent); stroke-width: 2.4px;
+}
+
+/* Custom tooltip: the native <title> takes ~1s to appear and cannot show a
+   breakdown. This one is instant and carries the vertical split plus names. */
+.wtip {
+  position: absolute; z-index: 20; pointer-events: none;
+  min-width: 9rem; max-width: 15rem; padding: .55rem .7rem;
+  background: var(--bg); border: 1px solid var(--line-strong);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .14); border-radius: 4px;
+  font-size: .78rem; line-height: 1.35;
+}
+.wtip__h { font-weight: 600; margin-bottom: .1rem; }
+.wtip__n { color: var(--accent); font-size: .72rem; margin-bottom: .3rem; }
+.wtip__vs { display: flex; flex-wrap: wrap; gap: .25rem; margin-bottom: .3rem; }
+.wtip__v {
+  font-size: .65rem; padding: .1rem .35rem; border-radius: 999px;
+  background: color-mix(in oklab, var(--accent) 10%, transparent); color: var(--muted);
+}
+.wtip__list { font-size: .7rem; color: var(--muted); }
+.wmap-card { position: relative; }        /* tooltip anchors to the card */
+
+/* --- Map zoom, detail and back ------------------------------------------- */
+.wmap__back {
+  position: absolute; top: .6rem; right: .6rem; z-index: 15;
+  font: inherit; font-size: .72rem; cursor: pointer;
+  padding: .35rem .6rem; border-radius: 999px;
+  background: var(--bg); border: 1px solid var(--line-strong); color: var(--ink);
+  opacity: 0; pointer-events: none; transition: opacity .18s ease;
+}
+.is-zoomed .wmap__back { opacity: 1; pointer-events: auto; }
+.wmap__back:hover { border-color: var(--accent); color: var(--accent); }
+
+/* Granular list for the selected place. Capped height so a 67-company country
+   cannot push the rest of the page off screen. */
+.wdetail:empty { display: none; }
+.wdetail {
+  margin-top: .9rem; padding-top: .8rem; border-top: 1px solid var(--line);
+  max-height: 15rem; overflow-y: auto;
+}
+.wdetail__h {
+  font-size: .72rem; text-transform: uppercase; letter-spacing: .1em;
+  color: var(--muted); margin-bottom: .5rem;
+}
+.wdetail__list { list-style: none; margin: 0; padding: 0; }
+.wdetail__list li {
+  display: flex; align-items: center; gap: .5rem; flex-wrap: wrap;
+  padding: .3rem 0; border-bottom: 1px solid var(--line);
+  font-size: .8rem;
+}
+.wdetail__n { font-weight: 400; }
+.wdetail__m { color: var(--muted); font-size: .72rem; margin-left: auto; }
+.wdetail__more { font-size: .72rem; color: var(--muted); padding-top: .5rem; }

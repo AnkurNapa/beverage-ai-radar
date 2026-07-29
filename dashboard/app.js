@@ -75,7 +75,7 @@ function fundingBucket(c) {
   if (/series|vc/.test(f)) return "Later stage";
   return "Other";
 }
-const countryOf = (c) => (c.hq_location || "").split(",").pop().trim();
+const countryOf = (c) => c.country || (c.hq_location || "").split(",").pop().trim();
 
 // Detect named tech platforms mentioned in free text (specific before generic).
 const PLATFORM_RULES = [
@@ -191,10 +191,15 @@ function renderBars(el, pairs, filterId, kind) {
   });
 }
 
-function fillSelect(el, values) {
+function fillSelect(el, values, tally) {
   for (const v of values) {
+    // Accept plain strings or [value, count] pairs. Showing the count means you
+    // pick a filter knowing what it will return, instead of selecting into an
+    // empty grid and backing out again.
+    const [val, n] = Array.isArray(v) ? v : [v, tally ? tally[v] : undefined];
     const o = document.createElement("option");
-    o.value = v; o.textContent = v;
+    o.value = val;
+    o.textContent = n == null ? val : `${val} (${n})`;
     el.appendChild(o);
   }
 }
@@ -222,6 +227,7 @@ function card(c) {
     c.ai_maturity && `<span class="chip chip--mat chip--${esc(c.ai_maturity)}">${esc(c.ai_maturity)}</span>`,
     c.status === "dormant" && `<span class="chip chip--dormant">dormant</span>`,
     c.funding_stage && `<span class="chip chip--muted">${esc(c.funding_stage)}${c.total_raised ? " · " + esc(c.total_raised) : ""}</span>`,
+    ...(c.capabilities || []).map(capChip),
   ].filter(Boolean).join("");
   const srcs = (c.source_urls || []).map(safeUrl).filter(Boolean).map((u, i) =>
     `<a href="${esc(u)}" target="_blank" rel="noopener">source ${i + 1}</a>`).join(" · ");
@@ -242,13 +248,14 @@ function card(c) {
   </article>`;
 }
 
+let LAST_SHOWN = null;
 function apply() {
   const q = $("q").value.trim().toLowerCase();
   const fv = $("f-vertical").value, fu = $("f-usecase").value,
     fm = $("f-maturity").value, fs = $("f-status").value,
     ft = $("f-type").value, fsrc = $("f-source").value, fp = $("f-people").value,
     ffund = $("f-funding").value, fcty = $("f-country").value, sort = $("s-sort").value,
-    fplat = $("f-platform").value,
+    fplat = $("f-platform").value, fcap = $("f-capability").value,
     yFrom = +$("f-from").value || 0, yTo = +$("f-to").value || 9999;
   const shown = ALL.filter((c) => {
     if (fplat && !c._platforms.includes(fplat)) return false;
@@ -258,6 +265,7 @@ function apply() {
         && (c.founded_year < yFrom || c.founded_year > yTo)) return false;
     if (fv && c.vertical !== fv) return false;
     if (fu && c._theme !== fu) return false;
+    if (fcap && !(c.capabilities || []).includes(fcap)) return false;
     if (fm && c.ai_maturity !== fm) return false;
     if (fs && c.status !== fs) return false;
     if (ft && (c.company_type || "product") !== ft) return false;
@@ -282,6 +290,14 @@ function apply() {
   });
   renderKpis(shown);
   renderBreakdowns(shown);
+  LAST_SHOWN = shown;
+  // Drawn from the FULL set, not the filtered one: a map that erases every
+  // country you did not pick cannot be used to pick a different one.
+  renderWorldMap($("world-companies"), ALL, countryOf, (place) => {
+    const sel = $("f-country");
+    sel.value = place || "";            // null = back to world
+    sel.dispatchEvent(new Event("input", { bubbles: true }));
+  }, $("f-country").value, { unit: "countries", noun: "companies", label: "Companies by country" });
   $("count").textContent = `${shown.length} of ${ALL.length}`;
   $("grid").innerHTML = shown.length
     ? shown.map(card).join("")
@@ -333,13 +349,14 @@ function applyPeople() {
     return true;
   });
   const withLi = shown.filter((p) => p.linkedin).length;
+  kpisFor("people", shown, PEOPLE);
   $("pcount").textContent = `${shown.length} people · ${withLi} with LinkedIn`;
   $("people-list").innerHTML = shown.length
     ? shown.map(personRow).join("")
     : `<p class="empty">No people match.</p>`;
 }
 
-const VIEWS = ["companies", "people", "resources", "podcasts", "jobs", "about"];
+const VIEWS = ["companies", "people", "resources", "podcasts", "jobs", "prospects", "about"];
 let CURRENT_TAB = "companies";
 function showView(which) {
   CURRENT_TAB = which;
@@ -350,6 +367,9 @@ function showView(which) {
   }
   $("view-detail").hidden = true;
   $("tabs").hidden = false;
+  $("kpis").hidden = which === "about";
+  if (which === "companies") renderKpis(LAST_SHOWN || ALL);
+  else kpisFor(which);
   window.scrollTo(0, 0);
 }
 
@@ -509,6 +529,7 @@ function applyRes() {
       return sortMode === "newest" ? bv.localeCompare(av) : av.localeCompare(bv);
     });
   }
+  kpisFor("resources", shown, RES);
   $("rcount").textContent = `${shown.length} of ${RES.length}`;
   $("res-grid").innerHTML = shown.length
     ? shown.map(resCard).join("")
@@ -541,6 +562,7 @@ async function loadResources() {
     const q = $("podq").value.trim().toLowerCase(), fv = $("fpod-vertical").value;
     const shown = pods.filter((p) =>
       (!fv || p.vertical === fv) && (!q || `${p.title} ${p.summary} ${p.meta}`.toLowerCase().includes(q)));
+    kpisFor("podcasts", shown, pods);
     $("podcount").textContent = `${shown.length} podcast${shown.length === 1 ? "" : "s"}`;
     $("pod-grid").innerHTML = shown.length ? shown.map(resCard).join("") : `<p class="empty">No podcasts match.</p>`;
   };
@@ -578,13 +600,14 @@ async function loadJobs() {
   if (latest) $("jobs-stamp").textContent = `Latest posting ${latest}.`;
   fillSelect($("fj-vertical"), [...new Set(JOBS.map((j) => j.vertical).filter(Boolean))].sort());
   // countries by volume, so the places actually hiring sit at the top
-  fillSelect($("fj-country"), counts(JOBS, "country").map((p) => p[0]).filter((c) => c !== "unknown"));
+  fillSelect($("fj-country"), counts(JOBS, "country").filter(([c]) => c !== "unknown"));
   const applyJobs = () => {
     const q = $("jq").value.trim().toLowerCase();
     const fv = $("fj-vertical").value, ft = $("fj-tracked").value, fc = $("fj-country").value;
     const shown = JOBS.filter((j) =>
       (!fv || j.vertical === fv) && (!ft || j.tracked_company) && (!fc || j.country === fc)
       && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
+    kpisFor("jobs", shown, JOBS);
     $("jcount").textContent = `${shown.length} of ${JOBS.length}`;
     $("jobs-grid").innerHTML = shown.length
       ? shown.map(jobCard).join("")
@@ -594,12 +617,161 @@ async function loadJobs() {
   applyJobs();
 }
 
+// --- Prospects view (PRIVATE: who to pitch) ------------------------------
+// prospects.json is gitignored, so on the published site the fetch 404s, this
+// returns early, and the tab stays hidden. The data never ships. Do not
+// "fix" that by committing the file: this repo is public.
+let PROSPECTS = [];
+const TIER_LABEL = {
+  1: "Best fit, will pay",
+  2: "Corporate, long cycle",
+  3: "Volume SaaS play",
+  4: "Channel multiplier",
+  5: "Adjacent buyer",
+};
+
+function prospectCard(p) {
+  const url = safeUrl(p.url);
+  const name = url
+    ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(p.company)}</a>`
+    : esc(p.company);
+  const field = (label, val) =>
+    val ? `<div class="res__meta"><strong>${label}:</strong> ${esc(val)}</div>` : "";
+  return `<article class="res res--job">
+    <div class="res__body">
+      <div class="res__tags">
+        <span class="chip chip--kind">Tier ${esc(String(p.tier))}</span>
+        ${p.vertical ? `<span class="chip chip--v chip--${esc(p.vertical)}">${esc(p.vertical)}</span>` : ""}
+        ${p.region ? `<span class="chip">${esc(p.region)}</span>` : ""}
+        ${(p.capabilities || []).map(capChip).join("")}
+      </div>
+      <h3 class="res__title">${name}</h3>
+      <div class="res__meta">${esc([p.segment, p.hq].filter(Boolean).join(" · "))}</div>
+      ${field("Pain", p.pain)}
+      ${field("Wedge", p.wedge)}
+      ${field("Entry", p.entry)}
+    </div>
+  </article>`;
+}
+
+async function loadProspects() {
+  try {
+    const r = await fetch("prospects.json");
+    if (!r.ok) throw new Error("absent");
+    PROSPECTS = await r.json();
+  } catch { PROSPECTS = []; }
+  if (!PROSPECTS.length) return;          // published site: tab stays hidden
+  $("tab-prospects").hidden = false;
+
+  const regions = counts(PROSPECTS, "region");
+  $("prospects-stamp").textContent =
+    `${PROSPECTS.length} targets across ${regions.length} region${regions.length === 1 ? "" : "s"}.`;
+  fillSelect($("fpr-region"), regions);
+  fillSelect($("fpr-vertical"), [...new Set(PROSPECTS.map((p) => p.vertical).filter(Boolean))].sort());
+  fillSelect($("fpr-tier"), [...new Set(PROSPECTS.map((p) => p.tier))].sort()
+    .map((t) => `${t} — ${TIER_LABEL[t] || ""}`));
+  const pcap = {};
+  for (const p of PROSPECTS) for (const c of p.capabilities || []) pcap[c] = (pcap[c] || 0) + 1;
+  fillSelect($("fpr-capability"),
+    Object.entries(pcap).sort((a, b) => b[1] - a[1]));
+
+  const applyProspects = () => {
+    const q = $("prq").value.trim().toLowerCase();
+    const fr = $("fpr-region").value, fv = $("fpr-vertical").value;
+    const ft = $("fpr-tier").value ? Number($("fpr-tier").value.split(" ")[0]) : 0;
+    const fc = $("fpr-capability").value;
+    const shown = PROSPECTS.filter((p) =>
+      (!fr || p.region === fr) && (!fv || p.vertical === fv) && (!ft || p.tier === ft)
+      && (!fc || (p.capabilities || []).includes(fc))
+      && (!q || `${p.company} ${p.segment} ${p.hq} ${p.pain} ${p.wedge} ${p.entry}`.toLowerCase().includes(q)));
+    renderWorldMap($("world-prospects"), PROSPECTS, (p) => p.region, (place) => {
+      const sel = $("fpr-region");
+      sel.value = place || "";          // null = back to world
+      sel.dispatchEvent(new Event("input", { bubbles: true }));
+    }, $("fpr-region").value, { unit: "regions", noun: "targets", label: "Targets by region" });
+    kpisFor("prospects", shown, PROSPECTS);
+    $("prcount").textContent = `${shown.length} of ${PROSPECTS.length}`;
+    $("prospects-grid").innerHTML = shown.length
+      ? shown.map(prospectCard).join("")
+      : `<p class="empty">No prospects match these filters.</p>`;
+  };
+  for (const id of ["prq", "fpr-region", "fpr-vertical", "fpr-tier", "fpr-capability"]) $(id).addEventListener("input", applyProspects);
+  applyProspects();
+}
+
 // Headline figures follow the active filters, so the strip, the breakdown bars
 // and the grid below always describe the same set of companies.
 function renderBreakdowns(rows = ALL) {
   renderBars($("bd-vertical"), counts(rows, "vertical"), "f-vertical", "vertical");
   renderBars($("bd-usecase"), counts(rows, "_theme"), "f-usecase", "theme");
   renderBars($("bd-maturity"), counts(rows, "ai_maturity"), "f-maturity", "maturity");
+}
+
+
+// --- KPI strip, per tab --------------------------------------------------
+// The strip lives outside the view containers, so it must be told which tab
+// it is describing. Before this it always showed company figures, which meant
+// the Jobs and Prospects tabs displayed numbers about something else entirely.
+// Every tab's filter function calls kpisFor(), so the strip tracks filters.
+function paintKpis(cards) {
+  $("kpis").innerHTML = cards.map(([num, label, sub]) => `
+    <div class="kpi">
+      <span class="kpi__num">${num}</span>
+      <span class="kpi__label">${esc(label)}</span>
+      <span class="kpi__sub">${esc(sub)}</span>
+    </div>`).join("");
+}
+
+const uniq = (rows, f) => new Set(rows.map(f).filter(Boolean)).size;
+// "1 regions" reads as a bug even when the number is right. Naive s-stripping
+// is not enough: it turns "companies" into "companie".
+const plural = (n, word) => {
+  if (n === 1) return word.replace(/ies$/, "y").replace(/([^s])s$/, "$1");
+  return word;
+};
+const sub = (shown, total, noun) =>
+  shown === total ? noun : `of ${total} ${noun}`;
+
+const KPI_BUILDERS = {
+  people: (rows, all) => [
+    [rows.length, rows.length === all.length ? "people" : "matching", sub(rows.length, all.length, "named people")],
+    [rows.filter((p) => p.linkedin).length, "with LinkedIn", "directly reachable"],
+    [uniq(rows, (p) => p.company), plural(uniq(rows, (p) => p.company), "companies"), "they work across"],
+    [uniq(rows, (p) => p.vertical), plural(uniq(rows, (p) => p.vertical), "verticals"), "beer · whiskey · wine"],
+  ],
+  resources: (rows, all) => [
+    [rows.length, rows.length === all.length ? "resources" : "matching", sub(rows.length, all.length, "resources")],
+    [rows.filter((r) => r.kind === "paper").length, plural(rows.filter((r) => r.kind === "paper").length, "papers"), "peer-reviewed research"],
+    [rows.filter((r) => r.kind === "repo").length, plural(rows.filter((r) => r.kind === "repo").length, "repositories"), "open-source code"],
+    [uniq(rows, (r) => r.vertical), plural(uniq(rows, (r) => r.vertical), "verticals"), "covered"],
+  ],
+  podcasts: (rows, all) => [
+    [rows.length, rows.length === all.length ? "podcasts" : "matching", sub(rows.length, all.length, "podcasts")],
+    [uniq(rows, (r) => r.vertical), plural(uniq(rows, (r) => r.vertical), "verticals"), "covered"],
+  ],
+  jobs: (rows, all) => [
+    [rows.length, rows.length === all.length ? "open roles" : "matching", sub(rows.length, all.length, "open roles")],
+    [rows.filter((j) => j.tracked_company).length, "on the radar", "employer already tracked"],
+    [uniq(rows, (j) => j.company), plural(uniq(rows, (j) => j.company), "employers"), "hiring right now"],
+    [uniq(rows, (j) => j.country), plural(uniq(rows, (j) => j.country), "countries"), "where the roles are"],
+  ],
+  prospects: (rows, all) => [
+    [rows.length, rows.length === all.length ? "targets" : "matching", sub(rows.length, all.length, "targets")],
+    [rows.filter((p) => p.tier <= 2).length, "actionable", "tier 1-2, named and sourced"],
+    [uniq(rows, (p) => p.region), plural(uniq(rows, (p) => p.region), "regions"), "covered"],
+    [rows.filter((p) => p.tier === 4).length, "channel", "events, bodies, partners"],
+  ],
+};
+
+// Last filtered set per tab, so switching tabs repaints the right figures
+// without re-running that tab's filter.
+const KPI_STATE = {};
+function kpisFor(tab, rows, all) {
+  if (rows) KPI_STATE[tab] = [rows, all];
+  const state = KPI_STATE[tab];
+  if (CURRENT_TAB !== tab || !state) return;
+  const build = KPI_BUILDERS[tab];
+  if (build) paintKpis(build(state[0], state[1]));
 }
 
 function renderKpis(rows = ALL) {
@@ -614,7 +786,7 @@ function renderKpis(rows = ALL) {
     [n, filtered ? "matching" : "tracked", filtered ? `of ${ALL.length} companies & ventures` : "companies & ventures"],
     [active, "active", "seen in the last 18 months"],
     [shipping, "shipping", "product in market, not just research"],
-    [verticals, "verticals", "beer · whiskey · wine · multiple"],
+    [verticals, plural(verticals, "verticals"), "beer · whiskey · wine · multiple"],
     [peopleCount, "people", `named across the landscape`],
     [individuals, "individuals", "solo builders, not just companies"],
   ];
@@ -627,10 +799,325 @@ function renderKpis(rows = ALL) {
   if (!filtered) $("meta").textContent = `${n} entries · ${active} active · ${peopleCount} people.`;
 }
 
+
+// --- Icons ---------------------------------------------------------------
+// Inline SVG rather than emoji: emoji render as a different glyph on every
+// platform (and in colour), which fights the line-art look and makes the UI
+// inconsistent between machines. One stroke weight, one viewBox, currentColor.
+const ICON_ATTRS = 'viewBox="0 0 16 16" fill="none" stroke="currentColor" ' +
+  'stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+
+// Capability marks are deliberately generic, not vendor logos: real product
+// logos are trademarked artwork and there is no CDN to serve them from.
+const CAP_ICONS = {
+  "IoT & sensing": `<svg ${ICON_ATTRS}><circle cx="8" cy="8" r="1.6"/><path d="M5.2 5.2a4 4 0 0 0 0 5.6M10.8 10.8a4 4 0 0 0 0-5.6"/><path d="M3.1 3.1a7 7 0 0 0 0 9.8M12.9 12.9a7 7 0 0 0 0-9.8"/></svg>`,
+  "AI & ML": `<svg ${ICON_ATTRS}><rect x="5" y="5" width="6" height="6" rx="1.2"/><path d="M6.6 2.6v2.4M9.4 2.6v2.4M6.6 11v2.4M9.4 11v2.4"/><path d="M2.6 6.6h2.4M2.6 9.4h2.4M11 6.6h2.4M11 9.4h2.4"/></svg>`,
+  "ERP & systems of record": `<svg ${ICON_ATTRS}><ellipse cx="8" cy="4" rx="4.6" ry="1.8"/><path d="M3.4 4v8c0 1 2.1 1.8 4.6 1.8s4.6-.8 4.6-1.8V4"/><path d="M3.4 8c0 1 2.1 1.8 4.6 1.8s4.6-.8 4.6-1.8"/></svg>`,
+  "BI & analytics": `<svg ${ICON_ATTRS}><path d="M2.8 13.2h10.4"/><rect x="4" y="8.4" width="2" height="4.2" rx=".4"/><rect x="7" y="5.6" width="2" height="7" rx=".4"/><rect x="10" y="3.2" width="2" height="9.4" rx=".4"/></svg>`,
+  "ESG & sustainability": `<svg ${ICON_ATTRS}><path d="M8 13.4c0-4.4 1.8-7.4 5.2-8.4.6 4.8-1.4 8-5.2 8.4Z"/><path d="M8 13.4C8 9.8 6.5 7.4 3.6 6.6 3 10.6 4.8 13 8 13.4Z"/><path d="M8 13.4v-2.2"/></svg>`,
+  "Consultancy & services": `<svg ${ICON_ATTRS}><rect x="2.6" y="5.4" width="10.8" height="7.2" rx="1.2"/><path d="M6 5.4V4.2a1.2 1.2 0 0 1 1.2-1.2h1.6A1.2 1.2 0 0 1 10 4.2v1.2"/><path d="M2.6 8.6h10.8"/></svg>`,
+};
+const capChip = (name) =>
+  `<span class="chip chip--cap">${CAP_ICONS[name] || ""}${esc(name)}</span>`;
+
+// --- World map -----------------------------------------------------------
+// A real projected choropleth. world-paths.json is built once by
+// scripts/build_worldmap.py from a downloaded GeoJSON and committed, so the
+// page still fetches nothing external at runtime.
+let WORLD_PATHS = null;
+
+// Prospect rows carry a region, not a country, so a region paints every
+// country inside it. Only countries that appear in the data need listing.
+const REGION_COUNTRIES = {
+  "North America": ["United States", "Canada", "Mexico"],
+  "Latin America": ["Brazil", "Chile", "Argentina", "Peru", "Colombia", "Dominican Republic", "Uruguay"],
+  "UK & Ireland": ["United Kingdom", "Ireland"],
+  "Germany & DACH": ["Germany", "Austria", "Switzerland"],
+  "Nordics": ["Sweden", "Norway", "Denmark", "Finland", "Iceland"],
+  "Europe (other)": ["France", "Italy", "Spain", "Portugal", "Netherlands", "Belgium",
+    "Luxembourg", "Poland", "Czechia", "Slovakia", "Greece", "Hungary", "Romania", "Estonia"],
+  "Africa": ["South Africa", "Kenya", "Nigeria", "Tanzania", "Namibia", "Morocco", "Egypt", "Ethiopia"],
+  "Middle East": ["Israel", "United Arab Emirates", "Saudi Arabia", "Turkey", "Lebanon", "Jordan"],
+  "India": ["India"],
+  "Southeast Asia": ["Vietnam", "Thailand", "Singapore", "Malaysia", "Indonesia", "Philippines", "Cambodia"],
+  "Greater China": ["China", "Taiwan"],
+  "Japan": ["Japan"],
+  "Korea": ["Korea"],
+  "Australia & NZ": ["Australia", "New Zealand"],
+};
+
+const VERT_LABEL = { beer: "beer", whiskey: "whiskey", whisky: "whisky", wine: "wine",
+                     multiple: "multiple" };
+
+// Dominant SPECIFIC vertical: "multiple" is the largest bucket overall, so
+// letting it win would make most of the map say nothing about the drink.
+function topVertical(rows) {
+  const tally = {};
+  for (const r of rows) tally[r.vertical] = (tally[r.vertical] || 0) + 1;
+  const specific = Object.entries(tally)
+    .filter(([k]) => k && k !== "multiple").sort((a, b) => b[1] - a[1])[0];
+  return specific ? specific[0] : "multiple";
+}
+
+async function loadWorldPaths() {
+  if (WORLD_PATHS) return WORLD_PATHS;
+  try { WORLD_PATHS = await (await fetch("world-paths.json")).json(); }
+  catch { WORLD_PATHS = { paths: {}, points: {} }; }
+  return WORLD_PATHS;
+}
+
+// Synchronous by design. It runs on every filter change, and an async
+// innerHTML swap there flickers and drops keyboard focus mid-render. The
+// geometry is fetched once in main() before the first paint instead.
+function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
+  const world = WORLD_PATHS || { paths: {}, points: {} };
+  const paths = world.paths || {};
+  // City-states have no drawable polygon, so they render as a marker. Without
+  // them a country holding data would simply not appear.
+  const points = world.points || {};
+  if (!Object.keys(paths).length) { el.innerHTML = ""; return; }
+  const byKey = {};
+  for (const r of rows) {
+    const k = keyOf(r);
+    if (!k || k === "unknown") continue;
+    (byKey[k] = byKey[k] || []).push(r);
+  }
+  // A key is either a country itself, or a region covering several.
+  const countriesFor = (k) => REGION_COUNTRIES[k] || [k];
+  const paint = {};                       // country -> {key, n, vertical}
+  for (const [k, list] of Object.entries(byKey)) {
+    for (const c of countriesFor(k)) {
+      if (paths[c] || points[c])
+        paint[c] = { key: k, n: list.length, vertical: topVertical(list), rows: list };
+    }
+  }
+  const max = Math.max(1, ...Object.values(byKey).map((v) => v.length));
+
+  const body = Object.entries(paths).map(([name, d]) => {
+    const hit = paint[name];
+    if (!hit) return `<path d="${d}" class="wc" />`;
+    // sqrt so a 67-company US does not flatten everything else to invisible
+    const w = (0.2 + 0.8 * Math.sqrt(hit.n / max)).toFixed(2);
+    const on = activeKey && hit.key === activeKey ? " is-on" : "";
+    return `<path d="${d}" class="wc wc--has${on}" style="--w:${w}"
+      data-place="${esc(hit.key)}" data-n="${hit.n}" data-v="${esc(VERT_LABEL[hit.vertical] || "")}"
+      tabindex="0" role="button" aria-label="${esc(hit.key)}: ${hit.n}"><title>${esc(hit.key)}: ${hit.n}</title></path>`;
+  }).join("");
+
+  // Inline count labels, but only where the landmass can actually hold text.
+  // Below this the label spills into neighbouring countries; dense Europe is
+  // covered by the tooltip instead of a pile of overlapping numbers.
+  const LABEL_MIN_AREA = 260;
+  const labels = world.labels || {};
+  const nums = Object.entries(paint).map(([name, hit]) => {
+    const l = labels[name];
+    if (!l || l[2] < LABEL_MIN_AREA) return "";
+    return `<text class="wc__num" x="${l[0]}" y="${l[1]}">${hit.n}</text>`;
+  }).join("");
+
+  const dots = Object.entries(points).filter(([name]) => paint[name]).map(([name, [x, y]]) => {
+    const hit = paint[name];
+    const w = (0.2 + 0.8 * Math.sqrt(hit.n / max)).toFixed(2);
+    const on = activeKey && hit.key === activeKey ? " is-on" : "";
+    return `<circle cx="${x}" cy="${y}" r="3.2" class="wc wc--has wc--dot${on}" style="--w:${w}"
+      data-place="${esc(hit.key)}" data-n="${hit.n}" tabindex="0" role="button"
+      aria-label="${esc(hit.key)}: ${hit.n}" data-name="${esc(name)}"></circle>`;
+  }).join("");
+
+  el.innerHTML =
+    `<svg class="wmap" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid meet"
+       role="group" aria-label="${esc(opts.label || "World map")}">${body}${dots}${nums}</svg>
+     <button class="wmap__back" type="button">← Back to world</button>
+     <div class="wtip" hidden></div>
+     <div class="wdetail"></div>
+     <div class="wmap__legend">
+       <span class="wmap__scale"><i style="--w:.25"></i><i style="--w:.5"></i><i style="--w:.75"></i><i style="--w:1"></i></span>
+       <span>few</span><span class="wmap__spacer"></span><span>many</span>
+       <span class="wmap__note">${Object.keys(byKey).length} ${opts.unit || "places"} · click to filter</span>
+     </div>`;
+  // --- zoom -------------------------------------------------------------
+  // viewBox cannot be CSS-transitioned reliably, so tween it by hand. Zooming
+  // to a bbox rather than a fixed scale means a small country fills the frame
+  // as usefully as a large one.
+  const svgEl = el.querySelector("svg.wmap");
+  const HOME = [0, 0, 1000, 500];
+  function tweenViewBox(to, ms = 420) {
+    // ms of 0 is the re-render restore path. Without this guard the first
+    // frame computes (now - t0) / 0 === 0/0 === NaN and writes "NaN NaN NaN NaN"
+    // into viewBox, which the browser rejects and the map silently stops
+    // zooming.
+    if (!ms) { svgEl.setAttribute("viewBox", to.join(" ")); return; }
+    const from = (svgEl.getAttribute("viewBox") || HOME.join(" ")).split(/\s+/).map(Number);
+    const t0 = performance.now();
+    const ease = (u) => (u < .5 ? 2 * u * u : 1 - Math.pow(-2 * u + 2, 2) / 2);
+    (function step(now) {
+      const u = Math.min(1, (now - t0) / ms), k = ease(u);
+      svgEl.setAttribute("viewBox", from.map((v, i) => v + (to[i] - v) * k).join(" "));
+      if (u < 1) requestAnimationFrame(step);
+    })(t0);
+  }
+  function zoomTo(placeKey, ms) {
+    const parts = [...svgEl.querySelectorAll(`[data-place="${CSS.escape(placeKey)}"]`)];
+    if (!parts.length) return;
+    let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
+    for (const n of parts) {
+      const b = n.getBBox();
+      x0 = Math.min(x0, b.x); y0 = Math.min(y0, b.y);
+      x1 = Math.max(x1, b.x + b.width); y1 = Math.max(y1, b.y + b.height);
+    }
+    // Pad, and never zoom tighter than this: a city-state at its own bbox
+    // would be a 3px dot filling the screen with no surrounding context.
+    const MIN = 90;
+    let w = Math.max(x1 - x0, MIN), h = Math.max(y1 - y0, MIN * 0.5);
+    const pad = Math.max(w, h * 2) * 0.35;
+    w += pad; h += pad / 2;
+    const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
+    // keep the 2:1 aspect of the viewBox so nothing distorts
+    if (w / h < 2) w = h * 2; else h = w / 2;
+    tweenViewBox([cx - w / 2, cy - h / 2, w, h], ms === undefined ? 420 : ms);
+    el.classList.add("is-zoomed");
+  }
+  function zoomHome() {
+    tweenViewBox(HOME);
+    el.classList.remove("is-zoomed");
+    el.querySelector(".wdetail").innerHTML = "";
+  }
+  el.querySelector(".wmap__back").addEventListener("click", () => {
+    zoomHome();
+    onPick(null);                      // also clears the filter
+  });
+
+  // --- granular detail for the selected place ----------------------------
+  function showDetail(placeKey) {
+    const hit = Object.values(paint).find((h) => h.key === placeKey);
+    const box = el.querySelector(".wdetail");
+    if (!hit) { box.innerHTML = ""; return; }
+    const rows = hit.rows.slice().sort((a, b) =>
+      (b.people?.length || 0) - (a.people?.length || 0));
+    box.innerHTML = `
+      <div class="wdetail__h">${esc(placeKey)} · ${hit.n} ${plural(hit.n, opts.noun || "entries")}</div>
+      <ul class="wdetail__list">${rows.slice(0, 40).map((r) => `
+        <li>
+          <span class="wdetail__n">${esc(r.name || r.company || "")}</span>
+          ${r.vertical ? `<span class="chip chip--v chip--${esc(r.vertical)}">${esc(r.vertical)}</span>` : ""}
+          <span class="wdetail__m">${esc(r.hq_location || r.hq || r.segment || "")}</span>
+        </li>`).join("")}</ul>
+      ${rows.length > 40 ? `<div class="wdetail__more">+${rows.length - 40} more in the list below</div>` : ""}`;
+  }
+
+  const tip = el.querySelector(".wtip");
+  const summarise = (hit, placeName) => {
+    const byV = {};
+    for (const r of hit.rows) byV[r.vertical || "?"] = (byV[r.vertical || "?"] || 0) + 1;
+    const verticals = Object.entries(byV).sort((a, b) => b[1] - a[1])
+      .map(([v, c]) => `<span class="wtip__v">${esc(v)} ${c}</span>`).join("");
+    // Name a few so the tooltip answers "who?", not just "how many?"
+    const names = hit.rows.slice(0, 3)
+      .map((r) => esc(r.name || r.company || "")).filter(Boolean);
+    const more = hit.rows.length - names.length;
+    return `<div class="wtip__h">${esc(placeName || hit.key)}</div>
+      <div class="wtip__n">${hit.n} ${plural(hit.n, opts.noun || "entries")}</div>
+      <div class="wtip__vs">${verticals}</div>
+      ${names.length ? `<div class="wtip__list">${names.join(", ")}${more > 0 ? ` +${more} more` : ""}</div>` : ""}`;
+  };
+  const show = (node, e) => {
+    const hit = paint[node.dataset.name || ""] ||
+      Object.values(paint).find((h) => h.key === node.dataset.place);
+    if (!hit) return;
+    tip.innerHTML = summarise(hit, node.dataset.name || node.dataset.place);
+    tip.hidden = false;
+    const box = el.getBoundingClientRect();
+    // Flip to the left near the right edge so the tooltip never leaves the card.
+    const x = e.clientX - box.left, y = e.clientY - box.top;
+    tip.style.left = `${Math.min(x + 14, box.width - tip.offsetWidth - 8)}px`;
+    tip.style.top = `${Math.max(y - tip.offsetHeight - 12, 4)}px`;
+  };
+  el.querySelectorAll("[data-place]").forEach((n) => {
+    n.addEventListener("click", () => {
+      const place = n.dataset.place;
+      const reselect = activeKey === place;      // clicking the active one exits
+      if (reselect) { zoomHome(); } else { zoomTo(place); showDetail(place); }
+      onPick(reselect ? null : place);
+    });
+    n.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(n.dataset.place); } });
+    n.addEventListener("mousemove", (e) => show(n, e));
+    n.addEventListener("mouseleave", () => { tip.hidden = true; });
+    n.addEventListener("focus", (e) => show(n, { clientX: box(n).left, clientY: box(n).top }));
+    n.addEventListener("blur", () => { tip.hidden = true; });
+  });
+  function box(n) { return n.getBoundingClientRect(); }
+
+  // apply() re-renders this element on every filter change, which would throw
+  // away the zoom the user just triggered. Restore it instantly (no tween, or
+  // the map would visibly re-fly on each keystroke in the search box).
+  if (activeKey && paint && Object.values(paint).some((h) => h.key === activeKey)) {
+    zoomTo(activeKey, 0);
+    showDetail(activeKey);
+  }
+}
+
+// --- Filter visibility ---------------------------------------------------
+// Fourteen identical underlined selects give no signal about which are set.
+// This marks active controls, and renders them as removable chips with a
+// clear-all, so the current filter state is readable at a glance on every tab.
+function controlsOf(section) {
+  // Sort is not a filter. The codebase already separates them by id prefix
+  // (f- filters, s- sort), so honour that: showing "Sort: A-Z" as a removable
+  // chip invites you to clear it, which would reset ordering, not narrow rows.
+  return [...section.querySelectorAll("select, input[type=search]")]
+    .filter((el) => !el.id.startsWith("s-"));
+}
+
+function labelFor(el) {
+  if (el.tagName === "INPUT") return `"${el.value}"`;
+  const opt = el.selectedOptions[0];
+  return opt ? opt.textContent.replace(/\s*\(\d+\)$/, "") : el.value;
+}
+
+function refreshChips(section) {
+  const bar = section._chipbar;
+  const active = controlsOf(section).filter((el) => el.value);
+  for (const el of controlsOf(section)) el.classList.toggle("is-active", !!el.value);
+  if (!active.length) { bar.hidden = true; bar.innerHTML = ""; return; }
+  bar.hidden = false;
+  bar.innerHTML =
+    active.map((el, i) =>
+      `<button class="fchip" data-i="${i}" type="button" title="Remove this filter">
+         <span class="fchip__k">${esc(el.getAttribute("aria-label") || "filter")}</span>
+         <span class="fchip__v">${esc(labelFor(el))}</span><span class="fchip__x">×</span>
+       </button>`).join("") +
+    `<button class="fchip fchip--clear" data-clear="1" type="button">Clear all</button>`;
+  bar.querySelectorAll("[data-i]").forEach((b) => b.addEventListener("click", () => {
+    const el = active[+b.dataset.i];
+    el.value = "";
+    el.dispatchEvent(new Event("input", { bubbles: true }));
+  }));
+  bar.querySelector("[data-clear]").addEventListener("click", () => {
+    for (const el of controlsOf(section)) el.value = "";
+    controlsOf(section)[0].dispatchEvent(new Event("input", { bubbles: true }));
+    for (const el of controlsOf(section)) el.dispatchEvent(new Event("input", { bubbles: true }));
+  });
+}
+
+function wireFilterVisibility() {
+  for (const section of document.querySelectorAll(".controls")) {
+    const bar = document.createElement("div");
+    bar.className = "chipbar";
+    bar.hidden = true;
+    section.insertAdjacentElement("afterend", bar);
+    section._chipbar = bar;
+    section.addEventListener("input", () => refreshChips(section));
+    refreshChips(section);
+  }
+}
+
 async function main() {
   let data;
   try {
     data = await (await fetch("data.json")).json();
+    // Fetched here, before the first apply(): renderWorldMap is synchronous and
+    // apply() paints the map, so the geometry has to already be in hand.
+    await loadWorldPaths();
   } catch {
     $("grid").innerHTML = `<p class="empty">Could not load data.json. Run <code>radar export</code> first.</p>`;
     return;
@@ -645,9 +1132,14 @@ async function main() {
 
   renderBreakdowns();
 
-  fillSelect($("f-vertical"), counts(ALL, "vertical").map((p) => p[0]));
+  fillSelect($("f-vertical"), counts(ALL, "vertical"));
   fillSelect($("f-usecase"), counts(ALL, "_theme").map((p) => p[0]));
-  fillSelect($("f-maturity"), counts(ALL, "ai_maturity").map((p) => p[0]));
+  fillSelect($("f-maturity"), counts(ALL, "ai_maturity"));
+  // Multi-valued, so counts() (which reads one field) does not apply here.
+  const capTally = {};
+  for (const c of ALL) for (const k of c.capabilities || []) capTally[k] = (capTally[k] || 0) + 1;
+  fillSelect($("f-capability"),
+    Object.entries(capTally).sort((a, b) => b[1] - a[1]));
   fillSelect($("f-type"), counts(ALL.map((c) => ({ company_type: c.company_type || "product" })), "company_type").map((p) => p[0]));
   fillSelect($("f-platform"), counts(ALL.flatMap((c) => c._platforms).map((p) => ({ p })), "p").map((x) => x[0]));
   fillSelect($("f-funding"), counts(ALL.map((c) => ({ f: fundingBucket(c) })).filter((x) => x.f), "f").map((p) => p[0]));
@@ -657,7 +1149,7 @@ async function main() {
   fillSelect($("f-from"), years.map(String));
   fillSelect($("f-to"), years.map(String));
 
-  for (const id of ["q", "f-vertical", "f-usecase", "f-maturity", "f-status", "f-type",
+  for (const id of ["q", "f-vertical", "f-usecase", "f-capability", "f-maturity", "f-status", "f-type",
     "f-platform", "f-funding", "f-country", "f-source", "f-from", "f-to", "f-people", "s-sort"]) {
     $(id).addEventListener("input", apply);
   }
@@ -673,6 +1165,7 @@ async function main() {
   $("tab-resources").addEventListener("click", () => showView("resources"));
   $("tab-podcasts").addEventListener("click", () => showView("podcasts"));
   $("tab-jobs").addEventListener("click", () => showView("jobs"));
+  $("tab-prospects").addEventListener("click", () => showView("prospects"));
   $("tab-about").addEventListener("click", () => showView("about"));
 
   // card click -> detail route (but let inner links behave normally)
@@ -687,24 +1180,27 @@ async function main() {
 
   await loadResources();
   await loadJobs();
+  await loadProspects();
 
   // global search: one box drives every tab + shows where matches are
   const gq = $("globalq");
   const globalSearch = () => {
     const v = gq.value;
-    for (const id of ["q", "pq", "rq", "podq", "jq"]) { const el = $(id); if (el) { el.value = v; el.dispatchEvent(new Event("input")); } }
+    for (const id of ["q", "pq", "rq", "podq", "jq", "prq"]) { const el = $(id); if (el) { el.value = v; el.dispatchEvent(new Event("input")); } }
     const q = v.trim().toLowerCase();
     if (!q) { $("global-hint").innerHTML = ""; return; }
     const nC = ALL.filter((c) => `${c.name} ${c.hq_location} ${c.short_description} ${c.ai_use_case || ""} ${c.key_people || ""}`.toLowerCase().includes(q)).length;
     const nP = PEOPLE.filter((p) => `${p.name} ${p.role} ${p.company}`.toLowerCase().includes(q)).length;
     const nR = RES.filter((r) => `${r.title} ${r.summary} ${r.meta}`.toLowerCase().includes(q)).length;
     const nJ = JOBS.filter((j) => `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)).length;
+    const nPr = PROSPECTS.filter((p) => `${p.company} ${p.segment} ${p.hq} ${p.entry}`.toLowerCase().includes(q)).length;
     const seg = (n, label, view) => `<button class="ghint ${n ? "" : "is-empty"}" data-view="${view}">${n} ${label}</button>`;
-    $("global-hint").innerHTML = `Found: ${seg(nC, "companies", "companies")}${seg(nP, "people", "people")}${seg(nR, "resources", "resources")}${seg(nJ, "jobs", "jobs")}`;
+    $("global-hint").innerHTML = `Found: ${seg(nC, "companies", "companies")}${seg(nP, "people", "people")}${seg(nR, "resources", "resources")}${seg(nJ, "jobs", "jobs")}${PROSPECTS.length ? seg(nPr, "prospects", "prospects") : ""}`;
     $("global-hint").querySelectorAll(".ghint").forEach((b) => b.addEventListener("click", () => showView(b.dataset.view)));
   };
   gq.addEventListener("input", globalSearch);
 
+  wireFilterVisibility();
   window.addEventListener("hashchange", route);
   route();
 }

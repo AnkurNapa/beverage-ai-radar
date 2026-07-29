@@ -113,7 +113,7 @@
 
   <!-- version query busts the 10-minute Pages cache on every restyle;
        bump it whenever styles.css changes -->
-  <link rel="stylesheet" href="styles.css?v=c09c20d007" />
+  <link rel="stylesheet" href="styles.css?v=ea6162c6be" />
 </head>
 <body>
   <!-- Masthead: wordmark, section nav, utility links. The section nav carries
@@ -127,6 +127,9 @@
         <button id="tab-resources" class="tab" type="button">Research &amp; resources</button>
         <button id="tab-podcasts" class="tab" type="button">Podcasts</button>
         <button id="tab-jobs" class="tab" type="button">Jobs</button>
+        <!-- Prospects is private: prospects.json is gitignored, so the published
+             site never receives it and app.js hides this tab when it is absent. -->
+        <button id="tab-prospects" class="tab" type="button" hidden>Prospects</button>
         <button id="tab-about" class="tab" type="button">About</button>
       </nav>
       <div class="topbar__util">
@@ -150,6 +153,11 @@
   <section class="kpis wrap" id="kpis" aria-label="Headline figures"></section>
 
   <main class="wrap" id="view-companies">
+    <section class="card wmap-card" aria-label="Where the companies are">
+      <h2>Where they are <span class="wmap-hint">click a country to filter</span></h2>
+      <div id="world-companies"></div>
+    </section>
+
     <section class="breakdowns" aria-label="Breakdowns">
       <div class="card"><h2>By vertical</h2><div id="bd-vertical" class="bars"></div></div>
       <div class="card"><h2>By theme</h2><div id="bd-usecase" class="bars"></div></div>
@@ -160,6 +168,7 @@
       <input id="q" type="search" placeholder="Search name, location, description…" aria-label="Search" />
       <select id="f-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
       <select id="f-usecase" aria-label="Theme"><option value="">All themes</option></select>
+      <select id="f-capability" aria-label="Capability"><option value="">All capabilities</option></select>
       <select id="f-maturity" aria-label="Maturity"><option value="">All maturity</option></select>
       <select id="f-status" aria-label="Status">
         <option value="">Active + dormant</option>
@@ -255,6 +264,23 @@
     <section id="jobs-grid" class="grid" aria-live="polite"></section>
   </main>
 
+  <main class="wrap" id="view-prospects" hidden>
+    <p class="res-intro"><strong>Private.</strong> Outreach targets for pitching AI, data and analytics into beer, whiskey and wine. This tab only exists on a local copy: <code>prospects.json</code> is gitignored, so it is never published. <span id="prospects-stamp" class="hero__meta"></span></p>
+    <section class="controls" aria-label="Prospect filters">
+      <input id="prq" type="search" placeholder="Search company, pain, wedge, contact…" aria-label="Search prospects" />
+      <select id="fpr-region" aria-label="Region"><option value="">All regions</option></select>
+      <select id="fpr-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
+      <select id="fpr-tier" aria-label="Tier"><option value="">All tiers</option></select>
+      <select id="fpr-capability" aria-label="Capability"><option value="">All capabilities</option></select>
+      <span id="prcount" class="count"></span>
+    </section>
+    <section class="card wmap-card" aria-label="Where the targets are">
+      <h2>Where they are <span class="wmap-hint">click a region to filter</span></h2>
+      <div id="world-prospects"></div>
+    </section>
+    <section id="prospects-grid" class="grid" aria-live="polite"></section>
+  </main>
+
   <main class="wrap" id="view-about" hidden>
     <article class="about">
       <h2>Why this exists</h2>
@@ -302,6 +328,6 @@
     No account needed. Anonymised visit stats only, via Google Analytics; Do Not Track is honoured.
   </footer>
 
-  <script type="module" src="app.js?v=9b967e5915"></script>
+  <script type="module" src="app.js?v=4660275473"></script>
 </body>
 </html>
