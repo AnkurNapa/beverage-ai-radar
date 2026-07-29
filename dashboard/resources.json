@@ -7,8 +7,7 @@
     "meta": "Michiel Schreurs, et al. · Nature Communications · 2024",
     "summary": "Gradient boosting models trained on chemical and sensory data from 250 beers plus 180,000 consumer reviews predict flavor and appreciation and reveal specific compounds that drive taste.",
     "year": 2024,
-    "sort": 2024,
-    "cited_by": 0
+    "sort": 2024
   },
   {
     "kind": "paper",
@@ -18,8 +17,7 @@
     "meta": "et al. · Modelling (MDPI) · 2024",
     "summary": "Autoregressive recurrent neural networks capture the time-dependent dynamics of mixed-culture beer fermentation and forecast its trajectory better than static models.",
     "year": 2024,
-    "sort": 2024,
-    "cited_by": 0
+    "sort": 2024
   },
   {
     "kind": "paper",
@@ -29,8 +27,7 @@
     "meta": "Harris, et al. · Journal of Food Science · 2025",
     "summary": "Near-infrared spectroscopy read through the bottle plus machine learning classifies beer fermentation type and authenticity without opening the container.",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 0
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -40,8 +37,7 @@
     "meta": "et al. · Applied Food Research · 2025",
     "summary": "AI models trained on production parameters predict trained sensory panel scores for customized beers, cutting reliance on full panel sessions.",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 0
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -51,8 +47,7 @@
     "meta": "Zhang, et al. · Journal of the Institute of Brewing · 2012",
     "summary": "Neural networks and support vector machines predict end-of-fermentation acetic acid levels in commercial-scale beer from early process variables.",
     "year": 2012,
-    "sort": 2012,
-    "cited_by": 0
+    "sort": 2012
   },
   {
     "kind": "paper",
@@ -62,8 +57,7 @@
     "meta": "Kwang Jun Lee, Alexander C. Trowbridge, et al. · arXiv (later Current Research in Food Science) · 2023",
     "summary": "Machine learning on portable Raman spectra identifies whisky brand at over 99 percent accuracy and quantifies ethanol and methanol, even through unopened bottles.",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 0
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -73,8 +67,7 @@
     "meta": "et al. · Foods · 2023",
     "summary": "A linear classifier (OWSum) and a CNN on GC-MS molecular data classify whisky odor attributes and origin, matching or beating human experts and flagging marker compounds like menthol and methyl decanoate.",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 0
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -84,8 +77,7 @@
     "meta": "Okolo, et al. · Comprehensive Reviews in Food Science and Food Safety · 2023",
     "summary": "A review of analytical and chemometric methods, including machine learning on spectroscopy and chromatography data, for authenticating and grading whiskey.",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 0
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -95,8 +87,7 @@
     "meta": "et al. · Scientific Reports · 2023",
     "summary": "Ensemble models on physicochemical measurements predict wine quality scores and rank the features that most influence quality.",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 0
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -106,8 +97,7 @@
     "meta": "et al. · arXiv · 2023",
     "summary": "Compares classifiers on imbalanced wine quality data and identifies alcohol, sulphates and volatile acidity as leading quality predictors.",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 0
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -117,8 +107,7 @@
     "meta": "et al. · arXiv · 2025",
     "summary": "A leakage-controlled benchmark shows gradient-boosted and random forest ensembles give the most reliable wine quality predictions when evaluation is done cleanly.",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 0
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -128,8 +117,7 @@
     "meta": "et al. · Computers and Electronics in Agriculture (arXiv preprint) · 2022",
     "summary": "Deep models trained on 23,581 yield points and over 100,000 vehicle-mounted images estimate vineyard grape yield directly, comparing detection, CNN regression and transformer architectures.",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 0
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -139,8 +127,7 @@
     "meta": "Santos, et al. · arXiv (later Computers and Electronics in Agriculture) · 2019",
     "summary": "CNNs detect, segment and track grape clusters in the field with F1 up to 0.91, enabling automated berry counting for yield estimation.",
     "year": 2019,
-    "sort": 2019,
-    "cited_by": 0
+    "sort": 2019
   },
   {
     "kind": "paper",
@@ -150,8 +137,7 @@
     "meta": "Claudia Gonzalez Viejo, Sigfredo Fuentes · Sensors · 2022",
     "summary": "A low-cost electronic nose and NIR spectra with machine learning detect and classify wine faults at 90 to 97 percent accuracy for red and white wines.",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 0
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -161,8 +147,7 @@
     "meta": "et al. · Journal of Wine Economics · 2015",
     "summary": "Gaussian process regression and multi-task learning on Liv-Ex 100 price histories forecast fine wine prices more accurately than ARMA and GARCH baselines.",
     "year": 2015,
-    "sort": 2015,
-    "cited_by": 0
+    "sort": 2015
   },
   {
     "kind": "paper",
@@ -172,8 +157,7 @@
     "meta": "et al. · Beverages · 2025",
     "summary": "Transformer embeddings of expert tasting notes predict wine ratings and show that language markers such as complexity and harmony track higher expert scores.",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 0
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -183,8 +167,7 @@
     "meta": "et al. · NeurIPS · 2023",
     "summary": "Introduces WineSensed, 897k label images and 824k reviews plus human flavor-distance rankings, to learn joint representations of wine vision, language and flavor.",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 0
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -194,8 +177,7 @@
     "meta": "et al. · Scientific Reports · 2024",
     "summary": "A deep CNN classifies grapevine leaf images into healthy and diseased classes such as black rot, esca and leaf blight for early vineyard disease detection.",
     "year": 2024,
-    "sort": 2024,
-    "cited_by": 0
+    "sort": 2024
   },
   {
     "kind": "paper",
@@ -205,8 +187,7 @@
     "meta": "et al. · Beverages (MDPI) · 2025",
     "summary": "Combines machine learning with statistical and climatic analysis to predict wine quality as the climate shifts, modelling how climatic factors, region and viticultural practice interact.",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 0
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -216,8 +197,7 @@
     "meta": "et al. · Applied Intelligence (Springer) · 2025",
     "summary": "An electronic-nose sensor array streamed over 5G IoT, with learning algorithms classifying whiskies from their volatile profile.",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 0
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -227,8 +207,7 @@
     "meta": "2005",
     "summary": "",
     "year": 2005,
-    "sort": 2005,
-    "cited_by": 420
+    "sort": 2005
   },
   {
     "kind": "paper",
@@ -238,8 +217,7 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019,
-    "cited_by": 349
+    "sort": 2019
   },
   {
     "kind": "paper",
@@ -249,8 +227,7 @@
     "meta": "2004",
     "summary": "",
     "year": 2004,
-    "sort": 2004,
-    "cited_by": 267
+    "sort": 2004
   },
   {
     "kind": "paper",
@@ -260,8 +237,7 @@
     "meta": "2014",
     "summary": "",
     "year": 2014,
-    "sort": 2014,
-    "cited_by": 242
+    "sort": 2014
   },
   {
     "kind": "paper",
@@ -271,8 +247,7 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019,
-    "cited_by": 127
+    "sort": 2019
   },
   {
     "kind": "paper",
@@ -282,8 +257,7 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018,
-    "cited_by": 125
+    "sort": 2018
   },
   {
     "kind": "paper",
@@ -293,8 +267,7 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018,
-    "cited_by": 120
+    "sort": 2018
   },
   {
     "kind": "paper",
@@ -304,8 +277,7 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020,
-    "cited_by": 101
+    "sort": 2020
   },
   {
     "kind": "paper",
@@ -315,8 +287,7 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019,
-    "cited_by": 100
+    "sort": 2019
   },
   {
     "kind": "paper",
@@ -326,8 +297,7 @@
     "meta": "2014",
     "summary": "",
     "year": 2014,
-    "sort": 2014,
-    "cited_by": 98
+    "sort": 2014
   },
   {
     "kind": "paper",
@@ -337,8 +307,7 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018,
-    "cited_by": 95
+    "sort": 2018
   },
   {
     "kind": "paper",
@@ -348,8 +317,7 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019,
-    "cited_by": 94
+    "sort": 2019
   },
   {
     "kind": "paper",
@@ -359,8 +327,7 @@
     "meta": "2014",
     "summary": "",
     "year": 2014,
-    "sort": 2014,
-    "cited_by": 91
+    "sort": 2014
   },
   {
     "kind": "paper",
@@ -370,8 +337,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 87
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -381,8 +347,7 @@
     "meta": "2010",
     "summary": "",
     "year": 2010,
-    "sort": 2010,
-    "cited_by": 86
+    "sort": 2010
   },
   {
     "kind": "paper",
@@ -392,8 +357,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 83
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -403,8 +367,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 83
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -414,8 +377,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 81
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -425,8 +387,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 76
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -436,8 +397,7 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020,
-    "cited_by": 76
+    "sort": 2020
   },
   {
     "kind": "paper",
@@ -447,8 +407,7 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019,
-    "cited_by": 74
+    "sort": 2019
   },
   {
     "kind": "paper",
@@ -458,8 +417,7 @@
     "meta": "2010",
     "summary": "",
     "year": 2010,
-    "sort": 2010,
-    "cited_by": 73
+    "sort": 2010
   },
   {
     "kind": "paper",
@@ -469,8 +427,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 72
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -480,8 +437,7 @@
     "meta": "2011",
     "summary": "",
     "year": 2011,
-    "sort": 2011,
-    "cited_by": 72
+    "sort": 2011
   },
   {
     "kind": "paper",
@@ -491,8 +447,7 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019,
-    "cited_by": 69
+    "sort": 2019
   },
   {
     "kind": "paper",
@@ -502,8 +457,7 @@
     "meta": "2013",
     "summary": "",
     "year": 2013,
-    "sort": 2013,
-    "cited_by": 69
+    "sort": 2013
   },
   {
     "kind": "paper",
@@ -513,8 +467,7 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019,
-    "cited_by": 68
+    "sort": 2019
   },
   {
     "kind": "paper",
@@ -524,8 +477,7 @@
     "meta": "2015",
     "summary": "",
     "year": 2015,
-    "sort": 2015,
-    "cited_by": 67
+    "sort": 2015
   },
   {
     "kind": "paper",
@@ -535,8 +487,7 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018,
-    "cited_by": 66
+    "sort": 2018
   },
   {
     "kind": "paper",
@@ -546,8 +497,7 @@
     "meta": "2015",
     "summary": "",
     "year": 2015,
-    "sort": 2015,
-    "cited_by": 66
+    "sort": 2015
   },
   {
     "kind": "paper",
@@ -557,8 +507,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 64
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -568,8 +517,7 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024,
-    "cited_by": 63
+    "sort": 2024
   },
   {
     "kind": "paper",
@@ -579,8 +527,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 62
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -590,8 +537,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 61
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -601,8 +547,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 60
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -612,8 +557,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 60
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -623,8 +567,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 59
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -634,8 +577,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 56
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -645,8 +587,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 56
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -656,8 +597,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 55
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -667,8 +607,7 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018,
-    "cited_by": 55
+    "sort": 2018
   },
   {
     "kind": "paper",
@@ -678,8 +617,7 @@
     "meta": "2017",
     "summary": "",
     "year": 2017,
-    "sort": 2017,
-    "cited_by": 55
+    "sort": 2017
   },
   {
     "kind": "paper",
@@ -689,8 +627,7 @@
     "meta": "2012",
     "summary": "",
     "year": 2012,
-    "sort": 2012,
-    "cited_by": 55
+    "sort": 2012
   },
   {
     "kind": "paper",
@@ -700,8 +637,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 54
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -711,8 +647,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 52
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -722,8 +657,7 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024,
-    "cited_by": 50
+    "sort": 2024
   },
   {
     "kind": "paper",
@@ -733,8 +667,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 50
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -744,8 +677,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 49
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -755,8 +687,7 @@
     "meta": "2015",
     "summary": "",
     "year": 2015,
-    "sort": 2015,
-    "cited_by": 49
+    "sort": 2015
   },
   {
     "kind": "paper",
@@ -766,8 +697,7 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020,
-    "cited_by": 48
+    "sort": 2020
   },
   {
     "kind": "paper",
@@ -777,8 +707,7 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020,
-    "cited_by": 46
+    "sort": 2020
   },
   {
     "kind": "paper",
@@ -788,8 +717,7 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019,
-    "cited_by": 46
+    "sort": 2019
   },
   {
     "kind": "paper",
@@ -799,8 +727,7 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019,
-    "cited_by": 43
+    "sort": 2019
   },
   {
     "kind": "paper",
@@ -810,8 +737,7 @@
     "meta": "2017",
     "summary": "",
     "year": 2017,
-    "sort": 2017,
-    "cited_by": 42
+    "sort": 2017
   },
   {
     "kind": "paper",
@@ -821,8 +747,7 @@
     "meta": "2015",
     "summary": "",
     "year": 2015,
-    "sort": 2015,
-    "cited_by": 42
+    "sort": 2015
   },
   {
     "kind": "paper",
@@ -832,8 +757,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 40
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -843,8 +767,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 40
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -854,8 +777,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 40
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -865,8 +787,7 @@
     "meta": "2014",
     "summary": "",
     "year": 2014,
-    "sort": 2014,
-    "cited_by": 40
+    "sort": 2014
   },
   {
     "kind": "paper",
@@ -876,8 +797,7 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020,
-    "cited_by": 39
+    "sort": 2020
   },
   {
     "kind": "paper",
@@ -887,8 +807,7 @@
     "meta": "2012",
     "summary": "",
     "year": 2012,
-    "sort": 2012,
-    "cited_by": 38
+    "sort": 2012
   },
   {
     "kind": "paper",
@@ -898,8 +817,7 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 37
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -909,8 +827,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 37
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -920,8 +837,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 37
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -931,8 +847,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 36
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -942,8 +857,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 36
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -953,8 +867,7 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020,
-    "cited_by": 35
+    "sort": 2020
   },
   {
     "kind": "paper",
@@ -964,8 +877,7 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024,
-    "cited_by": 34
+    "sort": 2024
   },
   {
     "kind": "paper",
@@ -975,8 +887,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 34
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -986,8 +897,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 34
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -997,8 +907,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 34
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -1008,8 +917,7 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020,
-    "cited_by": 33
+    "sort": 2020
   },
   {
     "kind": "paper",
@@ -1019,8 +927,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 32
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -1030,8 +937,7 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024,
-    "cited_by": 31
+    "sort": 2024
   },
   {
     "kind": "paper",
@@ -1041,8 +947,7 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019,
-    "cited_by": 31
+    "sort": 2019
   },
   {
     "kind": "paper",
@@ -1052,8 +957,7 @@
     "meta": "2004",
     "summary": "",
     "year": 2004,
-    "sort": 2004,
-    "cited_by": 31
+    "sort": 2004
   },
   {
     "kind": "paper",
@@ -1063,8 +967,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 29
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -1074,8 +977,7 @@
     "meta": "2016",
     "summary": "",
     "year": 2016,
-    "sort": 2016,
-    "cited_by": 27
+    "sort": 2016
   },
   {
     "kind": "paper",
@@ -1085,8 +987,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 26
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1096,8 +997,7 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020,
-    "cited_by": 26
+    "sort": 2020
   },
   {
     "kind": "paper",
@@ -1107,8 +1007,7 @@
     "meta": "2007",
     "summary": "",
     "year": 2007,
-    "sort": 2007,
-    "cited_by": 26
+    "sort": 2007
   },
   {
     "kind": "paper",
@@ -1118,8 +1017,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 25
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1129,8 +1027,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 25
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1140,8 +1037,7 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020,
-    "cited_by": 24
+    "sort": 2020
   },
   {
     "kind": "paper",
@@ -1151,8 +1047,7 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020,
-    "cited_by": 24
+    "sort": 2020
   },
   {
     "kind": "paper",
@@ -1162,8 +1057,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 23
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -1173,8 +1067,7 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 20
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -1184,8 +1077,7 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021,
-    "cited_by": 20
+    "sort": 2021
   },
   {
     "kind": "paper",
@@ -1195,8 +1087,7 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024,
-    "cited_by": 19
+    "sort": 2024
   },
   {
     "kind": "paper",
@@ -1206,8 +1097,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 18
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1217,8 +1107,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 18
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -1228,8 +1117,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 18
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -1239,8 +1127,7 @@
     "meta": "2016",
     "summary": "",
     "year": 2016,
-    "sort": 2016,
-    "cited_by": 18
+    "sort": 2016
   },
   {
     "kind": "paper",
@@ -1250,8 +1137,7 @@
     "meta": "2001",
     "summary": "",
     "year": 2001,
-    "sort": 2001,
-    "cited_by": 18
+    "sort": 2001
   },
   {
     "kind": "paper",
@@ -1261,8 +1147,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 17
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1272,8 +1157,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 16
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -1283,8 +1167,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 15
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1294,8 +1177,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 15
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1305,8 +1187,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 14
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1316,8 +1197,7 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018,
-    "cited_by": 14
+    "sort": 2018
   },
   {
     "kind": "paper",
@@ -1327,8 +1207,7 @@
     "meta": "1995",
     "summary": "",
     "year": 1995,
-    "sort": 1995,
-    "cited_by": 14
+    "sort": 1995
   },
   {
     "kind": "paper",
@@ -1338,8 +1217,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 13
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -1349,8 +1227,7 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019,
-    "cited_by": 13
+    "sort": 2019
   },
   {
     "kind": "paper",
@@ -1360,8 +1237,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 12
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1371,8 +1247,7 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 11
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -1382,8 +1257,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 11
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -1393,8 +1267,7 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020,
-    "cited_by": 11
+    "sort": 2020
   },
   {
     "kind": "paper",
@@ -1404,8 +1277,7 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018,
-    "cited_by": 11
+    "sort": 2018
   },
   {
     "kind": "paper",
@@ -1415,8 +1287,7 @@
     "meta": "1997",
     "summary": "",
     "year": 1997,
-    "sort": 1997,
-    "cited_by": 11
+    "sort": 1997
   },
   {
     "kind": "paper",
@@ -1426,8 +1297,7 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 10
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -1437,8 +1307,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 10
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1448,8 +1317,7 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020,
-    "cited_by": 10
+    "sort": 2020
   },
   {
     "kind": "paper",
@@ -1459,8 +1327,7 @@
     "meta": "2005",
     "summary": "",
     "year": 2005,
-    "sort": 2005,
-    "cited_by": 10
+    "sort": 2005
   },
   {
     "kind": "paper",
@@ -1470,8 +1337,7 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 9
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -1481,8 +1347,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 9
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1492,8 +1357,7 @@
     "meta": "1994",
     "summary": "",
     "year": 1994,
-    "sort": 1994,
-    "cited_by": 9
+    "sort": 1994
   },
   {
     "kind": "paper",
@@ -1503,8 +1367,7 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 8
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -1514,8 +1377,7 @@
     "meta": "2017",
     "summary": "",
     "year": 2017,
-    "sort": 2017,
-    "cited_by": 8
+    "sort": 2017
   },
   {
     "kind": "paper",
@@ -1525,8 +1387,7 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024,
-    "cited_by": 7
+    "sort": 2024
   },
   {
     "kind": "paper",
@@ -1536,8 +1397,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 7
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1547,8 +1407,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 6
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -1558,8 +1417,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 6
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -1569,8 +1427,7 @@
     "meta": "2010",
     "summary": "",
     "year": 2010,
-    "sort": 2010,
-    "cited_by": 6
+    "sort": 2010
   },
   {
     "kind": "paper",
@@ -1580,8 +1437,7 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024,
-    "cited_by": 5
+    "sort": 2024
   },
   {
     "kind": "paper",
@@ -1591,8 +1447,7 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022,
-    "cited_by": 5
+    "sort": 2022
   },
   {
     "kind": "paper",
@@ -1602,8 +1457,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 4
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1613,8 +1467,7 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 3
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -1624,8 +1477,7 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 3
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -1635,8 +1487,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 3
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1646,8 +1497,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 3
+    "sort": 2023
   },
   {
     "kind": "paper",
@@ -1657,8 +1507,7 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025,
-    "cited_by": 2
+    "sort": 2025
   },
   {
     "kind": "paper",
@@ -1668,8 +1517,7 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023,
-    "cited_by": 2
+    "sort": 2023
   },
   {
     "kind": "news",

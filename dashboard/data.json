@@ -43,10 +43,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "North America",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Analytical Flavor Systems (Gastrograph AI)",
@@ -97,10 +94,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "North America",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Preferabli",
@@ -153,10 +147,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 5
+    "scope": "beverage-native"
   },
   {
     "name": "Deep Liquid",
@@ -211,10 +202,7 @@
       "AI & ML"
     ],
     "country": "Australia",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Australia & NZ",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Enolytics",
@@ -264,10 +252,7 @@
       "BI & analytics"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Tule Technologies",
@@ -318,10 +303,7 @@
       "AI & ML"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Deep Planet",
@@ -377,10 +359,7 @@
       "AI & ML"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Watgrid (WINEGRID)",
@@ -426,10 +405,7 @@
       "AI & ML"
     ],
     "country": "Portugal",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "VinoVoss (BetterAI)",
@@ -479,10 +455,7 @@
       "AI & ML"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Crafted ERP",
@@ -522,10 +495,7 @@
       "ERP & systems of record"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Aromyx",
@@ -576,10 +546,7 @@
       "AI & ML"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "BarTrack",
@@ -636,10 +603,7 @@
       "BI & analytics"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "mid",
-    "region": "",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Precision Fermentation (Sennos)",
@@ -691,10 +655,7 @@
       "BI & analytics"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "BeerBoard",
@@ -736,10 +697,7 @@
     "theme": "Demand & pricing",
     "capabilities": [],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Ceres Imaging (Ceres AI)",
@@ -785,10 +743,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "mid",
-    "region": "North America",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Sommify",
@@ -827,10 +782,7 @@
       "AI & ML"
     ],
     "country": "Finland",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "Nordics",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Sommelier.bot",
@@ -869,10 +821,7 @@
       "AI & ML"
     ],
     "country": "Germany",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Anheuser-Busch InBev",
@@ -917,10 +866,7 @@
       "AI & ML"
     ],
     "country": "Belgium",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Kirin Holdings",
@@ -965,10 +911,7 @@
       "AI & ML"
     ],
     "country": "Japan",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "Japan",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Sapporo Breweries",
@@ -1011,10 +954,7 @@
       "AI & ML"
     ],
     "country": "Japan",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "Japan",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Heineken",
@@ -1058,10 +998,7 @@
       "AI & ML"
     ],
     "country": "Netherlands",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Molson Coors (Atwater Brewery)",
@@ -1105,10 +1042,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "PLAATO",
@@ -1163,10 +1097,7 @@
       "AI & ML"
     ],
     "country": "Norway",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "Nordics",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Zymoscope",
@@ -1221,10 +1152,7 @@
       "AI & ML"
     ],
     "country": "Denmark",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "Nordics",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Propagate Lab",
@@ -1268,10 +1196,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Vivid Machines",
@@ -1320,10 +1245,7 @@
       "AI & ML"
     ],
     "country": "Canada",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "VineView",
@@ -1373,10 +1295,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "VineForecast",
@@ -1430,10 +1349,7 @@
       "AI & ML"
     ],
     "country": "Germany",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Bloomfield Robotics",
@@ -1482,10 +1398,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Agrology",
@@ -1534,10 +1447,7 @@
       "IoT & sensing"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Naio Technologies",
@@ -1586,10 +1496,7 @@
       "AI & ML"
     ],
     "country": "France",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Firstleaf",
@@ -1636,10 +1543,7 @@
     "theme": "Consumer & personalization",
     "capabilities": [],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "DRINKS",
@@ -1689,10 +1593,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Outshinery",
@@ -1736,10 +1637,7 @@
       "AI & ML"
     ],
     "country": "Canada",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Next Century Spirits",
@@ -1802,10 +1700,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Whisky Project",
@@ -1850,10 +1745,7 @@
       "AI & ML"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Kigtek Solutions",
@@ -1894,10 +1786,7 @@
       "BI & analytics"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Whiskey Wise Group",
@@ -1935,10 +1824,7 @@
       "AI & ML"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Overproof",
@@ -1983,10 +1869,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "North America",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Winespace",
@@ -2036,10 +1919,7 @@
       "AI & ML"
     ],
     "country": "France",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Sante",
@@ -2077,10 +1957,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Scotch",
@@ -2118,10 +1995,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "mid",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Unicorn Auctions",
@@ -2170,10 +2044,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Tastewise",
@@ -2218,10 +2089,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "mid",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "The 5th Ingredient",
@@ -2265,10 +2133,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "FlavorWiki",
@@ -2313,10 +2178,7 @@
       "AI & ML"
     ],
     "country": "Switzerland",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Pluto7",
@@ -2355,10 +2217,7 @@
       "Consultancy & services"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Ohanafy",
@@ -2395,10 +2254,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Enavate",
@@ -2437,10 +2293,7 @@
       "Consultancy & services"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Overview",
@@ -2477,10 +2330,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "North America",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Infinity Sky AI",
@@ -2519,10 +2369,7 @@
       "Consultancy & services"
     ],
     "country": "Canada",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Algorithm Factory",
@@ -2559,10 +2406,7 @@
       "AI & ML"
     ],
     "country": "Austria",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Germany & DACH",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Virtualworkforce",
@@ -2600,10 +2444,7 @@
       "ERP & systems of record"
     ],
     "country": "Netherlands",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Haber",
@@ -2640,10 +2481,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "RouteMagic",
@@ -2680,10 +2518,7 @@
       "AI & ML"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "DRAMS",
@@ -2720,10 +2555,7 @@
       "BI & analytics"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "GMware",
@@ -2760,10 +2592,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Aromalytics",
@@ -2801,10 +2630,7 @@
       "AI & ML"
     ],
     "country": "Brazil",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Latin America",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "FlavorActiV",
@@ -2841,10 +2667,7 @@
       "IoT & sensing"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Alpha MOS",
@@ -2882,10 +2705,7 @@
       "AI & ML"
     ],
     "country": "France",
-    "scope": "beverage-native",
-    "size": "large",
-    "region": "Europe (other)",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Cypheme",
@@ -2922,10 +2742,7 @@
       "AI & ML"
     ],
     "country": "France",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Authentic Vision",
@@ -2963,10 +2780,7 @@
       "BI & analytics"
     ],
     "country": "Austria",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Germany & DACH",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Wine Luthier",
@@ -3004,10 +2818,7 @@
       "AI & ML"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "VerAIsonio",
@@ -3045,10 +2856,7 @@
       "Consultancy & services"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Brewing-AI",
@@ -3086,10 +2894,7 @@
       "AI & ML"
     ],
     "country": "Switzerland",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Germany & DACH",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "IWSR",
@@ -3126,10 +2931,7 @@
       "BI & analytics"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Saga Robotics",
@@ -3166,10 +2968,7 @@
     "theme": "Agriculture & crop",
     "capabilities": [],
     "country": "Norway",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Nordics",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Indeex",
@@ -3208,10 +3007,7 @@
       "BI & analytics"
     ],
     "country": "Greece",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Quantis International",
@@ -3250,10 +3046,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "horizontal",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "horizontal"
   },
   {
     "name": "Pubinno",
@@ -3291,10 +3084,7 @@
       "AI & ML"
     ],
     "country": "Turkey",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Middle East",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "OMMM Operations Management Solutions GmbH",
@@ -3333,10 +3123,7 @@
       "ESG & sustainability"
     ],
     "country": "Germany",
-    "scope": "horizontal",
-    "size": "unknown",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "horizontal"
   },
   {
     "name": "Laminar (H2Ok Innovations)",
@@ -3375,10 +3162,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Antares Vision Group",
@@ -3418,10 +3202,7 @@
       "ERP & systems of record"
     ],
     "country": "Italy",
-    "scope": "horizontal",
-    "size": "multinational",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "horizontal"
   },
   {
     "name": "Zaptic",
@@ -3459,10 +3240,7 @@
       "AI & ML"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Flowsight GmbH",
@@ -3500,10 +3278,7 @@
       "IoT & sensing"
     ],
     "country": "Germany",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "beON consult GmbH",
@@ -3542,10 +3317,7 @@
       "Consultancy & services"
     ],
     "country": "Germany",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "SmartSkin Technologies",
@@ -3583,10 +3355,7 @@
       "BI & analytics"
     ],
     "country": "Canada",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Parsable",
@@ -3625,10 +3394,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "horizontal",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "horizontal"
   },
   {
     "name": "Factbird",
@@ -3667,10 +3433,7 @@
       "BI & analytics"
     ],
     "country": "Denmark",
-    "scope": "horizontal",
-    "size": "unknown",
-    "region": "Nordics",
-    "evidence": 2
+    "scope": "horizontal"
   },
   {
     "name": "FuturMaster",
@@ -3708,10 +3471,7 @@
       "AI & ML"
     ],
     "country": "France",
-    "scope": "horizontal",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "horizontal"
   },
   {
     "name": "Bar Analytics",
@@ -3750,10 +3510,7 @@
       "BI & analytics"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Allie AI",
@@ -3792,10 +3549,7 @@
       "AI & ML"
     ],
     "country": "Mexico",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "INTECH Automation & Intelligence (EmpowerGPT)",
@@ -3833,10 +3587,7 @@
       "AI & ML"
     ],
     "country": "Germany",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "seedalive GmbH",
@@ -3874,10 +3625,7 @@
       "AI & ML"
     ],
     "country": "Germany",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Smart DRS",
@@ -3915,10 +3663,7 @@
       "AI & ML"
     ],
     "country": "Slovakia",
-    "scope": "horizontal",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "horizontal"
   },
   {
     "name": "Bira 91 (B9 Beverages)",
@@ -3963,10 +3708,7 @@
       "BI & analytics"
     ],
     "country": "India",
-    "scope": "beverage-native",
-    "size": "large",
-    "region": "India",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "United Breweries Limited (Kingfisher, Heineken-owned)",
@@ -4012,10 +3754,7 @@
       "Consultancy & services"
     ],
     "country": "India",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "India",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Carlsberg India (Carlsberg Group India GCC)",
@@ -4055,10 +3794,7 @@
       "BI & analytics"
     ],
     "country": "India",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "India",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "iWort",
@@ -4104,10 +3840,7 @@
       "BI & analytics"
     ],
     "country": "India",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "India",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "ReFlow Tech",
@@ -4147,10 +3880,7 @@
       "BI & analytics"
     ],
     "country": "India",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "India",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Ankur Napa",
@@ -4197,10 +3927,7 @@
       "BI & analytics"
     ],
     "country": "India",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "India",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "IntelligentX",
@@ -4250,10 +3977,7 @@
       "AI & ML"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Mackmyra",
@@ -4302,10 +4026,7 @@
       "AI & ML"
     ],
     "country": "Sweden",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Nordics",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Bespoken Spirits",
@@ -4353,10 +4074,7 @@
     "theme": "Sensory & recipe",
     "capabilities": [],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "North America",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Bright Cellars",
@@ -4411,10 +4129,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Vivino",
@@ -4465,10 +4180,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Carlsberg",
@@ -4513,10 +4225,7 @@
       "AI & ML"
     ],
     "country": "Denmark",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "Nordics",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Deschutes Brewery",
@@ -4566,10 +4275,7 @@
       "ERP & systems of record"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Scanopy",
@@ -4607,10 +4313,7 @@
       "AI & ML"
     ],
     "country": "France",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Circumstance Distillery",
@@ -4660,10 +4363,7 @@
       "AI & ML"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Bart Watson",
@@ -4707,10 +4407,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Erin Schmidt",
@@ -4754,10 +4451,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Willy Lin",
@@ -4801,10 +4495,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Amanda Dobbyn",
@@ -4848,10 +4539,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Cathy Huyghe",
@@ -4895,10 +4583,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Lulie Halstead",
@@ -4942,10 +4627,7 @@
       "BI & analytics"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "UK & Ireland",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Alan Talbot",
@@ -4989,10 +4671,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Sol\u00e8ne Bergaire",
@@ -5036,10 +4715,7 @@
       "BI & analytics"
     ],
     "country": "France",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Tom Kornegay",
@@ -5082,10 +4758,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "North America",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Duan Peng",
@@ -5129,10 +4802,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "North America",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "First Key Consulting",
@@ -5172,10 +4842,7 @@
       "Consultancy & services"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Arryved",
@@ -5214,10 +4881,7 @@
       "BI & analytics"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Ekos",
@@ -5257,10 +4921,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "mid",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "MontBlancAI",
@@ -5298,10 +4959,7 @@
       "IoT & sensing"
     ],
     "country": "Canada",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Symrise (SymVision)",
@@ -5338,10 +4996,7 @@
       "AI & ML"
     ],
     "country": "Germany",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "Germany & DACH",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Solera",
@@ -5378,10 +5033,7 @@
       "AI & ML"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Alcohol Compliance Company",
@@ -5419,10 +5071,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Wizata",
@@ -5460,10 +5109,7 @@
       "ERP & systems of record"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Lineview",
@@ -5498,10 +5144,7 @@
     "theme": "Process & operations",
     "capabilities": [],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "Harmony AI",
@@ -5536,10 +5179,7 @@
     "theme": "Supply chain",
     "capabilities": [],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 1
+    "scope": "beverage-native"
   },
   {
     "name": "AVEVA (PI System, formerly OSIsoft)",
@@ -5579,10 +5219,7 @@
       "BI & analytics"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Krones",
@@ -5620,10 +5257,7 @@
       "AI & ML"
     ],
     "country": "Germany",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Rockwell Automation (FactoryTalk, Plex)",
@@ -5663,10 +5297,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Siemens (Opcenter)",
@@ -5705,10 +5336,7 @@
       "ERP & systems of record"
     ],
     "country": "Germany",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "AccountTouch",
@@ -5747,10 +5375,7 @@
       "BI & analytics"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Andavi Solutions (GreatVines)",
@@ -5789,10 +5414,7 @@
       "BI & analytics"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Dimensional Insight",
@@ -5832,10 +5454,7 @@
       "Consultancy & services"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Dolia",
@@ -5873,10 +5492,7 @@
       "AI & ML"
     ],
     "country": "Luxembourg",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Prefe",
@@ -5912,10 +5528,7 @@
     "theme": "Demand & pricing",
     "capabilities": [],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "InnoVint",
@@ -5955,10 +5568,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Vicinity Software (VicinityBrew)",
@@ -5998,10 +5608,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "CAP Vision (CAP Vignes)",
@@ -6040,10 +5647,7 @@
       "ERP & systems of record"
     ],
     "country": "France",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "EOS Solutions (EOS WineSuite / EOS Wine)",
@@ -6082,10 +5686,7 @@
       "ERP & systems of record"
     ],
     "country": "Italy",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "KLH Consulting (Vintegrate)",
@@ -6125,10 +5726,7 @@
       "Consultancy & services"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Aptean",
@@ -6170,10 +5768,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Encompass Technologies",
@@ -6213,10 +5808,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Quantiphi (OrderSmart)",
@@ -6256,10 +5848,7 @@
       "Consultancy & services"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Vinsight",
@@ -6299,10 +5888,7 @@
       "BI & analytics"
     ],
     "country": "New Zealand",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Australia & NZ",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "LiquorChat",
@@ -6341,10 +5927,7 @@
       "BI & analytics"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Prosper Insights & Analytics",
@@ -6384,10 +5967,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 3
+    "scope": "beverage-native"
   },
   {
     "name": "Alt/Finance (ALT/FNDATA)",
@@ -6425,10 +6005,7 @@
       "AI & ML"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "LikeFolio",
@@ -6464,10 +6041,7 @@
     "theme": "Consumer & personalization",
     "capabilities": [],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Selartag",
@@ -6506,10 +6080,7 @@
       "Consultancy & services"
     ],
     "country": "France",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "BEERSOFT",
@@ -6547,10 +6118,7 @@
       "AI & ML"
     ],
     "country": "Canada",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Vision33 (Brutos)",
@@ -6589,10 +6157,7 @@
       "ERP & systems of record"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Complexica",
@@ -6639,10 +6204,7 @@
       "AI & ML"
     ],
     "country": "Australia",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Australia & NZ",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Commerce7",
@@ -6686,10 +6248,7 @@
       "BI & analytics"
     ],
     "country": "Canada",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "LibDib (LibTech / Supplier Cloud)",
@@ -6737,10 +6296,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Constellation Brands",
@@ -6785,10 +6341,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Lion Brewery (Ceylon) PLC",
@@ -6828,10 +6381,7 @@
       "BI & analytics"
     ],
     "country": "Sri Lanka",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "GEA Group",
@@ -6871,10 +6421,7 @@
       "BI & analytics"
     ],
     "country": "Germany",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Augury",
@@ -6913,10 +6460,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Ziemann Holvrieka",
@@ -6955,10 +6499,7 @@
       "AI & ML"
     ],
     "country": "Germany",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Endress+Hauser",
@@ -6997,10 +6538,7 @@
       "AI & ML"
     ],
     "country": "Switzerland",
-    "scope": "beverage-native",
-    "size": "multinational",
-    "region": "Germany & DACH",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Emerson",
@@ -7040,10 +6578,7 @@
       "ERP & systems of record"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Sidel",
@@ -7082,10 +6617,7 @@
       "BI & analytics"
     ],
     "country": "Italy",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "SymphonyAI",
@@ -7123,10 +6655,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Evocon",
@@ -7165,10 +6694,7 @@
       "BI & analytics"
     ],
     "country": "Estonia",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "TeepTrak",
@@ -7208,10 +6734,7 @@
       "BI & analytics"
     ],
     "country": "France",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Rare Whisky 101",
@@ -7249,10 +6772,7 @@
       "AI & ML"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "WhiskyInvestDirect",
@@ -7290,10 +6810,7 @@
       "AI & ML"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "SipSource",
@@ -7331,10 +6848,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Ai Palette",
@@ -7372,10 +6886,7 @@
       "AI & ML"
     ],
     "country": "Singapore",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Southeast Asia",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Endless West",
@@ -7413,10 +6924,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "FIVE x 5 Solutions",
@@ -7456,10 +6964,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Spirit Sight",
@@ -7499,10 +7004,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "CaskX",
@@ -7540,10 +7042,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "WhiskyCircle",
@@ -7581,10 +7080,7 @@
       "AI & ML"
     ],
     "country": "Netherlands",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "IES (Integrated Environmental Solutions)",
@@ -7624,10 +7120,7 @@
       "ESG & sustainability"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "AI4Whisky",
@@ -7666,10 +7159,7 @@
       "ESG & sustainability"
     ],
     "country": "United Kingdom",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "UK & Ireland",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Cropsy Technologies",
@@ -7725,10 +7215,7 @@
       "AI & ML"
     ],
     "country": "New Zealand",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Australia & NZ",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Chouette",
@@ -7766,10 +7253,7 @@
       "AI & ML"
     ],
     "country": "France",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Fruition Sciences",
@@ -7817,10 +7301,7 @@
       "AI & ML"
     ],
     "country": "France",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "PlantVoice",
@@ -7872,10 +7353,7 @@
       "AI & ML"
     ],
     "country": "Italy",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Vinhood",
@@ -7914,10 +7392,7 @@
       "AI & ML"
     ],
     "country": "Italy",
-    "scope": "beverage-native",
-    "size": "small",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Elaisian",
@@ -7955,10 +7430,7 @@
       "AI & ML"
     ],
     "country": "Italy",
-    "scope": "beverage-native",
-    "size": "micro",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Agricolus",
@@ -7997,10 +7469,7 @@
       "AI & ML"
     ],
     "country": "Italy",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "BitMetrics",
@@ -8045,10 +7514,7 @@
       "BI & analytics"
     ],
     "country": "Spain",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Wine Services",
@@ -8087,10 +7553,7 @@
       "BI & analytics"
     ],
     "country": "France",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Europe (other)",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "TerraClim",
@@ -8129,10 +7592,7 @@
       "Consultancy & services"
     ],
     "country": "South Africa",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "Africa",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "VIP (Vermont Information Processing)",
@@ -8171,10 +7631,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Provi",
@@ -8221,10 +7678,7 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "LiquidRails",
@@ -8263,10 +7717,7 @@
       "BI & analytics"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "AccelPay",
@@ -8304,10 +7755,7 @@
       "AI & ML"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "WISK",
@@ -8345,10 +7793,7 @@
       "AI & ML"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Vistaar Technologies",
@@ -8387,10 +7832,7 @@
       "ERP & systems of record"
     ],
     "country": "unknown",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Next Glass",
@@ -8429,10 +7871,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "PourMyBeer",
@@ -8477,10 +7916,7 @@
       "BI & analytics"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   },
   {
     "name": "Brewers Association (Barley assistant)",
@@ -8518,9 +7954,6 @@
       "AI & ML"
     ],
     "country": "United States",
-    "scope": "beverage-native",
-    "size": "unknown",
-    "region": "North America",
-    "evidence": 2
+    "scope": "beverage-native"
   }
 ]

@@ -105,9 +105,6 @@ def _norm_papers(rows):
             "summary": r.get("finding", ""),
             "year": r.get("year"),
             "sort": r.get("year") or 0,
-            # Citation count is the one signal that separates work the field
-            # built on from work that was merely published.
-            "cited_by": r.get("cited_by") or 0,
         }
 
 

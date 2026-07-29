@@ -8,9 +8,7 @@ from radar.model import compute_status, Status
 from radar.store import Store
 from radar.capabilities import of_company as capabilities_of
 from radar.geo import country_of
-from radar.region import region_of
 from radar.scope import scope_of
-from radar.size import size_of
 from radar.themes import theme_of
 
 
@@ -35,11 +33,6 @@ def _serialize(company, today: date) -> dict:
     row["country"] = country_of(company.hq_location)
     # beverage-native vs a horizontal vendor that also sells into drinks
     row["scope"] = scope_of(row)
-    row["size"] = size_of(row)
-    row["region"] = region_of(row["country"])
-    # Evidence strength: one source is an assertion, two is corroboration.
-    # Surfaced so a reader can weigh a row rather than trusting it flat.
-    row["evidence"] = len(company.source_urls or [])
     status = (
         compute_status(company.last_seen, today, ACTIVE_MONTHS)
         if company.last_seen

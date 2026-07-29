@@ -252,7 +252,6 @@ function card(c) {
     c.funding_stage && `<span class="chip chip--muted">${esc(c.funding_stage)}${c.total_raised ? " · " + esc(c.total_raised) : ""}</span>`,
     ...(c.capabilities || []).map(capChip),
     c.scope === "horizontal" && `<span class="chip chip--muted" title="Serves several industries, not built for drinks">horizontal</span>`,
-    c.size && c.size !== "unknown" && `<span class="chip chip--size" title="Inferred size">${esc(c.size)}</span>`,
     seenChip(c.key),
   ].filter(Boolean).join("");
   const srcs = (c.source_urls || []).map(safeUrl).filter(Boolean).map((u, i) =>
@@ -283,8 +282,6 @@ function apply() {
     ft = $("f-type").value, fsrc = $("f-source").value, fp = $("f-people").value,
     ffund = $("f-funding").value, fcty = $("f-country").value, sort = $("s-sort").value,
     fplat = $("f-platform").value, fcap = $("f-capability").value, fseen = $("f-seen").value, fscope = $("f-scope").value,
-    fsize = $("f-size").value, freg = $("f-region").value,
-    fev = $("f-evidence").value, fhire = $("f-hiring").value,
     yFrom = +$("f-from").value || 0, yTo = +$("f-to").value || 9999;
   const shown = ALL.filter((c) => {
     if (fplat && !c._platforms.includes(fplat)) return false;
@@ -296,11 +293,6 @@ function apply() {
     if (fu && c._theme !== fu) return false;
     if (fcap && !(c.capabilities || []).includes(fcap)) return false;
     if (fscope && c.scope !== fscope) return false;
-    if (fsize && c.size !== fsize) return false;
-    if (freg && c.region !== freg) return false;
-    if (fev === "2" && (c.evidence || 0) < 2) return false;
-    if (fev === "1" && (c.evidence || 0) !== 1) return false;
-    if (fhire && !HIRING.has(c.name)) return false;
     if (fseen === "star" && !isStarred(c.key)) return false;
     if (fseen === "new" && seenState(c.key) !== "new") return false;
     if (fseen === "seen" && seenState(c.key) === "new") return false;
@@ -388,12 +380,11 @@ function personRow(p) {
 }
 
 function applyPeople() {
-  const fpc = $("fp-country").value, fpr = $("fp-role").value;
+  const fpc = $("fp-country").value;
   const q = $("pq").value.trim().toLowerCase();
   const fv = $("fp-vertical").value, fl = $("fp-linkedin").value;
   const shown = PEOPLE.filter((p) => {
     if (fpc && p.country !== fpc) return false;
-    if (fpr && roleFamily(p.role) !== fpr) return false;
     if (fv && p.vertical !== fv) return false;
     if (fl && !p.linkedin) return false;
     if (q && !`${p.name} ${p.role} ${p.company}`.toLowerCase().includes(q)) return false;
@@ -576,15 +567,9 @@ function resCard(r) {
 function applyRes() {
   const q = $("rq").value.trim().toLowerCase();
   const fk = $("fr-kind").value, fv = $("fr-vertical").value, fp = $("fr-platform").value;
-  const frec = $("fr-recency").value, fcit = $("fr-cited").value;
   const yFrom = +$("fr-from").value || 0, yTo = +$("fr-to").value || 9999;
   const yBound = $("fr-from").value || $("fr-to").value;
   const shown = RES.filter((r) => {
-    // Recency and citations are early returns like every other rule here: this
-    // predicate has a block body, so conditions cannot be chained onto it with
-    // && the way an expression-bodied filter allows.
-    if (frec && !(r.year && r.year >= new Date().getFullYear() - +frec)) return false;
-    if (fcit && (r.cited_by || 0) < +fcit) return false;
     if (fk && r.kind !== fk) return false;
     if (fv && r.vertical !== fv) return false;
     if (fp && !r._platforms.includes(fp)) return false;
@@ -634,16 +619,13 @@ async function loadResources() {
   const resYears = [...new Set(RES.map((r) => r.year).filter(Boolean))].sort((a, b) => a - b);
   fillSelect($("fr-from"), resYears.map(String));
   fillSelect($("fr-to"), resYears.map(String));
-  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-recency", "fr-cited", "fr-platform", "fr-from", "fr-to", "fr-sort"]) $(id).addEventListener("input", applyRes);
+  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-from", "fr-to", "fr-sort"]) $(id).addEventListener("input", applyRes);
   applyRes();
 
 }
 
 // --- Jobs view (open roles in the same field) ----------------------------
 let JOBS = [];
-// Companies with an open role right now. Built from the Jobs feed rather than
-// stored on the company, so it can never go stale relative to the postings.
-const HIRING = new Set();
 
 function jobCard(j) {
   const url = safeUrl(j.url);
@@ -666,7 +648,6 @@ function jobCard(j) {
 
 async function loadJobs() {
   try { JOBS = await (await fetch("jobs.json")).json(); } catch { JOBS = []; }
-  for (const j of JOBS) if (j.tracked_company) HIRING.add(j.tracked_company);
   if (!JOBS.length) { $("tab-jobs").hidden = true; return; }
   const latest = JOBS.map((j) => j.posted).filter(Boolean).sort().pop();
   if (latest) $("jobs-stamp").textContent = `Latest posting ${latest}.`;
@@ -676,12 +657,8 @@ async function loadJobs() {
   const applyJobs = () => {
     const q = $("jq").value.trim().toLowerCase();
     const fv = $("fj-vertical").value, ft = $("fj-tracked").value, fc = $("fj-country").value;
-    const fsen = $("fj-seniority").value, ffam = $("fj-family").value, ffresh = $("fj-fresh").value;
     const shown = JOBS.filter((j) =>
       (!fv || j.vertical === fv) && (!ft || j.tracked_company) && (!fc || j.country === fc)
-      && (!fsen || seniorityOf(j.title) === fsen)
-      && (!ffam || roleFamily(j.title) === ffam)
-      && (!ffresh || daysSince(j.posted) <= +ffresh)
       && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
     renderWorldMap($("world-jobs"), JOBS, (j) => j.country, (place) => {
       const sel = $("fj-country");
@@ -694,7 +671,7 @@ async function loadJobs() {
       ? shown.map(jobCard).join("")
       : `<p class="empty">No open roles match these filters.</p>`;
   };
-  for (const id of ["jq", "fj-vertical", "fj-country", "fj-seniority", "fj-family", "fj-fresh", "fj-tracked"]) $(id).addEventListener("input", applyJobs);
+  for (const id of ["jq", "fj-vertical", "fj-country", "fj-tracked"]) $(id).addEventListener("input", applyJobs);
   applyJobs();
 }
 
@@ -753,7 +730,6 @@ async function loadProspects() {
     .map((t) => `${t} — ${TIER_LABEL[t] || ""}`));
   const pcap = {};
   for (const p of PROSPECTS) for (const c of p.capabilities || []) pcap[c] = (pcap[c] || 0) + 1;
-  fillSelect($("fpr-wedge"), counts(PROSPECTS.filter((p) => p.wedge_group), "wedge_group"));
   fillSelect($("fpr-capability"),
     Object.entries(pcap).sort((a, b) => b[1] - a[1]));
 
@@ -761,14 +737,10 @@ async function loadProspects() {
     const q = $("prq").value.trim().toLowerCase();
     const fr = $("fpr-region").value, fv = $("fpr-vertical").value;
     const ft = $("fpr-tier").value ? Number($("fpr-tier").value.split(" ")[0]) : 0;
-    const fc = $("fpr-capability").value, fw = $("fpr-wedge").value, fpe = $("fpr-evidence").value;
+    const fc = $("fpr-capability").value;
     const shown = PROSPECTS.filter((p) =>
       (!fr || p.region === fr) && (!fv || p.vertical === fv) && (!ft || p.tier === ft)
       && (!fc || (p.capabilities || []).includes(fc))
-      && (!fw || p.wedge_group === fw)
-      && (!fpe || (fpe === "sourced" ? (p.source_urls || []).length > 0
-                 : fpe === "reverified" ? p.discovered_by === "reverified"
-                 : (p.source_urls || []).length === 0))
       && (!q || `${p.company} ${p.segment} ${p.hq} ${p.pain} ${p.wedge} ${p.entry}`.toLowerCase().includes(q)));
     renderWorldMap($("world-prospects"), PROSPECTS, (p) => p.region, (place) => {
       const sel = $("fpr-region");
@@ -781,7 +753,7 @@ async function loadProspects() {
       ? shown.map(prospectCard).join("")
       : `<p class="empty">No prospects match these filters.</p>`;
   };
-  for (const id of ["prq", "fpr-region", "fpr-vertical", "fpr-tier", "fpr-wedge", "fpr-evidence", "fpr-capability"]) $(id).addEventListener("input", applyProspects);
+  for (const id of ["prq", "fpr-region", "fpr-vertical", "fpr-tier", "fpr-capability"]) $(id).addEventListener("input", applyProspects);
   applyProspects();
 }
 
@@ -881,27 +853,6 @@ function renderKpis(rows = ALL) {
   if (!filtered) $("meta").textContent = `${n} entries · ${active} active · ${peopleCount} people.`;
 }
 
-
-// Role family from a job title. Titles are free text from many sources, so
-// this is a keyword call, not a taxonomy: it groups well enough to filter and
-// is honest about returning "" when a title says nothing useful.
-const ROLE_RULES = [
-  [/founder|ceo|cto|coo|chief|president|owner|managing director|partner\b/i, "founder"],
-  [/scien|research|r&d|phd|sensory|chemist|brewmaster|master distiller|winemaker/i, "science"],
-  [/engineer|developer|architect|devops|platform|infrastructur/i, "engineering"],
-  [/analy|business intelligence|\bbi\b|insight|data manager|reporting/i, "analytics"],
-  [/sales|marketing|commercial|growth|revenue|account|brand/i, "commercial"],
-];
-const roleFamily = (title) => (ROLE_RULES.find(([rx]) => rx.test(title || "")) || [, ""])[1];
-
-const seniorityOf = (title) =>
-  /senior|lead\b|principal|staff\b|head of|director|vp\b|chief|manager/i.test(title || "") ? "senior"
-  : /junior|graduate|intern\b|entry|associate|trainee/i.test(title || "") ? "junior" : "mid";
-
-const daysSince = (iso) => {
-  const t = Date.parse(iso || "");
-  return Number.isFinite(t) ? (Date.now() - t) / 86400000 : Infinity;
-};
 
 // --- Icons ---------------------------------------------------------------
 // Inline SVG rather than emoji: emoji render as a different glyph on every
@@ -1285,30 +1236,6 @@ function makeCollapsible(el, label, openByDefault) {
   return { bar, set };
 }
 
-// Two real columns, built in the DOM rather than with grid-template-areas.
-// Assigning several children to one named area does not flow them: it stacks
-// them in the same cell, which is exactly what happened — the filter rail, the
-// chip bar and the saved views all landed on top of each other, and so did the
-// map, the breakdowns and the results grid. Wrapping each column in its own
-// element is the fix, because then the grid has exactly two children.
-function buildColumns() {
-  for (const view of document.querySelectorAll(".view")) {
-    if (view.id === "view-about" || view.id === "view-detail") continue;
-    const controls = view.querySelector(":scope > .controls");
-    if (!controls) continue;
-    const rail = document.createElement("aside");
-    rail.className = "rail";
-    const body = document.createElement("div");
-    body.className = "body";
-    view.insertBefore(rail, view.firstChild);
-    view.appendChild(body);
-    for (const el of [...view.children]) {
-      if (el === rail || el === body) continue;
-      (el.matches(".controls, .chipbar, .viewbar") ? rail : body).appendChild(el);
-    }
-  }
-}
-
 function wireCollapsibles() {
   const phone = window.matchMedia("(max-width: 720px)");
   const made = [];
@@ -1436,7 +1363,6 @@ async function main() {
   fillSelect($("f-vertical"), counts(ALL, "vertical"));
   fillSelect($("f-usecase"), counts(ALL, "_theme").map((p) => p[0]));
   fillSelect($("f-maturity"), counts(ALL, "ai_maturity"));
-  fillSelect($("f-region"), counts(ALL.filter((c) => c.region), "region"));
   // Multi-valued, so counts() (which reads one field) does not apply here.
   const capTally = {};
   for (const c of ALL) for (const k of c.capabilities || []) capTally[k] = (capTally[k] || 0) + 1;
@@ -1451,7 +1377,7 @@ async function main() {
   fillSelect($("f-from"), years.map(String));
   fillSelect($("f-to"), years.map(String));
 
-  for (const id of ["q", "f-vertical", "f-usecase", "f-capability", "f-scope", "f-size", "f-region", "f-evidence", "f-hiring", "f-seen", "f-maturity", "f-status", "f-type",
+  for (const id of ["q", "f-vertical", "f-usecase", "f-capability", "f-scope", "f-seen", "f-maturity", "f-status", "f-type",
     "f-platform", "f-funding", "f-country", "f-source", "f-from", "f-to", "f-people", "s-sort"]) {
     $(id).addEventListener("input", apply);
   }
@@ -1461,7 +1387,7 @@ async function main() {
   PEOPLE = buildPeople();
   fillSelect($("fp-vertical"), [...new Set(PEOPLE.map((p) => p.vertical).filter(Boolean))].sort());
   fillSelect($("fp-country"), counts(PEOPLE.filter((p) => p.country && p.country !== "unknown"), "country"));
-  for (const id of ["pq", "fp-vertical", "fp-country", "fp-role", "fp-linkedin"]) $(id).addEventListener("input", applyPeople);
+  for (const id of ["pq", "fp-vertical", "fp-country", "fp-linkedin"]) $(id).addEventListener("input", applyPeople);
   applyPeople();
   $("tab-companies").addEventListener("click", () => showView("companies"));
   $("tab-people").addEventListener("click", () => showView("people"));
@@ -1491,10 +1417,6 @@ async function main() {
 
   await loadResources();
   await loadJobs();
-  // The grid rendered before the jobs feed arrived, so HIRING was empty. A
-  // saved view with "hiring now" set would have shown nothing. Re-apply once
-  // the cross-tab fact exists.
-  if (HIRING.size) apply();
   await loadProspects();
 
   // global search: one box drives every tab + shows where matches are
@@ -1516,7 +1438,6 @@ async function main() {
   gq.addEventListener("input", globalSearch);
 
   wireFilterVisibility();
-  buildColumns();          // after the chip and view bars exist, so they move too
   wireCollapsibles();
   renderWhatsNew();
   renderHint(CURRENT_TAB);

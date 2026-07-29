@@ -113,7 +113,7 @@
 
   <!-- version query busts the 10-minute Pages cache on every restyle;
        bump it whenever styles.css changes -->
-  <link rel="stylesheet" href="styles.css?v=9ed064e8bc" />
+  <link rel="stylesheet" href="styles.css?v=0c9a3ffd74" />
 </head>
 <body data-view="companies">
   <a class="skip" href="#main">Skip to content</a>
@@ -187,35 +187,16 @@
     </section>
 
     <section class="controls" aria-label="Filters">
-      <input id="q" title="Searches name, location, description, use case and people." type="search" placeholder="Search name, location, description…" aria-label="Search" />
-      <select id="f-vertical" title="Which drink the company works on: beer, whiskey, wine, or several." aria-label="Vertical"><option value="">All verticals</option></select>
-      <select id="f-usecase" title="The business problem being solved, e.g. quality, demand, supply chain." aria-label="Theme"><option value="">All themes</option></select>
-      <select id="f-capability" title="What kind of solution it is: IoT, AI, ERP, BI, ESG or consultancy. A company can be several." aria-label="Capability"><option value="">All capabilities</option></select>
-      <select id="f-size" title="Rough organisation size, inferred from funding, type and public fact. Most rows are unknown: there is no employee count in this data." aria-label="Size">
-        <option value="">All sizes</option>
-        <option value="micro">Micro (solo / one-person)</option>
-        <option value="small">Small (seed stage)</option>
-        <option value="mid">Mid (Series A/B)</option>
-        <option value="large">Large (Series C+, listed)</option>
-        <option value="multinational">Multinational</option>
-        <option value="unknown">Size not known</option>
-      </select>
-      <select id="f-region" title="Country grouped into the same regions the Prospects tab uses." aria-label="Region"><option value="">All regions</option></select>
-      <select id="f-evidence" title="How many independent sources back this entry. One is an assertion; two or more is corroboration." aria-label="Evidence">
-        <option value="">Any evidence</option>
-        <option value="2">Two or more sources</option>
-        <option value="1">Single source only</option>
-      </select>
-      <select id="f-hiring" title="Companies with an open role in the Jobs tab right now." aria-label="Hiring">
-        <option value="">Hiring or not</option>
-        <option value="1">Hiring now</option>
-      </select>
-      <select id="f-scope" title="Built for drinks, or a horizontal vendor that also sells into drinks." aria-label="Scope">
+      <input id="q" type="search" placeholder="Search name, location, description…" aria-label="Search" />
+      <select id="f-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
+      <select id="f-usecase" aria-label="Theme"><option value="">All themes</option></select>
+      <select id="f-capability" aria-label="Capability"><option value="">All capabilities</option></select>
+      <select id="f-scope" aria-label="Scope">
         <option value="">Built for drinks + horizontal</option>
         <option value="beverage-native">Built for drinks only</option>
         <option value="horizontal">Horizontal vendors only</option>
       </select>
-      <select id="f-seen" title="Your own reading history, stored in this browser only." aria-label="Reading state">
+      <select id="f-seen" aria-label="Reading state">
         <option value="">Read + unread</option>
         <option value="new">Not opened yet</option>
         <option value="seen">Already opened</option>
@@ -223,25 +204,25 @@
         <option value="frequent">Opened more than once</option>
         <option value="star">Shortlisted only</option>
       </select>
-      <select id="f-maturity" title="How far along the AI work is: research, pilot, or shipping." aria-label="Maturity"><option value="">All maturity</option></select>
-      <select id="f-status" title="Active means seen in the last 18 months. Dormant means it has gone quiet." aria-label="Status">
+      <select id="f-maturity" aria-label="Maturity"><option value="">All maturity</option></select>
+      <select id="f-status" aria-label="Status">
         <option value="">Active + dormant</option>
         <option value="active">Active only</option>
         <option value="dormant">Dormant only</option>
       </select>
-      <select id="f-type" title="Product company, service firm, or an individual builder." aria-label="Type"><option value="">All types</option></select>
-      <select id="f-platform" title="Named platforms and industry bodies mentioned in the entry." aria-label="Platform"><option value="">All platforms & bodies</option></select>
-      <select id="f-funding" title="Funding stage, where it is known." aria-label="Funding stage"><option value="">All funding</option></select>
-      <select id="f-country" title="Where the company is based." aria-label="Country"><option value="">All countries</option></select>
-      <select id="f-source" title="How this entry was found: curated by hand, or discovered by a scout sweep." aria-label="Source"><option value="">All sources</option></select>
-      <select id="f-from" title="Earliest founding year to include." aria-label="Founded from year"><option value="">Founded: from</option></select>
-      <select id="f-to" title="Latest founding year to include." aria-label="Founded to year"><option value="">Founded: to</option></select>
-      <select id="f-people" title="Entries with a named person, or a reachable LinkedIn profile." aria-label="People">
+      <select id="f-type" aria-label="Type"><option value="">All types</option></select>
+      <select id="f-platform" aria-label="Platform"><option value="">All platforms & bodies</option></select>
+      <select id="f-funding" aria-label="Funding stage"><option value="">All funding</option></select>
+      <select id="f-country" aria-label="Country"><option value="">All countries</option></select>
+      <select id="f-source" aria-label="Source"><option value="">All sources</option></select>
+      <select id="f-from" aria-label="Founded from year"><option value="">Founded: from</option></select>
+      <select id="f-to" aria-label="Founded to year"><option value="">Founded: to</option></select>
+      <select id="f-people" aria-label="People">
         <option value="">Any people</option>
         <option value="named">Has named people</option>
         <option value="linkedin">Has a LinkedIn link</option>
       </select>
-      <select id="s-sort" title="Ordering. The last two use your own reading history." aria-label="Sort">
+      <select id="s-sort" aria-label="Sort">
         <option value="name">Sort: A–Z</option>
         <option value="recent">Sort: recently active</option>
         <option value="founded-new">Sort: newest founded</option>
@@ -257,18 +238,10 @@
 
   <section class="wrap view" id="view-people" hidden>
     <section class="controls" aria-label="People filters">
-      <input id="pq" title="Searches name, role and company." type="search" placeholder="Search person, role, company…" aria-label="Search people" />
-      <select id="fp-vertical" title="Which drink their company works on." aria-label="Vertical"><option value="">All verticals</option></select>
-      <select id="fp-country" title="Where their company is based." aria-label="Country"><option value="">All countries</option></select>
-      <select id="fp-role" title="What they do, grouped from their job title: founders and executives, science and R&amp;D, engineering, analytics and BI, or commercial." aria-label="Role">
-        <option value="">All roles</option>
-        <option value="founder">Founder / exec</option>
-        <option value="science">Science / R&amp;D</option>
-        <option value="engineering">Engineering</option>
-        <option value="analytics">Analytics / BI</option>
-        <option value="commercial">Commercial</option>
-      </select>
-      <select id="fp-linkedin" title="Only people with a reachable LinkedIn profile." aria-label="LinkedIn">
+      <input id="pq" type="search" placeholder="Search person, role, company…" aria-label="Search people" />
+      <select id="fp-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
+      <select id="fp-country" aria-label="Country"><option value="">All countries</option></select>
+      <select id="fp-linkedin" aria-label="LinkedIn">
         <option value="">Everyone</option>
         <option value="1">Has LinkedIn</option>
       </select>
@@ -284,8 +257,8 @@
   <section class="wrap view" id="view-resources" hidden>
     <p class="res-intro">Papers, news, case studies, open-source repositories, and talks on AI and data in beverage. Every item links to its source.</p>
     <section class="controls" aria-label="Resource filters">
-      <input id="rq" title="Searches title, summary and source." type="search" placeholder="Search title, summary, source…" aria-label="Search resources" />
-      <select id="fr-kind" title="Papers, news, blogs, repositories, videos or podcasts." aria-label="Kind">
+      <input id="rq" type="search" placeholder="Search title, summary, source…" aria-label="Search resources" />
+      <select id="fr-kind" aria-label="Kind">
         <option value="">All kinds</option>
         <option value="paper">Research papers</option>
         <option value="news">News &amp; case studies</option>
@@ -294,17 +267,7 @@
         <option value="video">Videos</option>
         <option value="podcast">Podcasts</option>
       </select>
-      <select id="fr-vertical" title="Which drink the resource is about." aria-label="Vertical"><option value="">All verticals</option></select>
-      <select id="fr-recency" title="How recent the work is." aria-label="Recency">
-        <option value="">Any year</option>
-        <option value="2">Last 2 years</option>
-        <option value="5">Last 5 years</option>
-      </select>
-      <select id="fr-cited" title="Citation count, for papers. Work the field built on, rather than work that was merely published." aria-label="Citations">
-        <option value="">Any citation count</option>
-        <option value="100">100+ citations</option>
-        <option value="25">25+ citations</option>
-      </select>
+      <select id="fr-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
       <select id="fr-platform" aria-label="Platform"><option value="">All platforms & bodies</option></select>
       <select id="fr-from" aria-label="Year from"><option value="">Year: from</option></select>
       <select id="fr-to" aria-label="Year to"><option value="">Year: to</option></select>
@@ -322,27 +285,10 @@
   <section class="wrap view" id="view-jobs" hidden>
     <p class="res-intro">Open roles applying AI, data, and analytics in beer, whiskey, and wine. Swept from public job postings; every row links to the original posting. <span id="jobs-stamp" class="hero__meta"></span></p>
     <section class="controls" aria-label="Job filters">
-      <input id="jq" title="Searches title, company and location." type="search" placeholder="Search title, company, location…" aria-label="Search jobs" />
-      <select id="fj-vertical" title="Which drink the employer works on." aria-label="Vertical"><option value="">All verticals</option></select>
-      <select id="fj-country" title="Where the role is based." aria-label="Country"><option value="">All countries</option></select>
-      <select id="fj-seniority" title="Derived from the job title: senior, lead, head and director versus junior, graduate and intern." aria-label="Seniority">
-        <option value="">Any seniority</option>
-        <option value="senior">Senior / lead / head</option>
-        <option value="mid">Mid level</option>
-        <option value="junior">Junior / graduate</option>
-      </select>
-      <select id="fj-family" title="Role family, derived from the title." aria-label="Role family">
-        <option value="">All role families</option>
-        <option value="science">Data science / ML</option>
-        <option value="analytics">Analytics / BI</option>
-        <option value="engineering">Engineering</option>
-      </select>
-      <select id="fj-fresh" title="How recently the role was posted." aria-label="Freshness">
-        <option value="">Any age</option>
-        <option value="7">Posted in 7 days</option>
-        <option value="30">Posted in 30 days</option>
-      </select>
-      <select id="fj-tracked" title="Only employers already tracked on the Companies tab." aria-label="Company">
+      <input id="jq" type="search" placeholder="Search title, company, location…" aria-label="Search jobs" />
+      <select id="fj-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
+      <select id="fj-country" aria-label="Country"><option value="">All countries</option></select>
+      <select id="fj-tracked" aria-label="Company">
         <option value="">All employers</option>
         <option value="1">Tracked on the radar</option>
       </select>
@@ -358,18 +304,11 @@
   <section class="wrap view" id="view-prospects" hidden>
     <p class="res-intro"><strong>Private.</strong> Outreach targets for pitching AI, data and analytics into beer, whiskey and wine. This tab only exists on a local copy: <code>prospects.json</code> is gitignored, so it is never published. <span id="prospects-stamp" class="hero__meta"></span></p>
     <section class="controls" aria-label="Prospect filters">
-      <input id="prq" title="Searches company, pain, wedge and contact." type="search" placeholder="Search company, pain, wedge, contact…" aria-label="Search prospects" />
-      <select id="fpr-region" title="Which region the target is in." aria-label="Region"><option value="">All regions</option></select>
-      <select id="fpr-vertical" title="Which drink they make." aria-label="Vertical"><option value="">All verticals</option></select>
-      <select id="fpr-tier" title="How close they are to buying. Tier 1-2 are named and sourced." aria-label="Tier"><option value="">All tiers</option></select>
-      <select id="fpr-wedge" title="Which of the six offers fits this target. Collapsed from the free-text wedge, which had drifted to 80 variants." aria-label="Wedge"><option value="">All wedges</option></select>
-      <select id="fpr-evidence" title="Whether the row carries sources. Tier 1-2 rows were gated on two sources; tier 3-5 are curated judgement." aria-label="Evidence">
-        <option value="">Any provenance</option>
-        <option value="sourced">Sourced</option>
-        <option value="reverified">Re-verified in a sweep</option>
-        <option value="unsourced">No sources yet</option>
-      </select>
-      <select id="fpr-capability" title="What kind of solution the wedge implies." aria-label="Capability"><option value="">All capabilities</option></select>
+      <input id="prq" type="search" placeholder="Search company, pain, wedge, contact…" aria-label="Search prospects" />
+      <select id="fpr-region" aria-label="Region"><option value="">All regions</option></select>
+      <select id="fpr-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
+      <select id="fpr-tier" aria-label="Tier"><option value="">All tiers</option></select>
+      <select id="fpr-capability" aria-label="Capability"><option value="">All capabilities</option></select>
       <span id="prcount" class="count"></span>
     </section>
     <section class="card wmap-card" aria-label="Where the targets are">
@@ -427,6 +366,6 @@
     No account needed. Anonymised visit stats only, via Google Analytics; Do Not Track is honoured.
   </footer>
 
-  <script type="module" src="app.js?v=5a4148b0fc"></script>
+  <script type="module" src="app.js?v=b2457ad888"></script>
 </body>
 </html>
