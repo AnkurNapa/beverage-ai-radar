@@ -82,6 +82,51 @@ def vertical_of(text):
     return "multiple"
 
 
+US_STATES = {
+    "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL",
+    "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT",
+    "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI",
+    "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY", "DC",
+}
+# LinkedIn also emits metro strings with no country at all ("Greater Kolkata
+# Area"). Only the cities that actually turn up need mapping; anything unknown
+# stays blank rather than being guessed into the wrong country.
+METRO_COUNTRY = {
+    "kolkata": "India", "mumbai": "India", "delhi": "India", "bengaluru": "India",
+    "bangalore": "India", "hyderabad": "India", "chennai": "India", "pune": "India",
+    "new york city": "United States", "chicago": "United States",
+    "san francisco bay": "United States", "los angeles": "United States",
+    "boston": "United States", "seattle": "United States",
+    "london": "United Kingdom", "manchester": "United Kingdom",
+    "dublin": "Ireland", "sydney": "Australia", "melbourne": "Australia",
+    "amsterdam": "Netherlands", "paris": "France", "toronto": "Canada",
+}
+
+
+def country_of(location):
+    """Best-effort country for a LinkedIn location string.
+
+    Three shapes turn up: "Boston, MA", "London, England, United Kingdom" and
+    bare metro strings like "Greater Kolkata Area". Returns "" when the string
+    supports no honest answer, so the filter can omit it instead of inventing
+    a country.
+    """
+    loc = (location or "").strip()
+    if not loc:
+        return ""
+    parts = [p.strip() for p in loc.split(",") if p.strip()]
+    last = parts[-1] if parts else ""
+    if last.upper() in US_STATES:
+        return "United States"
+    if len(parts) > 1:
+        return last
+    stripped = re.sub(r"\b(greater|metropolitan|area|region)\b", " ", last, flags=re.I)
+    stripped = re.sub(r"\s+", " ", stripped).strip()
+    if stripped == last:
+        return last  # a plain single-segment string, e.g. "United States"
+    return METRO_COUNTRY.get(stripped.lower(), "")  # a metro form we cannot place
+
+
 def keep(card, tracked=()):
     """Guest search is fuzzy; demand a beverage AND a data signal, drop obvious noise."""
     blob = f"{card['title']} {card['company']}"
@@ -184,6 +229,7 @@ def tracked_names():
 def tag(card, tracked, query, company=""):
     blob = f"{card['title']} {card['company']}"
     card["vertical"] = vertical_of(blob)
+    card["country"] = country_of(card["location"])
     card["query"] = query
     card["tracked_company"] = company or next(
         (n for k, n in tracked.items() if k in card["company"].lower()), "")

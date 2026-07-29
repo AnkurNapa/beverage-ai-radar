@@ -577,18 +577,20 @@ async function loadJobs() {
   const latest = JOBS.map((j) => j.posted).filter(Boolean).sort().pop();
   if (latest) $("jobs-stamp").textContent = `Latest posting ${latest}.`;
   fillSelect($("fj-vertical"), [...new Set(JOBS.map((j) => j.vertical).filter(Boolean))].sort());
+  // countries by volume, so the places actually hiring sit at the top
+  fillSelect($("fj-country"), counts(JOBS, "country").map((p) => p[0]).filter((c) => c !== "unknown"));
   const applyJobs = () => {
     const q = $("jq").value.trim().toLowerCase();
-    const fv = $("fj-vertical").value, ft = $("fj-tracked").value;
+    const fv = $("fj-vertical").value, ft = $("fj-tracked").value, fc = $("fj-country").value;
     const shown = JOBS.filter((j) =>
-      (!fv || j.vertical === fv) && (!ft || j.tracked_company)
+      (!fv || j.vertical === fv) && (!ft || j.tracked_company) && (!fc || j.country === fc)
       && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
     $("jcount").textContent = `${shown.length} of ${JOBS.length}`;
     $("jobs-grid").innerHTML = shown.length
       ? shown.map(jobCard).join("")
       : `<p class="empty">No open roles match these filters.</p>`;
   };
-  for (const id of ["jq", "fj-vertical", "fj-tracked"]) $(id).addEventListener("input", applyJobs);
+  for (const id of ["jq", "fj-vertical", "fj-country", "fj-tracked"]) $(id).addEventListener("input", applyJobs);
   applyJobs();
 }
 

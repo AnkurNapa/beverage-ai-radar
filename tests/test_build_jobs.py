@@ -105,3 +105,18 @@ def test_trading_name_strips_editorial_and_legal_noise():
 
 def test_mock_company_postings_are_dropped():
     assert not build_jobs.keep(card("Data Analyst", "EFESC Entreprise fictive Chouette"))
+
+
+def test_country_of_handles_all_three_location_shapes():
+    assert build_jobs.country_of("Boston, MA") == "United States"
+    assert build_jobs.country_of("London, England, United Kingdom") == "United Kingdom"
+    assert build_jobs.country_of("Bengaluru, Karnataka, India") == "India"
+    assert build_jobs.country_of("Greater Kolkata Area") == "India"
+    assert build_jobs.country_of("New York City Metropolitan Area") == "United States"
+    assert build_jobs.country_of("United States") == "United States"
+
+
+def test_country_of_refuses_to_guess():
+    """A wrong country is worse than a missing one: the filter can omit blanks."""
+    assert build_jobs.country_of("") == ""
+    assert build_jobs.country_of("Greater Nowhereville Area") == ""
