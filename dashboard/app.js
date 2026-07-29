@@ -177,18 +177,18 @@ function renderBars(el, pairs, filterId, kind) {
     <div class="keys">${rows.map(key).join("")}</div>`;
 
   if (!filterId) return;
-  el.querySelectorAll("[data-filter]").forEach((node) => node.addEventListener("click", () => {
-    const sel = $(node.dataset.filter);
-    const turningOn = sel.value !== node.dataset.value;
-    sel.value = turningOn ? node.dataset.value : "";
-    sel.dispatchEvent(new Event("input"));
-    el.querySelectorAll("[data-filter]").forEach((o) => {
-      const on = o.dataset.value === node.dataset.value && turningOn;
-      o.classList.toggle("is-on", on);
-      if (o.hasAttribute("aria-pressed")) o.setAttribute("aria-pressed", String(on));
+  const current = $(filterId)?.value || "";
+  el.querySelectorAll("[data-filter]").forEach((node) => {
+    const on = node.dataset.value === current;
+    node.classList.toggle("is-on", on);
+    if (node.hasAttribute("aria-pressed")) node.setAttribute("aria-pressed", String(on));
+    node.addEventListener("click", () => {
+      const sel = $(node.dataset.filter);
+      sel.value = sel.value === node.dataset.value ? "" : node.dataset.value;
+      sel.dispatchEvent(new Event("input"));  // repaints bars, KPIs and grid together
+      $("grid").scrollIntoView({ behavior: "smooth", block: "start" });
     });
-    $("grid").scrollIntoView({ behavior: "smooth", block: "start" });
-  }));
+  });
 }
 
 function fillSelect(el, values) {
@@ -280,6 +280,8 @@ function apply() {
     if (sort === "founded-old") return (yr(a) || 9999) - (yr(b) || 9999) || a.name.localeCompare(b.name);
     return a.name.localeCompare(b.name);
   });
+  renderKpis(shown);
+  renderBreakdowns(shown);
   $("count").textContent = `${shown.length} of ${ALL.length}`;
   $("grid").innerHTML = shown.length
     ? shown.map(card).join("")
@@ -337,11 +339,12 @@ function applyPeople() {
     : `<p class="empty">No people match.</p>`;
 }
 
+const VIEWS = ["companies", "people", "resources", "podcasts", "jobs", "about"];
 let CURRENT_TAB = "companies";
 function showView(which) {
   CURRENT_TAB = which;
   location.hash = "";
-  for (const v of ["companies", "people", "resources", "podcasts", "about"]) {
+  for (const v of VIEWS) {
     $("view-" + v).hidden = which !== v;
     $("tab-" + v).classList.toggle("is-active", which === v);
   }
@@ -354,7 +357,7 @@ const slug = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(
 
 // --- Detail pages (hash-routed, deep-linkable) ---------------------------
 function showDetail(html) {
-  for (const v of ["companies", "people", "resources", "podcasts", "about"]) $("view-" + v).hidden = true;
+  for (const v of VIEWS) $("view-" + v).hidden = true;
   $("tabs").hidden = true;
   $("detail").innerHTML = html;
   $("view-detail").hidden = false;
@@ -546,15 +549,67 @@ async function loadResources() {
   if (!pods.length) $("tab-podcasts").hidden = true;
 }
 
-function renderKpis() {
-  const n = ALL.length;
-  const active = ALL.filter((c) => c.status === "active").length;
-  const shipping = ALL.filter((c) => c.ai_maturity === "shipping").length;
-  const individuals = ALL.filter((c) => c.company_type === "individual").length;
-  const peopleCount = ALL.reduce((s, c) => s + (c.people?.length || 0), 0);
-  const verticals = new Set(ALL.map((c) => c.vertical).filter(Boolean)).size;
+// --- Jobs view (open roles in the same field) ----------------------------
+let JOBS = [];
+
+function jobCard(j) {
+  const url = safeUrl(j.url);
+  const title = url
+    ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(j.title)}</a>`
+    : esc(j.title);
+  const meta = [j.location, j.posted ? `posted ${j.posted}` : ""].filter(Boolean).join(" · ");
+  return `<article class="res res--job">
+    <div class="res__body">
+      <div class="res__tags">
+        <span class="chip chip--kind">Job</span>
+        ${j.vertical ? `<span class="chip chip--v chip--${esc(j.vertical)}">${esc(j.vertical)}</span>` : ""}
+        ${j.tracked_company ? `<span class="chip chip--featured">★ on the radar</span>` : ""}
+      </div>
+      <h3 class="res__title">${title}</h3>
+      <div class="res__meta">${esc(j.company)}${meta ? " · " + esc(meta) : ""}</div>
+    </div>
+  </article>`;
+}
+
+async function loadJobs() {
+  try { JOBS = await (await fetch("jobs.json")).json(); } catch { JOBS = []; }
+  if (!JOBS.length) { $("tab-jobs").hidden = true; return; }
+  const latest = JOBS.map((j) => j.posted).filter(Boolean).sort().pop();
+  if (latest) $("jobs-stamp").textContent = `Latest posting ${latest}.`;
+  fillSelect($("fj-vertical"), [...new Set(JOBS.map((j) => j.vertical).filter(Boolean))].sort());
+  const applyJobs = () => {
+    const q = $("jq").value.trim().toLowerCase();
+    const fv = $("fj-vertical").value, ft = $("fj-tracked").value;
+    const shown = JOBS.filter((j) =>
+      (!fv || j.vertical === fv) && (!ft || j.tracked_company)
+      && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
+    $("jcount").textContent = `${shown.length} of ${JOBS.length}`;
+    $("jobs-grid").innerHTML = shown.length
+      ? shown.map(jobCard).join("")
+      : `<p class="empty">No open roles match these filters.</p>`;
+  };
+  for (const id of ["jq", "fj-vertical", "fj-tracked"]) $(id).addEventListener("input", applyJobs);
+  applyJobs();
+}
+
+// Headline figures follow the active filters, so the strip, the breakdown bars
+// and the grid below always describe the same set of companies.
+function renderBreakdowns(rows = ALL) {
+  renderBars($("bd-vertical"), counts(rows, "vertical"), "f-vertical", "vertical");
+  renderBars($("bd-usecase"), counts(rows, "_theme"), "f-usecase", "theme");
+  renderBars($("bd-maturity"), counts(rows, "ai_maturity"), "f-maturity", "maturity");
+}
+
+function renderKpis(rows = ALL) {
+  const n = rows.length;
+  const filtered = n !== ALL.length;
+  const active = rows.filter((c) => c.status === "active").length;
+  const shipping = rows.filter((c) => c.ai_maturity === "shipping").length;
+  const individuals = rows.filter((c) => c.company_type === "individual").length;
+  const peopleCount = rows.reduce((s, c) => s + (c.people?.length || 0), 0);
+  const verticals = new Set(rows.map((c) => c.vertical).filter(Boolean)).size;
   const cards = [
-    [n, "tracked", "companies & ventures"],
+    [n, filtered ? "matching" : "tracked", filtered ? `of ${ALL.length} companies & ventures` : "companies & ventures"],
     [active, "active", "seen in the last 18 months"],
     [shipping, "shipping", "product in market, not just research"],
     [verticals, "verticals", "beer · whiskey · wine · multiple"],
@@ -567,7 +622,7 @@ function renderKpis() {
       <span class="kpi__label">${esc(label)}</span>
       <span class="kpi__sub">${esc(sub)}</span>
     </div>`).join("");
-  $("meta").textContent = `${n} entries · ${active} active · ${peopleCount} people.`;
+  if (!filtered) $("meta").textContent = `${n} entries · ${active} active · ${peopleCount} people.`;
 }
 
 async function main() {
@@ -586,9 +641,7 @@ async function main() {
 
   renderKpis();
 
-  renderBars($("bd-vertical"), counts(ALL, "vertical"), "f-vertical", "vertical");
-  renderBars($("bd-usecase"), counts(ALL, "_theme"), "f-usecase", "theme");
-  renderBars($("bd-maturity"), counts(ALL, "ai_maturity"), "f-maturity", "maturity");
+  renderBreakdowns();
 
   fillSelect($("f-vertical"), counts(ALL, "vertical").map((p) => p[0]));
   fillSelect($("f-usecase"), counts(ALL, "_theme").map((p) => p[0]));
@@ -617,6 +670,7 @@ async function main() {
   $("tab-people").addEventListener("click", () => showView("people"));
   $("tab-resources").addEventListener("click", () => showView("resources"));
   $("tab-podcasts").addEventListener("click", () => showView("podcasts"));
+  $("tab-jobs").addEventListener("click", () => showView("jobs"));
   $("tab-about").addEventListener("click", () => showView("about"));
 
   // card click -> detail route (but let inner links behave normally)
@@ -630,19 +684,21 @@ async function main() {
   $("detail-back").addEventListener("click", (e) => { e.preventDefault(); location.hash = ""; });
 
   await loadResources();
+  await loadJobs();
 
   // global search: one box drives every tab + shows where matches are
   const gq = $("globalq");
   const globalSearch = () => {
     const v = gq.value;
-    for (const id of ["q", "pq", "rq", "podq"]) { const el = $(id); if (el) { el.value = v; el.dispatchEvent(new Event("input")); } }
+    for (const id of ["q", "pq", "rq", "podq", "jq"]) { const el = $(id); if (el) { el.value = v; el.dispatchEvent(new Event("input")); } }
     const q = v.trim().toLowerCase();
     if (!q) { $("global-hint").innerHTML = ""; return; }
     const nC = ALL.filter((c) => `${c.name} ${c.hq_location} ${c.short_description} ${c.ai_use_case || ""} ${c.key_people || ""}`.toLowerCase().includes(q)).length;
     const nP = PEOPLE.filter((p) => `${p.name} ${p.role} ${p.company}`.toLowerCase().includes(q)).length;
     const nR = RES.filter((r) => `${r.title} ${r.summary} ${r.meta}`.toLowerCase().includes(q)).length;
+    const nJ = JOBS.filter((j) => `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)).length;
     const seg = (n, label, view) => `<button class="ghint ${n ? "" : "is-empty"}" data-view="${view}">${n} ${label}</button>`;
-    $("global-hint").innerHTML = `Found: ${seg(nC, "companies", "companies")}${seg(nP, "people", "people")}${seg(nR, "resources", "resources")}`;
+    $("global-hint").innerHTML = `Found: ${seg(nC, "companies", "companies")}${seg(nP, "people", "people")}${seg(nR, "resources", "resources")}${seg(nJ, "jobs", "jobs")}`;
     $("global-hint").querySelectorAll(".ghint").forEach((b) => b.addEventListener("click", () => showView(b.dataset.view)));
   };
   gq.addEventListener("input", globalSearch);

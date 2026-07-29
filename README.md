@@ -27,7 +27,28 @@ PYTHONPATH=src .venv/bin/python -m radar.cli gaps           # what coverage is t
 PYTHONPATH=src .venv/bin/python -m radar.cli scout-brief    # write one scout brief per surface
 PYTHONPATH=src .venv/bin/python -m radar.cli scout-merge .scout/finds/*.json
 PYTHONPATH=src .venv/bin/python -m radar.cli scout-liveness # find dead/blocked domains
+
+.venv/bin/python scripts/build_jobs.py   # refresh the Jobs tab (dashboard/jobs.json)
 ```
+
+## Jobs tab
+
+`scripts/build_jobs.py` writes `dashboard/jobs.json` from the keyless LinkedIn
+guest search, in two passes:
+
+1. **Keyword sweep**, the field at large: beverage x data queries across four
+   locations. The search is fuzzy, so a card is kept only if title and employer
+   carry both a beverage signal and a data/AI signal. Big drinks employers whose
+   name contains no beverage word (Diageo, Pernod, AB InBev) are recognised from
+   a list, otherwise their data roles are dropped.
+2. **Company sweep**, the radar itself: every tracked company in `data/seed.json`
+   is asked directly whether it is hiring. The beverage gate is already satisfied
+   by the employer match, but the data/AI gate stays, or the feed fills with
+   welders and accountants from the large industrial vendors.
+
+Rows carry `tracked_company` when the employer is on the radar, which drives the
+"on the radar" chip and the "Tracked on the radar" filter. Nothing is inferred:
+every row links to its posting.
 
 ## Agentic scouting
 

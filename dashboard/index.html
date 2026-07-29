@@ -126,6 +126,7 @@
         <button id="tab-people" class="tab" type="button">People</button>
         <button id="tab-resources" class="tab" type="button">Research &amp; resources</button>
         <button id="tab-podcasts" class="tab" type="button">Podcasts</button>
+        <button id="tab-jobs" class="tab" type="button">Jobs</button>
         <button id="tab-about" class="tab" type="button">About</button>
       </nav>
       <div class="topbar__util">
@@ -239,6 +240,20 @@
     <section id="pod-grid" class="grid" aria-live="polite"></section>
   </main>
 
+  <main class="wrap" id="view-jobs" hidden>
+    <p class="res-intro">Open roles applying AI, data, and analytics in beer, whiskey, and wine. Swept from public job postings; every row links to the original posting. <span id="jobs-stamp" class="hero__meta"></span></p>
+    <section class="controls" aria-label="Job filters">
+      <input id="jq" type="search" placeholder="Search title, company, location…" aria-label="Search jobs" />
+      <select id="fj-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
+      <select id="fj-tracked" aria-label="Company">
+        <option value="">All employers</option>
+        <option value="1">Tracked on the radar</option>
+      </select>
+      <span id="jcount" class="count"></span>
+    </section>
+    <section id="jobs-grid" class="grid" aria-live="polite"></section>
+  </main>
+
   <main class="wrap" id="view-about" hidden>
     <article class="about">
       <h2>Why this exists</h2>
@@ -286,6 +301,6 @@
     No account needed. Anonymised visit stats only, via Google Analytics; Do Not Track is honoured.
   </footer>
 
-  <script type="module" src="app.js?v=33dbf67b68"></script>
+  <script type="module" src="app.js?v=076e4231d6"></script>
 </body>
 </html>
