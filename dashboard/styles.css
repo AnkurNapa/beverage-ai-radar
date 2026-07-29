@@ -8,14 +8,17 @@
    own CSS declares — Georgia for the serif, Helvetica Neue/Calibri/Corbel for
    the sans. No webfont request, nothing to license, same silhouette. */
 :root {
-  --bg: #ffffff;
+  /* Pure #000 on pure #fff is the highest contrast available and reads as
+     glare over long sessions. Softening both ends keeps well above WCAG AA
+     while taking the hard edge off; the ratio is still ~16:1 for headlines. */
+  --bg: #fbfbfa;
   --surface: #ffffff;
   --raised: #ffffff;          /* hover-lift card face */
-  --ink: #000000;             /* headlines */
-  --body: #333333;            /* body copy */
-  --muted: #6e6e6e;
-  --line: #e6e6e6;            /* hairline rule */
-  --line-strong: #cccccc;
+  --ink: #1a1a1a;             /* headlines */
+  --body: #3d3d3d;            /* body copy */
+  --muted: #656565;           /* darkened from #6e6e6e: 4.5:1 against --bg */
+  --line: #e4e4e1;            /* hairline rule */
+  --line-strong: #c4c4c0;
   --accent: #2251ff;          /* McKinsey blue */
   --accent-hover: #1a3ecc;
   --navy: #051c2c;            /* deep brand navy, used for the footer band */
@@ -24,14 +27,15 @@
   --shadow-lift: 0 2px 18px rgba(0, 0, 0, .13);
   --serif: Newsreader, Bower, Georgia, "Times New Roman", serif;
   --font: "McKinsey Sans", "Helvetica Neue", Calibri, Corbel, Helvetica, Arial, sans-serif;
-  --measure: 62ch;
+  --measure: 66ch;
 }
 @media (prefers-color-scheme: dark) {
   /* The reference is committed light. Dark stays a restrained token swap so
      dark-OS readers are not flash-banged, not a second design. */
   :root {
     --bg: #0b0f14; --surface: #0f151c; --raised: #16202b;
-    --ink: #ffffff; --body: #c9d1d9; --muted: #8b949e;
+    /* #fff on a near-black ground haloes; #e8edf2 keeps 14:1 without the bloom */
+    --ink: #e8edf2; --body: #c2ccd6; --muted: #97a3b0;
     --line: #212c38; --line-strong: #33404f;
     --accent: #6f8cff; --accent-hover: #94a9ff; --navy: #05090d;
     --dormant: #6b7683;
@@ -43,7 +47,11 @@
 html { scroll-padding-top: 96px; }
 body {
   margin: 0; background: var(--bg); color: var(--body);
-  font-family: var(--font); font-weight: 300; font-size: 1rem; line-height: 1.5;
+  /* Was weight 300 at 1rem. A light weight at body size is the main source of
+     eye strain here: the strokes thin out and the reader compensates. 400 at a
+     slightly larger size and looser leading reads calmer without changing the
+     silhouette of the design. */
+  font-family: var(--font); font-weight: 400; font-size: 1.03rem; line-height: 1.62;
   -webkit-font-smoothing: antialiased; overflow-wrap: break-word;
 }
 /* grid/flex children must be allowed to shrink below their content min-width */
@@ -80,7 +88,7 @@ a:hover { color: var(--accent-hover); }
 }
 .hero .hero__lede { max-width: 68ch; margin-left: auto; margin-right: auto; }
 .hero__eyebrow {
-  font-size: .72rem; font-weight: 400; letter-spacing: .14em; text-transform: uppercase;
+  font-size: .76rem; font-weight: 400; letter-spacing: .14em; text-transform: uppercase;
   color: var(--muted); display: flex; align-items: center; justify-content: center; gap: .5rem;
 }
 .hero__title {
@@ -265,7 +273,7 @@ a:hover { color: var(--accent-hover); }
 }
 .key.is-on .key__dot { box-shadow: 0 0 0 2px var(--bg), 0 0 0 3px var(--paint); }
 .key__n { font-variant-numeric: tabular-nums; font-weight: 400; color: var(--ink); }
-.key__pct { font-size: .72rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.key__pct { font-size: .76rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .keys .key:not([data-filter]) { cursor: default; }
 
 @media (prefers-color-scheme: dark) {
@@ -297,7 +305,7 @@ a:hover { color: var(--accent-hover); }
   outline: none; border-bottom-color: var(--accent); box-shadow: none;
 }
 .count {
-  color: var(--muted); font-size: .75rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); font-size: .78rem; letter-spacing: .1em; text-transform: uppercase;
   margin-left: auto;
 }
 
@@ -372,11 +380,11 @@ a:hover { color: var(--accent-hover); }
   letter-spacing: -.005em; color: var(--ink);
 }
 .company .loc {
-  color: var(--muted); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--muted); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase;
   margin-top: .3rem; display: block;
 }
 .company .usecase {
-  font-size: .75rem; font-weight: 400; letter-spacing: .1em; text-transform: uppercase;
+  font-size: .78rem; font-weight: 400; letter-spacing: .1em; text-transform: uppercase;
   color: var(--accent); margin: 0;
 }
 .company p { margin: 0; font-size: .95rem; font-weight: 300; line-height: 1.55; color: var(--body); }
@@ -395,7 +403,7 @@ a:hover { color: var(--accent-hover); }
 /* --- Chips: flat uppercase micro-labels, ruled not filled --------------- */
 .chips { display: flex; flex-wrap: wrap; gap: .4rem .9rem; }
 .chip {
-  font-size: .68rem; font-weight: 400; letter-spacing: .1em; text-transform: uppercase;
+  font-size: .72rem; font-weight: 400; letter-spacing: .1em; text-transform: uppercase;
   padding: 0 0 0 .55rem; border-radius: 0; background: none; color: var(--muted);
   border-left: 2px solid var(--line-strong); line-height: 1.5;
 }
@@ -519,7 +527,7 @@ a:hover { color: var(--accent-hover); }
 }
 .cl-date {
   display: inline-block; min-width: 6.5rem; flex: none; color: var(--muted);
-  font-size: .75rem; letter-spacing: .08em; font-variant-numeric: tabular-nums;
+  font-size: .78rem; letter-spacing: .08em; font-variant-numeric: tabular-nums;
 }
 .about__note { font-size: .9rem; color: var(--muted); margin-top: 2rem; font-weight: 300; }
 
@@ -539,7 +547,7 @@ a:hover { color: var(--accent-hover); }
 .detail__head .logo__fav { width: 38px; height: 38px; }
 .detail__head .avatar { font-size: 1.4rem; }
 .detail__kind {
-  font-size: .72rem; font-weight: 400; letter-spacing: .12em; text-transform: uppercase;
+  font-size: .76rem; font-weight: 400; letter-spacing: .12em; text-transform: uppercase;
   color: var(--muted);
 }
 .detail h1 {
@@ -564,7 +572,7 @@ a:hover { color: var(--accent-hover); }
   border-bottom: 1px solid var(--line);
 }
 .drow dt {
-  font-size: .7rem; text-transform: uppercase; letter-spacing: .1em;
+  font-size: .74rem; text-transform: uppercase; letter-spacing: .1em;
   color: var(--muted); font-weight: 400;
 }
 .drow dd { margin: 0; font-size: 1rem; font-weight: 300; color: var(--ink); }
@@ -651,7 +659,7 @@ a:hover { color: var(--accent-hover); }
 }
 .fchip {
   display: inline-flex; align-items: center; gap: .4rem;
-  font: inherit; font-size: .75rem; line-height: 1;
+  font: inherit; font-size: .78rem; line-height: 1;
   padding: .4rem .6rem; cursor: pointer;
   background: color-mix(in oklab, var(--accent) 8%, transparent);
   border: 1px solid color-mix(in oklab, var(--accent) 30%, transparent);
@@ -659,7 +667,7 @@ a:hover { color: var(--accent-hover); }
   transition: background .15s ease, border-color .15s ease;
 }
 .fchip:hover { background: color-mix(in oklab, var(--accent) 16%, transparent); }
-.fchip__k { text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-size: .65rem; }
+.fchip__k { text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-size: .7rem; }
 .fchip__v { font-weight: 400; }
 .fchip__x { color: var(--muted); font-size: .95rem; margin-left: .1rem; }
 .fchip:hover .fchip__x { color: var(--accent); }
@@ -674,7 +682,7 @@ a:hover { color: var(--accent-hover); }
 @media (max-width: 720px) {
   .wmap { grid-template-columns: repeat(auto-fill, minmax(5.5rem, 1fr)); }
   .wtile { grid-column: auto !important; grid-row: auto !important; flex-direction: row; gap: .35rem; }
-  .wtile__k { display: inline; font-size: .7rem; }
+  .wtile__k { display: inline; font-size: .74rem; }
   .wtile__c { display: none; }             /* full name is shown at this size */
 }
 
@@ -688,7 +696,7 @@ a:hover { color: var(--accent-hover); }
    nothing is fetched from a CDN at runtime. */
 .wmap-card { margin-bottom: 2rem; }
 .wmap-hint {
-  font-size: .7rem; text-transform: uppercase; letter-spacing: .1em;
+  font-size: .74rem; text-transform: uppercase; letter-spacing: .1em;
   color: var(--muted); font-weight: 300; margin-left: .75rem;
 }
 svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
@@ -709,7 +717,7 @@ svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
 
 .wmap__legend {
   display: flex; align-items: center; gap: .4rem; margin-top: .6rem;
-  font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em;
+  font-size: .74rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em;
 }
 .wmap__scale { display: inline-flex; gap: 2px; }
 .wmap__scale i {
@@ -742,19 +750,19 @@ svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
   font-size: .78rem; line-height: 1.35;
 }
 .wtip__h { font-weight: 600; margin-bottom: .1rem; }
-.wtip__n { color: var(--accent); font-size: .72rem; margin-bottom: .3rem; }
+.wtip__n { color: var(--accent); font-size: .76rem; margin-bottom: .3rem; }
 .wtip__vs { display: flex; flex-wrap: wrap; gap: .25rem; margin-bottom: .3rem; }
 .wtip__v {
-  font-size: .65rem; padding: .1rem .35rem; border-radius: 999px;
+  font-size: .7rem; padding: .1rem .35rem; border-radius: 999px;
   background: color-mix(in oklab, var(--accent) 10%, transparent); color: var(--muted);
 }
-.wtip__list { font-size: .7rem; color: var(--muted); }
+.wtip__list { font-size: .74rem; color: var(--muted); }
 .wmap-card { position: relative; }        /* tooltip anchors to the card */
 
 /* --- Map zoom, detail and back ------------------------------------------- */
 .wmap__back {
   position: absolute; top: .6rem; right: .6rem; z-index: 15;
-  font: inherit; font-size: .72rem; cursor: pointer;
+  font: inherit; font-size: .76rem; cursor: pointer;
   padding: .35rem .6rem; border-radius: 999px;
   background: var(--bg); border: 1px solid var(--line-strong); color: var(--ink);
   opacity: 0; pointer-events: none; transition: opacity .18s ease;
@@ -770,7 +778,7 @@ svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
   max-height: 15rem; overflow-y: auto;
 }
 .wdetail__h {
-  font-size: .72rem; text-transform: uppercase; letter-spacing: .1em;
+  font-size: .76rem; text-transform: uppercase; letter-spacing: .1em;
   color: var(--muted); margin-bottom: .5rem;
 }
 .wdetail__list { list-style: none; margin: 0; padding: 0; }
@@ -780,13 +788,13 @@ svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
   font-size: .8rem;
 }
 .wdetail__n { font-weight: 400; }
-.wdetail__m { color: var(--muted); font-size: .72rem; margin-left: auto; }
-.wdetail__more { font-size: .72rem; color: var(--muted); padding-top: .5rem; }
+.wdetail__m { color: var(--muted); font-size: .76rem; margin-left: auto; }
+.wdetail__more { font-size: .76rem; color: var(--muted); padding-top: .5rem; }
 
 /* --- Reading state, shortlist, what's new --------------------------------
    Visit history is per-browser localStorage: the radar is a public page with
    no accounts, so there is nowhere else for it to live. */
-.chip--seen { font-size: .62rem; letter-spacing: .06em; text-transform: uppercase; }
+.chip--seen { font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; }
 .chip--seen-new {
   background: color-mix(in oklab, var(--accent) 14%, transparent);
   color: var(--accent); font-weight: 500;
@@ -811,7 +819,7 @@ svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
 }
 .wnew__t { color: var(--ink); }
 .wnew__b {
-  font: inherit; font-size: .72rem; cursor: pointer; padding: .25rem .55rem;
+  font: inherit; font-size: .76rem; cursor: pointer; padding: .25rem .55rem;
   border-radius: 999px; background: var(--bg);
   border: 1px solid var(--line-strong); color: var(--ink);
 }
@@ -824,11 +832,11 @@ svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
   border-left: 2px solid var(--accent); background: color-mix(in oklab, var(--accent) 4%, transparent);
 }
 .hint kbd {
-  font: inherit; font-size: .72rem; padding: .05rem .3rem;
+  font: inherit; font-size: .76rem; padding: .05rem .3rem;
   border: 1px solid var(--line-strong); border-radius: 3px;
 }
 .hint__x {
-  margin-left: auto; flex: none; font: inherit; font-size: .72rem; cursor: pointer;
+  margin-left: auto; flex: none; font: inherit; font-size: .76rem; cursor: pointer;
   background: none; border: 1px solid var(--line-strong); border-radius: 999px;
   padding: .2rem .55rem; color: var(--ink);
 }
@@ -841,7 +849,7 @@ svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
   border: 1px solid var(--line-strong); border-radius: 999px; overflow: hidden;
 }
 .vchip button {
-  font: inherit; font-size: .72rem; cursor: pointer; background: none; border: 0;
+  font: inherit; font-size: .76rem; cursor: pointer; background: none; border: 0;
   padding: .25rem .55rem; color: var(--ink);
 }
 .vchip button:hover { color: var(--accent); }
@@ -868,14 +876,14 @@ svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
 }
 .cmdk__i.is-active { background: color-mix(in oklab, var(--accent) 12%, transparent); }
 .cmdk__k {
-  font-size: .62rem; text-transform: uppercase; letter-spacing: .08em;
+  font-size: .68rem; text-transform: uppercase; letter-spacing: .08em;
   color: var(--muted); min-width: 4.2rem; flex: none;
 }
-.cmdk__h { margin-left: auto; font-size: .72rem; color: var(--muted); }
+.cmdk__h { margin-left: auto; font-size: .76rem; color: var(--muted); }
 .cmdk__empty { padding: .8rem; color: var(--muted); font-size: .85rem; }
 .cmdk__foot {
   padding: .5rem .8rem; border-top: 1px solid var(--line);
-  font-size: .68rem; color: var(--muted);
+  font-size: .72rem; color: var(--muted);
 }
 .cmdk__foot kbd {
   font: inherit; padding: .05rem .28rem; margin-right: .2rem;

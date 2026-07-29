@@ -349,6 +349,10 @@ function buildPeople() {
       rows.push({
         name: p.name, role: p.role || "", linkedin: p.linkedin || "",
         company: c.name, vertical: c.vertical || "", status: c.status,
+        // A person has no location of their own in the data, so they inherit
+        // their company's. Honest for a map: it says where the WORK is, not
+        // necessarily where the person sits.
+        country: c.country || countryOf(c), hq_location: c.hq_location || "",
         // individuals carry their bio + evidence on the company row itself
         desc: c.company_type === "individual" ? c.short_description || "" : "",
         sources: c.company_type === "individual" ? (c.source_urls || []) : [],
@@ -374,15 +378,22 @@ function personRow(p) {
 }
 
 function applyPeople() {
+  const fpc = $("fp-country").value;
   const q = $("pq").value.trim().toLowerCase();
   const fv = $("fp-vertical").value, fl = $("fp-linkedin").value;
   const shown = PEOPLE.filter((p) => {
+    if (fpc && p.country !== fpc) return false;
     if (fv && p.vertical !== fv) return false;
     if (fl && !p.linkedin) return false;
     if (q && !`${p.name} ${p.role} ${p.company}`.toLowerCase().includes(q)) return false;
     return true;
   });
   const withLi = shown.filter((p) => p.linkedin).length;
+  renderWorldMap($("world-people"), PEOPLE, (p) => p.country, (place) => {
+    const sel = $("fp-country");
+    sel.value = place || "";
+    sel.dispatchEvent(new Event("input", { bubbles: true }));
+  }, $("fp-country").value, { unit: "countries", noun: "people", label: "People by country" });
   kpisFor("people", shown, PEOPLE);
   $("pcount").textContent = `${shown.length} people · ${withLi} with LinkedIn`;
   $("people-list").innerHTML = shown.length
@@ -390,7 +401,7 @@ function applyPeople() {
     : `<p class="empty">No people match.</p>`;
 }
 
-const VIEWS = ["companies", "people", "resources", "podcasts", "jobs", "prospects", "about"];
+const VIEWS = ["companies", "people", "resources", "jobs", "prospects", "about"];
 let CURRENT_TAB = "companies";
 function showView(which) {
   CURRENT_TAB = which;
@@ -605,20 +616,6 @@ async function loadResources() {
   for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-from", "fr-to", "fr-sort"]) $(id).addEventListener("input", applyRes);
   applyRes();
 
-  // dedicated Podcasts page
-  const pods = RES.filter((r) => r.kind === "podcast");
-  fillSelect($("fpod-vertical"), [...new Set(pods.map((p) => p.vertical).filter(Boolean))].sort());
-  const applyPods = () => {
-    const q = $("podq").value.trim().toLowerCase(), fv = $("fpod-vertical").value;
-    const shown = pods.filter((p) =>
-      (!fv || p.vertical === fv) && (!q || `${p.title} ${p.summary} ${p.meta}`.toLowerCase().includes(q)));
-    kpisFor("podcasts", shown, pods);
-    $("podcount").textContent = `${shown.length} podcast${shown.length === 1 ? "" : "s"}`;
-    $("pod-grid").innerHTML = shown.length ? shown.map(resCard).join("") : `<p class="empty">No podcasts match.</p>`;
-  };
-  for (const id of ["podq", "fpod-vertical"]) $(id).addEventListener("input", applyPods);
-  applyPods();
-  if (!pods.length) $("tab-podcasts").hidden = true;
 }
 
 // --- Jobs view (open roles in the same field) ----------------------------
@@ -657,6 +654,11 @@ async function loadJobs() {
     const shown = JOBS.filter((j) =>
       (!fv || j.vertical === fv) && (!ft || j.tracked_company) && (!fc || j.country === fc)
       && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
+    renderWorldMap($("world-jobs"), JOBS, (j) => j.country, (place) => {
+      const sel = $("fj-country");
+      sel.value = place || "";
+      sel.dispatchEvent(new Event("input", { bubbles: true }));
+    }, $("fj-country").value, { unit: "countries", noun: "roles", label: "Open roles by country" });
     kpisFor("jobs", shown, JOBS);
     $("jcount").textContent = `${shown.length} of ${JOBS.length}`;
     $("jobs-grid").innerHTML = shown.length
@@ -793,10 +795,6 @@ const KPI_BUILDERS = {
     [rows.length, rows.length === all.length ? "resources" : "matching", sub(rows.length, all.length, "resources")],
     [rows.filter((r) => r.kind === "paper").length, plural(rows.filter((r) => r.kind === "paper").length, "papers"), "peer-reviewed research"],
     [rows.filter((r) => r.kind === "repo").length, plural(rows.filter((r) => r.kind === "repo").length, "repositories"), "open-source code"],
-    [uniq(rows, (r) => r.vertical), plural(uniq(rows, (r) => r.vertical), "verticals"), "covered"],
-  ],
-  podcasts: (rows, all) => [
-    [rows.length, rows.length === all.length ? "podcasts" : "matching", sub(rows.length, all.length, "podcasts")],
     [uniq(rows, (r) => r.vertical), plural(uniq(rows, (r) => r.vertical), "verticals"), "covered"],
   ],
   jobs: (rows, all) => [
@@ -1340,12 +1338,12 @@ async function main() {
   // People view
   PEOPLE = buildPeople();
   fillSelect($("fp-vertical"), [...new Set(PEOPLE.map((p) => p.vertical).filter(Boolean))].sort());
-  for (const id of ["pq", "fp-vertical", "fp-linkedin"]) $(id).addEventListener("input", applyPeople);
+  fillSelect($("fp-country"), counts(PEOPLE.filter((p) => p.country && p.country !== "unknown"), "country"));
+  for (const id of ["pq", "fp-vertical", "fp-country", "fp-linkedin"]) $(id).addEventListener("input", applyPeople);
   applyPeople();
   $("tab-companies").addEventListener("click", () => showView("companies"));
   $("tab-people").addEventListener("click", () => showView("people"));
   $("tab-resources").addEventListener("click", () => showView("resources"));
-  $("tab-podcasts").addEventListener("click", () => showView("podcasts"));
   $("tab-jobs").addEventListener("click", () => showView("jobs"));
   $("tab-prospects").addEventListener("click", () => showView("prospects"));
   $("tab-about").addEventListener("click", () => showView("about"));
@@ -1377,7 +1375,7 @@ async function main() {
   const gq = $("globalq");
   const globalSearch = () => {
     const v = gq.value;
-    for (const id of ["q", "pq", "rq", "podq", "jq", "prq"]) { const el = $(id); if (el) { el.value = v; el.dispatchEvent(new Event("input")); } }
+    for (const id of ["q", "pq", "rq", "jq", "prq"]) { const el = $(id); if (el) { el.value = v; el.dispatchEvent(new Event("input")); } }
     const q = v.trim().toLowerCase();
     if (!q) { $("global-hint").innerHTML = ""; return; }
     const nC = ALL.filter((c) => `${c.name} ${c.hq_location} ${c.short_description} ${c.ai_use_case || ""} ${c.key_people || ""}`.toLowerCase().includes(q)).length;
