@@ -37,7 +37,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "tastry.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Analytical Flavor Systems (Gastrograph AI)",
@@ -82,7 +87,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "gastrograph.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Preferabli",
@@ -129,7 +139,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "preferabli.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Deep Liquid",
@@ -179,7 +194,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "deepliquid.ai",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Australia"
   },
   {
     "name": "Enolytics",
@@ -224,7 +243,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "enolytics.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Tule Technologies",
@@ -269,7 +292,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "tule-technologies::unknown",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Deep Planet",
@@ -319,7 +347,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "deepplanet.ai",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Watgrid (WINEGRID)",
@@ -359,7 +392,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "watgrid.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Portugal"
   },
   {
     "name": "VinoVoss (BetterAI)",
@@ -403,7 +441,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "vinovoss.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Crafted ERP",
@@ -437,7 +480,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "craftederp.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Aromyx",
@@ -482,7 +530,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "aromyx.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "unknown"
   },
   {
     "name": "BarTrack",
@@ -532,7 +585,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "bartrack::unknown",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Precision Fermentation (Sennos)",
@@ -577,7 +636,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "precisionfermentation.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "unknown"
   },
   {
     "name": "BeerBoard",
@@ -616,7 +681,9 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "beerboard.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [],
+    "country": "United States"
   },
   {
     "name": "Ceres Imaging (Ceres AI)",
@@ -656,7 +723,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "ceres.ai",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Sommify",
@@ -689,7 +761,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "sommify::finland",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Finland"
   },
   {
     "name": "Sommelier.bot",
@@ -722,7 +799,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "sommelier.bot",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Germany"
   },
   {
     "name": "Anheuser-Busch InBev",
@@ -761,7 +843,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "ab-inbev.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Belgium"
   },
   {
     "name": "Kirin Holdings",
@@ -800,7 +887,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "kirinholdings.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Japan"
   },
   {
     "name": "Sapporo Breweries",
@@ -838,7 +930,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "sapporoholdings.jp",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Japan"
   },
   {
     "name": "Heineken",
@@ -877,7 +973,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "theheinekencompany.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Netherlands"
   },
   {
     "name": "Molson Coors (Atwater Brewery)",
@@ -916,7 +1016,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "molsoncoors.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "PLAATO",
@@ -965,7 +1069,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "plaato.ai",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Norway"
   },
   {
     "name": "Zymoscope",
@@ -1014,7 +1123,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "zymoscope.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Denmark"
   },
   {
     "name": "Propagate Lab",
@@ -1053,7 +1167,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "propagatelab.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Vivid Machines",
@@ -1097,7 +1215,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "vividmachines.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Canada"
   },
   {
     "name": "VineView",
@@ -1141,7 +1263,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "vineview.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "VineForecast",
@@ -1190,7 +1317,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "vineforecast.com",
-    "theme": "Agriculture & crop"
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Germany"
   },
   {
     "name": "Bloomfield Robotics",
@@ -1234,7 +1365,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "bloomfield.ai",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Agrology",
@@ -1278,7 +1413,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "agrology.ag",
-    "theme": "Agriculture & crop"
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "United States"
   },
   {
     "name": "Naio Technologies",
@@ -1322,7 +1461,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "naio-technologies.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "France"
   },
   {
     "name": "Firstleaf",
@@ -1366,7 +1509,9 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "firstleaf.com",
-    "theme": "Consumer & personalization"
+    "theme": "Consumer & personalization",
+    "capabilities": [],
+    "country": "United States"
   },
   {
     "name": "DRINKS",
@@ -1410,7 +1555,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "drinks.com",
-    "theme": "Consumer & personalization"
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Outshinery",
@@ -1449,7 +1599,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "outshinery.com",
-    "theme": "GenAI & marketing"
+    "theme": "GenAI & marketing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Canada"
   },
   {
     "name": "Next Century Spirits",
@@ -1504,7 +1658,14 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "nextcenturyspirits.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Whisky Project",
@@ -1543,7 +1704,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "whiskyproject.ai",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Kigtek Solutions",
@@ -1577,7 +1743,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "kigtek.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Whiskey Wise Group",
@@ -1610,7 +1782,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "whiskey-wise-group::united-kingdom",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Overproof",
@@ -1650,7 +1826,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "overproof.com",
-    "theme": "GenAI & marketing"
+    "theme": "GenAI & marketing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Winespace",
@@ -1694,7 +1874,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "winespace.fr",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "France"
   },
   {
     "name": "Sante",
@@ -1727,7 +1912,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "sante::united-states",
-    "theme": "Supply chain"
+    "theme": "Supply chain",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Scotch",
@@ -1760,7 +1949,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "scotch::united-states",
-    "theme": "Supply chain"
+    "theme": "Supply chain",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Unicorn Auctions",
@@ -1804,7 +1997,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "unicornauctions.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Tastewise",
@@ -1843,7 +2040,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "tastewise.io",
-    "theme": "GenAI & marketing"
+    "theme": "GenAI & marketing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "The 5th Ingredient",
@@ -1882,7 +2084,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "the5thingredient.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "FlavorWiki",
@@ -1921,7 +2127,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "flavorwiki.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Switzerland"
   },
   {
     "name": "Pluto7",
@@ -1954,7 +2165,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "pluto7.com",
-    "theme": "Consulting"
+    "theme": "Consulting",
+    "capabilities": [
+      "AI & ML",
+      "Consultancy & services"
+    ],
+    "country": "United States"
   },
   {
     "name": "Ohanafy",
@@ -1986,7 +2202,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "ohanafy.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Enavate",
@@ -2018,7 +2238,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "enavate.com",
-    "theme": "Consulting"
+    "theme": "Consulting",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "Consultancy & services"
+    ],
+    "country": "United States"
   },
   {
     "name": "Overview",
@@ -2050,7 +2276,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "overview.ai",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Infinity Sky AI",
@@ -2082,7 +2312,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "infinitysky.ai",
-    "theme": "Consulting"
+    "theme": "Consulting",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "Consultancy & services"
+    ],
+    "country": "Canada"
   },
   {
     "name": "Algorithm Factory",
@@ -2114,7 +2350,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "algorithm-factory.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Austria"
   },
   {
     "name": "Virtualworkforce",
@@ -2146,7 +2386,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "virtualworkforce.ai",
-    "theme": "Supply chain"
+    "theme": "Supply chain",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "Netherlands"
   },
   {
     "name": "Haber",
@@ -2178,7 +2423,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "haberwater.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "RouteMagic",
@@ -2210,7 +2459,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "routemagic.app",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "DRAMS",
@@ -2242,7 +2495,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "drams-software.com",
-    "theme": "Supply chain"
+    "theme": "Supply chain",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "GMware",
@@ -2274,7 +2531,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "gmware.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Aromalytics",
@@ -2306,7 +2567,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "aromalyticsai.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Brazil"
   },
   {
     "name": "FlavorActiV",
@@ -2338,7 +2604,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "flavoractiv.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Alpha MOS",
@@ -2370,7 +2640,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "alpha-mos.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "France"
   },
   {
     "name": "Cypheme",
@@ -2402,7 +2677,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "cypheme.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "France"
   },
   {
     "name": "Authentic Vision",
@@ -2434,7 +2713,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "authenticvision.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Austria"
   },
   {
     "name": "Wine Luthier",
@@ -2466,7 +2750,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "wineluthier.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "unknown"
   },
   {
     "name": "VerAIsonio",
@@ -2498,7 +2787,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "veraison.io",
-    "theme": "Consulting"
+    "theme": "Consulting",
+    "capabilities": [
+      "AI & ML",
+      "Consultancy & services"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Brewing-AI",
@@ -2530,7 +2824,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "brewing-ai.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Switzerland"
   },
   {
     "name": "IWSR",
@@ -2562,7 +2861,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "theiwsr.com",
-    "theme": "Consumer & personalization"
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Saga Robotics",
@@ -2596,7 +2899,9 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "sagarobotics.com",
-    "theme": "Agriculture & crop"
+    "theme": "Agriculture & crop",
+    "capabilities": [],
+    "country": "Norway"
   },
   {
     "name": "Indeex",
@@ -2629,7 +2934,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "indeex.ai",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Greece"
   },
   {
     "name": "Quantis International",
@@ -2662,7 +2972,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "quantis.ai",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Pubinno",
@@ -2695,7 +3010,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "pubinno.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Turkey"
   },
   {
     "name": "OMMM Operations Management Solutions GmbH",
@@ -2728,7 +3047,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "ommm.ai",
-    "theme": "Supply chain"
+    "theme": "Supply chain",
+    "capabilities": [
+      "AI & ML",
+      "ESG & sustainability"
+    ],
+    "country": "Germany"
   },
   {
     "name": "Laminar (H2Ok Innovations)",
@@ -2761,7 +3085,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "runlaminar.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Antares Vision Group",
@@ -2794,7 +3123,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "antaresvisiongroup.com",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "Italy"
   },
   {
     "name": "Zaptic",
@@ -2827,7 +3162,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "zaptic.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Flowsight GmbH",
@@ -2860,7 +3199,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "flowsight.de",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "Germany"
   },
   {
     "name": "beON consult GmbH",
@@ -2893,7 +3236,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "beon.net",
-    "theme": "Consulting"
+    "theme": "Consulting",
+    "capabilities": [
+      "AI & ML",
+      "Consultancy & services"
+    ],
+    "country": "Germany"
   },
   {
     "name": "SmartSkin Technologies",
@@ -2926,7 +3274,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "smartskintech.com",
-    "theme": "Supply chain"
+    "theme": "Supply chain",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "Canada"
   },
   {
     "name": "Parsable",
@@ -2959,7 +3311,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "parsable.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Factbird",
@@ -2992,7 +3349,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "factbird.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Denmark"
   },
   {
     "name": "FuturMaster",
@@ -3025,7 +3387,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "futurmaster.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "France"
   },
   {
     "name": "Bar Analytics",
@@ -3058,7 +3424,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "co.uk",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Allie AI",
@@ -3091,7 +3462,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "allie-ai.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Mexico"
   },
   {
     "name": "INTECH Automation & Intelligence (EmpowerGPT)",
@@ -3124,7 +3500,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "empowergpt.ai",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Germany"
   },
   {
     "name": "seedalive GmbH",
@@ -3157,7 +3537,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "seedalive.de",
-    "theme": "Agriculture & crop"
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Germany"
   },
   {
     "name": "Smart DRS",
@@ -3190,7 +3574,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "smartdrs.com",
-    "theme": "Supply chain"
+    "theme": "Supply chain",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Slovakia"
   },
   {
     "name": "Bira 91 (B9 Beverages)",
@@ -3229,7 +3617,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "bira91.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "India"
   },
   {
     "name": "United Breweries Limited (Kingfisher, Heineken-owned)",
@@ -3268,7 +3661,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "unitedbreweries.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics",
+      "Consultancy & services"
+    ],
+    "country": "India"
   },
   {
     "name": "Carlsberg India (Carlsberg Group India GCC)",
@@ -3302,7 +3701,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "carlsbergindia.in",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "India"
   },
   {
     "name": "iWort",
@@ -3341,7 +3745,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "iwort.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "India"
   },
   {
     "name": "ReFlow Tech",
@@ -3374,7 +3784,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "reflowtech.in",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "India"
   },
   {
     "name": "Ankur Napa",
@@ -3414,7 +3830,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "ankur-napa::india",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "India"
   },
   {
     "name": "IntelligentX",
@@ -3459,7 +3881,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "intelligentx::united-kingdom",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Mackmyra",
@@ -3503,7 +3929,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "mackmyra.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Sweden"
   },
   {
     "name": "Bespoken Spirits",
@@ -3548,7 +3978,9 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "bespokenspirits.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [],
+    "country": "United States"
   },
   {
     "name": "Bright Cellars",
@@ -3597,7 +4029,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "brightcellars.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Vivino",
@@ -3642,7 +4079,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "vivino.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Carlsberg",
@@ -3681,7 +4123,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "carlsberggroup.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Denmark"
   },
   {
     "name": "Deschutes Brewery",
@@ -3725,7 +4172,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "deschutesbrewery.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "United States"
   },
   {
     "name": "Scanopy",
@@ -3758,7 +4210,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "scanopy::france",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "France"
   },
   {
     "name": "Circumstance Distillery",
@@ -3803,7 +4259,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "circumstancedistillery.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Bart Watson",
@@ -3842,7 +4302,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "bart-watson::usa",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Erin Schmidt",
@@ -3881,7 +4345,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "erin-schmidt::usa",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Willy Lin",
@@ -3920,7 +4388,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "willy-lin::usa",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Amanda Dobbyn",
@@ -3959,7 +4431,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "amanda-dobbyn::usa",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Cathy Huyghe",
@@ -3998,7 +4474,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "cathy-huyghe::usa",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Lulie Halstead",
@@ -4037,7 +4517,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "lulie-halstead::united-kingdom",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Alan Talbot",
@@ -4076,7 +4560,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "alan-talbot::usa",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Sol\u00e8ne Bergaire",
@@ -4115,7 +4603,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "sol-ne-bergaire::france",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "France"
   },
   {
     "name": "Tom Kornegay",
@@ -4153,7 +4645,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "tom-kornegay::usa",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Duan Peng",
@@ -4191,7 +4687,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "duan-peng::usa",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "First Key Consulting",
@@ -4225,7 +4726,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "firstkey.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "Consultancy & services"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Arryved",
@@ -4259,7 +4765,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "arryved.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Ekos",
@@ -4292,7 +4802,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "goekos.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "MontBlancAI",
@@ -4325,7 +4841,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "montblanc.ai",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "Canada"
   },
   {
     "name": "Symrise (SymVision)",
@@ -4357,7 +4877,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "symrise.com",
-    "theme": "Consumer & personalization"
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Germany"
   },
   {
     "name": "Solera",
@@ -4389,7 +4913,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "solera.vin",
-    "theme": "Consumer & personalization"
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Alcohol Compliance Company",
@@ -4421,7 +4949,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "alcoholcompco.com",
-    "theme": "Compliance & licensing"
+    "theme": "Compliance & licensing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Wizata",
@@ -4453,7 +4986,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "wizata.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Lineview",
@@ -4485,7 +5023,9 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "lineview.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [],
+    "country": "unknown"
   },
   {
     "name": "Harmony AI",
@@ -4517,7 +5057,9 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "tryharmony.ai",
-    "theme": "Supply chain"
+    "theme": "Supply chain",
+    "capabilities": [],
+    "country": "unknown"
   },
   {
     "name": "AVEVA (PI System, formerly OSIsoft)",
@@ -4550,7 +5092,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "aveva.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Krones",
@@ -4583,7 +5131,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "krones.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Germany"
   },
   {
     "name": "Rockwell Automation (FactoryTalk, Plex)",
@@ -4616,7 +5168,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "rockwellautomation.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Siemens (Opcenter)",
@@ -4649,7 +5207,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "siemens.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "Germany"
   },
   {
     "name": "AccountTouch",
@@ -4682,7 +5245,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "accounttouch.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Andavi Solutions (GreatVines)",
@@ -4715,7 +5283,12 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "andavisolutions.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Dimensional Insight",
@@ -4748,7 +5321,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "dimins.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics",
+      "Consultancy & services"
+    ],
+    "country": "United States"
   },
   {
     "name": "Dolia",
@@ -4781,7 +5360,11 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "getdolia.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Luxembourg"
   },
   {
     "name": "Prefe",
@@ -4814,7 +5397,9 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "prefe::unknown",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [],
+    "country": "unknown"
   },
   {
     "name": "InnoVint",
@@ -4847,7 +5432,13 @@
     "discovered_by": "curated",
     "verified": true,
     "key": "innovint.us",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Vicinity Software (VicinityBrew)",
@@ -4880,7 +5471,13 @@
     "discovered_by": "scout:microsoft",
     "verified": false,
     "key": "vicinitysoftware.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "CAP Vision (CAP Vignes)",
@@ -4913,7 +5510,12 @@
     "discovered_by": "scout:microsoft",
     "verified": false,
     "key": "capvision.fr",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "France"
   },
   {
     "name": "EOS Solutions (EOS WineSuite / EOS Wine)",
@@ -4946,7 +5548,12 @@
     "discovered_by": "scout:microsoft",
     "verified": false,
     "key": "eos-solutions.it",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "Italy"
   },
   {
     "name": "KLH Consulting (Vintegrate)",
@@ -4979,7 +5586,13 @@
     "discovered_by": "scout:microsoft",
     "verified": false,
     "key": "klhconsulting.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "Consultancy & services"
+    ],
+    "country": "United States"
   },
   {
     "name": "Aptean",
@@ -5013,7 +5626,14 @@
     "discovered_by": "scout:microsoft",
     "verified": false,
     "key": "aptean.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Encompass Technologies",
@@ -5046,7 +5666,13 @@
     "discovered_by": "scout:google",
     "verified": false,
     "key": "encompasstech.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Quantiphi (OrderSmart)",
@@ -5080,7 +5706,12 @@
     "discovered_by": "scout:microsoft",
     "verified": false,
     "key": "quantiphi.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "Consultancy & services"
+    ],
+    "country": "United States"
   },
   {
     "name": "Vinsight",
@@ -5113,7 +5744,13 @@
     "discovered_by": "scout:microsoft",
     "verified": false,
     "key": "vinsight.net",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "New Zealand"
   },
   {
     "name": "LiquorChat",
@@ -5146,7 +5783,12 @@
     "discovered_by": "scout:microsoft",
     "verified": false,
     "key": "liquorchat.ai",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Prosper Insights & Analytics",
@@ -5180,7 +5822,12 @@
     "discovered_by": "scout:aws",
     "verified": false,
     "key": "prosperinsights.com",
-    "theme": "Consumer & personalization"
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Alt/Finance (ALT/FNDATA)",
@@ -5213,7 +5860,11 @@
     "discovered_by": "scout:aws",
     "verified": false,
     "key": "altfndata.com",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "unknown"
   },
   {
     "name": "LikeFolio",
@@ -5246,7 +5897,9 @@
     "discovered_by": "scout:aws",
     "verified": false,
     "key": "likefolio.com",
-    "theme": "Consumer & personalization"
+    "theme": "Consumer & personalization",
+    "capabilities": [],
+    "country": "United States"
   },
   {
     "name": "Selartag",
@@ -5279,7 +5932,12 @@
     "discovered_by": "scout:aws",
     "verified": false,
     "key": "selartag.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "Consultancy & services"
+    ],
+    "country": "France"
   },
   {
     "name": "BEERSOFT",
@@ -5312,7 +5970,11 @@
     "discovered_by": "scout:aws",
     "verified": false,
     "key": "beersoft.ca",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Canada"
   },
   {
     "name": "Vision33 (Brutos)",
@@ -5345,7 +6007,12 @@
     "discovered_by": "scout:aws",
     "verified": false,
     "key": "vision33.com",
-    "theme": "Other"
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Complexica",
@@ -5387,7 +6054,11 @@
     "discovered_by": "scout:whiskey",
     "verified": false,
     "key": "complexica.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Australia"
   },
   {
     "name": "Commerce7",
@@ -5426,7 +6097,11 @@
     "discovered_by": "scout:google",
     "verified": false,
     "key": "commerce7.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "Canada"
   },
   {
     "name": "LibDib (LibTech / Supplier Cloud)",
@@ -5468,7 +6143,12 @@
     "discovered_by": "scout:google",
     "verified": false,
     "key": "libdib.com",
-    "theme": "GenAI & marketing"
+    "theme": "GenAI & marketing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Constellation Brands",
@@ -5506,7 +6186,13 @@
     "discovered_by": "scout:google",
     "verified": false,
     "key": "cbrands.com",
-    "theme": "Consumer & personalization"
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Lion Brewery (Ceylon) PLC",
@@ -5539,7 +6225,13 @@
     "discovered_by": "scout:google",
     "verified": false,
     "key": "lionbeer.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Sri Lanka"
   },
   {
     "name": "GEA Group",
@@ -5572,7 +6264,13 @@
     "discovered_by": "scout:industrial",
     "verified": false,
     "key": "gea.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Germany"
   },
   {
     "name": "Augury",
@@ -5605,7 +6303,12 @@
     "discovered_by": "scout:industrial",
     "verified": false,
     "key": "augury.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Ziemann Holvrieka",
@@ -5638,7 +6341,12 @@
     "discovered_by": "scout:industrial",
     "verified": false,
     "key": "ziemann-holvrieka.com",
-    "theme": "Consumer & personalization"
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Germany"
   },
   {
     "name": "Endress+Hauser",
@@ -5671,7 +6379,12 @@
     "discovered_by": "scout:industrial",
     "verified": false,
     "key": "endress.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Switzerland"
   },
   {
     "name": "Emerson",
@@ -5704,7 +6417,13 @@
     "discovered_by": "scout:industrial",
     "verified": false,
     "key": "emerson.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "United States"
   },
   {
     "name": "Sidel",
@@ -5737,7 +6456,12 @@
     "discovered_by": "scout:industrial",
     "verified": false,
     "key": "sidel.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Italy"
   },
   {
     "name": "SymphonyAI",
@@ -5770,7 +6494,11 @@
     "discovered_by": "scout:industrial",
     "verified": false,
     "key": "symphonyai.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Evocon",
@@ -5803,7 +6531,12 @@
     "discovered_by": "scout:industrial",
     "verified": false,
     "key": "evocon.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Estonia"
   },
   {
     "name": "TeepTrak",
@@ -5836,7 +6569,13 @@
     "discovered_by": "scout:industrial",
     "verified": false,
     "key": "teeptrak.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "France"
   },
   {
     "name": "Rare Whisky 101",
@@ -5869,7 +6608,11 @@
     "discovered_by": "scout:whiskey",
     "verified": false,
     "key": "rarewhisky101.com",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "WhiskyInvestDirect",
@@ -5902,7 +6645,11 @@
     "discovered_by": "scout:whiskey",
     "verified": false,
     "key": "whiskyinvestdirect.com",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "SipSource",
@@ -5935,7 +6682,11 @@
     "discovered_by": "scout:whiskey",
     "verified": false,
     "key": "sipsource.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "Ai Palette",
@@ -5968,7 +6719,11 @@
     "discovered_by": "scout:whiskey",
     "verified": false,
     "key": "aipalette.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Singapore"
   },
   {
     "name": "Endless West",
@@ -6001,7 +6756,11 @@
     "discovered_by": "scout:whiskey",
     "verified": false,
     "key": "endlesswest.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "FIVE x 5 Solutions",
@@ -6034,7 +6793,13 @@
     "discovered_by": "scout:whiskey",
     "verified": false,
     "key": "fx5.com",
-    "theme": "Compliance & licensing"
+    "theme": "Compliance & licensing",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Spirit Sight",
@@ -6067,7 +6832,13 @@
     "discovered_by": "scout:whiskey",
     "verified": false,
     "key": "spiritsight.co",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "CaskX",
@@ -6100,7 +6871,11 @@
     "discovered_by": "scout:whiskey",
     "verified": false,
     "key": "caskx.com",
-    "theme": "Market data & valuation"
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "WhiskyCircle",
@@ -6133,7 +6908,11 @@
     "discovered_by": "scout:whiskey",
     "verified": false,
     "key": "whiskycircle.app",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Netherlands"
   },
   {
     "name": "IES (Integrated Environmental Solutions)",
@@ -6166,7 +6945,13 @@
     "discovered_by": "scout:whiskey",
     "verified": false,
     "key": "iesve.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "ESG & sustainability"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "AI4Whisky",
@@ -6199,7 +6984,12 @@
     "discovered_by": "scout:whiskey",
     "verified": false,
     "key": "ai4whisky.com",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ESG & sustainability"
+    ],
+    "country": "United Kingdom"
   },
   {
     "name": "Cropsy Technologies",
@@ -6249,7 +7039,12 @@
     "discovered_by": "scout:wine",
     "verified": false,
     "key": "cropsy.tech",
-    "theme": "Agriculture & crop"
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "New Zealand"
   },
   {
     "name": "Chouette",
@@ -6282,7 +7077,11 @@
     "discovered_by": "scout:wine",
     "verified": false,
     "key": "chouette.vision",
-    "theme": "Agriculture & crop"
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "France"
   },
   {
     "name": "Fruition Sciences",
@@ -6324,7 +7123,12 @@
     "discovered_by": "scout:wine",
     "verified": false,
     "key": "fruitionsciences.com",
-    "theme": "Agriculture & crop"
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "France"
   },
   {
     "name": "PlantVoice",
@@ -6370,7 +7174,12 @@
     "discovered_by": "scout:wine",
     "verified": false,
     "key": "plantvoice.farm",
-    "theme": "Agriculture & crop"
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Italy"
   },
   {
     "name": "Vinhood",
@@ -6403,7 +7212,12 @@
     "discovered_by": "scout:wine",
     "verified": false,
     "key": "vinhood.com",
-    "theme": "Sensory & recipe"
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Italy"
   },
   {
     "name": "Elaisian",
@@ -6436,7 +7250,11 @@
     "discovered_by": "scout:wine",
     "verified": false,
     "key": "elaisian.com",
-    "theme": "Agriculture & crop"
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Italy"
   },
   {
     "name": "Agricolus",
@@ -6469,7 +7287,12 @@
     "discovered_by": "scout:wine",
     "verified": false,
     "key": "agricolus.com",
-    "theme": "Agriculture & crop"
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Italy"
   },
   {
     "name": "BitMetrics",
@@ -6507,7 +7330,13 @@
     "discovered_by": "scout:wine",
     "verified": false,
     "key": "bitmetrics.ai",
-    "theme": "Quality & inspection"
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Spain"
   },
   {
     "name": "Wine Services",
@@ -6540,7 +7369,12 @@
     "discovered_by": "scout:wine",
     "verified": false,
     "key": "wine-services.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "France"
   },
   {
     "name": "TerraClim",
@@ -6573,7 +7407,12 @@
     "discovered_by": "scout:wine",
     "verified": false,
     "key": "terraclim.com",
-    "theme": "Agriculture & crop"
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML",
+      "Consultancy & services"
+    ],
+    "country": "South Africa"
   },
   {
     "name": "VIP (Vermont Information Processing)",
@@ -6606,7 +7445,12 @@
     "discovered_by": "scout:beer",
     "verified": false,
     "key": "vipinsights.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Provi",
@@ -6648,7 +7492,11 @@
     "discovered_by": "scout:beer",
     "verified": false,
     "key": "provi.com",
-    "theme": "Consumer & personalization"
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   },
   {
     "name": "LiquidRails",
@@ -6681,7 +7529,12 @@
     "discovered_by": "scout:beer",
     "verified": false,
     "key": "liquidrails.ai",
-    "theme": "Consumer & personalization"
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "unknown"
   },
   {
     "name": "AccelPay",
@@ -6714,7 +7567,11 @@
     "discovered_by": "scout:beer",
     "verified": false,
     "key": "accelpay.io",
-    "theme": "GenAI & marketing"
+    "theme": "GenAI & marketing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "unknown"
   },
   {
     "name": "WISK",
@@ -6747,7 +7604,11 @@
     "discovered_by": "scout:beer",
     "verified": false,
     "key": "wisk.ai",
-    "theme": "Process & operations"
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Vistaar Technologies",
@@ -6780,7 +7641,12 @@
     "discovered_by": "scout:beer",
     "verified": false,
     "key": "vistaar.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "unknown"
   },
   {
     "name": "Next Glass",
@@ -6813,7 +7679,12 @@
     "discovered_by": "scout:beer",
     "verified": false,
     "key": "nextglass.co",
-    "theme": "Consumer & personalization"
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "PourMyBeer",
@@ -6851,7 +7722,13 @@
     "discovered_by": "scout:beer",
     "verified": false,
     "key": "pourmybeer.com",
-    "theme": "Demand & pricing"
+    "theme": "Demand & pricing",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States"
   },
   {
     "name": "Brewers Association (Barley assistant)",
@@ -6884,6 +7761,10 @@
     "discovered_by": "scout:beer",
     "verified": false,
     "key": "brewersassociation.org",
-    "theme": "Compliance & licensing"
+    "theme": "Compliance & licensing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States"
   }
 ]
