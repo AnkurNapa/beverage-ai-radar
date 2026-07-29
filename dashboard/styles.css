@@ -1063,8 +1063,9 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
 
    Slow on purpose. A real radar sweeps every few seconds and that speed is
    what makes most radar backgrounds feel cheap: it demands attention on a loop.
-   26 seconds is slow enough that you catch it at the edge of vision and then
-   forget about it, which is the whole intent. */
+   72 seconds per revolution means the beam takes over a minute to come back
+   round, so you catch it at the edge of vision and then forget about it. 26s
+   was tried first and still read as motion rather than as atmosphere. */
 .ambient__sweep {
   background: conic-gradient(from 0deg at var(--ax, 50%) var(--ay, 40%),
     color-mix(in oklab, var(--radar) 60%, transparent) 0deg,
@@ -1072,7 +1073,7 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
   opacity: .3;
   mask-image: radial-gradient(circle at var(--ax, 50%) var(--ay, 40%),
     #000 0 42%, transparent 66%);
-  animation: ambient-sweep 26s linear infinite;
+  animation: ambient-sweep 72s linear infinite;
   will-change: transform;
 }
 @keyframes ambient-sweep {
@@ -1089,14 +1090,14 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
   width: 5px; height: 5px; margin: -2.5px 0 0 -2.5px;
   border-radius: 50%; background: var(--radar);
   opacity: 0;
-  animation: ambient-blip 26s ease-out infinite;
+  animation: ambient-blip 72s ease-out infinite;
   animation-delay: var(--bd);
 }
 @keyframes ambient-blip {
   0%   { opacity: 0;   transform: scale(.6); }
-  1.5% { opacity: .85; transform: scale(1.5); }   /* the beam arrives */
-  14%  { opacity: .18; transform: scale(1); }
-  46%  { opacity: 0;   transform: scale(1); }     /* faded before it returns */
+  0.6% { opacity: .85; transform: scale(1.5); }   /* the beam arrives */
+  8%   { opacity: .2;  transform: scale(1); }
+  38%  { opacity: 0;   transform: scale(1); }     /* faded before it returns */
   100% { opacity: 0;   transform: scale(.6); }
 }
 
