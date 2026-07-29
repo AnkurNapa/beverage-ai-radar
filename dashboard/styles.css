@@ -43,7 +43,14 @@
     /* #fff on a near-black ground haloes; #e8edf2 keeps 14:1 without the bloom */
     --ink: #e8edf2; --body: #c2ccd6; --muted: #97a3b0;
     --line: #212c38; --line-strong: #33404f;
-    --accent: #6f8cff; --accent-hover: #94a9ff; --navy: #05090d;
+    /* Dark commits to the radar console: the accent IS the trace colour, so
+       links, focus rings, active filters, KPI numbers and the sweep all read
+       as one instrument rather than a blue UI with a green decoration behind
+       it. 11.07:1 on the ground, comfortably past AA, and greens hold their
+       hue better than blues at low opacity, which is where most of this
+       colour is actually used. Light keeps the blue: green on white reads as
+       a highlighter, not a screen. */
+    --accent: #35e07a; --accent-hover: #6fecA3; --navy: #05090d;
     --radar: #35e07a;         /* P7-ish phosphor, pulled back from pure #00ff41 */
     --dormant: #6b7683;
     --shadow-lift: 0 2px 18px rgba(0, 0, 0, .6);
