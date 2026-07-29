@@ -8,6 +8,7 @@ from radar.model import compute_status, Status
 from radar.store import Store
 from radar.capabilities import of_company as capabilities_of
 from radar.geo import country_of
+from radar.scope import scope_of
 from radar.themes import theme_of
 
 
@@ -30,6 +31,8 @@ def _serialize(company, today: date) -> dict:
     # Normalised once here so the filter, the map and the gap analysis
     # cannot disagree about how many companies a country has.
     row["country"] = country_of(company.hq_location)
+    # beverage-native vs a horizontal vendor that also sells into drinks
+    row["scope"] = scope_of(row)
     status = (
         compute_status(company.last_seen, today, ACTIVE_MONTHS)
         if company.last_seen

@@ -251,6 +251,7 @@ function card(c) {
     c.status === "dormant" && `<span class="chip chip--dormant">dormant</span>`,
     c.funding_stage && `<span class="chip chip--muted">${esc(c.funding_stage)}${c.total_raised ? " · " + esc(c.total_raised) : ""}</span>`,
     ...(c.capabilities || []).map(capChip),
+    c.scope === "horizontal" && `<span class="chip chip--muted" title="Serves several industries, not built for drinks">horizontal</span>`,
     seenChip(c.key),
   ].filter(Boolean).join("");
   const srcs = (c.source_urls || []).map(safeUrl).filter(Boolean).map((u, i) =>
@@ -280,7 +281,7 @@ function apply() {
     fm = $("f-maturity").value, fs = $("f-status").value,
     ft = $("f-type").value, fsrc = $("f-source").value, fp = $("f-people").value,
     ffund = $("f-funding").value, fcty = $("f-country").value, sort = $("s-sort").value,
-    fplat = $("f-platform").value, fcap = $("f-capability").value, fseen = $("f-seen").value,
+    fplat = $("f-platform").value, fcap = $("f-capability").value, fseen = $("f-seen").value, fscope = $("f-scope").value,
     yFrom = +$("f-from").value || 0, yTo = +$("f-to").value || 9999;
   const shown = ALL.filter((c) => {
     if (fplat && !c._platforms.includes(fplat)) return false;
@@ -291,6 +292,7 @@ function apply() {
     if (fv && c.vertical !== fv) return false;
     if (fu && c._theme !== fu) return false;
     if (fcap && !(c.capabilities || []).includes(fcap)) return false;
+    if (fscope && c.scope !== fscope) return false;
     if (fseen === "star" && !isStarred(c.key)) return false;
     if (fseen === "new" && seenState(c.key) !== "new") return false;
     if (fseen === "seen" && seenState(c.key) === "new") return false;
@@ -1375,7 +1377,7 @@ async function main() {
   fillSelect($("f-from"), years.map(String));
   fillSelect($("f-to"), years.map(String));
 
-  for (const id of ["q", "f-vertical", "f-usecase", "f-capability", "f-seen", "f-maturity", "f-status", "f-type",
+  for (const id of ["q", "f-vertical", "f-usecase", "f-capability", "f-scope", "f-seen", "f-maturity", "f-status", "f-type",
     "f-platform", "f-funding", "f-country", "f-source", "f-from", "f-to", "f-people", "s-sort"]) {
     $(id).addEventListener("input", apply);
   }
