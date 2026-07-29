@@ -1,3 +1,10 @@
+import {
+  PREVIOUS_VISIT, agoLabel, clearSeen, deleteView, dismissHint, hintDismissed,
+  isStarred, markSeen, mountPalette, recentlyOpened, saveView, savedViews, seenAt,
+  seenCount, seenCounts,
+  seenState, starCount, toggleStar,
+} from "./ux.js?v=1baa4ae99b";
+
 // Beverage-AI Radar dashboard. Reads data.json (exported by `radar export`),
 // renders breakdown bars + a filterable company grid. Vanilla, no deps.
 
@@ -218,6 +225,22 @@ function peopleHtml(c) {
   return c.key_people ? `<p class="people"><span aria-hidden="true">👤</span> ${esc(c.key_people)}</p>` : "";
 }
 
+function seenChip(key) {
+  const s = seenState(key);
+  if (s === "new") {
+    return `<span class="chip chip--seen chip--seen-new" title="not opened yet">new</span>`;
+  }
+  // Show WHEN and HOW OFTEN on the chip itself. Both were already stored and
+  // only visible in a tooltip, which is the same as not being there.
+  const n = seenCount(key);
+  const label = `${agoLabel(seenAt(key))}${n > 1 ? ` · ${n}\u00d7` : ""}`;
+  const title = `opened ${n} time${n === 1 ? "" : "s"}, last ${agoLabel(seenAt(key))}`;
+  return `<span class="chip chip--seen chip--seen-${s}" title="${esc(title)}">${esc(label)}</span>`;
+}
+const starBtn = (key) =>
+  `<button class="starb${isStarred(key) ? " is-on" : ""}" data-star="${esc(key)}"
+     type="button" aria-pressed="${isStarred(key)}" title="Shortlist this">★</button>`;
+
 function card(c) {
   const individual = c.company_type === "individual";
   const chips = [
@@ -228,6 +251,7 @@ function card(c) {
     c.status === "dormant" && `<span class="chip chip--dormant">dormant</span>`,
     c.funding_stage && `<span class="chip chip--muted">${esc(c.funding_stage)}${c.total_raised ? " · " + esc(c.total_raised) : ""}</span>`,
     ...(c.capabilities || []).map(capChip),
+    seenChip(c.key),
   ].filter(Boolean).join("");
   const srcs = (c.source_urls || []).map(safeUrl).filter(Boolean).map((u, i) =>
     `<a href="${esc(u)}" target="_blank" rel="noopener">source ${i + 1}</a>`).join(" · ");
@@ -239,6 +263,7 @@ function card(c) {
         <h3>${esc(c.name)}</h3>
         ${c.hq_location ? `<span class="loc">${esc(c.hq_location)}${c.founded_year ? " · " + c.founded_year : ""}</span>` : ""}
       </div>
+      ${starBtn(c.key)}
     </div>
     ${c.ai_use_case ? `<p class="usecase">${esc(c.ai_use_case)}</p>` : ""}
     <div class="chips">${chips}</div>
@@ -255,7 +280,7 @@ function apply() {
     fm = $("f-maturity").value, fs = $("f-status").value,
     ft = $("f-type").value, fsrc = $("f-source").value, fp = $("f-people").value,
     ffund = $("f-funding").value, fcty = $("f-country").value, sort = $("s-sort").value,
-    fplat = $("f-platform").value, fcap = $("f-capability").value,
+    fplat = $("f-platform").value, fcap = $("f-capability").value, fseen = $("f-seen").value,
     yFrom = +$("f-from").value || 0, yTo = +$("f-to").value || 9999;
   const shown = ALL.filter((c) => {
     if (fplat && !c._platforms.includes(fplat)) return false;
@@ -266,6 +291,11 @@ function apply() {
     if (fv && c.vertical !== fv) return false;
     if (fu && c._theme !== fu) return false;
     if (fcap && !(c.capabilities || []).includes(fcap)) return false;
+    if (fseen === "star" && !isStarred(c.key)) return false;
+    if (fseen === "new" && seenState(c.key) !== "new") return false;
+    if (fseen === "seen" && seenState(c.key) === "new") return false;
+    if (fseen === "recent7" && (Date.now() - seenAt(c.key)) > 7 * 86400000) return false;
+    if (fseen === "frequent" && seenCount(c.key) < 2) return false;
     if (fm && c.ai_maturity !== fm) return false;
     if (fs && c.status !== fs) return false;
     if (ft && (c.company_type || "product") !== ft) return false;
@@ -286,6 +316,10 @@ function apply() {
     if (sort === "recent") return seen(b).localeCompare(seen(a)) || a.name.localeCompare(b.name);
     if (sort === "founded-new") return yr(b) - yr(a) || a.name.localeCompare(b.name);
     if (sort === "founded-old") return (yr(a) || 9999) - (yr(b) || 9999) || a.name.localeCompare(b.name);
+    // These two order by MY reading history, not by the company's activity.
+    // Unopened entries sort last in both rather than colliding at zero.
+    if (sort === "last-opened") return (seenAt(b.key) || 0) - (seenAt(a.key) || 0) || a.name.localeCompare(b.name);
+    if (sort === "most-opened") return (seenCount(b.key) || 0) - (seenCount(a.key) || 0) || a.name.localeCompare(b.name);
     return a.name.localeCompare(b.name);
   });
   renderKpis(shown);
@@ -360,6 +394,7 @@ const VIEWS = ["companies", "people", "resources", "podcasts", "jobs", "prospect
 let CURRENT_TAB = "companies";
 function showView(which) {
   CURRENT_TAB = which;
+  track("tab_view", { tab: which });
   location.hash = "";
   for (const v of VIEWS) {
     $("view-" + v).hidden = which !== v;
@@ -368,6 +403,7 @@ function showView(which) {
   $("view-detail").hidden = true;
   $("tabs").hidden = false;
   $("kpis").hidden = which === "about";
+  renderHint(which);
   if (which === "companies") renderKpis(LAST_SHOWN || ALL);
   else kpisFor(which);
   window.scrollTo(0, 0);
@@ -376,7 +412,12 @@ function showView(which) {
 const slug = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
 // --- Detail pages (hash-routed, deep-linkable) ---------------------------
-function showDetail(html) {
+function showDetail(html, key) {
+  // Only a detail view counts as read. Scrolling a card past the viewport is
+  // not evidence that anyone looked at it.
+  markSeen(key);
+  if (key) track("detail_view", { tab: CURRENT_TAB, label: key, opened: seenCount(key) });
+  if (key) setTimeout(() => { try { renderWhatsNew(); } catch { /* pre-init */ } }, 0);
   for (const v of VIEWS) $("view-" + v).hidden = true;
   $("tabs").hidden = true;
   $("detail").innerHTML = html;
@@ -452,17 +493,26 @@ function personDetail(p) {
   </article>`;
 }
 
+let WAS_DETAIL = false;
 function route() {
   const m = (location.hash || "").match(/^#\/(c|p)\/(.+)$/);
-  if (!m) { showView(CURRENT_TAB); return; }
+  if (!m) {
+    // Coming back from a detail page: that visit changed the entry's reading
+    // state, and the cards behind it still carry the badge from before it was
+    // opened. Re-render so "new" becomes "seen" without a manual refresh.
+    if (WAS_DETAIL) { WAS_DETAIL = false; try { apply(); renderWhatsNew(); } catch { /* pre-init */ } }
+    showView(CURRENT_TAB);
+    return;
+  }
+  WAS_DETAIL = true;
   const [, kind, id] = m;
   const key = decodeURIComponent(id);
   if (kind === "c") {
     const c = ALL.find((x) => x.key === key);
-    if (c) return showDetail(companyDetail(c));
+    if (c) return showDetail(companyDetail(c), c.key);
   } else if (kind === "p") {
     const p = PEOPLE.find((x) => slug(x.name) === key);
-    if (p) return showDetail(personDetail(p));
+    if (p) return showDetail(personDetail(p), "p:" + slug(p.name));
   }
   showView(CURRENT_TAB);
 }
@@ -988,7 +1038,7 @@ function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
   });
 
   // --- granular detail for the selected place ----------------------------
-  function showDetail(placeKey) {
+  function showPlaceDetail(placeKey) {
     const hit = Object.values(paint).find((h) => h.key === placeKey);
     const box = el.querySelector(".wdetail");
     if (!hit) { box.innerHTML = ""; return; }
@@ -1036,7 +1086,8 @@ function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
     n.addEventListener("click", () => {
       const place = n.dataset.place;
       const reselect = activeKey === place;      // clicking the active one exits
-      if (reselect) { zoomHome(); } else { zoomTo(place); showDetail(place); }
+      track("map_select", { tab: CURRENT_TAB, place, entries: paint[place]?.n });
+      if (reselect) { zoomHome(); } else { zoomTo(place); showPlaceDetail(place); }
       onPick(reselect ? null : place);
     });
     n.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(n.dataset.place); } });
@@ -1052,8 +1103,30 @@ function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
   // the map would visibly re-fly on each keystroke in the search box).
   if (activeKey && paint && Object.values(paint).some((h) => h.key === activeKey)) {
     zoomTo(activeKey, 0);
-    showDetail(activeKey);
+    showPlaceDetail(activeKey);
   }
+}
+
+// --- Analytics ------------------------------------------------------------
+// GA4 is already configured in index.html (same property as the blog) and
+// honours Do Not Track there. This adds interaction events on top of pageviews.
+//
+// PRIVACY RULE, load-bearing: nothing identifying a PROSPECT ever leaves this
+// machine. prospects.json is gitignored precisely so the buyer list stays
+// private, and shipping those company names to Google would hand over exactly
+// what the gitignore protects. Prospect events therefore report the action and
+// a count only, never a name, region or tier.
+const PRIVATE_TABS = new Set(["prospects"]);
+
+function track(event, params = {}) {
+  if (typeof window.gtag !== "function") return;   // DNT, blocker, or no GA id
+  const safe = { ...params };
+  if (PRIVATE_TABS.has(safe.tab) || PRIVATE_TABS.has(CURRENT_TAB)) {
+    // Strip every free-text field; keep only the shape of what happened.
+    for (const k of ["label", "place", "value", "name", "query"]) delete safe[k];
+    safe.private = true;
+  }
+  try { window.gtag("event", event, safe); } catch { /* never break the UI for a metric */ }
 }
 
 // --- Filter visibility ---------------------------------------------------
@@ -1099,6 +1172,44 @@ function refreshChips(section) {
   });
 }
 
+// A view is the value of every filter control in a section. Storing values
+// rather than a URL keeps it working when the filter set changes: an unknown
+// id is simply skipped on restore instead of breaking the whole view.
+function captureView(section) {
+  const out = {};
+  for (const el of controlsOf(section)) if (el.value) out[el.id] = el.value;
+  return out;
+}
+
+function restoreView(section, values) {
+  for (const el of controlsOf(section)) el.value = values[el.id] || "";
+  controlsOf(section)[0]?.dispatchEvent(new Event("input", { bubbles: true }));
+  for (const el of controlsOf(section)) el.dispatchEvent(new Event("input", { bubbles: true }));
+}
+
+function renderViews(section, tab) {
+  const bar = section._viewbar;
+  const views = savedViews().filter((v) => v.tab === tab);
+  bar.innerHTML =
+    views.map((v) => `<span class="vchip"><button data-load="${esc(v.name)}" type="button">${esc(v.name)}</button>
+       <button class="vchip__x" data-del="${esc(v.name)}" type="button" aria-label="Delete view">×</button></span>`).join("") +
+    `<button class="vchip vchip--add" data-save="1" type="button">+ Save this view</button>`;
+  bar.querySelectorAll("[data-load]").forEach((b) => b.addEventListener("click", () =>
+    restoreView(section, views.find((v) => v.name === b.dataset.load).values)));
+  bar.querySelectorAll("[data-del]").forEach((b) => b.addEventListener("click", () => {
+    deleteView(b.dataset.del); renderViews(section, tab);
+  }));
+  bar.querySelector("[data-save]").addEventListener("click", () => {
+    const values = captureView(section);
+    if (!Object.keys(values).length) { alert("Set at least one filter before saving a view."); return; }
+    const name = prompt("Name this view", "");
+    if (!name) return;
+    track("view_save", { tab, filters: Object.keys(values).length });
+    saveView(name.trim(), tab, values);
+    renderViews(section, tab);
+  });
+}
+
 function wireFilterVisibility() {
   for (const section of document.querySelectorAll(".controls")) {
     const bar = document.createElement("div");
@@ -1106,9 +1217,80 @@ function wireFilterVisibility() {
     bar.hidden = true;
     section.insertAdjacentElement("afterend", bar);
     section._chipbar = bar;
-    section.addEventListener("input", () => refreshChips(section));
+    const vbar = document.createElement("div");
+    vbar.className = "viewbar";
+    bar.insertAdjacentElement("afterend", vbar);
+    section._viewbar = vbar;
+    const tab = section.closest("main")?.id.replace("view-", "") || "companies";
+    renderViews(section, tab);
+    section.addEventListener("input", (e) => {
+      refreshChips(section);
+      const el = e.target;
+      if (el && el.id) track("filter_change", { tab, filter: el.id, set: !!el.value, value: el.value });
+    });
     refreshChips(section);
   }
+}
+
+// --- What is new since the previous visit --------------------------------
+// first_seen is the date an entry entered the radar. Comparing it to the
+// timestamp of the LAST visit (captured before this one overwrote it) answers
+// "what changed while I was away", which a plain count never can.
+function newSincePrevious() {
+  if (!PREVIOUS_VISIT) return [];        // first ever visit: everything is new, which is not news
+  return ALL.filter((c) => c.first_seen && Date.parse(c.first_seen) > PREVIOUS_VISIT);
+}
+
+function renderWhatsNew() {
+  const box = $("whatsnew");
+  const fresh = newSincePrevious();
+  const counts = seenCounts(ALL.map((c) => c.key));
+  const stars = starCount();
+  const bits = [];
+  if (fresh.length) bits.push(`<strong>${fresh.length}</strong> added since your last visit`);
+  if (counts.new) bits.push(`<strong>${counts.new}</strong> you have not opened`);
+  if (stars) bits.push(`<strong>${stars}</strong> shortlisted`);
+  if (!bits.length) { box.hidden = true; return; }
+  box.hidden = false;
+  box.innerHTML = `<div class="wnew">
+    <span class="wnew__t">${bits.join(" · ")}</span>
+    ${counts.new ? `<button class="wnew__b" data-act="unread" type="button">Show unopened</button>` : ""}
+    ${stars ? `<button class="wnew__b" data-act="stars" type="button">Show shortlist</button>` : ""}
+    <button class="wnew__b wnew__b--q" data-act="reset" type="button" title="Forget what I have read">Reset reading history</button>
+  </div>`;
+  box.querySelectorAll("[data-act]").forEach((b) => b.addEventListener("click", () => {
+    const act = b.dataset.act;
+    if (act === "reset") {
+      if (!confirm("Forget which entries you have opened? Shortlist and saved views are kept.")) return;
+      clearSeen();
+    } else {
+      showView("companies");
+      $("f-seen").value = act === "stars" ? "star" : "new";
+      $("f-seen").dispatchEvent(new Event("input", { bubbles: true }));
+    }
+    apply();
+    renderWhatsNew();
+  }));
+}
+
+// --- First-run guidance ---------------------------------------------------
+const HINTS = {
+  companies: "Companies &amp; ventures are who <em>builds</em> beverage AI. Click any country on the map to filter, or press <kbd>⌘K</kbd> to jump anywhere.",
+  prospects: "Prospects are who might <em>buy</em> it — the opposite list. Tier 1-2 are named and sourced; tier 3-5 are curated categories.",
+  jobs: "Open roles applying AI and data in drinks. Every row links to the original posting.",
+  resources: "Papers, news, case studies, repositories and talks, each with a source.",
+};
+function renderHint(tab) {
+  const bar = $("hintbar");
+  const text = HINTS[tab];
+  if (!text || hintDismissed(tab)) { bar.hidden = true; return; }
+  bar.hidden = false;
+  bar.innerHTML = `<div class="hint"><span>${text}</span>
+    <button class="hint__x" type="button" aria-label="Dismiss">Got it</button></div>`;
+  bar.querySelector(".hint__x").addEventListener("click", () => {
+    dismissHint(tab);
+    bar.hidden = true;
+  });
 }
 
 async function main() {
@@ -1149,7 +1331,7 @@ async function main() {
   fillSelect($("f-from"), years.map(String));
   fillSelect($("f-to"), years.map(String));
 
-  for (const id of ["q", "f-vertical", "f-usecase", "f-capability", "f-maturity", "f-status", "f-type",
+  for (const id of ["q", "f-vertical", "f-usecase", "f-capability", "f-seen", "f-maturity", "f-status", "f-type",
     "f-platform", "f-funding", "f-country", "f-source", "f-from", "f-to", "f-people", "s-sort"]) {
     $(id).addEventListener("input", apply);
   }
@@ -1174,6 +1356,15 @@ async function main() {
     const el = e.target.closest("[data-route]");
     if (el) location.hash = "#/" + el.dataset.route;
   };
+  $("grid").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-star]");
+    if (!b) return;
+    e.stopPropagation();                 // starring must not open the detail page
+    track("star_toggle", { tab: "companies", label: b.dataset.star, on: !isStarred(b.dataset.star) });
+    toggleStar(b.dataset.star);
+    apply();
+    renderWhatsNew();
+  });
   $("grid").addEventListener("click", cardNav);
   $("people-list").addEventListener("click", cardNav);
   $("detail-back").addEventListener("click", (e) => { e.preventDefault(); location.hash = ""; });
@@ -1201,6 +1392,49 @@ async function main() {
   gq.addEventListener("input", globalSearch);
 
   wireFilterVisibility();
+  renderWhatsNew();
+  renderHint(CURRENT_TAB);
+
+  // Command palette: one keystroke to any tab, country, company or person.
+  // Items are built fresh on each open so they track the loaded data.
+  mountPalette({
+    getItems() {
+      // With an empty query the palette shows `always` items: recently opened
+      // entries first, then the tabs. "Where was I?" is the most common reason
+      // to open it, and it should not require typing a name you half-remember.
+      const recents = recentlyOpened(6).map((r) => {
+        const c = ALL.find((x) => x.key === r.key);
+        return c && {
+          kind: "recent", label: c.name, always: true,
+          hint: `${agoLabel(r.t)}${r.n > 1 ? ` · ${r.n}\u00d7` : ""}`,
+          go: () => { location.hash = "#/c/" + encodeURIComponent(c.key); },
+        };
+      }).filter(Boolean);
+      const tabs = VIEWS.filter((v) => !$("tab-" + v).hidden).map((v) => ({
+        kind: "tab", label: $("tab-" + v).textContent.trim(), always: true, go: () => showView(v),
+      }));
+      const countries = [...new Set(ALL.map(countryOf))].filter((c) => c && c !== "unknown")
+        .map((c) => ({ kind: "country", label: c, hint: "filter companies", go: () => {
+          showView("companies"); $("f-country").value = c;
+          $("f-country").dispatchEvent(new Event("input", { bubbles: true }));
+        } }));
+      const companies = ALL.map((c) => ({
+        kind: "company", label: c.name, hint: c.hq_location || "",
+        go: () => { location.hash = "#/c/" + encodeURIComponent(c.key); },
+      }));
+      const people = PEOPLE.map((pp) => ({
+        kind: "person", label: pp.name, hint: pp.company || "",
+        go: () => { location.hash = "#/p/" + slug(pp.name); },
+      }));
+      const prospects = PROSPECTS.map((pr) => ({
+        kind: "target", label: pr.company, hint: `${pr.region} · tier ${pr.tier}`,
+        go: () => { showView("prospects"); $("prq").value = pr.company;
+                    $("prq").dispatchEvent(new Event("input", { bubbles: true })); },
+      }));
+      return [...recents, ...tabs, ...countries, ...companies, ...people, ...prospects];
+    },
+    onPick: (item) => { track("palette_pick", { kind: item.kind, label: item.label }); item.go(); },
+  });
   window.addEventListener("hashchange", route);
   route();
 }

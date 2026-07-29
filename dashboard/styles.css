@@ -782,3 +782,102 @@ svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
 .wdetail__n { font-weight: 400; }
 .wdetail__m { color: var(--muted); font-size: .72rem; margin-left: auto; }
 .wdetail__more { font-size: .72rem; color: var(--muted); padding-top: .5rem; }
+
+/* --- Reading state, shortlist, what's new --------------------------------
+   Visit history is per-browser localStorage: the radar is a public page with
+   no accounts, so there is nowhere else for it to live. */
+.chip--seen { font-size: .62rem; letter-spacing: .06em; text-transform: uppercase; }
+.chip--seen-new {
+  background: color-mix(in oklab, var(--accent) 14%, transparent);
+  color: var(--accent); font-weight: 500;
+}
+.chip--seen-seen { background: transparent; color: var(--muted); border: 1px solid var(--line); }
+.chip--seen-revisit { background: transparent; color: var(--muted); border: 1px dashed var(--line-strong); }
+
+.starb {
+  margin-left: auto; align-self: flex-start; font: inherit; font-size: 1rem;
+  line-height: 1; cursor: pointer; background: none; border: 0; padding: .1rem .2rem;
+  color: var(--line-strong); transition: color .15s ease, transform .15s ease;
+}
+.starb:hover { color: var(--accent); transform: scale(1.15); }
+.starb.is-on { color: var(--accent); }
+
+.wnew {
+  display: flex; flex-wrap: wrap; align-items: center; gap: .6rem;
+  padding: .6rem .8rem; margin-bottom: 1rem; font-size: .8rem;
+  background: color-mix(in oklab, var(--accent) 6%, transparent);
+  border: 1px solid color-mix(in oklab, var(--accent) 22%, transparent);
+  border-radius: 4px;
+}
+.wnew__t { color: var(--ink); }
+.wnew__b {
+  font: inherit; font-size: .72rem; cursor: pointer; padding: .25rem .55rem;
+  border-radius: 999px; background: var(--bg);
+  border: 1px solid var(--line-strong); color: var(--ink);
+}
+.wnew__b:hover { border-color: var(--accent); color: var(--accent); }
+.wnew__b--q { margin-left: auto; color: var(--muted); border-style: dashed; }
+
+.hint {
+  display: flex; gap: .8rem; align-items: center; font-size: .8rem;
+  padding: .6rem .8rem; margin-bottom: 1rem; color: var(--muted);
+  border-left: 2px solid var(--accent); background: color-mix(in oklab, var(--accent) 4%, transparent);
+}
+.hint kbd {
+  font: inherit; font-size: .72rem; padding: .05rem .3rem;
+  border: 1px solid var(--line-strong); border-radius: 3px;
+}
+.hint__x {
+  margin-left: auto; flex: none; font: inherit; font-size: .72rem; cursor: pointer;
+  background: none; border: 1px solid var(--line-strong); border-radius: 999px;
+  padding: .2rem .55rem; color: var(--ink);
+}
+.hint__x:hover { border-color: var(--accent); color: var(--accent); }
+
+/* Saved views: a named set of filter values, restorable in one click. */
+.viewbar { display: flex; flex-wrap: wrap; gap: .4rem; margin: -1.5rem 0 1.75rem; }
+.vchip {
+  display: inline-flex; align-items: center;
+  border: 1px solid var(--line-strong); border-radius: 999px; overflow: hidden;
+}
+.vchip button {
+  font: inherit; font-size: .72rem; cursor: pointer; background: none; border: 0;
+  padding: .25rem .55rem; color: var(--ink);
+}
+.vchip button:hover { color: var(--accent); }
+.vchip__x { color: var(--muted); border-left: 1px solid var(--line) !important; }
+.vchip--add { border-style: dashed; color: var(--muted); }
+
+/* --- Command palette ------------------------------------------------------ */
+.cmdk { position: fixed; inset: 0; z-index: 100; }
+.cmdk__scrim { position: absolute; inset: 0; background: rgba(0, 0, 0, .35); }
+.cmdk__box {
+  position: relative; max-width: 34rem; margin: 12vh auto 0;
+  background: var(--bg); border: 1px solid var(--line-strong); border-radius: 6px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, .25); overflow: hidden;
+}
+.cmdk__q {
+  width: 100%; font: inherit; font-size: 1rem; padding: .9rem 1rem;
+  border: 0; border-bottom: 1px solid var(--line); background: transparent; color: var(--ink);
+}
+.cmdk__q:focus { outline: none; }
+.cmdk__list { list-style: none; margin: 0; padding: .3rem; max-height: 22rem; overflow-y: auto; }
+.cmdk__i {
+  display: flex; align-items: baseline; gap: .6rem; cursor: pointer;
+  padding: .45rem .6rem; border-radius: 4px; font-size: .85rem;
+}
+.cmdk__i.is-active { background: color-mix(in oklab, var(--accent) 12%, transparent); }
+.cmdk__k {
+  font-size: .62rem; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--muted); min-width: 4.2rem; flex: none;
+}
+.cmdk__h { margin-left: auto; font-size: .72rem; color: var(--muted); }
+.cmdk__empty { padding: .8rem; color: var(--muted); font-size: .85rem; }
+.cmdk__foot {
+  padding: .5rem .8rem; border-top: 1px solid var(--line);
+  font-size: .68rem; color: var(--muted);
+}
+.cmdk__foot kbd {
+  font: inherit; padding: .05rem .28rem; margin-right: .2rem;
+  border: 1px solid var(--line-strong); border-radius: 3px;
+}

@@ -113,7 +113,7 @@
 
   <!-- version query busts the 10-minute Pages cache on every restyle;
        bump it whenever styles.css changes -->
-  <link rel="stylesheet" href="styles.css?v=ea6162c6be" />
+  <link rel="stylesheet" href="styles.css?v=236e6566e8" />
 </head>
 <body>
   <!-- Masthead: wordmark, section nav, utility links. The section nav carries
@@ -150,6 +150,8 @@
     </div>
   </header>
 
+  <div class="wrap" id="whatsnew" hidden></div>
+  <div class="wrap" id="hintbar" hidden></div>
   <section class="kpis wrap" id="kpis" aria-label="Headline figures"></section>
 
   <main class="wrap" id="view-companies">
@@ -169,6 +171,14 @@
       <select id="f-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
       <select id="f-usecase" aria-label="Theme"><option value="">All themes</option></select>
       <select id="f-capability" aria-label="Capability"><option value="">All capabilities</option></select>
+      <select id="f-seen" aria-label="Reading state">
+        <option value="">Read + unread</option>
+        <option value="new">Not opened yet</option>
+        <option value="seen">Already opened</option>
+        <option value="recent7">Opened in the last 7 days</option>
+        <option value="frequent">Opened more than once</option>
+        <option value="star">Shortlisted only</option>
+      </select>
       <select id="f-maturity" aria-label="Maturity"><option value="">All maturity</option></select>
       <select id="f-status" aria-label="Status">
         <option value="">Active + dormant</option>
@@ -192,6 +202,8 @@
         <option value="recent">Sort: recently active</option>
         <option value="founded-new">Sort: newest founded</option>
         <option value="founded-old">Sort: oldest founded</option>
+        <option value="last-opened">Sort: I opened most recently</option>
+        <option value="most-opened">Sort: I opened most often</option>
       </select>
       <span id="count" class="count"></span>
     </section>
@@ -328,6 +340,6 @@
     No account needed. Anonymised visit stats only, via Google Analytics; Do Not Track is honoured.
   </footer>
 
-  <script type="module" src="app.js?v=4660275473"></script>
+  <script type="module" src="app.js?v=ede5bc1141"></script>
 </body>
 </html>
