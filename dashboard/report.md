@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-07-26. 159 active, 30 dormant.
+Snapshot: 2026-07-29. 159 active, 30 dormant.
 
 ## Active companies
 
