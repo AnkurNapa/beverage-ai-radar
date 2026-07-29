@@ -3013,7 +3013,7 @@
   {
     "name": "Vicinity Software (VicinityBrew)",
     "domain": "vicinitysoftware.com",
-    "hq_location": "Marietta, Georgia, USA",
+    "hq_location": "Marietta, Georgia, United States",
     "vertical": "beer",
     "ai_use_case": "production data",
     "ai_maturity": "research",
@@ -3064,7 +3064,7 @@
   {
     "name": "KLH Consulting (Vintegrate)",
     "domain": "klhconsulting.com",
-    "hq_location": "Santa Rosa, California, USA",
+    "hq_location": "Santa Rosa, California, United States",
     "founded_year": 1980,
     "vertical": "wine",
     "ai_use_case": "production data",
@@ -3082,7 +3082,7 @@
   {
     "name": "Aptean",
     "domain": "aptean.com",
-    "hq_location": "Alpharetta, Georgia, USA",
+    "hq_location": "Alpharetta, Georgia, United States",
     "founded_year": 2012,
     "vertical": "multiple",
     "ai_use_case": "production data / predictive analytics",
@@ -3102,7 +3102,7 @@
   {
     "name": "Encompass Technologies",
     "domain": "encompasstech.com",
-    "hq_location": "Fort Collins, Colorado, USA",
+    "hq_location": "Fort Collins, Colorado, United States",
     "founded_year": 2001,
     "vertical": "multiple",
     "ai_use_case": "order intelligence / production data",
@@ -3121,7 +3121,7 @@
   {
     "name": "Quantiphi (OrderSmart)",
     "domain": "quantiphi.com",
-    "hq_location": "Marlborough, Massachusetts, USA",
+    "hq_location": "Marlborough, Massachusetts, United States",
     "founded_year": 2013,
     "vertical": "beer",
     "ai_use_case": "demand forecasting",
@@ -3174,7 +3174,7 @@
   {
     "name": "Prosper Insights & Analytics",
     "domain": "prosperinsights.com",
-    "hq_location": "Worthington, Ohio, USA",
+    "hq_location": "Worthington, Ohio, United States",
     "founded_year": 2007,
     "vertical": "multiple",
     "ai_use_case": "consumer alcohol propensity modeling",
@@ -3210,7 +3210,7 @@
   {
     "name": "LikeFolio",
     "domain": "likefolio.com",
-    "hq_location": "Louisville, Kentucky, USA",
+    "hq_location": "Louisville, Kentucky, United States",
     "founded_year": 2013,
     "vertical": "multiple",
     "ai_use_case": "social media purchase intent and sentiment signals",
@@ -3981,7 +3981,7 @@
   {
     "name": "VIP (Vermont Information Processing)",
     "domain": "vipinsights.com",
-    "hq_location": "Colchester, Vermont, USA",
+    "hq_location": "Colchester, Vermont, United States",
     "vertical": "multiple",
     "ai_use_case": "distributor pricing, predictive ordering and conversational reporting",
     "ai_maturity": "shipping",
@@ -3998,7 +3998,7 @@
   {
     "name": "Provi",
     "domain": "provi.com",
-    "hq_location": "Chicago, Illinois, USA",
+    "hq_location": "Chicago, Illinois, United States",
     "founded_year": 2016,
     "vertical": "multiple",
     "ai_use_case": "marketplace search and product recommendations",
@@ -4091,7 +4091,7 @@
   {
     "name": "Next Glass",
     "domain": "nextglass.co",
-    "hq_location": "Wilmington, North Carolina, USA",
+    "hq_location": "Wilmington, North Carolina, United States",
     "founded_year": 2013,
     "vertical": "beer",
     "ai_use_case": "consumer consumption data analytics and generative menu design",
@@ -4109,7 +4109,7 @@
   {
     "name": "PourMyBeer",
     "domain": "pourmybeer.com",
-    "hq_location": "Ambler, Pennsylvania, USA",
+    "hq_location": "Ambler, Pennsylvania, United States",
     "vertical": "beer",
     "ai_use_case": "self pour taproom pour level sales analytics",
     "ai_maturity": "pilot",
@@ -4133,7 +4133,7 @@
   {
     "name": "Brewers Association (Barley assistant)",
     "domain": "brewersassociation.org",
-    "hq_location": "Boulder, Colorado, USA",
+    "hq_location": "Boulder, Colorado, United States",
     "vertical": "beer",
     "ai_use_case": "retrieval assistant over brewing technical and regulatory resources",
     "ai_maturity": "shipping",

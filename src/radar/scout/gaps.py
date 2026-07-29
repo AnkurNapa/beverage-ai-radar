@@ -9,14 +9,14 @@ from __future__ import annotations
 from collections import Counter
 from datetime import date
 
+from radar.geo import country_of
 from radar.config import ACTIVE_MONTHS, GAP_MIN_COUNT, GAP_MIN_SHARE, GAP_TOP_N, STALE_MONTHS
 from radar.model import BeverageVertical, _months_between
 from radar.themes import all_themes, theme_of
 
 
 def _country(company) -> str:
-    loc = (company.hq_location or "").strip()
-    return loc.split(",")[-1].strip() if loc else "unknown"
+    return country_of(company.hq_location)
 
 
 def _slice_gaps(axis: str, observed: Counter, universe, total: int) -> list[dict]:
