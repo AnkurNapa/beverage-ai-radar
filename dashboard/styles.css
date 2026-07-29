@@ -983,7 +983,7 @@ svg.wmap { width: 100%; height: auto; display: block; margin-top: .75rem; }
   contain: strict;
 }
 body > *:not(.ambient) { position: relative; z-index: 1; }
-.ambient__rings, .ambient__grid, .ambient__rise { position: absolute; inset: -25%; }
+.ambient__rings, .ambient__grid, .ambient__sweep { position: absolute; inset: -25%; }
 
 /* 1. Ripple. One paint for the whole set via repeating-radial-gradient. */
 .ambient__rings {
@@ -1010,17 +1010,6 @@ body > *:not(.ambient) { position: relative; z-index: 1; }
   will-change: transform;
 }
 
-/* 3. Carbonation. Two dot fields at different scales and speeds, so the rise
-      never reads as a single repeating tile. */
-.ambient__rise {
-  background-image:
-    radial-gradient(circle at 20% 80%, color-mix(in oklab, var(--accent) 55%, transparent) 1.6px, transparent 1.7px),
-    radial-gradient(circle at 68% 40%, color-mix(in oklab, var(--accent) 40%, transparent) 2.4px, transparent 2.5px);
-  background-size: 190px 240px, 310px 380px;
-  opacity: .05;
-  animation: ambient-rise 60s linear infinite;
-  will-change: transform;
-}
 
 @keyframes ambient-drift {
   from { transform: scale(1) rotate(0deg); }
@@ -1029,10 +1018,6 @@ body > *:not(.ambient) { position: relative; z-index: 1; }
 @keyframes ambient-lattice {
   from { transform: translate3d(0, 0, 0); }
   to   { transform: translate3d(-104px, -60px, 0); }
-}
-@keyframes ambient-rise {
-  from { transform: translate3d(0, 0, 0); }
-  to   { transform: translate3d(0, -240px, 0); }   /* exactly one tile: seamless */
 }
 
 /* Per-view character: the ripple originates somewhere different on each tab,
@@ -1047,18 +1032,75 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
 @media (prefers-color-scheme: dark) {
   .ambient__rings { opacity: .08; }
   .ambient__grid { opacity: .045; }
-  .ambient__rise { opacity: .07; }
+  .ambient__sweep { opacity: .5; }
 }
 
 /* Motion is a preference. Reduced motion holds the geometry still rather than
    removing it, so the page does not restyle for those readers. */
 @media (prefers-reduced-motion: reduce) {
-  .ambient__rings, .ambient__grid, .ambient__rise { animation: none; }
+  .ambient__rings, .ambient__grid, .ambient__sweep { animation: none; }
+  .ambient__blips i { animation: none; opacity: .5; }
 }
 
 /* A phone is a small canvas held close to the face; the field is heavier there
    for the same perceived weight, and one layer is dropped to save fill rate. */
 @media (max-width: 720px) {
   .ambient__grid { background-size: 76px 44px; }
-  .ambient__rise { display: none; }
+  .ambient__sweep { opacity: .55; }
+}
+
+/* --- Radar sweep ----------------------------------------------------------
+   The rings above stop being decoration once this is over them: they read as
+   range rings. A conic gradient gives the whole beam, including its trailing
+   decay, in one paint, rotated on the compositor.
+
+   Slow on purpose. A real radar sweeps every few seconds and that speed is
+   what makes most radar backgrounds feel cheap: it demands attention on a loop.
+   26 seconds is slow enough that you catch it at the edge of vision and then
+   forget about it, which is the whole intent. */
+.ambient__sweep {
+  background: conic-gradient(from 0deg at var(--ax, 50%) var(--ay, 40%),
+    color-mix(in oklab, var(--accent) 60%, transparent) 0deg,
+    transparent 26deg, transparent 360deg);
+  opacity: .3;
+  mask-image: radial-gradient(circle at var(--ax, 50%) var(--ay, 40%),
+    #000 0 42%, transparent 66%);
+  animation: ambient-sweep 26s linear infinite;
+  will-change: transform;
+}
+@keyframes ambient-sweep {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Blips. Each one's animation-delay is derived from its angle in the markup,
+   so it lights as the beam reaches it and decays behind it, instead of
+   blinking on an unrelated loop the way a decorative dot field would. */
+.ambient__blips { position: absolute; inset: 0; }
+.ambient__blips i {
+  position: absolute; left: var(--bx); top: var(--by);
+  width: 5px; height: 5px; margin: -2.5px 0 0 -2.5px;
+  border-radius: 50%; background: var(--accent);
+  opacity: 0;
+  animation: ambient-blip 26s ease-out infinite;
+  animation-delay: var(--bd);
+}
+@keyframes ambient-blip {
+  0%   { opacity: 0;   transform: scale(.6); }
+  1.5% { opacity: .85; transform: scale(1.5); }   /* the beam arrives */
+  14%  { opacity: .18; transform: scale(1); }
+  46%  { opacity: 0;   transform: scale(1); }     /* faded before it returns */
+  100% { opacity: 0;   transform: scale(.6); }
+}
+
+/* Dark is where a radar belongs: a lit trace on a dark ground is the whole
+   visual language, so the sweep and blips carry noticeably more weight there
+   while the light theme keeps them near-subliminal. */
+@media (prefers-color-scheme: dark) {
+  .ambient__sweep { opacity: .5; }
+  .ambient__blips i { width: 6px; height: 6px; margin: -3px 0 0 -3px;
+                      box-shadow: 0 0 10px 2px color-mix(in oklab, var(--accent) 55%, transparent); }
+}
+@media (max-width: 720px) {
+  .ambient__blips i { width: 4px; height: 4px; margin: -2px 0 0 -2px; }
 }
