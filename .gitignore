@@ -7,6 +7,16 @@ __pycache__/
 .http_cache/
 # dashboard/data.json is intentionally NOT ignored: GitHub Pages publishes it.
 
+# Private sales prospects. This repo is public, so this file must never be
+# committed: it would publish who we pitch and how. The dashboard's Prospects
+# tab hides itself when the file is absent, so the published site shows no
+# trace of it. Human-readable source of truth lives in the Obsidian vault at
+# "India AI Beverage - Pitch Target List.md".
+dashboard/prospects.json
+# Prospect sweep working dir: briefs quote the private list, finds are raw
+# agent output, quarantine names rejected targets. All private, same reason.
+.prospects/
+
 # launchd job logs
 radar.log
 radar.err.log

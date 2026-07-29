@@ -1,0 +1,92 @@
+[
+  {
+    "id": "north-america-beer-spirits",
+    "title": "Americas: beer and spirits",
+    "regions": [
+      "North America",
+      "Latin America"
+    ],
+    "scope": "US and Canadian craft breweries (regional, top 200), bourbon and craft whiskey distilleries in KY/TN and beyond, plus the brewery-software incumbents (Ekos, Ollie, Beer30, BrewLedger, Breww, ProBrew) as partner rather than customer targets. Also Latin America: Ambev, Grupo Modelo and the Brazilian and Mexican craft scenes.",
+    "verticals": [
+      "beer",
+      "whisky",
+      "multiple"
+    ]
+  },
+  {
+    "id": "americas-wine",
+    "title": "Americas: wine",
+    "regions": [
+      "North America",
+      "Latin America"
+    ],
+    "scope": "Napa, Sonoma, Oregon, Washington and Ontario wineries; Chilean and Argentine export wineries. Premium tier where a small quality gain is worth real money.",
+    "verticals": [
+      "wine"
+    ]
+  },
+  {
+    "id": "uk-ireland",
+    "title": "UK and Ireland",
+    "regions": [
+      "UK & Ireland"
+    ],
+    "scope": "Scotch distilleries (especially the new-wave independents), Irish whiskey, English and Welsh craft brewers, English sparkling wine. Note the SWA net-zero-by-2040 measurement mandate as a live buying trigger."
+  },
+  {
+    "id": "germany-dach-nordics",
+    "title": "Germany, DACH and the Nordics",
+    "regions": [
+      "Germany & DACH",
+      "Nordics"
+    ],
+    "scope": "German Mittelstand family breweries, Austrian and Swiss producers, Nordic new-wave whisky distilleries (Mackmyra, Stauning and peers), plus equipment vendors (Krones, Anton Paar, ProLeiT) as partner targets."
+  },
+  {
+    "id": "europe-other",
+    "title": "Europe: France, Italy, Spain, Portugal, Benelux, CEE",
+    "regions": [
+      "Europe (other)"
+    ],
+    "scope": "Wine cooperatives and estates, Cognac and Armagnac houses, Belgian and Czech breweries, Polish and Baltic spirits. Co-ops matter most: they aggregate fruit from many growers, so quality variance is their core commercial problem."
+  },
+  {
+    "id": "east-asia",
+    "title": "Japan, Korea and Greater China",
+    "regions": [
+      "Japan",
+      "Korea",
+      "Greater China"
+    ],
+    "scope": "Japan's 130+ whisky distilleries and regional sake kura, Korean soju and craft beer, Chinese craft brewers and baijiu distilleries. Flag where a local partner is mandatory rather than optional."
+  },
+  {
+    "id": "southeast-asia-oceania",
+    "title": "Southeast Asia and Oceania",
+    "regions": [
+      "Southeast Asia",
+      "Australia & NZ"
+    ],
+    "scope": "Vietnam (Heineken, Sabeco, Habeco, craft), Thailand, Singapore regional HQs, Philippines, Indonesia, Malaysia; Australian and New Zealand wineries and craft brewers."
+  },
+  {
+    "id": "africa-middle-east",
+    "title": "Africa, Middle East and Turkey",
+    "regions": [
+      "Africa",
+      "Middle East"
+    ],
+    "scope": "South African wine estates and Heineken Beverages, East and West African brewers, North African wine, Gulf non-alcoholic malt producers, Turkish producers. The non-alc malt segment has the same process problems and none of the alcohol politics."
+  },
+  {
+    "id": "events-associations",
+    "title": "Conferences, associations and channel multipliers (global)",
+    "regions": [
+      "Global"
+    ],
+    "tiers": [
+      4
+    ],
+    "scope": "Brewing, distilling and wine conferences with dates through 2027-2028; national and regional industry associations; technical institutes; trade press. These are the highest-leverage rows per hour spent, so cover them properly."
+  }
+]

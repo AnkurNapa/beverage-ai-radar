@@ -36,6 +36,59 @@ def _live_sources():
     ]
 
 
+def _prospects(args) -> int:
+    """Private prospect verbs. Kept in one function so the public radar flow
+    above stays readable, and so the private file path appears exactly once."""
+    import json as _json
+    from datetime import date as _date
+
+    root = config.SEED_PATH.parent.parent
+    path = config.DASHBOARD_DIR / "prospects.json"
+    if not path.exists():
+        print(f"no prospect list at {path} (it is gitignored by design)")
+        return 1
+    rows = _json.loads(path.read_text())
+
+    if args.cmd == "prospect-gaps":
+        from radar.prospects.gaps import compute, format_gaps
+
+        print(format_gaps(compute(rows)))
+    elif args.cmd == "prospect-brief":
+        from radar.prospects.briefs import load_surfaces, render_briefs
+
+        surfaces = load_surfaces(root / "data" / "prospect_surfaces.json")
+        written = render_briefs(surfaces, rows, root, _date.today().isoformat())
+        print(f"{len(written)} briefs in {root / '.prospects' / 'briefs'}")
+        for p in written:
+            print(f"  {p}")
+    elif args.cmd == "prospect-merge":
+        from radar.prospects.merge import load_finds, merge
+
+        from radar.capabilities import of_prospect
+
+        rows, added, quarantined = merge(rows, load_finds(args.files))
+        # Stamped on every row, not just new ones, so a rule change takes
+        # effect for the whole list on the next merge.
+        for r in rows:
+            r["capabilities"] = of_prospect(r)
+        rows.sort(key=lambda r: (r["tier"], r["region"], r["company"]))
+        path.write_text(_json.dumps(rows, indent=1, ensure_ascii=False) + "\n")
+        qdir = root / ".prospects"
+        qdir.mkdir(parents=True, exist_ok=True)
+        (qdir / "quarantine.json").write_text(_json.dumps(quarantined, indent=2))
+        print(f"added {len(added)}")
+        for r in added:
+            print(f"  + [{r['tier']}] {r['company']} ({r['region']})")
+        for state in ("duplicate", "rejected"):
+            hits = [q for q in quarantined if q["state"] == state]
+            if hits:
+                print(f"{state} {len(hits)}:")
+                for q in hits:
+                    print(f"  - {q['company']} ({q['region']}): {q['reason']}")
+        print(f"prospects now {len(rows)}")
+    return 0
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(prog="radar")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -48,6 +101,12 @@ def main(argv=None) -> int:
     p_merge.add_argument("files", nargs="+")
     p_merge.add_argument("--check-domains", action="store_true")
     sub.add_parser("scout-liveness")
+    # Prospects: the PRIVATE outreach list. Separate verbs and a separate file
+    # from the vendor seed, because this data must never reach the public site.
+    sub.add_parser("prospect-gaps")
+    sub.add_parser("prospect-brief")
+    p_pmerge = sub.add_parser("prospect-merge")
+    p_pmerge.add_argument("files", nargs="+")
     args = parser.parse_args(argv)
 
     store = Store(config.DB_PATH)
@@ -99,6 +158,8 @@ def main(argv=None) -> int:
             if hits:
                 print(f"{state} {len(hits)}: {'; '.join(q['name'] for q in hits)}")
         print(f"seed now {len(seed)}")
+    elif args.cmd in ("prospect-gaps", "prospect-brief", "prospect-merge"):
+        return _prospects(args)
     elif args.cmd == "scout-liveness":
         import json as _json
         from radar.scout.liveness import recheck
