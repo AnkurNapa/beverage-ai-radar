@@ -10,12 +10,18 @@ Run: python3 scripts/build_resources.py
 """
 import json
 import re
+import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 from html import unescape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+# Reuse the company theme classifier rather than writing a second one. The rules
+# already moved out of app.js once so the gap analysis and dashboard could not
+# drift; a separate resource taxonomy would reintroduce exactly that problem.
+sys.path.insert(0, str(ROOT / "src"))
+from radar.themes import theme_of  # noqa: E402
 SRC = ROOT / "data" / "resources"
 OUT = ROOT / "dashboard" / "resources.json"
 
@@ -227,6 +233,12 @@ def build():
             continue
         seen.add(k)
         deduped.append(it)
+
+    # Resources carry no ai_use_case field, so classify on the text that exists.
+    # meta holds venue/author/repo owner, which is weak signal, so title and
+    # summary lead and meta only breaks ties.
+    for it in deduped:
+        it["theme"] = theme_of(f"{it.get('title', '')} {it.get('summary', '')} {it.get('meta', '')}")
 
     OUT.write_text(json.dumps(deduped, indent=2, ensure_ascii=False))
     by_kind = {}

@@ -7,7 +7,8 @@
     "meta": "Michiel Schreurs, et al. · Nature Communications · 2024",
     "summary": "Gradient boosting models trained on chemical and sensory data from 250 beers plus 180,000 consumer reviews predict flavor and appreciation and reveal specific compounds that drive taste.",
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -17,7 +18,8 @@
     "meta": "et al. · Modelling (MDPI) · 2024",
     "summary": "Autoregressive recurrent neural networks capture the time-dependent dynamics of mixed-culture beer fermentation and forecast its trajectory better than static models.",
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Demand & pricing"
   },
   {
     "kind": "paper",
@@ -27,7 +29,8 @@
     "meta": "Harris, et al. · Journal of Food Science · 2025",
     "summary": "Near-infrared spectroscopy read through the bottle plus machine learning classifies beer fermentation type and authenticity without opening the container.",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -37,7 +40,8 @@
     "meta": "et al. · Applied Food Research · 2025",
     "summary": "AI models trained on production parameters predict trained sensory panel scores for customized beers, cutting reliance on full panel sessions.",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -47,7 +51,8 @@
     "meta": "Zhang, et al. · Journal of the Institute of Brewing · 2012",
     "summary": "Neural networks and support vector machines predict end-of-fermentation acetic acid levels in commercial-scale beer from early process variables.",
     "year": 2012,
-    "sort": 2012
+    "sort": 2012,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -57,7 +62,8 @@
     "meta": "Kwang Jun Lee, Alexander C. Trowbridge, et al. · arXiv (later Current Research in Food Science) · 2023",
     "summary": "Machine learning on portable Raman spectra identifies whisky brand at over 99 percent accuracy and quantifies ethanol and methanol, even through unopened bottles.",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -67,7 +73,8 @@
     "meta": "et al. · Foods · 2023",
     "summary": "A linear classifier (OWSum) and a CNN on GC-MS molecular data classify whisky odor attributes and origin, matching or beating human experts and flagging marker compounds like menthol and methyl decanoate.",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -77,7 +84,8 @@
     "meta": "Okolo, et al. · Comprehensive Reviews in Food Science and Food Safety · 2023",
     "summary": "A review of analytical and chemometric methods, including machine learning on spectroscopy and chromatography data, for authenticating and grading whiskey.",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -87,7 +95,8 @@
     "meta": "et al. · Scientific Reports · 2023",
     "summary": "Ensemble models on physicochemical measurements predict wine quality scores and rank the features that most influence quality.",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -97,7 +106,8 @@
     "meta": "et al. · arXiv · 2023",
     "summary": "Compares classifiers on imbalanced wine quality data and identifies alcohol, sulphates and volatile acidity as leading quality predictors.",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -107,7 +117,8 @@
     "meta": "et al. · arXiv · 2025",
     "summary": "A leakage-controlled benchmark shows gradient-boosted and random forest ensembles give the most reliable wine quality predictions when evaluation is done cleanly.",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -117,7 +128,8 @@
     "meta": "et al. · Computers and Electronics in Agriculture (arXiv preprint) · 2022",
     "summary": "Deep models trained on 23,581 yield points and over 100,000 vehicle-mounted images estimate vineyard grape yield directly, comparing detection, CNN regression and transformer architectures.",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -127,7 +139,8 @@
     "meta": "Santos, et al. · arXiv (later Computers and Electronics in Agriculture) · 2019",
     "summary": "CNNs detect, segment and track grape clusters in the field with F1 up to 0.91, enabling automated berry counting for yield estimation.",
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -137,7 +150,8 @@
     "meta": "Claudia Gonzalez Viejo, Sigfredo Fuentes · Sensors · 2022",
     "summary": "A low-cost electronic nose and NIR spectra with machine learning detect and classify wine faults at 90 to 97 percent accuracy for red and white wines.",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -147,7 +161,8 @@
     "meta": "et al. · Journal of Wine Economics · 2015",
     "summary": "Gaussian process regression and multi-task learning on Liv-Ex 100 price histories forecast fine wine prices more accurately than ARMA and GARCH baselines.",
     "year": 2015,
-    "sort": 2015
+    "sort": 2015,
+    "theme": "Demand & pricing"
   },
   {
     "kind": "paper",
@@ -157,7 +172,8 @@
     "meta": "et al. · Beverages · 2025",
     "summary": "Transformer embeddings of expert tasting notes predict wine ratings and show that language markers such as complexity and harmony track higher expert scores.",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -167,7 +183,8 @@
     "meta": "et al. · NeurIPS · 2023",
     "summary": "Introduces WineSensed, 897k label images and 824k reviews plus human flavor-distance rankings, to learn joint representations of wine vision, language and flavor.",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -177,7 +194,8 @@
     "meta": "et al. · Scientific Reports · 2024",
     "summary": "A deep CNN classifies grapevine leaf images into healthy and diseased classes such as black rot, esca and leaf blight for early vineyard disease detection.",
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -187,7 +205,8 @@
     "meta": "et al. · Beverages (MDPI) · 2025",
     "summary": "Combines machine learning with statistical and climatic analysis to predict wine quality as the climate shifts, modelling how climatic factors, region and viticultural practice interact.",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -197,7 +216,8 @@
     "meta": "et al. · Applied Intelligence (Springer) · 2025",
     "summary": "An electronic-nose sensor array streamed over 5G IoT, with learning algorithms classifying whiskies from their volatile profile.",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -207,7 +227,8 @@
     "meta": "2005",
     "summary": "",
     "year": 2005,
-    "sort": 2005
+    "sort": 2005,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -217,7 +238,8 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -227,7 +249,8 @@
     "meta": "2004",
     "summary": "",
     "year": 2004,
-    "sort": 2004
+    "sort": 2004,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -237,7 +260,8 @@
     "meta": "2014",
     "summary": "",
     "year": 2014,
-    "sort": 2014
+    "sort": 2014,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -247,7 +271,8 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -257,7 +282,8 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018
+    "sort": 2018,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -267,7 +293,8 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018
+    "sort": 2018,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -277,7 +304,8 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020
+    "sort": 2020,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -287,7 +315,8 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -297,7 +326,8 @@
     "meta": "2014",
     "summary": "",
     "year": 2014,
-    "sort": 2014
+    "sort": 2014,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -307,7 +337,8 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018
+    "sort": 2018,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -317,7 +348,8 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -327,7 +359,8 @@
     "meta": "2014",
     "summary": "",
     "year": 2014,
-    "sort": 2014
+    "sort": 2014,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -337,7 +370,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -347,7 +381,8 @@
     "meta": "2010",
     "summary": "",
     "year": 2010,
-    "sort": 2010
+    "sort": 2010,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -357,7 +392,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -367,7 +403,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -377,7 +414,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -387,7 +425,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -397,7 +436,8 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020
+    "sort": 2020,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -407,7 +447,8 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -417,7 +458,8 @@
     "meta": "2010",
     "summary": "",
     "year": 2010,
-    "sort": 2010
+    "sort": 2010,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -427,7 +469,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -437,7 +480,8 @@
     "meta": "2011",
     "summary": "",
     "year": 2011,
-    "sort": 2011
+    "sort": 2011,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -447,7 +491,8 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -457,7 +502,8 @@
     "meta": "2013",
     "summary": "",
     "year": 2013,
-    "sort": 2013
+    "sort": 2013,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -467,7 +513,8 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "paper",
@@ -477,7 +524,8 @@
     "meta": "2015",
     "summary": "",
     "year": 2015,
-    "sort": 2015
+    "sort": 2015,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -487,7 +535,8 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018
+    "sort": 2018,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -497,7 +546,8 @@
     "meta": "2015",
     "summary": "",
     "year": 2015,
-    "sort": 2015
+    "sort": 2015,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -507,7 +557,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -517,7 +568,8 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Supply chain"
   },
   {
     "kind": "paper",
@@ -527,7 +579,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -537,7 +590,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -547,7 +601,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -557,7 +612,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -567,7 +623,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -577,7 +634,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -587,7 +645,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -597,7 +656,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -607,7 +667,8 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018
+    "sort": 2018,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -617,7 +678,8 @@
     "meta": "2017",
     "summary": "",
     "year": 2017,
-    "sort": 2017
+    "sort": 2017,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -627,7 +689,8 @@
     "meta": "2012",
     "summary": "",
     "year": 2012,
-    "sort": 2012
+    "sort": 2012,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -637,7 +700,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -647,7 +711,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -657,7 +722,8 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -667,7 +733,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -677,7 +744,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -687,7 +755,8 @@
     "meta": "2015",
     "summary": "",
     "year": 2015,
-    "sort": 2015
+    "sort": 2015,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -697,7 +766,8 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020
+    "sort": 2020,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -707,7 +777,8 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020
+    "sort": 2020,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -717,7 +788,8 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -727,7 +799,8 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -737,7 +810,8 @@
     "meta": "2017",
     "summary": "",
     "year": 2017,
-    "sort": 2017
+    "sort": 2017,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -747,7 +821,8 @@
     "meta": "2015",
     "summary": "",
     "year": 2015,
-    "sort": 2015
+    "sort": 2015,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -757,7 +832,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -767,7 +843,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -777,7 +854,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -787,7 +865,8 @@
     "meta": "2014",
     "summary": "",
     "year": 2014,
-    "sort": 2014
+    "sort": 2014,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -797,7 +876,8 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020
+    "sort": 2020,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -807,7 +887,8 @@
     "meta": "2012",
     "summary": "",
     "year": 2012,
-    "sort": 2012
+    "sort": 2012,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -817,7 +898,8 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -827,7 +909,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -837,7 +920,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -847,7 +931,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -857,7 +942,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -867,7 +953,8 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020
+    "sort": 2020,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -877,7 +964,8 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -887,7 +975,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -897,7 +986,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -907,7 +997,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -917,7 +1008,8 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020
+    "sort": 2020,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -927,7 +1019,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -937,7 +1030,8 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Market data & valuation"
   },
   {
     "kind": "paper",
@@ -947,7 +1041,8 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -957,7 +1052,8 @@
     "meta": "2004",
     "summary": "",
     "year": 2004,
-    "sort": 2004
+    "sort": 2004,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -967,7 +1063,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -977,7 +1074,8 @@
     "meta": "2016",
     "summary": "",
     "year": 2016,
-    "sort": 2016
+    "sort": 2016,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -987,7 +1085,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -997,7 +1096,8 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020
+    "sort": 2020,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -1007,7 +1107,8 @@
     "meta": "2007",
     "summary": "",
     "year": 2007,
-    "sort": 2007
+    "sort": 2007,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -1017,7 +1118,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -1027,7 +1129,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -1037,7 +1140,8 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020
+    "sort": 2020,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1047,7 +1151,8 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020
+    "sort": 2020,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -1057,7 +1162,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -1067,7 +1173,8 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1077,7 +1184,8 @@
     "meta": "2021",
     "summary": "",
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1087,7 +1195,8 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1097,7 +1206,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -1107,7 +1217,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1117,7 +1228,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1127,7 +1239,8 @@
     "meta": "2016",
     "summary": "",
     "year": 2016,
-    "sort": 2016
+    "sort": 2016,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1137,7 +1250,8 @@
     "meta": "2001",
     "summary": "",
     "year": 2001,
-    "sort": 2001
+    "sort": 2001,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -1147,7 +1261,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -1157,7 +1272,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Supply chain"
   },
   {
     "kind": "paper",
@@ -1167,7 +1283,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -1177,7 +1294,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1187,7 +1305,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -1197,7 +1316,8 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018
+    "sort": 2018,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -1207,7 +1327,8 @@
     "meta": "1995",
     "summary": "",
     "year": 1995,
-    "sort": 1995
+    "sort": 1995,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1217,7 +1338,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -1227,7 +1349,8 @@
     "meta": "2019",
     "summary": "",
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1237,7 +1360,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1247,7 +1371,8 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1257,7 +1382,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1267,7 +1393,8 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020
+    "sort": 2020,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -1277,7 +1404,8 @@
     "meta": "2018",
     "summary": "",
     "year": 2018,
-    "sort": 2018
+    "sort": 2018,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1287,7 +1415,8 @@
     "meta": "1997",
     "summary": "",
     "year": 1997,
-    "sort": 1997
+    "sort": 1997,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1297,7 +1426,8 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "GenAI & marketing"
   },
   {
     "kind": "paper",
@@ -1307,7 +1437,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -1317,7 +1448,8 @@
     "meta": "2020",
     "summary": "",
     "year": 2020,
-    "sort": 2020
+    "sort": 2020,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1327,7 +1459,8 @@
     "meta": "2005",
     "summary": "",
     "year": 2005,
-    "sort": 2005
+    "sort": 2005,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -1337,7 +1470,8 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -1347,7 +1481,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1357,7 +1492,8 @@
     "meta": "1994",
     "summary": "",
     "year": 1994,
-    "sort": 1994
+    "sort": 1994,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -1367,7 +1503,8 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "paper",
@@ -1377,7 +1514,8 @@
     "meta": "2017",
     "summary": "",
     "year": 2017,
-    "sort": 2017
+    "sort": 2017,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -1387,7 +1525,8 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1397,7 +1536,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "paper",
@@ -1407,7 +1547,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Process & operations"
   },
   {
     "kind": "paper",
@@ -1417,7 +1558,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1427,7 +1569,8 @@
     "meta": "2010",
     "summary": "",
     "year": 2010,
-    "sort": 2010
+    "sort": 2010,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1437,7 +1580,8 @@
     "meta": "2024",
     "summary": "",
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1447,7 +1591,8 @@
     "meta": "2022",
     "summary": "",
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1457,7 +1602,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1467,7 +1613,8 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1477,7 +1624,8 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1487,7 +1635,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1497,7 +1646,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "paper",
@@ -1507,7 +1657,8 @@
     "meta": "2025",
     "summary": "",
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -1517,7 +1668,8 @@
     "meta": "2023",
     "summary": "",
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "news",
@@ -1528,7 +1680,8 @@
     "meta": "Pluto7 · 2019 · Anheuser-Busch InBev",
     "summary": "AB InBev applied Google Cloud machine learning to its beer filtration process to predict K-filter issues and keep taste and quality consistent.",
     "year": 2019,
-    "sort": "2019"
+    "sort": "2019",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "news",
@@ -1539,7 +1692,8 @@
     "meta": "Microsoft Transform · 2018-11 · Anheuser-Busch InBev",
     "summary": "AB InBev deploys AI across farming (Smart Barley), customer chatbots, and Azure-based supply chain and back-office automation.",
     "year": 2018,
-    "sort": "2018-11"
+    "sort": "2018-11",
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "news",
@@ -1550,7 +1704,8 @@
     "meta": "BeverageDaily · 2017-11-07 · Carlsberg",
     "summary": "Carlsberg partnered with Microsoft and two Danish universities on a sensor and AI system to map flavor fingerprints and speed new beer development.",
     "year": 2017,
-    "sort": "2017-11-07"
+    "sort": "2017-11-07",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "news",
@@ -1561,7 +1716,8 @@
     "meta": "Forbes · 2024-10-16 · Heineken",
     "summary": "Heineken is scaling generative and predictive AI across brewing, forecasting, and salesforce recommendations as part of its best-connected-brewer strategy.",
     "year": 2024,
-    "sort": "2024-10-16"
+    "sort": "2024-10-16",
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "news",
@@ -1572,7 +1728,8 @@
     "meta": "The HEINEKEN Company · 2025-02-05 · Heineken",
     "summary": "Heineken details three production AI products, AIDDA for sales, Allocation AI for marketing spend, and Promo Advisor for promotions, running across global operating companies.",
     "year": 2025,
-    "sort": "2025-02-05"
+    "sort": "2025-02-05",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "news",
@@ -1583,7 +1740,8 @@
     "meta": "BeverageDaily · 2024-04-24 · Sapporo Breweries",
     "summary": "Survey of AI-assisted recipe development including St Austell's Hand Brewed by Robots AI-PA and Sapporo's IBM-built N-Wing Star flavor design system.",
     "year": 2024,
-    "sort": "2024-04-24"
+    "sort": "2024-04-24",
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "news",
@@ -1594,7 +1752,8 @@
     "meta": "Craft Brewing Business · 2025 · Sennos (Precision Fermentation)",
     "summary": "Rebranded from Precision Fermentation, Sennos rolled out its in-tank M3 sensor and AI analytics to give breweries real-time gravity, pH, and dissolved-oxygen monitoring.",
     "year": 2025,
-    "sort": "2025"
+    "sort": "2025",
+    "theme": "Process & operations"
   },
   {
     "kind": "news",
@@ -1605,7 +1764,8 @@
     "meta": "BeverageDaily · 2024-07-25 · Diageo",
     "summary": "Diageo used generative AI so consumers could co-create personalized Johnnie Walker Blue Label labels in the style of artist Scott Naismith.",
     "year": 2024,
-    "sort": "2024-07-25"
+    "sort": "2024-07-25",
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "news",
@@ -1616,7 +1776,8 @@
     "meta": "Diageo · 2024-11-04 · Diageo",
     "summary": "Diageo paired Single Malt tasting kits with an AI FlavorPrintConnect masterclass that matches drinkers' flavor preferences and returns tailored whisky recommendations.",
     "year": 2024,
-    "sort": "2024-11-04"
+    "sort": "2024-11-04",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "news",
@@ -1627,7 +1788,8 @@
     "meta": "Fox News · 2024-03 · Diageo",
     "summary": "Diageo's Port Ellen used its SmokeDNAi algorithms on gas-chromatography data to decode cask maturation chemistry and craft the Gemini twin whisky release.",
     "year": 2024,
-    "sort": "2024-03"
+    "sort": "2024-03",
+    "theme": "Other"
   },
   {
     "kind": "news",
@@ -1638,7 +1800,8 @@
     "meta": "Microsoft Source EMEA · 2019 · Mackmyra",
     "summary": "Sweden's Mackmyra worked with Fourkind and Microsoft Azure to generate whisky recipes from millions of blend combinations, releasing the AI-created Intelligens.",
     "year": 2019,
-    "sort": "2019"
+    "sort": "2019",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "news",
@@ -1649,7 +1812,8 @@
     "meta": "Pernod Ricard · 2024-04-04 · Pernod Ricard",
     "summary": "Pernod Ricard was ranked the top European and leading drinks company for data and AI talent, citing tools like its D-Star sales platform and Genie gen-AI marketing pilot.",
     "year": 2024,
-    "sort": "2024-04-04"
+    "sort": "2024-04-04",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "news",
@@ -1660,7 +1824,8 @@
     "meta": "Forbes · 2021-06-28 · Tastry",
     "summary": "Tastry combines gas chromatography-mass spectrometry with machine learning to profile wines and predict how consumer palates will score them for wineries and retailers.",
     "year": 2021,
-    "sort": "2021-06-28"
+    "sort": "2021-06-28",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "news",
@@ -1671,7 +1836,8 @@
     "meta": "Grape and Wine Magazine · 2024-07-01 · Tastry",
     "summary": "Profile of how Tastry's chemistry-plus-AI platform helps wineries predict market success and match blends to consumer palate segments.",
     "year": 2024,
-    "sort": "2024-07-01"
+    "sort": "2024-07-01",
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "news",
@@ -1682,7 +1848,8 @@
     "meta": "CIO · 2017-07-18 · E. & J. Gallo Winery",
     "summary": "Gallo built a mobile, GIS-integrated app for field reps to digitize grape assessment and harvest scheduling across its vineyards.",
     "year": 2017,
-    "sort": "2017-07-18"
+    "sort": "2017-07-18",
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "news",
@@ -1693,7 +1860,8 @@
     "meta": "Forbes · 2024-01-30",
     "summary": "Machine learning applied to chemical fingerprints from spectroscopy and chromatography can trace a wine to its vineyard and vintage to detect counterfeits.",
     "year": 2024,
-    "sort": "2024-01-30"
+    "sort": "2024-01-30",
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "news",
@@ -1704,7 +1872,8 @@
     "meta": "The Press Democrat · 2026-04-11 · E. & J. Gallo Winery",
     "summary": "Sonoma County winemaking is adopting AI and robotics for harvest and vineyard control, with trials at Gallo, Silver Oak, and Treasury Wine Estates raising access concerns for small producers.",
     "year": 2026,
-    "sort": "2026-04-11"
+    "sort": "2026-04-11",
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "news",
@@ -1715,7 +1884,8 @@
     "meta": "Tableau · 2016 · Coopers Brewery",
     "summary": "Australia's largest family-owned brewery adopted Tableau analytics to turn brewing and supply-chain data into data-driven decisions that spurred growth.",
     "year": 2016,
-    "sort": "2016"
+    "sort": "2016",
+    "theme": "Process & operations"
   },
   {
     "kind": "news",
@@ -1726,7 +1896,8 @@
     "meta": "Tableau · 2012",
     "summary": "A growing wine company standardized on Tableau so business units could self-serve prebuilt sales dashboards from a single source of truth.",
     "year": 2012,
-    "sort": "2012"
+    "sort": "2012",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "news",
@@ -1737,7 +1908,8 @@
     "meta": "Microsoft · 2019-08-07 · Deschutes Brewery",
     "summary": "Deschutes Brewery used Azure SQL Database and Azure Machine Learning Studio to spot beer trends earlier and automate operational alerts.",
     "year": 2019,
-    "sort": "2019-08-07"
+    "sort": "2019-08-07",
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "news",
@@ -1748,7 +1920,8 @@
     "meta": "Microsoft · 2015-03-12 · New Belgium Brewing",
     "summary": "New Belgium Brewing ran Dynamics CRM and Dynamics AX with a custom field app to give Beer Rangers nightly sales, inventory, and account data.",
     "year": 2015,
-    "sort": "2015-03-12"
+    "sort": "2015-03-12",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "news",
@@ -1759,7 +1932,8 @@
     "meta": "Microsoft · 2017-07-03 · Carlsberg Group",
     "summary": "Carlsberg moved its digital innovation to Azure, using data lakes, IoT, and AI to segment customers and pinpoint when and where people decide to buy beer.",
     "year": 2017,
-    "sort": "2017-07-03"
+    "sort": "2017-07-03",
+    "theme": "Process & operations"
   },
   {
     "kind": "news",
@@ -1770,7 +1944,8 @@
     "meta": "Google Cloud · 2018 · Anheuser-Busch InBev",
     "summary": "AB InBev with partner Pluto7 built a TensorFlow and BigQuery model on Google Cloud to optimize beer filtration, raising barrelage per filter run by 60 percent.",
     "year": 2018,
-    "sort": "2018"
+    "sort": "2018",
+    "theme": "Other"
   },
   {
     "kind": "news",
@@ -1781,7 +1956,8 @@
     "meta": "Google Cloud · Lion",
     "summary": "Brewer Lion built cloud infrastructure on Google Cloud with BigQuery and Looker Studio to cut TCO and improve demand-forecast accuracy with AI.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "news",
@@ -1792,7 +1968,8 @@
     "meta": "Brewers Association · 2025",
     "summary": "The Brewers Association runs an ongoing statistics and data program quantifying craft beer's national and state-level economic impact and production figures.",
     "year": 2025,
-    "sort": "2025"
+    "sort": "2025",
+    "theme": "Process & operations"
   },
   {
     "kind": "news",
@@ -1803,7 +1980,8 @@
     "meta": "ASBC · 2023-04 · Grist Analytics",
     "summary": "ASBC partnered with Grist Analytics to explore using data and analytics to improve beer quality and consistency across breweries of all sizes.",
     "year": 2023,
-    "sort": "2023-04"
+    "sort": "2023-04",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "news",
@@ -1814,7 +1992,8 @@
     "meta": "Brewers Association · 2025 · Brewers Association",
     "summary": "Charts and data tables of U.S. beer production, sales, and brewery counts from 1873 to present, updated annually for craft industry analysis.",
     "year": 2025,
-    "sort": "2025"
+    "sort": "2025",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "news",
@@ -1825,7 +2004,8 @@
     "meta": "Brewers Association · 2025 · Brewers Association",
     "summary": "Per-state craft beer production volumes, brewery counts, and economic figures compiled into browsable statistical breakdowns.",
     "year": 2025,
-    "sort": "2025"
+    "sort": "2025",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "news",
@@ -1836,7 +2016,8 @@
     "meta": "Brewers Association · Brewers Association",
     "summary": "Biannual anonymized operations survey giving craft brewers benchmark data and best-practice tools to measure and improve their businesses.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Other"
   },
   {
     "kind": "news",
@@ -1847,7 +2028,8 @@
     "meta": "Brewers Association · Brewers Association",
     "summary": "Aggregated financial, operations, salary, and demographic benchmarking datasets (spreadsheets on revenue, COGS, margins) for member breweries.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "news",
@@ -1858,7 +2040,8 @@
     "meta": "Brewers Association · Brewers Association",
     "summary": "Ongoing analytical articles from BA economists interpreting craft market data, consumer trends, and survey results for the industry.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "news",
@@ -1869,7 +2052,8 @@
     "meta": "Brewers Association · 2026 · Brewers Association",
     "summary": "SWOT-style data analysis of the BA and Harris Poll consumer survey, separating meaningful craft-drinker engagement trends from noise.",
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "news",
@@ -1880,7 +2064,8 @@
     "meta": "Brewers Association · Brewers Association",
     "summary": "Central hub aggregating BA statistics, trend reports, and data resources on the craft brewing market.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "news",
@@ -1891,7 +2076,8 @@
     "meta": "MBAA · Master Brewers Association of the Americas",
     "summary": "Peer-reviewed online journal (archive 1964 to present) publishing brewing science including process control, quality monitoring, and statistical method papers.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "news",
@@ -1902,7 +2088,8 @@
     "meta": "MBAA · 2021 · Master Brewers Association of the Americas",
     "summary": "Curated list of most-read TQ papers, including Fermentation Quality Control by Tim Faith on building measurable QC into the brewing recipe.",
     "year": 2021,
-    "sort": "2021"
+    "sort": "2021",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "news",
@@ -1913,7 +2100,8 @@
     "meta": "MBAA · 2026 · Master Brewers Association of the Americas",
     "summary": "Professional course catalog including a Six Sigma course applying statistical process-control methods to brewery quality and operations.",
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "news",
@@ -1924,7 +2112,8 @@
     "meta": "MBAA · Master Brewers Association of the Americas",
     "summary": "On-the-job education program with webinars and short courses covering process control, quality, and data-driven brewery operations.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "news",
@@ -1935,7 +2124,8 @@
     "meta": "ASBC · American Society of Brewing Chemists",
     "summary": "Over 220 peer-reviewed analytical methods spanning malt, wort, beer, microbiology, sensory, and dedicated statistical analysis procedures.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "news",
@@ -1946,7 +2136,8 @@
     "meta": "ASBC · American Society of Brewing Chemists",
     "summary": "Standardized statistical procedures for brewing labs including linear calibration and confidence-interval construction for analytical data.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Process & operations"
   },
   {
     "kind": "news",
@@ -1957,7 +2148,8 @@
     "meta": "ASBC · 2023 · American Society of Brewing Chemists",
     "summary": "Partnership bringing Grist Analytics brew, cellar, and packaging data platform to ASBC for automated real-time quality feedback and predictive scheduling.",
     "year": 2023,
-    "sort": "2023"
+    "sort": "2023",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "news",
@@ -1968,7 +2160,8 @@
     "meta": "IBD · Institute of Brewing & Distilling",
     "summary": "Webinar on digitising brewing and distilling operations, covering real-time digital plant records and enabling production optimisations through machine learning.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Process & operations"
   },
   {
     "kind": "news",
@@ -1979,7 +2172,8 @@
     "meta": "First Key Consulting · 2024 · First Key Consulting",
     "summary": "First Key argues that brewers must build foundational data infrastructure and analytics before they can successfully leverage AI and big data.",
     "year": 2024,
-    "sort": "2024"
+    "sort": "2024",
+    "theme": "Consulting"
   },
   {
     "kind": "news",
@@ -1990,7 +2184,8 @@
     "meta": "First Key Consulting · First Key Consulting",
     "summary": "The article explains how machine learning and predictive analytics improve beverage demand forecasting accuracy, inventory turnover and waste reduction versus traditional history-based methods.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "news",
@@ -2001,7 +2196,8 @@
     "meta": "First Key Consulting · First Key Consulting",
     "summary": "The piece covers how FP&A, rolling forecasts, scenario planning and capacity modeling help beverage companies protect margins.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "news",
@@ -2012,7 +2208,8 @@
     "meta": "First Key Consulting · First Key Consulting",
     "summary": "First Key's ongoing article hub publishing its latest thinking on brewing and beverage industry topics, including data and AI.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "news",
@@ -2023,7 +2220,8 @@
     "meta": "Arryved · 2024 · Arryved",
     "summary": "Using Arryved POS data across 2,000-plus taprooms analyzed with the Brewers Association, this recap identifies taproom sales trends such as rising food sales and declining draft beer share.",
     "year": 2024,
-    "sort": "2024"
+    "sort": "2024",
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "news",
@@ -2034,7 +2232,8 @@
     "meta": "Arryved · Arryved",
     "summary": "Announces an integration that exports Arryved sales data into MarginEdge for cost analysis, product-usage insight and accurate financial reporting.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "news",
@@ -2045,7 +2244,8 @@
     "meta": "Arryved · Arryved",
     "summary": "Arryved's product page for brewery operations, covering production planning, depletion-based inventory analytics and real-time reporting.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "news",
@@ -2056,7 +2256,8 @@
     "meta": "Mid-Day · 2024-07-26 · iWort",
     "summary": "Mid-Day 45th anniversary feature (by Shriram Iyengar) on Ankur Napa, the Bengaluru brewmaster turned data scientist using AI to read how the Indian beer palate is shifting and to guide what breweries brew next.",
     "year": 2024,
-    "sort": "2024-07-26"
+    "sort": "2024-07-26",
+    "theme": "Other"
   },
   {
     "kind": "news",
@@ -2067,7 +2268,8 @@
     "meta": "Brewer World · 2024-08-08 · iWort",
     "summary": "Brewer World interview (by Manaswita Goswami) with Ankur Napa, founder of iWort, on moving from brewmaster to data scientist and using algorithms to track shifting beer tastes and drive recipe and production decisions.",
     "year": 2024,
-    "sort": "2024-08-08"
+    "sort": "2024-08-08",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "news",
@@ -2078,7 +2280,8 @@
     "meta": "EY · 2025 · Asahi Europe & International",
     "summary": "Asahi Europe & International worked with EY and Microsoft on a managed-services approach that rewrote its trade promotion optimisation using AI.",
     "year": 2025,
-    "sort": "2025"
+    "sort": "2025",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "news",
@@ -2089,7 +2292,8 @@
     "meta": "Accenture · 2026-01-02 · Carlsberg",
     "summary": "Accenture moved Carlsberg to a scalable, flexible cloud infrastructure with an automated application landscape, the platform layer its data and analytics work runs on.",
     "year": 2026,
-    "sort": "2026-01-02"
+    "sort": "2026-01-02",
+    "theme": "Process & operations"
   },
   {
     "kind": "news",
@@ -2100,7 +2304,8 @@
     "meta": "IBM · 2025 · HEINEKEN",
     "summary": "IBM case study on HEINEKEN's comprehensive, AI-infused digital transformation across its global brewing and commercial operations.",
     "year": 2025,
-    "sort": "2025"
+    "sort": "2025",
+    "theme": "Other"
   },
   {
     "kind": "news",
@@ -2111,7 +2316,8 @@
     "meta": "Cornell Tech · 2021-10-19",
     "summary": "Cornell Tech profile of Willy Lin on applying operations research and data science to brewing, and why understanding the industry's data matters as automation and AI drive production.",
     "year": 2021,
-    "sort": "2021-10-19"
+    "sort": "2021-10-19",
+    "theme": "Process & operations"
   },
   {
     "kind": "news",
@@ -2122,7 +2328,8 @@
     "meta": "American Craft Beer · 2026-06-03",
     "summary": "Survey of where AI has moved from novelty to routine on the brewdeck, and what it changes for brewers who long treated the craft as instinct and tradition.",
     "year": 2026,
-    "sort": "2026-06-03"
+    "sort": "2026-06-03",
+    "theme": "Other"
   },
   {
     "kind": "news",
@@ -2133,7 +2340,8 @@
     "meta": "Strategy · 2025 · Diageo",
     "summary": "Diageo applies AI analytics across its manufacturing estate, the spirits counterpart to the brewing case studies already tracked.",
     "year": 2025,
-    "sort": "2025"
+    "sort": "2025",
+    "theme": "Process & operations"
   },
   {
     "kind": "blog",
@@ -2144,7 +2352,8 @@
     "summary": "The final part of the brewery-lab AI series: taster notes as data via NLP, a predictive freshness index, predictive calibration from instrument drift, and deviation and out-of-spec triage. Honest about where a confident model quietly misleads.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "blog",
@@ -2155,7 +2364,8 @@
     "summary": "Inline machine vision on the brewery packaging line: fill-level checks with SPC to catch drift, crown-seal and label-defect inspection, washed-bottle grading, and pasteurisation-unit modelling from tunnel temperatures.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "blog",
@@ -2166,7 +2376,8 @@
     "summary": "How AI earns its keep in brewery micro: contamination-risk triage that ranks sample points across propagation, packaging, water and CIP, plus vision colony counting. Honest about where it breaks.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Process & operations"
   },
   {
     "kind": "blog",
@@ -2177,7 +2388,8 @@
     "summary": "Part 3 of the brewery-lab AI series: diacetyl and VDK forecasting from the fermentation curve, dissolved-oxygen anomaly detection at the filler, and shelf-life survival models, with the reference method still the arbiter.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "blog",
@@ -2188,7 +2400,8 @@
     "summary": "How machine vision reads acrospire growth, malt colour and foreign material on the raw-materials bench, and how NIR soft sensors predict extract and moisture before the mash, with the honest caveats.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Process & operations"
   },
   {
     "kind": "blog",
@@ -2199,7 +2412,8 @@
     "summary": "A map of where AI genuinely fits in the brewery QC lab in 2026 (soft sensors, machine vision, contamination-risk triage, and predictive calibration) and where a confident model quietly breaks. The opening of a 6-part series that walks the lab bench by bench.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Process & operations"
   },
   {
     "kind": "blog",
@@ -2210,7 +2424,8 @@
     "summary": "A working tool where breweries' tasters share sensory feedback and everyone sees how each batch drifts from its style's world ideal. It's built on Microsoft Fabric, with the backend deployed in one command using Rayfin.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "blog",
@@ -2221,7 +2436,8 @@
     "summary": "Three different tools, one goal: a lower water-to-beer ratio. Where plain data analytics, machine-learning AI, and generative AI each genuinely cut brewery water use — and where each one is the wrong tool.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Process & operations"
   },
   {
     "kind": "blog",
@@ -2232,7 +2448,8 @@
     "summary": "After the brewery, the maltery. A live 3D digital twin of the whole malting process — intake, steeping, germination, kilning, deculming, malt storage and dispatch — built on Microsoft Fabric with the Rayfin SDK, every vessel clickable for its real process curve.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "blog",
@@ -2243,7 +2460,8 @@
     "summary": "Part 2 of building a brewery digital twin: how I modeled every vessel — mash tun, lauter tun, kettle, cylindro-conical fermenters — from code instead of Blender, drove the whole plant from one process-data file, and animated the flow between tanks. With an honest take on when Blender is the right call.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "blog",
@@ -2254,7 +2472,8 @@
     "summary": "Beyond the headlines about AI-designed beer: what artificial intelligence is genuinely doing in breweries in 2026 — recipe ideation, batch consistency, a brewers' chatbot, and the supply chain — and where the hype quietly breaks.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "blog",
@@ -2265,7 +2484,8 @@
     "summary": "Not a dashboard you read — a brewery you walk through. How I rebuilt Ankur Napa Brewing Company as a live 3D digital twin on Microsoft Fabric, shipped in an afternoon with the Rayfin SDK, with every vessel and POS wired to real-time data.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Process & operations"
   },
   {
     "kind": "blog",
@@ -2276,7 +2496,8 @@
     "summary": "A brewery's biggest losses hide in plain sight across a dozen separate reports. A Sankey diagram puts the whole mass and energy balance in one picture — extract from grain to glass, water in to effluent out, energy in to heat lost — so the leaks become impossible to miss.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Other"
   },
   {
     "kind": "blog",
@@ -2287,7 +2508,8 @@
     "summary": "A beer's flavour stability is a story over time, not a single number — yet most breweries record it as a pass/fail. How to visualize forced-ageing and shelf-life trials as trajectories and small multiples, so staling becomes a path you can see, compare and predict.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "blog",
@@ -2298,7 +2520,8 @@
     "summary": "The Shewhart control chart catches sudden spikes but is blind to slow drift — exactly how brewing quality usually fails. How process capability (Cp/Cpk), CUSUM and EWMA charts visualize the slow creep a basic control chart misses, in brewing terms.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "blog",
@@ -2309,7 +2532,8 @@
     "summary": "True-to-target (TTT) tasting asks a different question than 'is it in spec' — does this batch still taste like the brand? How to visualize brand conformance with radar profiles, target bands and deviation tracking, so a panel's verdict becomes a picture the whole brewery reads.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "blog",
@@ -2320,7 +2544,8 @@
     "summary": "Most brewery dashboards stop at the line chart and the control chart. This opens a series on the visualizations brewers rarely reach for — radar brand-profiles, CUSUM drift charts, shelf-life trajectories and Sankey balances — and how to match the chart to the brewing question.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Process & operations"
   },
   {
     "kind": "blog",
@@ -2331,7 +2556,8 @@
     "summary": "A concrete, step-by-step build log of vibe-coding a small fermentation tracker with Claude Fable 5 — the actual prompts, the verify steps, the bug it introduced and how it got caught, so you can copy the loop for your own brewery tool.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Process & operations"
   },
   {
     "kind": "blog",
@@ -2342,7 +2568,8 @@
     "summary": "Anthropic's latest model, Claude Fable 5, doesn't replace the brewer's judgement — it lowers the skill floor for building. What actually changes for a brewer making their own tools, what doesn't, and how to use it without fooling yourself.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Other"
   },
   {
     "kind": "blog",
@@ -2353,7 +2580,8 @@
     "summary": "Claude's latest model, Fable 5, makes it realistic for a brewer with no software background to build a small, genuinely useful brewery tool by describing what they want. Here's the honest loop, what Fable 5 changes, and where it still needs you.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Other"
   },
   {
     "kind": "blog",
@@ -2364,7 +2592,8 @@
     "summary": "The final stage of the brewer's AI roadmap — using generative AI well and building with it responsibly, grounded in Google's PAIR People + AI Guidebook and Microsoft Learn's responsible-AI resources, so what you make is something a brewer would actually trust.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Other"
   },
   {
     "kind": "blog",
@@ -2375,7 +2604,8 @@
     "summary": "Stage 3 of the brewer's AI roadmap — the machine-learning concepts that matter, then building a first real model on your own brewery data, using free resources: Google's Machine Learning Crash Course, Kaggle Learn, Elements of AI and scikit-learn.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Other"
   },
   {
     "kind": "blog",
@@ -2386,7 +2616,8 @@
     "summary": "Stages 1 and 2 of the brewer's AI roadmap — data literacy with spreadsheets and Power BI, then Python — using only free, open resources: Microsoft Learn, Kaggle Learn and freeCodeCamp, with a real brewing project to learn against.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Process & operations"
   },
   {
     "kind": "blog",
@@ -2397,7 +2628,8 @@
     "summary": "A practical, five-stage learning path for a working brewer who wants to get into AI — data literacy, spreadsheets to Power BI, Python, machine learning and generative AI — built entirely on free, open resources like Microsoft Learn, Kaggle and Google's PAIR guidebook.",
     "featured": true,
     "year": 2026,
-    "sort": "2026"
+    "sort": "2026",
+    "theme": "Process & operations"
   },
   {
     "kind": "blog",
@@ -2408,7 +2640,8 @@
     "summary": "Company data blog on using machine learning over thousands of past fermentation batches to forecast completion and surface proactive process insights.",
     "featured": false,
     "year": 2025,
-    "sort": "2025-12-01"
+    "sort": "2025-12-01",
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "blog",
@@ -2419,7 +2652,8 @@
     "summary": "Practitioner write-up of a Python model that predicts Untappd beer ratings, with linked slides and code.",
     "featured": false,
     "year": 2017,
-    "sort": "2017-05-11"
+    "sort": "2017-05-11",
+    "theme": "Other"
   },
   {
     "kind": "blog",
@@ -2430,7 +2664,8 @@
     "summary": "Builds a TensorFlow neural network on 226 BrewDog recipes and Untappd ratings to predict beer scores and generate a top-rated recipe.",
     "featured": false,
     "year": 2018,
-    "sort": "2018-03-05"
+    "sort": "2018-03-05",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "blog",
@@ -2441,7 +2676,8 @@
     "summary": "Uses SHAP values on a BeerAdvocate dataset to explain which factors (style, brewery, IBU) most influence overall beer ratings.",
     "featured": false,
     "year": 2022,
-    "sort": "2022-10-16"
+    "sort": "2022-10-16",
+    "theme": "Other"
   },
   {
     "kind": "blog",
@@ -2452,7 +2688,8 @@
     "summary": "Describes a brewery hackathon using an SVM with RBF kernel over IBU, ABV, and SRM to find optimal IPA recipe parameters.",
     "featured": false,
     "year": 2018,
-    "sort": "2018-05-17"
+    "sort": "2018-05-17",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "blog",
@@ -2463,7 +2700,8 @@
     "summary": "Compares matrix factorization and deep neural recommender architectures in Keras on a 4.5M-rating beer dataset.",
     "featured": false,
     "year": 2018,
-    "sort": "2018-01-17"
+    "sort": "2018-01-17",
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "blog",
@@ -2474,7 +2712,8 @@
     "summary": "Classic R tutorial applying k-means clustering to 86 distilleries across 12 flavor scales and mapping clusters geographically.",
     "featured": false,
     "year": 2013,
-    "sort": "2013-12-30"
+    "sort": "2013-12-30",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "blog",
@@ -2485,7 +2724,8 @@
     "summary": "Reworks the 86-distillery whisky flavour dataset with K-means, hierarchical clustering, and PCA implemented in Groovy.",
     "featured": false,
     "year": 2025,
-    "sort": "2025-05-02"
+    "sort": "2025-05-02",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "blog",
@@ -2496,7 +2736,8 @@
     "summary": "Practitioner site using cluster analysis and PCA over a controlled flavour lexicon to build a data-driven whisky flavour map.",
     "featured": false,
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "blog",
@@ -2507,7 +2748,8 @@
     "summary": "End-to-end pipeline with Random Forest quality prediction plus a cosine-similarity wine recommender on the UCI wine dataset.",
     "featured": false,
     "year": 2025,
-    "sort": "2025-12-23"
+    "sort": "2025-12-23",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "blog",
@@ -2518,7 +2760,8 @@
     "summary": "Exploratory data analysis of physicochemical features across 6,497 Vinho Verde wines to inform quality classification.",
     "featured": false,
     "year": 2023,
-    "sort": "2023-09-13"
+    "sort": "2023-09-13",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "blog",
@@ -2529,7 +2772,8 @@
     "summary": "Tutorial building a scikit-learn bag-of-words logistic regression that predicts wine variety, price, and quality from review text.",
     "featured": false,
     "year": 2019,
-    "sort": "2019-07-31"
+    "sort": "2019-07-31",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "blog",
@@ -2540,7 +2784,8 @@
     "summary": "Wine-data-analytics firm's take on where AI, machine learning, and predictive analytics fit in vineyard, cellar, and sales workflows.",
     "featured": false,
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "blog",
@@ -2551,7 +2796,8 @@
     "summary": "How breweries wire Tableau dashboards onto Azure Databricks and Azure Data Factory to hold batch-to-batch quality and ingredient efficiency, replacing manual checks and experience with traceable pipelines.",
     "featured": true,
     "year": 2025,
-    "sort": "2025-08-30"
+    "sort": "2025-08-30",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "blog",
@@ -2562,7 +2808,8 @@
     "summary": "Predictive analytics in the brewery: finding patterns in process data to forecast performance, optimise the brew and make better ingredient decisions.",
     "featured": true,
     "year": 2023,
-    "sort": "2023-01-19"
+    "sort": "2023-01-19",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "blog",
@@ -2573,7 +2820,8 @@
     "summary": "A brewer's walkthrough of supervised learning applied to brewing without writing code: classifying whether a beer meets consumer needs, and predicting process quality parameters such as pH and alcohol percentage.",
     "featured": true,
     "year": 2022,
-    "sort": "2022-03-18"
+    "sort": "2022-03-18",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "blog",
@@ -2584,7 +2832,8 @@
     "summary": "What Industry 4.0 means for a 150-year-old industrialised craft, and why big data, AI and machine learning are expected to reshape brewing by 2030.",
     "featured": true,
     "year": 2020,
-    "sort": "2020-08-23"
+    "sort": "2020-08-23",
+    "theme": "Other"
   },
   {
     "kind": "blog",
@@ -2595,7 +2844,8 @@
     "summary": "Using inferential statistics to reason from a sample to the whole population across the brewing steps, so process decisions rest on evidence rather than impression.",
     "featured": true,
     "year": 2023,
-    "sort": "2023-01-19"
+    "sort": "2023-01-19",
+    "theme": "Process & operations"
   },
   {
     "kind": "blog",
@@ -2606,7 +2856,8 @@
     "summary": "William Gosset, the Guinness statistician who published as Student, invented the t-test in 1908; a look at brewing's first data scientist and where the test still applies on the brewdeck.",
     "featured": true,
     "year": 2023,
-    "sort": "2023-01-19"
+    "sort": "2023-01-19",
+    "theme": "Process & operations"
   },
   {
     "kind": "repo",
@@ -2617,7 +2868,8 @@
     "summary": "Mature open-source brewing recipe calculator covering mash, hops, gravity, and style math, a strong reference for brewing calculator apps.",
     "stars": 356,
     "year": null,
-    "sort": 356
+    "sort": 356,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "repo",
@@ -2628,7 +2880,8 @@
     "summary": "Widely used open brewery dataset and API backing many beer data and discovery tools.",
     "stars": 211,
     "year": null,
-    "sort": 211
+    "sort": 211,
+    "theme": "Other"
   },
   {
     "kind": "repo",
@@ -2639,7 +2892,8 @@
     "summary": "The canonical modern data interchange format for beer recipes, the schema most brewing data tooling standardizes on.",
     "stars": 162,
     "year": null,
-    "sort": 162
+    "sort": 162,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "repo",
@@ -2650,7 +2904,8 @@
     "summary": "Reusable JavaScript engine for computing OG, FG, ABV, IBU, and color from recipe inputs.",
     "stars": 135,
     "year": null,
-    "sort": 135
+    "sort": 135,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "repo",
@@ -2661,7 +2916,8 @@
     "summary": "Large open wine ratings dataset built specifically for training recommendation and ML models.",
     "stars": 76,
     "year": null,
-    "sort": 76
+    "sort": 76,
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "repo",
@@ -2672,7 +2928,8 @@
     "summary": "Data-driven analysis of thousands of beer recipes surfacing ingredient and style trends, close to sensory and recipe ML work.",
     "stars": 47,
     "year": null,
-    "sort": 47
+    "sort": 47,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "repo",
@@ -2683,7 +2940,8 @@
     "summary": "End-to-end MLOps example predicting wine quality from physicochemical features, a template for productionizing beverage quality models.",
     "stars": 45,
     "year": null,
-    "sort": 45
+    "sort": 45,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "repo",
@@ -2694,7 +2952,8 @@
     "summary": "Well-documented worked example of ML on the classic wine quality dataset, a common starting point for wine sensory modeling.",
     "stars": 34,
     "year": null,
-    "sort": 34
+    "sort": 34,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "repo",
@@ -2705,7 +2964,8 @@
     "summary": "Machine-readable BJCP style guidelines, foundational data for beer style classifiers and recipe style-fit checks.",
     "stars": 34,
     "year": null,
-    "sort": 34
+    "sort": 34,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "repo",
@@ -2716,7 +2976,8 @@
     "summary": "Classification approach to wine quality with validation, useful reference for sensory-grade prediction.",
     "stars": 25,
     "year": null,
-    "sort": 25
+    "sort": 25,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "repo",
@@ -2727,7 +2988,8 @@
     "summary": "Structured BJCP style data with parsing code, handy for building style-aware brewing tools.",
     "stars": 18,
     "year": null,
-    "sort": 18
+    "sort": 18,
+    "theme": "Other"
   },
   {
     "kind": "repo",
@@ -2738,7 +3000,8 @@
     "summary": "Recommender system trained on beer review data, directly relevant to flavor and preference modeling for beer.",
     "stars": 18,
     "year": null,
-    "sort": 18
+    "sort": 18,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "repo",
@@ -2749,7 +3012,8 @@
     "summary": "Reference app packaging BJCP style data for lookups, a model for BJCP tooling.",
     "stars": 17,
     "year": null,
-    "sort": 17
+    "sort": 17,
+    "theme": "Other"
   },
   {
     "kind": "repo",
@@ -2760,7 +3024,8 @@
     "summary": "Python client that makes the Open Brewery DB dataset easy to pull into data and ML pipelines.",
     "stars": 16,
     "year": null,
-    "sort": 16
+    "sort": 16,
+    "theme": "Process & operations"
   },
   {
     "kind": "repo",
@@ -2771,7 +3036,8 @@
     "summary": "BJCP styles expressed in BeerJSON, bridging style guidelines and the modern recipe data standard.",
     "stars": 15,
     "year": null,
-    "sort": 15
+    "sort": 15,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "repo",
@@ -2782,7 +3048,8 @@
     "summary": "Interactive BJCP style browser, a useful UI pattern for beer style tools.",
     "stars": 15,
     "year": null,
-    "sort": 15
+    "sort": 15,
+    "theme": "Other"
   },
   {
     "kind": "repo",
@@ -2793,7 +3060,8 @@
     "summary": "Multi-format BJCP style data set aimed squarely at programmatic processing and analysis.",
     "stars": 12,
     "year": null,
-    "sort": 12
+    "sort": 12,
+    "theme": "Process & operations"
   },
   {
     "kind": "repo",
@@ -2804,7 +3072,8 @@
     "summary": "Generative recipe engine for beer, relevant to automated recipe design and exploration.",
     "stars": 12,
     "year": null,
-    "sort": 12
+    "sort": 12,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "repo",
@@ -2815,7 +3084,8 @@
     "summary": "Sensor-driven fermentation monitoring and control, the data-capture layer for fermentation modeling.",
     "stars": 11,
     "year": null,
-    "sort": 11
+    "sort": 11,
+    "theme": "Process & operations"
   },
   {
     "kind": "repo",
@@ -2826,7 +3096,8 @@
     "summary": "R-based recipe exploration and comparison, useful for statistical analysis of beer recipe data.",
     "stars": 10,
     "year": null,
-    "sort": 10
+    "sort": 10,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "repo",
@@ -2837,7 +3108,8 @@
     "summary": "Directory of open recipe sources, a discovery hub for real beer recipe training data.",
     "stars": 9,
     "year": null,
-    "sort": 9
+    "sort": 9,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "repo",
@@ -2848,7 +3120,8 @@
     "summary": "Text-rich wine review corpus commonly used for NLP, sentiment, and variety-prediction models.",
     "stars": 7,
     "year": null,
-    "sort": 7
+    "sort": 7,
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "repo",
@@ -2859,7 +3132,8 @@
     "summary": "One of the few open ML pipelines targeting whiskey flavor modeling, directly on-theme for distilling sensory work.",
     "stars": 2,
     "year": null,
-    "sort": 2
+    "sort": 2,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "repo",
@@ -2870,7 +3144,8 @@
     "summary": "Ready-made beer review corpus for analytics and ML work: reviews joined to breweries, beers and users, sized for pipeline and CDC testing rather than a toy sample.",
     "stars": 1,
     "year": null,
-    "sort": 1
+    "sort": 1,
+    "theme": "Process & operations"
   },
   {
     "kind": "video",
@@ -2883,7 +3158,8 @@
     "channel": "Google Cloud Tech",
     "featured": false,
     "year": 2018,
-    "sort": 2018
+    "sort": 2018,
+    "theme": "Process & operations"
   },
   {
     "kind": "video",
@@ -2896,7 +3172,8 @@
     "channel": "TEDx Talks",
     "featured": false,
     "year": 2017,
-    "sort": 2017
+    "sort": 2017,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "video",
@@ -2909,7 +3186,8 @@
     "channel": "Exponential Investor",
     "featured": false,
     "year": 2018,
-    "sort": 2018
+    "sort": 2018,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "video",
@@ -2922,7 +3200,8 @@
     "channel": "GitHub",
     "featured": false,
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Quality & inspection"
   },
   {
     "kind": "video",
@@ -2935,7 +3214,8 @@
     "channel": "Craft Beer Professionals",
     "featured": false,
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "video",
@@ -2948,7 +3228,8 @@
     "channel": "Craft Beer Professionals",
     "featured": false,
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Process & operations"
   },
   {
     "kind": "video",
@@ -2961,7 +3242,8 @@
     "channel": "Craft Beer and Brewing",
     "featured": false,
     "year": 2025,
-    "sort": 2025
+    "sort": 2025,
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "video",
@@ -2974,7 +3256,8 @@
     "channel": "Gastrograph AI",
     "featured": false,
     "year": 2022,
-    "sort": 2022
+    "sort": 2022,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "video",
@@ -2987,7 +3270,8 @@
     "channel": "Get Through The Noise",
     "featured": false,
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "video",
@@ -3000,7 +3284,8 @@
     "channel": "Bernard Marr",
     "featured": false,
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "video",
@@ -3013,7 +3298,8 @@
     "channel": "The Story of Wine",
     "featured": false,
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "video",
@@ -3026,7 +3312,8 @@
     "channel": "Natalie MacLean",
     "featured": false,
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "video",
@@ -3039,7 +3326,8 @@
     "channel": "plantandfood",
     "featured": false,
     "year": 2024,
-    "sort": 2024
+    "sort": 2024,
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "video",
@@ -3052,7 +3340,8 @@
     "channel": "NOT ANOTHER WHISKY PODCAST",
     "featured": false,
     "year": 2023,
-    "sort": 2023
+    "sort": 2023,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "video",
@@ -3065,7 +3354,8 @@
     "channel": "Bernard Marr",
     "featured": false,
     "year": 2019,
-    "sort": 2019
+    "sort": 2019,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "video",
@@ -3078,7 +3368,8 @@
     "channel": "Dropbox",
     "featured": false,
     "year": 2021,
-    "sort": 2021
+    "sort": 2021,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "video",
@@ -3091,7 +3382,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "video",
@@ -3104,7 +3396,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Process & operations"
   },
   {
     "kind": "video",
@@ -3117,7 +3410,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Process & operations"
   },
   {
     "kind": "video",
@@ -3130,7 +3424,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Process & operations"
   },
   {
     "kind": "video",
@@ -3143,7 +3438,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Process & operations"
   },
   {
     "kind": "video",
@@ -3156,7 +3452,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Other"
   },
   {
     "kind": "video",
@@ -3169,7 +3466,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Process & operations"
   },
   {
     "kind": "video",
@@ -3182,7 +3480,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Other"
   },
   {
     "kind": "video",
@@ -3195,7 +3494,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Other"
   },
   {
     "kind": "video",
@@ -3208,7 +3508,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Other"
   },
   {
     "kind": "video",
@@ -3221,7 +3522,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Other"
   },
   {
     "kind": "video",
@@ -3234,7 +3536,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Other"
   },
   {
     "kind": "video",
@@ -3247,7 +3550,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Other"
   },
   {
     "kind": "video",
@@ -3260,7 +3564,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Other"
   },
   {
     "kind": "video",
@@ -3273,7 +3578,8 @@
     "channel": "Brewing Data Science | Ankur Napa",
     "featured": true,
     "year": null,
-    "sort": 0
+    "sort": 0,
+    "theme": "Other"
   },
   {
     "kind": "podcast",
@@ -3283,7 +3589,8 @@
     "meta": "Super Data Science Podcast · 2024-02-06",
     "summary": "Species X head brewer Beau Warren explains how he cleaned 180 features across 300-plus beers and used AutoML tools to generate a machine-learning-designed lager.",
     "year": 2024,
-    "sort": "2024-02-06"
+    "sort": "2024-02-06",
+    "theme": "Other"
   },
   {
     "kind": "podcast",
@@ -3293,7 +3600,8 @@
     "meta": "The Modern Brewer Podcast · 2024-06-10",
     "summary": "Brewer and senior data analyst Ankur Napa walks through machine learning, fermentation monitoring, and predictive analytics for brewhouse efficiency.",
     "year": 2024,
-    "sort": "2024-06-10"
+    "sort": "2024-06-10",
+    "theme": "Process & operations"
   },
   {
     "kind": "podcast",
@@ -3303,7 +3611,8 @@
     "meta": "Master Brewers Podcast · 2021-10-11",
     "summary": "Deschutes brewmaster Brian Faivre describes how one of the largest craft brewers uses data and predictive analytics tools to improve process and capacity.",
     "year": 2021,
-    "sort": "2021-10-11"
+    "sort": "2021-10-11",
+    "theme": "Quality & inspection"
   },
   {
     "kind": "podcast",
@@ -3313,7 +3622,8 @@
     "meta": "Master Brewers Podcast · 2024-06-03",
     "summary": "Kevin Verstrepen and Michiel Schreurs discuss their Nature Communications research using chemical analytics and machine learning to predict and improve beer flavor.",
     "year": 2024,
-    "sort": "2024-06-03"
+    "sort": "2024-06-03",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "podcast",
@@ -3323,7 +3633,8 @@
     "meta": "Tap the Craft Podcast",
     "summary": "Hosts Denny Luce and Kris McKenzie discuss AI in brewing and consumer engagement, referencing the Deep Liquid beer AI project.",
     "year": null,
-    "sort": ""
+    "sort": "",
+    "theme": "Consumer & personalization"
   },
   {
     "kind": "podcast",
@@ -3333,7 +3644,8 @@
     "meta": "Harvard Data Science Review Podcast · 2025-08-29",
     "summary": "Scout CEO Kia Behnia and Tastry founder Katerina Axelsson cover AI for precision viticulture and consumer preference prediction across the wine chain.",
     "year": 2025,
-    "sort": "2025-08-29"
+    "sort": "2025-08-29",
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "podcast",
@@ -3343,7 +3655,8 @@
     "meta": "Eat Sleep Wine Repeat · 2021-11-08",
     "summary": "Sommelier and data science MS candidate Aubrey Terrazas explains using data science to match customers to wines from vineyard to glass.",
     "year": 2021,
-    "sort": "2021-11-08"
+    "sort": "2021-11-08",
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "podcast",
@@ -3353,7 +3666,8 @@
     "meta": "XChateau Wine Podcast · 2023-11-11",
     "summary": "Tastry CEO Katerina Axelsson details an AI and analytical-chemistry system that maps wine flavor profiles to consumer taste data for winemaking decisions.",
     "year": 2023,
-    "sort": "2023-11-11"
+    "sort": "2023-11-11",
+    "theme": "Sensory & recipe"
   },
   {
     "kind": "podcast",
@@ -3363,7 +3677,8 @@
     "meta": "XChateau Wine Podcast · 2026-04-14",
     "summary": "Somm.ai co-founder Jeremy Hart explains AI-driven sales analytics across roughly 100,000 on-premise wine accounts for benchmarking and pricing.",
     "year": 2026,
-    "sort": "2026-04-14"
+    "sort": "2026-04-14",
+    "theme": "Demand & pricing"
   },
   {
     "kind": "podcast",
@@ -3373,6 +3688,7 @@
     "meta": "Working Smarter · 2025-10-15",
     "summary": "Bespoken Spirits uses machine learning to finish whiskey in days rather than years and applies AI to marketing for a small team.",
     "year": 2025,
-    "sort": "2025-10-15"
+    "sort": "2025-10-15",
+    "theme": "GenAI & marketing"
   }
 ]

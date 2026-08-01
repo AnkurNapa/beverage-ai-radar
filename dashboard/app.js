@@ -571,10 +571,11 @@ function resCard(r) {
 function applyRes() {
   const q = $("rq").value.trim().toLowerCase();
   const fk = $("fr-kind").value, fv = $("fr-vertical").value, fp = $("fr-platform").value;
-  const fera = $("fr-era").value;
+  const fera = $("fr-era").value, fth = $("fr-theme").value;
   const shown = RES.filter((r) => {
     if (fk && r.kind !== fk) return false;
     if (fv && r.vertical !== fv) return false;
+    if (fth && r.theme !== fth) return false;
     if (fp && !r._platforms.includes(fp)) return false;
     // year filter: exclude only dated items outside the range; undated items
     // (e.g. repos, videos with no year) stay visible so content is not emptied.
@@ -619,10 +620,13 @@ async function loadResources() {
   if (!RES.length) { $("tab-resources").hidden = true; return; }
   fillSelect($("fr-vertical"), [...new Set(RES.map((r) => r.vertical).filter(Boolean))].sort());
   fillSelect($("fr-platform"), counts(RES.flatMap((r) => r._platforms).map((p) => ({ p })), "p").map((x) => x[0]));
+  // theme is precomputed in build_resources.py with the same classifier the
+  // companies use, so the two taxonomies stay identical.
+  fillSelect($("fr-theme"), counts(RES.filter((r) => r.theme), "theme").map((x) => x[0]));
   // Papers reach back to 1994 but 188 of 259 dated items are 2020s, so the
   // recent buckets are the ones that earn a place here.
   fillEras($("fr-era"), RES, (r) => r.year);
-  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-era", "fr-sort"]) $(id).addEventListener("input", applyRes);
+  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-era", "fr-sort", "fr-theme"]) $(id).addEventListener("input", applyRes);
   applyRes();
 
 }
