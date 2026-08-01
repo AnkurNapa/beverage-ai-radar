@@ -348,6 +348,10 @@ function buildPeople() {
       rows.push({
         name: p.name, role: p.role || "", linkedin: p.linkedin || "",
         company: c.name, vertical: c.vertical || "", status: c.status,
+        // A person inherits their company's category and discovery surface, so
+        // the People tab can be narrowed the same way the Companies tab is
+        // ("who works in ESG?", "who did the logistics sweep turn up?").
+        theme: c._theme || themeOf(c), source: sourceOf(c),
         // A person has no location of their own in the data, so they inherit
         // their company's. Honest for a map: it says where the WORK is, not
         // necessarily where the person sits.
@@ -380,9 +384,12 @@ function applyPeople() {
   const fpc = $("fp-country").value;
   const q = $("pq").value.trim().toLowerCase();
   const fv = $("fp-vertical").value, fl = $("fp-linkedin").value;
+  const fth = $("fp-theme").value, fsrc = $("fp-source").value;
   const shown = PEOPLE.filter((p) => {
     if (fpc && p.country !== fpc) return false;
     if (fv && p.vertical !== fv) return false;
+    if (fth && p.theme !== fth) return false;
+    if (fsrc && p.source !== fsrc) return false;
     if (fl && !p.linkedin) return false;
     if (q && !`${p.name} ${p.role} ${p.company}`.toLowerCase().includes(q)) return false;
     return true;
@@ -647,14 +654,25 @@ async function loadJobs() {
   if (!JOBS.length) { $("tab-jobs").hidden = true; return; }
   const latest = JOBS.map((j) => j.posted).filter(Boolean).sort().pop();
   if (latest) $("jobs-stamp").textContent = `Latest posting ${latest}.`;
+  // Join each role to its tracked company so roles can be narrowed by category
+  // the same way companies and people are. Only some roles are at a tracked
+  // company, so j._theme is often empty; the filter handles that explicitly.
+  const byName = new Map(ALL.map((c) => [c.name.toLowerCase(), c]));
+  for (const j of JOBS) {
+    const c = j.tracked_company ? byName.get(j.tracked_company.toLowerCase()) : null;
+    j._theme = c ? (c._theme || themeOf(c)) : "";
+  }
   fillSelect($("fj-vertical"), [...new Set(JOBS.map((j) => j.vertical).filter(Boolean))].sort());
+  fillSelect($("fj-theme"), counts(JOBS.filter((j) => j._theme), "_theme").map((x) => x[0]));
   // countries by volume, so the places actually hiring sit at the top
   fillSelect($("fj-country"), counts(JOBS, "country").filter(([c]) => c !== "unknown"));
   const applyJobs = () => {
     const q = $("jq").value.trim().toLowerCase();
     const fv = $("fj-vertical").value, ft = $("fj-tracked").value, fc = $("fj-country").value;
+    const fth = $("fj-theme").value;
     const shown = JOBS.filter((j) =>
       (!fv || j.vertical === fv) && (!ft || j.tracked_company) && (!fc || j.country === fc)
+      && (!fth || j._theme === fth)
       && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
     renderWorldMap($("world-jobs"), JOBS, (j) => j.country, (place) => {
       const sel = $("fj-country");
@@ -667,7 +685,7 @@ async function loadJobs() {
       ? shown.map(jobCard).join("")
       : `<p class="empty">No open roles match these filters.</p>`;
   };
-  for (const id of ["jq", "fj-vertical", "fj-country", "fj-tracked"]) $(id).addEventListener("input", applyJobs);
+  for (const id of ["jq", "fj-vertical", "fj-country", "fj-tracked", "fj-theme"]) $(id).addEventListener("input", applyJobs);
   applyJobs();
 }
 
@@ -1440,7 +1458,9 @@ async function main() {
   PEOPLE = buildPeople();
   fillSelect($("fp-vertical"), [...new Set(PEOPLE.map((p) => p.vertical).filter(Boolean))].sort());
   fillSelect($("fp-country"), counts(PEOPLE.filter((p) => p.country && p.country !== "unknown"), "country"));
-  for (const id of ["pq", "fp-vertical", "fp-country", "fp-linkedin"]) $(id).addEventListener("input", applyPeople);
+  fillSelect($("fp-theme"), counts(PEOPLE, "theme").map((x) => x[0]));
+  fillSelect($("fp-source"), counts(PEOPLE, "source").map((x) => x[0]));
+  for (const id of ["pq", "fp-vertical", "fp-country", "fp-linkedin", "fp-theme", "fp-source"]) $(id).addEventListener("input", applyPeople);
   applyPeople();
   $("tab-companies").addEventListener("click", () => showView("companies"));
   $("tab-people").addEventListener("click", () => showView("people"));
