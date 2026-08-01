@@ -1,3 +1,22 @@
+<!-- Google Analytics 4, same property and same guards as index.html.
+     This file has no <head>, so the tag sits at the top of the document;
+     browsers still execute it. Keep the two copies identical. -->
+<script>
+  window.GA_MEASUREMENT_ID = "G-1ZHW47YJDC"; // same property as the blog
+  (function () {
+    var id = window.GA_MEASUREMENT_ID;
+    if (!id || /^G-X+$/.test(id)) return;             // placeholder: no-op
+    if (navigator.doNotTrack === "1") return;         // honour Do Not Track
+    var s = document.createElement("script");
+    s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=" + id;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); };
+    gtag("js", new Date());
+    gtag("config", id, { anonymize_ip: true, page_title: "Radar standalone" });
+  })();
+</script>
 <style>
 :root {
   --bg: oklch(98% 0.008 95);

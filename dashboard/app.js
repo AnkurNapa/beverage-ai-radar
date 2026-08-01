@@ -1423,6 +1423,12 @@ async function main() {
   // A company founded last year is not "recent" the way a paper is, so the
   // rolling buckets are dropped here and the decades kept.
   fillEras($("f-era"), ALL, (c) => c.founded_year, ["2020s", "2010s", "2000s", "pre2000"]);
+  // The tooltip quotes how many rows lack a founding year. It was hand-written
+  // and had drifted to "107 of 189" against a 270-row store, so derive it.
+  const noYear = ALL.filter((c) => !c.founded_year).length;
+  $("f-era").title =
+    `When the company was founded. ${noYear} of ${ALL.length} entries carry no founding year; ` +
+    `those stay visible whichever period you pick, so this narrows rather than empties.`;
 
   for (const id of ["q", "f-vertical", "f-usecase", "f-capability", "f-scope", "f-seen", "f-maturity", "f-status", "f-type",
     "f-platform", "f-funding", "f-country", "f-source", "f-era", "f-people", "s-sort"]) {

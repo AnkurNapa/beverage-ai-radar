@@ -1,51 +1,93 @@
 [
-  {
-    "id": "microsoft",
-    "label": "Microsoft AppSource and Azure Marketplace",
-    "hint": "appsource.microsoft.com, azuremarketplace.microsoft.com, Dynamics 365 Business Central beverage verticals, Microsoft partner case studies for brewing, distilling and wine.",
-    "yield": "high",
-    "note": "Richest marketplace surface: the beverage ERP vertical genuinely lives here."
-  },
-  {
-    "id": "aws",
-    "label": "AWS Marketplace and partner ecosystem",
-    "hint": "aws.amazon.com/marketplace, AWS Data Exchange, SageMaker model packages, Bedrock builds, AWS partner case studies.",
-    "yield": "medium",
-    "note": "Thin on beverage SaaS listings but productive for data products and model packages."
-  },
-  {
-    "id": "google",
-    "label": "Google Cloud Marketplace and partner ecosystem",
-    "hint": "cloud.google.com/marketplace, AI Agent Marketplace, Google Cloud customer case studies, BigQuery commercial datasets.",
-    "yield": "low",
-    "note": "The catalog itself is auth-walled and not indexed. Only the case-study and partner side yields. Consider running this surface less often."
-  },
-  {
-    "id": "industrial",
-    "label": "Industrial automation, historians, MES and packaging OEMs",
-    "hint": "Process historians, MES and OEE platforms, filling and packaging line OEMs, inline sensor and spectroscopy vendors, and their AI or predictive analytics products applied to brewing, distilling or winemaking.",
-    "yield": "low",
-    "note": "Heavy AI-washing. Demand a named brewery, distillery or winery customer, not generic food and beverage boilerplate."
-  },
-  {
-    "id": "whiskey",
-    "label": "Whiskey, whisky and spirits",
-    "hint": "Scotch, Irish, bourbon, Japanese and Indian distilling technology, cask and maturation modelling, blending and flavour prediction, cask investment platforms, spirits e-nose and analytical chemistry, provenance and counterfeit detection, spirits market data.",
-    "yield": "medium",
-    "note": "Historically the thinnest vertical. Cask investment marketing is especially prone to hollow AI claims."
-  },
-  {
-    "id": "wine",
-    "label": "Wine technology outside the US and UK",
-    "hint": "Italy, Spain, France, Portugal, Germany, Austria, Greece, Chile, Argentina, Australia, New Zealand and South Africa. Precision viticulture, cellar software with ML, wine sensory and chemistry prediction, traceability, e-commerce personalisation, wine market data.",
-    "yield": "high",
-    "note": "Counters the US and UK skew. Non-English sites are fine, translate the facts."
-  },
-  {
-    "id": "beer",
-    "label": "Beer plus route to market",
-    "hint": "Brewery management software with real ML, fermentation and quality analytics, hop and malt supply chain data, taproom analytics, brewery energy AI. Plus distributor and supplier analytics, on-premise and retail execution, alcohol e-commerce, DTC personalisation, pricing and trade promotion.",
-    "yield": "high",
-    "note": "Two halves; cover both. Brewery ERP with an AI badge is common, check for real ML."
-  }
+ {
+  "id": "microsoft",
+  "label": "Microsoft AppSource and Azure Marketplace",
+  "hint": "appsource.microsoft.com, azuremarketplace.microsoft.com, Dynamics 365 Business Central beverage verticals, Microsoft partner case studies for brewing, distilling and wine.",
+  "yield": "high",
+  "note": "Richest marketplace surface: the beverage ERP vertical genuinely lives here."
+ },
+ {
+  "id": "aws",
+  "label": "AWS Marketplace and partner ecosystem",
+  "hint": "aws.amazon.com/marketplace, AWS Data Exchange, SageMaker model packages, Bedrock builds, AWS partner case studies.",
+  "yield": "medium",
+  "note": "Thin on beverage SaaS listings but productive for data products and model packages."
+ },
+ {
+  "id": "google",
+  "label": "Google Cloud Marketplace and partner ecosystem",
+  "hint": "cloud.google.com/marketplace, AI Agent Marketplace, Google Cloud customer case studies, BigQuery commercial datasets.",
+  "yield": "low",
+  "note": "The catalog itself is auth-walled and not indexed. Only the case-study and partner side yields. Consider running this surface less often."
+ },
+ {
+  "id": "industrial",
+  "label": "Industrial automation, historians, MES and packaging OEMs",
+  "hint": "Process historians, MES and OEE platforms, filling and packaging line OEMs, inline sensor and spectroscopy vendors, and their AI or predictive analytics products applied to brewing, distilling or winemaking.",
+  "yield": "low",
+  "note": "Heavy AI-washing. Demand a named brewery, distillery or winery customer, not generic food and beverage boilerplate."
+ },
+ {
+  "id": "whiskey",
+  "label": "Whiskey, whisky and spirits",
+  "hint": "Scotch, Irish, bourbon, Japanese and Indian distilling technology, cask and maturation modelling, blending and flavour prediction, cask investment platforms, spirits e-nose and analytical chemistry, provenance and counterfeit detection, spirits market data.",
+  "yield": "medium",
+  "note": "Historically the thinnest vertical. Cask investment marketing is especially prone to hollow AI claims."
+ },
+ {
+  "id": "wine",
+  "label": "Wine technology outside the US and UK",
+  "hint": "Italy, Spain, France, Portugal, Germany, Austria, Greece, Chile, Argentina, Australia, New Zealand and South Africa. Precision viticulture, cellar software with ML, wine sensory and chemistry prediction, traceability, e-commerce personalisation, wine market data.",
+  "yield": "high",
+  "note": "Counters the US and UK skew. Non-English sites are fine, translate the facts."
+ },
+ {
+  "id": "beer",
+  "label": "Beer plus route to market",
+  "hint": "Brewery management software with real ML, fermentation and quality analytics, hop and malt supply chain data, taproom analytics, brewery energy AI. Plus distributor and supplier analytics, on-premise and retail execution, alcohol e-commerce, DTC personalisation, pricing and trade promotion.",
+  "yield": "high",
+  "note": "Two halves; cover both. Brewery ERP with an AI badge is common, check for real ML."
+ },
+ {
+  "id": "logistics",
+  "label": "Beverage logistics, keg fleet and vehicle tracking",
+  "hint": "Keg tracking and keg fleet management (Kegshoe, Kegstar, Binary Beer, TrackAbrew class), returnable asset tracking, delivery route optimisation and telematics for beer/wine/spirits distributors, cold-chain monitoring, DSD (direct store delivery) software, RFID/BLE/IoT tags on kegs casks and barrels, warehouse and dray management for beverage wholesalers.",
+  "yield": "high",
+  "note": "Blind spot found 2026-08-01: zero entries mentioned telematics or cold chain, and only three mentioned fleet. Kegshoe was missing entirely despite being an obvious incumbent."
+ },
+ {
+  "id": "esg",
+  "label": "ESG, sustainability and carbon reporting for beverage",
+  "hint": "Carbon accounting and scope 1/2/3 reporting for breweries, distilleries and wineries; water stewardship and effluent monitoring; packaging and circularity reporting; EUDR and CSRD compliance tooling aimed at drinks producers; sustainability certification and LCA platforms used by beer, whiskey or wine brands.",
+  "yield": "medium",
+  "note": "Blind spot found 2026-08-01: zero entries matched ESG, and carbon/emissions matched only two. Must name a real beer, whiskey or wine customer, not generic ESG SaaS."
+ },
+ {
+  "id": "engineering",
+  "label": "Engineering consultancies and process data historians serving beverage",
+  "hint": "Engineering and process consultancies with a named brewing, distilling or winery practice (NIRAS, Briggs, GEA Engineering, Alfa Laval, Krones LCS class); plant historians and industrial data platforms in beverage plants (AVEVA PI ex-OSIsoft, Aspen, Seeq, Cognite, TrendMiner); MES and APC vendors with named drinks customers.",
+  "yield": "medium",
+  "note": "Blind spot found 2026-08-01: NIRAS absent entirely, and the historian layer was represented only by AVEVA. Ankur named this surface directly."
+ },
+ {
+  "id": "equipment",
+  "label": "Brewhouse, distillery and winery plant OEMs and their named control systems",
+  "hint": "Plant and process equipment makers that ship a NAMED digital control, automation or cloud product for beverage production. Brewing OEMs: Kaspar Schulz (Pioneer Pro, SCHULZ app), Krones and Steinecker (Botec, Sitec), Ziemann Holvrieka (AnalytiX with Indeex), GEA (Codex, InsightPartner), Alfa Laval, BrauKon, Rolec, ABE American Beer Equipment, Meura, Praj, Criveller, CFT. Distilling OEMs: Vendome, Forsyths, iStill, Carl, Arnold Holstein. Wine and juice OEMs: Bucher Vaslin, Della Toffola, Pera-Pellenc, Diemme, Padovan, Velo Acciai. Malting: Buhler, Schmidt-Seeger. For each, look for the named control/SCADA/cloud product, remote maintenance or predictive maintenance offering, and any recipe-optimisation or process-analytics module. Search the OEM's own product pages, their Drinktec and BrauBeviale launch announcements, and Brauwelt or Brewers Journal coverage.",
+  "yield": "high",
+  "note": "Blind spot found 2026-08-01 from Ankur naming Kaspar Schulz: Krones, Ziemann and GEA were tracked but Schulz was absent, so the OEM layer was covered by accident rather than by design. Most of these ship automation with NO AI claim - record them honestly as the plant layer that brewing process data originates from, never inflate 'intelligent process control' marketing into an ML claim."
+ },
+ {
+  "id": "ingredients",
+  "label": "Hops, malt and yeast suppliers applying AI, genomics or predictive sensory",
+  "hint": "Raw-material suppliers and breeders for brewing, distilling and winemaking that apply machine learning, genomics, predictive sensory or computer vision. YEAST: Lallemand, Fermentis and Lesaffre, White Labs, Omega Yeast, Berkeley Yeast (bioengineered strains), Escarpment Labs, Imperial Yeast, Renaissance BioScience, Propagate Lab; strain selection and de novo strain design, flavour-compound prediction from genotype. HOPS: BarthHaas, Hopsteiner, Yakima Chief Hops, John I. Haas, Crosby Hops, Charles Faram, Hop Products Australia, NZ Hops; marker-assisted and genomic hop breeding, hop aroma and oil prediction models, hop-forecasting and crop-yield models. MALT AND BARLEY: Boortmalt, Malteurop, Viking Malt, Rahr, Briess, Crisp, Weyermann, Soufflet, GrainCorp; barley variety genomics, NIR and hyperspectral grading, malt spec prediction, seed viability (seedalive is already tracked). Also look for university and institute spinouts doing flavour prediction from raw-material chemistry.",
+  "yield": "high",
+  "note": "Blind spot found 2026-08-01 when Ankur asked about hops, yeast and malt: the ingredient layer was almost entirely absent, only Propagate Lab and seedalive. Many of these suppliers run genuine genomics and breeding science, so this surface should yield REAL AI claims rather than the no-claim systems-of-record that dominate the equipment and logistics surfaces. Still verify: 'proprietary selection process' is not machine learning."
+ },
+ {
+  "id": "erp",
+  "label": "Brewery, winery and distillery management software and ERP",
+  "hint": "Purpose-built production and business management software for drinks producers. ALREADY TRACKED, do not re-add: Ekos, Vicinity Brew, Encompass, FIVE x 5 (Beer30), Crafted ERP, BrewPlanner, Arryved, Next Glass and Ollie, PLAATO, BEERSOFT, Worter, Drink-IT and Aptean. HUNT FOR: Breww (UK), Brewman by Premier Systems, BrewLogix, BeerRun, Nectar POS, Brewers Dashboard, Beer30 competitors, Fermentis-adjacent tooling, Orchestra Software successors, Lighthouse, Craftpeak, BrewBilt software, ProBrewer-listed vendors, plus winery and distillery equivalents such as InnoVint, VinBalance, Vintrace, Process2Wine, DRAMS, WhiskySystems, and Indian and European regional vendors. Check the ProBrewer and Brewers Association supplier directories, Capterra and SoftwareSuggest brewery-software categories, and BrauBeviale and Craft Brewers Conference exhibitor lists.",
+  "yield": "high",
+  "note": "Ankur flagged 2026-08-01 that 'there are many' brewing ERPs. Audit showed the category is PARTLY covered by accident via the beer surface, with Breww and Brewman missing outright. Most of these are systems of record with no AI claim; a few bolt on forecasting. Record honestly and expect a low true-AI ratio here."
+ }
 ]
