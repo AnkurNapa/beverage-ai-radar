@@ -8,7 +8,19 @@
   <meta name="keywords" content="beverage AI, brewing AI, AI in beer, AI in wine, AI in whiskey, distillery machine learning, winery analytics, brewery data science, beverage business intelligence, food and beverage AI, fermentation AI, sensory AI, flavor prediction, beverage industry data" />
   <meta name="author" content="Ankur Napa" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
-  <link rel="canonical" href="https://ankurnapa.github.io/beverage-ai-radar/" />
+  <script>
+  // Runs before first paint deliberately: setting data-theme from JS after
+  // render causes a light flash for dark users. Falls back to the OS media
+  // query when nothing is saved, so behaviour is unchanged for anyone who
+  // never touches the control.
+  (function () {
+    try {
+      var t = localStorage.getItem("radar-theme");
+      if (t === "dark" || t === "light") document.documentElement.dataset.theme = t;
+    } catch (e) { /* private mode: fall through to the OS preference */ }
+  })();
+</script>
+<link rel="canonical" href="https://ankurnapa.github.io/beverage-ai-radar/" />
   <meta name="theme-color" content="#0067b8" />
 
   <!-- Open Graph -->
@@ -161,6 +173,12 @@
         <button id="tab-about" class="tab" type="button" role="tab" aria-controls="view-about" aria-selected="false">About</button>
       </nav>
       <div class="topbar__util">
+        <button id="theme-toggle" class="theme-toggle" type="button"
+                aria-label="Switch between light and dark theme">
+          <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+          <span class="theme-toggle__label">Theme</span>
+        </button>
+        <span aria-hidden="true">|</span>
         <a href="https://www.linkedin.com/in/ankur-napa/" target="_blank" rel="noopener">Get listed</a>
         <span aria-hidden="true">|</span>
         <a href="https://github.com/AnkurNapa/beverage-ai-radar" target="_blank" rel="noopener">GitHub</a>

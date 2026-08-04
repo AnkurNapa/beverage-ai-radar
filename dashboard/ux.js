@@ -225,3 +225,37 @@ export function mountPalette({ getItems, onPick }) {
 
   return { open, close };
 }
+
+// ---- Theme toggle ---------------------------------------------------------
+// Three states, not two: "system" is the default and must remain reachable,
+// otherwise a user who tries the control can never get back to following
+// their OS. Order is system -> light -> dark -> system.
+(function () {
+  var btn = document.getElementById("theme-toggle");
+  if (!btn) return;
+  var label = btn.querySelector(".theme-toggle__label");
+  var icon = btn.querySelector(".theme-toggle__icon");
+  var ORDER = ["system", "light", "dark"];
+  var ICON = { system: "◐", light: "☀", dark: "☾" };
+  var TEXT = { system: "System", light: "Light", dark: "Dark" };
+
+  function current() {
+    var t = document.documentElement.dataset.theme;
+    return t === "light" || t === "dark" ? t : "system";
+  }
+  function paint(state) {
+    if (state === "system") delete document.documentElement.dataset.theme;
+    else document.documentElement.dataset.theme = state;
+    if (icon) icon.textContent = ICON[state];
+    if (label) label.textContent = TEXT[state];
+    btn.setAttribute("title", "Theme: " + TEXT[state] + " (click to change)");
+    try {
+      if (state === "system") localStorage.removeItem("radar-theme");
+      else localStorage.setItem("radar-theme", state);
+    } catch (e) { /* private mode: the choice just does not persist */ }
+  }
+  paint(current());
+  btn.addEventListener("click", function () {
+    paint(ORDER[(ORDER.indexOf(current()) + 1) % ORDER.length]);
+  });
+})();

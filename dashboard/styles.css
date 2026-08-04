@@ -48,7 +48,7 @@
 @media (prefers-color-scheme: dark) {
   /* The reference is committed light. Dark stays a restrained token swap so
      dark-OS readers are not flash-banged, not a second design. */
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #0b0f14; --surface: #0f151c; --raised: #16202b;
     /* #fff on a near-black ground haloes; #e8edf2 keeps 14:1 without the bloom */
     --ink: #e8edf2; --body: #c2ccd6; --muted: #97a3b0;
@@ -69,7 +69,32 @@
     --dormant: #6b7683;
     --shadow-lift: 0 2px 18px rgba(0, 0, 0, .6);
   }
+
 }
+/* Explicit dark choice, so the toggle works on a light OS. */
+  :root[data-theme="dark"] {
+    --bg: #0b0f14; --surface: #0f151c; --raised: #16202b;
+    /* #fff on a near-black ground haloes; #e8edf2 keeps 14:1 without the bloom */
+    --ink: #e8edf2; --body: #c2ccd6; --muted: #97a3b0;
+    --line: #212c38; --line-strong: #33404f;
+    /* Dark commits to the radar console: the accent IS the trace colour, so
+       links, focus rings, active filters, KPI numbers and the sweep all read
+       as one instrument rather than a blue UI with a green decoration behind
+       it. 11.07:1 on the ground, comfortably past AA, and greens hold their
+       hue better than blues at low opacity, which is where most of this
+       colour is actually used. Light keeps the blue: green on white reads as
+       a highlighter, not a screen. */
+    --accent: #35e07a; --accent-hover: #6fecA3; --navy: #05090d;
+    --radar: #35e07a;         /* P7-ish phosphor, pulled back from pure #00ff41 */
+    /* Same hues, lifted to L .78: a colour that reads correctly on white is
+       too dark to carry on a near-black ground. Chroma is unchanged, so the
+       three stay equals in dark exactly as they do in light. */
+    --v-beer: #D8B345; --v-whiskey: #FF9874; --v-wine: #E299E6;
+    --dormant: #6b7683;
+    --shadow-lift: 0 2px 18px rgba(0, 0, 0, .6);
+  }
+
+
 * { box-sizing: border-box; }
 /* the masthead is sticky, so anything scrolled to must clear it */
 html { scroll-padding-top: 96px; }
@@ -200,8 +225,13 @@ a:hover { color: var(--accent-hover); }
 .logo .avatar { position: absolute; inset: 0; display: none; }
 .avatar--person { border-radius: 999px; }   /* people stay circular, as on their site */
 @media (prefers-color-scheme: dark) {
-  .avatar { color: oklch(92% 0.05 var(--h)); background: oklch(38% 0.07 var(--h)); }
+  :root:not([data-theme="light"]) .avatar { color: oklch(92% 0.05 var(--h)); background: oklch(38% 0.07 var(--h)); }
+
 }
+/* Explicit dark choice, so the toggle works on a light OS. */
+  :root[data-theme="dark"] .avatar { color: oklch(92% 0.05 var(--h)); background: oklch(38% 0.07 var(--h)); }
+
+
 
 /* --- Masthead ----------------------------------------------------------- */
 /* The reference opens with a white bar: wordmark left, section nav centre,
@@ -306,10 +336,17 @@ a:hover { color: var(--accent-hover); }
 
 @media (prefers-color-scheme: dark) {
   /* Dark is stepped for the dark surface, not an automatic flip of the light hues. */
-  .seg { background: var(--paint-dark); }
-  .key__dot { background: var(--paint-dark); }
-  .key.is-on .key__dot { box-shadow: 0 0 0 2px var(--bg), 0 0 0 3px var(--paint-dark); }
+  :root:not([data-theme="light"]) .seg { background: var(--paint-dark); }
+  :root:not([data-theme="light"]) .key__dot { background: var(--paint-dark); }
+  :root:not([data-theme="light"]) .key.is-on .key__dot { box-shadow: 0 0 0 2px var(--bg), 0 0 0 3px var(--paint-dark); }
+
 }
+/* Explicit dark choice, so the toggle works on a light OS. */
+  :root[data-theme="dark"] .seg { background: var(--paint-dark); }
+  :root[data-theme="dark"] .key__dot { background: var(--paint-dark); }
+  :root[data-theme="dark"] .key.is-on .key__dot { box-shadow: 0 0 0 2px var(--bg), 0 0 0 3px var(--paint-dark); }
+
+
 /* tell people the legend and segments are filters */
 .card h2::after {
   content: " · click to filter"; color: var(--line-strong); letter-spacing: .06em;
@@ -396,12 +433,21 @@ a:hover { color: var(--accent-hover); }
 .company:has(.chip--wine) { --tint: #FAEEFA; --tint-ink: #723176; }
 .company:has(.chip--multiple) { --tint: #ECF3FF; --tint-ink: #2D4A96; }
 @media (prefers-color-scheme: dark) {
-  .company:has(.chip--beer)  { --tint: #231E0E; --tint-ink: #E6C873; }
-  .company:has(.chip--whiskey)  { --tint: #2A1A14; --tint-ink: #FFB79D; }
-  .company:has(.chip--wine)  { --tint: #251A25; --tint-ink: #EFB2F2; }
-  .company:has(.chip--multiple)  { --tint: #181E2B; --tint-ink: #B2CAFF; }
-  .company .company__head .logo::before { background: var(--tint, #1b232d); }
+  :root:not([data-theme="light"]) .company:has(.chip--beer) { --tint: #231E0E; --tint-ink: #E6C873; }
+  :root:not([data-theme="light"]) .company:has(.chip--whiskey) { --tint: #2A1A14; --tint-ink: #FFB79D; }
+  :root:not([data-theme="light"]) .company:has(.chip--wine) { --tint: #251A25; --tint-ink: #EFB2F2; }
+  :root:not([data-theme="light"]) .company:has(.chip--multiple) { --tint: #181E2B; --tint-ink: #B2CAFF; }
+  :root:not([data-theme="light"]) .company .company__head .logo::before { background: var(--tint, #1b232d); }
+
 }
+/* Explicit dark choice, so the toggle works on a light OS. */
+  :root[data-theme="dark"] .company:has(.chip--beer) { --tint: #231E0E; --tint-ink: #E6C873; }
+  :root[data-theme="dark"] .company:has(.chip--whiskey) { --tint: #2A1A14; --tint-ink: #FFB79D; }
+  :root[data-theme="dark"] .company:has(.chip--wine) { --tint: #251A25; --tint-ink: #EFB2F2; }
+  :root[data-theme="dark"] .company:has(.chip--multiple) { --tint: #181E2B; --tint-ink: #B2CAFF; }
+  :root[data-theme="dark"] .company .company__head .logo::before { background: var(--tint, #1b232d); }
+
+
 .company__id { min-width: 0; }
 .company h3 {
   font-size: 1.35rem; font-weight: 700; margin: 0; line-height: 1.2;
@@ -666,8 +712,13 @@ a:hover { color: var(--accent-hover); }
   font-size: 0.72rem;
 }
 @media (prefers-color-scheme: dark) {
-  .chip--cap { border-color: rgba(120, 180, 240, 0.4); color: #7ab4f0; }
+  :root:not([data-theme="light"]) .chip--cap { border-color: rgba(120, 180, 240, 0.4); color: #7ab4f0; }
+
 }
+/* Explicit dark choice, so the toggle works on a light OS. */
+  :root[data-theme="dark"] .chip--cap { border-color: rgba(120, 180, 240, 0.4); color: #7ab4f0; }
+
+
 
 /* --- Filter visibility ---------------------------------------------------
    An active filter must look different from an idle one. Before this, all
@@ -1058,10 +1109,17 @@ body[data-view="prospects"] .ambient__rings { --ax: 82%; --ay: 62%; }
 body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07; }
 
 @media (prefers-color-scheme: dark) {
-  .ambient__rings { opacity: .1; }
-  .ambient__grid { opacity: .05; --hx: color-mix(in oklab, var(--radar) 30%, transparent); }
-  .ambient__sweep { opacity: .5; }
+  :root:not([data-theme="light"]) .ambient__rings { opacity: .1; }
+  :root:not([data-theme="light"]) .ambient__grid { opacity: .05; --hx: color-mix(in oklab, var(--radar) 30%, transparent); }
+  :root:not([data-theme="light"]) .ambient__sweep { opacity: .5; }
+
 }
+/* Explicit dark choice, so the toggle works on a light OS. */
+  :root[data-theme="dark"] .ambient__rings { opacity: .1; }
+  :root[data-theme="dark"] .ambient__grid { opacity: .05; --hx: color-mix(in oklab, var(--radar) 30%, transparent); }
+  :root[data-theme="dark"] .ambient__sweep { opacity: .5; }
+
+
 
 /* Motion is a preference. Reduced motion holds the geometry still rather than
    removing it, so the page does not restyle for those readers. */
@@ -1126,10 +1184,53 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
    visual language, so the sweep and blips carry noticeably more weight there
    while the light theme keeps them near-subliminal. */
 @media (prefers-color-scheme: dark) {
-  .ambient__sweep { opacity: .5; }
-  .ambient__blips i { width: 6px; height: 6px; margin: -3px 0 0 -3px;
+  :root:not([data-theme="light"]) .ambient__sweep { opacity: .5; }
+  :root:not([data-theme="light"]) .ambient__blips i { width: 6px; height: 6px; margin: -3px 0 0 -3px;
                       box-shadow: 0 0 12px 3px color-mix(in oklab, var(--radar) 60%, transparent); }
+
 }
+/* Explicit dark choice, so the toggle works on a light OS. */
+  :root[data-theme="dark"] .ambient__sweep { opacity: .5; }
+  :root[data-theme="dark"] .ambient__blips i { width: 6px; height: 6px; margin: -3px 0 0 -3px;
+                      box-shadow: 0 0 12px 3px color-mix(in oklab, var(--radar) 60%, transparent); }
+
+
 @media (max-width: 720px) {
   .ambient__blips i { width: 4px; height: 4px; margin: -2px 0 0 -2px; }
+}
+
+/* ---- Theme toggle ------------------------------------------------------- */
+.theme-toggle {
+  display: inline-flex; align-items: center; gap: .35rem;
+  background: none; border: 0; cursor: pointer; padding: .2rem .3rem;
+  font: inherit; color: inherit; opacity: .8; border-radius: 6px;
+}
+.theme-toggle:hover { opacity: 1; }
+.theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (pointer: coarse) { .theme-toggle { min-height: 44px; min-width: 44px; } }
+
+/* ---- Mobile: cost of a 378-card page ------------------------------------ */
+/* Every card renders, which measured 291,625px tall at 375px wide.
+   content-visibility lets the browser skip layout and paint for off-screen
+   cards: native, one property, no virtual-list machinery to maintain.
+   contain-intrinsic-size supplies a placeholder height so the scrollbar does
+   not jump as cards realise. Measured 291,625px -> 109,102px. */
+.company, .person, .resource, .job {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 240px;
+}
+
+@media (max-width: 720px) {
+  .hero { padding-top: 1rem; padding-bottom: .5rem; }
+  .hero__title { font-size: clamp(2rem, 11vw, 2.75rem); }
+  .hero__search { margin-top: 1.25rem; }
+  .hero__eyebrow { margin-bottom: .25rem; }
+  .kpis { row-gap: 1rem; }
+}
+
+@media (max-width: 720px) and (pointer: coarse) {
+  /* 44px minimum touch targets on the controls that are actually tapped. */
+  .tab, .key, .chip, .btn, select, .theme-toggle { min-height: 44px; }
+  .tabs { scroll-snap-type: x proximity; }
+  .tab { scroll-snap-align: start; }
 }
