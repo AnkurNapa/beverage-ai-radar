@@ -1,0 +1,14 @@
+{
+  "name": "Beverage-AI Radar",
+  "short_name": "Radar",
+  "description": "Who is applying AI, machine learning and data to beer, whiskey and wine.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b0f14",
+  "theme_color": "#0b0f14",
+  "icons": [
+    { "src": "og.png", "sizes": "1200x630", "type": "image/png", "purpose": "any" }
+  ]
+}

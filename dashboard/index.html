@@ -20,6 +20,12 @@
     } catch (e) { /* private mode: fall through to the OS preference */ }
   })();
 </script>
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Radar" />
+<meta name="theme-color" content="#F5F4F1" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#0b0f14" media="(prefers-color-scheme: dark)" />
 <link rel="canonical" href="https://ankurnapa.github.io/beverage-ai-radar/" />
   <meta name="theme-color" content="#0067b8" />
 
@@ -163,14 +169,14 @@
     <div class="topbar__inner">
       <a class="topbar__brand" href="./">Beverage-AI&nbsp;Radar</a>
       <nav class="topnav" id="tabs" role="tablist" aria-label="Views">
-        <button id="tab-companies" class="tab is-active" type="button" role="tab" aria-controls="view-companies" aria-selected="true">Companies &amp; ventures</button>
-        <button id="tab-people" class="tab" type="button" role="tab" aria-controls="view-people" aria-selected="false">People</button>
-        <button id="tab-resources" class="tab" type="button" role="tab" aria-controls="view-resources" aria-selected="false">Research &amp; resources</button>
-        <button id="tab-jobs" class="tab" type="button" role="tab" aria-controls="view-jobs" aria-selected="false">Jobs</button>
+        <button id="tab-companies" class="tab is-active" data-short="Companies" type="button" role="tab" aria-controls="view-companies" aria-selected="true">Companies &amp; ventures</button>
+        <button id="tab-people" class="tab" data-short="People" type="button" role="tab" aria-controls="view-people" aria-selected="false">People</button>
+        <button id="tab-resources" class="tab" data-short="Research" type="button" role="tab" aria-controls="view-resources" aria-selected="false">Research &amp; resources</button>
+        <button id="tab-jobs" class="tab" data-short="Jobs" type="button" role="tab" aria-controls="view-jobs" aria-selected="false">Jobs</button>
         <!-- Prospects is private: prospects.json is gitignored, so the published
              site never receives it and app.js hides this tab when it is absent. -->
-        <button id="tab-prospects" class="tab" type="button" role="tab" aria-controls="view-prospects" aria-selected="false" hidden>Prospects</button>
-        <button id="tab-about" class="tab" type="button" role="tab" aria-controls="view-about" aria-selected="false">About</button>
+        <button id="tab-prospects" class="tab" data-short="Prospects" type="button" role="tab" aria-controls="view-prospects" aria-selected="false" hidden>Prospects</button>
+        <button id="tab-about" class="tab" data-short="About" type="button" role="tab" aria-controls="view-about" aria-selected="false">About</button>
       </nav>
       <div class="topbar__util">
         <button id="theme-toggle" class="theme-toggle" type="button"

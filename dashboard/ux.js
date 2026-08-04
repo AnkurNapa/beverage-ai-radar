@@ -259,3 +259,193 @@ export function mountPalette({ getItems, onPick }) {
     paint(ORDER[(ORDER.indexOf(current()) + 1) % ORDER.length]);
   });
 })();
+
+// ---- Mobile paging --------------------------------------------------------
+// 378 cards measured 103 screens of scroll on a phone. Rather than change how
+// app.js renders (it re-renders the whole grid on every filter change), this
+// caps what is *visible* and re-applies itself after each render via a
+// MutationObserver. Desktop is untouched: the full list is the point there.
+(function () {
+  var STEP = 24;
+  var MOBILE = window.matchMedia("(max-width: 720px)");
+  var grid = document.getElementById("grid");
+  if (!grid) return;
+
+  var btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "mpager";
+  grid.insertAdjacentElement("afterend", btn);
+
+  var shown = STEP;
+
+  function apply() {
+    var cards = grid.children;
+    if (!MOBILE.matches) {
+      for (var i = 0; i < cards.length; i++) cards[i].style.removeProperty("display");
+      btn.classList.remove("is-on");
+      return;
+    }
+    var total = cards.length;
+    for (var j = 0; j < total; j++) {
+      cards[j].style.display = j < shown ? "" : "none";
+    }
+    var left = total - shown;
+    if (left > 0) {
+      btn.textContent = "Show " + Math.min(left, STEP) + " more (" + left + " left)";
+      btn.classList.add("is-on");
+    } else {
+      btn.classList.remove("is-on");
+    }
+  }
+
+  btn.addEventListener("click", function () {
+    shown += STEP;
+    apply();
+    // Keep the reading position: without this the button jumps up the page
+    // as the list grows and the thumb lands somewhere unrelated.
+    btn.scrollIntoView({ block: "nearest" });
+  });
+
+  // A filter change replaces the children, so the cap has to be re-applied and
+  // the count reset, or the user lands mid-list with a stale "N left".
+  var pending = false;
+  new MutationObserver(function () {
+    if (pending) return;
+    pending = true;
+    requestAnimationFrame(function () { pending = false; shown = STEP; apply(); });
+  }).observe(grid, { childList: true });
+
+  MOBILE.addEventListener("change", apply);
+  apply();
+})();
+
+// ---- Filter hierarchy -----------------------------------------------------
+// The companies view exposes 14 filters as one flat row, so a rarely-used
+// provenance filter looks exactly as important as "Vertical". Three tiers:
+// what you filter by daily stays visible, the rest fold away. Applied from
+// here rather than app.js so the filtering logic itself is untouched.
+(function () {
+  var TIER = {
+    // Primary: the three axes the dataset is actually about.
+    "f-vertical": 1, "f-usecase": 1, "f-country": 1,
+    // Secondary: refine a result set you already have.
+    "f-capability": 2, "f-maturity": 2, "f-type": 2, "f-platform": 2, "f-scope": 2,
+    // Provenance and housekeeping. Useful, but not what you reach for first.
+    "f-status": 3, "f-source": 3, "f-funding": 3, "f-era": 3,
+    "f-people": 3, "f-seen": 3
+  };
+  var ids = Object.keys(TIER);
+  var wraps = [];
+  ids.forEach(function (id) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    // The control sits inside a label/wrapper; hide that, not just the select,
+    // or the caption is left orphaned.
+    var w = el.closest("label, .field, .filter") || el;
+    w.dataset.tier = TIER[id];
+    wraps.push(w);
+  });
+  if (!wraps.length) return;
+
+  var host = wraps[0].parentElement;
+  var btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "filter-more";
+  var open = false;
+
+  function paint() {
+    wraps.forEach(function (w) {
+      if (w.dataset.tier !== "1") w.hidden = !open;
+    });
+    var n = wraps.filter(function (w) { return w.dataset.tier !== "1"; }).length;
+    btn.textContent = open ? "Fewer filters" : "More filters (" + n + ")";
+    btn.setAttribute("aria-expanded", String(open));
+  }
+  btn.addEventListener("click", function () { open = !open; paint(); });
+  host.appendChild(btn);
+
+  // If a hidden filter is already set (from a saved view or a shared URL),
+  // reveal the group rather than silently applying an invisible constraint.
+  var preset = wraps.some(function (w) {
+    if (w.dataset.tier === "1") return false;
+    var s = w.querySelector("select");
+    return s && s.value;
+  });
+  open = preset;
+  paint();
+})();
+
+// ---- Country granularity --------------------------------------------------
+// 35 countries as one alphabetical list means scrolling past Argentina to
+// reach the United States. Grouping into regions gives the control a shape
+// that matches how anyone actually thinks about this dataset ("who is doing
+// this in Europe?"). Pure presentation: option values are untouched, so the
+// filtering logic and any saved views keep working.
+(function () {
+  var REGION = {
+    "North America": ["United States", "Canada", "Mexico"],
+    "Latin America": ["Argentina", "Brazil", "Chile", "Peru", "Uruguay", "Colombia", "Ecuador"],
+    "United Kingdom & Ireland": ["United Kingdom", "Ireland", "Scotland"],
+    "Western Europe": ["Germany", "France", "Netherlands", "Belgium", "Austria",
+                       "Switzerland", "Luxembourg"],
+    "Southern Europe": ["Spain", "Italy", "Portugal", "Greece"],
+    "Nordics": ["Sweden", "Denmark", "Norway", "Finland", "Iceland"],
+    "Central & Eastern Europe": ["Poland", "Czechia", "Czech Republic", "Hungary",
+                                  "Romania", "Ukraine", "Slovenia", "Croatia", "Estonia"],
+    "Asia Pacific": ["India", "China", "Japan", "Singapore", "South Korea", "Taiwan",
+                      "Hong Kong", "Thailand", "Malaysia", "Vietnam", "Indonesia",
+                      "Philippines", "Sri Lanka"],
+    "Australia & New Zealand": ["Australia", "New Zealand"],
+    "Middle East & Africa": ["Israel", "United Arab Emirates", "Turkey",
+                              "South Africa", "Kenya", "Nigeria", "Egypt"]
+  };
+  var LOOKUP = {};
+  Object.keys(REGION).forEach(function (r) {
+    REGION[r].forEach(function (c) { LOOKUP[c.toLowerCase()] = r; });
+  });
+
+  function group(sel) {
+    if (!sel || sel.dataset.grouped === "1") return;
+    var opts = [...sel.options];
+    if (opts.length < 8) return;
+    var head = opts[0];                       // the "All countries" entry
+    var buckets = {}, other = [];
+    opts.slice(1).forEach(function (o) {
+      var r = LOOKUP[(o.textContent || "").trim().toLowerCase().replace(/\s*\(\d+\)$/, "")];
+      if (r) { (buckets[r] = buckets[r] || []).push(o); } else { other.push(o); }
+    });
+    // Nothing recognised means the label format changed; leave it alone rather
+    // than shuffling the list into a worse order.
+    if (!Object.keys(buckets).length) return;
+    var frag = document.createDocumentFragment();
+    frag.appendChild(head);
+    Object.keys(REGION).forEach(function (r) {
+      if (!buckets[r]) return;
+      var g = document.createElement("optgroup");
+      g.label = r;
+      buckets[r].forEach(function (o) { g.appendChild(o); });
+      frag.appendChild(g);
+    });
+    if (other.length) {
+      var g2 = document.createElement("optgroup");
+      g2.label = "Other";
+      other.forEach(function (o) { g2.appendChild(o); });
+      frag.appendChild(g2);
+    }
+    var keep = sel.value;
+    sel.innerHTML = "";
+    sel.appendChild(frag);
+    sel.value = keep;
+    sel.dataset.grouped = "1";
+  }
+
+  ["f-country", "fp-country", "fj-country"].forEach(function (id) {
+    var sel = document.getElementById(id);
+    if (!sel) return;
+    group(sel);
+    // app.js repopulates these when the dataset loads, which wipes the groups.
+    new MutationObserver(function () {
+      if (sel.dataset.grouped !== "1") group(sel);
+    }).observe(sel, { childList: true });
+  });
+})();
