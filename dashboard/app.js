@@ -3,7 +3,7 @@ import {
   isStarred, markSeen, mountPalette, recentlyOpened, saveView, savedViews, seenAt,
   seenCount, seenCounts,
   seenState, starCount, toggleStar,
-} from "./ux.js?v=1baa4ae99b";
+} from "./ux.js?v=97371fa4ad";
 
 // Beverage-AI Radar dashboard. Reads data.json (exported by `radar export`),
 // renders breakdown bars + a filterable company grid. Vanilla, no deps.
@@ -459,6 +459,24 @@ function companyDetail(c) {
   const sources = (c.source_urls || []).map(safeUrl).filter(Boolean)
     .map((u, i) => `<li>${link(u, `Source ${i + 1}: ${u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 48)}`)}</li>`).join("");
   const fund = [c.funding_stage, c.total_raised].filter(Boolean).join(" · ");
+  // Tracked individuals who name this company as their affiliation. These are
+  // first-class entries in their own right (company_type "individual"), so
+  // before the affiliation edge existed the two lists could never see each
+  // other: Erin Schmidt sat in the roster while the Molson Coors page showed
+  // nothing. Former roles are labelled, never rendered as present tense.
+  const tracked = (typeof ALL !== "undefined" ? ALL : [])
+    .filter((x) => x.company_type === "individual"
+                && x.affiliated_company === c.name
+                && x.name !== c.name);
+  const trackedHtml = tracked.length
+    ? `<h2>Tracked people here</h2><ul class="detail__list">` + tracked.map((x) => {
+        const li = safeUrl(x.linkedin_url) ? link(x.linkedin_url, x.name) : esc(x.name);
+        const role = (x.people && x.people[0] && x.people[0].role) || "";
+        const past = x.affiliated_company_current === false
+          ? ` <span class="muted">(former)</span>` : "";
+        return `<li>${li}${role ? ` <span class="muted">(${esc(role)})</span>` : ""}${past}</li>`;
+      }).join("") + `</ul>`
+    : "";
   return `<article class="detail">
     <div class="detail__head">
       ${logoHtml(c)}
@@ -488,6 +506,7 @@ function companyDetail(c) {
       ${row("Last seen", esc(c.last_seen))}
     </dl>
     ${people ? `<h2>People</h2><ul class="detail__list">${people}</ul>` : ""}
+    ${trackedHtml}
     ${sources ? `<h2>Sources &amp; evidence</h2><ul class="detail__list">${sources}</ul>` : ""}
   </article>`;
 }

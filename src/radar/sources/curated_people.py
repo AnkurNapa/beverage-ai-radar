@@ -73,6 +73,8 @@ class CuratedPeopleSource:
                     linkedin_url=r.get("linkedin"),
                     first_seen=_parse_date(r.get("first_seen")) or last_seen,
                     last_seen=last_seen,
+                    affiliated_company=r.get("company"),
+                    affiliated_company_current=r.get("company_is_current"),
                 )
             )
         return out

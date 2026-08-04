@@ -84,6 +84,13 @@ class Company:
     # sweep can be identified and undone instead of quietly contaminating the set.
     discovered_by: str | None = None
     verified: bool | None = None
+    # Affiliation edge for company_type="individual" rows. Without this the
+    # people roster and the company list were two disconnected tables: a
+    # tracked person could name their employer and the employer's page would
+    # never know. current=False means the link is historical (a former role),
+    # which must never render as present-tense employment.
+    affiliated_company: str | None = None
+    affiliated_company_current: bool | None = None
 
     @property
     def key(self) -> str:

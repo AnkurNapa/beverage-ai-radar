@@ -36,6 +36,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "tastry.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -87,6 +89,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "gastrograph.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -140,6 +144,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "preferabli.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -196,6 +202,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "deepliquid.ai",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -246,6 +254,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "enolytics.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -296,6 +306,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "tule-technologies::unknown",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -352,6 +364,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "deepplanet.ai",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -398,6 +412,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "watgrid.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -448,6 +464,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vinovoss.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -488,6 +506,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "craftederp.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -539,6 +559,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "aromyx.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -595,6 +617,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "bartrack::unknown",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -647,6 +671,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "precisionfermentation.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -693,6 +719,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "beerboard.com",
     "theme": "Demand & pricing",
     "capabilities": [],
@@ -736,6 +764,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "ceres.ai",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -775,6 +805,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "sommify::finland",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -814,6 +846,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "sommelier.bot",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -860,6 +894,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "ab-inbev.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -905,6 +941,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "kirinholdings.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -949,6 +987,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "sapporoholdings.jp",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -993,6 +1033,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "theheinekencompany.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -1037,6 +1079,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "molsoncoors.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -1091,6 +1135,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "plaato.ai",
     "theme": "Process & operations",
     "capabilities": [
@@ -1146,6 +1192,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "zymoscope.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -1191,6 +1239,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "propagatelab.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -1240,6 +1290,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vividmachines.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -1289,6 +1341,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vineview.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -1344,6 +1398,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vineforecast.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -1393,6 +1449,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "bloomfield.ai",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -1442,6 +1500,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "agrology.ag",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -1491,6 +1551,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "naio-technologies.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -1540,6 +1602,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "firstleaf.com",
     "theme": "Consumer & personalization",
     "capabilities": [],
@@ -1587,6 +1651,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "drinks.com",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -1632,6 +1698,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "outshinery.com",
     "theme": "GenAI & marketing",
     "capabilities": [
@@ -1692,6 +1760,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "nextcenturyspirits.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -1739,6 +1809,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "whiskyproject.ai",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -1779,6 +1851,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "kigtek.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -1819,6 +1893,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "whiskey-wise-group::united-kingdom",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -1864,6 +1940,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "overproof.com",
     "theme": "GenAI & marketing",
     "capabilities": [
@@ -1913,6 +1991,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "winespace.fr",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -1952,6 +2032,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "sante::united-states",
     "theme": "Supply chain",
     "capabilities": [
@@ -1990,6 +2072,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "scotch::united-states",
     "theme": "Supply chain",
     "capabilities": [
@@ -2039,6 +2123,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "unicornauctions.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -2083,6 +2169,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "tastewise.io",
     "theme": "GenAI & marketing",
     "capabilities": [
@@ -2128,6 +2216,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "the5thingredient.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -2172,6 +2262,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "flavorwiki.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -2227,6 +2319,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "pluto7.com",
     "theme": "Consulting",
     "capabilities": [
@@ -2265,6 +2359,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "ohanafy.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -2302,6 +2398,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "enavate.com",
     "theme": "Consulting",
     "capabilities": [
@@ -2341,6 +2439,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "overview.ai",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -2378,6 +2478,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "infinitysky.ai",
     "theme": "Consulting",
     "capabilities": [
@@ -2417,6 +2519,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "algorithm-factory.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -2454,6 +2558,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "virtualworkforce.ai",
     "theme": "Supply chain",
     "capabilities": [
@@ -2492,6 +2598,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "haberwater.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -2529,6 +2637,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "routemagic.app",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -2566,6 +2676,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "drams-software.com",
     "theme": "Supply chain",
     "capabilities": [
@@ -2603,6 +2715,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "gmware.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -2640,6 +2754,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "aromalyticsai.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -2678,6 +2794,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "flavoractiv.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -2715,6 +2833,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "alpha-mos.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -2753,6 +2873,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "cypheme.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -2790,6 +2912,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "authenticvision.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -2828,6 +2952,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "wineluthier.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -2866,6 +2992,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "veraison.io",
     "theme": "Consulting",
     "capabilities": [
@@ -2904,6 +3032,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "brewing-ai.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -2942,6 +3072,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "theiwsr.com",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -2981,6 +3113,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "sagarobotics.com",
     "theme": "Agriculture & crop",
     "capabilities": [],
@@ -3017,6 +3151,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "indeex.ai",
     "theme": "Process & operations",
     "capabilities": [
@@ -3056,6 +3192,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "quantis.ai",
     "theme": "Process & operations",
     "capabilities": [
@@ -3095,6 +3233,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "pubinno.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -3133,6 +3273,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "ommm.ai",
     "theme": "Supply chain",
     "capabilities": [
@@ -3172,6 +3314,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "runlaminar.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -3211,6 +3355,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "antaresvisiongroup.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -3251,6 +3397,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "zaptic.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -3289,6 +3437,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "flowsight.de",
     "theme": "Process & operations",
     "capabilities": [
@@ -3327,6 +3477,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "beon.net",
     "theme": "Consulting",
     "capabilities": [
@@ -3366,6 +3518,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "smartskintech.com",
     "theme": "Supply chain",
     "capabilities": [
@@ -3404,6 +3558,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "parsable.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -3443,6 +3599,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "factbird.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -3482,6 +3640,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "futurmaster.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -3526,6 +3686,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "baranalytics.co.uk",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -3565,6 +3727,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "allie-ai.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -3604,6 +3768,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "empowergpt.ai",
     "theme": "Process & operations",
     "capabilities": [
@@ -3642,6 +3808,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "seedalive.de",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -3680,6 +3848,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "smartdrs.com",
     "theme": "Supply chain",
     "capabilities": [
@@ -3724,6 +3894,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "bira91.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -3769,6 +3941,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "unitedbreweries.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -3810,6 +3984,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "carlsbergindia.in",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -3855,6 +4031,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "iwort.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -3895,6 +4073,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "reflowtech.in",
     "theme": "Process & operations",
     "capabilities": [
@@ -3942,6 +4122,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": "iWort",
+    "affiliated_company_current": "True",
     "key": "ankur-napa::india",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -3994,6 +4176,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "intelligentx::united-kingdom",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -4043,6 +4227,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "mackmyra.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -4093,6 +4279,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "bespokenspirits.com",
     "theme": "Sensory & recipe",
     "capabilities": [],
@@ -4145,6 +4333,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "brightcellars.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -4196,6 +4386,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vivino.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -4241,6 +4433,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "carlsberggroup.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -4291,6 +4485,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "deschutesbrewery.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -4330,6 +4526,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "scanopy::france",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -4380,6 +4578,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "circumstancedistillery.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -4424,6 +4624,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": "Brewers Association (Barley assistant)",
+    "affiliated_company_current": "True",
     "key": "bart-watson::usa",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -4468,6 +4670,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": "Molson Coors (Atwater Brewery)",
+    "affiliated_company_current": "True",
     "key": "erin-schmidt::usa",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -4512,6 +4716,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": "Anheuser-Busch InBev",
+    "affiliated_company_current": "False",
     "key": "willy-lin::usa",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -4556,6 +4762,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "amanda-dobbyn::usa",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -4600,6 +4808,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": "Enolytics",
+    "affiliated_company_current": "True",
     "key": "cathy-huyghe::usa",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -4644,6 +4854,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "lulie-halstead::united-kingdom",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -4688,6 +4900,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": "WineBusiness Analytics",
+    "affiliated_company_current": "True",
     "key": "alan-talbot::usa",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -4732,6 +4946,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "sol-ne-bergaire::france",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -4775,6 +4991,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "tom-kornegay::usa",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -4818,6 +5036,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "duan-peng::usa",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -4858,6 +5078,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "firstkey.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -4898,6 +5120,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "arryved.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -4936,6 +5160,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "goekos.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -4976,6 +5202,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "montblanc.ai",
     "theme": "Process & operations",
     "capabilities": [
@@ -5013,6 +5241,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "symrise.com",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -5050,6 +5280,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "solera.vin",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -5087,6 +5319,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "alcoholcompco.com",
     "theme": "Compliance & licensing",
     "capabilities": [
@@ -5125,6 +5359,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "wizata.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -5163,6 +5399,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "lineview.com",
     "theme": "Process & operations",
     "capabilities": [],
@@ -5198,6 +5436,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "tryharmony.ai",
     "theme": "Supply chain",
     "capabilities": [],
@@ -5234,6 +5474,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "aveva.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -5274,6 +5516,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "krones.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -5312,6 +5556,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "rockwellautomation.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -5352,6 +5598,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "siemens.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -5391,6 +5639,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "accounttouch.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -5430,6 +5680,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "andavisolutions.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -5469,6 +5721,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "dimins.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -5509,6 +5763,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "getdolia.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -5547,6 +5803,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "prefe::unknown",
     "theme": "Demand & pricing",
     "capabilities": [],
@@ -5583,6 +5841,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "innovint.us",
     "theme": "Process & operations",
     "capabilities": [
@@ -5623,6 +5883,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vicinitysoftware.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -5663,6 +5925,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "capvision.fr",
     "theme": "Process & operations",
     "capabilities": [
@@ -5702,6 +5966,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "eos-solutions.it",
     "theme": "Process & operations",
     "capabilities": [
@@ -5741,6 +6007,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "klhconsulting.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -5782,6 +6050,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "aptean.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -5823,6 +6093,8 @@
     "why_interesting": null,
     "discovered_by": "scout:google",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "encompasstech.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -5864,6 +6136,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "quantiphi.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -5903,6 +6177,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vinsight.net",
     "theme": "Process & operations",
     "capabilities": [
@@ -5943,6 +6219,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "liquorchat.ai",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -5983,6 +6261,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "prosperinsights.com",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -6022,6 +6302,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "altfndata.com",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -6060,6 +6342,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "likefolio.com",
     "theme": "Consumer & personalization",
     "capabilities": [],
@@ -6096,6 +6380,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "selartag.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -6135,6 +6421,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "beersoft.ca",
     "theme": "Process & operations",
     "capabilities": [
@@ -6173,6 +6461,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vision33.com",
     "theme": "Other",
     "capabilities": [
@@ -6221,6 +6511,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "complexica.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -6265,6 +6557,8 @@
     "why_interesting": null,
     "discovered_by": "scout:google",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "commerce7.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -6312,6 +6606,8 @@
     "why_interesting": null,
     "discovered_by": "scout:google",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "libdib.com",
     "theme": "GenAI & marketing",
     "capabilities": [
@@ -6356,6 +6652,8 @@
     "why_interesting": null,
     "discovered_by": "scout:google",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "cbrands.com",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -6396,6 +6694,8 @@
     "why_interesting": null,
     "discovered_by": "scout:google",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "lionbeer.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -6436,6 +6736,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "gea.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -6476,6 +6778,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "augury.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -6515,6 +6819,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "ziemann-holvrieka.com",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -6554,6 +6860,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "endress.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -6593,6 +6901,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "emerson.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -6633,6 +6943,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "sidel.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -6672,6 +6984,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "symphonyai.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -6710,6 +7024,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "evocon.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -6749,6 +7065,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "teeptrak.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -6789,6 +7107,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "rarewhisky101.com",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -6827,6 +7147,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "whiskyinvestdirect.com",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -6865,6 +7187,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "sipsource.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -6903,6 +7227,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "aipalette.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -6941,6 +7267,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "endlesswest.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -6979,6 +7307,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "fx5.com",
     "theme": "Compliance & licensing",
     "capabilities": [
@@ -7019,6 +7349,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "spiritsight.co",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -7059,6 +7391,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "caskx.com",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -7097,6 +7431,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "whiskycircle.app",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -7135,6 +7471,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "iesve.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -7175,6 +7513,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "ai4whisky.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -7231,6 +7571,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "cropsy.tech",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -7270,6 +7612,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "chouette.vision",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -7317,6 +7661,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "fruitionsciences.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -7369,6 +7715,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "plantvoice.farm",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -7408,6 +7756,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vinhood.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -7447,6 +7797,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "elaisian.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -7485,6 +7837,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "agricolus.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -7529,6 +7883,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "bitmetrics.ai",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -7569,6 +7925,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "wine-services.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -7608,6 +7966,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "terraclim.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -7647,6 +8007,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vipinsights.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -7695,6 +8057,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "provi.com",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -7733,6 +8097,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "liquidrails.ai",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -7772,6 +8138,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "accelpay.io",
     "theme": "GenAI & marketing",
     "capabilities": [
@@ -7810,6 +8178,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "wisk.ai",
     "theme": "Process & operations",
     "capabilities": [
@@ -7848,6 +8218,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vistaar.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -7887,6 +8259,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "nextglass.co",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -7931,6 +8305,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "pourmybeer.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -7971,6 +8347,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "brewersassociation.org",
     "theme": "Compliance & licensing",
     "capabilities": [
@@ -8009,6 +8387,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "getgen.ai",
     "theme": "GenAI & marketing",
     "capabilities": [
@@ -8047,6 +8427,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "sovos.com",
     "theme": "Compliance & licensing",
     "capabilities": [
@@ -8100,6 +8482,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vinicolacasatertulia.com.br",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -8144,6 +8528,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "libr.be",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -8184,6 +8570,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "brewplanner.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -8239,6 +8627,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "form.com",
     "theme": "Other",
     "capabilities": [
@@ -8282,6 +8672,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "tipple.co",
     "theme": "Compliance & licensing",
     "capabilities": [
@@ -8321,6 +8713,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "gov2biz.com",
     "theme": "Compliance & licensing",
     "capabilities": [
@@ -8369,6 +8763,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "beerhive.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -8422,6 +8818,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "baron.bar",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -8460,6 +8858,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "leafio.ai",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -8498,6 +8898,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "simplydepo.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -8537,6 +8939,8 @@
     "why_interesting": null,
     "discovered_by": "scout:google",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "parkstreet.com",
     "theme": "Compliance & licensing",
     "capabilities": [
@@ -8577,6 +8981,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "isystems.ai",
     "theme": "Process & operations",
     "capabilities": [
@@ -8615,6 +9021,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "khs.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -8653,6 +9061,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "sepasoft.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -8693,6 +9103,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "pentair.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -8734,6 +9146,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "buhlergroup.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -8774,6 +9188,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "oztera.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -8814,6 +9230,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "unifydots.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -8854,6 +9272,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "madic-dynamics.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -8894,6 +9314,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "diageo.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -8933,6 +9355,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "suntoryglobalspirits.com",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -8972,6 +9396,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "proof-8.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -9011,6 +9437,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "cannycask.io",
     "theme": "Other",
     "capabilities": [
@@ -9049,6 +9477,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "caskcapital.io",
     "theme": "Other",
     "capabilities": [
@@ -9088,6 +9518,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "eluceda.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -9128,6 +9560,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "barrelclarity.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -9167,6 +9601,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "reactory.tech",
     "theme": "Other",
     "capabilities": [
@@ -9206,6 +9642,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "etoh.dk",
     "theme": "Other",
     "capabilities": [
@@ -9258,6 +9696,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "terraview.gmbh",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -9303,6 +9743,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "integrape.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -9352,6 +9794,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vinacyt.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -9391,6 +9835,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vinventions.com",
     "theme": "Other",
     "capabilities": [
@@ -9430,6 +9876,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "directfromitaly.it",
     "theme": "Compliance & licensing",
     "capabilities": [
@@ -9469,6 +9917,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vinotec.net",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -9509,6 +9959,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "itk.fr",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -9547,6 +9999,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vitibot.fr",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -9585,6 +10039,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "kegshoe.ca",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -9624,6 +10080,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "kaspar-schulz.de",
     "theme": "Process & operations",
     "capabilities": [
@@ -9662,6 +10120,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "anton-paar.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -9701,6 +10161,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "meura.com",
     "theme": "Other",
     "capabilities": [
@@ -9739,6 +10201,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "worter.tech",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -9778,6 +10242,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "praj.net",
     "theme": "Process & operations",
     "capabilities": [
@@ -9816,6 +10282,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "proleit.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -9862,6 +10330,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "konvoykegs.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -9907,6 +10377,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "binarybeer.io",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -9953,6 +10425,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "microstarlogistics.com",
     "theme": "Supply chain",
     "capabilities": [
@@ -9991,6 +10465,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "kegchek.com",
     "theme": "Other",
     "capabilities": [
@@ -10030,6 +10506,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "kegtron.com",
     "theme": "Other",
     "capabilities": [
@@ -10070,6 +10548,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "kegspeed.com",
     "theme": "Other",
     "capabilities": [
@@ -10110,6 +10590,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "kegid.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -10150,6 +10632,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "trackabout.com",
     "theme": "Other",
     "capabilities": [
@@ -10189,6 +10673,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "eprovenance.com",
     "theme": "Other",
     "capabilities": [
@@ -10228,6 +10714,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "hillebrandgori.com",
     "theme": "Supply chain",
     "capabilities": [
@@ -10267,6 +10755,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "cellr.co",
     "theme": "Other",
     "capabilities": [
@@ -10306,6 +10796,8 @@
     "why_interesting": null,
     "discovered_by": "scout:esg",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "waterplan.com",
     "theme": "Other",
     "capabilities": [
@@ -10346,6 +10838,8 @@
     "why_interesting": null,
     "discovered_by": "scout:esg",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "zevero.earth",
     "theme": "Other",
     "capabilities": [
@@ -10387,6 +10881,8 @@
     "why_interesting": null,
     "discovered_by": "scout:esg",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "climatehound.io",
     "theme": "Other",
     "capabilities": [
@@ -10428,6 +10924,8 @@
     "why_interesting": null,
     "discovered_by": "scout:esg",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "cambrianinnovation.com",
     "theme": "Other",
     "capabilities": [
@@ -10469,6 +10967,8 @@
     "why_interesting": null,
     "discovered_by": "scout:esg",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "aquacycl.com",
     "theme": "Other",
     "capabilities": [
@@ -10509,6 +11009,8 @@
     "why_interesting": null,
     "discovered_by": "scout:esg",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "zerocarbonforum.com",
     "theme": "Other",
     "capabilities": [
@@ -10548,6 +11050,8 @@
     "why_interesting": null,
     "discovered_by": "scout:esg",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "provenatewhisky.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -10602,6 +11106,8 @@
     "why_interesting": null,
     "discovered_by": "scout:engineering",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "niras.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -10643,6 +11149,8 @@
     "why_interesting": null,
     "discovered_by": "scout:engineering",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "briggsofburton.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -10682,6 +11190,8 @@
     "why_interesting": null,
     "discovered_by": "scout:engineering",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "seeq.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -10722,6 +11232,8 @@
     "why_interesting": null,
     "discovered_by": "scout:engineering",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "trendminer.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -10762,6 +11274,8 @@
     "why_interesting": null,
     "discovered_by": "scout:engineering",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "dennisgroup.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -10800,6 +11314,8 @@
     "why_interesting": null,
     "discovered_by": "scout:engineering",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "alfalaval.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -10840,6 +11356,8 @@
     "why_interesting": null,
     "discovered_by": "scout:equipment",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "pellenc.com",
     "theme": "Other",
     "capabilities": [
@@ -10879,6 +11397,8 @@
     "why_interesting": null,
     "discovered_by": "scout:equipment",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "braukon.de",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -10917,6 +11437,8 @@
     "why_interesting": null,
     "discovered_by": "scout:equipment",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "orise.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -10955,6 +11477,8 @@
     "why_interesting": null,
     "discovered_by": "scout:equipment",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "parsecsrl.net",
     "theme": "Process & operations",
     "capabilities": [
@@ -10993,6 +11517,8 @@
     "why_interesting": null,
     "discovered_by": "scout:equipment",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vinwizard.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -11032,6 +11558,8 @@
     "why_interesting": null,
     "discovered_by": "scout:equipment",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "carl.info",
     "theme": "Process & operations",
     "capabilities": [
@@ -11071,6 +11599,8 @@
     "why_interesting": null,
     "discovered_by": "scout:equipment",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "abeequipment.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -11109,6 +11639,8 @@
     "why_interesting": null,
     "discovered_by": "scout:ingredients",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "zoomagri.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -11148,6 +11680,8 @@
     "why_interesting": null,
     "discovered_by": "scout:ingredients",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "fermentis.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -11187,6 +11721,8 @@
     "why_interesting": null,
     "discovered_by": "scout:ingredients",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "berkeleyyeast.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -11225,6 +11761,8 @@
     "why_interesting": null,
     "discovered_by": "scout:ingredients",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "renaissancebioscience.com",
     "theme": "Other",
     "capabilities": [
@@ -11264,6 +11802,8 @@
     "why_interesting": null,
     "discovered_by": "scout:ingredients",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "hopsteiner.de",
     "theme": "Other",
     "capabilities": [
@@ -11302,6 +11842,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "premiersystems.com",
     "theme": "Other",
     "capabilities": [
@@ -11341,6 +11883,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "bevica.com",
     "theme": "Other",
     "capabilities": [
@@ -11382,6 +11926,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "wherefour.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -11421,6 +11967,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "process2wine.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -11475,6 +12023,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vinsuite.com",
     "theme": "Other",
     "capabilities": [
@@ -11514,6 +12064,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "orionwinesoftware.com",
     "theme": "Other",
     "capabilities": [
@@ -11555,6 +12107,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vinnow.com",
     "theme": "Other",
     "capabilities": [
@@ -11595,6 +12149,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "brewersdashboard.com",
     "theme": "Other",
     "capabilities": [
@@ -11635,6 +12191,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "breww.com",
     "theme": "Other",
     "capabilities": [
@@ -11675,6 +12233,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "peritossolutions.com",
     "theme": "Other",
     "capabilities": [
@@ -11720,6 +12280,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "agrosense.io",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -11760,6 +12322,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "lastcallanalytics.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -11799,6 +12363,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "bumpwilliamsconsulting.com",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -11839,6 +12405,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "anaiawines.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -11880,6 +12448,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "gristanalytics.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -11930,6 +12500,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "anyroad.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -11970,6 +12542,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "brewninja.net",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -12010,6 +12584,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "getgraine.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -12050,6 +12626,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "beverageproai.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -12090,6 +12668,8 @@
     "why_interesting": null,
     "discovered_by": "scout:engineering",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "gray.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -12130,6 +12710,8 @@
     "why_interesting": null,
     "discovered_by": "scout:engineering",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "haskell.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -12171,6 +12753,8 @@
     "why_interesting": null,
     "discovered_by": "scout:engineering",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "inductiveautomation.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -12210,6 +12794,8 @@
     "why_interesting": null,
     "discovered_by": "scout:engineering",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "grantek.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -12257,6 +12843,8 @@
     "why_interesting": null,
     "discovered_by": "scout:engineering",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "copadata.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -12299,6 +12887,8 @@
     "why_interesting": null,
     "discovered_by": "scout:engineering",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "factry.io",
     "theme": "Process & operations",
     "capabilities": [
@@ -12340,6 +12930,8 @@
     "why_interesting": null,
     "discovered_by": "scout:equipment",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "buchervaslin.com",
     "theme": "Other",
     "capabilities": [
@@ -12379,6 +12971,8 @@
     "why_interesting": null,
     "discovered_by": "scout:equipment",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "a-holstein.de",
     "theme": "Other",
     "capabilities": [
@@ -12419,6 +13013,8 @@
     "why_interesting": null,
     "discovered_by": "scout:equipment",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "dme1923.com",
     "theme": "Other",
     "capabilities": [
@@ -12458,6 +13054,8 @@
     "why_interesting": null,
     "discovered_by": "scout:equipment",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "cft-group.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -12505,6 +13103,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vapour.scot",
     "theme": "Other",
     "capabilities": [
@@ -12545,6 +13145,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "master-distiller.com",
     "theme": "Other",
     "capabilities": [
@@ -12585,6 +13187,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "casesa.com.ar",
     "theme": "Other",
     "capabilities": [
@@ -12625,6 +13229,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "agaraminfotech.com",
     "theme": "Other",
     "capabilities": [
@@ -12665,6 +13271,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vinesos.com",
     "theme": "Other",
     "capabilities": [
@@ -12705,6 +13313,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "beerrun.com",
     "theme": "Other",
     "capabilities": [
@@ -12744,6 +13354,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "batchmaster.com",
     "theme": "Other",
     "capabilities": [
@@ -12783,6 +13395,8 @@
     "why_interesting": null,
     "discovered_by": "scout:esg",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "earthlylabs.com",
     "theme": "Other",
     "capabilities": [
@@ -12837,6 +13451,8 @@
     "why_interesting": null,
     "discovered_by": "scout:esg",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "ecospirits.global",
     "theme": "Process & operations",
     "capabilities": [
@@ -12878,6 +13494,8 @@
     "why_interesting": null,
     "discovered_by": "scout:esg",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "napagreen.org",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -12923,6 +13541,8 @@
     "why_interesting": null,
     "discovered_by": "scout:google",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "deepskyvineyard.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -12968,6 +13588,8 @@
     "why_interesting": null,
     "discovered_by": "scout:google",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "enartis.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -13012,6 +13634,8 @@
     "why_interesting": null,
     "discovered_by": "scout:google",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "spiritsconsulting.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -13052,6 +13676,8 @@
     "why_interesting": null,
     "discovered_by": "scout:google",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "nextgenwinemarketing.com",
     "theme": "Other",
     "capabilities": [
@@ -13092,6 +13718,8 @@
     "why_interesting": null,
     "discovered_by": "scout:ibm",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "ibm.com",
     "theme": "Supply chain",
     "capabilities": [
@@ -13132,6 +13760,8 @@
     "why_interesting": null,
     "discovered_by": "scout:ibm",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "integrainnovation.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -13174,6 +13804,8 @@
     "why_interesting": null,
     "discovered_by": "scout:ibm",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "cepa21.com",
     "theme": "Other",
     "capabilities": [
@@ -13215,6 +13847,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "heuft.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -13268,6 +13902,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "whiskeyhouse.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -13309,6 +13945,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "optek.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -13349,6 +13987,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "corsosystems.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -13396,6 +14036,8 @@
     "why_interesting": null,
     "discovered_by": "scout:industrial",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "flexwareinnovation.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -13439,6 +14081,8 @@
     "why_interesting": null,
     "discovered_by": "scout:ingredients",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "souffletmalt.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -13479,6 +14123,8 @@
     "why_interesting": null,
     "discovered_by": "scout:ingredients",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "lesaffre.com",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -13520,6 +14166,8 @@
     "why_interesting": null,
     "discovered_by": "scout:ingredients",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "yakimachief.com",
     "theme": "Supply chain",
     "capabilities": [
@@ -13560,6 +14208,8 @@
     "why_interesting": null,
     "discovered_by": "scout:ingredients",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "boortmalt.com",
     "theme": "Other",
     "capabilities": [
@@ -13607,6 +14257,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "simpliroute.com",
     "theme": "Other",
     "capabilities": [
@@ -13645,6 +14297,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "wineshipping.com",
     "theme": "Other",
     "capabilities": [
@@ -13688,6 +14342,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "keglogistics.com",
     "theme": "Supply chain",
     "capabilities": [
@@ -13727,6 +14383,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "caskpilot.com",
     "theme": "Supply chain",
     "capabilities": [
@@ -13767,6 +14425,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "logilabai.com",
     "theme": "Other",
     "capabilities": [
@@ -13806,6 +14466,8 @@
     "why_interesting": null,
     "discovered_by": "scout:marketdata",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "nielseniq.com",
     "theme": "GenAI & marketing",
     "capabilities": [
@@ -13851,6 +14513,8 @@
     "why_interesting": null,
     "discovered_by": "scout:marketdata",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "circana.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -13891,6 +14555,8 @@
     "why_interesting": null,
     "discovered_by": "scout:marketdata",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "mintel.com",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -13930,6 +14596,8 @@
     "why_interesting": null,
     "discovered_by": "scout:marketdata",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "numerator.com",
     "theme": "Consumer & personalization",
     "capabilities": [
@@ -13975,6 +14643,8 @@
     "why_interesting": null,
     "discovered_by": "scout:marketdata",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "bw166.com",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -14015,6 +14685,8 @@
     "why_interesting": null,
     "discovered_by": "scout:marketdata",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "nabca.org",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -14054,6 +14726,8 @@
     "why_interesting": null,
     "discovered_by": "scout:marketdata",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "winebusinessanalytics.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -14094,6 +14768,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "westerncomputer.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -14134,6 +14810,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "velosio.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -14174,6 +14852,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "inecta.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -14213,6 +14893,8 @@
     "why_interesting": null,
     "discovered_by": "scout:oracle",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "anchorgroup.tech",
     "theme": "Process & operations",
     "capabilities": [
@@ -14253,6 +14935,8 @@
     "why_interesting": null,
     "discovered_by": "scout:oracle",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "beyondcloudconsulting.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -14293,6 +14977,8 @@
     "why_interesting": null,
     "discovered_by": "scout:oracle",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "foodqloud.com",
     "theme": "Other",
     "capabilities": [
@@ -14338,6 +15024,8 @@
     "why_interesting": null,
     "discovered_by": "scout:salesforce",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "repsly.com",
     "theme": "Other",
     "capabilities": [
@@ -14377,6 +15065,8 @@
     "why_interesting": null,
     "discovered_by": "scout:salesforce",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "paralleldots.com",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -14416,6 +15106,8 @@
     "why_interesting": null,
     "discovered_by": "scout:salesforce",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "customertimes.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -14455,6 +15147,8 @@
     "why_interesting": null,
     "discovered_by": "scout:salesforce",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "salesforce.com",
     "theme": "Other",
     "capabilities": [
@@ -14500,6 +15194,8 @@
     "why_interesting": null,
     "discovered_by": "scout:salesforce",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "mirketa.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -14540,6 +15236,8 @@
     "why_interesting": null,
     "discovered_by": "scout:salesforce",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "6st.co",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -14578,6 +15276,8 @@
     "why_interesting": null,
     "discovered_by": "scout:salesforce",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "omnivodigital.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -14617,6 +15317,8 @@
     "why_interesting": null,
     "discovered_by": "scout:sap",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "gqs.ag",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -14657,6 +15359,8 @@
     "why_interesting": null,
     "discovered_by": "scout:sap",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "saptools.es",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -14696,6 +15400,8 @@
     "why_interesting": null,
     "discovered_by": "scout:sap",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "savantis.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -14736,6 +15442,8 @@
     "why_interesting": null,
     "discovered_by": "scout:sap",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "clockwork.in",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -14777,6 +15485,8 @@
     "why_interesting": null,
     "discovered_by": "scout:sap",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "visualkgroup.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -14821,6 +15531,8 @@
     "why_interesting": null,
     "discovered_by": "scout:tableau",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "coopers.com.au",
     "theme": "Supply chain",
     "capabilities": [
@@ -14861,6 +15573,8 @@
     "why_interesting": null,
     "discovered_by": "scout:tableau",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "fintech.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -14900,6 +15614,8 @@
     "why_interesting": null,
     "discovered_by": "scout:tableau",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "analyticsmart.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -14940,6 +15656,8 @@
     "why_interesting": null,
     "discovered_by": "scout:tableau",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "tekreset.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -14981,6 +15699,8 @@
     "why_interesting": null,
     "discovered_by": "scout:tableau",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "beyondvino.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -15020,6 +15740,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "ifactoryapp.com",
     "theme": "Process & operations",
     "capabilities": [
@@ -15060,6 +15782,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "dbfex.com",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -15098,6 +15822,8 @@
     "why_interesting": null,
     "discovered_by": "scout:whiskey",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "caskd.app",
     "theme": "Market data & valuation",
     "capabilities": [
@@ -15137,6 +15863,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "atolcd.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -15176,6 +15904,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vitisoft.fr",
     "theme": "Process & operations",
     "capabilities": [
@@ -15215,6 +15945,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vintelligence.dev",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -15253,6 +15985,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "yamaha-agriculture.com",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -15293,6 +16027,8 @@
     "why_interesting": null,
     "discovered_by": "scout:beer",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "ferment-iq.com",
     "theme": "Demand & pricing",
     "capabilities": [
@@ -15332,6 +16068,8 @@
     "why_interesting": null,
     "discovered_by": "scout:equipment",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "istill.com",
     "theme": "GenAI & marketing",
     "capabilities": [
@@ -15371,6 +16109,8 @@
     "why_interesting": null,
     "discovered_by": "scout:esg",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "iwcawine.org",
     "theme": "Supply chain",
     "capabilities": [
@@ -15416,6 +16156,8 @@
     "why_interesting": null,
     "discovered_by": "curated",
     "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "baranalytics.co.uk",
     "theme": "Quality & inspection",
     "capabilities": [
@@ -15468,6 +16210,8 @@
     "why_interesting": null,
     "discovered_by": "scout:aws",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "vinicolacasatertulia.com.br",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -15507,6 +16251,8 @@
     "why_interesting": null,
     "discovered_by": "scout:erp",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "casesa.com.ar",
     "theme": "Other",
     "capabilities": [
@@ -15550,6 +16296,8 @@
     "why_interesting": null,
     "discovered_by": "scout:tableau",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "coopers.com.au",
     "theme": "Supply chain",
     "capabilities": [
@@ -15590,6 +16338,8 @@
     "why_interesting": null,
     "discovered_by": "scout:logistics",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "smartcontainer.co.uk",
     "theme": "Process & operations",
     "capabilities": [
@@ -15631,6 +16381,8 @@
     "why_interesting": null,
     "discovered_by": "scout:microsoft",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "node4.co.uk",
     "theme": "Other",
     "capabilities": [
@@ -15671,6 +16423,8 @@
     "why_interesting": null,
     "discovered_by": "scout:oracle",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "catalyst-erp.co.uk",
     "theme": "Other",
     "capabilities": [
@@ -15711,6 +16465,8 @@
     "why_interesting": null,
     "discovered_by": "scout:wine",
     "verified": false,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
     "key": "bioscout.com.au",
     "theme": "Agriculture & crop",
     "capabilities": [

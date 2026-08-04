@@ -266,8 +266,10 @@ export function mountPalette({ getItems, onPick }) {
 // caps what is *visible* and re-applies itself after each render via a
 // MutationObserver. Desktop is untouched: the full list is the point there.
 (function () {
-  var STEP = 24;
+  // Desktop shows three columns, so a page of 48 is the same number of rows a
+  // phone gets from 24. Measured 44 screens of scroll at 1440 before this.
   var MOBILE = window.matchMedia("(max-width: 720px)");
+  var step = function () { return MOBILE.matches ? 24 : 48; };
   var grid = document.getElementById("grid");
   if (!grid) return;
 
@@ -276,22 +278,17 @@ export function mountPalette({ getItems, onPick }) {
   btn.className = "mpager";
   grid.insertAdjacentElement("afterend", btn);
 
-  var shown = STEP;
+  var shown = step();
 
   function apply() {
     var cards = grid.children;
-    if (!MOBILE.matches) {
-      for (var i = 0; i < cards.length; i++) cards[i].style.removeProperty("display");
-      btn.classList.remove("is-on");
-      return;
-    }
     var total = cards.length;
     for (var j = 0; j < total; j++) {
       cards[j].style.display = j < shown ? "" : "none";
     }
     var left = total - shown;
     if (left > 0) {
-      btn.textContent = "Show " + Math.min(left, STEP) + " more (" + left + " left)";
+      btn.textContent = "Show " + Math.min(left, step()) + " more (" + left + " left)";
       btn.classList.add("is-on");
     } else {
       btn.classList.remove("is-on");
@@ -299,7 +296,7 @@ export function mountPalette({ getItems, onPick }) {
   }
 
   btn.addEventListener("click", function () {
-    shown += STEP;
+    shown += step();
     apply();
     // Keep the reading position: without this the button jumps up the page
     // as the list grows and the thumb lands somewhere unrelated.
@@ -312,10 +309,12 @@ export function mountPalette({ getItems, onPick }) {
   new MutationObserver(function () {
     if (pending) return;
     pending = true;
-    requestAnimationFrame(function () { pending = false; shown = STEP; apply(); });
+    requestAnimationFrame(function () { pending = false; shown = step(); apply(); });
   }).observe(grid, { childList: true });
 
-  MOBILE.addEventListener("change", apply);
+  // A resize across the breakpoint changes the page size, so reset the count
+  // rather than leaving a desktop-sized page on a phone layout.
+  MOBILE.addEventListener("change", function () { shown = step(); apply(); });
   apply();
 })();
 
@@ -447,5 +446,34 @@ export function mountPalette({ getItems, onPick }) {
     new MutationObserver(function () {
       if (sel.dataset.grouped !== "1") group(sel);
     }).observe(sel, { childList: true });
+  });
+})();
+
+// ---- Icon set -------------------------------------------------------------
+// One stroke system instead of a mix of emoji (radar dish, bust silhouette)
+// and bare text. Inline SVG rather than an icon font or a CDN package: six
+// glyphs do not justify a dependency, and inline paths inherit currentColor
+// so they theme themselves in light and dark for free. 1.5 stroke, 24-grid,
+// round caps: consistency here is mostly about picking one and holding it.
+(function () {
+  var P = {
+    companies: '<path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/>',
+    people:    '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/>',
+    research:  '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>',
+    jobs:      '<rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>',
+    prospects: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
+    about:     '<circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/>'
+  };
+  function svg(name) {
+    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" ' +
+           'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" ' +
+           'class="ico">' + P[name] + '</svg>';
+  }
+  var MAP = { Companies: "companies", People: "people", Research: "research",
+              Jobs: "jobs", Prospects: "prospects", About: "about" };
+  document.querySelectorAll(".topnav .tab").forEach(function (tab) {
+    var key = MAP[tab.dataset.short];
+    if (!key || tab.querySelector(".ico")) return;
+    tab.insertAdjacentHTML("afterbegin", svg(key));
   });
 })();

@@ -1334,3 +1334,44 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
 .filter-more:hover { color: var(--ink); border-color: var(--accent); }
 .filter-more:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 @media (pointer: coarse) { .filter-more { min-height: 44px; } }
+
+/* ---- Icons --------------------------------------------------------------- */
+.ico { width: 20px; height: 20px; flex: none; }
+/* Desktop keeps its text-only tabs; the glyphs are a mobile affordance where
+   the bar is a thumb target rather than a row of words. */
+.topnav .ico { display: none; }
+@media (max-width: 720px) {
+  .topnav .tab { flex-direction: column; gap: 2px; padding: .25rem 0; }
+  .topnav .ico { display: block; width: 22px; height: 22px; }
+  .topnav .tab::after { font-size: .62rem; letter-spacing: .02em; }
+  /* Active view is carried by colour on a filled icon, not just an underline
+     which is hard to see at the very bottom edge of a screen. */
+  .topnav .tab.is-active .ico { color: var(--accent); }
+  .topnav .tab.is-active::after { color: var(--accent); }
+}
+
+/* ---- Laptop / desktop parity -------------------------------------------- */
+/* The same three problems the phone had, measured at 1440: 2,274px before the
+   first card, 44 screens of list, and navigation that scrolls out of reach.
+   The phone got a fixed bottom bar; the laptop gets a sticky top one. */
+@media (min-width: 721px) {
+  /* .topbar is already sticky in the base rules; no need to restate it.
+     What did need fixing: adding the theme toggle pushed .topbar__util to
+     1497px against a 1440px viewport and put the whole page into horizontal
+     scroll. The label goes, the accessible name stays on the button. */
+  .topbar__util { min-width: 0; flex-wrap: wrap; justify-content: flex-end; }
+  .theme-toggle__label { position: absolute; width: 1px; height: 1px;
+                         overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  /* Icons on desktop too. The point of an icon set is that it is the same set
+     everywhere; showing glyphs only on the phone is the inconsistency. */
+  .topnav .ico { display: block; width: 17px; height: 17px; opacity: .75; }
+  .topnav .tab { display: inline-flex; align-items: center; gap: .45rem; }
+  /* Adding a glyph to each tab widened the row enough to push .topbar__util
+     past the viewport and put the page into horizontal scroll. Tighten the
+     gap to pay for the icons, and let the bar wrap rather than overflow if a
+     narrower laptop still cannot fit it. */
+  .topnav { gap: 1.15rem; flex-wrap: wrap; }
+  .topbar__inner { flex-wrap: wrap; row-gap: .25rem; }
+  .topnav .tab.is-active .ico { opacity: 1; color: var(--accent); }
+  .mpager.is-on { display: block; max-width: 22rem; margin: 1.5rem auto .5rem; }
+}
