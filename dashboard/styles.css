@@ -1375,3 +1375,61 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
   .topnav .tab.is-active .ico { opacity: 1; color: var(--accent); }
   .mpager.is-on { display: block; max-width: 22rem; margin: 1.5rem auto .5rem; }
 }
+
+/* ---- Phone navigation: legibility over glass ----------------------------- */
+/* The bar was a 92% translucent surface behind a blur. Where backdrop-filter
+   is unsupported or disabled that degrades to near-transparent, and even where
+   it works, card text scrolling underneath competes with the labels. The bar
+   is the primary navigation on a phone: it is opaque first, and the blur is a
+   progressive enhancement layered on top only where it is actually supported. */
+@media (max-width: 720px) {
+  .topnav {
+    background: var(--surface);
+    backdrop-filter: none;
+    border-top: 1px solid var(--line-strong);
+    /* Lifts the bar off the list instead of letting it blend into it. */
+    box-shadow: 0 -8px 24px -12px rgba(0, 0, 0, .55);
+    padding-top: .3rem;
+  }
+  @supports (backdrop-filter: blur(12px)) {
+    .topnav {
+      background: color-mix(in oklab, var(--surface) 97%, transparent);
+      backdrop-filter: blur(14px) saturate(1.2);
+    }
+  }
+
+  /* Labels were .62rem in muted grey: too small and too low-contrast to read
+     at a glance while moving. Bigger, and full body colour. */
+  .topnav .tab::after { font-size: .68rem; font-weight: 500; color: var(--body); }
+  .topnav .ico { opacity: .9; }
+
+  /* Flow: the active view now reads as a filled pill rather than a colour
+     change alone, so it survives a glance and does not rely on hue perception. */
+  .topnav .tab {
+    border-radius: 10px; margin: 0 2px; transition: background-color .15s ease;
+  }
+  .topnav .tab.is-active {
+    background: color-mix(in oklab, var(--accent) 16%, transparent);
+  }
+  .topnav .tab.is-active .ico,
+  .topnav .tab.is-active::after { color: var(--accent); opacity: 1; }
+  .topnav .tab:active { background: color-mix(in oklab, var(--ink) 10%, transparent); }
+}
+
+@media (max-width: 720px) {
+  /* The fixed bar is a child of .topbar, which is positioned and therefore
+     creates a stacking context. A z-index of 60 on the bar only ranks it
+     against its siblings inside that context, so card text painted straight
+     over it: elementFromPoint inside the bar returned a p.usecase. Lifting the
+     context itself is what actually puts the navigation on top. */
+  /* A global `body > :not(.ambient) { position: relative; z-index: 1 }` puts
+     every top-level block, including .topbar and main, on one layer, so main
+     painted over the fixed bar and it was not even tappable. That selector is
+     0-1-1; a bare .topbar is 0-1-0 and loses, which is why raising z-index on
+     it did nothing. Matching its specificity is the actual fix. */
+  body > .topbar { z-index: 200; }
+  /* Bar measured 64px, not the 56px the body padding assumed, so the last card
+     sat under it. Pad to the real height plus the home indicator. */
+  body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
+}
+
