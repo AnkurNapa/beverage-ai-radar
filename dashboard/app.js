@@ -479,8 +479,14 @@ function companyDetail(c) {
     ? `<h2>Tracked people here</h2><ul class="detail__list">` + tracked.map((x) => {
         const li = safeUrl(x.linkedin_url) ? link(x.linkedin_url, x.name) : esc(x.name);
         const role = (x.people && x.people[0] && x.people[0].role) || "";
+        // true = confirmed current, false = evidenced as a former role,
+        // null = nobody has re-confirmed it since a dated source. Only the
+        // middle case may say "former"; the last says what it actually is.
         const past = x.affiliated_company_current === false
-          ? ` <span class="muted">(former)</span>` : "";
+          ? ` <span class="muted">(former)</span>`
+          : x.affiliated_company_current == null
+            ? ` <span class="muted" title="Employment last evidenced by a dated source and not re-confirmed">(unconfirmed)</span>`
+            : "";
         return `<li>${li}${role ? ` <span class="muted">(${esc(role)})</span>` : ""}${past}</li>`;
       }).join("") + `</ul>`
     : "";

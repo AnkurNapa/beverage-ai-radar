@@ -175,7 +175,7 @@
     ],
     "first_seen": "2024-01-01",
     "last_seen": "2026-07-22",
-    "company": null,
+    "company": "Pernod Ricard",
     "company_key": null,
     "linkedin_id": "sol%C3%A8ne-bergaire-a68472108",
     "company_is_current": null
@@ -216,6 +216,266 @@
     "company": null,
     "company_key": null,
     "linkedin_id": null,
+    "company_is_current": null
+  },
+  {
+    "name": "Bharathi Sampangi",
+    "role": "VP, Data Platforms and Services, Southern Glazer's Wine & Spirits",
+    "linkedin": null,
+    "linkedin_id": null,
+    "location": null,
+    "vertical": "multiple",
+    "ai_use_case": "enterprise data platform architecture for beverage alcohol distribution",
+    "ai_maturity": "pilot",
+    "short_description": "Owns the architecture, technical design and roadmap of Southern Glazer's enterprise data platforms, reporting into the CIO, as part of the Enterprise Data Center of Excellence announced in March 2024. Prior engineering leadership roles at Gap Inc, Five Below, CSC and Yohana. company_is_current is false only because the sole employment source is the March 2024 announcement.",
+    "source_urls": [
+      "https://web.archive.org/web/20250723230216/https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence",
+      "https://www.southernglazers.com/careers/Information-technology"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "Southern Glazer's Wine & Spirits",
+    "company_key": null,
+    "company_is_current": null
+  },
+  {
+    "name": "Jean Rovani",
+    "role": "Director of AI Engineering, Bloomfield Robotics",
+    "linkedin": "https://www.linkedin.com/in/jean-rovani-a7a34b339",
+    "linkedin_id": "jean-rovani-a7a34b339",
+    "location": "Pittsburgh, Pennsylvania, USA",
+    "vertical": "wine",
+    "ai_use_case": "computer vision for plant level vineyard and crop monitoring",
+    "ai_maturity": "shipping",
+    "short_description": "Leads AI engineering at Bloomfield Robotics, whose imaging platform produces plant level health and performance insights for vineyards and other specialty crops. Listed on the company's current team page.",
+    "source_urls": [
+      "https://bloomfield.ai/team",
+      "https://bloomfield.ai/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "Bloomfield Robotics",
+    "company_key": null,
+    "company_is_current": true
+  },
+  {
+    "name": "Jasmine Ortega",
+    "role": "Data Scientist, Bloomfield Robotics",
+    "linkedin": null,
+    "linkedin_id": null,
+    "location": null,
+    "vertical": "wine",
+    "ai_use_case": "data science for vineyard and crop imaging analytics",
+    "ai_maturity": "shipping",
+    "short_description": "Data scientist at Bloomfield Robotics, the Kubota-owned vineyard and specialty crop imaging company. Listed on the company's current team page; no further public detail on her specific projects was found.",
+    "source_urls": [
+      "https://bloomfield.ai/team",
+      "https://bloomfield.ai/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "Bloomfield Robotics",
+    "company_key": null,
+    "company_is_current": true
+  },
+  {
+    "name": "Shreya Kale",
+    "role": "AI Engineer, Bloomfield Robotics",
+    "linkedin": null,
+    "linkedin_id": null,
+    "location": null,
+    "vertical": "wine",
+    "ai_use_case": "AI engineering for vineyard and crop imaging",
+    "ai_maturity": "shipping",
+    "short_description": "AI engineer at Bloomfield Robotics, working on the computer vision imaging platform used to monitor vineyards and other specialty crops. Listed on the company's current team page.",
+    "source_urls": [
+      "https://bloomfield.ai/team",
+      "https://bloomfield.ai/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "Bloomfield Robotics",
+    "company_key": null,
+    "company_is_current": true
+  },
+  {
+    "name": "Ian Weller",
+    "role": "Engineering Manager, Data Systems, Bloomfield Robotics",
+    "linkedin": null,
+    "linkedin_id": null,
+    "location": null,
+    "vertical": "wine",
+    "ai_use_case": "data systems and ML data pipelines for crop imaging",
+    "ai_maturity": "shipping",
+    "short_description": "Manages the data systems engineering function at Bloomfield Robotics, the pipeline layer behind its plant level vineyard imaging models. Listed on the company's current team page.",
+    "source_urls": [
+      "https://bloomfield.ai/team",
+      "https://bloomfield.ai/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "Bloomfield Robotics",
+    "company_key": null,
+    "company_is_current": true
+  },
+  {
+    "name": "Jamie Sherrah",
+    "role": "CTO, Deep Liquid",
+    "linkedin": "https://au.linkedin.com/in/jsherrah",
+    "linkedin_id": "jsherrah",
+    "location": "Adelaide, Australia",
+    "vertical": "beer",
+    "ai_use_case": "machine learning on beer recipes and consumer review data",
+    "ai_maturity": "shipping",
+    "short_description": "PhD machine learning and computer vision researcher with over 20 years in the field, serving as CTO of Deep Liquid, which trained a recipe model on more than 200,000 beer recipes and analyses QR-collected drinker feedback for brewers. Also Technical Director for Defence at the Australian Institute for Machine Learning. Role stated on Deep Liquid's current site.",
+    "source_urls": [
+      "https://www.deepliquid.ai/",
+      "https://www.adelaide.edu.au/aiml/news/list/2025/03/19/deep-liquid-democratising-ai-one-beverage-at-a-time"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "Deep Liquid",
+    "company_key": null,
+    "company_is_current": true
+  },
+  {
+    "name": "Simon Lucey",
+    "role": "Director Machine Learning, Deep Liquid",
+    "linkedin": null,
+    "linkedin_id": null,
+    "location": "Adelaide, Australia",
+    "vertical": "beer",
+    "ai_use_case": "machine learning on beer recipes and consumer review data",
+    "ai_maturity": "shipping",
+    "short_description": "Director of the Australian Institute for Machine Learning and a former associate research professor at Carnegie Mellon's Robotics Institute, listed as Director Machine Learning on Deep Liquid's team page. Deep Liquid applies ML to craft beer recipe development and drinker feedback analysis.",
+    "source_urls": [
+      "https://www.deepliquid.ai/",
+      "https://www.adelaide.edu.au/aiml/news/list/2025/03/19/deep-liquid-democratising-ai-one-beverage-at-a-time"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "Deep Liquid",
+    "company_key": null,
+    "company_is_current": true
+  },
+  {
+    "name": "Anton van den Hengel",
+    "role": "Director Applied AI, Deep Liquid",
+    "linkedin": "https://au.linkedin.com/in/antonvandenhengel",
+    "linkedin_id": "antonvandenhengel",
+    "location": "Adelaide, Australia",
+    "vertical": "beer",
+    "ai_use_case": "applied machine learning for beverage recipe and consumer feedback modelling",
+    "ai_maturity": "shipping",
+    "short_description": "Computer vision and machine learning professor, founding director of the Australian Institute for Machine Learning, listed as Director Applied AI on Deep Liquid's team page. Deep Liquid's model was trained on over 200,000 beer recipes with input from Barossa Valley Brewing.",
+    "source_urls": [
+      "https://www.deepliquid.ai/",
+      "https://www.adelaide.edu.au/aiml/news/list/2025/03/19/deep-liquid-democratising-ai-one-beverage-at-a-time"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "Deep Liquid",
+    "company_key": null,
+    "company_is_current": true
+  },
+  {
+    "name": "Andy Edmonds",
+    "role": "CTO, Terraview",
+    "linkedin": null,
+    "linkedin_id": null,
+    "location": null,
+    "vertical": "wine",
+    "ai_use_case": "vineyard yield, risk and irrigation forecasting",
+    "ai_maturity": "shipping",
+    "short_description": "Chief Technical Officer on Terraview's current management team page. Terraview, merged with Gamaya, builds satellite and agronomic modelling software for vineyard yield, risk and irrigation decisions. Listed as CTO of the technology company itself, so the AI work is his function rather than a separately documented personal project.",
+    "source_urls": [
+      "https://www.terraview.gmbh/about-us",
+      "https://www.terraview.gmbh/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "Terraview",
+    "company_key": null,
+    "company_is_current": true
+  },
+  {
+    "name": "Rafal Cycon",
+    "role": "Chief Data Scientist, FORM",
+    "linkedin": null,
+    "linkedin_id": null,
+    "location": null,
+    "vertical": "multiple",
+    "ai_use_case": "image recognition for retail and on-premise shelf execution",
+    "ai_maturity": "shipping",
+    "short_description": "Chief Data Scientist at FORM, listed on the company's current leadership page. FORM's GoSpotCheck platform runs image recognition on shelf and display photos for beverage distributors and alcohol suppliers checking retail and on-premise execution.",
+    "source_urls": [
+      "https://www.form.com/about/",
+      "https://www.form.com/industries/beverage-distribution-software/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "FORM (GoSpotCheck by FORM)",
+    "company_key": null,
+    "company_is_current": true
+  },
+  {
+    "name": "Jon Trafton",
+    "role": "Lead Data Analyst, vinSUITE",
+    "linkedin": null,
+    "linkedin_id": null,
+    "location": "Napa, California, USA",
+    "vertical": "wine",
+    "ai_use_case": "winery DTC and wine club analytics",
+    "ai_maturity": "shipping",
+    "short_description": "Lead Data Analyst at vinSUITE, listed on the company's current team page. vinSUITE is a direct to consumer platform for wineries covering wine club, tasting room POS, ecommerce and analytics; the analytics product is reporting and BI rather than a stated machine learning capability.",
+    "source_urls": [
+      "https://vinsuite.com/about",
+      "https://vinsuite.com/analytics"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "vinSUITE",
+    "company_key": null,
+    "company_is_current": true
+  },
+  {
+    "name": "Alvaro Gonzalez",
+    "role": "Deputy Manager of Research and Development, Vina Concha y Toro",
+    "linkedin": null,
+    "linkedin_id": null,
+    "location": "Santiago, Chile",
+    "vertical": "wine",
+    "ai_use_case": "harvest volume prediction from drone multispectral imagery",
+    "ai_maturity": "pilot",
+    "short_description": "Named in Concha y Toro's own account of the Center for Research and Innovation project that built an AI harvest volume prediction model from drone multispectral imagery and terrain data, reporting 2 to 9 percent prediction error against 20 to 30 percent for traditional methods. company_is_current is false only because the source article is dated March 2018 and no later confirmation of his role was found.",
+    "source_urls": [
+      "https://vinacyt.com/en/noticia/innovation/artificial-intelligence-and-drones-new-harvest-volume-prediction-system/",
+      "https://vinacyt.com/en/corporate-pillars/innovation/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "Vina Concha y Toro",
+    "company_key": null,
+    "company_is_current": null
+  },
+  {
+    "name": "Jose Cuevas",
+    "role": "Researcher in Engineering, Vina Concha y Toro",
+    "linkedin": null,
+    "linkedin_id": null,
+    "location": "Santiago, Chile",
+    "vertical": "wine",
+    "ai_use_case": "harvest volume prediction from drone multispectral imagery",
+    "ai_maturity": "pilot",
+    "short_description": "Engineering researcher quoted in Concha y Toro's own account of its AI crop forecasting project, on transferring the models from experimental conditions into production vineyard operations. company_is_current is false only because the source article is dated March 2018 and no later confirmation of his role was found.",
+    "source_urls": [
+      "https://vinacyt.com/en/noticia/innovation/artificial-intelligence-and-drones-new-harvest-volume-prediction-system/",
+      "https://vinacyt.com/en/corporate-pillars/innovation/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "company": "Vina Concha y Toro",
+    "company_key": null,
     "company_is_current": null
   }
 ]

@@ -7724,5 +7724,819 @@
     "last_seen": "2026-08-04",
     "discovered_by": "curated",
     "verified": true
+  },
+  {
+    "name": "Collo (ColloidTek Oy)",
+    "domain": "collo.fi",
+    "hq_location": "Tampere, Finland",
+    "founded_year": 2017,
+    "vertical": "multiple",
+    "ai_use_case": "real-time liquid fingerprinting for changeover and CIP optimisation",
+    "ai_maturity": "shipping",
+    "short_description": "Collo sells an inline electromagnetic-field sensor plus a software platform (Collo Insights, Collo Signals, Collo Lab Analyzer) that reads a continuous fingerprint of a liquid in process. The company states it pairs radio frequency sensor technology with AI analytical methods, and that the platform learns from operational data by correlating sensor readings with historical trends and other process variables. It is sold to dairy, food and beverage plants for changeover and CIP optimisation and real-time process control. Collo won the World Beverage Innovation Award in the Processing and Production category at drinktec 2025 and exhibited at drinktec.",
+    "source_urls": [
+      "https://www.collo.fi/our-innovation",
+      "https://www.collo.fi/about",
+      "https://www.drinktec.com/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "MarshallAI",
+    "domain": "marshallai.com",
+    "hq_location": "Turku, Finland",
+    "founded_year": 2016,
+    "vertical": "beer",
+    "ai_use_case": "deep learning machine vision for production line quality assurance",
+    "ai_maturity": "shipping",
+    "short_description": "MarshallAI is a deep learning computer vision platform that runs on any camera or sensor and integrates with MES, SCADA and ERP systems. In manufacturing it does automated optical inspection for defect detection, assembly verification, and OCR of barcodes and expiry or batch codes, with the site showing AI-powered OCR read from an aluminium can. It exhibited at BrauBeviale Nuremberg, which is where it enters the beverage landscape. Bittium invested in the company in 2017.",
+    "source_urls": [
+      "https://marshallai.com/about/",
+      "https://marshallai.com/industries/manufacturing-industrial-qa/",
+      "https://www.braubeviale.com/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "key_people": "Marcus Nordstrom (CEO)",
+    "people": [
+      {
+        "name": "Marcus Nordstrom",
+        "role": "CEO"
+      },
+      {
+        "name": "Tomi Niittumaki",
+        "role": "CTO"
+      }
+    ],
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "vision-tec gmbh",
+    "domain": "vision-tec.de",
+    "hq_location": "Kassel, Germany",
+    "vertical": "beer",
+    "ai_use_case": "machine learning bottle and embossing recognition on returnable beverage lines",
+    "ai_maturity": "shipping",
+    "short_description": "vision-tec builds inspection and rejection systems for beverage filling and returnable crate handling: crate checks, bottle checks, pallet checks and robot cells. The company states it has used machine learning in image processing for years to identify individual bottle shapes inside a crate, a problem that has grown harder as the number of proprietary bottle designs increased, and gives embossing recognition as a worked example where the model learns characteristic features from a few sample images. Exhibited at both BrauBeviale and drinktec.",
+    "source_urls": [
+      "https://www.vision-tec.de/technologie/kuenstliche-intelligenz/",
+      "https://www.vision-tec.de",
+      "https://www.braubeviale.com/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "Figura Analytics",
+    "domain": "figura-analytics.co.uk",
+    "hq_location": "Loughborough, United Kingdom",
+    "founded_year": 2021,
+    "vertical": "multiple",
+    "ai_use_case": "particle fingerprinting of drinks samples with machine learning shape analysis",
+    "ai_maturity": "pilot",
+    "short_description": "Figura Analytics is a Loughborough University spinout that built a patented nanopore flowcell using resistive pulse sensing to count and characterise every particle in a liquid sample in minutes, producing a fingerprint of what a normal sample should look like. Shape software is then applied to flag potential contaminants. Drinks analysis is one of its named target markets alongside healthcare, and co-founder Rhush Maugi is described as driving the software development and machine learning platform. Backed by SFC Capital, Innovate UK and angel investors since the January 2021 spinout. It exhibited at drinktec.",
+    "source_urls": [
+      "https://figura-analytics.co.uk/technology/",
+      "https://figura-analytics.co.uk/about-us/",
+      "https://www.drinktec.com/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "key_people": "Nick Whitehurst (CEO)",
+    "people": [
+      {
+        "name": "Nick Whitehurst",
+        "role": "CEO"
+      },
+      {
+        "name": "Mark Platt",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Rhush Maugi",
+        "role": "Co-founder, software and machine learning"
+      }
+    ],
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "PRECOGIT GmbH",
+    "domain": "precogit.gmbh",
+    "hq_location": "Regensburg, Germany",
+    "founded_year": 2021,
+    "vertical": "beer",
+    "ai_use_case": "none claimed, SAP-based digitalisation consulting for breweries",
+    "ai_maturity": "shipping",
+    "short_description": "PRECOGIT is a consultancy and implementation partner for digitalisation in the brewing and beverage industry, working on SAP technology with pre-built templates for process manufacturing so customers evaluate against a working demo system before committing. Services run from a fixed-price scoping workshop through implementation to support, with a stated focus on manufacturing execution systems and warehouse management. Founded in October 2021 by Dr Michael Eberhard, a brewing and beverage technologist, and Christian Gradt, an SAP specialist. It makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://www.precogit.gmbh/unternehmen/",
+      "https://www.precogit.gmbh/produkte/",
+      "https://www.braubeviale.com/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "key_people": "Dr Michael Eberhard (Co-founder)",
+    "people": [
+      {
+        "name": "Michael Eberhard",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Christian Gradt",
+        "role": "Co-founder"
+      }
+    ],
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "Kestrel Vision",
+    "domain": "kestrel-vision.com",
+    "hq_location": "Saint-Genis-Laval, Lyon, France",
+    "vertical": "multiple",
+    "ai_use_case": "data driven inspection of containers and filled packs",
+    "ai_maturity": "shipping",
+    "short_description": "Kestrel Vision is a holding group of six inspection companies (Tiama, Pressco, Filtec, Vimec, Somex and GlassFORM.ai) that describes itself as the leading global player in data driven control and inspection for rigid packaging manufacturing and filling, with food and beverage as one of three named end markets. Its products inspect glass and other rigid containers both at the glassworks and on the filling line. The GlassFORM.ai unit is the group's explicitly AI-branded arm; the group site otherwise frames the offer as data and service rather than machine learning. Exhibited at BrauBeviale and drinktec.",
+    "source_urls": [
+      "https://kestrel-vision.com/",
+      "https://www.drinktec.com/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "miho Inspektionssysteme GmbH",
+    "domain": "miho.de",
+    "hq_location": "Ahnatal, Germany",
+    "founded_year": 1977,
+    "vertical": "beer",
+    "ai_use_case": "none claimed, optical and 3D inspection on beverage filling lines",
+    "ai_maturity": "shipping",
+    "short_description": "miho is a German Mittelstand maker of inspection systems for beverage filling and returnable container logistics, active for over 45 years. Its product range covers empty bottle sorting before the unpacker (foreign body, lying and inverted bottle detection with 3D measurement), embossing recognition, bottle shape and colour discrimination with sorting into up to eight channels, and residual caustic detection. The site describes optics, high frequency measurement and 3D metrology; it makes no machine learning claim. Exhibited at BrauBeviale and drinktec.",
+    "source_urls": [
+      "https://www.miho.de/ueber-uns/",
+      "https://www.miho.de/",
+      "https://www.braubeviale.com/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "key_people": "Markus Grumann (Managing Director)",
+    "people": [
+      {
+        "name": "Markus Grumann",
+        "role": "Managing Director"
+      },
+      {
+        "name": "Michael Horst",
+        "role": "Founder and Managing Director"
+      }
+    ],
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "BBULL Technology GmbH",
+    "domain": "bbull.com",
+    "hq_location": "Koenigsbach-Stein, Germany",
+    "vertical": "beer",
+    "ai_use_case": "none claimed, inspection and track and trace on beverage packaging lines",
+    "ai_maturity": "shipping",
+    "short_description": "BBULL Technology supplies inspection and rejection equipment plus a track and trace system for beverage packaging lines, covering glass bottles, beverage cans, one-way and refillable PET bottles, food cans, jars and cups. The track and trace product is the data-relevant part of the range: serialised code application and reading across the line for quality and conformity records. The company is part of the BBULL group, which also includes BBULL Computer. It makes no AI or machine learning claim. Exhibited at BrauBeviale and drinktec.",
+    "source_urls": [
+      "https://www.bbull.com/en/about-bbull-technology/about-us/",
+      "https://www.bbull.com",
+      "https://www.braubeviale.com/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "CDR (CDR BeerLab)",
+    "domain": "cdrfoodlab.com",
+    "hq_location": "Ginestra Fiorentina, Italy",
+    "vertical": "beer",
+    "ai_use_case": "none claimed, benchtop photometric beer and wort analysis",
+    "ai_maturity": "shipping",
+    "short_description": "CDR BeerLab is a compact benchtop analysis system that lets a brewery run a wide range of beer, wort and water quality tests in-house on one instrument, without sending samples to an external laboratory. It is aimed at brewers of all sizes for monitoring every stage of the brewing process, and the company publishes method validations against reference techniques. The output is measurement data for quality control; there is no AI or machine learning claim. Exhibited at BrauBeviale and drinktec.",
+    "source_urls": [
+      "https://www.cdrfoodlab.com/cdrbeerlab",
+      "https://www.braubeviale.com/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "Gabert Rebstock Software (GRS)",
+    "domain": "grs-systeme.de",
+    "hq_location": "Reutlingen, Germany",
+    "vertical": "beer",
+    "ai_use_case": "none claimed, industry ERP for breweries and beverage wholesalers",
+    "ai_maturity": "shipping",
+    "short_description": "GRS sells vertical business software for beverage producers and the beverage trade, with separate module sets for breweries, mineral water bottlers, juice producers and beverage wholesalers. Brewery functions include field sales information, order processing, customer information, beer duty accounting, indirect customers, returnable container and loan inventory tracking, purchasing and warehouse, dispatch, event pitch costing and statistics, alongside financial, asset and cost accounting. It is a German-language system of record with no AI or machine learning claim. Exhibited at BrauBeviale.",
+    "source_urls": [
+      "https://www.grs-systeme.de",
+      "https://www.braubeviale.com/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "Vineyard Robotics (Orchard Robotics)",
+    "domain": "vineyard-robotics.com",
+    "hq_location": "Bellevue, WA, USA",
+    "vertical": "wine",
+    "ai_use_case": "computer vision yield estimation per vine",
+    "ai_maturity": "shipping",
+    "short_description": "Vineyard Robotics is the vineyard division of Orchard Robotics, which describes itself as an AI farming company. Its FruitScope Vision camera system mounts to a tractor or ATV and is driven down vineyard rows at 1 to 12 mph, using computer vision models to count and size buds, shoots, flowers and clusters on every individual vine. Data lands in FruitScope Vault, a system of record, and FruitScope OS, a vineyard management software suite. The company states it has built large multi-season crop datasets and is developing Canary, an AI decision layer that is not yet released.",
+    "source_urls": [
+      "https://vineyard-robotics.com/",
+      "https://orchard-robotics.com/",
+      "https://www.wineindustryexpo.com/exhibitors"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "Wise Systems",
+    "domain": "wisesystems.com",
+    "hq_location": "Cambridge, MA, USA",
+    "vertical": "beer",
+    "ai_use_case": "autonomous route planning and delivery optimisation",
+    "ai_maturity": "shipping",
+    "short_description": "Wise Systems sells autonomous routing and last mile delivery software, with beverage distribution as one of its named industry verticals. The company runs a dedicated AI page stating that machine learning is the foundation of every product rather than a bolt on feature, and that the system learns each operation's actual driving and service patterns from the first route and keeps adapting. Products include Route Planner Engine, Dispatcher, Strategic Planner and Performance Manager. It presented at the 2026 BIECC Innovation Showcase run by NBWA for beer and beverage distributors.",
+    "source_urls": [
+      "https://wisesystems.com/ai-at-wise-systems/",
+      "https://nbwa.org/event/biecc-innovation-showcase/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "Cirrus Tech",
+    "domain": "cirrustech.com",
+    "vertical": "beer",
+    "ai_use_case": "warehouse automation and control software for beer distributors",
+    "ai_maturity": "shipping",
+    "short_description": "Cirrus Tech is a single source integrator of warehouse automation, control software and distribution software built specifically for beer and beverage wholesalers, and says it has been doing this for over 25 years across 18 beverage automation projects. Offerings span crane systems through fully automated buildings, plus 24/7 US based support with remote diagnostics. It makes no machine learning claim: the automation described is materials handling and control systems, not predictive modelling. It presented at the 2026 BIECC Innovation Showcase.",
+    "source_urls": [
+      "https://cirrustech.com/",
+      "https://nbwa.org/event/biecc-innovation-showcase/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "VXP Technologies (Volume x Profit)",
+    "domain": "vxptech.com",
+    "vertical": "beer",
+    "ai_use_case": "sales execution analytics and incentive tracking for beer distributors",
+    "ai_maturity": "shipping",
+    "short_description": "VXP builds sales analytics and incentive management software for beer and beverage distributor sales teams, covering supplier incentive tracking, variable compensation tracking, distributor targeted objectives and finished product loss reduction. It says over 1,500 distributor sales reps use the platform. The site lists a Sales Execution Agent feature but does not describe an underlying machine learning model, so this reads as workflow automation and reporting rather than ML. VXP presented at and sponsored the 2026 BIECC Innovation Showcase.",
+    "source_urls": [
+      "https://vxptech.com/",
+      "https://nbwa.org/event/biecc-innovation-showcase/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "key_people": "Bud Dunn (President)",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "Repify AI",
+    "domain": "repifyai.com",
+    "vertical": "beer",
+    "ai_use_case": "automated sales incentive and execution tracking for beverage distributors",
+    "ai_maturity": "shipping",
+    "short_description": "Repify AI is a sales execution platform for beer and beverage distributors that ties incentive programmes to tracked field actions such as volume drives, display execution and new point of distribution win backs, then automates commission payout. It states over 500,000 order to payout matches automated and pricing from 25 dollars per user per month. Despite the name, the site describes rule based automation and matching rather than any specific machine learning model, and no ML claim should be read into it. It presented at the 2026 BIECC Innovation Showcase.",
+    "source_urls": [
+      "https://www.repifyai.com/",
+      "https://nbwa.org/event/biecc-innovation-showcase/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "iSellBeer",
+    "domain": "isellbeer.com",
+    "vertical": "beer",
+    "ai_use_case": "sales performance management and display execution reporting",
+    "ai_maturity": "shipping",
+    "short_description": "iSellBeer sells a sales performance management app for beer distributors, focused on evidencing retail execution: reporting floor displays, tracking incentive programmes and settling chain feature execution disputes with suppliers. It is a system of record for field execution data rather than an analytics or AI product, and the site makes no machine learning claim. It presented at and sponsored the reception of the 2026 BIECC Innovation Showcase.",
+    "source_urls": [
+      "https://isellbeer.com/",
+      "https://nbwa.org/event/biecc-innovation-showcase/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "Elevated BI",
+    "domain": "elevatedbi.com",
+    "vertical": "beer",
+    "ai_use_case": "power bi reporting for beverage wholesalers",
+    "ai_maturity": "shipping",
+    "short_description": "Elevated BI is an independent BI consultancy serving beverage wholesalers, run by Austin Bristow who previously managed Power BI reporting at fairlife from 2018 to 2024. Its BevBridge product refreshes distributor RAS data daily into ready made Power BI dashboards as a single source of truth for sales and operations. This is plain business intelligence and consulting with no AI or machine learning claim. It presented at the 2026 BIECC Innovation Showcase.",
+    "source_urls": [
+      "https://www.elevatedbi.com/",
+      "https://nbwa.org/event/biecc-innovation-showcase/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "key_people": "Austin Bristow (Founder)",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "IntelliCulture",
+    "domain": "intelliculture.com",
+    "hq_location": "Salinas, CA, USA",
+    "vertical": "wine",
+    "ai_use_case": "vineyard equipment telematics and spray pass verification",
+    "ai_maturity": "shipping",
+    "short_description": "IntelliCulture is a GPS and farm management platform purpose built for specialty crop farms including vineyards, connecting existing GPS hardware or its own. It tracks what equipment is actually doing in the block rather than just where it is, verifying every spray pass, computing true cost per acre, automating OSHA inspection records and GHG reporting. The company says it covers 750,000 acres of nut, vineyard, orchard and specialty crop farms. The analytics are telematics derived; no machine learning claim is made. It exhibited at WIN Expo Sonoma at booth 708.",
+    "source_urls": [
+      "https://www.intelliculture.com/",
+      "https://www.wineindustryexpo.com/exhibitors"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "VinoCheck",
+    "domain": "vinocheck.com",
+    "hq_location": "Vancouver, BC, Canada",
+    "vertical": "wine",
+    "ai_use_case": "direct to consumer wine compliance and tax filing automation",
+    "ai_maturity": "shipping",
+    "short_description": "VinoCheck is wine compliance software for wineries selling direct to consumer. It calculates destination based sales tax, wine specific fees and pass through taxes on orders, runs real time compliance checks against volume limits, dry areas and ABV restrictions, and generates sales tax, excise tax and direct shipper filings in one click. It offers a free backtest against a winery's historical order data. This is rules driven compliance automation with no AI claim. It exhibited at WIN Expo Sonoma at booth 342.",
+    "source_urls": [
+      "https://www.vinocheck.com/",
+      "https://www.vinocheck.com/about-us",
+      "https://www.wineindustryexpo.com/exhibitors"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "key_people": "Zach Kamphuis (Founder, President)",
+    "people": [
+      {
+        "name": "Zach Kamphuis",
+        "role": "Founder, President"
+      },
+      {
+        "name": "Andrew Kamphuis",
+        "role": "Advisor, Board Member"
+      },
+      {
+        "name": "Jeff Carroll",
+        "role": "Advisor, Board Member"
+      }
+    ],
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "OrderPort",
+    "domain": "orderport.net",
+    "hq_location": "Bellevue, WA, USA",
+    "vertical": "wine",
+    "ai_use_case": "winery direct to consumer system of record and reporting",
+    "ai_maturity": "shipping",
+    "short_description": "OrderPort is a connected winery management platform covering tasting room point of sale, wine club and allocation, ecommerce, reservations, marketing, payments and real time reporting across sales, club, guests and operations. It is a direct to consumer system of record for wineries and a meaningful source of winery transaction data. The site makes no AI or machine learning claim. It exhibited at WIN Expo Sonoma at booth 146.",
+    "source_urls": [
+      "https://www.orderport.net/",
+      "https://www.wineindustryexpo.com/exhibitors"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "Lumo",
+    "domain": "lumo.ag",
+    "hq_location": "Santa Rosa, CA, USA",
+    "vertical": "wine",
+    "ai_use_case": "precision irrigation automation and block level water monitoring",
+    "ai_maturity": "shipping",
+    "short_description": "Lumo is a precision irrigation platform combining smart valves, pump automation and an Ops Center used by Napa and Sonoma wine estates and other West Coast specialty crop growers. It measures block level flow rates to close what it calls the irrigation execution gap, covering scheduling, field execution, real time monitoring and water use reporting. The company reports over 200 farms and 99 percent customer retention. The product is sensor driven automation and analytics, not machine learning. It exhibited at WIN Expo Sonoma at booth 333.",
+    "source_urls": [
+      "https://www.lumo.ag/",
+      "https://www.wineindustryexpo.com/exhibitors"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "Verdi",
+    "domain": "verdi.ag",
+    "hq_location": "Vancouver, BC, Canada",
+    "vertical": "wine",
+    "ai_use_case": "retrofit irrigation automation with sensor driven scheduling",
+    "ai_maturity": "shipping",
+    "short_description": "Verdi sells low cost retrofit irrigation automation for specialty crops including vineyards: smart valves, block level and row level controllers, wireless sensors and gateways plus irrigation software. It claims over 5,000 devices installed, one day retrofit onto existing systems, 30 percent water savings and sensor driven automation where field conditions drive decisions. The company states an ambition to bring agriculture into the AI age but describes sensor threshold automation rather than a shipped machine learning model. It exhibited at WIN Expo Sonoma at booth 200 and sponsored the 2026 Unified Wine and Grape Symposium.",
+    "source_urls": [
+      "https://verdi.ag/about",
+      "https://www.wineindustryexpo.com/exhibitors",
+      "https://www.unifiedsymposium.org/sponsor-advertise/sponsors/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "Ranch Systems",
+    "domain": "ranchsystems.com",
+    "hq_location": "Novato, CA, USA",
+    "founded_year": 2005,
+    "vertical": "wine",
+    "ai_use_case": "vineyard telemetry, soil moisture and irrigation control",
+    "ai_maturity": "shipping",
+    "short_description": "Ranch Systems has built cloud connected agricultural telemetry since 2005, selling RM400, RS130, RS330 and RS10 telemetry devices, data loggers, weather stations and the myRanch cloud dashboard. Deployments cover irrigation valve and pump control, soil moisture, weather, tank and pond monitoring, remote cameras and water resource management for districts. It also offers custom agtech software development for other companies. The platform is sensor telemetry and alerting with no machine learning claim. It exhibited at WIN Expo Sonoma at booth 426.",
+    "source_urls": [
+      "https://www.ranchsystems.com/",
+      "https://www.wineindustryexpo.com/exhibitors"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "HotSpot AG",
+    "domain": "hotspotag.com",
+    "hq_location": "Hanford, CA, USA",
+    "vertical": "wine",
+    "ai_use_case": "irrigation, fertigation and frost protection automation",
+    "ai_maturity": "shipping",
+    "short_description": "HotSpot AG sells farm management hardware and software that automates irrigation, fertigation and frost protection systems for growers, water districts and municipal agencies, with remote control and water efficiency reporting against changing water policy. It exhibits to the wine sector at WIN Expo Sonoma, booth 716. The offering is remote control and telemetry automation; the site makes no AI or machine learning claim despite the AG in the name referring to agriculture.",
+    "source_urls": [
+      "https://www.hotspotag.com/",
+      "https://www.wineindustryexpo.com/exhibitors"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "Avterra",
+    "domain": "avterra.net",
+    "hq_location": "Creston, CA, USA",
+    "vertical": "wine",
+    "ai_use_case": "vineyard sensor data integration and irrigation decision guidance",
+    "ai_maturity": "shipping",
+    "short_description": "Avterra is a small vineyard technology consultancy on California's Central Coast that integrates data from existing or newly installed telemetry and sensor devices into a single portal, then advises on when and how much to irrigate. It positions itself explicitly as vendor neutral, pulling from a multitude of telemetry devices rather than selling one stack, and leans on over 30 years of vineyard management and irrigation consulting experience. The guidance is human expert interpretation of integrated data, not an algorithm. It exhibited at WIN Expo Sonoma at booth 431.",
+    "source_urls": [
+      "https://www.avterra.net/",
+      "https://www.wineindustryexpo.com/exhibitors"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "FOSS",
+    "domain": "fossanalytics.com",
+    "hq_location": "Eden Prairie, MN, USA",
+    "vertical": "multiple",
+    "ai_use_case": "analytical instruments and calibration models for wine and beer quality",
+    "ai_maturity": "shipping",
+    "short_description": "FOSS is an analytical instrument maker whose industry lines include a dedicated Wine and beer segment alongside dairy, grain, meat and laboratories. It sells analysers, calibrations and consumables plus a digital services and analytics package layer, and the FOSS IQX platform. The chemometric calibration models behind its instruments are statistical rather than what the company markets as AI. It exhibited at WIN Expo Sonoma at booth 236.",
+    "source_urls": [
+      "https://www.fossanalytics.com/",
+      "https://www.wineindustryexpo.com/exhibitors"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "DH Wine Compliance",
+    "domain": "dhwinecompliance.com",
+    "hq_location": "Windsor, CA, USA",
+    "vertical": "wine",
+    "ai_use_case": "alcohol licensing, reporting and compliance consulting",
+    "ai_maturity": "shipping",
+    "short_description": "DH Wine Compliance is an alcohol industry compliance consultancy in Sonoma County offering licensing, regulatory reporting, consulting and training classes to wineries. It is a services firm, not a software vendor, and makes no technology or AI claim; it matters to the beverage data landscape as one of the compliance intermediaries that actually produce winery regulatory filings. It exhibited at WIN Expo Sonoma at booth 338.",
+    "source_urls": [
+      "https://www.dhwinecompliance.com/",
+      "https://www.wineindustryexpo.com/exhibitors"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "Wine Compliance Alliance",
+    "domain": "winecompliancealliance.com",
+    "hq_location": "Napa, CA, USA",
+    "vertical": "wine",
+    "ai_use_case": "winery compliance file management and TTB training",
+    "ai_maturity": "shipping",
+    "short_description": "Wine Compliance Alliance works with wineries to organise and manage the regulatory record of each wine from grape to bottle, covering new licensing, ongoing compliance maintenance and TTB training courses such as harvest tracking and reporting. It either manages the files on the winery's behalf or trains the winery to do it. This is a consulting and training practice with no software product and no AI claim. It exhibited at WIN Expo Sonoma at booth 120.",
+    "source_urls": [
+      "https://www.winecompliancealliance.com/",
+      "https://www.wineindustryexpo.com/exhibitors"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "Chunpoong Brewery (춘풍양조장)",
+    "domain": "chunpoong.co.kr",
+    "hq_location": "Jung-gu, Seoul, South Korea",
+    "vertical": "multiple",
+    "ai_use_case": "aiot fermentation control for makgeolli",
+    "ai_maturity": "shipping",
+    "short_description": "Seoul makgeolli brewery that built the Makgeolli Brewing Technology System (MBTS), an IoT sensor layer feeding an AI model that controls the parallel saccharification and fermentation process in real time. The model was trained on decades of process data supplied by Beonam Brewery, a traditional producer operating since 1919 whose CEO Joong Sul Bae co-founded Chunpoong. Its own site describes applying semiconductor-style precision process control and AIoT to fermentation science, and it is the first makgeolli brewery in Seoul open to the public.",
+    "source_urls": [
+      "https://chunpoong.co.kr/",
+      "https://www.epicureasia.com/drinks/39081/chunpoong-brewery-safeguards-makgeollis-future-marrying-tradition-with-cutting-edge-ai/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "key_people": "Wonho Kim (Owner), Joong Sul Bae (Co-founder, CEO of Beonam Brewery)",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "SAKENOVA (Sakeai Inc. / サケノヴァ)",
+    "domain": "sakenova.com",
+    "hq_location": "Niigata, Japan",
+    "founded_year": 2020,
+    "vertical": "multiple",
+    "ai_use_case": "iot sensing and data analytics for sake fermentation",
+    "ai_maturity": "pilot",
+    "short_description": "Premium sake brand run by Sakeai Inc., founded 2020 in Niigata by Daichi Niiyama, a former AI engineer who became the brewery's toji. The company states in its own December 2025 release that it uses IoT sensors and AI-optimised fermentation to visualise the process and cut manufacturing labour cost by about 40 percent. Its public site describes rigorous temperature management and analysis but does not detail the model, so the machine-learning claim rests on the company's own announcement rather than published technical evidence.",
+    "source_urls": [
+      "https://sakenova.com/pages/about",
+      "https://www.acnnewswire.com/press-release/english/104230/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "key_people": "Daichi Niiyama (Founder, CEO and Master Brewer)",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Kyoto Electronics Manufacturing (KEM / 京都電子工業)",
+    "domain": "kem.kyoto",
+    "hq_location": "Kyoto, Japan",
+    "vertical": "multiple",
+    "ai_use_case": "none claimed, oscillating tube density and alcohol analysis",
+    "short_description": "Japanese laboratory instrument maker that has built oscillating-tube density analysers since 1978. Its DA-155 sake alcohol analyser has long been sold to Japanese sake breweries, most of them small family businesses, and the derived ALM-155 benchtop alcohol meter serves oenology, spirits and beer labs. The company makes no AI or machine-learning claim; it is a measurement and lab-data source for Asian brewing and distilling QC.",
+    "source_urls": [
+      "https://www.kem.kyoto/en/products/exclus/alm_155/",
+      "https://www.kem.kyoto/en/company/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Atago (株式会社アタゴ)",
+    "domain": "atago.net",
+    "vertical": "multiple",
+    "ai_use_case": "none claimed, refractometry and inline concentration measurement",
+    "short_description": "Japanese maker of refractometers, Brix meters, inline concentration monitors, pH meters and viscometers, with a dedicated product selector for Japanese sake alcohol measurement alongside beer and wine applications. Its instruments are a standard source of gravity and concentration data on Asian brewing and sake production floors. The company makes no AI or machine-learning claim.",
+    "source_urls": [
+      "https://www.atago.net/en/usage/products-alcoholic-drink-japanesesake_alcohol.php",
+      "https://www.atago.net/en/index.php"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "YoLong Brewtech",
+    "domain": "yolongbrewtech.com",
+    "hq_location": "Ningbo, Zhejiang, China",
+    "vertical": "beer",
+    "ai_use_case": "none claimed, plc brewery control and process automation",
+    "short_description": "Chinese brewery equipment manufacturer in Xiangshan County, Ningbo, supplying nano, micro, brewpub and commercial brewing systems plus in-house automated control systems. Its control panels are built on Siemens, Allen-Bradley and Omron platforms with CE and UL certification, and range from semi-automatic temperature controllers for nano breweries up to full PLC and HMI brewhouse automation. No AI or machine-learning claim is made; the value is process data capture and batch-to-batch consistency control.",
+    "source_urls": [
+      "https://yolongbrewtech.com/automated-brewery-control-systems/",
+      "https://yolongbrewtech.com/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Micet Group (Micet Craft)",
+    "domain": "micetgroup.com",
+    "hq_location": "Jinan, Shandong, China",
+    "vertical": "multiple",
+    "ai_use_case": "none claimed, brewery automation and control systems",
+    "short_description": "Jinan-based manufacturer of small batch, microbrewery and commercial brewing systems, plus distillery, cidery and winery vessels, sold internationally in eleven site languages. It supplies brewery automation and control systems covering temperature, pressure, flow and pH control from raw material intake through packaging, and publishes technical guidance on PLC automation for breweries. The company makes no AI or machine-learning claim.",
+    "source_urls": [
+      "https://www.micetgroup.com/brewery-automation-control-system/",
+      "https://www.micetcraft.com/plc-automation-systems-in-breweries/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Explorex",
+    "domain": "explorex.co",
+    "hq_location": "Bangalore, India",
+    "vertical": "beer",
+    "ai_use_case": "consumption intelligence for taproom and keg operations",
+    "funding_stage": "Y Combinator backed",
+    "short_description": "Indian restaurant and brewery operating system, run as Explorex Technologies Pvt Ltd in Bangalore with a US entity in San Francisco, and says it serves over 300 breweries. The brewery product covers taproom POS, QR ordering, real-time liquor and keg inventory tracking, GST billing and Swiggy and Zomato integration. It markets itself as an AI operating system for dining out and offers a Consumption Intelligence module, but names no specific machine-learning model on its brewery pages.",
+    "source_urls": [
+      "https://explorex.co/solutions/breweries",
+      "https://explorex.co/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Flutebyte Technologies",
+    "domain": "flutebyte.com",
+    "hq_location": "Howrah, West Bengal, India",
+    "vertical": "whiskey",
+    "ai_use_case": "none claimed, distillery erp with excise record keeping",
+    "short_description": "Indian software company selling a distillery ERP that covers raw material intake, fermentation, distillation, blending, bottling, QC, warehouse, excise records and dispatch in one system. It targets Indian distilleries still running on manual registers and disconnected spreadsheets, and markets excise-ready reporting and a live production dashboard tracking yield efficiency, active batches and tank levels. No AI or machine-learning claim is made; it is a system of record and compliance tool.",
+    "source_urls": [
+      "https://flutebyte.com/distillery-erp-solution/",
+      "https://flutebyte.com/contact/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Midhunatech (Midhuna Controls)",
+    "domain": "midhunatech.net",
+    "hq_location": "India",
+    "vertical": "whiskey",
+    "ai_use_case": "none claimed, distillery erp with scada and plc data acquisition",
+    "short_description": "Indian vendor of an enterprise distillery ERP integrated with SCADA, taking live PLC and DCS data from ethanol distillery plants into production, quality, accounting, HRMS and supply chain modules. It advertises weighbridge automation, biometric integration, excise compliance and CPCB-ready environmental reporting, with live dashboards for fermenter status, ethanol output and recovery percentage. No AI or machine-learning claim is made; the value is plant-floor data acquisition and regulatory reporting.",
+    "source_urls": [
+      "https://midhunatech.net/",
+      "https://flutebyte.com/distillery-erp-solution/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Atharva Solutions (Distillery 360)",
+    "domain": "atharvasolutions.co.in",
+    "hq_location": "India",
+    "vertical": "whiskey",
+    "ai_use_case": "none claimed, distillery erp and operational analytics",
+    "short_description": "Indian ERP vendor whose Distillery 360 platform serves distilleries and ethanol producers, uniting sourcing, procurement, finance and cost accounting, sales and analytics in a single dashboard. It is positioned for the Indian distillery and ethanol blending market rather than as a global product. The site claims trust, security and compliance as differentiators and makes no AI or machine-learning claim.",
+    "source_urls": [
+      "https://www.atharvasolutions.co.in/distillery",
+      "https://www.atharvasolutions.co.in/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Vizanar Advisors",
+    "domain": "vizanar.com",
+    "hq_location": "Bangalore, India",
+    "vertical": "multiple",
+    "ai_use_case": "none claimed, alcobev strategy and operations advisory",
+    "short_description": "Bangalore-headquartered alcoholic beverage consulting firm advising distillers, breweries, bottlers and raw ingredient producers across financial, operational and strategic functions. It is led by Vijay Rekhi, former Managing Director of United Spirits Limited, now Diageo India, and works on blending, brand development and launch, and business scale-up. It makes no AI or data-product claim; it is included as a significant advisory node in the Indian alcobev market.",
+    "source_urls": [
+      "https://vizanar.com/",
+      "https://vizanar.com/about-us"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "key_people": "Vijay Rekhi (Leader, former Managing Director of United Spirits Limited)",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "INDOBREW",
+    "domain": "indobrews.com",
+    "hq_location": "India",
+    "vertical": "multiple",
+    "ai_use_case": "none claimed, brewery and distillery setup consulting",
+    "short_description": "Indian brewery and alcoholic beverage consultancy with a team citing over 35 years of combined experience across commercial breweries, microbreweries, distilleries, IMFL whiskey, rum and vodka, cider and seltzer projects. Services span feasibility and capacity analysis, equipment configuration, contract brewing and IMFL bottling, recipe formulation and pilot scale work, QC, production and bottling SOPs, and head brewer services. It makes no AI or data-product claim.",
+    "source_urls": [
+      "https://www.indobrews.com/consultations",
+      "https://www.indobrews.com/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Pernod Ricard",
+    "domain": "pernod-ricard.com",
+    "hq_location": "Paris, France",
+    "founded_year": 1975,
+    "vertical": "multiple",
+    "ai_use_case": "pricing, promotion and revenue growth management analytics",
+    "ai_maturity": "shipping",
+    "short_description": "World number two wine and spirits group (Jameson, The Glenlivet, Chivas, Absolut, Martell, Jacob's Creek) that has built data and AI capability in-house rather than buying it. Its IT Data Center of Excellence has developed a group Data Portal since 2015, later opened up as a joint venture product with JCDecaux. It was ranked the leading European and fourth global consumer goods company for in-house data and AI talent in the 2024 AlixPartners and Darwin X Data and AI Human Capital Report. A 2024 MLOps conference profile of its data science team states the group has predictive and prescriptive models deployed in production across most of its 160 markets, and its data scientists present production Bayesian modelling work for pricing and promotion; the specific models are not detailed publicly on the company site.",
+    "source_urls": [
+      "https://www.pernod-ricard.com/en/media/pernod-ricard-rated-top-european-company-2024-data-ai-human-capital-report-world-rankings",
+      "https://www.pernod-ricard.com/en/media/pernod-ricard-and-jcdecaux-sign-unprecedented-data-technical-alliance",
+      "https://conference-mlops.com/speakers/solene-bergaire/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "key_people": "Solene Bergaire (Senior Data Scientist)",
+    "people": [
+      {
+        "name": "Solene Bergaire",
+        "role": "Senior Data Scientist, revenue growth management, pricing and promotion",
+        "linkedin": "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108"
+      }
+    ],
+    "discovered_by": "scout:people",
+    "verified": false
+  },
+  {
+    "name": "Southern Glazer's Wine & Spirits",
+    "domain": "southernglazers.com",
+    "hq_location": "Miami, Florida, USA",
+    "founded_year": 2016,
+    "vertical": "multiple",
+    "ai_use_case": "distributor data platform and commercial analytics",
+    "ai_maturity": "pilot",
+    "short_description": "The largest wine and spirits distributor in the United States, operating in 44 states, DC and Canada, and the operator of Proof, its B2B ordering platform used by licensed on and off premise buyers. In March 2024 it announced a new Enterprise Data Center of Excellence and hired four data leaders, including a Head of Data Science, AI and Machine Learning, explicitly to build an enterprise AI and ML strategy. Its own website makes no explicit machine learning claim: the IT and Proof pages describe an omni-channel ordering experience, supply chain solutions, industry insights and personalised product lists, with no model or ML capability named. Treat the AI claim as an announced programme rather than an evidenced shipping product.",
+    "source_urls": [
+      "https://www.southernglazers.com/careers/Information-technology",
+      "https://www.southernglazers.com/become-a-customer/about-proof",
+      "https://web.archive.org/web/20250723230216/https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "key_people": "Duan Peng (SVP, Head of Data Science, AI and Machine Learning)",
+    "people": [
+      {
+        "name": "Tom Kornegay",
+        "role": "SVP, Head of Data, Analytics and Insights",
+        "linkedin": null
+      },
+      {
+        "name": "Duan Peng",
+        "role": "SVP, Head of Data Science, AI and Machine Learning",
+        "linkedin": null
+      },
+      {
+        "name": "Bharathi Sampangi",
+        "role": "VP, Data Platforms and Services",
+        "linkedin": null
+      }
+    ],
+    "discovered_by": "scout:people",
+    "verified": false
   }
 ]
