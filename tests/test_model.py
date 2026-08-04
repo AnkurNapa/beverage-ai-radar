@@ -27,3 +27,21 @@ def test_company_key_uses_dedup_key():
         last_seen=date(2026, 1, 1),
     )
     assert c.key == "acme-ai.com"
+
+
+def test_every_bool_field_is_registered_for_the_sqlite_round_trip():
+    """An unregistered bool becomes the string "True"/"False" in the export.
+
+    That is not cosmetic: the dashboard tests `=== false`, so a stringified
+    flag made a former role render as current employment.
+    """
+    from dataclasses import fields
+    from radar.model import Company
+    from radar.store import _BOOL_FIELDS
+
+    declared = {
+        f.name for f in fields(Company)
+        if "bool" in str(f.type).lower()
+    }
+    missing = declared - set(_BOOL_FIELDS)
+    assert not missing, f"bool fields missing from _BOOL_FIELDS: {sorted(missing)}"

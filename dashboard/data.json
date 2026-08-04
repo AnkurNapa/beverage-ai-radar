@@ -156,6 +156,58 @@
     "scope": "beverage-native"
   },
   {
+    "name": "IntelligentX",
+    "domain": null,
+    "hq_location": "London, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "recipe / flavor prediction",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Hew Leith (Co-Founder), Rob McInerney (Co-Founder)",
+    "people": [
+      {
+        "name": "Hew Leith",
+        "role": "Co-Founder",
+        "linkedin": "https://uk.linkedin.com/in/hewleith"
+      },
+      {
+        "name": "Rob McInerney",
+        "role": "Co-Founder",
+        "linkedin": "https://uk.linkedin.com/in/remcinerney"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "London brewing venture that used reinforcement learning and Bayesian optimization on customer feedback to iterate beer recipes. Credited with the first beer brewed with the help of AI in 2016.",
+    "source_urls": [
+      "https://www.beveragedaily.com/Article/2016/08/09/IntelligentX-beer-brewed-by-artificial-intelligence-AI/",
+      "https://www.digitaltrends.com/cool-tech/ai-beer-intelligentx-brewing-company/",
+      "https://www.forbes.com/sites/bernardmarr/2019/02/01/how-artificial-intelligence-is-used-to-make-beer/"
+    ],
+    "first_seen": "2016-07-15",
+    "last_seen": "2019-02-01",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "intelligentx::united-kingdom",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
     "name": "Deep Liquid",
     "domain": "deepliquid.ai",
     "hq_location": "Adelaide, Australia",
@@ -315,6 +367,57 @@
       "AI & ML"
     ],
     "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Mackmyra",
+    "domain": "mackmyra.com",
+    "hq_location": "Gavle, Sweden",
+    "founded_year": 1999,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": null,
+    "ai_use_case": "recipe / flavor prediction",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Magnus Dandanell (CEO, Co-Founder), Angela D'Orazio (Master Blender)",
+    "people": [
+      {
+        "name": "Magnus Dandanell",
+        "role": "CEO, Co-Founder",
+        "linkedin": "https://se.linkedin.com/in/magnusdandanell-3a8389178"
+      },
+      {
+        "name": "Angela D'Orazio",
+        "role": "Master Blender",
+        "linkedin": "https://se.linkedin.com/in/angela-d-orazio-6a306761"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Swedish distillery that partnered with Microsoft and Fourkind to build machine learning models on Azure that generated whisky recipes, releasing Intelligens, billed as the first AI-created whisky, in 2019.",
+    "source_urls": [
+      "https://news.microsoft.com/europe/features/meet-the-worlds-first-ai-created-whisky/",
+      "https://scotchwhisky.com/magazine/latest-news/27140/mackmyra-launches-first-ai-created-whisky/"
+    ],
+    "first_seen": "2019-06-19",
+    "last_seen": "2019-06-19",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "mackmyra.com",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Sweden",
     "scope": "beverage-native"
   },
   {
@@ -518,6 +621,56 @@
     "scope": "beverage-native"
   },
   {
+    "name": "Bespoken Spirits",
+    "domain": "bespokenspirits.com",
+    "hq_location": "Campbell, United States",
+    "founded_year": 2018,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": null,
+    "ai_use_case": "recipe / flavor prediction",
+    "ai_maturity": "shipping",
+    "funding_stage": "Seed",
+    "total_raised": "$2.6M",
+    "key_people": "Scott Savage (CEO), James Lew (Senior Director, Data Science)",
+    "people": [
+      {
+        "name": "Scott Savage",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/scott-savage-bb3402a"
+      },
+      {
+        "name": "James Lew",
+        "role": "Senior Director, Data Science",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Silicon Valley spirits company using a data-driven, machine-learning-guided maturation process called ACTivation to accelerate whiskey aging and dial in specific flavor, aroma and color profiles in days.",
+    "source_urls": [
+      "https://techcrunch.com/2020/10/07/bespoken-spirits-raises-2-6m-in-seed-funding-to-combine-machine-learning-and-accelerated-whiskey-aging/",
+      "https://www.crunchbase.com/organization/bespoken-spirits",
+      "https://www.hbs.edu/faculty/Pages/item.aspx?num=59548"
+    ],
+    "first_seen": "2018-01-01",
+    "last_seen": "2020-10-07",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "bespokenspirits.com",
+    "theme": "Sensory & recipe",
+    "capabilities": [],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
     "name": "Aromyx",
     "domain": "aromyx.com",
     "hq_location": null,
@@ -568,6 +721,63 @@
       "AI & ML"
     ],
     "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Bright Cellars",
+    "domain": "brightcellars.com",
+    "hq_location": "Milwaukee, United States",
+    "founded_year": 2014,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "sensory",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Joe Megibow (CEO), Richard Yau (Co-founder), Joe Laurendi (Co-founder)",
+    "people": [
+      {
+        "name": "Joe Megibow",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/megibow"
+      },
+      {
+        "name": "Richard Yau",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/richardsyau"
+      },
+      {
+        "name": "Joe Laurendi",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/jlaurendi"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Online wine club founded by MIT graduates whose Bright Points machine learning algorithm compares 18 wine attributes and member ratings to personalize monthly wine recommendations.",
+    "source_urls": [
+      "https://news.mit.edu/2015/alumni-wine-matching-startup-bright-cellars-0903",
+      "https://www.predictiveanalyticsworld.com/machinelearningtimes/analytics-make-bright-cellars-pandora-wine-clubs/8776/"
+    ],
+    "first_seen": "2015-09-03",
+    "last_seen": "2017-05-24",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "brightcellars.com",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United States",
     "scope": "beverage-native"
   },
   {
@@ -627,6 +837,59 @@
       "BI & analytics"
     ],
     "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Vivino",
+    "domain": "vivino.com",
+    "hq_location": "San Francisco, United States",
+    "founded_year": 2010,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "sensory",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Heini Zachariassen (Co-founder and past CEO), Theis Sondergaard (Co-founder)",
+    "people": [
+      {
+        "name": "Heini Zachariassen",
+        "role": "Co-founder and past CEO",
+        "linkedin": "https://www.linkedin.com/in/heini"
+      },
+      {
+        "name": "Theis Sondergaard",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/theissondergaard"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "World's largest wine app, using image recognition to scan labels and a machine learning recommendation engine that builds a Match For You score from a user's scanning, rating and purchase history.",
+    "source_urls": [
+      "https://money.cnn.com/2017/08/01/smallbusiness/vivino-wine-app/index.html",
+      "https://www.ptc.com/en/case-studies/vivino",
+      "https://www.vivino.com/en/wine-news/how-the-vivino-label-scanner-works"
+    ],
+    "first_seen": "2010-01-01",
+    "last_seen": "2017-08-01",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "vivino.com",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United States",
     "scope": "beverage-native"
   },
   {
@@ -858,6 +1121,53 @@
     "scope": "beverage-native"
   },
   {
+    "name": "Carlsberg",
+    "domain": "carlsberggroup.com",
+    "hq_location": "Copenhagen, Denmark",
+    "founded_year": 1847,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "recipe / flavor prediction",
+    "ai_maturity": "research",
+    "funding_stage": "public",
+    "total_raised": null,
+    "key_people": "Jacob Aarup-Andersen (CEO)",
+    "people": [
+      {
+        "name": "Jacob Aarup-Andersen",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/jacob-aarup-andersen"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Carlsberg's Research Laboratory runs the Beer Fingerprinting project, using high-tech flavor sensors with Aarhus University, DTU and Microsoft machine learning to map ingredient flavor profiles and predict how a new beer will taste. The aim is to cut taste-combination research time by up to a third.",
+    "source_urls": [
+      "https://news.microsoft.com/europe/2017/12/05/beer-fingerprinting-project-artificial-intelligence-create-next-pint/",
+      "https://www.beveragedaily.com/Article/2017/11/07/Carlsberg-turns-to-artificial-intelligence-in-Beer-Fingerprinting-project/"
+    ],
+    "first_seen": "2017-11-07",
+    "last_seen": "2018-10-15",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "carlsberggroup.com",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Denmark",
+    "scope": "beverage-native"
+  },
+  {
     "name": "Anheuser-Busch InBev",
     "domain": "ab-inbev.com",
     "hq_location": "Leuven, Belgium",
@@ -878,7 +1188,7 @@
       }
     ],
     "notable_customers_partners": null,
-    "short_description": "AB InBev applied machine learning (Google TensorFlow, via Pluto7) to filtration sensor data at its Newark brewery, increasing barrelage per filter run by about 60 percent while stabilizing beer taste. Its Beck's brand also released Autonomous, a beer with a recipe and branding generated by AI.",
+    "short_description": "AB InBev applied machine learning (Google TensorFlow, via Pluto7) to filtration sensor data at its Newark brewery, increasing barrelage per filter run by about 60 percent while stabilizing beer taste. Its Beck's brand also released Autonomous, a beer with a recipe and branding generated by AI. Its current flagship digital asset is BEES, a proprietary B2B platform that has digitized its relationship with millions of retailers worldwide and is now offered to partners; AB InBev states no AI or machine-learning claim for BEES itself, so it is recorded here as digitization and route-to-market data, not as an AI product.",
     "source_urls": [
       "https://cloud.google.com/customers/abinbev-pluto7",
       "https://www.ab-inbev.com/about-us/what-we-do/innovation",
@@ -1250,6 +1560,58 @@
     "scope": "beverage-native"
   },
   {
+    "name": "Deschutes Brewery",
+    "domain": "deschutesbrewery.com",
+    "hq_location": "Bend, United States",
+    "founded_year": 1988,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "fermentation optimization",
+    "ai_maturity": "shipping",
+    "funding_stage": "private",
+    "total_raised": null,
+    "key_people": "Gary Fish (Founder), Peter Skrbek (CEO)",
+    "people": [
+      {
+        "name": "Gary Fish",
+        "role": "Founder",
+        "linkedin": "https://www.linkedin.com/in/gary-fish-33865917"
+      },
+      {
+        "name": "Peter Skrbek",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/peter-skrbek-104a3615"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Deschutes Brewery uses a machine learning system built on OSIsoft PI and Microsoft Azure (Cortana Intelligence) to predict fermentation phase transition times across its tanks, cutting fermentation by 24 to 48 hours and deferring a 750,000 dollar chiller purchase by staggering cooling load.",
+    "source_urls": [
+      "https://fsd.servicemax.com/2017/06/06/deschutes-brewing-perfect-pint-iot/",
+      "https://news.microsoft.com/transform/how-data-and-ai-are-helping-deschutes-brewery-respond-to-beer-trends-faster/"
+    ],
+    "first_seen": "2017-06-06",
+    "last_seen": "2019-08-12",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "deschutesbrewery.com",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
     "name": "Vivid Machines",
     "domain": "vividmachines.com",
     "hq_location": "Toronto, Canada",
@@ -1562,6 +1924,46 @@
     "scope": "beverage-native"
   },
   {
+    "name": "Scanopy",
+    "domain": null,
+    "hq_location": "Quincy, France",
+    "founded_year": 2017,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "quality control / computer vision",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "French viticulture startup operating drone fleets and a high-precision 3D modeling solution to diagnose vine condition, anticipate maturity and detect disease, helping growers cut fertilizer and plant-protection inputs.",
+    "source_urls": [
+      "https://lespepitestech.com/startup-de-la-french-tech/scanopy",
+      "https://www.reussir.fr/vigne/scanopy-democratise-lusage-des-drones-en-viticulture"
+    ],
+    "first_seen": "2017-01-01",
+    "last_seen": "2019-06-01",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "scanopy::france",
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "France",
+    "scope": "beverage-native"
+  },
+  {
     "name": "Firstleaf",
     "domain": "firstleaf.com",
     "hq_location": "Napa, United States",
@@ -1859,6 +2261,58 @@
       "AI & ML",
       "ERP & systems of record",
       "BI & analytics"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Circumstance Distillery",
+    "domain": "circumstancedistillery.com",
+    "hq_location": "Bristol, United Kingdom",
+    "founded_year": 2018,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": null,
+    "ai_use_case": "recipe / flavor prediction",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Liam Hirt (Co-founder), Danny Walker (Co-founder and Distiller)",
+    "people": [
+      {
+        "name": "Liam Hirt",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/liamhirt"
+      },
+      {
+        "name": "Danny Walker",
+        "role": "Co-founder and Distiller",
+        "linkedin": "https://www.linkedin.com/in/danny-walker-distiller"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Organic Bristol spirits producer that worked with AI firms Tiny Giant and Rewrite Digital to build a neural network named Ginette which designed the recipe for Monker's Garkel, promoted as the world's first AI-created gin.",
+    "source_urls": [
+      "https://techspark.co/blog/2019/11/18/monkers-garkel-the-worlds-first-ai-gin-developed-in-bristol/",
+      "https://www.circumstancedistillery.com/",
+      "https://www.thespiritsbusiness.com/2019/11/circumstance-distillery-unveils-worlds-first-ai-gin/"
+    ],
+    "first_seen": "2019-11-05",
+    "last_seen": "2020-07-01",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "circumstancedistillery.com",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
     ],
     "country": "United Kingdom",
     "scope": "beverage-native"
@@ -2276,7 +2730,7 @@
   {
     "name": "Pluto7",
     "domain": "pluto7.com",
-    "hq_location": "Mountain View, United States",
+    "hq_location": "Mountain View, United States (delivery centre in Bengaluru, India)",
     "founded_year": 2017,
     "size_employees": null,
     "vertical": "beer",
@@ -2304,7 +2758,7 @@
       }
     ],
     "notable_customers_partners": null,
-    "short_description": "AI and machine learning consultancy on Google Cloud that builds supply chain and manufacturing planning solutions for producers. Delivered a machine learning model to optimize beer filtration and demand forecasting for brewer AB InBev.",
+    "short_description": "AI and machine learning consultancy and Google Cloud Premier Partner building supply chain and manufacturing planning solutions, with specialisations in Machine Learning, Analytics and Application Development across North America and APAC, and an office and employee base in Bengaluru, India. Products include Planning in a Box and the Pi Agent agentic platform, positioned to co-exist with SAP, Oracle and Salesforce. Delivered the machine learning model that optimised beer filtration and demand forecasting for AB InBev.",
     "source_urls": [
       "https://pluto7.com/about-us/",
       "https://pluto7.com/googlecloud/ab-inbev-with-machine-learning-this-buds-for-you/"
@@ -2325,9 +2779,10 @@
     "theme": "Consulting",
     "capabilities": [
       "AI & ML",
+      "BI & analytics",
       "Consultancy & services"
     ],
-    "country": "United States",
+    "country": "India)",
     "scope": "beverage-native"
   },
   {
@@ -3654,7 +4109,7 @@
     "name": "Bar Analytics",
     "domain": "baranalytics.co.uk",
     "hq_location": "London, United Kingdom",
-    "founded_year": 2018,
+    "founded_year": null,
     "size_employees": null,
     "vertical": "beer",
     "company_type": "product",
@@ -3662,22 +4117,16 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": "Rob Scambler (Sales contact)",
+    "key_people": null,
     "people": [],
     "notable_customers_partners": null,
     "short_description": "Bar Analytics runs a beer analytics platform that provides real-time sales and quality data with AI insights on beer performance globally.",
     "source_urls": [
-      "https://appsource.microsoft.com/en/product/dynamics-365-business-central/pubid.norriq-1020462%7Caid.drink-it%7Cpappid.0ca2d0ae-f000-42d0-abd9-5cb570282916?tab=overview",
-      "https://businesswales.gov.wales/expertisewales/product/smart-container-company-ltd/smart-cymru-supports-smart-container-company-ltd-develop",
-      "https://catalyst-erp.co.uk/netsuite-apps/bottle-erp",
-      "https://catalyst-erp.co.uk/sector/distilleries",
-      "https://node4.co.uk/beverage-erp",
       "https://www.baranalytics.co.uk/",
-      "https://www.drinktec.com/en-US/exhibitors-and-products/",
-      "https://www.smartcontainer.co.uk/"
+      "https://www.drinktec.com/en-US/exhibitors-and-products/"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-08-04",
+    "last_seen": "2026-07-21",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -4083,968 +4532,6 @@
       "BI & analytics"
     ],
     "country": "India",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Ankur Napa",
-    "domain": null,
-    "hq_location": "Bangalore, India",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "multiple",
-    "company_type": "individual",
-    "ai_use_case": "AI/ML tooling for brewing and beverage: recipe/flavor prediction, sensory analytics, consumer-review NLP, demand forecasting; ships hands-on web apps and calculators",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Ankur Napa (Independent builder \u2014 brewing data science & AI)",
-    "people": [
-      {
-        "name": "Ankur Napa",
-        "role": "Independent builder \u2014 brewing data science & AI",
-        "linkedin": "https://www.linkedin.com/in/ankur-napa/"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Brewmaster-turned-data-scientist (ex-AB InBev, SABMiller, United Breweries) building AI/data tools across beer, whiskey and wine as an independent practitioner. Founder of iWort; ships open web apps (brewing calculators, flavor-forge, brewery analytics) and writes on the gap between the number and the floor reality.",
-    "source_urls": [
-      "https://ankurnapa.github.io/",
-      "https://github.com/AnkurNapa",
-      "https://www.linkedin.com/in/ankur-napa/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "status": "active",
-    "linkedin_url": "https://www.linkedin.com/in/ankur-napa/",
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": "iWort",
-    "affiliated_company_current": "True",
-    "key": "ankur-napa::india",
-    "theme": "Sensory & recipe",
-    "capabilities": [
-      "IoT & sensing",
-      "AI & ML",
-      "BI & analytics"
-    ],
-    "country": "India",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "IntelligentX",
-    "domain": null,
-    "hq_location": "London, United Kingdom",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "beer",
-    "company_type": null,
-    "ai_use_case": "recipe / flavor prediction",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Hew Leith (Co-Founder), Rob McInerney (Co-Founder)",
-    "people": [
-      {
-        "name": "Hew Leith",
-        "role": "Co-Founder",
-        "linkedin": "https://uk.linkedin.com/in/hewleith"
-      },
-      {
-        "name": "Rob McInerney",
-        "role": "Co-Founder",
-        "linkedin": "https://uk.linkedin.com/in/remcinerney"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "London brewing venture that used reinforcement learning and Bayesian optimization on customer feedback to iterate beer recipes. Credited with the first beer brewed with the help of AI in 2016.",
-    "source_urls": [
-      "https://www.beveragedaily.com/Article/2016/08/09/IntelligentX-beer-brewed-by-artificial-intelligence-AI/",
-      "https://www.digitaltrends.com/cool-tech/ai-beer-intelligentx-brewing-company/",
-      "https://www.forbes.com/sites/bernardmarr/2019/02/01/how-artificial-intelligence-is-used-to-make-beer/"
-    ],
-    "first_seen": "2016-07-15",
-    "last_seen": "2019-02-01",
-    "status": "dormant",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "intelligentx::united-kingdom",
-    "theme": "Sensory & recipe",
-    "capabilities": [
-      "AI & ML"
-    ],
-    "country": "United Kingdom",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Mackmyra",
-    "domain": "mackmyra.com",
-    "hq_location": "Gavle, Sweden",
-    "founded_year": 1999,
-    "size_employees": null,
-    "vertical": "whiskey",
-    "company_type": null,
-    "ai_use_case": "recipe / flavor prediction",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Magnus Dandanell (CEO, Co-Founder), Angela D'Orazio (Master Blender)",
-    "people": [
-      {
-        "name": "Magnus Dandanell",
-        "role": "CEO, Co-Founder",
-        "linkedin": "https://se.linkedin.com/in/magnusdandanell-3a8389178"
-      },
-      {
-        "name": "Angela D'Orazio",
-        "role": "Master Blender",
-        "linkedin": "https://se.linkedin.com/in/angela-d-orazio-6a306761"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Swedish distillery that partnered with Microsoft and Fourkind to build machine learning models on Azure that generated whisky recipes, releasing Intelligens, billed as the first AI-created whisky, in 2019.",
-    "source_urls": [
-      "https://news.microsoft.com/europe/features/meet-the-worlds-first-ai-created-whisky/",
-      "https://scotchwhisky.com/magazine/latest-news/27140/mackmyra-launches-first-ai-created-whisky/"
-    ],
-    "first_seen": "2019-06-19",
-    "last_seen": "2019-06-19",
-    "status": "dormant",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "mackmyra.com",
-    "theme": "Sensory & recipe",
-    "capabilities": [
-      "AI & ML"
-    ],
-    "country": "Sweden",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Bespoken Spirits",
-    "domain": "bespokenspirits.com",
-    "hq_location": "Campbell, United States",
-    "founded_year": 2018,
-    "size_employees": null,
-    "vertical": "whiskey",
-    "company_type": null,
-    "ai_use_case": "recipe / flavor prediction",
-    "ai_maturity": "shipping",
-    "funding_stage": "Seed",
-    "total_raised": "$2.6M",
-    "key_people": "Scott Savage (CEO), James Lew (Senior Director, Data Science)",
-    "people": [
-      {
-        "name": "Scott Savage",
-        "role": "CEO",
-        "linkedin": "https://www.linkedin.com/in/scott-savage-bb3402a"
-      },
-      {
-        "name": "James Lew",
-        "role": "Senior Director, Data Science",
-        "linkedin": null
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Silicon Valley spirits company using a data-driven, machine-learning-guided maturation process called ACTivation to accelerate whiskey aging and dial in specific flavor, aroma and color profiles in days.",
-    "source_urls": [
-      "https://techcrunch.com/2020/10/07/bespoken-spirits-raises-2-6m-in-seed-funding-to-combine-machine-learning-and-accelerated-whiskey-aging/",
-      "https://www.crunchbase.com/organization/bespoken-spirits",
-      "https://www.hbs.edu/faculty/Pages/item.aspx?num=59548"
-    ],
-    "first_seen": "2018-01-01",
-    "last_seen": "2020-10-07",
-    "status": "dormant",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "bespokenspirits.com",
-    "theme": "Sensory & recipe",
-    "capabilities": [],
-    "country": "United States",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Bright Cellars",
-    "domain": "brightcellars.com",
-    "hq_location": "Milwaukee, United States",
-    "founded_year": 2014,
-    "size_employees": null,
-    "vertical": "wine",
-    "company_type": null,
-    "ai_use_case": "sensory",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Joe Megibow (CEO), Richard Yau (Co-founder), Joe Laurendi (Co-founder)",
-    "people": [
-      {
-        "name": "Joe Megibow",
-        "role": "CEO",
-        "linkedin": "https://www.linkedin.com/in/megibow"
-      },
-      {
-        "name": "Richard Yau",
-        "role": "Co-founder",
-        "linkedin": "https://www.linkedin.com/in/richardsyau"
-      },
-      {
-        "name": "Joe Laurendi",
-        "role": "Co-founder",
-        "linkedin": "https://www.linkedin.com/in/jlaurendi"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Online wine club founded by MIT graduates whose Bright Points machine learning algorithm compares 18 wine attributes and member ratings to personalize monthly wine recommendations.",
-    "source_urls": [
-      "https://news.mit.edu/2015/alumni-wine-matching-startup-bright-cellars-0903",
-      "https://www.predictiveanalyticsworld.com/machinelearningtimes/analytics-make-bright-cellars-pandora-wine-clubs/8776/"
-    ],
-    "first_seen": "2015-09-03",
-    "last_seen": "2017-05-24",
-    "status": "dormant",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "brightcellars.com",
-    "theme": "Sensory & recipe",
-    "capabilities": [
-      "IoT & sensing",
-      "AI & ML"
-    ],
-    "country": "United States",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Vivino",
-    "domain": "vivino.com",
-    "hq_location": "San Francisco, United States",
-    "founded_year": 2010,
-    "size_employees": null,
-    "vertical": "wine",
-    "company_type": null,
-    "ai_use_case": "sensory",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Heini Zachariassen (Co-founder and past CEO), Theis Sondergaard (Co-founder)",
-    "people": [
-      {
-        "name": "Heini Zachariassen",
-        "role": "Co-founder and past CEO",
-        "linkedin": "https://www.linkedin.com/in/heini"
-      },
-      {
-        "name": "Theis Sondergaard",
-        "role": "Co-founder",
-        "linkedin": "https://www.linkedin.com/in/theissondergaard"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "World's largest wine app, using image recognition to scan labels and a machine learning recommendation engine that builds a Match For You score from a user's scanning, rating and purchase history.",
-    "source_urls": [
-      "https://money.cnn.com/2017/08/01/smallbusiness/vivino-wine-app/index.html",
-      "https://www.ptc.com/en/case-studies/vivino",
-      "https://www.vivino.com/en/wine-news/how-the-vivino-label-scanner-works"
-    ],
-    "first_seen": "2010-01-01",
-    "last_seen": "2017-08-01",
-    "status": "dormant",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "vivino.com",
-    "theme": "Sensory & recipe",
-    "capabilities": [
-      "IoT & sensing",
-      "AI & ML"
-    ],
-    "country": "United States",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Carlsberg",
-    "domain": "carlsberggroup.com",
-    "hq_location": "Copenhagen, Denmark",
-    "founded_year": 1847,
-    "size_employees": null,
-    "vertical": "beer",
-    "company_type": null,
-    "ai_use_case": "recipe / flavor prediction",
-    "ai_maturity": "research",
-    "funding_stage": "public",
-    "total_raised": null,
-    "key_people": "Jacob Aarup-Andersen (CEO)",
-    "people": [
-      {
-        "name": "Jacob Aarup-Andersen",
-        "role": "CEO",
-        "linkedin": "https://www.linkedin.com/in/jacob-aarup-andersen"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Carlsberg's Research Laboratory runs the Beer Fingerprinting project, using high-tech flavor sensors with Aarhus University, DTU and Microsoft machine learning to map ingredient flavor profiles and predict how a new beer will taste. The aim is to cut taste-combination research time by up to a third.",
-    "source_urls": [
-      "https://news.microsoft.com/europe/2017/12/05/beer-fingerprinting-project-artificial-intelligence-create-next-pint/",
-      "https://www.beveragedaily.com/Article/2017/11/07/Carlsberg-turns-to-artificial-intelligence-in-Beer-Fingerprinting-project/"
-    ],
-    "first_seen": "2017-11-07",
-    "last_seen": "2018-10-15",
-    "status": "dormant",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "carlsberggroup.com",
-    "theme": "Sensory & recipe",
-    "capabilities": [
-      "IoT & sensing",
-      "AI & ML"
-    ],
-    "country": "Denmark",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Deschutes Brewery",
-    "domain": "deschutesbrewery.com",
-    "hq_location": "Bend, United States",
-    "founded_year": 1988,
-    "size_employees": null,
-    "vertical": "beer",
-    "company_type": null,
-    "ai_use_case": "fermentation optimization",
-    "ai_maturity": "shipping",
-    "funding_stage": "private",
-    "total_raised": null,
-    "key_people": "Gary Fish (Founder), Peter Skrbek (CEO)",
-    "people": [
-      {
-        "name": "Gary Fish",
-        "role": "Founder",
-        "linkedin": "https://www.linkedin.com/in/gary-fish-33865917"
-      },
-      {
-        "name": "Peter Skrbek",
-        "role": "CEO",
-        "linkedin": "https://www.linkedin.com/in/peter-skrbek-104a3615"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Deschutes Brewery uses a machine learning system built on OSIsoft PI and Microsoft Azure (Cortana Intelligence) to predict fermentation phase transition times across its tanks, cutting fermentation by 24 to 48 hours and deferring a 750,000 dollar chiller purchase by staggering cooling load.",
-    "source_urls": [
-      "https://fsd.servicemax.com/2017/06/06/deschutes-brewing-perfect-pint-iot/",
-      "https://news.microsoft.com/transform/how-data-and-ai-are-helping-deschutes-brewery-respond-to-beer-trends-faster/"
-    ],
-    "first_seen": "2017-06-06",
-    "last_seen": "2019-08-12",
-    "status": "dormant",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "deschutesbrewery.com",
-    "theme": "Process & operations",
-    "capabilities": [
-      "AI & ML",
-      "ERP & systems of record"
-    ],
-    "country": "United States",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Scanopy",
-    "domain": null,
-    "hq_location": "Quincy, France",
-    "founded_year": 2017,
-    "size_employees": null,
-    "vertical": "wine",
-    "company_type": null,
-    "ai_use_case": "quality control / computer vision",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": null,
-    "people": [],
-    "notable_customers_partners": null,
-    "short_description": "French viticulture startup operating drone fleets and a high-precision 3D modeling solution to diagnose vine condition, anticipate maturity and detect disease, helping growers cut fertilizer and plant-protection inputs.",
-    "source_urls": [
-      "https://lespepitestech.com/startup-de-la-french-tech/scanopy",
-      "https://www.reussir.fr/vigne/scanopy-democratise-lusage-des-drones-en-viticulture"
-    ],
-    "first_seen": "2017-01-01",
-    "last_seen": "2019-06-01",
-    "status": "dormant",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "scanopy::france",
-    "theme": "Quality & inspection",
-    "capabilities": [
-      "AI & ML"
-    ],
-    "country": "France",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Circumstance Distillery",
-    "domain": "circumstancedistillery.com",
-    "hq_location": "Bristol, United Kingdom",
-    "founded_year": 2018,
-    "size_employees": null,
-    "vertical": "whiskey",
-    "company_type": null,
-    "ai_use_case": "recipe / flavor prediction",
-    "ai_maturity": "pilot",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Liam Hirt (Co-founder), Danny Walker (Co-founder and Distiller)",
-    "people": [
-      {
-        "name": "Liam Hirt",
-        "role": "Co-founder",
-        "linkedin": "https://www.linkedin.com/in/liamhirt"
-      },
-      {
-        "name": "Danny Walker",
-        "role": "Co-founder and Distiller",
-        "linkedin": "https://www.linkedin.com/in/danny-walker-distiller"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Organic Bristol spirits producer that worked with AI firms Tiny Giant and Rewrite Digital to build a neural network named Ginette which designed the recipe for Monker's Garkel, promoted as the world's first AI-created gin.",
-    "source_urls": [
-      "https://techspark.co/blog/2019/11/18/monkers-garkel-the-worlds-first-ai-gin-developed-in-bristol/",
-      "https://www.circumstancedistillery.com/",
-      "https://www.thespiritsbusiness.com/2019/11/circumstance-distillery-unveils-worlds-first-ai-gin/"
-    ],
-    "first_seen": "2019-11-05",
-    "last_seen": "2020-07-01",
-    "status": "dormant",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "circumstancedistillery.com",
-    "theme": "Sensory & recipe",
-    "capabilities": [
-      "AI & ML"
-    ],
-    "country": "United Kingdom",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Bart Watson",
-    "domain": null,
-    "hq_location": "Boulder, Colorado, USA",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "beer",
-    "company_type": "individual",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Bart Watson (President and CEO, former Chief Economist (craft beer market data and analytics) \u2014 Brewers Association)",
-    "people": [
-      {
-        "name": "Bart Watson",
-        "role": "President and CEO, former Chief Economist (craft beer market data and analytics) \u2014 Brewers Association",
-        "linkedin": "https://www.linkedin.com/in/bart-watson/"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "PhD economist who built the Brewers Association's craft beer production, sales, and market intelligence data program and was long the public face of US beer industry statistics.",
-    "source_urls": [
-      "https://www.brewersassociation.org/association-news/bart-watson-named-president-and-chief-executive-officer-of-the-brewers-association/",
-      "https://www.linkedin.com/in/bart-watson/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "status": "active",
-    "linkedin_url": "https://www.linkedin.com/in/bart-watson/",
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": "Brewers Association (Barley assistant)",
-    "affiliated_company_current": "True",
-    "key": "bart-watson::usa",
-    "theme": "Market data & valuation",
-    "capabilities": [
-      "BI & analytics"
-    ],
-    "country": "United States",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Erin Schmidt",
-    "domain": null,
-    "hq_location": "Milwaukee, Wisconsin, USA",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "beer",
-    "company_type": "individual",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Erin Schmidt (Director, Commercial Analytics \u2014 Molson Coors Beverage Company)",
-    "people": [
-      {
-        "name": "Erin Schmidt",
-        "role": "Director, Commercial Analytics \u2014 Molson Coors Beverage Company",
-        "linkedin": "https://www.linkedin.com/in/erin-schmidt-92a18a4/"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Leads commercial and business analytics for Molson Coors across the Americas, with a decade in beverage revenue management and business intelligence.",
-    "source_urls": [
-      "https://business.wisc.edu/centers/nicholas/blog/erin-schmidt-director-commerical-analytics-molson-coors/",
-      "https://www.linkedin.com/in/erin-schmidt-92a18a4/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "status": "active",
-    "linkedin_url": "https://www.linkedin.com/in/erin-schmidt-92a18a4/",
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": "Molson Coors (Atwater Brewery)",
-    "affiliated_company_current": "True",
-    "key": "erin-schmidt::usa",
-    "theme": "Market data & valuation",
-    "capabilities": [
-      "BI & analytics"
-    ],
-    "country": "United States",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Willy Lin",
-    "domain": null,
-    "hq_location": "New York, USA",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "beer",
-    "company_type": "individual",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Willy Lin (Former Product Lead, Tech Supply (brewery data and predictive analytics) \u2014 Amazon (formerly Anheuser-Busch InBev))",
-    "people": [
-      {
-        "name": "Willy Lin",
-        "role": "Former Product Lead, Tech Supply (brewery data and predictive analytics) \u2014 Amazon (formerly Anheuser-Busch InBev)",
-        "linkedin": "https://www.linkedin.com/in/willy-lin/"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "At AB InBev he moved plant-floor brewery data to the cloud and built predictive analytics to make breweries more efficient; profiled by Cornell Tech before moving on.",
-    "source_urls": [
-      "https://admissions.tech.cornell.edu/2022/01/05/data-science-in-brewing-willy-lin-orie-20/",
-      "https://www.linkedin.com/in/willy-lin/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "status": "active",
-    "linkedin_url": "https://www.linkedin.com/in/willy-lin/",
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": "Anheuser-Busch InBev",
-    "affiliated_company_current": "False",
-    "key": "willy-lin::usa",
-    "theme": "Market data & valuation",
-    "capabilities": [
-      "BI & analytics"
-    ],
-    "country": "United States",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Amanda Dobbyn",
-    "domain": null,
-    "hq_location": "Chicago, USA",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "beer",
-    "company_type": "individual",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Amanda Dobbyn (Data scientist / senior data engineer; author of a widely cited beer-styles data science project \u2014 independent (beer project); now Indigo)",
-    "people": [
-      {
-        "name": "Amanda Dobbyn",
-        "role": "Data scientist / senior data engineer; author of a widely cited beer-styles data science project \u2014 independent (beer project); now Indigo",
-        "linkedin": "https://www.linkedin.com/in/amanda-dobbyn/"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Built a public clustering and classification analysis of 45,000-plus beers to test whether beer styles hold up statistically, a well-known beer data science project.",
-    "source_urls": [
-      "https://aedobbyn.github.io/beer-data-science/",
-      "https://www.linkedin.com/in/amanda-dobbyn/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "status": "active",
-    "linkedin_url": "https://www.linkedin.com/in/amanda-dobbyn/",
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "amanda-dobbyn::usa",
-    "theme": "Market data & valuation",
-    "capabilities": [
-      "BI & analytics"
-    ],
-    "country": "United States",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Cathy Huyghe",
-    "domain": null,
-    "hq_location": "Atlanta, Georgia, USA",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "multiple",
-    "company_type": "individual",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Cathy Huyghe (Co-Founder and CEO, wine and spirits data analytics / business intelligence \u2014 Enolytics)",
-    "people": [
-      {
-        "name": "Cathy Huyghe",
-        "role": "Co-Founder and CEO, wine and spirits data analytics / business intelligence \u2014 Enolytics",
-        "linkedin": "https://www.linkedin.com/in/cathy-huyghe-332307/"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Co-founded Enolytics in 2016 to bring big-data business intelligence to wine and spirits companies worldwide, building analytics apps on the Qlik platform.",
-    "source_urls": [
-      "https://www.enolytics.com/our-team",
-      "https://www.linkedin.com/in/cathy-huyghe-332307/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "status": "active",
-    "linkedin_url": "https://www.linkedin.com/in/cathy-huyghe-332307/",
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": "Enolytics",
-    "affiliated_company_current": "True",
-    "key": "cathy-huyghe::usa",
-    "theme": "Market data & valuation",
-    "capabilities": [
-      "BI & analytics"
-    ],
-    "country": "United States",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Lulie Halstead",
-    "domain": null,
-    "hq_location": "London, United Kingdom",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "wine",
-    "company_type": "individual",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Lulie Halstead (Co-Founder and former CEO, wine consumer research and market intelligence \u2014 Wine Intelligence (IWSR Group), now independent advisor)",
-    "people": [
-      {
-        "name": "Lulie Halstead",
-        "role": "Co-Founder and former CEO, wine consumer research and market intelligence \u2014 Wine Intelligence (IWSR Group), now independent advisor",
-        "linkedin": "https://www.linkedin.com/in/lulie-halstead-1b3b8826/"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Founded Wine Intelligence in 2002 and built it into the leading global wine consumer research and market intelligence firm before its acquisition by IWSR.",
-    "source_urls": [
-      "https://winebc.com/industry/lulie-halstead/",
-      "https://www.linkedin.com/in/lulie-halstead-1b3b8826/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "status": "active",
-    "linkedin_url": "https://www.linkedin.com/in/lulie-halstead-1b3b8826/",
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "lulie-halstead::united-kingdom",
-    "theme": "Market data & valuation",
-    "capabilities": [
-      "BI & analytics"
-    ],
-    "country": "United Kingdom",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Alan Talbot",
-    "domain": null,
-    "hq_location": "Sonoma, California, USA",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "wine",
-    "company_type": "individual",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Alan Talbot (Director, Analytics Group (wine industry databases and data-driven analysis) \u2014 Wines Vines Analytics (WineBusiness Analytics))",
-    "people": [
-      {
-        "name": "Alan Talbot",
-        "role": "Director, Analytics Group (wine industry databases and data-driven analysis) \u2014 Wines Vines Analytics (WineBusiness Analytics)",
-        "linkedin": "https://www.linkedin.com/in/alanltalbot/"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Runs the analytics group behind the wine industry's production and market databases and data reports at WineBusiness Analytics.",
-    "source_urls": [
-      "https://theorg.com/org/wines-vines-analytics/org-chart/alan-talbot",
-      "https://www.linkedin.com/in/alanltalbot/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "status": "active",
-    "linkedin_url": "https://www.linkedin.com/in/alanltalbot/",
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": "WineBusiness Analytics",
-    "affiliated_company_current": "True",
-    "key": "alan-talbot::usa",
-    "theme": "Market data & valuation",
-    "capabilities": [
-      "BI & analytics"
-    ],
-    "country": "United States",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Sol\u00e8ne Bergaire",
-    "domain": null,
-    "hq_location": "Paris, France",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "multiple",
-    "company_type": "individual",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Sol\u00e8ne Bergaire (Lead Data Scientist (revenue growth management, pricing and promotion analytics) \u2014 Pernod Ricard)",
-    "people": [
-      {
-        "name": "Sol\u00e8ne Bergaire",
-        "role": "Lead Data Scientist (revenue growth management, pricing and promotion analytics) \u2014 Pernod Ricard",
-        "linkedin": "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Leads data science projects on pricing and promotion optimization for a top premium spirits group whose brands include Jameson and The Glenlivet whiskies.",
-    "source_urls": [
-      "https://conference-mlops.com/speakers/solene-bergaire/",
-      "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "status": "active",
-    "linkedin_url": "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108",
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": "Pernod Ricard",
-    "affiliated_company_current": null,
-    "key": "sol-ne-bergaire::france",
-    "theme": "Market data & valuation",
-    "capabilities": [
-      "BI & analytics"
-    ],
-    "country": "France",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Tom Kornegay",
-    "domain": null,
-    "hq_location": "Miami, Florida, USA",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "multiple",
-    "company_type": "individual",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Tom Kornegay (SVP, Head of Data, Analytics and Insights (Enterprise Data Center of Excellence) \u2014 Southern Glazer's Wine & Spirits)",
-    "people": [
-      {
-        "name": "Tom Kornegay",
-        "role": "SVP, Head of Data, Analytics and Insights (Enterprise Data Center of Excellence) \u2014 Southern Glazer's Wine & Spirits",
-        "linkedin": null
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Hired in 2024 to lead the enterprise data, analytics and insights strategy for the largest US wine and spirits distributor.",
-    "source_urls": [
-      "https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "status": "active",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "tom-kornegay::usa",
-    "theme": "Market data & valuation",
-    "capabilities": [
-      "BI & analytics"
-    ],
-    "country": "United States",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Duan Peng",
-    "domain": null,
-    "hq_location": "Miami, Florida, USA",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "multiple",
-    "company_type": "individual",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Duan Peng (SVP, Head of Data Science, AI and Machine Learning \u2014 Southern Glazer's Wine & Spirits)",
-    "people": [
-      {
-        "name": "Duan Peng",
-        "role": "SVP, Head of Data Science, AI and Machine Learning \u2014 Southern Glazer's Wine & Spirits",
-        "linkedin": null
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Leads the enterprise data science and AI/ML strategy at Southern Glazer's Wine & Spirits' new Enterprise Data Center of Excellence.",
-    "source_urls": [
-      "https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "status": "active",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "duan-peng::usa",
-    "theme": "Market data & valuation",
-    "capabilities": [
-      "AI & ML",
-      "BI & analytics"
-    ],
-    "country": "United States",
     "scope": "beverage-native"
   },
   {
@@ -5856,7 +5343,7 @@
   {
     "name": "Vicinity Software (VicinityBrew)",
     "domain": "vicinitysoftware.com",
-    "hq_location": "Marietta, Georgia, USA",
+    "hq_location": "Marietta, Georgia, United States",
     "founded_year": null,
     "size_employees": null,
     "vertical": "beer",
@@ -5980,7 +5467,7 @@
   {
     "name": "KLH Consulting (Vintegrate)",
     "domain": "klhconsulting.com",
-    "hq_location": "Santa Rosa, California, USA",
+    "hq_location": "Santa Rosa, California, United States",
     "founded_year": 1980,
     "size_employees": null,
     "vertical": "wine",
@@ -6022,7 +5509,7 @@
   {
     "name": "Aptean",
     "domain": "aptean.com",
-    "hq_location": "Alpharetta, Georgia, USA",
+    "hq_location": "Alpharetta, Georgia, United States",
     "founded_year": 2012,
     "size_employees": null,
     "vertical": "multiple",
@@ -6066,7 +5553,7 @@
   {
     "name": "Encompass Technologies",
     "domain": "encompasstech.com",
-    "hq_location": "Fort Collins, Colorado, USA",
+    "hq_location": "Fort Collins, Colorado, United States",
     "founded_year": 2001,
     "size_employees": null,
     "vertical": "multiple",
@@ -6108,7 +5595,7 @@
   {
     "name": "Quantiphi (OrderSmart)",
     "domain": "quantiphi.com",
-    "hq_location": "Marlborough, Massachusetts, USA",
+    "hq_location": "Marlborough, Massachusetts, United States",
     "founded_year": 2013,
     "size_employees": null,
     "vertical": "beer",
@@ -6233,7 +5720,7 @@
   {
     "name": "Prosper Insights & Analytics",
     "domain": "prosperinsights.com",
-    "hq_location": "Worthington, Ohio, USA",
+    "hq_location": "Worthington, Ohio, United States",
     "founded_year": 2007,
     "size_employees": null,
     "vertical": "multiple",
@@ -6315,7 +5802,7 @@
   {
     "name": "LikeFolio",
     "domain": "likefolio.com",
-    "hq_location": "Louisville, Kentucky, USA",
+    "hq_location": "Louisville, Kentucky, United States",
     "founded_year": 2013,
     "size_employees": null,
     "vertical": "multiple",
@@ -7980,7 +7467,7 @@
   {
     "name": "VIP (Vermont Information Processing)",
     "domain": "vipinsights.com",
-    "hq_location": "Colchester, Vermont, USA",
+    "hq_location": "Colchester, Vermont, United States",
     "founded_year": null,
     "size_employees": null,
     "vertical": "multiple",
@@ -8021,7 +7508,7 @@
   {
     "name": "Provi",
     "domain": "provi.com",
-    "hq_location": "Chicago, Illinois, USA",
+    "hq_location": "Chicago, Illinois, United States",
     "founded_year": 2016,
     "size_employees": null,
     "vertical": "multiple",
@@ -8232,7 +7719,7 @@
   {
     "name": "Next Glass",
     "domain": "nextglass.co",
-    "hq_location": "Wilmington, North Carolina, USA",
+    "hq_location": "Wilmington, North Carolina, United States",
     "founded_year": 2013,
     "size_employees": null,
     "vertical": "beer",
@@ -8273,7 +7760,7 @@
   {
     "name": "PourMyBeer",
     "domain": "pourmybeer.com",
-    "hq_location": "Ambler, Pennsylvania, USA",
+    "hq_location": "Ambler, Pennsylvania, United States",
     "founded_year": null,
     "size_employees": null,
     "vertical": "beer",
@@ -8320,7 +7807,7 @@
   {
     "name": "Brewers Association (Barley assistant)",
     "domain": "brewersassociation.org",
-    "hq_location": "Boulder, Colorado, USA",
+    "hq_location": "Boulder, Colorado, United States",
     "founded_year": null,
     "size_employees": null,
     "vertical": "beer",
@@ -15507,7 +14994,7 @@
     "vertical": "beer",
     "company_type": null,
     "ai_use_case": "tableau production and supply chain dashboards, no ai claim",
-    "ai_maturity": "shipping",
+    "ai_maturity": null,
     "funding_stage": null,
     "total_raised": null,
     "key_people": "Dr Jon Meneses (Brewing and Supply Chain Manager)",
@@ -15515,10 +15002,8 @@
     "notable_customers_partners": null,
     "short_description": "Australia's largest family-owned brewery, founded 1862 and now in its sixth generation. It is the named beer company in Tableau's own customer-story library: the case study describes Tableau dashboards across more than 350 SKUs used to cut beer wastage, unify inventory, sales and demand visibility, and surface a correlation between mash temperature and foam stability, with a stated 70 percent reduction in potential revenue loss from wastage. The case study names Dr Jon Meneses, Brewing and Supply Chain Manager. This is visual analytics on brewery process and supply chain data, not machine learning: neither Tableau's write-up nor Coopers' own site makes any AI or predictive-model claim.",
     "source_urls": [
-      "https://bioscout.com.au/",
       "https://coopers.com.au/",
       "https://www.casestudies.com/company/tableau-software/case-study/coopers-brewery-brews-better-beer-with-tableau",
-      "https://www.reussir.fr/vigne/de-nouveaux-outils-pour-estimer-le-risque-de-maladies-dans-les-vignes",
       "https://www.tableau.com/solutions/customer/coopers-brewery-brews-better-beer-tableau"
     ],
     "first_seen": "2026-08-04",
@@ -16118,194 +15603,6 @@
       "ESG & sustainability"
     ],
     "country": "unknown",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Bar Analytics",
-    "domain": "baranalytics.co.uk",
-    "hq_location": "London, United Kingdom",
-    "founded_year": 2018,
-    "size_employees": null,
-    "vertical": "beer",
-    "company_type": "product",
-    "ai_use_case": "beer sales and quality analytics with AI insights",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Rob Scambler (Sales contact)",
-    "people": [],
-    "notable_customers_partners": null,
-    "short_description": "Bar Analytics runs a beer analytics platform that provides real-time sales and quality data with AI insights on beer performance globally.",
-    "source_urls": [
-      "https://appsource.microsoft.com/en/product/dynamics-365-business-central/pubid.norriq-1020462%7Caid.drink-it%7Cpappid.0ca2d0ae-f000-42d0-abd9-5cb570282916?tab=overview",
-      "https://businesswales.gov.wales/expertisewales/product/smart-container-company-ltd/smart-cymru-supports-smart-container-company-ltd-develop",
-      "https://catalyst-erp.co.uk/netsuite-apps/bottle-erp",
-      "https://catalyst-erp.co.uk/sector/distilleries",
-      "https://node4.co.uk/beverage-erp",
-      "https://www.baranalytics.co.uk/",
-      "https://www.drinktec.com/en-US/exhibitors-and-products/",
-      "https://www.smartcontainer.co.uk/"
-    ],
-    "first_seen": "2026-07-21",
-    "last_seen": "2026-08-04",
-    "status": "active",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "curated",
-    "verified": true,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "baranalytics.co.uk",
-    "theme": "Quality & inspection",
-    "capabilities": [
-      "AI & ML",
-      "BI & analytics"
-    ],
-    "country": "United Kingdom",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Vinicola Casa Tertulia",
-    "domain": "vinicolacasatertulia.com.br",
-    "hq_location": "Alto Uruguai, Rio Grande do Sul, Brazil",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "wine",
-    "company_type": null,
-    "ai_use_case": "genetic algorithms and machine learning for wine blend composition",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Gabriel Hilgert (Algorithm Engineer), Viviane Hilgert (Enologist), Leodir Hilgert (Founder)",
-    "people": [
-      {
-        "name": "Gabriel Hilgert",
-        "role": "Algorithm Engineer"
-      },
-      {
-        "name": "Viviane Hilgert",
-        "role": "Enologist"
-      },
-      {
-        "name": "Leodir Hilgert",
-        "role": "Founder"
-      }
-    ],
-    "notable_customers_partners": null,
-    "short_description": "Casa Tertulia is a family winery in the Alto Uruguai region of Rio Grande do Sul that built its own blending system using machine learning and genetic algorithms. The system reads the physicochemical structure of each lot, learns from the scores that professional analysts gave internationally awarded wines, and searches blend combinations that could not be tasted by hand, predicting how a candidate blend will be rated in sensory analysis. The output is a commercial product line: Corte I, Genetic Algorithm No 10, a blend of Marselan, Merlot, Teroldego and Cabernet Sauvignon, presented at ProWine Sao Paulo 2024. The AI is the winery's own work, developed in-house by algorithm engineer Gabriel Hilgert alongside enologist Viviane Hilgert.",
-    "source_urls": [
-      "https://prowinesaopaulo.com/noticias/prowine-sao-paulo-recebe-primeiro-vinho-elaborado-com-inteligencia-artificial-casa-tertulia-lanca-tecnologia-brasileira-inedita-para-elaboracao-de-vinhos-de-corte/",
-      "https://vinicolacasatertulia.com.br/ia/"
-    ],
-    "first_seen": "2026-08-01",
-    "last_seen": "2026-08-01",
-    "status": "active",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "scout:aws",
-    "verified": false,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "vinicolacasatertulia.com.br",
-    "theme": "Sensory & recipe",
-    "capabilities": [
-      "IoT & sensing",
-      "AI & ML"
-    ],
-    "country": "Brazil",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "CASE SA (Bodegas Bejerman)",
-    "domain": "casesa.com.ar",
-    "hq_location": "Godoy Cruz, Mendoza, Argentina",
-    "founded_year": null,
-    "size_employees": null,
-    "vertical": "wine",
-    "company_type": null,
-    "ai_use_case": null,
-    "ai_maturity": null,
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": null,
-    "people": [],
-    "notable_customers_partners": null,
-    "short_description": "CASE SA is a Mendoza software house in the Parque Tecnologico whose Bodegas product is a management system built specifically for the Argentine wine industry and fully integrated into Bejerman ERP, the Thomson Reuters business management suite. It covers vineyard work with cost allocation to the resulting wine, grape maturation tracking that produces a ripening curve to inform the harvest date for each variety and parcel with year on year comparison, harvest intake logged truckload by truckload against the originating parcel, and the traceability and quality records demanded by export markets and Argentine regulation. CASE also sells a separate data analytics practice. Nothing on the site claims machine learning: the maturation curves and vineyard yield reports are conventional record keeping and reporting.",
-    "source_urls": [
-      "https://casesa.com.ar/bodegas/",
-      "https://casesa.com.ar/contacto/"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "status": "active",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "scout:erp",
-    "verified": false,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "casesa.com.ar",
-    "theme": "Other",
-    "capabilities": [
-      "AI & ML",
-      "ERP & systems of record",
-      "BI & analytics"
-    ],
-    "country": "Argentina",
-    "scope": "beverage-native"
-  },
-  {
-    "name": "Coopers Brewery",
-    "domain": "coopers.com.au",
-    "hq_location": "Regency Park, South Australia, Australia",
-    "founded_year": 1862,
-    "size_employees": null,
-    "vertical": "beer",
-    "company_type": null,
-    "ai_use_case": "tableau production and supply chain dashboards, no ai claim",
-    "ai_maturity": "shipping",
-    "funding_stage": null,
-    "total_raised": null,
-    "key_people": "Dr Jon Meneses (Brewing and Supply Chain Manager)",
-    "people": [],
-    "notable_customers_partners": null,
-    "short_description": "Australia's largest family-owned brewery, founded 1862 and now in its sixth generation. It is the named beer company in Tableau's own customer-story library: the case study describes Tableau dashboards across more than 350 SKUs used to cut beer wastage, unify inventory, sales and demand visibility, and surface a correlation between mash temperature and foam stability, with a stated 70 percent reduction in potential revenue loss from wastage. The case study names Dr Jon Meneses, Brewing and Supply Chain Manager. This is visual analytics on brewery process and supply chain data, not machine learning: neither Tableau's write-up nor Coopers' own site makes any AI or predictive-model claim.",
-    "source_urls": [
-      "https://bioscout.com.au/",
-      "https://coopers.com.au/",
-      "https://www.casestudies.com/company/tableau-software/case-study/coopers-brewery-brews-better-beer-with-tableau",
-      "https://www.reussir.fr/vigne/de-nouveaux-outils-pour-estimer-le-risque-de-maladies-dans-les-vignes",
-      "https://www.tableau.com/solutions/customer/coopers-brewery-brews-better-beer-tableau"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "status": "active",
-    "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
-    "latest_news_headline": null,
-    "why_interesting": null,
-    "discovered_by": "scout:tableau",
-    "verified": false,
-    "affiliated_company": null,
-    "affiliated_company_current": null,
-    "key": "coopers.com.au",
-    "theme": "Supply chain",
-    "capabilities": [
-      "AI & ML",
-      "ERP & systems of record",
-      "BI & analytics"
-    ],
-    "country": "Australia",
     "scope": "beverage-native"
   },
   {
@@ -18380,6 +17677,514 @@
     "scope": "beverage-native"
   },
   {
+    "name": "Ankur Napa",
+    "domain": null,
+    "hq_location": "Bangalore, India",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "AI/ML tooling for brewing and beverage: recipe/flavor prediction, sensory analytics, consumer-review NLP, demand forecasting; ships hands-on web apps and calculators",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ankur Napa (Independent builder \u2014 brewing data science & AI)",
+    "people": [
+      {
+        "name": "Ankur Napa",
+        "role": "Independent builder \u2014 brewing data science & AI",
+        "linkedin": "https://www.linkedin.com/in/ankur-napa/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Brewmaster-turned-data-scientist (ex-AB InBev, SABMiller, United Breweries) building AI/data tools across beer, whiskey and wine as an independent practitioner. Founder of iWort; ships open web apps (brewing calculators, flavor-forge, brewery analytics) and writes on the gap between the number and the floor reality.",
+    "source_urls": [
+      "https://ankurnapa.github.io/",
+      "https://github.com/AnkurNapa",
+      "https://www.linkedin.com/in/ankur-napa/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/ankur-napa/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": "iWort",
+    "affiliated_company_current": true,
+    "key": "ankur-napa::india",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "India",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Bart Watson",
+    "domain": null,
+    "hq_location": "Boulder, Colorado, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Bart Watson (President and CEO, former Chief Economist (craft beer market data and analytics) \u2014 Brewers Association)",
+    "people": [
+      {
+        "name": "Bart Watson",
+        "role": "President and CEO, former Chief Economist (craft beer market data and analytics) \u2014 Brewers Association",
+        "linkedin": "https://www.linkedin.com/in/bart-watson/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "PhD economist who built the Brewers Association's craft beer production, sales, and market intelligence data program and was long the public face of US beer industry statistics.",
+    "source_urls": [
+      "https://www.brewersassociation.org/association-news/bart-watson-named-president-and-chief-executive-officer-of-the-brewers-association/",
+      "https://www.linkedin.com/in/bart-watson/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/bart-watson/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": "Brewers Association (Barley assistant)",
+    "affiliated_company_current": true,
+    "key": "bart-watson::usa",
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Erin Schmidt",
+    "domain": null,
+    "hq_location": "Milwaukee, Wisconsin, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Erin Schmidt (Director, Commercial Analytics \u2014 Molson Coors Beverage Company)",
+    "people": [
+      {
+        "name": "Erin Schmidt",
+        "role": "Director, Commercial Analytics \u2014 Molson Coors Beverage Company",
+        "linkedin": "https://www.linkedin.com/in/erin-schmidt-92a18a4/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Leads commercial and business analytics for Molson Coors across the Americas, with a decade in beverage revenue management and business intelligence.",
+    "source_urls": [
+      "https://business.wisc.edu/centers/nicholas/blog/erin-schmidt-director-commerical-analytics-molson-coors/",
+      "https://www.linkedin.com/in/erin-schmidt-92a18a4/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/erin-schmidt-92a18a4/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": "Molson Coors (Atwater Brewery)",
+    "affiliated_company_current": true,
+    "key": "erin-schmidt::usa",
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Willy Lin",
+    "domain": null,
+    "hq_location": "New York, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Willy Lin (Former Product Lead, Tech Supply (brewery data and predictive analytics) \u2014 Amazon (formerly Anheuser-Busch InBev))",
+    "people": [
+      {
+        "name": "Willy Lin",
+        "role": "Former Product Lead, Tech Supply (brewery data and predictive analytics) \u2014 Amazon (formerly Anheuser-Busch InBev)",
+        "linkedin": "https://www.linkedin.com/in/willy-lin/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "At AB InBev he moved plant-floor brewery data to the cloud and built predictive analytics to make breweries more efficient; profiled by Cornell Tech before moving on.",
+    "source_urls": [
+      "https://admissions.tech.cornell.edu/2022/01/05/data-science-in-brewing-willy-lin-orie-20/",
+      "https://www.linkedin.com/in/willy-lin/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/willy-lin/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": "Anheuser-Busch InBev",
+    "affiliated_company_current": false,
+    "key": "willy-lin::usa",
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Amanda Dobbyn",
+    "domain": null,
+    "hq_location": "Chicago, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Amanda Dobbyn (Data scientist / senior data engineer; author of a widely cited beer-styles data science project \u2014 independent (beer project); now Indigo)",
+    "people": [
+      {
+        "name": "Amanda Dobbyn",
+        "role": "Data scientist / senior data engineer; author of a widely cited beer-styles data science project \u2014 independent (beer project); now Indigo",
+        "linkedin": "https://www.linkedin.com/in/amanda-dobbyn/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Built a public clustering and classification analysis of 45,000-plus beers to test whether beer styles hold up statistically, a well-known beer data science project.",
+    "source_urls": [
+      "https://aedobbyn.github.io/beer-data-science/",
+      "https://www.linkedin.com/in/amanda-dobbyn/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/amanda-dobbyn/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "amanda-dobbyn::usa",
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Cathy Huyghe",
+    "domain": null,
+    "hq_location": "Atlanta, Georgia, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Cathy Huyghe (Co-Founder and CEO, wine and spirits data analytics / business intelligence \u2014 Enolytics)",
+    "people": [
+      {
+        "name": "Cathy Huyghe",
+        "role": "Co-Founder and CEO, wine and spirits data analytics / business intelligence \u2014 Enolytics",
+        "linkedin": "https://www.linkedin.com/in/cathy-huyghe-332307/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Co-founded Enolytics in 2016 to bring big-data business intelligence to wine and spirits companies worldwide, building analytics apps on the Qlik platform.",
+    "source_urls": [
+      "https://www.enolytics.com/our-team",
+      "https://www.linkedin.com/in/cathy-huyghe-332307/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/cathy-huyghe-332307/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": "Enolytics",
+    "affiliated_company_current": true,
+    "key": "cathy-huyghe::usa",
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Lulie Halstead",
+    "domain": null,
+    "hq_location": "London, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Lulie Halstead (Co-Founder and former CEO, wine consumer research and market intelligence \u2014 Wine Intelligence (IWSR Group), now independent advisor)",
+    "people": [
+      {
+        "name": "Lulie Halstead",
+        "role": "Co-Founder and former CEO, wine consumer research and market intelligence \u2014 Wine Intelligence (IWSR Group), now independent advisor",
+        "linkedin": "https://www.linkedin.com/in/lulie-halstead-1b3b8826/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founded Wine Intelligence in 2002 and built it into the leading global wine consumer research and market intelligence firm before its acquisition by IWSR.",
+    "source_urls": [
+      "https://winebc.com/industry/lulie-halstead/",
+      "https://www.linkedin.com/in/lulie-halstead-1b3b8826/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/lulie-halstead-1b3b8826/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "lulie-halstead::united-kingdom",
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Alan Talbot",
+    "domain": null,
+    "hq_location": "Sonoma, California, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Alan Talbot (Director, Analytics Group (wine industry databases and data-driven analysis) \u2014 Wines Vines Analytics (WineBusiness Analytics))",
+    "people": [
+      {
+        "name": "Alan Talbot",
+        "role": "Director, Analytics Group (wine industry databases and data-driven analysis) \u2014 Wines Vines Analytics (WineBusiness Analytics)",
+        "linkedin": "https://www.linkedin.com/in/alanltalbot/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Runs the analytics group behind the wine industry's production and market databases and data reports at WineBusiness Analytics.",
+    "source_urls": [
+      "https://theorg.com/org/wines-vines-analytics/org-chart/alan-talbot",
+      "https://www.linkedin.com/in/alanltalbot/"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/alanltalbot/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": "WineBusiness Analytics",
+    "affiliated_company_current": true,
+    "key": "alan-talbot::usa",
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Sol\u00e8ne Bergaire",
+    "domain": null,
+    "hq_location": "Paris, France",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Sol\u00e8ne Bergaire (Lead Data Scientist (revenue growth management, pricing and promotion analytics) \u2014 Pernod Ricard)",
+    "people": [
+      {
+        "name": "Sol\u00e8ne Bergaire",
+        "role": "Lead Data Scientist (revenue growth management, pricing and promotion analytics) \u2014 Pernod Ricard",
+        "linkedin": "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Leads data science projects on pricing and promotion optimization for a top premium spirits group whose brands include Jameson and The Glenlivet whiskies.",
+    "source_urls": [
+      "https://conference-mlops.com/speakers/solene-bergaire/",
+      "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": "Pernod Ricard",
+    "affiliated_company_current": null,
+    "key": "sol-ne-bergaire::france",
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "France",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Tom Kornegay",
+    "domain": null,
+    "hq_location": "Miami, Florida, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Tom Kornegay (SVP, Head of Data, Analytics and Insights (Enterprise Data Center of Excellence) \u2014 Southern Glazer's Wine & Spirits)",
+    "people": [
+      {
+        "name": "Tom Kornegay",
+        "role": "SVP, Head of Data, Analytics and Insights (Enterprise Data Center of Excellence) \u2014 Southern Glazer's Wine & Spirits",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Hired in 2024 to lead the enterprise data, analytics and insights strategy for the largest US wine and spirits distributor.",
+    "source_urls": [
+      "https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "tom-kornegay::usa",
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Duan Peng",
+    "domain": null,
+    "hq_location": "Miami, Florida, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "data analytics / BI / market intelligence for beverage",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Duan Peng (SVP, Head of Data Science, AI and Machine Learning \u2014 Southern Glazer's Wine & Spirits)",
+    "people": [
+      {
+        "name": "Duan Peng",
+        "role": "SVP, Head of Data Science, AI and Machine Learning \u2014 Southern Glazer's Wine & Spirits",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Leads the enterprise data science and AI/ML strategy at Southern Glazer's Wine & Spirits' new Enterprise Data Center of Excellence.",
+    "source_urls": [
+      "https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
+    ],
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "duan-peng::usa",
+    "theme": "Market data & valuation",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
     "name": "Bharathi Sampangi",
     "domain": null,
     "hq_location": null,
@@ -18462,7 +18267,7 @@
     "discovered_by": "curated",
     "verified": true,
     "affiliated_company": "Bloomfield Robotics",
-    "affiliated_company_current": "True",
+    "affiliated_company_current": true,
     "key": "jean-rovani::usa",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -18508,7 +18313,7 @@
     "discovered_by": "curated",
     "verified": true,
     "affiliated_company": "Bloomfield Robotics",
-    "affiliated_company_current": "True",
+    "affiliated_company_current": true,
     "key": "jasmine-ortega::unknown",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -18554,7 +18359,7 @@
     "discovered_by": "curated",
     "verified": true,
     "affiliated_company": "Bloomfield Robotics",
-    "affiliated_company_current": "True",
+    "affiliated_company_current": true,
     "key": "shreya-kale::unknown",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -18600,7 +18405,7 @@
     "discovered_by": "curated",
     "verified": true,
     "affiliated_company": "Bloomfield Robotics",
-    "affiliated_company_current": "True",
+    "affiliated_company_current": true,
     "key": "ian-weller::unknown",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -18646,7 +18451,7 @@
     "discovered_by": "curated",
     "verified": true,
     "affiliated_company": "Deep Liquid",
-    "affiliated_company_current": "True",
+    "affiliated_company_current": true,
     "key": "jamie-sherrah::australia",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -18692,7 +18497,7 @@
     "discovered_by": "curated",
     "verified": true,
     "affiliated_company": "Deep Liquid",
-    "affiliated_company_current": "True",
+    "affiliated_company_current": true,
     "key": "simon-lucey::australia",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -18738,7 +18543,7 @@
     "discovered_by": "curated",
     "verified": true,
     "affiliated_company": "Deep Liquid",
-    "affiliated_company_current": "True",
+    "affiliated_company_current": true,
     "key": "anton-van-den-hengel::australia",
     "theme": "Sensory & recipe",
     "capabilities": [
@@ -18784,7 +18589,7 @@
     "discovered_by": "curated",
     "verified": true,
     "affiliated_company": "Terraview",
-    "affiliated_company_current": "True",
+    "affiliated_company_current": true,
     "key": "andy-edmonds::unknown",
     "theme": "Agriculture & crop",
     "capabilities": [
@@ -18830,7 +18635,7 @@
     "discovered_by": "curated",
     "verified": true,
     "affiliated_company": "FORM (GoSpotCheck by FORM)",
-    "affiliated_company_current": "True",
+    "affiliated_company_current": true,
     "key": "rafal-cycon::unknown",
     "theme": "Other",
     "capabilities": [],
@@ -18874,7 +18679,7 @@
     "discovered_by": "curated",
     "verified": true,
     "affiliated_company": "vinSUITE",
-    "affiliated_company_current": "True",
+    "affiliated_company_current": true,
     "key": "jon-trafton::usa",
     "theme": "Process & operations",
     "capabilities": [
