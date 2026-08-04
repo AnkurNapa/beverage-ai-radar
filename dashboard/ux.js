@@ -236,7 +236,7 @@ export function mountPalette({ getItems, onPick }) {
   var label = btn.querySelector(".theme-toggle__label");
   var icon = btn.querySelector(".theme-toggle__icon");
   var ORDER = ["system", "light", "dark"];
-  var ICON = { system: "◐", light: "☀", dark: "☾" };
+  var ICON = { system: "auto", light: "sun", dark: "moon" };
   var TEXT = { system: "System", light: "Light", dark: "Dark" };
 
   function current() {
@@ -246,7 +246,7 @@ export function mountPalette({ getItems, onPick }) {
   function paint(state) {
     if (state === "system") delete document.documentElement.dataset.theme;
     else document.documentElement.dataset.theme = state;
-    if (icon) icon.textContent = ICON[state];
+    if (icon && window.__radarIcon) icon.innerHTML = window.__radarIcon(ICON[state]);
     if (label) label.textContent = TEXT[state];
     btn.setAttribute("title", "Theme: " + TEXT[state] + " (click to change)");
     try {
@@ -462,8 +462,18 @@ export function mountPalette({ getItems, onPick }) {
     research:  '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>',
     jobs:      '<rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>',
     prospects: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
-    about:     '<circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/>'
+    about:     '<circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/>',
+    // Same grid and stroke as the nav glyphs, so the whole UI reads as one set
+    // rather than nav-SVG plus a scattering of emoji at other sizes and weights.
+    radar:     '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><path d="M12 12 19 6"/>',
+    person:    '<circle cx="12" cy="8" r="3.5"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/>',
+    external:  '<path d="M14 4h6v6"/><path d="M20 4 11 13"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
+    back:      '<path d="M19 12H5"/><path d="m11 18-6-6 6-6"/>',
+    sun:       '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+    moon:      '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>',
+    auto:      '<circle cx="12" cy="12" r="9"/><path d="M12 3v18a9 9 0 0 0 0-18z" fill="currentColor" stroke="none"/>'
   };
+  window.__radarIcon = svg;
   function svg(name) {
     return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" ' +
            'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" ' +
@@ -476,4 +486,65 @@ export function mountPalette({ getItems, onPick }) {
     if (!key || tab.querySelector(".ico")) return;
     tab.insertAdjacentHTML("afterbegin", svg(key));
   });
+})();
+
+// ---- Glyph replacement ----------------------------------------------------
+// app.js templates emit emoji and arrow characters inline (radar dish, bust,
+// back arrow, north-east arrow). Rather than rewrite those templates and their
+// escaping, the glyphs are swapped for the same SVG set after render, and
+// re-applied on re-render. Deliberately NOT touched:
+//   - the keyboard hints, where the arrow IS the key being named
+//   - the star, which app.js owns as a stateful control and re-paints itself
+(function () {
+  var svg = window.__radarIcon;
+  if (!svg) return;
+  var GLYPH = { "\u{1F4E1}": "radar", "\u{1F464}": "person", "←": "back", "↗": "external" };
+  var KEYS = Object.keys(GLYPH);
+
+  function sweep(root) {
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        if (!n.nodeValue) return NodeFilter.FILTER_REJECT;
+        var p = n.parentElement;
+        if (!p || p.closest("kbd, script, style, .ico")) return NodeFilter.FILTER_REJECT;
+        for (var i = 0; i < KEYS.length; i++) {
+          if (n.nodeValue.indexOf(KEYS[i]) >= 0) return NodeFilter.FILTER_ACCEPT;
+        }
+        return NodeFilter.FILTER_REJECT;
+      }
+    });
+    var hits = [], n;
+    while ((n = walker.nextNode())) hits.push(n);
+    hits.forEach(function (node) {
+      var html = node.nodeValue.replace(/[&<>]/g, function (c) {
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c];
+      });
+      KEYS.forEach(function (g) {
+        if (html.indexOf(g) >= 0) html = html.split(g).join(svg(GLYPH[g]));
+      });
+      var span = document.createElement("span");
+      span.className = "glyphed";
+      span.innerHTML = html;
+      node.parentNode.replaceChild(span, node);
+    });
+  }
+
+  sweep(document.body);
+  var pending = false;
+  new MutationObserver(function () {
+    if (pending) return;
+    pending = true;
+    requestAnimationFrame(function () { pending = false; sweep(document.body); });
+  }).observe(document.body, { childList: true, subtree: true });
+})();
+
+// The theme control paints on load, before the icon set above exists, so its
+// first render falls back to no glyph. Repaint it once the set is available.
+(function () {
+  var svg = window.__radarIcon, btn = document.getElementById("theme-toggle");
+  if (!svg || !btn) return;
+  var icon = btn.querySelector(".theme-toggle__icon");
+  if (!icon) return;
+  var t = document.documentElement.dataset.theme;
+  icon.innerHTML = svg(t === "dark" ? "moon" : t === "light" ? "sun" : "auto");
 })();

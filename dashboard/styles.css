@@ -1433,3 +1433,9 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
   body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
 }
 
+
+/* Inline glyphs sit on the text baseline; the nav ones are flex-centred. */
+.glyphed { display: inline; }
+.glyphed .ico { width: 1em; height: 1em; vertical-align: -.125em; margin-right: .1em; }
+.theme-toggle__icon .ico { width: 18px; height: 18px; }
+.theme-toggle__icon { display: inline-flex; align-items: center; }
