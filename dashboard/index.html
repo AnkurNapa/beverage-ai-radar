@@ -116,6 +116,15 @@
   <link rel="stylesheet" href="styles.css?v=0c9a3ffd74" />
 </head>
 <body data-view="companies">
+<!-- Crawlable entry point. The dashboard renders from data.json in JS, which
+     the LLM crawlers do not execute, so both they and any no-JS visitor need a
+     real link to the static index. Kept in <noscript> plus a visible footer
+     link so it is a genuine navigable path, not a hidden keyword dump. -->
+<noscript>
+  <p>This dashboard needs JavaScript. The complete, source-cited index of every
+  tracked company is available as a plain page:
+  <a href="companies.html">all companies</a>.</p>
+</noscript>
   <a class="skip" href="#main">Skip to content</a>
   <!-- Ambient geometry. Decorative only, so it is hidden from assistive tech
        and cannot receive pointer events. -->
@@ -369,5 +378,11 @@
   </footer>
 
   <script type="module" src="app.js?v=5fe82dd43b"></script>
+<footer class="seo-foot" style="max-width:52rem;margin:2rem auto;padding:1rem;font-size:.85rem;opacity:.75">
+  <a href="companies.html">All tracked companies (plain index)</a> &middot;
+  <a href="data.json">Raw JSON</a> &middot;
+  <a href="report.md">Report</a> &middot;
+  <a href="llms.txt">llms.txt</a>
+</footer>
 </body>
 </html>

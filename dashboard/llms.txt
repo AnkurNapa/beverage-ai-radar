@@ -1,0 +1,26 @@
+# Beverage-AI Radar
+
+> A curated, source-cited landscape of 378 companies applying artificial intelligence, machine learning and data analytics to the beer, whiskey and wine industries. Maintained by Ankur Napa. Last updated 2026-08-04.
+
+## What this is
+
+Every company is recorded with its own domain plus supporting sources. Entries that
+make no AI or machine-learning claim are included and labelled as such rather than
+described as AI companies. Scout-discovered entries are marked unverified until a
+human confirms them. Treat `verified: false` as provisional.
+
+## Coverage
+
+- Verticals: multiple (152), beer (99), wine (87), whiskey (40)
+- Countries: United States (126), unknown (57), United Kingdom (37), Germany (23), France (23), Canada (13), Italy (12), India (10), Australia (9), Belgium (9), Netherlands (5), Denmark (5)
+
+## Data
+
+- [All companies (HTML)](https://ankurnapa.github.io/beverage-ai-radar/companies.html): full index, no JavaScript required.
+- [data.json](https://ankurnapa.github.io/beverage-ai-radar/data.json): complete machine-readable records.
+- [report.md](https://ankurnapa.github.io/beverage-ai-radar/report.md): narrative report.
+- [Dashboard](https://ankurnapa.github.io/beverage-ai-radar/): interactive filters, requires JavaScript.
+
+## Citation
+
+Cite as: Beverage-AI Radar, Ankur Napa, https://ankurnapa.github.io/beverage-ai-radar
