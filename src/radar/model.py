@@ -2,8 +2,9 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from datetime import date
 from enum import Enum
-from urllib.parse import urlparse
 import re
+
+from radar.scout.merge import norm_domain
 
 
 class BeverageVertical(str, Enum):
@@ -29,14 +30,15 @@ def _slug(text: str) -> str:
 
 
 def dedup_key(name: str, domain: str | None, hq_country: str | None) -> str:
+    """Stable identity for a company. The registrable domain is the natural key.
+
+    Delegates to scout.merge.norm_domain rather than reimplementing the suffix
+    rules: this function used to carry its own copy that truncated
+    kegtracker.co.uk to "co.uk", so every British company shared one identity.
+    One implementation, one place to fix.
+    """
     if domain:
-        host = urlparse(domain if "//" in domain else f"//{domain}", scheme="http").hostname or ""
-        host = host.lower()
-        if host.startswith("www."):
-            host = host[4:]
-        parts = host.split(".")
-        if len(parts) > 2:
-            host = ".".join(parts[-2:])
+        host = norm_domain(domain)
         if host:
             return host
     country = _slug(hq_country) if hq_country else "unknown"

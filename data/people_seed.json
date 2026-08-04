@@ -14,7 +14,10 @@
       "https://ankurnapa.github.io/"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "company": "iWort",
+    "company_key": "iwort.com",
+    "linkedin_id": "ankur-napa"
   },
   {
     "name": "Bart Watson",
@@ -30,7 +33,10 @@
       "https://www.linkedin.com/in/bart-watson/"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "company": "Brewers Association (Barley assistant)",
+    "company_key": "brewersassociation.org",
+    "linkedin_id": "bart-watson"
   },
   {
     "name": "Erin Schmidt",
@@ -46,7 +52,10 @@
       "https://www.linkedin.com/in/erin-schmidt-92a18a4/"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "company": "Molson Coors (Atwater Brewery)",
+    "company_key": "molsoncoors.com",
+    "linkedin_id": "erin-schmidt-92a18a4"
   },
   {
     "name": "Willy Lin",
@@ -62,7 +71,10 @@
       "https://www.linkedin.com/in/willy-lin/"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "company": "Anheuser-Busch InBev",
+    "company_key": "ab-inbev.com",
+    "linkedin_id": "willy-lin"
   },
   {
     "name": "Amanda Dobbyn",
@@ -78,7 +90,10 @@
       "https://www.linkedin.com/in/amanda-dobbyn/"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "company": null,
+    "company_key": null,
+    "linkedin_id": "amanda-dobbyn"
   },
   {
     "name": "Cathy Huyghe",
@@ -94,7 +109,10 @@
       "https://www.linkedin.com/in/cathy-huyghe-332307/"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "company": "Enolytics",
+    "company_key": "enolytics.com",
+    "linkedin_id": "cathy-huyghe-332307"
   },
   {
     "name": "Lulie Halstead",
@@ -110,7 +128,10 @@
       "https://www.linkedin.com/in/lulie-halstead-1b3b8826/"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "company": null,
+    "company_key": null,
+    "linkedin_id": "lulie-halstead-1b3b8826"
   },
   {
     "name": "Alan Talbot",
@@ -126,7 +147,10 @@
       "https://www.linkedin.com/in/alanltalbot/"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "company": "WineBusiness Analytics",
+    "company_key": "winebusinessanalytics.com",
+    "linkedin_id": "alanltalbot"
   },
   {
     "name": "Solène Bergaire",
@@ -142,7 +166,10 @@
       "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "company": null,
+    "company_key": null,
+    "linkedin_id": "sol%C3%A8ne-bergaire-a68472108"
   },
   {
     "name": "Tom Kornegay",
@@ -157,7 +184,10 @@
       "https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "company": null,
+    "company_key": null,
+    "linkedin_id": null
   },
   {
     "name": "Duan Peng",
@@ -172,6 +202,9 @@
       "https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-07-22",
+    "company": null,
+    "company_key": null,
+    "linkedin_id": null
   }
 ]
