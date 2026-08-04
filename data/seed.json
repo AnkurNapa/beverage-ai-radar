@@ -8278,7 +8278,7 @@
     "verified": false
   },
   {
-    "name": "Chunpoong Brewery (춘풍양조장)",
+    "name": "Chunpoong Brewery (\ucd98\ud48d\uc591\uc870\uc7a5)",
     "domain": "chunpoong.co.kr",
     "hq_location": "Jung-gu, Seoul, South Korea",
     "vertical": "multiple",
@@ -8296,7 +8296,7 @@
     "verified": false
   },
   {
-    "name": "SAKENOVA (Sakeai Inc. / サケノヴァ)",
+    "name": "SAKENOVA (Sakeai Inc. / \u30b5\u30b1\u30ce\u30f4\u30a1)",
     "domain": "sakenova.com",
     "hq_location": "Niigata, Japan",
     "founded_year": 2020,
@@ -8315,7 +8315,7 @@
     "verified": false
   },
   {
-    "name": "Kyoto Electronics Manufacturing (KEM / 京都電子工業)",
+    "name": "Kyoto Electronics Manufacturing (KEM / \u4eac\u90fd\u96fb\u5b50\u5de5\u696d)",
     "domain": "kem.kyoto",
     "hq_location": "Kyoto, Japan",
     "vertical": "multiple",
@@ -8331,7 +8331,7 @@
     "verified": false
   },
   {
-    "name": "Atago (株式会社アタゴ)",
+    "name": "Atago (\u682a\u5f0f\u4f1a\u793e\u30a2\u30bf\u30b4)",
     "domain": "atago.net",
     "vertical": "multiple",
     "ai_use_case": "none claimed, refractometry and inline concentration measurement",
@@ -8538,5 +8538,22 @@
     ],
     "discovered_by": "scout:people",
     "verified": false
+  },
+  {
+    "name": "Disruptive Advantage",
+    "domain": "disruptive-advantage.com",
+    "hq_location": "Australia",
+    "vertical": "multiple",
+    "ai_use_case": "no ai claim; microsoft dynamics 365 consulting, resourcing and outsourcing",
+    "ai_maturity": "shipping",
+    "short_description": "Consultancy selling solutions built on Microsoft Dynamics 365, plus resourcing and offshore outsourcing services. Recorded here with an explicit caveat: its own website makes no beverage claim of any kind, across the homepage, solutions, resourcing, outsourcing and careers pages, and no artificial intelligence or machine learning claim beyond the word data appearing twice. Its only evidenced connection to beer, wine or spirits is that Ankur Napa, a tracked individual, is its Growth Officer and describes his own remit there as data engineering and applied AI in the wine and beverage tech space. This is an employer record supporting the people graph, not a beverage AI vendor, and it would not survive the normal scope test on its own evidence.",
+    "source_urls": [
+      "https://disruptive-advantage.com/",
+      "https://www.linkedin.com/in/ankur-napa/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "curated",
+    "verified": true
   }
 ]

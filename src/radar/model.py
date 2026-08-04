@@ -89,6 +89,10 @@ class Company:
     # tracked person could name their employer and the employer's page would
     # never know. current=False means the link is historical (a former role),
     # which must never render as present-tense employment.
+    # Outward links a person or company wants surfaced: talks, podcast
+    # episodes, articles. Kept separate from source_urls, which is evidence
+    # for the record rather than things a reader is invited to go and watch.
+    links: list = field(default_factory=list)  # [{label, url, kind}]
     affiliated_company: str | None = None
     affiliated_company_current: bool | None = None
 

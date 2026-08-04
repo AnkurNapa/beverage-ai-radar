@@ -1,24 +1,41 @@
 [
   {
     "name": "Ankur Napa",
-    "role": "Independent builder — brewing data science & AI",
+    "role": "Growth Officer, Disruptive Advantage; Community Leader, Bangalore Microsoft Fabric User Group (Microsoft); Tableau Community Leader, Bangalore and Newbie TUG",
     "linkedin": "https://www.linkedin.com/in/ankur-napa/",
-    "location": "Bangalore, India",
+    "location": "Australia",
     "vertical": "multiple",
-    "ai_use_case": "AI/ML tooling for brewing and beverage: recipe/flavor prediction, sensory analytics, consumer-review NLP, demand forecasting; ships hands-on web apps and calculators",
+    "ai_use_case": "data engineering and applied AI for fermentation prediction, quality anomaly detection, production and commercial analytics, and sustainability reporting across beer, wine and spirits",
     "ai_maturity": "shipping",
-    "short_description": "Brewmaster-turned-data-scientist (ex-AB InBev, SABMiller, United Breweries) building AI/data tools across beer, whiskey and wine as an independent practitioner. Founder of iWort; ships open web apps (brewing calculators, flavor-forge, brewery analytics) and writes on the gap between the number and the floor reality.",
+    "short_description": "Brewer with 10+ years of industry experience turned data engineer, now Growth Officer at Disruptive Advantage, working from Australia. Helps breweries, wineries and distilleries improve fermentation consistency, product quality, operational efficiency and sustainability using data engineering and AI on Microsoft Fabric, Databricks and Azure. Named focus areas are fermentation prediction and risk detection, quality control analytics and anomaly detection, production and sales dashboards, raw material optimisation, AI-assisted recipe and process modelling, commercial planning, and sustainability analytics covering water, energy, CO2 and waste. DP-600 certified Microsoft Fabric Analytics Engineer. Leads the Bangalore Microsoft Fabric User Group for Microsoft and the Bangalore and Newbie Tableau User Groups, and mentors with the Data Visualization Society. Founder of iWort and ships open brewing calculators and analytics apps. Previously AB InBev, SABMiller and United Breweries.",
     "source_urls": [
       "https://www.linkedin.com/in/ankur-napa/",
       "https://github.com/AnkurNapa",
       "https://ankurnapa.github.io/"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "company": "iWort",
+    "last_seen": "2026-08-04",
+    "company": "Disruptive Advantage",
     "company_key": "iwort.com",
     "linkedin_id": "ankur-napa",
-    "company_is_current": true
+    "company_is_current": true,
+    "links": [
+      {
+        "label": "Podcast: AI in Brewing (Apple Podcasts)",
+        "kind": "podcast",
+        "url": "https://podcasts.apple.com/gb/podcast/ep-24-artificial-intelligence-ai-in-brewing-ankur-napa/id1691766076?i=1000658398731"
+      },
+      {
+        "label": "Podcast: AI in Brewing (Spotify)",
+        "kind": "podcast",
+        "url": "https://open.spotify.com/episode/4V0EJaz2jCCsPXq88JGxpH"
+      },
+      {
+        "label": "Talk: Bridging the Gap Between AI and Brewing",
+        "kind": "video",
+        "url": "https://www.youtube.com/watch?v=_VUIoeRdcHQ"
+      }
+    ]
   },
   {
     "name": "Bart Watson",

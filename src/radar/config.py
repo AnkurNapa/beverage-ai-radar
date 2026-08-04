@@ -19,6 +19,13 @@ GAP_MIN_SHARE = 0.08
 GAP_TOP_N = 8
 STALE_MONTHS = 12
 
+# The jobs feed is swept from the LinkedIn guest API: 15 queries, paged, with a
+# 1.2s pause between pages, so a full refresh takes minutes. Running it on every
+# `radar run` would make routine runs unusable, so it refreshes only when the
+# feed is older than this. Set RADAR_JOBS=always to force, RADAR_JOBS=never to
+# skip (useful in CI, where the API is not reachable anyway).
+JOBS_MAX_AGE_DAYS = 7
+
 # Obsidian vault mirror target
 VAULT_DIR = Path.home() / "Documents" / "obsidian" / "Beverage-AI Radar"
 

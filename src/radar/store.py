@@ -8,7 +8,7 @@ from radar.model import Company, BeverageVertical, AIMaturity, Status
 
 _ENUM_FIELDS = {"vertical": BeverageVertical, "ai_maturity": AIMaturity, "status": Status}
 _DATE_FIELDS = {"first_seen", "last_seen"}
-_LIST_FIELDS = {"source_urls", "people"}
+_LIST_FIELDS = {"source_urls", "people", "links"}
 # Any bool field MUST be registered here. The sqlite round-trip otherwise
 # falls through to str(v), so True becomes the string "True" and every
 # `=== false` check downstream silently fails. That is exactly how a
@@ -80,9 +80,12 @@ class Store:
     def all(self) -> list[Company]:
         return [self._from_row(r) for r in self.conn.execute("SELECT * FROM companies")]
 
-    def upsert(self, company: Company) -> None:
+    def upsert(self, company: Company, authoritative: bool = False) -> None:
+        """authoritative: the caller is a curated source and is correcting the
+        record, so its non-null values replace what is stored. Enrichment must
+        never pass this, or a scraped guess would overwrite a checked fact."""
         existing = self.get(company.key)
-        merged = self._merge(existing, company) if existing else company
+        merged = self._merge(existing, company, authoritative) if existing else company
         row = self._to_row(merged)
         cols = ", ".join(row.keys())
         placeholders = ", ".join("?" for _ in row)
@@ -95,7 +98,14 @@ class Store:
         self.conn.commit()
 
     @staticmethod
-    def _merge(old: Company, new: Company) -> Company:
+    def _merge(old: Company, new: Company, authoritative: bool = False) -> Company:
+        """Default is fill-the-blanks: a new value lands only where the stored
+        one is null, so enrichment can add but never overwrite.
+
+        That default silently made the curated seed read-only for any field
+        that already had a value: correcting a person's employer or location in
+        people_seed.json changed nothing, because the old value was not null.
+        Curated lanes therefore pass authoritative=True."""
         merged = Company(**{f.name: getattr(old, f.name) for f in fields(Company)})
         for f in fields(Company):
             nv = getattr(new, f.name)
@@ -113,9 +123,36 @@ class Store:
                 merged.first_seen = min(x for x in (old.first_seen, nv) if x)
             elif f.name == "last_seen":
                 merged.last_seen = max(x for x in (old.last_seen, nv) if x)
-            elif getattr(old, f.name) is None:
+            elif authoritative or getattr(old, f.name) is None:
                 setattr(merged, f.name, nv)
         return merged
+
+    def drop_renamed(self, emitted: list) -> list[str]:
+        """Remove stored rows superseded by a re-keyed version of themselves.
+
+        Rows without a domain are keyed slug(name)::country, so correcting
+        somebody's location mints a NEW key and leaves the old row behind: the
+        export then carries the person twice, once stale.
+
+        Deliberately narrow. An earlier attempt deleted every row the source
+        did not emit this run, which removed 130 legitimate companies, so this
+        only ever touches rows that share a name with something just written
+        under a different key.
+        """
+        gone: list[str] = []
+        for company in emitted:
+            rows = [
+                r["key"] for r in self.conn.execute(
+                    "SELECT key FROM companies WHERE name = ? AND key != ?",
+                    (company.name, company.key),
+                )
+            ]
+            for key in rows:
+                self.conn.execute("DELETE FROM companies WHERE key = ?", (key,))
+                gone.append(key)
+        if gone:
+            self.conn.commit()
+        return gone
 
     def close(self) -> None:
         self.conn.close()

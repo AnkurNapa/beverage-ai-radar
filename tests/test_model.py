@@ -45,3 +45,55 @@ def test_every_bool_field_is_registered_for_the_sqlite_round_trip():
     }
     missing = declared - set(_BOOL_FIELDS)
     assert not missing, f"bool fields missing from _BOOL_FIELDS: {sorted(missing)}"
+
+
+def test_curated_upsert_corrects_an_existing_value():
+    """The seed is the source of truth; editing it must actually change things.
+
+    Before this, _merge only filled nulls, so correcting a location or an
+    employer in the seed silently did nothing.
+    """
+    from datetime import date
+    from radar.model import Company
+    from radar.store import Store
+
+    store = Store(":memory:")
+    store.upsert(Company(name="X", domain="x.com", hq_location="Bangalore, India",
+                         last_seen=date(2026, 1, 1)))
+    store.upsert(Company(name="X", domain="x.com", hq_location="Australia",
+                         last_seen=date(2026, 8, 4)), authoritative=True)
+    assert store.get("x.com").hq_location == "Australia"
+
+def test_relocating_a_person_drops_the_superseded_row():
+    """Domainless rows are keyed slug(name)::country, so a location fix mints a
+    new key and used to leave the old row in the export."""
+    from radar.store import Store
+    from radar.model import Company
+    from datetime import date
+    store = Store(":memory:")
+    old = Company(name="P", hq_location="India", company_type="individual",
+                  discovered_by="curated", last_seen=date(2026, 1, 1))
+    new = Company(name="P", hq_location="Australia", company_type="individual",
+                  discovered_by="curated", last_seen=date(2026, 8, 4))
+    store.upsert(old)
+    store.upsert(new, authoritative=True)
+    assert len(store.all()) == 2
+    assert store.drop_renamed([new]) == ["p::india"]
+    assert [c.key for c in store.all()] == ["p::australia"]
+
+
+def test_dedup_never_touches_rows_it_did_not_supersede():
+    """The first attempt deleted everything the source did not emit this run,
+    which removed 130 legitimate companies. Only same-name siblings go."""
+    from radar.store import Store
+    from radar.model import Company
+    from datetime import date
+    store = Store(":memory:")
+    keep = Company(name="AVEVA", domain="aveva.com", discovered_by="curated",
+                   last_seen=date(2026, 8, 4))
+    moved = Company(name="P", hq_location="Australia", company_type="individual",
+                    discovered_by="curated", last_seen=date(2026, 8, 4))
+    store.upsert(keep)
+    store.upsert(moved)
+    assert store.drop_renamed([moved]) == []
+    assert {c.key for c in store.all()} == {"aveva.com", "p::australia"}
