@@ -1439,3 +1439,33 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
 .glyphed .ico { width: 1em; height: 1em; vertical-align: -.125em; margin-right: .1em; }
 .theme-toggle__icon .ico { width: 18px; height: 18px; }
 .theme-toggle__icon { display: inline-flex; align-items: center; }
+
+/* ---- Tag row alignment --------------------------------------------------- */
+/* The row mixes two chip languages: rule chips (text with a 2px left border)
+   and boxed chips (.chip--cap, .chip--seen, which carry a full 1px border).
+   Because the boxed ones add border and padding on all four sides while the
+   rule ones pad only on the left, the two sat at different heights, on
+   different baselines, and with left edges that did not line up. Measured at
+   375px: heights 19.3 vs 18.3, tops 469.2 vs 494.9.
+
+   One shared box model for every chip, so both languages share a baseline
+   without flattening the visual distinction between them. */
+.chips { align-items: center; }
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.35rem;
+  box-sizing: border-box;
+}
+/* Boxed variants: pad symmetrically and drop the left rule, which was never
+   meant to combine with a full border. */
+.chip--cap,
+.chip--seen {
+  padding: 0 .45rem;
+  border-left-width: 1px;
+  border-radius: 4px;
+  line-height: 1.5;
+}
+/* .chip--seen ran a smaller font than every other chip, which is what made its
+   box a different height from its neighbours. */
+.chip--seen { font-size: .72rem; }
