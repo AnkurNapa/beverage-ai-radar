@@ -17,7 +17,8 @@
     "last_seen": "2026-07-22",
     "company": "iWort",
     "company_key": "iwort.com",
-    "linkedin_id": "ankur-napa"
+    "linkedin_id": "ankur-napa",
+    "company_is_current": true
   },
   {
     "name": "Bart Watson",
@@ -36,7 +37,8 @@
     "last_seen": "2026-07-22",
     "company": "Brewers Association (Barley assistant)",
     "company_key": "brewersassociation.org",
-    "linkedin_id": "bart-watson"
+    "linkedin_id": "bart-watson",
+    "company_is_current": true
   },
   {
     "name": "Erin Schmidt",
@@ -55,7 +57,8 @@
     "last_seen": "2026-07-22",
     "company": "Molson Coors (Atwater Brewery)",
     "company_key": "molsoncoors.com",
-    "linkedin_id": "erin-schmidt-92a18a4"
+    "linkedin_id": "erin-schmidt-92a18a4",
+    "company_is_current": true
   },
   {
     "name": "Willy Lin",
@@ -74,7 +77,8 @@
     "last_seen": "2026-07-22",
     "company": "Anheuser-Busch InBev",
     "company_key": "ab-inbev.com",
-    "linkedin_id": "willy-lin"
+    "linkedin_id": "willy-lin",
+    "company_is_current": false
   },
   {
     "name": "Amanda Dobbyn",
@@ -93,7 +97,8 @@
     "last_seen": "2026-07-22",
     "company": null,
     "company_key": null,
-    "linkedin_id": "amanda-dobbyn"
+    "linkedin_id": "amanda-dobbyn",
+    "company_is_current": null
   },
   {
     "name": "Cathy Huyghe",
@@ -112,7 +117,8 @@
     "last_seen": "2026-07-22",
     "company": "Enolytics",
     "company_key": "enolytics.com",
-    "linkedin_id": "cathy-huyghe-332307"
+    "linkedin_id": "cathy-huyghe-332307",
+    "company_is_current": true
   },
   {
     "name": "Lulie Halstead",
@@ -131,7 +137,8 @@
     "last_seen": "2026-07-22",
     "company": null,
     "company_key": null,
-    "linkedin_id": "lulie-halstead-1b3b8826"
+    "linkedin_id": "lulie-halstead-1b3b8826",
+    "company_is_current": null
   },
   {
     "name": "Alan Talbot",
@@ -150,7 +157,8 @@
     "last_seen": "2026-07-22",
     "company": "WineBusiness Analytics",
     "company_key": "winebusinessanalytics.com",
-    "linkedin_id": "alanltalbot"
+    "linkedin_id": "alanltalbot",
+    "company_is_current": true
   },
   {
     "name": "Solène Bergaire",
@@ -169,7 +177,8 @@
     "last_seen": "2026-07-22",
     "company": null,
     "company_key": null,
-    "linkedin_id": "sol%C3%A8ne-bergaire-a68472108"
+    "linkedin_id": "sol%C3%A8ne-bergaire-a68472108",
+    "company_is_current": null
   },
   {
     "name": "Tom Kornegay",
@@ -187,7 +196,8 @@
     "last_seen": "2026-07-22",
     "company": null,
     "company_key": null,
-    "linkedin_id": null
+    "linkedin_id": null,
+    "company_is_current": null
   },
   {
     "name": "Duan Peng",
@@ -205,6 +215,7 @@
     "last_seen": "2026-07-22",
     "company": null,
     "company_key": null,
-    "linkedin_id": null
+    "linkedin_id": null,
+    "company_is_current": null
   }
 ]
