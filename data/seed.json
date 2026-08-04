@@ -7690,5 +7690,39 @@
     "last_seen": "2026-08-04",
     "discovered_by": "scout:wine",
     "verified": false
+  },
+  {
+    "name": "Oculyze",
+    "domain": "oculyze.net",
+    "hq_location": "Berlin, Germany",
+    "vertical": "multiple",
+    "ai_use_case": "computer vision yeast cell analysis for brewing, wine and bioethanol fermentation",
+    "ai_maturity": "shipping",
+    "short_description": "Oculyze Automation GmbH sells automated microscope image analysis for fermentation. Better Brewing (BB) analyses a yeast sample for cell concentration, viability and budding count in under a minute from a phone-mounted microscope, with parallel products for wine (Fermentation Wine) and bioethanol, plus a custom image analysis platform and its own annotation tool. The company positions itself as 'Tailored AI Image Solutions' and the brewing product is stated to have been validated by VLB Berlin. The AI claim is genuine and specific: this is image recognition applied to cell counting, replacing manual haemocytometer work.",
+    "source_urls": [
+      "https://www.oculyze.net/",
+      "https://www.oculyze.net/yeast-cell-counter/beer-brewing/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "curated",
+    "verified": true
+  },
+  {
+    "name": "Yokogawa Electric",
+    "domain": "yokogawa.com",
+    "hq_location": "Tokyo, Japan",
+    "vertical": "beer",
+    "ai_use_case": "reinforcement-learning autonomous control of fermentation temperature scheduling",
+    "ai_maturity": "pilot",
+    "short_description": "Japanese industrial automation and measurement group. Its autonomous control AI, Factorial Kernel Dynamic Policy Programming (FKDPP), was applied to beer fermentation in a 2025 proof of concept run by Yokogawa Digital with Craft Bank, a Kyoto Prefecture craft brewer: brewers manually implemented the AI-generated temperature setting schedule and cut fermentation from 336 hours to 240 hours, a 28 percent reduction, as stated in Yokogawa's own release. The AI claim is specific and quantified rather than promotional. Yokogawa also sells conventional beer fermentation instrumentation, including continuous monitoring by liquid density meter, which carries no ML claim. Recorded as pilot, not shipping: this is a published proof of concept, not a productised brewing offering.",
+    "source_urls": [
+      "https://www.yokogawa.com/news/press-releases/2025/2025-09-26/",
+      "https://www.yokogawa.com/library/resources/application-notes/automatic-and-continuous-monitoring-of-the-beer-fermentation-process-with-a-liquid-density-meter/"
+    ],
+    "first_seen": "2026-08-04",
+    "last_seen": "2026-08-04",
+    "discovered_by": "curated",
+    "verified": true
   }
 ]

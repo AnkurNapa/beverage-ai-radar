@@ -135,22 +135,22 @@
   {
     "id": "tradeshow_de",
     "label": "German and European beer trade show exhibitors",
-    "hint": "Exhibitor directories, not press. BrauBeviale Nuremberg, drinktec Munich, ProWein/ProWine Dusseldorf, Intervitis Interfructa, Anuga FoodTec, Brau Beviale exhibitor A-Z and product-category filters (process technology, measurement, filling, logistics, IT/software). Also the BrewingScience/VLB Berlin and Doemens supplier orbit. Prioritise exhibitors under software, automation, sensors, quality control and MES categories; skip pure stainless, glass, crown-cork and packaging-material vendors with no data product.",
+    "hint": "Exhibitor directories. BrauBeviale and drinktec both ship their COMPLETE exhibitor records (646 and 1005 entries with name, website, city, country) inline in the page payload at /de-DE/aussteller-und-produkte/, so two curl fetches cover the surface with no search at all. Also ProWein/ProWine Dusseldorf, Intervitis Interfructa, Anuga FoodTec, and the VLB Berlin and Doemens supplier orbit. Prioritise exhibitors under software, automation, sensors, measurement, quality control and MES; skip pure stainless, glass, crown-cork and packaging-material vendors with no data product.",
     "yield": "high",
-    "note": "Exhibitor lists are pre-curated beverage-tech vendor directories, far denser than open web search. Expect many German Mittelstand names absent from English-language sources. Low AI density is normal, label honestly."
+    "note": "Verified 2026-08-04: 10 companies on zero WebSearch calls. Expect many German Mittelstand names absent from English sources. Low AI density is normal, label honestly. Oculyze sits behind Cloudflare on every path and needs a browser, it was hand-added on 2026-08-04."
   },
   {
     "id": "tradeshow_asia",
     "label": "Asian beer and beverage trade show exhibitors",
     "hint": "Exhibitor directories. China Brew China Beverage (CBB) Shanghai, Craft Beer China / Beviale Asia, ProWine Asia Singapore and Tokyo, FoodTech/Brew India and Brews and Spirits Expo India, Interbrew/Beer Asia, Japan Craft Beer trade events, Korea Sool and Seoul Food Tech, Thailand and Vietnam brewing supplier halls. Also Indian brewing equipment and software vendors serving microbreweries. Prioritise software, automation, sensor and lab-analytics exhibitors.",
     "yield": "high",
-    "note": "Weakest geographic coverage in the store and the most likely place to find India, China, Japan and Korea vendors. Many sites are non-English; capture the English name plus the local name where given."
+    "note": "Verified 2026-08-04: 12 companies, 6 India / 2 China / 3 Japan / 1 Korea, the store's weakest geography. Only 2 made real AI claims. BLOCKED and still untapped, both are the densest sources on this surface: CBB renders its hall from a hidden cmsApi endpoint, and CBCE publishes exhibitors as logo images only. Tsingtao is behind an age gate. Yokogawa returns HTTP 202 with an empty body to every non-browser client and was hand-added on 2026-08-04. SEARCH FALLBACK that worked when the session budget was spent: WebFetch against https://html.duckduckgo.com/html/?q=... Brave via curl works briefly then blocks."
   },
   {
     "id": "tradeshow_us",
     "label": "US beer, wine and spirits trade show exhibitors",
-    "hint": "Exhibitor directories. Craft Brewers Conference and BrewExpo America (Brewers Association), NBWA Annual Convention and trade show, Unified Wine and Grape Symposium Sacramento, WIN Expo Sonoma, American Distilling Institute and ADI conference, Bar Convent Brooklyn, Beer Industry Electronic Commerce Coalition. Prioritise the software, analytics, automation, quality-lab and route-to-market exhibitor categories.",
+    "hint": "Exhibitor directories. BEST TWO, both server-rendered HTML and fully fetchable: wineindustryexpo.com/exhibitors (WIN Expo, ~151 exhibitors with name, booth, city, domain, tags) and the NBWA BIECC Innovation Showcase presenter roster, the densest US route-to-market list found. DO NOT ATTEMPT, these disallow our crawler in robots.txt and must not be scraped: mapyourshow.com (hosts both Craft Brewers Conference at cbc2026.mapyourshow.com and Unified Wine and Grape at wine26.mapyourshow.com; it also serves its hall from a POST-only ajax API) and distilling.com (American Distilling Institute). Those need a human or an explicitly permitted pass, not a scout. Also usable: Bar Convent Brooklyn. Prioritise software, analytics, automation, quality-lab and route-to-market exhibitors.",
     "yield": "high",
-    "note": "CBC and Unified exhibitor halls are the densest US beverage-tech directories that exist. Many exhibitors are already tracked; lean hard on existing_names.txt to avoid burning budget re-verifying them."
+    "note": "Verified 2026-08-04: yields 18 companies on zero WebSearch calls by link-grepping show homepages for the real directory path, then parsing the exhibitor table. Lean hard on existing_names.txt. Expect low AI density: only 2 of 18 made substantiated ML claims."
   }
 ]
