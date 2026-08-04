@@ -32,5 +32,14 @@ def run(
     # of having it.
     import json as _json
     write_seo(_json.loads((outputs_dir / "data.json").read_text()), outputs_dir, today)
+    # Share card carries live counts; it sat at 110 companies while the store
+    # held 407. Best-effort: a missing Chrome must not fail the pipeline.
+    try:
+        import sys as _sys
+        _sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
+        import build_og as _og
+        _og.build(today)
+    except Exception as _e:  # noqa: BLE001 - never let the card break a run
+        print(f"og card skipped: {_e}")
     write_vault_notes(store, vault_dir, today)
     return {"per_source": per_source, "total_companies": len(store.all())}
