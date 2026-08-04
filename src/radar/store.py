@@ -49,8 +49,22 @@ class Store:
                 row[f.name] = "1" if v else "0"
             elif isinstance(v, (BeverageVertical, AIMaturity, Status)):
                 row[f.name] = v.value
+            elif isinstance(v, str):
+                row[f.name] = v
+            elif isinstance(v, int) and not isinstance(v, bool):
+                row[f.name] = str(v)
             else:
-                row[f.name] = str(v) if not isinstance(v, str) else v
+                # Refuse rather than str() it. Every silent-corruption bug in
+                # this store landed here: a bool became "False", a list would
+                # have become "[{'label': ...}]", and the export looked fine.
+                # A new field now fails on first write instead of shipping
+                # wrong data to a public dashboard.
+                raise TypeError(
+                    f"Company.{f.name} is {type(v).__name__}, which Store cannot "
+                    f"serialise. Register it in _LIST_FIELDS, _BOOL_FIELDS, "
+                    f"_DATE_FIELDS or _ENUM_FIELDS, and add it to "
+                    f"tests/test_store_roundtrip.py."
+                )
         return row
 
     def _from_row(self, row: sqlite3.Row) -> Company:
