@@ -464,9 +464,16 @@ function companyDetail(c) {
   // before the affiliation edge existed the two lists could never see each
   // other: Erin Schmidt sat in the roster while the Molson Coors page showed
   // nothing. Former roles are labelled, never rendered as present tense.
+  // Store names carry product aliases ("Molson Coors (Atwater Brewery)"), so an
+  // exact string match drops anyone recorded against the plain company name.
+  // Same normalisation the merge gate uses: strip the parenthetical, then
+  // compare on letters and digits only.
+  const normCo = (s) => (s || "").replace(/\(.*?\)/g, " ")
+                                 .toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  const here = normCo(c.name);
   const tracked = (typeof ALL !== "undefined" ? ALL : [])
     .filter((x) => x.company_type === "individual"
-                && x.affiliated_company === c.name
+                && here && normCo(x.affiliated_company) === here
                 && x.name !== c.name);
   const trackedHtml = tracked.length
     ? `<h2>Tracked people here</h2><ul class="detail__list">` + tracked.map((x) => {
