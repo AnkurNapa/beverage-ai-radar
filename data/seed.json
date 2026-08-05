@@ -11078,5 +11078,226 @@
     "first_seen": "2026-08-05",
     "last_seen": "2026-08-05",
     "hq_location": "Edinburgh, UK"
+  },
+  {
+    "name": "WineSpotAi",
+    "domain": "winespot.ai",
+    "vertical": "wine",
+    "ai_use_case": "AI customer service agent for wineries: answers wine club and tasting room enquiries, handles routine support and personalisation across SMS and web chat.",
+    "ai_maturity": "shipping",
+    "funding_stage": "unknown",
+    "short_description": "Temecula, California vendor selling an AI-powered customer support and personalisation layer to winery DTC teams.",
+    "source_urls": [
+      "https://winespot.ai",
+      "https://wineindustrynetwork.com/c/winespot"
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "The Weinheimer Group (VINTAGE2)",
+    "domain": "weinheimergroup.com",
+    "vertical": "wine",
+    "ai_use_case": "VINTAGE2 is an AI marketing readiness and generative-engine-optimisation model for wineries: audits how a winery brand is represented and retrieved by AI assistants and search, then restructures brand content for machine discoverability.",
+    "ai_maturity": "shipping",
+    "funding_stage": "bootstrapped",
+    "short_description": "Austin, Texas consultancy selling an AI brand visibility framework aimed specifically at wineries.",
+    "source_urls": [
+      "https://weinheimergroup.com/vintage2/",
+      "https://wineindustrynetwork.com/c/the-weinheimer-group"
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Blended Technologies",
+    "domain": "blendedtech.com",
+    "vertical": "wine",
+    "ai_use_case": "Winery production, inventory and compliance software with an in-product AI assistant, Barry, layered over winemaking, case goods and cost of goods data.",
+    "ai_maturity": "shipping",
+    "funding_stage": "unknown",
+    "short_description": "Napa winery management platform covering winemaking, compliance, finance and case goods, now shipping an AI assistant.",
+    "source_urls": [
+      "http://www.blendedtech.com",
+      "https://wineindustrynetwork.com/c/blended-technologies-inc."
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Activ8 Commerce",
+    "domain": "activ8commerce.com",
+    "vertical": "wine",
+    "ai_use_case": "No AI claim. Wine and distillery DTC stack: point of sale, club and allocation management, ecommerce, CRM, inventory, fulfilment, reporting and dashboards. Reporting is conventional BI, not modelled.",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "Pleasanton, California winery DTC platform combining POS, wine club, ecommerce and reporting.",
+    "source_urls": [
+      "http://activ8commerce.com",
+      "https://wineindustrynetwork.com/c/Activ8-Commerce"
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "eCELLAR",
+    "domain": "ecellar1.com",
+    "vertical": "wine",
+    "ai_use_case": "No AI claim. Winery DTC platform with a centralised customer database across club, POS, reservations and ecommerce, marketed on customer analytics and data-driven segmentation rather than any model.",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "Calistoga, California winery DTC commerce and customer data platform.",
+    "source_urls": [
+      "http://www.ecellar1.com/",
+      "https://wineindustrynetwork.com/c/eCELLAR"
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Pour Now",
+    "domain": "pour.now",
+    "vertical": "multiple",
+    "ai_use_case": "No AI claim on the product site. Compliant path-to-purchase routing for alcohol brands: turns any brand touchpoint into a working buy link across wine, beer and spirits, replacing static where-to-buy lists.",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "Napa startup founded by Paul Mabray building a compliant where-to-buy and checkout layer for drinks brands.",
+    "source_urls": [
+      "https://launch.pour.now/",
+      "https://wineindustrynetwork.com/c/pour-now-inc."
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Advanced Viticulture",
+    "domain": "advancedvit.com",
+    "vertical": "wine",
+    "ai_use_case": "No AI claim. Vineyard consulting and management built on sensor telemetry: soil moisture probes driving irrigation decisions, plus an air quality sensing line and the Avterra product. Data-led agronomy, no modelling claim.",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "Windsor, California viticulture consultancy pairing vineyard management with soil moisture and air quality sensing.",
+    "source_urls": [
+      "http://www.advancedvit.com",
+      "https://wineindustrynetwork.com/c/advancedvit"
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "myEnologist",
+    "domain": "myenologist.com",
+    "vertical": "wine",
+    "ai_use_case": "No AI claim. Subscription wine and juice lab analysis using FOSS WineScan instrumentation, returning a full data panel per sample so wineries can trend key parameters continuously instead of testing ad hoc. Instrumented data, no model.",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "Napa lab analysis, consulting and cellar supply business selling continuous wine chemistry monitoring on a monthly contract.",
+    "source_urls": [
+      "http://myenologist.com",
+      "https://wineindustrynetwork.com/c/myenologist-inc."
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "WECO",
+    "domain": "wecotek.com",
+    "vertical": "wine",
+    "ai_use_case": "No AI claim. Optical sorting machines including a dedicated wine grape sorting line, plus moisture monitoring. Machine vision hardware sold on sorting accuracy and yield, with no stated learned model.",
+    "ai_maturity": "none",
+    "funding_stage": "acquired",
+    "short_description": "Woodland, California optical sorting manufacturer, part of Duravant, with a wine grape sorting product line.",
+    "source_urls": [
+      "https://www.wecotek.com",
+      "https://wineindustrynetwork.com/c/weco-the-science-of-optical-sorting"
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Terra Bioindustries",
+    "domain": "terrabioindustries.com",
+    "vertical": "beer",
+    "ai_use_case": "No AI claim. Enzymatic upcycling of brewers spent grain into protein, fibre, malt syrup and fermentation feedstock. Sells TERRA Malt back into brewing. Process biotech, no model.",
+    "ai_maturity": "none",
+    "funding_stage": "seed",
+    "short_description": "SOSV / IndieBio backed biotech turning brewery spent grain into B2B food ingredients and a brewing malt syrup.",
+    "source_urls": [
+      "https://terrabioindustries.com/",
+      "https://sosv.com/company/terra-bioindustries/"
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "ALTR",
+    "domain": "altrfltr.com",
+    "vertical": "wine",
+    "ai_use_case": "No AI claim. Velvet Blade patent-pending membrane system for precision ethanol separation, starting with wine, so producers can dial alcohol down while preserving flavour. Separation engineering, no model.",
+    "ai_maturity": "none",
+    "funding_stage": "seed",
+    "short_description": "Rockstart AgriFood backed team of scientists, engineers and winemakers building precision alcohol reduction for wine.",
+    "source_urls": [
+      "https://www.altrfltr.com/",
+      "https://rockstart.com/agrifood/portfolio/"
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Margin",
+    "domain": "usemargin.com",
+    "vertical": "multiple",
+    "ai_use_case": "AI for beer, wine and liquor store retail operations: invoice receiving from a phone photo, and AI-generated purchase orders that predict demand across thousands of SKUs to cut deadstock.",
+    "ai_maturity": "shipping",
+    "funding_stage": "seed",
+    "short_description": "Y Combinator S23 POS and operating system for beer, wine and liquor retailers, built by liquor store owners.",
+    "source_urls": [
+      "https://usemargin.com/",
+      "https://www.ycombinator.com/companies/margin"
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Flaviar",
+    "domain": "flaviar.com",
+    "vertical": "whiskey",
+    "ai_use_case": "No AI or machine learning claim. Whiskey and premium spirits club offering taste-based personalised recommendations to signed-in members, presented as a taste profile feature rather than a stated model.",
+    "ai_maturity": "none",
+    "funding_stage": "series a",
+    "short_description": "Y Combinator S14 whiskey and fine spirits tasting club selling sample packs and full bottles by subscription.",
+    "source_urls": [
+      "https://flaviar.com/",
+      "https://www.ycombinator.com/companies/flaviar"
+    ],
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "discovered_by": "scout:directories",
+    "verified": false
   }
 ]

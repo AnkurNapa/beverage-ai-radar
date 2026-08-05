@@ -152,5 +152,12 @@
     "hint": "Exhibitor directories. BEST ROUTE: the NBWA BIECC Innovation Showcase presenter roster at nbwa.org/event/biecc-innovation-showcase/ (20 presenters) plus the a2zinc floor plan (allowed by robots, 122 exhibitors with domains and cities), the densest US route-to-market list found. DO NOT ATTEMPT, these disallow our crawler in robots.txt and must not be scraped: wineindustryexpo.com (WIN Expo, newly Cloudflare-managed ClaudeBot Disallow as of 2026-08-05, previously fetchable), mapyourshow.com (hosts both Craft Brewers Conference at cbc2026.mapyourshow.com and Unified Wine and Grape at wine26.mapyourshow.com; it also serves its hall from a POST-only ajax API) and distilling.com (American Distilling Institute). Those need a human or an explicitly permitted pass, not a scout. Also usable: Bar Convent Brooklyn. Prioritise software, analytics, automation, quality-lab and route-to-market exhibitors.",
     "yield": "high",
     "note": "Verified 2026-08-05: 6 companies on zero WebSearch calls via the NBWA roster + a2zinc floor plan. WIN Expo went robots-disallowed between the 2026-08-04 and 2026-08-05 sweeps; do not re-attempt it. Twelve BIECC presenters are already tracked, so the roster doubles as fresh evidence for staleness refreshes. Expect low AI density: 1 of 6 made a substantiated ML claim."
+  },
+  {
+    "id": "directories",
+    "label": "Industry supplier directories and accelerator portfolios",
+    "hint": "Vertical supplier directories first, general startup databases last. BEST: wineindustrynetwork.com (search?keyword=... plus /c/<slug> pages, server-rendered and unblocked). Also: SOSV and Big Idea Ventures expose full portfolios via wp-json/wp/v2/company and /portfolio. Y Combinator's public API api.ycombinator.com/v0.1/companies works unauthenticated and returns all 6,127 companies. AVOID, all bot-walled: F6S, Wellfound, Techstars. Crunchbase rate-limits hard (403/429), leave it alone.",
+    "yield": "high",
+    "note": "Verified 2026-08-05: 14 companies. The Wine Industry Network supplier directory alone produced 10 of them; the full 6,127-company YC crawl produced almost nothing. Industry-specific directories beat general startup databases for a vertical radar, the same way trade shows beat cloud marketplaces. 4 of 14 made a real AI claim, the rest were honest none entries."
   }
 ]
