@@ -10,15 +10,15 @@
     "id": "aws",
     "label": "AWS Marketplace and partner ecosystem",
     "hint": "aws.amazon.com/marketplace, AWS Data Exchange, SageMaker model packages, Bedrock builds, AWS partner case studies.",
-    "yield": "medium",
-    "note": "Thin on beverage SaaS listings but productive for data products and model packages."
+    "yield": "low",
+    "note": "Measured near-empty as of 2026-08-05: the full customer-reference directory (1,730 of 1,830 cards) and partner case-study directory (349 of 369) were dumped via aws.amazon.com/api/dirs and grepped for beverage terms; total hits were Coca-Cola, BrewLogix, Selartag and Wine-Searcher. Marketplace product search is client-side only, but individual /marketplace/pp/prodview-* pages render server-side (42,374 in the sitemap, opaque IDs) if a browser pass is ever justified."
   },
   {
     "id": "google",
     "label": "Google Cloud Marketplace and partner ecosystem",
     "hint": "cloud.google.com/marketplace, AI Agent Marketplace, Google Cloud customer case studies, BigQuery commercial datasets.",
     "yield": "low",
-    "note": "The catalog itself is auth-walled and not indexed. Only the case-study and partner side yields. Consider running this surface less often."
+    "note": "MEASURABLY EXHAUSTED as of 2026-08-05, do not run at full cost again. Exact denominator established: all 180 devsite sitemaps crawled -> 1,330 unique cloud.google.com/customers/* case studies, full text of all 1,330 fetched and grepped for beverage terms. 9 matched (0.7%), 6 of them false positives (coffee 'brewing', a redeveloped brewery site, tourism copy). Only AB InBev/Pluto7, Vivino and Asahi are genuine and the first three are already tracked, so true new yield was 1 of 1,330 (Asahi, Akamai-403 and making no AI claim anyway). Marketplace half is dead: console.cloud.google.com/marketplace and find-a-partner/search serve a byte-identical 2.95 MB JS shell to every query and cloud.google.com/__/json/customers serves the app shell to non-browser clients; no public JSON API exists. RE-CHECK BY SITEMAP DIFF ONLY, not a full re-crawl. Note Google-supplied AI (Vertex, Gemini) in these stories belongs to Google, not the customer."
   },
   {
     "id": "industrial",
@@ -102,7 +102,7 @@
     "label": "Oracle ecosystem and beverage clients",
     "hint": "oracle.com customer stories and press, Oracle NetSuite food and beverage / brewery and distillery verticals and their ISVs, Oracle Fusion Cloud SCM demand planning at drinks companies, Oracle Cloud Marketplace beverage listings, Oracle Hospitality for taprooms and bars, MICROS, Oracle Retail for off-trade drinks.",
     "yield": "medium",
-    "note": "Currently a blind spot: Oracle appears only via a NetSuite-based brewery ERP and is not tracked itself. NetSuite ISVs are the richest sub-surface."
+    "note": "Currently a blind spot: Oracle appears only via a NetSuite-based brewery ERP and is not tracked itself. NetSuite SuiteApps are EXHAUSTED as of 2026-08-05: all 780 listings enumerated via suiteapp.com/api/items, only Doozy Solutions is beverage-specific. Oracle Cloud Marketplace API is Akamai-blocked and needs a browser."
   },
   {
     "id": "sap",
@@ -116,7 +116,7 @@
     "label": "Salesforce ecosystem and beverage clients",
     "hint": "salesforce.com customer stories, AppExchange beverage and drinks distribution listings, Salesforce-native route-to-market and DSD platforms for beer, wine and spirits wholesalers, Einstein and Agentforce deployments at drinks brands, Consumer Goods Cloud retail execution in on-trade and off-trade, Data Cloud analytics at beverage companies (Tableau is covered by its own surface), Mulesoft integrations to brewery ERP.",
     "yield": "medium",
-    "note": "Blind spot: Salesforce appears only via a beverage operating system built on it and is not tracked itself. Consumer Goods Cloud route-to-market is the richest sub-surface."
+    "note": "Blind spot: Salesforce appears only via a beverage operating system built on it and is not tracked itself. AppExchange is EXHAUSTED as of 2026-08-05: all 4,178 listing pages were crawled by title and meta description and GreatVines and Ohanafy are the only beverage-named apps, both already tracked. Do not re-crawl it; Consumer Goods Cloud route-to-market is the remaining sub-surface."
   },
   {
     "id": "tableau",
@@ -149,8 +149,8 @@
   {
     "id": "tradeshow_us",
     "label": "US beer, wine and spirits trade show exhibitors",
-    "hint": "Exhibitor directories. BEST TWO, both server-rendered HTML and fully fetchable: wineindustryexpo.com/exhibitors (WIN Expo, ~151 exhibitors with name, booth, city, domain, tags) and the NBWA BIECC Innovation Showcase presenter roster, the densest US route-to-market list found. DO NOT ATTEMPT, these disallow our crawler in robots.txt and must not be scraped: mapyourshow.com (hosts both Craft Brewers Conference at cbc2026.mapyourshow.com and Unified Wine and Grape at wine26.mapyourshow.com; it also serves its hall from a POST-only ajax API) and distilling.com (American Distilling Institute). Those need a human or an explicitly permitted pass, not a scout. Also usable: Bar Convent Brooklyn. Prioritise software, analytics, automation, quality-lab and route-to-market exhibitors.",
+    "hint": "Exhibitor directories. BEST ROUTE: the NBWA BIECC Innovation Showcase presenter roster at nbwa.org/event/biecc-innovation-showcase/ (20 presenters) plus the a2zinc floor plan (allowed by robots, 122 exhibitors with domains and cities), the densest US route-to-market list found. DO NOT ATTEMPT, these disallow our crawler in robots.txt and must not be scraped: wineindustryexpo.com (WIN Expo, newly Cloudflare-managed ClaudeBot Disallow as of 2026-08-05, previously fetchable), mapyourshow.com (hosts both Craft Brewers Conference at cbc2026.mapyourshow.com and Unified Wine and Grape at wine26.mapyourshow.com; it also serves its hall from a POST-only ajax API) and distilling.com (American Distilling Institute). Those need a human or an explicitly permitted pass, not a scout. Also usable: Bar Convent Brooklyn. Prioritise software, analytics, automation, quality-lab and route-to-market exhibitors.",
     "yield": "high",
-    "note": "Verified 2026-08-04: yields 18 companies on zero WebSearch calls by link-grepping show homepages for the real directory path, then parsing the exhibitor table. Lean hard on existing_names.txt. Expect low AI density: only 2 of 18 made substantiated ML claims."
+    "note": "Verified 2026-08-05: 6 companies on zero WebSearch calls via the NBWA roster + a2zinc floor plan. WIN Expo went robots-disallowed between the 2026-08-04 and 2026-08-05 sweeps; do not re-attempt it. Twelve BIECC presenters are already tracked, so the roster doubles as fresh evidence for staleness refreshes. Expect low AI density: 1 of 6 made a substantiated ML claim."
   }
 ]
