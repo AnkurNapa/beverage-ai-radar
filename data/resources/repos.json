@@ -214,5 +214,419 @@
     "language": "",
     "stars": 1,
     "vertical": "beer"
+  },
+  {
+    "full_name": "craftbeerpi/craftbeerpi",
+    "url": "https://github.com/craftbeerpi/craftbeerpi",
+    "description": "Brew Controller",
+    "stars": 624,
+    "language": "JavaScript",
+    "vertical": "beer",
+    "relevance": "Widely used open brewery process controller for mash and fermentation, the layer that generates the time series any brewing analytics sits on. Control software, not machine learning."
+  },
+  {
+    "full_name": "craftbeerpi/craftbeerpi4",
+    "url": "https://github.com/craftbeerpi/craftbeerpi4",
+    "description": "",
+    "stars": 147,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "Current Python rewrite of CraftBeerPi with a plugin architecture, a practical base for instrumenting a small brewhouse and logging process data."
+  },
+  {
+    "full_name": "vitotai/BrewPiLess",
+    "url": "https://github.com/vitotai/BrewPiLess",
+    "description": "Use an ESP8266 to replace RPI and Arduino. Running BrewPi without Pi, therefore, BrewPi-Less",
+    "stars": 389,
+    "language": "C",
+    "vertical": "beer",
+    "relevance": "ESP8266 fermentation controller that logs gravity and temperature continuously, a cheap source of real fermentation datasets. Firmware and tooling, not modelling."
+  },
+  {
+    "full_name": "thorrak/fermentrack",
+    "url": "https://github.com/thorrak/fermentrack",
+    "description": "A replacement web interface for BrewPi",
+    "stars": 146,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "Web platform that collects and charts fermentation data from BrewPi and Tilt devices, useful as the data-capture tier under any fermentation model."
+  },
+  {
+    "full_name": "mp-se/gravitymon",
+    "url": "https://github.com/mp-se/gravitymon",
+    "description": "iSpindel replacement firmware for beer brewing/fermenting",
+    "stars": 98,
+    "language": "C++",
+    "vertical": "beer",
+    "relevance": "Open firmware for a floating gravity sensor that streams fermentation readings to a server, the sensor side of fermentation data collection rather than analysis."
+  },
+  {
+    "full_name": "Kegbot/kegbot-server",
+    "url": "https://github.com/Kegbot/kegbot-server",
+    "description": "Kegbot Server, the internet beer kegerator monitoring system.",
+    "stars": 197,
+    "language": "JavaScript",
+    "vertical": "beer",
+    "relevance": "Long-running open kegerator monitoring server that captures pour-level consumption data, a rare source of real beer consumption telemetry."
+  },
+  {
+    "full_name": "thsant/wgisd",
+    "url": "https://github.com/thsant/wgisd",
+    "description": "Embrapa Wine Grape Instance Segmentation Dataset - Embrapa WGISD",
+    "stars": 141,
+    "language": "Jupyter Notebook",
+    "vertical": "wine",
+    "relevance": "Embrapa Wine Grape Instance Segmentation Dataset, a labelled computer vision dataset for detecting grape bunches in the vineyard and a genuine benchmark for viticulture CV."
+  },
+  {
+    "full_name": "alexlimofficial/grape-disease-detection",
+    "url": "https://github.com/alexlimofficial/grape-disease-detection",
+    "description": "Grape disease classification and instance segmentation using convolutional neural networks.",
+    "stars": 7,
+    "language": "Jupyter Notebook",
+    "vertical": "wine",
+    "relevance": "Convolutional network for grape leaf disease classification and instance segmentation, a worked example of vineyard health CV."
+  },
+  {
+    "full_name": "UCDavisLibrary/ava",
+    "url": "https://github.com/UCDavisLibrary/ava",
+    "description": "American Viticultural Areas",
+    "stars": 78,
+    "language": "R",
+    "vertical": "wine",
+    "relevance": "Authoritative geospatial dataset of American Viticultural Areas from UC Davis, the reference boundary data for any wine region analysis. Data, not a model."
+  },
+  {
+    "full_name": "brewcomputer/brewcalc",
+    "url": "https://github.com/brewcomputer/brewcalc",
+    "description": "JavaScript (ES6) home brewing recipe calculator library",
+    "stars": 128,
+    "language": "TypeScript",
+    "vertical": "beer",
+    "relevance": "Modern TypeScript brewing recipe calculation library covering gravity, IBU and colour, a clean engine to embed in beer tools. Brewing math, not machine learning."
+  },
+  {
+    "full_name": "chrisgilmerproj/brewday",
+    "url": "https://github.com/chrisgilmerproj/brewday",
+    "description": "Tools for the home brewer",
+    "stars": 26,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "Python library of brewing calculations and unit handling, convenient when brewing math has to run inside a data pipeline. Tooling, not ML."
+  },
+  {
+    "full_name": "drodil/rustybeer",
+    "url": "https://github.com/drodil/rustybeer",
+    "description": "CLI tool to calculate beer brewing values for different things",
+    "stars": 13,
+    "language": "Rust",
+    "vertical": "beer",
+    "relevance": "Rust CLI and library for brewing calculations including ABV, priming and dilution, a fast reference implementation of the core math."
+  },
+  {
+    "full_name": "BrewCenter/BrewCenterAPI",
+    "url": "https://github.com/BrewCenter/BrewCenterAPI",
+    "description": "An open source api for managing homebrewing related data.",
+    "stars": 33,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "Open API and data model for homebrewing ingredients and recipes, useful as a normalized backend schema for beer data work."
+  },
+  {
+    "full_name": "davereese/beerforge",
+    "url": "https://github.com/davereese/beerforge",
+    "description": "A modern, web-based homebrew toolkit and brew log.",
+    "stars": 21,
+    "language": "TypeScript",
+    "vertical": "beer",
+    "relevance": "Web homebrew toolkit and brew log with a full recipe calculation engine, a reference for browser-side brewing apps rather than an ML project."
+  },
+  {
+    "full_name": "jackmisner/BrewTracker",
+    "url": "https://github.com/jackmisner/BrewTracker",
+    "description": "A solo hobby project for managing all your homebrewed beer needs! Featuring recipe creation (along with versioning) and fermentation tracking with an advanced beer characteristic prediction model that takes into consideration previous fermentation stats as well as an intelligent recipe analysis feature that can suggest improvements to match styles.",
+    "stars": 8,
+    "language": "TypeScript",
+    "vertical": "beer",
+    "relevance": "Actively developed recipe management and fermentation tracking app with recipe versioning, a good pattern for capturing structured brew history."
+  },
+  {
+    "full_name": "stuartraetaylor/diydog-beerxml",
+    "url": "https://github.com/stuartraetaylor/diydog-beerxml",
+    "description": "Brewdog DIY Dog recipes in BeerXML format",
+    "stars": 11,
+    "language": "",
+    "vertical": "beer",
+    "relevance": "BrewDog's full DIY Dog recipe archive converted to BeerXML, a clean licensed corpus of 400 real commercial recipes for recipe modelling."
+  },
+  {
+    "full_name": "alxiw/punkapi",
+    "url": "https://github.com/alxiw/punkapi",
+    "description": "REST API for BrewDog's DIY Dog beer catalog",
+    "stars": 22,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "Self-hostable REST API over the BrewDog DIY Dog beer catalog, a convenient way to serve that recipe dataset into applications and notebooks."
+  },
+  {
+    "full_name": "sboulema/BrewDB",
+    "url": "https://github.com/sboulema/BrewDB",
+    "description": "SQLite database with beer brewing ingredients",
+    "stars": 10,
+    "language": "Batchfile",
+    "vertical": "beer",
+    "relevance": "SQLite database of brewing ingredients (fermentables, hops, yeast) with their specifications, handy reference data for recipe tools. Data only."
+  },
+  {
+    "full_name": "kasperg3/HopDatabase",
+    "url": "https://github.com/kasperg3/HopDatabase",
+    "description": "A database of hop varieties used in the brewing industry, created using web scraping techniques.",
+    "stars": 15,
+    "language": "HTML",
+    "vertical": "beer",
+    "relevance": "Scraped database of hop varieties with alpha acid and aroma descriptors, the ingredient reference table behind hop substitution and flavour work."
+  },
+  {
+    "full_name": "philipperemy/beer-dataset",
+    "url": "https://github.com/philipperemy/beer-dataset",
+    "description": "The biggest beer database is in this repo!",
+    "stars": 34,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "Large scraped dataset of beer names and metadata, useful raw material for beer name generation, entity matching and NLP experiments."
+  },
+  {
+    "full_name": "nickhould/craft-beers-dataset",
+    "url": "https://github.com/nickhould/craft-beers-dataset",
+    "description": "Craft Beers & Data Science - Data Analysis of a Craft Beer Dataset",
+    "stars": 97,
+    "language": "Jupyter Notebook",
+    "vertical": "beer",
+    "relevance": "Craft beers and breweries dataset with the accompanying data science notebooks, a well-known teaching example of beer data analysis."
+  },
+  {
+    "full_name": "jasdumas/ttbbeer",
+    "url": "https://github.com/jasdumas/ttbbeer",
+    "description": "An R Dataset Package for US Beer Statistics From TTB :beer:",
+    "stars": 25,
+    "language": "R",
+    "vertical": "beer",
+    "relevance": "R package packaging US TTB beer production, tax and materials statistics as tidy datasets, the official industry volume data in analysis-ready form."
+  },
+  {
+    "full_name": "kbathina/Untappd",
+    "url": "https://github.com/kbathina/Untappd",
+    "description": "code for downloading and analyzing Untappd data",
+    "stars": 8,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "Code for downloading and analyzing personal Untappd check-in data, a practical route into real consumer beer rating data."
+  },
+  {
+    "full_name": "LarsEllefsen/WinMonopolet",
+    "url": "https://github.com/LarsEllefsen/WinMonopolet",
+    "description": "Winmonopolet is a webapp that matches all the beers, ciders and meads at Vinmonopolet to Untappd in order to help you find the best rated beers in stock, right now, at your local Vinmonopolet outlet.",
+    "stars": 23,
+    "language": "TypeScript",
+    "vertical": "multiple",
+    "relevance": "Pipeline that matches the Norwegian alcohol monopoly product catalog against Untappd ratings, a real entity-resolution problem across two beverage datasets."
+  },
+  {
+    "full_name": "haven-jeon/beer_recommander",
+    "url": "https://github.com/haven-jeon/beer_recommander",
+    "description": "keras based beer recommendation",
+    "stars": 8,
+    "language": "HTML",
+    "vertical": "beer",
+    "relevance": "Keras neural recommender trained on beer review data, a compact deep-learning take on beer preference modelling."
+  },
+  {
+    "full_name": "paulozip/beer-recommender-mab",
+    "url": "https://github.com/paulozip/beer-recommender-mab",
+    "description": "A beer recommendation system using multi-armed bandit approach to solve cold start problems",
+    "stars": 11,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "Beer recommender using multi-armed bandits to handle the cold-start problem, an unusual and practical angle on beverage recommendation."
+  },
+  {
+    "full_name": "RoaldSchuring/wine_recommender",
+    "url": "https://github.com/RoaldSchuring/wine_recommender",
+    "description": "Creating wine embeddings and using these to produce wine recommendations",
+    "stars": 22,
+    "language": "Jupyter Notebook",
+    "vertical": "wine",
+    "relevance": "Builds wine embeddings from tasting note text and uses them for recommendations, one of the better worked examples of representation learning on wine."
+  },
+  {
+    "full_name": "OrderAndCh4oS/sommelier-ai-next",
+    "url": "https://github.com/OrderAndCh4oS/sommelier-ai-next",
+    "description": "An application using OpenAI GPT-4. It is able to generate tasting notes and provide wine recommendations using embeddings.",
+    "stars": 8,
+    "language": "TypeScript",
+    "vertical": "wine",
+    "relevance": "GPT-4 and embeddings application that generates tasting notes and wine recommendations, an early example of LLMs applied to wine sensory language."
+  },
+  {
+    "full_name": "gorbulus/WineReviewAnalysis",
+    "url": "https://github.com/gorbulus/WineReviewAnalysis",
+    "description": "Statistical analysis of a dataset of 150,000 Wine Reviews",
+    "stars": 15,
+    "language": "Jupyter Notebook",
+    "vertical": "wine",
+    "relevance": "Statistical analysis of a 150,000-row wine review corpus, a solid reference for text and score analysis on wine reviews."
+  },
+  {
+    "full_name": "gugarosa/viviner",
+    "url": "https://github.com/gugarosa/viviner",
+    "description": "Scraps data from Vivino and collects outstanding wine-based meta-data.",
+    "stars": 75,
+    "language": "Python",
+    "vertical": "wine",
+    "relevance": "Scraper that collects Vivino wine metadata and ratings, a data acquisition tool for building wine rating datasets. Archived but still a working reference."
+  },
+  {
+    "full_name": "xenofex7/ha-wine-tracker",
+    "url": "https://github.com/xenofex7/ha-wine-tracker",
+    "description": "Wine cellar tracker with AI label recognition and Vivino integration -> Home Assistant add-on or Docker standalone",
+    "stars": 18,
+    "language": "Python",
+    "vertical": "wine",
+    "relevance": "Wine cellar tracker with AI label recognition and Vivino lookup, a practical example of computer vision applied to bottle identification."
+  },
+  {
+    "full_name": "the-broke-sommeliers/wine-cellar",
+    "url": "https://github.com/the-broke-sommeliers/wine-cellar",
+    "description": "Wine Cellar is a self-hosted wine management app designed for wine enthusiasts who want to keep track of the wines they've tried.",
+    "stars": 51,
+    "language": "Python",
+    "vertical": "wine",
+    "relevance": "Actively maintained self-hosted wine inventory application, useful as a data model for cellar and stock tracking rather than as an ML project."
+  },
+  {
+    "full_name": "elleobrien/wine",
+    "url": "https://github.com/elleobrien/wine",
+    "description": "wine prediction dataset",
+    "stars": 68,
+    "language": "Python",
+    "vertical": "wine",
+    "relevance": "Small but widely referenced CML and DVC demo that trains a wine quality model in CI, a template for reproducible beverage ML pipelines."
+  },
+  {
+    "full_name": "cuducos/whiskyton",
+    "url": "https://github.com/cuducos/whiskyton",
+    "description": "Whiskyton, find whiskies that you like!",
+    "stars": 86,
+    "language": "Rust",
+    "vertical": "whiskey",
+    "relevance": "Whisky similarity and recommendation site built on flavour profile distances, one of the cleanest open implementations of whisky flavour matching."
+  },
+  {
+    "full_name": "AustinKrause/whiskey-recommender",
+    "url": "https://github.com/AustinKrause/whiskey-recommender",
+    "description": "Whiskey Recommendation System",
+    "stars": 11,
+    "language": "Jupyter Notebook",
+    "vertical": "whiskey",
+    "relevance": "Whiskey recommendation system built from tasting note data, scarce open work on whiskey preference modelling."
+  },
+  {
+    "full_name": "makispl/Machine-Learning-Whiskey-Dataset",
+    "url": "https://github.com/makispl/Machine-Learning-Whiskey-Dataset",
+    "description": "",
+    "stars": 14,
+    "language": "Jupyter Notebook",
+    "vertical": "whiskey",
+    "relevance": "Machine learning notebooks over a whiskey dataset, a rare public example of supervised modelling on spirits data."
+  },
+  {
+    "full_name": "KenHBS/WhiskyEmbeddings",
+    "url": "https://github.com/KenHBS/WhiskyEmbeddings",
+    "description": "This word2vec model allows you to find similar whiskies and describe whiskies",
+    "stars": 5,
+    "language": "Python",
+    "vertical": "whiskey",
+    "relevance": "word2vec model over whisky tasting notes that finds similar whiskies and describes them, an early embedding approach to spirits sensory language."
+  },
+  {
+    "full_name": "jacquessham/ScotchWhisky",
+    "url": "https://github.com/jacquessham/ScotchWhisky",
+    "description": "This project is to build a content-based Scotch Whisky recommendation system to help to sell Scotch Whiskies.",
+    "stars": 5,
+    "language": "Python",
+    "vertical": "whiskey",
+    "relevance": "Content-based Scotch whisky recommendation system built on flavour attributes, directly applicable to spirits merchandising and range selection."
+  },
+  {
+    "full_name": "andrewdunndev/scotchit",
+    "url": "https://github.com/andrewdunndev/scotchit",
+    "description": "Better Whisky Drinking Through Data Science",
+    "stars": 10,
+    "language": "Python",
+    "vertical": "whiskey",
+    "relevance": "Early data science project clustering Scotch whiskies by flavour profile, dated but a useful reference for spirits flavour clustering."
+  },
+  {
+    "full_name": "martinmitrevski/WhiskyClub",
+    "url": "https://github.com/martinmitrevski/WhiskyClub",
+    "description": "App for recognising different brands of whisky.",
+    "stars": 19,
+    "language": "Swift",
+    "vertical": "whiskey",
+    "relevance": "iOS app that recognises whisky brands from images, an applied computer vision example on spirits labels."
+  },
+  {
+    "full_name": "simonetacannodelas/BioVL-Library",
+    "url": "https://github.com/simonetacannodelas/BioVL-Library",
+    "description": "Mechanistic models in fermentation",
+    "stars": 22,
+    "language": "Python",
+    "vertical": "multiple",
+    "relevance": "Library of mechanistic fermentation models, the physics-based counterpart to data-driven fermentation prediction and a source of grey-box model structures."
+  },
+  {
+    "full_name": "biosustain/fermentation-mpc",
+    "url": "https://github.com/biosustain/fermentation-mpc",
+    "description": "Model predictive control (MPC) for fermentations",
+    "stars": 12,
+    "language": "Jupyter Notebook",
+    "vertical": "multiple",
+    "relevance": "Model predictive control applied to fermentation from a bioengineering group, directly transferable to controlling brewing and distilling fermentations."
+  },
+  {
+    "full_name": "hirschmann/pid-autotune",
+    "url": "https://github.com/hirschmann/pid-autotune",
+    "description": "PID-controller/brewing kettle simulation",
+    "stars": 168,
+    "language": "Python",
+    "vertical": "beer",
+    "relevance": "PID autotune implementation with a brewing kettle simulation, a compact reference for control loop tuning on brewhouse equipment."
+  },
+  {
+    "full_name": "justinmklam/iot-sourdough-starter-monitor",
+    "url": "https://github.com/justinmklam/iot-sourdough-starter-monitor",
+    "description": "Tracking the fermentation of sourdough starter over the cloud.",
+    "stars": 95,
+    "language": "C++",
+    "vertical": "multiple",
+    "relevance": "Cloud-connected sensor rig tracking fermentation activity in a sourdough starter, an adjacent but well-built pattern for low-cost fermentation telemetry."
+  },
+  {
+    "full_name": "jonnor/brewing-audio-event-detection",
+    "url": "https://github.com/jonnor/brewing-audio-event-detection",
+    "description": "Tracking beer/wine using Audio Event Detection with Machine Learning",
+    "stars": 15,
+    "language": "Jupyter Notebook",
+    "vertical": "multiple",
+    "relevance": "Machine learning on audio events to track beer and wine related activity, an unusual sensing modality worth knowing about for beverage monitoring."
+  },
+  {
+    "full_name": "bdelbosc/beer-feedback",
+    "url": "https://github.com/bdelbosc/beer-feedback",
+    "description": "Beer Tasting Feedback App for judging or learning",
+    "stars": 10,
+    "language": "JavaScript",
+    "vertical": "beer",
+    "relevance": "Structured beer tasting feedback and judging app, a way to capture sensory panel scores as data rather than free text."
   }
 ]

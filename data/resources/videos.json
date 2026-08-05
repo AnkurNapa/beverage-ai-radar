@@ -292,5 +292,185 @@
     "year": null,
     "summary": "A workshop on data mining with Orange, applied to brewing.",
     "featured": true
+  },
+  {
+    "title": "Creating the brewery of the future with Anheuser-Busch InBev",
+    "channel": "Microsoft IoT",
+    "video_id": "POtqYy_t-eY",
+    "url": "https://www.youtube.com/watch?v=POtqYy_t-eY",
+    "vertical": "beer",
+    "year": 2021,
+    "summary": "Anheuser-Busch InBev engineers describe running the world's largest brewing operation on the Microsoft IoT and mixed-reality stack, connecting plant process data for control, optimisation and remote operator guidance."
+  },
+  {
+    "title": "AI Challenger | HEINEKEN: Tapping AI to Become the Best-Connected Brewer",
+    "channel": "Microsoft Cloud",
+    "video_id": "Vo647KQyMus",
+    "url": "https://www.youtube.com/watch?v=Vo647KQyMus",
+    "vertical": "beer",
+    "year": 2025,
+    "summary": "Ronald den Elzen, HEINEKEN's Chief Digital and Technology Officer, explains how the brewer is deploying generative and agentic AI on Microsoft Cloud across its business to become the best connected brewer."
+  },
+  {
+    "title": "Heineken partners with Microsoft to become the best connected brewer",
+    "channel": "Microsoft Cloud",
+    "video_id": "C6dq5bPGcNs",
+    "url": "https://www.youtube.com/watch?v=C6dq5bPGcNs",
+    "vertical": "beer",
+    "year": 2021,
+    "summary": "Microsoft customer story on Heineken replacing manual processes with a company-wide digital platform to connect employees, customers and consumer data. Digital workplace and data modernisation rather than machine learning."
+  },
+  {
+    "title": "Brewing Smarter: How HEINEKEN Is Using AI To Revolutionize Its Global Operations",
+    "channel": "IBM",
+    "video_id": "08v7VQNXnZc",
+    "url": "https://www.youtube.com/watch?v=08v7VQNXnZc",
+    "vertical": "beer",
+    "year": 2026,
+    "summary": "Smart Talks with IBM episode recorded at SXSW in which Malcolm Gladwell interviews HEINEKEN Chief AI Officer Surajeet Ghosh about applying data and AI to marketing, supply chain, sales and decision making."
+  },
+  {
+    "title": "Carlsberg at Microsoft Inspire",
+    "channel": "CarlsbergGroup",
+    "video_id": "GBEx5zFtEO0",
+    "url": "https://www.youtube.com/watch?v=GBEx5zFtEO0",
+    "vertical": "beer",
+    "year": 2018,
+    "summary": "Carlsberg CTO Sarah Haywood and Carlsberg Research Laboratory professor Jochen Forster present the Beer Fingerprinting project at Microsoft Inspire, using sensors plus machine learning on Azure to predict how new beer varieties will taste."
+  },
+  {
+    "title": "Brewing AI at Scale: Inside Carlsberg's Copilot Project",
+    "channel": "Fellowmind Denmark",
+    "video_id": "hZ4LS-PJuwY",
+    "url": "https://www.youtube.com/watch?v=hZ4LS-PJuwY",
+    "vertical": "beer",
+    "year": 2026,
+    "summary": "Webinar with Carlsberg's project team on embedding Microsoft 365 Copilot into everyday workflows across the global brewer, covering adoption, governance and moving past pilot stage."
+  },
+  {
+    "title": "Microsoft AI helps Argentine farmers and winemakers to be more efficient and sustainable",
+    "channel": "Microsoft",
+    "video_id": "-uE23gtwRzo",
+    "url": "https://www.youtube.com/watch?v=-uE23gtwRzo",
+    "vertical": "wine",
+    "year": 2023,
+    "summary": "Mendoza winemaker Elizabeth Panella uses Microsoft AI-backed agronomy tools to monitor vineyard health from an app, target water and fertiliser use, and time harvest with model-driven guidance."
+  },
+  {
+    "title": "How Migrating to Unity Catalog Unlocked the Diageo Data Roadmap",
+    "channel": "Databricks",
+    "video_id": "KwRIeM4uJ8A",
+    "url": "https://www.youtube.com/watch?v=KwRIeM4uJ8A",
+    "vertical": "multiple",
+    "year": 2024,
+    "summary": "Diageo, owner of Guinness, Johnnie Walker and Tanqueray, walks through centralising its global data estate on Databricks and migrating to Unity Catalog. Governance and data platform work, not machine learning."
+  },
+  {
+    "title": "How Suntory Turns Data into Faster Decisions with Databricks",
+    "channel": "Databricks",
+    "video_id": "LqJaUSaCuAw",
+    "url": "https://www.youtube.com/watch?v=LqJaUSaCuAw",
+    "vertical": "multiple",
+    "year": 2026,
+    "summary": "Suntory's data leaders describe building curated, enterprise-scale data products on Databricks to speed decisions across their international beverage business, covering consumer demand shifts and supply chain complexity."
+  },
+  {
+    "title": "Heineken Enhances Operations with the Databricks Data Intelligence Platform",
+    "channel": "Databricks",
+    "video_id": "mL_wNx0v8BA",
+    "url": "https://www.youtube.com/watch?v=mL_wNx0v8BA",
+    "vertical": "beer",
+    "year": 2025,
+    "summary": "Jelle Van Etten, Head of Global Data Platform at Heineken, explains how the brewer connects data across 190 countries on the Databricks Data Intelligence Platform to shorten the path from data to operational insight."
+  },
+  {
+    "title": "Building and Scaling Machine Learning-Based Products in the World's Largest Brewery",
+    "channel": "Databricks",
+    "video_id": "I6CgXz5sESQ",
+    "url": "https://www.youtube.com/watch?v=I6CgXz5sESQ",
+    "vertical": "beer",
+    "year": 2022,
+    "summary": "Anheuser-Busch InBev Brazil engineers present the internal ML platform they built on Databricks to take teams from exploratory analysis through to production machine learning models across the brewer."
+  },
+  {
+    "title": "How Drizly Uses Snowflake to Get Beverages to Your Doorstep | Office Hours | Snowflake Inc.",
+    "channel": "Snowflake Inc.",
+    "video_id": "S-dP4jtY8Kk",
+    "url": "https://www.youtube.com/watch?v=S-dP4jtY8Kk",
+    "vertical": "multiple",
+    "year": 2020,
+    "summary": "Alcohol delivery marketplace Drizly explains consolidating semi-structured web and mobile event data on Snowflake for data sharing and analytics. Warehouse and pipeline work rather than ML."
+  },
+  {
+    "title": "Transforming Wine Through Tech: TWE's Journey | Retail Insights AWS",
+    "channel": "Amazon Web Services",
+    "video_id": "A_xZzwjH3wE",
+    "url": "https://www.youtube.com/watch?v=A_xZzwjH3wE",
+    "vertical": "wine",
+    "year": 2025,
+    "summary": "Amanda Green, GM of Digital and Innovation at Treasury Wine Estates, discusses applying cloud, data and AI across Penfolds, Daou and Wynns, from consumer experience to running a centuries-old winemaking business."
+  },
+  {
+    "title": "AWS re:Invent 2021 - Build an app to find your next favorite brew",
+    "channel": "AWS Events",
+    "video_id": "6bFed861VgU",
+    "url": "https://www.youtube.com/watch?v=6bFed861VgU",
+    "vertical": "beer",
+    "year": 2021,
+    "summary": "AWS builder session constructing a craft beer recommendation app where machine learning models generate personalised beer suggestions and real-time user feedback retrains future recommendations."
+  },
+  {
+    "title": "Pentair Uses AWS IoT to Improve Beer Filtration Processes and Boost Performance by 10%",
+    "channel": "Amazon Web Services",
+    "video_id": "za2r3RSrBYQ",
+    "url": "https://www.youtube.com/watch?v=za2r3RSrBYQ",
+    "vertical": "beer",
+    "year": 2019,
+    "summary": "Pentair streams sensor data from brewery membrane filtration systems into AWS IoT to make filtration performance predictable, reporting a 10 percent performance gain and lower operating cost."
+  },
+  {
+    "title": "How Brown Forman's Analytics Catalog has Consolidated and Improved their Use of Tableau & Reporting",
+    "channel": "Tableau",
+    "video_id": "SgIBNTog0Zk",
+    "url": "https://www.youtube.com/watch?v=SgIBNTog0Zk",
+    "vertical": "whiskey",
+    "year": 2019,
+    "summary": "Sam Sorsa, who leads advanced analytics at Jack Daniel's owner Brown-Forman, describes moving from scattered reporting to a governed Tableau analytics catalog. Reporting governance, no ML component."
+  },
+  {
+    "title": "NetSuite TV at SuiteWorld 2023: Terlato Wine Group achieves more with less on NetSuite ERP",
+    "channel": "NetSuite",
+    "video_id": "MqdTrMlt7ns",
+    "url": "https://www.youtube.com/watch?v=MqdTrMlt7ns",
+    "vertical": "wine",
+    "year": 2023,
+    "summary": "Jeff Hampton, Head of Reporting and Analytics at Terlato Wine Group, explains using NetSuite Analytics Warehouse and planning and budgeting tools for wine business reporting. ERP analytics, not AI."
+  },
+  {
+    "title": "BERO Brewing Finds Rapid Growth and Efficiency with NetSuite",
+    "channel": "NetSuite",
+    "video_id": "M1Jeph_Nk7M",
+    "url": "https://www.youtube.com/watch?v=M1Jeph_Nk7M",
+    "vertical": "beer",
+    "year": 2026,
+    "summary": "Non-alcoholic beer brand BERO Brewing describes unifying finance, inventory and operations data on NetSuite from day one to support fast growth. Cloud ERP and reporting, no machine learning."
+  },
+  {
+    "title": "How Anheuser-Busch Inbev Unlocked Insights on Tap With a Gen AI Assistant",
+    "channel": "Big Data LDN",
+    "video_id": "toZvJy5OL8Y",
+    "url": "https://www.youtube.com/watch?v=toZvJy5OL8Y",
+    "vertical": "beer",
+    "year": 2023,
+    "summary": "Big Data LDN conference session with Elizabeth Davies of AB InBev on deploying a generative AI analytics assistant that automates routine analysis and answers business questions over the brewer's data."
+  },
+  {
+    "title": "Pluto7 Google Cloud  Ab Inbev Budweiser Brewery ML Beer Filter using Machine Learning",
+    "channel": "Pluto7 Pi Agent Community Autonomous Supply Chain",
+    "video_id": "J-dDkSf-eU4",
+    "url": "https://www.youtube.com/watch?v=J-dDkSf-eU4",
+    "vertical": "beer",
+    "year": 2024,
+    "summary": "Google Cloud partner Pluto7 demonstrates a machine learning model built for AB InBev's Budweiser brewery to optimise the beer filtration step of production."
   }
 ]
