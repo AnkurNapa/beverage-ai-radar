@@ -10883,5 +10883,200 @@
     "verified": true,
     "first_seen": "2026-08-05",
     "last_seen": "2026-08-05"
+  },
+  {
+    "name": "Hamilton Company",
+    "domain": "hamiltoncompany.com",
+    "vertical": "beer",
+    "ai_use_case": "no ai claim; inline process sensors for brewhouse and fermentation",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "Hamilton Company builds inline process analytics sensors used through the brewhouse and fermentation, measuring dissolved oxygen, dissolved CO2, pH and conductivity in real time, with ArcAir software for sensor management and GMP compliance. Verified directly on the vendor site, which runs a dedicated brewing applications section. Hamilton makes no machine-learning claim: this is instrumentation and real-time measurement, recorded here as the sensing layer that brewery process data originates from, not as an AI vendor.",
+    "source_urls": [
+      "https://www.hamiltoncompany.com/process-analytics",
+      "https://www.linkedin.com/company/hamilton-company/about/"
+    ],
+    "discovered_by": "curated",
+    "verified": true,
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "hq_location": "Reno, NV, USA and Bonaduz, Switzerland"
+  },
+  {
+    "name": "Q-Interline",
+    "domain": "q-interline.com",
+    "vertical": "multiple",
+    "ai_use_case": "no ai claim; FT-NIR analysis with chemometric calibration for malt, wort and spirit",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "Q-Interline is a Danish FT-NIR instrument maker whose Quant at-line analyser and InSight Pro inline analyser measure liquids and powders for product quality control and production optimisation, with calibrations transferable between at-line and inline. Relevant to malt, wort and spirit analysis. The vendor describes chemometric calibration models, which are statistical rather than machine learning, and makes no AI claim anywhere on its site.",
+    "source_urls": [
+      "https://www.q-interline.com/",
+      "https://www.linkedin.com/company/qinterline/about/"
+    ],
+    "discovered_by": "curated",
+    "verified": true,
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "hq_location": "Denmark"
+  },
+  {
+    "name": "Lallemand Brewing",
+    "domain": "lallemandbrewing.com",
+    "vertical": "beer",
+    "ai_use_case": "no ai claim; brewing yeast and fermentation science",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "Lallemand Brewing is the brewing division of Lallemand Inc, producing dried pure culture brewing yeasts and fermentation products and running an extensive technical education and research programme spanning thiols, yeast strain behaviour and fermentation management. Verified directly on the vendor site after a browser pass cleared its Cloudflare challenge. Lallemand makes no public machine-learning or AI claim for its strain development; it is tracked here as the fermentation science and ingredient layer underneath brewery data, not as an AI vendor.",
+    "source_urls": [
+      "https://www.lallemandbrewing.com/",
+      "https://www.linkedin.com/company/lallemand-brewing/about/"
+    ],
+    "discovered_by": "curated",
+    "verified": true,
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "hq_location": "Montreal, Canada"
+  },
+  {
+    "name": "Whiskystats",
+    "domain": "whiskystats.com",
+    "vertical": "whiskey",
+    "ai_use_case": "no substantiated ai claim; whisky secondary market indices and bottle valuation",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "Whiskystats publishes secondary-market price indices and valuation analytics for collectible whisky, tracking the roughly 500 most traded bottles each month across auctions. Its flagship Whiskystats Whisky Index requires at least ten trades in a month before an index change is computed and caps any single brand at ten percent weight, alongside regional and distillery indices. This is a curated auction-price dataset with published statistical methodology; no machine-learning claim appears anywhere on the site.",
+    "source_urls": [
+      "https://www.whiskystats.com/",
+      "https://www.linkedin.com/company/whiskystats/about/"
+    ],
+    "discovered_by": "curated",
+    "verified": true,
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05"
+  },
+  {
+    "name": "4T2 Sensors",
+    "domain": "4t2sensors.com",
+    "vertical": "multiple",
+    "ai_use_case": "no ai claim; inline fluid identification and CIP sensing",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "4T2 Sensors, based in Birmingham UK, builds CIPSense, a fluid sensing sensor marketed for inline clean-in-place monitoring and fluid identification in food and beverage plants. A drinktec 2025 exhibitor. The vendor site is largely visual and states accuracy and process insight without describing any model, so it is recorded here as sensing hardware with no substantiated machine-learning claim.",
+    "source_urls": [
+      "https://4t2sensors.com",
+      "https://www.linkedin.com/company/4t2-sensors/about/"
+    ],
+    "discovered_by": "curated",
+    "verified": true,
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "hq_location": "Birmingham, UK"
+  },
+  {
+    "name": "Partender",
+    "domain": "partender.com",
+    "vertical": "multiple",
+    "ai_use_case": "no ai claim; bar liquor inventory and consumption analytics",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "Partender turns bar liquor inventory into a tap-and-swipe mobile workflow, where staff tap the liquid level on each bottle to complete a full count in around fifteen minutes, then generate purchase orders sorted by distributor. It reports pour variance with a stated accuracy of up to 99.2 percent and highlights top movers and dead stock. This is measurement and reporting over on-premise beverage data with no machine-learning claim on the vendor site.",
+    "source_urls": [
+      "https://app.partender.com/",
+      "https://www.linkedin.com/company/partender/about/"
+    ],
+    "discovered_by": "curated",
+    "verified": true,
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05"
+  },
+  {
+    "name": "eBottli",
+    "domain": "ebottli.com",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim; wine and spirits traceability ERP, MES and WMS",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "eBottli sells an integrated ERP, MES, WMS and automation platform for manufacturers needing real-time visibility, traceability and paperless operations, with a wine and spirits focus and a combination of software and smart hardware. Verified on the vendor site after a browser pass. The product is positioned on digitisation, connection and asset tracking; no machine-learning or AI claim is made anywhere on it, so it is tracked as a system of record rather than an AI vendor.",
+    "source_urls": [
+      "https://www.ebottli.com/",
+      "https://www.linkedin.com/company/e-bottli/about/"
+    ],
+    "discovered_by": "curated",
+    "verified": true,
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05"
+  },
+  {
+    "name": "Barrel Proof Technologies",
+    "domain": "barrelprooftech.com",
+    "vertical": "whiskey",
+    "ai_use_case": "IoT sensor telemetry with analytics for cask verification and insurance",
+    "ai_maturity": "pilot",
+    "funding_stage": "unknown",
+    "short_description": "Barrel Proof Technologies fits patented non-invasive IoT sensors to aging whiskey barrels so sealed contents can be verified without opening them, aimed at inventory verification, risk assessment, asset financing and price discovery. The company states four issued patents and positions the sensor telemetry as the data layer under an insurance and finance product. Its own site names IoT sensors, analytics and blockchain together but does not describe what the analytics component actually models, so the AI claim is recorded as stated by the vendor and not independently substantiated.",
+    "source_urls": [
+      "https://barrelprooftech.com/",
+      "https://www.linkedin.com/company/barrel-proof-technology/about/"
+    ],
+    "discovered_by": "curated",
+    "verified": true,
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "hq_location": "Murfreesboro, TN, USA"
+  },
+  {
+    "name": "Bertsch Holding",
+    "domain": "bertsch.at",
+    "vertical": "beer",
+    "ai_use_case": "no ai claim; brewhouse and process plant engineering",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "Bertsch Holding is an Austrian industrial group in Bludenz, Vorarlberg, founded in 1925, whose BERTSCHfoodtec division builds process plant and brewhouse systems for the food and beverage industry alongside energy and apparatus engineering. Verified via a browser pass after the site returned 403 to every non-browser client. No digital, control-software or machine-learning product is claimed on its public site; recorded as the plant engineering layer.",
+    "source_urls": [
+      "https://www.bertsch.at/",
+      "https://de.wikipedia.org/wiki/Bertsch_Holding"
+    ],
+    "discovered_by": "curated",
+    "verified": true,
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "hq_location": "Bludenz, Austria"
+  },
+  {
+    "name": "CRB Group",
+    "domain": "crbgroup.com",
+    "vertical": "multiple",
+    "ai_use_case": "no ai claim; food and beverage facility design, construction and consulting",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "CRB is a US engineering, architecture, construction and consulting firm with a dedicated food and beverage practice covering facility design, construction, consulting and systems integration for producers scaling up processes. Verified on the vendor site after a browser pass cleared its Cloudflare challenge. Its food and beverage pages describe production rates, energy efficiency, speed to market and food safety compliance, with no machine-learning or AI service claimed. Recorded against the thin Consulting theme.",
+    "source_urls": [
+      "https://www.crbgroup.com/markets/food-beverage",
+      "https://www.linkedin.com/company/crbgrp/about/"
+    ],
+    "discovered_by": "curated",
+    "verified": true,
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "hq_location": "Kansas City, MO, USA"
+  },
+  {
+    "name": "Distilled ID",
+    "domain": "distilledid.com",
+    "vertical": "whiskey",
+    "ai_use_case": "no ai claim; distillery management and blockchain provenance",
+    "ai_maturity": "none",
+    "funding_stage": "unknown",
+    "short_description": "Distilled ID, founded in Edinburgh in 2018, provides distillery and cask management software that tracks spirit from grain to bottle and issues a consumer-facing Storybook with a certificate of authenticity, using blockchain for provenance and offering product and consumer analytics at individual bottle level. Verified on the vendor site after a browser pass. The platform is traceability, provenance and reporting; no machine-learning claim is made.",
+    "source_urls": [
+      "https://distilledid.com/",
+      "https://tracxn.com/d/companies/distilled-id/__GGlnrVF84hTXbhnhhP-nuRO4h3RXfRjMozMc9Oyz_8w"
+    ],
+    "discovered_by": "curated",
+    "verified": true,
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-08-05",
+    "hq_location": "Edinburgh, UK"
   }
 ]
