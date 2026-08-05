@@ -15,6 +15,12 @@ class BeverageVertical(str, Enum):
 
 
 class AIMaturity(str, Enum):
+    # NONE is not "unknown" - it means the entry was checked and the vendor
+    # makes no AI or ML claim. Without it the enum cannot express a checked
+    # negative, and such entries get filed as SHIPPING, which the dashboard
+    # renders as shipping AI. That is how 114 honestly-recorded non-AI
+    # companies came to be published as AI vendors.
+    NONE = "none"
     RESEARCH = "research"
     PILOT = "pilot"
     SHIPPING = "shipping"

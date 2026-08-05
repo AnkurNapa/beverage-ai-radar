@@ -492,6 +492,9 @@ a:hover { color: var(--accent-hover); }
 .chip--multiple { border-left-color: var(--accent); }
 .chip--shipping { border-left-color: #0b7a3b; }
 .chip--pilot { border-left-color: #8a8a8a; }
+/* Checked negative: the vendor makes no AI claim. Muted on purpose so it
+   never reads as a weaker grade of AI - it is a different kind of entry. */
+.chip--none { border-left-color: #b9b9b9; opacity: .85; }
 .chip--research { border-left-color: var(--line-strong); color: var(--muted); }
 
 /* --- People ------------------------------------------------------------- */

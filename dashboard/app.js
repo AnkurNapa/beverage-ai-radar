@@ -198,6 +198,11 @@ function renderBars(el, pairs, filterId, kind) {
   });
 }
 
+// "none" is a checked negative, not a missing value. Spelling it out in the
+// filter stops it reading as "unknown" and makes the no-AI-claim cohort
+// reachable in one click.
+const MATURITY_LABEL = { none: "no AI claim" };
+
 function fillSelect(el, values, tally) {
   for (const v of values) {
     // Accept plain strings or [value, count] pairs. Showing the count means you
@@ -206,7 +211,8 @@ function fillSelect(el, values, tally) {
     const [val, n] = Array.isArray(v) ? v : [v, tally ? tally[v] : undefined];
     const o = document.createElement("option");
     o.value = val;
-    o.textContent = n == null ? val : `${val} (${n})`;
+    const label = (el.id === "f-maturity" && MATURITY_LABEL[val]) || val;
+    o.textContent = n == null ? label : `${label} (${n})`;
     el.appendChild(o);
   }
 }
@@ -247,7 +253,7 @@ function card(c) {
     c.vertical && `<span class="chip chip--v chip--${esc(c.vertical)}">${esc(c.vertical)}</span>`,
     individual && `<span class="chip chip--indiv">individual</span>`,
     c.company_type === "service" && `<span class="chip chip--muted">service</span>`,
-    c.ai_maturity && `<span class="chip chip--mat chip--${esc(c.ai_maturity)}">${esc(c.ai_maturity)}</span>`,
+    c.ai_maturity && `<span class="chip chip--mat chip--${esc(c.ai_maturity)}">${esc(MATURITY_LABEL[c.ai_maturity] || c.ai_maturity)}</span>`,
     c.status === "dormant" && `<span class="chip chip--dormant">dormant</span>`,
     c.funding_stage && `<span class="chip chip--muted">${esc(c.funding_stage)}${c.total_raised ? " · " + esc(c.total_raised) : ""}</span>`,
     ...(c.capabilities || []).map(capChip),
@@ -501,7 +507,7 @@ function companyDetail(c) {
     </div>
     <div class="chips">
       ${c.vertical ? `<span class="chip chip--v chip--${esc(c.vertical)}">${esc(c.vertical)}</span>` : ""}
-      ${c.ai_maturity ? `<span class="chip chip--mat chip--${esc(c.ai_maturity)}">${esc(c.ai_maturity)}</span>` : ""}
+      ${c.ai_maturity ? `<span class="chip chip--mat chip--${esc(c.ai_maturity)}">${esc(MATURITY_LABEL[c.ai_maturity] || c.ai_maturity)}</span>` : ""}
       <span class="chip ${c.status === "dormant" ? "chip--dormant" : "chip--shipping"}">${esc(c.status || "")}</span>
     </div>
     ${c.short_description ? `<p class="detail__desc">${esc(c.short_description)}</p>` : ""}
