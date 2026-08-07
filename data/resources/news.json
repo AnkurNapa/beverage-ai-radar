@@ -558,5 +558,15 @@
     "company": "Diageo",
     "url": "https://software.strategy.com/customer-stories/diageo",
     "summary": "Diageo applies AI analytics across its manufacturing estate, the spirits counterpart to the brewing case studies already tracked."
+  },
+  {
+    "title": "SAP S/4HANA conversion at Krombacher Brauerei Bernhard Schadeberg",
+    "publication": "NTT DATA Business Solutions",
+    "date": "2022",
+    "kind": "case-study",
+    "vertical": "beer",
+    "company": "Krombacher Brauerei Bernhard Schadeberg",
+    "url": "https://nttdata-solutions.com/ch/success-stories/krombacher-brauerei-bernhard-schadeberg-2/",
+    "summary": "NTT DATA Business Solutions ran a brownfield SAP S/4HANA conversion for the German family brewery using the hybrid-agile SAP Activate method, modernizing the ERP data foundation that later SAP Business AI and analytics build on. A data-platform modernization, not itself an AI shipping claim."
   }
 ]
