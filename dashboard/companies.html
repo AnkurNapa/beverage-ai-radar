@@ -3594,6 +3594,22 @@
   ]
 }
 </script>
+<script>
+  window.GA_MEASUREMENT_ID = "G-1ZHW47YJDC";
+  (function () {
+    var id = window.GA_MEASUREMENT_ID;
+    if (!id || /^G-X+$/.test(id)) return;
+    if (navigator.doNotTrack === "1") return;
+    var s = document.createElement("script");
+    s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=" + id;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); };
+    gtag("js", new Date());
+    gtag("config", id, { anonymize_ip: true });
+  })();
+</script>
 <style>
 body{font:16px/1.55 system-ui,sans-serif;max-width:52rem;margin:0 auto;padding:1.5rem;color:#111}
 article{border-top:1px solid #e5e5e5;padding:.75rem 0}

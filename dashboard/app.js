@@ -302,7 +302,7 @@ function apply() {
   const shown = ALL.filter((c) => {
     if (fplat && !c._platforms.includes(fplat)) return false;
     if (!inEra(c.founded_year, fera)) return false;
-    if (fv && c.vertical !== fv) return false;
+    if (!matchesVertical(c, fv)) return false;
     if (fu && c._theme !== fu) return false;
     if (fcap && !(c.capabilities || []).includes(fcap)) return false;
     if (fscope && c.scope !== fscope) return false;
@@ -364,6 +364,9 @@ function buildPeople() {
       rows.push({
         name: p.name, role: p.role || "", linkedin: p.linkedin || "",
         company: c.name, vertical: c.vertical || "", status: c.status,
+        // Secondary verticals inherit too, or a person who spans several would
+        // be findable on the Companies tab and invisible on this one.
+        verticals: c.verticals || [],
         // A person inherits their company's category and discovery surface, so
         // the People tab can be narrowed the same way the Companies tab is
         // ("who works in ESG?", "who did the logistics sweep turn up?").
@@ -403,7 +406,7 @@ function applyPeople() {
   const fth = $("fp-theme").value, fsrc = $("fp-source").value;
   const shown = PEOPLE.filter((p) => {
     if (fpc && p.country !== fpc) return false;
-    if (fv && p.vertical !== fv) return false;
+    if (!matchesVertical(p, fv)) return false;
     if (fth && p.theme !== fth) return false;
     if (fsrc && p.source !== fsrc) return false;
     if (fl && !p.linkedin) return false;
@@ -625,6 +628,31 @@ function publisherOf(r) {
   // a publisher, and both would otherwise appear as options.
   if (!head || /^★/.test(head) || /^\d{4}$/.test(head)) return "";
   return head;
+}
+
+// Counts must agree with matchesVertical, or the filter returns more rows than
+// its own label promised. A record contributes to its primary vertical and to
+// each secondary one it declares.
+function verticalCounts(list) {
+  const m = new Map();
+  for (const r of list) {
+    const seen = new Set();
+    for (const v of [r.vertical, ...(Array.isArray(r.verticals) ? r.verticals : [])]) {
+      if (!v || seen.has(v)) continue;
+      seen.add(v);
+      m.set(v, (m.get(v) || 0) + 1);
+    }
+  }
+  return [...m.entries()].sort((a, b) => b[1] - a[1]);
+}
+
+// A record's primary vertical plus any secondary ones it declares. Someone who
+// genuinely works across beer, wine and spirits should surface under each of
+// those filters, not only under "multiple", which reads as a category of its own.
+function matchesVertical(r, want) {
+  if (!want) return true;
+  if (r.vertical === want) return true;
+  return Array.isArray(r.verticals) && r.verticals.includes(want);
 }
 
 function applyRes() {
@@ -1497,7 +1525,7 @@ async function main() {
 
   renderBreakdowns();
 
-  fillSelect($("f-vertical"), counts(ALL, "vertical"));
+  fillSelect($("f-vertical"), verticalCounts(ALL));
   fillSelect($("f-usecase"), counts(ALL, "_theme").map((p) => p[0]));
   fillSelect($("f-maturity"), counts(ALL, "ai_maturity"));
   // Multi-valued, so counts() (which reads one field) does not apply here.
@@ -1528,7 +1556,7 @@ async function main() {
 
   // People view
   PEOPLE = buildPeople();
-  fillSelect($("fp-vertical"), counts(PEOPLE.filter((p) => p.vertical), "vertical"));
+  fillSelect($("fp-vertical"), verticalCounts(PEOPLE.filter((p) => p.vertical)));
   fillSelect($("fp-country"), counts(PEOPLE.filter((p) => p.country && p.country !== "unknown"), "country"));
   fillSelect($("fp-theme"), counts(PEOPLE, "theme").map((x) => x[0]));
   fillSelect($("fp-source"), counts(PEOPLE, "source").map((x) => x[0]));

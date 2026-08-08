@@ -96,6 +96,13 @@
         "kind": "podcast",
         "url": "https://www.buzzsprout.com/2202528/episodes/15219065-ep-24-artificial-intelligence-ai-in-brewing-ankur-napa"
       }
+    ],
+    "verticals": [
+      "beer",
+      "whiskey",
+      "wine",
+      "food",
+      "non_alcoholic"
     ]
   },
   {

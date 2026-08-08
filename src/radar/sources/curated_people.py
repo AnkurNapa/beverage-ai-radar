@@ -74,6 +74,7 @@ class CuratedPeopleSource:
                     first_seen=_parse_date(r.get("first_seen")) or last_seen,
                     last_seen=last_seen,
                     links=r.get("links") or [],
+                    verticals=[v for v in (r.get("verticals") or []) if v],
                     affiliated_company=r.get("company"),
                     affiliated_company_current=r.get("company_is_current"),
                 )

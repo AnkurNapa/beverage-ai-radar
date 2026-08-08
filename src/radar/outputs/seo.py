@@ -23,6 +23,28 @@ SITE = "https://ankurnapa.github.io/beverage-ai-radar"
 # is enough for both engines and keeps the repo reviewable.
 COMPANIES_PAGE = "companies.html"
 
+# Same GA property as dashboard/index.html and standalone.html. This page is the
+# full plain-HTML index, so it is the one search engines and LLM crawlers reach
+# most often; leaving it untagged meant that traffic was invisible. Do Not Track
+# is honoured and IPs are anonymised, matching the dashboard exactly.
+GA_MEASUREMENT_ID = "G-1ZHW47YJDC"
+GA_SNIPPET = """<script>
+  window.GA_MEASUREMENT_ID = "%s";
+  (function () {
+    var id = window.GA_MEASUREMENT_ID;
+    if (!id || /^G-X+$/.test(id)) return;
+    if (navigator.doNotTrack === "1") return;
+    var s = document.createElement("script");
+    s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=" + id;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); };
+    gtag("js", new Date());
+    gtag("config", id, { anonymize_ip: true });
+  })();
+</script>""" % GA_MEASUREMENT_ID
+
 
 def _esc(s) -> str:
     return html.escape(str(s or ""), quote=True)
@@ -125,6 +147,7 @@ def render_companies_html(rows: list[dict], today: date) -> str:
 <script type="application/ld+json">
 {_jsonld(rows, today)}
 </script>
+{GA_SNIPPET}
 <style>
 body{{font:16px/1.55 system-ui,sans-serif;max-width:52rem;margin:0 auto;padding:1.5rem;color:#111}}
 article{{border-top:1px solid #e5e5e5;padding:.75rem 0}}

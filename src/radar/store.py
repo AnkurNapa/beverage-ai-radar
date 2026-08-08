@@ -8,7 +8,7 @@ from radar.model import Company, BeverageVertical, AIMaturity, Status
 
 _ENUM_FIELDS = {"vertical": BeverageVertical, "ai_maturity": AIMaturity, "status": Status}
 _DATE_FIELDS = {"first_seen", "last_seen"}
-_LIST_FIELDS = {"source_urls", "people", "links"}
+_LIST_FIELDS = {"source_urls", "people", "links", "verticals"}
 # Any bool field MUST be registered here. The sqlite round-trip otherwise
 # falls through to str(v), so True becomes the string "True" and every
 # `=== false` check downstream silently fails. That is exactly how a

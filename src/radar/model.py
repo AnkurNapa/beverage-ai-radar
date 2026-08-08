@@ -108,6 +108,10 @@ class Company:
     # episodes, articles. Kept separate from source_urls, which is evidence
     # for the record rather than things a reader is invited to go and watch.
     links: list = field(default_factory=list)  # [{label, url, kind}]
+    # Secondary verticals for anyone who genuinely spans several. `vertical`
+    # stays the single primary so every existing count, chip and gap analysis
+    # keeps working; this only widens what the filters match.
+    verticals: list = field(default_factory=list)  # ["beer", "wine", ...]
     affiliated_company: str | None = None
     affiliated_company_current: bool | None = None
 

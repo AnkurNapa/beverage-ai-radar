@@ -56,6 +56,7 @@ SAMPLES = {
     "discovered_by": "curated",
     "verified": True,
     "links": [{"label": "Talk", "url": "https://example.org/t", "kind": "video"}],
+    "verticals": ["beer", "wine"],
     "affiliated_company": "Some Employer",
     "affiliated_company_current": False,  # the value that broke
 }

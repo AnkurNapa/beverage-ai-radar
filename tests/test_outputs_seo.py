@@ -4,6 +4,7 @@ the store. These tests guard the properties that actually deliver that."""
 from datetime import date
 
 from radar.outputs.seo import (
+    GA_SNIPPET,
     render_companies_html,
     render_llms_txt,
     render_robots,
@@ -39,10 +40,20 @@ def test_company_names_appear_without_javascript():
 
 
 def test_untrusted_text_is_escaped():
-    """Company names come from scouts; a raw <script> must never render."""
+    """Company names come from scouts; a raw <script> must never render.
+
+    Two script blocks are legitimate and known-constant: the JSON-LD block and
+    the analytics snippet. Both are stripped by exact match, so the assertion
+    below still catches any script that row data managed to produce.
+    """
     out = render_companies_html(ROWS, TODAY)
     assert "Ampersand &amp; Co &lt;script&gt;" in out
-    assert "<script>" not in out.replace('<script type="application/ld+json">', "")
+    assert GA_SNIPPET in out, "analytics snippet missing from the crawlable page"
+    # GA_SNIPPET is a module constant with no row interpolation, so removing it
+    # cannot mask an injected script.
+    assert "{" not in GA_SNIPPET.split("window.GA_MEASUREMENT_ID")[0]
+    residue = out.replace('<script type="application/ld+json">', "").replace(GA_SNIPPET, "")
+    assert "<script>" not in residue
 
 
 def test_provenance_is_stated_not_hidden():

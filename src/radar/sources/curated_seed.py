@@ -51,6 +51,7 @@ class CuratedSeedSource:
                     hq_location=r.get("hq_location"),
                     founded_year=r.get("founded_year"),
                     vertical=_enum(BeverageVertical, r.get("vertical")),
+                    verticals=[v for v in (r.get("verticals") or []) if v],
                     company_type=r.get("company_type"),
                     ai_use_case=r.get("ai_use_case"),
                     ai_maturity=_enum(AIMaturity, r.get("ai_maturity")),
