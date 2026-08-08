@@ -1479,68 +1479,45 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
    box a different height from its neighbours. */
 .chip--seen { font-size: .72rem; }
 
-/* ---- Events: running strip under the nav, plus event cards ---- */
-/* Colours are defined here on bare :root-equivalent selectors first, then
-   overridden in both dark blocks, so the strip never borrows the host theme. */
+/* ---- Events: running ticker under the nav, plus event cards ----
+ * Every colour here is a token. The strip previously carried its own amber
+ * palette, which meant it ignored the design system entirely: light runs a
+ * blue accent, and dark deliberately commits to the phosphor --radar green so
+ * the whole UI reads as one instrument. A bar with its own private palette
+ * reads as a third-party widget bolted on.
+ */
 .eventstrip {
-  background: #FFF8E6;
-  border-block: 1px solid #EBD9A8;
-  color: #4A3B10;
+  background: var(--surface);
+  border-block: 1px solid var(--line);
+  color: var(--body);
   font-size: .85rem;
 }
 .eventstrip__inner {
   display: flex; gap: .7rem; align-items: baseline;
   padding-block: .5rem;
 }
-/* The label is an eyebrow, not a competing headline: small, tracked out, and
-   carrying a live dot so the strip reads as current rather than decorative. */
+/* The eyebrow takes the accent, so the one coloured thing in the bar is the
+   signal that it is live. In dark that is the radar trace green by design. */
 .eventstrip__label {
   flex: none; display: inline-flex; align-items: center; gap: .4rem;
   font-weight: 600; letter-spacing: .08em;
-  text-transform: uppercase; font-size: .68rem; opacity: .9;
+  text-transform: uppercase; font-size: .68rem;
+  color: var(--radar);
 }
 .eventstrip__label::before {
   content: ""; width: .42rem; height: .42rem; border-radius: 50%;
-  background: currentColor; opacity: .55;
+  background: currentColor;
   animation: eventstrip-pulse 2.4s ease-in-out infinite;
 }
 @keyframes eventstrip-pulse {
-  0%, 100% { opacity: .25; transform: scale(.85); }
-  50%      { opacity: .9;  transform: scale(1); }
+  0%, 100% { opacity: .3; transform: scale(.85); }
+  50%      { opacity: 1;  transform: scale(1); }
 }
 
-/* Rhythm: items are separated by space and a hairline rule rather than by
-   punctuation. A middot in a moving line reads as noise. */
-.eventstrip__item {
-  display: inline-flex; align-items: baseline; gap: .45rem;
-  padding-inline: .95rem;
-  border-left: 1px solid currentColor;
-  border-left-color: color-mix(in oklab, currentColor 22%, transparent);
-}
-.eventstrip__month {
-  padding-inline: 1.1rem .35rem;
-  font-weight: 650; letter-spacing: .02em;
-}
-/* Scale contrast is what creates hierarchy here: month and title carry weight,
-   place recedes, and the countdown is the one element allowed to be loud. */
-.eventstrip__soon {
-  flex: none; font-size: .72rem; font-weight: 600;
-  padding: .08rem .4rem; border-radius: 999px;
-  background: color-mix(in oklab, currentColor 12%, transparent);
-}
-.eventstrip__soon.is-imminent {
-  background: #B4340B; color: #FFF3EC;
-}
-/* Looping ticker. The viewport clips; the track inside slides by exactly half
-   its width, which is one full copy of the sequence, so the loop is seamless.
-   Only transform is animated, so this stays on the compositor. */
-/* min-width:0 is what actually stops the overlap: without it a flex item
-   refuses to shrink below its content width and spills over its neighbour. */
 .eventstrip__viewport {
   flex: 1 1 auto; min-width: 0; overflow: hidden;
-  /* Soften both edges. Without this the text guillotines against the label on
-     the left and the viewport edge on the right, which reads as a rendering
-     fault rather than as motion. */
+  /* Soften both edges so text does not guillotine against the label or the
+     boundary, which reads as a rendering fault rather than as motion. */
   -webkit-mask-image: linear-gradient(to right, transparent 0, #000 2.2rem, #000 calc(100% - 2.2rem), transparent 100%);
   mask-image: linear-gradient(to right, transparent 0, #000 2.2rem, #000 calc(100% - 2.2rem), transparent 100%);
 }
@@ -1549,11 +1526,8 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
   display: flex; width: max-content;
   animation: eventstrip-marquee var(--marquee-duration, 40s) linear infinite;
 }
-.eventstrip__seq { flex: none; }
-.eventstrip__seq > .eventstrip__sep { padding-inline: .6rem; }
+.eventstrip__seq { flex: none; display: flex; align-items: baseline; }
 
-/* Hovering or tabbing in stops it, because every item is a link and a moving
-   target cannot be clicked reliably. */
 .eventstrip:hover .eventstrip__text,
 .eventstrip:focus-within .eventstrip__text { animation-play-state: paused; }
 
@@ -1562,48 +1536,53 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
   to   { transform: translateX(-50%); }
 }
 
-/* Anyone who has asked the OS for less motion gets a static, scrollable line
-   instead. Motion for its own sake is not worth a headache. */
-@media (prefers-reduced-motion: reduce) {
-  .eventstrip__viewport { overflow-x: auto; scrollbar-width: thin; }
-  .eventstrip__text { animation: none; width: auto; }
-  .eventstrip__seq[aria-hidden="true"] { display: none; }
+.eventstrip__item {
+  display: inline-flex; align-items: baseline; gap: .45rem;
+  padding-inline: .95rem;
+  border-left: 1px solid var(--line);
 }
-/* Links look like links only on approach: a permanently underlined moving line
-   is visually busy, but an unmarked one gives no affordance at all. */
+.eventstrip__month {
+  padding-inline: 1.1rem .35rem;
+  font-weight: 650; letter-spacing: .02em; color: var(--ink);
+}
 .eventstrip__text a {
-  color: inherit; font-weight: 600;
+  color: var(--ink); font-weight: 600;
   text-decoration: underline; text-decoration-color: transparent;
   text-underline-offset: 3px; text-decoration-thickness: 1.5px;
-  transition: text-decoration-color 140ms ease;
+  transition: text-decoration-color 140ms ease, color 140ms ease;
 }
 .eventstrip__text a:hover,
-.eventstrip__text a:focus-visible { text-decoration-color: currentColor; }
-.eventstrip__where { opacity: .68; font-size: .82em; }
+.eventstrip__text a:focus-visible { color: var(--accent); text-decoration-color: currentColor; }
+.eventstrip__where { color: var(--muted); font-size: .82em; }
 
-/* Mobile: the eyebrow costs more than it earns on a narrow screen, and the
-   line needs the width more than it needs the label. */
+/* Scale and weight carry the hierarchy; the countdown is the one element
+   allowed to take the accent as a fill, and only when it is close. */
+.eventstrip__soon {
+  flex: none; font-size: .72rem; font-weight: 600;
+  padding: .08rem .45rem; border-radius: 999px;
+  color: var(--muted); border: 1px solid var(--line);
+}
+.eventstrip__soon.is-imminent {
+  color: var(--surface); background: var(--radar);
+  border-color: var(--radar);
+}
+
 @media (max-width: 34rem) {
   .eventstrip__label { display: none; }
   .eventstrip__item { padding-inline: .7rem; }
 }
-.eventstrip__sep { opacity: .45; padding-inline: .35rem; }
 
-.chip--speaking { background: #E8F0FF; color: #1B3E8B; }
+@media (prefers-reduced-motion: reduce) {
+  .eventstrip__viewport { overflow-x: auto; scrollbar-width: thin; }
+  .eventstrip__text { animation: none; width: auto; }
+  .eventstrip__label::before { animation: none; opacity: .8; }
+  .eventstrip__seq[aria-hidden="true"] { display: none; }
+}
+
+.chip--speaking { background: color-mix(in oklab, var(--accent) 14%, transparent); color: var(--accent); }
 .chip--mode { text-transform: capitalize; }
 .event h3 { margin: .3rem 0; font-size: 1.02rem; }
-.event .meta { color: var(--muted, #555); font-size: .85rem; margin: .15rem 0; }
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .eventstrip {
-    background: #221D0C; border-block-color: #453A18; color: #EBD9A8;
-  }
-  :root:not([data-theme="light"]) .chip--speaking { background: #16223F; color: #B9CCFF; }
-}
-:root[data-theme="dark"] .eventstrip {
-  background: #221D0C; border-block-color: #453A18; color: #EBD9A8;
-}
-:root[data-theme="dark"] .chip--speaking { background: #16223F; color: #B9CCFF; }
+.event .meta { color: var(--muted); font-size: .85rem; margin: .15rem 0; }
 
 /* ---- Related items on a detail page ---- */
 .rel__note { font-size: .85rem; margin: .2rem 0 .6rem; }
