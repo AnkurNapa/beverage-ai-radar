@@ -226,6 +226,25 @@
     "sort": "2025-01-01"
   },
   {
+    "title": "Technical Workshop on Methods of Recipe Development: Traditional and AI Powered",
+    "url": "https://www.brewsnspiritsexpo.com/assets/pdf/workshop/2024/Technical-Workshop-VLB-and-iWORT.pdf",
+    "organiser": "VLB Berlin and iWORT, at Brews & Spirits Expo 5th edition",
+    "location": "KTPO Convention Centre, Whitefield, Bengaluru, India",
+    "country": "India",
+    "vertical": "beer",
+    "summary": "Half-day workshop, 1130 to 1330, running recipe development from both ends: sensory profiling and consumer testing, malt and hop selection, hands-on calculation of malt and hop quantities for a target bitterness and colour, and then a block on where AI helps optimise those ingredient calculations for consistency. Delivered jointly by VLB Berlin and iWORT at the fifth Brews & Spirits Expo. The programme is one of the few that puts the traditional method and the AI-assisted one side by side rather than selling one against the other.",
+    "speakers": [
+      "Gayatri Mehta (VLB Berlin)",
+      "iWORT"
+    ],
+    "mode": "in-person",
+    "speaking": true,
+    "start": "2024-09-05",
+    "end": "",
+    "state": "past",
+    "sort": "2024-09-05"
+  },
+  {
     "title": "Bridging the Gap Between Artificial Intelligence and Brewing",
     "url": "https://www.youtube.com/watch?v=_VUIoeRdcHQ",
     "organiser": "Brewer World",

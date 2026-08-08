@@ -348,6 +348,7 @@ function apply() {
     sel.dispatchEvent(new Event("input", { bubbles: true }));
   }, $("f-country").value, { unit: "countries", noun: "companies", label: "Companies by country" });
   lastShown = shown;
+  try { renderForYou(); } catch (e) { /* recommendations are a bonus, never a blocker */ }
   $("count").textContent = `${shown.length} of ${ALL.length}`;
   $("grid").innerHTML = shown.length
     ? shown.map(card).join("")
@@ -574,6 +575,92 @@ function relatedHtml(c) {
   return `<h2>Related</h2>
     <p class="muted rel__note">Closest by shared language in their descriptions and use cases, not merely the same vertical. Follows your current filters.</p>
     <ul class="detail__list rel__list">${items}</ul>`;
+}
+
+
+/* ---- "For you": recommendations from THIS reader's history ----------------
+ * relatedTo() answers "what is like this record". This answers "what is like
+ * the records you keep opening", which is a different question and the one a
+ * returning reader actually has.
+ *
+ * The profile is a weighted centroid of the TF-IDF vectors of everything they
+ * have opened. Weights carry two signals the raw list does not:
+ *   - repeat opens count more than a single glance (log, so one obsessive
+ *     re-read cannot drown out everything else)
+ *   - recent interest counts more than old, with a 30-day half-life, because
+ *     what someone cared about in March is weak evidence about today
+ * Starred records get a hard boost: starring is deliberate in a way that
+ * opening a page is not.
+ *
+ * Everything is local. The history lives in this browser's localStorage and no
+ * profile is built, stored or transmitted anywhere else.
+ */
+const HALF_LIFE_DAYS = 30;
+
+function tasteProfile() {
+  if (!TFIDF) TFIDF = buildTfidf(ALL);
+  const history = recentlyOpened(60);
+  if (history.length < 3) return null;      // too little signal to be honest about
+  const now = Date.now();
+  const profile = new Map();
+  let seenKeys = new Set();
+  let total = 0;
+
+  for (const h of history) {
+    const i = TFIDF.index.get(h.key);
+    if (i == null) continue;
+    seenKeys.add(h.key);
+    const ageDays = Math.max(0, (now - (h.t || now)) / 86400000);
+    const recency = Math.pow(0.5, ageDays / HALF_LIFE_DAYS);
+    const depth = 1 + Math.log(Math.max(1, h.n || 1));
+    const star = isStarred(h.key) ? 2 : 1;
+    const w = recency * depth * star;
+    total += w;
+    for (const [term, x] of TFIDF.vecs[i]) {
+      profile.set(term, (profile.get(term) || 0) + x * w);
+    }
+  }
+  if (!total) return null;
+  // Re-normalise, so cosine against it stays a plain dot product.
+  let norm = 0;
+  for (const x of profile.values()) norm += x * x;
+  norm = Math.sqrt(norm) || 1;
+  for (const [t, x] of profile) profile.set(t, x / norm);
+  return { profile, seenKeys, sampled: seenKeys.size };
+}
+
+function renderForYou() {
+  const host = $("foryou");
+  if (!host) return;
+  const prof = tasteProfile();
+  if (!prof) { host.hidden = true; return; }
+
+  // Recommend from what the reader is currently looking at, and never
+  // recommend something they have already opened: that is a list of things
+  // they have done, not a suggestion.
+  const pool = (lastShown && lastShown.length > 8 ? lastShown : ALL)
+    .filter((c) => c && !prof.seenKeys.has(c.key));
+  const scored = [];
+  for (const c of pool) {
+    const i = TFIDF.index.get(c.key);
+    if (i == null) continue;
+    const score = cosine(prof.profile, TFIDF.vecs[i]);
+    if (score > 0.05) scored.push({ c, score });
+  }
+  if (scored.length < 3) { host.hidden = true; return; }
+  scored.sort((a, b) => b.score - a.score);
+
+  host.innerHTML = `
+    <h2 class="foryou__h">Because of what you have been reading</h2>
+    <p class="foryou__note muted">Built from the ${prof.sampled} entries you have opened in this browser, weighted by how often and how recently. Nothing leaves your device.</p>
+    <ul class="foryou__list">${scored.slice(0, 6).map(({ c, score }) => `
+      <li>
+        <a href="#/c/${encodeURIComponent(c.key)}">${esc(c.name)}</a>
+        ${c.vertical ? `<span class="chip chip--v chip--${esc(c.vertical)}">${vlab(c.vertical)}</span>` : ""}
+        <span class="muted rel__why">${esc(c.ai_use_case || "")}</span>
+        <span class="rel__score" title="Similarity to your reading profile">${(score * 100).toFixed(0)}%</span>
+      </li>`).join("")}</ul>`;
+  host.hidden = false;
 }
 
 function companyDetail(c) {

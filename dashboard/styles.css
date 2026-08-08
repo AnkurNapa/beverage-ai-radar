@@ -1592,3 +1592,11 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
   margin-left: auto; font-size: .75rem; font-variant-numeric: tabular-nums;
   opacity: .65; flex: none;
 }
+
+/* ---- "For you" recommendations from reading history ---- */
+.foryou { padding: 1rem 1.1rem; margin-bottom: 1rem; }
+.foryou__h { font-size: 1.02rem; margin: 0 0 .15rem; }
+.foryou__note { font-size: .82rem; margin: 0 0 .7rem; }
+.foryou__list { list-style: none; margin: 0; padding: 0; display: grid; gap: .45rem; }
+.foryou__list li { display: flex; gap: .5rem; align-items: baseline; flex-wrap: wrap; }
+.foryou__list a { font-weight: 600; }
