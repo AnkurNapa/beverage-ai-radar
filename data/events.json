@@ -1,0 +1,131 @@
+[
+  {
+    "title": "Brews & Spirits Expo 2026",
+    "url": "https://www.brewsnspiritsexpo.com/",
+    "organiser": "PDA Ventures",
+    "location": "KTPO Convention Centre, Whitefield, Bengaluru, India",
+    "country": "India",
+    "mode": "in-person",
+    "start": "2026-09-09",
+    "end": "2026-09-11",
+    "vertical": "multiple",
+    "speaking": false,
+    "summary": "Seventh edition of India's alcobev trade show: brand owners, brewers, winemakers, distillers, equipment makers and technology providers, with a conference and awards programme alongside the floor. The single densest gathering of Indian beverage decision makers in the calendar."
+  },
+  {
+    "title": "BrauBeviale 2026",
+    "url": "https://www.braubeviale.de/en",
+    "organiser": "NurnbergMesse",
+    "location": "Nuremberg, Germany",
+    "country": "Germany",
+    "mode": "in-person",
+    "start": "2026-11-10",
+    "end": "2026-11-12",
+    "vertical": "beer",
+    "speaking": false,
+    "summary": "Europe's working trade fair for beverage production: raw materials, technology, logistics and marketing. Historically one of the highest-yield surfaces for finding brewing technology vendors, since the exhibitor list is published in full."
+  },
+  {
+    "title": "Master Brewers Conference 2026",
+    "url": "https://www.mbaa.com/2026-conference",
+    "organiser": "Master Brewers Association of the Americas",
+    "location": "Virginia Beach Convention Center, Virginia, United States",
+    "country": "United States",
+    "mode": "in-person",
+    "vertical": "beer",
+    "speaking": false,
+    "summary": "The technical brewing conference: sessions, workshops and an exhibit hall aimed at production brewers rather than marketers. Exact dates are not stated on the conference page, so none are recorded here; registration runs to 24 October 2026."
+  },
+  {
+    "title": "Unified Wine & Grape Symposium",
+    "url": "https://www.unifiedsymposium.org/",
+    "organiser": "ASEV and California Association of Winegrape Growers",
+    "location": "Sacramento, California, United States",
+    "country": "United States",
+    "mode": "in-person",
+    "vertical": "wine",
+    "speaking": false,
+    "summary": "The largest wine industry trade show and technical conference in the Americas, held each January, covering viticulture, winemaking and increasingly the data and sensing side of both."
+  },
+  {
+    "title": "Craft Brewers Conference & BrewExpo America 2026",
+    "url": "https://www.craftbrewersconference.com/home",
+    "organiser": "Brewers Association",
+    "location": "Pennsylvania Convention Center, Philadelphia, United States",
+    "country": "United States",
+    "mode": "in-person",
+    "start": "2026-04-20",
+    "end": "2026-04-22",
+    "vertical": "beer",
+    "speaking": false,
+    "summary": "The US craft brewing industry's main annual gathering, shortened to three days for the 2026 edition. Already past for this year; listed so the cycle is visible when planning the next one."
+  },
+  {
+    "title": "Anuga FoodTec",
+    "url": "https://www.anugafoodtec.com/",
+    "organiser": "Koelnmesse",
+    "location": "Cologne, Germany",
+    "country": "Germany",
+    "mode": "in-person",
+    "vertical": "food",
+    "speaking": false,
+    "summary": "Food and beverage process technology fair covering automation, filling, packaging and digitalisation. Relevant because the brewery automation vendors exhibit here under a food-and-beverage banner rather than a brewing one."
+  },
+  {
+    "title": "IBD events and courses",
+    "url": "https://www.ibd.org.uk/events/",
+    "organiser": "Institute of Brewing & Distilling",
+    "location": "United Kingdom and online",
+    "country": "United Kingdom",
+    "mode": "hybrid",
+    "vertical": "multiple",
+    "speaking": false,
+    "summary": "Rolling programme of technical events, courses and webinars for brewing and distilling. Mixed in-person and online, which makes it one of the few reliably reachable technical programmes from outside the UK."
+  },
+  {
+    "title": "drinktec",
+    "url": "https://drinktec.com/en/",
+    "organiser": "Messe Munchen",
+    "location": "Munich, Germany",
+    "country": "Germany",
+    "mode": "in-person",
+    "vertical": "multiple",
+    "summary": "The world's largest beverage and liquid food technology fair, held every few years; the 2025 edition drew participants from 164 countries. Sources disagree on whether the next edition is 2028 or 2029, so no dates are recorded here until the organiser confirms.",
+    "speaking": false
+  },
+  {
+    "title": "How AI Is Transforming Breweries: Craft Beer School",
+    "url": "https://www.youtube.com/watch?v=vmA8ft3rvh4",
+    "organiser": "Craft Beer School (Cheers Chatty)",
+    "location": "Online",
+    "country": "India",
+    "mode": "online",
+    "start": "2026-01-01",
+    "vertical": "beer",
+    "speaking": true,
+    "summary": "Ankur Napa session for Craft Beer School on where AI actually lands in a working brewery, and where it does not. Recorded and freely watchable."
+  },
+  {
+    "title": "The Modern Brewer Podcast, Ep 24: AI in Brewing",
+    "url": "https://www.youtube.com/watch?v=Hl-45c1Xnhg",
+    "organiser": "The Modern Brewer Podcast",
+    "location": "Online",
+    "mode": "online",
+    "start": "2025-01-01",
+    "vertical": "beer",
+    "speaking": true,
+    "summary": "Ankur Napa on what AI is for a brewer, which tools and systems it can realistically replace, real deployments, and the blunt question of whether it replaces brewers."
+  },
+  {
+    "title": "Bridging the Gap Between Artificial Intelligence and Brewing",
+    "url": "https://www.youtube.com/watch?v=_VUIoeRdcHQ",
+    "organiser": "Brewer World",
+    "location": "Online",
+    "country": "India",
+    "mode": "online",
+    "start": "2022-01-01",
+    "vertical": "beer",
+    "speaking": true,
+    "summary": "Ankur Napa talk for Brewer World making the case that brewing domain knowledge is what makes brewing data useful, delivered from the position of having done both jobs."
+  }
+]

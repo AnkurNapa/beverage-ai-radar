@@ -426,7 +426,7 @@ function applyPeople() {
     : `<p class="empty">No people match.</p>`;
 }
 
-const VIEWS = ["companies", "people", "resources", "jobs", "prospects", "about"];
+const VIEWS = ["companies", "people", "resources", "jobs", "events", "prospects", "about"];
 let CURRENT_TAB = "companies";
 function showView(which) {
   CURRENT_TAB = which;
@@ -747,6 +747,102 @@ function jobCard(j) {
       <div class="res__meta">${esc(j.company)}${meta ? " · " + esc(meta) : ""}</div>
     </div>
   </article>`;
+}
+
+
+let EVENTS = [];
+
+// Month label for the running strip: "September 2026". Built from the ISO
+// string rather than new Date(iso), which parses as UTC and can slip a day
+// backwards for anyone west of Greenwich, renaming an event's month.
+const MONTHS = ["January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"];
+function monthLabel(iso) {
+  const m = /^(\d{4})-(\d{2})/.exec(iso || "");
+  return m ? `${MONTHS[+m[2] - 1]} ${m[1]}` : "";
+}
+
+function dateRange(e) {
+  if (!e.start) return "dates to be confirmed";
+  const f = (iso) => {
+    const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+    return m ? `${+m[3]} ${MONTHS[+m[2] - 1].slice(0, 3)}` : iso;
+  };
+  return e.end && e.end !== e.start ? `${f(e.start)} to ${f(e.end)} ${e.start.slice(0, 4)}`
+                                    : `${f(e.start)} ${e.start.slice(0, 4)}`;
+}
+
+// The running strip: upcoming events grouped by month, as a sentence rather
+// than a marquee. Undated events are deliberately excluded here; a "coming up"
+// line implies a date, and listing something with none would mislead.
+function renderEventStrip() {
+  const dated = EVENTS.filter((e) => e.state === "upcoming" && e.start);
+  const strip = $("eventstrip");
+  if (!dated.length) { strip.hidden = true; return; }
+  const byMonth = new Map();
+  for (const e of dated) {
+    const k = monthLabel(e.start);
+    if (!byMonth.has(k)) byMonth.set(k, []);
+    byMonth.get(k).push(e);
+  }
+  const parts = [...byMonth.entries()].map(([month, list]) => {
+    const items = list.map((e) =>
+      `<a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a>` +
+      `<span class="eventstrip__where"> ${esc(e.location || "")}</span>`).join(", ");
+    return `<strong>${esc(month)}</strong> ${items}`;
+  });
+  $("eventstrip-text").innerHTML = parts.join(' <span class="eventstrip__sep">·</span> ');
+  strip.hidden = false;
+}
+
+function eventCard(e) {
+  const badge = e.speaking ? '<span class="chip chip--speaking">Ankur speaking</span>' : "";
+  const mode = `<span class="chip chip--mode chip--${esc(e.mode)}">${esc(e.mode)}</span>`;
+  const vert = e.vertical ? `<span class="chip chip--v chip--${esc(e.vertical)}">${vlab(e.vertical)}</span>` : "";
+  return `<article class="card event">
+    <div class="chips">${mode}${vert}${badge}</div>
+    <h3><a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a></h3>
+    <p class="meta">${esc(dateRange(e))}${e.location ? " · " + esc(e.location) : ""}</p>
+    ${e.organiser ? `<p class="meta">${esc(e.organiser)}</p>` : ""}
+    <p>${esc(e.summary || "")}</p>
+  </article>`;
+}
+
+function applyEvents() {
+  const q = $("eq").value.trim().toLowerCase();
+  const fs = $("fe-state").value, fm = $("fe-mode").value;
+  const fv = $("fe-vertical").value, fc = $("fe-country").value, fsp = $("fe-speaking").value;
+  const shown = EVENTS.filter((e) => {
+    if (fs && e.state !== fs) return false;
+    if (fm && e.mode !== fm) return false;
+    if (!matchesVertical(e, fv)) return false;
+    if (fc && e.country !== fc) return false;
+    if (fsp === "1" && !e.speaking) return false;
+    if (fsp === "0" && e.speaking) return false;
+    if (q && !`${e.title} ${e.organiser} ${e.location} ${e.summary}`.toLowerCase().includes(q)) return false;
+    return true;
+  });
+  $("events-grid").innerHTML = shown.length
+    ? shown.map(eventCard).join("")
+    : '<p class="empty">No events match these filters.</p>';
+  $("ecount").textContent = `${shown.length} of ${EVENTS.length}`;
+}
+
+async function loadEvents() {
+  try {
+    EVENTS = await (await fetch("events.json")).json();
+  } catch { EVENTS = []; }
+  if (!EVENTS.length) { $("tab-events").hidden = true; return; }
+  fillSelect($("fe-vertical"), verticalCounts(EVENTS.filter((e) => e.vertical)));
+  fillSelect($("fe-country"), counts(EVENTS.filter((e) => e.country), "country"));
+  const up = EVENTS.filter((e) => e.state === "upcoming").length;
+  const spk = EVENTS.filter((e) => e.speaking).length;
+  $("events-stamp").textContent = `${EVENTS.length} tracked · ${up} upcoming · ${spk} speaking`;
+  for (const id of ["eq", "fe-state", "fe-mode", "fe-vertical", "fe-country", "fe-speaking"]) {
+    $(id).addEventListener("input", applyEvents);
+  }
+  applyEvents();
+  renderEventStrip();
 }
 
 async function loadJobs() {
@@ -1566,6 +1662,7 @@ async function main() {
   $("tab-people").addEventListener("click", () => showView("people"));
   $("tab-resources").addEventListener("click", () => showView("resources"));
   $("tab-jobs").addEventListener("click", () => showView("jobs"));
+  $("tab-events").addEventListener("click", () => showView("events"));
   $("tab-prospects").addEventListener("click", () => showView("prospects"));
   $("tab-about").addEventListener("click", () => showView("about"));
 
@@ -1590,6 +1687,7 @@ async function main() {
 
   await loadResources();
   await loadJobs();
+  await loadEvents();
   await loadProspects();
 
   // global search: one box drives every tab + shows where matches are

@@ -174,6 +174,7 @@
         <button id="tab-people" class="tab" data-short="People" type="button" role="tab" aria-controls="view-people" aria-selected="false">People</button>
         <button id="tab-resources" class="tab" data-short="Research" type="button" role="tab" aria-controls="view-resources" aria-selected="false">Research &amp; resources</button>
         <button id="tab-jobs" class="tab" data-short="Jobs" type="button" role="tab" aria-controls="view-jobs" aria-selected="false">Jobs</button>
+        <button id="tab-events" class="tab" data-short="Events" type="button" role="tab" aria-controls="view-events" aria-selected="false">Events</button>
         <!-- Prospects is private: prospects.json is gitignored, so the published
              site never receives it and app.js hides this tab when it is absent. -->
         <button id="tab-prospects" class="tab" data-short="Prospects" type="button" role="tab" aria-controls="view-prospects" aria-selected="false" hidden>Prospects</button>
@@ -192,6 +193,15 @@
       </div>
     </div>
   </header>
+
+  <!-- Upcoming events, grouped by month, directly under the navigation. Hidden
+       by JS when nothing is upcoming, so it never renders as an empty bar. -->
+  <aside id="eventstrip" class="eventstrip" aria-label="Upcoming industry events" hidden>
+    <div class="wrap eventstrip__inner">
+      <span class="eventstrip__label">Coming up</span>
+      <p class="eventstrip__text" id="eventstrip-text"></p>
+    </div>
+  </aside>
 
   <header class="hero wrap">
     <div class="hero__eyebrow"><span aria-hidden="true">📡</span> Landscape Report</div>
@@ -319,6 +329,34 @@
     <section id="res-grid" class="grid" aria-live="polite"></section>
   </section>
 
+
+  <section class="wrap view" id="view-events" hidden>
+    <p class="res-intro">Where this industry gathers, and where Ankur has stood up in front of it. Trade fairs and technical conferences alongside his own talks, in person and online. Events whose organiser has not published dates are listed as undated rather than guessed. <span id="events-stamp" class="hero__meta"></span></p>
+    <section class="controls" aria-label="Event filters">
+      <input id="eq" type="search" placeholder="Search event, organiser, place…" aria-label="Search events" />
+      <select id="fe-state" aria-label="When">
+        <option value="upcoming">Upcoming</option>
+        <option value="">All dates</option>
+        <option value="past">Past</option>
+        <option value="undated">Undated</option>
+      </select>
+      <select id="fe-mode" aria-label="Mode">
+        <option value="">Online and in person</option>
+        <option value="in-person">In person</option>
+        <option value="online">Online</option>
+        <option value="hybrid">Hybrid</option>
+      </select>
+      <select id="fe-vertical" aria-label="Vertical"><option value="">All verticals</option></select>
+      <select id="fe-country" aria-label="Country"><option value="">All countries</option></select>
+      <select id="fe-speaking" aria-label="Speaking">
+        <option value="">Everything</option>
+        <option value="1">Ankur speaking</option>
+        <option value="0">Industry events only</option>
+      </select>
+      <span id="ecount" class="count"></span>
+    </section>
+    <section id="events-grid" class="grid" aria-live="polite"></section>
+  </section>
 
   <section class="wrap view" id="view-jobs" hidden>
     <p class="res-intro">Open roles applying AI, data, and analytics in beer, whiskey, and wine. Swept from public job postings; every row links to the original posting. <span id="jobs-stamp" class="hero__meta"></span></p>
