@@ -14,6 +14,10 @@ const esc = (s) => (s ?? "").replace(/[&<>"]/g, (c) =>
 // only http(s) links are clickable; anything else (javascript:, data:) is dropped.
 const safeUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "";
 
+// Vertical values are enum-shaped (non_alcoholic); chips and selects want prose.
+// The CSS class keeps the raw value, so only the visible text goes through this.
+const vlab = (v) => esc((v || "").replace(/_/g, " "));
+
 // Deterministic warm palette for initials avatars (hash name -> hue band).
 const AVATAR_HUES = [18, 32, 44, 280, 200, 340, 150];
 function initials(name) {
@@ -131,8 +135,12 @@ function counts(list, field) {
 // (adjacent pairlist, which is what a stacked bar uses).
 const PAL = {
   // Verticals keep their semantic hues so the panel matches the card bands.
+  // Teal for non_alcoholic: the remaining hue band that stays separable from
+  // blue (multiple), amber (beer), purple (wine) and orange (whiskey) under
+  // deuteranopia, which is where an amber/orange/teal set is most at risk.
   vertical: { multiple: ["#2E5BFF", "#5C82FF"], beer: ["#D99A22", "#C98500"],
-              wine: ["#9B3FB5", "#A96BD8"], whiskey: ["#C25A1E", "#D95926"] },
+              wine: ["#9B3FB5", "#A96BD8"], whiskey: ["#C25A1E", "#D95926"],
+              non_alcoholic: ["#0F8A7E", "#12A08C"], food: ["#6B7A2E", "#87963B"] },
   // Themes have no inherent colour, so they take a fixed categorical order.
   // Assigned by rank and never cycled; past seven slots the tail folds to Other.
   theme: [["#2a78d6", "#3987e5"], ["#eb6834", "#d95926"], ["#1baf7a", "#199e70"],
@@ -211,7 +219,9 @@ function fillSelect(el, values, tally) {
     const [val, n] = Array.isArray(v) ? v : [v, tally ? tally[v] : undefined];
     const o = document.createElement("option");
     o.value = val;
-    const label = (el.id === "f-maturity" && MATURITY_LABEL[val]) || val;
+    // Vertical selects carry enum values (non_alcoholic); show them as prose.
+    const label = (el.id === "f-maturity" && MATURITY_LABEL[val])
+      || (/vertical/.test(el.id) ? String(val).replace(/_/g, " ") : val);
     o.textContent = n == null ? label : `${label} (${n})`;
     el.appendChild(o);
   }
@@ -250,7 +260,7 @@ const starBtn = (key) =>
 function card(c) {
   const individual = c.company_type === "individual";
   const chips = [
-    c.vertical && `<span class="chip chip--v chip--${esc(c.vertical)}">${esc(c.vertical)}</span>`,
+    c.vertical && `<span class="chip chip--v chip--${esc(c.vertical)}">${vlab(c.vertical)}</span>`,
     individual && `<span class="chip chip--indiv">individual</span>`,
     c.company_type === "service" && `<span class="chip chip--muted">service</span>`,
     c.ai_maturity && `<span class="chip chip--mat chip--${esc(c.ai_maturity)}">${esc(MATURITY_LABEL[c.ai_maturity] || c.ai_maturity)}</span>`,
@@ -506,7 +516,7 @@ function companyDetail(c) {
       </div>
     </div>
     <div class="chips">
-      ${c.vertical ? `<span class="chip chip--v chip--${esc(c.vertical)}">${esc(c.vertical)}</span>` : ""}
+      ${c.vertical ? `<span class="chip chip--v chip--${esc(c.vertical)}">${vlab(c.vertical)}</span>` : ""}
       ${c.ai_maturity ? `<span class="chip chip--mat chip--${esc(c.ai_maturity)}">${esc(MATURITY_LABEL[c.ai_maturity] || c.ai_maturity)}</span>` : ""}
       <span class="chip ${c.status === "dormant" ? "chip--dormant" : "chip--shipping"}">${esc(c.status || "")}</span>
     </div>
@@ -514,7 +524,7 @@ function companyDetail(c) {
     <dl class="detail__facts">
       ${row("Headquarters", esc(c.hq_location))}
       ${row("Founded", c.founded_year)}
-      ${row("Vertical", esc(c.vertical))}
+      ${row("Vertical", vlab(c.vertical))}
       ${row("AI maturity", esc(c.ai_maturity))}
       ${row("Status", esc(c.status))}
       ${row("Funding", esc(fund))}
@@ -541,11 +551,11 @@ function personDetail(p) {
         ${p.role ? `<p class="usecase">${esc(p.role)}</p>` : ""}
       </div>
     </div>
-    <div class="chips">${p.vertical ? `<span class="chip chip--v chip--${esc(p.vertical)}">${esc(p.vertical)}</span>` : ""}</div>
+    <div class="chips">${p.vertical ? `<span class="chip chip--v chip--${esc(p.vertical)}">${vlab(p.vertical)}</span>` : ""}</div>
     ${p.desc ? `<p class="detail__desc">${esc(p.desc)}</p>` : ""}
     <dl class="detail__facts">
       ${row("Company", esc(p.company))}
-      ${row("Vertical", esc(p.vertical))}
+      ${row("Vertical", vlab(p.vertical))}
       ${row("LinkedIn", link(p.linkedin))}
     </dl>
     ${p.sources?.length ? `<h2>Sources</h2><ul class="detail__list">${p.sources.map((u) => `<li>${link(u)}</li>`).join("")}</ul>` : ""}
@@ -578,7 +588,7 @@ function route() {
 
 // --- Resources view (papers, news, repos, videos) ------------------------
 let RES = [];
-const KIND_LABEL = { paper: "Paper", news: "News", blog: "Blog", repo: "Repo", video: "Video", podcast: "Podcast" };
+const KIND_LABEL = { paper: "Paper", news: "News", blog: "Blog", repo: "Repo", video: "Video", podcast: "Podcast", dataset: "Dataset", whitepaper: "White paper" };
 
 function resCard(r) {
   const url = safeUrl(r.url);
@@ -596,7 +606,7 @@ function resCard(r) {
     <div class="res__body">
       <div class="res__tags">
         <span class="chip chip--kind chip--${esc(r.kind)}">${esc(label)}</span>
-        ${r.vertical ? `<span class="chip chip--v chip--${esc(r.vertical)}">${esc(r.vertical)}</span>` : ""}
+        ${r.vertical ? `<span class="chip chip--v chip--${esc(r.vertical)}">${vlab(r.vertical)}</span>` : ""}
         ${r.featured ? `<span class="chip chip--featured">★ by Ankur Napa</span>` : ""}
       </div>
       <h3 class="res__title">${title}</h3>
@@ -606,15 +616,27 @@ function resCard(r) {
   </article>`;
 }
 
+// The publisher lives in a different field per kind: videos carry channel,
+// everything else puts it first in the meta string ("Publisher · 2019 · CC BY").
+function publisherOf(r) {
+  if (r.channel) return r.channel.trim();
+  const head = (r.meta || "").split("·")[0].trim();
+  // Repos lead with "★ 1234" and papers sometimes with a bare year. Neither is
+  // a publisher, and both would otherwise appear as options.
+  if (!head || /^★/.test(head) || /^\d{4}$/.test(head)) return "";
+  return head;
+}
+
 function applyRes() {
   const q = $("rq").value.trim().toLowerCase();
   const fk = $("fr-kind").value, fv = $("fr-vertical").value, fp = $("fr-platform").value;
-  const fera = $("fr-era").value, fth = $("fr-theme").value;
+  const fera = $("fr-era").value, fth = $("fr-theme").value, fpub = $("fr-publisher").value;
   const shown = RES.filter((r) => {
     if (fk && r.kind !== fk) return false;
     if (fv && r.vertical !== fv) return false;
     if (fth && r.theme !== fth) return false;
     if (fp && !r._platforms.includes(fp)) return false;
+    if (fpub && publisherOf(r) !== fpub) return false;
     // year filter: exclude only dated items outside the range; undated items
     // (e.g. repos, videos with no year) stay visible so content is not emptied.
     if (!inEra(r.year, fera)) return false;
@@ -651,20 +673,28 @@ async function loadResources() {
   } catch { RES = []; }
   for (const r of RES) r._platforms = platformsOf(`${r.title || ""} ${r.summary || ""} ${r.meta || ""}`);
   // kind order paper/news/repo/video, featured first within a kind, then sort desc
-  const order = { paper: 0, news: 1, blog: 2, repo: 3, video: 4, podcast: 5 };
+  // Every kind needs an entry: a missing one yields NaN in the comparator,
+  // which silently scrambles the whole ordering rather than failing loudly.
+  const order = { paper: 0, whitepaper: 1, news: 2, blog: 3, dataset: 4, repo: 5, video: 6, podcast: 7 };
   RES.sort((a, b) => (order[a.kind] - order[b.kind])
     || ((b.featured ? 1 : 0) - (a.featured ? 1 : 0))
     || (`${b.sort}`).localeCompare(`${a.sort}`));
   if (!RES.length) { $("tab-resources").hidden = true; return; }
-  fillSelect($("fr-vertical"), [...new Set(RES.map((r) => r.vertical).filter(Boolean))].sort());
+  fillSelect($("fr-vertical"), counts(RES.filter((r) => r.vertical), "vertical"));
   fillSelect($("fr-platform"), counts(RES.flatMap((r) => r._platforms).map((p) => ({ p })), "p").map((x) => x[0]));
+  // Publisher: the channel for a video, the publisher for a dataset, the
+  // journal or site otherwise. One-off publishers would swamp the list, so
+  // only those with more than one item are offered.
+  fillSelect($("fr-publisher"),
+    counts(RES.filter((r) => publisherOf(r)).map((r) => ({ pub: publisherOf(r) })), "pub")
+      .filter(([, n]) => n > 1));
   // theme is precomputed in build_resources.py with the same classifier the
   // companies use, so the two taxonomies stay identical.
   fillSelect($("fr-theme"), counts(RES.filter((r) => r.theme), "theme").map((x) => x[0]));
   // Papers reach back to 1994 but 188 of 259 dated items are 2020s, so the
   // recent buckets are the ones that earn a place here.
   fillEras($("fr-era"), RES, (r) => r.year);
-  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-era", "fr-sort", "fr-theme"]) $(id).addEventListener("input", applyRes);
+  for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-publisher", "fr-era", "fr-sort", "fr-theme"]) $(id).addEventListener("input", applyRes);
   applyRes();
 
 }
@@ -682,7 +712,7 @@ function jobCard(j) {
     <div class="res__body">
       <div class="res__tags">
         <span class="chip chip--kind">Job</span>
-        ${j.vertical ? `<span class="chip chip--v chip--${esc(j.vertical)}">${esc(j.vertical)}</span>` : ""}
+        ${j.vertical ? `<span class="chip chip--v chip--${esc(j.vertical)}">${vlab(j.vertical)}</span>` : ""}
         ${j.tracked_company ? `<span class="chip chip--featured">★ on the radar</span>` : ""}
       </div>
       <h3 class="res__title">${title}</h3>
@@ -704,7 +734,7 @@ async function loadJobs() {
     const c = j.tracked_company ? byName.get(j.tracked_company.toLowerCase()) : null;
     j._theme = c ? (c._theme || themeOf(c)) : "";
   }
-  fillSelect($("fj-vertical"), [...new Set(JOBS.map((j) => j.vertical).filter(Boolean))].sort());
+  fillSelect($("fj-vertical"), counts(JOBS.filter((j) => j.vertical), "vertical"));
   fillSelect($("fj-theme"), counts(JOBS.filter((j) => j._theme), "_theme").map((x) => x[0]));
   // countries by volume, so the places actually hiring sit at the top
   fillSelect($("fj-country"), counts(JOBS, "country").filter(([c]) => c !== "unknown"));
@@ -755,7 +785,7 @@ function prospectCard(p) {
     <div class="res__body">
       <div class="res__tags">
         <span class="chip chip--kind">Tier ${esc(String(p.tier))}</span>
-        ${p.vertical ? `<span class="chip chip--v chip--${esc(p.vertical)}">${esc(p.vertical)}</span>` : ""}
+        ${p.vertical ? `<span class="chip chip--v chip--${esc(p.vertical)}">${vlab(p.vertical)}</span>` : ""}
         ${p.region ? `<span class="chip">${esc(p.region)}</span>` : ""}
         ${(p.capabilities || []).map(capChip).join("")}
       </div>
@@ -781,7 +811,7 @@ async function loadProspects() {
   $("prospects-stamp").textContent =
     `${PROSPECTS.length} targets across ${regions.length} region${regions.length === 1 ? "" : "s"}.`;
   fillSelect($("fpr-region"), regions);
-  fillSelect($("fpr-vertical"), [...new Set(PROSPECTS.map((p) => p.vertical).filter(Boolean))].sort());
+  fillSelect($("fpr-vertical"), counts(PROSPECTS.filter((p) => p.vertical), "vertical"));
   fillSelect($("fpr-tier"), [...new Set(PROSPECTS.map((p) => p.tier))].sort()
     .map((t) => `${t} — ${TIER_LABEL[t] || ""}`));
   const pcap = {};
@@ -1160,7 +1190,7 @@ function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
       <ul class="wdetail__list">${rows.slice(0, 40).map((r) => `
         <li>
           <span class="wdetail__n">${esc(r.name || r.company || "")}</span>
-          ${r.vertical ? `<span class="chip chip--v chip--${esc(r.vertical)}">${esc(r.vertical)}</span>` : ""}
+          ${r.vertical ? `<span class="chip chip--v chip--${esc(r.vertical)}">${vlab(r.vertical)}</span>` : ""}
           <span class="wdetail__m">${esc(r.hq_location || r.hq || r.segment || "")}</span>
         </li>`).join("")}</ul>
       ${rows.length > 40 ? `<div class="wdetail__more">+${rows.length - 40} more in the list below</div>` : ""}`;
@@ -1498,7 +1528,7 @@ async function main() {
 
   // People view
   PEOPLE = buildPeople();
-  fillSelect($("fp-vertical"), [...new Set(PEOPLE.map((p) => p.vertical).filter(Boolean))].sort());
+  fillSelect($("fp-vertical"), counts(PEOPLE.filter((p) => p.vertical), "vertical"));
   fillSelect($("fp-country"), counts(PEOPLE.filter((p) => p.country && p.country !== "unknown"), "country"));
   fillSelect($("fp-theme"), counts(PEOPLE, "theme").map((x) => x[0]));
   fillSelect($("fp-source"), counts(PEOPLE, "source").map((x) => x[0]));

@@ -432,11 +432,15 @@ a:hover { color: var(--accent-hover); }
 .company:has(.chip--whiskey) { --tint: #FFEEE9; --tint-ink: #882F07; }
 .company:has(.chip--wine) { --tint: #FAEEFA; --tint-ink: #723176; }
 .company:has(.chip--multiple) { --tint: #ECF3FF; --tint-ink: #2D4A96; }
+.company:has(.chip--non_alcoholic) { --tint: #E4F4F1; --tint-ink: #0B5B52; }
+.company:has(.chip--food) { --tint: #F0F3E2; --tint-ink: #4A5520; }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .company:has(.chip--beer) { --tint: #231E0E; --tint-ink: #E6C873; }
   :root:not([data-theme="light"]) .company:has(.chip--whiskey) { --tint: #2A1A14; --tint-ink: #FFB79D; }
   :root:not([data-theme="light"]) .company:has(.chip--wine) { --tint: #251A25; --tint-ink: #EFB2F2; }
   :root:not([data-theme="light"]) .company:has(.chip--multiple) { --tint: #181E2B; --tint-ink: #B2CAFF; }
+  :root:not([data-theme="light"]) .company:has(.chip--non_alcoholic) { --tint: #0F211F; --tint-ink: #7FD9CC; }
+  :root:not([data-theme="light"]) .company:has(.chip--food) { --tint: #1C2011; --tint-ink: #C3D275; }
   :root:not([data-theme="light"]) .company .company__head .logo::before { background: var(--tint, #1b232d); }
 
 }
@@ -445,6 +449,8 @@ a:hover { color: var(--accent-hover); }
   :root[data-theme="dark"] .company:has(.chip--whiskey) { --tint: #2A1A14; --tint-ink: #FFB79D; }
   :root[data-theme="dark"] .company:has(.chip--wine) { --tint: #251A25; --tint-ink: #EFB2F2; }
   :root[data-theme="dark"] .company:has(.chip--multiple) { --tint: #181E2B; --tint-ink: #B2CAFF; }
+  :root[data-theme="dark"] .company:has(.chip--non_alcoholic) { --tint: #0F211F; --tint-ink: #7FD9CC; }
+  :root[data-theme="dark"] .company:has(.chip--food) { --tint: #1C2011; --tint-ink: #C3D275; }
   :root[data-theme="dark"] .company .company__head .logo::before { background: var(--tint, #1b232d); }
 
 
