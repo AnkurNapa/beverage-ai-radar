@@ -273,6 +273,10 @@ def build():
     items += list(_norm_news(_load("news.json")))
     items += list(_norm_blogs(_fetch_ankur_blogs()))  # auto-pulled newest, featured
     items += list(_norm_blogs(_load("blogs.json")))  # other curated blogs
+    # Full archive from the sitemap, built by scripts/build_ankur_archive.py.
+    # Comes AFTER the feed window so dedupe by url keeps the featured copy of
+    # any post that appears in both.
+    items += list(_norm_blogs(_load("ankur_archive.json")))
     items += list(_norm_repos(_load("repos.json")))
     items += list(_norm_whitepapers(_load("whitepapers.json")))
     # sweep output; the file may not exist until scripts/sweep_whitepapers.py runs

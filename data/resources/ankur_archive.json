@@ -1,0 +1,3202 @@
+[
+  {
+    "title": "Yeast Pitching Rates and Starters in Excel",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/yeast-pitching-rates-starters-excel/",
+    "summary": "Size your yeast properly in a spreadsheet: cells required by gravity and volume, viability decay by pack age, packs needed, and a simple starter-growth model with worked examples.",
+    "featured": false
+  },
+  {
+    "title": "Winery Energy: AI for Cooling, Presses and Peak Demand",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/winery-energy-cooling-ai/",
+    "summary": "Winery energy spikes at harvest with refrigeration and presses. How data and AI cut power and peak demand — load forecasting, setpoint optimisation and demand management — across regions.",
+    "featured": false
+  },
+  {
+    "title": "The Translator: When the Winemaker Is Also the Power BI Developer",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/winemaker-power-bi-fabric-developer/",
+    "summary": "What changes when one person has stood on the crush pad, run the ferments and pulled barrel samples — and also holds the Power BI and Microsoft Fabric certifications. Why the hybrid profile builds winery dashboards that survive a vintage, and the honest limits of being one.",
+    "featured": false
+  },
+  {
+    "title": "Why Power BI Dashboards Die in Wineries: The Domain Gap",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/why-power-bi-dashboards-fail-wineries/",
+    "summary": "A skilled Power BI developer walks into a winery and a vintage later the dashboards are abandoned. Not a tooling failure — a translation failure: units, lot genealogy, vintage time and KPIs that don’t match how winemakers actually think.",
+    "featured": false
+  },
+  {
+    "title": "Why Power BI Dashboards Die in Distilleries and Breweries: The Domain Gap",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/why-power-bi-dashboards-fail-distilleries/",
+    "summary": "A skilled Power BI developer walks into a distillery and eighteen months later the dashboards are abandoned. Not a tooling failure — a translation failure: units, batch genealogy, process time and KPIs that don’t match how distillers and brewers actually think.",
+    "featured": false
+  },
+  {
+    "title": "Where AI Burned Me: Hallucinations, Bad Data, and Hype I Believed",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/where-ai-burned-me/",
+    "summary": "An honest account of my worst AI mistakes in brewing — trusting confident-but-wrong outputs, building on dirty data, and chasing hype. The failures that taught me the most.",
+    "featured": false
+  },
+  {
+    "title": "Where a Distillery Actually Starts with AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/where-a-distillery-starts-with-ai/",
+    "summary": "The capstone of the foundations series: not with a tool, but with one measured record. A distiller’s order of operations — data, then dashboards, then machine learning, then generative AI — and the honest reason most AI projects fail before they begin.",
+    "featured": false
+  },
+  {
+    "title": "What Is Machine Learning? Pattern-Finding for the Distillery",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/what-is-machine-learning-distillery/",
+    "summary": "Machine learning explained for distillers without the maths: software that learns patterns from your own cask and process records, then predicts the next case — angel’s share, cut points, bottling maturity — plus exactly where it quietly breaks.",
+    "featured": false
+  },
+  {
+    "title": "What Is Generative AI? The Difference That Matters for Distillers",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/what-is-generative-ai-distillers/",
+    "summary": "Generative AI explained for distillers: the chatbot kind of AI that writes, drafts and explains in plain language — what it’s genuinely good at in a distillery, why it states wrong cask numbers as confidently as right ones, and how grounding fixes that.",
+    "featured": false
+  },
+  {
+    "title": "What Is AI, Really? A Distiller’s Plain-Language Guide",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/what-is-ai-distilling-plain-language/",
+    "summary": "No jargon, no hype: what ‘AI’ actually means for a distillery, why the word covers three very different things, and how to tell a useful tool from a buzzword before you spend a rupee or a dollar on it.",
+    "featured": false
+  },
+  {
+    "title": "What Can AI Actually Do for a Brewery? 7 Real Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/what-can-ai-do-for-a-brewery/",
+    "summary": "A grounded tour of where artificial intelligence already helps breweries — from fermentation forecasting to demand planning — and where it’s still just hype.",
+    "featured": false
+  },
+  {
+    "title": "What Does AI Actually Mean for a Brewer? (It’s the Data Science You Already Do)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/what-ai-means-for-a-brewer/",
+    "summary": "AI isn’t magic for breweries — it’s data science in three flavors: rule-based, machine learning, and deep learning. A brewer’s plain-English guide to what the word really means.",
+    "featured": false
+  },
+  {
+    "title": "What AI in Beer Actually Looks Like in 2026",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/what-ai-in-beer-actually-looks-like-2026/",
+    "summary": "Beyond the headlines about AI-designed beer: what artificial intelligence is genuinely doing in breweries in 2026 — recipe ideation, batch consistency, a brewers’ chatbot, and the supply chain — and where the hype quietly breaks.",
+    "featured": false
+  },
+  {
+    "title": "Wastewater and Effluent Analytics for Breweries and Distilleries",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/wastewater-effluent-analytics-beverage/",
+    "summary": "Brewery and distillery effluent is high-strength and tightly regulated. How data and AI manage effluent load — forecasting, anomaly detection and load-balancing — with UK, EU, US, India rules.",
+    "featured": false
+  },
+  {
+    "title": "Vibe-Coding a Fermentation Tracker: A Brewer’s Build Log",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/vibe-coding-fermentation-dashboard-build-log/",
+    "summary": "A concrete, step-by-step build log of vibe-coding a small fermentation tracker with Claude Fable 5 — the actual prompts, the verify steps, the bug it introduced and how it got caught, so you can copy the loop for your own brewery tool.",
+    "featured": false
+  },
+  {
+    "title": "Vibe-Coding a Brewing Tool with Claude Fable 5",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/vibe-coding-brewing-tool-claude-fable-5/",
+    "summary": "Claude’s latest model, Fable 5, makes it realistic for a brewer with no software background to build a small, genuinely useful brewery tool by describing what they want. Here’s the honest loop, what Fable 5 changes, and where it still needs you.",
+    "featured": false
+  },
+  {
+    "title": "How to Vibe-Code a Product with Claude (It’s a Loop, Not Magic)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/vibe-code-a-product-with-claude/",
+    "summary": "Vibe-coding with Claude isn’t AI writing your app while you watch. It’s a build–verify–fix loop — and the verifier is what separates a shippable product from a confident demo.",
+    "featured": false
+  },
+  {
+    "title": "True-to-Target: Visualizing Whether a Batch Matches Its Brand Profile",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/true-to-target-batch-brand-profile-viz/",
+    "summary": "True-to-target (TTT) tasting asks a different question than ‘is it in spec’ — does this batch still taste like the brand? How to visualize brand conformance with radar profiles, target bands and deviation tracking, so a panel’s verdict becomes a picture the whole brewery reads.",
+    "featured": false
+  },
+  {
+    "title": "The Honest Limits of AI in Brewing: Hallucinations, Bad Data, and Wasted Money",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/the-honest-limits-of-ai-in-brewing/",
+    "summary": "A reality check on AI for breweries — where it hallucinates, where bad data wrecks it, and where the spend isn’t worth it. The downsides nobody selling AI mentions.",
+    "featured": false
+  },
+  {
+    "title": "Sustainable Drinks in the USA: EPA, State Programs and TTB",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/sustainable-drinks-usa-epa-state-ttb/",
+    "summary": "US drinks producers navigate EPA rules, state programs and TTB. How data and AI drive sustainability where federal mandates are lighter and state rules vary, with generative AI support.",
+    "featured": false
+  },
+  {
+    "title": "Sustainable Drinks in the UK: SECR, EPR and the Data Behind Compliance",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/sustainable-drinks-uk-secr-epr/",
+    "summary": "UK drinks producers face SECR energy reporting and packaging EPR. How data and AI meet UK sustainability rules, and where generative AI drafts the disclosures.",
+    "featured": false
+  },
+  {
+    "title": "Sustainable Drinks in India: BEE, CPCB and Water Norms",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/sustainable-drinks-india-bee-cpcb/",
+    "summary": "Indian drinks producers face BEE energy rules, CPCB effluent norms and water stress. How data and AI cut energy and water and meet Indian regulations, with generative AI support.",
+    "featured": false
+  },
+  {
+    "title": "Sustainable Drinks in the EU: CSRD, EU ETS and Packaging (PPWR)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/sustainable-drinks-eu-csrd-ets-ppwr/",
+    "summary": "EU drinks producers face CSRD reporting, the EU ETS and the Packaging and Packaging Waste Regulation. How data and AI meet EU rules, with generative AI drafting disclosures.",
+    "featured": false
+  },
+  {
+    "title": "Making a Beer, Wine and Whiskey Business More Sustainable with AI and Data",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/sustainable-drinks-business-ai-data/",
+    "summary": "How drinks producers cut electricity, water and emissions using AI, data science and generative AI — the levers, the data foundation, and the UK, EU, USA and India rules, with links to each deep dive.",
+    "featured": false
+  },
+  {
+    "title": "A Sustainability Data Roadmap for Beverage Producers: The Phases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/sustainability-data-roadmap-beverage/",
+    "summary": "Where to start with sustainability data and AI. A phased roadmap for drinks producers — meter, baseline, optimise, automate, report — with what to do and watch at each phase.",
+    "featured": false
+  },
+  {
+    "title": "How to Tell a Good AI Answer from a Confidently Wrong One",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/spotting-confident-wrong-ai-answers-brewing/",
+    "summary": "AI states hop specs, salt additions and yeast ranges with equal confidence whether right or wrong. A brewer’s verification toolkit: what to always check, what to trust provisionally, and the tells that an answer is fabricated.",
+    "featured": false
+  },
+  {
+    "title": "Turning Spent Grain, Pomace and Draff into Value with Data",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/spent-grain-pomace-draff-value-data/",
+    "summary": "Spent grain, grape pomace and draff are big by-products. How data and AI route each to its highest-value use — feed, food, or energy — net of haulage and spoilage, across regions.",
+    "featured": false
+  },
+  {
+    "title": "What Should a Brewery Do With Spent Grain? Feed, Food, or Fuel by the Numbers",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/spent-grain-feed-food-fuel/",
+    "summary": "Spent grain is a brewery’s biggest by-product. Data and AI help route each tonne to its highest-value use — feed, food, or fuel — and turn a disposal cost into value.",
+    "featured": false
+  },
+  {
+    "title": "SPC That Actually Catches Drift: Capability, CUSUM and EWMA for Brewers",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/spc-capability-cusum-ewma-brewing/",
+    "summary": "The Shewhart control chart catches sudden spikes but is blind to slow drift — exactly how brewing quality usually fails. How process capability (Cp/Cpk), CUSUM and EWMA charts visualize the slow creep a basic control chart misses, in brewing terms.",
+    "featured": false
+  },
+  {
+    "title": "S&amp;OP for Craft: An Analytics Playbook to Match Supply and Demand",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/sop-for-craft-breweries-analytics/",
+    "summary": "Sales and operations planning for craft breweries: a practical analytics playbook that connects demand signals to production scheduling and closes the forecast gap.",
+    "featured": false
+  },
+  {
+    "title": "Snowflake for Wineries: 20 Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/snowflake-for-wineries-20-use-cases/",
+    "summary": "How a winery uses Snowflake end to end — ingestion, real-time monitoring, Dynamic Tables &amp; Snowpark, BI and AI — across 20 concrete use cases grouped by capability.",
+    "featured": false
+  },
+  {
+    "title": "Snowflake for Distilleries: 20 Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/snowflake-for-distilleries-20-use-cases/",
+    "summary": "How a distillery uses Snowflake end to end — ingestion, real-time monitoring, Dynamic Tables &amp; Snowpark, BI and AI — across 20 concrete use cases grouped by capability.",
+    "featured": false
+  },
+  {
+    "title": "Snowflake for Breweries: 20 Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/snowflake-for-breweries-20-use-cases/",
+    "summary": "How a brewery uses Snowflake end to end — ingestion, real-time monitoring, Dynamic Tables &amp; Snowpark, BI and AI — across 20 concrete use cases grouped by capability.",
+    "featured": false
+  },
+  {
+    "title": "Snowflake Across the Winery Business, Vertical by Vertical",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/snowflake-across-the-winery-business/",
+    "summary": "A department-by-department tour of where Snowflake helps a winery — from the floor through quality, supply chain, sales, marketing, finance and compliance — on one governed platform.",
+    "featured": false
+  },
+  {
+    "title": "Snowflake Across the Distillery Business, Vertical by Vertical",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/snowflake-across-the-distillery-business/",
+    "summary": "A department-by-department tour of where Snowflake helps a distillery — from the floor through quality, supply chain, sales, marketing, finance and compliance — on one governed platform.",
+    "featured": false
+  },
+  {
+    "title": "Snowflake Across the Brewery Business, Vertical by Vertical",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/snowflake-across-the-brewery-business/",
+    "summary": "A department-by-department tour of where Snowflake helps a brewery — from the floor through quality, supply chain, sales, marketing, finance and compliance — on one governed platform.",
+    "featured": false
+  },
+  {
+    "title": "Shelf-Life Trajectories: Visualizing Forced-Ageing and Flavour Stability",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/shelf-life-flavour-stability-trial-viz/",
+    "summary": "A beer’s flavour stability is a story over time, not a single number — yet most breweries record it as a pass/fail. How to visualize forced-ageing and shelf-life trials as trajectories and small multiples, so staling becomes a path you can see, compare and predict.",
+    "featured": false
+  },
+  {
+    "title": "Where Your Extract, Water and Energy Go: Sankey and the Brewhouse Balance",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/sankey-brewhouse-mass-energy-balance/",
+    "summary": "A brewery’s biggest losses hide in plain sight across a dozen separate reports. A Sankey diagram puts the whole mass and energy balance in one picture — extract from grain to glass, water in to effluent out, energy in to heat lost — so the leaks become impossible to miss.",
+    "featured": false
+  },
+  {
+    "title": "Sales Rep Productivity: Coaching with Data, Not Gut",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/sales-rep-productivity-analytics/",
+    "summary": "Sales productivity analytics for beverage brands — a framework for measuring rep performance, identifying coaching opportunities, and improving territory outcomes with data.",
+    "featured": false
+  },
+  {
+    "title": "A Safety Culture Built on Data, Not Surveillance",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/safety-culture-data-not-surveillance/",
+    "summary": "How to use safety culture data to build trust and improve brewery EHS outcomes — and why the difference between data and surveillance determines whether workers report honestly.",
+    "featured": false
+  },
+  {
+    "title": "Predicting When Malt Is Modified Enough to Kiln",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/predicting-malt-modification-germination/",
+    "summary": "Machine learning can help call the kiln-off point by predicting endosperm modification and homogeneity from germination data — but the confirming lab tests lag and homogeneity hides trouble.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Slow Runoff From the Malt Before It Reaches Your Mill",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/predicting-beta-glucan-slow-runoff-malt/",
+    "summary": "Under-modified malt hides the high beta-glucan that slows lautering and filtration. How a model reads the malt certificate to flag runoff risk — and why a lot average can still fool you.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Beer Flavour by Stacking Malt Flavour Wheels",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/predicting-beer-flavour-malt-coa-flavour-wheels/",
+    "summary": "Give each malt its flavour wheel, scale it by its share of the grist, sum the wheels and ground the result in the COA. A weighted-sum fingerprint of beer flavour — and the perception physics it cannot fake.",
+    "featured": false
+  },
+  {
+    "title": "Cutting Packaging Footprint: Glass, Can and Keg Emissions with Data",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/packaging-footprint-sustainability-data/",
+    "summary": "Packaging is the largest slice of most drinks footprints. How data and AI cut packaging emissions — material choice, lightweighting, reuse and recycled content — across UK, EU, US, India rules.",
+    "featured": false
+  },
+  {
+    "title": "Which Beer Should We Make Next? How I Let the Data Decide",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/npd-which-beer-to-make-data/",
+    "summary": "Developing beers for AB InBev, SABMiller and United Breweries meant crunching consumer and market data to choose what to brew — here’s how AI and analytics shaped the front end of new product development.",
+    "featured": false
+  },
+  {
+    "title": "From Pilot to Full Scale: The NPD Data Problem Nobody Warns You About",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/npd-scale-up-pilot-to-production-data/",
+    "summary": "A beer that’s perfect on the pilot kettle can drift off-spec at full scale. Here’s how I used batch data, control charts and AI to close the scale-up gap when developing beers for AB InBev, SABMiller and United Breweries.",
+    "featured": false
+  },
+  {
+    "title": "Crunching Recipe and Sensory Data: How I Sped Up Beer Development",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/npd-recipe-sensory-data-development/",
+    "summary": "Developing a new beer means closing the gap between a target flavour and what comes out of the pilot kettle. Here’s how AI and sensory analytics cut the number of trial brews it took me to get there.",
+    "featured": false
+  },
+  {
+    "title": "Launching a Non-Alcoholic Line: A Data-Driven Go-to-Market Playbook",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/non-alcoholic-beer-go-to-market/",
+    "summary": "A structured go-to-market playbook for non alcoholic beer launch — from consumer insight through channel sequencing to commercial success metrics.",
+    "featured": false
+  },
+  {
+    "title": "My First Real AI Project: Forecasting Beer Demand — What Worked, What Flopped",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/my-first-ai-project-beer-demand-forecasting/",
+    "summary": "An honest postmortem of building beer demand forecasting at iWort — where machine learning beat the spreadsheet, where it didn’t, and the data lessons that cost me the most.",
+    "featured": false
+  },
+  {
+    "title": "Microsoft Fabric for Wineries: 20 Use Cases (and 3 Case Studies)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/microsoft-fabric-for-wineries-20-use-cases/",
+    "summary": "How a winery uses Microsoft Fabric — OneLake, Real-Time Intelligence, Lakehouse, Direct Lake and Copilot — across 20 use cases from vineyard and fermentation to barrel ageing and DTC, plus three case studies.",
+    "featured": false
+  },
+  {
+    "title": "Microsoft Fabric for Distilleries: 20 Use Cases for Whiskey (and 3 Case Studies)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/microsoft-fabric-for-distilleries-20-use-cases/",
+    "summary": "How a whiskey distillery uses Microsoft Fabric — OneLake, Real-Time Intelligence, Lakehouse, Direct Lake and Copilot — across 20 use cases from still telemetry to cask maturation and maturing-stock valuation, plus three case studies.",
+    "featured": false
+  },
+  {
+    "title": "Microsoft Fabric for Breweries: 20 Use Cases (and 3 Case Studies)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/microsoft-fabric-for-breweries-20-use-cases/",
+    "summary": "How a brewery uses Microsoft Fabric end to end — OneLake, Data Factory, Real-Time Intelligence, Lakehouse, Direct Lake and Copilot — across 20 concrete use cases plus three worked case studies.",
+    "featured": false
+  },
+  {
+    "title": "Mead Meets AI: Can the World’s Oldest Drink Go High-Tech?",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/mead-meets-ai/",
+    "summary": "Mead is honey, water, and yeast — one of the oldest, simplest ferments. Here’s where AI genuinely helps modern meadmakers, and where craft and small batches keep it human.",
+    "featured": false
+  },
+  {
+    "title": "Mash Water and Temperature Calculator in Excel",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/mash-water-temperature-calculator-excel/",
+    "summary": "Work out strike temperature, mash and sparge water volumes, grain absorption and total water needed in one Excel sheet — with a water balance that shows where every litre goes.",
+    "featured": false
+  },
+  {
+    "title": "Teaching Myself Data Science as a Working Brewer: The Honest Learning Path",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/learning-data-science-as-a-brewer/",
+    "summary": "How I learned data science while working full-time in breweries — what to study first, what to skip, and why self-study (svadhyaya) beats chasing certificates.",
+    "featured": false
+  },
+  {
+    "title": "Lager Sales Blueprint: Winning On-Premise Tap Handles",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/lager-sales-blueprint-on-premise/",
+    "summary": "A practical sales blueprint for lager breweries selling through on-premise (bars &amp; restaurants): how to segment, target, offer, execute and measure — with the metrics and analytics that matter.",
+    "featured": false
+  },
+  {
+    "title": "Lager Sales Blueprint: Off-Premise Retail (Grocery, C-Store, Liquor)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/lager-sales-blueprint-off-premise-retail/",
+    "summary": "A practical sales blueprint for lager breweries selling through off-premise retail: how to segment, target, offer, execute and measure — with the metrics and analytics that matter.",
+    "featured": false
+  },
+  {
+    "title": "Lager Sales Blueprint: National and Key Accounts",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/lager-sales-blueprint-national-accounts/",
+    "summary": "A practical sales blueprint for lager breweries selling through national &amp; key accounts: how to segment, target, offer, execute and measure — with the metrics and analytics that matter.",
+    "featured": false
+  },
+  {
+    "title": "Lager Sales Blueprint: E-Commerce, Delivery and DTC",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/lager-sales-blueprint-ecommerce-dtc/",
+    "summary": "A practical sales blueprint for lager breweries selling through e-commerce, delivery apps &amp; DTC: how to segment, target, offer, execute and measure — with the metrics and analytics that matter.",
+    "featured": false
+  },
+  {
+    "title": "Lager Sales Blueprint: Winning with Distributors",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/lager-sales-blueprint-distributors/",
+    "summary": "A practical sales blueprint for lager breweries selling through distributors &amp; wholesalers: how to segment, target, offer, execute and measure — with the metrics and analytics that matter.",
+    "featured": false
+  },
+  {
+    "title": "Beer Sales Blueprints for Lager Breweries: Five Plays by Channel",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/lager-brewery-sales-blueprints/",
+    "summary": "How lager breweries sell, market player by market player — distributor, off-premise, on-premise, national accounts and e-commerce — with a use-case blueprint and the metrics for each channel.",
+    "featured": false
+  },
+  {
+    "title": "IoT in the Winery: Sensors from Vineyard to Bottle",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/iot-in-the-winery-sensors-process/",
+    "summary": "A process-grounded guide to IoT in winemaking — sensors in the vineyard, at crush and fermentation, in the barrel room and at bottling, the edge-to-cloud stack, and the AI on the streams.",
+    "featured": false
+  },
+  {
+    "title": "IoT in the Distillery: Sensors from Mash to Cask",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/iot-in-the-distillery-sensors-process/",
+    "summary": "An IBD-grounded guide to IoT in distilling — sensors at mashing, washback fermentation, the wash and spirit stills, the spirit cut, and the maturation warehouse, plus the edge-to-cloud stack and AI.",
+    "featured": false
+  },
+  {
+    "title": "IoT in the Brewery: Sensors at Every Step, from Mash to Package",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/iot-in-the-brewery-sensors-process/",
+    "summary": "An IBD-grounded guide to IoT in brewing — which sensors belong at mashing, lautering, the boil, fermentation and packaging, the edge-to-cloud stack, and the AI that reads the streams.",
+    "featured": false
+  },
+  {
+    "title": "Build an IBU Recipe Builder in Excel (Tinseth, Multi-Addition)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ibu-recipe-builder-excel/",
+    "summary": "A multi-addition IBU calculator in Excel: Tinseth utilisation per hop addition, total bitterness, the BU:GU balance ratio, hop substitution and scaling to a target IBU.",
+    "featured": false
+  },
+  {
+    "title": "How a Winery Should Start with AI and Gen AI: The Phases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/how-a-winery-starts-with-ai-and-gen-ai/",
+    "summary": "A phased roadmap for a winery adopting AI and generative AI — from collecting data to dashboards, predictive models, GenAI copilots and agents — with what to do, need and watch at each phase.",
+    "featured": false
+  },
+  {
+    "title": "How a Distillery Should Start with AI and Gen AI: The Phases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/how-a-distillery-starts-with-ai-and-gen-ai/",
+    "summary": "A phased roadmap for a distillery adopting AI and generative AI — from collecting data to dashboards, predictive models, GenAI copilots and agents — with what to do, need and watch at each phase.",
+    "featured": false
+  },
+  {
+    "title": "How a Brewery Should Start with AI and Gen AI: The Phases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/how-a-brewery-starts-with-ai-and-gen-ai/",
+    "summary": "A phased roadmap for a brewery adopting AI and generative AI — from collecting data to dashboards, predictive models, GenAI copilots and agents — with what to do, need and watch at each phase.",
+    "featured": false
+  },
+  {
+    "title": "The Honest Limits of Sales Forecasting: When to Trust the Human",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/honest-limits-sales-forecasting/",
+    "summary": "The real limits of demand forecasting in beverages — what models cannot do, when human judgment outperforms algorithms, and how to design a hybrid process.",
+    "featured": false
+  },
+  {
+    "title": "I Built a Global Beer Sensory Tool on Microsoft Fabric (with Rayfin)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/global-beer-sensory-tool-microsoft-fabric-rayfin/",
+    "summary": "A working tool where breweries’ tasters share sensory feedback and everyone sees how each batch drifts from its style’s world ideal. It’s built on Microsoft Fabric, with the backend deployed in one command using Rayfin.",
+    "featured": false
+  },
+  {
+    "title": "Generative AI for Sustainability SOPs, Training and Audits",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/generative-ai-sustainability-sops-training/",
+    "summary": "Savings only stick if people follow them. How generative AI drafts sustainability SOPs, training and audit prep — grounded in your data — across UK, EU, US and India.",
+    "featured": false
+  },
+  {
+    "title": "A Generative-AI Copilot for Reading Malt Certificates of Analysis",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/genai-copilot-malt-certificate-analysis/",
+    "summary": "A grounded LLM copilot can read a malt certificate of analysis, explain every parameter, flag out-of-spec values against your recipe and draft the brew sheet — if you stop it inventing numbers.",
+    "featured": false
+  },
+  {
+    "title": "From Brewer to Data Scientist: Why I Traded the Brewhouse for AI (And Didn’t Really Leave)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/from-brewer-to-data-scientist/",
+    "summary": "How I went from developing beers for AB InBev and SABMiller to building AI for breweries — and why a brewing background is an advantage, not a handicap, in data science.",
+    "featured": false
+  },
+  {
+    "title": "Descriptive, Diagnostic, Predictive, Prescriptive: The Four Analytics in a Winery",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/four-types-data-analytics-winery-fabric/",
+    "summary": "The four classic types of data analytics translated into winemaking language — yield per hectare, fermentation curves, wine faults, blend trials, barrel ageing — and where Microsoft Fabric’s lakehouse, real-time intelligence and Direct Lake actually fit each one.",
+    "featured": false
+  },
+  {
+    "title": "Descriptive, Diagnostic, Predictive, Prescriptive: The Four Analytics in a Distillery",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/four-types-data-analytics-distillery-fabric/",
+    "summary": "The four classic types of data analytics translated into distillery language — spirit yield, cut points, the angel’s share, cask allocation — and where Microsoft Fabric’s lakehouse, real-time intelligence and Direct Lake actually fit each one.",
+    "featured": false
+  },
+  {
+    "title": "Forecasting Mycotoxin and Gushing Risk in the Malthouse",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/forecasting-mycotoxin-gushing-risk-malting/",
+    "summary": "Fusarium-infected barley brings DON mycotoxin and gushing risk. How machine learning scores incoming lots from harvest weather and grain data — and why a food-safety call keeps a human in the loop.",
+    "featured": false
+  },
+  {
+    "title": "Forecast Accuracy Metrics That Matter (and the Vanity Ones to Drop)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/forecast-accuracy-metrics/",
+    "summary": "Which forecast accuracy metrics actually drive better beverage planning decisions — MAPE, WMAPE, bias, CFE — and which metrics flatter but mislead.",
+    "featured": false
+  },
+  {
+    "title": "The Business Case: Linking ESG Metrics to Margin",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/esg-business-case-margin/",
+    "summary": "How breweries can build the ESG business case by connecting sustainability metrics to margin, cost, and commercial outcomes.",
+    "featured": false
+  },
+  {
+    "title": "EHS Reporting Automation: From Paper Logs to Live Dashboards",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ehs-reporting-automation/",
+    "summary": "How EHS reporting software transforms brewery safety data collection from paper logs and spreadsheets into live dashboards that drive faster decisions.",
+    "featured": false
+  },
+  {
+    "title": "Distillery Energy and Heat Recovery: Using Data to Cut Fuel and Power",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/distillery-energy-heat-recovery-ai/",
+    "summary": "Distillation is heat-intensive. How data and AI cut a distillery’s fuel and power — heat recovery, load forecasting and anomaly detection — with UK, EU, US and India context.",
+    "featured": false
+  },
+  {
+    "title": "Databricks for Wineries: 20 Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/databricks-for-wineries-20-use-cases/",
+    "summary": "How a winery uses Databricks end to end — ingestion, real-time monitoring, the Delta Lakehouse &amp; Spark, BI and AI — across 20 concrete use cases grouped by capability.",
+    "featured": false
+  },
+  {
+    "title": "Databricks for Distilleries: 20 Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/databricks-for-distilleries-20-use-cases/",
+    "summary": "How a distillery uses Databricks end to end — ingestion, real-time monitoring, the Delta Lakehouse &amp; Spark, BI and AI — across 20 concrete use cases grouped by capability.",
+    "featured": false
+  },
+  {
+    "title": "Databricks for Breweries: 20 Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/databricks-for-breweries-20-use-cases/",
+    "summary": "How a brewery uses Databricks end to end — ingestion, real-time monitoring, the Delta Lakehouse &amp; Spark, BI and AI — across 20 concrete use cases grouped by capability.",
+    "featured": false
+  },
+  {
+    "title": "Databricks Across the Winery Business, Vertical by Vertical",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/databricks-across-the-winery-business/",
+    "summary": "A department-by-department tour of where Databricks helps a winery — from the floor through quality, supply chain, sales, marketing, finance and compliance — on one governed platform.",
+    "featured": false
+  },
+  {
+    "title": "Databricks Across the Distillery Business, Vertical by Vertical",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/databricks-across-the-distillery-business/",
+    "summary": "A department-by-department tour of where Databricks helps a distillery — from the floor through quality, supply chain, sales, marketing, finance and compliance — on one governed platform.",
+    "featured": false
+  },
+  {
+    "title": "Databricks Across the Brewery Business, Vertical by Vertical",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/databricks-across-the-brewery-business/",
+    "summary": "A department-by-department tour of where Databricks helps a brewery — from the floor through quality, supply chain, sales, marketing, finance and compliance — on one governed platform.",
+    "featured": false
+  },
+  {
+    "title": "Cutting Water Use in Brewing: The Water-to-Beer Ratio, with Data",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/cutting-water-use-brewing-data/",
+    "summary": "Breweries use several litres of water per litre of beer. How data and AI cut the water-to-beer ratio — sub-metering, anomaly detection and benchmarking — across UK, EU, US and India.",
+    "featured": false
+  },
+  {
+    "title": "Cutting Brewery Electricity Use with AI: Refrigeration, Compressors and Load",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/cutting-brewery-electricity-ai/",
+    "summary": "Refrigeration and compressed air dominate a brewery’s power bill. How data and AI cut electricity use — load forecasting, anomaly detection and off-peak scheduling — across UK, EU, US and India.",
+    "featured": false
+  },
+  {
+    "title": "The Commercial Control Tower: One View from Brewhouse to Shelf",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/commercial-control-tower-beverage/",
+    "summary": "A commercial control tower for beverage operations integrates sell-in, sell-through, and margin data into one decision-ready view — here is how to build one that works.",
+    "featured": false
+  },
+  {
+    "title": "Before You Touch AI, Collect Your Data: The Unglamorous First Step",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/collect-your-data-before-ai/",
+    "summary": "The first move in any brewery’s AI journey isn’t a model — it’s data collection. What to log, what sensors matter, and why clean records beat clever algorithms every time.",
+    "featured": false
+  },
+  {
+    "title": "Cold Chain and Distribution Emissions: Route and Refrigeration Analytics",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/cold-chain-distribution-emissions-ai/",
+    "summary": "Getting drinks to market burns fuel and refrigeration. How data and AI cut distribution and cold-chain emissions — route optimisation, load-fill and temperature analytics — across regions.",
+    "featured": false
+  },
+  {
+    "title": "CO2 Recovery and Refrigeration: Cutting Emissions and Cost",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/co2-recovery-refrigeration-emissions/",
+    "summary": "Fermentation CO2 and refrigerant leaks are emissions and cost. How data and AI manage CO2 recovery and refrigeration emissions, with regional context.",
+    "featured": false
+  },
+  {
+    "title": "Co-Packing and Contract Brewing Analytics: Making Capacity Pay",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/co-packing-contract-brewing-analytics/",
+    "summary": "Contract brewing and co-packing live or die on capacity utilisation and true cost per contract. The analytics that decide whether each customer brand actually makes money — and where AI helps.",
+    "featured": false
+  },
+  {
+    "title": "Can Claude Opus 4.8 Help You Brew a Better IPA? A Hop-Forward Workflow",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/claude-opus-ipa-hop-workflow/",
+    "summary": "A practical, honest use case: how I use Claude Opus 4.8 as a hop and IPA development copilot — from hop selection and dry-hop timing to biotransformation and hop creep — and exactly where it must hand back to the lab and the palate.",
+    "featured": false
+  },
+  {
+    "title": "What Claude Fable 5 Changes for Brewers Who Build",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/claude-fable-5-for-brewers-who-build/",
+    "summary": "Anthropic’s latest model, Claude Fable 5, doesn’t replace the brewer’s judgement — it lowers the skill floor for building. What actually changes for a brewer making their own tools, what doesn’t, and how to use it without fooling yourself.",
+    "featured": false
+  },
+  {
+    "title": "Using Claude and ChatGPT to Draft Your CSRD and ESG Reports",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/claude-chatgpt-csrd-esg-reports/",
+    "summary": "ESG reporting is heavy on writing. How generative AI like Claude and ChatGPT drafts CSRD, SECR and voluntary reports from your data — and where a human must own the numbers.",
+    "featured": false
+  },
+  {
+    "title": "Claude AI and Claude Code for Wineries: Where the Anthropic Ecosystem Helps",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/claude-ai-claude-code-for-wineries/",
+    "summary": "Where Claude, Claude Code, the API, agents and MCP help a winery — vineyard and viticulture, winemaking, lab, sales, marketing, compliance and the wine club — and where a human must stay in the loop.",
+    "featured": false
+  },
+  {
+    "title": "Claude AI and Claude Code for Distilleries: Where the Anthropic Ecosystem Helps",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/claude-ai-claude-code-for-distilleries/",
+    "summary": "Where Claude, Claude Code, the API, agents and MCP help a whiskey distillery — new-make R&amp;D, distillation, cask and warehouse, sales, marketing, excise compliance and knowledge — and where a human must stay in the loop.",
+    "featured": false
+  },
+  {
+    "title": "Claude AI and Claude Code for Breweries: Where the Anthropic Ecosystem Helps",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/claude-ai-claude-code-for-breweries/",
+    "summary": "A practical tour of where Claude, Claude Code, the API, agents and MCP help a brewery — recipe, production, QC, supply chain, sales, marketing, compliance and knowledge — and where to keep a human in the loop.",
+    "featured": false
+  },
+  {
+    "title": "CIP Optimisation: Saving Water, Chemicals and Energy with AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/cip-optimisation-water-chemicals-ai/",
+    "summary": "Clean-in-place is a top consumer of water, chemicals and heat. How data and AI optimise CIP cycles — conductivity-based endpoints, anomaly detection and right-sizing — across regions.",
+    "featured": false
+  },
+  {
+    "title": "The CFO’s AI Dashboard: Real-Time Beverage Finance",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/cfo-ai-dashboard-beverage/",
+    "summary": "What a CFO dashboard for beverage companies actually needs — real-time metrics, AI-assisted anomaly detection, and honest limits of current analytics tools.",
+    "featured": false
+  },
+  {
+    "title": "A Carbonation Calculator in Excel: Priming Sugar, PSI and Line Balancing",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/carbonation-calculator-excel/",
+    "summary": "Carbonate beer with confidence in Excel: priming sugar from residual CO2, the keg pressure for any target volume and temperature, and a simple draught line-length balance.",
+    "featured": false
+  },
+  {
+    "title": "Carbon Accounting for Beverage Producers: Scope 1, 2 and 3 with Data",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/carbon-accounting-beverage-ai-data/",
+    "summary": "Most of a drinks producer’s carbon is Scope 3 — packaging and transport. How data and AI build a credible Scope 1/2/3 inventory, and where generative AI drafts the disclosure.",
+    "featured": false
+  },
+  {
+    "title": "Capex with Analytics: When to Add a Tank or a Canning Line",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/capex-decisions-brewery-analytics/",
+    "summary": "Capex decision analytics for breweries — how to use capacity utilization, margin contribution, and payback modeling to time tank and canning line investments.",
+    "featured": false
+  },
+  {
+    "title": "Can AI Write Your TTB Reports? Why You Must Check Every Number",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/can-ai-write-your-ttb-reports/",
+    "summary": "AI can draft brewery TTB and excise paperwork fast — but it hallucinates figures and misquotes rules. Where it helps, where it’s dangerous, and the verification rule.",
+    "featured": false
+  },
+  {
+    "title": "Can AI Predict Wine Quality Before the Harvest?",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/can-ai-predict-wine-quality/",
+    "summary": "How AI uses vineyard, satellite, and weather data to forecast yield, ripeness, and wine quality — what it predicts reliably, and why vintage and terroir cap its accuracy.",
+    "featured": false
+  },
+  {
+    "title": "Can AI Predict Whiskey Maturation and Cask Quality?",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/can-ai-predict-whiskey-maturation/",
+    "summary": "How distilleries use AI to model whiskey maturation, the angel’s share, and cask selection — what it helps with, and why years-long timescales and sparse data limit it.",
+    "featured": false
+  },
+  {
+    "title": "Can AI Predict Beer Fermentation? What the Data Actually Shows",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/can-ai-predict-beer-fermentation/",
+    "summary": "A practitioner’s look at how machine-learning models forecast fermentation curves, attenuation, and off-flavors in brewing — and where they still fall short.",
+    "featured": false
+  },
+  {
+    "title": "Can AI Design a Beer Recipe? How Generative Models Brew",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/can-ai-design-a-beer-recipe/",
+    "summary": "How generative AI suggests beer recipes — grain bills, hop schedules, and yeast pairings — what it gets right, and why a human brewer is still in charge.",
+    "featured": false
+  },
+  {
+    "title": "By-Product and Circular-Economy Analytics for Drinks Producers",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/byproduct-circular-economy-analytics/",
+    "summary": "Closing loops needs a material balance. How data and AI track every resource and by-product flow, find circular opportunities, and substantiate diversion claims, across regions.",
+    "featured": false
+  },
+  {
+    "title": "Build a Brewing Water Chemistry Calculator in Excel",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/build-brewing-water-chemistry-calculator-excel/",
+    "summary": "A step-by-step Excel water calculator for brewers: enter your source profile, add salts, and read out calcium, sulfate, chloride, residual alkalinity and the sulfate-to-chloride ratio.",
+    "featured": false
+  },
+  {
+    "title": "Beyond the Control Chart: Data Visualizations Brewers Underuse",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/brewing-viz-beyond-control-chart/",
+    "summary": "Most brewery dashboards stop at the line chart and the control chart. This opens a series on the visualizations brewers rarely reach for — radar brand-profiles, CUSUM drift charts, shelf-life trajectories and Sankey balances — and how to match the chart to the brewing question.",
+    "featured": false
+  },
+  {
+    "title": "Brewhouse Efficiency and Yield Reconciliation in Excel",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/brewhouse-efficiency-yield-excel/",
+    "summary": "Separate conversion, lauter and brewhouse efficiency in one Excel sheet, reconcile predicted versus actual gravity, and diagnose exactly where your extract is being lost.",
+    "featured": false
+  },
+  {
+    "title": "Saving Water in a Brewery: Data Analytics vs AI vs Generative AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/brewery-water-savings-analytics-ai-genai/",
+    "summary": "Three different tools, one goal: a lower water-to-beer ratio. Where plain data analytics, machine-learning AI, and generative AI each genuinely cut brewery water use — and where each one is the wrong tool.",
+    "featured": false
+  },
+  {
+    "title": "Ten Prompts from the Brewery Floor: Bad Ask → Good Ask",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/brewery-floor-prompts-bad-to-good/",
+    "summary": "Ten real brewery situations — stuck fermentation, recipe scaling, costing, off-flavours — each shown as the vague prompt beginners type and the specific rewrite that actually gets a useful AI answer.",
+    "featured": false
+  },
+  {
+    "title": "Modeling a Brewery in 3D: Procedural Vessels and Process Flow (Part 2)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/brewery-digital-twin-part-2-modeling-vessels/",
+    "summary": "Part 2 of building a brewery digital twin: how I modeled every vessel — mash tun, lauter tun, kettle, cylindro-conical fermenters — from code instead of Blender, drove the whole plant from one process-data file, and animated the flow between tanks. With an honest take on when Blender is the right call.",
+    "featured": false
+  },
+  {
+    "title": "A Brewer’s Map of Their Own Data — and What Each Source Can Actually Answer",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/brewery-data-map-what-it-answers/",
+    "summary": "Brew logs, fermentation sensors, lab results, POS and inventory: a plain map of the data a small brewery already has, and the specific questions each source can — and cannot — answer.",
+    "featured": false
+  },
+  {
+    "title": "I Turned My Brewery Into a 3D Digital Twin on Microsoft Fabric",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/brewery-3d-digital-twin-microsoft-fabric/",
+    "summary": "Not a dashboard you read — a brewery you walk through. How I rebuilt Ankur Napa Brewing Company as a live 3D digital twin on Microsoft Fabric, shipped in an afternoon with the Rayfin SDK, with every vessel and POS wired to real-time data.",
+    "featured": false
+  },
+  {
+    "title": "Brewers Stopped Saying No to AI — But the Real Win Isn’t a LinkedIn Post",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/brewers-done-saying-no-to-ai/",
+    "summary": "Brewers have shifted from dismissing AI to posting about it. That’s progress — but the real prize isn’t expressing yourself online. It’s using AI and data science to brew beer that sells, batch after batch.",
+    "featured": false
+  },
+  {
+    "title": "Generative and Human-Centred AI for Brewers (with Google’s PAIR Guidebook)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/brewer-generative-human-centered-ai-pair-guidebook/",
+    "summary": "The final stage of the brewer’s AI roadmap — using generative AI well and building with it responsibly, grounded in Google’s PAIR People + AI Guidebook and Microsoft Learn’s responsible-AI resources, so what you make is something a brewer would actually trust.",
+    "featured": false
+  },
+  {
+    "title": "Your First Machine-Learning Model on Brewing Data (Free Courses)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/brewer-first-machine-learning-model-free-courses/",
+    "summary": "Stage 3 of the brewer’s AI roadmap — the machine-learning concepts that matter, then building a first real model on your own brewery data, using free resources: Google’s Machine Learning Crash Course, Kaggle Learn, Elements of AI and scikit-learn.",
+    "featured": false
+  },
+  {
+    "title": "The Translator: When the Brewer Is Also the Power BI Developer",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/brewer-distiller-power-bi-fabric-developer/",
+    "summary": "What changes when one person has stood at the mash tun, the spirit safe and the crush pad — and also holds the Power BI and Microsoft Fabric certifications. Why the hybrid profile builds production dashboards that survive, and the honest limits of being one.",
+    "featured": false
+  },
+  {
+    "title": "A Brewer’s Step-by-Step Roadmap into AI (with Free Resources)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/brewer-ai-roadmap-step-by-step/",
+    "summary": "A practical, five-stage learning path for a working brewer who wants to get into AI — data literacy, spreadsheets to Power BI, Python, machine learning and generative AI — built entirely on free, open resources like Microsoft Learn, Kaggle and Google’s PAIR guidebook.",
+    "featured": false
+  },
+  {
+    "title": "Foundations First: Data Literacy and Python for Brewers (Free Resources)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/brewer-ai-foundations-data-python-free-resources/",
+    "summary": "Stages 1 and 2 of the brewer’s AI roadmap — data literacy with spreadsheets and Power BI, then Python — using only free, open resources: Microsoft Learn, Kaggle Learn and freeCodeCamp, with a real brewing project to learn against.",
+    "featured": false
+  },
+  {
+    "title": "Beyond Beer: Taking AI into Wine, Whiskey &amp; Mead — Where I’m Headed Next",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/beyond-beer-ai-wine-whiskey-mead/",
+    "summary": "After years applying AI to beer, I’m extending the same data-driven approach to wine, whiskey, and mead. What carries over, what doesn’t, and the future of AI across drinks.",
+    "featured": false
+  },
+  {
+    "title": "Avoiding Greenwashing: AI to Verify, Not Just Generate, Claims",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/avoiding-greenwashing-ai-verify/",
+    "summary": "Why ESG claims need AI verification not just AI generation — an honest look at greenwashing risk and the hallucination problem.",
+    "featured": false
+  },
+  {
+    "title": "The Beginner Brewer’s Cheat Code: Ask AI What You Should Be Asking",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ask-ai-what-to-ask-brewing/",
+    "summary": "Flip the use of AI: instead of asking for answers you can’t yet judge, ask it to generate the questions your brewing experience hasn’t taught you — a safe, powerful move for new brewers.",
+    "featured": false
+  },
+  {
+    "title": "Modeling a Maltery as a Digital Twin on Microsoft Fabric",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/anbc-maltery-digital-twin-microsoft-fabric/",
+    "summary": "After the brewery, the maltery. A live 3D digital twin of the whole malting process — intake, steeping, germination, kilning, deculming, malt storage and dispatch — built on Microsoft Fabric with the Rayfin SDK, every vessel clickable for its real process curve.",
+    "featured": false
+  },
+  {
+    "title": "AI Won’t Replace Brewers — Here’s the Part Machines Can’t Touch",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-wont-replace-brewers/",
+    "summary": "Why AI won’t replace brewers: it can suggest what to put in the beer, but judgment, taste, and craft stay human. A brewer-turned-data-scientist’s honest take.",
+    "featured": false
+  },
+  {
+    "title": "AI vs Machine Learning vs Generative AI: Which Is Which in the Distillery",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/ai-vs-machine-learning-vs-generative-ai-distillery/",
+    "summary": "A distiller’s decision guide to the three terms everyone confuses — what each is, what data it needs, how it fails, and a simple test for matching a real distillery problem to the right one instead of buying the buzzword.",
+    "featured": false
+  },
+  {
+    "title": "Can AI Write Tasting Notes for Beer, Wine &amp; Whiskey?",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/ai-tasting-notes-beer-wine-whiskey/",
+    "summary": "AI can generate convincing tasting notes for beer, wine, and whiskey — but it can’t taste, so it hallucinates flavors. Where AI tasting notes help, and where they mislead.",
+    "featured": false
+  },
+  {
+    "title": "You Don’t Have an AI Problem, You Have a Question Problem",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-question-problem-new-brewers/",
+    "summary": "Why new brewers get generic mush from AI: the missing skill isn’t prompt engineering, it’s question literacy — knowing what is knowable about your beer and your process.",
+    "featured": false
+  },
+  {
+    "title": "AI Quality Control in Brewing: Catching Off-Flavors Before Customers Do",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-quality-control-in-brewing/",
+    "summary": "How breweries use AI and machine learning for quality control — detecting off-flavors, process drift, and contamination early — plus what data you need to start.",
+    "featured": false
+  },
+  {
+    "title": "Can AI Dial In the Perfect Steep for Malting Barley?",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-optimised-steeping-malting/",
+    "summary": "How machine learning predicts steep-out moisture and germination vigour from barley lot traits — and where a steep model still needs a maltster’s judgement.",
+    "featured": false
+  },
+  {
+    "title": "AI-Optimised Kilning: Hitting Colour and Diastatic Power While Cutting Gas",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-optimised-kilning-malt/",
+    "summary": "Kilning is malting’s biggest energy cost and a hard trade-off between enzyme survival, colour and gas use. How machine learning optimises the kiln curve — and the physics it cannot cheat.",
+    "featured": false
+  },
+  {
+    "title": "AI-Generated Brand Content: Where It Helps and Where It Lies",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-generated-brand-content-risks/",
+    "summary": "An honest look at AI marketing content risks for beer brands — where AI adds real value and where hallucination, false specificity, and fake flavor authority undermine trust.",
+    "featured": false
+  },
+  {
+    "title": "AI Demand Forecasting for Breweries: Useful, Until It Isn’t",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-demand-forecasting-for-breweries/",
+    "summary": "When AI demand forecasting actually beats a spreadsheet for breweries — and the cases where it overfits, wastes money, and a simple moving average wins.",
+    "featured": false
+  },
+  {
+    "title": "AI in the Brewery Lab: What’s Real and What’s Hype",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-brewery-lab-what-is-real/",
+    "summary": "A map of where AI genuinely fits in the brewery QC lab in 2026 (soft sensors, machine vision, contamination-risk triage, and predictive calibration) and where a confident model quietly breaks. The opening of a 6-part series that walks the lab bench by bench.",
+    "featured": false
+  },
+  {
+    "title": "AI in Sensory and the QA System",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-brewery-lab-sensory-qa-system/",
+    "summary": "The final part of the brewery-lab AI series: taster notes as data via NLP, a predictive freshness index, predictive calibration from instrument drift, and deviation and out-of-spec triage. Honest about where a confident model quietly misleads.",
+    "featured": false
+  },
+  {
+    "title": "Machine Vision on the Packaging Line",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-brewery-lab-packaging-qc-vision/",
+    "summary": "Inline machine vision on the brewery packaging line: fill-level checks with SPC to catch drift, crown-seal and label-defect inspection, washed-bottle grading, and pasteurisation-unit modelling from tunnel temperatures.",
+    "featured": false
+  },
+  {
+    "title": "From Plate Counts to Risk Triage in Microbiology",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-brewery-lab-microbiology-risk-triage/",
+    "summary": "How AI earns its keep in brewery micro: contamination-risk triage that ranks sample points across propagation, packaging, water and CIP, plus vision colony counting. Honest about where it breaks.",
+    "featured": false
+  },
+  {
+    "title": "On the Malt Bench: Vision, NIR and Incoming QC",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-brewery-lab-malt-raw-materials/",
+    "summary": "How machine vision reads acrospire growth, malt colour and foreign material on the raw-materials bench, and how NIR soft sensors predict extract and moisture before the mash, with the honest caveats.",
+    "featured": false
+  },
+  {
+    "title": "Soft Sensors in the Beer-Chemistry Lab",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/ai-brewery-lab-beer-chemistry-soft-sensors/",
+    "summary": "Part 3 of the brewery-lab AI series: diacetyl and VDK forecasting from the fermentation curve, dissolved-oxygen anomaly detection at the filler, and shelf-life survival models, with the reference method still the arbiter.",
+    "featured": false
+  },
+  {
+    "title": "20 Advanced Brewing Calculations You Can Do in Excel (Formulas Included)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/advanced-brewing-calculations-excel/",
+    "summary": "Strike temperature, IBU, ABV, pitching rate, carbonation, colour, efficiency and more — 20 advanced brewing calculations as ready-to-paste Excel formulas with worked examples.",
+    "featured": false
+  },
+  {
+    "title": "Account Churn: Predicting Which Outlets Drop Your Brand",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/account-churn-prediction-beverage/",
+    "summary": "Customer churn prediction for beverage brands — a practical framework to identify at-risk accounts before they delist, and the interventions that actually reverse the trend.",
+    "featured": false
+  },
+  {
+    "title": "Working Capital: Cash Trapped in Inventory and Tanks",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/working-capital-brewing/",
+    "summary": "Working capital optimization for breweries — how to identify and release cash trapped in raw materials, WIP tanks, and finished goods inventory.",
+    "featured": false
+  },
+  {
+    "title": "White-Space Analytics: Where Non-Alcoholic Beer Should Launch First",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/white-space-analytics-na-beer/",
+    "summary": "White space analysis for beverage brands — a structured method to identify the highest-potential untapped markets and account types for NA beer expansion.",
+    "featured": false
+  },
+  {
+    "title": "Water Stewardship Analytics: Cutting Liters-per-Liter in Brewing",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/water-stewardship-analytics-brewing/",
+    "summary": "How data analytics and AI help breweries reduce water use brewing — a practical ESG guide for executives.",
+    "featured": false
+  },
+  {
+    "title": "From Volume to Value: Portfolio Strategy for Beer and Non-Alcoholic Lines",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/volume-to-value-beverage-portfolio-strategy/",
+    "summary": "A practical beverage portfolio strategy framework for breweries moving beyond volume growth into margin-led brand management — including the NA beer opportunity.",
+    "featured": false
+  },
+  {
+    "title": "Trade Promotion Optimization: The 20% of Promo Spend That’s Wasted",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/trade-promotion-optimization-breweries/",
+    "summary": "Trade promotion optimization in beer and NA beverage: how to identify wasted promotional spend, measure true lift, and reallocate investment to what actually works.",
+    "featured": false
+  },
+  {
+    "title": "Supply-Chain ESG: Tracing Barley and Hops to Source",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/supply-chain-esg-barley-hops/",
+    "summary": "How supply chain ESG traceability for barley and hops is becoming a Scope 3 imperative — and what data infrastructure it requires.",
+    "featured": false
+  },
+  {
+    "title": "Social Listening: Early Signals of the Next Flavor Trend",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/social-listening-breweries-trends/",
+    "summary": "How social listening for breweries surfaces early flavor trend signals — before they appear in scanner data or trade press.",
+    "featured": false
+  },
+  {
+    "title": "Segmenting the Sober-Curious: The Non-Alcoholic Beer Consumer in Data",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/segmenting-sober-curious-na-beer/",
+    "summary": "How to segment the non alcoholic beer consumer using behavioral and attitudinal data — a framework for brewery executives.",
+    "featured": false
+  },
+  {
+    "title": "Seasonality and Weather: Beer’s Most Predictable Swings",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/seasonality-weather-beer-demand/",
+    "summary": "How weather and seasonality drive beer demand forecasting — decomposition methods, temperature indices, and what changes for non-alcoholic beer.",
+    "featured": false
+  },
+  {
+    "title": "Scenario Planning for Barley, Energy, and Aluminum Costs",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/scenario-planning-input-costs/",
+    "summary": "Scenario planning for brewery input costs — barley, energy, aluminum — turns commodity risk into structured decisions instead of reactive surprises.",
+    "featured": false
+  },
+  {
+    "title": "Route-to-Market Analytics: Channels for Beer vs. Non-Alcoholic Beer",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/route-to-market-beer-vs-na/",
+    "summary": "Route to market for beverage brands is not one-size-fits-all: how beer and NA beer diverge in optimal channels, analytics, and distribution strategy.",
+    "featured": false
+  },
+  {
+    "title": "Revenue Growth Management: The Five Levers AI Sharpens",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/revenue-growth-management-beverage/",
+    "summary": "How revenue growth management in beer applies five commercial levers — and where AI meaningfully improves precision versus where it overpromises.",
+    "featured": false
+  },
+  {
+    "title": "Promotional Lift: Separating Real Demand from Discount Noise",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/promotional-lift-forecasting/",
+    "summary": "How to measure and forecast promotional lift in beer — separating baseline demand from discount-driven volume spikes and avoiding the forward-buy trap.",
+    "featured": false
+  },
+  {
+    "title": "Price-Pack Architecture for the Non-Alcoholic Beer Boom",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/price-pack-architecture-na-beer/",
+    "summary": "Price-pack architecture for NA beer: how to design the right formats at the right price points to capture the premium opportunity without cannibalising existing alcoholic lines.",
+    "featured": false
+  },
+  {
+    "title": "Predictive Safety Analytics: Spotting Risk Before Incidents",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/predictive-safety-analytics-brewery/",
+    "summary": "How predictive safety analytics helps breweries identify hazard patterns before an incident occurs — and where the data falls short.",
+    "featured": false
+  },
+  {
+    "title": "Predictive Maintenance as a Safety Strategy",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/predictive-maintenance-safety-strategy/",
+    "summary": "How predictive maintenance safety programmes in breweries reduce equipment-related incidents by surfacing failure risk before breakdown or injury occurs.",
+    "featured": false
+  },
+  {
+    "title": "The Perfect Store, Audited by AI at Scale",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2025/perfect-store-execution-ai/",
+    "summary": "AI-powered perfect store execution audits let beverage brands measure shelf compliance, display quality, and brand standards across hundreds of outlets simultaneously.",
+    "featured": false
+  },
+  {
+    "title": "Packaging Footprint: Glass vs. Can vs. Keg, by the Numbers",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2025/packaging-footprint-glass-can-keg/",
+    "summary": "A framework for comparing packaging carbon footprint across glass, aluminum can, and keg formats — honest data, no greenwashing.",
+    "featured": false
+  },
+  {
+    "title": "On-Premise vs. Off-Premise Intelligence: Two Games, One Portfolio",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2025/on-premise-off-premise-intelligence/",
+    "summary": "On premise off premise data requires two distinct analytical frameworks — here’s how beverage brands build intelligence for both channels without doubling their workload.",
+    "featured": false
+  },
+  {
+    "title": "Non-Alcoholic Beer as an ESG Story: Health, Moderation, and Data",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/non-alcoholic-beer-esg-story/",
+    "summary": "How non alcoholic beer health trends connect to the social pillar of ESG — and what data breweries need to make the case credibly.",
+    "featured": false
+  },
+  {
+    "title": "Marketing Mix Modeling: What Really Drives Beer Volume",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/marketing-mix-modeling-beer/",
+    "summary": "Marketing mix modeling for beer brands — a framework for understanding which spend drives volume and which is just noise.",
+    "featured": false
+  },
+  {
+    "title": "Attribution: Connecting Spend to the Tap Handle",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2025/marketing-attribution-beverage/",
+    "summary": "Marketing attribution for beverage brands — how to move beyond last-touch models and connect media spend to actual distribution and volume outcomes.",
+    "featured": false
+  },
+  {
+    "title": "Margin Bridge Analytics: Why Your Profit Moved",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/margin-bridge-analytics-beverage/",
+    "summary": "Margin bridge analysis explains profit variance for breweries — separating volume, price, mix, and cost effects across beer and NA beer SKUs.",
+    "featured": false
+  },
+  {
+    "title": "Leading vs. Lagging Safety Indicators: What Breweries Should Track",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/leading-vs-lagging-safety-indicators/",
+    "summary": "A practical guide to leading safety indicators for breweries — what to measure before incidents happen and how lagging metrics fit the picture.",
+    "featured": false
+  },
+  {
+    "title": "The Integrated Commercial Plan: Where Breweries Leak Margin Between Sales and Supply",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/integrated-commercial-plan-margin-leakage/",
+    "summary": "Discover how integrated business planning for beverage operations closes the gap between sales commitments and supply reality — and stops silent margin leakage.",
+    "featured": false
+  },
+  {
+    "title": "Hierarchical Forecasting: Reconciling SKU, Brand, and Total Volume",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2025/hierarchical-forecasting-beverage/",
+    "summary": "How hierarchical forecasting reconciles demand signals across SKU, brand, and portfolio levels — and why misalignment between levels destroys planning credibility.",
+    "featured": false
+  },
+  {
+    "title": "Forecasting With No History: The Non-Alcoholic Beer Problem",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/forecasting-new-products-na-beer/",
+    "summary": "New product forecasting for non-alcoholic beer with no sales history — analogue methods, Bayesian priors, and practical launch-stage approaches.",
+    "featured": false
+  },
+  {
+    "title": "Food Safety and Traceability from Grain to Glass",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/food-safety-traceability-grain-to-glass/",
+    "summary": "How breweries build food safety traceability from raw ingredient intake to finished product — and where digital tools genuinely help versus hype.",
+    "featured": false
+  },
+  {
+    "title": "The ESG Reporting Stack: Automating CSRD and GRI Disclosure",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/esg-reporting-automation-csrd/",
+    "summary": "How ESG reporting automation helps breweries meet CSRD and GRI requirements without drowning in manual data collection.",
+    "featured": false
+  },
+  {
+    "title": "Compliance Analytics: Never Miss an Inspection or Permit",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/ehs-compliance-analytics/",
+    "summary": "How EHS compliance management analytics helps breweries track permits, inspections, and reporting deadlines before regulators or auditors find the gaps.",
+    "featured": false
+  },
+  {
+    "title": "Driver-Based Forecasting: Beyond the Annual Budget",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/driver-based-forecasting-breweries/",
+    "summary": "Driver-based forecasting replaces static brewery budgets with dynamic models tied to real volume, mix, and cost drivers — including for NA beer.",
+    "featured": false
+  },
+  {
+    "title": "Managing Distributors with Data: From Black Box to Scorecard",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2025/distributor-management-data-scorecard/",
+    "summary": "Build a distributor scorecard that replaces anecdote-driven management with clear metrics, turning your distributor relationships into accountable partnerships.",
+    "featured": false
+  },
+  {
+    "title": "Depletion Data Decoded: From Distributor Reports to Action",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/depletion-data-analytics/",
+    "summary": "Turn raw depletion data analytics into prioritized sales decisions — a practical framework for brewery and beverage brand executives.",
+    "featured": false
+  },
+  {
+    "title": "The Beverage Demand Forecasting Maturity Model: From Spreadsheet to ML",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/demand-forecasting-maturity-model/",
+    "summary": "A practical demand forecasting maturity model for breweries and beverage brands — from spreadsheets to machine learning, with honest tradeoffs.",
+    "featured": false
+  },
+  {
+    "title": "Cost-to-Serve by Channel: Is Non-Alcoholic Beer Actually Profitable?",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/cost-to-serve-na-beer-profitability/",
+    "summary": "Cost-to-serve analysis reveals whether NA beer generates real profit by channel — on-premise, off-premise, DTC — after all delivery and trade costs.",
+    "featured": false
+  },
+  {
+    "title": "Cost of Goods per Hectoliter: The Number to Automate First",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/cost-of-goods-per-hectoliter/",
+    "summary": "How breweries can automate cost of goods per hectoliter to get accurate, real-time production economics — including for NA beer.",
+    "featured": false
+  },
+  {
+    "title": "Carbon Accounting: Scope 1, 2, and 3 for Breweries",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/carbon-accounting-breweries-scope/",
+    "summary": "A practical framework for carbon accounting brewery operations across Scope 1, 2, and 3 emissions — for sustainability leads and CFOs.",
+    "featured": false
+  },
+  {
+    "title": "Cannibalization: Does Non-Alcoholic Beer Eat Your Lager’s Sales?",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/cannibalization-na-beer-lager/",
+    "summary": "A framework for measuring cannibalization between non-alcoholic beer and conventional lager — and how to separate cannibalised volume from genuine category expansion.",
+    "featured": false
+  },
+  {
+    "title": "The Brewery Hazard Map: CO2, Confined Spaces, and Controls",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/brewery-hazard-map-co2-confined-space/",
+    "summary": "A structured brewery safety hazards map covering CO2 accumulation, confined spaces, pressurised vessels, and the controls that actually prevent harm.",
+    "featured": false
+  },
+  {
+    "title": "Brand Equity Analytics: Measuring What Your Beer Stands For",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/brand-equity-analytics-beer/",
+    "summary": "A practical framework for brand equity measurement in beer — tracking awareness, relevance, and pricing power with data.",
+    "featured": false
+  },
+  {
+    "title": "Personalization in Beverage DTC Without Creeping People Out",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2025/beverage-dtc-personalization/",
+    "summary": "How beverage DTC personalization builds loyalty and repeat revenue without triggering the surveillance-marketing backlash that alienates customers.",
+    "featured": false
+  },
+  {
+    "title": "Account Scoring: Finding Your Next 100 Outlets",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2025",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2025/account-scoring-beverage-sales/",
+    "summary": "A practical account scoring sales framework that helps brewery and beverage brands prioritize the outlets most likely to drive volume and margin.",
+    "featured": false
+  },
+  {
+    "title": "Wine Tasting Meets the Data Stack: AI, Power BI, and ERP",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2024/wine-tasting-data-stack-ai-power-bi-erp/",
+    "summary": "Tie tasting and bench-trial scores to vintage, block, lot, and barrel in ERP, analyse in Power BI, and use AI to predict and flag faults — palate still decides.",
+    "featured": false
+  },
+  {
+    "title": "Whiskey Tasting, Captured and Analysed: Power Apps, Power BI, and AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2024/whiskey-tasting-ai-power-apps-power-bi/",
+    "summary": "Capture cask-sample and vatting scores in Power Apps linked to ERP, track maturation in Power BI, and use AI to cluster casks and flag off-notes — nose still decides.",
+    "featured": false
+  },
+  {
+    "title": "Reducing Packaging Material Waste With AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2024/reducing-packaging-material-waste-ai/",
+    "summary": "Use AI and checkweigher data to cut overfill, giveaway, rejects, and changeover scrap — trimming packaging COGS and carbon without breaking the strength floor.",
+    "featured": false
+  },
+  {
+    "title": "Predictive Maintenance for Brewery Process Equipment",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2024/predictive-maintenance-process-equipment/",
+    "summary": "How AI predicts failures in brewery pumps, motors, compressors, refrigeration and heat exchangers from vibration and current data before a brew is disrupted.",
+    "featured": false
+  },
+  {
+    "title": "Predictive Maintenance for Fillers and Seamers",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2024/predictive-maintenance-filler-seamer/",
+    "summary": "Predict filler-valve and seamer-roll wear from vibration, current, and double-seam data to stop leakers and downtime on the packaging-line bottleneck.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Optimal Bottling Time and Maturity",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2024/predicting-optimal-bottling-maturity/",
+    "summary": "How AI models when a cask hits its age, flavour and ABV target so you avoid over-maturing or under-maturing — while sensory judgement stays the final call.",
+    "featured": false
+  },
+  {
+    "title": "Predicting New-Make Spirit Flavour",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2024/predicting-new-make-spirit-flavor/",
+    "summary": "How AI and data science model new-make spirit congeners from ferment, still shape and cut, so distillers steer flavour before the cask.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Microbiological Risk and Hygiene Hotspots",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2024/predicting-microbiological-hygiene-risk/",
+    "summary": "Model where spoilage risk concentrates using ATP swabs, micro results, CIP records, and HACCP control points to target cleaning and sampling where it matters.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Grape Ripeness and the Optimal Harvest Date",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2024/predicting-grape-ripeness-harvest-date/",
+    "summary": "How AI models grape ripeness from Brix, acidity, pH, phenolics, and weather to forecast the optimal harvest date — and where the winemaker’s palate still wins.",
+    "featured": false
+  },
+  {
+    "title": "Can AI Pick Distillation Cut Points (Heads, Hearts, Tails)?",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2024/predicting-distillation-cut-points-ai/",
+    "summary": "Can AI choose distillation cut points? How models use ABV, temperature, time and congener data to make heads, hearts and tails cuts more consistent.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Congener Evolution During Maturation",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2024/predicting-congener-evolution-maturation/",
+    "summary": "How AI models congener and wood-extractive evolution over years from cask type, char and microclimate, cutting how often you must sample whisky.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Chill Haze and Colloidal Stability",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2024/predicting-chill-haze-colloidal-stability/",
+    "summary": "How models predict chill haze risk and the right silica gel or PVPP dose, balancing clarity, colloidal stability, foam, and cost in beer.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Packaging Line Downtime and Lifting OEE",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2024/packaging-line-oee-downtime-prediction/",
+    "summary": "How machine learning predicts micro-stops on the filler and seamer bottleneck to pre-empt the downtime that dominates packaging line OEE losses.",
+    "featured": false
+  },
+  {
+    "title": "Minimising Total Package Oxygen (TPO) With Data",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2024/minimizing-total-package-oxygen-tpo/",
+    "summary": "Use data and ML to model total package oxygen from filler settings, hit tens-of-ppb TPO targets, and protect beer flavour and shelf life.",
+    "featured": false
+  },
+  {
+    "title": "Forecasting the Angel’s Share: Modelling Cask Evaporation Loss",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2024/forecasting-whiskey-angels-share/",
+    "summary": "How AI and data science forecast the angel’s share, the ~2%/year cask evaporation loss, to plan fill volumes and value maturing whisky stock.",
+    "featured": false
+  },
+  {
+    "title": "Digitising Beer Tasting Panels: Power Apps, Power BI, and AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2024/digitising-beer-tasting-panels-ai-power-bi/",
+    "summary": "How breweries can digitise tasting panels with a Power Apps capture app, Power BI analytics, and AI fault and drift detection — without losing the palate.",
+    "featured": false
+  },
+  {
+    "title": "Building a Digital Tasting Program: Power Platform, ERP, and Gen AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2024/digital-tasting-program-power-platform-erp-genai/",
+    "summary": "A practical sequence for beer, wine, and spirits: data model first, capture in Power Apps, anchor in ERP, analyse in Power BI, then layer AI and generative AI.",
+    "featured": false
+  },
+  {
+    "title": "Detecting Wine Faults Early: Brett, Volatile Acidity, TCA",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2024/detecting-wine-faults-brett-va-tca/",
+    "summary": "How AI flags wine faults early — Brettanomyces, volatile acidity, and TCA cork taint — from cellar conditions and rapid analysis, since most faults are easier to prevent than reverse.",
+    "featured": false
+  },
+  {
+    "title": "Controlling Dissolved Oxygen in Beer With Machine Learning",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2024/controlling-dissolved-oxygen-beer-ml/",
+    "summary": "How machine learning pinpoints dissolved oxygen pickup and predicts package TPO, so you control the biggest driver of beer staling at the source.",
+    "featured": false
+  },
+  {
+    "title": "Computer Vision for Grape Sorting and Vineyard Disease Detection",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2024/computer-vision-grape-sorting-disease/",
+    "summary": "How computer vision sorts grapes at the crush pad and spots vineyard disease from drone and phone imagery — faster and more consistent than manual, with honest limits on lighting and edge cases.",
+    "featured": false
+  },
+  {
+    "title": "Building a Brewery Data Foundation Before You Touch AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2024/building-brewery-data-foundation-ai/",
+    "summary": "Why a process historian, consistent tags, a data model and data quality are the prerequisites for brewery AI — and why most projects fail on plumbing, not algorithms.",
+    "featured": false
+  },
+  {
+    "title": "AI for Wine Fermentation Control (and Stuck Ferments)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2024/ai-wine-fermentation-control/",
+    "summary": "How AI models wine fermentation kinetics and stuck-ferment risk from YAN, sugar, and temperature — to guide nutrient and temperature decisions for whites and reds, and manage MLF.",
+    "featured": false
+  },
+  {
+    "title": "AI for Wine Blending Optimisation",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2024/ai-wine-blending-optimization/",
+    "summary": "How AI treats wine blending as constrained optimisation — matching lots, varieties, and barrels to a target style at best use of premium parcels — while the winemaker’s palate stays the arbiter.",
+    "featured": false
+  },
+  {
+    "title": "AI for Whisky Blending and Vatting Consistency",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2024/ai-whiskey-blending-consistency/",
+    "summary": "How AI optimises blend recipes — cask proportions, ages and wood types — to hit a consistent house profile batch after batch at the lowest cost of premium stock.",
+    "featured": false
+  },
+  {
+    "title": "AI Vision for Fill-Level and Label Inspection",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2024/ai-vision-fill-level-label-inspection/",
+    "summary": "How machine vision inspects fill height, label skew, and date-code legibility at line speed, rejecting beer defects more consistently than human spot checks.",
+    "featured": false
+  },
+  {
+    "title": "AI for Vineyard Yield Forecasting",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2024/ai-vineyard-yield-forecasting/",
+    "summary": "How AI forecasts vineyard yield from bunch counts, berry weight, NDVI remote sensing, and weather — to plan tanks, barrels, and sales — and why vintage weather still breaks the model.",
+    "featured": false
+  },
+  {
+    "title": "AI-Assisted Sensory Panels and Taster Calibration",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2024/ai-sensory-panel-taster-calibration/",
+    "summary": "How data science screens and calibrates beer tasting panellists for sensitivity, drift, and bias, and where AI supports but never replaces the panel.",
+    "featured": false
+  },
+  {
+    "title": "Optimising Rackhouse Microclimate With AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2024/ai-rackhouse-microclimate-optimization/",
+    "summary": "How AI and warehouse sensors map rackhouse microclimate to reduce cask-to-cask variation in extraction and angel’s share, and guide smarter cask placement.",
+    "featured": false
+  },
+  {
+    "title": "Cutting Process Water and Effluent Load With AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2024/ai-process-water-effluent-reduction/",
+    "summary": "How AI models brewery water use and effluent strength (BOD/COD) to cut water-to-beer ratio and trade-effluent charges through reuse and CIP tuning.",
+    "featured": false
+  },
+  {
+    "title": "AI-Optimised CIP: Cleaning With Less Water, Chemical, and Time",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2024/ai-optimized-cip-cleaning-cycles/",
+    "summary": "Optimise CIP using the TACT levers and conductivity and turbidity feedback to stop over-cleaning — saving water, caustic, and time without risking spoilage.",
+    "featured": false
+  },
+  {
+    "title": "AI + NIR Spectroscopy for Rapid Brewery QC",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2024/ai-nir-spectroscopy-rapid-qc/",
+    "summary": "How NIR/FTIR spectroscopy plus chemometrics predicts alcohol, extract, pH, bitterness and colour in seconds for fast in-process brewery quality control.",
+    "featured": false
+  },
+  {
+    "title": "AI for Gin Botanical Extraction and Recipe Consistency",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2024/ai-gin-botanical-extraction/",
+    "summary": "How AI models maceration, vapour infusion and the cut, and compensates for botanical lot variability to keep a gin recipe consistent batch after batch.",
+    "featured": false
+  },
+  {
+    "title": "AI for Distillery Energy and Spirit Yield",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2024/ai-distillery-energy-yield/",
+    "summary": "How AI optimises spirit yield — litres of pure alcohol per tonne — and cuts energy across fermentation, distillation and the cut, with honest limits on the yield-flavour trade-off.",
+    "featured": false
+  },
+  {
+    "title": "AI for Cask Selection and Maturing-Stock Inventory",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2024/ai-cask-selection-inventory/",
+    "summary": "How AI forecasts which casks hit a flavour and age target and when, to optimise tied-up maturing-stock capital and pick casks for whisky releases.",
+    "featured": false
+  },
+  {
+    "title": "AI for Brewery Energy and Utilities (Steam, Refrigeration, CO2)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2024",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2024/ai-brewery-energy-utilities-optimization/",
+    "summary": "How AI optimises brewery energy — steam, refrigeration, compressed air and CO2 recovery — by forecasting demand, shifting load and spotting drift.",
+    "featured": false
+  },
+  {
+    "title": "A Wine Tasting-Score and Blending Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2023/tableau-wine-tasting-blending-dashboard/",
+    "summary": "Build a Tableau blending dashboard with bench-trial scores by lot, attribute radar charts and what-if candidate blends via parameter actions.",
+    "featured": false
+  },
+  {
+    "title": "A Wine Fermentation Monitoring Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2023/tableau-wine-fermentation-dashboard/",
+    "summary": "Build a Tableau fermentation dashboard tracking per-tank Brix and temperature curves, stuck-ferment flags and YAN, with Explain Data diagnostics.",
+    "featured": false
+  },
+  {
+    "title": "A Wine DTC and Varietal Sales Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2023/tableau-wine-dtc-varietal-sales-dashboard/",
+    "summary": "Build a Tableau wine sales dashboard comparing DTC and distribution, sales by varietal, region and vintage, with club retention and a market map.",
+    "featured": false
+  },
+  {
+    "title": "A Cellar and Barrel-Ageing Inventory Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-wine-cellar-barrel-ageing-dashboard/",
+    "summary": "Build a Tableau cellar dashboard tracking barrels by type and age via LOD, top-up and evaporation, SO2 status and an ageing timeline with Pulse alerts.",
+    "featured": false
+  },
+  {
+    "title": "A Rackhouse Microclimate Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2023/tableau-whisky-rackhouse-microclimate-dashboard/",
+    "summary": "Build a Tableau rackhouse microclimate dashboard mapping warehouse temperature and humidity by position to maturation loss, with AI outlier explanations.",
+    "featured": false
+  },
+  {
+    "title": "A Maturing-Stock Inventory and Valuation Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2023/tableau-whisky-maturing-stock-valuation-dashboard/",
+    "summary": "Build a Tableau maturing-stock dashboard valuing whisky inventory by age, cask and strength, tracking tied-up capital and casks reaching age targets.",
+    "featured": false
+  },
+  {
+    "title": "A Cask Maturation and Angel’s-Share Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2023/tableau-whisky-cask-maturation-dashboard/",
+    "summary": "Build a Tableau cask maturation dashboard tracking age, strength and angel’s-share evaporation loss, with projected ready dates and AI-driven monitoring.",
+    "featured": false
+  },
+  {
+    "title": "A Whisky Blending and Sensory Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2023/tableau-whisky-blending-sensory-dashboard/",
+    "summary": "Build a Tableau blending dashboard combining cask sensory and GC profiles, candidate-vatting what-if analysis and consistency checks against house style.",
+    "featured": false
+  },
+  {
+    "title": "A Vineyard Yield and Harvest Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2023/tableau-vineyard-yield-harvest-dashboard/",
+    "summary": "Build a Tableau vineyard dashboard mapping blocks, tracking Brix and acidity ripeness curves, and sequencing harvest with Pulse digests.",
+    "featured": false
+  },
+  {
+    "title": "A Taproom Sales and Footfall Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-taproom-sales-footfall-dashboard/",
+    "summary": "Build a taproom sales and footfall dashboard in Tableau — day-part heatmaps, weather-driven what-if and basket mix — with honest notes on small-sample noise.",
+    "featured": false
+  },
+  {
+    "title": "A Sensory-Panel Results Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-sensory-panel-dashboard/",
+    "summary": "Build a sensory-panel dashboard in Tableau: attribute scores, panellist agreement and variance, trueness-to-type radar charts and Pulse drift digests.",
+    "featured": false
+  },
+  {
+    "title": "Quality-Control Charts for Brewing in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/tableau-qc-control-charts-brewing/",
+    "summary": "Build statistical process control charts for brewing QC in Tableau using reference bands, control limits and Explain Data for out-of-control points.",
+    "featured": false
+  },
+  {
+    "title": "Promotion-Lift Analysis in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-promotion-lift-analysis/",
+    "summary": "Build promotion-lift analysis in Tableau using table calculations to compare baseline versus actual volume, measure incremental margin and test promo periods.",
+    "featured": false
+  },
+  {
+    "title": "A Procurement and Commodity-Price Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/tableau-procurement-commodity-price-dashboard/",
+    "summary": "Build a procurement and commodity-price dashboard in Tableau to track malt, hop and energy prices, contract coverage versus spot, and price exposure scenarios.",
+    "featured": false
+  },
+  {
+    "title": "Visualising Packaging-Line OEE in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-packaging-line-oee-dashboard/",
+    "summary": "Build a packaging-line OEE dashboard in Tableau with Availability, Performance and Quality as calculated fields, a downtime Pareto and line filters.",
+    "featured": false
+  },
+  {
+    "title": "A New-Product Launch Tracker in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-new-product-launch-tracker/",
+    "summary": "Build a new-product launch tracker in Tableau using LOD calcs, table calculations and Pulse to follow trial, repeat and rate-of-sale per door.",
+    "featured": false
+  },
+  {
+    "title": "An Inventory and Stock-Age Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-inventory-stock-age-dashboard/",
+    "summary": "Build an inventory and stock-age dashboard in Tableau using LOD calculations, days-of-cover and FIFO risk flags to spot ageing beverage stock early.",
+    "featured": false
+  },
+  {
+    "title": "Mapping Beer Sales by Market in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/tableau-geospatial-sales-maps/",
+    "summary": "Map beer sales by market in Tableau using geographic roles, custom geocoding, filled and density maps — with honest limits on geocoding gaps and population bias.",
+    "featured": false
+  },
+  {
+    "title": "A Live Fermentation-Monitoring Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/tableau-fermentation-monitoring-dashboard/",
+    "summary": "Build a live fermentation-monitoring dashboard in Tableau with gravity, temperature and CO2 curves per tank, target bands and a TabPy ML forecast.",
+    "featured": false
+  },
+  {
+    "title": "An Executive KPI Scorecard for a Brewery in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/tableau-executive-kpi-scorecard/",
+    "summary": "Build a one-page executive scorecard in Tableau with BANs, sparklines and RAG status across volume, margin, yield, OEE, safety and ESG, delivered weekly by Pulse.",
+    "featured": false
+  },
+  {
+    "title": "An ESG Sustainability Dashboard in Tableau (Water, Energy, Carbon per hl)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/tableau-esg-sustainability-dashboard/",
+    "summary": "Build an ESG dashboard in Tableau tracking water-to-beer ratio, energy per hl and carbon by scope against targets, with Pulse digests and honest data caveats.",
+    "featured": false
+  },
+  {
+    "title": "An EHS Safety-Incident Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-ehs-safety-dashboard/",
+    "summary": "Build an EHS safety dashboard in Tableau with TRIR-style rates, leading vs lagging indicators, a hotspot heatmap and Pulse alerts, plus the under-reporting caveat.",
+    "featured": false
+  },
+  {
+    "title": "Building a Distributor Scorecard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-distributor-scorecard/",
+    "summary": "Build a weighted distributor scorecard in Tableau with calculated fields, rank, highlight actions and Explain Data — and avoid the gaming traps.",
+    "featured": false
+  },
+  {
+    "title": "A Distillery Production and Spirit-Yield Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2023/tableau-distillery-production-yield-dashboard/",
+    "summary": "Build a Tableau distillery dashboard tracking litres of pure alcohol per tonne, yield by run, cut performance and energy per LPA, with AI monitoring.",
+    "featured": false
+  },
+  {
+    "title": "A Depletions and Sell-Through Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-depletions-sell-through-dashboard/",
+    "summary": "Build a depletions and sell-through dashboard in Tableau using LOD expressions, YoY table calcs and Pulse to spot accounts slowing down.",
+    "featured": false
+  },
+  {
+    "title": "Demand Forecasting and What-If Analysis in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-demand-forecast-what-if/",
+    "summary": "Build a demand forecast and what-if dashboard in Tableau using built-in forecasting, parameters and TabPy — and know where the basic model stops.",
+    "featured": false
+  },
+  {
+    "title": "A COGS-per-Hectolitre Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-cogs-per-hectolitre-dashboard/",
+    "summary": "Build a COGS-per-hectolitre dashboard in Tableau with calculated fields, a cost-driver waterfall and price parameters to see where beverage margin really goes.",
+    "featured": false
+  },
+  {
+    "title": "Building a Brewery Production and Yield Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/tableau-brewery-production-yield-dashboard/",
+    "summary": "How to build a brewery production and yield dashboard in Tableau using LOD expressions, brewhouse yield trends and Tableau Pulse digests.",
+    "featured": false
+  },
+  {
+    "title": "A Brand and Marketing Performance Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-brand-marketing-dashboard/",
+    "summary": "Blend ad spend, sales and social in Tableau to build a brand and marketing dashboard with channel ROI, funnel views and an honest take on attribution.",
+    "featured": false
+  },
+  {
+    "title": "An Account-Churn Dashboard in Tableau",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/tableau-account-churn-dashboard/",
+    "summary": "Build an account-churn dashboard in Tableau with RFM recency and frequency measures, at-risk flags, and an ML churn score fed from TabPy for beverage sales.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Yeast Viability, Vitality, and Pitching Rate",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/predicting-yeast-viability-vitality/",
+    "summary": "How to model yeast viability and vitality from lab and process data to recommend the right pitching rate and decide when to re-propagate.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Wort Fermentability From the Sugar Spectrum",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/predicting-wort-fermentability/",
+    "summary": "Predict apparent attenuation limit from mash schedule and malt, then dial the sugar spectrum to target dryness versus body before fermentation begins.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Stuck Fermentation Before It Happens",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/predicting-stuck-fermentation-risk/",
+    "summary": "How machine learning predicts stuck fermentation risk from pitching rate, viability, wort oxygen and the early gravity curve — in time to act.",
+    "featured": false
+  },
+  {
+    "title": "Can AI Predict Mash Efficiency and Extract Yield?",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/predicting-mash-efficiency-extract-yield/",
+    "summary": "A model can predict mash efficiency and kettle extract from crush, mash thickness, temperature profile, sparge and malt analysis — flagging low-yield brews early.",
+    "featured": false
+  },
+  {
+    "title": "Can AI Predict Malt Quality From Barley Analysis?",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/predicting-malt-quality-from-barley/",
+    "summary": "Machine learning can predict malt quality from barley analysis with useful accuracy, but process variation sets a hard ceiling. Here is what works.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Malt Extract and Diastatic Power Before You Brew",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/predicting-malt-extract-diastatic-power/",
+    "summary": "Predict hot-water extract and diastatic power from routine malt analysis so brewers adjust grist and mash before a brew, not after a yield miss.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Lauter and Wort Separation Performance",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/predicting-lauter-wort-separation/",
+    "summary": "Predict run-off time and stuck-mash risk, then tune crush, rake depth, and flow from grist and mash data to protect brewhouse turns and extract.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Hop Bitterness (IBU) With Machine Learning",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/predicting-hop-bitterness-ibu/",
+    "summary": "Machine learning predicts IBU and hop utilisation from lot alpha-acid assay and boil conditions, compensating for hop lot drift across crop years.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Beer Flavour Stability and Staling",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/predicting-beer-flavor-stability-staling/",
+    "summary": "Model beer shelf life and staling from oxygen pickup, storage temperature and forced-ageing data to set realistic best-before dates and oxygen targets.",
+    "featured": false
+  },
+  {
+    "title": "Forecasting Ester and Higher-Alcohol Formation in Fermentation",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/forecasting-ester-higher-alcohol-formation/",
+    "summary": "Model how temperature, pitching rate, wort oxygen, gravity and FAN shape esters and fusel alcohols, so you tune fermentation to a flavour target.",
+    "featured": false
+  },
+  {
+    "title": "Detecting Wild Yeast and Bacterial Contamination Early With ML",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/detecting-beer-contamination-early-ml/",
+    "summary": "Combine fermentation-signal ML with rapid micro methods like PCR and ATP-bioluminescence to flag Lacto, Pedio and wild-yeast contamination before it spoils a batch.",
+    "featured": false
+  },
+  {
+    "title": "Computer Vision for Grain Intake and Malt QC",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/computer-vision-grain-malt-qc/",
+    "summary": "How computer vision grades kernel size, spots damaged or foreign grains and reads colour at intake — faster and more consistently than manual sieving.",
+    "featured": false
+  },
+  {
+    "title": "CO2 Evolution as a Real-Time Fermentation Signal",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/co2-evolution-fermentation-monitoring/",
+    "summary": "Inline CO2 and density sensors turn fermentation into a continuous signal, replacing twice-daily gravity samples and feeding models that forecast the curve.",
+    "featured": false
+  },
+  {
+    "title": "Brewhouse Yield: Using Analytics to Find Where Extract Disappears",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/brewhouse-yield-loss-analytics/",
+    "summary": "Use mass-balance accounting and analytics to attribute the gap between theoretical and actual extract across milling, lauter, trub, transfer, and evaporation.",
+    "featured": false
+  },
+  {
+    "title": "Data-Driven Yeast Generation Management and Cropping",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/ai-yeast-generation-management/",
+    "summary": "Track yeast performance across serial generations to decide when to re-propagate and how to crop, balancing cost against drift in attenuation and flavour.",
+    "featured": false
+  },
+  {
+    "title": "AI for Hot Break, Cold Break, and Wort Clarity",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/ai-wort-clarity-hot-cold-break/",
+    "summary": "Model how boil, whirlpool, and cooling conditions drive hot and cold break, wort clarity, colloidal stability, and fermentation health using turbidity data.",
+    "featured": false
+  },
+  {
+    "title": "Cutting Wort Boiling Energy With AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/ai-wort-boiling-energy-optimization/",
+    "summary": "Use AI and data to optimise boil vigour, time, and evaporation — cutting the brewhouse’s biggest energy load while still stripping DMS and hitting hop utilisation.",
+    "featured": false
+  },
+  {
+    "title": "AI-Optimised Mash Temperature Profiles",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/ai-mash-temperature-profile-optimization/",
+    "summary": "How AI optimises saccharification rest temperatures and times to hit a target fermentability and body consistently across varying malt lots.",
+    "featured": false
+  },
+  {
+    "title": "AI for Hop Aroma Profiling and Smart Substitution",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/ai-hop-aroma-profiling-substitution/",
+    "summary": "AI clusters hop lots by GC oil chemistry to rank substitutes by aroma, de-risk inventory, and warn when no near neighbour exists for a short variety.",
+    "featured": false
+  },
+  {
+    "title": "AI for Filtration and Centrifugation Optimisation",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/ai-filtration-centrifugation-optimization/",
+    "summary": "Optimise centrifuge flow and filter dosing to balance clarity against yield loss, oxygen pickup and filter-aid cost — and predict filter run length.",
+    "featured": false
+  },
+  {
+    "title": "AI for Fermentation Temperature and Cooling Control",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/ai-fermentation-temperature-control/",
+    "summary": "Predictive control tracks a target fermentation temperature curve and pre-empts the exothermic peak, protecting flavour and saving cooling energy.",
+    "featured": false
+  },
+  {
+    "title": "Using AI to Time the Diacetyl Rest",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2023/ai-diacetyl-rest-timing/",
+    "summary": "Predict when to start and end the diacetyl rest to drive VDKs below 0.10 mg/L without wasting tank time, using gravity, temperature and yeast state.",
+    "featured": false
+  },
+  {
+    "title": "Optimising Brewing Water Chemistry With AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/ai-brewing-water-chemistry-optimization/",
+    "summary": "AI as a salt and acid dosing adviser can hit target mash pH and sulphate-to-chloride balance across drifting source water and many recipes.",
+    "featured": false
+  },
+  {
+    "title": "AI for Barley Variety Selection: Spotting Malting Winners Earlier",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/ai-barley-variety-selection-malting/",
+    "summary": "AI can prioritise which barley lines deserve costly malting trials, shortening a decade-long programme — if you respect genotype-by-environment limits.",
+    "featured": false
+  },
+  {
+    "title": "Using AI to Optimise Adjunct and Cereal Costs",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2023",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2023/ai-adjunct-cereal-cost-optimization/",
+    "summary": "How AI optimises the brewing grist bill across malt, adjuncts and syrups against cost, target extract and FAN constraints as commodity prices move.",
+    "featured": false
+  },
+  {
+    "title": "A Virtual Beer Sommelier: Recommendation Chatbots",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2022/virtual-beer-sommelier-chatbot/",
+    "summary": "How an LLM beer-sommelier chatbot asks preferences and recommends beers in natural language, and why it must be grounded in your real catalogue.",
+    "featured": false
+  },
+  {
+    "title": "AI for Taproom Footfall and Staffing Forecasts",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2022/taproom-footfall-staffing-forecasts/",
+    "summary": "How AI forecasts taproom footfall from weather, day and events to plan staffing, stock and food prep, and why spiky events and small samples limit it.",
+    "featured": false
+  },
+  {
+    "title": "Scaling a Homebrew Recipe to Production With AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2022/scaling-homebrew-recipe-to-production/",
+    "summary": "Predict how hop utilisation, evaporation, mash efficiency and fermentation shift when a recipe jumps from homebrew to a bigger system — so the beer survives.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Carbonation and Dispense Consistency",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2022/predicting-carbonation-dispense-consistency/",
+    "summary": "How AI models CO2 volumes and dispense quality from inline CO2, line temperature and pressure to cut fobbing, and where the model loses sight of the bar.",
+    "featured": false
+  },
+  {
+    "title": "Planning for CO2 Shortages With Predictive Models",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2022/planning-co2-shortages-predictive/",
+    "summary": "Forecast CO2 demand against fermentation recovery and supply to size buffers and recovery investment — a lesson sharpened by the 2022 supply crunch.",
+    "featured": false
+  },
+  {
+    "title": "Knowledge Search Over Brewery SOPs With Gen AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2022/gen-ai-search-brewery-sops/",
+    "summary": "How retrieval-augmented LLMs let brewery staff ask plain-language questions over SOPs, batch records, and manuals with cited answers — and what to watch.",
+    "featured": false
+  },
+  {
+    "title": "Cellar Inventory and FIFO Optimisation With AI",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2022/cellar-inventory-fifo-optimisation/",
+    "summary": "How shelf-life-aware FIFO and allocation across brewery tanks and finished stock cut waste while holding fill rate, and where the approach breaks down.",
+    "featured": false
+  },
+  {
+    "title": "Beer Authentication and Counterfeit Detection With ML",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2022/beer-authentication-counterfeit-ml/",
+    "summary": "ML on spectral and chemical fingerprints or packaging images can flag counterfeit premium beer — backed by reference libraries and chain-of-custody data.",
+    "featured": false
+  },
+  {
+    "title": "AI for Brewery Workforce and Shift Scheduling",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2022/ai-brewery-workforce-shift-scheduling/",
+    "summary": "How optimisation matches brewery labour to the production plan under skills, availability, and labour rules — and why people aren’t widgets.",
+    "featured": false
+  },
+  {
+    "title": "AI for Beer Naming and Trademark Screening",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2022/ai-beer-naming-trademark-screening/",
+    "summary": "Why LLMs make generating beer names easy but the real value is screening candidates against trademark databases to avoid costly brand conflicts.",
+    "featured": false
+  },
+  {
+    "title": "AI for Beer Logo and Brand Recognition",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2022/ai-beer-logo-brand-recognition/",
+    "summary": "How computer vision detects beer logos and labels in photos, shelves, and social images for brand monitoring, share-of-shelf, and sponsorship measurement.",
+    "featured": false
+  },
+  {
+    "title": "AI for Beer-and-Food Pairing",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2022",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2022/ai-beer-food-pairing/",
+    "summary": "How AI pairing models and knowledge graphs combine flavour intensity and contrast to suggest beer-and-food matches for menus, taprooms, and apps.",
+    "featured": false
+  },
+  {
+    "title": "Why Beer Is a Surprisingly Good Fit for Machine Learning",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2021/why-beer-fits-machine-learning/",
+    "summary": "Brewing is a repeatable batch process with measurable inputs and clear targets — exactly the structure machine learning exploits. Here’s why, and where it breaks.",
+    "featured": false
+  },
+  {
+    "title": "Route Optimisation for Beer Distribution",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2021/route-optimisation-beer-distribution/",
+    "summary": "How vehicle-routing optimisation cuts miles, cost and emissions on beer deliveries under time windows and capacity, and where real-world chaos limits it.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Beer Foam and Head Retention",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2021/predicting-beer-foam-head-retention/",
+    "summary": "How AI models beer foam and head retention from foam-positive polypeptides, iso-alpha-acids and lipids, where it helps QC, and where it breaks.",
+    "featured": false
+  },
+  {
+    "title": "Predicting Beer Colour (EBC/SRM) From a Recipe",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2021/predicting-beer-colour-recipe/",
+    "summary": "How AI predicts finished beer colour in EBC/SRM from malt colours and grist proportions, where it beats Morey’s equation, and where it breaks.",
+    "featured": false
+  },
+  {
+    "title": "Reading the Room: NLP on Beer Reviews and Ratings",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2021/nlp-beer-reviews-ratings/",
+    "summary": "How NLP on beer reviews and ratings extracts themes, sentiment, and flavour descriptors to track perception and catch product issues early.",
+    "featured": false
+  },
+  {
+    "title": "Forecasting Malt and Hop Prices for Smarter Procurement",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2021/forecasting-malt-hop-prices-procurement/",
+    "summary": "How forecasting malt and hop prices guides procurement timing and contract sizing for breweries, and why hedging manages the residual risk forecasts can’t remove.",
+    "featured": false
+  },
+  {
+    "title": "Electronic Nose and Tongue: AI for Off-Flavour Detection",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2021/electronic-nose-tongue-off-flavour/",
+    "summary": "How electronic nose and tongue sensor arrays plus machine learning screen beer off-flavours fast, where they help QC, and why the panel still rules.",
+    "featured": false
+  },
+  {
+    "title": "Classifying Beer Styles With Machine Learning",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2021/classifying-beer-styles-ml/",
+    "summary": "How machine learning classifies beer styles from OG, FG, ABV, IBU and colour, where it helps QC and competition sorting, and where styles blur.",
+    "featured": false
+  },
+  {
+    "title": "Beer Recommendation Engines: How AI Suggests Your Next Pint",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2021/beer-recommendation-engines/",
+    "summary": "How AI beer recommendation engines use collaborative and content-based filtering to suggest your next pint, plus the cold-start limits to watch.",
+    "featured": false
+  },
+  {
+    "title": "Anomaly Detection on Brewery Sensor Data",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2021/anomaly-detection-brewery-sensors/",
+    "summary": "How anomaly detection learns the normal envelope of brewery sensor data to flag drift, leaks, and faults earlier than fixed thresholds.",
+    "featured": false
+  },
+  {
+    "title": "AI for Keg Fleet Tracking and Optimisation",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2021/ai-keg-fleet-tracking/",
+    "summary": "How IoT data and machine learning track keg location and dwell time, right-size your float, and cut lost-keg cost and over-purchasing.",
+    "featured": false
+  },
+  {
+    "title": "AI for Draught Line Cleaning and Pour Quality",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2021/ai-draught-line-cleaning-pour-quality/",
+    "summary": "Use flow meters, pour counts and line temperature to predict optimal cleaning intervals and flag pour-quality issues — without compromising hygiene.",
+    "featured": false
+  },
+  {
+    "title": "AI for Brewery Production Scheduling",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2021",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2021/ai-brewery-production-scheduling/",
+    "summary": "How optimisation and forecasting plan the brew, ferment, and package schedule across finite tanks, maturation times, and line slots to hit due dates.",
+    "featured": false
+  },
+  {
+    "title": "The Waterfall Chart in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/waterfall-chart-beer-use-cases/",
+    "summary": "A waterfall chart shows how you got from one number to another — the steps that build or erode a total. Three beer use cases (margin bridge, volume bridge, budget variance) and the rule that keeps the bridge honest.",
+    "featured": false
+  },
+  {
+    "title": "The Treemap in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/treemap-chart-beer-use-cases/",
+    "summary": "When composition has many parts and a hierarchy, a treemap shows the whole portfolio in one rectangle sized by value. Three beer use cases (SKU portfolio, sales by region then account, ingredient spend) and where it beats a pie or a long bar chart.",
+    "featured": false
+  },
+  {
+    "title": "The Stacked Bar Chart in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/stacked-bar-chart-beer-use-cases/",
+    "summary": "When the question is composition — what makes up the total — the stacked bar chart shows the parts and the whole at once. Three beer use cases (channel mix, cost-per-hectolitre build-up, volume by style over time) and the 100% variant.",
+    "featured": false
+  },
+  {
+    "title": "The Scatter Plot in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/scatter-plot-beer-use-cases/",
+    "summary": "When the question is ‘are these two things related,’ the scatter plot is the answer — each point a batch, account or beer. Three beer use cases (process correlations, account value vs effort, recipe trade-offs) and the correlation-isn’t-causation rule.",
+    "featured": false
+  },
+  {
+    "title": "The Pie and Donut Chart in Brewing: Use It Sparingly (Three Cases)",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/pie-donut-chart-beer-use-cases/",
+    "summary": "The pie chart is overused and often the wrong choice — but it has a few honest beer use cases. Where a pie or donut genuinely works, where a bar chart beats it, and the one rule that keeps it readable.",
+    "featured": false
+  },
+  {
+    "title": "The Line Chart in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/line-chart-beer-use-cases/",
+    "summary": "For anything that changes over time, the line chart is the default and usually the right one. Three beer use cases (fermentation curves, sales trends and seasonality, KPI vs target over time) and the rules that keep it readable.",
+    "featured": false
+  },
+  {
+    "title": "The Histogram in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/histogram-beer-use-cases/",
+    "summary": "Averages hide the story; a histogram shows the whole distribution — the spread, the shape, the second peak. Three beer use cases (fill-volume distribution, ABV consistency, sensory score spread) and the bin-width trap.",
+    "featured": false
+  },
+  {
+    "title": "The Heat Map in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/heat-map-beer-use-cases/",
+    "summary": "When two categories meet — hour by day, style by month, account by SKU — a heat map shows intensity as colour, so patterns jump out of a grid. Three beer use cases and the colour-scale rules that keep it honest.",
+    "featured": false
+  },
+  {
+    "title": "The Grouped Bar Chart in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/grouped-bar-chart-beer-use-cases/",
+    "summary": "When you need to compare several series side by side — this year vs last, plan vs actual, style across regions — the grouped (clustered) bar chart is the tool. Three beer use cases and when to switch to a different chart.",
+    "featured": false
+  },
+  {
+    "title": "The Geographic Map in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/geographic-map-beer-use-cases/",
+    "summary": "When location is the variable, a map beats any table — choropleths, dot maps and catchment views put beer sales on the ground. Three beer use cases (territory performance, distribution coverage, taproom catchment) and the map traps to avoid.",
+    "featured": false
+  },
+  {
+    "title": "The Gauge and KPI Card in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/gauge-kpi-card-beer-use-cases/",
+    "summary": "The gauge and the KPI card answer one question fast: are we hitting target right now? Three beer use cases (production vs plan, OEE, on-time-in-full) and why a single number needs context to mean anything.",
+    "featured": false
+  },
+  {
+    "title": "The Gantt Chart in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/gantt-chart-beer-use-cases/",
+    "summary": "A Gantt chart lays tasks against time as bars — perfect for schedules and overlaps. Three beer use cases (the brew schedule, tank and vessel occupancy, NPD project timeline) and where a calendar or a different view serves better.",
+    "featured": false
+  },
+  {
+    "title": "The Funnel Chart in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/funnel-chart-beer-use-cases/",
+    "summary": "A funnel chart shows how many survive each stage of a process — and where the biggest drop-off is. Three beer use cases (sales pipeline, NPD stage-gate, trade-promotion conversion) and when a funnel flatters more than it informs.",
+    "featured": false
+  },
+  {
+    "title": "The Combo (Line + Bar) Chart in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/combo-line-bar-chart-beer-use-cases/",
+    "summary": "Two metrics on two axes — volume as bars, margin as a line — the combo chart shows a quantity and a rate together. Three beer use cases and the dual-axis trap that makes this chart easy to misuse.",
+    "featured": false
+  },
+  {
+    "title": "The Bubble Chart in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/bubble-chart-beer-use-cases/",
+    "summary": "A scatter plot with a third variable encoded as bubble size — show volume, value and growth together. Three beer use cases (portfolio maps, account prioritisation, market opportunity) and why size can mislead.",
+    "featured": false
+  },
+  {
+    "title": "The Box Plot in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/box-plot-beer-use-cases/",
+    "summary": "When you need to compare the spread and outliers of many groups at once, the box plot is unbeatable. Three beer use cases (consistency by brand, yield by shift, sensory spread by taster) and how to read the box.",
+    "featured": false
+  },
+  {
+    "title": "The Bar Chart in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/bar-chart-beer-use-cases/",
+    "summary": "The bar chart is the workhorse of brewery analytics — and the right default more often than any other chart. Three concrete beer use cases (style volumes, account ranking, brewhouse loss by stage) and the rules that keep it honest.",
+    "featured": false
+  },
+  {
+    "title": "The Area and Stacked Area Chart in Brewing: Three Beer Use Cases",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2020",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2020/area-chart-beer-use-cases/",
+    "summary": "An area chart is a line chart with the space below filled — good for cumulative totals and, stacked, for how a composition shifts over time. Three beer use cases and when a line or stacked bar is the better call.",
+    "featured": false
+  }
+]

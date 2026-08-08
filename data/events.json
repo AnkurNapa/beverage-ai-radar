@@ -170,5 +170,20 @@
       "Xiao-Li Meng"
     ],
     "summary": "The clearest wine-meets-data-science programme running, held on the 50th anniversary of the Judgment of Paris. Named AI sessions include Tomorrow's Grapevines: AI-Powered Genomics and Breeding, Current State and Moonshots: AI from Vineyard to End Consumer, Data Science Tools for the Future of Wine, and a conversation on AI and Wine: Excitements and Cautionary Tales."
+  },
+  {
+    "title": "AI and Beer, Bengaluru",
+    "url": "https://www.linkedin.com/in/ankur-napa/",
+    "organiser": "drinktec (as advised by the speaker)",
+    "location": "Bengaluru, India",
+    "country": "India",
+    "mode": "in-person",
+    "start": "2026-08-12",
+    "vertical": "beer",
+    "speaking": true,
+    "speakers": [
+      "Ankur Napa"
+    ],
+    "summary": "In-person session on AI and beer in Bengaluru, with Ankur Napa speaking. PROVENANCE: details are as advised by the speaker and no public event page has been located yet, so the link points to his profile rather than to a registration page. Note that the drinktec India trade fair itself runs 28 to 30 October 2026 at the Bombay Exhibition Centre in Mumbai, per the organiser's own site, so this is a separate Bengaluru session rather than the main fair. To be replaced with the event page when one exists."
   }
 ]
