@@ -9936,13 +9936,15 @@
     "key_people": "",
     "people": [],
     "notable_customers_partners": null,
-    "short_description": "Process solutions company for bio-energy, high-purity water and brewery plants, with a brewery division running since 1994, over 70 percent market share in India and installations across Africa and Southeast Asia. In 2025 Praj opened an Advanced Precision Fermentation Lab at its Praj Matrix R&D centre in Pune with a research partnership with BRIC-NCCS, designed to support high-capacity AI-enabled fermentation processes across food, pharma, biofuels and beverages, aimed at reducing scale-up risk and improving process reliability. The AI claim attaches to the fermentation R&D facility, not to the brewery plant product line.",
+    "short_description": "Process solutions company for bio-energy, high-purity water and brewery plants, with a brewery division running since 1994, over 70 percent market share in India and installations across Africa and Southeast Asia. In 2025 Praj opened an Advanced Precision Fermentation Lab at its Praj Matrix R&D centre in Pune with a research partnership with BRIC-NCCS, designed to support high-capacity AI-enabled fermentation processes across food, pharma, biofuels and beverages, aimed at reducing scale-up risk and improving process reliability. The AI claim attaches to the fermentation R&D facility, not to the brewery plant product line. Praj's own resources index also lists Remote Bridge, an application for remote monitoring and management of plants, described publicly in terms of higher site availability and reduced downtime; its product page currently returns 404. On public evidence Remote Bridge is plant monitoring and reporting, and carries no AI or machine learning claim of its own.",
     "source_urls": [
       "https://cultivated-x.com/fermentation/ai-integrated-fermentation-capacity-expands-praj-matrix-india-targets-bio-based-economy/",
-      "https://www.praj.net/businesslines/beverages/"
+      "https://www.praj.net/businesslines/beverages/",
+      "https://www.praj.net/businesslines/industrial-brewery/",
+      "https://www.praj.net/resources/"
     ],
     "first_seen": "1994-01-01",
-    "last_seen": "2026-08-01",
+    "last_seen": "2026-08-09",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -9957,7 +9959,8 @@
     "key": "praj.net",
     "theme": "Process & operations",
     "capabilities": [
-      "AI & ML"
+      "AI & ML",
+      "BI & analytics"
     ],
     "country": "India",
     "scope": "beverage-native"
