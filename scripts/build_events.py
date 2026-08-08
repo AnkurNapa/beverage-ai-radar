@@ -58,6 +58,9 @@ def build(today: date | None = None) -> list[dict]:
         out.append({
             **{k: r.get(k) for k in
                ("title", "url", "organiser", "location", "country", "vertical", "summary")},
+            # Named speakers, so an event says WHO is talking, not just that it
+            # exists. Empty for trade fairs, which publish exhibitors not speakers.
+            "speakers": [x for x in (r.get("speakers") or []) if x],
             "mode": mode,
             "speaking": bool(r.get("speaking")),
             "start": r.get("start") or "",

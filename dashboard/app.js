@@ -805,6 +805,9 @@ function eventCard(e) {
     <p class="meta">${esc(dateRange(e))}${e.location ? " · " + esc(e.location) : ""}</p>
     ${e.organiser ? `<p class="meta">${esc(e.organiser)}</p>` : ""}
     <p>${esc(e.summary || "")}</p>
+    ${(e.speakers && e.speakers.length)
+      ? `<p class="meta event__speakers"><strong>Speaking:</strong> ${esc(e.speakers.join(", "))}</p>`
+      : ""}
   </article>`;
 }
 
@@ -819,9 +822,16 @@ function applyEvents() {
     if (fc && e.country !== fc) return false;
     if (fsp === "1" && !e.speaking) return false;
     if (fsp === "0" && e.speaking) return false;
-    if (q && !`${e.title} ${e.organiser} ${e.location} ${e.summary}`.toLowerCase().includes(q)) return false;
+    if (q && !`${e.title} ${e.organiser} ${e.location} ${e.summary} ${(e.speakers || []).join(" ")}`.toLowerCase().includes(q)) return false;
     return true;
   });
+  // Same renderer the Jobs tab uses, so the two maps behave identically: click a
+  // country to drive the country filter, click again to clear it.
+  renderWorldMap($("world-events"), EVENTS, (e) => e.country, (place) => {
+    const sel = $("fe-country");
+    sel.value = place || "";
+    sel.dispatchEvent(new Event("input", { bubbles: true }));
+  }, $("fe-country").value, { unit: "countries", noun: "events", label: "Events by country" });
   $("events-grid").innerHTML = shown.length
     ? shown.map(eventCard).join("")
     : '<p class="empty">No events match these filters.</p>';
