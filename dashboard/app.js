@@ -791,7 +791,24 @@ function renderEventStrip() {
       `<span class="eventstrip__where"> ${esc(e.location || "")}</span>`).join(", ");
     return `<strong>${esc(month)}</strong> ${items}`;
   });
-  $("eventstrip-text").innerHTML = parts.join(' <span class="eventstrip__sep">·</span> ');
+  const line = parts.join(' <span class="eventstrip__sep">·</span> ');
+  // The sequence is emitted TWICE and the track slides exactly -50%. At that
+  // point copy two sits precisely where copy one began, so the reset is
+  // invisible and the loop is seamless. One copy would snap back to a gap.
+  // aria-hidden on the duplicate keeps a screen reader from reading it twice.
+  $("eventstrip-text").innerHTML =
+    `<span class="eventstrip__seq">${line}<span class="eventstrip__sep">·</span></span>` +
+    `<span class="eventstrip__seq" aria-hidden="true">${line}<span class="eventstrip__sep">·</span></span>`;
+  // Duration scales with content so a long line does not race past. Measured
+  // from the rendered width rather than guessed from character count.
+  requestAnimationFrame(() => {
+    const seq = $("eventstrip-text").querySelector(".eventstrip__seq");
+    if (!seq) return;
+    const px = seq.getBoundingClientRect().width;
+    // ~70px per second reads comfortably; clamped so it is never frantic or glacial.
+    const secs = Math.min(120, Math.max(18, Math.round(px / 70)));
+    $("eventstrip-text").style.setProperty("--marquee-duration", secs + "s");
+  });
   strip.hidden = false;
 }
 

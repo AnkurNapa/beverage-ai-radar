@@ -1496,11 +1496,34 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
   flex: none; font-weight: 600; letter-spacing: .04em;
   text-transform: uppercase; font-size: .7rem; opacity: .8;
 }
-/* The line can get long; let it scroll on its own rather than pushing the page
-   into horizontal overflow. */
+/* Looping ticker. The viewport clips; the track inside slides by exactly half
+   its width, which is one full copy of the sequence, so the loop is seamless.
+   Only transform is animated, so this stays on the compositor. */
 .eventstrip__text {
-  margin: 0; min-width: 0; overflow-x: auto; white-space: nowrap;
-  scrollbar-width: thin;
+  margin: 0; min-width: 0; overflow: hidden; white-space: nowrap;
+  display: flex; width: max-content;
+  animation: eventstrip-marquee var(--marquee-duration, 40s) linear infinite;
+}
+.eventstrip__seq { flex: none; }
+.eventstrip__seq > .eventstrip__sep { padding-inline: .6rem; }
+
+/* Hovering or tabbing in stops it, because every item is a link and a moving
+   target cannot be clicked reliably. */
+.eventstrip:hover .eventstrip__text,
+.eventstrip:focus-within .eventstrip__text { animation-play-state: paused; }
+
+@keyframes eventstrip-marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* Anyone who has asked the OS for less motion gets a static, scrollable line
+   instead. Motion for its own sake is not worth a headache. */
+@media (prefers-reduced-motion: reduce) {
+  .eventstrip__text {
+    animation: none; width: auto; overflow-x: auto; scrollbar-width: thin;
+  }
+  .eventstrip__seq[aria-hidden="true"] { display: none; }
 }
 .eventstrip__text a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .eventstrip__where { opacity: .7; }
