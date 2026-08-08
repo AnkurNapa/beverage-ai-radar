@@ -738,6 +738,51 @@ function companyDetail(c) {
   </article>`;
 }
 
+
+/* Related PEOPLE. A person carries no prose of their own here, so they inherit
+ * their employer's vector: similarity between two people means "their companies
+ * do similar work", which is the useful reading anyway. Same-company colleagues
+ * are excluded, because a reader looking at a person can already see the
+ * company's roster on the company page; showing it again as "related" wastes
+ * the slot on something they have. */
+function relatedPeopleHtml(person) {
+  if (!TFIDF) TFIDF = buildTfidf(ALL);
+  const home = ALL.find((c) => c.name === person.company);
+  const i = home ? TFIDF.index.get(home.key) : null;
+  if (i == null) return "";
+  const pool = (typeof PEOPLE !== "undefined" && PEOPLE.length) ? PEOPLE : [];
+  const scored = [];
+  for (const other of pool) {
+    if (!other || other.name === person.name) continue;
+    if (other.company === person.company) continue;
+    const c = ALL.find((x) => x.name === other.company);
+    const j = c ? TFIDF.index.get(c.key) : null;
+    if (j == null) continue;
+    const score = cosine(TFIDF.vecs[i], TFIDF.vecs[j]);
+    if (score > 0.06) scored.push({ p: other, score });
+  }
+  if (!scored.length) return "";
+  scored.sort((a, b) => b.score - a.score);
+  // One person per company: five people from the same firm is one result.
+  const seenCo = new Set();
+  const picks = [];
+  for (const hit of scored) {
+    if (seenCo.has(hit.p.company)) continue;
+    seenCo.add(hit.p.company);
+    picks.push(hit);
+    if (picks.length === 5) break;
+  }
+  const items = picks.map(({ p: r, score }) => `
+    <li>
+      <a href="#/p/${encodeURIComponent(slug(r.name))}">${esc(r.name)}</a>
+      <span class="muted rel__why">${esc(r.role || "")}${r.company ? " · " + esc(r.company) : ""}</span>
+      <span class="rel__score" title="Similarity of their companies' work">${(score * 100).toFixed(0)}%</span>
+    </li>`).join("");
+  return `<h2>Related people</h2>
+    <p class="muted rel__note">Working on similar problems elsewhere, by what their companies do. Colleagues at the same employer are left out.</p>
+    <ul class="detail__list rel__list">${items}</ul>`;
+}
+
 function personDetail(p) {
   const link = (u, t) => safeUrl(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t || u)}</a>` : "";
   return `<article class="detail">
@@ -757,6 +802,7 @@ function personDetail(p) {
       ${row("LinkedIn", link(p.linkedin))}
     </dl>
     ${p.sources?.length ? `<h2>Sources</h2><ul class="detail__list">${p.sources.map((u) => `<li>${link(u)}</li>`).join("")}</ul>` : ""}
+    ${relatedPeopleHtml(p)}
   </article>`;
 }
 
