@@ -673,78 +673,70 @@ a:hover { color: var(--accent-hover); }
 
 /* --- Footer: deep navy band, their closing signature -------------------- */
 /* --- Footer -------------------------------------------------------------
- * Was one centred run-on paragraph mixing brand, policy, links and privacy,
- * which gives the eye no entry point and makes long lines hard to read.
- * Now four labelled groups on a real grid, left aligned, with the legal and
- * privacy line separated below a rule where that sort of text belongs.
+ * Corporate-footer proportions: wordmark and social on the left, then bold
+ * uppercase column headings over generously spaced links. The spacing is the
+ * design here. Links are NOT underlined by default; a wall of underlines in a
+ * dark footer reads as noise, so the underline arrives on approach instead.
  */
 .foot {
-  background: var(--navy); color: rgba(255, 255, 255, .74);
-  font-size: .875rem; font-weight: 300; line-height: 1.65;
-  margin-top: 4rem; padding: 3.25rem clamp(1.25rem, 6vw, 5rem) 0;
+  background: var(--navy); color: rgba(255, 255, 255, .78);
+  font-size: .95rem; font-weight: 300; line-height: 1.5;
+  margin-top: 4rem; padding: 0 clamp(1.25rem, 6vw, 5rem);
   max-width: none;
 }
+.foot__top {
+  max-width: 78rem; margin: 0 auto; padding: 1.4rem 0 1.1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, .16);
+  text-align: right; font-size: .85rem;
+}
 .foot__grid {
-  max-width: 74rem; margin: 0 auto;
-  display: grid; gap: 2.25rem 3rem;
-  /* Brand column earns more room than the link columns; auto-fit would give
-     all four equal weight and flatten the hierarchy. */
-  /* Brand leads; four link columns then the single call to action. */
-  grid-template-columns: 1.5fr repeat(3, .85fr) 1.05fr;
-  align-items: start;
+  max-width: 78rem; margin: 0 auto;
+  display: grid; gap: 2.5rem 2.5rem;
+  grid-template-columns: 1.35fr repeat(4, 1fr);
+  padding: 3.5rem 0 1rem;
 }
 .foot__mark {
-  color: #fff; font-family: var(--serif); font-size: 1.35rem;
-  font-weight: 400; margin: 0 0 .5rem;
+  color: #fff; font-family: var(--serif); font-size: 1.6rem;
+  font-weight: 400; margin: 0 0 1.4rem; letter-spacing: -.01em;
 }
-.foot__blurb { margin: 0 0 .75rem; max-width: 34ch; }
-.foot__by { margin: 0; color: rgba(255, 255, 255, .6); }
 
+.foot__social { display: flex; gap: 1.35rem; list-style: none; margin: 0; padding: 0; }
+.foot__social a { display: block; color: #fff; opacity: .92; transition: opacity 140ms ease; }
+.foot__social a:hover, .foot__social a:focus-visible { opacity: 1; }
+.foot__social svg { width: 25px; height: 25px; fill: currentColor; display: block; }
+
+/* Uppercase, tracked, and heavier than the links beneath: the heading has to
+   win on weight because it cannot win on size at this scale. */
 .foot__h {
-  color: #fff; font-size: .7rem; font-weight: 600;
-  letter-spacing: .1em; text-transform: uppercase;
-  margin: 0 0 .8rem;
+  color: #fff; font-size: .78rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .06em; margin: 0 0 1.5rem;
 }
 .foot__col ul { list-style: none; margin: 0; padding: 0; }
-.foot__col li { margin-bottom: .45rem; }
-.foot__cta p { margin: 0 0 .9rem; max-width: 30ch; }
+.foot__col li { margin-bottom: 1.15rem; }
 
-.foot a { color: #fff; text-decoration: underline; text-decoration-thickness: 1px;
-          text-underline-offset: 3px; text-decoration-color: rgba(255,255,255,.35);
-          transition: text-decoration-color 140ms ease; }
-.foot a:hover, .foot a:focus-visible { text-decoration-color: var(--accent); }
-
-/* The one button in the footer: the only action worth interrupting for. */
-.foot__btn {
-  display: inline-block; padding: .5rem 1rem;
-  border: 1px solid rgba(255, 255, 255, .45);
-  color: #fff; text-decoration: none; font-weight: 500;
-  transition: background 140ms ease, border-color 140ms ease;
-}
-.foot__btn:hover, .foot__btn:focus-visible {
-  background: var(--accent); border-color: var(--accent); text-decoration: none;
-}
+.foot a { color: rgba(255, 255, 255, .82); text-decoration: none;
+          transition: color 140ms ease; }
+.foot a:hover, .foot a:focus-visible { color: #fff; text-decoration: underline;
+          text-underline-offset: 4px; text-decoration-thickness: 1px; }
+.foot a:focus-visible { outline: 2px solid rgba(255,255,255,.6); outline-offset: 3px; }
 
 .foot__bar {
-  max-width: 74rem; margin: 2.5rem auto 0;
-  border-top: 1px solid rgba(255, 255, 255, .14);
-  padding: 1.1rem 0 2.5rem;
+  max-width: 78rem; margin: 0 auto;
+  border-top: 1px solid rgba(255, 255, 255, .16);
+  padding: 1.4rem 0 2.75rem; margin-top: 2.5rem;
 }
-.foot__bar p { margin: 0; font-size: .8rem; color: rgba(255, 255, 255, .55); max-width: 90ch; }
-
-.foot strong { color: #fff; font-weight: 400; }
-.foot code { background: rgba(255, 255, 255, .12); padding: .1rem .4rem; color: #fff; }
+.foot__bar p { margin: 0; font-size: .8rem; line-height: 1.6;
+               color: rgba(255, 255, 255, .5); max-width: 100ch; }
 
 @media (max-width: 75rem) {
   .foot__grid { grid-template-columns: repeat(3, 1fr); }
   .foot__brand { grid-column: 1 / -1; }
 }
-@media (max-width: 52rem) {
-  .foot__grid { grid-template-columns: 1fr 1fr; }
-  .foot__brand { grid-column: 1 / -1; }
+@media (max-width: 46rem) {
+  .foot__grid { grid-template-columns: 1fr 1fr; gap: 2rem 1.5rem; padding-top: 2.5rem; }
 }
-@media (max-width: 34rem) {
-  .foot__grid { grid-template-columns: 1fr; gap: 1.75rem; }
+@media (max-width: 30rem) {
+  .foot__grid { grid-template-columns: 1fr; }
 }
 
 /* --- Responsive --------------------------------------------------------- */
