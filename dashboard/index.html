@@ -199,7 +199,11 @@
   <aside id="eventstrip" class="eventstrip" aria-label="Upcoming industry events" hidden>
     <div class="wrap eventstrip__inner">
       <span class="eventstrip__label">Coming up</span>
-      <p class="eventstrip__text" id="eventstrip-text"></p>
+      <!-- The viewport clips; the track inside it moves. One element cannot be
+           both, or the track overlaps the label as it slides. -->
+      <div class="eventstrip__viewport">
+        <p class="eventstrip__text" id="eventstrip-text"></p>
+      </div>
     </div>
   </aside>
 

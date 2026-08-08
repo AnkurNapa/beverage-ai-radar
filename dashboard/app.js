@@ -347,6 +347,7 @@ function apply() {
     sel.value = place || "";            // null = back to world
     sel.dispatchEvent(new Event("input", { bubbles: true }));
   }, $("f-country").value, { unit: "countries", noun: "companies", label: "Companies by country" });
+  lastShown = shown;
   $("count").textContent = `${shown.length} of ${ALL.length}`;
   $("grid").innerHTML = shown.length
     ? shown.map(card).join("")
@@ -469,6 +470,112 @@ function row(label, value) {
   return value ? `<div class="drow"><dt>${esc(label)}</dt><dd>${value}</dd></div>` : "";
 }
 
+
+/* ---- Related items: TF-IDF + cosine similarity, computed in the browser ----
+ * Why TF-IDF and not "same vertical, show five": every company here shares a
+ * vertical with a hundred others, so that rule returns noise. Weighting terms
+ * by how RARE they are across the corpus is what makes "mash filter" or
+ * "cask maturation" count for more than "beverage", which appears everywhere
+ * and therefore tells you nothing.
+ *
+ * Built once, lazily, on first use, then cached. Cost is linear in corpus size
+ * and it runs on 592 short documents, so it is a few milliseconds.
+ */
+const STOP = new Set(("a an the and or of for to in on with is are was were be been it its this that " +
+  "by from as at into over under after before their our your his her they them we you i " +
+  "company companies business using use uses used based which who what when where how " +
+  "also more most other others than then there here can could would should may might will").split(" "));
+
+function tokenize(text) {
+  return (text || "").toLowerCase().replace(/[^a-z0-9\s-]/g, " ").split(/\s+/)
+    .filter((w) => w.length > 2 && w.length < 24 && !STOP.has(w));
+}
+
+// The fields that actually carry meaning. Vertical and theme are repeated so a
+// shared category counts, without letting it dominate the rarer signal in prose.
+function docText(c) {
+  return [c.name, c.ai_use_case, c.short_description, c.why_interesting,
+          c.vertical, c.vertical, c._theme, c._theme,
+          ...(c.verticals || [])].filter(Boolean).join(" ");
+}
+
+let TFIDF = null;
+function buildTfidf(rows) {
+  const docs = rows.map((c) => {
+    const tf = new Map();
+    for (const w of tokenize(docText(c))) tf.set(w, (tf.get(w) || 0) + 1);
+    return tf;
+  });
+  const df = new Map();
+  for (const tf of docs) for (const w of tf.keys()) df.set(w, (df.get(w) || 0) + 1);
+  const N = docs.length || 1;
+  // L2-normalised vectors, so cosine similarity is a plain dot product later
+  // and a long description cannot outrank a short one on length alone.
+  const vecs = docs.map((tf) => {
+    const v = new Map();
+    let norm = 0;
+    for (const [w, n] of tf) {
+      const idf = Math.log(N / (1 + (df.get(w) || 0))) + 1;
+      const x = (1 + Math.log(n)) * idf;
+      v.set(w, x); norm += x * x;
+    }
+    norm = Math.sqrt(norm) || 1;
+    for (const [w, x] of v) v.set(w, x / norm);
+    return v;
+  });
+  return { vecs, index: new Map(rows.map((c, i) => [c.key, i])) };
+}
+
+function cosine(a, b) {
+  // Iterate the smaller vector: the cost is the overlap, not the vocabulary.
+  const [s, l] = a.size < b.size ? [a, b] : [b, a];
+  let dot = 0;
+  for (const [w, x] of s) { const y = l.get(w); if (y) dot += x * y; }
+  return dot;
+}
+
+/* Related companies for one record. `pool` is the CURRENTLY FILTERED set, so
+ * recommendations obey whatever the reader has narrowed to: filter to wine and
+ * the related list stays wine. Falling back to the whole corpus would quietly
+ * ignore the filters they just set. */
+function relatedTo(c, pool, limit = 5) {
+  if (!TFIDF) TFIDF = buildTfidf(ALL);
+  const i = TFIDF.index.get(c.key);
+  if (i == null) return [];
+  const self = TFIDF.vecs[i];
+  const scored = [];
+  for (const other of pool) {
+    if (!other || other.key === c.key) continue;
+    const j = TFIDF.index.get(other.key);
+    if (j == null) continue;
+    const score = cosine(self, TFIDF.vecs[j]);
+    // A floor, because the top match of an isolated record is still its top
+    // match no matter how weak. Showing a 0.02 overlap as "related" is a lie.
+    if (score > 0.06) scored.push({ c: other, score });
+  }
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, limit);
+}
+
+function relatedHtml(c) {
+  // Respect the reader's current filters; fall back to everything only when
+  // the filtered pool is too thin to say anything useful.
+  let pool = typeof lastShown !== "undefined" && lastShown && lastShown.length > 8 ? lastShown : ALL;
+  let hits = relatedTo(c, pool);
+  if (!hits.length && pool !== ALL) hits = relatedTo(c, ALL);
+  if (!hits.length) return "";
+  const items = hits.map(({ c: r, score }) => `
+    <li>
+      <a href="#/c/${encodeURIComponent(r.key)}">${esc(r.name)}</a>
+      ${r.vertical ? `<span class="chip chip--v chip--${esc(r.vertical)}">${vlab(r.vertical)}</span>` : ""}
+      <span class="muted rel__why">${esc(r.ai_use_case || "")}</span>
+      <span class="rel__score" title="Cosine similarity over TF-IDF weighted terms">${(score * 100).toFixed(0)}%</span>
+    </li>`).join("");
+  return `<h2>Related</h2>
+    <p class="muted rel__note">Closest by shared language in their descriptions and use cases, not merely the same vertical. Follows your current filters.</p>
+    <ul class="detail__list rel__list">${items}</ul>`;
+}
+
 function companyDetail(c) {
   const link = (u, t) => safeUrl(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t || u)}</a>` : "";
   const people = (c.people || []).map((p) => {
@@ -540,6 +647,7 @@ function companyDetail(c) {
     ${people ? `<h2>People</h2><ul class="detail__list">${people}</ul>` : ""}
     ${trackedHtml}
     ${sources ? `<h2>Sources &amp; evidence</h2><ul class="detail__list">${sources}</ul>` : ""}
+    ${relatedHtml(c)}
   </article>`;
 }
 
@@ -751,6 +859,9 @@ function jobCard(j) {
 
 
 let EVENTS = [];
+// The companies currently surviving the filters. Related-items uses it so a
+// recommendation never points outside what the reader has narrowed to.
+let lastShown = null;
 
 // Month label for the running strip: "September 2026". Built from the ISO
 // string rather than new Date(iso), which parses as UTC and can slip a day
@@ -785,13 +896,45 @@ function renderEventStrip() {
     if (!byMonth.has(k)) byMonth.set(k, []);
     byMonth.get(k).push(e);
   }
-  const parts = [...byMonth.entries()].map(([month, list]) => {
-    const items = list.map((e) =>
-      `<a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a>` +
-      `<span class="eventstrip__where"> ${esc(e.location || "")}</span>`).join(", ");
-    return `<strong>${esc(month)}</strong> ${items}`;
-  });
-  const line = parts.join(' <span class="eventstrip__sep">·</span> ');
+  // Days until it starts. A date alone makes the reader do arithmetic; "in 8
+  // days" is the thing they actually wanted to know. Computed from the ISO
+  // parts at local midnight, so it never drifts by a day across time zones.
+  const daysUntil = (iso) => {
+    const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || "");
+    if (!m) return null;
+    const then = new Date(+m[1], +m[2] - 1, +m[3]);
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    return Math.round((then - today) / 86400000);
+  };
+  const soonLabel = (n) => {
+    if (n == null) return "";
+    if (n <= 0) return "happening now";
+    if (n === 1) return "tomorrow";
+    if (n <= 30) return `in ${n} days`;
+    return "";
+  };
+
+  // A single flat run of items. Grouping by month is expressed by a month
+  // marker that appears once, rather than by nesting, because a moving line
+  // gives the eye no time to parse structure.
+  const parts = [];
+  for (const [month, list] of byMonth) {
+    parts.push(`<span class="eventstrip__month">${esc(month)}</span>`);
+    for (const e of list) {
+      const n = daysUntil(e.start);
+      const soon = soonLabel(n);
+      const place = (e.location || "").split(",").slice(-2).join(",").trim();
+      parts.push(
+        `<span class="eventstrip__item">` +
+        `<a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a>` +
+        (place ? `<span class="eventstrip__where">${esc(place)}</span>` : "") +
+        (soon ? `<span class="eventstrip__soon${n <= 14 ? " is-imminent" : ""}">${esc(soon)}</span>` : "") +
+        `</span>`
+      );
+    }
+  }
+  const line = parts.join('');
   // The sequence is emitted TWICE and the track slides exactly -50%. At that
   // point copy two sits precisely where copy one began, so the reset is
   // invisible and the loop is seamless. One copy would snap back to a gap.
