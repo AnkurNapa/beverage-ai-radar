@@ -1346,13 +1346,28 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
     background: color-mix(in oklab, var(--surface) 92%, transparent);
     backdrop-filter: blur(12px);
   }
+  /* A thumb bar carries five destinations. Eight forced every label into an
+     ellipsis ("PEOP...", "PAPE...") and squeezed the touch targets to 44px,
+     which is the floor, not a target. Jobs, Leads and About leave the bar:
+     Jobs and About both have doors on the landing view and links in the
+     footer, and Leads is private and absent from the published site anyway. */
+  .topnav .tab[data-short="Jobs"],
+  .topnav .tab[data-short="Leads"],
+  .topnav .tab[data-short="About"] { display: none; }
+
   .topnav .tab {
-    flex: 1; min-height: 48px; font-size: 0;   /* hides the long desktop label */
-    display: flex; align-items: center; justify-content: center; padding: .3rem 0;
+    flex: 1 1 0; min-width: 0; min-height: 52px;
+    font-size: 0;                              /* hides the long desktop label */
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 3px; padding: .3rem 2px;
   }
   .topnav .tab::after {
-    content: attr(data-short); font-size: .7rem; letter-spacing: .01em;
+    content: attr(data-short); font-size: .68rem; letter-spacing: .01em;
+    white-space: nowrap;
   }
+  /* The icon sits above its label rather than beside it, so the cell reads as
+     one target instead of two things sharing a row. */
+  .topnav .tab svg { width: 18px; height: 18px; flex: none; }
   /* The list must clear the fixed bar, plus the home indicator. */
   body { padding-bottom: calc(56px + env(safe-area-inset-bottom)); }
 

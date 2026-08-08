@@ -457,10 +457,12 @@ export function mountPalette({ getItems, onPick }) {
 // round caps: consistency here is mostly about picking one and holding it.
 (function () {
   var P = {
+    home:      '<path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V20a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V9.5"/>',
     companies: '<path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/>',
     people:    '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/>',
     research:  '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>',
     jobs:      '<rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>',
+    events:    '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
     prospects: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
     about:     '<circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/>',
     // Same grid and stroke as the nav glyphs, so the whole UI reads as one set
@@ -479,10 +481,15 @@ export function mountPalette({ getItems, onPick }) {
            'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" ' +
            'class="ico">' + P[name] + '</svg>';
   }
-  var MAP = { Companies: "companies", People: "people", Research: "research",
-              Jobs: "jobs", Prospects: "prospects", About: "about" };
+  // Keyed on the element ID, not on data-short. data-short is the MOBILE LABEL:
+  // it is presentational and it changed once already, when "Companies" became
+  // "Firms" to fit the thumb bar, which silently stripped the icon from three
+  // tabs. An id is the stable identity; a label is copy.
+  var MAP = { "tab-home": "home", "tab-companies": "companies", "tab-people": "people",
+              "tab-resources": "research", "tab-jobs": "jobs", "tab-events": "events",
+              "tab-prospects": "prospects", "tab-about": "about" };
   document.querySelectorAll(".topnav .tab").forEach(function (tab) {
-    var key = MAP[tab.dataset.short];
+    var key = MAP[tab.id];
     if (!key || tab.querySelector(".ico")) return;
     tab.insertAdjacentHTML("afterbegin", svg(key));
   });
