@@ -1,0 +1,85 @@
+[
+  {
+    "title": "UCI Wine Quality",
+    "url": "https://archive.ics.uci.edu/dataset/186/wine+quality",
+    "vertical": "wine",
+    "publisher": "UCI Machine Learning Repository",
+    "year": 2009,
+    "licence": "CC BY 4.0",
+    "summary": "Physicochemical measurements and sensory scores for 4898 white and 1599 red vinho verde wines from northern Portugal. The single most used beverage dataset in machine learning teaching, which is exactly its limitation: it describes no winery, vintage or instrument, so a model trained on it does not transfer to a working cellar. Listed because you will meet it constantly, not because it is a production asset."
+  },
+  {
+    "title": "UCI Wine (cultivar classification)",
+    "url": "https://archive.ics.uci.edu/dataset/109/wine",
+    "vertical": "wine",
+    "publisher": "UCI Machine Learning Repository",
+    "year": 1991,
+    "licence": "CC BY 4.0",
+    "summary": "Chemical analysis of 178 wines grown in the same region of Italy, derived from three different cultivars, with 13 constituents measured. A small clean classification benchmark, useful for testing a method before pointing it at real production data."
+  },
+  {
+    "title": "Wine Reviews (130k Wine Enthusiast tastings)",
+    "url": "https://www.kaggle.com/datasets/zynicide/wine-reviews",
+    "vertical": "wine",
+    "publisher": "Kaggle (scraped from Wine Enthusiast)",
+    "year": 2017,
+    "summary": "About 130000 wine reviews with the taster's description, points score, price, variety, winery and appellation. The main open corpus for sensory language work: mapping tasting notes to scores, price modelling, or training text models on how professionals actually describe wine."
+  },
+  {
+    "title": "Craft Cans (US craft beers and breweries)",
+    "url": "https://www.kaggle.com/datasets/nickhould/craft-cans",
+    "vertical": "beer",
+    "publisher": "Kaggle",
+    "year": 2017,
+    "summary": "2410 canned craft beers with ABV, IBU and style, joined to 558 US breweries with city and state. Small but clean, and one of the few open sets that links a product to its producer and location, which makes it usable for style and regional analysis."
+  },
+  {
+    "title": "Brewer's Friend Beer Recipes",
+    "url": "https://www.kaggle.com/datasets/jtrofe/beer-recipes",
+    "vertical": "beer",
+    "publisher": "Kaggle (scraped from Brewer's Friend)",
+    "year": 2018,
+    "summary": "About 73000 homebrew recipes with OG, FG, ABV, IBU, colour, method, batch size, efficiency and mash temperature. The most directly brewing-relevant open dataset here: the fields map onto real brewhouse variables, so it supports recipe modelling, style prediction and attenuation work rather than generic tabular ML."
+  },
+  {
+    "title": "BeerAdvocate reviews (Stanford SNAP)",
+    "url": "https://snap.stanford.edu/data/web-BeerAdvocate.html",
+    "vertical": "beer",
+    "publisher": "Stanford SNAP",
+    "year": 2012,
+    "summary": "About 1.5 million beer reviews spanning ten years, each with separate appearance, aroma, palate and taste sub-scores plus free text. The multi-aspect scoring is what makes it valuable: it is one of the few open sources where sensory dimensions are rated separately rather than collapsed into one number."
+  },
+  {
+    "title": "RateBeer reviews (Stanford SNAP)",
+    "url": "https://snap.stanford.edu/data/web-RateBeer.html",
+    "vertical": "beer",
+    "publisher": "Stanford SNAP",
+    "year": 2012,
+    "summary": "About 2.9 million reviews from RateBeer with the same multi-aspect structure as the BeerAdvocate set. Commonly paired with it to test whether a sensory model generalises across two different rating communities."
+  },
+  {
+    "title": "WGISD: Wine Grape Instance Segmentation Dataset",
+    "url": "https://github.com/thsant/wgisd",
+    "vertical": "wine",
+    "publisher": "Embrapa Agricultural Informatics",
+    "year": 2019,
+    "licence": "CC BY-NC 4.0",
+    "summary": "300 field images of grapevines covering five grape varieties, with 4432 annotated grape clusters and binary masks for a subset. A genuine computer vision benchmark shot in real vineyards, suitable for yield estimation and cluster detection rather than lab conditions."
+  },
+  {
+    "title": "Open Food Facts",
+    "url": "https://world.openfoodfacts.org/data",
+    "vertical": "non_alcoholic",
+    "publisher": "Open Food Facts",
+    "licence": "ODbL",
+    "summary": "Open, crowd-sourced product database with several million food and drink products carrying ingredients, nutrition, packaging and category fields, including a large beverages section. Full database dumps and an API are published. Useful for portfolio, label and packaging analysis on the non-alcoholic side."
+  },
+  {
+    "title": "Open Brewery DB",
+    "url": "https://www.openbrewerydb.org/",
+    "vertical": "beer",
+    "publisher": "Open Brewery DB",
+    "licence": "public domain",
+    "summary": "Free API and dataset of breweries worldwide with type, address and coordinates. Not an AI dataset in itself, but the standard reference list for joining brewery names to locations, which is the join most beer analytics projects need first."
+  }
+]

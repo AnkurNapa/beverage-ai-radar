@@ -157,6 +157,53 @@ def _norm_repos(rows):
         }
 
 
+def _norm_whitepapers(rows):
+    """Industry white papers: vendor and trade-body long-form, no DOI.
+
+    Distinct from `paper` (peer-reviewed, via OpenAlex) because the provenance
+    and the trust level differ. A vendor white paper is evidence of what a
+    supplier claims, which is useful and is not the same as a refereed result.
+    """
+    for r in rows:
+        url = (r.get("url") or "").strip()
+        if not url:
+            continue
+        yield {
+            "kind": "whitepaper",
+            "title": r.get("title", ""),
+            "url": url,
+            "vertical": r.get("vertical", "multiple"),
+            "meta": " · ".join(x for x in (r.get("publisher"), str(r.get("year") or "")) if x),
+            "summary": r.get("summary", ""),
+            "year": r.get("year"),
+            "sort": r.get("year") or 0,
+        }
+
+
+def _norm_datasets(rows):
+    """Open datasets someone can actually download and model on.
+
+    Kept separate from repos: a repo is code, a dataset is the raw material.
+    Anyone starting a beverage ML project needs the second before the first.
+    """
+    for r in rows:
+        url = (r.get("url") or "").strip()
+        if not url:
+            continue
+        yield {
+            "kind": "dataset",
+            "title": r.get("title", ""),
+            "url": url,
+            "vertical": r.get("vertical", "multiple"),
+            "meta": " · ".join(
+                x for x in (r.get("publisher"), str(r.get("year") or ""), r.get("licence")) if x
+            ),
+            "summary": r.get("summary", ""),
+            "year": r.get("year"),
+            "sort": r.get("year") or 0,
+        }
+
+
 def _norm_videos(rows):
     for r in rows:
         vid = (r.get("video_id") or "").strip()
@@ -222,7 +269,15 @@ def build():
     items += list(_norm_blogs(_fetch_ankur_blogs()))  # auto-pulled newest, featured
     items += list(_norm_blogs(_load("blogs.json")))  # other curated blogs
     items += list(_norm_repos(_load("repos.json")))
+    items += list(_norm_whitepapers(_load("whitepapers.json")))
+    # sweep output; the file may not exist until scripts/sweep_whitepapers.py runs
+    swept = _load("whitepapers_swept.json")
+    items += list(_norm_whitepapers(swept.get("whitepapers", []) if isinstance(swept, dict) else swept))
+    items += list(_norm_datasets(_load("datasets.json")))
     items += list(_norm_videos(_load("videos.json")))
+    # Swept from YouTube search by scripts/sweep_videos.py; deduped by url below
+    # alongside the hand-curated file above.
+    items += list(_norm_videos(_load("videos_youtube.json")))
     items += list(_norm_podcasts(_load("podcasts.json")))
 
     # dedupe by url (case-insensitive), keep first

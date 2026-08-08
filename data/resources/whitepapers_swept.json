@@ -1,0 +1,25 @@
+{
+  "whitepapers": [],
+  "blocked": [
+    {
+      "publisher": "Krones",
+      "url": "https://www.krones.com/en/company/press/magazine/",
+      "reason": "403 to any plain client, and the magazine index builds its article list in JS, so it is not enumerable even rendered. Individual article URLs DO load in a browser; four are hand-curated in whitepapers.json."
+    },
+    {
+      "publisher": "ASBC",
+      "url": "https://www.asbcnet.org/",
+      "reason": "403 to plain client; browser navigation times out at 45s"
+    },
+    {
+      "publisher": "MBAA",
+      "url": "https://www.mbaa.com/technical-quarterly",
+      "reason": "Technical Quarterly is member-gated, so the papers are not openly linkable"
+    },
+    {
+      "publisher": "Endress+Hauser",
+      "url": "https://www.endress.com/en/field-instruments-overview/beverage-industry",
+      "reason": "returns a 1.8KB JS shell with no links to a plain client"
+    }
+  ]
+}

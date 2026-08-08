@@ -1,0 +1,34 @@
+[
+  {
+    "title": "How real-time AI is transforming beverage supply chains",
+    "url": "https://www.krones.com/en/company/press/magazine/trend/how-real-time-ai-is-transforming-beverage-supply-chains.php",
+    "vertical": "multiple",
+    "publisher": "Krones",
+    "year": 2025,
+    "summary": "Long-form Krones magazine piece on applying real-time AI across beverage supply chains: demand sensing, line-level responsiveness and the data plumbing it needs. Vendor-authored, so read the claims as vendor claims, but it is one of the few pieces that describes the operating model rather than the marketing."
+  },
+  {
+    "title": "Krones Improves Beverage Production Simulation through Digital Twins with Integrated AI Agents",
+    "url": "https://www.krones.com/en/company/press/krones-improves-beverage-production-simulation-through-digital-twins-with-integrated-ai-agents.php",
+    "vertical": "multiple",
+    "publisher": "Krones",
+    "year": 2026,
+    "summary": "Krones on agentic digital twins for production simulation, built with NVIDIA Omniverse and OpenUSD, cutting simulation time from three to four hours to under five minutes. Used in the design of the Ingeniq line concept shown at drinktec 2025, and the basis of its Microsoft Intelligent Manufacturing Award 2026."
+  },
+  {
+    "title": "How digital twins powered by AI are making the beverage industry more sustainable",
+    "url": "https://www.krones.com/en/company/press/magazine/innovation/how-digital-twins-powered-by-ai-are-making-the-beverage-industry-more-sustainable.php",
+    "vertical": "multiple",
+    "publisher": "Krones",
+    "year": 2025,
+    "summary": "Krones on using AI-backed digital twins to cut energy, water and material use on beverage lines. Useful as the sustainability-framed counterpart to the throughput argument, which is how most of these projects actually get funded."
+  },
+  {
+    "title": "Industry 4.0 and digitalization in the food and beverage industry",
+    "url": "https://www.krones.com/en/company/press/magazine/innovation/industry-4_0-and-digitalisation-in-the-food-and-beverage-industry.php",
+    "vertical": "multiple",
+    "publisher": "Krones",
+    "year": 2025,
+    "summary": "Krones primer on what Industry 4.0 actually means on a food and beverage line: connectivity, data capture, and where the automation layer ends and the analytics layer begins. The most useful of the set for someone briefing a non-technical audience."
+  }
+]
