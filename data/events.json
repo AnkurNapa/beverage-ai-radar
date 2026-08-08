@@ -172,18 +172,18 @@
     "summary": "The clearest wine-meets-data-science programme running, held on the 50th anniversary of the Judgment of Paris. Named AI sessions include Tomorrow's Grapevines: AI-Powered Genomics and Breeding, Current State and Moonshots: AI from Vineyard to End Consumer, Data Science Tools for the Future of Wine, and a conversation on AI and Wine: Excitements and Cautionary Tales."
   },
   {
-    "title": "AI and Beer, Bengaluru",
-    "url": "https://www.linkedin.com/in/ankur-napa/",
-    "organiser": "drinktec (as advised by the speaker)",
-    "location": "Bengaluru, India",
+    "title": "Brew What Sells with AI: An Evidence Engine for Craft Breweries",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdyCRZ0L9nm_k0Y-zyxQcGPLkxAjcOuvnrLmj32WFJgqQZQVA/viewform",
+    "organiser": "drinktec India (Messe Munchen India and YONTEX), Brewers Conference and Networking, 3rd Edition",
+    "location": "Biergarten, Koramangala, Bengaluru, India",
     "country": "India",
     "mode": "in-person",
     "start": "2026-08-12",
     "vertical": "beer",
     "speaking": true,
     "speakers": [
-      "Ankur Napa"
+      "Ankur Napa (Growth Officer, Disruptive Advantage)"
     ],
-    "summary": "In-person session on AI and beer in Bengaluru, with Ankur Napa speaking. PROVENANCE: details are as advised by the speaker and no public event page has been located yet, so the link points to his profile rather than to a registration page. Note that the drinktec India trade fair itself runs 28 to 30 October 2026 at the Bombay Exhibition Centre in Mumbai, per the organiser's own site, so this is a separate Bengaluru session rather than the main fair. To be replaced with the event page when one exists."
+    "summary": "Free master class at the 3rd edition Brewers Conference and Networking, organised by drinktec India, on turning years of POS data into brewing decisions: which beers sell best by day, time and season, and building a daily brewing calculator for production planning. The argument is that most breweries already generate the sales data and almost none of them feed it back into what goes in the tank. Free to attend, registration by form, 5 PM onwards."
   }
 ]
