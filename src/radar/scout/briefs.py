@@ -17,7 +17,7 @@ SCHEMA_BLOCK = """{
   "domain": "example.com",
   "hq_location": "City, Country",
   "founded_year": 2015,
-  "vertical": "beer" | "whiskey" | "wine" | "multiple",
+  "vertical": "beer" | "whiskey" | "wine" | "multiple" | "non_alcoholic",
   "ai_use_case": "short lowercase phrase",
   "ai_maturity": "research" | "pilot" | "shipping",
   "funding_stage": "...",

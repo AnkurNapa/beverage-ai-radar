@@ -68,8 +68,9 @@ def _jsonld(rows: list[dict], today: date) -> str:
         "description": (
             "A curated, source-cited landscape of companies applying artificial "
             "intelligence, machine learning and data analytics to the beer, whiskey "
-            "and wine industries. Entries that make no AI claim are labelled as such "
-            "rather than inflated."
+            "and wine industries, plus the wider food and beverage majors and data "
+            "platforms working alongside them. Entries that make no AI claim are "
+            "labelled as such rather than inflated."
         ),
         "url": f"{SITE}/{COMPANIES_PAGE}",
         "creator": {"@type": "Person", "name": "Ankur Napa"},
@@ -137,7 +138,8 @@ h3{{margin:.2rem 0;font-size:1.05rem}}
 <body>
 <h1>Beverage-AI Radar: all {len(rows)} tracked companies</h1>
 <p>A source-cited landscape of who is applying AI, machine learning and data
-analytics across beer, whiskey and wine. Every entry cites its evidence.
+analytics across beer, whiskey and wine, plus the wider food and beverage
+majors and data platforms working alongside them. Every entry cites its evidence.
 Companies that make <strong>no AI claim</strong> are recorded and labelled as
 such rather than inflated, because an unchecked claim would make the whole
 database worthless. Last updated {today.isoformat()}.</p>
@@ -168,7 +170,8 @@ def render_llms_txt(rows: list[dict], today: date) -> str:
         "",
         f"> A curated, source-cited landscape of {len(rows)} companies applying artificial "
         "intelligence, machine learning and data analytics to the beer, whiskey and wine "
-        f"industries. Maintained by Ankur Napa. Last updated {today.isoformat()}.",
+        "industries, plus the wider food and beverage majors and data platforms working "
+        f"alongside them. Maintained by Ankur Napa. Last updated {today.isoformat()}.",
         "",
         "## What this is",
         "",

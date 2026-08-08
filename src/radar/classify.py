@@ -5,6 +5,27 @@ _VERTICAL_TERMS = {
     BeverageVertical.BEER: ["brewery", "brewing", "beer", "brewer"],
     BeverageVertical.WHISKEY: ["distillery", "distilling", "whiskey", "whisky", "spirits"],
     BeverageVertical.WINE: ["winery", "winemaking", "wine", "vineyard"],
+    BeverageVertical.NON_ALCOHOLIC: [
+        "soft drink",
+        "soda",
+        "carbonated",
+        "juice",
+        "bottled water",
+        "energy drink",
+        "sports drink",
+        "non-alcoholic",
+        "nonalcoholic",
+    ],
+    BeverageVertical.FOOD: [
+        "food processing",
+        "food manufacturing",
+        "food and beverage",
+        "dairy",
+        "bakery",
+        "confectionery",
+        "snack",
+        "agrifood",
+    ],
 }
 
 _USE_CASES = [

@@ -12,6 +12,15 @@ class BeverageVertical(str, Enum):
     WHISKEY = "whiskey"
     WINE = "wine"
     MULTIPLE = "multiple"
+    # Adjacent lane, not the headline. Soft drinks, water, juice, energy and the
+    # food-and-beverage majors that run AI across a portfolio which includes
+    # drinks. The radar still leads on beer, whiskey and wine; this exists so a
+    # PepsiCo or a Coca-Cola can be tracked without being mislabelled as one of
+    # the three core verticals.
+    NON_ALCOHOLIC = "non_alcoholic"
+    # Food groups whose AI work is worth tracking because the same models,
+    # vendors and people cross over into drinks. Also adjacent, never the lead.
+    FOOD = "food"
 
 
 class AIMaturity(str, Enum):

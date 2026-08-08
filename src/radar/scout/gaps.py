@@ -60,10 +60,16 @@ def find_gaps(
 
     gaps: list[dict] = []
 
+    # NON_ALCOHOLIC is an adjacent lane we opt into deliberately, not ground we
+    # are failing to cover. Left in the universe it would sit near zero forever,
+    # permanently outrank whiskey as "thinnest vertical", and aim every scout
+    # sweep at soft drinks. The radar leads on beer, whiskey and wine.
+    ADJACENT = {BeverageVertical.NON_ALCOHOLIC, BeverageVertical.FOOD}
+    core_verticals = [v.value for v in BeverageVertical if v not in ADJACENT]
     gaps += _slice_gaps(
         "vertical",
-        Counter(c.vertical.value for c in companies if c.vertical),
-        [v.value for v in BeverageVertical],
+        Counter(c.vertical.value for c in companies if c.vertical and c.vertical not in ADJACENT),
+        core_verticals,
         total,
     )
     gaps += _slice_gaps(
