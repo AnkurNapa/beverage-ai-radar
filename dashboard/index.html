@@ -410,6 +410,42 @@
       <p>I am Ankur Napa, a brewer who learned to code. I spent years on the brewery floor and then years in data, and I kept meeting people quietly doing the same thing: using AI, machine learning, and analytics to make better beer, whiskey, and wine. We were all working in parallel and rarely finding each other.</p>
       <p>Beverage-AI Radar is my attempt to fix that. It is one honest, source-cited map of who is applying AI and data across the drinks industry: the companies, the open-source projects, the research, the case studies, and above all the people. Every entry links to real evidence. Nothing here is invented.</p>
 
+      <h2>The rules this dataset follows</h2>
+      <p>A landscape is only worth reading if you can tell what has been checked and what has not. These are the rules every entry is held to, stated so you can hold them against the data yourself.</p>
+
+      <h3>Evidence</h3>
+      <ul>
+        <li><strong>Two sources minimum, one of them the company's own site.</strong> A record with no working domain does not get published. If a claim only exists in a press release and not on the vendor's own pages, the entry says so.</li>
+        <li><strong>Inventing capability is the one unforgivable error.</strong> Marketing language is never upgraded into a machine-learning claim. Where a vendor's launch coverage said "computer vision plus an LLM" and the vendor's own methodology page said deterministic text matching, the entry follows the vendor.</li>
+        <li><strong>Blocked is not the same as absent.</strong> Sites behind Cloudflare or built entirely in JavaScript are recorded as blocked, with the reason, rather than quietly dropped. Otherwise the data would imply those vendors publish nothing.</li>
+      </ul>
+
+      <h3>Companies that make no AI claim stay in</h3>
+      <p>Roughly a third of every sweep turns up equipment makers, consultancies and systems of record with real operations and no AI story. They are kept and labelled <em>no AI claim</em>, filterable in one click. Removing them would flatter the field; inflating them would corrupt it. Both are worse than saying plainly what is there.</p>
+      <p>This rule exists because the opposite once happened here: the maturity scale had no value for a checked negative, so 114 honestly-recorded non-AI companies were published as shipping AI. The fix was a value that can express "checked, and the answer is no".</p>
+
+      <h3>Verified against provisional</h3>
+      <p>Entries found by an automated scout are marked <code>verified: false</code> until a human confirms them. Treat that flag as the difference between "someone checked this" and "something found this". First-party claims that are not independently evidenced carry the same flag and say so in the description.</p>
+
+      <h3>Verticals</h3>
+      <p>Beer, whiskey and wine are the subject. Non-alcoholic drinks and food are adjacent lanes, tracked because the same vendors, models and people cross over, and deliberately excluded from the coverage-gap analysis so they never pull the research away from the core three.</p>
+
+      <h3>How the data is gathered</h3>
+      <ul>
+        <li><strong>Curated seed.</strong> Hand-verified companies, the authoritative source.</li>
+        <li><strong>Scout sweeps.</strong> Agents work assigned surfaces, then every find is merged through a domain check and a duplicate check before it can enter.</li>
+        <li><strong>Resource sweeps.</strong> Peer-reviewed work through the OpenAlex API; talks from YouTube search; industry white papers from vendor listings. Each sweep applies the same gate: a record must mention a drink AND a technology, and known false friends are excluded by name.</li>
+        <li><strong>Weekly, on a schedule.</strong> The sweeps re-run every Sunday and commit only when something actually changed.</li>
+      </ul>
+      <p>That last gate matters more than it sounds. A search for "wine machine learning" returns almost nothing but tutorials using one teaching dataset, and "brewery machine learning" returns a coding bootcamp called The App Brewery. Both are excluded by rule, not by hand.</p>
+
+      <h3>What is deliberately not here</h3>
+      <ul>
+        <li>No private or personal data. Contact details that appear on public posters are not republished.</li>
+        <li>No confidential material. Anything shared in a private conversation stays out, however relevant.</li>
+        <li>No tracking of you. Reading history and recommendations are computed in your own browser and never leave it.</li>
+      </ul>
+
       <h2>How it helps</h2>
       <ul>
         <li><strong>Find the field.</strong> See at a glance who is shipping, who is piloting, and who is researching across beer, whiskey, and wine.</li>

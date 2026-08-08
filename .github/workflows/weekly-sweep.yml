@@ -1,0 +1,80 @@
+name: Weekly resource sweep
+
+# Sunday 02:00 India time. IST is UTC+5:30, so that is Saturday 20:30 UTC and
+# the cron day-of-week is 6 (Saturday), NOT 0. Getting this wrong is the classic
+# way a "Sunday" job silently runs on the wrong day.
+on:
+  schedule:
+    - cron: "30 20 * * 6"
+  workflow_dispatch:      # so it can be run by hand without waiting a week
+
+permissions:
+  contents: write         # needed: this job commits refreshed data back
+
+concurrency:
+  group: weekly-sweep
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Each sweep is allowed to fail without killing the run. They hit third
+      # party sites; one being down or rate limiting from a GitHub runner IP is
+      # an expected Sunday, not a reason to lose the other three.
+      - name: Sweep peer-reviewed papers (OpenAlex)
+        continue-on-error: true
+        run: python3 scripts/sweep_papers.py
+
+      - name: Sweep YouTube talks
+        continue-on-error: true
+        run: python3 scripts/sweep_videos.py
+
+      - name: Sweep vendor white papers
+        continue-on-error: true
+        run: python3 scripts/sweep_whitepapers.py
+
+      - name: Refresh Ankur blog archive
+        continue-on-error: true
+        run: python3 scripts/build_ankur_archive.py
+
+      # These two are pure local rebuilds, so a failure here IS worth failing on.
+      - name: Rebuild resources
+        run: python3 scripts/build_resources.py
+
+      - name: Rebuild events
+        run: python3 scripts/build_events.py
+
+      - name: Report what changed
+        run: |
+          echo "### Weekly sweep" >> "$GITHUB_STEP_SUMMARY"
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, collections, pathlib
+          for name in ("resources", "events"):
+              p = pathlib.Path("dashboard") / f"{name}.json"
+              if p.exists():
+                  rows = json.loads(p.read_text())
+                  key = "kind" if name == "resources" else "state"
+                  counts = dict(collections.Counter(r.get(key) for r in rows))
+                  print(f"- **{name}**: {len(rows)} total, {counts}")
+          PY
+          git --no-pager diff --stat >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Commit if anything actually changed
+        run: |
+          git config user.name  "beverage-ai-radar bot"
+          git config user.email "actions@github.com"
+          git add data/resources dashboard/resources.json dashboard/events.json data/events.json
+          # An empty commit every Sunday is noise that buries the real ones.
+          if git diff --cached --quiet; then
+            echo "nothing new this week"
+            exit 0
+          fi
+          git commit -m "chore: weekly sweep $(date -u +%Y-%m-%d)"
+          git push
