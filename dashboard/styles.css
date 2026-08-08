@@ -1600,3 +1600,14 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
 .foryou__list { list-style: none; margin: 0; padding: 0; display: grid; gap: .45rem; }
 .foryou__list li { display: flex; gap: .5rem; align-items: baseline; flex-wrap: wrap; }
 .foryou__list a { font-weight: 600; }
+
+/* Open-data links in the footer. Kept on every page on purpose: companies.html
+   is the no-JavaScript surface that crawlers and LLM readers actually parse,
+   and a site-wide internal link is what keeps it crawled. The label is what
+   turns four bare links into a deliberate offer rather than developer debris. */
+.foot__data { display: block; margin-top: .6rem; }
+.foot__data-label {
+  display: inline-block; margin-right: .5rem;
+  font-size: .7rem; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--muted);
+}
