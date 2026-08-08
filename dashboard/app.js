@@ -2008,6 +2008,21 @@ async function main() {
   // Footer shortcuts into a tab. Uses a real click on the tab button rather
   // than calling showView directly, so the tab's own selected state and aria
   // attributes update the same way they do for a normal click.
+  // Footer vertical links: open Companies already filtered. Setting the select
+  // and dispatching input drives the same path a human click takes, so the
+  // count, the map and the grid all update together rather than drifting.
+  for (const el of document.querySelectorAll("[data-vertical]")) {
+    el.addEventListener("click", (e) => {
+      e.preventDefault();
+      $("tab-companies").click();
+      const sel = $("f-vertical");
+      if (sel) {
+        sel.value = el.dataset.vertical;
+        sel.dispatchEvent(new Event("input", { bubbles: true }));
+      }
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
   for (const el of document.querySelectorAll("[data-goto]")) {
     el.addEventListener("click", (e) => {
       e.preventDefault();

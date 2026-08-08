@@ -689,7 +689,8 @@ a:hover { color: var(--accent-hover); }
   display: grid; gap: 2.25rem 3rem;
   /* Brand column earns more room than the link columns; auto-fit would give
      all four equal weight and flatten the hierarchy. */
-  grid-template-columns: 1.6fr 1fr 1fr 1.2fr;
+  /* Brand leads; four link columns then the single call to action. */
+  grid-template-columns: 1.5fr repeat(3, .85fr) 1.05fr;
   align-items: start;
 }
 .foot__mark {
@@ -734,7 +735,11 @@ a:hover { color: var(--accent-hover); }
 .foot strong { color: #fff; font-weight: 400; }
 .foot code { background: rgba(255, 255, 255, .12); padding: .1rem .4rem; color: #fff; }
 
-@media (max-width: 60rem) {
+@media (max-width: 75rem) {
+  .foot__grid { grid-template-columns: repeat(3, 1fr); }
+  .foot__brand { grid-column: 1 / -1; }
+}
+@media (max-width: 52rem) {
   .foot__grid { grid-template-columns: 1fr 1fr; }
   .foot__brand { grid-column: 1 / -1; }
 }
@@ -1717,7 +1722,14 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
 body:not([data-view="home"]) .hero__eyebrow,
 body:not([data-view="home"]) .hero__title,
 body:not([data-view="home"]) .hero__lede { display: none; }
-body:not([data-view="home"]) .hero { padding-top: 1.5rem; padding-bottom: .25rem; }
+body:not([data-view="home"]) .hero {
+  padding-top: 1.25rem; padding-bottom: .75rem;
+  /* The hero paints a surface panel with a border. Behind a full masthead that
+     reads as deliberate; with only a search box left it becomes a stray
+     rectangle whose edges do not line up with the bars beneath it. Off the
+     landing view the search sits on the page ground instead. */
+  background: transparent; border-bottom: 0;
+}
 body:not([data-view="home"]) .hero__search { margin-top: 0; }
 /* About is prose and reads better with room to breathe. */
 body[data-view="about"] .hero { padding-bottom: 1rem; }
