@@ -470,6 +470,10 @@ function showView(which) {
   }
   $("tabs").hidden = false;
   $("kpis").hidden = which === "about";
+  const wn = $("whatsnew");
+  if (wn) wn.hidden = !(wn.dataset.hasContent && whatsNewBelongsHere());
+  const hb = $("hintbar");
+  if (hb && which === "about") hb.hidden = true;
   renderHint(which);
   if (which === "companies") renderKpis(LAST_SHOWN || ALL);
   else if (which === "home") renderKpis(ALL);
@@ -1887,6 +1891,14 @@ function newSincePrevious() {
   return ALL.filter((c) => c.first_seen && Date.parse(c.first_seen) > PREVIOUS_VISIT);
 }
 
+// The reading-history bar reports on COMPANY reading state, so it belongs on
+// the landing view and the companies grid. On About it sat above prose telling
+// the reader how many companies they had not opened, which answers a question
+// nobody asked on that page.
+function whatsNewBelongsHere() {
+  return CURRENT_TAB === "home" || CURRENT_TAB === "companies";
+}
+
 function renderWhatsNew() {
   const box = $("whatsnew");
   const fresh = newSincePrevious();
@@ -1897,7 +1909,10 @@ function renderWhatsNew() {
   if (counts.new) bits.push(`<strong>${counts.new}</strong> you have not opened`);
   if (stars) bits.push(`<strong>${stars}</strong> shortlisted`);
   if (!bits.length) { box.hidden = true; return; }
-  box.hidden = false;
+  // Whether there is anything to say. Where it may be said is decided in
+  // showView, so the two rules never fight over the same flag.
+  box.dataset.hasContent = "1";
+  box.hidden = !whatsNewBelongsHere();
   box.innerHTML = `<div class="wnew">
     <span class="wnew__t">${bits.join(" · ")}</span>
     ${counts.new ? `<button class="wnew__b" data-act="unread" type="button">Show unopened</button>` : ""}

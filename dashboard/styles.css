@@ -7,6 +7,14 @@
    Both brand faces are licensed, so this uses the fallback chains McKinsey's
    own CSS declares — Georgia for the serif, Helvetica Neue/Calibri/Corbel for
    the sans. No webfont request, nothing to license, same silhouette. */
+/* The hidden attribute is enforced by a USER-AGENT display:none, and any
+   author display declaration outranks it. .kpis is display:grid, so
+   element.hidden = true was silently doing nothing and the KPI strip kept
+   showing stale figures from the previously viewed tab, Jobs numbers on the
+   About page among them. .door and .grid had the same latent defect. One rule,
+   applied once, rather than a display:none patch at every call site. */
+[hidden] { display: none !important; }
+
 :root {
   /* Pure #000 on pure #fff is the highest contrast available and reads as
      glare over long sessions. Softening both ends keeps well above WCAG AA
