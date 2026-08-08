@@ -443,6 +443,14 @@ function showView(which) {
     tab.setAttribute("aria-selected", String(which === v));
   }
   $("view-detail").hidden = true;
+  // The upcoming ticker belongs where a date is useful: the landing view and
+  // the Events tab. On People, Jobs, Prospects and About it is a permanent
+  // band of unrelated motion above the content the reader actually came for,
+  // and persistent motion with no relevance is just noise wearing a badge.
+  const strip = $("eventstrip");
+  if (strip && !strip.dataset.empty) {
+    strip.hidden = !(which === "companies" || which === "events");
+  }
   $("tabs").hidden = false;
   $("kpis").hidden = which === "about";
   renderHint(which);
@@ -1022,7 +1030,7 @@ function dateRange(e) {
 function renderEventStrip() {
   const dated = EVENTS.filter((e) => e.state === "upcoming" && e.start);
   const strip = $("eventstrip");
-  if (!dated.length) { strip.hidden = true; return; }
+  if (!dated.length) { strip.hidden = true; strip.dataset.empty = "1"; return; }
   const byMonth = new Map();
   for (const e of dated) {
     const k = monthLabel(e.start);
@@ -1085,7 +1093,8 @@ function renderEventStrip() {
     const secs = Math.min(120, Math.max(18, Math.round(px / 70)));
     $("eventstrip-text").style.setProperty("--marquee-duration", secs + "s");
   });
-  strip.hidden = false;
+  delete strip.dataset.empty;
+  strip.hidden = !(CURRENT_TAB === "companies" || CURRENT_TAB === "events");
 }
 
 function eventCard(e) {
@@ -1977,6 +1986,16 @@ async function main() {
   $("tab-events").addEventListener("click", () => showView("events"));
   $("tab-prospects").addEventListener("click", () => showView("prospects"));
   $("tab-about").addEventListener("click", () => showView("about"));
+  // Footer shortcuts into a tab. Uses a real click on the tab button rather
+  // than calling showView directly, so the tab's own selected state and aria
+  // attributes update the same way they do for a normal click.
+  for (const el of document.querySelectorAll("[data-goto]")) {
+    el.addEventListener("click", (e) => {
+      e.preventDefault();
+      const tab = $("tab-" + el.dataset.goto);
+      if (tab) { tab.click(); window.scrollTo({ top: 0, behavior: "smooth" }); }
+    });
+  }
 
   // card click -> detail route (but let inner links behave normally)
   const cardNav = (e) => {
