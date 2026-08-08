@@ -428,8 +428,25 @@ function applyPeople() {
     : `<p class="empty">No people match.</p>`;
 }
 
-const VIEWS = ["companies", "people", "resources", "jobs", "events", "prospects", "about"];
-let CURRENT_TAB = "companies";
+const VIEWS = ["home", "companies", "people", "resources", "jobs", "events", "prospects", "about"];
+let CURRENT_TAB = "home";
+
+// Door counts on the landing view. Filled from the loaded data rather than
+// hardcoded, so a door can never advertise a number the tab does not have.
+function paintDoors() {
+  const set = (id, n) => { const el = $(id); if (el && n != null) el.textContent = String(n); };
+  set("door-companies", ALL.length);
+  set("door-people", (typeof PEOPLE !== "undefined" && PEOPLE.length) ? PEOPLE.length : null);
+  set("door-resources", (typeof RES !== "undefined" && RES.length) ? RES.length : null);
+  set("door-events", (typeof EVENTS !== "undefined" && EVENTS.length) ? EVENTS.length : null);
+  set("door-jobs", (typeof JOBS !== "undefined" && JOBS.length) ? JOBS.length : null);
+  // A tab that loaded nothing hides its door rather than showing a blank one.
+  for (const k of ["people", "resources", "events", "jobs"]) {
+    const el = $("door-" + k);
+    if (el && !el.textContent.trim()) el.closest(".door").hidden = true;
+  }
+}
+
 function showView(which) {
   CURRENT_TAB = which;
   track("tab_view", { tab: which });
@@ -449,12 +466,13 @@ function showView(which) {
   // and persistent motion with no relevance is just noise wearing a badge.
   const strip = $("eventstrip");
   if (strip && !strip.dataset.empty) {
-    strip.hidden = !(which === "companies" || which === "events");
+    strip.hidden = !(which === "home" || which === "events");
   }
   $("tabs").hidden = false;
   $("kpis").hidden = which === "about";
   renderHint(which);
   if (which === "companies") renderKpis(LAST_SHOWN || ALL);
+  else if (which === "home") renderKpis(ALL);
   else kpisFor(which);
   window.scrollTo(0, 0);
 }
@@ -1094,7 +1112,7 @@ function renderEventStrip() {
     $("eventstrip-text").style.setProperty("--marquee-duration", secs + "s");
   });
   delete strip.dataset.empty;
-  strip.hidden = !(CURRENT_TAB === "companies" || CURRENT_TAB === "events");
+  strip.hidden = !(CURRENT_TAB === "home" || CURRENT_TAB === "events");
 }
 
 function eventCard(e) {
@@ -1892,7 +1910,7 @@ function renderWhatsNew() {
       if (!confirm("Forget which entries you have opened? Shortlist and saved views are kept.")) return;
       clearSeen();
     } else {
-      showView("companies");
+      showView("home");
       $("f-seen").value = act === "stars" ? "star" : "new";
       $("f-seen").dispatchEvent(new Event("input", { bubbles: true }));
     }
@@ -1979,6 +1997,7 @@ async function main() {
   fillSelect($("fp-source"), counts(PEOPLE, "source").map((x) => x[0]));
   for (const id of ["pq", "fp-vertical", "fp-country", "fp-linkedin", "fp-theme", "fp-source"]) $(id).addEventListener("input", applyPeople);
   applyPeople();
+  $("tab-home").addEventListener("click", () => showView("home"));
   $("tab-companies").addEventListener("click", () => showView("companies"));
   $("tab-people").addEventListener("click", () => showView("people"));
   $("tab-resources").addEventListener("click", () => showView("resources"));
@@ -2019,6 +2038,7 @@ async function main() {
   await loadResources();
   await loadJobs();
   await loadEvents();
+  try { paintDoors(); } catch (e) { /* doors are a convenience, never a blocker */ }
   await loadProspects();
 
   // global search: one box drives every tab + shows where matches are

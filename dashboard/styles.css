@@ -1669,3 +1669,55 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
   font-size: .7rem; letter-spacing: .08em; text-transform: uppercase;
   color: var(--muted);
 }
+
+/* --- Landing view ("doors") ---------------------------------------------
+ * The companies grid renders 592 cards, so it made the first thing a visitor
+ * met an 8000px scroll. This view stays short on purpose: say what the thing
+ * is, then offer doors. Each door carries its real count, so the promise on
+ * the card matches what is behind it.
+ */
+.home__doors {
+  display: grid; gap: 1px;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  margin-bottom: 1.5rem;
+}
+/* The hairline lives on each door, not on the container. Painting the
+   container and letting the gap show through is the usual trick, but it fills
+   every EMPTY cell with the rule colour too, so an unfilled last row renders
+   as a grey slab. Per-door outlines overlap across the 1px gap into a single
+   hairline and leave empty cells as page. */
+.door {
+  display: block; padding: 1.4rem 1.3rem 1.5rem;
+  background: var(--surface); color: inherit; text-decoration: none;
+  box-shadow: 0 0 0 1px var(--line);
+  transition: background 140ms ease, box-shadow 140ms ease;
+}
+.door:hover, .door:focus-visible { background: var(--raised); box-shadow: 0 0 0 1px var(--line-strong); }
+.door:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.door__n {
+  display: block; font-family: var(--serif); font-size: 2.1rem; line-height: 1;
+  color: var(--ink); margin-bottom: .5rem;
+}
+.door__n--rules { font-size: 1.25rem; color: var(--muted); padding-top: .7rem; }
+.door__t { display: block; font-weight: 600; margin-bottom: .3rem; color: var(--ink); }
+.door__d { display: block; color: var(--muted); font-size: .875rem; line-height: 1.55; }
+.home__note {
+  border-left: 3px solid var(--accent); padding: .1rem 0 .1rem 1rem;
+  color: var(--body); max-width: 62ch;
+}
+.home__note p { margin: 0; }
+
+/* --- Hero only leads on the landing view --------------------------------
+ * The eyebrow, title and lede were repeating on every tab, so People and Jobs
+ * opened with a full screen of restatement before any content. A masthead
+ * earns its space once; after that the reader knows where they are and the
+ * tab bar says which section. The search stays, because that is a tool rather
+ * than a statement.
+ */
+body:not([data-view="home"]) .hero__eyebrow,
+body:not([data-view="home"]) .hero__title,
+body:not([data-view="home"]) .hero__lede { display: none; }
+body:not([data-view="home"]) .hero { padding-top: 1.5rem; padding-bottom: .25rem; }
+body:not([data-view="home"]) .hero__search { margin-top: 0; }
+/* About is prose and reads better with room to breathe. */
+body[data-view="about"] .hero { padding-bottom: 1rem; }

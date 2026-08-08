@@ -170,6 +170,7 @@
     <div class="topbar__inner">
       <a class="topbar__brand" href="./">Beverage-AI&nbsp;Radar</a>
       <nav class="topnav" id="tabs" role="tablist" aria-label="Views">
+        <button id="tab-home" class="tab" data-short="Home" type="button" role="tab" aria-controls="view-home" aria-selected="true">Home</button>
         <button id="tab-companies" class="tab is-active" data-short="Companies" type="button" role="tab" aria-controls="view-companies" aria-selected="true">Companies &amp; ventures</button>
         <button id="tab-people" class="tab" data-short="People" type="button" role="tab" aria-controls="view-people" aria-selected="false">People</button>
         <button id="tab-resources" class="tab" data-short="Research" type="button" role="tab" aria-controls="view-resources" aria-selected="false">Research &amp; resources</button>
@@ -222,6 +223,48 @@
   <section class="kpis wrap" id="kpis" aria-label="Headline figures"></section>
 
   <main id="main">
+  <!-- Landing view. Deliberately short: the companies grid renders 592 cards
+       and made the first thing a visitor met an 8000px scroll. This says what
+       the thing is and offers doors; the heavy views load when chosen. -->
+  <section class="wrap view" id="view-home">
+    <section class="home__doors" aria-label="Where to start">
+      <a class="door" href="#" data-goto="companies">
+        <span class="door__n" id="door-companies">&nbsp;</span>
+        <span class="door__t">Companies &amp; ventures</span>
+        <span class="door__d">Who is building it, how far along, and the evidence for each claim.</span>
+      </a>
+      <a class="door" href="#" data-goto="people">
+        <span class="door__n" id="door-people">&nbsp;</span>
+        <span class="door__t">People</span>
+        <span class="door__d">The named practitioners, most of them directly reachable.</span>
+      </a>
+      <a class="door" href="#" data-goto="resources">
+        <span class="door__n" id="door-resources">&nbsp;</span>
+        <span class="door__t">Research &amp; resources</span>
+        <span class="door__d">Papers, white papers, open datasets, talks, repositories and blogs.</span>
+      </a>
+      <a class="door" href="#" data-goto="events">
+        <span class="door__n" id="door-events">&nbsp;</span>
+        <span class="door__t">Events</span>
+        <span class="door__d">Where the field gathers, in person and online, with what is coming up.</span>
+      </a>
+      <a class="door" href="#" data-goto="jobs">
+        <span class="door__n" id="door-jobs">&nbsp;</span>
+        <span class="door__t">Jobs</span>
+        <span class="door__d">Open roles applying AI and data in drinks, linked to the original posting.</span>
+      </a>
+      <a class="door" href="#" data-goto="about">
+        <span class="door__n door__n--rules">Rules</span>
+        <span class="door__t">How this is verified</span>
+        <span class="door__d">The evidence bar every entry is held to, and what is deliberately absent.</span>
+      </a>
+    </section>
+
+    <section class="home__note">
+      <p>Entries that make <strong>no AI claim</strong> are kept and labelled as such rather than removed or inflated. A landscape is only useful if you can tell which is which.</p>
+    </section>
+  </section>
+
   <section class="wrap view" id="view-companies">
     <section class="card wmap-card" aria-label="Where the companies are">
       <h2>Where they are <span class="wmap-hint">click a country to filter</span></h2>
