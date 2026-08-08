@@ -815,19 +815,24 @@ function applyEvents() {
   const q = $("eq").value.trim().toLowerCase();
   const fs = $("fe-state").value, fm = $("fe-mode").value;
   const fv = $("fe-vertical").value, fc = $("fe-country").value, fsp = $("fe-speaking").value;
-  const shown = EVENTS.filter((e) => {
+  // Everything except the country filter. The map is drawn from THIS, not from
+  // the full set: fed all events it would label the United States 5 while the
+  // default upcoming filter showed 1, so the number on the map contradicted
+  // what clicking it produced. Country is excluded from its own facet, or
+  // picking one country would erase every other and you could never switch.
+  const base = EVENTS.filter((e) => {
     if (fs && e.state !== fs) return false;
     if (fm && e.mode !== fm) return false;
     if (!matchesVertical(e, fv)) return false;
-    if (fc && e.country !== fc) return false;
     if (fsp === "1" && !e.speaking) return false;
     if (fsp === "0" && e.speaking) return false;
     if (q && !`${e.title} ${e.organiser} ${e.location} ${e.summary} ${(e.speakers || []).join(" ")}`.toLowerCase().includes(q)) return false;
     return true;
   });
+  const shown = base.filter((e) => !fc || e.country === fc);
   // Same renderer the Jobs tab uses, so the two maps behave identically: click a
   // country to drive the country filter, click again to clear it.
-  renderWorldMap($("world-events"), EVENTS, (e) => e.country, (place) => {
+  renderWorldMap($("world-events"), base, (e) => e.country, (place) => {
     const sel = $("fe-country");
     sel.value = place || "";
     sel.dispatchEvent(new Event("input", { bubbles: true }));
@@ -876,11 +881,15 @@ async function loadJobs() {
     const q = $("jq").value.trim().toLowerCase();
     const fv = $("fj-vertical").value, ft = $("fj-tracked").value, fc = $("fj-country").value;
     const fth = $("fj-theme").value;
-    const shown = JOBS.filter((j) =>
-      (!fv || j.vertical === fv) && (!ft || j.tracked_company) && (!fc || j.country === fc)
+    // Same facet rule as the events map: every filter EXCEPT country, so the
+    // count painted on a country matches what clicking it returns, while
+    // still leaving the other countries clickable.
+    const base = JOBS.filter((j) =>
+      (!fv || j.vertical === fv) && (!ft || j.tracked_company)
       && (!fth || j._theme === fth)
       && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
-    renderWorldMap($("world-jobs"), JOBS, (j) => j.country, (place) => {
+    const shown = base.filter((j) => !fc || j.country === fc);
+    renderWorldMap($("world-jobs"), base, (j) => j.country, (place) => {
       const sel = $("fj-country");
       sel.value = place || "";
       sel.dispatchEvent(new Event("input", { bubbles: true }));
