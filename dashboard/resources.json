@@ -2344,6 +2344,18 @@
     "theme": "Process & operations"
   },
   {
+    "kind": "news",
+    "label": "article",
+    "title": "From Hops to Bytes: A Brewer's Transformation into a Data Analyst",
+    "url": "https://www.linkedin.com/pulse/from-hops-bytes-brewers-transformation-data-analyst-ankur-napa",
+    "vertical": "beer",
+    "meta": "LinkedIn Articles · 2023 · iWort",
+    "summary": "Ankur Napa's own account of moving from the brewery floor into data work, and why brewing domain knowledge changes what a data practitioner can see in the numbers.",
+    "year": 2023,
+    "sort": "2023",
+    "theme": "Process & operations"
+  },
+  {
     "kind": "blog",
     "title": "AI in Sensory and the QA System",
     "url": "https://ankurnapa.github.io/2026/ai-brewery-lab-sensory-qa-system/",
@@ -2626,6 +2638,18 @@
     "vertical": "beer",
     "meta": "Beer, Wine & Whiskey AI (Ankur Napa) · Ankur Napa · 2026",
     "summary": "A practical, five-stage learning path for a working brewer who wants to get into AI — data literacy, spreadsheets to Power BI, Python, machine learning and generative AI — built entirely on free, open resources like Microsoft Learn, Kaggle and Google's PAIR guidebook.",
+    "featured": true,
+    "year": 2026,
+    "sort": "2026",
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "blog",
+    "title": "The Translator: When the Winemaker Is Also the Power BI Developer",
+    "url": "https://ankurnapa.github.io/2026/winemaker-power-bi-fabric-developer/",
+    "vertical": "wine",
+    "meta": "Beer, Wine & Whiskey AI (Ankur Napa) · Ankur Napa · 2026",
+    "summary": "What changes when one person has stood on the crush pad, run the ferments and pulled barrel samples — and also holds the Power BI and Microsoft Fabric certifications. Why the hybrid profile builds winery dashboards that survive a vintage, and the honest limits of being one.",
     "featured": true,
     "year": 2026,
     "sort": "2026",
@@ -3841,6 +3865,61 @@
     "year": null,
     "sort": 0,
     "theme": "Process & operations"
+  },
+  {
+    "kind": "dataset",
+    "title": "Hops Health Image Dataset",
+    "url": "https://www.kaggle.com/datasets/ankurnapa/hops-health-image-dataset",
+    "vertical": "beer",
+    "meta": "Ankur Napa (Kaggle) · 2023",
+    "summary": "331 MB image set of hop plants labelled by health state, published for computer vision work on hop crop condition. Openly licensed imagery of hops is close to non-existent, which makes this one of the few starting points for disease and stress detection in the hop field rather than in the brewhouse.",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "dataset",
+    "title": "Hops Disease Dataset",
+    "url": "https://www.kaggle.com/datasets/ankurnapa/hops-disesease-ankur-napa",
+    "vertical": "beer",
+    "meta": "Ankur Napa (Kaggle) · 2023",
+    "summary": "366 MB companion image set focused on hop disease classes. Pairs with the Hops Health set for training and holdout, or for testing whether a model generalises across two separately collected hop image collections.",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "dataset",
+    "title": "Brewery Dataset",
+    "url": "https://www.kaggle.com/datasets/ankurnapa/brewery-dataset",
+    "vertical": "beer",
+    "meta": "Ankur Napa (Kaggle) · 2021",
+    "summary": "849 MB across three CSV files covering brewery production and product data. The largest of the open brewery-side sets here, and unusual in being production oriented rather than review oriented, which is what most open beer data turns out to be.",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "dataset",
+    "title": "Rate Beer Data",
+    "url": "https://www.kaggle.com/datasets/ankurnapa/rate-beer-data",
+    "vertical": "beer",
+    "meta": "Ankur Napa (Kaggle) · 2020",
+    "summary": "29 MB single-CSV extract of RateBeer reviews, packaged for direct use. A lighter alternative to the full Stanford SNAP RateBeer dump when the multi-gigabyte original is more than the question needs.",
+    "year": 2020,
+    "sort": 2020,
+    "theme": "Other"
+  },
+  {
+    "kind": "dataset",
+    "title": "Ankur's Beer Data Set",
+    "url": "https://www.kaggle.com/datasets/ankurnapa/ankurs-beer-data-set",
+    "vertical": "beer",
+    "meta": "Ankur Napa (Kaggle) · 2022",
+    "summary": "Small single-CSV beer dataset, rated 10.0 on Kaggle usability. Useful as a clean teaching or smoke-test set where the large review corpora are unnecessary.",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Other"
   },
   {
     "kind": "video",

@@ -238,5 +238,15 @@
     "url": "https://ankurnapa.github.io/2026/brewer-ai-roadmap-step-by-step/",
     "summary": "A practical, five-stage learning path for a working brewer who wants to get into AI — data literacy, spreadsheets to Power BI, Python, machine learning and generative AI — built entirely on free, open resources like Microsoft Learn, Kaggle and Google's PAIR guidebook.",
     "featured": true
+  },
+  {
+    "title": "The Translator: When the Winemaker Is Also the Power BI Developer",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/winemaker-power-bi-fabric-developer/",
+    "summary": "What changes when one person has stood on the crush pad, run the ferments and pulled barrel samples — and also holds the Power BI and Microsoft Fabric certifications. Why the hybrid profile builds winery dashboards that survive a vintage, and the honest limits of being one.",
+    "featured": true
   }
 ]

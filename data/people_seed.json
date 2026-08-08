@@ -11,10 +11,11 @@
     "source_urls": [
       "https://www.linkedin.com/in/ankur-napa/",
       "https://github.com/AnkurNapa",
-      "https://ankurnapa.github.io/"
+      "https://ankurnapa.github.io/",
+      "https://www.kaggle.com/ankurnapa"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-08-04",
+    "last_seen": "2026-08-09",
     "company": "Disruptive Advantage",
     "company_key": "iwort.com",
     "linkedin_id": "ankur-napa",
@@ -34,6 +35,66 @@
         "label": "Talk: Bridging the Gap Between AI and Brewing",
         "kind": "video",
         "url": "https://www.youtube.com/watch?v=_VUIoeRdcHQ"
+      },
+      {
+        "label": "Blog: Beer, Wine & Whiskey AI",
+        "kind": "blog",
+        "url": "https://ankurnapa.github.io/"
+      },
+      {
+        "label": "GitHub: AnkurNapa",
+        "kind": "code",
+        "url": "https://github.com/AnkurNapa"
+      },
+      {
+        "label": "Kaggle datasets",
+        "kind": "dataset",
+        "url": "https://www.kaggle.com/ankurnapa/datasets"
+      },
+      {
+        "label": "Beverage-AI Radar (this site)",
+        "kind": "project",
+        "url": "https://ankurnapa.github.io/beverage-ai-radar/"
+      },
+      {
+        "label": "Indian Brewing Calculator",
+        "kind": "project",
+        "url": "https://ankurnapa.github.io/indian-brewing-calculator/"
+      },
+      {
+        "label": "Advanced Brewing Calculator",
+        "kind": "project",
+        "url": "https://ankurnapa.github.io/advanced-brewing-calc/"
+      },
+      {
+        "label": "Aroma Forge (malt aroma prediction)",
+        "kind": "project",
+        "url": "https://ankurnapa.github.io/aroma-forge/"
+      },
+      {
+        "label": "Bengaluru Tableau User Group",
+        "kind": "community",
+        "url": "https://ankurnapa.github.io/btug/"
+      },
+      {
+        "label": "JobGrab (open-source job tracker)",
+        "kind": "code",
+        "url": "https://github.com/AnkurNapa/jobgrab"
+      },
+      {
+        "label": "Topmate: sessions and courses",
+        "kind": "profile",
+        "url": "https://topmate.io/ankur_napa/"
+      },
+      {
+        "label": "Press: Brewer World profile of iWort",
+        "kind": "press",
+        "url": "https://www.brewer-world.com/smart-brewing-at-iwort-using-algorithms-to-keep-up-with-beer-tastes/"
+      },
+      {
+        "label": "Podcast: AI in Brewing (Buzzsprout)",
+        "kind": "podcast",
+        "url": "https://www.buzzsprout.com/2202528/episodes/15219065-ep-24-artificial-intelligence-ai-in-brewing-ankur-napa"
       }
     ]
   },

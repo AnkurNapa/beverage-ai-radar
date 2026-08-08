@@ -28,7 +28,12 @@ OUT = ROOT / "dashboard" / "resources.json"
 ANKUR_FEED = "https://ankurnapa.github.io/feed.xml"
 ANKUR_BLOG = "Beer, Wine & Whiskey AI (Ankur Napa)"
 ANKUR_CACHE = SRC / "_ankur_blogs.cache.json"
-ANKUR_LIMIT = 24
+# The feed exposes ~25 posts; the blog itself has ~320 English posts. Taking the
+# feed's full window rather than a 24 slice, but deliberately NOT ingesting all
+# 320: at that point Ankur's own blog would be 40 percent of every resource on
+# the site, and a landscape that is mostly its author stops being a landscape.
+# The full archive is linked from his profile instead.
+ANKUR_LIMIT = 50
 
 
 def _vertical_from(cats, text):

@@ -558,5 +558,15 @@
     "company": "Diageo",
     "url": "https://software.strategy.com/customer-stories/diageo",
     "summary": "Diageo applies AI analytics across its manufacturing estate, the spirits counterpart to the brewing case studies already tracked."
+  },
+  {
+    "title": "From Hops to Bytes: A Brewer's Transformation into a Data Analyst",
+    "url": "https://www.linkedin.com/pulse/from-hops-bytes-brewers-transformation-data-analyst-ankur-napa",
+    "publication": "LinkedIn Articles",
+    "date": "2023",
+    "company": "iWort",
+    "vertical": "beer",
+    "kind": "article",
+    "summary": "Ankur Napa's own account of moving from the brewery floor into data work, and why brewing domain knowledge changes what a data practitioner can see in the numbers."
   }
 ]

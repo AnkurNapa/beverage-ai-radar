@@ -18151,10 +18151,11 @@
     "source_urls": [
       "https://ankurnapa.github.io/",
       "https://github.com/AnkurNapa",
+      "https://www.kaggle.com/ankurnapa",
       "https://www.linkedin.com/in/ankur-napa/"
     ],
     "first_seen": "2024-01-01",
-    "last_seen": "2026-08-04",
+    "last_seen": "2026-08-09",
     "status": "active",
     "linkedin_url": "https://www.linkedin.com/in/ankur-napa/",
     "github_url": null,
@@ -18178,6 +18179,66 @@
         "label": "Talk: Bridging the Gap Between AI and Brewing",
         "kind": "video",
         "url": "https://www.youtube.com/watch?v=_VUIoeRdcHQ"
+      },
+      {
+        "label": "Blog: Beer, Wine & Whiskey AI",
+        "kind": "blog",
+        "url": "https://ankurnapa.github.io/"
+      },
+      {
+        "label": "GitHub: AnkurNapa",
+        "kind": "code",
+        "url": "https://github.com/AnkurNapa"
+      },
+      {
+        "label": "Kaggle datasets",
+        "kind": "dataset",
+        "url": "https://www.kaggle.com/ankurnapa/datasets"
+      },
+      {
+        "label": "Beverage-AI Radar (this site)",
+        "kind": "project",
+        "url": "https://ankurnapa.github.io/beverage-ai-radar/"
+      },
+      {
+        "label": "Indian Brewing Calculator",
+        "kind": "project",
+        "url": "https://ankurnapa.github.io/indian-brewing-calculator/"
+      },
+      {
+        "label": "Advanced Brewing Calculator",
+        "kind": "project",
+        "url": "https://ankurnapa.github.io/advanced-brewing-calc/"
+      },
+      {
+        "label": "Aroma Forge (malt aroma prediction)",
+        "kind": "project",
+        "url": "https://ankurnapa.github.io/aroma-forge/"
+      },
+      {
+        "label": "Bengaluru Tableau User Group",
+        "kind": "community",
+        "url": "https://ankurnapa.github.io/btug/"
+      },
+      {
+        "label": "JobGrab (open-source job tracker)",
+        "kind": "code",
+        "url": "https://github.com/AnkurNapa/jobgrab"
+      },
+      {
+        "label": "Topmate: sessions and courses",
+        "kind": "profile",
+        "url": "https://topmate.io/ankur_napa/"
+      },
+      {
+        "label": "Press: Brewer World profile of iWort",
+        "kind": "press",
+        "url": "https://www.brewer-world.com/smart-brewing-at-iwort-using-algorithms-to-keep-up-with-beer-tastes/"
+      },
+      {
+        "label": "Podcast: AI in Brewing (Buzzsprout)",
+        "kind": "podcast",
+        "url": "https://www.buzzsprout.com/2202528/episodes/15219065-ep-24-artificial-intelligence-ai-in-brewing-ankur-napa"
       }
     ],
     "affiliated_company": "Disruptive Advantage",
@@ -25823,8 +25884,8 @@
     "notable_customers_partners": null,
     "short_description": "PepsiCo announced a multi-year collaboration with Siemens and NVIDIA at CES 2026 to build physics-based digital twins of its plants and warehouses, using Siemens Digital Twin Composer on NVIDIA Omniverse. AI agents simulate, test and refine line configurations before anything physical is built, modelling machines, conveyors, pallet routes and operator paths. PepsiCo reports a 20 percent throughput increase on initial deployment and 10 to 15 percent lower capital expenditure. Early pilots are underway in US manufacturing and warehouse sites, with plans to scale globally.",
     "source_urls": [
-      "https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia",
-      "https://www.arcweb.com/blog/pepsico-blueprint-what-industrial-ai-pacesetter-looks-2026"
+      "https://www.arcweb.com/blog/pepsico-blueprint-what-industrial-ai-pacesetter-looks-2026",
+      "https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia"
     ],
     "first_seen": "2026-01-06",
     "last_seen": "2026-08-09",
@@ -25864,8 +25925,8 @@
     "notable_customers_partners": null,
     "short_description": "Coca-Cola runs Project Fizzion, a design intelligence system co-developed with Adobe and announced in May 2025. It encodes brand guidelines into a machine-readable StyleID that automatically applies brand rules inside Adobe Creative Cloud, built on Adobe Firefly generative AI, and is used to keep localized campaigns consistent across more than 200 markets. Coca-Cola states content production up to 10 times faster and describes Fizzion as still in pilot phase. The company also has a five-year cloud and generative AI partnership with Microsoft. The AI here is marketing and brand operations, not production or formulation.",
     "source_urls": [
-      "https://www.coca-colacompany.com/media-center/the-coca-cola-company-introduces-fizzion",
-      "https://www.coca-colacompany.com/media-center/the-coca-cola-company-and-microsoft-announce-five-year-strategic-partnership-to-accelerate-cloud-and-generative-ai-initiatives"
+      "https://www.coca-colacompany.com/media-center/the-coca-cola-company-and-microsoft-announce-five-year-strategic-partnership-to-accelerate-cloud-and-generative-ai-initiatives",
+      "https://www.coca-colacompany.com/media-center/the-coca-cola-company-introduces-fizzion"
     ],
     "first_seen": "2025-05-15",
     "last_seen": "2026-08-09",
@@ -25989,8 +26050,8 @@
     "notable_customers_partners": null,
     "short_description": "Horizontal data and AI platform, not a beverage company. Included because it is the underlying platform for a growing share of beverage and CPG analytics work. It ships an industry Lakehouse for Retail and Consumer Goods with solution accelerators for demand forecasting, on-shelf availability and recall traceability. Named food and drink users include Danone, which adopted the Data Intelligence Platform in April 2025, plus Gousto, Reckitt and Restaurant Brands International. The AI is the platform capability, not a beverage-specific model.",
     "source_urls": [
-      "https://www.databricks.com/solutions/industries/retail-industry-solutions",
-      "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-data-lakehouse-for-retail-and-consumer-goods-customers"
+      "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-data-lakehouse-for-retail-and-consumer-goods-customers",
+      "https://www.databricks.com/solutions/industries/retail-industry-solutions"
     ],
     "first_seen": "2022-01-12",
     "last_seen": "2026-08-09",
@@ -26032,8 +26093,8 @@
     "notable_customers_partners": null,
     "short_description": "Horizontal cloud data platform, not a beverage company. Included because it carries a meaningful share of beverage and CPG data workloads. It ships an AI Data Cloud for Retail and Consumer Goods aimed at manufacturers, distributors and CPG vendors, with secure data sharing as the core mechanic. Named drinks-side users include Mark Anthony Group, owner of White Claw and a group of British Columbia wineries, plus US Foods and 84.51 on the retail data side. The AI is the platform capability, not a beverage-specific model.",
     "source_urls": [
-      "https://www.snowflake.com/en/solutions/industries/retail-consumer-goods/",
-      "https://www.snowflake.com/en/news/press-releases/snowflake-launches-retail-data-cloud-to-enable-collaboration-deliver-exceptional-customer-experiences-and-optimize-operations-for-retailers-2/"
+      "https://www.snowflake.com/en/news/press-releases/snowflake-launches-retail-data-cloud-to-enable-collaboration-deliver-exceptional-customer-experiences-and-optimize-operations-for-retailers-2/",
+      "https://www.snowflake.com/en/solutions/industries/retail-consumer-goods/"
     ],
     "first_seen": "2022-01-11",
     "last_seen": "2026-08-09",
