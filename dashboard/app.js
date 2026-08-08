@@ -3,7 +3,7 @@ import {
   isStarred, markSeen, mountPalette, recentlyOpened, saveView, savedViews, seenAt,
   seenCount, seenCounts,
   seenState, starCount, toggleStar,
-} from "./ux.js?v=31983dd59b";
+} from "./ux.js?v=ac50f4dcfd";
 
 // Beverage-AI Radar dashboard. Reads data.json (exported by `radar export`),
 // renders breakdown bars + a filterable company grid. Vanilla, no deps.
