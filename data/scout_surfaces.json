@@ -4,7 +4,7 @@
     "label": "Microsoft AppSource and Azure Marketplace",
     "hint": "appsource.microsoft.com, azuremarketplace.microsoft.com, Dynamics 365 Business Central beverage verticals, Microsoft partner case studies for brewing, distilling and wine.",
     "yield": "high",
-    "note": "Richest marketplace surface: the beverage ERP vertical genuinely lives here."
+    "note": "AppSource/Azure Marketplace HTML is a JS shell. Sweep the public catalog API instead: catalogapi.azure.com/offers?api-version=2018-08-01-beta (add storefront=appsource). 65,557 AppSource + 26,216 Azure offers, greppable for beverage keywords, zero WebSearch."
   },
   {
     "id": "aws",
@@ -18,7 +18,7 @@
     "label": "Google Cloud Marketplace and partner ecosystem",
     "hint": "cloud.google.com/marketplace, AI Agent Marketplace, Google Cloud customer case studies, BigQuery commercial datasets.",
     "yield": "low",
-    "note": "MEASURABLY EXHAUSTED as of 2026-08-05, do not run at full cost again. Exact denominator established: all 180 devsite sitemaps crawled -> 1,330 unique cloud.google.com/customers/* case studies, full text of all 1,330 fetched and grepped for beverage terms. 9 matched (0.7%), 6 of them false positives (coffee 'brewing', a redeveloped brewery site, tourism copy). Only AB InBev/Pluto7, Vivino and Asahi are genuine and the first three are already tracked, so true new yield was 1 of 1,330 (Asahi, Akamai-403 and making no AI claim anyway). Marketplace half is dead: console.cloud.google.com/marketplace and find-a-partner/search serve a byte-identical 2.95 MB JS shell to every query and cloud.google.com/__/json/customers serves the app shell to non-browser clients; no public JSON API exists. RE-CHECK BY SITEMAP DIFF ONLY, not a full re-crawl. Note Google-supplied AI (Vertex, Gemini) in these stories belongs to Google, not the customer."
+    "note": "Confirmed exhausted 2026-08-11 by sitemap diff rather than re-crawl: 71 of 180 sub-sitemaps changed, 1318 /customers/ URLs, zero new beverage hits. /marketplace/sitemap.xml 404s and find-a-partner serves a JS shell. Diff the sitemap; do not re-crawl."
   },
   {
     "id": "industrial",
@@ -109,7 +109,7 @@
     "label": "SAP ecosystem and beverage clients",
     "hint": "sap.com customer stories and news, SAP S/4HANA and Business One beverage verticals and their partner ISVs (Vision33, msg, All for One, NTT Data), SAP Store beverage listings, SAP IBP demand planning at brewers, distillers and wine groups, SAP Business AI / Joule deployments in drinks, SAP Ariba and traceability for hops, malt and grape supply. IMPORTANT disambiguation: exclude plant 'sap flow' sensors in viticulture, which are unrelated vine physiology, and do not match the brewer 'Sapporo' on the substring.",
     "yield": "high",
-    "note": "Blind spot: SAP appears only inside other companies' descriptions (Vision33 Business One brewery ERP, Lion Sri Lanka S/4HANA on GCP, an Accenture S/4HANA digital core) and is not tracked itself. Watch the Sapporo and vine-sap false positives."
+    "note": "sap.com is Akamai-403 walled, but news.sap.com COUNTRY EDITIONS are fetchable and carry the beverage stories. store.sap.com and partnerfinder.sap.com are JS shells."
   },
   {
     "id": "salesforce",
@@ -144,7 +144,7 @@
     "label": "Asian beer and beverage trade show exhibitors",
     "hint": "Exhibitor directories. China Brew China Beverage (CBB) Shanghai, Craft Beer China / Beviale Asia, ProWine Asia Singapore and Tokyo, FoodTech/Brew India and Brews and Spirits Expo India, Interbrew/Beer Asia, Japan Craft Beer trade events, Korea Sool and Seoul Food Tech, Thailand and Vietnam brewing supplier halls. Also Indian brewing equipment and software vendors serving microbreweries. Prioritise software, automation, sensor and lab-analytics exhibitors.",
     "yield": "high",
-    "note": "Verified 2026-08-04: 12 companies, 6 India / 2 China / 3 Japan / 1 Korea, the store's weakest geography. Only 2 made real AI claims. BLOCKED and still untapped, both are the densest sources on this surface: CBB renders its hall from a hidden cmsApi endpoint, and CBCE publishes exhibitors as logo images only. Tsingtao is behind an age gate. Yokogawa returns HTTP 202 with an empty body to every non-browser client and was hand-added on 2026-08-04. SEARCH FALLBACK that worked when the session budget was spent: WebFetch against https://html.duckduckgo.com/html/?q=... Brave via curl works briefly then blocks."
+    "note": "Brews and Spirits Expo India: exhibitor hall IS readable, previously logged blocked. The list lives in the logo image FILENAMES at brewsnspiritsexpo.com/exhibitor-list. CBB and CBCE remain browser-only."
   },
   {
     "id": "tradeshow_us",
@@ -159,5 +159,12 @@
     "hint": "Vertical supplier directories first, general startup databases last. BEST: wineindustrynetwork.com (search?keyword=... plus /c/<slug> pages, server-rendered and unblocked). Also: SOSV and Big Idea Ventures expose full portfolios via wp-json/wp/v2/company and /portfolio. Y Combinator's public API api.ycombinator.com/v0.1/companies works unauthenticated and returns all 6,127 companies. AVOID, all bot-walled: F6S, Wellfound, Techstars. Crunchbase rate-limits hard (403/429), leave it alone.",
     "yield": "high",
     "note": "Verified 2026-08-05: 14 companies. The Wine Industry Network supplier directory alone produced 10 of them; the full 6,127-company YC crawl produced almost nothing. Industry-specific directories beat general startup databases for a vertical radar, the same way trade shows beat cloud marketplaces. 4 of 14 made a real AI claim, the rest were honest none entries."
+  },
+  {
+    "id": "rag",
+    "label": "RAG and LLM knowledge solution providers for beverage",
+    "hint": "Vendors and integrators building retrieval-augmented generation, LLM copilots, document/knowledge assistants or semantic search over beverage industry data: brewing SOPs and batch records, QA/QC and food-safety documentation, HACCP, distillery and winery compliance (TTB, excise, label approval), technical libraries (MBAA, IBD, ASBC, AWRI, OIV), supplier spec sheets and CoAs, sensory panel notes, tasting notes and wine/whisky catalogues, sales-rep and distributor copilots for beverage route to market. Look for named beverage or food-and-beverage customers and case studies, not generic 'chat with your PDF' startups. Include LLM/RAG platform vendors ONLY where a beverage, brewing, distilling, winery or food-and-beverage manufacturing customer or use case is named on their own site.",
+    "yield": "medium",
+    "note": "New surface (2026-08-11). Highest signal: vendor case-study pages naming a brewery, distillery, winery or drinks group; food-and-beverage manufacturing RAG copilots; wine/spirits retail and sommelier recommendation assistants where the vendor sells the tech. Beware AI-written listicles of 'best RAG tools' - they are a known contamination source and are not a second source."
   }
 ]

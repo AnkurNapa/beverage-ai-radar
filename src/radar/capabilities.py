@@ -64,6 +64,20 @@ CAPABILITY_RULES: list[tuple[str, str]] = [
 
 _COMPILED = [(re.compile(p, re.I), name) for p, name in CAPABILITY_RULES]
 
+# Descriptions here routinely say "makes no AI or machine learning claim". That is
+# a FINDING, and rule 1 of the scout brief depends on it staying one. A bare keyword
+# match read those disclaimers as evidence of AI and tagged all 174 of them "AI & ML",
+# Anheuser-Busch InBev and Endress+Hauser included. Blank the negated span before the
+# AI rule runs, and only for that rule, so a disclaimer cannot mint a capability.
+_NEGATED_AI = re.compile(
+    # Greedy on purpose: "no AI or machine learning claim" lists several terms, and a
+    # lazy match would blank only the first and let the second mint the label anyway.
+    r"\b(?:no|not|without|never|neither|nor|zero|lacks?)\b[^.;:]{0,70}"
+    r"(?:\bai\b|artificial intelligence|machine learning|\bml\b|neural|deep learning|"
+    r"computer vision|genai|generative|\bllm\b|predictive model|algorithm)",
+    re.I,
+)
+
 # Wedges map to capabilities directly: we know what we are selling, so there is
 # no need to guess from prose the way the vendor side has to.
 WEDGE_CAPABILITIES: list[tuple[str, list[str]]] = [
@@ -87,7 +101,8 @@ def of_text(text: str | None, include_ai: bool = True) -> list[str]:
     almost every row and therefore carries no information.
     """
     t = text or ""
-    found = [name for rx, name in _COMPILED if rx.search(t)]
+    t_ai = _NEGATED_AI.sub(" ", t)
+    found = [name for rx, name in _COMPILED if rx.search(t_ai if name == AI else t)]
     if not include_ai:
         found = [c for c in found if c != AI]
     return [c for c in ALL if c in found]

@@ -1748,3 +1748,65 @@ body:not([data-view="home"]) .hero {
 body:not([data-view="home"]) .hero__search { margin-top: 0; }
 /* About is prose and reads better with room to breathe. */
 body[data-view="about"] .hero { padding-bottom: 1rem; }
+
+/* --- Honest AI verdict, company of the day, and the two-panel detail split ---
+   Tokens only, so both themes follow the existing palette with no new colours
+   defined outside :root. */
+
+.chip--ai { font-weight: 600; }
+.chip--ai-real { color: #0b7a3b; border-left-color: #0b7a3b; }
+.chip--ai-none { color: var(--muted); border-left-color: var(--line-strong); }
+.chip--ai-unknown { color: #8a6d0b; border-left-color: #8a6d0b; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .chip--ai-real { color: #35e07a; border-left-color: #35e07a; }
+  :root:not([data-theme="light"]) .chip--ai-unknown { color: #e0c35e; border-left-color: #e0c35e; }
+}
+
+/* Two panels: what they do in drinks, and what the technology really is. */
+.twopanel {
+  display: grid; gap: 1rem; margin: 1.25rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+.panel {
+  border: 1px solid var(--line); border-radius: 10px;
+  padding: .9rem 1rem; background: var(--surface, transparent);
+}
+.panel h2 {
+  margin: 0 0 .6rem; font-size: .78rem; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--muted);
+}
+.panel__facts { display: grid; grid-template-columns: auto 1fr; gap: .35rem .8rem; margin: 0; }
+.panel__facts dt { color: var(--muted); font-size: .85rem; }
+.panel__facts dd { margin: 0; color: var(--ink); font-size: .92rem; }
+.verdict { font-weight: 600; }
+.verdict--real { color: #0b7a3b; }
+.verdict--none { color: var(--muted); }
+.verdict--unknown { color: #8a6d0b; }
+.verdict__note {
+  display: block; font-weight: 400; font-size: .8rem;
+  color: var(--muted); margin-top: .15rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .verdict--real { color: #35e07a; }
+  :root:not([data-theme="light"]) .verdict--unknown { color: #e0c35e; }
+}
+
+/* Company of the day. Sits above the doors, deliberately quieter than the hero. */
+.potd {
+  border: 1px solid var(--line); border-left: 3px solid var(--accent);
+  border-radius: 10px; padding: 1.1rem 1.25rem; margin: 0 0 1.25rem;
+  background: var(--surface, transparent); cursor: pointer;
+  transition: border-color .15s ease, transform .15s ease;
+}
+.potd:hover { border-color: var(--line-strong); border-left-color: var(--accent-hover); }
+.potd:hover .potd__go { color: var(--accent-hover); }
+@media (prefers-reduced-motion: no-preference) { .potd:hover { transform: translateY(-1px); } }
+.potd__eyebrow {
+  font-size: .72rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); margin-bottom: .35rem;
+}
+.potd__date::before { content: "\00b7"; margin: 0 .35rem; }
+.potd__name { margin: 0 0 .25rem; font-size: 1.35rem; color: var(--ink); }
+.potd__use { margin: 0 0 .4rem; color: var(--accent); font-size: .95rem; }
+.potd__desc { margin: 0 0 .7rem; color: var(--body); font-size: .92rem; }
+.potd__go { display: inline-block; margin-top: .6rem; color: var(--accent); font-size: .88rem; }

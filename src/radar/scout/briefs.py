@@ -19,7 +19,7 @@ SCHEMA_BLOCK = """{
   "founded_year": 2015,
   "vertical": "beer" | "whiskey" | "wine" | "multiple" | "non_alcoholic",
   "ai_use_case": "short lowercase phrase",
-  "ai_maturity": "research" | "pilot" | "shipping",
+  "ai_maturity": "none" | "research" | "pilot" | "shipping",
   "funding_stage": "...",
   "total_raised": "...",
   "short_description": "2-4 factual sentences. What it does, who it serves in beer/whiskey/wine, what the AI actually is.",
@@ -42,6 +42,12 @@ SCOPE_RULES = """## Scope rules
    sensor vendor or plain BI, include it when it matters to the beverage data landscape and
    say plainly in short_description that it makes no AI claim. Never inflate marketing
    language into a machine-learning claim. Inventing capability is the one unforgivable error.
+   When you write that disclaimer you MUST also set `"ai_maturity": "none"`, which means
+   "checked, and there is no AI claim". The other three grades all mean the company does
+   claim AI, and the dashboard renders them that way: grading an honest no-AI entry
+   "shipping" publishes a claim the company never made. This sweep produced 49 such
+   contradictions in one pass because "none" was missing from the schema, so treat the
+   description and this field as one decision, never two.
 4. **Blocked is not rejected.** If a site returns 403, is Cloudflare-walled or otherwise
    unfetchable, do NOT silently drop it. Add it to the "blocked" array of your output file
    with the URL and what you could establish, so a browser-equipped pass can finish the job.

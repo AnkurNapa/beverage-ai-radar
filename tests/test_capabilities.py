@@ -54,3 +54,41 @@ def test_channel_partner_rows_are_labelled_from_their_name():
     row = {"company": "Beverage consultancies (First Key, Tulleeho)",
            "wedge": "Subcontract the AI and data scope", "pain": "", "segment": ""}
     assert CONSULTING in of_prospect(row)
+
+
+def test_a_disclaimer_does_not_mint_an_ai_capability():
+    """"Makes no AI claim" is a finding, not evidence of AI.
+
+    ai_maturity got AIMaturity.NONE to express this (see
+    test_ai_claim_consistency), but capabilities kept matching the keyword
+    inside the denial, so all 174 honestly-written no-AI rows were still
+    labelled "AI & ML" - AB InBev, Endress+Hauser and Emerson among them.
+    """
+    disclaimers = [
+        "The company names no AI or machine learning capability; it is spend analysis.",
+        "It makes no machine learning claim anywhere on its site.",
+        "Sensors and dashboards, but it makes no AI claim.",
+        "A system of record with no AI or data-product claim.",
+    ]
+    for text in disclaimers:
+        assert AI not in of_text(text), text
+
+    # The fix must not go so far that it silences a real claim.
+    asserted = [
+        "Its own site claims AI-based software processing the physiological signal.",
+        "uses computer vision to grade malt and a neural network for defect detection",
+        "an LLM assistant over brewery batch records",
+    ]
+    for text in asserted:
+        assert AI in of_text(text), text
+
+
+def test_a_disclaimer_does_not_suppress_other_capabilities():
+    """Only the AI rule reads the de-negated text.
+
+    The negated span is blanked for the AI rule alone; a sentence that
+    disclaims AI while describing real sensors must still be IoT.
+    """
+    caps = of_text("Inline sensors and a historian, but it makes no AI or machine learning claim.")
+    assert IOT in caps
+    assert AI not in caps

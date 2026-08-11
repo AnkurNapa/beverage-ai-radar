@@ -257,9 +257,36 @@ const starBtn = (key) =>
   `<button class="starb${isStarred(key) ? " is-on" : ""}" data-star="${esc(key)}"
      type="button" aria-pressed="${isStarred(key)}" title="Shortlist this">★</button>`;
 
+/* The honest answer to "is the AI real here?".
+ *
+ * Derived, never stored: ai_maturity NONE already means "checked, and there is
+ * no AI claim" (see tests/test_ai_claim_consistency), and capabilities no longer
+ * mints "AI & ML" out of a disclaimer. Reading both together is the whole signal,
+ * so there is nothing to backfill. Anything unchecked says so rather than
+ * guessing, because a confident wrong badge is worse here than an honest blank.
+ */
+function aiVerdict(c) {
+  if (c.ai_maturity === "none") return { kind: "none", label: "no AI claim",
+    title: "Checked: this company makes no AI or machine learning claim. It is tracked because it matters to the beverage data landscape." };
+  if (!c.ai_maturity) return { kind: "unknown", label: "AI unchecked",
+    title: "No AI maturity has been established for this entry yet." };
+  const real = (c.capabilities || []).includes("AI & ML");
+  if (!real) return { kind: "unknown", label: "AI unclear",
+    title: "Graded " + c.ai_maturity + " but the description asserts no AI or ML technique." };
+  return { kind: "real", label: c.verified ? "AI claim, verified" : "AI claim",
+    title: c.verified
+      ? "Asserts a real AI/ML technique, and a human has confirmed this entry."
+      : "Asserts a real AI/ML technique. Scout-found and not yet human-verified." };
+}
+const verdictChip = (c) => {
+  const v = aiVerdict(c);
+  return `<span class="chip chip--ai chip--ai-${v.kind}" title="${esc(v.title)}">${esc(v.label)}</span>`;
+};
+
 function card(c) {
   const individual = c.company_type === "individual";
   const chips = [
+    verdictChip(c),
     c.vertical && `<span class="chip chip--v chip--${esc(c.vertical)}">${vlab(c.vertical)}</span>`,
     individual && `<span class="chip chip--indiv">individual</span>`,
     c.company_type === "service" && `<span class="chip chip--muted">service</span>`,
@@ -446,6 +473,54 @@ function paintDoors() {
     if (el && !el.textContent.trim()) el.closest(".door").hidden = true;
   }
 }
+
+/* Company of the day.
+ *
+ * Date-seeded rather than random: everyone who lands today sees the same entry,
+ * and it changes tomorrow. Walking a stably-sorted pool by day number means no
+ * repeat until the pool is exhausted, which beats random for a daily slot -
+ * random repeats within a week surprisingly often.
+ *
+ * The pool is only entries that assert a real AI technique AND have been checked
+ * by a human, because this slot is the one place the radar recommends something
+ * unprompted. Falling back to unverified would put a scout's unchecked word on
+ * the front page. If nothing is verified yet, the slot simply stays hidden.
+ */
+function pickOfTheDay(rows, today) {
+  const pool = rows
+    // company_type "individual" rides in the same array, and this slot is called
+    // Company of the day: the first run picked a named person off the front page.
+    .filter((c) => c.company_type !== "individual"
+      && aiVerdict(c).kind === "real" && c.verified && c.status !== "dormant")
+    .sort((a, b) => (a.key || "").localeCompare(b.key || ""));
+  if (!pool.length) return null;
+  const day = Math.floor((today || new Date()).setHours(0, 0, 0, 0) / 86400000);
+  return pool[((day % pool.length) + pool.length) % pool.length];
+}
+
+function paintPick() {
+  const el = $("pickoftheday");
+  if (!el) return;
+  const c = pickOfTheDay(ALL);
+  if (!c) { el.hidden = true; return; }
+  const when = new Date().toLocaleDateString(undefined, { day: "numeric", month: "short" });
+  el.innerHTML = `<article class="potd is-clickable" data-route="c/${esc(encodeURIComponent(c.key))}">
+      <div class="potd__eyebrow">Company of the day <span class="potd__date">${esc(when)}</span></div>
+      <h2 class="potd__name">${esc(c.name)}</h2>
+      ${c.ai_use_case ? `<p class="potd__use">${esc(c.ai_use_case)}</p>` : ""}
+      ${c.short_description ? `<p class="potd__desc">${esc(trim(c.short_description, 240))}</p>` : ""}
+      <div class="chips">
+        ${verdictChip(c)}
+        ${c.vertical ? `<span class="chip chip--v chip--${esc(c.vertical)}">${vlab(c.vertical)}</span>` : ""}
+        ${c.theme ? `<span class="chip chip--muted">${esc(c.theme)}</span>` : ""}
+        ${c.hq_location ? `<span class="chip chip--muted">${esc(c.hq_location)}</span>` : ""}
+      </div>
+      <span class="potd__go">Why this one &rarr;</span>
+    </article>`;
+  el.hidden = false;
+}
+
+const trim = (s, n) => (s.length > n ? s.slice(0, s.lastIndexOf(" ", n)) + "..." : s);
 
 function showView(which) {
   CURRENT_TAB = which;
@@ -748,11 +823,12 @@ function companyDetail(c) {
       <span class="chip ${c.status === "dormant" ? "chip--dormant" : "chip--shipping"}">${esc(c.status || "")}</span>
     </div>
     ${c.short_description ? `<p class="detail__desc">${esc(c.short_description)}</p>` : ""}
+    ${whatTheyDo(c)}
     <dl class="detail__facts">
       ${row("Headquarters", esc(c.hq_location))}
       ${row("Founded", c.founded_year)}
-      ${row("Vertical", vlab(c.vertical))}
-      ${row("AI maturity", esc(c.ai_maturity))}
+      ${/* Vertical and AI maturity moved into the two panels above; repeating
+            them here just made the reader check whether the two disagreed. */""}
       ${row("Status", esc(c.status))}
       ${row("Funding", esc(fund))}
       ${row("Website", link(c.domain ? `https://${c.domain}` : "", c.domain))}
@@ -766,6 +842,42 @@ function companyDetail(c) {
     ${sources ? `<h2>Sources &amp; evidence</h2><ul class="detail__list">${sources}</ul>` : ""}
     ${relatedHtml(c)}
   </article>`;
+}
+
+
+/* The two questions a reader actually opens a company to answer: what are they
+ * doing in drinks, and what is the technology really. Both panels are built from
+ * fields the pipeline already derives (theme, vertical, capabilities, maturity),
+ * so nothing here needs a backfill and nothing can drift from the stored record.
+ *
+ * ponytail: no customer list. notable_customers_partners is empty on every row,
+ * and mining names out of prose would be guessing at exactly the point where
+ * this database is supposed to be checked.
+ */
+function whatTheyDo(c) {
+  const v = aiVerdict(c);
+  const verticals = (c.verticals?.length ? c.verticals : [c.vertical]).filter(Boolean).map(vlab);
+  const domain = [
+    c.theme && `<dt>Where it lands</dt><dd>${esc(c.theme)}</dd>`,
+    verticals.length && `<dt>Drinks served</dt><dd>${esc(verticals.join(", "))}</dd>`,
+    c.ai_use_case && `<dt>What they do</dt><dd>${esc(c.ai_use_case)}</dd>`,
+    c.scope === "horizontal"
+      && `<dt>Focus</dt><dd>Serves several industries; not built for drinks alone.</dd>`,
+  ].filter(Boolean).join("");
+
+  const caps = (c.capabilities || []);
+  const tech = [
+    `<dt>AI claim</dt><dd class="verdict verdict--${v.kind}">${esc(v.label)}<span class="verdict__note">${esc(v.title)}</span></dd>`,
+    caps.length && `<dt>Technology</dt><dd>${caps.map((x) => esc(x)).join(", ")}</dd>`,
+    c.ai_maturity && c.ai_maturity !== "none"
+      && `<dt>Maturity</dt><dd>${esc(MATURITY_LABEL[c.ai_maturity] || c.ai_maturity)}</dd>`,
+    `<dt>Checked by a human</dt><dd>${c.verified ? "Yes" : "Not yet - scout-found, evidence below"}</dd>`,
+  ].filter(Boolean).join("");
+
+  return `<div class="twopanel">
+    <section class="panel"><h2>In beverage</h2><dl class="panel__facts">${domain}</dl></section>
+    <section class="panel"><h2>The technology</h2><dl class="panel__facts">${tech}</dl></section>
+  </div>`;
 }
 
 
@@ -2069,6 +2181,7 @@ async function main() {
   await loadJobs();
   await loadEvents();
   try { paintDoors(); } catch (e) { /* doors are a convenience, never a blocker */ }
+  try { paintPick(); } catch (e) { /* same for the daily pick: never block the page */ }
   await loadProspects();
 
   // global search: one box drives every tab + shows where matches are
