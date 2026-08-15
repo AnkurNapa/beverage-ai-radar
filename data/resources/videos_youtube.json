@@ -1177,5 +1177,95 @@
     "vertical": "non_alcoholic",
     "summary": "Abstract: I will discuss two applications of machine learning in inventory optimization. The first uses deep neural networks (DNN) ...",
     "year": 2022
+  },
+  {
+    "title": "Most Brewers Don't Know What AI Can Do Yet",
+    "channel": "Doug Piper",
+    "video_id": "bgc_A8eb_Tc",
+    "url": "https://www.youtube.com/watch?v=bgc_A8eb_Tc",
+    "vertical": "beer",
+    "summary": "Can AI for brewers actually improve your craft? Learn how brewing technology assists experts in solving production difficulties ...",
+    "year": 2026
+  },
+  {
+    "title": "A.I. in Brewing | Beer Banter Podcast | Episode 7",
+    "channel": "Beer Banter Podcast",
+    "video_id": "sTXE4bm44V4",
+    "url": "https://www.youtube.com/watch?v=sTXE4bm44V4",
+    "vertical": "beer",
+    "summary": "Source: https://www.podbean.com/eau/pb-3u3fp-18c2083 #beerbanterpodcast #ai #walkervillebrewery #artificialintelligence On ...",
+    "year": 2025
+  },
+  {
+    "title": "Beer Based Projects",
+    "channel": "Engineers India Research Institute",
+    "video_id": "9qPLCcEiq1g",
+    "url": "https://www.youtube.com/watch?v=9qPLCcEiq1g",
+    "vertical": "beer",
+    "summary": "The beer market is projected to register a CAGR of 5.2% during the forecast period, 2021-2026. Rising demand for the product as ...",
+    "year": 2022
+  },
+  {
+    "title": "Coopers Embraces Industry 4.0",
+    "channel": "Siemens Knowledge Hub",
+    "video_id": "Xt4vgyjW4zU",
+    "url": "https://www.youtube.com/watch?v=Xt4vgyjW4zU",
+    "vertical": "beer",
+    "summary": "Siemens intelligent systems collect and optimise data from the start of manufacturing to the finish at Coopers Brewery. This has ...",
+    "year": 2020
+  },
+  {
+    "title": "Brewing with Oracle IoT",
+    "channel": "Supreet Oberoi",
+    "video_id": "SIKznSWZBBI",
+    "url": "https://www.youtube.com/watch?v=SIKznSWZBBI",
+    "vertical": "beer",
+    "summary": "IoT is not just about instrumenting the manufacturing process - by instrumenting from beer to pour, the brewery Alpha Acid learns ...",
+    "year": 2018
+  },
+  {
+    "title": "Suntory predicts the next big beverage trends: Asian flavors, texture, and wellness",
+    "channel": "Axios Live and Axios",
+    "video_id": "2G4ySe367tQ",
+    "url": "https://www.youtube.com/watch?v=2G4ySe367tQ",
+    "vertical": "whiskey",
+    "summary": "Jing Mertoglu, Suntory Global Spirits global vice president of insights and analytics, innovation and marketing excellence, joins ...",
+    "year": 2026
+  },
+  {
+    "title": "How to find the best quality wine for the money using ADB, ML and APEX",
+    "channel": "Oracle Developers",
+    "video_id": "Kk5gp-LmbXQ",
+    "url": "https://www.youtube.com/watch?v=Kk5gp-LmbXQ",
+    "vertical": "wine",
+    "summary": "We've all been there. We need to bring a bottle of wine to a party but don't want to spend too much. Ever just want an “algorithm in ...",
+    "year": 2020
+  },
+  {
+    "title": "How AI is going to disrupt the restaurant, hospitality and alcoholic beverage industries",
+    "channel": "The Drunken Grape",
+    "video_id": "EYkqrVuE_8A",
+    "url": "https://www.youtube.com/watch?v=EYkqrVuE_8A",
+    "vertical": "multiple",
+    "summary": "A great discussion with Jerry Abiog from Standard Insights about their AI offering and how it is disrupting the restaurant, hospitality ...",
+    "year": 2021
+  },
+  {
+    "title": "Seeding Digital Skills Information Sessions (Food and Beverage Processing) feat. FPSC and Unity.",
+    "channel": "Ontario Chamber of Commerce",
+    "video_id": "yIQ2oU07Nqw",
+    "url": "https://www.youtube.com/watch?v=yIQ2oU07Nqw",
+    "vertical": "multiple",
+    "summary": "https://occ.ca/programs/seeding-digital-skills/ Boost Efficiency. Cut Waste. Stay Competitive. Think of a digital twin as a high-tech, ...",
+    "year": 2025
+  },
+  {
+    "title": "Customer Success Story - Proximo Spirits uses Machine Learning to increase forecast accuracy",
+    "channel": "Halo",
+    "video_id": "RYJpcAxKCSY",
+    "url": "https://www.youtube.com/watch?v=RYJpcAxKCSY",
+    "vertical": "non_alcoholic",
+    "summary": "David Goris, Proximo Spirits' Senior Supply Chain Project Manager, talks about Halo's valuable experience working with the ...",
+    "year": 2019
   }
 ]

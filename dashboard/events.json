@@ -1,23 +1,5 @@
 [
   {
-    "title": "Brew What Sells with AI: An Evidence Engine for Craft Breweries",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdyCRZ0L9nm_k0Y-zyxQcGPLkxAjcOuvnrLmj32WFJgqQZQVA/viewform",
-    "organiser": "drinktec India (Messe Munchen India and YONTEX), Brewers Conference and Networking, 3rd Edition",
-    "location": "Biergarten, Koramangala, Bengaluru, India",
-    "country": "India",
-    "vertical": "beer",
-    "summary": "Free master class at the 3rd edition Brewers Conference and Networking, organised by drinktec India, on turning years of POS data into brewing decisions: which beers sell best by day, time and season, and building a daily brewing calculator for production planning. The argument is that most breweries already generate the sales data and almost none of them feed it back into what goes in the tank. Free to attend, registration by form, 5 PM onwards.",
-    "speakers": [
-      "Ankur Napa (Growth Officer, Disruptive Advantage)"
-    ],
-    "mode": "in-person",
-    "speaking": true,
-    "start": "2026-08-12",
-    "end": "",
-    "state": "upcoming",
-    "sort": "2026-08-12"
-  },
-  {
     "title": "ASBC & CIBD 2026 Global Brewing and Distilling Congress",
     "url": "https://www.asbcnet.org/events/2026Meeting/Pages/default.aspx",
     "organiser": "American Society of Brewing Chemists and Chartered Institute of Brewers and Distillers",
@@ -144,6 +126,24 @@
     "end": "",
     "state": "undated",
     "sort": "1900-01-01"
+  },
+  {
+    "title": "Brew What Sells with AI: An Evidence Engine for Craft Breweries",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdyCRZ0L9nm_k0Y-zyxQcGPLkxAjcOuvnrLmj32WFJgqQZQVA/viewform",
+    "organiser": "drinktec India (Messe Munchen India and YONTEX), Brewers Conference and Networking, 3rd Edition",
+    "location": "Biergarten, Koramangala, Bengaluru, India",
+    "country": "India",
+    "vertical": "beer",
+    "summary": "Free master class at the 3rd edition Brewers Conference and Networking, organised by drinktec India, on turning years of POS data into brewing decisions: which beers sell best by day, time and season, and building a daily brewing calculator for production planning. The argument is that most breweries already generate the sales data and almost none of them feed it back into what goes in the tank. Free to attend, registration by form, 5 PM onwards.",
+    "speakers": [
+      "Ankur Napa (Growth Officer, Disruptive Advantage)"
+    ],
+    "mode": "in-person",
+    "speaking": true,
+    "start": "2026-08-12",
+    "end": "",
+    "state": "past",
+    "sort": "2026-08-12"
   },
   {
     "title": "Vine to Mind Symposium 2026",
