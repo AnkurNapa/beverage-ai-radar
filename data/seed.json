@@ -14251,5 +14251,442 @@
     "key_people": "Marit Sareyko (CEO)",
     "discovered_by": "scout:ibm",
     "verified": false
+  },
+  {
+    "name": "Ollie",
+    "domain": "getollie.com",
+    "vertical": "beer",
+    "ai_use_case": "brewery production and sales management software",
+    "ai_maturity": "none",
+    "short_description": "Ollie is brewery management software for craft producers from 1 BBL to 20,000+ BBL, covering production planning, inventory, order fulfilment, TTB compliance reporting, QuickBooks integration and sales analytics. It is now part of Next Glass, alongside Ekos, Untappd and Oznr. Checked its own site and its Next Glass product page: Ollie makes no AI or machine learning claim, it is a system of record with reporting and dashboards.",
+    "source_urls": [
+      "https://getollie.com/",
+      "https://www.nextglass.co/ollie/"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "Fermly",
+    "domain": "fermly.com",
+    "hq_location": "Lakewood, Colorado, United States",
+    "founded_year": 2018,
+    "vertical": "beer",
+    "ai_use_case": "subscription brewery QA/QC lab with a batch data platform",
+    "ai_maturity": "none",
+    "short_description": "Fermly is a TTB certified craft beer QA/QC laboratory that ships monthly subscription sample boxes and returns results into a cloud data portal, covering ABV, pH, dissolved oxygen, bitterness and microbial contamination. Its lab data feeds brewery management systems: it has an integration with Beer30 from The 5th Ingredient so lab metrics sit alongside production and cost data. Fermly makes no AI or machine learning claim; it is a testing service plus a data platform.",
+    "source_urls": [
+      "https://www.fermly.com/",
+      "https://www.craftbrewingbusiness.com/equipment-systems/this-beer30-fermly-integration-combines-brewery-data-management-with-quality-control/"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "key_people": "Frances Tietje-Wang (Founder, TTB certified brewing chemist), Danny Wang (Co-Founder, Information Architect)",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "Thirstie",
+    "domain": "thirstie.com",
+    "founded_year": 2014,
+    "vertical": "multiple",
+    "ai_use_case": "direct to consumer alcohol e-commerce and fulfilment",
+    "ai_maturity": "none",
+    "funding_stage": "acquired",
+    "total_raised": "$12.2M",
+    "short_description": "Thirstie runs branded direct to consumer e-commerce storefronts and digital gift cards for beer, wine and spirits brands, routing orders through a network of licensed retailers to stay inside three tier rules. Republic National Distributing Company took a strategic stake in December 2022, and Thirstie was acquired by Cocktail Courier in 2024. The site advertises data capabilities on first party consumer purchase data but makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://thirstie.com/",
+      "https://www.prnewswire.com/news-releases/rndc-invests-in-e-commerce-platform-thirstie-deal-will-transform-alcohol-industry-301703351.html"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "DSDLink",
+    "domain": "dsdlink.com",
+    "vertical": "multiple",
+    "ai_use_case": "b2b beverage ordering between retailers, distributors and suppliers",
+    "ai_maturity": "none",
+    "short_description": "DSDLink is a B2B e-commerce ordering app that lets on-premise and off-premise retailers place beer and beverage orders directly into their distributor's system, with separate hubs for retailers, distributors and suppliers. It is operated by Encompass Technologies and sits in the same category as Provi and BEES. The DSDLink site makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://www.dsdlink.com/",
+      "https://www.beerandbrewing.com/where-the-beer-money-is-moving"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "Brokreacja (Browar Brokreacja)",
+    "domain": "brokreacja.pl",
+    "hq_location": "Krakow, Poland",
+    "vertical": "beer",
+    "ai_use_case": "announced ai based sales and personalisation model for craft beer",
+    "ai_maturity": "research",
+    "short_description": "Brokreacja is a Krakow craft brewery whose subsidiary Browar Brokreacja S.A. supplies craft and non alcoholic beer to Lidl, Kaufland and Carrefour in Poland. In August 2025 NewConnect listed Foothills S.A. signed a letter of intent to acquire Brokreacja Sp. z o.o. and Bromarket Sp. z o.o. and rename itself Brokreacja Holding S.A., with Bromarket building a brewery and distillery worth over PLN 20m net (PLN 14m net grant) that uses artificial intelligence in the sales process. Management describes the AI as a new sales model to personalise the offer; this is an announced project, not a shipped system, and the brewery's own website makes no AI claim.",
+    "source_urls": [
+      "https://brokreacja.pl/",
+      "https://www.dlahandlu.pl/detal-hurt/sieci/w-polsce-powstaje-gigant-piwa-kraftowego-o-rynek-zbytu-zadba-ai,160444.html"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "key_people": "Mateusz Gorski (CEO, Brokreacja Sp. z o.o. and Bromarket Sp. z o.o.), Lukasz Gorski (CEO, Foothills S.A.)",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "Sennos (formerly Precision Fermentation)",
+    "domain": "sennos.com",
+    "hq_location": "Durham, North Carolina, United States",
+    "vertical": "beer",
+    "ai_use_case": "predictive fermentation monitoring and analytics",
+    "ai_maturity": "shipping",
+    "funding_stage": "growth",
+    "total_raised": "$15M round announced April 2025",
+    "short_description": "Sennos sells in tank fermentation sensors and the BrewIQ analytics platform to breweries, giving continuous readings on fermentation state so brewers can shorten tank turns and catch failures early. The company describes an AI and analytics engine trained on tens of thousands of real fermentations that converts live sensor data into predictive insight. Precision Fermentation rebranded as Sennos in March 2025, launched the M3 in tank sensor stack in April 2025 and raised $15m to expand beyond brewing into alternative proteins, biofuels and pharma. This is a refresh of an already tracked company, not a new one.",
+    "source_urls": [
+      "https://sennos.com/",
+      "https://www.craftbrewingbusiness.com/featured/sennos-brings-intelligent-fermentation-control-to-craft-beer-with-m3-sensor-rollout/"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "Munhowen",
+    "domain": "munhowen.lu",
+    "hq_location": "Ehlerange, Luxembourg",
+    "founded_year": 1908,
+    "vertical": "multiple",
+    "ai_use_case": "beverage distribution with b2b and dtc e-commerce",
+    "ai_maturity": "none",
+    "short_description": "Munhowen is Luxembourg's largest beverage distributor, a family company founded in 1908 and now part of Brasserie Nationale, serving horeca, grocery retail, sub distributors and office accounts from a 13,000 square metre warehouse in Ehlerange. It runs shop.munhowen.lu as a B2B ordering platform for horeca and distributors and drinx.lu as a consumer e-shop, plus Le Chai for wine. Its sites make no AI or machine learning claim; the digital layer is ordering and logistics, not analytics.",
+    "source_urls": [
+      "https://munhowen.lu/a-propos/",
+      "https://shop.munhowen.lu/fr/category"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "RaspberryPints",
+    "domain": "raspberrypints.com",
+    "founded_year": 2014,
+    "vertical": "beer",
+    "ai_use_case": "taproom digital taplist and menu synchronisation",
+    "ai_maturity": "none",
+    "short_description": "RaspberryPints is digital taplist and beer menu software for breweries, taprooms and bars, syncing TV displays, website embeds, QR codes and printable PDFs from one dashboard, with keg and inventory tracking, Untappd feeds and a public API for POS integrations. It grew out of a 2014 open source Raspberry Pi taplist project into a hosted SaaS with a free tier. It makes no AI or machine learning claim; FlowBox pour level hardware is listed as coming soon.",
+    "source_urls": [
+      "https://www.raspberrypints.com/",
+      "https://github.com/RaspberryPints/RaspberryPints"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "CSB-System",
+    "domain": "csb.com",
+    "hq_location": "Geilenkirchen, Germany",
+    "founded_year": 1977,
+    "vertical": "multiple",
+    "ai_use_case": "ai agents for erp process automation and vision inspection",
+    "ai_maturity": "shipping",
+    "short_description": "CSB-System SE is a German process-industry ERP vendor (over 550 staff, 50 countries) whose Food and Beverages line includes a dedicated beverage industry solution covering procurement, recipe optimisation against targets such as brix and Oechsle, production, quality management, traceability and multichannel sales. In August 2026 CSB launched its Agent Platform, specialised AI agents that analyse information, make rule-based decisions and prepare business processes, alongside CSB Vision for industrial image processing. The AI is general ERP and inspection automation across food and drink, not a beer, whiskey or wine specific model.",
+    "source_urls": [
+      "https://www.csb.com/en/industries/food-beverages/beverages",
+      "https://www.csb.com/en/about-csb"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:erp",
+    "verified": false
+  },
+  {
+    "name": "goerp.ai (Mawai Infotech)",
+    "domain": "goerp.ai",
+    "hq_location": "Noida, Uttar Pradesh, India",
+    "founded_year": 1998,
+    "vertical": "multiple",
+    "ai_use_case": "none",
+    "ai_maturity": "none",
+    "short_description": "goerp.ai is the ERP suite of Mawai, an SAP Gold partner in Noida, India, established in 1998. It sells a dedicated alcohol and distillery edition covering sugarcane and ethanol inputs, master production scheduling, recipe and BOM management, quality control, brewing stage monitoring, regulatory compliance and supply chain for producers of spirits, ale and malt beverages. Despite the .ai domain the product pages describe only conventional ERP modules and dashboards; no machine learning capability is claimed for the drinks solution.",
+    "source_urls": [
+      "https://goerp.ai/industries/alcohol-distilleries-erp-software",
+      "https://goerp.ai/about-us"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:erp",
+    "verified": false
+  },
+  {
+    "name": "Liquor Logic",
+    "domain": "liquorlogic.co.za",
+    "hq_location": "South Africa",
+    "vertical": "multiple",
+    "ai_use_case": "none",
+    "ai_maturity": "none",
+    "short_description": "Liquor Logic is a South African production and point of sale platform for breweries, distilleries, wineries and cideries, with separate editions for each and for bars and bottle stores. The brewery edition covers batch tracking, live fermentation monitoring, gravity readings, keg management, taproom POS and distribution routing; the distillery edition covers distillation runs, barrel ageing, bonded storage and excise reporting. Pricing starts at R549 per month with a 30 day trial. It is a system of record and makes no AI or machine learning claim anywhere on the site.",
+    "source_urls": [
+      "https://liquorlogic.co.za/",
+      "https://liquorlogic.co.za/Brewery"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:erp",
+    "verified": false
+  },
+  {
+    "name": "Brewfather (Warpkode AS)",
+    "domain": "brewfather.app",
+    "hq_location": "Norway",
+    "founded_year": 2018,
+    "vertical": "beer",
+    "ai_use_case": "in app brewing assistant grounded in the brewer's own recipes, inventory and equipment",
+    "ai_maturity": "shipping",
+    "short_description": "Brewfather is an all in one brewing app from Warpkode AS in Norway, covering recipe design, batch tracking, guided brew days, water chemistry and mash pH calculation, and live fermentation monitoring with Tilt hydrometer and other device integrations. It serves home brewers and small commercial brewers on web, iOS and Android. Its Premium Plus tier ships Brewfather AI, a conversational assistant built into the app and grounded in the user's own recipes, inventory and equipment profiles, metered at 500 AI credits per month, which can draft a recipe to a target style, gravity and hop bill.",
+    "source_urls": [
+      "https://brewfather.app/",
+      "https://apps.apple.com/app/brewfather/id1488585822"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:erp",
+    "verified": false
+  },
+  {
+    "name": "BeerSmith",
+    "domain": "beersmith.com",
+    "vertical": "beer",
+    "ai_use_case": "none",
+    "ai_maturity": "none",
+    "short_description": "BeerSmith is long running recipe formulation and brew session software for beer, mead, wine and cider, sold as BeerSmith 4 for Mac, PC and Linux plus a web version. It is aimed at home and small craft brewers and covers recipe design, ingredient and equipment profiles, mash and water calculations and brew day timers, with a companion Beer Recipe Cloud community recipe site at beersmithrecipes.com. The calculations are deterministic brewing formulas; the product makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://beersmith.com/",
+      "https://beersmithrecipes.com/"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:erp",
+    "verified": false
+  },
+  {
+    "name": "Winerim",
+    "domain": "winerim.wine",
+    "hq_location": "Donostia-San Sebastian, Spain",
+    "vertical": "wine",
+    "ai_use_case": "wine list recommendation and margin optimisation",
+    "ai_maturity": "shipping",
+    "short_description": "Winerim sells a cloud digital wine list for restaurants, hotels and wine bars in Spain. Its AI recommender analyses the diner's stated preferences, the dish chosen and the service context to suggest a wine from that venue's own list, alongside stock management, margin analytics and aggregated market intelligence. The company also publishes free diagnostic tools for wine list Pareto analysis and margin leakage.",
+    "source_urls": [
+      "https://winerim.wine/en",
+      "https://www.lawinetech.com/members"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Irokoo",
+    "domain": "irokoo.vin",
+    "hq_location": "Tours, France",
+    "founded_year": 2022,
+    "vertical": "wine",
+    "ai_use_case": "none, vineyard ERP on Odoo",
+    "ai_maturity": "none",
+    "short_description": "Irokoo is a French Odoo Gold partner that packages Odoo as an all in one management system for wine estates, covering vineyard and cellar operations, traceability, French excise and duty filings (DRM, CRD, GAMMA/CIEL), direct sales, cellar door point of sale, wine tourism bookings and CRM. It also markets Odoo AI agent integration as a separate service line. Checked, and there is no machine learning claim in its wine product: it is a system of record built on Odoo.",
+    "source_urls": [
+      "https://irokoo.vin/",
+      "https://www.lawinetech.com/members"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Oenobiote",
+    "domain": "oenobiote.com",
+    "hq_location": "Montreuil, France",
+    "vertical": "multiple",
+    "ai_use_case": "none, rapid microbiology testing instruments",
+    "ai_maturity": "none",
+    "short_description": "Oenobiote builds rapid microbiology instruments and test kits for the drinks industry, sold to producers, analysis laboratories and researchers. Its Chronos RT-qPCR thermocycler returns a result in about 20 minutes so a winery can run spoilage organism tests in house rather than outsourcing them, with a test range covering vineyard to bottle and separate lines for wine, beer and no and low alcohol drinks. Checked, and the company makes no AI or machine learning claim: this is analytical instrumentation that generates the data.",
+    "source_urls": [
+      "https://www.oenobiote.com/",
+      "https://www.lawinetech.com/members"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Vignee",
+    "domain": "vignee.com",
+    "hq_location": "Montpellier, France",
+    "vertical": "wine",
+    "ai_use_case": "vineyard decision support from plot data and photos",
+    "ai_maturity": "shipping",
+    "short_description": "Vignee is a modular French web and mobile app for wine growers covering work planning, plot mapping with growing degree day harvest estimates, plot level weather from five cross referenced models, cellar and vinification records with exportable DGDDI registers, stock and local intelligence. A paid Vision IA / Pilotage IA module, priced at 15 euros on top of the per hectare base, analyses the estate's vineyard data including plot photographs and returns prioritised attention points, positioned by the vendor as decision support that suggests and alerts rather than decides.",
+    "source_urls": [
+      "https://www.vignee.com/",
+      "https://www.lawinetech.com/members"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "BIENESIS",
+    "domain": "bienesis.fr",
+    "hq_location": "Clermont-Ferrand, France",
+    "founded_year": 2024,
+    "vertical": "wine",
+    "ai_use_case": "none, sensor triggered retractable vineyard canopy",
+    "ai_maturity": "none",
+    "short_description": "BIENESIS, spun out of the Michelin Innovation Lab and working with the French wine trade since 2022, builds La Canopee, a retractable robotic canopy for vine rows. Two robotic arms unfold a six metre technical fabric over the vines in under a minute against spring frost, hail, sunburn, water stress and treatment washoff, then fold back into an A4 sized housing, driven by in-plot sensors and a mobile app and energy autonomous up to 80 km/h winds. The company said in June 2026 it had begun deploying more than 800 canopies across France and Italy under its Constellation 2026 programme, citing two seasons of Burgundy trials with company reported yield gains of 23 to 129 percent. Checked, and BIENESIS makes no AI or machine learning claim: the connected object is sensor and rule driven.",
+    "source_urls": [
+      "https://bienesis.fr/",
+      "https://www.vinetur.com/en/20260617102782/bienesis-begins-deploying-800-robotic-vineyard-canopies-in-france-and-italy.html"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-06-17",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Consejo Regulador DOCa Rioja",
+    "domain": "riojawine.com",
+    "hq_location": "Logrono, Spain",
+    "vertical": "wine",
+    "ai_use_case": "harvest yield forecasting across an appellation",
+    "ai_maturity": "shipping",
+    "short_description": "The governing council of Spain's DOCa Rioja appellation has since 2022 been building its own predictive models over nearly 66,000 hectares of vineyard. It digitised more than 25 years of its own phenology and production records and combined them with topography, climate data, satellite multispectral imagery and field observations, then trained 170 candidate models on roughly 1,650 input variables and kept the best performers, reporting harvest estimate accuracy of 96 percent in parcels with detailed field data. Auxiliary models detect cover crops, missing vines, phenological stage and frost or hail damage, and the council has launched a Sistema Digital de Informacion Agroclimatica y Prediccion de la Cosecha app that puts the agroclimatic data, production prediction models and high resolution parcel cartography in growers' hands. This is an appellation body running the AI itself, not a vendor.",
+    "source_urls": [
+      "https://riojawine.com/es/noticias/el-consejo-lanza-una-app-para-viticultores-con-informacion-para-la-gestion-de-vinedos/",
+      "https://www.vinetur.com/en/20260804105214/riojas-ai-harvest-model-reached-96-accuracy-in-vineyards-with-detailed-field-data.html"
+    ],
+    "key_people": "Pablo Franco (Director General)",
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-04",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "M&Wine",
+    "domain": "mandwine.com",
+    "hq_location": "France",
+    "vertical": "wine",
+    "ai_use_case": "mineral fingerprinting for authenticity and blending decisions",
+    "ai_maturity": "shipping",
+    "short_description": "M&Wine measures and quantifies more than 40 mineral elements in a wine sample, from major minerals down to metallic ultra traces across eight orders of magnitude, and treats that multi mineral profile as a stable fingerprint of terroir and cellar practice. Its platform applies machine learning to a reference base the company states has passed 60,000 cuvees to predict grape variety, region, country and category, to build what it calls a Digital Wine Passport for authenticity, and to run IAssemblage, an AI blending assistant, plus DeepRed. The Jumeau Numerique du Vin platform took a silver medal at the SITEVI 2025 Innovation Awards in Montpellier.",
+    "source_urls": [
+      "https://mandwine.com/",
+      "https://www.revuefrancaiseoenologie.fr/sitevi-innovation-awards-2025-les-28-nomines-et-les-17-laureats/"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Onafis",
+    "domain": "onafis.com",
+    "hq_location": "France",
+    "vertical": "multiple",
+    "ai_use_case": "predictive alerts on fermentation and ageing drift",
+    "ai_maturity": "pilot",
+    "short_description": "Onafis sells continuous sensing and a cloud platform for tracking harvest, fermentation and ageing across wine, beer and spirits, removing manual dip readings and letting winemakers, brewers, distillers and consulting oenologists follow tanks and barrels remotely against their own recipes and alert thresholds. On top of the continuous data the company describes a predictive data intelligence layer that anticipates stuck or drifting fermentations and ageing so the operator can intervene early. Its Alkios connected alcoholmeter, which reads spirit strength in about 30 seconds in the container without drawing a sample and feeds the Onafis platform for customs inventory, took a bronze medal at the SITEVI 2025 Innovation Awards and is aimed at cognac, rum and whisky producers. It trades in France as My Bacchus.",
+    "source_urls": [
+      "https://onafis.com/",
+      "https://www.revuefrancaiseoenologie.fr/sitevi-innovation-awards-2025-les-28-nomines-et-les-17-laureats/"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "CLEMENS Technologies",
+    "domain": "clemens-online.com",
+    "hq_location": "Wittlich, Germany",
+    "vertical": "wine",
+    "ai_use_case": "camera vision post detection on vineyard pre-pruners",
+    "ai_maturity": "shipping",
+    "short_description": "CLEMENS Technologies is a German maker of viticulture and orchard machinery: undervine weeding tools, tool carriers and lift masts, soil cultivation and canopy management equipment, plus vineyard management software. Its C-Vision double sided pre-pruner uses what the company calls an AI based camera opening system that recognises trellis posts of any type and opens the pruning head automatically, and which can be trained on new trellis configurations. The system won a silver medal at the SITEVI 2025 Innovation Awards in Montpellier.",
+    "source_urls": [
+      "https://www.clemens-online.com/en/",
+      "https://www.revuefrancaiseoenologie.fr/sitevi-innovation-awards-2025-les-28-nomines-et-les-17-laureats/"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "TecnoVict (Spezia srl)",
+    "domain": "tecnovict.com",
+    "hq_location": "Italy",
+    "vertical": "wine",
+    "ai_use_case": "none, sensor driven variable rate vineyard spraying",
+    "ai_maturity": "none",
+    "short_description": "TecnoVict, part of Spezia srl, designs, sells and services vineyard machinery in Italy, including trimmers, tying machines, leaf removers, pre-pruners and post drivers, and distributes DICKEY-john products in Italy. Its IN.NO.VA.R. retrofit kit, a SITEVI 2025 Innovation Awards nominee, converts a fixed dose airblast sprayer into a real time variable dose machine by combining ultrasonic and optical canopy sensors with pulse width modulation to control each nozzle individually at 0.1 second resolution. Checked, and TecnoVict makes no AI or machine learning claim: this is sensor and control engineering for precision viticulture.",
+    "source_urls": [
+      "https://www.tecnovict.com/",
+      "https://www.revuefrancaiseoenologie.fr/sitevi-innovation-awards-2025-les-28-nomines-et-les-17-laureats/"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Ma-Cuvee (Studio Budo)",
+    "domain": "ma-cuvee.com",
+    "hq_location": "France",
+    "vertical": "wine",
+    "ai_use_case": "generative imagery for wine and spirits packshots",
+    "ai_maturity": "shipping",
+    "short_description": "Ma-Cuvee, run by Studio Budo, turns a single photograph of a wine or spirits bottle into premium marketing visuals using generative AI, described on its own site as creating professional wine bottle photos via IA with automatic generation of unique royalty free visual content. It is aimed at estates and drinks brands that need year round packshot and beautyshot imagery without repeated studio shoots, and is a member of the French La WineTech association.",
+    "source_urls": [
+      "https://ma-cuvee.com/",
+      "https://www.lawinetech.com/members"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Baqio",
+    "domain": "baqio.com",
+    "hq_location": "Dijon, France",
+    "vertical": "wine",
+    "company_type": "vendor",
+    "ai_use_case": "none, wine and spirits commercial management software",
+    "ai_maturity": "none",
+    "short_description": "Baqio is a French web based commercial management system built specifically for wine and alcohol producers, covering invoicing and shipping, customer CRM, stock and materials accounting with French monthly and customs declarations, bank synchronisation and pre accounting, cellar door point of sale and an e-commerce tie in to its own storefront or WooCommerce. It is NF525 certified and trades in France as Vinosoft. There is no AI or machine learning claim anywhere on the site: it is a system of record for winery commercial operations.",
+    "source_urls": [
+      "https://www.baqio.com/",
+      "https://www.lawinetech.com/members"
+    ],
+    "first_seen": "2026-08-20",
+    "last_seen": "2026-08-20",
+    "discovered_by": "curated",
+    "verified": true
   }
 ]
