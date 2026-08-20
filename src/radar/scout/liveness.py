@@ -36,7 +36,7 @@ def check(domain: str, get=None) -> bool | None:
     return 200 <= status < 400
 
 
-def _default_get(url: str) -> int | None:
+def _default_get(url: str, _attempt: int = 0) -> int | None:
     import httpx
 
     try:
@@ -51,6 +51,15 @@ def _default_get(url: str) -> int | None:
         # httpx wraps the resolver error, so match on the OS message rather than
         # the exception class, which is ConnectError for every transport failure.
         if "nodename nor servname" in str(exc) or "Name or service not known" in str(exc):
+            # A resolver that fails under burst load reports exactly the same
+            # message as a domain that genuinely has no record. Sweeping 700+
+            # domains produced 561 "dead" of which a serial recheck found ~80%
+            # alive, so one retry before calling a company gone.
+            if _attempt == 0:
+                import time
+
+                time.sleep(1.0)
+                return _default_get(url, _attempt=1)
             return DNS_MARKER
         return None
 
