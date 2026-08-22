@@ -1267,5 +1267,95 @@
     "vertical": "non_alcoholic",
     "summary": "David Goris, Proximo Spirits' Senior Supply Chain Project Manager, talks about Halo's valuable experience working with the ...",
     "year": 2019
+  },
+  {
+    "title": "The FUTURE of BEER 🍻 | Deep Liquid AI",
+    "channel": "Deep Liquid AI",
+    "video_id": "5wkfyZOKD0g",
+    "url": "https://www.youtube.com/watch?v=5wkfyZOKD0g",
+    "vertical": "beer",
+    "summary": "Cheers to the future of beer! Deep Liquid AI is partnering with breweries to change the beer game forever with our AI ...",
+    "year": 2023
+  },
+  {
+    "title": "Beer & Analytics Toronto 2022",
+    "channel": "Sarah Vickers",
+    "video_id": "jp4b6K_JTUs",
+    "url": "https://www.youtube.com/watch?v=jp4b6K_JTUs",
+    "vertical": "beer",
+    "summary": "Join us on June 22nd for our first ever Toronto edition of Beer & Analytics. Hosted at High Park Brewery, enjoy networking with ...",
+    "year": 2022
+  },
+  {
+    "title": "Distilling LLMs with Datawizz and Fireworks AI",
+    "channel": "Datawizz",
+    "video_id": "-_CGN0Pmp_o",
+    "url": "https://www.youtube.com/watch?v=-_CGN0Pmp_o",
+    "vertical": "whiskey",
+    "summary": "Use Datawizz to distill small, efficient SLMs & deploy them to the Fireworks AI platform for fast & efficient inference. This quick ...",
+    "year": 2025
+  },
+  {
+    "title": "Rum Tropic Distillery debuts AI-powered bartender",
+    "channel": "The Day",
+    "video_id": "MIgiX6jMJyw",
+    "url": "https://www.youtube.com/watch?v=MIgiX6jMJyw",
+    "vertical": "whiskey",
+    "summary": "Rum Tropic Distillery in Stonington's Velvet Mill has launched Tiki Lab, an AI-powered kiosk that creates custom cocktail recipes ...",
+    "year": 2025
+  },
+  {
+    "title": "White Wine Quality Prediction - Data Every Day #054",
+    "channel": "Gabriel Atkin",
+    "video_id": "gybAf1Jv2M8",
+    "url": "https://www.youtube.com/watch?v=gybAf1Jv2M8",
+    "vertical": "wine",
+    "summary": "Hi guys, welcome back to Data Every Day! On today's episode, we are looking at a dataset of white wines and trying to predict the ...",
+    "year": 2021
+  },
+  {
+    "title": "PRIVACY CAFE: BELGIAN BEERS AND AI",
+    "channel": "CPDPConferences",
+    "video_id": "L5m3YDnNCA0",
+    "url": "https://www.youtube.com/watch?v=L5m3YDnNCA0",
+    "vertical": "multiple",
+    "summary": "Organisation: DPinstitute Timing: 18:30 - 20:30 Topic of this session will be beer, Artificial Intelligence and data privacy. So what ...",
+    "year": 2022
+  },
+  {
+    "title": "Transforming Your Beverage Business For AI | Sam Wong",
+    "channel": "Beverage Trade Network",
+    "video_id": "e5o7Pblszg4",
+    "url": "https://www.youtube.com/watch?v=e5o7Pblszg4",
+    "vertical": "multiple",
+    "summary": "Learn more about IBWSS and register for the event at: https://ibwsshow.com/ #ArtificialIntelligence #AI #BeverageIndustry ...",
+    "year": 2026
+  },
+  {
+    "title": "Fully Automatic Soda & Soft Drink Machine Premium Model 12-6 Filler & Capper - Teaser Tailor",
+    "channel": "Akb Machines",
+    "video_id": "AItCEB24uzY",
+    "url": "https://www.youtube.com/watch?v=AItCEB24uzY",
+    "vertical": "non_alcoholic",
+    "summary": "Head Quarters (Manufacturing Unit) Sales Executive / Whatsapp : +91 8822686868 Managing Director ( Mr. Shabbir ) : +91 ...",
+    "year": 2021
+  },
+  {
+    "title": "Soft Drink Sales Prediction - Data Every Day #159",
+    "channel": "Gabriel Atkin",
+    "video_id": "E1aJk9Z4usM",
+    "url": "https://www.youtube.com/watch?v=E1aJk9Z4usM",
+    "vertical": "non_alcoholic",
+    "summary": "Hi guys, welcome back to Data Every Day! On today's episode, we are looking at a dataset of soft drinks and trying to predict the ...",
+    "year": 2021
+  },
+  {
+    "title": "Tech Talk  - Artificial Intelligence and Machine Learning for the Food and Beverage Industry",
+    "channel": "Food Production Solutions Assn",
+    "video_id": "VROAr5yxSrU",
+    "url": "https://www.youtube.com/watch?v=VROAr5yxSrU",
+    "vertical": "non_alcoholic",
+    "summary": "Happy #techtuesday! On this episode of the FPSA Technology Networks #techtalk, Valvanera Moreno from MontBlancAI breaks ...",
+    "year": 2024
   }
 ]

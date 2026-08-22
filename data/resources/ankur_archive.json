@@ -390,16 +390,6 @@
     "featured": false
   },
   {
-    "title": "A Safety Culture Built on Data, Not Surveillance",
-    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
-    "author": "Ankur Napa",
-    "date": "2026",
-    "vertical": "beer",
-    "url": "https://ankurnapa.github.io/2026/safety-culture-data-not-surveillance/",
-    "summary": "How to use safety culture data to build trust and improve brewery EHS outcomes — and why the difference between data and surveillance determines whether workers report honestly.",
-    "featured": false
-  },
-  {
     "title": "Predicting When Malt Is Modified Enough to Kiln",
     "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
     "author": "Ankur Napa",
@@ -2547,16 +2537,6 @@
     "vertical": "beer",
     "url": "https://ankurnapa.github.io/2023/predicting-stuck-fermentation-risk/",
     "summary": "How machine learning predicts stuck fermentation risk from pitching rate, viability, wort oxygen and the early gravity curve — in time to act.",
-    "featured": false
-  },
-  {
-    "title": "Can AI Predict Mash Efficiency and Extract Yield?",
-    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
-    "author": "Ankur Napa",
-    "date": "2023",
-    "vertical": "beer",
-    "url": "https://ankurnapa.github.io/2023/predicting-mash-efficiency-extract-yield/",
-    "summary": "A model can predict mash efficiency and kettle extract from crush, mash thickness, temperature profile, sparge and malt analysis — flagging low-yield brews early.",
     "featured": false
   },
   {

@@ -1,21 +1,5 @@
 [
   {
-    "title": "ASBC & CIBD 2026 Global Brewing and Distilling Congress",
-    "url": "https://www.asbcnet.org/events/2026Meeting/Pages/default.aspx",
-    "organiser": "American Society of Brewing Chemists and Chartered Institute of Brewers and Distillers",
-    "location": "Seattle, Washington, United States",
-    "country": "United States",
-    "vertical": "multiple",
-    "summary": "First joint congress of ASBC and CIBD, themed Global Brewing and Distilling Innovation: Shaping the Future Together, spanning beer, distilled spirits and wine. The two bodies bring roughly 4000 technical members across 90 and 40 countries respectively, which makes this the densest technical gathering of the year for fermentation science.",
-    "speakers": [],
-    "mode": "in-person",
-    "speaking": false,
-    "start": "2026-08-17",
-    "end": "2026-08-19",
-    "state": "upcoming",
-    "sort": "2026-08-17"
-  },
-  {
     "title": "Brews & Spirits Expo 2026",
     "url": "https://www.brewsnspiritsexpo.com/",
     "organiser": "PDA Ventures",
@@ -126,6 +110,22 @@
     "end": "",
     "state": "undated",
     "sort": "1900-01-01"
+  },
+  {
+    "title": "ASBC & CIBD 2026 Global Brewing and Distilling Congress",
+    "url": "https://www.asbcnet.org/events/2026Meeting/Pages/default.aspx",
+    "organiser": "American Society of Brewing Chemists and Chartered Institute of Brewers and Distillers",
+    "location": "Seattle, Washington, United States",
+    "country": "United States",
+    "vertical": "multiple",
+    "summary": "First joint congress of ASBC and CIBD, themed Global Brewing and Distilling Innovation: Shaping the Future Together, spanning beer, distilled spirits and wine. The two bodies bring roughly 4000 technical members across 90 and 40 countries respectively, which makes this the densest technical gathering of the year for fermentation science.",
+    "speakers": [],
+    "mode": "in-person",
+    "speaking": false,
+    "start": "2026-08-17",
+    "end": "2026-08-19",
+    "state": "past",
+    "sort": "2026-08-17"
   },
   {
     "title": "Brew What Sells with AI: An Evidence Engine for Craft Breweries",
