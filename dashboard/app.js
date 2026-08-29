@@ -2173,8 +2173,12 @@ async function main() {
     apply();
     renderWhatsNew();
   });
-  $("grid").addEventListener("click", cardNav);
-  $("people-list").addEventListener("click", cardNav);
+  // Delegate from the document, not from each list: the Company of the day card
+  // lives in #pickoftheday and its data-route went nowhere for want of a
+  // listener. Any [data-route] element is by definition meant to navigate, so
+  // one handler covers every container, including ones added later. Handlers
+  // that must suppress navigation (the star button) already stopPropagation.
+  document.addEventListener("click", cardNav);
   $("detail-back").addEventListener("click", (e) => { e.preventDefault(); location.hash = ""; });
 
   await loadResources();
