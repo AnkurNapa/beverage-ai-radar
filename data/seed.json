@@ -15632,5 +15632,926 @@
     "last_seen": "2026-08-29",
     "discovered_by": "scout:equipment",
     "verified": false
+  },
+  {
+    "name": "Tecon Soluciones Informaticas (Uvatec)",
+    "domain": "grupotecon.com",
+    "hq_location": "Albacete, Spain",
+    "vertical": "wine",
+    "ai_use_case": "winery erp and traceability, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Tecon Soluciones Informaticas is a Spanish Microsoft Dynamics partner whose Uvatec product is a winery vertical built on Dynamics 365 Business Central, sold to bodegas and wine cooperatives and listed on Microsoft AppSource. Uvatec covers the Cuaderno de Explotacion vineyard record required by the Spanish agriculture ministry, weighbridge capture of grape weight, variety and quality at intake, cooperative member accounting and payment calculation, and traceability across the winery. The Uvatec product page makes no machine learning or AI claim: the Copilot and Power BI references on the site are separate Microsoft services the firm resells, not capability inside the winery product.",
+    "source_urls": [
+      "https://grupotecon.com/tecon-soluciones-informaticas/dynamics-365/dynamics-365-business-central/bodegas-uvatec/",
+      "https://catalogapi.azure.com/offers/DZH318XZMQPL?api-version=2018-08-01-beta&storefront=appsource"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:microsoft",
+    "verified": false
+  },
+  {
+    "name": "Korpershoek FreshFood Solutions",
+    "domain": "kffs.nl",
+    "hq_location": "Dordrecht, Netherlands",
+    "vertical": "multiple",
+    "ai_use_case": "alcohol excise duty and customs compliance, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Korpershoek FreshFood Solutions is a Dutch Microsoft Dynamics 365 Business Central partner with a dedicated beverages vertical (Dranken) alongside its fresh produce and food practices. Its FreshFood Beverages app, published on Microsoft AppSource, calculates excise duty tariffs on alcoholic beverages and manages the customs licences held by producers and their delivery addresses, keeping brewers, distillers and drinks wholesalers compliant with local duty regulation. The company's own site and the app listing describe configuration-driven tariff calculation and licence registration only, with no machine learning or AI claim of any kind.",
+    "source_urls": [
+      "https://kffs.nl/",
+      "https://catalogapi.azure.com/offers/DZH318XZR52H?api-version=2018-08-01-beta&storefront=appsource"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:microsoft",
+    "verified": false
+  },
+  {
+    "name": "Cavit",
+    "domain": "cavit.it",
+    "hq_location": "Trento, Italy",
+    "founded_year": 1950,
+    "vertical": "wine",
+    "ai_use_case": "vineyard sensor monitoring platform",
+    "ai_maturity": "none",
+    "funding_stage": "cooperative",
+    "short_description": "Cavit is a Trentino wine cooperative whose 11 member wineries and about 5,250 grower members farm roughly 6,250 hectares, over 60 percent of the Trentino vineyard area. It runs PICA, its own named precision viticulture platform, which collects data from sensors placed in member vineyards, processes it centrally and returns personalised notifications that guide each grower's daily work. Cavit also moved its core business systems to SAP S/4HANA cloud under RISE with SAP in January 2025. Cavit makes no AI or machine learning claim for PICA on its own site: it is described as sensor telemetry plus grower notifications, not modelling or prediction.",
+    "source_urls": [
+      "https://www.cavit.it/en/viticulture/",
+      "https://news.sap.com/italy/2025/01/il-consorzio-vitivinicolo-cavit-guarda-al-futuro-e-prepara-la-crescita-del-proprio-business-sul-cloud-con-rise-with-sap/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:sap",
+    "verified": false
+  },
+  {
+    "name": "Somm'It",
+    "domain": "somm-it.com",
+    "founded_year": 2015,
+    "vertical": "wine",
+    "ai_use_case": "wine list and cellar inventory connected to the POS, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Somm'It is a French wine list and drinks inventory platform for restaurants, hotels, wine bars and wine merchants, published as a validated Oracle Simphony POS integration on the Oracle Restaurants Marketplace. It generates an always-current wine list from the cellar inventory, runs the inventory count in-app, and syncs sales from the till so stock and the printed or QR wine list never drift apart. It ships a reference library of more than 100,000 wines with technical sheets, used both to speed up counting and to train floor staff. The company was founded in 2015 by Gregory Castelli with the late Gerard Basset MS after a wine world tour, was picked by Techstars in 2016 as one of ten foodtech startups to watch, and says more than 30 Michelin-starred venues use it. Somm'It makes no AI or machine learning claim on its site: the product is a wine data library, an inventory app and a POS connector.",
+    "source_urls": [
+      "https://www.somm-it.com/nous-decouvrir",
+      "https://www.somm-it.com/solutions/",
+      "https://marketplace.oracle.com/apps/115907036"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Gregory Castelli (Founder)",
+    "people": [
+      {
+        "name": "Gregory Castelli",
+        "role": "Founder"
+      }
+    ],
+    "discovered_by": "scout:oracle",
+    "verified": false
+  },
+  {
+    "name": "Barmetrix",
+    "domain": "barmetrix.com",
+    "founded_year": 1999,
+    "vertical": "multiple",
+    "ai_use_case": "franchised bar beverage stocktaking and variance consulting, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Barmetrix runs a franchised beverage inventory and profit consulting service for bars, restaurants, hotels and nightclubs, where a local franchisee counts beer, wine and spirits stock, reconciles it against POS sales and coaches the operator on the resulting variance. It was founded in 1999 in Sydney, Australia, opened US and UK offices in 2005 and Toronto shortly after, and says it has served over 10,000 venues across seven countries. It is the direct competitor to Sculpture Hospitality on the same model, human counters plus reporting rather than software alone. Barmetrix makes no AI or machine learning claim anywhere on its site.",
+    "source_urls": [
+      "https://www.barmetrix.com/about-us",
+      "https://www.barmetrix.com/our-team"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Ray Walsh (CEO)",
+    "people": [
+      {
+        "name": "Ray Walsh",
+        "role": "CEO"
+      }
+    ],
+    "discovered_by": "scout:oracle",
+    "verified": false
+  },
+  {
+    "name": "Freepour",
+    "domain": "freepour.com",
+    "hq_location": "Ontario, Canada",
+    "vertical": "multiple",
+    "ai_use_case": "patented pour and bottle weighing telemetry reconciled to pos sales, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Freepour Beverage Management sells patented hardware and a cloud platform that monitors draft beer, spirits, wine and packaged beverages in bars and restaurants, timestamping usage and interfacing to the venue POS and to back office inventory systems such as Optimum Control. Its bottle weighing line is quoted at 20 bottles a minute and 97.7 percent accuracy, and the company says it has been in the business for around 35 years with thousands of clients in over a dozen countries. The stated purpose is loss prevention: reports drive bartender behaviour and cut the labour cost of frequent manual inventories. Freepour makes no AI or machine learning claim; what ships is metering, reconciliation and reporting.",
+    "source_urls": [
+      "https://freepour.com/about",
+      "https://freepour.com/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:oracle",
+    "verified": false
+  },
+  {
+    "name": "DraftServ",
+    "domain": "draftserv.com",
+    "vertical": "multiple",
+    "ai_use_case": "self-serve dispense control and per-pour consumption data, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "DraftServ adds smart controls to standard beverage dispensers so venues can run self-serve pouring and capture real-time dispense and sales data for beer, wine, cocktails, soft drinks and coffee. It sells to bars and restaurants, independent breweries, stadiums, hotels, casinos, cruise lines, QSR and convenience stores, and describes itself as a beverage operating system rather than a beer wall vendor: pricing, happy hours, premium versus non-premium products, staff access and consumption limits are all configurable, with POS and PMS integration. The company builds its software in-house and argues most operators still rely on hand counts and estimation for beverage sales. DraftServ makes no AI or machine learning claim: the value is dispense telemetry and control.",
+    "source_urls": [
+      "https://www.draftserv.com/technology",
+      "https://www.draftserv.com/faq"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:oracle",
+    "verified": false
+  },
+  {
+    "name": "Evergreen",
+    "domain": "evergreenhq.com",
+    "vertical": "beer",
+    "ai_use_case": "digital tap list and beer menu boards driven by pos and inventory data, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Evergreen Technology sells digital menu board, QR menu, print menu and website menu software for bars, restaurants and craft breweries, and is the platform the former TapHunter beer menu tools now live inside. Its brewery product is aimed at the brand side: a brewery controls how its beers appear on tap lists and digital boards across the bars and taprooms that pour them, so tap list accuracy and brand consistency are maintained off-premise. Menus update from inventory and from POS integrations with Square, Clover, Toast, Shift4 and GoTab; Oracle MICROS and Simphony are not among the listed POS integrations. Evergreen makes no AI or machine learning claim: the product is menu content management fed by live stock and sales data.",
+    "source_urls": [
+      "https://www.evergreenhq.com/products/brewery-tools/",
+      "https://www.evergreenhq.com/products/pos-integration/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:oracle",
+    "verified": false
+  },
+  {
+    "name": "Trax",
+    "domain": "traxretail.com",
+    "hq_location": "Singapore",
+    "founded_year": 2010,
+    "vertical": "multiple",
+    "ai_use_case": "shelf image recognition for retail execution",
+    "ai_maturity": "shipping",
+    "funding_stage": "Series E",
+    "total_raised": "$640 million Series E in 2021 led by SoftBank Vision Fund 2 and BlackRock",
+    "short_description": "Trax builds computer vision and image recognition software that turns photos of retail shelves and coolers into shelf-share, out-of-stock and planogram compliance data for consumer goods brands. Beverage alcohol is a core segment: its published case studies cover Molson Coors, a global brewer and a leading beverage alcohol company, and Molson Coors used Trax image recognition across roughly 6,000 Canadian stores and 500,000 shelf images to track 17 in-store KPIs where syndicated beer POS data covered under 15 percent of national volume. In 2023 Trax launched the Trax Connector on the Salesforce AppExchange so companies running Salesforce Consumer Goods Cloud can feed computer vision data into retail execution. In February 2026 Gemspring Capital acquired the Trax image recognition business and combined it with FORM into a single retail execution platform.",
+    "source_urls": [
+      "https://traxretail.com/case-studies/molson-coors/",
+      "https://traxretail.com/company/about-us/",
+      "https://www.prnewswire.com/news-releases/gemspring-capital-combines-form-and-trax-retails-image-recognition-to-create-global-retail-execution-platform-302680273.html"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Joel Bar-El (Co-founder), Dror Feldheim (Co-founder), David Gottlieb (Chief Revenue Officer)",
+    "discovered_by": "scout:salesforce",
+    "verified": false
+  },
+  {
+    "name": "Infilect",
+    "domain": "infilect.com",
+    "hq_location": "Bengaluru, India",
+    "vertical": "multiple",
+    "ai_use_case": "image recognition for on-shelf availability",
+    "ai_maturity": "shipping",
+    "funding_stage": "Pre-Series A",
+    "total_raised": "$1.5 million pre-Series A announced in 2020, led by Mela Ventures and 1Crowd",
+    "short_description": "Infilect is a Bengaluru visual intelligence company whose InfiViz product applies computer vision to shelf photographs to measure share of shelf, on-shelf availability, price compliance and planogram compliance for consumer goods brands and their distributors. It publishes a case study on helping one of the leading alcohol beverage brands in the United States improve on-shelf product availability across 10,000 stores, alongside a broader beverage industry case study. The company says it operates in more than 18 countries, covers about 400,000 stores a month and processes around 5 million images a month, and it sells retail execution and sales force automation modules that sit alongside CRM systems. Its India base makes it one of the few Indian AI vendors serving beverage alcohol retail execution.",
+    "source_urls": [
+      "https://infilect.com/case-studies/how-infilects-image-recognition-solution-helped-one-of-the-leading-alcohol-beverage-brands-in-the-us-improve-their-on-shelf-product-availability",
+      "https://infilect.com/about-us",
+      "https://www.prnewswire.com/in/news-releases/retail-visual-intelligence-innovator-infilect-raises-1-5-million-pre-series-a-funding-831866313.html"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Anand Prabhu Subramanian (Co-founder), Vijay Gabale (Co-founder)",
+    "discovered_by": "scout:salesforce",
+    "verified": false
+  },
+  {
+    "name": "Vividly",
+    "domain": "govividly.com",
+    "hq_location": "San Francisco, United States",
+    "founded_year": 2017,
+    "vertical": "multiple",
+    "ai_use_case": "trade promotion forecasting and optimization",
+    "ai_maturity": "shipping",
+    "funding_stage": "Series B",
+    "total_raised": "$30 million Series B in January 2025 led by Centana Growth Partners",
+    "short_description": "Vividly is a trade promotion management platform for consumer packaged goods brands that runs promotion planning, trade forecasting, deduction management and revenue growth management in one system. Alcohol is one of its named use cases, with tooling built for beverage DSD networks including distributor percentage splits below one percent and volume validation against depletions, which is the standard beer, wine and spirits three tier data problem. The AI is applied to trade forecasting and trade promotion optimization, marketed as Transcend AI, generating promotion calendars and prescriptive analytics from historical shipment and depletion data rather than manual spreadsheets. Named customers are mostly food and non alcoholic beverage brands such as Liquid Death, Health-Ade and Perfect Snacks, so its alcohol footprint is stated by the vendor rather than shown through a named alcohol customer.",
+    "source_urls": [
+      "https://www.govividly.com/alcohol",
+      "https://www.govividly.com/our-customers",
+      "https://www.einpresswire.com/article/776622917/vividly-secures-30m-series-b-to-bring-ai-to-cpg-brands"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Johnathan Hodge (CEO)",
+    "discovered_by": "scout:salesforce",
+    "verified": false
+  },
+  {
+    "name": "Bowimi",
+    "domain": "bowimi.com",
+    "hq_location": "Bath, United Kingdom",
+    "vertical": "multiple",
+    "ai_use_case": "on-trade prospect scoring",
+    "ai_maturity": "shipping",
+    "short_description": "Field sales software for drinks brands and their agencies, covering route planning, rep activity tracking, outlet surveys and distributor customer lists across the UK on-trade and off-trade. Its Prospecting AI feature scores a database of over 100,000 venues daily against the customer profile a brand uploads and returns a ranked personalised prospect list inside the app. Named drinks customers include Amie Wine and House of Theakston. Bowimi Limited is registered in England and Wales, company number 11641407, at Podium Space, Henry Street, Bath.",
+    "source_urls": [
+      "https://www.bowimi.com/prospecting/",
+      "https://www.bowimi.com/case-study/house-of-theakston-episode-one-reps/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:erp",
+    "verified": false
+  },
+  {
+    "name": "Wine Owners (Wine Hub)",
+    "domain": "wineowners.com",
+    "hq_location": "London, United Kingdom",
+    "vertical": "wine",
+    "ai_use_case": "wine and spirits business management platform",
+    "ai_maturity": "none",
+    "short_description": "London company selling Wine Hub, an ERP-class business management and stock platform built specifically for wine and spirits merchants, importers, agencies and producers, plus Wine Keep for bonded storage operators. It handles fine wine stock, en primeur, client-stored wines, duty, multi-channel selling and integrations with accounting, LCB warehouses and trading exchanges. Wine Owners makes no public AI or machine-learning claim; it is tracked here as a wine trade system of record, not as an AI vendor. Registered in the UK, company number 07645873.",
+    "source_urls": [
+      "https://wineowners.com/wine-hub-wine-business-management-software/",
+      "https://wineowners.com/about-wine-owners/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Nick Martin (Co-founder and CEO)",
+    "people": [
+      {
+        "name": "Nick Martin",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Wolter Visscher",
+        "role": "Co-founder and CTO"
+      },
+      {
+        "name": "Nick Corker",
+        "role": "COO"
+      },
+      {
+        "name": "John Cox",
+        "role": "Head of Product and Engineering"
+      }
+    ],
+    "discovered_by": "scout:erp",
+    "verified": false
+  },
+  {
+    "name": "Advanced Management Systems (AMS)",
+    "domain": "amssoftware.com",
+    "founded_year": 1981,
+    "vertical": "wine",
+    "ai_use_case": "winery production and sales software",
+    "ai_maturity": "none",
+    "short_description": "Long-running US winery software vendor, in business since 1981, selling a modular package that covers vineyard management, winemaking, bottling, MRP for supplies, warehouse and lane addressing, wine allocation, wholesale order processing and DTC shopping cart, with ShipCompliant integration for compliance. Sold with configuration, custom programming and scheduled training classes rather than as self-serve SaaS. AMS makes no AI or machine-learning claim anywhere on its product pages; it is tracked here as a winery system of record, not as an AI vendor.",
+    "source_urls": [
+      "https://www.amssoftware.com/modules/",
+      "https://www.amssoftware.com/about-us/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:erp",
+    "verified": false
+  },
+  {
+    "name": "VineInfo",
+    "domain": "vineinfo.com",
+    "vertical": "wine",
+    "ai_use_case": "vineyard block records and yield tracking",
+    "ai_maturity": "none",
+    "short_description": "Web application and viticultural consultancy for winegrape growers, holding block-level vineyard records, annual farm plans, activity work orders, yield data, quality control and monitoring in one place, with free irrigation scheduler and degree-day calculator tools. It states it serves more than 1,000 acres of ultra-premium vineyard in the Napa and Sonoma valleys. VineInfo makes no AI, machine-learning or predictive claim; it is a record-keeping and reporting system tracked here as a vineyard data source, not as an AI vendor.",
+    "source_urls": [
+      "https://vineinfo.com/about_vineyard_yield_software_management_company.html",
+      "https://vineinfo.com/vineyard_yield_management_software_products.html"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:erp",
+    "verified": false
+  },
+  {
+    "name": "BrewERP",
+    "domain": "brewerp.top",
+    "vertical": "multiple",
+    "ai_use_case": "brewery and winery production management",
+    "ai_maturity": "none",
+    "short_description": "Small multilingual SaaS ERP for craft breweries and boutique wineries, sold on a 14-day free trial with EU-hosted servers. The brewery mode tracks mash to fermentation to carbonation to bottling with tank status maps, recipes, keg and can inventory and batch costing; the winery mode tracks crush to fermentation to malolactic to ageing to bottling with vessel and barrel cellar maps and vintage lot costing. Finance, pricing and stock-depletion and bottling forecasting modules are rule-based planning, not machine learning, and the product makes no AI claim. Interface is offered in English, Russian, Italian, French and German; the operating company and location are not published on the site.",
+    "source_urls": [
+      "https://brewerp.top/",
+      "https://www.saashub.com/brewerp"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:erp",
+    "verified": false
+  },
+  {
+    "name": "BinWise",
+    "domain": "binwise.com",
+    "vertical": "multiple",
+    "ai_use_case": "beverage inventory and purchasing",
+    "ai_maturity": "none",
+    "short_description": "Beverage program management software for restaurants, bars, hotels and country clubs, covering wine, beer and spirits inventory counting, wine list and bin management, purchasing and vendor ordering. Now integrated with BlueCart, which adds food inventory and the Endless Aisle sourcing marketplace. It markets par-based predictive ordering but publishes no AI or machine-learning claim, so it is recorded here as an on-premise beverage system of record rather than an AI vendor.",
+    "source_urls": [
+      "https://binwise.com/",
+      "https://www.softwaresuggest.com/binwise"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:erp",
+    "verified": false
+  },
+  {
+    "name": "GoTab",
+    "domain": "gotab.com",
+    "hq_location": "Arlington, Virginia, United States",
+    "founded_year": 2016,
+    "vertical": "beer",
+    "ai_use_case": "natural language analytics assistant over taproom and brewery sales data",
+    "ai_maturity": "pilot",
+    "short_description": "GoTab is a point of sale and mobile order and pay platform for breweries, taprooms, bars, food halls and entertainment venues, covering handheld POS, kitchen display, self ordering kiosks, RFID passes, memberships and loyalty. Breweries are a core segment: it partners with the California Craft Brewers Association and the Texas Craft Brewers Guild and integrates with the Beer30 brewery production system. On 27 July 2026 it launched Lovey by GoTab in beta, an AI assistant inside the GoTab Manager Dashboard that answers plain language questions about an operator's own GoTab Data Hub sales and depletion data and returns visualisations and downloadable supporting data. AWS published a GoTab hospitality story in its industries blog, and the assistant is described as beta rather than generally available.",
+    "source_urls": [
+      "https://gotab.com/latest/gotab-ai-assistant-hospitality-data-business-insights",
+      "https://aws.amazon.com/blogs/industries/hospitality-operators-shift-toward-experiential-dining-with-gotab/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-07-27",
+    "key_people": "Tim McLaughlin (Co-founder and CEO)",
+    "people": [
+      {
+        "name": "Tim McLaughlin",
+        "role": "Co-founder and CEO"
+      }
+    ],
+    "discovered_by": "scout:aws",
+    "verified": false
+  },
+  {
+    "name": "Corley",
+    "domain": "corley.it",
+    "hq_location": "Turin, Italy",
+    "vertical": "beer",
+    "ai_use_case": "industrial iot and ml anomaly detection on brewery production lines",
+    "ai_maturity": "shipping",
+    "short_description": "Corley is an Italian AWS consulting partner in Turin selling cloud migration, industrial IoT, data platform and AI and ML services. Its named beverage work is Birra Menabrea, Italy's oldest continuously operating brewery, in Biella: Corley catalogued the brewing and kegging line, connected each machine to AWS with its own hardware connectors, and built data ingestion and real time production and efficiency dashboards. The machine learning in the deployment is Amazon Monitron, the AWS sensor and ML service that flags abnormal equipment conditions and predicts maintenance, applied to the production line; the models are AWS's rather than Corley's own. AWS separately covered the project in its Smart Business blog, where Menabrea reported a six month payback and 42 percent savings.",
+    "source_urls": [
+      "https://www.corley.it/industria-4-aws-menabrea.html",
+      "https://aws.amazon.com/blogs/smb/gaining-deeper-insights-into-manufacturing-and-sales-with-cloud-technology/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-06-04",
+    "key_people": "Gabriele Mittica (Co-founder)",
+    "people": [
+      {
+        "name": "Gabriele Mittica",
+        "role": "Co-founder"
+      }
+    ],
+    "discovered_by": "scout:aws",
+    "verified": false
+  },
+  {
+    "name": "Winemetrics",
+    "domain": "winemetrics.com",
+    "vertical": "wine",
+    "ai_use_case": "on-premise wine list data and reporting",
+    "ai_maturity": "none",
+    "short_description": "Winemetrics sells on-premise wine distribution intelligence in the US market, built from by-the-glass and bottle wine lists collected across chain restaurants. Its products are competitive analysis reports, wine list databases and a Wine Equity Quotient brand measure sold to wine suppliers, and it says all of the top 20 on-premise suppliers have been clients over 15 years. The site makes no machine learning or AI claim of any kind: this is human-collected menu data turned into reports.",
+    "source_urls": [
+      "https://winemetrics.com/",
+      "https://winemetrics.com/about-us/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Charles Gill (Founder and CEO)",
+    "people": [
+      {
+        "name": "Charles Gill",
+        "role": "Founder and CEO"
+      }
+    ],
+    "discovered_by": "scout:tableau",
+    "verified": false
+  },
+  {
+    "name": "Phocas Software",
+    "domain": "phocassoftware.com",
+    "vertical": "multiple",
+    "ai_use_case": "natural language analytics over distributor sales data",
+    "ai_maturity": "shipping",
+    "short_description": "Phocas is a BI and FP&A platform for wholesale distributors and manufacturers, with a food and beverage industry vertical and drinks wholesalers among its named customers, including the UK distributor Dayla Drinks. Phocas AI is built into the platform as a natural language chat over connected ERP, sales and financial data, with an AI for sales capability listed as coming soon. It is not a drinks-specific product: the beverage relevance is the vertical and the drinks distribution customers, not a brewing or winemaking model.",
+    "source_urls": [
+      "https://www.phocassoftware.com/ai",
+      "https://www.phocassoftware.com/resources/case-studies/dayla-drinks"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:tableau",
+    "verified": false
+  },
+  {
+    "name": "OPTIMIND (Loogia)",
+    "domain": "optimind.tech",
+    "hq_location": "Nagoya, Japan",
+    "founded_year": 2015,
+    "vertical": "multiple",
+    "ai_use_case": "delivery route optimisation for liquor distribution",
+    "ai_maturity": "shipping",
+    "funding_stage": "Series A and later",
+    "total_raised": "About 1.013 billion JPY at Series A (2019, investors including Toyota)",
+    "short_description": "OPTIMIND is a Nagoya based optimisation company whose Loogia cloud product builds vehicle dispatch and delivery route plans. Its own description says Loogia combines combinatorial optimisation algorithms with AI analysis of actual vehicle driving data to produce route plans drivers can hold to. Loogia lists Kakuyasu, one of Japan's largest liquor delivery retailers and wholesalers, as a customer under the tag liquor delivery: a three month simulation from June 2024 measured capacity and efficiency by store, area, driver and delivery window, and the two companies then moved to a joint delivery model project targeting full operation in June 2025. The core technology comes out of optimisation research at Nagoya University.",
+    "source_urls": [
+      "https://loogia.jp/news/20241217/",
+      "https://www.optimind.tech/company/",
+      "https://loogia.jp/case/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Ken Matsushita (President and CEO)",
+    "people": [
+      {
+        "name": "Ken Matsushita",
+        "role": "President and CEO"
+      }
+    ],
+    "discovered_by": "scout:logistics",
+    "verified": false
+  },
+  {
+    "name": "Shipsy",
+    "domain": "shipsy.ai",
+    "hq_location": "Gurugram, India",
+    "vertical": "beer",
+    "ai_use_case": "transportation management and returnable asset tracking for brewery distribution",
+    "ai_maturity": "shipping",
+    "short_description": "Shipsy is an India headquartered transportation management platform covering route optimisation, carrier allocation, live tracking, predictive ETAs and electronic proof of delivery, with offices in Gurugram, Dubai, Amsterdam and Singapore. Its published customer story describes Heineken standardising primary (brewery to depot) and secondary (depot to outlet) logistics across Brazil on Shipsy, covering more than 2 million trips a year, with returnable packaging material tracking for kegs and crates that had previously been manual. Reported results are a 28 percent cut in excessive stay payments to logistics providers, a 50 percent cut in failed deliveries and automated route settlement rising from 70 percent to over 90 percent. The company markets an agentic AI layer for planning and settlement decisions on top of the TMS.",
+    "source_urls": [
+      "https://www.shipsy.ai/",
+      "https://www.shipsy.ai/insights/heineken-primary-secondary-distribution-automation"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:logistics",
+    "verified": false
+  },
+  {
+    "name": "LogiNext",
+    "domain": "loginextsolutions.com",
+    "vertical": "multiple",
+    "ai_use_case": "route optimisation and delivery tracking for wine and spirits distribution",
+    "ai_maturity": "shipping",
+    "short_description": "LogiNext (legal entity Stellation Inc.) is an India founded delivery and logistics automation platform doing route optimisation, dispatch allocation, live movement tracking and delivery scheduling, marketed as AI driven. It names wine and spirits as one of the business types it serves inside its food and beverage and retail distribution offering, and carries Heineken among the client logos on its own homepage. The beverage alcohol evidence seen is a client logo and a named vertical rather than a published alcohol case study, so the depth of the deployment is not established.",
+    "source_urls": [
+      "https://www.loginextsolutions.com/",
+      "https://www.loginextsolutions.com/industries/food-and-beverages"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:logistics",
+    "verified": false
+  },
+  {
+    "name": "Samsara",
+    "domain": "samsara.com",
+    "vertical": "beer",
+    "ai_use_case": "fleet telematics, AI dash cams and reefer temperature monitoring for beer distribution",
+    "ai_maturity": "shipping",
+    "funding_stage": "Public (NYSE: IOT)",
+    "short_description": "Samsara sells connected fleet operations: GPS tracking, routing and dispatch, equipment and trailer tracking, reefer temperature monitoring and AI dash cams that detect risky driving events in cab. Two of its published customer stories are beverage alcohol operators: Glazer's Beer and Beverage, a large US beer wholesaler, reports an 86 percent reduction in at-fault accident costs after deploying AI dash cams, and craft brewer Fort Point Beer Company uses live GPS, dash cams and temperature monitoring to run its own in-house distribution fleet. This is the telematics and cold chain slice of beverage logistics that the radar had almost no coverage of.",
+    "source_urls": [
+      "https://www.samsara.com/customers/glazers-beer-beverage",
+      "https://www.samsara.com/blog/customer-spotlight-samsara-x-fort-point-beer"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:logistics",
+    "verified": false
+  },
+  {
+    "name": "BarrelWise Technologies",
+    "domain": "barrelwise.ca",
+    "hq_location": "Canada",
+    "vertical": "wine",
+    "ai_use_case": "barrel level free SO2 measurement and cellar data capture",
+    "ai_maturity": "none",
+    "short_description": "BarrelWise makes the FS1, a cellar tool that measures free SO2 barrel by barrel in about a minute and uploads results straight to a cloud database for the winemaking and lab team, replacing a lab centric sampling process. It also sells fermentation control and a services arm, BarrelWise LABS, and integrates with InnoVint winery software. Named users include Rodney Strong Wine Estates, J. Lohr Vineyards and Wines, Mission Hill Family Estate, CedarCreek Estate Winery, Arterra Wines Canada and Time Family of Wines. The company makes no AI or machine learning claim anywhere on its site: this is instrumentation plus a data platform, not modelling.",
+    "source_urls": [
+      "https://www.barrelwise.ca/",
+      "https://www.barrelwise.ca/customer-stories"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:logistics",
+    "verified": false
+  },
+  {
+    "name": "Ecolibrium",
+    "domain": "ecolibrium.io",
+    "hq_location": "Bengaluru, India",
+    "vertical": "beer",
+    "ai_use_case": "brewery refrigeration energy and emissions optimisation",
+    "ai_maturity": "shipping",
+    "short_description": "Ecolibrium sells SmartSense, an energy and emissions intelligence platform for industrial sites, and its own site publishes a brewery deployment: the Goa brewery of what it calls India's largest beer company, where the plant could not reliably track chiller efficiency (ikW/TR). Ecolibrium states the platform used AI and ML across chillers, plate heat exchangers, compressors, condensers and desuperheaters to detect temperature logic faults and capacity overruns, cutting glycol outlet temperature by 41.8 percent, in a process where refrigeration is 30 to 40 percent of brewery energy. The company says the deployment is now expanding to 11 more sites. The brewery customer is described but not named, and the emissions benefit is framed as a consequence of the energy optimisation rather than a separate carbon accounting product.",
+    "source_urls": [
+      "https://www.ecolibrium.io/manufacturing/improve-refrigeration-energy-efficiency/",
+      "https://www.ecolibrium.io/contact/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:esg",
+    "verified": false
+  },
+  {
+    "name": "Celtic Renewables",
+    "domain": "celtic-renewables.com",
+    "hq_location": "Grangemouth, Scotland, United Kingdom",
+    "vertical": "whiskey",
+    "ai_use_case": "whisky by-product biorefining, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Celtic Renewables runs Scotland's first commercial biorefinery, at Grangemouth, converting by-products and waste from the food, drink and agriculture sectors into green chemicals, with Scotch whisky distillery by-products named on its own site as a core feedstock alongside reject potatoes. The plant runs continuously at commercial scale, and in July 2026 the company announced that Evonik is using its bio-butanol to make ECOHANCE Soft BOL, a cosmetics emollient. This is process chemistry and fermentation, not software: the company makes no AI or machine learning claim anywhere on its site. It is included because whisky co-product valorisation is a real part of the beverage circularity and ESG landscape.",
+    "source_urls": [
+      "https://www.celtic-renewables.com/",
+      "https://www.celtic-renewables.com/celtic-renewables-partners-with-evonik-for-low-carbon-sustainable-cosmetics/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-07-21",
+    "discovered_by": "scout:esg",
+    "verified": false
+  },
+  {
+    "name": "Regrow Ag",
+    "domain": "regrow.ag",
+    "vertical": "multiple",
+    "ai_use_case": "remote sensing and biogeochemical mrv for agricultural scope 3",
+    "ai_maturity": "shipping",
+    "short_description": "Regrow sells Sustainability Insights and an MRV platform that combine satellite remote sensing with biogeochemical crop and soil modelling so food and drink companies can quantify and track farm level scope 3 emissions. Its published beverage work is a modelled analysis of roughly 500,000 hectares of Kentucky cornfields, showing how cover cropping in two counties could deliver over 20 percent of a bourbon distiller's emission target, corn being about 9 percent of a bottle's carbon footprint; no distiller is named as a customer in that piece. The concrete beverage link is on the buyer side: Soil Capital, named measurement partner for the HEINEKEN UK regenerative malting barley programme, names Regrow as its MRV partner on its own site. The modelling is genuine science rather than a rules engine, but the beer and whiskey exposure is one step removed from a direct producer contract.",
+    "source_urls": [
+      "https://www.regrow.ag/post/bourbon-distiller-scope-3-targets",
+      "https://soilcapital.com/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Anastasia Volkova (Co-founder and Chief Executive Officer)",
+    "discovered_by": "scout:esg",
+    "verified": false
+  },
+  {
+    "name": "PM Group",
+    "domain": "pmgroup-global.com",
+    "hq_location": "Dublin, Ireland",
+    "founded_year": 1973,
+    "vertical": "whiskey",
+    "ai_use_case": "distillery epcm engineering, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "International engineering, architecture and project management consultancy with a Food, Beverage and Consumer Health sector practice and a run of named malt whisky distillery projects. It was EPCM partner for Diageo's YunTuo distillery in Yunnan, China, Diageo's first China-origin single malt, and lists two further greenfield and iconic malt whisky distillery projects. The firm markets Connected Automation, digital solutions (MasterVista, Panio, Gamio) and data-driven manufacturing services, but makes no machine-learning claim on the distillery work; treat it as engineering and automation delivery, not AI.",
+    "source_urls": [
+      "https://www.pmgroup-global.com/what-we-do/our-work/new-greenfield-malt-whisky-distillery",
+      "https://www.pmgroup-global.com/what-we-do/our-sectors/food-beverage-consumer-health"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:engineering",
+    "verified": false
+  },
+  {
+    "name": "InflexionPoint",
+    "domain": "inflexionpoint.ai",
+    "hq_location": "Red Bank, New Jersey, USA",
+    "vertical": "beer",
+    "ai_use_case": "brewery mes and electronic brew book, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Independent systems integrator (formerly Automated Control Concepts) serving life sciences, food and beverage and critical infrastructure, and an AVEVA PI system specialist. Its published brewing case study describes building a configurable MES and digital brew book for one of the world's largest brewers, identified in the document as ABI, standardising in-process, lab and inline quality data across 150-plus facilities on COPA-DATA zenon SCADA. The company markets an AI/ML and analytics service line generally, but the brewing deployment is MES, SCADA and historian work with no machine-learning component claimed.",
+    "source_urls": [
+      "https://www.inflexionpoint.ai/",
+      "https://www.inflexionpoint.ai/assets/docs/cs/InflexionPoint_CS_Brewery.pdf"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Kevin Hannigan (CEO)",
+    "discovered_by": "scout:engineering",
+    "verified": false
+  },
+  {
+    "name": "RoviSys",
+    "domain": "rovisys.com",
+    "hq_location": "Aurora, Ohio, USA",
+    "founded_year": 1989,
+    "vertical": "beer",
+    "ai_use_case": "multi-brewery historian data standardisation, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Systems integrator and automation consultancy with a food and beverage practice and long-standing OSIsoft (now AVEVA PI) and Rockwell relationships. Its Brewing Up A Data Storm success story covers a thirteen-week project unifying process and quality data across more than 15 breweries of an unnamed international brewing company in the US and Canada, replacing per-plant HMI databases with a single enterprise data record. RoviSys markets an industrial artificial intelligence capability across its business, but the brewery engagement is described purely as historian and data integration work with no machine learning claimed.",
+    "source_urls": [
+      "https://www.rovisys.com/success-stories/brewing-up-a-data-storm/",
+      "https://inductiveautomation.com/news/rovisys-becomes-inductive-automation-premier-integrator"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:engineering",
+    "verified": false
+  },
+  {
+    "name": "Wunderlich-Malec Engineering",
+    "domain": "wmeng.com",
+    "hq_location": "Eden Prairie, Minnesota, USA",
+    "founded_year": 1981,
+    "vertical": "multiple",
+    "ai_use_case": "brewery scada, hmi and mes integration, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Employee-owned EPC and control systems engineering firm that names Beverage (Brewing) as one of its active vertical markets. It delivered improved SCADA, HMI and MES for the ninth-largest craft brewer in the United States on Ignition, publishes a case study on expanding the capabilities of a large craft brewer, and exhibits at the Wine Industry Network expo. No artificial intelligence or machine learning claim appears anywhere on the brewing or wine material; this is controls, MES and plant data engineering.",
+    "source_urls": [
+      "https://www.wmeng.com/news-events/wm-case-study-expanding-the-capabilities-of-a-large-craft-brewer/",
+      "https://inductiveautomation.com/resources/customerproject/improved-scada-hmi-and-mes-for-ninthlargest-craft-brewer-in-united-states"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:engineering",
+    "verified": false
+  },
+  {
+    "name": "Davies Engineering Group",
+    "domain": "davieseg.com",
+    "hq_location": "Cincinnati, Ohio, USA",
+    "vertical": "multiple",
+    "ai_use_case": "brewery and distillery process controls, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Controls, process and MEP engineering firm, formerly ThermalTech Engineering, with named drinks projects on both sides of the industry. It built MadTree Brewing's fully integrated Ignition recipe management, fermentation and packaging system covering brewhouse through cellaring to the canning line, and provided MEP, process and controls engineering for the expansion of Buffalo Trace Distillery. The firm makes no artificial intelligence or machine learning claim; the work is automation, recipe management and production data collection.",
+    "source_urls": [
+      "https://davieseg.com/",
+      "https://inductiveautomation.com/resources/casestudy/madtree-brewing"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:engineering",
+    "verified": false
+  },
+  {
+    "name": "Matrix Technologies",
+    "domain": "matrixti.com",
+    "hq_location": "Maumee, Ohio, USA",
+    "founded_year": 1980,
+    "vertical": "multiple",
+    "ai_use_case": "wine and spirits plant engineering with historian and oee, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Multidiscipline engineering and automation consultancy, a founding member of the Control System Integrators Association, that runs a dedicated Wine and Distilled Spirits practice alongside food and beverage. The practice covers distillery planning, fermentation, batching and blending, continuous column and pot still distillation, mass balancing and filling line design, plus automation deliverables that explicitly include historian and trending, PLC and HMI development and line efficiency and OEE tracking. Its Manufacturing Intelligence page uses predictive analytics and algorithmic learning language generically, but no machine learning is claimed for any wine or spirits project and its drinks testimonials are anonymised.",
+    "source_urls": [
+      "https://www.matrixti.com/distilled-spirits",
+      "https://www.matrixti.com/history"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:engineering",
+    "verified": false
+  },
+  {
+    "name": "KWS SAAT SE & Co. KGaA",
+    "domain": "kws.com",
+    "hq_location": "Einbeck, Germany",
+    "founded_year": 1856,
+    "vertical": "multiple",
+    "ai_use_case": "ai driven plant phenotyping and genomic selection in barley breeding",
+    "ai_maturity": "shipping",
+    "funding_stage": "public (Frankfurt Stock Exchange, SDAX)",
+    "short_description": "KWS is one of the largest independent plant breeders in the world and breeds barley alongside sugar beet, corn, wheat, rye and other crops, making it an upstream supplier of the barley genetics that reach malting, brewing and distilling. Its own innovation pages state that it uses camera and sensor technology, robotics and artificial intelligence to assess plant performance above and below the soil line, and that genomic selection and other omics data feed models predicting a plant's breeding potential. KWS describes data science as being at the heart of how it turns breeding trial data into selection decisions. The AI is in the breeding pipeline, not in a beverage product, so the beverage relevance here is the barley variety layer rather than anything sold to brewers directly.",
+    "source_urls": [
+      "https://www.kws.com/corp/en/innovation/our-innovation-areas/seed-of-the-future/",
+      "https://en.wikipedia.org/wiki/KWS_Saat",
+      "https://www.kws.com/gb/en/products/barley/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Felix Buechting (CEO)",
+    "discovered_by": "scout:ingredients",
+    "verified": false
+  },
+  {
+    "name": "Angel Yeast Co., Ltd",
+    "domain": "angelyeast.com",
+    "hq_location": "Yichang, Hubei, China",
+    "founded_year": 1986,
+    "vertical": "multiple",
+    "ai_use_case": "none (yeast and fermentation nutrient supply)",
+    "ai_maturity": "none",
+    "funding_stage": "public (Shanghai Stock Exchange, listed 2000)",
+    "short_description": "Angel Yeast is one of the largest yeast and yeast-derivative producers in the world, listed in Shanghai since 2000, and runs an Alcoholic Beverages and Biofuels business alongside baking, yeast extract, animal nutrition and enzymes. It publishes brewing solutions and fermentation nutrient literature and exhibited beverage fermentation products at Drinktec 2025, which puts it in the same raw-material layer as Lallemand, Fermentis and Lesaffre. Reading its English site and full sitemap, Angel Yeast makes no machine learning, genomics-prediction or predictive-sensory claim for its brewing or distilling strains; the only AI on the site is a customer-service chat assistant widget. Tracked as the major Chinese entry in the yeast supply layer, with no AI claim.",
+    "source_urls": [
+      "https://en.angelyeast.com/downloads/brewing-solutions-and-innovations.html",
+      "https://en.angelyeast.com/about-us/institute/our-research-institute.html",
+      "https://en.angelyeast.com/news/distilled-spirits-and-biofuels/angel-yeast-unveils-innovative-beverage-solutions-at-drinktec-2025-highlighting-health-driven-product-innovations.html"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:ingredients",
+    "verified": false
+  },
+  {
+    "name": "Briess Malt & Ingredients",
+    "domain": "brewingwithbriess.com",
+    "hq_location": "Chilton, Wisconsin, United States",
+    "vertical": "multiple",
+    "ai_use_case": "none (malt supply and malt sensory)",
+    "ai_maturity": "none",
+    "short_description": "Briess is a family-owned American maltster supplying base, specialty, roasted and caramel malts plus extracts to craft brewers, distillers and homebrewers, and it runs its own research brewery and pilot malting plant. Its technical content is real malt science, including ASBC hot steep malt sensory evaluation, predicted spirit yield for whiskey malts and colour prediction from recipe formulation, but these are laboratory methods and deterministic spec calculations rather than machine learning. A read of its site and full blog sitemap found no artificial intelligence, machine learning or predictive-model claim anywhere. Tracked as a significant ingredient-layer supplier that makes no AI claim.",
+    "source_urls": [
+      "https://brewingwithbriess.com/blog/lets-talk-psy-predicted-spirit-yield/",
+      "https://www.brewingwithbriess.com/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:ingredients",
+    "verified": false
+  },
+  {
+    "name": "Crisp Malt",
+    "domain": "crispmalt.com",
+    "hq_location": "Norfolk, United Kingdom",
+    "vertical": "multiple",
+    "ai_use_case": "none (malt supply and barley agronomy data)",
+    "ai_maturity": "none",
+    "short_description": "Crisp Malt is a British maltster with around 150 years of malting history, part of Anglia Maltings (Holdings), supplying base, specialty, roasted and distilling malts to brewers and distillers in the UK and internationally. It runs grower and sustainability data programmes across its malting barley supply base, including farm-level carbon and farming-practice data collection with agronomy partners, and a central technical lab that works on things like spirit yield optimisation from distillery draff. Its site and news sitemap carry no artificial intelligence, machine learning or predictive-model claim. Tracked as a large malting barley data holder in the ingredient layer with no AI claim.",
+    "source_urls": [
+      "https://crispmalt.com/about-us/",
+      "https://crispmalt.com/sustainability-hub/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:ingredients",
+    "verified": false
+  },
+  {
+    "name": "New Zealand Hops Ltd (NZ Hops)",
+    "domain": "nzhops.co.nz",
+    "hq_location": "Richmond, Tasman, New Zealand",
+    "vertical": "beer",
+    "ai_use_case": "none (hop breeding and supply)",
+    "ai_maturity": "none",
+    "short_description": "NZ Hops is the grower cooperative that markets almost all New Zealand hops, with 28 member growers exporting around 80 percent of the harvest to more than 40 countries, and it supplies the New World aroma varieties craft brewers buy by name. It has backed a professional hop breeding programme since the 1950s and signed a formal breeding partnership with Plant and Food Research in 2020 covering new cultivar development and grower trials. The breeding described on its own site is conventional crossing, selection and trialling led by breeders, with a stated ten year or more cycle per cultivar; there is no marker-assisted selection, genomic prediction or machine learning claim. Tracked as a major hop-layer supplier with no AI claim.",
+    "source_urls": [
+      "https://nzhops.co.nz/pages/innovation",
+      "https://nzhops.co.nz/blogs/news/new-collaborative-research-agreement-locks-in-a-sustainable-future-for-the-new-zealand-hops-industry"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Craig Orr (Chief Executive)",
+    "discovered_by": "scout:ingredients",
+    "verified": false
+  },
+  {
+    "name": "Liv-ex",
+    "domain": "liv-ex.com",
+    "hq_location": "London, United Kingdom",
+    "founded_year": 2000,
+    "vertical": "wine",
+    "ai_use_case": "fine wine transactional price data and market indices",
+    "ai_maturity": "none",
+    "funding_stage": "private",
+    "short_description": "Liv-ex (the London International Vintners Exchange) is a B2B exchange for fine wine that doubles as the trade's reference source of transactional price data. Its Market Intelligence arm sells monthly benchmarking reports, the Liv-ex Fine Wine 50 and 100 indices and the LWIN wine identification standard, all built on real bids, offers and trades rather than survey panels. Drinks press cite Liv-ex indices as the standard measure of fine wine market performance. The company makes no AI or machine-learning claim on its own site; the product is transparent transaction data, analysis and automation for merchants and traders.",
+    "source_urls": [
+      "https://www.liv-ex.com/about-us/",
+      "https://www.liv-ex.com/data-and-technology/market-intelligence/",
+      "https://en.wikipedia.org/wiki/Liv-ex",
+      "https://www.thedrinksbusiness.com/2026/02/fine-wine-in-2025-a-game-of-two-halves/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "James Miles (Co-founder and CEO), Justin Gibbs (Co-founder and Deputy Chairman)",
+    "discovered_by": "scout:marketdata",
+    "verified": false
+  },
+  {
+    "name": "3 Tier Beverages",
+    "domain": "3tierbeverages.com",
+    "hq_location": "Chicago, Illinois, USA",
+    "founded_year": 2019,
+    "vertical": "multiple",
+    "ai_use_case": "syndicated scan and depletion dashboards for drinks brands",
+    "ai_maturity": "none",
+    "short_description": "3 Tier Beverages is a Chicago data services firm that sits on top of the two main US beverage alcohol data sources: it is an NIQ Connected partner for syndicated scan data and a founding member of the VIP Collective for distributor depletion data. It builds depletion and scan dashboards, pricing and promotion analysis, distribution tracking and distributor or retailer presentations for suppliers, distributors, retailers and trade associations, with over 300 clients across beer, wine and spirits and named customers including Terlato Wines. This is exactly the reseller and analytics layer the market measurement vendors feed. The company makes no AI or machine-learning claim anywhere on its site; the work is dashboards, analysis and consulting.",
+    "source_urls": [
+      "https://3tierbeverages.com/",
+      "https://www.linkedin.com/in/donnbichsel"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Donn Bichsel (Founder), Jackson Kirk (Director of Analytics)",
+    "people": [
+      {
+        "name": "Donn Bichsel",
+        "role": "Founder",
+        "linkedin": "https://www.linkedin.com/in/donnbichsel"
+      }
+    ],
+    "discovered_by": "scout:marketdata",
+    "verified": false
+  },
+  {
+    "name": "Wine Lister",
+    "domain": "wine-lister.com",
+    "hq_location": "London, United Kingdom",
+    "vertical": "wine",
+    "ai_use_case": "fine wine benchmarking and market research",
+    "ai_maturity": "none",
+    "short_description": "Wine Lister is a London fine wine data and consulting company, now part of Groupe Figaro, that sells benchmarking, market research and bespoke consulting to wine producers, regional associations and merchants. It says it works with over 150 of the world's top wine producers, with published engagements including Chateau Leoville Poyferre, Chateau Larrivet Haut-Brion, Chateau de Ferrand, Domaine Belargus and Ipsus, and it combines its own data and analysis division with marketing and communications work. It makes no AI or machine-learning claim; the offer is human analysis over price, critic score and trade demand data.",
+    "source_urls": [
+      "https://www.wine-lister.com/about",
+      "https://www.wine-lister.com/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Ella Lister (Founder and CEO)",
+    "discovered_by": "scout:marketdata",
+    "verified": false
+  },
+  {
+    "name": "Lumina Intelligence",
+    "domain": "lumina-intelligence.com",
+    "hq_location": "United Kingdom",
+    "vertical": "multiple",
+    "ai_use_case": "out of home food and drink channel measurement",
+    "ai_maturity": "none",
+    "short_description": "Lumina Intelligence is the insights arm of UK trade publisher William Reed and is one of the main independent measurement sources for the British on-trade now that CGA has been absorbed into NielsenIQ. Its syndicated products include an Eating and Drinking Out Panel, a Menu Tracker that compares pricing and menu composition across major UK pub, restaurant, QSR, sandwich and coffee shop operators, an Operator Data Index covering turnover and outlet counts for over 400 UK operators, and wholesale and route to market data, all of which drinks suppliers use to size and price the pub and bar channel. Coverage is food and drink generally rather than beer, wine and spirits specifically. It makes no AI or machine-learning claim on its own site.",
+    "source_urls": [
+      "https://www.lumina-intelligence.com/",
+      "https://www.lumina-intelligence.com/solutions/eating-drinking-out-panel/",
+      "https://www.lumina-intelligence.com/about-us/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:marketdata",
+    "verified": false
+  },
+  {
+    "name": "WineSpeak.ai",
+    "domain": "winespeak.ai",
+    "hq_location": "Napa, United States",
+    "vertical": "wine",
+    "ai_use_case": "rag concierge and search for winery websites",
+    "ai_maturity": "shipping",
+    "short_description": "WineSpeak.ai sells an AI agent that wineries embed in their own websites as a virtual concierge and wine curator. The company states the agent uses natural language processing and retrieval augmented generation over the winery's own content to answer visitor questions, recommend wines and food pairings, and push visitors towards tasting room bookings, club memberships and purchases; it also ships an AI search bar built for winery sites. Named winery customers on its site include Goosecross Cellars, Jessup Cellars, Thomas Fogarty Winery, Halleck Vineyard, Hestan Vineyards, Potters Vineyard and Lightning Rock Winery, and it integrates with Commerce7, eCellar, Shopify, Klaviyo and RedChirp. The site is a JavaScript app; the product copy quoted here was read from the application bundle served by winespeak.ai.",
+    "source_urls": [
+      "https://winespeak.ai/",
+      "https://www.thedrinksbusiness.com/2026/01/how-ai-is-changing-the-dtc-wine-experience/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Robert Noakes (Founder and CEO)",
+    "discovered_by": "scout:rag",
+    "verified": false
+  },
+  {
+    "name": "WineSecret",
+    "domain": "winesecrethk.com",
+    "hq_location": "Hong Kong",
+    "vertical": "wine",
+    "ai_use_case": "ai sommelier chatbot over a merchant wine catalogue",
+    "ai_maturity": "shipping",
+    "short_description": "WineSecret is a Hong Kong wine recommendation platform sold to restaurants, distributors, hoteliers and online wine retailers. A venue uploads its inventory or food and wine menus, WineSecret tags the wines automatically against a master catalogue, and an embeddable chatbot answers customer questions and recommends bottles the venue actually stocks, with tasting notes, grape variety, ageing, critic ratings and food pairings; the company says its recommendations are supervised by its own sommeliers and its site advertises a RAG query-to-insights feature as coming soon. Plans start at HK$4,166 per month and the Drinks Business reported around 1,000 end users in January 2026. Founded by Alex Wong and Derek Yip out of an existing monthly wine subscription business.",
+    "source_urls": [
+      "https://www.winesecrethk.com/",
+      "https://www.thedrinksbusiness.com/2026/01/is-hong-kongs-wine-sector-slow-on-the-ai-uptake/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "key_people": "Alex Wong (Co-founder), Derek Yip (Co-founder)",
+    "discovered_by": "scout:rag",
+    "verified": false
+  },
+  {
+    "name": "Pinpointed",
+    "domain": "pinpointed.dev",
+    "vertical": "multiple",
+    "ai_use_case": "conversational ai sommelier for drinks retailers",
+    "ai_maturity": "shipping",
+    "short_description": "Pinpointed sells an AI Sommelier that wine, beer and spirits retailers install on their own storefronts. It connects to the retailer's live product catalogue, inventory and store information, then answers shopper questions in natural language and narrows a large catalogue down to specific in-stock bottles by food pairing, occasion, gift, budget or preference; a voice version and an analytics layer with click-through and conversion tracking are also sold. It ships as a Shopify app and a WooCommerce plugin and serves English, French, German and Dutch. The founder describes building it after more than 20 years working in wine and spirits retail. No named retailer customer is published on the site.",
+    "source_urls": [
+      "https://pinpointed.dev/",
+      "https://wordpress.org/plugins/pinpointed-ai-sommelier/"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:rag",
+    "verified": false
+  },
+  {
+    "name": "e-label.io (IMERO)",
+    "domain": "e-label.io",
+    "hq_location": "Halle (Saale), Germany",
+    "vertical": "wine",
+    "ai_use_case": "eu wine e-label compliance documents, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "e-label.io, run by the German software company IMERO, is a compliance tool that produces the electronic wine labels required by EU Regulation 2021/2117. A winemaker enters analysis data such as alcohol, total acidity and residual sugar plus a picked ingredient list, and the tool builds the nutrition table, translates it into every EU language, geolocates country-specific information such as Italian recycling marks, and issues a QR code hosted for at least ten years; it also offers ERP import interfaces, collective QR codes for price lists, and a done-for-you labelling service. The Austrian trade magazine Der Winzer notes it calculates values that most rival tools make the winemaker enter by hand. Checked in full: the site makes no machine learning or AI claim anywhere, it is document automation, translation and hosting.",
+    "source_urls": [
+      "https://e-label.io",
+      "https://www.der-winzer.at/firmennews/2023/gesetzesumstellung-der-etiketten-rueckt-naeher-.html"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-29",
+    "discovered_by": "scout:rag",
+    "verified": false
   }
 ]
