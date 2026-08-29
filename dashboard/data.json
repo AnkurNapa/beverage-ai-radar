@@ -38762,5 +38762,54 @@
     ],
     "country": "Germany",
     "scope": "beverage-native"
+  },
+  {
+    "name": "Asahi Group Holdings",
+    "domain": "asahigroup-holdings.com",
+    "hq_location": "Tokyo, Japan",
+    "founded_year": 1889,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "supply chain production planning and packaging design generation",
+    "ai_maturity": "pilot",
+    "funding_stage": "public",
+    "total_raised": null,
+    "key_people": "Atsushi Katsuki (President and Group CEO)",
+    "people": [
+      {
+        "name": "Atsushi Katsuki",
+        "role": "President and Group CEO",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Top-five global brewer whose AI work is documented on its Japanese site but not its English one. With IBM Japan it built an AI system for production adjustment at Asahi Soft Drinks: a September 2018 proof of concept beat human judgement on accuracy and identified roughly 200 million yen of potential cost reduction through lower long-term inventory, test operation began in January 2019 across all Asahi Soft Drinks plants and contract plants, and the company stated an intent to extend AI across procurement, production and logistics. In March 2020 it announced an AI Creator System for packaging design, pairing a deep learning generation model trained on about 3,000 trend images with an evaluation model scored by about 300 creators, with trial operation from April 2020. Its Czech subsidiary Plzensky Prazdroj leads the separately tracked forHops hop-growing platform with Microsoft and Tenso AI, though the predictive models there are Tenso AI's. Graded pilot rather than shipping because the newest first-party evidence of production use is 2020.",
+    "source_urls": [
+      "https://www.asahigroup-holdings.com/newsroom/detail/20190313-0103.html",
+      "https://www.asahigroup-holdings.com/newsroom/detail/20200309-0101.html",
+      "https://www.tensoai.com/post/how-tensoai-asahi-and-microsoft-are-transforming-hop-farming-through-the-forhops-project"
+    ],
+    "first_seen": "2019-03-13",
+    "last_seen": "2026-08-29",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "asahigroup-holdings.com",
+    "theme": "Supply chain",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Japan",
+    "scope": "beverage-native"
   }
 ]

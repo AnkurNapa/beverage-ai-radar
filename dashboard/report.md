@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-08-29. 844 active, 33 dormant.
+Snapshot: 2026-08-29. 845 active, 33 dormant.
 
 ## Active companies
 
@@ -72,6 +72,7 @@ Snapshot: 2026-08-29. 844 active, 33 dormant.
 - **Aroxa (Cara Technology)** (multiple, sensory panel data management software). Aroxa, a trademark of Cara Technology Limited, supplies certified single compound flavour standards, taster training and blind coded proficiency schemes used by breweries and distilleries to calibrate tasting panels. Its software product SensCheck is a browser based sensory system that runs customisable online questionnaires, stores tasting data in place of paper forms and scores taster performance on flavour identification and scaling. There is no AI, machine learning or predictive analytics claim on the product pages. Included because it is where a large share of the industry's structured sensory data is actually captured.
 - **Arrive55** (wine, temperature controlled final mile wine delivery). Arrive55 is a fine wine cold chain carrier formed in 2024 by the merger of The Wine Mover and Vinum55 Logistics, providing white glove final mile delivery held at a constant 55F from winery gate to collector cellar. It serves wineries, auction houses and retailers, and acts as the climate controlled last mile layer for third party fulfillment providers including WineDirect Fulfillment. It states that pallets are monitored in real time during long haul and that chain of custody is temperature verified, which is the data product. No machine learning claim is made.
 - **Arryved** (beer, taproom/point-of-sale data & analytics for craft beverage operators). Arryved is a point-of-sale and operations platform built specifically for craft beverage businesses such as breweries, taprooms, cideries and distilleries. It unifies service, online ordering, production, payments and reporting into a single data model that delivers real-time, brewery-specific analytics. Its aggregate POS dataset spans more than 2,000 taprooms and is used, with the Brewers Association, to analyze industry taproom sales trends.
+- **Asahi Group Holdings** (beer, supply chain production planning and packaging design generation). Top-five global brewer whose AI work is documented on its Japanese site but not its English one. With IBM Japan it built an AI system for production adjustment at Asahi Soft Drinks: a September 2018 proof of concept beat human judgement on accuracy and identified roughly 200 million yen of potential cost reduction through lower long-term inventory, test operation began in January 2019 across all Asahi Soft Drinks plants and contract plants, and the company stated an intent to extend AI across procurement, production and logistics. In March 2020 it announced an AI Creator System for packaging design, pairing a deep learning generation model trained on about 3,000 trend images with an evaluation model scored by about 300 creators, with trial operation from April 2020. Its Czech subsidiary Plzensky Prazdroj leads the separately tracked forHops hop-growing platform with Microsoft and Tenso AI, though the predictive models there are Tenso AI's. Graded pilot rather than shipping because the newest first-party evidence of production use is 2020. People: Atsushi Katsuki (President and Group CEO).
 - **Asseco Business Solutions (Mobile Touch)** (multiple, shelf image recognition for beverage retail execution). Asseco Business Solutions sells Mobile Touch, an FMCG sales and retail execution platform, plus a standalone Retail Image Recognition service. The AI is real computer vision: the vendor states it recognises every SKU from a shelf photo, counts facings, reads prices, detects out of stocks and checks planogram compliance, running on device without connectivity, at a claimed accuracy of up to 98 percent. Its own retail image recognition page names Heineken, Pernod Ricard and Coca-Cola HBC among the brands using it, which is what puts it on the beverage map. Polish listed software group, platform arm based in Lublin, quoting 450 plus FMCG implementations across 74 countries.
 - **Astoria-Pacific** (multiple, automated wet chemistry analysis for wine and beer labs). Astoria-Pacific builds automated wet-chemistry analytical instruments and reagents, with named industrial lines for water, wine and beer alongside clinical newborn screening. Its rAPID-T system lets a winery run acetic acid and other key wine tests in house, which the company positions as early visibility into volatile acidity. It is an instrument and reagent vendor feeding beverage quality data; it makes no AI or machine learning claim.
 - **Atago (株式会社アタゴ)** (multiple, none claimed, refractometry and inline concentration measurement). Japanese maker of refractometers, Brix meters, inline concentration monitors, pH meters and viscometers, with a dedicated product selector for Japanese sake alcohol measurement alongside beer and wine applications. Its instruments are a standard source of gravity and concentration data on Asian brewing and sake production floors. The company makes no AI or machine-learning claim.
@@ -888,7 +889,7 @@ Snapshot: 2026-08-29. 844 active, 33 dormant.
 ## By vertical (active)
 
 - multiple: 335
-- beer: 230
+- beer: 231
 - wine: 202
 - whiskey: 70
 - non_alcoholic: 7
@@ -1648,3 +1649,4 @@ Snapshot: 2026-08-29. 844 active, 33 dormant.
 - ai sommelier chatbot over a merchant wine catalogue: 1
 - conversational ai sommelier for drinks retailers: 1
 - eu wine e-label compliance documents, no ai claim: 1
+- supply chain production planning and packaging design generation: 1
