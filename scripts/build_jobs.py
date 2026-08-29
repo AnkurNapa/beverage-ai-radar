@@ -13,6 +13,7 @@ Run: python3 scripts/build_jobs.py
 """
 import html
 import json
+import os
 import re
 import time
 import urllib.parse
@@ -142,13 +143,21 @@ def fetch(kw, loc, start=0):
            + urllib.parse.urlencode(p))
     try:
         req = urllib.request.Request(url, headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=25) as r:
+        with urllib.request.urlopen(req, timeout=10) as r:
             return r.read().decode("utf-8", "replace")
     except Exception:
         return ""
 
 
 PAGES = 3  # the guest endpoint returns 10 cards a page; 3 covers most employers
+
+# The company sweep is one request per tracked company, and the store keeps
+# growing (228 companies in Aug 2026, 775 by the end of the month), so an
+# unbounded pass now runs for hours and a `radar run` never finishes. Bound the
+# wall clock rather than the company count: that stays right as the store grows
+# and as LinkedIn gets slower.
+BUDGET_SECS = int(os.environ.get("RADAR_JOBS_BUDGET", "900"))
+CURSOR = ROOT / ".jobs_cursor"  # where the last budget-truncated sweep stopped
 
 
 def fetch_pages(query, loc="", pages=PAGES):
@@ -258,8 +267,25 @@ def company_sweep(tracked, jobs):
     Company", which lets a generic tracked name pull an unrelated employer
     ("Solera" matched a senior-living chain). The data gate is what filters
     those out in practice, since the mismatches are rarely data roles.
+
+    Bounded by BUDGET_SECS. The start point rotates daily so a truncated sweep
+    does not keep re-covering the same alphabetical prefix and never reaching
+    the tail.
     """
-    for lower, name in tracked.items():
+    items = sorted(tracked.items())
+    if not items:
+        return
+    try:
+        offset = int(CURSOR.read_text()) % len(items)
+    except (OSError, ValueError):
+        offset = 0
+    items = items[offset:] + items[:offset]
+    deadline = time.monotonic() + BUDGET_SECS
+    covered = 0
+    for lower, name in items:
+        if time.monotonic() > deadline:
+            break
+        covered += 1
         for card in fetch_pages(lower):
             if card["id"] in jobs or lower not in card["company"].lower():
                 continue
@@ -267,6 +293,11 @@ def company_sweep(tracked, jobs):
             if BAD.search(blob) or not AI.search(blob):
                 continue
             jobs[card["id"]] = tag(card, tracked, name, company=name)
+    CURSOR.write_text(str((offset + covered) % len(items)))
+    if covered < len(items):
+        print(f"company sweep covered {covered}/{len(items)} companies from "
+              f"offset {offset} before the {BUDGET_SECS}s budget ran out "
+              f"(RADAR_JOBS_BUDGET to change); next run resumes where it stopped")
 
 
 def build():

@@ -120,3 +120,29 @@ def test_country_of_refuses_to_guess():
     """A wrong country is worse than a missing one: the filter can omit blanks."""
     assert build_jobs.country_of("") == ""
     assert build_jobs.country_of("Greater Nowhereville Area") == ""
+
+
+def _stub_cards(monkeypatch, seen):
+    monkeypatch.setattr(build_jobs, "fetch_pages", lambda q, *a, **k: seen.append(q) or [])
+
+
+def test_company_sweep_stops_at_budget(monkeypatch, tmp_path):
+    """A negative budget means the very first company is already past deadline."""
+    seen = []
+    _stub_cards(monkeypatch, seen)
+    monkeypatch.setattr(build_jobs, "BUDGET_SECS", -1)
+    monkeypatch.setattr(build_jobs, "CURSOR", tmp_path / "cursor")
+    build_jobs.company_sweep({"acme": "Acme", "brewco": "BrewCo"}, {})
+    assert seen == []
+
+
+def test_company_sweep_resumes_from_cursor(monkeypatch, tmp_path):
+    seen = []
+    _stub_cards(monkeypatch, seen)
+    monkeypatch.setattr(build_jobs, "BUDGET_SECS", 300)
+    cursor = tmp_path / "cursor"
+    cursor.write_text("2")
+    monkeypatch.setattr(build_jobs, "CURSOR", cursor)
+    build_jobs.company_sweep({"a": "A", "b": "B", "c": "C", "d": "D"}, {})
+    assert seen == ["c", "d", "a", "b"]
+    assert cursor.read_text() == "2"  # a full pass lands back where it began
