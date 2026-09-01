@@ -254,7 +254,7 @@
     ],
     "first_seen": "2020-01-01",
     "last_seen": "2025-03-19",
-    "status": "active",
+    "status": "dormant",
     "linkedin_url": null,
     "github_url": null,
     "product_url": null,
@@ -475,7 +475,7 @@
     ],
     "first_seen": "2018-01-01",
     "last_seen": "2025-03-02",
-    "status": "active",
+    "status": "dormant",
     "linkedin_url": null,
     "github_url": null,
     "product_url": null,
@@ -38810,6 +38810,50 @@
       "AI & ML"
     ],
     "country": "Japan",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "B-Cart",
+    "domain": "b-cart.com.au",
+    "hq_location": "New South Wales, Australia",
+    "founded_year": 2021,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "brewery wholesale ordering portal, no ai claim",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "B-Cart Technology Pty Limited is an Australian B2B wholesale ordering platform that markets a dedicated edition to craft breweries, replacing keg and case orders taken by phone, text and email with a branded self-service portal. Each venue logs in to its own catalogue and its own negotiated pricing, orders land in a single fulfilment dashboard with PDF invoices and packing slips, and delivery run cutoffs and free freight thresholds are configurable per customer. Orders, invoices, customers and products sync both ways with Xero and MYOB, with QuickBooks, Unleashed, MYOB Acumatica, Stripe and a public API alongside them; Shopify, GoCardless, Dynamics 365 Business Central and a sales rep module are listed as coming. Registered as an Australian private company with an ABN active from 30 June 2021 and a main business location in NSW postcode 2515, built and supported from the east coast of Australia. Checked in full across the brewery, overview and about pages: the site makes no artificial intelligence or machine learning claim anywhere, and a reporting and insights module is still marked Soon. It is wholesale order automation and accounting sync, tracked here as brewery commercial software rather than as an AI vendor.",
+    "source_urls": [
+      "https://abr.business.gov.au/ABN/View?abn=91651520802",
+      "https://www.b-cart.com.au/about",
+      "https://www.b-cart.com.au/breweries"
+    ],
+    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-01",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "b-cart.com.au",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Australia",
     "scope": "beverage-native"
   }
 ]

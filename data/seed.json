@@ -16582,5 +16582,24 @@
   ],
   "discovered_by": "curated",
   "verified": true
+ },
+ {
+  "name": "B-Cart",
+  "domain": "b-cart.com.au",
+  "hq_location": "New South Wales, Australia",
+  "founded_year": 2021,
+  "vertical": "beer",
+  "ai_use_case": "brewery wholesale ordering portal, no ai claim",
+  "ai_maturity": "none",
+  "short_description": "B-Cart Technology Pty Limited is an Australian B2B wholesale ordering platform that markets a dedicated edition to craft breweries, replacing keg and case orders taken by phone, text and email with a branded self-service portal. Each venue logs in to its own catalogue and its own negotiated pricing, orders land in a single fulfilment dashboard with PDF invoices and packing slips, and delivery run cutoffs and free freight thresholds are configurable per customer. Orders, invoices, customers and products sync both ways with Xero and MYOB, with QuickBooks, Unleashed, MYOB Acumatica, Stripe and a public API alongside them; Shopify, GoCardless, Dynamics 365 Business Central and a sales rep module are listed as coming. Registered as an Australian private company with an ABN active from 30 June 2021 and a main business location in NSW postcode 2515, built and supported from the east coast of Australia. Checked in full across the brewery, overview and about pages: the site makes no artificial intelligence or machine learning claim anywhere, and a reporting and insights module is still marked Soon. It is wholesale order automation and accounting sync, tracked here as brewery commercial software rather than as an AI vendor.",
+  "source_urls": [
+   "https://www.b-cart.com.au/breweries",
+   "https://www.b-cart.com.au/about",
+   "https://abr.business.gov.au/ABN/View?abn=91651520802"
+  ],
+  "first_seen": "2026-09-01",
+  "last_seen": "2026-09-01",
+  "discovered_by": "curated",
+  "verified": true
  }
 ]

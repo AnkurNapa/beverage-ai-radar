@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-08-29. 845 active, 33 dormant.
+Snapshot: 2026-09-01. 844 active, 35 dormant.
 
 ## Active companies
 
@@ -85,6 +85,7 @@ Snapshot: 2026-08-29. 845 active, 33 dormant.
 - **AVEVA (PI System, formerly OSIsoft)** (multiple, process data historian + predictive analytics). AVEVA sells the PI System, the operations data historian it acquired with OSIsoft in 2021, which collects, stores and contextualises real-time plant sensor data at sub-second granularity. AVEVA Predictive Analytics layers machine-learning anomaly detection on that data for early equipment-failure detection. AVEVA publishes no beer, whiskey or wine specific AI product: it is tracked here as the plant data layer that brewing and distilling analytics are built on top of, not as a beverage AI vendor.
 - **Avterra** (wine, vineyard sensor data integration and irrigation decision guidance). Avterra is a small vineyard technology consultancy on California's Central Coast that integrates data from existing or newly installed telemetry and sensor devices into a single portal, then advises on when and how much to irrigate. It positions itself explicitly as vendor neutral, pulling from a multitude of telemetry devices rather than selling one stack, and leans on over 30 years of vineyard management and irrigation consulting experience. The guidance is human expert interpretation of integrated data, not an algorithm. It exhibited at WIN Expo Sonoma at booth 431.
 - **Azmera Consulting** (multiple, erp selection and implementation consulting, no ai claim). Azmera is a systems and process consultancy serving wineries, distilleries, breweries and agricultural businesses, covering ERP selection and implementation, IT program leadership and process improvement. Its main product line is Odoo by Azmera, with beverage specific extensions branded Odoo for Wine and Odoo for Spirits, and it also implements JD Edwards for larger grape to bottle operations. In August 2026 it announced an Odoo for Wine integration with InnoVint covering production lots, vessels, dry goods, custom crush billing and overhead allocation. Azmera makes no artificial intelligence claim; it is a system of record and consulting business.
+- **B-Cart** (beer, brewery wholesale ordering portal, no ai claim). B-Cart Technology Pty Limited is an Australian B2B wholesale ordering platform that markets a dedicated edition to craft breweries, replacing keg and case orders taken by phone, text and email with a branded self-service portal. Each venue logs in to its own catalogue and its own negotiated pricing, orders land in a single fulfilment dashboard with PDF invoices and packing slips, and delivery run cutoffs and free freight thresholds are configurable per customer. Orders, invoices, customers and products sync both ways with Xero and MYOB, with QuickBooks, Unleashed, MYOB Acumatica, Stripe and a public API alongside them; Shopify, GoCardless, Dynamics 365 Business Central and a sales rep module are listed as coming. Registered as an Australian private company with an ABN active from 30 June 2021 and a main business location in NSW postcode 2515, built and supported from the east coast of Australia. Checked in full across the brewery, overview and about pages: the site makes no artificial intelligence or machine learning claim anywhere, and a reporting and insights module is still marked Soon. It is wholesale order automation and accounting sync, tracked here as brewery commercial software rather than as an AI vendor.
 - **Backbar** (multiple, none, on-premise beverage inventory and purchasing). Backbar is an on-premise beverage operations platform for bars, restaurants, hotels and casinos, covering inventory counts, vendor purchasing, invoice data capture, suggested par levels and pour cost, with point of sale integrations to Toast, Square and Shift4. It launched in Chicago in May 2019 as a free bar inventory tool and says it is now used by over 10,000 venues worldwide, which makes its aggregated counts a source of on-premise beer and hard seltzer share data that trade press and Park Street have cited. The product makes no AI or machine learning claim; par level suggestions are rule based.
 - **Baqio** (wine, none, wine and spirits commercial management software). Baqio is a French web based commercial management system built specifically for wine and alcohol producers, covering invoicing and shipping, customer CRM, stock and materials accounting with French monthly and customs declarations, bank synchronisation and pre accounting, cellar door point of sale and an e-commerce tie in to its own storefront or WooCommerce. It is NF525 certified and trades in France as Vinosoft. There is no AI or machine learning claim anywhere on the site: it is a system of record for winery commercial operations.
 - **Bar Analytics** (beer, beer sales and quality analytics with AI insights). Bar Analytics runs a beer analytics platform that provides real-time sales and quality data with AI insights on beer performance globally.
@@ -249,8 +250,6 @@ Snapshot: 2026-08-29. 845 active, 33 dormant.
 - **Davies Engineering Group** (multiple, brewery and distillery process controls, no ai claim). Controls, process and MEP engineering firm, formerly ThermalTech Engineering, with named drinks projects on both sides of the industry. It built MadTree Brewing's fully integrated Ignition recipe management, fermentation and packaging system covering brewhouse through cellaring to the canning line, and provided MEP, process and controls engineering for the expansion of Buffalo Trace Distillery. The firm makes no artificial intelligence or machine learning claim; the work is automation, recipe management and production data collection.
 - **DBFEX (Spirits Capital Corporation)** (whiskey, whiskey barrel valuation and pricing). DBFEX, the Distilled Barrels Financial Exchange, is a digital marketplace from Spirits Capital Corporation where distilleries, brokers, bottlers, brands and institutional investors trade new fill and aged whiskey barrels, alongside a subscription inventory and compliance tool. The company announced in March 2024 that it had completed a three year machine learning programme behind the exchange, centred on a Barrel Value Optimizer pricing tool that it says analyses the supply chain behind each barrel in real time. Trading commenced in January 2025 with over 200,000 barrels listed. The live site says only that the platform offers AI powered tools and insights, with no model detail, so the machine learning claim rests on company press releases rather than published method.
 - **Decant Index** (multiple, cask valuation and portfolio performance data). Decant Index, formerly Whisky Partners, is a London based whisky and wine cask investment marketplace with over 60,000 registered users and 2,350 recorded exits. Its platform side is the data product: per cask litres of alcohol, strength and cost per litre, regauge reports, comparable market pricing where available, and portfolio valuations with annualised IRR and total net return. Casks are held in HMRC approved bonded warehouses in Alloa, Scotland. The company describes no proprietary algorithm, index methodology or AI, and the published return figures are marketing claims rather than audited data.
-- **Deep Liquid** (beer, recipe / flavor prediction). Adelaide company using generative AI and machine learning to design personalized beverage recipes, starting in craft beer with the award-winning Rodney AI IPA and later expanding into wellness drinks. People: [Denham D'Silva](https://au.linkedin.com/in/denham-d-silva-5b560a5) (CEO, Founder), [Jamie Sherrah](https://au.linkedin.com/in/jsherrah) (CTO), [Anton van den Hengel](https://au.linkedin.com/in/antonvandenhengel) (Founder).
-- **Deep Planet** (wine, quality control / computer vision). Founded by Oxford researchers, its VineSignal platform combines satellite imagery, ground sensors and machine learning to predict grape maturity, yield, soil moisture and disease pressure for vineyards. People: [Sushma Shankar](https://uk.linkedin.com/in/sushmashankar1) (CEO, Co-Founder), [Natalia Efremova](https://uk.linkedin.com/in/nataliaef) (CTO, Co-Founder), David Carter (Co-Founder).
 - **Deep Sky Vineyard** (wine, sensor driven precision irrigation and vineyard analytics). Family owned Arizona winery with vineyards in Arizona and Argentina that co-developed a smart vineyard platform with Google Cloud Technology Partner niolabs. Sensors across the blocks feed water flow and soil moisture readings through Cloud IoT Core and Pub/Sub into BigQuery, with Looker Studio for analysis, letting the growers irrigate by gallons per vine rather than by timer. Published results include roughly 1.6 million gallons of water saved in 2018 and the elimination of shrivel and bunch rot in their Grenache. The company makes no machine learning claim: the Google Cloud case study says only that it is exploring ML for future yield insight, and its own technology page describes zone profiling and record keeping rather than models. People: Phil Asmundson (Owner).
 - **Della Toffola Group** (multiple, automated pressing and filling control, AI claim not substantiated). Della Toffola is an Italian plant OEM with over fifty years of trading, supplying presses, filters, tanks, filling lines and complete plants across wine and spirits, beer, cider, soft drinks, juice and dairy. Its AMPELOS pneumatic press range is marketed as intelligent and, on the group overview page, as controlled by artificial intelligence software. That claim is not substantiated anywhere in the public product material: the AMPELOS pages describe fully automatic continuous pressing programs and give no detail of any model, learning method or adaptive algorithm, so it should be read as automatic program control rather than machine learning until the company documents otherwise. Recorded here as a significant wine and beer plant OEM whose presses and filling lines are a source of process data, with no verified ML capability.
 - **Dennis Group** (multiple, no ai claim; food and beverage plant design build with automation and controls data integration). Design build firm working exclusively for the food and beverage industry, ranked the largest food and beverage design firm by Engineering News Record since 2015, covering process design, controls and automation and system integration. Its beverage market page lists beer and distilled spirits among its categories, with Boston Beer named as a client on an 880,000 square foot facility. One case study describes a data driven beverage facility where building management systems were integrated with process controls to generate more actionable operating data. No simulation, digital twin or machine learning product is claimed on its own site.
@@ -863,6 +862,8 @@ Snapshot: 2026-08-29. 845 active, 33 dormant.
 - Carlsberg (last seen 2018-10-15)
 - Ceres Imaging (Ceres AI) (last seen 2021-09-01)
 - Circumstance Distillery (last seen 2020-07-01)
+- Deep Liquid (last seen 2025-03-19)
+- Deep Planet (last seen 2025-03-02)
 - Deschutes Brewery (last seen 2019-08-12)
 - IntelligentX (last seen 2019-02-01)
 - ITK (Vintel) (last seen 2023-01-04)
@@ -890,20 +891,20 @@ Snapshot: 2026-08-29. 845 active, 33 dormant.
 
 - multiple: 335
 - beer: 231
-- wine: 202
+- wine: 201
 - whiskey: 70
 - non_alcoholic: 7
 
 ## By use case (active)
 
-- quality control / computer vision: 11
 - demand forecasting: 10
+- quality control / computer vision: 10
 - data analytics / BI / market intelligence for beverage: 10
 - no substantiated ai claim: 9
 - sensory: 6
 - supply chain: 6
-- recipe / flavor prediction: 5
 - production data: 5
+- recipe / flavor prediction: 4
 - GenAI marketing: 4
 - AI consulting: 4
 - none: 4
@@ -1650,3 +1651,4 @@ Snapshot: 2026-08-29. 845 active, 33 dormant.
 - conversational ai sommelier for drinks retailers: 1
 - eu wine e-label compliance documents, no ai claim: 1
 - supply chain production planning and packaging design generation: 1
+- brewery wholesale ordering portal, no ai claim: 1
