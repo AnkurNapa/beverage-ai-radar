@@ -1510,5 +1510,50 @@
     "vertical": "wine",
     "summary": "... to import data, clean data, explore data, visualize data, standardize data, and run multiple machine learning algorithms on data.",
     "year": 2022
+  },
+  {
+    "title": "Towards Crafting Beer with Artificial Intelligence",
+    "channel": "ABIZ Research Lab at HSLU",
+    "video_id": "T7INqKkIe4E",
+    "url": "https://www.youtube.com/watch?v=T7INqKkIe4E",
+    "vertical": "beer",
+    "summary": "",
+    "year": 2021
+  },
+  {
+    "title": "Distillery Labs marks first year in Peoria with AI platform launch",
+    "channel": "WMBD News",
+    "video_id": "7kTZ8veVcYU",
+    "url": "https://www.youtube.com/watch?v=7kTZ8veVcYU",
+    "vertical": "whiskey",
+    "summary": "Distillery Labs marks first year in Peoria with AI platform launch.",
+    "year": 2025
+  },
+  {
+    "title": "Pam Dillon is using AI to improve wine tasting  | Code 2018",
+    "channel": "On with Kara Swisher",
+    "video_id": "LgNS-xU2FN0",
+    "url": "https://www.youtube.com/watch?v=LgNS-xU2FN0",
+    "vertical": "wine",
+    "summary": "Pam Dillon presented her AI technology for tailoring wine tasting at the 2018 Code Conference. ---- Subscribe: ...",
+    "year": 2018
+  },
+  {
+    "title": "How beverage brands use AI to spot market shifts 📈 (HIGHLIGHT)",
+    "channel": "Drinkabl Africa",
+    "video_id": "0WpzcTol8RQ",
+    "url": "https://www.youtube.com/watch?v=0WpzcTol8RQ",
+    "vertical": "multiple",
+    "summary": "Relying on months-old consumer data is a liability in volatile markets. Josiah Kimanzi (Client Service Director, Actnable AI) breaks ...",
+    "year": 2026
+  },
+  {
+    "title": "Drinks company appoints AI robot as 'experimental CEO'",
+    "channel": "news.com.au",
+    "video_id": "eUZeABuWqeg",
+    "url": "https://www.youtube.com/watch?v=eUZeABuWqeg",
+    "vertical": "multiple",
+    "summary": "Drinks company appoints AI robot as 'experimental CEO' A drinks company has appointed what it says is the world's first artificial ...",
+    "year": 2024
   }
 ]
