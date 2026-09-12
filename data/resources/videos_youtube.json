@@ -1555,5 +1555,50 @@
     "vertical": "multiple",
     "summary": "Drinks company appoints AI robot as 'experimental CEO' A drinks company has appointed what it says is the world's first artificial ...",
     "year": 2024
+  },
+  {
+    "title": "Brewer Unveils ‘Beer that Made Itself’",
+    "channel": "IEN Magazine",
+    "video_id": "_Xk5qyhfIHA",
+    "url": "https://www.youtube.com/watch?v=_Xk5qyhfIHA",
+    "vertical": "beer",
+    "summary": "Proponents of artificial intelligence programs — such as the groundbreaking new AI chatbot ChatGPT — believe they will one day ...",
+    "year": 2023
+  },
+  {
+    "title": "Running an IOT Application for a Winery on Kubernetes",
+    "channel": "VMware Cloud Native Apps",
+    "video_id": "dZOUdxw77Ew",
+    "url": "https://www.youtube.com/watch?v=dZOUdxw77Ew",
+    "vertical": "wine",
+    "summary": "Machine Learning and IOT are prevalent use cases for Kubernetes. This demo application shows the software patterns for ...",
+    "year": 2018
+  },
+  {
+    "title": "How one vineyard is using AI to improve its winemaking — In Machines We Trust",
+    "channel": "MIT Technology Review",
+    "video_id": "JtWfnhyL4_c",
+    "url": "https://www.youtube.com/watch?v=JtWfnhyL4_c",
+    "vertical": "wine",
+    "summary": "In this episode, we're doing something a little bit different. Join us as we take a trip to a Californian vineyard to learn about how it's ...",
+    "year": 2023
+  },
+  {
+    "title": "Wine Quality Prediction || UMBC-Data-Science-Capstone|| SPRING 2024 THURSDAY Class || By Priyank",
+    "channel": "Priyank Pannem",
+    "video_id": "8IuXdXRImFY",
+    "url": "https://www.youtube.com/watch?v=8IuXdXRImFY",
+    "vertical": "wine",
+    "summary": "",
+    "year": 2024
+  },
+  {
+    "title": "Wine Quality Prediction using MindsDB",
+    "channel": "ExploringTech",
+    "video_id": "vT20Wdd_uvE",
+    "url": "https://www.youtube.com/watch?v=vT20Wdd_uvE",
+    "vertical": "wine",
+    "summary": "This video teaches how can we use MindsDB to predict the quality of Wine easily without the need of coding any ML models.",
+    "year": 2023
   }
 ]

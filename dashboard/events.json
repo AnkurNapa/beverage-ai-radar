@@ -1,21 +1,5 @@
 [
   {
-    "title": "Brews & Spirits Expo 2026",
-    "url": "https://www.brewsnspiritsexpo.com/",
-    "organiser": "PDA Ventures",
-    "location": "KTPO Convention Centre, Whitefield, Bengaluru, India",
-    "country": "India",
-    "vertical": "multiple",
-    "summary": "Seventh edition of India's alcobev trade show: brand owners, brewers, winemakers, distillers, equipment makers and technology providers, with a conference and awards programme alongside the floor. The single densest gathering of Indian beverage decision makers in the calendar.",
-    "speakers": [],
-    "mode": "in-person",
-    "speaking": false,
-    "start": "2026-09-09",
-    "end": "2026-09-11",
-    "state": "upcoming",
-    "sort": "2026-09-09"
-  },
-  {
     "title": "BrauBeviale 2026",
     "url": "https://www.braubeviale.de/en",
     "organiser": "NurnbergMesse",
@@ -110,6 +94,22 @@
     "end": "",
     "state": "undated",
     "sort": "1900-01-01"
+  },
+  {
+    "title": "Brews & Spirits Expo 2026",
+    "url": "https://www.brewsnspiritsexpo.com/",
+    "organiser": "PDA Ventures",
+    "location": "KTPO Convention Centre, Whitefield, Bengaluru, India",
+    "country": "India",
+    "vertical": "multiple",
+    "summary": "Seventh edition of India's alcobev trade show: brand owners, brewers, winemakers, distillers, equipment makers and technology providers, with a conference and awards programme alongside the floor. The single densest gathering of Indian beverage decision makers in the calendar.",
+    "speakers": [],
+    "mode": "in-person",
+    "speaking": false,
+    "start": "2026-09-09",
+    "end": "2026-09-11",
+    "state": "past",
+    "sort": "2026-09-09"
   },
   {
     "title": "ASBC & CIBD 2026 Global Brewing and Distilling Congress",
