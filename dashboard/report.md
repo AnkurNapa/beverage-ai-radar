@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-09-03. 844 active, 35 dormant.
+Snapshot: 2026-09-15. 845 active, 35 dormant.
 
 ## Active companies
 
@@ -158,6 +158,7 @@ Snapshot: 2026-09-03. 844 active, 35 dormant.
 - **Brewfather (Warpkode AS)** (beer, in app brewing assistant grounded in the brewer's own recipes, inventory and equipment). Brewfather is an all in one brewing app from Warpkode AS in Norway, covering recipe design, batch tracking, guided brew days, water chemistry and mash pH calculation, and live fermentation monitoring with Tilt hydrometer and other device integrations. It serves home brewers and small commercial brewers on web, iOS and Android. Its Premium Plus tier ships Brewfather AI, a conversational assistant built into the app and grounded in the user's own recipes, inventory and equipment profiles, metered at 500 AI credits per month, which can draft a recipe to a target style, gravity and hop bill.
 - **Brewing-AI** (beer, recipe / flavor prediction). Brewing-AI, a solution from AlpVision SA, offers breweries a deep-reinforcement-learning system that combines operator settings with near-infrared spectroscopy and sensor data to recommend optimal fermentation parameters and hold beer quality steady across batches. It is sold as a process-optimization service to brewers.
 - **BrewLedger** (beer, none, brewery operations ledger). BrewLedger is a mobile first brewery operations platform built around an immutable, append only inventory ledger, covering production, inventory, TTB compliance and taproom workflows with QuickBooks integration at a flat monthly price. It was founded in 2025 by John Jusko under the StoreGuard LLC holding company in Ohio, and also publishes an MIT licensed self hosted version. The company makes no AI claim; its own 2026 comparison article notes that none of the six brewery platforms it compares advertise AI. People: John Jusko (Founder and CEO).
+- **Brewlytics.ai** (beer, recommendation / personalization). Brewery loyalty and customer-intelligence platform whose consumer app, Barley, is pitched as an AI bartender. Profiles each beer across roughly 30 sensory and style dimensions (a Beer Taste Genome) and uses collaborative filtering to recommend taps to drinkers, while giving the brewery taste and POS analytics behind it. Connects to Square, with Arryved and Toast integrations in development. Live as a free web app with a paid Pro tier, but early: first cohort of brewery customers, native app-store listings and the Barley Lens menu-scanning feature not yet shipped. People: Brian Winckel (Founder).
 - **BrewMan by Premier Systems** (beer, unspecified use case). Premier Systems sells BrewMan, a cloud brewery and distillery management system used by over 300 producers globally, covering production and fluid movements, raw material traceability, cask and container tracking, dray planning and distribution, CRM, inventory and automatic UK alcohol duty calculation with audit reports. Variants are marketed for distilleries and wineries as well as breweries. The product is a system of record: nothing on the vendor site claims machine learning, and the only forward-looking feature is a rules-based forecast of stock required for upcoming production.
 - **Brewmation** (beer, plc brewhouse and cellar control with remote access). Brewmation builds turnkey brew houses, distilling systems, cellar tanks and the control panels that run them, sold mainly to US craft breweries and small distilleries. Its advanced package is a PLC and touchscreen system offering temperature control and trending, pump and rake control, sparge control, kettle power control, recipe process parameter storage and remote access for monitoring a brew session or changing cellar tank setpoints. Cellar panels are modular 8 or 12 point units daisy chained over CAN bus, with a Remote Access Module sold as an upgrade. The company makes no AI or machine learning claim: this is conventional PLC automation and data trending, and it matters here as a layer where craft brewing process data originates.
 - **BrewPlanner** (multiple, production scheduling and batch planning for craft beverage producers). BrewPlanner is production planning and light ERP software for craft breweries, wineries, distilleries, cideries and meaderies, covering drag and drop batch scheduling, recipe management, raw material tracking and production analytics. It claims over 500 brewery and winery customers, from nano scale to multi-site regional operations. The site makes no artificial intelligence or machine learning claim: the scheduling is deterministic planning, and the quoted results such as 99 percent on-time scheduling and 30 percent waste reduction are customer outcomes rather than model outputs.
@@ -890,7 +891,7 @@ Snapshot: 2026-09-03. 844 active, 35 dormant.
 ## By vertical (active)
 
 - multiple: 335
-- beer: 231
+- beer: 232
 - wine: 201
 - whiskey: 70
 - non_alcoholic: 7
@@ -905,10 +906,10 @@ Snapshot: 2026-09-03. 844 active, 35 dormant.
 - supply chain: 6
 - production data: 5
 - recipe / flavor prediction: 4
+- recommendation / personalization: 4
 - GenAI marketing: 4
 - AI consulting: 4
 - none: 4
-- recommendation / personalization: 3
 - consumer insight / trend prediction: 2
 - process & operations: 2
 - shelf image recognition for retail execution: 2

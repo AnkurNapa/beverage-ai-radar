@@ -38855,5 +38855,56 @@
     ],
     "country": "Australia",
     "scope": "beverage-native"
+  },
+  {
+    "name": "Brewlytics.ai",
+    "domain": "brewlytics.ai",
+    "hq_location": "California, United States",
+    "founded_year": 2026,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "product",
+    "ai_use_case": "recommendation / personalization",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Brian Winckel (Founder)",
+    "people": [
+      {
+        "name": "Brian Winckel",
+        "role": "Founder",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Brewery loyalty and customer-intelligence platform whose consumer app, Barley, is pitched as an AI bartender. Profiles each beer across roughly 30 sensory and style dimensions (a Beer Taste Genome) and uses collaborative filtering to recommend taps to drinkers, while giving the brewery taste and POS analytics behind it. Connects to Square, with Arryved and Toast integrations in development. Live as a free web app with a paid Pro tier, but early: first cohort of brewery customers, native app-store listings and the Barley Lens menu-scanning feature not yet shipped.",
+    "source_urls": [
+      "https://alternativeto.net/software/brewlytics/about/",
+      "https://brewlytics.ai/",
+      "https://brewlytics.ai/about"
+    ],
+    "first_seen": "2026-01-01",
+    "last_seen": "2026-09-11",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:web-search",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "brewlytics.ai",
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
   }
 ]
