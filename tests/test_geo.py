@@ -27,3 +27,8 @@ def test_blank_is_unknown_not_empty_string():
 def test_unrecognised_country_passes_through_unchanged():
     """Do not silently rewrite something just because it is not in the map."""
     assert normalise("Sri Lanka") == "Sri Lanka"
+
+
+def test_parenthetical_note_does_not_become_the_country():
+    loc = "Mountain View, United States (delivery centre in Bengaluru, India)"
+    assert country_of(loc) == "United States"

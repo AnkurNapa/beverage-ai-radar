@@ -9,6 +9,8 @@ holding half the real count. Everything that reads a country routes through
 
 from __future__ import annotations
 
+import re
+
 ALIASES = {
     "usa": "United States",
     "u.s.": "United States",
@@ -44,8 +46,12 @@ def normalise(name: str | None) -> str:
 
 
 def country_of(hq_location: str | None) -> str:
-    """Last comma-separated component of an hq_location, normalised."""
-    loc = (hq_location or "").strip()
+    """Last comma-separated component of an hq_location, normalised.
+
+    Parenthetical notes are dropped first: "Mountain View, United States
+    (delivery centre in Bengaluru, India)" otherwise yields "India)".
+    """
+    loc = re.sub(r"\s*\([^)]*\)", "", hq_location or "").strip()
     if not loc:
         return UNKNOWN
     return normalise(loc.split(",")[-1])
