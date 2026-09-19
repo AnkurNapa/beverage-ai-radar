@@ -1600,5 +1600,85 @@
     "vertical": "wine",
     "summary": "This video teaches how can we use MindsDB to predict the quality of Wine easily without the need of coding any ML models.",
     "year": 2023
+  },
+  {
+    "title": "US Craft Beers and Breweries. Doing Data Science. I.A.Wilds",
+    "channel": "Ivory Wilds",
+    "video_id": "LHv7nrqYfAQ",
+    "url": "https://www.youtube.com/watch?v=LHv7nrqYfAQ",
+    "vertical": "beer",
+    "summary": "This video covers a few data science techniques using a beer and brewery data set.",
+    "year": 2020
+  },
+  {
+    "title": "Beer AI MOA video",
+    "channel": "Atichon Charoenchainow",
+    "video_id": "Ay5qeFgQfwA",
+    "url": "https://www.youtube.com/watch?v=Ay5qeFgQfwA",
+    "vertical": "beer",
+    "summary": "Hi! This is the Marketing Opportunities Analysis of Beer AI, hope you enjoy it!",
+    "year": 2018
+  },
+  {
+    "title": "Albuquerque brewery uses AI technology to make beer",
+    "channel": "KRQE",
+    "video_id": "edE5R0iDsHA",
+    "url": "https://www.youtube.com/watch?v=edE5R0iDsHA",
+    "vertical": "beer",
+    "summary": "Albuquerque brewery uses AI technology to make beer.",
+    "year": 2023
+  },
+  {
+    "title": "Artificial intelligence crafts beer to customers' tastes",
+    "channel": "AP Archive",
+    "video_id": "fM84CefiLbQ",
+    "url": "https://www.youtube.com/watch?v=fM84CefiLbQ",
+    "vertical": "beer",
+    "summary": "(18 Dec 2016) LEAD IN: It's Christmas party season for millions across the globe and stocking up on favourite drinks is a priority.",
+    "year": 2017
+  },
+  {
+    "title": "Tech Meetup over Beer - Cloud and Machine Learning",
+    "channel": "Ravinder Singh",
+    "video_id": "gMoiy4k3hLs",
+    "url": "https://www.youtube.com/watch?v=gMoiy4k3hLs",
+    "vertical": "beer",
+    "summary": "",
+    "year": 2017
+  },
+  {
+    "title": "Palate Club How AI Helps Us Choose Wine",
+    "channel": "Palate Club",
+    "video_id": "in5xYCZUKtQ",
+    "url": "https://www.youtube.com/watch?v=in5xYCZUKtQ",
+    "vertical": "wine",
+    "summary": "Palate Club, the cutting edge sommelier driven online wine club app. Learn about how a combination of data science backed by ...",
+    "year": 2019
+  },
+  {
+    "title": "Computer Vision in Vineyards: How AI Predicts Grape Yield | Udelar",
+    "channel": "TV Ciudad",
+    "video_id": "g2UAyDJi-bU",
+    "url": "https://www.youtube.com/watch?v=g2UAyDJi-bU",
+    "vertical": "wine",
+    "summary": "Use of AI and Computer Vision in Vineyards to Predict Yield\nThis interdisciplinary project allows for the early and rapid ..."
+  },
+  {
+    "title": "Harnessing AI For Operational Excellence In Food And Beverage Industries",
+    "channel": "AMERNET",
+    "video_id": "PvWoiIddNvM",
+    "url": "https://www.youtube.com/watch?v=PvWoiIddNvM",
+    "vertical": "multiple",
+    "summary": "Welcome to Amernet, where we provide innovative AI-powered automation solutions designed to transform food and beverage ...",
+    "year": 2026
+  },
+  {
+    "title": "IoT technology - Food & Beverage Industry",
+    "channel": "Vilpa Bajariya",
+    "video_id": "S3h8Kv8Af7A",
+    "url": "https://www.youtube.com/watch?v=S3h8Kv8Af7A",
+    "vertical": "multiple",
+    "summary": "IoT - The Internet of Things & Automation solution's for FOOD AND BEVERAGE MANUFACTURERS... Empower your team to ...",
+    "year": 2022
   }
 ]
