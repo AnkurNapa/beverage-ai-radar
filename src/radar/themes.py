@@ -16,28 +16,47 @@ import re
 THEME_RULES: list[tuple[str, str]] = [
     (
         r"vineyard|disease|yield|robot|germination|malting|barley|crop|viticultur|"
-        r"vine |grape|sap flow|water status|maturation prediction",
+        r"vine |grape|sap flow|water status|maturation prediction|yeast strain|genomic|breeding|hop\b",
         "Agriculture & crop",
     ),
     (r"quality|computer vision|inspection|traceability|authentic|counterfeit", "Quality & inspection"),
     (r"sensory|flavor|flavour|recipe|taste|preference|aroma|blend|formulation", "Sensory & recipe"),
-    (r"consumer|trend|recommendation|personaliz|insight|sentiment|purchase intent", "Consumer & personalization"),
+    # Sustainability is a business function of its own, not a leftover. Carbon,
+    # water and effluent work was landing in "Other" despite the radar having a
+    # whole esg discovery surface feeding it.
+    (
+        r"carbon|scope 3|emission|sustainab|esg\b|water risk|replenish|effluent|"
+        r"wastewater|circular|co2 capture|energy efficien|decarbon",
+        "ESG & sustainability",
+    ),
+    (r"consumer|trend|personaliz|insight|sentiment|purchase intent|club member|recommender|"
+        # "recommendation" alone is ambiguous: a brewery digital twin makes
+        # "process recommendations" too. Require a consumer-facing object.
+        r"(taste|wine|beer|whisky|whiskey|sake|spirit|product|drink|bottle|sommelier)[a-z ,-]{0,25}recommend", "Consumer & personalization"),
     # Market data is its own business: auction feeds, cask valuation and price
     # discovery are what the whiskey and fine wine lanes actually sell.
     (r"market data|auction|valuation|price data|exchange|market intelligence", "Market data & valuation"),
-    (r"demand|forecast|pricing|sales|depletion|trade promotion|revenue", "Demand & pricing"),
-    (r"supply chain|logistics|container|deposit return|inventory|cask management", "Supply chain"),
-    (r"genai|marketing|product content|catalog", "GenAI & marketing"),
+    (r"demand|forecast|pricing|sales|depletion|trade promotion|revenue|retail execution|territory planning|field team|crm\b|route to market|shelf image|churn", "Sales, demand & pricing"),
+    (r"supply chain|logistics|container|deposit return|inventory|cask management|keg|track and trace|cold chain|route optim|route sequen|fulfil|fleet", "Supply chain"),
+    (r"genai|marketing|product content|catalog|brand content|branding|advertis|content generation|product imagery|generative engine", "GenAI & marketing"),
     (r"consult|advis", "Consulting"),
     # Compliance is its own business function, not a leftover: licensing,
     # excise, label approval and reporting sit on every producer and
     # distributor regardless of what they brew.
     (r"complian|licens|excise|regulat|permit|tax", "Compliance & licensing"),
+    # Plant kit and instrumentation, distinct from the software-shaped
+    # "Process & operations" bucket that was swallowing it.
+    (
+        r"brewhouse|mash filtration|filtration|instrument|still control|"
+        r"cellar telemetry|press monitoring|machine monitoring|equipment|"
+        r"engineering|valve|pump|boiler|refrigerat|glycol",
+        "Engineering & equipment",
+    ),
     (
         r"fermentation|production|digital twin|cip\b|process|batch|maintenance|iiot|iot|line|"
         r"draft|operating system|worker|knowledge|workflow|data platform|assistant|agent|"
         r"sensor|historian|mes\b|oee|automation|analytics|bi\b|reporting|"
-        r"ordering|invoice|taproom|point-of-sale|pos\b",
+        r"ordering|invoice|taproom|point-of-sale|pos\b|erp\b|management software|netsuite",
         "Process & operations",
     ),
 ]

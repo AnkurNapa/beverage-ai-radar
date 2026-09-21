@@ -33,6 +33,9 @@ def run(
     # of having it.
     import json as _json
     write_seo(_json.loads((outputs_dir / "data.json").read_text()), outputs_dir, today)
+    # One line so the dashboard can say when it last ran. The page already has a
+    # #meta span; without this it had no idea what date the data was.
+    (outputs_dir / "meta.json").write_text(_json.dumps({"generated": today.isoformat()}))
     # Share card and jobs feed touch the real dashboard and the network, so
     # they only fire for a genuine run against the configured dashboard dir.
     # test_pipeline passes a temp dir: without this guard it launched Chrome

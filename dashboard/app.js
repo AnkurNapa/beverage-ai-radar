@@ -1,3 +1,12 @@
+
+let GENERATED = "";
+// "2026-09-21" -> "21 September 2026". Parsed as UTC so the date never slips a
+// day for readers west of Greenwich.
+function fmtGenerated(iso) {
+  const d = new Date(iso + "T00:00:00Z");
+  if (isNaN(d)) return iso;
+  return d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+}
 import {
   PREVIOUS_VISIT, agoLabel, clearSeen, deleteView, dismissHint, hintDismissed,
   isStarred, markSeen, mountPalette, recentlyOpened, saveView, savedViews, seenAt,
@@ -1462,12 +1471,21 @@ const KPI_BUILDERS = {
     [uniq(rows, (p) => p.company), plural(uniq(rows, (p) => p.company), "companies"), "they work across"],
     [uniq(rows, (p) => p.vertical), plural(uniq(rows, (p) => p.vertical), "verticals"), "beer · whiskey · wine"],
   ],
-  resources: (rows, all) => [
-    [rows.length, rows.length === all.length ? "resources" : "matching", sub(rows.length, all.length, "resources")],
-    [rows.filter((r) => r.kind === "paper").length, plural(rows.filter((r) => r.kind === "paper").length, "papers"), "peer-reviewed research"],
-    [rows.filter((r) => r.kind === "repo").length, plural(rows.filter((r) => r.kind === "repo").length, "repositories"), "open-source code"],
-    [uniq(rows, (r) => r.vertical), plural(uniq(rows, (r) => r.vertical), "verticals"), "covered"],
-  ],
+  // The library is mostly not papers: blogs and video outnumber research three to
+  // one. Counting only papers and repos hid that, so the mix is shown in full.
+  resources: (rows, all) => {
+    const k = (...kinds) => rows.filter((r) => kinds.includes(r.kind)).length;
+    const papers = k("paper"), videos = k("video"), pods = k("podcast");
+    const articles = k("blog", "news", "whitepaper"), repos = k("repo");
+    return [
+      [rows.length, rows.length === all.length ? "resources" : "matching", sub(rows.length, all.length, "resources")],
+      [papers, plural(papers, "papers"), "peer-reviewed research"],
+      [videos, plural(videos, "videos"), "talks, demos and conference sessions"],
+      [articles, plural(articles, "articles"), "blogs, trade press and whitepapers"],
+      [pods, plural(pods, "podcasts"), "episodes worth the listen"],
+      [repos, plural(repos, "repositories"), "open-source code"],
+    ];
+  },
   jobs: (rows, all) => [
     [rows.length, rows.length === all.length ? "open roles" : "matching", sub(rows.length, all.length, "open roles")],
     [rows.filter((j) => j.tracked_company).length, "on the radar", "employer already tracked"],
@@ -1515,7 +1533,10 @@ function renderKpis(rows = ALL) {
       <span class="kpi__label">${esc(label)}</span>
       <span class="kpi__sub">${esc(sub)}</span>
     </div>`).join("");
-  if (!filtered) $("meta").textContent = `${n} entries · ${active} active · ${peopleCount} people.`;
+  if (!filtered) {
+    const stamp = GENERATED ? ` Last updated ${fmtGenerated(GENERATED)}.` : "";
+    $("meta").textContent = `${n} entries · ${active} active · ${peopleCount} people.${stamp}`;
+  }
 }
 
 
@@ -2070,6 +2091,9 @@ async function main() {
   let data;
   try {
     data = await (await fetch("data.json")).json();
+    // When the pipeline last ran. Written by radar run next to data.json.
+    // Non-fatal: an old deploy without meta.json just shows no date.
+    try { GENERATED = (await (await fetch("meta.json")).json()).generated || ""; } catch { GENERATED = ""; }
     // Fetched here, before the first apply(): renderWorldMap is synchronous and
     // apply() paints the map, so the geometry has to already be in hand.
     await loadWorldPaths();
