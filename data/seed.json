@@ -718,10 +718,12 @@
     "short_description": "Carlsberg's Research Laboratory runs the Beer Fingerprinting project, using high-tech flavor sensors with Aarhus University, DTU and Microsoft machine learning to map ingredient flavor profiles and predict how a new beer will taste. The aim is to cut taste-combination research time by up to a third.",
     "source_urls": [
       "https://www.beveragedaily.com/Article/2017/11/07/Carlsberg-turns-to-artificial-intelligence-in-Beer-Fingerprinting-project/",
-      "https://news.microsoft.com/europe/2017/12/05/beer-fingerprinting-project-artificial-intelligence-create-next-pint/"
+      "https://news.microsoft.com/europe/2017/12/05/beer-fingerprinting-project-artificial-intelligence-create-next-pint/",
+      "https://www.carlsberggroup.com/newsroom/tradition-meets-tech-carlsberg-launches-ai-crafted-lunar-new-year-packaging/",
+      "https://doi.org/10.3390/ijms27010530"
     ],
     "first_seen": "2017-11-07",
-    "last_seen": "2018-10-15",
+    "last_seen": "2026-09-21",
     "key_people": "Jacob Aarup-Andersen (CEO)",
     "people": [
       {
@@ -747,10 +749,11 @@
     "source_urls": [
       "https://cloud.google.com/customers/abinbev-pluto7",
       "https://www.thedrinksbusiness.com/2023/03/ab-inbev-launches-ai-beer-named-becks-autonomous/",
-      "https://www.ab-inbev.com/about-us/what-we-do/innovation"
+      "https://www.ab-inbev.com/about-us/what-we-do/innovation",
+      "https://doi.org/10.1038/s41467-024-46346-0"
     ],
     "first_seen": "2019-01-01",
-    "last_seen": "2026-08-01",
+    "last_seen": "2026-09-21",
     "key_people": "Michel Doukeris (CEO)",
     "people": [
       {
@@ -775,10 +778,11 @@
     "short_description": "Kirin built a proprietary AI recipe system, developed with Mitsubishi Research Institute, that draws on roughly 20 years of internal ingredient and tasting data to translate desired sensory profiles into ingredient combinations. Kirin plans to bring AI-supported beers to market from March 2026.",
     "source_urls": [
       "https://www.kirinholdings.com/en/newsroom/release/2021/0831_01.html",
-      "https://www.inside.beer/news/detail/japan-kirin-accelerates-beer-innovation-with-ai-driven-brewing"
+      "https://www.inside.beer/news/detail/japan-kirin-accelerates-beer-innovation-with-ai-driven-brewing",
+      "https://finance.yahoo.com/news/ai-beer-production-still-early-123137866.html"
     ],
     "first_seen": "2021-08-31",
-    "last_seen": "2026-06-01",
+    "last_seen": "2026-09-21",
     "key_people": "Hideki Horiguchi (President and CEO)",
     "people": [
       {
@@ -802,10 +806,11 @@
     "total_raised": null,
     "short_description": "Sapporo partnered with IBM Japan to build an AI system for product development, where marketers input a concept plus up to ten flavor descriptors and a reference product from 170 past Sapporo beverages to generate new recipe candidates.",
     "source_urls": [
-      "https://www.techtimes.com/articles/288536/20230304/sapporo-is-now-using-artificial-intelligence-to-develop-new-products.htm"
+      "https://www.techtimes.com/articles/288536/20230304/sapporo-is-now-using-artificial-intelligence-to-develop-new-products.htm",
+      "https://doi.org/10.1094/asbcj-63-0151"
     ],
     "first_seen": "2023-03-04",
-    "last_seen": "2023-03-04",
+    "last_seen": "2026-09-21",
     "key_people": "Masaki Oga (President, Sapporo Holdings)",
     "people": [
       {
@@ -832,10 +837,12 @@
       "https://www.theheinekencompany.com/newsroom/brewing-with-ai/",
       "https://aimagazine.com/machine-learning/heineken-use-ai-control-volatile-demand",
       "https://www.theheinekencompany.com/newsroom/connected-brewery--simplifying-and-automating-our-end-to-end-business/",
-      "https://consumergoods.com/heineken-adds-gen-ai-diagnostics-query-tool-connected-ecosystem"
+      "https://consumergoods.com/heineken-adds-gen-ai-diagnostics-query-tool-connected-ecosystem",
+      "https://finance.yahoo.com/news/ai-beer-production-still-early-123137866.html",
+      "https://doi.org/10.1016/j.foodchem.2024.141532"
     ],
     "first_seen": "2024-04-24",
-    "last_seen": "2026-02-09",
+    "last_seen": "2026-09-21",
     "key_people": "Dolf van den Brink (Chairman of the Executive Board and CEO)",
     "people": [
       {
@@ -1656,10 +1663,11 @@
     "short_description": "Maker of Beer30 brewery-management software whose demand-planning module uses sales forecasts to predict production needs, plus a Brewery Command Center analytics platform. Serves 500-plus breweries across 20-plus countries.",
     "source_urls": [
       "https://the5thingredient.com/package-forecasting-with-the-beer30s-demand-planning-module/",
-      "https://the5thingredient.com/story/"
+      "https://the5thingredient.com/story/",
+      "https://the5thingredient.com/"
     ],
     "first_seen": "2017-10-01",
-    "last_seen": "2025-04-15",
+    "last_seen": "2026-09-21",
     "key_people": "Pulkit K. Agrawal (Founder and CEO)",
     "people": [
       {
@@ -1991,10 +1999,11 @@
     "total_raised": null,
     "short_description": "Alpha MOS is a publicly listed sensory-analysis solution vendor that builds electronic nose, electronic tongue, and electronic eye instruments and also runs outsourced sensory-analysis labs for food and beverage clients including beer, wine, and spirits makers. Its instruments use pattern-recognition algorithms to objectify taste and aroma.",
     "source_urls": [
-      "https://www.alpha-mos.com/"
+      "https://www.alpha-mos.com/",
+      "https://doi.org/10.1007/978-3-642-27387-2_20"
     ],
     "first_seen": "2026-07-21",
-    "last_seen": "2026-07-21",
+    "last_seen": "2026-09-21",
     "discovered_by": "curated",
     "verified": true
   },
@@ -2500,7 +2509,7 @@
   {
     "name": "Smart DRS",
     "domain": "smartdrs.com",
-    "hq_location": "Bratislava, Slovakia",
+    "hq_location": "Dublin, Ireland",
     "founded_year": null,
     "vertical": "multiple",
     "company_type": "product",
@@ -3400,10 +3409,11 @@
     "short_description": "International producer and marketer of beer, wine and spirits with operations in the US, Mexico, New Zealand and Italy, including Corona, Modelo, Robert Mondavi Winery and High West Whiskey. Google Cloud published a case study on its direct-to-consumer transformation, in which Constellation runs BigQuery as the DTC data warehouse, uses BigQuery ML for predictive analytics on customer acquisition cost, lifetime value, churn and NPS, and uses Looker with LookML for modelling, reporting a 60 percent reduction in hours to reach critical decisions. The AI here is SQL-based ML on commerce data, not production or sensory AI.",
     "source_urls": [
       "https://www.cbrands.com/",
-      "https://cloud.google.com/blog/products/data-analytics/constellation-brands-picks-google-cloud-for-direct-to-consumer-push"
+      "https://cloud.google.com/blog/products/data-analytics/constellation-brands-picks-google-cloud-for-direct-to-consumer-push",
+      "https://doi.org/10.1021/acs.jafc.0c07899"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26",
+    "last_seen": "2026-09-21",
     "key_people": "Ryan Mason (Director, Head of DTC Growth and Strategy)",
     "people": [
       {
@@ -4254,10 +4264,11 @@
     "short_description": "LIBR is an independent beer research institute embedded in KU Leuven that sells consultancy, R and D projects, pilot malting and two pilot breweries to the brewing industry, alongside genetics, microbial ecology and sensory analysis services. Its team, with the VIB-KU Leuven Center for Microbiology, measured over 200 chemical properties across 250 commercial Belgian beers in 22 styles, combined trained panel sensory data with more than 180,000 consumer reviews, and trained machine learning models that predict flavor and consumer appreciation and recommend aroma compounds to add. The models were validated by improving a commercial Belgian ale and an alcohol-free variant in blind tasting, published in Nature Communications in 2024. This is contract research and industry consultancy, not a productized software vendor.",
     "source_urls": [
       "https://www.libr.be/",
-      "https://press.vib.be/ai-predicts-the-taste-and-quality-of-beer"
+      "https://press.vib.be/ai-predicts-the-taste-and-quality-of-beer",
+      "https://doi.org/10.1038/s41467-024-46346-0"
     ],
     "first_seen": "2026-08-01",
-    "last_seen": "2026-08-01",
+    "last_seen": "2026-09-21",
     "key_people": "Kevin Verstrepen (Director)",
     "people": [
       {
@@ -4627,10 +4638,13 @@
     "short_description": "Diageo is the owner of Johnnie Walker, Talisker, Lagavulin, Mortlach and The Singleton, and is one of the largest Scotch whisky producers in the world. It runs its own FlavorPrint platform, which builds a flavour profile for a drinker from a questionnaire and matches it against profiled whiskies. In November 2024 it launched FlavorPrintConnect, a tasting kit plus AI-assisted digital masterclass built on FlavorPrint, trialled in the UK with the Single Malt Special Releases 2024 set. The company also publishes a Flavour Forecast trend report produced with AI-assisted taste trend analysis.",
     "source_urls": [
       "https://www.diageo.com/en/news-and-media/press-releases/2024/diageo-brings-consumers-industry-first-experience-with-flavorprintconnect-technology",
-      "https://www.thespiritsbusiness.com/2024/11/diageo-enhances-tasting-kits-with-ai/"
+      "https://www.thespiritsbusiness.com/2024/11/diageo-enhances-tasting-kits-with-ai/",
+      "https://www.diageo.com/en/news-and-media/press-releases/2024/diageo-unveils-its-first-bottle-personalisation-experience-fuelled-by-generative-ai",
+      "https://www.diageo.com/en/news-and-media/press-releases/2024/johnnie-walker-launches-ai-powered-design-with-artist-andy-gellenberg",
+      "https://www.thedrinksbusiness.com/2026/02/diageo-wins-technology-award-for-its-spirits-platform/"
     ],
     "first_seen": "2026-08-01",
-    "last_seen": "2026-08-01",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:whiskey",
     "verified": false
   },
@@ -4845,10 +4859,11 @@
     "short_description": "Vina Concha y Toro is one of the largest wine producers in South America and runs its own Center for Research and Innovation, opened in 2014 in Chile's Maule Region. The CRI has built an artificial intelligence model that combines multispectral drone imagery with terrain data, weather stations and ground sensors to predict harvest volume; in reported trials the model gave prediction errors of 2 to 9 percent against 20 to 30 percent for traditional estimation methods. The company also cites AI for irrigation scheduling and for diagnosing fungal disease from tractor mounted cameras. This is an operator, not a vendor: the models are its own R and D, developed with the Chilean partner Smartdici and public funding from Corfo.",
     "source_urls": [
       "https://vinacyt.com/en/noticia/innovation/artificial-intelligence-and-drones-new-harvest-volume-prediction-system/",
-      "https://vinacyt.com/en/corporate-pillars/innovation/"
+      "https://vinacyt.com/en/corporate-pillars/innovation/",
+      "https://doi.org/10.1016/j.foodchem.2022.133101"
     ],
     "first_seen": "2026-08-01",
-    "last_seen": "2026-05-01",
+    "last_seen": "2026-09-21",
     "key_people": "Alvaro Gonzalez (Deputy Manager of Research and Development), Jose Cuevas (Researcher, Engineering)",
     "people": [
       {
@@ -4874,10 +4889,11 @@
     "short_description": "Vinventions makes wine closures (NOMACORC synthetic, SUBR micro natural cork, VINTOP screwcaps) and, through its Wine Quality Solutions division, analytical instruments used by winemakers: Nomasense O2 and P6000 oxygen meters, Nomasense CO2, Polyscan for phenolic and oxidation potential measurement, and colour analysis tools. It makes no artificial intelligence or machine learning claim; WQS is measurement hardware and decision support based on established oenological chemistry. It matters to the wine data landscape as one of the main sources of in cellar oxygen and phenolic measurement data. The company was formed in 2015 around Nomacorc, founded by the Belgian Noel family, and is headquartered in Wallonia.",
     "source_urls": [
       "https://eu.vinventions.com/",
-      "https://en.wikipedia.org/wiki/Nomacorc"
+      "https://en.wikipedia.org/wiki/Nomacorc",
+      "https://doi.org/10.1016/j.foodchem.2014.01.021"
     ],
     "first_seen": "2026-08-01",
-    "last_seen": "2026-07-01",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:wine",
     "verified": false
   },
@@ -5772,10 +5788,11 @@
     "short_description": "Hopsteiner, trading as Simon H. Steiner Hopfen GmbH, is a sixth generation global hop supplier of varieties, pellets and extracts, founded in 1845 and headquartered in Mainburg, Germany with US operations. Its research and development function under Dr Martin Biendl runs a breeding program for drought, heat and pest tolerant cultivars and novel flavour profiles, with partners including the Fraunhofer Institute and the Technical University of Munich, and the company has published chromosome-scale haplotype-resolved hop genome assemblies to support genomics-assisted breeding. Its own R and D pages make no machine learning or AI claim: the work described is genomics and conventional breeding science. Included because the hop breeding layer is otherwise absent from the database.",
     "source_urls": [
       "https://www.hopsteiner.de/en/about-hopsteiner/research-and-development",
-      "https://www.hopsteiner.de/en/"
+      "https://www.hopsteiner.de/en/",
+      "https://doi.org/10.3390/plants15111667"
     ],
     "first_seen": "2026-08-01",
-    "last_seen": "2026-08-01",
+    "last_seen": "2026-09-21",
     "key_people": "Martin Biendl (Head of Research and Development and Analytics)",
     "discovered_by": "scout:ingredients",
     "verified": false
@@ -6552,10 +6569,11 @@
     "short_description": "Italian winemaking inputs company making stabilising agents, fining agents, oak alternatives and mannoproteins, part of the Esseco group. It is the worldwide exclusive distributor of WINEGRID, the Portuguese SaaS fermentation monitoring system from Watgrid whose algorithms read production parameters in real time and support predictive analysis of a vinification, which Enartis markets under a Smart Enology positioning. Enartis has also announced the acquisition of Parsec, the Italian winery automation and intelligent control company. The AI is not Enartis's own: it is built by WINEGRID and Parsec, and Enartis is the commercial, integration and distribution layer around it.",
     "source_urls": [
       "https://www.enartis.com/en/",
-      "https://www.interempresas.net/Vitivinicola/Articulos/467205-Enartis-lleva-inteligencia-artificial-bodegas-inspira-vision-Enologia-Digital.html"
+      "https://www.interempresas.net/Vitivinicola/Articulos/467205-Enartis-lleva-inteligencia-artificial-bodegas-inspira-vision-Enologia-Digital.html",
+      "https://doi.org/10.3390/foods12112191"
     ],
     "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
+    "last_seen": "2026-09-21",
     "key_people": "Piermario Ticozzelli (Strategic Business Director)",
     "people": [
       {
@@ -8544,10 +8562,11 @@
     "source_urls": [
       "https://www.pernod-ricard.com/en/media/pernod-ricard-rated-top-european-company-2024-data-ai-human-capital-report-world-rankings",
       "https://www.pernod-ricard.com/en/media/pernod-ricard-and-jcdecaux-sign-unprecedented-data-technical-alliance",
-      "https://conference-mlops.com/speakers/solene-bergaire/"
+      "https://conference-mlops.com/speakers/solene-bergaire/",
+      "https://www.pernod-ricard.com/en/locations/uk/media/jameson-taps-ai-offer-hyper-personalised-gifting-father-s-day"
     ],
     "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
+    "last_seen": "2026-09-21",
     "key_people": "Solene Bergaire (Senior Data Scientist)",
     "people": [
       {
@@ -8606,10 +8625,11 @@
     "short_description": "Consultancy delivering AI, generative AI and data engineering into beer, whisky, wine and the wider food and beverage sector, operating across India, Australia and the United Kingdom, alongside a practice built on Microsoft Dynamics 365 with resourcing and outsourcing services. Named focus areas are fermentation and quality prediction, production and commercial analytics, demand planning and sustainability reporting, with GenAI applied to operator knowledge and evidence assembly. PROVENANCE: the beverage and AI scope here is a first-party statement by Ankur Napa, the company's Growth Officer and a tracked individual on this radar. It is NOT independently evidenced: the company website is a short brochure for the Dynamics 365 practice and carries no beverage, AI or machine learning claim of any kind. Recorded as provisional until a public services page or a named client case study exists.",
     "source_urls": [
       "https://disruptive-advantage.com/",
-      "https://www.linkedin.com/in/ankur-napa/"
+      "https://www.linkedin.com/in/ankur-napa/",
+      "https://doi.org/10.66969/tq-63-0208-12"
     ],
     "first_seen": "2026-08-04",
-    "last_seen": "2026-08-09",
+    "last_seen": "2026-09-21",
     "discovered_by": "curated",
     "verified": false,
     "verticals": [
@@ -8857,10 +8877,11 @@
     "short_description": "TerraNIS is a French Earth observation SME founded in March 2014 by two former Airbus/Spot Image space applications specialists. Its wine product Oenoview, co-developed and sold with the oenological consultancy Groupe ICV, turns high resolution satellite imagery into vineyard maps used for harvest planning and lot allocation, fertilisation, vine water status and young vine growth checks. Processing rests on in-house remote sensing algorithms; the company describes using an artificial intelligence approach in specific work such as mapping biodiversity features in Champagne vineyards, rather than as the core of the product. Around 20 staff, roughly a quarter of revenue in R&D, with a subsidiary in Chile.",
     "source_urls": [
       "https://www.terranis.fr/viticulture-oad-oenoview/",
-      "https://www.terranis.fr/en/about-us/"
+      "https://www.terranis.fr/en/about-us/",
+      "https://doi.org/10.3390/rs13091837"
     ],
     "first_seen": "2026-08-05",
-    "last_seen": "2026-08-05",
+    "last_seen": "2026-09-21",
     "key_people": "Marc Tondriaux (Co-founder), David Hello (Co-founder)",
     "discovered_by": "scout:wine",
     "verified": false
@@ -8962,10 +8983,14 @@
     "short_description": "The AWRI is the Australian wine industry's research, development and extension body, based at the Waite campus in South Australia. It runs Metabolomics SA for analytical chemistry profiling, the South Australian Genomics Centre for genetic analysis, a wine microorganism culture collection and a trial-scale no- and low-alcohol facility, and provides grapevine clonal identification services. It is a primary generator of wine composition and sensory data for the industry, but its own site does not substantiate a machine learning or predictive modelling claim, so it is recorded here as data infrastructure rather than an AI vendor.",
     "source_urls": [
       "https://www.awri.com.au/",
-      "https://www.awri.com.au/research_and_development/"
+      "https://www.awri.com.au/research_and_development/",
+      "https://doi.org/10.3390/foods13091376",
+      "https://doi.org/10.1016/j.foodchem.2021.130149",
+      "https://doi.org/10.1007/978-981-99-1648-1_21",
+      "https://doi.org/10.1016/j.aca.2007.09.036"
     ],
     "first_seen": "2026-08-05",
-    "last_seen": "2026-08-05",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:wine",
     "verified": false
   },
@@ -11920,10 +11945,12 @@
     "short_description": "Wine Australia is a Commonwealth Government statutory authority established under the Wine Australia Act 2013 that measures and publishes the Australian wine sector's market data. Its Market Insights function covers wine markets by region, Australian wine exports, grape and wine production, and a set of Market Insights dashboards and calculators used by producers and exporters, alongside the Wine Export Approval system. It also funds grape and wine research. The published tools are reporting and analytics rather than machine learning.",
     "source_urls": [
       "https://www.wineaustralia.com/market-insights",
-      "https://www.wineaustralia.com/about-us"
+      "https://www.wineaustralia.com/about-us",
+      "https://doi.org/10.1109/access.2018.2875862",
+      "https://doi.org/10.1007/978-981-99-1648-1_21"
     ],
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:marketdata",
     "verified": false
   },
@@ -12356,10 +12383,12 @@
     "short_description": "The Research Institute of Brewing and Malting is the only Czech institute that has worked systematically on brewing and malting since the second half of the nineteenth century, with accredited laboratories in Prague and Brno. It runs analytical testing on cereals, hops, malt, wort, beer, water, metals, pesticides and contaminants, certifies brewery sensory assessors, supplies brewing yeast from a collection established in 1946, and is authorised to recommend varieties for the protected geographical indication Czech Beer. It publishes the open access peer reviewed journal Kvasny prumysl, which is indexed in Web of Science and DOAJ and is a primary reference source for Czech brewing method data. It makes no AI or machine learning claim: this is reference analytical and sensory data infrastructure, not a modelling vendor.",
     "source_urls": [
       "https://www.beerresearch.cz/en/",
-      "https://www.kvasnyprumysl.cz/"
+      "https://www.kvasnyprumysl.cz/",
+      "https://doi.org/10.1016/j.aca.2020.12.043",
+      "https://doi.org/10.1016/j.aca.2019.01.033"
     ],
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:beer",
     "verified": false
   },
@@ -12443,10 +12472,14 @@
     "short_description": "SWRI is the research and technology organisation of the Scotch whisky industry, funded by member distillers who account for the majority of Scotch production by volume. Its five research programmes are sustainable raw materials, sustainable processes, optimised maturation, flavour management and consumer confidence, run from purpose built laboratories in Edinburgh and in member distilleries. Flavour management work centres on developing sensory methods and instrumental analyses, including gas chromatography olfactometry, to measure and control flavour as producers change processes for sustainability. The institute makes no artificial intelligence or machine learning claim on its public site; it is included here as the primary analytical chemistry and maturation science body for the category.",
     "source_urls": [
       "https://www.swri.co.uk/what-we-do/flavour-management/",
-      "https://en.wikipedia.org/wiki/Scotch_Whisky_Research_Institute"
+      "https://en.wikipedia.org/wiki/Scotch_Whisky_Research_Institute",
+      "https://doi.org/10.1109/tii.2025.3622366",
+      "https://doi.org/10.1109/tim.2021.3082274",
+      "https://doi.org/10.1016/j.foodchem.2019.125052",
+      "https://doi.org/10.1016/j.aca.2018.09.017"
     ],
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:whiskey",
     "verified": false
   },
@@ -12638,7 +12671,7 @@
       "https://vikingmalt.com/innovation/"
     ],
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:ingredients",
     "verified": false
   },
@@ -12875,10 +12908,11 @@
     "short_description": "Bruker sells Wine Profiling, an automated 1H-NMR method that combines high resolution spectroscopy with multivariate statistical chemometrics scored against a large reference database of authenticated wines. Wine-Profiling 4.0 verifies geographic origin down to appellation, grape variety in single varietal wines, vintage consistency and quality grade, flags atypical samples and water addition, and quantifies more than fifty compounds including the official OIV parameters, in about twenty minutes per sample with no NMR expertise required of the operator. The reference database was built with WinespinAnalytics, Eurofins Analytics France and Estacion Enologica de Haro, and the OIV incorporated the NMR method into its Compendium of International Methods of Analysis in 2021. Bruker also applies ESR spectroscopy to beer freshness and oxidation monitoring for breweries. The models are classical chemometrics rather than deep learning, and Bruker describes them that way.",
     "source_urls": [
       "https://www.bruker.com/en/products-and-solutions/mr/nmr-food-solutions/wine-profiling0.html",
-      "https://www.bruker.com/en/news-and-events/news/2021/international-organization-of-vine-and-wine-officially-incorporates-nmr-method-in-compendium-of-international-methods-of-analysis-of-wines-and-musts.html"
+      "https://www.bruker.com/en/news-and-events/news/2021/international-organization-of-vine-and-wine-officially-incorporates-nmr-method-in-compendium-of-international-methods-of-analysis-of-wines-and-musts.html",
+      "https://doi.org/10.1016/j.aca.2014.05.005"
     ],
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:industrial",
     "verified": false
   },
@@ -14237,10 +14271,14 @@
     "short_description": "The largest family owned winery in the United States, founded in Modesto in 1933, with more than a dozen wineries in California and Washington and over 90 wine brands sold in more than 100 countries. It worked with IBM Research and irrigation maker Netafim on a precision irrigation trial at a Modesto vineyard that used satellite and weather data to water small vine blocks rather than ten acre plots, led on the IBM side by researcher Hendrik Hamann. It makes no current AI claim of its own: gallo.com describes water conservation experiments and ISO 14001 certification but no machine learning, and the IBM irrigation work is a decade old.",
     "source_urls": [
       "https://www.gallo.com/",
-      "https://fortune.com/2016/01/09/ibm-bringing-watson-wine/"
+      "https://fortune.com/2016/01/09/ibm-bringing-watson-wine/",
+      "https://doi.org/10.1007/s00271-022-00788-w",
+      "https://doi.org/10.1016/j.compag.2023.108439",
+      "https://doi.org/10.1007/s00271-022-00776-0",
+      "https://doi.org/10.1094/phyto-01-23-0030-r"
     ],
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:ibm",
     "verified": false
   },
@@ -14606,10 +14644,12 @@
     "short_description": "M&Wine measures and quantifies more than 40 mineral elements in a wine sample, from major minerals down to metallic ultra traces across eight orders of magnitude, and treats that multi mineral profile as a stable fingerprint of terroir and cellar practice. Its platform applies machine learning to a reference base the company states has passed 60,000 cuvees to predict grape variety, region, country and category, to build what it calls a Digital Wine Passport for authenticity, and to run IAssemblage, an AI blending assistant, plus DeepRed. The Jumeau Numerique du Vin platform took a silver medal at the SITEVI 2025 Innovation Awards in Montpellier.",
     "source_urls": [
       "https://mandwine.com/",
-      "https://www.revuefrancaiseoenologie.fr/sitevi-innovation-awards-2025-les-28-nomines-et-les-17-laureats/"
+      "https://www.revuefrancaiseoenologie.fr/sitevi-innovation-awards-2025-les-28-nomines-et-les-17-laureats/",
+      "https://doi.org/10.20870/oeno-one.2024.58.4.8107",
+      "https://doi.org/10.1016/j.talanta.2026.129581"
     ],
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:wine",
     "verified": false
   },
@@ -14866,7 +14906,7 @@
       "https://s23.a2zinc.net/clients/corcexpo/NBWA2026/Public/EventMap.aspx?shMode=E"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-29",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:tradeshow_us",
     "verified": false
   },
@@ -15242,10 +15282,12 @@
     "short_description": "Spanish agritech company describing itself as specialised in digital and intelligent viticulture, built on data and artificial intelligence with its own algorithms and patents. Its Smart Agro line covers precision viticulture, pest and disease diagnosis, advanced sensing and robotics, alongside a Smart Factory line for industry. It was founded as a spin-off of the Universidad de La Rioja by professors and researchers in precision viticulture, robotics, sensing and AI, and is a member of the Spanish wine technology platform PTV.",
     "source_urls": [
       "https://altavitis.com/quienes-somos/",
-      "https://www.ptvino.com/socios/altavitis/"
+      "https://www.ptvino.com/socios/altavitis/",
+      "https://doi.org/10.3390/agronomy12112627",
+      "https://doi.org/10.1007/978-3-030-89123-7_206-1"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-29",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:wine",
     "verified": false
   },
@@ -16352,10 +16394,11 @@
     "source_urls": [
       "https://en.angelyeast.com/downloads/brewing-solutions-and-innovations.html",
       "https://en.angelyeast.com/about-us/institute/our-research-institute.html",
-      "https://en.angelyeast.com/news/distilled-spirits-and-biofuels/angel-yeast-unveils-innovative-beverage-solutions-at-drinktec-2025-highlighting-health-driven-product-innovations.html"
+      "https://en.angelyeast.com/news/distilled-spirits-and-biofuels/angel-yeast-unveils-innovative-beverage-solutions-at-drinktec-2025-highlighting-health-driven-product-innovations.html",
+      "https://doi.org/10.1016/j.saa.2026.128228"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-29",
+    "last_seen": "2026-09-21",
     "discovered_by": "scout:ingredients",
     "verified": false
   },
@@ -17431,7 +17474,7 @@
       "https://www.youtube.com/watch?v=o9SB6D4zYGQ"
     ],
     "first_seen": "2025-04-17",
-    "last_seen": "2025-06-18",
+    "last_seen": "2026-09-21",
     "key_people": "Marion Carre (Co-founder and CEO), Valentin Schmite (Co-founder and General Manager)",
     "people": [
       {
@@ -17926,6 +17969,1523 @@
       }
     ],
     "discovered_by": "scout:browser",
+    "verified": false
+  },
+  {
+    "name": "Sensoneo",
+    "domain": "sensoneo.com",
+    "hq_location": "Bratislava, Slovakia",
+    "founded_year": 2017,
+    "vertical": "multiple",
+    "ai_use_case": "deposit return scheme it systems and waste sensor data",
+    "ai_maturity": "none",
+    "short_description": "Sensoneo is a Slovak smart waste and circular packaging technology company that builds the IT backbone for national Deposit Return Schemes, the reverse logistics layer that beer, cider and soft drink producers, retailers and DRS operators settle beverage container deposits through. Its own site lists DRS IT implementations in Austria, Hungary, Ireland, Malta, Poland, Portugal, Romania, Singapore and Slovakia, alongside fill level sensors, RFID container tags and collection route planning across 90+ countries, 600+ projects and 160+ staff. Sensoneo itself makes no machine learning claim: its Collection Efficiency Analysis is expert scenario modelling over collected data rather than a predictive model, and the only AI branding in the group sits on Smart DRS, a Dublin registered spin-off already tracked separately whose AI-powered packaging verification is a different entity. Tracked here as the Slovak parent and the system of record for beverage container returns, with no AI claim of its own.",
+    "source_urls": [
+      "https://www.sensoneo.com/about-sensoneo/",
+      "https://www.sensoneo.com/deposit-return-scheme/",
+      "https://www.sensoneo.com/en-us/products/smart-waste-analytics/",
+      "https://smartdrs.com/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "PhoenixBev (Phoenix Beverages)",
+    "domain": "phoenixbev.mu",
+    "hq_location": "Phoenix, Mauritius",
+    "vertical": "beer",
+    "ai_use_case": "power bi reporting on dynamics 365 business central",
+    "ai_maturity": "none",
+    "short_description": "PhoenixBev Ltd is the leading beverage company in Mauritius and the country's largest brewery, listed on the Stock Exchange of Mauritius, with over 1,200 staff, three production plants and beer brands Phoenix, Manawa, Guinness and Stella alongside the Coca-Cola bottling franchise. It acquired a majority stake in Seychelles Breweries from Diageo, giving it a regional footprint. Its corporate pages make no AI claim at all: the only published evidence of a data capability is its own recruitment, a Digital Transformation team hiring a Power BI report developer to model data out of Microsoft Dynamics 365 Business Central, sales, production, supply chain and finance, and a Manager Data and AI role scoped to build BI, data engineering and AI/ML initiatives from ideation to production. That is a hiring intention, not a shipped system, so this is recorded as a plain BI operator with no AI claim.",
+    "source_urls": [
+      "https://phoenixbev.mu/careers/manager-data-ai/",
+      "https://phoenixbev.mu/careers/power-bi-developer/",
+      "https://phoenixbev.mu/about-phoenixbev/",
+      "https://en.wikipedia.org/wiki/Phoenix_Beverages"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "Fortude",
+    "domain": "fortude.co",
+    "hq_location": "Colombo, Sri Lanka",
+    "vertical": "non_alcoholic",
+    "ai_use_case": "erp connected ai agents and analytics for food and beverage manufacturers",
+    "ai_maturity": "shipping",
+    "short_description": "Fortude is a Sri Lanka headquartered ERP and data consultancy with offices in eight countries, selling Infor M3 and CloudSuite, Microsoft Dynamics and Microsoft Fabric implementations plus its own products Fortest (automated regression testing) and a set of agentic AI offerings. Its food and beverage practice has delivered Infor CloudSuite Food and Beverage, RPA and managed services for a century old Australian food and beverage manufacturer, and a frozen food and a ready meals manufacturer. Its own AI is real and specific rather than badge deep: an Infor MCP agent that transacts against M3 over API, a Microsoft Fabric data agent for analytical queries and an orchestrator layer that routes a natural language question to whichever of the two holds the answer, deployed at an Australian brand distributor for purchase order status, supplier response and supplier performance analysis. No beer, wine or spirits customer is named anywhere on the site, so the beverage exposure here is non alcoholic food and beverage manufacturing and distribution.",
+    "source_urls": [
+      "https://fortude.co/case-study/real-time-supply-chain-intelligence-with-fortude-ai-agents/",
+      "https://fortude.co/case-study/perfecting-the-digital-blend-for-australias-leading-food-beverage-manufacturer/",
+      "https://fortude.co/blog/digital-transformation-in-the-food-and-beverage-industry-a-strategic-guide-to-gaining-a-competitive-edge/",
+      "https://fortude.co/products/agentic-ai-solutions/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "Olvi Group",
+    "domain": "olvigroup.fi",
+    "hq_location": "Iisalmi, Finland",
+    "founded_year": 1878,
+    "vertical": "beer",
+    "ai_use_case": "disclosed generative ai marketing content",
+    "ai_maturity": "shipping",
+    "short_description": "Olvi Group is an independent Finnish brewing group founded in 1878 in Iisalmi, and the owner of A. Le Coq and Vaerska Originaal in Estonia, Cesu Alus and Valmiermuizas in Latvia, Volfas Engelman in Lithuania, Bryggeriet Vestfyen in Denmark, Brewery International in Norway and Banjalucka Pivara in Bosnia. The only AI it actually ships is content: its Finnish consumer site publishes a run of beer, IPA, hard seltzer and drinks planning articles that each carry the disclosure that the content was created with the help of AI and may contain errors. That is a disclosed generative AI marketing use, nothing more. Neither the group site nor the brand sites carry any claim of AI or machine learning in brewing, quality, forecasting or supply chain, and the Estonian subsidiary site was checked for the local term tehisintellekt with no hits.",
+    "source_urls": [
+      "https://www.olvigroup.fi/en/",
+      "https://www.olvi.fi/2025/01/03/miten-ipa-olut-eroaa-muista-oluista/",
+      "https://www.olvi.fi/2025/01/09/kuinka-paljon-juomia-varata-haihin/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "Viking Malt",
+    "domain": "vikingmalt.com",
+    "hq_location": "Lahti, Finland",
+    "vertical": "beer",
+    "ai_use_case": "field level malting barley carbon data (vendor ai)",
+    "ai_maturity": "none",
+    "short_description": "Viking Malt is a Nordic and Baltic maltster supplying brewers and distillers from malting plants in Lahti Finland, Halmstad Sweden, Vordingborg Denmark, Sierpc and Strzegom Poland and Panevezys Lithuania. Its innovation page describes a multi year sustainability programme covering more than 1,200 contracted barley farmers across those five countries, collecting field level data on carbon footprint, Scope 3 emissions and biodiversity and feeding real time reporting back to growers. The AI in that programme is not Viking Malt's: the platform is supplied by Improvin', the Stockholm agri-food data company already tracked, and Viking Malt is its customer. Viking Malt publishes no machine learning capability of its own, so this is recorded as a malt supply chain data operator with no AI claim.",
+    "source_urls": [
+      "https://vikingmalt.com/innovation/",
+      "https://vikingmalt.com/contact/",
+      "https://improvin.com/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "Oznr",
+    "domain": "oznr.com",
+    "vertical": "beer",
+    "ai_use_case": "craft beer direct to consumer release and membership commerce",
+    "ai_maturity": "none",
+    "short_description": "Oznr is a craft beverage marketplace and direct to consumer commerce platform for breweries: limited release pre-orders, automated random draws for allocated beer, mug clubs and bottle societies, event and festival ticketing, local pickup and proxy collection, with an Untappd integration and its own consumer mobile app. Breweries shown on its site include Sierra Nevada, Cigar City Brewing, Resident Culture, North Park Beer Co, Angry Chair and Tripping Animals, and it is bundled free to customers of the brewery ERPs Ekos and Ollie, both already tracked. The site carries no claim of AI, machine learning, recommendation engines or predictive analytics anywhere, so this is recorded as a beer DTC commerce system with no AI claim. Founding year and head office are not published on the site and are therefore omitted.",
+    "source_urls": [
+      "https://oznr.com/",
+      "https://oznr.com/ekos-free-oznr/",
+      "https://oznr.com/ollie-users-get-oznr-for-free/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:beer",
+    "verified": false
+  },
+  {
+    "name": "Vitivisio",
+    "domain": "vitivisio.com",
+    "hq_location": "Bordeaux, France",
+    "founded_year": 2022,
+    "vertical": "wine",
+    "ai_use_case": "vine-by-vine disease detection from embedded vision",
+    "ai_maturity": "shipping",
+    "short_description": "French precision viticulture startup founded in March 2022 that mounts a vision sensor (QuadLab prototype, then the production VitiBox) on any vineyard machine or autonomous robot and streams the imagery to a SaaS platform called eVitivisio. The company states it combines proximal sensing with deep learning and centimetric RTK geolocation to identify and track vine diseases and to support harvest optimisation, vine by vine. It reports more than 30 million vine images collected and analysed and more than 800 hectares analysed for customers, with deployments across Cognac, Bordeaux, Loire and Champagne appellations. It won the innovation prize at VITeff in Epernay and was selected for the 2026 promotion of the Village by CA accelerator.",
+    "source_urls": [
+      "https://vitivisio.com/qui-sommes-nous/",
+      "https://innovin.fr/adherents/vitivisio/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Arnaud Susset (Co-founder), Laurent Godeau (Co-founder)",
+    "people": [
+      {
+        "name": "Arnaud Susset",
+        "role": "Co-founder, engineer and researcher in optical systems and AI"
+      },
+      {
+        "name": "Laurent Godeau",
+        "role": "Co-founder, winegrower"
+      }
+    ],
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "SpectralGeo",
+    "domain": "spectralgeo.es",
+    "hq_location": "Logrono, La Rioja, Spain",
+    "vertical": "wine",
+    "ai_use_case": "satellite and computer vision crop prediction",
+    "ai_maturity": "shipping",
+    "short_description": "Spanish computer vision and AI company based in Logrono in the Rioja wine region, and a member of the Spanish wine technology platform PTV. Its AGRAI agronomic platform combines satellite imagery, agroclimatic data and IoT sensors with what it states are more than 700 mathematical models to predict yield, irrigation need, fertilisation and phytosanitary risk, with vineyards listed first among the crops it monitors and over 500,000 hectares under monitoring. The company describes its AI stack explicitly as deep learning, convolutional neural networks for object detection, time series models for agronomic prediction and transfer learning. It also sells machine vision quality control into industrial production lines.",
+    "source_urls": [
+      "https://www.spectralgeo.es/pages/agriculture.html",
+      "https://www.ptvino.com/es/nosotros/socios/page/9/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Carlos Tarragona (Director General)",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Cesens",
+    "domain": "cesens.es",
+    "hq_location": "Logrono, La Rioja, Spain",
+    "vertical": "wine",
+    "ai_use_case": "agroclimatic monitoring with an AI advisory layer",
+    "ai_maturity": "shipping",
+    "short_description": "Spanish precision agriculture platform, based in Logrono and a member of the Spanish wine technology platform PTV, that combines its own autonomous weather and soil stations with satellite vegetation indices, a digital field notebook and pest and disease risk alerts. The company states the platform includes an Artificial Intelligence feature that interprets a grower's data, identifies risks and returns plain recommendations as a 24/7 agricultural copilot; the rest of the risk work is described as model-driven rather than learned. Its published customer list is dominated by wineries and vineyards including Gonzalez Byass, Tio Pepe, Beronia, Remirez de Ganuza, Bodegas SOMMOS, Principe de Viana and the VITEC wine technology park, with more than 500 active customers across five countries.",
+    "source_urls": [
+      "https://www.cesens.es/clientes/",
+      "https://www.ptvino.com/es/nosotros/socios/page/3/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Vivent Biosignals",
+    "domain": "vivent-biosignals.com",
+    "hq_location": "Gland, Switzerland",
+    "founded_year": 2020,
+    "vertical": "wine",
+    "ai_use_case": "plant stress detection from electrophysiology signals",
+    "ai_maturity": "shipping",
+    "short_description": "Swiss B Corp deep tech SME, with a second site in Zeist in the Netherlands, that attaches biosensors to living plants and reads their electrical biosignals. The company states it applies machine learning to those signals to derive up to 25 crop health metrics and to detect water, pest and disease stress before visible symptoms appear, and that its models are trained on a plant biosignal dataset of more than one million plant-days out of more than two million collected. Vineyards are named as one of its outdoor grower segments alongside potatoes, corn, orchards and tropical crops, so the wine application is one of several rather than the whole business.",
+    "source_urls": [
+      "https://vivent-biosignals.com/technology/artificial-intelligence/",
+      "https://vivent-biosignals.com/solutions/outdoor-growers/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Fernando Derossi (CEO), Carrol Plummer (Co-founder and Co-CEO), Nigel Wallbridge (Co-founder and Executive Chairman), Andrzej Kurenda (Chief Scientific Officer)",
+    "people": [
+      {
+        "name": "Fernando Derossi",
+        "role": "CEO and Partner"
+      },
+      {
+        "name": "Carrol Plummer",
+        "role": "Co-founder and Co-CEO"
+      },
+      {
+        "name": "Nigel Wallbridge",
+        "role": "Co-founder and Executive Chairman"
+      },
+      {
+        "name": "Andrzej Kurenda",
+        "role": "Chief Scientific Officer"
+      }
+    ],
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Monet Tecnologia e Innovacion (Monet Viticultura)",
+    "domain": "monet-ti.com",
+    "hq_location": "Nigran, Pontevedra, Spain",
+    "vertical": "wine",
+    "ai_use_case": "vineyard disease and phenology prediction models",
+    "ai_maturity": "none",
+    "short_description": "Spanish precision viticulture platform and member of the Spanish wine technology platform PTV, selling vineyard monitoring from its own weather stations plus a digital field notebook, incident management, irrigation management, SIGPAC parcel maps and vegetation maps. Its technology page lists grapevine disease prediction models, phenology prediction models and aerial image processing. These are presented as agronomic and epidemiological models; the company makes no artificial intelligence or machine learning claim anywhere on its site, and none is asserted here.",
+    "source_urls": [
+      "https://www.monet-ti.com/",
+      "https://www.ptvino.com/es/nosotros/socios/page/8/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Wineriz",
+    "domain": "wineriz.com",
+    "hq_location": "Bordeaux, France",
+    "vertical": "wine",
+    "ai_use_case": "wine estate management system of record",
+    "ai_maturity": "none",
+    "short_description": "French all-in-one management SaaS for wine estates, distilleries and wine merchants, covering CRM, sales rep management, sales reporting, invoicing, point of sale, stock management, a direct-to-consumer online shop, marketing campaigns and wine tourism bookings. It is sold by estate size and by region across Aquitaine, Burgundy and Champagne, and it exhibits at Vinitech-Sifel in Bordeaux. It is a system of record rather than an analytics or modelling product, and the company makes no artificial intelligence claim on its site.",
+    "source_urls": [
+      "https://wineriz.com/",
+      "https://www.vinitech-sifel.com/en/exponents/wineriz"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Botisum",
+    "domain": "botisum.fr",
+    "hq_location": "Dijon, France",
+    "vertical": "wine",
+    "ai_use_case": "real-time bottle stock tracking in the cellar",
+    "ai_maturity": "none",
+    "short_description": "French company selling real-time bottle stock management for wine cellars through three products: Botiview for stock visibility, Botilift for bottle handling and Botiplac. It is positioned to cover the estate from bottling through to dispatch, with traceability of the bottles as a stated aim, and it is a member of the Inno'vin Bordeaux wine cluster. It is an inventory and handling product with no artificial intelligence or machine learning claim on its site.",
+    "source_urls": [
+      "https://botisum.fr/qui-sommes-nous/",
+      "https://innovin.fr/adherents/botisum/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Claude Draghi (CEO), Vincent Murat (CTO)",
+    "people": [
+      {
+        "name": "Claude Draghi",
+        "role": "CEO and solutions engineer"
+      },
+      {
+        "name": "Vincent Murat",
+        "role": "CTO and electronics engineer"
+      },
+      {
+        "name": "Helene Michaut",
+        "role": "Co-founder and winegrower, Clos des Poulettes"
+      },
+      {
+        "name": "Margaux Boitet",
+        "role": "Marketing lead"
+      }
+    ],
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "XT-Vision",
+    "domain": "xt-vision.com",
+    "hq_location": "La Ciotat, France",
+    "vertical": "wine",
+    "ai_use_case": "machine vision inspection on wine bottling lines",
+    "ai_maturity": "none",
+    "short_description": "French machine vision builder supplying inspection stations for wine and beverage bottling lines: glass bottle neck inspection (XT-NECK), fill level and closure height inspection (XT-LEVEL, XT-CAPS), 360 degree label and packaging inspection (XT-360 range) and matching rejectors and reject tables. Label inspection checks presence, spacing, alignment and vertical positioning. It exhibits at both Vinitech-Sifel in Bordeaux and SIMEI in Milan. The inspection is described as machine vision quality control with no artificial intelligence or learned-model claim made anywhere on the site.",
+    "source_urls": [
+      "https://www.xt-vision.com/xt-360-1/",
+      "https://www.vinitech-sifel.com/en/exponents/xt-vision"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Geocarta",
+    "domain": "geocarta.net",
+    "hq_location": "Paris, France",
+    "vertical": "wine",
+    "ai_use_case": "geophysical soil mapping for viticulture",
+    "ai_maturity": "none",
+    "short_description": "French subsoil imaging company that acquires geo-referenced geophysical data with its own equipment (electrical resistivity by the ARP method, magnetic gradient, electromagnetic and multi-antenna ground penetrating radar) and interprets it in GIS software it develops itself. Viticulture is one of the three named precision agriculture segments, and the output is high resolution soil maps plus prescription maps that feed variable-rate vineyard equipment. It runs two web platforms, GCServer for map hosting and GCAgri for the field-to-map agronomy workflow. The company makes no artificial intelligence claim; this is geophysics, GIS and rule-based agronomy.",
+    "source_urls": [
+      "https://geocarta.net/agriculture.html",
+      "https://www.vinitech-sifel.com/en/exponents/geocarta"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Aptimiz",
+    "domain": "aptimiz.com",
+    "hq_location": "Angers, France",
+    "vertical": "wine",
+    "ai_use_case": "automated vineyard labour and input traceability capture",
+    "ai_maturity": "none",
+    "short_description": "French farm operations platform that automates the capture of worker hours, machine use and regulatory traceability without manual data entry, with viticulture as one of its named customer segments alongside arable, orchards and contracting. Its Dosepilot feature records plant protection inputs from a single scan, and a connected pruning product built with the electric secateur maker INFACO tracks vineyard and orchard pruning work. This is sensor and scan driven data capture and reporting; Aptimiz makes no artificial intelligence or machine learning claim on its site.",
+    "source_urls": [
+      "https://www.aptimiz.com/taille-connectee/",
+      "https://www.vinitech-sifel.com/en/exponents/aptimiz"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:wine",
+    "verified": false
+  },
+  {
+    "name": "Brown Bacon AI",
+    "domain": "brownbacon.com",
+    "hq_location": "Omaha, United States",
+    "vertical": "multiple",
+    "ai_use_case": "generative ai assistants for tasting rooms and staff training",
+    "ai_maturity": "shipping",
+    "short_description": "Brown Bacon AI sells private, hosted generative AI assistants to hospitality businesses and lists wineries and spirits venues as a named industry vertical. For beverage customers it supplies tasting room customer service chatbots, automated social media and staff micro training bound to the operator's own documents. The company says the product runs on its own patent pending generative models, SomAI and AI Mee, rather than only wrapping public models, and it publishes pricing and a live demo.",
+    "source_urls": [
+      "https://www.brownbacon.com/our-somai-ai-mee-aimee",
+      "https://wbbuyersguide.com/company/82630/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Vintel (ITK)",
+    "domain": "vintel-itk.com",
+    "hq_location": "Montpellier, France",
+    "vertical": "wine",
+    "ai_use_case": "vine disease, water and nitrogen decision support",
+    "ai_maturity": "shipping",
+    "short_description": "Vintel is a vineyard decision support platform from the French agronomy firm ITK, sold to growers and cooperatives across France and Italy. It forecasts fungal disease pressure, vine water status, nitrogen supply and climatic risk at block level. The site states plainly that Vintel is built on artificial intelligence models, and ITK publishes customer cases with cooperatives such as CAPL and estates in Sicily and Piedmont.",
+    "source_urls": [
+      "https://vintel-itk.com/",
+      "https://wbbuyersguide.com/company/27018/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "VinSense",
+    "domain": "vinsense.net",
+    "hq_location": "West Lafayette, United States",
+    "vertical": "wine",
+    "ai_use_case": "predictive terroir and vine water modelling",
+    "ai_maturity": "shipping",
+    "short_description": "VinSense is a Purdue linked startup selling a vineyard decision support system that fuses 3D deep soil mapping, field sensors and visual analytics for wine grape growers, with offices in Indiana and Napa. The product claims predictive terroir, microclimate and wine quality modelling plus vine water and nutrient availability maps. The site names machine learning nowhere, so the claim is predictive agronomic modelling rather than an explicit ML claim. Named users include Balletto Vineyards and Robert Biale Vineyards.",
+    "source_urls": [
+      "https://vinsense.net/",
+      "https://wbbuyersguide.com/company/41133/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Athena IR-Tech",
+    "domain": "athenairtech.com",
+    "hq_location": "Clovelly Park, Australia",
+    "vertical": "wine",
+    "ai_use_case": "infrared plant water sensing for irrigation scheduling",
+    "ai_maturity": "none",
+    "short_description": "Athena IR-Tech builds the Transp-IR canopy device, which reads leaf and ambient temperature, humidity and solar radiation every ten minutes and sends it over 4G to a cloud service that returns a Plant Water Index for irrigation scheduling. It works in Australian vineyards and ran a demonstration with Penley Estate in Coonawarra backed by Wine Australia. The company describes a research backed, variety specific algorithm and makes no machine learning or AI claim anywhere on its site.",
+    "source_urls": [
+      "https://athenairtech.com/technology/",
+      "https://wbbuyersguide.com/company/75694/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Root Applied Sciences",
+    "domain": "rootappliedsciences.com",
+    "hq_location": "Oakland, United States",
+    "vertical": "wine",
+    "ai_use_case": "airborne pathogen spore monitoring for vineyards",
+    "ai_maturity": "none",
+    "short_description": "Root Applied Sciences runs in-field spore traps in wine grape vineyards and analyses the samples twice a week to report the actual airborne load of powdery mildew, letting growers time or skip fungicide passes. It also runs a corn pathogen network in the Midwest. The company makes no AI claim at all and in fact positions itself against modelling, stating that it measures the real spore load rather than producing a guess or a model.",
+    "source_urls": [
+      "https://www.rootappliedsciences.com/",
+      "https://wbbuyersguide.com/company/75336/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "FloraPulse",
+    "domain": "florapulse.com",
+    "hq_location": "Davis, United States",
+    "founded_year": 2016,
+    "vertical": "wine",
+    "ai_use_case": "stem water potential sensing for vineyard irrigation",
+    "ai_maturity": "none",
+    "short_description": "FloraPulse makes a microtensiometer that is embedded in the trunk and measures stem water potential every twenty minutes, sold to wine grape growers and orchardists as a replacement for the pressure chamber. It was started by Cornell scientists, has been in the field since 2016 and is funded by NSF and USDA grants. It is a sensor and telemetry vendor and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://florapulse.com/our-story",
+      "https://wbbuyersguide.com/company/65645/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Michael Santiago (CEO)",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Enowise (formerly ScanForFacts)",
+    "domain": "scanforfacts.io",
+    "hq_location": "Athens, Greece",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, winery operations and eu e-label compliance",
+    "ai_maturity": "none",
+    "short_description": "Enowise, which absorbed ScanForFacts, is a Greek all in one winery platform covering block mapping, phenology tracking, harvest planning, batch and vessel tracking, EU e-label and QR compliance and a consumer facing brand and wine tourism layer. It is aimed at small and mid sized European producers and offers a free tier. It is a system of record with scan analytics and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://scanforfacts.io/",
+      "https://wbbuyersguide.com/company/77035/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Harvest Electronics",
+    "domain": "harvest.com",
+    "hq_location": "Masterton, New Zealand",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, vineyard weather and irrigation telemetry",
+    "ai_maturity": "none",
+    "short_description": "Harvest Electronics is a New Zealand maker of automated weather stations, data loggers, soil and water sensors and wireless remotes, with a dedicated vineyard and orchard monitoring line covering frost, irrigation and compliance. Data lands in the Harvest Data Portal and web app. Localised forecasts are an add on resold from the IBM Weather Company rather than modelled by Harvest, and the company makes no AI or machine learning claim of its own.",
+    "source_urls": [
+      "https://www.harvest.com/",
+      "https://wbbuyersguide.com/company/29425/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Aquaflex",
+    "domain": "aquaflex.co.nz",
+    "hq_location": "Christchurch, New Zealand",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, buried soil moisture sensing for viticulture",
+    "ai_maturity": "none",
+    "short_description": "Aquaflex makes a three metre buried soil moisture and temperature sensor that averages moisture across the active root zone, with viticulture named as one of its main applications alongside pasture, potatoes and grain. Readings are trended to phone or desktop to guide irrigation timing. It is a sensor and telemetry vendor with no AI or machine learning claim.",
+    "source_urls": [
+      "https://aquaflex.co.nz/",
+      "https://wbbuyersguide.com/company/27057/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Equinox Technology Partners",
+    "domain": "equinoxtechpartners.com",
+    "hq_location": "Hollywood, United States",
+    "vertical": "multiple",
+    "ai_use_case": "no ai claim, beverage alcohol sales data collection and cleansing",
+    "ai_maturity": "none",
+    "short_description": "Equinox Technology Partners collects, cleanses and delivers beverage alcohol sales data, covering shipments, depletions and billbacks from distributors on any schedule, and feeds it into Salesforce and Power BI for the brand. It handles distributor outreach and data authorisation on the brand's behalf and serves customers from boutique wineries to national brands. The Wine Business buyer's guide lists it across business intelligence and off premise, on premise and pricing data. It is a data plumbing and reporting firm and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://equinoxtechpartners.com/",
+      "https://wbbuyersguide.com/company/31112/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "FORT Systems",
+    "domain": "fortsystems.com",
+    "hq_location": "Mill Valley, United States",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, wine fulfilment warehouse and shipping analytics",
+    "ai_maturity": "none",
+    "short_description": "FORT Systems supplies a warehouse management system, a click and print shipping app and a reporting layer called FORT Metrix to third party logistics providers and wine shippers, and says the platform is particularly suited to the compliance complexity of wine direct to consumer fulfilment. Wine Business lists it under winery business intelligence and compliance software. FORT Metrix is descriptive reporting and analytics and the company makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://fortsystems.com/",
+      "https://wbbuyersguide.com/company/73634/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories",
+    "verified": false
+  },
+  {
+    "name": "Orchard Robotics",
+    "domain": "orchard-robotics.com",
+    "hq_location": "Bellevue, United States",
+    "vertical": "wine",
+    "ai_use_case": "computer vision crop scanning and per-vine yield data",
+    "ai_maturity": "shipping",
+    "short_description": "Orchard Robotics builds FruitScope Vision, a tractor mounted camera system that scans every tree, vine or plant and returns per-fruit counts and sizing, plus FruitScope Vault as the data system of record and FruitScope OS as the farm management layer. The company describes itself as an AI farming company and says the cameras pair farm-tough hardware with its own computer vision models, spun out of Cornell University. Atlas Vineyard Management is a named customer, and the wine buyer's guide lists it under vineyard software, moisture sensors and soil analysis.",
+    "source_urls": [
+      "https://www.orchard-robotics.com/",
+      "https://wbbuyersguide.com/company/79964/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "NuVerge",
+    "domain": "nuverge.com",
+    "hq_location": "Broomfield, United States",
+    "vertical": "wine",
+    "ai_use_case": "ai driven automation layered over winery erp",
+    "ai_maturity": "shipping",
+    "short_description": "NuVerge sells NuTrax Wine, a composable application suite that extends rather than replaces a winery's existing ERP, and lists Wine and Beverage as a named industry alongside agriculture and distribution. Its stated method is to close ERP automation gaps with API first, no-code applications and AI driven automation, and it sells AI engagements as a separate service line. The AI claim is about workflow automation over business systems, not about winemaking or vineyard models.",
+    "source_urls": [
+      "https://www.nuverge.com/",
+      "https://wbbuyersguide.com/company/68705/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "DeepNet",
+    "domain": "deepnet.com",
+    "hq_location": "Santa Rosa, United States",
+    "vertical": "wine",
+    "ai_use_case": "managed ai services and it for wineries",
+    "ai_maturity": "shipping",
+    "short_description": "DeepNet is a Santa Rosa managed IT provider with Wine as one of six named industry verticals, covering winery infrastructure, cybersecurity, backup and cloud migration from vine to bottle. Alongside foundational IT it sells a Managed AI Services line and publishes its own writing on how organisations should sequence AI adoption. The AI it delivers is deployment and governance of third party tooling for client wineries, not models of its own. Allen Wine Group is a named client.",
+    "source_urls": [
+      "https://www.deepnet.com/industries/wine",
+      "https://www.deepnet.com/",
+      "https://wbbuyersguide.com/company/75349/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Arable",
+    "domain": "arable.com",
+    "hq_location": "San Francisco, United States",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, in-field crop and water sensing with agronomic modelling",
+    "ai_maturity": "none",
+    "short_description": "Arable makes an all in one in-field sensor and the Arable Connect software behind it, sold as Arable Water and Arable Crop Intelligence, and the wine buyer's guide lists it under vineyard automation, weather monitoring, soil testing, irrigation and frost prevention. It reports water saved across monitored acreage and runs stewardship projects with Google, Coca-Cola and Amazon. The site describes agronomic modelling and insight, and makes no machine learning or AI claim anywhere.",
+    "source_urls": [
+      "https://www.arable.com/",
+      "https://wbbuyersguide.com/company/54579/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Earth Platforms",
+    "domain": "earthplatforms.com",
+    "hq_location": "McMinnville, United States",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, vineyard irrigation sensing and scheduling",
+    "ai_maturity": "none",
+    "short_description": "Earth Platforms is an Oregon precision irrigation vendor selling the Stevens-Connect and Steelhead telemetry platforms, HydraGO soil sensing, a portable plant water status console and the HandiTrase TDR meter, listed in the wine buyer's guide under irrigation, flow meters and irrigation design. It serves Willamette Valley vineyards and other specialty crop growers. It is a sensing and scheduling vendor and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://earthplatforms.com/",
+      "https://wbbuyersguide.com/company/75705/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Admeo",
+    "domain": "admeo.us",
+    "hq_location": "Napa, United States",
+    "vertical": "multiple",
+    "ai_use_case": "no ai claim, automated wine and beverage lab analysers",
+    "ai_maturity": "none",
+    "short_description": "Admeo supplies automated food and beverage testing systems to wineries, cideries, kombucha and soft drink producers, with wine as its lead beverage category. It has been the US channel for BioSystems analysers since 2013, selling the Y15, Y200, Y400 and Flash2 auto-titrator platforms plus the enzymatic and colorimetric reagents for malic acid, free sulfite, primary amino nitrogen and ammonia. It is an instrument and reagent vendor and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://admeo.us/",
+      "https://wbbuyersguide.com/company/32678/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "AL&L Crop Solutions",
+    "domain": "allcropsolutions.com",
+    "hq_location": "Vacaville, United States",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, grapevine pathogen diagnostics",
+    "ai_maturity": "none",
+    "short_description": "AL&L Crop Solutions is a Northern California plant pathology laboratory whose largest line is grapevine disease testing, covering canker and trunk diseases, soil pathogens and microbial air sampling for vineyards. It runs qPCR, PCR, ELISA, microscopy and culturing and returns results intended to drive field planning. It is a diagnostic lab and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://allcropsolutions.com/",
+      "https://wbbuyersguide.com/company/27291/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Tamanend Wine Consulting (Alpha Wine Services)",
+    "domain": "tamanend.com",
+    "hq_location": "Lancaster, United States",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, wine analytical lab and process services",
+    "ai_maturity": "none",
+    "short_description": "Tamanend Wine Consulting, which trades as Alpha Wine Services, is a full service wine consultancy in Pennsylvania that also runs a wine analysis laboratory and rents analytical instruments including CloudSpec, Sentia and Tartarcheck, plus a Smart Lab Analyzer. Its process side covers cross flow filtration, reverse osmosis, taint removal and micro-oxygenation, and it offers independent validation of client products. It makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://tamanend.com/",
+      "https://wbbuyersguide.com/company/44979/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Ray Carlson & Associates",
+    "domain": "rcmaps.com",
+    "hq_location": "Santa Rosa, United States",
+    "founded_year": 1976,
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, vineyard gis mapping and drone data processing",
+    "ai_maturity": "none",
+    "short_description": "Ray Carlson & Associates has been doing land survey, GIS and data management work in Napa, Sonoma and Marin since 1976, with a dedicated vineyard services line covering vineyard development mapping, AVA boundaries, aerial photography and fly-through visualisation. The wine buyer's guide lists it under drones and drone software and data processing. It is a survey and GIS shop and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://www.rcmaps.com/",
+      "https://wbbuyersguide.com/company/12611/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Offset",
+    "domain": "offsetpartners.com",
+    "hq_location": "Napa, United States",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, direct to consumer wine commerce platform",
+    "ai_maturity": "none",
+    "short_description": "Offset runs Offset Commerce, an independent DTC ecommerce platform built for fine wine, paired with a wine brand design studio. It sells against WineDirect and Commerce7 and publishes a migration guide from both, and ships companion point of sale apps and compliance and shipping integrations. Kermit Lynch Wine Merchant is a named client. It is a commerce system of record and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://offsetpartners.com/",
+      "https://wbbuyersguide.com/company/48330/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "GrapeGears",
+    "domain": "grapegears.com",
+    "hq_location": "Healdsburg, United States",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, winery dtc sales and club platform",
+    "ai_maturity": "none",
+    "short_description": "GrapeGears is a browser based sales, marketing and customer relations platform for wineries covering tasting room and event point of sale, wine club formats and allocations, multi-channel inventory and accounting integration. It is sold to small and mid sized producers who want one set of products, customers and inventory across every channel. It is a DTC system of record and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://grapegears.com/",
+      "https://wbbuyersguide.com/company/46229/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Azur Associates",
+    "domain": "azur-associates.com",
+    "hq_location": "Napa, United States",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, wine market and m&a intelligence",
+    "ai_maturity": "none",
+    "short_description": "Azur Associates is a Napa advisory firm for fine beverage producers doing operational and financial modelling, market and channel analysis, portfolio and pricing strategy, fractional CFO work and buy and sell side advisory. It publishes a recurring Wine Market and M&A Review, and the wine buyer's guide lists it across depletions analysis, off-premise and on-premise sales data and pricing data. It makes no AI or machine learning claim on its site.",
+    "source_urls": [
+      "https://www.azur-associates.com/",
+      "https://wbbuyersguide.com/company/62939/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Gomberg, Fredrikson & Associates",
+    "domain": "gfawine.com",
+    "hq_location": "Sonoma, United States",
+    "founded_year": 1948,
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, us wine market shipment and pricing data",
+    "ai_maturity": "none",
+    "short_description": "Gomberg, Fredrikson & Associates has published US wine market intelligence since 1948, covering production, wholesale shipments, imports, exports and long term industry trends, and its reports are a primary reference series for the American wine trade. bw166 became a partner in 2015 and from 2025 distributes and supports the GFA reports. It is a research and reporting house and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://gfawine.com/",
+      "https://wbbuyersguide.com/company/11223/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "MIS Corp (Vintners Advantage)",
+    "domain": "miscorp.com",
+    "hq_location": "Eugene, United States",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, winery production and accounting software",
+    "ai_maturity": "none",
+    "short_description": "MIS Corp sells Vintners Advantage winery software alongside IT professional services and custom development, with modules for vineyard, cellar operations, grower contracts, bulk wine purchase and sales contracts and accounting. The wine buyer's guide lists it under wine production software, vineyard software, ERP, accounting software and hardware. It is a system of record and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://www.miscorp.com/",
+      "https://wbbuyersguide.com/company/11339/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Cultivate Systems",
+    "domain": "cultivatesystems.com",
+    "hq_location": "Napa, United States",
+    "vertical": "wine",
+    "ai_use_case": "no ai claim, saas business system for small wineries",
+    "ai_maturity": "none",
+    "short_description": "Cultivate Systems sells a software as a service business system and service package aimed at artisan wineries, positioned so the producer can stay on winemaking and customer relationships rather than systems. Its public site is a single page with a registered Cultivate trademark and no product detail, so the only substantive description available is its listing under winery DTC software suites. It makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://cultivatesystems.com/",
+      "https://wbbuyersguide.com/company/13521/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Inventiv Software",
+    "domain": "inventivapps.com",
+    "hq_location": "Memphis, United States",
+    "founded_year": 1998,
+    "vertical": "multiple",
+    "ai_use_case": "no substantive ai claim, beverage alcohol distributor order entry",
+    "ai_maturity": "none",
+    "short_description": "Inventiv builds PocketAdvantage, an order entry and route platform for wine, spirits and beer distributors, in use by more than 18,000 daily users across 130 locations and 43 states and processing about 15 billion dollars of product sales a year. The suite extends to delivery, warehouse, merchandising and depletion reporting apps, and the wine buyer's guide lists it under depletions and RAD analysis. The only AI reference anywhere on the site is a single passing phrase in the company blurb, with no AI feature described in any product page, so it is recorded here as no substantive AI claim.",
+    "source_urls": [
+      "https://www.inventivapps.com/",
+      "https://wbbuyersguide.com/company/14427/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "bLoyal",
+    "domain": "bloyal.com",
+    "hq_location": "Bellevue, United States",
+    "vertical": "multiple",
+    "ai_use_case": "no ai claim, winery loyalty and multichannel commerce",
+    "ai_maturity": "none",
+    "short_description": "bLoyal is a loyalty, club and multichannel commerce platform that names Wineries and Liquor, Beer and Spirits as two of its industry verticals, and is listed in the wine buyer's guide under DTC software suites, club management, shopping cart and CRM. It works by sitting across existing point of sale and ecommerce systems, with integrations to Shopify, Magento, WooCommerce, Clover, Korona, NCR Counterpoint and Microsoft Dynamics. It is a loyalty and transaction platform and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://www.bloyal.com/",
+      "https://wbbuyersguide.com/company/21777/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Hanna Instruments",
+    "domain": "hannainst.com",
+    "hq_location": "Smithfield, United States",
+    "vertical": "multiple",
+    "ai_use_case": "no ai claim, beer and wine lab and process measurement",
+    "ai_maturity": "none",
+    "short_description": "Hanna Instruments manufactures pH meters, photometers, refractometers, potentiometric and Karl Fischer titrators and process controllers, and carries Beer and Wine as its two named beverage industry categories alongside agriculture and water treatment. In wineries it is used for pH, titratable acidity, sulfite and Brix measurement at both bench and in-line. It is an instrument maker and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://www.hannainst.com/",
+      "https://wbbuyersguide.com/company/12455/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Omnia Technologies Group USA",
+    "domain": "omniatechnologiesgroup.com",
+    "hq_location": "Santa Rosa, United States",
+    "vertical": "multiple",
+    "ai_use_case": "no ai claim, beverage process and bottling line automation",
+    "ai_maturity": "none",
+    "short_description": "Omnia Technologies is an Italian group consolidating more than twenty beverage equipment brands including Della Toffola, Bertolaso, TMCI Padovan, Permeare and Velo, with a US arm in Santa Rosa, and organises its catalogue by beverage vertical with Wine, Beer, Spirits, Water and Dairy each treated separately. It covers raw material receiving through fermentation, filtration, dealcoholization, filling, labelling and palletising, including optical grape sorting. It is a process and packaging automation supplier and makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://www.omniatechnologiesgroup.com/",
+      "https://wbbuyersguide.com/company/21223/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:directories_wb",
+    "verified": false
+  },
+  {
+    "name": "Revalgo",
+    "domain": "revalgo.ai",
+    "hq_location": "Glen Rock, United States",
+    "vertical": "multiple",
+    "ai_use_case": "autonomous agents that read inbound orders, source non-stock items, build purchase orders and match invoices for wholesale distributors",
+    "ai_maturity": "shipping",
+    "short_description": "Revalgo Inc. sells what it calls an autopilot for wholesale distribution: five products covering sales order automation, purchasing automation, AP automation, bid automation and catalogue content automation, run on one unified data model. The company says the system is trained on each customer's own data rather than on industry data, builds a digital twin of a distributor's inside sales, buying and AP staff, and completes the work end to end rather than converting documents into ERP entries. It exhibits at the NBWA 89th Annual Convention Product Showcase, booth 1018, which is the beer wholesaler route-to-market channel; its own site names no brewery, winery or drinks distributor customer, and states only that it serves wholesale distributors and integrated supply businesses across North America. Founded by Ajay Kamble, who spent more than 20 years in wholesale distribution including 8 as CIO at electrical distributors.",
+    "source_urls": [
+      "https://revalgo.ai/",
+      "https://revalgo.ai/about-us",
+      "https://s23.a2zinc.net/clients/corcexpo/NBWA2026/Public/eBooth.aspx?BoothID=354563&Nav=False"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Ajay Kamble (Founder and CEO)",
+    "people": [
+      {
+        "name": "Ajay Kamble",
+        "role": "Founder and CEO"
+      }
+    ],
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "CameraMatics",
+    "domain": "cameramatics.com",
+    "hq_location": "Dublin, Ireland",
+    "founded_year": 2016,
+    "vertical": "multiple",
+    "ai_use_case": "computer vision risk detection around commercial vehicles plus driver behaviour monitoring and driver scoring",
+    "ai_maturity": "shipping",
+    "short_description": "CameraMatics is an Irish-founded video telematics and fleet intelligence platform: connected dashcams, 360 degree camera systems, asset trackers and a safety and compliance platform. The AI is computer vision, detecting pedestrians, cyclists and co-workers in the risk areas around a vehicle and alerting the driver, plus in-cab monitoring for fatigue, distraction, smoking and phone use, feeding driver scoring and automated compliance workflows. It serves nearly 1,000 fleet customers across the UK, Ireland, mainland Europe and the United States, runs a named ambient and chilled distribution vertical, and exhibits at the NBWA 89th Annual Convention Product Showcase, booth 522, from a Boonton, New Jersey US office, so the beverage link is the beer wholesaler delivery fleet; no brewery, winery or drinks distributor is named as a customer on its site. In June 2026 it announced growth investment of up to 49 million euros from a consortium led by Blume Equity with the Ireland Strategic Investment Fund and Goodbody Capital Partners.",
+    "funding_stage": "growth investment (2026)",
+    "total_raised": "up to EUR 49m announced June 2026",
+    "source_urls": [
+      "https://www.cameramatics.com/resources/cameramatics-secures-up-to-e49m-investment/",
+      "https://www.cameramatics.com/us/industries/ambient-and-chilled-distribution/",
+      "https://s23.a2zinc.net/clients/corcexpo/NBWA2026/Public/eBooth.aspx?BoothID=354435&Nav=False"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Mervyn O'Callaghan (Co-founder), Simon Murray (Co-founder)",
+    "people": [
+      {
+        "name": "Mervyn O'Callaghan",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Simon Murray",
+        "role": "Co-founder"
+      }
+    ],
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "Safety Vision",
+    "domain": "safetyvision.com",
+    "hq_location": "Houston, United States",
+    "vertical": "multiple",
+    "ai_use_case": "advanced driver assistance and in-cab driver behaviour detection on mobile video recorders",
+    "ai_maturity": "shipping",
+    "short_description": "Safety Vision, L.P. is a Houston mobile video surveillance supplier with more than 30 years in the market, selling exterior and interior cameras, recorders, monitors and fleet video software to mass transit, student transportation, commercial vehicle and public safety fleets. Its SafeDrive AI 2 windshield DVR runs an on-device AI engine combining ADAS road scanning with driver behaviour monitoring, issuing audible alerts for lane departure, forward collision risk, fatigue and phone distraction, and it publishes an annual report on AI video telematics adoption in trucking and logistics. It exhibits at the NBWA 89th Annual Convention Product Showcase, booth 712, which is the only beverage connection: no brewery, winery, distillery or drinks distributor appears as a named customer, and beverage is not one of its listed industries.",
+    "source_urls": [
+      "https://www.safetyvision.com/products/detail/SAFEDRIVE-AI-2/95",
+      "https://www.safetyvision.com/about-us",
+      "https://s23.a2zinc.net/clients/corcexpo/NBWA2026/Public/eBooth.aspx?BoothID=354483&Nav=False"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Bruce Smith (Founder and CEO)",
+    "people": [
+      {
+        "name": "Bruce Smith",
+        "role": "Founder and CEO"
+      }
+    ],
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "Checkology",
+    "domain": "checkology.io",
+    "hq_location": "Cincu, Romania",
+    "founded_year": 2026,
+    "vertical": "beer",
+    "ai_use_case": "keg wash cycle monitoring and analysis",
+    "ai_maturity": "pilot",
+    "short_description": "Romanian IoT startup selling ChecKeg, a keg-shaped logger with six sensors (three temperature, pressure, conductivity, level, plus head detection) that rides through a keg washer and records internal conditions at one second intervals, and a Keg Management Cloud for the recorded data. It is sold to breweries and beverage producers for hygiene compliance, wash machine efficiency and audit evidence. The AI claim is thin and inconsistent: the homepage says the cleaning data gets AI-driven analysis with automated insights and suggestions, while the ChecKeg product page calls exactly the same feature data-driven analysis, and no model, method or training data is described anywhere on the site. The company states it was founded in 2026 with two prototypes tested in real facilities and pilot discussions with 12 breweries, so this is pre-production.",
+    "source_urls": [
+      "https://www.checkology.io/products/checkeg",
+      "https://www.checkology.io/about",
+      "https://www.braubeviale.de/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "Sysmex Partec",
+    "domain": "sysmex-partec.com",
+    "hq_location": "Goerlitz, Germany",
+    "vertical": "multiple",
+    "ai_use_case": "no ai claim; flow cytometry microbiological qc for beer and wine",
+    "ai_maturity": "none",
+    "short_description": "German flow cytometry instrument maker, part of the Sysmex group, with a dedicated beverage line of business and separate product pages for beer, wine and non-alcoholic drinks. Its cytometers and CellTrics reagents are used in brewery and winery labs for microbiological quality control and yeast work, replacing slower plate-count methods across the fermentation to packaging chain. It makes no artificial intelligence or machine learning claim anywhere on its site; it is a lab instrument and reagent vendor, included here because it is one of the primary generators of microbiological QC data inside breweries and wineries. Exhibited at drinktec 2026 in Munich.",
+    "source_urls": [
+      "https://www.sysmex-partec.com/en/marktsegment/reliable-analytics-for-beer-production-and-quality-control-beverages-beer/",
+      "https://sysmex-partec.com/en/",
+      "https://www.drinktec.com/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "Irundin",
+    "domain": "irundin.com",
+    "hq_location": "Irun, Spain",
+    "vertical": "multiple",
+    "ai_use_case": "no ai claim; line telemetry and condition-based maintenance on bottling lines",
+    "ai_maturity": "none",
+    "short_description": "Spanish builder of industrial bottling lines whose named sectors are wine, spirits and alcohol, water and oil. Alongside the machinery it sells Data Stream Technology, an online monitoring and data analysis layer that the company says detects failures before they stop the line, feeds real-time performance data back to operators and digitalises quality control records for traceability. Irundin makes no artificial intelligence or machine learning claim for this: its own pages describe monitoring, data analysis and predictive maintenance without naming any model or method, and its drinktec 2026 product entry markets the same thing as Non-Stop Bottling Intelligence under an Industry 4.0 label. Listed here as a wine and spirits packaging-line data source, not as an AI vendor.",
+    "source_urls": [
+      "https://www.irundin.com/en/technologies/",
+      "https://www.irundin.com/en/",
+      "https://www.drinktec.com/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "CRAFT BANK",
+    "domain": "craftbk.net",
+    "hq_location": "Fukuchiyama, Japan",
+    "founded_year": 2021,
+    "vertical": "beer",
+    "ai_use_case": "fermentation temperature planning",
+    "ai_maturity": "pilot",
+    "short_description": "CRAFT BANK is a Kyoto craft brewery and brewpub built inside a disused bank building in Fukuchiyama, brewing the award-winning BANK IPA. In a joint proof of concept announced on 26 September 2025 with Yokogawa Electric and its subsidiary Yokogawa Digital, a simulator of the brewery's fermentation was built from sensor data logged every 30 minutes, and Yokogawa's reinforcement learning algorithm FKDPP produced a tank temperature schedule that the head brewer reviewed and then applied by hand. Fermentation fell from 336 hours to 240 hours, a 28 per cent cut, with the sensory panel confirming aroma and flavour were unchanged. The AI itself is Yokogawa's; CRAFT BANK supplied the brewery, the process data and the sensory judgement, and says it is now exploring what else the approach can open up.",
+    "source_urls": [
+      "https://www.craftbk.net/",
+      "https://prtimes.jp/main/html/rd/p/000000017.000160352.html"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Daichi Haboshi (Representative Director, CEO and Head Brewer)",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Data Impact (DATA IMPACT JOINT STOCK COMPANY)",
+    "domain": "dataimpact.jp",
+    "hq_location": "Hanoi, Vietnam",
+    "founded_year": 2023,
+    "vertical": "beer",
+    "ai_use_case": "ai-generated beer recipe development",
+    "short_description": "Data Impact is a Hanoi-based data and AI engineering company, the Vietnamese subsidiary of Tokyo-listed HeadWaters Co., Ltd., working across data platforms (Databricks, Snowflake, Microsoft Fabric), predictive models, computer vision and generative AI. Since 2026 it has run the operational side of the AI Beer Project set up under a Fujitsu and Hanoi University of Science and Technology research MOU: Fujitsu's causal AI turned a taste-preference survey of 286 HUST students into two trial lager recipes, HUST's food engineering department brewed them at lab scale, and a 68-person sensory panel assessed the result. Data Impact handled brewery partner negotiation and ran the project end to end through to a joint paper at the SPISE 2026 food and beverage technology conference. The company says it is now looking at physical AI for automating the brewing process itself.",
+    "ai_maturity": "pilot",
+    "source_urls": [
+      "https://www.dataimpact.jp/",
+      "https://www.headwaters.co.jp/news/2026/",
+      "https://prtimes.jp/main/html/rd/p/000000341.000018045.html"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Dang Quang Duy (Representative)",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Fujitsu",
+    "domain": "fujitsu.com",
+    "vertical": "beer",
+    "ai_use_case": "brewing process prediction and recipe design",
+    "ai_maturity": "pilot",
+    "short_description": "Fujitsu is a Japanese IT group with a long-running named research line in fermented beverage AI. In April 2018 Fujitsu and Fujitsu Laboratories ran a joint trial with sake maker Asahi Shuzo on its Dassai brand, combining a mathematical model of the sake brewing sequence with machine learning over the brewery's historical temperature and gravity data to produce an AI prediction model that advised on optimal process steps, built on the Fujitsu Human Centric AI Zinrai stack. In 2026 Fujitsu's causal AI is the engine behind the AI Beer Project with Hanoi University of Science and Technology, generating lager recipes from consumer preference survey data for lab-scale trial brewing, presented jointly at SPISE 2026. Both are demonstration projects rather than a shipping beverage product.",
+    "source_urls": [
+      "https://pr.fujitsu.com/jp/news/2018/04/19.html",
+      "https://www.headwaters.co.jp/news/2026/",
+      "https://prtimes.jp/main/html/rd/p/000000341.000018045.html"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-09",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Sinops",
+    "domain": "sinops.jp",
+    "hq_location": "Toyonaka, Japan",
+    "founded_year": 1987,
+    "vertical": "beer",
+    "ai_use_case": "craft beer demand forecasting and auto-replenishment",
+    "ai_maturity": "pilot",
+    "short_description": "Sinops is an Osaka software maker, listed on TSE Growth (4428), whose sinops product line does AI demand forecasting and automatic ordering for grocery retail and food manufacturing, deployed at around 120 companies and 6,700 stores. On 23 April 2026 it tied up with Brewtope, operator of the Otomoni craft beer platform, to build an AI craft beer auto-selection and delivery service: POS results plus Brewtope's 200,000-plus consumer reviews drive automatic selection of which of the 4,000-plus Japanese craft beer SKUs a given shelf should carry, with mixed 24-bottle case delivery and automatic range rotation. The forecasting AI is Sinops's own; the service entered test marketing in a subset of sinops customer stores from May 2026.",
+    "source_urls": [
+      "https://www.sinops.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000046.000103807.html"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Kazuhiko Okamoto (President and COO)",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "VIVANT (ATEK Technology Corp.)",
+    "domain": "vivantwine.com",
+    "hq_location": "Taiwan",
+    "founded_year": 1992,
+    "vertical": "wine",
+    "ai_use_case": "ai sommelier and label recognition",
+    "ai_maturity": "shipping",
+    "short_description": "VIVANT is the wine lifestyle brand of Taiwanese semiconductor company ATEK Technology Corp., which applies its precision temperature control engineering to portable electronic wine chillers (Venus G2, Titan) sold worldwide. The VIVANT Wine App runs what the company calls its own wine-specific AI engine, trained on more than 1,000 appellations across 50-plus countries, over 200,000 winery and producer records and several million wine label images; the AI Sommelier Chatbot reads a restaurant wine list or label photo and returns pairing suggestions, serving temperature and decanting time. Recommended settings sync to the chiller over Bluetooth in what VIVANT markets as a Smart Wine Ecosystem. The chatbot shipped in Japanese on 29 July 2026 and Venus G2 went on sale in Japan on 10 August 2026; the company set up a Japanese entity in 2025 and plans US entry in 2027.",
+    "source_urls": [
+      "https://vivantwine.com/",
+      "https://prtimes.jp/main/html/rd/p/000000002.000187046.html"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Daniel Fu (Founder)",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "WineScan",
+    "domain": "winescan.co.jp",
+    "hq_location": "Kyoto, Japan",
+    "vertical": "wine",
+    "ai_use_case": "wine label image recognition for inventory",
+    "ai_maturity": "shipping",
+    "short_description": "WineScan is a Kyoto company selling an iOS wine inventory system for restaurants and hotels. Photographing a bottle label registers the wine automatically through an AI image recognition model that returns cuvee, producer, country, region and vintage, and the app then handles goods out, stocktakes, per-cellar stock, cost ratio and asset value analysis and publishing a standard wine list. The company rebuilt the recognition algorithm in 2024 specifically to read labels that are dirty, aged or partly cut off in the photo. It is a business tool, priced monthly per venue, and is explicitly not a consumer tasting or recommendation app.",
+    "source_urls": [
+      "https://www.winescan.co.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000006.000118758.html"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Sommia (Broadedge Wearlink)",
+    "domain": "sommia.jp",
+    "hq_location": "Tokyo, Japan",
+    "founded_year": 2020,
+    "vertical": "wine",
+    "ai_use_case": "personalised wine recommendation and pairing",
+    "ai_maturity": "shipping",
+    "short_description": "Broadedge Wearlink is a Tokyo company that develops and runs Sommia, a sommelier AI for wine drinkers, alongside a wine shop and a wine bistro in Ebisu. The company says Sommia was built from roughly 50,000 users' data, more than 100,000 wine reviews and the codified knowledge of over 30 professional sommeliers; photographing a restaurant wine list has the model read the labels and reorder the list by the user's taste, rating bottles trains a personal profile that resolves to one of 17 taste types, and a chat interface answers food pairing questions with the reasoning. The app launched on iOS and Android and the Ebisu shop and bistro opened on 6 August 2026, tying the app to physical tasting.",
+    "source_urls": [
+      "https://sommia.jp/",
+      "https://prtimes.jp/main/html/rd/p/000000031.000070186.html"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Brew Force",
+    "domain": "brewforce.co.in",
+    "hq_location": "New Delhi, India",
+    "vertical": "multiple",
+    "ai_use_case": "none",
+    "ai_maturity": "none",
+    "short_description": "Brew Force is a New Delhi turnkey plant builder for breweries, distilleries, malt spirit plants, liquor bottling and RTD lines, and an exhibitor at the Brews and Spirits Expo India. It handles design, fabrication, equipment supply, utilities, erection and commissioning, with completed large-scale and craft brewery projects for Parag Breweries (Carlsberg), Regent Beers and Wines, CMJ Breweries (Kingfisher) and an RTD bottling line for Diageo Great Britain. It describes its plants as fully automated and offers remote technical support, but makes no machine learning or AI claim anywhere on its site beyond a single blog headline; it is a mechanical and control systems integrator, not a data product.",
+    "source_urls": [
+      "https://www.brewforce.co.in/",
+      "https://brewsnspiritsexpo.com/exhibitor-list"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "Micro Brewery India",
+    "domain": "microbreweryindia.in",
+    "hq_location": "Gurugram, India",
+    "vertical": "beer",
+    "ai_use_case": "none",
+    "ai_maturity": "none",
+    "short_description": "Micro Brewery India is a turnkey microbrewery supplier with a manufacturing unit in Manesar, Gurugram and an office in Whitefield, Bangalore, and an exhibitor at the Brews and Spirits Expo India. It supplies brewhouse and fermentation equipment and provides brewing, recipe and marketing services to Indian brewpubs, positioning itself as run by working brewers rather than by equipment traders. It makes no AI or machine learning claim; it is recorded here as part of the Indian microbrewery supply landscape rather than as an AI vendor.",
+    "source_urls": [
+      "https://www.microbreweryindia.in/",
+      "https://www.microbreweryindia.in/contact/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false
+  },
+  {
+    "name": "TUM Chair of Brewing and Beverage Technology (Weihenstephan)",
+    "domain": "lse.ls.tum.de",
+    "hq_location": "Freising, Germany",
+    "vertical": "beer",
+    "ai_use_case": "soft sensors and ai driven digital twins for brewing",
+    "ai_maturity": "research",
+    "short_description": "Chair of Brewing and Beverage Technology at the TUM School of Life Sciences, Weihenstephan, headed by Prof. Thomas Becker. Two of its working groups run named AI work on beverages. AG Intelligente Produktionssysteme (Intelligent Production Systems), led by Tobias Voigt, lists artificial intelligence and multi agent systems as core research and runs BeverGreen, building digital product and process twins plus machine learning to cut CO2 across brewing and beverage supply chains, MappKIng on AI based mapping of machine data models onto condition monitoring and predictive maintenance software, and virtASI on AI assisted generation of simulation and control models for food plants. AG BioPAT und Digitalisierung, led by Dominik Ulrich Geier, works on chemometrics, soft sensors and neural networks for fermentation and beverage production, including a two channel inline IR sensor for brewing yeast vitality that reached R2 = 0.82 against intracellular pH. The same chair maintains the Weihenstephan Standards machine data interface.",
+    "source_urls": [
+      "https://www.lse.ls.tum.de/bgt/forschung/ag-intelligente-produktionssysteme/",
+      "https://www.lse.ls.tum.de/bgt/forschung/ag-biopat-und-digitalisierung/",
+      "https://www.weihenstephan-standards.com/en/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Thomas Becker (Chair holder), Tobias Voigt (Head, Intelligent Production Systems working group), Dominik Ulrich Geier (Head, BioPAT and Digitalisation working group)",
+    "discovered_by": "scout:institutes",
+    "verified": false
+  },
+  {
+    "name": "Weihenstephan Standards",
+    "domain": "weihenstephan-standards.com",
+    "hq_location": "Freising, Germany",
+    "vertical": "beer",
+    "ai_use_case": "machine data standard for breweries, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Machine to IT data standard for the food and beverage industry, run out of the TUM Chair of Brewing and Beverage Technology at Weihenstephan and sold through a membership and industry partner programme. It defines 440 practice relevant data points and over 150 machine classes across five domains, one of which, WS Brew, covers the process area of breweries, plus two transport options, the WS Protocol and WS OPC UA. It is the layer many brewery MES, KPI and batch tracking systems read machine data from, which is why it matters to the beverage data landscape. It makes no AI or machine learning claim of its own.",
+    "source_urls": [
+      "https://www.weihenstephan-standards.com/en/",
+      "https://www.lse.ls.tum.de/bgt/forschung/ag-intelligente-produktionssysteme/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:institutes",
+    "verified": false
+  },
+  {
+    "name": "Julius Kuehn Institute, Institute for Grapevine Breeding Geilweilerhof",
+    "domain": "julius-kuehn.de",
+    "hq_location": "Siebeldingen, Germany",
+    "vertical": "wine",
+    "ai_use_case": "computer vision phenotyping of grapevines",
+    "ai_maturity": "research",
+    "short_description": "Federal German research institute for grapevine breeding at Geilweilerhof, part of the Julius Kuehn Institute. Its automated phenotyping field, which it calls the digitalised vineyard, runs three sensor platforms, Phenobot, Phenoliner and PhenoQuad, plus high throughput imaging of leaf disc assays for downy mildew, 3D bunch architecture for yield and Botrytis, and berry surface properties; the institute states the work includes data management, efficient data evaluation and statistical modelling of the sensor data. The group publishes applied deep learning on this data, for example shallow convolutional neural networks scoring grapevine downy mildew infection on leaf discs (Agronomy 2021, DOI 10.3390/agronomy11091768, all authors affiliated to the institute). The output is breeding decision support for wine grape varieties, not a commercial product.",
+    "source_urls": [
+      "https://www.julius-kuehn.de/zr/phaenotypisierung",
+      "https://doi.org/10.3390/agronomy11091768"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Anna Kicherer (named contact for automated phenotyping)",
+    "discovered_by": "scout:institutes",
+    "verified": false
+  },
+  {
+    "name": "Campden BRI",
+    "domain": "campdenbri.co.uk",
+    "hq_location": "Chipping Campden, United Kingdom",
+    "vertical": "multiple",
+    "ai_use_case": "member funded brewing and winemaking research, no ai claim",
+    "ai_maturity": "none",
+    "short_description": "Membership based research and technical services organisation for the food and drink industry, with dedicated brewing and malting, winemaking, and beer, spirits and alcoholic beverages programmes and its own brewing knowledge databases. Its current member funded research projects include industry guidance on microbiological criteria for beers, worts, brewing yeast, malt and hops, and DNA extraction and sequencing with a bioinformatic pipeline and reference database for anaerobic beer spoiling bacteria such as Pectinatus and Megasphaera. Checked across its research, project and topic pages: Campden BRI makes no AI or machine learning claim of its own, and mentions AI only as one of several digital technologies in horizon scanning content.",
+    "source_urls": [
+      "https://www.campdenbri.co.uk/research/projects.php",
+      "https://www.campdenbri.co.uk/research.php"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:institutes",
+    "verified": false
+  },
+  {
+    "name": "Digital Agriculture, Food and Wine (University of Melbourne)",
+    "domain": "safes.unimelb.edu.au",
+    "hq_location": "Melbourne, Australia",
+    "vertical": "multiple",
+    "ai_use_case": "machine learning and computer vision for beverage sensory prediction, e-nose and robotics",
+    "ai_maturity": "research",
+    "short_description": "The Digital Agriculture, Food and Wine group sits in the School of Agriculture, Food and Ecosystem Sciences at the University of Melbourne. One of its six named capabilities is robotics, sensory evaluation and biometrics with machine learning modelling for brewages, which integrates robotics, computer vision, biometrics and machine learning to predict consumer preference and quality in beer and wine without the cost and delay of traditional panel methods. Its peer-reviewed output is specific and current: 2026 papers cover AI-driven sensory prediction of beer from electronic-nose data, sensometric and chemometric drivers of consumer liking in top- and bottom-fermented beers, and portable e-nose plus through-bottle NIR for Chardonnay aroma and structure. The group also runs digital agriculture work under the ARC Centre of Excellence in Plants for Space.",
+    "source_urls": [
+      "https://safes.unimelb.edu.au/research/digital-agriculture-food-and-wine/capabilities/robotics,-sensory-evaluationbiometrics-and-machine-learning-modelling-for-brewages",
+      "https://safes.unimelb.edu.au/research/digital-agriculture-food-and-wine/publications/papers"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:institutes_browser",
+    "verified": false
+  },
+  {
+    "name": "Nethergate Brewery",
+    "domain": "nethergate.co.uk",
+    "hq_location": "Long Melford, Suffolk, United Kingdom",
+    "vertical": "beer",
+    "ai_use_case": "generative ai recipe and label design",
+    "ai_maturity": "pilot",
+    "short_description": "Regional cask beer brewer in Suffolk supplying around 250 pubs across the East of England. It brews AIPA, an Artificially Intelligent Pale Ale, whose beer style, recipe build, malt selection, hop combinations, dry hopping schedule and pump clip artwork were all developed with general purpose generative AI tools; managing director James Holberry told Just Drinks the first 2024 edition was made with ChatGPT. The brewery re-ran the beer as a seasonal cask special in February 2026. The AI is off the shelf rather than an in-house system, and brewers still make the final recipe and quality calls.",
+    "source_urls": [
+      "https://nethergate.co.uk/blogs/news/aipa-ai-generated-robot-fuel",
+      "https://finance.yahoo.com/news/ai-beer-production-still-early-123137866.html"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-02-18",
+    "key_people": "James Holberry (Managing Director)",
+    "discovered_by": "scout:genai",
+    "verified": false
+  },
+  {
+    "name": "Chateau Les Bertrands",
+    "domain": "chateaulesbertrands.com",
+    "hq_location": "Reignac de Blaye, France",
+    "vertical": "wine",
+    "ai_use_case": "generative ai virtual sommelier on connected label",
+    "ai_maturity": "shipping",
+    "short_description": "Family owned Blaye Cotes de Bordeaux estate of about 100 hectares, run by the Dubois family. Its Cuvee Vieilles Vignes carries a connected label with a QR code that opens a conversational generative AI assistant, built with label printer Philaposte (La Poste group) and conversational AI vendor Ask Mona. The assistant is custom trained on the estate's own technical sheets, tasting notes and anecdotes and answers in the first person as the winemaker, covering vintage detail, vinification, sulphites and food pairing, and returns anonymised interaction data to the estate. The winery announced the connected label in April 2025 and the bottle is sold through its own shop.",
+    "source_urls": [
+      "https://www.chateaulesbertrands.com/fr/2025/04/17/decouvrez-un-qr-code-sur-vos-bouteilles-de-cuvee-vieilles-vignes/",
+      "https://www.askmona.ai/blog/turning-every-wine-bottle-into-a-direct-line-to-customers"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2025-06-18",
+    "key_people": "Laurent Dubois (Co-owner)",
+    "discovered_by": "scout:genai",
+    "verified": false
+  },
+  {
+    "name": "Craft Metrics",
+    "domain": "craftmetrics.ca",
+    "hq_location": "Canada",
+    "vertical": "multiple",
+    "ai_use_case": "sensor data collection, fermentation monitoring and alerting",
+    "ai_maturity": "none",
+    "short_description": "Craft Metrics Inc. sells cloud-connected sensor analytics to craft breweries, cideries and wineries, covering fermentation gravity and temperature, cold room and glycol monitoring, and SMS or email alerts on equipment failure. It solved the problem of running the consumer Tilt digital hydrometer at commercial fermenter scale, and also sells a pasteurisation controller for craft cider. The company makes no machine learning or AI claim anywhere on its site: this is sensor telemetry, dashboards and threshold alerting. Named users include Vala's Orchard in Nebraska and Bowen Craft Cider in British Columbia.",
+    "source_urls": [
+      "https://craftmetrics.ca",
+      "https://craftmetrics.ca/blog/2018/commercial-tilt-hydrometer.html"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:reddit",
+    "verified": false
+  },
+  {
+    "name": "Beverage Industry Environmental Roundtable (BIER)",
+    "domain": "bieroundtable.com",
+    "founded_year": 2006,
+    "vertical": "multiple",
+    "ai_use_case": "pooled water, energy and emissions benchmarking for beverage plants",
+    "ai_maturity": "none",
+    "short_description": "BIER is a technical coalition of global beverage companies, formed in 2006, spanning brewing, distilling and non-alcoholic drinks. Member companies submit facility-level water, energy and emissions data, which BIER aggregates into a recurring global benchmarking study: the December 2023 edition was its 12th, covering 18 years of industry performance across nearly 2,000 facilities. It also publishes shared tools such as an internal carbon pricing guide and a facility decarbonisation playbook. BIER makes no AI or machine learning claim; it is a pooled member data set and a standards-setting coalition, facilitated by Antea Group.",
+    "source_urls": [
+      "https://www.bieroundtable.com/",
+      "https://www.bieroundtable.com/publication/2023-water-and-energy-use-benchmarking-study"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:benchmarking",
+    "verified": false
+  },
+  {
+    "name": "Vinpro",
+    "domain": "vinpro.co.za",
+    "hq_location": "Suider Paarl, South Africa",
+    "vertical": "wine",
+    "ai_use_case": "pooled financial benchmarking for wine grape producers",
+    "ai_maturity": "none",
+    "short_description": "Vinpro is a South African non-profit representing close to 2,600 wine producers, cellars and industry stakeholders. Its agricultural economics unit coordinates the annual Production Plan Survey, a voluntary financial analysis of primary wine grape production across all 10 South African wine regions, which is free to join and is used industry-wide as the authoritative regional profitability benchmark; it also publishes the annual Vinpro Cost Guide of production costs, target income guidelines, labour norms and mechanisation costs per district. Producers contribute their own financial data and receive regional and industry comparisons back through study groups and information days. Vinpro makes no AI or machine learning claim.",
+    "source_urls": [
+      "https://vinpro.co.za/agro-economy/",
+      "https://vinpro.co.za/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Yolandi Botha (Agricultural Economist)",
+    "discovered_by": "scout:benchmarking",
+    "verified": false
+  },
+  {
+    "name": "Silicon Valley Bank Wine Division",
+    "domain": "svb.com",
+    "vertical": "wine",
+    "ai_use_case": "annual winery survey producing anonymised peer benchmarks",
+    "ai_maturity": "none",
+    "short_description": "The Wine Division of Silicon Valley Bank, a division of First-Citizens Bank and Trust Company, has run its State of the Wine Industry survey for almost 30 years. Wineries submit their own production, pricing, channel and financial data, and the survey document states that all respondents who fully complete it receive gratis results including anonymised detailed responses, summary analysis and more than 50 charts they can use to benchmark their own performance; incomplete or inaccurate submissions are scrubbed. The resulting annual report ranks winery performance by quartile, region and size. No AI or machine learning claim is made; this is a survey-based pooled data asset.",
+    "source_urls": [
+      "https://www.svb.com/globalassets/library/uploadedfiles/wine/2025-report-soti-survey.pdf",
+      "https://www.svb.com/trends-insights/reports/wine-report/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Rob McMillan (EVP and Founder, SVB Wine Division)",
+    "discovered_by": "scout:benchmarking",
+    "verified": false
+  },
+  {
+    "name": "IGS Ingenieurbuero fuer Energie- und Umwelttechnik",
+    "domain": "igs-eu.de",
+    "hq_location": "Hallbergmoos, Germany",
+    "founded_year": 1990,
+    "vertical": "beer",
+    "ai_use_case": "brewery energy and water benchmarking club",
+    "ai_maturity": "none",
+    "short_description": "IGS is a German engineering practice specialising in energy and environmental technology for the brewing and food industries. Since 1993 it has run the Betriebevergleich Energie fuer Brauereien (BVE), a brewery energy benchmark created jointly with the Bayerischer Brauerbund, in which participating breweries submit heat, electricity and water demand and cost figures and receive their position against industry averages and best values drawn from the pooled data set, segmented by plant size class and with year-on-year comparison. Around 1,200 participations have been recorded and many breweries take part annually, which keeps the statistic current; IGS also offers fixed-price Scope 1 and 2 carbon footprinting for breweries. No AI or machine learning claim is made anywhere on the site.",
+    "source_urls": [
+      "https://www.igs-eu.de/betriebevergleich-energie/",
+      "https://www.igs-eu.de/ueber-uns/",
+      "https://brauwelt.com/de/five/aktuelle-firmennachrichten/645303-betriebevergleich-energie-f%C3%BCr-brauereien"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "key_people": "Dr. Georg Schu (Founder and Owner), Matthias Kern (Managing Partner)",
+    "discovered_by": "scout:benchmarking",
+    "verified": false
+  },
+  {
+    "name": "Unternehmensberatung Weihenstephan",
+    "domain": "weihenstephan-beratung.de",
+    "hq_location": "Burgau, Germany",
+    "founded_year": 1972,
+    "vertical": "beer",
+    "ai_use_case": "cross-company brewery kpi benchmarking database",
+    "ai_maturity": "none",
+    "short_description": "Unternehmensberatung Weihenstephan is a German consultancy to the food and drinks industry, founded in 1972 and linked to the Weihenstephan faculty of TU Munich. It maintains the UW-Datenbank, a cross-company KPI database it describes as holding comparison data from hundreds of beverage producers, and sells a benchmarking module in which a brewery collects its own raw data against a supplied data collection guide, submits it for logistics, marketing, production and administration, and receives up to 500 individual benchmark figures within two days per area, adjusted for hectolitre output and geography. Published example figures are deliberately randomised to preserve participant anonymity. No AI or machine learning claim is made.",
+    "source_urls": [
+      "http://www.weihenstephan-beratung.de/benchmark-zahlen-kpi/",
+      "http://www.weihenstephan-beratung.de/ursprung-der-beratung/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:benchmarking",
+    "verified": false
+  },
+  {
+    "name": "Doemens",
+    "domain": "doemens.org",
+    "hq_location": "Graefelfing, Germany",
+    "vertical": "beer",
+    "ai_use_case": "inter-laboratory ring analyses for brewing and beverage labs",
+    "ai_maturity": "none",
+    "short_description": "Doemens is a German brewing and beverage academy and laboratory at Graefelfing near Munich. For over 20 years it has run Ringanalysen, recurring inter-laboratory ring trials for beer, wort, soft drinks and mineral water in which a homogeneous sample is analysed by as many laboratories as possible using the same standardised method, with results evaluated statistically at Doemens so each participant can objectively place its own quality assurance laboratory against other beverage industry, official food control, customs and service laboratories. The scheme covers chemical, microbiological and sensory analyses, is open to anyone without membership, and is also used to compare multiple production sites within a group. No AI or machine learning claim is made.",
+    "source_urls": [
+      "https://doemens.org/ringanalysen/",
+      "https://doemens.org/"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:benchmarking",
+    "verified": false
+  },
+  {
+    "name": "INESC TEC",
+    "domain": "inesctec.pt",
+    "hq_location": "Porto, Portugal",
+    "vertical": "wine",
+    "ai_use_case": "deep learning vision and robotics for vineyards",
+    "ai_maturity": "research",
+    "short_description": "Portuguese research and technology institute based in Porto. Its Centre for Robotics in Industry and Intelligent Systems runs a sustained precision viticulture programme, including the PRySM autonomous precision sprayer ground robot built for the narrow, steep-slope vineyards of the Douro. The institute has published a long run of applied deep learning work on grape bunch and vine trunk detection, vineyard segmentation from satellite imagery, grapevine variety identification and prediction of grapevine water status from hyperspectral data, much of it with Portuguese wine producers as field sites.",
+    "source_urls": [
+      "https://www.inesctec.pt/en/projects/prysm",
+      "https://doi.org/10.3390/agronomy11091890"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:research",
+    "verified": false
+  },
+  {
+    "name": "Fraunhofer Portugal AICOS",
+    "domain": "aicos.fraunhofer.pt",
+    "hq_location": "Porto, Portugal",
+    "vertical": "wine",
+    "ai_use_case": "computer vision pest monitoring in vineyards",
+    "ai_maturity": "pilot",
+    "short_description": "Fraunhofer Portugal research centre in Porto working on assistive information and communication technology. Its own project list describes EyesOnTraps+, a mobile solution that automates insect detection in vineyard traps in the Douro Wine Region, logs local temperature and recommends treatment for the pests it detects. The group has published the underlying computer vision work on automatic image quality assessment and pest counting for viticulture trap monitoring, and is now extending it with generative models for synthetic pest datasets.",
+    "source_urls": [
+      "https://www.aicos.fraunhofer.pt/en/work/projects.html",
+      "https://doi.org/10.3390/su14159729"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:research",
+    "verified": false
+  },
+  {
+    "name": "TerraVision Lab",
+    "domain": "terravisionlab.com",
+    "hq_location": "Midreshet Ben-Gurion, Israel",
+    "vertical": "wine",
+    "ai_use_case": "spatial machine learning for vineyard irrigation zones and water stress",
+    "ai_maturity": "research",
+    "short_description": "Israeli independent research group building spatial decision support systems from geospatial and remote sensing data. Its published work, listed on its own publications page, includes a spatial machine learning model for predicting crop water stress index for precision irrigation, weighted multivariate spatial clustering to define irrigation management zones, forecasting of multiseasonal grapevine water consumption, and the link between vine vigour, water status and wine quality in terrain-based management zones in a Cabernet Sauvignon vineyard.",
+    "source_urls": [
+      "https://terravisionlab.com/publications/",
+      "https://doi.org/10.1016/j.compag.2024.109578"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:research",
+    "verified": false
+  },
+  {
+    "name": "Gaia Robotics",
+    "domain": "gaiarobotics.gr",
+    "hq_location": "Patras, Greece",
+    "vertical": "wine",
+    "ai_use_case": "deep learning crop monitoring and vineyard damage mapping",
+    "ai_maturity": "shipping",
+    "short_description": "Greek agritech SME working across ICT, robotics, artificial intelligence and production optimisation. Its own services page describes a digital agriculture toolset for crop monitoring with yield forecasting, and a greenhouse product, MyGaiaBot, that it says uses machine learning algorithms to optimise agronomy decisions. Its beverage link is viticulture: the company is a co-author on a 2026 hybrid interpretable and explainable deep learning workflow for mapping wildfire damage in vineyards, and lists a Greek wine estate among its named partners.",
+    "source_urls": [
+      "https://www.gaiarobotics.gr/services-products/",
+      "https://doi.org/10.1111/phor.70044"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:research",
+    "verified": false
+  },
+  {
+    "name": "Living Optics",
+    "domain": "livingoptics.com",
+    "hq_location": "Abingdon, United Kingdom",
+    "vertical": "wine",
+    "ai_use_case": "snapshot hyperspectral imaging for precision viticulture",
+    "ai_maturity": "research",
+    "short_description": "British hyperspectral imaging company selling a snapshot hyperspectral video camera and the software stack around it. Its own site markets precision agriculture, crop yield estimation and food quality and safety assessment rather than wine specifically. The viticulture application is the company's own published work: a 2025 SPIE paper on handheld snapshot hyperspectral video spectroscopy for precision viticulture, which applies spectral analysis to vine canopy measurement in the field.",
+    "source_urls": [
+      "https://www.livingoptics.com/market-segments/food/",
+      "https://doi.org/10.1117/12.3041748"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:research",
+    "verified": false
+  },
+  {
+    "name": "Slovenian Institute of Hop Research and Brewing (IHPS)",
+    "domain": "ihps.si",
+    "hq_location": "Zalec, Slovenia",
+    "vertical": "beer",
+    "ai_use_case": "hop breeding, plant protection forecasting and hop yield certification",
+    "ai_maturity": "none",
+    "short_description": "Slovenia's national public research institute for hops and brewing, at Zalec in the Savinja valley. It runs hop breeding and variety testing, a diagnostic laboratory, monitoring and forecasting of harmful organisms, official certification of the hop harvest and spraying equipment, and a unit for information technology and GIS in agriculture. It makes no machine learning or artificial intelligence claim on its own site, and its published hop disease resistance work uses genetic association analysis rather than AI. Included because it is one of the few national hop research institutes and a significant source of hop data for the brewing supply chain.",
+    "source_urls": [
+      "https://www.ihps.si/en/",
+      "https://doi.org/10.3390/plants15111667"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:research",
+    "verified": false
+  },
+  {
+    "name": "Groupe ICV (Institut Cooperatif du Vin)",
+    "domain": "icv.fr",
+    "hq_location": "Montpellier, France",
+    "vertical": "wine",
+    "ai_use_case": "oenological analysis and viticulture consulting",
+    "ai_maturity": "none",
+    "short_description": "French cooperative wine institute running oenology and viticulture consulting, a network of analytical laboratories, oenological products and training, from vineyard through vinification, ageing, packaging and route to market. It also analyses beer and dealcoholised products. Its own site describes analytical and advisory services and an innovation and R&D function but makes no machine learning or artificial intelligence claim. It appears as a research partner on published Sentinel-2 satellite modelling of vine water status at regional scale.",
+    "source_urls": [
+      "https://www.icv.fr/",
+      "https://doi.org/10.3390/rs13091837"
+    ],
+    "first_seen": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "discovered_by": "scout:research",
     "verified": false
   }
 ]
