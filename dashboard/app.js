@@ -1461,12 +1461,14 @@ const plural = (n, word) => {
   if (n === 1) return word.replace(/ies$/, "y").replace(/([^s])s$/, "$1");
   return word;
 };
-const sub = (shown, total, noun) =>
-  shown === total ? noun : `of ${total} ${noun}`;
+// Unfiltered, the label already IS the noun, so returning it here printed
+// "754 resources / resources". whenAll lets a card say something useful instead.
+const sub = (shown, total, noun, whenAll) =>
+  shown === total ? (whenAll || noun) : `of ${total} ${noun}`;
 
 const KPI_BUILDERS = {
   people: (rows, all) => [
-    [rows.length, rows.length === all.length ? "people" : "matching", sub(rows.length, all.length, "named people")],
+    [rows.length, rows.length === all.length ? "people" : "matching", sub(rows.length, all.length, "named people", "named across the landscape")],
     [rows.filter((p) => p.linkedin).length, "with LinkedIn", "directly reachable"],
     [uniq(rows, (p) => p.company), plural(uniq(rows, (p) => p.company), "companies"), "they work across"],
     [uniq(rows, (p) => p.vertical), plural(uniq(rows, (p) => p.vertical), "verticals"), "beer · whiskey · wine"],
@@ -1478,7 +1480,7 @@ const KPI_BUILDERS = {
     const papers = k("paper"), videos = k("video"), pods = k("podcast");
     const articles = k("blog", "news", "whitepaper"), repos = k("repo");
     return [
-      [rows.length, rows.length === all.length ? "resources" : "matching", sub(rows.length, all.length, "resources")],
+      [rows.length, rows.length === all.length ? "resources" : "matching", sub(rows.length, all.length, "resources", "papers, video, articles, code and data")],
       [papers, plural(papers, "papers"), "peer-reviewed research"],
       [videos, plural(videos, "videos"), "talks, demos and conference sessions"],
       [articles, plural(articles, "articles"), "blogs, trade press and whitepapers"],
@@ -1487,13 +1489,13 @@ const KPI_BUILDERS = {
     ];
   },
   jobs: (rows, all) => [
-    [rows.length, rows.length === all.length ? "open roles" : "matching", sub(rows.length, all.length, "open roles")],
+    [rows.length, rows.length === all.length ? "open roles" : "matching", sub(rows.length, all.length, "open roles", "live vacancies at tracked companies")],
     [rows.filter((j) => j.tracked_company).length, "on the radar", "employer already tracked"],
     [uniq(rows, (j) => j.company), plural(uniq(rows, (j) => j.company), "employers"), "hiring right now"],
     [uniq(rows, (j) => j.country), plural(uniq(rows, (j) => j.country), "countries"), "where the roles are"],
   ],
   prospects: (rows, all) => [
-    [rows.length, rows.length === all.length ? "targets" : "matching", sub(rows.length, all.length, "targets")],
+    [rows.length, rows.length === all.length ? "targets" : "matching", sub(rows.length, all.length, "targets", "named and sourced")],
     [rows.filter((p) => p.tier <= 2).length, "actionable", "tier 1-2, named and sourced"],
     [uniq(rows, (p) => p.region), plural(uniq(rows, (p) => p.region), "regions"), "covered"],
     [rows.filter((p) => p.tier === 4).length, "channel", "events, bodies, partners"],

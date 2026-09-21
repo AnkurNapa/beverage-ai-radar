@@ -19,7 +19,7 @@
     "summary": "Autoregressive recurrent neural networks capture the time-dependent dynamics of mixed-culture beer fermentation and forecast its trajectory better than static models.",
     "year": 2024,
     "sort": 2024,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "paper",
@@ -162,7 +162,7 @@
     "summary": "Gaussian process regression and multi-task learning on Liv-Ex 100 price histories forecast fine wine prices more accurately than ARMA and GARCH baselines.",
     "year": 2015,
     "sort": 2015,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "paper",
@@ -218,6 +218,1491 @@
     "year": 2025,
     "sort": 2025,
     "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "Nonspecific sensor arrays (\"electronic tongue\") for chemical analysis of liquids (IUPAC Technical Report)",
+    "url": "https://doi.org/10.1351/pac200577111965",
+    "vertical": "multiple",
+    "meta": "2005",
+    "summary": "",
+    "year": 2005,
+    "sort": 2005,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "Electronic Nose and Its Applications: A Survey",
+    "url": "https://doi.org/10.1007/s11633-019-1212-9",
+    "vertical": "beer",
+    "meta": "2019",
+    "summary": "",
+    "year": 2019,
+    "sort": 2019,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Applications of electronic noses and tongues in food analysis",
+    "url": "https://doi.org/10.1111/j.1365-2621.2004.00821.x",
+    "vertical": "multiple",
+    "meta": "2004",
+    "summary": "",
+    "year": 2004,
+    "sort": 2004,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Progress in authentication, typification and traceability of grapes and wines by chemometric approaches",
+    "url": "http://americanae.aecid.es/americanae/es/registros/registro.do?tipoRegistro=MTD&idBib=3298360",
+    "vertical": "wine",
+    "meta": "2014",
+    "summary": "",
+    "year": 2014,
+    "sort": 2014,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Using remote sensing to predict grape phenolics and colour at harvest in a Cabernet Sauvignon vineyard: Timing observations against vine phenology and optimising image resolution",
+    "url": "https://doi.org/10.1111/j.1755-0238.2004.tb00007.x",
+    "vertical": "wine",
+    "meta": "2008",
+    "summary": "",
+    "year": 2008,
+    "sort": 2008,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Daily Mapping of 30 m LAI and NDVI for Grape Yield Prediction in California Vineyards",
+    "url": "https://doi.org/10.3390/rs9040317",
+    "vertical": "wine",
+    "meta": "2017",
+    "summary": "",
+    "year": 2017,
+    "sort": 2017,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "A taste sensor",
+    "url": "https://doi.org/10.1088/0957-0233/9/12/001",
+    "vertical": "multiple",
+    "meta": "1998",
+    "summary": "",
+    "year": 1998,
+    "sort": 1998,
+    "theme": "Sensory & recipe"
+  },
+  {
+    "kind": "paper",
+    "title": "Smart applications and digital technologies in viticulture: A review",
+    "url": "https://doi.org/10.1016/j.atech.2021.100005",
+    "vertical": "wine",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Leaf Area Index evaluation in vineyards using 3D point clouds from UAV imagery",
+    "url": "https://doi.org/10.1007/s11119-019-09699-x",
+    "vertical": "wine",
+    "meta": "2019",
+    "summary": "",
+    "year": 2019,
+    "sort": 2019,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Bionic Electronic Nose Based on MOS Sensors Array and Machine Learning Algorithms Used for Wine Properties Detection",
+    "url": "https://doi.org/10.3390/s19010045",
+    "vertical": "wine",
+    "meta": "2018",
+    "summary": "",
+    "year": 2018,
+    "sort": 2018,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment",
+    "url": "https://doi.org/10.1175/bams-d-16-0244.1",
+    "vertical": "wine",
+    "meta": "2018",
+    "summary": "",
+    "year": 2018,
+    "sort": 2018,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Development of Artificial Neural Network Models to Assess Beer Acceptability Based on Sensory Properties Using a Robotic Pourer: A Comparative Model Approach to Achieve an Artificial Intelligence System",
+    "url": "https://doi.org/10.3390/beverages5020033",
+    "vertical": "beer",
+    "meta": "2019",
+    "summary": "",
+    "year": 2019,
+    "sort": 2019,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Vineyard yield estimation by combining remote sensing, computer vision and artificial neural network techniques",
+    "url": "https://doi.org/10.1007/s11119-020-09717-3",
+    "vertical": "wine",
+    "meta": "2020",
+    "summary": "",
+    "year": 2020,
+    "sort": 2020,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Discrimination and Characterization of Strawberry Juice Based on Electronic Nose and Tongue: Comparison of Different Juice Processing Approaches by LDA, PLSR, RF, and SVM",
+    "url": "https://doi.org/10.1021/jf501468b",
+    "vertical": "multiple",
+    "meta": "2014",
+    "summary": "",
+    "year": 2014,
+    "sort": 2014,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "Emerging Technologies Based on Artificial Intelligence to Assess the Quality and Consumer Preference of Beverages",
+    "url": "https://doi.org/10.3390/beverages5040062",
+    "vertical": "beer",
+    "meta": "2019",
+    "summary": "",
+    "year": 2019,
+    "sort": 2019,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Vineyard water status assessment using on-the-go thermal imaging and machine learning",
+    "url": "https://doi.org/10.1371/journal.pone.0192037",
+    "vertical": "wine",
+    "meta": "2018",
+    "summary": "",
+    "year": 2018,
+    "sort": 2018,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Discrimination between washed Arabica, natural Arabica and Robusta coffees by using near infrared spectroscopy, electronic nose and electronic tongue analysis",
+    "url": "https://doi.org/10.1002/jsfa.6933",
+    "vertical": "multiple",
+    "meta": "2014",
+    "summary": "",
+    "year": 2014,
+    "sort": 2014,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Prediction of Wine Quality Using Machine Learning Algorithms",
+    "url": "https://doi.org/10.4236/ojs.2021.112015",
+    "vertical": "wine",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Advances in Unmanned Aerial System Remote Sensing for Precision Viticulture",
+    "url": "https://doi.org/10.3390/s21030956",
+    "vertical": "wine",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Prediction of bitterness and alcoholic strength in beer using an electronic tongue",
+    "url": "https://doi.org/10.1016/j.foodchem.2010.05.006",
+    "vertical": "beer",
+    "meta": "2010",
+    "summary": "",
+    "year": 2010,
+    "sort": 2010,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "A Review of Wine Authentication Using Spectroscopic Approaches in Combination with Chemometrics",
+    "url": "https://doi.org/10.3390/molecules26144334",
+    "vertical": "wine",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "A machine learning application in wine quality prediction",
+    "url": "https://doi.org/10.1016/j.mlwa.2022.100261",
+    "vertical": "wine",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Beyond the traditional NDVI index as a key factor to mainstream the use of UAV in precision viticulture",
+    "url": "https://doi.org/10.1038/s41598-021-81652-3",
+    "vertical": "wine",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Deep neural networks for grape bunch segmentation in natural images from a consumer-grade camera",
+    "url": "https://doi.org/10.1007/s11119-020-09736-0",
+    "vertical": "wine",
+    "meta": "2020",
+    "summary": "",
+    "year": 2020,
+    "sort": 2020,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Very early prediction of wine yield based on satellite data from VEGETATION",
+    "url": "http://repositorio.inesctec.pt/handle/123456789/2959",
+    "vertical": "wine",
+    "meta": "2010",
+    "summary": "",
+    "year": 2010,
+    "sort": 2010,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Characterization of Key Aroma Compounds in a Commercial Rum and an Australian Red Wine by Means of a New Sensomics-Based Expert System (SEBES)—An Approach To Use Artificial Intelligence in Determining Food Odor Codes",
+    "url": "https://doi.org/10.1021/acs.jafc.9b00708",
+    "vertical": "multiple",
+    "meta": "2019",
+    "summary": "",
+    "year": 2019,
+    "sort": 2019,
+    "theme": "Sensory & recipe"
+  },
+  {
+    "kind": "paper",
+    "title": "Volatile-Based Prediction of Sauvignon Blanc Quality Gradings with Static Headspace–Gas Chromatography–Ion Mobility Spectrometry (SHS–GC–IMS) and Interpretable Machine Learning Techniques",
+    "url": "https://doi.org/10.1021/acs.jafc.0c07899",
+    "vertical": "wine",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "A novel humid electronic nose combined with an electronic tongue for assessing deterioration of wine",
+    "url": "https://doi.org/10.1016/j.sna.2011.08.006",
+    "vertical": "multiple",
+    "meta": "2011",
+    "summary": "",
+    "year": 2011,
+    "sort": 2011,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Application of Spectroscopic UV-Vis and FT-IR Screening Techniques Coupled with Multivariate Statistical Analysis for Red Wine Authentication: Varietal and Vintage Year Discrimination",
+    "url": "https://doi.org/10.3390/molecules24224166",
+    "vertical": "wine",
+    "meta": "2019",
+    "summary": "",
+    "year": 2019,
+    "sort": 2019,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Beer classification by means of a potentiometric electronic tongue",
+    "url": "https://ddd.uab.cat/record/154800",
+    "vertical": "beer",
+    "meta": "2013",
+    "summary": "",
+    "year": 2013,
+    "sort": 2013,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Bubbles, Foam Formation, Stability and Consumer Perception of Carbonated Drinks: A Review of Current, New and Emerging Technologies for Rapid Assessment and Control",
+    "url": "https://doi.org/10.3390/foods8120596",
+    "vertical": "multiple",
+    "meta": "2019",
+    "summary": "",
+    "year": 2019,
+    "sort": 2019,
+    "theme": "ESG & sustainability"
+  },
+  {
+    "kind": "paper",
+    "title": "Computer Vision and Deep Learning for Precision Viticulture",
+    "url": "https://doi.org/10.3390/agronomy12102463",
+    "vertical": "wine",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Estimation of Evapotranspiration and Crop Coefficients of Tendone Vineyards Using Multi-Sensor Remote Sensing Data in a Mediterranean Environment",
+    "url": "https://doi.org/10.3390/rs71114708",
+    "vertical": "wine",
+    "meta": "2015",
+    "summary": "",
+    "year": 2015,
+    "sort": 2015,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "The Integration of the Internet of Things, Artificial Intelligence, and Blockchain Technology for Advancing the Wine Supply Chain",
+    "url": "https://doi.org/10.3390/computers13030072",
+    "vertical": "multiple",
+    "meta": "2024",
+    "summary": "",
+    "year": 2024,
+    "sort": 2024,
+    "theme": "Supply chain"
+  },
+  {
+    "kind": "paper",
+    "title": "Data fusion of electronic eye and electronic tongue signals to monitor grape ripening",
+    "url": "http://hdl.handle.net/11380/1167799",
+    "vertical": "wine",
+    "meta": "2018",
+    "summary": "",
+    "year": 2018,
+    "sort": 2018,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Beer discrimination using a portable electronic tongue based on screen-printed electrodes",
+    "url": "https://doi.org/10.1016/j.jfoodeng.2015.02.018",
+    "vertical": "beer",
+    "meta": "2015",
+    "summary": "",
+    "year": 2015,
+    "sort": 2015,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Electronic Sensor Technologies in Monitoring Quality of Tea: A Review",
+    "url": "https://doi.org/10.3390/bios12050356",
+    "vertical": "multiple",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Recent Progress in Electronic Noses for Fermented Foods and Beverages Applications",
+    "url": "https://doi.org/10.3390/fermentation8070302",
+    "vertical": "whiskey",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Application of GC-IMS coupled with chemometric analysis for the classification and authentication of geographical indication agricultural products and food",
+    "url": "https://doi.org/10.3389/fnut.2023.1247695",
+    "vertical": "wine",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Spectrofluorometric analysis combined with machine learning for geographical and varietal authentication, and prediction of phenolic compound concentrations in red wine",
+    "url": "https://doi.org/10.1016/j.foodchem.2021.130149",
+    "vertical": "wine",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Assessment of vineyard vigour and yield spatio-temporal variability based on UAV high resolution multispectral images",
+    "url": "https://doi.org/10.1016/j.biosystemseng.2023.06.001",
+    "vertical": "wine",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Fruit Detection and Pose Estimation for Grape Cluster–Harvesting Robot Using Binocular Imagery Based on Deep Neural Networks",
+    "url": "https://doi.org/10.3389/frobt.2021.626989",
+    "vertical": "wine",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Ultraviolet/visible/near-infrared spectral analysis and chemometric tools for the discrimination of wines between subzones inside a controlled designation of origin: a case study of Rías Baixas",
+    "url": "https://doi.org/10.1111/ajgw.12003",
+    "vertical": "wine",
+    "meta": "2012",
+    "summary": "",
+    "year": 2012,
+    "sort": 2012,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Realtime Picking Point Decision Algorithm of Trellis Grape for High-Speed Robotic Cut-and-Catch Harvesting",
+    "url": "https://doi.org/10.3390/agronomy13061618",
+    "vertical": "wine",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Assessment of Beer Quality Based on a Robotic Pourer, Computer Vision, and Machine Learning Algorithms Using Commercial Beers",
+    "url": "https://doi.org/10.1111/1750-3841.14114",
+    "vertical": "beer",
+    "meta": "2018",
+    "summary": "",
+    "year": 2018,
+    "sort": 2018,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Mining Feature of Data Fusion in the Classification of Beer Flavor Information Using E-Tongue and E-Nose",
+    "url": "https://doi.org/10.3390/s17071656",
+    "vertical": "beer",
+    "meta": "2017",
+    "summary": "",
+    "year": 2017,
+    "sort": 2017,
+    "theme": "Sensory & recipe"
+  },
+  {
+    "kind": "paper",
+    "title": "Early yield prediction in different grapevine varieties using computer vision and machine learning",
+    "url": "https://doi.org/10.1007/s11119-022-09950-y",
+    "vertical": "wine",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Non-Destructive and Rapid Variety Discrimination and Visualization of Single Grape Seed Using Near-Infrared Hyperspectral Imaging Technique and Multivariate Analysis",
+    "url": "https://doi.org/10.3390/molecules23061352",
+    "vertical": "wine",
+    "meta": "2018",
+    "summary": "",
+    "year": 2018,
+    "sort": 2018,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Recent Advances and Future Perspectives in the E-Nose Technologies Addressed to the Wine Industry",
+    "url": "https://doi.org/10.3390/s24072293",
+    "vertical": "beer",
+    "meta": "2024",
+    "summary": "",
+    "year": 2024,
+    "sort": 2024,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Geographical origin identification of Chinese red wines using ultraviolet-visible spectroscopy coupled with machine learning techniques",
+    "url": "https://doi.org/10.1016/j.jfca.2023.105265",
+    "vertical": "wine",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Terroir and vintage discrimination of Malbec wines based on phenolic composition across multiple sites in Mendoza, Argentina",
+    "url": "https://doi.org/10.1038/s41598-021-82306-0",
+    "vertical": "wine",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Detection and quantification of adulterations in aged wine using RGB digital images combined with multivariate chemometric techniques",
+    "url": "https://doi.org/10.1016/j.fochx.2019.100046",
+    "vertical": "wine",
+    "meta": "2019",
+    "summary": "",
+    "year": 2019,
+    "sort": 2019,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Authentication of Tokaj Wine (Hungaricum) with the Electronic Tongue and Near Infrared Spectroscopy",
+    "url": "https://doi.org/10.1111/1750-3841.14956",
+    "vertical": "wine",
+    "meta": "2019",
+    "summary": "",
+    "year": 2019,
+    "sort": 2019,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "A state-of-the-art review of the chemical composition of sugarcane spirits and current advances in quality control",
+    "url": "https://doi.org/10.1016/j.jfca.2021.104338",
+    "vertical": "whiskey",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Investigating 2-D and 3-D Proximal Remote Sensing Techniques for Vineyard Yield Estimation",
+    "url": "https://doi.org/10.3390/s19173652",
+    "vertical": "wine",
+    "meta": "2019",
+    "summary": "",
+    "year": 2019,
+    "sort": 2019,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "The Analysis of Vodka: A Review Paper",
+    "url": "https://doi.org/10.1007/s12161-015-0089-7",
+    "vertical": "whiskey",
+    "meta": "2015",
+    "summary": "",
+    "year": 2015,
+    "sort": 2015,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Artificial Intelligence in Agro-Food Systems: From Farm to Fork",
+    "url": "https://doi.org/10.3390/foods14030411",
+    "vertical": "multiple",
+    "meta": "2025",
+    "summary": "",
+    "year": 2025,
+    "sort": 2025,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "IoT-Driven Machine Learning for Precision Viticulture Optimization",
+    "url": "https://doi.org/10.1109/jstars.2023.3345473",
+    "vertical": "wine",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Use of artificial intelligence to enable dark nudges by transnational food and beverage companies: analysis of company documents",
+    "url": "https://doi.org/10.1017/s1368980022000490",
+    "vertical": "multiple",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "The Influence of Apical and Basal Defoliation on the Canopy Structure and Biochemical Composition of Vitis vinifera cv. Shiraz Grapes and Wine",
+    "url": "https://doi.org/10.3389/fchem.2017.00048",
+    "vertical": "wine",
+    "meta": "2017",
+    "summary": "",
+    "year": 2017,
+    "sort": 2017,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Analyzing of salient features and classification of wine type based on quality through various neural network and support vector machine classifiers",
+    "url": "https://doi.org/10.1016/j.rico.2023.100219",
+    "vertical": "wine",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Cava Wine Authentication Employing a Voltammetric Electronic Tongue",
+    "url": "https://ddd.uab.cat/record/144737",
+    "vertical": "wine",
+    "meta": "2014",
+    "summary": "",
+    "year": 2014,
+    "sort": 2014,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Machine Learning Modeling of Wine Sensory Profiles and Color of Vertical Vintages of Pinot Noir Based on Chemical Fingerprinting, Weather and Management Data",
+    "url": "https://doi.org/10.3390/s20133618",
+    "vertical": "wine",
+    "meta": "2020",
+    "summary": "",
+    "year": 2020,
+    "sort": 2020,
+    "theme": "Sensory & recipe"
+  },
+  {
+    "kind": "paper",
+    "title": "Preliminary study to determine the phenolic maturity stage of grape seeds by computer vision",
+    "url": "https://doi.org/10.1016/j.aca.2012.01.005",
+    "vertical": "wine",
+    "meta": "2012",
+    "summary": "",
+    "year": 2012,
+    "sort": 2012,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Smart Viniculture: Applying Artificial Intelligence for Improved Winemaking and Risk Management",
+    "url": "https://doi.org/10.3390/app142210277",
+    "vertical": "multiple",
+    "meta": "2024",
+    "summary": "",
+    "year": 2024,
+    "sort": 2024,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "A Deep Learning Approach for Precision Viticulture, Assessing Grape Maturity via YOLOv7",
+    "url": "https://doi.org/10.3390/s23198126",
+    "vertical": "wine",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Review of the Effects of Grapevine Smoke Exposure and Technologies to Assess Smoke Contamination and Taint in Grapes and Wine",
+    "url": "https://doi.org/10.3390/beverages7010007",
+    "vertical": "wine",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Computer vision as a method complementary to molecular analysis: Grapevine cultivar seeds case study",
+    "url": "https://doi.org/10.1016/j.crvi.2012.08.002",
+    "vertical": "wine",
+    "meta": "2012",
+    "summary": "",
+    "year": 2012,
+    "sort": 2012,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Venetian Protected Designation of origin wines traceability: Multi-elemental, isotopes and chemometric analysis",
+    "url": "https://doi.org/10.1016/j.foodchem.2022.134771",
+    "vertical": "wine",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Comparison of the Performance of Several Regression Algorithms in Predicting the Quality of White Wine in WEKA",
+    "url": "https://doi.org/10.46338/ijetae0722_03",
+    "vertical": "wine",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Smart Detection of Faults in Beers Using Near-Infrared Spectroscopy, a Low-Cost Electronic Nose and Artificial Intelligence",
+    "url": "https://doi.org/10.3390/fermentation7030117",
+    "vertical": "beer",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Sources of Volatile Aromatic Congeners in Whiskey",
+    "url": "https://doi.org/10.3390/beverages9030064",
+    "vertical": "whiskey",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Sensory & recipe"
+  },
+  {
+    "kind": "paper",
+    "title": "Gas-phase volatilomic approaches for quality control of brewing hops based on simultaneous GC-MS-IMS and machine learning",
+    "url": "https://doi.org/10.1007/s00216-020-02842-y",
+    "vertical": "beer",
+    "meta": "2020",
+    "summary": "",
+    "year": 2020,
+    "sort": 2020,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Classification of Red Wines Produced from Zweigelt and Rondo Grape Varieties Based on the Analysis of Phenolic Compounds by UPLC-PDA-MS/MS",
+    "url": "https://doi.org/10.3390/molecules25061342",
+    "vertical": "wine",
+    "meta": "2020",
+    "summary": "",
+    "year": 2020,
+    "sort": 2020,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Evaluation of Arabica Coffee Fermentation Using Machine Learning",
+    "url": "https://doi.org/10.3390/foods13030454",
+    "vertical": "beer",
+    "meta": "2024",
+    "summary": "",
+    "year": 2024,
+    "sort": 2024,
+    "theme": "Market data & valuation"
+  },
+  {
+    "kind": "paper",
+    "title": "Deep learning and computer vision for assessing the number of actual berries in commercial vineyards",
+    "url": "https://doi.org/10.1016/j.biosystemseng.2022.04.015",
+    "vertical": "wine",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Predicting Alcohol Concentration during Beer Fermentation Using Ultrasonic Measurements and Machine Learning",
+    "url": "https://doi.org/10.3390/fermentation7010034",
+    "vertical": "beer",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "A modeling method for the development of a bioprocess to optimally produce umqombothi (a South African traditional beer)",
+    "url": "https://doi.org/10.1038/s41598-021-00097-w",
+    "vertical": "beer",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "Rapid Scotch Whisky Analysis and Authentication using Desorption Atmospheric Pressure Chemical Ionisation Mass Spectrometry",
+    "url": "https://doi.org/10.1038/s41598-019-44456-0",
+    "vertical": "whiskey",
+    "meta": "2019",
+    "summary": "",
+    "year": 2019,
+    "sort": 2019,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Optimization of Operating Conditions in Rice Heat Blast Process for Chinese Rice Wine Production by Combinational Utilization of Neural Network and Genetic Algorithms",
+    "url": "https://doi.org/10.1002/j.2050-0416.2004.tb00190.x",
+    "vertical": "beer",
+    "meta": "2004",
+    "summary": "",
+    "year": 2004,
+    "sort": 2004,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "Headspace Congeners of Blended Scotch Whiskies of Different Product Categories from SPME Analysis",
+    "url": "https://doi.org/10.1002/j.2050-0416.2001.tb00100.x",
+    "vertical": "whiskey",
+    "meta": "2001",
+    "summary": "",
+    "year": 2001,
+    "sort": 2001,
+    "theme": "Sensory & recipe"
+  },
+  {
+    "kind": "paper",
+    "title": "Bringing Semantics to the Vineyard: An Approach on Deep Learning-Based Vine Trunk Detection",
+    "url": "https://doi.org/10.3390/agriculture11020131",
+    "vertical": "wine",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Chemometric modeling of palate fullness in lager beers",
+    "url": "https://doi.org/10.1016/j.foodchem.2020.128253",
+    "vertical": "beer",
+    "meta": "2020",
+    "summary": "",
+    "year": 2020,
+    "sort": 2020,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Application of a generative adversarial network for multi-featured fermentation data synthesis and artificial neural network (ANN) modeling of bitter gourd–grape beverage production",
+    "url": "https://doi.org/10.1038/s41598-023-38322-3",
+    "vertical": "beer",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Enlarging Knowledge on Lager Beer Volatile Metabolites Using Multidimensional Gas Chromatography",
+    "url": "https://doi.org/10.3390/foods9091276",
+    "vertical": "beer",
+    "meta": "2020",
+    "summary": "",
+    "year": 2020,
+    "sort": 2020,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "The Impact of Wet Fermentation on Coffee Quality Traits and Volatile Compounds Using Digital Technologies",
+    "url": "https://doi.org/10.3390/fermentation9010068",
+    "vertical": "beer",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "The Verification of the Usefulness of Electronic Nose Based on Ultra-Fast Gas Chromatography and Four Different Chemometric Methods for Rapid Analysis of Spirit Beverages",
+    "url": "https://doi.org/10.1155/2016/8763436",
+    "vertical": "whiskey",
+    "meta": "2016",
+    "summary": "",
+    "year": 2016,
+    "sort": 2016,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Discrimination of Beer Flavours by Analysis of Volatiles Using the Mass Spectrometer as an Electronic Nose",
+    "url": "https://doi.org/10.1002/j.2050-0416.2007.tb00264.x",
+    "vertical": "beer",
+    "meta": "2007",
+    "summary": "",
+    "year": 2007,
+    "sort": 2007,
+    "theme": "Sensory & recipe"
+  },
+  {
+    "kind": "paper",
+    "title": "Development of a Rapid Method to Assess Beer Foamability Based on Relative Protein Content Using RoboBEER and Machine Learning Modeling",
+    "url": "https://doi.org/10.3390/beverages6020028",
+    "vertical": "beer",
+    "meta": "2020",
+    "summary": "",
+    "year": 2020,
+    "sort": 2020,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Quantitative Detection of Key Parameters and Authenticity Verification for Beer Using Near-Infrared Spectroscopy",
+    "url": "https://doi.org/10.3390/foods14223936",
+    "vertical": "beer",
+    "meta": "2025",
+    "summary": "",
+    "year": 2025,
+    "sort": 2025,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Making sense of a sense of place: precision viticulture approaches to the analysis of terroir at different scales",
+    "url": "https://doi.org/10.20870/oeno-one.2020.54.4.3858",
+    "vertical": "wine",
+    "meta": "2020",
+    "summary": "",
+    "year": 2020,
+    "sort": 2020,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Domain Adaptation and Federated Learning for Ultrasonic Monitoring of Beer Fermentation",
+    "url": "https://doi.org/10.3390/fermentation7040253",
+    "vertical": "beer",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "Whatʼs in this drink? Classification and adulterant detection in Irish Whiskey samples using near infrared spectroscopy combined with chemometrics",
+    "url": "https://arrow.tudublin.ie/creaart/18",
+    "vertical": "whiskey",
+    "meta": "2021",
+    "summary": "",
+    "year": 2021,
+    "sort": 2021,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Authentication of selected white wines by geographical origin using ICP spectrometric and chemometric analysis",
+    "url": "https://doi.org/10.1016/j.heliyon.2024.e29607",
+    "vertical": "wine",
+    "meta": "2024",
+    "summary": "",
+    "year": 2024,
+    "sort": 2024,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "A Grape Dataset for Instance Segmentation and Maturity Estimation",
+    "url": "https://doi.org/10.3390/agronomy13081995",
+    "vertical": "wine",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Chromatographic fingerprint application possibilities in food authentication",
+    "url": "https://doi.org/10.1007/s00217-021-03953-1",
+    "vertical": "whiskey",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Critical assessment of chemometric models employed for varietal authentication of wine based on UHPLC-HRMS data",
+    "url": "https://doi.org/10.1016/j.foodcont.2022.109336",
+    "vertical": "wine",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Determination of the botanical origin of hops (Humulus lupulusL.) using different analytical techniques in combination with statistical methods",
+    "url": "https://doi.org/10.1002/jib.343",
+    "vertical": "beer",
+    "meta": "2016",
+    "summary": "",
+    "year": 2016,
+    "sort": 2016,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Observation and Control of the Beer Fermentation Using Cognitive Methods",
+    "url": "https://doi.org/10.1002/j.2050-0416.2001.tb00096.x",
+    "vertical": "beer",
+    "meta": "2001",
+    "summary": "",
+    "year": 2001,
+    "sort": 2001,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "Species identification and strain discrimination of fermentation yeasts Saccharomyces cerevisiae and Saccharomyces uvarum using Raman spectroscopy and convolutional neural networks",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10734496",
+    "vertical": "beer",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "Flavor language in expert reviews versus consumer preferences: An application to expensive American whiskeys",
+    "url": "https://doi.org/10.1016/j.foodqual.2023.104892",
+    "vertical": "whiskey",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Sensory & recipe"
+  },
+  {
+    "kind": "paper",
+    "title": "Development of a Predictive Model for Agave Prices Employing Environmental, Economic, and Social Factors: Towards a Planned Supply Chain for Agave-Tequila Industry",
+    "url": "https://doi.org/10.3390/foods11081138",
+    "vertical": "whiskey",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Supply chain"
+  },
+  {
+    "kind": "paper",
+    "title": "Influence of Oak Species, Toasting Degree, and Aging Time on the Differentiation of Brandies Using a Chemometrics Approach Based on Phenolic Compound UHPLC Fingerprints",
+    "url": "https://doi.org/10.1021/acs.jafc.3c00501",
+    "vertical": "whiskey",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "A Non-Destructive Method for Grape Ripeness Estimation Using Intervals’ Numbers (INs) Techniques",
+    "url": "https://doi.org/10.3390/agronomy12071564",
+    "vertical": "wine",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "The Effect of Soundwaves on Foamability Properties and Sensory of Beers with a Machine Learning Modeling Approach",
+    "url": "https://doi.org/10.3390/beverages4030053",
+    "vertical": "beer",
+    "meta": "2018",
+    "summary": "",
+    "year": 2018,
+    "sort": 2018,
+    "theme": "Sensory & recipe"
+  },
+  {
+    "kind": "paper",
+    "title": "Application of neural networks for controlling and predicting quality parameters in beer fermentation",
+    "url": "https://doi.org/10.1007/bf01569964",
+    "vertical": "beer",
+    "meta": "1995",
+    "summary": "",
+    "year": 1995,
+    "sort": 1995,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Hold My Beer: The Linkage between Municipal Water and Brewing Location on PFAS in Popular Beverages",
+    "url": "https://doi.org/10.1021/acs.est.4c11265",
+    "vertical": "beer",
+    "meta": "2025",
+    "summary": "",
+    "year": 2025,
+    "sort": 2025,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Identification of phenolic and alcoholic compounds in wine spirits and their classification by use of multivariate analysis",
+    "url": "https://doi.org/10.2298/jsc190115020h",
+    "vertical": "whiskey",
+    "meta": "2019",
+    "summary": "",
+    "year": 2019,
+    "sort": 2019,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "zPasteurAIzer: An AI-Enabled Solution for Product Quality Monitoring in Tunnel Pasteurization Machines",
+    "url": "https://doi.org/10.3390/machines11020191",
+    "vertical": "beer",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "How will artificial intelligence drive marketing in the beverage industry? - A bibliometric literature review",
+    "url": "https://doi.org/10.1016/j.fufo.2025.100704",
+    "vertical": "multiple",
+    "meta": "2025",
+    "summary": "",
+    "year": 2025,
+    "sort": 2025,
+    "theme": "GenAI & marketing"
+  },
+  {
+    "kind": "paper",
+    "title": "Analysis of the Leaves and Cones of Lithuanian Hops (Humulus lupulus L.) Varieties by Chromatographic and Spectrophotometric Methods",
+    "url": "https://doi.org/10.3390/molecules27092705",
+    "vertical": "beer",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Wine authentication: a fingerprinting multiclass strategy to classify red varietals through profound chemometric analysis of volatiles",
+    "url": "https://doi.org/10.1007/s00217-018-3151-z",
+    "vertical": "wine",
+    "meta": "2018",
+    "summary": "",
+    "year": 2018,
+    "sort": 2018,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Experimental Ginjo-Sake Brewing by Using Fuzzy Neural Network",
+    "url": "https://doi.org/10.6013/jbrewsocjapan1988.92.447",
+    "vertical": "beer",
+    "meta": "1997",
+    "summary": "",
+    "year": 1997,
+    "sort": 1997,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "From Volatile Profiling to Sensory Prediction: Recent Advances in Wine Aroma Modeling Using Chemometrics and Sensor Technologies",
+    "url": "https://doi.org/10.3390/chemosensors13090337",
+    "vertical": "whiskey",
+    "meta": "2025",
+    "summary": "",
+    "year": 2025,
+    "sort": 2025,
+    "theme": "Sensory & recipe"
+  },
+  {
+    "kind": "paper",
+    "title": "Bayesian yield mapping and uncertainty analysis in vineyards using remote sensing data and grape harvester tracking",
+    "url": "https://doi.org/10.1007/s11119-025-10258-w",
+    "vertical": "wine",
+    "meta": "2025",
+    "summary": "",
+    "year": 2025,
+    "sort": 2025,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Geographical and varietal origin differentiation of alcoholic beverages through the association between FT-Raman spectroscopy and advanced data processing strategies",
+    "url": "https://doi.org/10.1016/j.fochx.2023.100902",
+    "vertical": "whiskey",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "A unifying approach to wheat beer flavour by chemometric analyses. Could we speak of ‘terroir’?",
+    "url": "https://doi.org/10.1016/j.crfs.2022.100429",
+    "vertical": "beer",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Sensory & recipe"
+  },
+  {
+    "kind": "paper",
+    "title": "A Digital Approach to Model Quality and Sensory Traits of Beers Fermented under Sonication Based on Chemical Fingerprinting",
+    "url": "https://doi.org/10.3390/fermentation6030073",
+    "vertical": "beer",
+    "meta": "2020",
+    "summary": "",
+    "year": 2020,
+    "sort": 2020,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "A Study of Cider Distillates Using Sensory and Chromatographic Data and Chemometric Analysis",
+    "url": "https://doi.org/10.1111/j.1365-2621.2005.tb07158.x",
+    "vertical": "whiskey",
+    "meta": "2005",
+    "summary": "",
+    "year": 2005,
+    "sort": 2005,
+    "theme": "Sensory & recipe"
+  },
+  {
+    "kind": "paper",
+    "title": "Neural Network Modeling for Predicting Brewing Fermentations",
+    "url": "https://doi.org/10.1094/asbcj-52-0015",
+    "vertical": "beer",
+    "meta": "1994",
+    "summary": "",
+    "year": 1994,
+    "sort": 1994,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "Discrimination and quantification of volatile compounds in beer by FTIR combined with machine learning approaches",
+    "url": "https://doi.org/10.1016/j.fochx.2024.101300",
+    "vertical": "beer",
+    "meta": "2024",
+    "summary": "",
+    "year": 2024,
+    "sort": 2024,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "An Analysis of Seed Colour During Ripening of Cabernet Sauvignon Grapes",
+    "url": "https://doi.org/10.21548/38-1-809",
+    "vertical": "wine",
+    "meta": "2017",
+    "summary": "",
+    "year": 2017,
+    "sort": 2017,
+    "theme": "Agriculture & crop"
+  },
+  {
+    "kind": "paper",
+    "title": "Quantitative modelling of Plato and total flavonoids in Qingke wort at mashing and boiling stages based on FT-IR combined with deep learning and chemometrics",
+    "url": "https://doi.org/10.1016/j.fochx.2024.101673",
+    "vertical": "beer",
+    "meta": "2024",
+    "summary": "",
+    "year": 2024,
+    "sort": 2024,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "An artificial neural network as a tool for kombucha fermentation improvement",
+    "url": "https://doi.org/10.2298/ciceq211013002c",
+    "vertical": "beer",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Process & operations"
+  },
+  {
+    "kind": "paper",
+    "title": "Chemometric studies of hops degradation at different storage forms using UV-Vis, NIRS and UPLC analyses",
+    "url": "https://doi.org/10.1590/1981-6723.09321",
+    "vertical": "beer",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Prediction of Wine Quality: Comparing Machine Learning Models in R Programming",
+    "url": "https://doi.org/10.51583/ijltemas.2022.11901",
+    "vertical": "wine",
+    "meta": "2022",
+    "summary": "",
+    "year": 2022,
+    "sort": 2022,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "APPLICATION OF ARTIFICIAL NEURAL NETWORK TO PREDICTION OF CANTONESE SOY SAUCE BREWING AND CHANGING PATTERN CONCERNING TOTAL NITROGEN AND α‐AMINO ACID NITROGEN",
+    "url": "https://doi.org/10.1111/j.1745-4530.2010.00588.x",
+    "vertical": "beer",
+    "meta": "2010",
+    "summary": "",
+    "year": 2010,
+    "sort": 2010,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Near-Infrared Spectroscopy Combined with Multivariate Analysis for the Geographical Origin Traceability of New Zealand Hops",
+    "url": "https://doi.org/10.1007/s11947-025-03776-y",
+    "vertical": "beer",
+    "meta": "2025",
+    "summary": "",
+    "year": 2025,
+    "sort": 2025,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "White Wine Quality Prediction and Analysis with Machine Learning Techniques",
+    "url": "http://dx.doi.org/10.54097/hset.v39i.6548",
+    "vertical": "wine",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Low-Cost Electronic Nose for Identification of Wood Species in Which Brazilian Sugar Cane Spirit Was Aged",
+    "url": "https://doi.org/10.3390/chemosensors13050172",
+    "vertical": "whiskey",
+    "meta": "2025",
+    "summary": "",
+    "year": 2025,
+    "sort": 2025,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Ethanol Concentration Determination in Baijiu by Graph-Regularized PCA and Random Forest-Based Raman Spectroscopy",
+    "url": "https://doi.org/10.1021/acsomega.5c00616",
+    "vertical": "whiskey",
+    "meta": "2025",
+    "summary": "",
+    "year": 2025,
+    "sort": 2025,
+    "theme": "Other"
+  },
+  {
+    "kind": "paper",
+    "title": "Machine Learning on Wine Quality: Prediction and Feature Importance Analysis",
+    "url": "https://doi.org/10.54097/hset.v41i.6803",
+    "vertical": "wine",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "White Wine Quality Prediction and Feature Importance Analysis Based on Chemical Composition and Machine Learning Models",
+    "url": "http://dx.doi.org/10.54097/hset.v41i.6800",
+    "vertical": "wine",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "Comparison of the red wine quality prediction accuracy using 5 Machine Learning Model",
+    "url": "https://doi.org/10.54097/hset.v60i.10346",
+    "vertical": "wine",
+    "meta": "2023",
+    "summary": "",
+    "year": 2023,
+    "sort": 2023,
+    "theme": "Quality & inspection"
+  },
+  {
+    "kind": "paper",
+    "title": "ZASTOSOWANIE METOD CHEMOMETRYCZNYCH DO WOLTAMPEROMETRYCZNEGO PROFILOWANIA ŻYWNOŚCI",
+    "url": "https://doi.org/10.53584/wiadchem.2025.1.3",
+    "vertical": "whiskey",
+    "meta": "2025",
+    "summary": "",
+    "year": 2025,
+    "sort": 2025,
+    "theme": "Other"
   },
   {
     "kind": "paper",
@@ -287,7 +1772,7 @@
     "summary": "Heineken is scaling generative and predictive AI across brewing, forecasting, and salesforce recommendations as part of its best-connected-brewer strategy.",
     "year": 2024,
     "sort": "2024-10-16",
-    "theme": "Consumer & personalization"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "news",
@@ -299,7 +1784,7 @@
     "summary": "Heineken details three production AI products, AIDDA for sales, Allocation AI for marketing spend, and Promo Advisor for promotions, running across global operating companies.",
     "year": 2025,
     "sort": "2025-02-05",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "news",
@@ -383,7 +1868,7 @@
     "summary": "Pernod Ricard was ranked the top European and leading drinks company for data and AI talent, citing tools like its D-Star sales platform and Genie gen-AI marketing pilot.",
     "year": 2024,
     "sort": "2024-04-04",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "news",
@@ -467,7 +1952,7 @@
     "summary": "A growing wine company standardized on Tableau so business units could self-serve prebuilt sales dashboards from a single source of truth.",
     "year": 2012,
     "sort": "2012",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "news",
@@ -491,7 +1976,7 @@
     "summary": "New Belgium Brewing ran Dynamics CRM and Dynamics AX with a custom field app to give Beer Rangers nightly sales, inventory, and account data.",
     "year": 2015,
     "sort": "2015-03-12",
-    "theme": "Demand & pricing"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "news",
@@ -515,7 +2000,7 @@
     "summary": "AB InBev with partner Pluto7 built a TensorFlow and BigQuery model on Google Cloud to optimize beer filtration, raising barrelage per filter run by 60 percent.",
     "year": 2018,
     "sort": "2018",
-    "theme": "Other"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "news",
@@ -527,7 +2012,7 @@
     "summary": "Brewer Lion built cloud infrastructure on Google Cloud with BigQuery and Looker Studio to cut TCO and improve demand-forecast accuracy with AI.",
     "year": null,
     "sort": "",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "news",
@@ -563,7 +2048,7 @@
     "summary": "Charts and data tables of U.S. beer production, sales, and brewery counts from 1873 to present, updated annually for craft industry analysis.",
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "news",
@@ -575,7 +2060,7 @@
     "summary": "Per-state craft beer production volumes, brewery counts, and economic figures compiled into browsable statistical breakdowns.",
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "news",
@@ -599,7 +2084,7 @@
     "summary": "Aggregated financial, operations, salary, and demographic benchmarking datasets (spreadsheets on revenue, COGS, margins) for member breweries.",
     "year": null,
     "sort": "",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "news",
@@ -755,7 +2240,7 @@
     "summary": "The article explains how machine learning and predictive analytics improve beverage demand forecasting accuracy, inventory turnover and waste reduction versus traditional history-based methods.",
     "year": null,
     "sort": "",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "news",
@@ -767,7 +2252,7 @@
     "summary": "The piece covers how FP&A, rolling forecasts, scenario planning and capacity modeling help beverage companies protect margins.",
     "year": null,
     "sort": "",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "news",
@@ -815,7 +2300,7 @@
     "summary": "Arryved's product page for brewery operations, covering production planning, depletion-based inventory analytics and real-time reporting.",
     "year": null,
     "sort": "",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "news",
@@ -851,7 +2336,7 @@
     "summary": "Asahi Europe & International worked with EY and Microsoft on a managed-services approach that rewrote its trade promotion optimisation using AI.",
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "news",
@@ -971,7 +2456,7 @@
     "featured": true,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -1079,7 +2564,7 @@
     "featured": true,
     "year": 2026,
     "sort": "2026",
-    "theme": "Other"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -1403,7 +2888,7 @@
     "featured": true,
     "year": 2023,
     "sort": "2023-01-19",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -1475,7 +2960,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -1571,7 +3056,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -1595,7 +3080,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -1631,7 +3116,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Other"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -1643,7 +3128,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Compliance & licensing"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -1655,7 +3140,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Compliance & licensing"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -1667,7 +3152,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Compliance & licensing"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -1679,7 +3164,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Other"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -1691,7 +3176,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -1703,7 +3188,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Other"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "blog",
@@ -1739,7 +3224,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -1823,7 +3308,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -1859,7 +3344,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Other"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "blog",
@@ -1883,7 +3368,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Other"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -1943,7 +3428,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2027,7 +3512,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2039,7 +3524,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2051,7 +3536,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2063,7 +3548,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2075,7 +3560,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2087,7 +3572,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2135,7 +3620,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Sensory & recipe"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "blog",
@@ -2183,7 +3668,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2195,7 +3680,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -2219,7 +3704,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Other"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "blog",
@@ -2267,7 +3752,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2279,7 +3764,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -2303,7 +3788,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2399,7 +3884,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2411,7 +3896,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Other"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "blog",
@@ -2435,7 +3920,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -2447,7 +3932,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -2471,7 +3956,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Process & operations"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "blog",
@@ -2483,7 +3968,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -2507,7 +3992,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2555,7 +4040,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -2567,7 +4052,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Supply chain"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -2639,7 +4124,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Sensory & recipe"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "blog",
@@ -2651,7 +4136,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -2747,7 +4232,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Other"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -2807,7 +4292,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Process & operations"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "blog",
@@ -2867,7 +4352,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2879,7 +4364,7 @@
     "featured": false,
     "year": 2026,
     "sort": "2026",
-    "theme": "Other"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -2927,7 +4412,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -2951,7 +4436,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -2999,7 +4484,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3023,7 +4508,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Process & operations"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3035,7 +4520,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3047,7 +4532,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3083,7 +4568,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Process & operations"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "blog",
@@ -3107,7 +4592,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Other"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -3131,7 +4616,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Consumer & personalization"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -3191,7 +4676,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3203,7 +4688,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3215,7 +4700,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3239,7 +4724,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -3263,7 +4748,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3287,7 +4772,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3299,7 +4784,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3335,7 +4820,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Other"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -3347,7 +4832,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3371,7 +4856,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3395,7 +4880,7 @@
     "featured": false,
     "year": 2025,
     "sort": "2025",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3431,7 +4916,7 @@
     "featured": false,
     "year": 2024,
     "sort": "2024",
-    "theme": "Other"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -3455,7 +4940,7 @@
     "featured": false,
     "year": 2024,
     "sort": "2024",
-    "theme": "Process & operations"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "blog",
@@ -3575,7 +5060,7 @@
     "featured": false,
     "year": 2024,
     "sort": "2024",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3743,7 +5228,7 @@
     "featured": false,
     "year": 2024,
     "sort": "2024",
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -3815,7 +5300,7 @@
     "featured": false,
     "year": 2024,
     "sort": "2024",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3851,7 +5336,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3935,7 +5420,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -3983,7 +5468,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Other"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "blog",
@@ -4031,7 +5516,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -4043,7 +5528,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -4067,7 +5552,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Other"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -4115,7 +5600,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -4127,7 +5612,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -4175,7 +5660,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -4259,7 +5744,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Other"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "blog",
@@ -4331,7 +5816,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -4379,7 +5864,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Other"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "blog",
@@ -4403,7 +5888,7 @@
     "featured": false,
     "year": 2023,
     "sort": "2023",
-    "theme": "Sensory & recipe"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "blog",
@@ -4499,7 +5984,7 @@
     "featured": false,
     "year": 2022,
     "sort": "2022",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -4511,7 +5996,7 @@
     "featured": false,
     "year": 2022,
     "sort": "2022",
-    "theme": "Sensory & recipe"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "blog",
@@ -4535,7 +6020,7 @@
     "featured": false,
     "year": 2022,
     "sort": "2022",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -4643,7 +6128,7 @@
     "featured": false,
     "year": 2021,
     "sort": "2021",
-    "theme": "Other"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "blog",
@@ -4691,7 +6176,7 @@
     "featured": false,
     "year": 2021,
     "sort": "2021",
-    "theme": "Demand & pricing"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "blog",
@@ -4751,7 +6236,7 @@
     "featured": false,
     "year": 2021,
     "sort": "2021",
-    "theme": "Process & operations"
+    "theme": "Supply chain"
   },
   {
     "kind": "blog",
@@ -4775,7 +6260,7 @@
     "featured": false,
     "year": 2021,
     "sort": "2021",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -4799,7 +6284,7 @@
     "featured": false,
     "year": 2020,
     "sort": "2020",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -4895,7 +6380,7 @@
     "featured": false,
     "year": 2020,
     "sort": "2020",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -4931,7 +6416,7 @@
     "featured": false,
     "year": 2020,
     "sort": "2020",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "blog",
@@ -4979,7 +6464,7 @@
     "featured": false,
     "year": 2020,
     "sort": "2020",
-    "theme": "Process & operations"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "blog",
@@ -5051,7 +6536,7 @@
     "stars": 76,
     "year": null,
     "sort": 76,
-    "theme": "Consumer & personalization"
+    "theme": "Other"
   },
   {
     "kind": "repo",
@@ -5303,7 +6788,7 @@
     "stars": 147,
     "year": null,
     "sort": 147,
-    "theme": "Process & operations"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "repo",
@@ -5351,7 +6836,7 @@
     "stars": 197,
     "year": null,
     "sort": 197,
-    "theme": "Other"
+    "theme": "Supply chain"
   },
   {
     "kind": "repo",
@@ -5507,7 +6992,7 @@
     "stars": 15,
     "year": null,
     "sort": 15,
-    "theme": "Sensory & recipe"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "repo",
@@ -5783,7 +7268,7 @@
     "stars": 12,
     "year": null,
     "sort": 12,
-    "theme": "Process & operations"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "repo",
@@ -5795,7 +7280,7 @@
     "stars": 168,
     "year": null,
     "sort": 168,
-    "theme": "Other"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "repo",
@@ -5842,7 +7327,7 @@
     "summary": "Long-form Krones magazine piece on applying real-time AI across beverage supply chains: demand sensing, line-level responsiveness and the data plumbing it needs. Vendor-authored, so read the claims as vendor claims, but it is one of the few pieces that describes the operating model rather than the marketing.",
     "year": 2025,
     "sort": 2025,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "whitepaper",
@@ -5864,7 +7349,7 @@
     "summary": "Krones on using AI-backed digital twins to cut energy, water and material use on beverage lines. Useful as the sustainability-framed counterpart to the throughput argument, which is how most of these projects actually get funded.",
     "year": 2025,
     "sort": 2025,
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "whitepaper",
@@ -6043,7 +7528,7 @@
     "featured": false,
     "year": 2018,
     "sort": 2018,
-    "theme": "Process & operations"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "video",
@@ -6463,7 +7948,7 @@
     "featured": true,
     "year": null,
     "sort": 0,
-    "theme": "Other"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "video",
@@ -6519,7 +8004,7 @@
     "featured": false,
     "year": 2026,
     "sort": 2026,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -6673,7 +8158,7 @@
     "featured": false,
     "year": 2019,
     "sort": 2019,
-    "theme": "Process & operations"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "video",
@@ -6799,7 +8284,7 @@
     "featured": false,
     "year": 2023,
     "sort": 2023,
-    "theme": "Process & operations"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "video",
@@ -6841,7 +8326,7 @@
     "featured": false,
     "year": 2026,
     "sort": 2026,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -6855,7 +8340,7 @@
     "featured": false,
     "year": 2026,
     "sort": 2026,
-    "theme": "Other"
+    "theme": "Process & operations"
   },
   {
     "kind": "video",
@@ -7121,7 +8606,7 @@
     "featured": false,
     "year": 2024,
     "sort": 2024,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -7359,7 +8844,7 @@
     "featured": false,
     "year": 2020,
     "sort": 2020,
-    "theme": "Other"
+    "theme": "Supply chain"
   },
   {
     "kind": "video",
@@ -7877,7 +9362,7 @@
     "featured": false,
     "year": 2023,
     "sort": 2023,
-    "theme": "Process & operations"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "video",
@@ -7905,7 +9390,7 @@
     "featured": false,
     "year": 2020,
     "sort": 2020,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -7919,7 +9404,7 @@
     "featured": false,
     "year": 2025,
     "sort": 2025,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -7933,7 +9418,7 @@
     "featured": false,
     "year": 2023,
     "sort": 2023,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -7947,7 +9432,7 @@
     "featured": false,
     "year": 2022,
     "sort": 2022,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -7975,7 +9460,7 @@
     "featured": false,
     "year": 2025,
     "sort": 2025,
-    "theme": "Other"
+    "theme": "ESG & sustainability"
   },
   {
     "kind": "video",
@@ -8101,7 +9586,7 @@
     "featured": false,
     "year": 2025,
     "sort": 2025,
-    "theme": "Sensory & recipe"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "video",
@@ -8157,7 +9642,7 @@
     "featured": false,
     "year": 2011,
     "sort": 2011,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -8297,7 +9782,7 @@
     "featured": false,
     "year": 2021,
     "sort": 2021,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -8409,7 +9894,7 @@
     "featured": false,
     "year": 2025,
     "sort": 2025,
-    "theme": "Other"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "video",
@@ -8479,7 +9964,7 @@
     "featured": false,
     "year": 2026,
     "sort": 2026,
-    "theme": "Other"
+    "theme": "Agriculture & crop"
   },
   {
     "kind": "video",
@@ -8549,7 +10034,7 @@
     "featured": false,
     "year": 2026,
     "sort": 2026,
-    "theme": "Process & operations"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "video",
@@ -8619,7 +10104,7 @@
     "featured": false,
     "year": 2022,
     "sort": 2022,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -8647,7 +10132,7 @@
     "featured": false,
     "year": 2018,
     "sort": 2018,
-    "theme": "Process & operations"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "video",
@@ -8717,7 +10202,7 @@
     "featured": false,
     "year": 2019,
     "sort": 2019,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -8829,7 +10314,7 @@
     "featured": false,
     "year": 2021,
     "sort": 2021,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -8843,7 +10328,7 @@
     "featured": false,
     "year": 2021,
     "sort": 2021,
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "video",
@@ -9383,7 +10868,7 @@
     "summary": "Brewer and senior data analyst Ankur Napa walks through machine learning, fermentation monitoring, and predictive analytics for brewhouse efficiency.",
     "year": 2024,
     "sort": "2024-06-10",
-    "theme": "Process & operations"
+    "theme": "Engineering & equipment"
   },
   {
     "kind": "podcast",
@@ -9460,7 +10945,7 @@
     "summary": "Somm.ai co-founder Jeremy Hart explains AI-driven sales analytics across roughly 100,000 on-premise wine accounts for benchmarking and pricing.",
     "year": 2026,
     "sort": "2026-04-14",
-    "theme": "Demand & pricing"
+    "theme": "Sales, demand & pricing"
   },
   {
     "kind": "podcast",

@@ -201,6 +201,23 @@ def main() -> int:
         deduped.append(r)
     rows = deduped
     OUT.parent.mkdir(parents=True, exist_ok=True)
+    # A failed fetch looks exactly like an empty result set, and on 2026-09-19 the
+    # scheduled sweep wrote this file down from 135 papers to 2 and committed it.
+    # OpenAlex now rate-limits keyless requests, so that will happen again. Refuse
+    # to shrink the file by more than half: a real sweep never loses that much.
+    if OUT.exists():
+        try:
+            previous = len(json.loads(OUT.read_text()))
+        except (json.JSONDecodeError, OSError):
+            previous = 0
+        if previous and len(rows) < previous * 0.5:
+            print(
+                f"REFUSING TO WRITE: {len(rows)} papers would replace {previous}. "
+                "That is a collapse, not a sweep, and usually means the API rate "
+                "limited us. The existing file is left untouched.",
+                file=sys.stderr,
+            )
+            return 1
     OUT.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n")
 
     print(f"\n{stats['fetched']} fetched · {stats['off_topic']} failed the relevance gate · "
