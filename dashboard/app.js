@@ -1286,6 +1286,7 @@ function applyEvents() {
     ? shown.map(eventCard).join("")
     : '<p class="empty">No events match these filters.</p>';
   $("ecount").textContent = `${shown.length} of ${EVENTS.length}`;
+  kpisFor("events", shown, EVENTS);
 }
 
 async function loadEvents() {
@@ -1493,6 +1494,14 @@ const KPI_BUILDERS = {
     [rows.filter((j) => j.tracked_company).length, "on the radar", "employer already tracked"],
     [uniq(rows, (j) => j.company), plural(uniq(rows, (j) => j.company), "employers"), "hiring right now"],
     [uniq(rows, (j) => j.country), plural(uniq(rows, (j) => j.country), "countries"), "where the roles are"],
+  ],
+  // Events had no entry here, so the strip kept whatever the last tab painted:
+  // the Events tab showed 1015 companies and 297 people.
+  events: (rows, all) => [
+    [rows.length, rows.length === all.length ? "events" : "matching", sub(rows.length, all.length, "events", "fairs, conferences and talks")],
+    [rows.filter((e) => e.state === "upcoming").length, "upcoming", "dated and still ahead"],
+    [rows.filter((e) => e.speaking).length, "speaking", "where Ankur is on stage"],
+    [uniq(rows, (e) => e.country), plural(uniq(rows, (e) => e.country), "countries"), "where they gather"],
   ],
   prospects: (rows, all) => [
     [rows.length, rows.length === all.length ? "targets" : "matching", sub(rows.length, all.length, "targets", "named and sourced")],
