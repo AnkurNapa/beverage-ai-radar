@@ -132,7 +132,10 @@
 
   <!-- version query busts the 10-minute Pages cache on every restyle;
        bump it whenever styles.css changes -->
-  <link rel="stylesheet" href="styles.css?v=0f562228d2" />
+  <link rel="stylesheet" href="styles.css?v=a49da050a9" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha384-c6Rcwz4e4CITMbu/NBmnNS8yN2sC3cUElMEMfP3vqqKFp7GOYaaBBCqmaWBjmkjb" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" integrity="sha384-pmjIAcz2bAn0xukfxADbZIb3t8oRT9Sv0rvO+BR5Csr6Dhqq+nZs59P0pPKQJkEV" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" integrity="sha384-wgw+aLYNQ7dlhK47ZPK7FRACiq7ROZwgFNg0m04avm4CaXS+Z9Y7nMu8yNjBKYC+" crossorigin="anonymous">
 </head>
 <body data-view="companies">
 <!-- Crawlable entry point. The dashboard renders from data.json in JS, which
@@ -270,7 +273,7 @@
 
   <section class="wrap view" id="view-companies">
     <section class="card wmap-card" aria-label="Where the companies are">
-      <h2>Where they are <span class="wmap-hint">click a country to filter</span></h2>
+      <h2>Where they are <span class="wmap-hint">click a pin to filter</span></h2>
       <div id="world-companies"></div>
     </section>
 
@@ -344,7 +347,7 @@
       <span id="pcount" class="count"></span>
     </section>
     <section class="card wmap-card" aria-label="Where the people are">
-      <h2>Where they are <span class="wmap-hint">by their company's base · click to filter</span></h2>
+      <h2>Where they are <span class="wmap-hint">by their company's base · click a pin to filter</span></h2>
       <div id="world-people"></div>
     </section>
     <section id="people-list" class="people-list" aria-live="polite"></section>
@@ -407,7 +410,7 @@
       <span id="ecount" class="count"></span>
     </section>
     <section class="card wmap-card" aria-label="Where the events are">
-      <h2>Where they are <span class="wmap-hint">click a country to filter</span></h2>
+      <h2>Where they are <span class="wmap-hint">click a pin to filter</span></h2>
       <div id="world-events"></div>
     </section>
     <section id="events-grid" class="grid" aria-live="polite"></section>
@@ -427,7 +430,7 @@
       <span id="jcount" class="count"></span>
     </section>
     <section class="card wmap-card" aria-label="Where the roles are">
-      <h2>Where they are <span class="wmap-hint">click a country to filter</span></h2>
+      <h2>Where they are <span class="wmap-hint">click a pin to filter</span></h2>
       <div id="world-jobs"></div>
     </section>
     <section id="jobs-grid" class="grid" aria-live="polite"></section>
@@ -444,7 +447,7 @@
       <span id="prcount" class="count"></span>
     </section>
     <section class="card wmap-card" aria-label="Where the targets are">
-      <h2>Where they are <span class="wmap-hint">click a region to filter</span></h2>
+      <h2>Where they are <span class="wmap-hint">click a pin to filter</span></h2>
       <div id="world-prospects"></div>
     </section>
     <section id="prospects-grid" class="grid" aria-live="polite"></section>
@@ -598,7 +601,9 @@
     </div>
   </footer>
 
-  <script type="module" src="app.js?v=29fcaf713c"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha384-NElt3Op+9NBMCYaef5HxeJmU4Xeard/Lku8ek6hoPTvYkQPh3zLIrJP7KiRocsxO" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" integrity="sha384-eXVCORTRlv4FUUgS/xmOyr66XBVraen8ATNLMESp92FKXLAMiKkerixTiBvXriZr" crossorigin="anonymous"></script>
+  <script type="module" src="app.js?v=37d6efcdde"></script>
 
 </body>
 </html>

@@ -1614,241 +1614,112 @@ const capChip = (name) =>
   `<span class="chip chip--cap">${CAP_ICONS[name] || ""}${esc(name)}</span>`;
 
 // --- World map -----------------------------------------------------------
-// A real projected choropleth. world-paths.json is built once by
-// scripts/build_worldmap.py from a downloaded GeoJSON and committed, so the
-// page still fetches nothing external at runtime.
-let WORLD_PATHS = null;
+// Leaflet on OpenStreetMap tiles, one pin per entry at its city, clustered
+// until you zoom in (the same map as Tap List India). Coordinates come from
+// geo.json, built by scripts/build_geocode.py; a place it could not resolve
+// falls back to its country's pin rather than vanishing.
+let GEO = {};
 
-// Prospect rows carry a region, not a country, so a region paints every
-// country inside it. Only countries that appear in the data need listing.
+// Prospect rows carry a region, not a place, so a region pins at the first
+// country listed for it.
 const REGION_COUNTRIES = {
   "North America": ["United States", "Canada", "Mexico"],
   "Latin America": ["Brazil", "Chile", "Argentina", "Peru", "Colombia", "Dominican Republic", "Uruguay"],
   "UK & Ireland": ["United Kingdom", "Ireland"],
   "Germany & DACH": ["Germany", "Austria", "Switzerland"],
   "Nordics": ["Sweden", "Norway", "Denmark", "Finland", "Iceland"],
-  "Europe (other)": ["France", "Italy", "Spain", "Portugal", "Netherlands", "Belgium",
-    "Luxembourg", "Poland", "Czechia", "Slovakia", "Greece", "Hungary", "Romania", "Estonia"],
-  "Africa": ["South Africa", "Kenya", "Nigeria", "Tanzania", "Namibia", "Morocco", "Egypt", "Ethiopia"],
-  "Middle East": ["Israel", "United Arab Emirates", "Saudi Arabia", "Turkey", "Lebanon", "Jordan"],
+  "Europe (other)": ["France", "Italy", "Spain", "Portugal", "Netherlands", "Belgium"],
+  "Africa": ["South Africa", "Kenya", "Nigeria"],
+  "Middle East": ["Israel", "Turkey"],
   "India": ["India"],
-  "Southeast Asia": ["Vietnam", "Thailand", "Singapore", "Malaysia", "Indonesia", "Philippines", "Cambodia"],
+  "Southeast Asia": ["Singapore", "Vietnam", "Thailand"],
   "Greater China": ["China", "Taiwan"],
   "Japan": ["Japan"],
-  "Korea": ["Korea"],
+  "Korea": ["South Korea"],
   "Australia & NZ": ["Australia", "New Zealand"],
 };
 
-const VERT_LABEL = { beer: "beer", whiskey: "whiskey", whisky: "whisky", wine: "wine",
-                     multiple: "multiple" };
-
-// Dominant SPECIFIC vertical: "multiple" is the largest bucket overall, so
-// letting it win would make most of the map say nothing about the drink.
-function topVertical(rows) {
-  const tally = {};
-  for (const r of rows) tally[r.vertical] = (tally[r.vertical] || 0) + 1;
-  const specific = Object.entries(tally)
-    .filter(([k]) => k && k !== "multiple").sort((a, b) => b[1] - a[1])[0];
-  return specific ? specific[0] : "multiple";
+async function loadGeo() {
+  try { GEO = await (await fetch("geo.json")).json(); } catch { GEO = {}; }
 }
 
-async function loadWorldPaths() {
-  if (WORLD_PATHS) return WORLD_PATHS;
-  try { WORLD_PATHS = await (await fetch("world-paths.json")).json(); }
-  catch { WORLD_PATHS = { paths: {}, points: {} }; }
-  return WORLD_PATHS;
-}
+const coordOf = (r, key) =>
+  GEO[r.hq_location] || GEO[r.location] || GEO[key] || GEO[REGION_COUNTRIES[key]?.[0]] || null;
 
-// Synchronous by design. It runs on every filter change, and an async
-// innerHTML swap there flickers and drops keyboard focus mid-render. The
-// geometry is fetched once in main() before the first paint instead.
+const WORLD_VIEW = { center: [25, 10], zoom: 2 };
+
+// Synchronous and cheap on repeat calls: apply() runs this on every keystroke,
+// so the Leaflet map is built once per element and only its pins are swapped
+// when the rows actually change.
 function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
-  const world = WORLD_PATHS || { paths: {}, points: {} };
-  const paths = world.paths || {};
-  // City-states have no drawable polygon, so they render as a marker. Without
-  // them a country holding data would simply not appear.
-  const points = world.points || {};
-  if (!Object.keys(paths).length) { el.innerHTML = ""; return; }
-  const byKey = {};
-  for (const r of rows) {
-    const k = keyOf(r);
-    if (!k || k === "unknown") continue;
-    (byKey[k] = byKey[k] || []).push(r);
-  }
-  // A key is either a country itself, or a region covering several.
-  const countriesFor = (k) => REGION_COUNTRIES[k] || [k];
-  const paint = {};                       // country -> {key, n, vertical}
-  for (const [k, list] of Object.entries(byKey)) {
-    for (const c of countriesFor(k)) {
-      if (paths[c] || points[c])
-        paint[c] = { key: k, n: list.length, vertical: topVertical(list), rows: list };
-    }
-  }
-  const max = Math.max(1, ...Object.values(byKey).map((v) => v.length));
-
-  const body = Object.entries(paths).map(([name, d]) => {
-    const hit = paint[name];
-    if (!hit) return `<path d="${d}" class="wc" />`;
-    // sqrt so a 67-company US does not flatten everything else to invisible
-    const w = (0.2 + 0.8 * Math.sqrt(hit.n / max)).toFixed(2);
-    const on = activeKey && hit.key === activeKey ? " is-on" : "";
-    return `<path d="${d}" class="wc wc--has${on}" style="--w:${w}"
-      data-place="${esc(hit.key)}" data-n="${hit.n}" data-v="${esc(VERT_LABEL[hit.vertical] || "")}"
-      tabindex="0" role="button" aria-label="${esc(hit.key)}: ${hit.n}"><title>${esc(hit.key)}: ${hit.n}</title></path>`;
-  }).join("");
-
-  // Inline count labels, but only where the landmass can actually hold text.
-  // Below this the label spills into neighbouring countries; dense Europe is
-  // covered by the tooltip instead of a pile of overlapping numbers.
-  const LABEL_MIN_AREA = 260;
-  const labels = world.labels || {};
-  const nums = Object.entries(paint).map(([name, hit]) => {
-    const l = labels[name];
-    if (!l || l[2] < LABEL_MIN_AREA) return "";
-    return `<text class="wc__num" x="${l[0]}" y="${l[1]}">${hit.n}</text>`;
-  }).join("");
-
-  const dots = Object.entries(points).filter(([name]) => paint[name]).map(([name, [x, y]]) => {
-    const hit = paint[name];
-    const w = (0.2 + 0.8 * Math.sqrt(hit.n / max)).toFixed(2);
-    const on = activeKey && hit.key === activeKey ? " is-on" : "";
-    return `<circle cx="${x}" cy="${y}" r="3.2" class="wc wc--has wc--dot${on}" style="--w:${w}"
-      data-place="${esc(hit.key)}" data-n="${hit.n}" tabindex="0" role="button"
-      aria-label="${esc(hit.key)}: ${hit.n}" data-name="${esc(name)}"></circle>`;
-  }).join("");
-
-  el.innerHTML =
-    `<svg class="wmap" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid meet"
-       role="group" aria-label="${esc(opts.label || "World map")}">${body}${dots}${nums}</svg>
-     <button class="wmap__back" type="button">← Back to world</button>
-     <div class="wtip" hidden></div>
-     <div class="wdetail"></div>
-     <div class="wmap__legend">
-       <span class="wmap__scale"><i style="--w:.25"></i><i style="--w:.5"></i><i style="--w:.75"></i><i style="--w:1"></i></span>
-       <span>few</span><span class="wmap__spacer"></span><span>many</span>
-       <span class="wmap__note">${Object.keys(byKey).length} ${opts.unit || "places"} · click to filter</span>
-     </div>`;
-  // --- zoom -------------------------------------------------------------
-  // viewBox cannot be CSS-transitioned reliably, so tween it by hand. Zooming
-  // to a bbox rather than a fixed scale means a small country fills the frame
-  // as usefully as a large one.
-  const svgEl = el.querySelector("svg.wmap");
-  const HOME = [0, 0, 1000, 500];
-  function tweenViewBox(to, ms = 420) {
-    // ms of 0 is the re-render restore path. Without this guard the first
-    // frame computes (now - t0) / 0 === 0/0 === NaN and writes "NaN NaN NaN NaN"
-    // into viewBox, which the browser rejects and the map silently stops
-    // zooming.
-    if (!ms) { svgEl.setAttribute("viewBox", to.join(" ")); return; }
-    const from = (svgEl.getAttribute("viewBox") || HOME.join(" ")).split(/\s+/).map(Number);
-    const t0 = performance.now();
-    const ease = (u) => (u < .5 ? 2 * u * u : 1 - Math.pow(-2 * u + 2, 2) / 2);
-    (function step(now) {
-      const u = Math.min(1, (now - t0) / ms), k = ease(u);
-      svgEl.setAttribute("viewBox", from.map((v, i) => v + (to[i] - v) * k).join(" "));
-      if (u < 1) requestAnimationFrame(step);
-    })(t0);
-  }
-  function zoomTo(placeKey, ms) {
-    const parts = [...svgEl.querySelectorAll(`[data-place="${CSS.escape(placeKey)}"]`)];
-    if (!parts.length) return;
-    let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
-    for (const n of parts) {
-      const b = n.getBBox();
-      x0 = Math.min(x0, b.x); y0 = Math.min(y0, b.y);
-      x1 = Math.max(x1, b.x + b.width); y1 = Math.max(y1, b.y + b.height);
-    }
-    // Pad, and never zoom tighter than this: a city-state at its own bbox
-    // would be a 3px dot filling the screen with no surrounding context.
-    const MIN = 90;
-    let w = Math.max(x1 - x0, MIN), h = Math.max(y1 - y0, MIN * 0.5);
-    const pad = Math.max(w, h * 2) * 0.35;
-    w += pad; h += pad / 2;
-    const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
-    // keep the 2:1 aspect of the viewBox so nothing distorts
-    if (w / h < 2) w = h * 2; else h = w / 2;
-    tweenViewBox([cx - w / 2, cy - h / 2, w, h], ms === undefined ? 420 : ms);
-    el.classList.add("is-zoomed");
-  }
-  function zoomHome() {
-    tweenViewBox(HOME);
-    el.classList.remove("is-zoomed");
-    el.querySelector(".wdetail").innerHTML = "";
-  }
-  el.querySelector(".wmap__back").addEventListener("click", () => {
-    zoomHome();
-    onPick(null);                      // also clears the filter
-  });
-
-  // --- granular detail for the selected place ----------------------------
-  function showPlaceDetail(placeKey) {
-    const hit = Object.values(paint).find((h) => h.key === placeKey);
-    const box = el.querySelector(".wdetail");
-    if (!hit) { box.innerHTML = ""; return; }
-    const rows = hit.rows.slice().sort((a, b) =>
-      (b.people?.length || 0) - (a.people?.length || 0));
-    box.innerHTML = `
-      <div class="wdetail__h">${esc(placeKey)} · ${hit.n} ${plural(hit.n, opts.noun || "entries")}</div>
-      <ul class="wdetail__list">${rows.slice(0, 40).map((r) => `
-        <li>
-          <span class="wdetail__n">${esc(r.name || r.company || "")}</span>
-          ${r.vertical ? `<span class="chip chip--v chip--${esc(r.vertical)}">${vlab(r.vertical)}</span>` : ""}
-          <span class="wdetail__m">${esc(r.hq_location || r.hq || r.segment || "")}</span>
-        </li>`).join("")}</ul>
-      ${rows.length > 40 ? `<div class="wdetail__more">+${rows.length - 40} more in the list below</div>` : ""}`;
-  }
-
-  const tip = el.querySelector(".wtip");
-  const summarise = (hit, placeName) => {
-    const byV = {};
-    for (const r of hit.rows) byV[r.vertical || "?"] = (byV[r.vertical || "?"] || 0) + 1;
-    const verticals = Object.entries(byV).sort((a, b) => b[1] - a[1])
-      .map(([v, c]) => `<span class="wtip__v">${esc(v)} ${c}</span>`).join("");
-    // Name a few so the tooltip answers "who?", not just "how many?"
-    const names = hit.rows.slice(0, 3)
-      .map((r) => esc(r.name || r.company || "")).filter(Boolean);
-    const more = hit.rows.length - names.length;
-    return `<div class="wtip__h">${esc(placeName || hit.key)}</div>
-      <div class="wtip__n">${hit.n} ${plural(hit.n, opts.noun || "entries")}</div>
-      <div class="wtip__vs">${verticals}</div>
-      ${names.length ? `<div class="wtip__list">${names.join(", ")}${more > 0 ? ` +${more} more` : ""}</div>` : ""}`;
-  };
-  const show = (node, e) => {
-    const hit = paint[node.dataset.name || ""] ||
-      Object.values(paint).find((h) => h.key === node.dataset.place);
-    if (!hit) return;
-    tip.innerHTML = summarise(hit, node.dataset.name || node.dataset.place);
-    tip.hidden = false;
-    const box = el.getBoundingClientRect();
-    // Flip to the left near the right edge so the tooltip never leaves the card.
-    const x = e.clientX - box.left, y = e.clientY - box.top;
-    tip.style.left = `${Math.min(x + 14, box.width - tip.offsetWidth - 8)}px`;
-    tip.style.top = `${Math.max(y - tip.offsetHeight - 12, 4)}px`;
-  };
-  el.querySelectorAll("[data-place]").forEach((n) => {
-    n.addEventListener("click", () => {
-      const place = n.dataset.place;
-      const reselect = activeKey === place;      // clicking the active one exits
-      track("map_select", { tab: CURRENT_TAB, place, entries: paint[place]?.n });
-      if (reselect) { zoomHome(); } else { zoomTo(place); showPlaceDetail(place); }
-      onPick(reselect ? null : place);
+  if (!window.L) { el.innerHTML = ""; return; }
+  let m = el._map;
+  if (!m) {
+    el.innerHTML = `<div class="lmap" role="region" aria-label="${esc(opts.label || "World map")}">
+        <button class="wmap__back" type="button">← Back to world</button></div>
+      <div class="wmap__legend"><span class="wmap__note"></span></div>`;
+    const map = L.map(el.querySelector(".lmap"), { scrollWheelZoom: false, worldCopyJump: true })
+      .setView(WORLD_VIEW.center, WORLD_VIEW.zoom);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      { maxZoom: 18, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
+    const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45 }).addTo(map);
+    // The map sits in collapsible cards and hidden tabs; Leaflet measures 0x0
+    // there and draws grey until told its real size.
+    new ResizeObserver(() => { map.invalidateSize(); m.fit(); }).observe(el);
+    m = el._map = { map, cluster, markers: [], rowsKey: null, active: undefined, onPick };
+    m.fit = () => {
+      const pts = m.markers.filter((mk) => !m.active || mk._key === m.active).map((mk) => mk.getLatLng());
+      if (pts.length) map.fitBounds(pts, { padding: [30, 30], maxZoom: m.active ? 10 : 3 });
+      else map.setView(WORLD_VIEW.center, WORLD_VIEW.zoom);
+    };
+    const back = el.querySelector(".wmap__back");
+    L.DomEvent.disableClickPropagation(back);     // or the map reads it as a drag
+    back.addEventListener("click", () => m.onPick(null));
+    el.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-pick]");
+      if (b) { track("map_select", { tab: CURRENT_TAB, place: b.dataset.pick }); m.onPick(b.dataset.pick); }
     });
-    n.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(n.dataset.place); } });
-    n.addEventListener("mousemove", (e) => show(n, e));
-    n.addEventListener("mouseleave", () => { tip.hidden = true; });
-    n.addEventListener("focus", (e) => show(n, { clientX: box(n).left, clientY: box(n).top }));
-    n.addEventListener("blur", () => { tip.hidden = true; });
-  });
-  function box(n) { return n.getBoundingClientRect(); }
+  }
+  m.onPick = onPick;
 
-  // apply() re-renders this element on every filter change, which would throw
-  // away the zoom the user just triggered. Restore it instantly (no tween, or
-  // the map would visibly re-fly on each keystroke in the search box).
-  if (activeKey && paint && Object.values(paint).some((h) => h.key === activeKey)) {
-    zoomTo(activeKey, 0);
-    showPlaceDetail(activeKey);
+  const rowsKey = rows.length + rows.map((r) => r.name || r.title || r.company || "").join("|");
+  if (rowsKey !== m.rowsKey) {
+    m.rowsKey = rowsKey;
+    m.cluster.clearLayers();
+    m.markers = [];
+    const places = new Set();
+    for (const r of rows) {
+      const key = keyOf(r);
+      // No location means no pin. Geocoding the word "unknown" lands in India.
+      if (!key || key === "unknown") continue;
+      const ll = coordOf(r, key);
+      if (!ll) continue;
+      places.add(key);
+      const name = r.name || r.title || r.company || "";
+      const where = r.hq_location || r.location || r.hq || key || "";
+      const v = r.vertical || "multiple";
+      const marker = L.marker(ll, {
+        title: name, alt: name,
+        icon: L.divIcon({ className: `pin pin--${esc(v)}`, iconSize: [14, 14] }),
+      }).bindPopup(`<strong>${esc(name)}</strong>
+        <div class="pop__m">${esc(where)}${r.vertical ? ` · ${vlab(r.vertical)}` : ""}</div>
+        ${key ? `<button type="button" class="pop__pick" data-pick="${esc(key)}">Only ${esc(key)}</button>` : ""}`);
+      marker._key = key;
+      m.markers.push(marker);
+    }
+    m.cluster.addLayers(m.markers);
+    el.querySelector(".wmap__note").textContent =
+      `${m.markers.length} of ${rows.length} ${opts.noun || "entries"} pinned · ${places.size} ${opts.unit || "places"}`;
+    m.active = undefined;                 // force a refit below
+  }
+
+  if (activeKey !== m.active) {
+    m.active = activeKey;
+    el.classList.toggle("is-zoomed", !!activeKey);
+    m.fit();
   }
 }
+
 
 // --- Analytics ------------------------------------------------------------
 // GA4 is already configured in index.html (same property as the blog) and
@@ -2097,8 +1968,8 @@ async function main() {
     // Non-fatal: an old deploy without meta.json just shows no date.
     try { GENERATED = (await (await fetch("meta.json")).json()).generated || ""; } catch { GENERATED = ""; }
     // Fetched here, before the first apply(): renderWorldMap is synchronous and
-    // apply() paints the map, so the geometry has to already be in hand.
-    await loadWorldPaths();
+    // apply() paints the map, so the coordinates have to already be in hand.
+    await loadGeo();
   } catch {
     $("grid").innerHTML = `<p class="empty">Could not load data.json. Run <code>radar export</code> first.</p>`;
     return;
