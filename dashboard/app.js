@@ -1175,7 +1175,12 @@ function dateRange(e) {
 // than a marquee. Undated events are deliberately excluded here; a "coming up"
 // line implies a date, and listing something with none would mislead.
 function renderEventStrip() {
-  const dated = EVENTS.filter((e) => e.state === "upcoming" && e.start);
+  // Only the next few. With a year of events the line ran to ~14,600px, hit the
+  // 120s duration cap and raced past at nearly double the reading speed.
+  // The Events tab holds the full list.
+  const TICKER_MAX = 12;
+  const dated = EVENTS.filter((e) => e.state === "upcoming" && e.start)
+    .sort((a, b) => a.start.localeCompare(b.start)).slice(0, TICKER_MAX);
   const strip = $("eventstrip");
   if (!dated.length) { strip.hidden = true; strip.dataset.empty = "1"; return; }
   const byMonth = new Map();
