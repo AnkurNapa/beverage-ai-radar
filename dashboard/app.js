@@ -18,6 +18,10 @@ import {
 // renders breakdown bars + a filterable company grid. Vanilla, no deps.
 
 const $ = (id) => document.getElementById(id);
+// Data files carry no ?v= stamp, so a browser could keep last week's events.json
+// long after a sweep. "no-cache" revalidates every load: a 304 when unchanged.
+const getJson = (url) => fetch(url, { cache: "no-cache" });
+
 const esc = (s) => (s ?? "").replace(/[&<>"]/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 // only http(s) links are clickable; anything else (javascript:, data:) is dropped.
@@ -1089,7 +1093,7 @@ function applyRes() {
 
 async function loadResources() {
   try {
-    RES = await (await fetch("resources.json")).json();
+    RES = await (await getJson("resources.json")).json();
   } catch { RES = []; }
   for (const r of RES) r._platforms = platformsOf(`${r.title || ""} ${r.summary || ""} ${r.meta || ""}`);
   // kind order paper/news/repo/video, featured first within a kind, then sort desc
@@ -1291,7 +1295,7 @@ function applyEvents() {
 
 async function loadEvents() {
   try {
-    EVENTS = await (await fetch("events.json")).json();
+    EVENTS = await (await getJson("events.json")).json();
   } catch { EVENTS = []; }
   if (!EVENTS.length) { $("tab-events").hidden = true; return; }
   fillSelect($("fe-vertical"), verticalCounts(EVENTS.filter((e) => e.vertical)));
@@ -1307,7 +1311,7 @@ async function loadEvents() {
 }
 
 async function loadJobs() {
-  try { JOBS = await (await fetch("jobs.json")).json(); } catch { JOBS = []; }
+  try { JOBS = await (await getJson("jobs.json")).json(); } catch { JOBS = []; }
   if (!JOBS.length) { $("tab-jobs").hidden = true; return; }
   const latest = JOBS.map((j) => j.posted).filter(Boolean).sort().pop();
   if (latest) $("jobs-stamp").textContent = `Latest posting ${latest}.`;
@@ -1389,7 +1393,7 @@ function prospectCard(p) {
 
 async function loadProspects() {
   try {
-    const r = await fetch("prospects.json");
+    const r = await getJson("prospects.json");
     if (!r.ok) throw new Error("absent");
     PROSPECTS = await r.json();
   } catch { PROSPECTS = []; }
@@ -1649,7 +1653,7 @@ const REGION_COUNTRIES = {
 };
 
 async function loadGeo() {
-  try { GEO = await (await fetch("geo.json")).json(); } catch { GEO = {}; }
+  try { GEO = await (await getJson("geo.json")).json(); } catch { GEO = {}; }
 }
 
 const coordOf = (r, key) =>
@@ -1972,10 +1976,10 @@ function renderHint(tab) {
 async function main() {
   let data;
   try {
-    data = await (await fetch("data.json")).json();
+    data = await (await getJson("data.json")).json();
     // When the pipeline last ran. Written by radar run next to data.json.
     // Non-fatal: an old deploy without meta.json just shows no date.
-    try { GENERATED = (await (await fetch("meta.json")).json()).generated || ""; } catch { GENERATED = ""; }
+    try { GENERATED = (await (await getJson("meta.json")).json()).generated || ""; } catch { GENERATED = ""; }
     // Fetched here, before the first apply(): renderWorldMap is synchronous and
     // apply() paints the map, so the coordinates have to already be in hand.
     await loadGeo();
