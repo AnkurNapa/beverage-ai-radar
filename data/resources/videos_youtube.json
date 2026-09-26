@@ -1680,5 +1680,77 @@
     "vertical": "multiple",
     "summary": "IoT - The Internet of Things & Automation solution's for FOOD AND BEVERAGE MANUFACTURERS... Empower your team to ...",
     "year": 2022
+  },
+  {
+    "title": "Robo-Beer: World's First Beer Brewed By Artificial Intelligence",
+    "channel": "Newsweek International",
+    "video_id": "7gjB2cqDoMk",
+    "url": "https://www.youtube.com/watch?v=7gjB2cqDoMk",
+    "vertical": "beer",
+    "summary": "The founders of IntelligentX beer claim each batch of beer tastes better than the last."
+  },
+  {
+    "title": "Episode 253 - Artificial Intelligence and Brewing - Tap the Craft Podcast",
+    "channel": "Tap the Craft Podcast (Tap the Craft Podcast)",
+    "video_id": "pMah2TL2qbE",
+    "url": "https://www.youtube.com/watch?v=pMah2TL2qbE",
+    "vertical": "beer",
+    "summary": "In Episode 253 we go live again on Facebook, and in this episode we are discussing how artificial intelligence (AI) can play a part ..."
+  },
+  {
+    "title": "Brewing Enterprise AI with choice, control and flexibility | Insights from Vivek Bharathi (VB)",
+    "channel": "The AI People",
+    "video_id": "oT2a8Bxf_Fs",
+    "url": "https://www.youtube.com/watch?v=oT2a8Bxf_Fs",
+    "vertical": "beer",
+    "summary": "In this video, we explore the complex world of enterprise AI through the familiar and delightful process of brewing coffee. Discover ..."
+  },
+  {
+    "title": "The bond meltdown and AI bubble brewing the next global financial crisis | The Business | ABC NEWS",
+    "channel": "ABC News (Australia)",
+    "video_id": "fd0ZCw1ZVNE",
+    "url": "https://www.youtube.com/watch?v=fd0ZCw1ZVNE",
+    "vertical": "beer",
+    "summary": "Inflation is persistent, debt is high, interest rates are rising and questions linger over whether artificial intelligence will result in a ..."
+  },
+  {
+    "title": "Data Science Project (1/2): Machine Learning for Wine Quality Prediction with Python",
+    "channel": "J.A DATATECH CONSULTING",
+    "video_id": "GzknLKSkv7U",
+    "url": "https://www.youtube.com/watch?v=GzknLKSkv7U",
+    "vertical": "beer",
+    "summary": "I'm sharing two videos to help you tackle a Data Science project using Machine Learning techniques with #python.\n\n- Red wine ..."
+  },
+  {
+    "title": "Classification and Clustering Algorithms with Wine and Chocolate by Amanda Moran | DataStax Presents",
+    "channel": "DataStax Developers",
+    "video_id": "FeEaGhcxEVc",
+    "url": "https://www.youtube.com/watch?v=FeEaGhcxEVc",
+    "vertical": "wine",
+    "summary": "Hearts, wine, and chocolate .. it must be February! Can machine learning determine a wine's region and quality? Can machine ..."
+  },
+  {
+    "title": "ML-based Wine quality prediction",
+    "channel": "Kiran J",
+    "video_id": "_xe1_yiAGAg",
+    "url": "https://www.youtube.com/watch?v=_xe1_yiAGAg",
+    "vertical": "wine",
+    "summary": "Thought was to use ML to do wine quality prediction based on wine's chemical properties. Wine quality assessment has been ..."
+  },
+  {
+    "title": "How AI Is Changing the Beverage Industry | Alicia Kidd at IBWSS 2026",
+    "channel": "CoCo Noir Media",
+    "video_id": "24SwuozWD3c",
+    "url": "https://www.youtube.com/watch?v=24SwuozWD3c",
+    "vertical": "multiple",
+    "summary": "AI is changing the beverage industry—and I had the opportunity to be part of that conversation at the 2026 International Bulk Wine ..."
+  },
+  {
+    "title": "Digitalizing the food and beverage industry",
+    "channel": "Siemens Knowledge Hub",
+    "video_id": "JY6J9hDL2Lw",
+    "url": "https://www.youtube.com/watch?v=JY6J9hDL2Lw",
+    "vertical": "multiple",
+    "summary": "What does Industry 4.0 mean for the future of the food and beverage industry? This is the question our experts explored at ..."
   }
 ]

@@ -1,21 +1,5 @@
 [
   {
-    "title": "Smart Manufacturing Food & Beverage Europe 2026",
-    "url": "https://www.amg-world.co.uk/smart-manufacturing-food-beverage-europe/",
-    "organiser": "AMG World",
-    "location": "Copthorne Tara Hotel, Kensington, London, United Kingdom",
-    "country": "United Kingdom",
-    "vertical": "multiple",
-    "summary": "A one-day conference on AI, data analytics, industrial IoT and digital twins for food and beverage plants. One of the few events in the calendar that is about the technology itself rather than the drinks.",
-    "speakers": [],
-    "mode": "in-person",
-    "speaking": false,
-    "start": "2026-09-24",
-    "end": "2026-09-24",
-    "state": "upcoming",
-    "sort": "2026-09-24"
-  },
-  {
     "title": "China Brew China Beverage 2026",
     "url": "https://www.chinabrew-beverage.com/en",
     "organiser": "Deutsche Messe and UBM Sinoexpo",
@@ -638,6 +622,22 @@
     "end": "",
     "state": "undated",
     "sort": "1900-01-01"
+  },
+  {
+    "title": "Smart Manufacturing Food & Beverage Europe 2026",
+    "url": "https://www.amg-world.co.uk/smart-manufacturing-food-beverage-europe/",
+    "organiser": "AMG World",
+    "location": "Copthorne Tara Hotel, Kensington, London, United Kingdom",
+    "country": "United Kingdom",
+    "vertical": "multiple",
+    "summary": "A one-day conference on AI, data analytics, industrial IoT and digital twins for food and beverage plants. One of the few events in the calendar that is about the technology itself rather than the drinks.",
+    "speakers": [],
+    "mode": "in-person",
+    "speaking": false,
+    "start": "2026-09-24",
+    "end": "2026-09-24",
+    "state": "past",
+    "sort": "2026-09-24"
   },
   {
     "title": "Brews & Spirits Expo 2026",
