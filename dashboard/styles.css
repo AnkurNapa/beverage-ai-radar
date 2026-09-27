@@ -1908,7 +1908,7 @@ body[data-view="about"] .hero { padding-bottom: 1rem; }
 .rel__body { display: flex; flex-direction: column; min-width: 0; flex: 1; }
 .rel__body a { color: var(--ink); font-weight: 500; text-decoration: none; }
 .rel:hover .rel__body a { color: var(--accent); }
-.rel__why { font-size: .8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rel .rel__why { font-size: .8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .rel .chip { flex: none; }
 .rel .rel__score { flex: none; font-size: .78rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 
@@ -1928,3 +1928,52 @@ body[data-view="about"] .hero { padding-bottom: 1rem; }
     background: var(--ink); color: var(--bg); text-decoration: none; font-size: .9rem;
   }
 }
+
+/* ---------- Companies: list layout ---------- */
+.layoutbar { display: flex; justify-content: flex-end; gap: 0; margin: 0 0 .6rem; }
+.layoutbar__b {
+  font: inherit; font-size: .8rem; padding: .35rem .9rem; cursor: pointer;
+  background: none; color: var(--muted); border: 1px solid var(--line);
+}
+.layoutbar__b + .layoutbar__b { border-left: 0; }
+.layoutbar__b[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+.grid.grid--list { display: block; }
+.lrow {
+  display: grid; align-items: center; gap: 1rem;
+  grid-template-columns: 32px minmax(0, 3.2fr) 6.5rem minmax(0, 1.5fr) 8.5rem 7.5rem 4.5rem 2.75rem;
+  padding: .65rem .5rem; border-bottom: 1px solid var(--line);
+}
+.grid--list .lrow { cursor: pointer; transition: background .15s; }
+.grid--list .lrow:hover { background: var(--surface); }
+.lrow--head {
+  font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
+  border-bottom: 1px solid var(--line-strong); padding-top: 0;
+}
+.lrow--head[hidden] { display: none; }
+.lrow .logo { width: 32px; height: 32px; }
+.lrow__id { display: flex; flex-direction: column; min-width: 0; }
+.lrow__line { display: flex; align-items: center; gap: .5rem; min-width: 0; }
+.lrow__name { color: var(--ink); font-weight: 500; text-decoration: none;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lrow__line .chip { flex: none; font-size: .62rem; }
+.lrow--head span:nth-child(7) { text-align: right; }
+.lrow:hover .lrow__name { color: var(--accent); }
+.lrow__use, .lrow__t, .lrow__c { font-size: .8rem; color: var(--muted); }
+.lrow__use, .lrow__t, .lrow__c { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lrow__n { text-align: right; font-family: var(--serif); font-size: 1.05rem; color: var(--ink); font-variant-numeric: tabular-nums; }
+.lrow .chip { white-space: nowrap; }
+
+@media (max-width: 1100px) {
+  .lrow { grid-template-columns: 32px minmax(0, 1fr) 6.5rem 8.5rem 3rem 2rem; }
+  .lrow__t, .lrow__c, .lrow--head span:nth-child(4), .lrow--head span:nth-child(6) { display: none; }
+}
+@media (max-width: 720px) {
+  /* Two lines per company on a phone: identity, then the AI status. */
+  .lrow { grid-template-columns: 32px minmax(0, 1fr) 2.75rem; gap: .2rem .75rem; }
+  .lrow--head { display: none; }
+  .lrow__v, .lrow__n { display: none; }
+  .lrow__ai { grid-column: 2; grid-row: 2; }
+  .lrow .starb { grid-column: 3; grid-row: 1 / span 2; }
+}
+.lrow .starb { align-self: center; justify-self: end; }

@@ -330,6 +330,29 @@ function card(c) {
   </article>`;
 }
 
+/* List layout: one line per company, the columns a reader scans down
+ * (Arrfounder's founders table). Cards stay available for browsing. */
+function listRow(c) {
+  const n = (c.source_urls || []).length;
+  const cty = countryOf(c);
+  return `<article class="lrow is-clickable" data-status="${esc(c.status)}" data-route="c/${esc(encodeURIComponent(c.key))}">
+    ${logoHtml(c)}
+    <span class="lrow__id">
+      <span class="lrow__line"><a class="lrow__name" href="#/c/${esc(encodeURIComponent(c.key))}">${esc(c.name)}</a>${seenChip(c.key)}</span>
+      <span class="lrow__use">${esc(c.ai_use_case || c.short_description || "")}</span>
+    </span>
+    <span class="lrow__v">${c.vertical ? `<span class="chip chip--v chip--${esc(c.vertical)}">${vlab(c.vertical)}</span>` : ""}</span>
+    <span class="lrow__t">${esc(c._theme && c._theme !== "Other" ? c._theme : "")}</span>
+    <span class="lrow__ai">${verdictChip(c)}</span>
+    <span class="lrow__c">${esc(cty && cty !== "unknown" ? cty : "")}</span>
+    <span class="lrow__n">${n || ""}</span>
+    ${starBtn(c.key)}
+  </article>`;
+}
+
+let LAYOUT = "list";
+try { LAYOUT = localStorage.getItem("radar-layout") || "list"; } catch { /* private mode: default */ }
+
 let LAST_SHOWN = null;
 function apply() {
   const q = $("q").value.trim().toLowerCase();
@@ -370,6 +393,7 @@ function apply() {
   shown.sort((a, b) => {
     if (sort === "recent") return seen(b).localeCompare(seen(a)) || a.name.localeCompare(b.name);
     if (sort === "founded-new") return yr(b) - yr(a) || a.name.localeCompare(b.name);
+    if (sort === "sources") return (b.source_urls || []).length - (a.source_urls || []).length || a.name.localeCompare(b.name);
     if (sort === "founded-old") return (yr(a) || 9999) - (yr(b) || 9999) || a.name.localeCompare(b.name);
     // These two order by MY reading history, not by the company's activity.
     // Unopened entries sort last in both rather than colliding at zero.
@@ -390,8 +414,11 @@ function apply() {
   lastShown = shown;
   try { renderForYou(); } catch (e) { /* recommendations are a bonus, never a blocker */ }
   $("count").textContent = `${shown.length} of ${ALL.length}`;
+  const list = LAYOUT === "list";
+  $("grid").classList.toggle("grid--list", list);
+  $("grid-head").hidden = !list || !shown.length;
   $("grid").innerHTML = shown.length
-    ? shown.map(card).join("")
+    ? shown.map(list ? listRow : card).join("")
     : `<p class="empty">No companies match these filters.</p>`;
 }
 
@@ -2164,6 +2191,15 @@ async function main() {
   for (const id of ["pq", "fp-vertical", "fp-country", "fp-linkedin", "fp-theme", "fp-source"]) $(id).addEventListener("input", applyPeople);
   applyPeople();
   $("tab-home").addEventListener("click", () => showView("home"));
+  const layoutBtns = document.querySelectorAll("[data-layout]");
+  const paintLayoutBtns = () => layoutBtns.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.layout === LAYOUT)));
+  paintLayoutBtns();
+  layoutBtns.forEach((b) => b.addEventListener("click", () => {
+    LAYOUT = b.dataset.layout;
+    try { localStorage.setItem("radar-layout", LAYOUT); } catch { /* not persisted */ }
+    paintLayoutBtns();
+    apply();
+  }));
   $("tab-companies").addEventListener("click", () => showView("companies"));
   $("tab-people").addEventListener("click", () => showView("people"));
   $("tab-resources").addEventListener("click", () => showView("resources"));
