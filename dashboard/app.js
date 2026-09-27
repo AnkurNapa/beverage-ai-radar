@@ -739,25 +739,26 @@ function paintHomeLists() {
  * sees the same person and it changes once a day. The pool is people with a
  * public LinkedIn link, because the point of the slot is someone you can
  * actually go and meet; the owner is left out of his own spotlight. */
-function personOfTheDay(people, today) {
+const isIndia = (p) => p.country === "India" || /\bIndia\b/.test(p.hq_location || "");
+function personOfTheDay(people, today, keep = () => true, salt = 3) {
   const pool = people
-    .filter((p) => safeUrl(p.linkedin) && p.status !== "dormant" && p.name !== "Ankur Napa")
+    .filter((p) => safeUrl(p.linkedin) && p.status !== "dormant" && p.name !== "Ankur Napa" && keep(p))
     .sort((a, b) => a.name.localeCompare(b.name) || a.company.localeCompare(b.company));
   if (!pool.length) return null;
   const day = Math.floor((today || new Date()).setHours(0, 0, 0, 0) / 86400000);
   // Offset by a prime so the person is not simply the company pick's colleague.
-  return pool[(((day * 7 + 3) % pool.length) + pool.length) % pool.length];
+  return pool[(((day * 7 + salt) % pool.length) + pool.length) % pool.length];
 }
 
-function paintPersonPick() {
-  const el = $("personoftheday");
+function paintPersonPick(id = "personoftheday", label = "Person of the day", keep, salt) {
+  const el = $(id);
   if (!el || typeof PEOPLE === "undefined") return;
-  const p = personOfTheDay(PEOPLE);
+  const p = personOfTheDay(PEOPLE, undefined, keep, salt);
   if (!p) { el.hidden = true; return; }
   const when = new Date().toLocaleDateString(undefined, { day: "numeric", month: "short" });
   const co = ALL.find((c) => c.name === p.company);
   el.innerHTML = `<article class="potd potd--person is-clickable" data-route="p/${esc(slug(p.name))}">
-      <div class="potd__eyebrow">Person of the day <span class="potd__date">${esc(when)}</span></div>
+      <div class="potd__eyebrow">${esc(label)} <span class="potd__date">${esc(when)}</span></div>
       <div class="potd__who">
         ${avatarHtml(p.name, "avatar--person")}
         <div>
@@ -2629,6 +2630,9 @@ async function main() {
   try { paintDoors(); } catch (e) { /* doors are a convenience, never a blocker */ }
   try { paintPick(); } catch (e) { /* same for the daily pick: never block the page */ }
   try { paintPersonPick(); } catch (e) { /* the person pick is an extra: never block the page */ }
+  // A second daily pick from India only, with a different salt so the two
+  // cards never land on the same person when an Indian is the global pick.
+  try { paintPersonPick("indiapersonoftheday", "Person of the day from India", isIndia, 11); } catch (e) { /* extra */ }
   try { paintHomeLists(); } catch (e) { /* the home lists are extras: never block the page */ }
   try { paintFaq(); paintFootBrowse(); } catch (e) { /* extras: never block the page */ }
   await loadProspects();

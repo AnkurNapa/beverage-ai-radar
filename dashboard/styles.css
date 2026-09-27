@@ -2155,13 +2155,13 @@ a.jrow__title:hover { color: var(--accent); text-decoration: underline; }
 }
 
 /* ---------- Home: company and person of the day, side by side ---------- */
-.dailies { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1.25rem; align-items: stretch; }
+.dailies { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: 1.25rem; align-items: stretch; }
 .dailies > section[hidden] { display: none; }
 .dailies > section { min-width: 0; }
 .dailies .potd { height: 100%; box-sizing: border-box; }
-.dailies:has(> section[hidden]) { grid-template-columns: minmax(0, 1fr); }
 .potd__who { display: flex; align-items: center; gap: .9rem; margin-bottom: .5rem; }
 .potd__who .avatar { width: 52px; height: 52px; font-size: 1.1rem; flex: none; }
 .potd__li { font-weight: 500; }
 @media (max-width: 860px) { .dailies { grid-template-columns: minmax(0, 1fr); } }
+#indiapersonoftheday .potd { border-left-color: var(--v-whiskey); }
 .dailies { margin-bottom: 1.25rem; }
