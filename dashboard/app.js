@@ -12,7 +12,7 @@ import {
   isStarred, markSeen, mountPalette, recentlyOpened, saveView, savedViews, seenAt,
   seenCount, seenCounts,
   seenState, starCount, toggleStar,
-} from "./ux.js?v=ac50f4dcfd";
+} from "./ux.js?v=41fa1b8bbe";
 
 // Beverage-AI Radar dashboard. Reads data.json (exported by `radar export`),
 // renders breakdown bars + a filterable company grid. Vanilla, no deps.
@@ -353,6 +353,56 @@ function listRow(c) {
 let LAYOUT = "list";
 try { LAYOUT = localStorage.getItem("radar-layout") || "list"; } catch { /* private mode: default */ }
 
+/* Exclude filters. The selects above pick what to KEEP; this picks what to
+ * DROP, as many values as you like across any field, and the two combine:
+ * "beer, but not United States and not no-AI-claim". Each tab registers the
+ * fields a reader would want to rule out; its apply function asks hit(row). */
+const EXCL = {};
+function makeExcluder(tab, controls, rows, fields, onChange) {
+  if (!controls || !rows.length) return;
+  const state = new Set();
+  const vals = (f, r) => [].concat(f.get(r) ?? []).filter((v) => v !== "" && v != null && v !== "unknown").map(String);
+  const groups = fields.map((f, i) => {
+    const n = new Map();
+    for (const r of rows) for (const v of new Set(vals(f, r))) n.set(v, (n.get(v) || 0) + 1);
+    const items = [...n].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    return items.length ? `<optgroup label="${esc(f.label)}">${items.map(([v, c]) =>
+      `<option value="${i}|${esc(v)}">${esc(f.show ? f.show(v) : v)} (${c})</option>`).join("")}</optgroup>` : "";
+  }).join("");
+  const wrap = document.createElement("span");
+  wrap.className = "excl";
+  wrap.innerHTML = `<select class="excl__pick" aria-label="Exclude"><option value="">Exclude&hellip;</option>${groups}</select>
+    <span class="excl__chips" aria-live="polite"></span>`;
+  controls.insertBefore(wrap, controls.querySelector(".count"));
+  const sel = wrap.querySelector("select"), chips = wrap.querySelector(".excl__chips");
+  const split = (k) => [+k.slice(0, k.indexOf("|")), k.slice(k.indexOf("|") + 1)];
+  const paint = () => {
+    chips.innerHTML = [...state].map((k) => {
+      const [i, v] = split(k), f = fields[i];
+      return `<button type="button" class="excl__chip" data-k="${esc(k)}" title="Remove this exclusion">not ${esc(f.label.toLowerCase())}: ${esc(f.show ? f.show(v) : v)} <span aria-hidden="true">&times;</span></button>`;
+    }).join("") + (state.size > 1 ? `<button type="button" class="excl__chip excl__chip--clear" data-k="*">clear exclusions</button>` : "");
+  };
+  sel.addEventListener("change", () => {
+    if (sel.value) state.add(sel.value);
+    sel.value = "";
+    paint(); onChange();
+  });
+  chips.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-k]");
+    if (!b) return;
+    if (b.dataset.k === "*") state.clear(); else state.delete(b.dataset.k);
+    paint(); onChange();
+  });
+  EXCL[tab] = {
+    hit: (r) => {
+      for (const k of state) { const [i, v] = split(k); if (vals(fields[i], r).includes(v)) return true; }
+      return false;
+    },
+  };
+}
+const exHit = (tab, r) => !!EXCL[tab]?.hit(r);
+const verticalsOf = (r) => (r.verticals?.length ? r.verticals : [r.vertical]);
+
 let LAST_SHOWN = null;
 function apply() {
   const q = $("q").value.trim().toLowerCase();
@@ -363,6 +413,7 @@ function apply() {
     fplat = $("f-platform").value, fcap = $("f-capability").value, fseen = $("f-seen").value, fscope = $("f-scope").value,
     fera = $("f-era").value;
   const shown = ALL.filter((c) => {
+    if (exHit("companies", c)) return false;
     if (fplat && !c._platforms.includes(fplat)) return false;
     if (!inEra(c.founded_year, fera)) return false;
     if (!matchesVertical(c, fv)) return false;
@@ -485,6 +536,7 @@ function applyPeople() {
   const fv = $("fp-vertical").value, fl = $("fp-linkedin").value;
   const fth = $("fp-theme").value, fsrc = $("fp-source").value;
   const shown = PEOPLE.filter((p) => {
+    if (exHit("people", p)) return false;
     if (fpc && p.country !== fpc) return false;
     if (!matchesVertical(p, fv)) return false;
     if (fth && p.theme !== fth) return false;
@@ -1261,6 +1313,7 @@ function applyRes() {
   const fera = $("fr-era").value, fth = $("fr-theme").value, fpub = $("fr-publisher").value;
   // skip lets the tab counts ask "how many if only this one filter changed".
   const pass = (r, skip = "") => {
+    if (exHit("resources", r)) return false;
     if (skip !== "kind" && fk && r.kind !== fk) return false;
     if (skip === "era" ? false : !inEra(r.year, fera)) return false;
     if (fv && r.vertical !== fv) return false;
@@ -1343,6 +1396,12 @@ async function loadResources() {
   // recent buckets are the ones that earn a place here.
   fillEras($("fr-era"), RES, (r) => r.year);
   for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-publisher", "fr-era", "fr-sort", "fr-theme"]) $(id).addEventListener("input", applyRes);
+  makeExcluder("resources", $("rq").closest(".controls"), RES, [
+    { label: "Kind", get: (r) => r.kind, show: (k) => KIND_LABEL[k] || k },
+    { label: "Drinks", get: (r) => r.vertical, show: vlab },
+    { label: "Category", get: (r) => r.theme },
+    { label: "Publisher", get: publisherOf },
+  ], applyRes);
   const pickTab = (e) => {
     const b = e.target.closest(".ktab");
     if (!b || b.disabled) return;
@@ -1559,6 +1618,7 @@ function applyEvents() {
   // what clicking it produced. Country is excluded from its own facet, or
   // picking one country would erase every other and you could never switch.
   const pass = (e, skipState) => {
+    if (exHit("events", e)) return false;
     if (!skipState && fs && e.state !== fs) return false;
     if (fm && e.mode !== fm) return false;
     if (!matchesVertical(e, fv)) return false;
@@ -1619,6 +1679,12 @@ async function loadEvents() {
   paintNextEvent();
   setInterval(paintNextEvent, 60000);   // the hours tick over while the tab is open
   applyEvents();
+  makeExcluder("events", $("eq").closest(".controls"), EVENTS, [
+    { label: "Drinks", get: (e) => e.vertical, show: vlab },
+    { label: "Country", get: (e) => e.country },
+    { label: "Mode", get: (e) => e.mode },
+    { label: "Organiser", get: (e) => e.organiser },
+  ], applyEvents);
   renderEventStrip();
 }
 
@@ -1647,8 +1713,8 @@ async function loadJobs() {
     // Same facet rule as the events map: every filter EXCEPT country, so the
     // count painted on a country matches what clicking it returns, while
     // still leaving the other countries clickable.
-    const base = JOBS.filter((j) =>
-      (!fv || j.vertical === fv) && (!ft || j.tracked_company)
+    const base = JOBS.filter((j) => !exHit("jobs", j)
+      && (!fv || j.vertical === fv) && (!ft || j.tracked_company)
       && (!fth || j._theme === fth)
       && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
     // Newest first: a jobs board is read top down for what just opened.
@@ -1680,6 +1746,11 @@ async function loadJobs() {
     $("fj-tracked").dispatchEvent(new Event("input", { bubbles: true }));
   });
   applyJobs();
+  makeExcluder("jobs", $("jq").closest(".controls"), JOBS, [
+    { label: "Drinks", get: (j) => j.vertical, show: vlab },
+    { label: "Country", get: (j) => j.country },
+    { label: "Employer", get: (j) => j.company },
+  ], applyJobs);
 }
 
 // --- Prospects view (PRIVATE: who to pitch) ------------------------------
@@ -1719,6 +1790,46 @@ function prospectCard(p) {
   </article>`;
 }
 
+/* Pipeline rows: the line a seller scans (who, tier, wedge, where), with the
+ * full pain, wedge, entry route, sources and contact note one click open.
+ * Nothing on the old card is dropped; sources and the contact note are new. */
+const NEW_PROSPECT_DAYS = 7;
+function prospectRow(p) {
+  const url = safeUrl(p.url);
+  let domain = "";
+  try { domain = url ? new URL(url).hostname.replace(/^www\./, "") : ""; } catch { /* no logo */ }
+  const fresh = String(p.discovered_by || "").startsWith("scout:prospects") && p.last_seen
+    && (Date.now() - new Date(p.last_seen)) / 86400000 <= NEW_PROSPECT_DAYS;
+  const field = (label, val) => val ? `<div class="prow2__f"><dt>${label}</dt><dd>${esc(val)}</dd></div>` : "";
+  const srcs = (p.source_urls || []).length ? `<div class="prow2__f"><dt>Sources</dt><dd>${sourceCards(p.source_urls)}</dd></div>` : "";
+  return `<details class="prow2">
+    <summary>
+      ${logoHtml({ name: p.company, domain })}
+      <span class="prow2__id">
+        <span class="lrow__line"><span class="prow2__name">${esc(p.company)}</span>${fresh ? `<span class="chip chip--seen chip--seen-new">new</span>` : ""}</span>
+        <span class="prow2__meta">${esc([p.segment, p.hq].filter(Boolean).join(" · "))}</span>
+      </span>
+      <span class="prow2__tier prow2__tier--${esc(String(p.tier))}" title="${esc(TIER_LABEL[p.tier] || "")}">Tier ${esc(String(p.tier))}</span>
+      <span class="prow2__w">${esc(p.wedge_group || "")}</span>
+      <span class="prow2__r">${esc(p.region || "")}</span>
+    </summary>
+    <div class="prow2__body">
+      <div class="chips">
+        ${p.vertical ? `<span class="chip chip--v chip--${esc(p.vertical)}">${vlab(p.vertical)}</span>` : ""}
+        ${(p.capabilities || []).map(capChip).join("")}
+        ${url ? `<a class="prow2__site" href="${esc(url)}" target="_blank" rel="noopener">${esc(domain || "website")} &#8599;</a>` : ""}
+      </div>
+      <dl>
+        ${field("Pain", p.pain)}
+        ${field("Wedge", p.wedge)}
+        ${field("Entry", p.entry)}
+        ${field("Contact", p.contact_note)}
+        ${srcs}
+      </dl>
+    </div>
+  </details>`;
+}
+
 async function loadProspects() {
   try {
     const r = await getJson("prospects.json");
@@ -1744,11 +1855,19 @@ async function loadProspects() {
     const q = $("prq").value.trim().toLowerCase();
     const fr = $("fpr-region").value, fv = $("fpr-vertical").value;
     const ft = $("fpr-tier").value ? Number($("fpr-tier").value.split(" ")[0]) : 0;
-    const fc = $("fpr-capability").value;
-    const shown = PROSPECTS.filter((p) =>
-      (!fr || p.region === fr) && (!fv || p.vertical === fv) && (!ft || p.tier === ft)
-      && (!fc || (p.capabilities || []).includes(fc))
-      && (!q || `${p.company} ${p.segment} ${p.hq} ${p.pain} ${p.wedge} ${p.entry}`.toLowerCase().includes(q)));
+    const fc = $("fpr-capability").value, fw = $("fpr-wedge").value;
+    const pass = (p, skipTier) => !exHit("prospects", p)
+      && (!fr || p.region === fr) && (!fv || p.vertical === fv) && (skipTier || !ft || p.tier === ft)
+      && (!fc || (p.capabilities || []).includes(fc)) && (!fw || p.wedge_group === fw)
+      && (!q || `${p.company} ${p.segment} ${p.hq} ${p.pain} ${p.wedge} ${p.entry}`.toLowerCase().includes(q));
+    // Best fit first, newest scout finds on top within a tier.
+    const shown = PROSPECTS.filter((p) => pass(p))
+      .sort((a, b) => a.tier - b.tier || (b.last_seen || "").localeCompare(a.last_seen || "") || a.company.localeCompare(b.company));
+    const tpool = PROSPECTS.filter((p) => pass(p, true));
+    const tiers = [...new Set(PROSPECTS.map((p) => p.tier))].sort();
+    const tab = (t, label, n) => `<button type="button" class="ktab" data-tier="${t}" aria-pressed="${(ft || "") === t}"${n ? "" : " disabled"}>${label} <span>${n}</span></button>`;
+    $("prospect-tabs").innerHTML = tab("", "All tiers", tpool.length)
+      + tiers.map((t) => tab(t, `Tier ${t}: ${TIER_LABEL[t] || ""}`, tpool.filter((p) => p.tier === t).length)).join("");
     renderWorldMap($("world-prospects"), PROSPECTS, (p) => p.region, (place) => {
       const sel = $("fpr-region");
       sel.value = place || "";          // null = back to world
@@ -1756,12 +1875,36 @@ async function loadProspects() {
     }, $("fpr-region").value, { unit: "regions", noun: "targets", label: "Targets by region" });
     kpisFor("prospects", shown, PROSPECTS);
     $("prcount").textContent = `${shown.length} of ${PROSPECTS.length}`;
+    const open = $("prospects-expand").getAttribute("aria-pressed") === "true";
     $("prospects-grid").innerHTML = shown.length
-      ? shown.map(prospectCard).join("")
+      ? shown.map(prospectRow).join("").replaceAll('<details class="prow2">', `<details class="prow2"${open ? " open" : ""}>`)
       : `<p class="empty">No prospects match these filters.</p>`;
   };
-  for (const id of ["prq", "fpr-region", "fpr-vertical", "fpr-tier", "fpr-capability"]) $(id).addEventListener("input", applyProspects);
+  fillSelect($("fpr-wedge"), counts(PROSPECTS.filter((p) => p.wedge_group), "wedge_group"));
+  for (const id of ["prq", "fpr-region", "fpr-vertical", "fpr-tier", "fpr-capability", "fpr-wedge"]) $(id).addEventListener("input", applyProspects);
+  $("prospect-tabs").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-tier]");
+    if (!b || b.disabled) return;
+    const sel = $("fpr-tier");
+    const opt = [...sel.options].find((o) => (b.dataset.tier ? o.value.split(" ")[0] === b.dataset.tier : !o.value));
+    if (!opt) return;
+    sel.value = opt.value;
+    sel.dispatchEvent(new Event("input", { bubbles: true }));
+  });
+  $("prospects-expand").addEventListener("click", (e) => {
+    const on = e.currentTarget.getAttribute("aria-pressed") !== "true";
+    e.currentTarget.setAttribute("aria-pressed", String(on));
+    e.currentTarget.textContent = on ? "Collapse all" : "Expand all";
+    document.querySelectorAll("#prospects-grid details").forEach((d) => { d.open = on; });
+  });
   applyProspects();
+  makeExcluder("prospects", $("prq").closest(".controls"), PROSPECTS, [
+    { label: "Region", get: (p) => p.region },
+    { label: "Drinks", get: (p) => p.vertical, show: vlab },
+    { label: "Tier", get: (p) => p.tier, show: (t) => `Tier ${t}` },
+    { label: "Wedge", get: (p) => p.wedge_group },
+    { label: "Capability", get: (p) => p.capabilities },
+  ], applyProspects);
 }
 
 // Headline figures follow the active filters, so the strip, the breakdown bars
@@ -2353,6 +2496,15 @@ async function main() {
     $(id).addEventListener("input", apply);
   }
   apply();
+  makeExcluder("companies", $("q").closest(".controls"), ALL, [
+    { label: "Drinks", get: verticalsOf, show: vlab },
+    { label: "Theme", get: (c) => c._theme },
+    { label: "AI status", get: (c) => aiVerdict(c).label },
+    { label: "Country", get: countryOf },
+    { label: "Type", get: (c) => c.company_type },
+    { label: "Capability", get: (c) => c.capabilities },
+    { label: "Source", get: sourceOf },
+  ], apply);
 
   // People view
   PEOPLE = buildPeople();
@@ -2362,6 +2514,12 @@ async function main() {
   fillSelect($("fp-source"), counts(PEOPLE, "source").map((x) => x[0]));
   for (const id of ["pq", "fp-vertical", "fp-country", "fp-linkedin", "fp-theme", "fp-source", "fp-sort"]) $(id).addEventListener("input", applyPeople);
   applyPeople();
+  makeExcluder("people", $("pq").closest(".controls"), PEOPLE, [
+    { label: "Drinks", get: verticalsOf, show: vlab },
+    { label: "Country", get: (p) => p.country },
+    { label: "Category", get: (p) => p.theme },
+    { label: "Company", get: (p) => p.company },
+  ], applyPeople);
   $("tab-home").addEventListener("click", () => showView("home"));
   const layoutBtns = document.querySelectorAll("[data-layout]");
   const paintLayoutBtns = () => layoutBtns.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.layout === LAYOUT)));

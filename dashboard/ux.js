@@ -370,7 +370,9 @@ export function mountPalette({ getItems, onPick }) {
     var s = w.querySelector("select");
     return s && s.value;
   });
-  open = preset;
+  // Open by default: every filter visible, as asked for on 2026-09-27. The
+  // toggle stays for anyone who wants the tidier row.
+  open = true || preset;
   paint();
 })();
 
