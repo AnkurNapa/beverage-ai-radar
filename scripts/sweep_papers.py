@@ -59,9 +59,13 @@ QUERIES = [
     ("multiple", "fermentation monitoring soft sensor prediction"),
 ]
 
+# "must" and "hop" are also ordinary English and networking words: SmartVille,
+# a network intrusion paper, got in on "intrusion detection must learn", and a
+# bare "hop" matches "multi-hop". Both only count in a drinks context now.
 BEVERAGE = re.compile(
-    r"\b(beer|brewing|brewery|breweries|brewer|malt|malting|hop|hops|wort|lager|ale|"
-    r"wine|wines|winery|wineries|vineyard|viticultur|grape|grapes|must|oenolog|enolog|"
+    r"\b(beer|brewing|brewery|breweries|brewer|malt|malting|hops|hopped|hopping|"
+    r"hop (?:aroma|variety|varieties|cones?|pellets?|oils?|extracts?|acids?|bitterness)|wort|lager|ale|"
+    r"wine|wines|winery|wineries|vineyard|viticultur|grape|grapes|(?:grape|wine|fermenting) must|oenolog|enolog|"
     r"whisky|whiskey|distill|distiller|spirit drink|cask|barrel-aged|"
     r"cider|mead|sake|brandy|tequila|rum|gin|vodka|beverage|alcoholic drink)\b", re.I)
 DATA = re.compile(

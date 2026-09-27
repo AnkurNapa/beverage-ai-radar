@@ -1494,16 +1494,5 @@
     "year": 2025,
     "sort": 2025,
     "cited_by": 23
-  },
-  {
-    "kind": "paper",
-    "title": "SmartVille: A Framework for Realistic Deep Learning-Based Online Network Intrusion Detection",
-    "url": "https://doi.org/10.1007/s10922-026-10097-8",
-    "vertical": "whiskey",
-    "meta": "Jesús Fernando Cevallos Moreno, et al. · Journal of Network and Systems Management · 2026 · 1 citations",
-    "summary": "Abstract Deep learning has generated strong results for network intrusion detection, but much of the literature still treats the problem as static offline classification, leaving unclear how such models should be conceived for deployment. In practice, intrusion detection must learn from traffic streams, cope with previously unseen attacks",
-    "year": 2026,
-    "sort": 2026,
-    "cited_by": 1
   }
 ]
