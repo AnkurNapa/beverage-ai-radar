@@ -1234,8 +1234,7 @@ function applyRes() {
     return true;
   };
   const shown = RES.filter((r) => pass(r));
-  paintKindTabs(RES.filter((r) => pass(r, "kind")), fk,
-    RES.filter((r) => pass(r, "era") && inEra(r.year, "recent2")).length, fera);
+  paintKindTabs(RES.filter((r) => pass(r, "kind")), fk, RES.filter((r) => pass(r, "era")), fera);
   // Optional recency sort. Dated items order by their real publish date; the
   // undated ones (repos, some videos) sink to the end rather than jump around.
   const sortMode = $("fr-sort").value;
@@ -1265,14 +1264,18 @@ function applyRes() {
  * saved views and the selects themselves stay the single source of truth. */
 const KIND_TABS = [["paper", "Papers"], ["video", "Videos"], ["blog", "Blogs"], ["news", "News"],
   ["repo", "Repositories"], ["dataset", "Datasets"], ["podcast", "Podcasts"], ["whitepaper", "White papers"]];
-function paintKindTabs(pool, kind, recentN, era) {
-  const el = $("res-kinds");
+// Every kind and every period is always listed, even at zero: a tab that
+// vanishes when a filter empties it reads as data that was never there.
+const ERA_TABS = () => [["", "All time"], ...ERAS.map((e) => [e.id, e.label]), ["undated", "No year recorded"]];
+function paintKindTabs(pool, kind, eraPool, era) {
+  const el = $("res-kinds"), tl = $("res-eras");
   if (!el) return;
-  const n = (k) => pool.filter((r) => r.kind === k).length;
-  const tab = (k, label, count) => `<button type="button" class="ktab" data-kind="${k}" aria-pressed="${kind === k}">${label} <span>${count}</span></button>`;
-  el.innerHTML = tab("", "All", pool.length)
-    + KIND_TABS.filter(([k]) => n(k)).map(([k, l]) => tab(k, l, n(k))).join("")
-    + `<button type="button" class="ktab ktab--era" data-era="recent2" aria-pressed="${era === "recent2"}">Last 2 years <span>${recentN}</span></button>`;
+  const tab = (attr, v, label, count, on) => `<button type="button" class="ktab" ${attr}="${v}" aria-pressed="${on}"${count ? "" : " disabled"}>${label} <span>${count}</span></button>`;
+  const nk = (k) => pool.filter((r) => r.kind === k).length;
+  el.innerHTML = tab("data-kind", "", "All", pool.length, !kind)
+    + KIND_TABS.map(([k, l]) => tab("data-kind", k, l, nk(k), kind === k)).join("");
+  if (tl) tl.innerHTML = ERA_TABS().map(([id, l]) =>
+    tab("data-era", id, l, eraPool.filter((r) => inEra(r.year, id)).length, (era || "") === id)).join("");
 }
 
 async function loadResources() {
@@ -1303,21 +1306,45 @@ async function loadResources() {
   // recent buckets are the ones that earn a place here.
   fillEras($("fr-era"), RES, (r) => r.year);
   for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-publisher", "fr-era", "fr-sort", "fr-theme"]) $(id).addEventListener("input", applyRes);
-  $("res-kinds").addEventListener("click", (e) => {
+  const pickTab = (e) => {
     const b = e.target.closest(".ktab");
-    if (!b) return;
+    if (!b || b.disabled) return;
     const sel = b.dataset.era != null ? $("fr-era") : $("fr-kind");
-    const want = b.dataset.era != null ? (sel.value === "recent2" ? "" : "recent2") : b.dataset.kind;
+    const want = b.dataset.era != null ? b.dataset.era : b.dataset.kind;
     if (![...sel.options].some((o) => o.value === want)) return;
     sel.value = want;
     sel.dispatchEvent(new Event("input", { bubbles: true }));
-  });
+  };
+  $("res-kinds").addEventListener("click", pickTab);
+  $("res-eras").addEventListener("click", pickTab);
   applyRes();
 
 }
 
 // --- Jobs view (open roles in the same field) ----------------------------
 let JOBS = [];
+
+/* Job rows (BetaList and Uneed): employer logo, title, where, and how fresh.
+ * Freshness is relative to today so a stale sweep reads as stale. */
+const NEW_JOB_DAYS = 7;
+function jobRow(j) {
+  const url = safeUrl(j.url);
+  const age = j.posted ? Math.round((Date.now() - new Date(j.posted)) / 86400000) : null;
+  const co = j._co;
+  return `<article class="jrow">
+    ${co ? logoHtml(co) : avatarHtml(j.company, "avatar--logo")}
+    <span class="jrow__id">
+      <span class="jrow__line">${url
+        ? `<a class="jrow__title" href="${esc(url)}" target="_blank" rel="noopener">${esc(j.title)}</a>`
+        : `<span class="jrow__title">${esc(j.title)}</span>`}${age != null && age <= NEW_JOB_DAYS ? `<span class="chip chip--seen chip--seen-new">new</span>` : ""}</span>
+      <span class="jrow__meta">${co
+        ? `<a href="#/c/${esc(encodeURIComponent(co.key))}" title="On the radar">${esc(j.company)}</a>`
+        : esc(j.company)}${j.location ? " &middot; " + esc(j.location) : ""}</span>
+    </span>
+    <span class="jrow__v">${j.vertical ? `<span class="chip chip--v chip--${esc(j.vertical)}">${vlab(j.vertical)}</span>` : ""}${j.tracked_company ? `<span class="chip chip--featured">&#9733; on the radar</span>` : ""}</span>
+    <span class="jrow__age" title="${esc(j.posted || "")}">${age != null ? esc(daysAgo(j.posted)) : ""}</span>
+  </article>`;
+}
 
 function jobCard(j) {
   const url = safeUrl(j.url);
@@ -1520,6 +1547,7 @@ async function loadJobs() {
   for (const j of JOBS) {
     const c = j.tracked_company ? byName.get(j.tracked_company.toLowerCase()) : null;
     j._theme = c ? (c._theme || themeOf(c)) : "";
+    j._co = c || null;
   }
   fillSelect($("fj-vertical"), counts(JOBS.filter((j) => j.vertical), "vertical"));
   fillSelect($("fj-theme"), counts(JOBS.filter((j) => j._theme), "_theme").map((x) => x[0]));
@@ -1536,7 +1564,16 @@ async function loadJobs() {
       (!fv || j.vertical === fv) && (!ft || j.tracked_company)
       && (!fth || j._theme === fth)
       && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
-    const shown = base.filter((j) => !fc || j.country === fc);
+    // Newest first: a jobs board is read top down for what just opened.
+    const shown = base.filter((j) => !fc || j.country === fc)
+      .sort((a, b) => (b.posted || "").localeCompare(a.posted || "") || a.title.localeCompare(b.title));
+    const tabs = $("job-tabs");
+    if (tabs) {
+      const pool = JOBS.filter((j) => (!fv || j.vertical === fv) && (!fth || j._theme === fth) && (!fc || j.country === fc)
+        && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
+      const t = (v, label, n) => `<button type="button" class="ktab" data-tracked="${v}" aria-pressed="${ft === v}">${label} <span>${n}</span></button>`;
+      tabs.innerHTML = t("", "All roles", pool.length) + t("1", "At companies on the radar", pool.filter((j) => j.tracked_company).length);
+    }
     renderWorldMap($("world-jobs"), base, (j) => j.country, (place) => {
       const sel = $("fj-country");
       sel.value = place || "";
@@ -1545,10 +1582,16 @@ async function loadJobs() {
     kpisFor("jobs", shown, JOBS);
     $("jcount").textContent = `${shown.length} of ${JOBS.length}`;
     $("jobs-grid").innerHTML = shown.length
-      ? shown.map(jobCard).join("")
+      ? shown.map(jobRow).join("")
       : `<p class="empty">No open roles match these filters.</p>`;
   };
   for (const id of ["jq", "fj-vertical", "fj-country", "fj-tracked", "fj-theme"]) $(id).addEventListener("input", applyJobs);
+  $("job-tabs").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-tracked]");
+    if (!b) return;
+    $("fj-tracked").value = b.dataset.tracked;
+    $("fj-tracked").dispatchEvent(new Event("input", { bubbles: true }));
+  });
   applyJobs();
 }
 

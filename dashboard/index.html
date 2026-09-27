@@ -132,7 +132,7 @@
 
   <!-- version query busts the 10-minute Pages cache on every restyle;
        bump it whenever styles.css changes -->
-  <link rel="stylesheet" href="styles.css?v=f9256ec6df" />
+  <link rel="stylesheet" href="styles.css?v=46eefdaac7" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha384-c6Rcwz4e4CITMbu/NBmnNS8yN2sC3cUElMEMfP3vqqKFp7GOYaaBBCqmaWBjmkjb" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" integrity="sha384-pmjIAcz2bAn0xukfxADbZIb3t8oRT9Sv0rvO+BR5Csr6Dhqq+nZs59P0pPKQJkEV" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" integrity="sha384-wgw+aLYNQ7dlhK47ZPK7FRACiq7ROZwgFNg0m04avm4CaXS+Z9Y7nMu8yNjBKYC+" crossorigin="anonymous">
@@ -396,6 +396,7 @@
   <section class="wrap view" id="view-resources" hidden>
     <p class="res-intro">Papers, news, case studies, open-source repositories, and talks on AI and data in beverage. Every item links to its source.</p>
     <nav class="kindtabs" id="res-kinds" aria-label="Resource kind"></nav>
+    <nav class="kindtabs kindtabs--time" id="res-eras" aria-label="When published"></nav>
     <section class="controls" aria-label="Resource filters">
       <input id="rq" type="search" placeholder="Search title, summary, source…" aria-label="Search resources" />
       <select id="fr-kind" aria-label="Kind">
@@ -474,7 +475,8 @@
       <h2>Where they are <span class="wmap-hint">click a pin to filter</span></h2>
       <div id="world-jobs"></div>
     </section>
-    <section id="jobs-grid" class="grid" aria-live="polite"></section>
+    <nav class="kindtabs" id="job-tabs" aria-label="Employers"></nav>
+    <section id="jobs-grid" class="grid grid--rows" aria-live="polite"></section>
   </section>
 
   <section class="wrap view" id="view-prospects" hidden>
@@ -644,7 +646,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha384-NElt3Op+9NBMCYaef5HxeJmU4Xeard/Lku8ek6hoPTvYkQPh3zLIrJP7KiRocsxO" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" integrity="sha384-eXVCORTRlv4FUUgS/xmOyr66XBVraen8ATNLMESp92FKXLAMiKkerixTiBvXriZr" crossorigin="anonymous"></script>
-  <script type="module" src="app.js?v=833491fa94"></script>
+  <script type="module" src="app.js?v=d3ed17b00d"></script>
 
 </body>
 </html>

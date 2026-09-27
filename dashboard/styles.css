@@ -2033,6 +2033,31 @@ body[data-view="about"] .hero { padding-bottom: 1rem; }
 .ktab span { font-size: .78rem; color: var(--muted); margin-left: .15rem; font-variant-numeric: tabular-nums; }
 .ktab:hover { color: var(--ink); }
 .ktab[aria-pressed="true"] { color: var(--ink); border-bottom-color: var(--accent); }
-.ktab--era { margin-left: auto; }
-.ktab--era[aria-pressed="true"] { color: var(--accent); }
-@media (max-width: 720px) { .ktab--era { margin-left: 0; } }
+.ktab:disabled { opacity: .45; cursor: default; }
+.ktab:disabled:hover { color: var(--muted); }
+.kindtabs--time { margin-top: -.5rem; border-bottom: 0; gap: 1.1rem; }
+.kindtabs--time .ktab { font-size: .82rem; }
+
+/* ---------- Jobs: one row per role (BetaList, Uneed) ---------- */
+.grid.grid--rows { display: block; }
+.jrow {
+  display: grid; align-items: center; gap: 1rem;
+  grid-template-columns: 32px minmax(0, 1fr) auto 7.5rem;
+  padding: .7rem .5rem; border-bottom: 1px solid var(--line); transition: background .15s;
+}
+.jrow:hover { background: var(--surface); }
+.jrow .logo, .jrow .avatar { width: 32px; height: 32px; }
+.jrow__id { display: flex; flex-direction: column; min-width: 0; }
+.jrow__line { display: flex; align-items: center; gap: .5rem; min-width: 0; }
+.jrow__title { color: var(--ink); font-weight: 500; text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+a.jrow__title:hover { color: var(--accent); text-decoration: underline; }
+.jrow__line .chip { flex: none; font-size: .62rem; }
+.jrow__meta { font-size: .82rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.jrow__meta a { color: var(--body); }
+.jrow__v { display: flex; gap: .6rem; flex-wrap: wrap; justify-content: flex-end; }
+.jrow__age { font-size: .8rem; color: var(--muted); text-align: right; white-space: nowrap; }
+@media (max-width: 720px) {
+  .jrow { grid-template-columns: 32px minmax(0, 1fr); gap: .25rem .75rem; }
+  .jrow__v { grid-column: 2; justify-content: flex-start; }
+  .jrow__age { grid-column: 2; text-align: left; }
+}
