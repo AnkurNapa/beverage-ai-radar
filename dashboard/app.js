@@ -735,6 +735,43 @@ function paintHomeLists() {
   $("home-lists").hidden = false;
 }
 
+/* Person of the day. Same date seed as the company pick, so every visitor
+ * sees the same person and it changes once a day. The pool is people with a
+ * public LinkedIn link, because the point of the slot is someone you can
+ * actually go and meet; the owner is left out of his own spotlight. */
+function personOfTheDay(people, today) {
+  const pool = people
+    .filter((p) => safeUrl(p.linkedin) && p.status !== "dormant" && p.name !== "Ankur Napa")
+    .sort((a, b) => a.name.localeCompare(b.name) || a.company.localeCompare(b.company));
+  if (!pool.length) return null;
+  const day = Math.floor((today || new Date()).setHours(0, 0, 0, 0) / 86400000);
+  // Offset by a prime so the person is not simply the company pick's colleague.
+  return pool[(((day * 7 + 3) % pool.length) + pool.length) % pool.length];
+}
+
+function paintPersonPick() {
+  const el = $("personoftheday");
+  if (!el || typeof PEOPLE === "undefined") return;
+  const p = personOfTheDay(PEOPLE);
+  if (!p) { el.hidden = true; return; }
+  const when = new Date().toLocaleDateString(undefined, { day: "numeric", month: "short" });
+  const co = ALL.find((c) => c.name === p.company);
+  el.innerHTML = `<article class="potd potd--person is-clickable" data-route="p/${esc(slug(p.name))}">
+      <div class="potd__eyebrow">Person of the day <span class="potd__date">${esc(when)}</span></div>
+      <div class="potd__who">
+        ${avatarHtml(p.name, "avatar--person")}
+        <div>
+          <h2 class="potd__name">${esc(p.name)}</h2>
+          ${p.role ? `<p class="potd__use">${esc(p.role)}</p>` : ""}
+        </div>
+      </div>
+      <p class="potd__desc">${co && co.company_type !== "individual" ? `At <strong>${esc(p.company)}</strong>` : "Independent"}${p.hq_location ? `, ${esc(p.hq_location)}` : ""}.${co?.ai_use_case ? ` Works on ${esc(co.ai_use_case)}.` : ""}</p>
+      <div class="chips">${p.vertical ? `<span class="chip chip--v chip--${esc(p.vertical)}">${vlab(p.vertical)}</span>` : ""}</div>
+      <a class="potd__go potd__li" href="${esc(safeUrl(p.linkedin))}" target="_blank" rel="noopener">Say hello on LinkedIn &#8599;</a>
+    </article>`;
+  el.hidden = false;
+}
+
 const trim = (s, n) => (s.length > n ? s.slice(0, s.lastIndexOf(" ", n)) + "..." : s);
 
 function showView(which) {
@@ -2591,6 +2628,7 @@ async function main() {
   await loadEvents();
   try { paintDoors(); } catch (e) { /* doors are a convenience, never a blocker */ }
   try { paintPick(); } catch (e) { /* same for the daily pick: never block the page */ }
+  try { paintPersonPick(); } catch (e) { /* the person pick is an extra: never block the page */ }
   try { paintHomeLists(); } catch (e) { /* the home lists are extras: never block the page */ }
   try { paintFaq(); paintFootBrowse(); } catch (e) { /* extras: never block the page */ }
   await loadProspects();
