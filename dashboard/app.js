@@ -1222,18 +1222,20 @@ function applyRes() {
   const q = $("rq").value.trim().toLowerCase();
   const fk = $("fr-kind").value, fv = $("fr-vertical").value, fp = $("fr-platform").value;
   const fera = $("fr-era").value, fth = $("fr-theme").value, fpub = $("fr-publisher").value;
-  const shown = RES.filter((r) => {
-    if (fk && r.kind !== fk) return false;
+  // skip lets the tab counts ask "how many if only this one filter changed".
+  const pass = (r, skip = "") => {
+    if (skip !== "kind" && fk && r.kind !== fk) return false;
+    if (skip === "era" ? false : !inEra(r.year, fera)) return false;
     if (fv && r.vertical !== fv) return false;
     if (fth && r.theme !== fth) return false;
     if (fp && !r._platforms.includes(fp)) return false;
     if (fpub && publisherOf(r) !== fpub) return false;
-    // year filter: exclude only dated items outside the range; undated items
-    // (e.g. repos, videos with no year) stay visible so content is not emptied.
-    if (!inEra(r.year, fera)) return false;
     if (q && !`${r.title} ${r.summary} ${r.meta}`.toLowerCase().includes(q)) return false;
     return true;
-  });
+  };
+  const shown = RES.filter((r) => pass(r));
+  paintKindTabs(RES.filter((r) => pass(r, "kind")), fk,
+    RES.filter((r) => pass(r, "era") && inEra(r.year, "recent2")).length, fera);
   // Optional recency sort. Dated items order by their real publish date; the
   // undated ones (repos, some videos) sink to the end rather than jump around.
   const sortMode = $("fr-sort").value;
@@ -1256,6 +1258,21 @@ function applyRes() {
   $("res-grid").innerHTML = shown.length
     ? shown.map(resCard).join("")
     : `<p class="empty">No resources match these filters.</p>`;
+}
+
+/* Kind tabs with counts (Arrfounder's "Founders 3,404 · Products 5,234").
+ * They drive the existing Kind and Published selects, so the filter chips,
+ * saved views and the selects themselves stay the single source of truth. */
+const KIND_TABS = [["paper", "Papers"], ["video", "Videos"], ["blog", "Blogs"], ["news", "News"],
+  ["repo", "Repositories"], ["dataset", "Datasets"], ["podcast", "Podcasts"], ["whitepaper", "White papers"]];
+function paintKindTabs(pool, kind, recentN, era) {
+  const el = $("res-kinds");
+  if (!el) return;
+  const n = (k) => pool.filter((r) => r.kind === k).length;
+  const tab = (k, label, count) => `<button type="button" class="ktab" data-kind="${k}" aria-pressed="${kind === k}">${label} <span>${count}</span></button>`;
+  el.innerHTML = tab("", "All", pool.length)
+    + KIND_TABS.filter(([k]) => n(k)).map(([k, l]) => tab(k, l, n(k))).join("")
+    + `<button type="button" class="ktab ktab--era" data-era="recent2" aria-pressed="${era === "recent2"}">Last 2 years <span>${recentN}</span></button>`;
 }
 
 async function loadResources() {
@@ -1286,6 +1303,15 @@ async function loadResources() {
   // recent buckets are the ones that earn a place here.
   fillEras($("fr-era"), RES, (r) => r.year);
   for (const id of ["rq", "fr-kind", "fr-vertical", "fr-platform", "fr-publisher", "fr-era", "fr-sort", "fr-theme"]) $(id).addEventListener("input", applyRes);
+  $("res-kinds").addEventListener("click", (e) => {
+    const b = e.target.closest(".ktab");
+    if (!b) return;
+    const sel = b.dataset.era != null ? $("fr-era") : $("fr-kind");
+    const want = b.dataset.era != null ? (sel.value === "recent2" ? "" : "recent2") : b.dataset.kind;
+    if (![...sel.options].some((o) => o.value === want)) return;
+    sel.value = want;
+    sel.dispatchEvent(new Event("input", { bubbles: true }));
+  });
   applyRes();
 
 }

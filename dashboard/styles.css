@@ -2019,3 +2019,20 @@ body[data-view="about"] .hero { padding-bottom: 1rem; }
 }
 .prow__co .logo__fav { width: 18px; height: 18px; }
 .prow__indep { color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* ---------- Research: kind tabs with counts ---------- */
+.kindtabs {
+  display: flex; gap: 1.4rem; margin: .5rem 0 1rem; overflow-x: auto; scrollbar-width: none;
+  border-bottom: 1px solid var(--line);
+}
+.kindtabs::-webkit-scrollbar { display: none; }
+.ktab {
+  flex: none; font: inherit; font-size: .9rem; color: var(--muted); cursor: pointer;
+  background: none; border: 0; border-bottom: 2px solid transparent; padding: .55rem 0; margin-bottom: -1px;
+}
+.ktab span { font-size: .78rem; color: var(--muted); margin-left: .15rem; font-variant-numeric: tabular-nums; }
+.ktab:hover { color: var(--ink); }
+.ktab[aria-pressed="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.ktab--era { margin-left: auto; }
+.ktab--era[aria-pressed="true"] { color: var(--accent); }
+@media (max-width: 720px) { .ktab--era { margin-left: 0; } }
