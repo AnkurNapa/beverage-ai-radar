@@ -1,566 +1,1804 @@
 [
-  {
-    "name": "Ankur Napa",
-    "role": "Growth Officer, Disruptive Advantage; Community Leader, Bangalore Microsoft Fabric User Group (Microsoft); Tableau Community Leader, Bangalore and Newbie TUG",
-    "linkedin": "https://www.linkedin.com/in/ankur-napa/",
-    "location": "Australia",
-    "vertical": "multiple",
-    "ai_use_case": "data engineering and applied AI for fermentation prediction, quality anomaly detection, production and commercial analytics, and sustainability reporting across beer, wine and spirits",
-    "ai_maturity": "shipping",
-    "short_description": "Brewer with 10+ years of industry experience turned data engineer, now Growth Officer at Disruptive Advantage, working from Australia. Helps breweries, wineries and distilleries improve fermentation consistency, product quality, operational efficiency and sustainability using data engineering and AI on Microsoft Fabric, Databricks and Azure. Named focus areas are fermentation prediction and risk detection, quality control analytics and anomaly detection, production and sales dashboards, raw material optimisation, AI-assisted recipe and process modelling, commercial planning, and sustainability analytics covering water, energy, CO2 and waste. DP-600 certified Microsoft Fabric Analytics Engineer. Leads the Bangalore Microsoft Fabric User Group for Microsoft and the Bangalore and Newbie Tableau User Groups, and mentors with the Data Visualization Society. Founder of iWort and ships open brewing calculators and analytics apps. Previously AB InBev, SABMiller and United Breweries.",
-    "source_urls": [
-      "https://www.linkedin.com/in/ankur-napa/",
-      "https://github.com/AnkurNapa",
-      "https://ankurnapa.github.io/",
-      "https://www.kaggle.com/ankurnapa"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-08-09",
-    "company": "Disruptive Advantage",
-    "company_key": "iwort.com",
-    "linkedin_id": "ankur-napa",
-    "company_is_current": true,
-    "links": [
-      {
-        "label": "Podcast: AI in Brewing (Apple Podcasts)",
-        "kind": "podcast",
-        "url": "https://podcasts.apple.com/gb/podcast/ep-24-artificial-intelligence-ai-in-brewing-ankur-napa/id1691766076?i=1000658398731"
-      },
-      {
-        "label": "Podcast: AI in Brewing (Spotify)",
-        "kind": "podcast",
-        "url": "https://open.spotify.com/episode/4V0EJaz2jCCsPXq88JGxpH"
-      },
-      {
-        "label": "Talk: Bridging the Gap Between AI and Brewing",
-        "kind": "video",
-        "url": "https://www.youtube.com/watch?v=_VUIoeRdcHQ"
-      },
-      {
-        "label": "Blog: Beer, Wine & Whiskey AI",
-        "kind": "blog",
-        "url": "https://ankurnapa.github.io/"
-      },
-      {
-        "label": "GitHub: AnkurNapa",
-        "kind": "code",
-        "url": "https://github.com/AnkurNapa"
-      },
-      {
-        "label": "Kaggle datasets",
-        "kind": "dataset",
-        "url": "https://www.kaggle.com/ankurnapa/datasets"
-      },
-      {
-        "label": "Beverage-AI Radar (this site)",
-        "kind": "project",
-        "url": "https://ankurnapa.github.io/beverage-ai-radar/"
-      },
-      {
-        "label": "Indian Brewing Calculator",
-        "kind": "project",
-        "url": "https://ankurnapa.github.io/indian-brewing-calculator/"
-      },
-      {
-        "label": "Advanced Brewing Calculator",
-        "kind": "project",
-        "url": "https://ankurnapa.github.io/advanced-brewing-calc/"
-      },
-      {
-        "label": "Aroma Forge (malt aroma prediction)",
-        "kind": "project",
-        "url": "https://ankurnapa.github.io/aroma-forge/"
-      },
-      {
-        "label": "Bengaluru Tableau User Group",
-        "kind": "community",
-        "url": "https://ankurnapa.github.io/btug/"
-      },
-      {
-        "label": "JobGrab (open-source job tracker)",
-        "kind": "code",
-        "url": "https://github.com/AnkurNapa/jobgrab"
-      },
-      {
-        "label": "Topmate: sessions and courses",
-        "kind": "profile",
-        "url": "https://topmate.io/ankur_napa/"
-      },
-      {
-        "label": "Press: Brewer World profile of iWort",
-        "kind": "press",
-        "url": "https://www.brewer-world.com/smart-brewing-at-iwort-using-algorithms-to-keep-up-with-beer-tastes/"
-      },
-      {
-        "label": "Podcast: AI in Brewing (Buzzsprout)",
-        "kind": "podcast",
-        "url": "https://www.buzzsprout.com/2202528/episodes/15219065-ep-24-artificial-intelligence-ai-in-brewing-ankur-napa"
-      }
-    ],
-    "verticals": [
-      "beer",
-      "whiskey",
-      "wine",
-      "food",
-      "non_alcoholic"
-    ]
-  },
-  {
-    "name": "Bart Watson",
-    "role": "President and CEO, former Chief Economist (craft beer market data and analytics) — Brewers Association",
-    "linkedin": "https://www.linkedin.com/in/bart-watson/",
-    "location": "Boulder, Colorado, USA",
-    "vertical": "beer",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "short_description": "PhD economist who built the Brewers Association's craft beer production, sales, and market intelligence data program and was long the public face of US beer industry statistics.",
-    "source_urls": [
-      "https://www.brewersassociation.org/association-news/bart-watson-named-president-and-chief-executive-officer-of-the-brewers-association/",
-      "https://www.linkedin.com/in/bart-watson/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "company": "Brewers Association (Barley assistant)",
-    "company_key": "brewersassociation.org",
-    "linkedin_id": "bart-watson",
-    "company_is_current": true
-  },
-  {
-    "name": "Erin Schmidt",
-    "role": "Director, Commercial Analytics — Molson Coors Beverage Company",
-    "linkedin": "https://www.linkedin.com/in/erin-schmidt-92a18a4/",
-    "location": "Milwaukee, Wisconsin, USA",
-    "vertical": "beer",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "short_description": "Leads commercial and business analytics for Molson Coors across the Americas, with a decade in beverage revenue management and business intelligence.",
-    "source_urls": [
-      "https://business.wisc.edu/centers/nicholas/blog/erin-schmidt-director-commerical-analytics-molson-coors/",
-      "https://www.linkedin.com/in/erin-schmidt-92a18a4/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "company": "Molson Coors (Atwater Brewery)",
-    "company_key": "molsoncoors.com",
-    "linkedin_id": "erin-schmidt-92a18a4",
-    "company_is_current": true
-  },
-  {
-    "name": "Willy Lin",
-    "role": "Former Product Lead, Tech Supply (brewery data and predictive analytics) — Amazon (formerly Anheuser-Busch InBev)",
-    "linkedin": "https://www.linkedin.com/in/willy-lin/",
-    "location": "New York, USA",
-    "vertical": "beer",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "short_description": "At AB InBev he moved plant-floor brewery data to the cloud and built predictive analytics to make breweries more efficient; profiled by Cornell Tech before moving on.",
-    "source_urls": [
-      "https://admissions.tech.cornell.edu/2022/01/05/data-science-in-brewing-willy-lin-orie-20/",
-      "https://www.linkedin.com/in/willy-lin/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "company": "Anheuser-Busch InBev",
-    "company_key": "ab-inbev.com",
-    "linkedin_id": "willy-lin",
-    "company_is_current": false
-  },
-  {
-    "name": "Amanda Dobbyn",
-    "role": "Data scientist / senior data engineer; author of a widely cited beer-styles data science project — independent (beer project); now Indigo",
-    "linkedin": "https://www.linkedin.com/in/amanda-dobbyn/",
-    "location": "Chicago, USA",
-    "vertical": "beer",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "short_description": "Built a public clustering and classification analysis of 45,000-plus beers to test whether beer styles hold up statistically, a well-known beer data science project.",
-    "source_urls": [
-      "https://aedobbyn.github.io/beer-data-science/",
-      "https://www.linkedin.com/in/amanda-dobbyn/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "company": null,
-    "company_key": null,
-    "linkedin_id": "amanda-dobbyn",
-    "company_is_current": null
-  },
-  {
-    "name": "Cathy Huyghe",
-    "role": "Co-Founder and CEO, wine and spirits data analytics / business intelligence — Enolytics",
-    "linkedin": "https://www.linkedin.com/in/cathy-huyghe-332307/",
-    "location": "Atlanta, Georgia, USA",
-    "vertical": "multiple",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "short_description": "Co-founded Enolytics in 2016 to bring big-data business intelligence to wine and spirits companies worldwide, building analytics apps on the Qlik platform.",
-    "source_urls": [
-      "https://www.enolytics.com/our-team",
-      "https://www.linkedin.com/in/cathy-huyghe-332307/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "company": "Enolytics",
-    "company_key": "enolytics.com",
-    "linkedin_id": "cathy-huyghe-332307",
-    "company_is_current": true
-  },
-  {
-    "name": "Lulie Halstead",
-    "role": "Co-Founder and former CEO, wine consumer research and market intelligence — Wine Intelligence (IWSR Group), now independent advisor",
-    "linkedin": "https://www.linkedin.com/in/lulie-halstead-1b3b8826/",
-    "location": "London, United Kingdom",
-    "vertical": "wine",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "short_description": "Founded Wine Intelligence in 2002 and built it into the leading global wine consumer research and market intelligence firm before its acquisition by IWSR.",
-    "source_urls": [
-      "https://winebc.com/industry/lulie-halstead/",
-      "https://www.linkedin.com/in/lulie-halstead-1b3b8826/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "company": null,
-    "company_key": null,
-    "linkedin_id": "lulie-halstead-1b3b8826",
-    "company_is_current": null
-  },
-  {
-    "name": "Alan Talbot",
-    "role": "Director, Analytics Group (wine industry databases and data-driven analysis) — Wines Vines Analytics (WineBusiness Analytics)",
-    "linkedin": "https://www.linkedin.com/in/alanltalbot/",
-    "location": "Sonoma, California, USA",
-    "vertical": "wine",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "short_description": "Runs the analytics group behind the wine industry's production and market databases and data reports at WineBusiness Analytics.",
-    "source_urls": [
-      "https://theorg.com/org/wines-vines-analytics/org-chart/alan-talbot",
-      "https://www.linkedin.com/in/alanltalbot/"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "company": "WineBusiness Analytics",
-    "company_key": "winebusinessanalytics.com",
-    "linkedin_id": "alanltalbot",
-    "company_is_current": true
-  },
-  {
-    "name": "Solène Bergaire",
-    "role": "Lead Data Scientist (revenue growth management, pricing and promotion analytics) — Pernod Ricard",
-    "linkedin": "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108",
-    "location": "Paris, France",
-    "vertical": "multiple",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "short_description": "Leads data science projects on pricing and promotion optimization for a top premium spirits group whose brands include Jameson and The Glenlivet whiskies.",
-    "source_urls": [
-      "https://conference-mlops.com/speakers/solene-bergaire/",
-      "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "company": "Pernod Ricard",
-    "company_key": null,
-    "linkedin_id": "sol%C3%A8ne-bergaire-a68472108",
-    "company_is_current": null
-  },
-  {
-    "name": "Tom Kornegay",
-    "role": "SVP, Head of Data, Analytics and Insights (Enterprise Data Center of Excellence) — Southern Glazer's Wine & Spirits",
-    "linkedin": null,
-    "location": "Miami, Florida, USA",
-    "vertical": "multiple",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "short_description": "Hired in 2024 to lead the enterprise data, analytics and insights strategy for the largest US wine and spirits distributor.",
-    "source_urls": [
-      "https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "company": null,
-    "company_key": null,
-    "linkedin_id": null,
-    "company_is_current": null
-  },
-  {
-    "name": "Duan Peng",
-    "role": "SVP, Head of Data Science, AI and Machine Learning — Southern Glazer's Wine & Spirits",
-    "linkedin": null,
-    "location": "Miami, Florida, USA",
-    "vertical": "multiple",
-    "ai_use_case": "data analytics / BI / market intelligence for beverage",
-    "ai_maturity": "shipping",
-    "short_description": "Leads the enterprise data science and AI/ML strategy at Southern Glazer's Wine & Spirits' new Enterprise Data Center of Excellence.",
-    "source_urls": [
-      "https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
-    ],
-    "first_seen": "2024-01-01",
-    "last_seen": "2026-07-22",
-    "company": null,
-    "company_key": null,
-    "linkedin_id": null,
-    "company_is_current": null
-  },
-  {
-    "name": "Bharathi Sampangi",
-    "role": "VP, Data Platforms and Services, Southern Glazer's Wine & Spirits",
-    "linkedin": null,
-    "linkedin_id": null,
-    "location": null,
-    "vertical": "multiple",
-    "ai_use_case": "enterprise data platform architecture for beverage alcohol distribution",
-    "ai_maturity": "pilot",
-    "short_description": "Owns the architecture, technical design and roadmap of Southern Glazer's enterprise data platforms, reporting into the CIO, as part of the Enterprise Data Center of Excellence announced in March 2024. Prior engineering leadership roles at Gap Inc, Five Below, CSC and Yohana. company_is_current is false only because the sole employment source is the March 2024 announcement.",
-    "source_urls": [
-      "https://web.archive.org/web/20250723230216/https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence",
-      "https://www.southernglazers.com/careers/Information-technology"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "Southern Glazer's Wine & Spirits",
-    "company_key": null,
-    "company_is_current": null
-  },
-  {
-    "name": "Jean Rovani",
-    "role": "Director of AI Engineering, Bloomfield Robotics",
-    "linkedin": "https://www.linkedin.com/in/jean-rovani-a7a34b339",
-    "linkedin_id": "jean-rovani-a7a34b339",
-    "location": "Pittsburgh, Pennsylvania, USA",
-    "vertical": "wine",
-    "ai_use_case": "computer vision for plant level vineyard and crop monitoring",
-    "ai_maturity": "shipping",
-    "short_description": "Leads AI engineering at Bloomfield Robotics, whose imaging platform produces plant level health and performance insights for vineyards and other specialty crops. Listed on the company's current team page.",
-    "source_urls": [
-      "https://bloomfield.ai/team",
-      "https://bloomfield.ai/"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "Bloomfield Robotics",
-    "company_key": null,
-    "company_is_current": true
-  },
-  {
-    "name": "Jasmine Ortega",
-    "role": "Data Scientist, Bloomfield Robotics",
-    "linkedin": null,
-    "linkedin_id": null,
-    "location": null,
-    "vertical": "wine",
-    "ai_use_case": "data science for vineyard and crop imaging analytics",
-    "ai_maturity": "shipping",
-    "short_description": "Data scientist at Bloomfield Robotics, the Kubota-owned vineyard and specialty crop imaging company. Listed on the company's current team page; no further public detail on her specific projects was found.",
-    "source_urls": [
-      "https://bloomfield.ai/team",
-      "https://bloomfield.ai/"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "Bloomfield Robotics",
-    "company_key": null,
-    "company_is_current": true
-  },
-  {
-    "name": "Shreya Kale",
-    "role": "AI Engineer, Bloomfield Robotics",
-    "linkedin": null,
-    "linkedin_id": null,
-    "location": null,
-    "vertical": "wine",
-    "ai_use_case": "AI engineering for vineyard and crop imaging",
-    "ai_maturity": "shipping",
-    "short_description": "AI engineer at Bloomfield Robotics, working on the computer vision imaging platform used to monitor vineyards and other specialty crops. Listed on the company's current team page.",
-    "source_urls": [
-      "https://bloomfield.ai/team",
-      "https://bloomfield.ai/"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "Bloomfield Robotics",
-    "company_key": null,
-    "company_is_current": true
-  },
-  {
-    "name": "Ian Weller",
-    "role": "Engineering Manager, Data Systems, Bloomfield Robotics",
-    "linkedin": null,
-    "linkedin_id": null,
-    "location": null,
-    "vertical": "wine",
-    "ai_use_case": "data systems and ML data pipelines for crop imaging",
-    "ai_maturity": "shipping",
-    "short_description": "Manages the data systems engineering function at Bloomfield Robotics, the pipeline layer behind its plant level vineyard imaging models. Listed on the company's current team page.",
-    "source_urls": [
-      "https://bloomfield.ai/team",
-      "https://bloomfield.ai/"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "Bloomfield Robotics",
-    "company_key": null,
-    "company_is_current": true
-  },
-  {
-    "name": "Jamie Sherrah",
-    "role": "CTO, Deep Liquid",
-    "linkedin": "https://au.linkedin.com/in/jsherrah",
-    "linkedin_id": "jsherrah",
-    "location": "Adelaide, Australia",
-    "vertical": "beer",
-    "ai_use_case": "machine learning on beer recipes and consumer review data",
-    "ai_maturity": "shipping",
-    "short_description": "PhD machine learning and computer vision researcher with over 20 years in the field, serving as CTO of Deep Liquid, which trained a recipe model on more than 200,000 beer recipes and analyses QR-collected drinker feedback for brewers. Also Technical Director for Defence at the Australian Institute for Machine Learning. Role stated on Deep Liquid's current site.",
-    "source_urls": [
-      "https://www.deepliquid.ai/",
-      "https://www.adelaide.edu.au/aiml/news/list/2025/03/19/deep-liquid-democratising-ai-one-beverage-at-a-time"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "Deep Liquid",
-    "company_key": null,
-    "company_is_current": true
-  },
-  {
-    "name": "Simon Lucey",
-    "role": "Director Machine Learning, Deep Liquid",
-    "linkedin": null,
-    "linkedin_id": null,
-    "location": "Adelaide, Australia",
-    "vertical": "beer",
-    "ai_use_case": "machine learning on beer recipes and consumer review data",
-    "ai_maturity": "shipping",
-    "short_description": "Director of the Australian Institute for Machine Learning and a former associate research professor at Carnegie Mellon's Robotics Institute, listed as Director Machine Learning on Deep Liquid's team page. Deep Liquid applies ML to craft beer recipe development and drinker feedback analysis.",
-    "source_urls": [
-      "https://www.deepliquid.ai/",
-      "https://www.adelaide.edu.au/aiml/news/list/2025/03/19/deep-liquid-democratising-ai-one-beverage-at-a-time"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "Deep Liquid",
-    "company_key": null,
-    "company_is_current": true
-  },
-  {
-    "name": "Anton van den Hengel",
-    "role": "Director Applied AI, Deep Liquid",
-    "linkedin": "https://au.linkedin.com/in/antonvandenhengel",
-    "linkedin_id": "antonvandenhengel",
-    "location": "Adelaide, Australia",
-    "vertical": "beer",
-    "ai_use_case": "applied machine learning for beverage recipe and consumer feedback modelling",
-    "ai_maturity": "shipping",
-    "short_description": "Computer vision and machine learning professor, founding director of the Australian Institute for Machine Learning, listed as Director Applied AI on Deep Liquid's team page. Deep Liquid's model was trained on over 200,000 beer recipes with input from Barossa Valley Brewing.",
-    "source_urls": [
-      "https://www.deepliquid.ai/",
-      "https://www.adelaide.edu.au/aiml/news/list/2025/03/19/deep-liquid-democratising-ai-one-beverage-at-a-time"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "Deep Liquid",
-    "company_key": null,
-    "company_is_current": true
-  },
-  {
-    "name": "Andy Edmonds",
-    "role": "CTO, Terraview",
-    "linkedin": null,
-    "linkedin_id": null,
-    "location": null,
-    "vertical": "wine",
-    "ai_use_case": "vineyard yield, risk and irrigation forecasting",
-    "ai_maturity": "shipping",
-    "short_description": "Chief Technical Officer on Terraview's current management team page. Terraview, merged with Gamaya, builds satellite and agronomic modelling software for vineyard yield, risk and irrigation decisions. Listed as CTO of the technology company itself, so the AI work is his function rather than a separately documented personal project.",
-    "source_urls": [
-      "https://www.terraview.gmbh/about-us",
-      "https://www.terraview.gmbh/"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "Terraview",
-    "company_key": null,
-    "company_is_current": true
-  },
-  {
-    "name": "Rafal Cycon",
-    "role": "Chief Data Scientist, FORM",
-    "linkedin": null,
-    "linkedin_id": null,
-    "location": null,
-    "vertical": "multiple",
-    "ai_use_case": "image recognition for retail and on-premise shelf execution",
-    "ai_maturity": "shipping",
-    "short_description": "Chief Data Scientist at FORM, listed on the company's current leadership page. FORM's GoSpotCheck platform runs image recognition on shelf and display photos for beverage distributors and alcohol suppliers checking retail and on-premise execution.",
-    "source_urls": [
-      "https://www.form.com/about/",
-      "https://www.form.com/industries/beverage-distribution-software/"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "FORM (GoSpotCheck by FORM)",
-    "company_key": null,
-    "company_is_current": true
-  },
-  {
-    "name": "Jon Trafton",
-    "role": "Lead Data Analyst, vinSUITE",
-    "linkedin": null,
-    "linkedin_id": null,
-    "location": "Napa, California, USA",
-    "vertical": "wine",
-    "ai_use_case": "winery DTC and wine club analytics",
-    "ai_maturity": "shipping",
-    "short_description": "Lead Data Analyst at vinSUITE, listed on the company's current team page. vinSUITE is a direct to consumer platform for wineries covering wine club, tasting room POS, ecommerce and analytics; the analytics product is reporting and BI rather than a stated machine learning capability.",
-    "source_urls": [
-      "https://vinsuite.com/about",
-      "https://vinsuite.com/analytics"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "vinSUITE",
-    "company_key": null,
-    "company_is_current": true
-  },
-  {
-    "name": "Alvaro Gonzalez",
-    "role": "Deputy Manager of Research and Development, Vina Concha y Toro",
-    "linkedin": null,
-    "linkedin_id": null,
-    "location": "Santiago, Chile",
-    "vertical": "wine",
-    "ai_use_case": "harvest volume prediction from drone multispectral imagery",
-    "ai_maturity": "pilot",
-    "short_description": "Named in Concha y Toro's own account of the Center for Research and Innovation project that built an AI harvest volume prediction model from drone multispectral imagery and terrain data, reporting 2 to 9 percent prediction error against 20 to 30 percent for traditional methods. company_is_current is false only because the source article is dated March 2018 and no later confirmation of his role was found.",
-    "source_urls": [
-      "https://vinacyt.com/en/noticia/innovation/artificial-intelligence-and-drones-new-harvest-volume-prediction-system/",
-      "https://vinacyt.com/en/corporate-pillars/innovation/"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "Vina Concha y Toro",
-    "company_key": null,
-    "company_is_current": null
-  },
-  {
-    "name": "Jose Cuevas",
-    "role": "Researcher in Engineering, Vina Concha y Toro",
-    "linkedin": null,
-    "linkedin_id": null,
-    "location": "Santiago, Chile",
-    "vertical": "wine",
-    "ai_use_case": "harvest volume prediction from drone multispectral imagery",
-    "ai_maturity": "pilot",
-    "short_description": "Engineering researcher quoted in Concha y Toro's own account of its AI crop forecasting project, on transferring the models from experimental conditions into production vineyard operations. company_is_current is false only because the source article is dated March 2018 and no later confirmation of his role was found.",
-    "source_urls": [
-      "https://vinacyt.com/en/noticia/innovation/artificial-intelligence-and-drones-new-harvest-volume-prediction-system/",
-      "https://vinacyt.com/en/corporate-pillars/innovation/"
-    ],
-    "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
-    "company": "Vina Concha y Toro",
-    "company_key": null,
-    "company_is_current": null
-  }
+ {
+  "name": "Ankur Napa",
+  "role": "Growth Officer, Disruptive Advantage; Community Leader, Bangalore Microsoft Fabric User Group (Microsoft); Tableau Community Leader, Bangalore and Newbie TUG",
+  "linkedin": "https://www.linkedin.com/in/ankur-napa/",
+  "location": "Australia",
+  "vertical": "multiple",
+  "ai_use_case": "data engineering and applied AI for fermentation prediction, quality anomaly detection, production and commercial analytics, and sustainability reporting across beer, wine and spirits",
+  "ai_maturity": "shipping",
+  "short_description": "Brewer with 10+ years of industry experience turned data engineer, now Growth Officer at Disruptive Advantage, working from Australia. Helps breweries, wineries and distilleries improve fermentation consistency, product quality, operational efficiency and sustainability using data engineering and AI on Microsoft Fabric, Databricks and Azure. Named focus areas are fermentation prediction and risk detection, quality control analytics and anomaly detection, production and sales dashboards, raw material optimisation, AI-assisted recipe and process modelling, commercial planning, and sustainability analytics covering water, energy, CO2 and waste. DP-600 certified Microsoft Fabric Analytics Engineer. Leads the Bangalore Microsoft Fabric User Group for Microsoft and the Bangalore and Newbie Tableau User Groups, and mentors with the Data Visualization Society. Founder of iWort and ships open brewing calculators and analytics apps. Previously AB InBev, SABMiller and United Breweries.",
+  "source_urls": [
+   "https://www.linkedin.com/in/ankur-napa/",
+   "https://github.com/AnkurNapa",
+   "https://ankurnapa.github.io/",
+   "https://www.kaggle.com/ankurnapa"
+  ],
+  "first_seen": "2024-01-01",
+  "last_seen": "2026-08-09",
+  "company": "Disruptive Advantage",
+  "company_key": "iwort.com",
+  "linkedin_id": "ankur-napa",
+  "company_is_current": true,
+  "links": [
+   {
+    "label": "Podcast: AI in Brewing (Apple Podcasts)",
+    "kind": "podcast",
+    "url": "https://podcasts.apple.com/gb/podcast/ep-24-artificial-intelligence-ai-in-brewing-ankur-napa/id1691766076?i=1000658398731"
+   },
+   {
+    "label": "Podcast: AI in Brewing (Spotify)",
+    "kind": "podcast",
+    "url": "https://open.spotify.com/episode/4V0EJaz2jCCsPXq88JGxpH"
+   },
+   {
+    "label": "Talk: Bridging the Gap Between AI and Brewing",
+    "kind": "video",
+    "url": "https://www.youtube.com/watch?v=_VUIoeRdcHQ"
+   },
+   {
+    "label": "Blog: Beer, Wine & Whiskey AI",
+    "kind": "blog",
+    "url": "https://ankurnapa.github.io/"
+   },
+   {
+    "label": "GitHub: AnkurNapa",
+    "kind": "code",
+    "url": "https://github.com/AnkurNapa"
+   },
+   {
+    "label": "Kaggle datasets",
+    "kind": "dataset",
+    "url": "https://www.kaggle.com/ankurnapa/datasets"
+   },
+   {
+    "label": "Beverage-AI Radar (this site)",
+    "kind": "project",
+    "url": "https://ankurnapa.github.io/beverage-ai-radar/"
+   },
+   {
+    "label": "Indian Brewing Calculator",
+    "kind": "project",
+    "url": "https://ankurnapa.github.io/indian-brewing-calculator/"
+   },
+   {
+    "label": "Advanced Brewing Calculator",
+    "kind": "project",
+    "url": "https://ankurnapa.github.io/advanced-brewing-calc/"
+   },
+   {
+    "label": "Aroma Forge (malt aroma prediction)",
+    "kind": "project",
+    "url": "https://ankurnapa.github.io/aroma-forge/"
+   },
+   {
+    "label": "Bengaluru Tableau User Group",
+    "kind": "community",
+    "url": "https://ankurnapa.github.io/btug/"
+   },
+   {
+    "label": "JobGrab (open-source job tracker)",
+    "kind": "code",
+    "url": "https://github.com/AnkurNapa/jobgrab"
+   },
+   {
+    "label": "Topmate: sessions and courses",
+    "kind": "profile",
+    "url": "https://topmate.io/ankur_napa/"
+   },
+   {
+    "label": "Press: Brewer World profile of iWort",
+    "kind": "press",
+    "url": "https://www.brewer-world.com/smart-brewing-at-iwort-using-algorithms-to-keep-up-with-beer-tastes/"
+   },
+   {
+    "label": "Podcast: AI in Brewing (Buzzsprout)",
+    "kind": "podcast",
+    "url": "https://www.buzzsprout.com/2202528/episodes/15219065-ep-24-artificial-intelligence-ai-in-brewing-ankur-napa"
+   }
+  ],
+  "verticals": [
+   "beer",
+   "whiskey",
+   "wine",
+   "food",
+   "non_alcoholic"
+  ]
+ },
+ {
+  "name": "Bart Watson",
+  "role": "President and CEO, former Chief Economist (craft beer market data and analytics), Brewers Association",
+  "linkedin": "https://www.linkedin.com/in/bart-watson/",
+  "location": "Boulder, Colorado, USA",
+  "vertical": "beer",
+  "ai_use_case": "data analytics / BI / market intelligence for beverage",
+  "ai_maturity": "shipping",
+  "short_description": "PhD economist who built the Brewers Association's craft beer production, sales, and market intelligence data program and was long the public face of US beer industry statistics.",
+  "source_urls": [
+   "https://www.brewersassociation.org/association-news/bart-watson-named-president-and-chief-executive-officer-of-the-brewers-association/",
+   "https://www.linkedin.com/in/bart-watson/"
+  ],
+  "first_seen": "2024-01-01",
+  "last_seen": "2026-07-22",
+  "company": "Brewers Association (Barley assistant)",
+  "company_key": "brewersassociation.org",
+  "linkedin_id": "bart-watson",
+  "company_is_current": true
+ },
+ {
+  "name": "Erin Schmidt",
+  "role": "Director, Commercial Analytics, Molson Coors Beverage Company",
+  "linkedin": "https://www.linkedin.com/in/erin-schmidt-92a18a4/",
+  "location": "Milwaukee, Wisconsin, USA",
+  "vertical": "beer",
+  "ai_use_case": "data analytics / BI / market intelligence for beverage",
+  "ai_maturity": "shipping",
+  "short_description": "Leads commercial and business analytics for Molson Coors across the Americas, with a decade in beverage revenue management and business intelligence.",
+  "source_urls": [
+   "https://business.wisc.edu/centers/nicholas/blog/erin-schmidt-director-commerical-analytics-molson-coors/",
+   "https://www.linkedin.com/in/erin-schmidt-92a18a4/"
+  ],
+  "first_seen": "2024-01-01",
+  "last_seen": "2026-07-22",
+  "company": "Molson Coors (Atwater Brewery)",
+  "company_key": "molsoncoors.com",
+  "linkedin_id": "erin-schmidt-92a18a4",
+  "company_is_current": true
+ },
+ {
+  "name": "Willy Lin",
+  "role": "Former Product Lead, Tech Supply (brewery data and predictive analytics), Amazon (formerly Anheuser-Busch InBev)",
+  "linkedin": "https://www.linkedin.com/in/willy-lin/",
+  "location": "New York, USA",
+  "vertical": "beer",
+  "ai_use_case": "data analytics / BI / market intelligence for beverage",
+  "ai_maturity": "shipping",
+  "short_description": "At AB InBev he moved plant-floor brewery data to the cloud and built predictive analytics to make breweries more efficient; profiled by Cornell Tech before moving on.",
+  "source_urls": [
+   "https://admissions.tech.cornell.edu/2022/01/05/data-science-in-brewing-willy-lin-orie-20/",
+   "https://www.linkedin.com/in/willy-lin/"
+  ],
+  "first_seen": "2024-01-01",
+  "last_seen": "2026-07-22",
+  "company": "Anheuser-Busch InBev",
+  "company_key": "ab-inbev.com",
+  "linkedin_id": "willy-lin",
+  "company_is_current": false
+ },
+ {
+  "name": "Amanda Dobbyn",
+  "role": "Data scientist / senior data engineer; author of a widely cited beer-styles data science project, independent (beer project); now Indigo",
+  "linkedin": "https://www.linkedin.com/in/amanda-dobbyn/",
+  "location": "Chicago, USA",
+  "vertical": "beer",
+  "ai_use_case": "data analytics / BI / market intelligence for beverage",
+  "ai_maturity": "shipping",
+  "short_description": "Built a public clustering and classification analysis of 45,000-plus beers to test whether beer styles hold up statistically, a well-known beer data science project.",
+  "source_urls": [
+   "https://aedobbyn.github.io/beer-data-science/",
+   "https://www.linkedin.com/in/amanda-dobbyn/"
+  ],
+  "first_seen": "2024-01-01",
+  "last_seen": "2026-07-22",
+  "company": null,
+  "company_key": null,
+  "linkedin_id": "amanda-dobbyn",
+  "company_is_current": null
+ },
+ {
+  "name": "Cathy Huyghe",
+  "role": "Co-Founder and CEO, wine and spirits data analytics / business intelligence, Enolytics",
+  "linkedin": "https://www.linkedin.com/in/cathy-huyghe-332307/",
+  "location": "Atlanta, Georgia, USA",
+  "vertical": "multiple",
+  "ai_use_case": "data analytics / BI / market intelligence for beverage",
+  "ai_maturity": "shipping",
+  "short_description": "Co-founded Enolytics in 2016 to bring big-data business intelligence to wine and spirits companies worldwide, building analytics apps on the Qlik platform.",
+  "source_urls": [
+   "https://www.enolytics.com/our-team",
+   "https://www.linkedin.com/in/cathy-huyghe-332307/"
+  ],
+  "first_seen": "2024-01-01",
+  "last_seen": "2026-07-22",
+  "company": "Enolytics",
+  "company_key": "enolytics.com",
+  "linkedin_id": "cathy-huyghe-332307",
+  "company_is_current": true
+ },
+ {
+  "name": "Lulie Halstead",
+  "role": "Co-Founder and former CEO, wine consumer research and market intelligence, Wine Intelligence (IWSR Group), now independent advisor",
+  "linkedin": "https://www.linkedin.com/in/lulie-halstead-1b3b8826/",
+  "location": "London, United Kingdom",
+  "vertical": "wine",
+  "ai_use_case": "data analytics / BI / market intelligence for beverage",
+  "ai_maturity": "shipping",
+  "short_description": "Founded Wine Intelligence in 2002 and built it into the leading global wine consumer research and market intelligence firm before its acquisition by IWSR.",
+  "source_urls": [
+   "https://winebc.com/industry/lulie-halstead/",
+   "https://www.linkedin.com/in/lulie-halstead-1b3b8826/"
+  ],
+  "first_seen": "2024-01-01",
+  "last_seen": "2026-07-22",
+  "company": null,
+  "company_key": null,
+  "linkedin_id": "lulie-halstead-1b3b8826",
+  "company_is_current": null
+ },
+ {
+  "name": "Alan Talbot",
+  "role": "Director, Analytics Group (wine industry databases and data-driven analysis), Wines Vines Analytics (WineBusiness Analytics)",
+  "linkedin": "https://www.linkedin.com/in/alanltalbot/",
+  "location": "Sonoma, California, USA",
+  "vertical": "wine",
+  "ai_use_case": "data analytics / BI / market intelligence for beverage",
+  "ai_maturity": "shipping",
+  "short_description": "Runs the analytics group behind the wine industry's production and market databases and data reports at WineBusiness Analytics.",
+  "source_urls": [
+   "https://theorg.com/org/wines-vines-analytics/org-chart/alan-talbot",
+   "https://www.linkedin.com/in/alanltalbot/"
+  ],
+  "first_seen": "2024-01-01",
+  "last_seen": "2026-07-22",
+  "company": "WineBusiness Analytics",
+  "company_key": "winebusinessanalytics.com",
+  "linkedin_id": "alanltalbot",
+  "company_is_current": true
+ },
+ {
+  "name": "Solène Bergaire",
+  "role": "Lead Data Scientist (revenue growth management, pricing and promotion analytics), Pernod Ricard",
+  "linkedin": "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108",
+  "location": "Paris, France",
+  "vertical": "multiple",
+  "ai_use_case": "data analytics / BI / market intelligence for beverage",
+  "ai_maturity": "shipping",
+  "short_description": "Leads data science projects on pricing and promotion optimization for a top premium spirits group whose brands include Jameson and The Glenlivet whiskies.",
+  "source_urls": [
+   "https://conference-mlops.com/speakers/solene-bergaire/",
+   "https://www.linkedin.com/in/sol%C3%A8ne-bergaire-a68472108"
+  ],
+  "first_seen": "2024-01-01",
+  "last_seen": "2026-07-22",
+  "company": "Pernod Ricard",
+  "company_key": null,
+  "linkedin_id": "sol%C3%A8ne-bergaire-a68472108",
+  "company_is_current": null
+ },
+ {
+  "name": "Tom Kornegay",
+  "role": "SVP, Head of Data, Analytics and Insights (Enterprise Data Center of Excellence), Southern Glazer's Wine & Spirits",
+  "linkedin": null,
+  "location": "Miami, Florida, USA",
+  "vertical": "multiple",
+  "ai_use_case": "data analytics / BI / market intelligence for beverage",
+  "ai_maturity": "shipping",
+  "short_description": "Hired in 2024 to lead the enterprise data, analytics and insights strategy for the largest US wine and spirits distributor.",
+  "source_urls": [
+   "https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
+  ],
+  "first_seen": "2024-01-01",
+  "last_seen": "2026-07-22",
+  "company": null,
+  "company_key": null,
+  "linkedin_id": null,
+  "company_is_current": null
+ },
+ {
+  "name": "Duan Peng",
+  "role": "SVP, Head of Data Science, AI and Machine Learning, Southern Glazer's Wine & Spirits",
+  "linkedin": null,
+  "location": "Miami, Florida, USA",
+  "vertical": "multiple",
+  "ai_use_case": "data analytics / BI / market intelligence for beverage",
+  "ai_maturity": "shipping",
+  "short_description": "Leads the enterprise data science and AI/ML strategy at Southern Glazer's Wine & Spirits' new Enterprise Data Center of Excellence.",
+  "source_urls": [
+   "https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence"
+  ],
+  "first_seen": "2024-01-01",
+  "last_seen": "2026-07-22",
+  "company": null,
+  "company_key": null,
+  "linkedin_id": null,
+  "company_is_current": null
+ },
+ {
+  "name": "Bharathi Sampangi",
+  "role": "VP, Data Platforms and Services, Southern Glazer's Wine & Spirits",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": null,
+  "vertical": "multiple",
+  "ai_use_case": "enterprise data platform architecture for beverage alcohol distribution",
+  "ai_maturity": "pilot",
+  "short_description": "Owns the architecture, technical design and roadmap of Southern Glazer's enterprise data platforms, reporting into the CIO, as part of the Enterprise Data Center of Excellence announced in March 2024. Prior engineering leadership roles at Gap Inc, Five Below, CSC and Yohana. company_is_current is false only because the sole employment source is the March 2024 announcement.",
+  "source_urls": [
+   "https://web.archive.org/web/20250723230216/https://www.businesswire.com/news/home/20240328422851/en/Southern-Glazers-Wine-Spirits-Announces-Leaders-for-New-Enterprise-Data-Center-of-Excellence",
+   "https://www.southernglazers.com/careers/Information-technology"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "Southern Glazer's Wine & Spirits",
+  "company_key": null,
+  "company_is_current": null
+ },
+ {
+  "name": "Jean Rovani",
+  "role": "Director of AI Engineering, Bloomfield Robotics",
+  "linkedin": "https://www.linkedin.com/in/jean-rovani-a7a34b339",
+  "linkedin_id": "jean-rovani-a7a34b339",
+  "location": "Pittsburgh, Pennsylvania, USA",
+  "vertical": "wine",
+  "ai_use_case": "computer vision for plant level vineyard and crop monitoring",
+  "ai_maturity": "shipping",
+  "short_description": "Leads AI engineering at Bloomfield Robotics, whose imaging platform produces plant level health and performance insights for vineyards and other specialty crops. Listed on the company's current team page.",
+  "source_urls": [
+   "https://bloomfield.ai/team",
+   "https://bloomfield.ai/"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "Bloomfield Robotics",
+  "company_key": null,
+  "company_is_current": true
+ },
+ {
+  "name": "Jasmine Ortega",
+  "role": "Data Scientist, Bloomfield Robotics",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": null,
+  "vertical": "wine",
+  "ai_use_case": "data science for vineyard and crop imaging analytics",
+  "ai_maturity": "shipping",
+  "short_description": "Data scientist at Bloomfield Robotics, the Kubota-owned vineyard and specialty crop imaging company. Listed on the company's current team page; no further public detail on her specific projects was found.",
+  "source_urls": [
+   "https://bloomfield.ai/team",
+   "https://bloomfield.ai/"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "Bloomfield Robotics",
+  "company_key": null,
+  "company_is_current": true
+ },
+ {
+  "name": "Shreya Kale",
+  "role": "AI Engineer, Bloomfield Robotics",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": null,
+  "vertical": "wine",
+  "ai_use_case": "AI engineering for vineyard and crop imaging",
+  "ai_maturity": "shipping",
+  "short_description": "AI engineer at Bloomfield Robotics, working on the computer vision imaging platform used to monitor vineyards and other specialty crops. Listed on the company's current team page.",
+  "source_urls": [
+   "https://bloomfield.ai/team",
+   "https://bloomfield.ai/"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "Bloomfield Robotics",
+  "company_key": null,
+  "company_is_current": true
+ },
+ {
+  "name": "Ian Weller",
+  "role": "Engineering Manager, Data Systems, Bloomfield Robotics",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": null,
+  "vertical": "wine",
+  "ai_use_case": "data systems and ML data pipelines for crop imaging",
+  "ai_maturity": "shipping",
+  "short_description": "Manages the data systems engineering function at Bloomfield Robotics, the pipeline layer behind its plant level vineyard imaging models. Listed on the company's current team page.",
+  "source_urls": [
+   "https://bloomfield.ai/team",
+   "https://bloomfield.ai/"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "Bloomfield Robotics",
+  "company_key": null,
+  "company_is_current": true
+ },
+ {
+  "name": "Jamie Sherrah",
+  "role": "CTO, Deep Liquid",
+  "linkedin": "https://au.linkedin.com/in/jsherrah",
+  "linkedin_id": "jsherrah",
+  "location": "Adelaide, Australia",
+  "vertical": "beer",
+  "ai_use_case": "machine learning on beer recipes and consumer review data",
+  "ai_maturity": "shipping",
+  "short_description": "PhD machine learning and computer vision researcher with over 20 years in the field, serving as CTO of Deep Liquid, which trained a recipe model on more than 200,000 beer recipes and analyses QR-collected drinker feedback for brewers. Also Technical Director for Defence at the Australian Institute for Machine Learning. Role stated on Deep Liquid's current site.",
+  "source_urls": [
+   "https://www.deepliquid.ai/",
+   "https://www.adelaide.edu.au/aiml/news/list/2025/03/19/deep-liquid-democratising-ai-one-beverage-at-a-time"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "Deep Liquid",
+  "company_key": null,
+  "company_is_current": true
+ },
+ {
+  "name": "Simon Lucey",
+  "role": "Director Machine Learning, Deep Liquid",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "Adelaide, Australia",
+  "vertical": "beer",
+  "ai_use_case": "machine learning on beer recipes and consumer review data",
+  "ai_maturity": "shipping",
+  "short_description": "Director of the Australian Institute for Machine Learning and a former associate research professor at Carnegie Mellon's Robotics Institute, listed as Director Machine Learning on Deep Liquid's team page. Deep Liquid applies ML to craft beer recipe development and drinker feedback analysis.",
+  "source_urls": [
+   "https://www.deepliquid.ai/",
+   "https://www.adelaide.edu.au/aiml/news/list/2025/03/19/deep-liquid-democratising-ai-one-beverage-at-a-time"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "Deep Liquid",
+  "company_key": null,
+  "company_is_current": true
+ },
+ {
+  "name": "Anton van den Hengel",
+  "role": "Director Applied AI, Deep Liquid",
+  "linkedin": "https://au.linkedin.com/in/antonvandenhengel",
+  "linkedin_id": "antonvandenhengel",
+  "location": "Adelaide, Australia",
+  "vertical": "beer",
+  "ai_use_case": "applied machine learning for beverage recipe and consumer feedback modelling",
+  "ai_maturity": "shipping",
+  "short_description": "Computer vision and machine learning professor, founding director of the Australian Institute for Machine Learning, listed as Director Applied AI on Deep Liquid's team page. Deep Liquid's model was trained on over 200,000 beer recipes with input from Barossa Valley Brewing.",
+  "source_urls": [
+   "https://www.deepliquid.ai/",
+   "https://www.adelaide.edu.au/aiml/news/list/2025/03/19/deep-liquid-democratising-ai-one-beverage-at-a-time"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "Deep Liquid",
+  "company_key": null,
+  "company_is_current": true
+ },
+ {
+  "name": "Andy Edmonds",
+  "role": "CTO, Terraview",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": null,
+  "vertical": "wine",
+  "ai_use_case": "vineyard yield, risk and irrigation forecasting",
+  "ai_maturity": "shipping",
+  "short_description": "Chief Technical Officer on Terraview's current management team page. Terraview, merged with Gamaya, builds satellite and agronomic modelling software for vineyard yield, risk and irrigation decisions. Listed as CTO of the technology company itself, so the AI work is his function rather than a separately documented personal project.",
+  "source_urls": [
+   "https://www.terraview.gmbh/about-us",
+   "https://www.terraview.gmbh/"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "Terraview",
+  "company_key": null,
+  "company_is_current": true
+ },
+ {
+  "name": "Rafal Cycon",
+  "role": "Chief Data Scientist, FORM",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": null,
+  "vertical": "multiple",
+  "ai_use_case": "image recognition for retail and on-premise shelf execution",
+  "ai_maturity": "shipping",
+  "short_description": "Chief Data Scientist at FORM, listed on the company's current leadership page. FORM's GoSpotCheck platform runs image recognition on shelf and display photos for beverage distributors and alcohol suppliers checking retail and on-premise execution.",
+  "source_urls": [
+   "https://www.form.com/about/",
+   "https://www.form.com/industries/beverage-distribution-software/"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "FORM (GoSpotCheck by FORM)",
+  "company_key": null,
+  "company_is_current": true
+ },
+ {
+  "name": "Jon Trafton",
+  "role": "Lead Data Analyst, vinSUITE",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "Napa, California, USA",
+  "vertical": "wine",
+  "ai_use_case": "winery DTC and wine club analytics",
+  "ai_maturity": "shipping",
+  "short_description": "Lead Data Analyst at vinSUITE, listed on the company's current team page. vinSUITE is a direct to consumer platform for wineries covering wine club, tasting room POS, ecommerce and analytics; the analytics product is reporting and BI rather than a stated machine learning capability.",
+  "source_urls": [
+   "https://vinsuite.com/about",
+   "https://vinsuite.com/analytics"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "vinSUITE",
+  "company_key": null,
+  "company_is_current": true
+ },
+ {
+  "name": "Alvaro Gonzalez",
+  "role": "Deputy Manager of Research and Development, Vina Concha y Toro",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "Santiago, Chile",
+  "vertical": "wine",
+  "ai_use_case": "harvest volume prediction from drone multispectral imagery",
+  "ai_maturity": "pilot",
+  "short_description": "Named in Concha y Toro's own account of the Center for Research and Innovation project that built an AI harvest volume prediction model from drone multispectral imagery and terrain data, reporting 2 to 9 percent prediction error against 20 to 30 percent for traditional methods. company_is_current is false only because the source article is dated March 2018 and no later confirmation of his role was found.",
+  "source_urls": [
+   "https://vinacyt.com/en/noticia/innovation/artificial-intelligence-and-drones-new-harvest-volume-prediction-system/",
+   "https://vinacyt.com/en/corporate-pillars/innovation/"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "Vina Concha y Toro",
+  "company_key": null,
+  "company_is_current": null
+ },
+ {
+  "name": "Jose Cuevas",
+  "role": "Researcher in Engineering, Vina Concha y Toro",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "Santiago, Chile",
+  "vertical": "wine",
+  "ai_use_case": "harvest volume prediction from drone multispectral imagery",
+  "ai_maturity": "pilot",
+  "short_description": "Engineering researcher quoted in Concha y Toro's own account of its AI crop forecasting project, on transferring the models from experimental conditions into production vineyard operations. company_is_current is false only because the source article is dated March 2018 and no later confirmation of his role was found.",
+  "source_urls": [
+   "https://vinacyt.com/en/noticia/innovation/artificial-intelligence-and-drones-new-harvest-volume-prediction-system/",
+   "https://vinacyt.com/en/corporate-pillars/innovation/"
+  ],
+  "first_seen": "2026-08-04",
+  "last_seen": "2026-08-04",
+  "company": "Vina Concha y Toro",
+  "company_key": null,
+  "company_is_current": null
+ },
+ {
+  "name": "Yash Raina",
+  "role": "Vice President, Global Head of Advanced Analytics, AI and Machine Learning, Diageo",
+  "linkedin": "https://www.linkedin.com/in/yash-raina-5187406/",
+  "linkedin_id": null,
+  "location": "Bengaluru, India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "leads Diageo's global data science capability for advanced analytics and AI/ML solutions",
+  "ai_maturity": "shipping",
+  "short_description": "Vice President at Diageo, based in Bengaluru, leading the Global Data Science capability focused on advanced analytics and AI/ML solutions. His LinkedIn headline describes him as Global Head of Advanced Analytics, AI and Machine Learning with 17+ years of experience; earlier employers include Fractal, Gramener, Accenture and Target.",
+  "company": "Diageo",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://theorg.com/org/diageo/org-chart/yash-raina",
+   "https://in.linkedin.com/in/yash-raina-5187406"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Gaurav Anand",
+  "role": "Head of Data and Analytics, Diageo India (per Cypher speaker listing)",
+  "linkedin": "https://www.linkedin.com/in/gauravanand27/",
+  "linkedin_id": null,
+  "location": "Bengaluru, India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "data foundation, self-service analytics and AI across sales, marketing, finance and supply at Diageo India",
+  "ai_maturity": "shipping",
+  "short_description": "Listed by Cypher (Analytics India Magazine) as leading the Data and Analytics team at Diageo India, spearheading digital transformation across sales, marketing, finance, HR, legal and supply chain. At Cypher 2024 he spoke on building the data foundation that advanced AI and analytics depend on. His LinkedIn summary describes the Diageo India work in the past tense, so current status is unconfirmed. His LinkedIn describes the Diageo India data role in the past tense, so confirm his current role before reaching out.",
+  "company": "Diageo India (United Spirits)",
+  "company_key": null,
+  "company_is_current": null,
+  "links": [],
+  "source_urls": [
+   "https://cypher.analyticsindiamag.com/speakers/gaurav-anand",
+   "https://business.machinehack.com/architecting-for-analytics-ascent-insights-from-gaurav-anand-head-of-data-and-analytics-at-diageo-india/",
+   "https://in.linkedin.com/in/gauravanand27"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Suresh Mandalika",
+  "role": "Chief Digital and Technology Officer, United Breweries Limited",
+  "linkedin": "https://www.linkedin.com/in/sureshmandalika/",
+  "linkedin_id": null,
+  "location": "Bengaluru, India",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "ML outlet recommender for range selling, shelf image recognition on coolers, connected-brewery IoT, GenAI copilot",
+  "ai_maturity": "shipping",
+  "short_description": "Chief Digital and Technology Officer at United Breweries (Heineken group). ET Enterprise AI reports UBL uses clustering and Bayesian regression to profile outlets and recommend SKUs, credited with 32 per cent premium volume growth in FY24-25, plus AI shelf image recognition on visi-coolers. He also described a Connected Brewery testbed tracking OEE and energy with IoT, and a GenAI copilot rolled out to 10 per cent of staff.",
+  "company": "United Breweries Limited",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://enterpriseai.economictimes.indiatimes.com/news/case-studies/united-breweries-is-pouring-ai-into-sales-and-smart-breweries/124087070",
+   "https://in.linkedin.com/in/sureshmandalika"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Simon de Beauregard",
+  "role": "Chief Transformation Officer, Pernod Ricard India",
+  "linkedin": "https://www.linkedin.com/in/simon-de-beauregard/",
+  "linkedin_id": null,
+  "location": "Gurugram, India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "in-house AI platforms Maestria (occasion mapping), Matrix (marketing ROI) and D-Star (outlet-level sales recommendations)",
+  "ai_maturity": "shipping",
+  "short_description": "Chief Transformation Officer at Pernod Ricard India, a French executive working in India. He has described in-house AI programmes Maestria, Matrix and D-Star, which map consumption occasions from 18,000 consumer interviews, link marketing spend to sales ROI and recommend outlets to sales reps. He credits Matrix with reallocating up to a third of marketing spend and D-Star with new Ballantine's listings in West Bengal. His LinkedIn headline now reads Group Chief Digital Marketing Officer, so the India role may be past.",
+  "company": "Pernod Ricard India",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://retail.economictimes.indiatimes.com/news/food-entertainment/grocery/pernod-ricard-india-leverages-ai-for-premiumization-and-operational-efficiency/121798350",
+   "https://www.fortuneindia.com/technology/how-pernod-ricards-flagship-ai-tools-are-scripting-the-french-spirits-majors-india-success-story/123222",
+   "https://isarer.com/crafting-the-future-ai-and-technology-are-redefining-indias-alcobev-businesses/",
+   "https://in.linkedin.com/in/simon-de-beauregard",
+   "https://www.thehindubusinessline.com/info-tech/crafting-the-future-ai-and-technology-are-redefining-indias-alcobev-businesses/article68905720.ece"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Shelley Sengupta",
+  "role": "Head of Insights, Analytics and Business Intelligence, Pernod Ricard India",
+  "linkedin": "https://www.linkedin.com/in/shelley-sengupta-66046a4/",
+  "linkedin_id": null,
+  "location": "Mumbai, India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "consumer insights, analytics and BI for a spirits portfolio",
+  "ai_maturity": "shipping",
+  "short_description": "Head of Insights at Pernod Ricard India, with her LinkedIn title covering insights, analytics and business intelligence, and a member of the group's Global Consumer Insights Leadership Network. The Market Research Society of India named her to its Managing Committee for 2022 to 2024 as Head of Insights at Pernod Ricard India.",
+  "company": "Pernod Ricard India",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://www.mrsi.co.in/newsdetail/shelly-sengupta-head-of-insights-at-pernod-ricard-india-joins-mrsi-s-managing-committee_76.html",
+   "https://in.linkedin.com/in/shelley-sengupta-66046a4"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Arpendu Ganguly",
+  "role": "Senior Data Scientist, Pernod Ricard India",
+  "linkedin": "https://www.linkedin.com/in/arpenduganguly/",
+  "linkedin_id": null,
+  "location": "India (city not stated)",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "ML/DL and econometric modelling as a data scientist at a spirits major",
+  "ai_maturity": "pilot",
+  "short_description": "Senior Data Scientist at Pernod Ricard India, having announced the move on LinkedIn; previously with Accenture AI. His profile describes 9.5+ years applying ML/DL algorithms and advanced econometric modelling, and his GitHub hosts ML and PyTorch notebooks. Specific drinks projects are not publicly described.",
+  "company": "Pernod Ricard India",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://github.com/ArpenduGanguly",
+   "https://theorg.com/org/pernod-ricard/org-chart/arpendu-ganguly",
+   "https://in.linkedin.com/in/arpenduganguly"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Vijoe Mathew",
+  "role": "Global Director, Analytics and GenAI, AB InBev (GCC India)",
+  "linkedin": "https://www.linkedin.com/in/vijoe-mathew-21784b26/",
+  "linkedin_id": null,
+  "location": "Bengaluru, India",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "leads AB InBev's GenAI centre of excellence: conversational AI, customer service automation, marketing intelligence",
+  "ai_maturity": "shipping",
+  "short_description": "Global Director of Analytics at the AB InBev Growth Analytics Centre, where ET Edge says he leads the GenAI CoE covering customer service automation, conversational AI, insights generation and marketing intelligence. He joined AB InBev in 2018 and built a data science and AI CoE in India. IBEF quotes him on turning GenAI into enterprise-scale actions at AB InBev GCC India.",
+  "company": "AB InBev GCC India",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://gcc.et-edge.com/2024-bangalore/team/vijoe-mathew/",
+   "https://www.ibef.org/news/india-gccs-emerge-as-proof-of-concept-foundries-for-genai-applications",
+   "https://in.linkedin.com/in/vijoe-mathew-21784b26"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Rahul Prakash",
+  "role": "Director, AI (Enterprise GenAI Products), AB InBev",
+  "linkedin": "https://www.linkedin.com/in/rahulprak/",
+  "linkedin_id": null,
+  "location": "Bengaluru, India",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "sales and distribution analytics and enterprise GenAI products for a brewer",
+  "ai_maturity": "shipping",
+  "short_description": "AB InBev director whose Data Engineering Summit speaker profile says he leads the Global Sales and Distribution Analytics capability, with 17+ years across CPG, consulting and AI start-ups. His LinkedIn headline now reads Building Enterprise GenAI Products at AB InBev, and he posts about the company's GenAI product team.",
+  "company": "AB InBev GCC India",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://des.analyticsindiamag.com/speaker/rahul-prakash/",
+   "https://in.linkedin.com/in/rahulprak"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Sajith Kurup",
+  "role": "Global VP Data, Analytics and AI, AB InBev",
+  "linkedin": "https://www.linkedin.com/in/sajith-kurup-27f1983/",
+  "linkedin_id": null,
+  "location": "Bengaluru, India",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "AI-driven commercial decision system and data-led media budget allocation for a brewer",
+  "ai_maturity": "shipping",
+  "short_description": "Global VP Data, Analytics and AI at AB InBev, per his LinkedIn headline, building an AI-driven commercial (marketing and sales) decision system. At 3AI's BEYOND 2023 he presented how the world's largest brewer uses data and analytics to allocate media budget, then as Global Director Commercial Analytics.",
+  "company": "AB InBev GCC India",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://www.youtube.com/watch?v=cFRaxD7ygqQ",
+   "https://in.linkedin.com/in/sajith-kurup-27f1983"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Ashish Shrivastava",
+  "role": "Chief Information Officer, Radico Khaitan",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "New Delhi, India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "mandate to lead AI-led digital transformation at an IMFL distiller",
+  "ai_maturity": "pilot",
+  "short_description": "Appointed Chief Information Officer of Radico Khaitan in September 2026 with a mandate to drive the company's next phase of digital and AI-led transformation. He previously served as Head of IT at Allied Blenders and Distillers, CIO at CMS Info Systems and CTO at the Punjab State e-Governance Society.",
+  "company": "Radico Khaitan",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://www.bwpeople.in/article/radico-khaitan-appoints-dr-ashish-shrivastava-as-cio-623446",
+   "https://digitalterminal.in/cio/radico-khaitan-appoints-dr-ashish-shrivastava-as-chief-information-officer"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Amar Sinha",
+  "role": "Managing Director, Allied Blenders and Distillers",
+  "linkedin": "https://www.linkedin.com/in/amar-sinha-5803123a/",
+  "linkedin_id": null,
+  "location": "New Delhi, India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "ML automation, sales force analytics, track and trace and predictive planning at an IMFL distiller",
+  "ai_maturity": "shipping",
+  "short_description": "Managing Director of Allied Blenders and Distillers since early 2026, after nine years as COO of Radico Khaitan. As Radico's COO he told ET the company used machine learning to automate routine tasks, a sales force app covering 60,500 retailers, track and trace for factory dispatches and an SAP SAC planning tool with predictive analytics. His AI and ML evidence dates from his time as Radico Khaitan COO.",
+  "company": "Allied Blenders and Distillers",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://economictimes.indiatimes.com/tech/tech-bytes/radico-khaitan-turns-to-tech-to-drive-better-efficiency/articleshow/87283645.cms",
+   "https://www.businesstoday.in/latest/corporate/story/radico-khaitan-coo-amar-sinha-resigns-moves-to-allied-blenders-as-md-516730-2026-02-18",
+   "https://isarer.com/crafting-the-future-ai-and-technology-are-redefining-indias-alcobev-businesses/"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Dhivya Kumar",
+  "role": "Chief Digital and Technology Officer, Diageo India",
+  "linkedin": "https://www.linkedin.com/in/dhivya-kumar-bansal/",
+  "linkedin_id": null,
+  "location": "Bengaluru, India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "leads Diageo India's digital and technology agenda including AI",
+  "ai_maturity": "pilot",
+  "short_description": "Chief Digital and Technology Officer at Diageo India (United Spirits), responsible for its technology ecosystem and digital investments per her LinkedIn profile. At the ETCIO Annual Conclave 2026 she said the next generation of CIOs must build fluency across sales, manufacturing, supply chain and finance, in a session on AI-led transformation.",
+  "company": "Diageo India (United Spirits)",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://cio.economictimes.indiatimes.com/news/business-analytics/cios-transition-from-tech-operators-to-strategic-business-leaders-amid-digital-transformation/131263212",
+   "https://in.linkedin.com/in/dhivya-kumar-bansal"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Anirudh Kunjal",
+  "role": "Head of Digital and Technology, Data, AI and MarTech, Diageo India",
+  "linkedin": "https://www.linkedin.com/in/kunjalanirudh/",
+  "linkedin_id": null,
+  "location": "Bengaluru, India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "leads Diageo India's enterprise data, analytics, AI and MarTech portfolio",
+  "ai_maturity": "pilot",
+  "short_description": "Head of Digital and Technology for Data, AI and MarTech at Diageo India, joining from Hero MotoCorp and Unilever. His profile says he leads Diageo India's analytics, AI and MarTech portfolio, and he has posted hiring calls for a data science lead to design ML/AI solutions.",
+  "company": "Diageo India (United Spirits)",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://sprect.com/pro/anirudhkunjal",
+   "https://in.linkedin.com/in/kunjalanirudh"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Srividya Rangarajan",
+  "role": "APAC Hub Manager, Technology, Security and Operations (Heineken) and Head of Technology, United Breweries",
+  "linkedin": "https://www.linkedin.com/in/srividya-rangarajan-2447488/",
+  "linkedin_id": null,
+  "location": "Bengaluru, India",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "technology for IT and brewery operations; speaks on GenAI adoption",
+  "ai_maturity": "pilot",
+  "short_description": "Head of Technology at United Breweries (a Heineken company), now also APAC Hub Manager for technology, security and operations at Heineken. At the ETCIO Annual Conclave 2024 she discussed the future of generative AI, and she posts about hyperautomation at UBL.",
+  "company": "United Breweries Limited",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://www.youtube.com/watch?v=xTy60bq_YuA",
+   "https://in.linkedin.com/in/srividya-rangarajan-2447488"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Vineeth Suresh",
+  "role": "Head of India GCC (HEINEKEN Business Services India)",
+  "linkedin": "https://www.linkedin.com/in/vineeth-suresh/",
+  "linkedin_id": null,
+  "location": "Hyderabad, India",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "heads Heineken's Hyderabad capability centre covering digital, data and analytics services",
+  "ai_maturity": "pilot",
+  "short_description": "Appointed head of HEINEKEN Business Services India, the brewer's Hyderabad global capability centre, in 2025. The centre supports finance, digital and technology services, data analytics and business process transformation. He previously worked at KPMG, Diageo and Tesco.",
+  "company": "HEINEKEN Business Services India",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://indiagccwire.com/people-moves/heineken-appoints-vineeth-suresh-as-head-of-india-gcc/",
+   "https://gcc-pulse.com/gcc-ecosystem/in-high-spirits-how-global-alcobev-majors-are-building-capability-hubs-in-india/",
+   "https://in.linkedin.com/in/vineeth-suresh"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Vipin Luthra",
+  "role": "Senior Director for Corporate Functions, Diageo; GenAI Global Lead and D&T India site lead",
+  "linkedin": "https://www.linkedin.com/in/vipinluthra/",
+  "linkedin_id": null,
+  "location": "Bengaluru, India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "global GenAI lead driving AI initiatives from Diageo's India technology hub",
+  "ai_maturity": "shipping",
+  "short_description": "Senior Director for Corporate Functions (SAP CoE, finance, planning, people, legal) at Diageo, whose LinkedIn headline adds GenAI Global Lead and D&T India site lead. Polestar Solutions featured her for driving GenAI initiatives at Diageo and leading AI transformation at scale; she previously held senior roles at PepsiCo.",
+  "company": "Diageo",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://theorg.com/org/diageo/org-chart/vipin-luthra",
+   "https://www.linkedin.com/posts/polestar-analytics_bodhi-aileadership-womenintech-activity-7323561925072617472-AFvW",
+   "https://in.linkedin.com/in/vipinluthra"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Archana Manjrekar",
+  "role": "Senior GenAI Operations and Program Manager, Diageo",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "Mumbai, India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "runs GenAI operations and programmes at a spirits major",
+  "ai_maturity": "pilot",
+  "short_description": "Listed by eChai as Senior GenAI Operations and Program Manager at Diageo, based in Mumbai. She hosted eChai's How Founders Use AI event in Mumbai in August 2026. Earlier roles include co-founder and CEO of Indiabizforsale.",
+  "company": "Diageo",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://echai.ventures/founders/archana-manjrekar",
+   "https://echai.ventures/events/how-founders-use-ai-mumbai-edition-aug-22-2026"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Tanvi Garg",
+  "role": "Product Development and Distillery Operations, John Distilleries (Paul John Whisky, Malhar Gin)",
+  "linkedin": "https://www.linkedin.com/in/tanvi-garg-8157b0170/",
+  "linkedin_id": null,
+  "location": "Bengaluru, India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "writes on applying AI to whisky production and maturation",
+  "ai_maturity": "research",
+  "short_description": "Distiller handling product development and distillery operations for Paul John Indian Single Malt and Malhar Indian Craft Gin, and the gin distiller behind Malhar per India Bartender Show. She has written LinkedIn articles on how AI can augment whisky production, including managing maturation as an active process. No deployed AI system is publicly described.",
+  "company": "John Distilleries",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://www.linkedin.com/pulse/how-ai-can-augment-whisky-production-tanvi-garg-lp49f",
+   "https://indiabartendershow.in/session/malhar-master-class-presented-by-paul-john/"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Akshet Tewari",
+  "role": "Founder and CEO, Barsys",
+  "linkedin": "https://www.linkedin.com/in/akshet-tewari-17461a36/",
+  "linkedin_id": null,
+  "location": "New York, USA (Indian-origin founder; working on the Indian market)",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "AI cocktail recommendation engine and bar performance analytics",
+  "ai_maturity": "shipping",
+  "short_description": "Founder and CEO of Barsys, a maker of automated cocktail machines whose Barsys.AI arm sells consumer behaviour data and targeted media to liquor brands, bars and retailers. Speaking to BW Hotelier about the Indian hospitality market, he described an AI recommendation engine that learns from user preferences and past orders, plus real-time inventory tracking and performance analytics for bars.",
+  "company": "Barsys",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://www.bwhotelier.com/article/pioneering-ai-driven-solutions-in-alco-bev-industry-539298",
+   "https://www.barsys.ai/about-us"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Prasanna Natarajan",
+  "role": "Founder and CEO, HipBar",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "Chennai, India",
+  "vertical": "multiple",
+  "verticals": [
+   "beer",
+   "whiskey",
+   "wine"
+  ],
+  "ai_use_case": "used purchase-pattern data and ML to help brands and retailers manage stock",
+  "ai_maturity": "pilot",
+  "short_description": "Founder of HipBar, a Chennai-based, RBI-approved wallet and compliant delivery platform for alcoholic drinks backed by Diageo India. Analytics India Magazine reported HipBar using AI and ML on purchase patterns and timings to help brands and retailers manage stock. The company was later renamed, so its current status is unclear. HipBar was later renamed and its current status is unclear.",
+  "company": "HipBar",
+  "company_key": null,
+  "company_is_current": null,
+  "links": [],
+  "source_urls": [
+   "https://analyticsindiamag.com/deep-tech/how-hipbar-is-going-ai-first-to-drive-the-future-of-drinks",
+   "https://yourstory.com/people/prasanna-natarajan"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Jatin Monga",
+  "role": "Founder, BottleShop",
+  "linkedin": "https://www.linkedin.com/in/jatin-monga-973b8993/",
+  "linkedin_id": null,
+  "location": "Gurugram, India",
+  "vertical": "multiple",
+  "verticals": [
+   "beer",
+   "whiskey",
+   "wine"
+  ],
+  "ai_use_case": "liquor retail operating system with AI forecasting, auto-reordering, anomaly detection and state excise compliance",
+  "ai_maturity": "shipping",
+  "short_description": "Founder of BottleShop, a Gurugram-based vertical SaaS for India's liquor trade founded in 2023, previously at Zomato. BottleShop describes an AI-first design with forecasting, auto-reordering and anomaly detection, plus state-specific excise modules. His LinkedIn says it runs core software for hundreds of liquor stores across 10 states.",
+  "company": "BottleShop",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://bottleshop.in/blogs/from-chaos-to-clarity-how-bottleshop-is-building-indias-liquor-operating-system-9724",
+   "https://inc42.com/person/jatin-monga/",
+   "https://in.linkedin.com/in/jatin-monga-973b8993"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Gaurav Vijay Sharma",
+  "role": "Founder, O'de Vie (strategy and technology for the Indian alcohol industry)",
+  "linkedin": "https://www.linkedin.com/in/gaurav-vijay-sharma/",
+  "linkedin_id": null,
+  "location": "Pune, India",
+  "vertical": "multiple",
+  "verticals": [
+   "wine",
+   "whiskey"
+  ],
+  "ai_use_case": "AI tools for alcobev retail inventory curation and market entry through state excise",
+  "ai_maturity": "pilot",
+  "short_description": "Founded O'de Vie in 2025 after about 15 years in the Indian wine and spirits trade, starting at Sula Vineyards in winemaking, then sales and state head roles. O'de Vie pairs excise and market-entry advice with enterprise technology and says it deploys AI tools for Indian operators. He writes on LinkedIn about AI for alcobev retail floor staff.",
+  "company": "O'de Vie",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://odevie.in/",
+   "https://www.linkedin.com/posts/gaurav-vijay-sharma_alcobev-artificialintelligence-retailtech-activity-7463532086860292097-cZII"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Harbakhshinder Singh",
+  "role": "Co-founder and COO, Liquid Ai Technologies",
+  "linkedin": "https://www.linkedin.com/in/harbakhshinder-singh-harry-b6a592128/",
+  "linkedin_id": null,
+  "location": "India (city not stated)",
+  "vertical": "beer",
+  "verticals": [
+   "beer",
+   "whiskey"
+  ],
+  "ai_use_case": "AI algorithms that generate alcoholic beverage recipes, in production for beer",
+  "ai_maturity": "shipping",
+  "short_description": "Co-founder of Liquid Ai, which says it develops AI algorithms to create alcoholic beverage recipes, uses them in production for beer and has datasets and test runs for whiskey. His F6S profile describes him as a published researcher in data science and AI with a master's from Punjab Agricultural University.",
+  "company": "Liquid Ai Technologies",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://www.f6s.com/company/liquidai",
+   "https://www.f6s.com/member/harbakshindersingh",
+   "https://www.liquidaitech.ca/about-us/"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Abhay Singh",
+  "role": "Founder, DukaanWale",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "Shahjahanpur, India",
+  "vertical": "multiple",
+  "verticals": [
+   "beer",
+   "whiskey",
+   "wine"
+  ],
+  "ai_use_case": "liquor shop billing software with an AI bill scanner and excise (FL2) reporting",
+  "ai_maturity": "shipping",
+  "short_description": "Founder of DukaanWale, shop software built from running his own wine and beer shop in Shahjahanpur, Uttar Pradesh. The product targets country liquor and wine-beer shops with an AI bill scanner, FL2 excise reports and shop-wise analytics.",
+  "company": "DukaanWale",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://dukaanwale.in/about.html",
+   "https://dukaanwale.in/"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Puneet Rane",
+  "role": "CEO, Centec RRR Systems and Sensors",
+  "linkedin": "https://www.linkedin.com/in/pun337/",
+  "linkedin_id": null,
+  "location": "Navi Mumbai, India",
+  "vertical": "beer",
+  "verticals": [
+   "beer",
+   "whiskey"
+  ],
+  "ai_use_case": "inline process sensors and automated process systems for breweries and distilleries",
+  "ai_maturity": "none",
+  "short_description": "CEO of Centec RRR, the Navi Mumbai Indo-German joint venture of Centec GmbH that supplies automated process systems and inline sensors to brewery, beverage and distillery plants. This is process data and automation work; no AI or ML application is publicly evidenced.",
+  "company": "Centec RRR Systems and Sensors",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://www.centec.de/en-in/impressum",
+   "https://in.linkedin.com/in/pun337"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Jogendera Singh",
+  "role": "Ex-Joint Director (Statistics), Department of Excise, Uttar Pradesh",
+  "linkedin": "https://www.linkedin.com/in/dr-jogendera-singh-1a3116156/",
+  "linkedin_id": null,
+  "location": "Allahabad, India",
+  "vertical": "multiple",
+  "verticals": [
+   "beer",
+   "whiskey",
+   "wine"
+  ],
+  "ai_use_case": "Excise statistics and data analytics for alcobev pricing, supply chain and policy",
+  "ai_maturity": "shipping",
+  "short_description": "Keynote speaker at the AIDA Annual Distillers' Conclave 2026. His AIDA bio credits him with statistical data analysis for decision-making and policy planning in Uttar Pradesh excise, an online supply chain management system for liquor and computerisation and data analytics across 33 years in the alcobev sector.",
+  "company": "Department of Excise, Uttar Pradesh",
+  "company_key": null,
+  "company_is_current": false,
+  "links": [],
+  "source_urls": [
+   "https://distillersconclave.aidaindia.org/speaker-bio-details.php?id=27",
+   "https://distillersconclave.aidaindia.org/speakers.php"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Vikram Damodaran",
+  "role": "Chief Innovation Officer, Diageo India",
+  "linkedin": "https://www.linkedin.com/in/vikram-damodaran/",
+  "linkedin_id": null,
+  "location": "Bengaluru, India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "Digital supply chain and innovation leadership; spoke at a NASSCOM IoT and AI conclave",
+  "ai_maturity": "none",
+  "short_description": "Listed speaker at Brews & Spirits Expo 2026 as Chief Innovation Officer, Diageo India. Diageo India announced him as a panellist on 'The Digital Supply Chain Imperative' at the NASSCOM Centre of Excellence IoT and AI Enterprise Innovation Challenge. No specific data or AI project of his own is documented in these sources, so maturity is set to none.",
+  "company": "Diageo India (United Spirits)",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://brewsnspiritsexpo.com/speakers",
+   "https://www.linkedin.com/posts/diageo-india_diageoindia-innovation-ai-activity-6838705902820966400-fukU"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Kaushik Banerjee",
+  "role": "Director, ICAR-National Research Centre for Grapes, Pune",
+  "linkedin": "https://www.linkedin.com/in/kaushikbanerjeefrsc/",
+  "linkedin_id": null,
+  "location": "Pune, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "AI in viticulture and chemometric residue analytics for grape and wine exports",
+  "ai_maturity": "research",
+  "short_description": "As Director of ICAR-NRCG he opened the 'AI in Viticulture: Way Forward' workshop, arguing AI should become a core part of vineyard practice to cut pesticide use, and convened a national conference on generative AI for agricultural research. His NRCG profile records work on the APEDA residue monitoring plan for exports of grapes and wine to the EU.",
+  "company": "ICAR-National Research Centre for Grapes",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://icar.org.in/en/ai-viticulture-way-forward-icar-nrcg-pune",
+   "https://www.nrcgrapes.in/staff/KBanerjee.htm",
+   "https://icar.org.in/en/icar-nrc-grapes-organises-national-conference-generative-ai"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Vidya Kumbhar (Patkar)",
+  "role": "Deputy Director, Symbiosis Institute of Geoinformatics, Pune (ICAR's workshop report names the Symbiosis Institute of Bioinformatics)",
+  "linkedin": "https://www.linkedin.com/in/dr-vidya-kumbhar-patkar-02048a20/",
+  "linkedin_id": null,
+  "location": "Pune, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "Geo-AI models for precision viticulture",
+  "ai_maturity": "research",
+  "short_description": "Spoke at ICAR-NRCG's 'AI in Viticulture: Way Forward' workshop on Geo-AI models for precision viticulture covering disease management, yield optimisation and grower decision support. Her Vidwan profile lists geospatial data for agriculture as her expertise.",
+  "company": "Symbiosis International University",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://icar.org.in/en/ai-viticulture-way-forward-icar-nrcg-pune",
+   "https://vidwan.inflibnet.ac.in/profile/276669"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Ashwini Gajarushi",
+  "role": "Engineering Manager (Electronic System Group), Technology Innovation Hub for IoT and IoE (TIH-IoT), IIT Bombay",
+  "linkedin": "https://www.linkedin.com/in/dr-ashwini-gajarushi-1b2b7019/",
+  "linkedin_id": null,
+  "location": "Mumbai, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "AI image-based grape disease app and IoT-linked vineyard management app (iSarathi) with ICAR-NRCG",
+  "ai_maturity": "pilot",
+  "short_description": "At ICAR-NRCG's AI in Viticulture workshop she presented the Maha VISTAR AI crop disease and pest identification app, where grapes play a pivotal role, and the AI-powered iSarathi vineyard app built with ICAR-NRCG and integrated with IoT systems. Grapes here cover both table and wine grapes.",
+  "company": "Technology Innovation Hub Foundation, IIT Bombay",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://icar.org.in/en/ai-viticulture-way-forward-icar-nrcg-pune",
+   "https://www.linkedin.com/posts/technology-innovation-hub_mainstreaming-ai-in-agricultural-education-activity-7433186334594355201-CVGg"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Deependra Singh Yadav",
+  "role": "Senior Scientist (Entomology), ICAR-National Research Centre for Grapes",
+  "linkedin": "https://www.linkedin.com/in/deependra-singh-yadav-a51420b/",
+  "linkedin_id": null,
+  "location": "Pune, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "ML models and an AI wearable device for detecting stress in vineyards",
+  "ai_maturity": "research",
+  "short_description": "Principal investigator of a government-listed project to train machine learning models on visible and long-wave infrared spectra and validate an AI-based wearable device for detecting biotic and abiotic stress in vineyards. His NRCG profile records transfer-learning models for stress detection on grape berries and leaves.",
+  "company": "ICAR-National Research Centre for Grapes",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://www.nrcgrapes.in/staff/DSYadav.htm",
+   "https://www.indiascienceandtechnology.gov.in/research/detection-and-management-biotic-and-abiotic-stresses-vineyards-using-artificial-intelligence-based?field_area_id=All"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Ajay Kumar Upadhyay",
+  "role": "Principal Scientist (Soil Science), ICAR-National Research Centre for Grapes",
+  "linkedin": "https://www.linkedin.com/in/ajay-kumar-upadhyay-6078883a/",
+  "linkedin_id": null,
+  "location": "Pune, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "Co-investigator on AI wearable for vineyard stress detection",
+  "ai_maturity": "research",
+  "short_description": "Listed as a co-investigator on NRCG's project to train machine learning models and an AI-based wearable device that detects biotic and abiotic stress in vineyards and feeds grape advisories.",
+  "company": "ICAR-National Research Centre for Grapes",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://www.indiascienceandtechnology.gov.in/research/detection-and-management-biotic-and-abiotic-stresses-vineyards-using-artificial-intelligence-based?field_area_id=All",
+   "https://www.nrcgrapes.in/staff/AKUpadhyay.htm"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Sujoy Saha",
+  "role": "Principal Scientist (Plant Pathology), ICAR-National Research Centre for Grapes",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "Pune, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "Co-investigator on AI wearable for vineyard stress detection",
+  "ai_maturity": "research",
+  "short_description": "Listed as a co-investigator on NRCG's machine learning and AI wearable device project for detecting vineyard stress. LinkedIn left empty because several profiles share the name.",
+  "company": "ICAR-National Research Centre for Grapes",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://www.indiascienceandtechnology.gov.in/research/detection-and-management-biotic-and-abiotic-stresses-vineyards-using-artificial-intelligence-based?field_area_id=All",
+   "https://www.nrcgrapes.in/staff/SujoySaha.htm"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Ahammed Shabeer T. P.",
+  "role": "Scientist, ICAR-National Research Centre for Grapes",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "Pune, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "Hyperspectral detection of pesticide residue on grapes",
+  "ai_maturity": "research",
+  "short_description": "Co-author with TCS Research of an SPIE paper using hyperspectral sensing to detect cyantraniliprole residue on grapes. Listed on the NRCG scientific staff page.",
+  "company": "ICAR-National Research Centre for Grapes",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1117/12.2261797",
+   "https://api.crossref.org/works/10.1117/12.2261797",
+   "https://www.nrcgrapes.in/Scientific-Staff.htm"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Jayantrao D. Mohite",
+  "role": "Scientist, Geospatial AI-ML, TCS Research (per LinkedIn headline)",
+  "linkedin": "https://www.linkedin.com/in/jayant-mohite-3667386b/",
+  "linkedin_id": null,
+  "location": "India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "Multispectral and hyperspectral deep learning for grape sugar, freshness and pesticide residue",
+  "ai_maturity": "research",
+  "short_description": "Co-author of TCS Research papers predicting grape sugar levels and freshness from multispectral imaging with deep learning (IGARSS 2024) and detecting pesticide residue on grapes with hyperspectral sensing alongside ICAR-NRCG scientists.",
+  "company": "Tata Consultancy Services (TCS Research)",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1109/igarss53475.2024.10640644",
+   "https://api.crossref.org/works/10.1109/igarss53475.2024.10640644",
+   "https://doi.org/10.1117/12.2261797",
+   "https://api.crossref.org/works/10.1117/12.2261797"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Sujit Shinde",
+  "role": "Project Manager, TCS Research",
+  "linkedin": "https://www.linkedin.com/in/sujitrshinde/",
+  "linkedin_id": null,
+  "location": "India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "Deep learning on multispectral images to predict grape sugar level and freshness",
+  "ai_maturity": "research",
+  "short_description": "Lead author of two IGARSS 2024 papers from TCS Research that predict grape sugar levels and freshness from multispectral imaging using deep learning.",
+  "company": "Tata Consultancy Services (TCS Research)",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1109/igarss53475.2024.10640644",
+   "https://api.crossref.org/works/10.1109/igarss53475.2024.10640644",
+   "https://doi.org/10.1109/igarss53475.2024.10640740",
+   "https://api.crossref.org/works/10.1109/igarss53475.2024.10640740"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Raju Yerolla",
+  "role": "Researcher, Department of Chemical Engineering, NIT Calicut (per paper affiliation)",
+  "linkedin": "https://www.linkedin.com/in/rajuyerolla/",
+  "linkedin_id": null,
+  "location": "Kozhikode, India",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "Beer fermentation modelling and advanced control for flavour and performance",
+  "ai_maturity": "research",
+  "short_description": "Lead author of 'Modeling and Control of Beer Fermentation for Optimal Flavor and Performance' (Chemical Engineering & Technology) and 'Beer fermentation modeling for optimum flavor and performance' (IFAC-PapersOnLine), both from NIT Calicut.",
+  "company": "National Institute of Technology Calicut",
+  "company_key": null,
+  "company_is_current": null,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1002/ceat.202200376",
+   "https://api.crossref.org/works/10.1002/ceat.202200376",
+   "https://doi.org/10.1016/j.ifacol.2022.04.063",
+   "https://api.crossref.org/works/10.1016/j.ifacol.2022.04.063"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Chandra Shekar Besta",
+  "role": "Assistant Professor, National Institute of Technology Calicut",
+  "linkedin": "https://www.linkedin.com/in/csbesta/",
+  "linkedin_id": null,
+  "location": "Kozhikode, India",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "Beer fermentation modelling and control",
+  "ai_maturity": "research",
+  "short_description": "Senior author on NIT Calicut's beer fermentation modelling and control papers in Chemical Engineering & Technology and IFAC-PapersOnLine, which model yeast growth and temperature control to optimise flavour.",
+  "company": "National Institute of Technology Calicut",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1002/ceat.202200376",
+   "https://api.crossref.org/works/10.1002/ceat.202200376",
+   "https://doi.org/10.1016/j.ifacol.2022.04.063",
+   "https://api.crossref.org/works/10.1016/j.ifacol.2022.04.063"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Dhanashree K. Barbole",
+  "role": "Assistant Professor, AI-ML Department, Symbiosis Institute of Technology, Pune (per LinkedIn); research done at MIT World Peace University",
+  "linkedin": "https://www.linkedin.com/in/dr-dhanashree-k-barbole-552165197/",
+  "linkedin_id": null,
+  "location": "Pune, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "Vineyard image datasets and AI grape yield prediction",
+  "ai_maturity": "research",
+  "short_description": "Lead author of GrapesNet, a set of Indian RGB and RGB-D vineyard image datasets for deep learning (Data in Brief, 2023), and of a comparison of 2D and 3D AI vineyard yield prediction systems. Whether the vineyards are wine or table grape plots is not stated in the sources.",
+  "company": "Symbiosis Institute of Technology",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1016/j.dib.2023.109100",
+   "https://api.crossref.org/works/10.1016/j.dib.2023.109100",
+   "https://doi.org/10.4081/jae.2023.1545",
+   "https://api.crossref.org/works/10.4081/jae.2023.1545"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Parul M. Jadhav",
+  "role": "Faculty, Dr. Vishwanath Karad MIT World Peace University",
+  "linkedin": "https://www.linkedin.com/in/dr-parul-jadhav-28b52b37/",
+  "linkedin_id": null,
+  "location": "Pune, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "Vineyard image datasets and AI grape yield prediction",
+  "ai_maturity": "research",
+  "short_description": "Co-author of GrapesNet, the Indian vineyard RGB and RGB-D image datasets, and of AI-based 2D versus 3D vineyard yield prediction work from MIT World Peace University.",
+  "company": "MIT World Peace University",
+  "company_key": null,
+  "company_is_current": null,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1016/j.dib.2023.109100",
+   "https://api.crossref.org/works/10.1016/j.dib.2023.109100",
+   "https://doi.org/10.4081/jae.2023.1545",
+   "https://api.crossref.org/works/10.4081/jae.2023.1545"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Nobin Chandra Paul",
+  "role": "Scientist, ICAR-National Institute of Abiotic Stress Management",
+  "linkedin": "https://www.linkedin.com/in/nobin-ch-paul-82a703145/",
+  "linkedin_id": null,
+  "location": "Baramati, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "Optimised weighted ensemble ML for grapevine yield prediction",
+  "ai_maturity": "research",
+  "short_description": "Lead author of 'Grape vine (Vitis vinifera) yield prediction using optimized weighted ensemble machine learning approach' in Smart Agricultural Technology (2025) from ICAR-NIASM.",
+  "company": "ICAR-National Institute of Abiotic Stress Management",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1016/j.atech.2025.101151",
+   "https://api.crossref.org/works/10.1016/j.atech.2025.101151"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Pratapsingh S. Khapte",
+  "role": "Scientist, ICAR-National Institute of Abiotic Stress Management (per paper affiliation)",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "Baramati, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "Grapevine yield prediction with ensemble ML",
+  "ai_maturity": "research",
+  "short_description": "Co-author of the ICAR-NIASM grapevine yield prediction paper using an optimised weighted ensemble of machine learning models (Smart Agricultural Technology, 2025).",
+  "company": "ICAR-National Institute of Abiotic Stress Management",
+  "company_key": null,
+  "company_is_current": null,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1016/j.atech.2025.101151",
+   "https://api.crossref.org/works/10.1016/j.atech.2025.101151"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Kranthi Kumar Pulluri",
+  "role": "Researcher, Vellore Institute of Technology (per paper affiliation)",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "Electronic nose for wine quality assessment",
+  "ai_maturity": "research",
+  "short_description": "Lead author of 'Wine Quality Assessment using Electronic Nose' at the 2021 Asian Conference on Innovation in Technology, from VIT. Current employer not confirmed, so LinkedIn is left empty.",
+  "company": "Vellore Institute of Technology",
+  "company_key": null,
+  "company_is_current": null,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1109/asiancon51346.2021.9544828",
+   "https://api.crossref.org/works/10.1109/asiancon51346.2021.9544828"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Chaitali K. Nikhar",
+  "role": "Researcher (paper affiliations: Gujarat Technological University and COEP Technological University)",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "India",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "Machine learning to predict effluent characteristics in distillery wastewater treatment",
+  "ai_maturity": "research",
+  "short_description": "Lead author of a comparative study of machine learning models for predicting adsorption-based distillery effluent treatment (Asian Journal of Civil Engineering, 2025). The distillery focus is effluent, not the spirit itself.",
+  "company": "COEP Technological University",
+  "company_key": null,
+  "company_is_current": null,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1007/s42107-025-01489-3",
+   "https://api.crossref.org/works/10.1007/s42107-025-01489-3"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Yogesh Gupta",
+  "role": "Faculty, GLA University, Mathura (per paper affiliation)",
+  "linkedin": null,
+  "linkedin_id": null,
+  "location": "Mathura, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "Feature selection and ML prediction of wine quality",
+  "ai_maturity": "research",
+  "short_description": "Sole author of 'Selection of important features and predicting wine quality using machine learning techniques' (Procedia Computer Science, 2018), one of the most cited Indian wine ML papers. The work uses a public physicochemical wine dataset rather than Indian winery data.",
+  "company": "GLA University",
+  "company_key": null,
+  "company_is_current": null,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1016/j.procs.2017.12.041",
+   "https://api.crossref.org/works/10.1016/j.procs.2017.12.041"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Khushboo Jain",
+  "role": "Faculty, UPES Dehradun",
+  "linkedin": "https://www.linkedin.com/in/dr-khushboo-jain-3a5006102/",
+  "linkedin_id": null,
+  "location": "Dehradun, India",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "ML predictive modelling for wine quality",
+  "ai_maturity": "research",
+  "short_description": "Lead author of 'Machine learning-based predictive modelling for the enhancement of wine quality' in Scientific Reports (2023). The study models wine quality from physicochemical attributes; it is not tied to an Indian winery.",
+  "company": "UPES",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1038/s41598-023-44111-9",
+   "https://api.crossref.org/works/10.1038/s41598-023-44111-9"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Ajay Verma",
+  "role": "Scientist, ICAR-Indian Institute of Wheat and Barley Research",
+  "linkedin": "https://www.linkedin.com/in/ajay-verma-b7b2aa137/",
+  "linkedin_id": null,
+  "location": "Karnal, India",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "AMMI statistical modelling of genotype by environment interaction in malt barley",
+  "ai_maturity": "research",
+  "short_description": "Lead author of a study using AMMI model parameters to assess genotype by environment interaction of malt barley genotypes, the statistical backbone of selecting brewing barley varieties in India.",
+  "company": "ICAR-Indian Institute of Wheat and Barley Research",
+  "company_key": null,
+  "company_is_current": null,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.18006/2019.7(3).273.280",
+   "https://api.crossref.org/works/10.18006/2019.7(3).273.280"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Pramod P. Aradwad",
+  "role": "Scientist, ICAR (working with the Leibniz Institute for Agricultural Engineering and Bioeconomy, Potsdam)",
+  "linkedin": "https://www.linkedin.com/in/pramod-aradwad-099a1565/",
+  "linkedin_id": null,
+  "location": "Potsdam, Germany",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "Hyperspectral predictive modelling of brewer's spent grain quality in storage",
+  "ai_maturity": "research",
+  "short_description": "Indian ICAR scientist, currently in Germany, and lead author of a 2025 Food Control paper combining volatome profiling with hyperspectral predictive modelling to monitor brewer's spent grain quality during storage. The work is European-based, not Indian alcobev.",
+  "company": "Indian Council of Agricultural Research",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://doi.org/10.1016/j.foodcont.2025.111662",
+   "https://api.crossref.org/works/10.1016/j.foodcont.2025.111662"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Tushar Agrawal",
+  "role": "Full-stack engineer and builder of Liquor Pro; Software Developer, Dr. Dangs Lab",
+  "linkedin": "https://www.linkedin.com/in/tushar-agrawal-91b67a28a/",
+  "linkedin_id": null,
+  "location": "New Delhi, India",
+  "vertical": "multiple",
+  "verticals": [
+   "beer",
+   "whiskey",
+   "wine"
+  ],
+  "ai_use_case": "AI invoice scanning and stock-register extraction for Indian liquor retail",
+  "ai_maturity": "shipping",
+  "short_description": "Built Liquor Pro, a free app for Indian liquor stores, wine shops and beer distributors that uses AI to read purchase invoices line by line and extract stock from photographed registers. His own site says LiquorPro serves 20+ businesses and 80+ users across Uttar Pradesh.",
+  "company": "Liquor Pro (floelife.in)",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://floelife.in/about/",
+   "https://www.tusharagrawal.in"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ },
+ {
+  "name": "Mayank Pratap Singh",
+  "role": "Co-founder and CEO, EngineerBabu",
+  "linkedin": "https://www.linkedin.com/in/mayankpratap/",
+  "linkedin_id": null,
+  "location": "Indore, India",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "AI demand forecasting and real-time inventory for Simba Beer",
+  "ai_maturity": "shipping",
+  "short_description": "Named author of EngineerBabu's published case study on building AI-driven inventory management for Simba Beer, which replaced manual field stock reports with real-time dashboards and store-level SKU demand forecasts. EngineerBabu also published a video walkthrough of the Simba project.",
+  "company": "EngineerBabu",
+  "company_key": null,
+  "company_is_current": true,
+  "links": [],
+  "source_urls": [
+   "https://engineerbabu.com/blog/simba-beer-inventory-management-case-study/",
+   "https://www.youtube.com/watch?v=bKMl6YDfAno"
+  ],
+  "first_seen": "2026-09-27",
+  "last_seen": "2026-09-27"
+ }
 ]
