@@ -219,6 +219,8 @@
       <input id="globalq" type="search" placeholder="Search everything: companies, people, papers, blogs, podcasts…" aria-label="Search everything" />
       <div id="global-hint" class="global-hint" aria-live="polite"></div>
     </div>
+    <!-- Browse by theme: one click lands on Companies already filtered. -->
+    <nav class="themechips" id="home-themes" aria-label="Browse by theme" hidden></nav>
   </header>
 
   <div class="wrap" id="whatsnew" hidden></div>
@@ -232,6 +234,25 @@
   <section class="wrap view" id="view-home">
     <!-- Company of the day. Date-seeded, so every visitor sees the same one and
          it changes once a day rather than on every reload. -->
+    <!-- The data itself, above the fold: newest entries and a ranked board,
+         so the landing page shows the directory instead of only describing it. -->
+    <div class="homelists" id="home-lists" hidden>
+      <section class="hl" aria-labelledby="hl-recent">
+        <header class="hl__head">
+          <h2 id="hl-recent">Recently added</h2>
+          <a href="#" data-goto="companies">View all</a>
+        </header>
+        <ol class="recent" id="home-recent"></ol>
+      </section>
+      <section class="hl" aria-labelledby="hl-board">
+        <header class="hl__head">
+          <h2 id="hl-board">Best evidenced AI in production</h2>
+          <a href="#" data-goto="companies">View all</a>
+        </header>
+        <p class="hl__note">Shipping, human-verified AI claims, ranked by the number of independent sources behind each one.</p>
+        <ol class="board" id="home-board"></ol>
+      </section>
+    </div>
     <section id="pickoftheday" hidden aria-label="Company of the day"></section>
     <section class="home__doors" aria-label="Where to start">
       <a class="door" href="#" data-goto="companies">

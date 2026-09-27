@@ -1750,3 +1750,78 @@ body[data-view="about"] .hero { padding-bottom: 1rem; }
 .potd__use { margin: 0 0 .4rem; color: var(--accent); font-size: .95rem; }
 .potd__desc { margin: 0 0 .7rem; color: var(--body); font-size: .92rem; }
 .potd__go { display: inline-block; margin-top: .6rem; color: var(--accent); font-size: .88rem; }
+
+/* ---------- Home: theme chips, recently added, evidence board ---------- */
+.themechips {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: .45rem;
+  max-width: 60rem; margin: 1.4rem auto 0;
+}
+.themechip {
+  font: inherit; font-size: .82rem; color: var(--body); cursor: pointer;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: .3rem .7rem; transition: border-color .15s, color .15s, transform .15s;
+}
+.themechip span { color: var(--muted); font-variant-numeric: tabular-nums; margin-left: .2rem; }
+.themechip:hover, .themechip:focus-visible { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+
+.homelists {
+  display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 1.25rem;
+  margin: 1.5rem 0 1.25rem;
+}
+.hl { background: var(--surface); border: 1px solid var(--line); padding: 1.1rem 1.25rem 1.25rem; }
+.hl__head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+.hl__head h2 { font-family: var(--serif); font-weight: 400; font-size: 1.35rem; margin: 0; color: var(--ink); }
+.hl__head a { font-size: .82rem; color: var(--accent); text-decoration: none; white-space: nowrap; }
+.hl__head a:hover { color: var(--accent-hover); text-decoration: underline; }
+.hl__note { font-size: .82rem; color: var(--muted); margin: .3rem 0 0; }
+
+.recent, .board { list-style: none; margin: .75rem 0 0; padding: 0; }
+.recent__item, .board__row {
+  display: flex; align-items: center; gap: .75rem; padding: .6rem .4rem;
+  border-top: 1px solid var(--line); cursor: pointer; transition: background .15s;
+}
+.recent__item:first-child, .board__row:first-child { border-top: 0; }
+.recent__item:hover, .board__row:hover { background: var(--bg); }
+.recent .logo, .board .logo { width: 32px; height: 32px; }
+.recent__body, .board__body { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.recent__name, .board__name {
+  color: var(--ink); font-weight: 500; text-decoration: none;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.recent__item:hover .recent__name, .board__row:hover .board__name { color: var(--accent); }
+.recent__meta, .board__use {
+  font-size: .78rem; color: var(--muted);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.recent .chip { flex: none; }
+
+.board__rank {
+  flex: none; width: 1.7rem; text-align: center;
+  font-family: var(--serif); font-size: 1.1rem; color: var(--muted); font-variant-numeric: tabular-nums;
+}
+.board__rank--1, .board__rank--2, .board__rank--3 { color: var(--ink); font-weight: 600; }
+.board__rank--1 { color: var(--v-beer); }
+.board__rank--2 { color: var(--muted); }
+.board__rank--3 { color: var(--v-whiskey); }
+.board__where { flex: none; font-size: .78rem; color: var(--muted); width: 7.5rem; text-align: right;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.board__n {
+  flex: none; width: 3.6rem; text-align: right; font-family: var(--serif); font-size: 1.15rem;
+  color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1.1;
+}
+.board__n small { display: block; font-family: var(--font); font-size: .64rem; color: var(--muted);
+  letter-spacing: .08em; text-transform: uppercase; }
+
+@media (max-width: 860px) {
+  .homelists { grid-template-columns: minmax(0, 1fr); }
+  .board__where { display: none; }
+  /* One swipeable row instead of a nine-line stack above the fold. */
+  .themechips { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto;
+    scrollbar-width: none; margin-top: 1rem; padding-bottom: .2rem; }
+  .themechips::-webkit-scrollbar { display: none; }
+  .themechip { flex: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .themechip { transition: none; }
+  .themechip:hover { transform: none; }
+}

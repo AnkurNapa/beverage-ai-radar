@@ -533,6 +533,76 @@ function paintPick() {
   el.hidden = false;
 }
 
+/*
+ * Home lists. Three patterns borrowed from startup directories: theme chips
+ * with counts, a recently-added strip and a ranked board. The rank is only
+ * the source count, a number the data actually holds; anything cleverer
+ * would be an editorial score passed off as a measurement.
+ */
+const isCompany = (c) => c.company_type !== "individual";
+
+function recentlyAdded(rows, n) {
+  return rows.filter(isCompany)
+    .sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || a.name.localeCompare(b.name))
+    .slice(0, n);
+}
+
+function evidenceBoard(rows, n) {
+  const srcs = (c) => (c.source_urls || []).length;
+  return rows.filter((c) => isCompany(c) && c.ai_maturity === "shipping"
+      && aiVerdict(c).kind === "real" && c.verified && c.status !== "dormant")
+    .sort((a, b) => srcs(b) - srcs(a) || a.name.localeCompare(b.name))
+    .slice(0, n);
+}
+
+function daysAgo(iso) {
+  const d = Math.round((Date.now() - new Date(iso)) / 86400000);
+  return d <= 0 ? "today" : d === 1 ? "yesterday" : d + " days ago";
+}
+
+function paintHomeLists() {
+  const chips = $("home-themes");
+  if (chips) {
+    chips.innerHTML = counts(ALL.filter(isCompany), "_theme")
+      .filter(([t]) => t !== "Other")
+      .map(([t, n]) => `<button type="button" class="themechip" data-theme="${esc(t)}">${esc(t)} <span>${n}</span></button>`)
+      .join("");
+    chips.hidden = false;
+    chips.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-theme]");
+      if (!b) return;
+      $("tab-companies").click();
+      const sel = $("f-usecase");
+      sel.value = b.dataset.theme;
+      sel.dispatchEvent(new Event("input", { bubbles: true }));
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+  const recent = recentlyAdded(ALL, 8), board = evidenceBoard(ALL, 10);
+  if (!recent.length && !board.length) return;
+  $("home-recent").innerHTML = recent.map((c) => `
+    <li class="recent__item is-clickable" data-route="c/${esc(encodeURIComponent(c.key))}">
+      ${logoHtml(c)}
+      <span class="recent__body">
+        <a class="recent__name" href="#/c/${esc(encodeURIComponent(c.key))}">${esc(c.name)}</a>
+        <span class="recent__meta">${c.vertical ? vlab(c.vertical) + " &middot; " : ""}${esc(daysAgo(c.first_seen))}</span>
+      </span>
+      ${verdictChip(c)}
+    </li>`).join("");
+  $("home-board").innerHTML = board.map((c, i) => `
+    <li class="board__row is-clickable" data-route="c/${esc(encodeURIComponent(c.key))}">
+      <span class="board__rank board__rank--${i + 1}">${i + 1}</span>
+      ${logoHtml(c)}
+      <span class="board__body">
+        <a class="board__name" href="#/c/${esc(encodeURIComponent(c.key))}">${esc(c.name)}</a>
+        <span class="board__use">${esc(trim(c.ai_use_case || c.short_description || "", 90))}</span>
+      </span>
+      <span class="board__where">${esc(c.country && c.country !== "unknown" ? c.country : "")}</span>
+      <span class="board__n" title="Independent sources">${(c.source_urls || []).length}<small>sources</small></span>
+    </li>`).join("");
+  $("home-lists").hidden = false;
+}
+
 const trim = (s, n) => (s.length > n ? s.slice(0, s.lastIndexOf(" ", n)) + "..." : s);
 
 function showView(which) {
@@ -2101,6 +2171,7 @@ async function main() {
   await loadEvents();
   try { paintDoors(); } catch (e) { /* doors are a convenience, never a blocker */ }
   try { paintPick(); } catch (e) { /* same for the daily pick: never block the page */ }
+  try { paintHomeLists(); } catch (e) { /* the home lists are extras: never block the page */ }
   await loadProspects();
 
   // global search: one box drives every tab + shows where matches are
