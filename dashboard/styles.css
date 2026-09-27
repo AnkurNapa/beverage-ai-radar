@@ -1854,3 +1854,77 @@ body[data-view="about"] .hero { padding-bottom: 1rem; }
 /* .wrap's 3.5rem bottom padding is for page sections; on these two thin
    banners it opened a 56px hole above the figures line. */
 #hintbar.wrap, #whatsnew.wrap { padding-bottom: 0; }
+
+/* ---------- Detail pages: main column + sidebar (BetaList) ---------- */
+.dlayout {
+  display: grid; grid-template-columns: minmax(0, 1fr) 17rem; gap: 3rem; align-items: start;
+}
+.dlayout .detail { max-width: 820px; }
+.dside {
+  position: sticky; top: 1.5rem; margin-top: 5.5rem;
+  display: flex; flex-direction: column; gap: .75rem;
+}
+.dside__cta {
+  display: flex; justify-content: center; align-items: center; gap: .4rem;
+  padding: .85rem 1rem; background: var(--ink); color: var(--bg);
+  font-weight: 500; text-decoration: none; transition: background .15s;
+}
+.dside__cta:hover, .dside__cta:focus-visible { background: var(--accent); color: #fff; }
+.dside__links { display: flex; flex-wrap: wrap; gap: .4rem; }
+.dside__links a {
+  flex: 1; text-align: center; font-size: .82rem; padding: .45rem .6rem;
+  border: 1px solid var(--line); color: var(--body); text-decoration: none;
+}
+.dside__links a:hover { border-color: var(--accent); color: var(--accent); }
+.dside__facts { margin: .25rem 0 0; border-top: 1px solid var(--line); }
+.dside .drow { padding: .65rem 0; gap: .15rem; }
+.dside .drow dd { font-size: .92rem; }
+.dside__copy {
+  font: inherit; font-size: .8rem; color: var(--muted); cursor: pointer; text-align: left;
+  background: none; border: 0; padding: .3rem 0; text-decoration: underline dotted;
+}
+.dside__copy:hover { color: var(--accent); }
+
+/* Sources: the site's icon and host, then the path, instead of "Source 1: …". */
+.srcs { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+.src {
+  display: grid; grid-template-columns: 16px auto minmax(0, 1fr); align-items: center; gap: .6rem;
+  padding: .6rem .8rem; border: 1px solid var(--line); background: var(--surface);
+  text-decoration: none; color: var(--body); transition: border-color .15s;
+}
+.src:hover { border-color: var(--accent); }
+.src__host { font-weight: 500; color: var(--ink); }
+.src:hover .src__host { color: var(--accent); }
+.src__path { font-size: .8rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* Related: logo rows (BetaList's "Discover startups similar to"). */
+.rels { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.rel {
+  display: flex; align-items: center; gap: .8rem; padding: .7rem .3rem;
+  border-bottom: 1px solid var(--line); cursor: pointer; transition: background .15s;
+}
+.rel:hover { background: var(--surface); }
+.rel .logo { width: 32px; height: 32px; }
+.rel__body { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.rel__body a { color: var(--ink); font-weight: 500; text-decoration: none; }
+.rel:hover .rel__body a { color: var(--accent); }
+.rel__why { font-size: .8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rel .chip { flex: none; }
+.rel .rel__score { flex: none; font-size: .78rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+@media (max-width: 900px) {
+  .dlayout { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  /* On a phone the action comes straight after the description is read:
+     order puts the sidebar under the article, not above it. */
+  .dside { position: static; margin-top: 0; }
+  .rel .chip { display: none; }
+}
+/* Phones: the sidebar drops below the article, so the one action is repeated
+   under the tags where a thumb actually reaches it. */
+.detail__mcta { display: none; }
+@media (max-width: 900px) {
+  .detail__mcta {
+    display: inline-block; margin-top: 1rem; padding: .55rem .9rem;
+    background: var(--ink); color: var(--bg); text-decoration: none; font-size: .9rem;
+  }
+}

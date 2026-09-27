@@ -657,8 +657,16 @@ function showDetail(html, key) {
   $("tabs").hidden = true;
   // The figures strip, hint and ticker belong to the tab you came from; left
   // up, Heineken's page opened under "38 matching, of 49 events".
+  // Opened straight from a link, body still said "home", so the full hero sat
+  // above the entry. Any value but home compacts it.
+  document.body.dataset.view = "detail";
   for (const id of ["kpis", "hintbar", "whatsnew", "eventstrip", "home-themes"]) { const el = $(id); if (el) el.hidden = true; }
   $("detail").innerHTML = html;
+  const copy = $("detail").querySelector("[data-copy]");
+  if (copy) copy.addEventListener("click", async () => {
+    try { await navigator.clipboard.writeText(location.href); copy.textContent = "Link copied"; }
+    catch { copy.textContent = "Copy failed: use the address bar"; }
+  });
   $("view-detail").hidden = false;
   window.scrollTo(0, 0);
 }
@@ -762,15 +770,18 @@ function relatedHtml(c) {
   if (!hits.length && pool !== ALL) hits = relatedTo(c, ALL);
   if (!hits.length) return "";
   const items = hits.map(({ c: r, score }) => `
-    <li>
-      <a href="#/c/${encodeURIComponent(r.key)}">${esc(r.name)}</a>
+    <li class="rel is-clickable" data-route="c/${esc(encodeURIComponent(r.key))}">
+      ${logoHtml(r)}
+      <span class="rel__body">
+        <a href="#/c/${encodeURIComponent(r.key)}">${esc(r.name)}</a>
+        <span class="muted rel__why">${esc(r.ai_use_case || "")}</span>
+      </span>
       ${r.vertical ? `<span class="chip chip--v chip--${esc(r.vertical)}">${vlab(r.vertical)}</span>` : ""}
-      <span class="muted rel__why">${esc(r.ai_use_case || "")}</span>
       <span class="rel__score" title="Cosine similarity over TF-IDF weighted terms">${(score * 100).toFixed(0)}%</span>
     </li>`).join("");
   return `<h2>Related</h2>
     <p class="muted rel__note">Closest by shared language in their descriptions and use cases, not merely the same vertical. Follows your current filters.</p>
-    <ul class="detail__list rel__list">${items}</ul>`;
+    <ul class="rels">${items}</ul>`;
 }
 
 
@@ -859,14 +870,40 @@ function renderForYou() {
   host.hidden = false;
 }
 
+/* Detail pages follow BetaList's layout: the record in the main column, and a
+ * sidebar that stays in view with the one action a reader takes (visit the
+ * site) and the facts they scan for. */
+function sourceCards(urls) {
+  const cards = (urls || []).map(safeUrl).filter(Boolean).map((u) => {
+    let host = u, path = "";
+    try {
+      const x = new URL(u);
+      host = x.hostname.replace(/^www\./, "");
+      path = decodeURIComponent(x.pathname + x.search).replace(/\/$/, "");
+    } catch { /* safeUrl passed it, so show it raw */ }
+    return `<li><a class="src" href="${esc(u)}" target="_blank" rel="noopener">
+      <img class="src__ico" src="https://www.google.com/s2/favicons?domain=${esc(host)}&sz=32" alt="" width="16" height="16" loading="lazy" />
+      <span class="src__host">${esc(host)}</span>
+      <span class="src__path">${esc(path.length > 70 ? path.slice(0, 70) + "..." : path)}</span></a></li>`;
+  }).join("");
+  return cards ? `<ul class="srcs">${cards}</ul>` : "";
+}
+
+function detailSide(cta, facts) {
+  return `<aside class="dside" aria-label="Quick facts">
+    ${cta}
+    <dl class="dside__facts">${facts}</dl>
+    <button class="dside__copy" type="button" data-copy>Copy link to this page</button>
+  </aside>`;
+}
+
 function companyDetail(c) {
   const link = (u, t) => safeUrl(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t || u)}</a>` : "";
   const people = (c.people || []).map((p) => {
     const nm = safeUrl(p.linkedin) ? link(p.linkedin, p.name) : esc(p.name);
     return `<li>${nm}${p.role ? ` <span class="muted">(${esc(p.role)})</span>` : ""}</li>`;
   }).join("");
-  const sources = (c.source_urls || []).map(safeUrl).filter(Boolean)
-    .map((u, i) => `<li>${link(u, `Source ${i + 1}: ${u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 48)}`)}</li>`).join("");
+  const sources = sourceCards(c.source_urls);
   const fund = [c.funding_stage, c.total_raised].filter(Boolean).join(" · ");
   // Tracked individuals who name this company as their affiliation. These are
   // first-class entries in their own right (company_type "individual"), so
@@ -899,7 +936,25 @@ function companyDetail(c) {
         return `<li>${li}${role ? ` <span class="muted">(${esc(role)})</span>` : ""}${past}</li>`;
       }).join("") + `</ul>`
     : "";
-  return `<article class="detail">
+  const site = safeUrl(c.domain ? `https://${c.domain}` : "") || safeUrl(c.product_url);
+  const extra = [
+    safeUrl(c.linkedin_url) && link(c.linkedin_url, "LinkedIn"),
+    safeUrl(c.github_url) && link(c.github_url, "GitHub"),
+    safeUrl(c.product_url) && c.domain && link(c.product_url, "Product page"),
+  ].filter(Boolean).join("");
+  const cta = (site ? `<a class="dside__cta" href="${esc(site)}" target="_blank" rel="noopener">Visit ${esc(c.domain || "site")} <span aria-hidden="true">&#8599;</span></a>` : "")
+    + (extra ? `<div class="dside__links">${extra}</div>` : "");
+  const nsrc = (c.source_urls || []).length;
+  const facts = [
+    row("Headquarters", esc(c.hq_location)),
+    row("Founded", c.founded_year),
+    row("Status", esc(c.status)),
+    row("Funding", esc(fund)),
+    row("Evidence", nsrc ? `${nsrc} ${nsrc === 1 ? "source" : "sources"}` : ""),
+    row("First seen", esc(c.first_seen)),
+    row("Last seen", esc(c.last_seen)),
+  ].join("");
+  return `<div class="dlayout"><article class="detail">
     <div class="detail__head">
       ${logoHtml(c)}
       <div>
@@ -913,26 +968,14 @@ function companyDetail(c) {
       ${c.ai_maturity ? `<span class="chip chip--mat chip--${esc(c.ai_maturity)}">${esc(MATURITY_LABEL[c.ai_maturity] || c.ai_maturity)}</span>` : ""}
       <span class="chip ${c.status === "dormant" ? "chip--dormant" : "chip--shipping"}">${esc(c.status || "")}</span>
     </div>
+    ${site ? `<a class="detail__mcta" href="${esc(site)}" target="_blank" rel="noopener">Visit ${esc(c.domain || "site")} &#8599;</a>` : ""}
     ${c.short_description ? `<p class="detail__desc">${esc(c.short_description)}</p>` : ""}
     ${whatTheyDo(c)}
-    <dl class="detail__facts">
-      ${row("Headquarters", esc(c.hq_location))}
-      ${row("Founded", c.founded_year)}
-      ${/* Vertical and AI maturity moved into the two panels above; repeating
-            them here just made the reader check whether the two disagreed. */""}
-      ${row("Status", esc(c.status))}
-      ${row("Funding", esc(fund))}
-      ${row("Website", link(c.domain ? `https://${c.domain}` : "", c.domain))}
-      ${row("GitHub", link(c.github_url))}
-      ${row("Product", link(c.product_url))}
-      ${row("First seen", esc(c.first_seen))}
-      ${row("Last seen", esc(c.last_seen))}
-    </dl>
     ${people ? `<h2>People</h2><ul class="detail__list">${people}</ul>` : ""}
     ${trackedHtml}
-    ${sources ? `<h2>Sources &amp; evidence</h2><ul class="detail__list">${sources}</ul>` : ""}
+    ${sources ? `<h2>Sources &amp; evidence</h2>${sources}` : ""}
     ${relatedHtml(c)}
-  </article>`;
+  </article>${detailSide(cta, facts)}</div>`;
 }
 
 
@@ -1017,8 +1060,15 @@ function relatedPeopleHtml(person) {
 }
 
 function personDetail(p) {
-  const link = (u, t) => safeUrl(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t || u)}</a>` : "";
-  return `<article class="detail">
+  const li = safeUrl(p.linkedin);
+  const co = ALL.find((c) => c.name === p.company);
+  const cta = li ? `<a class="dside__cta" href="${esc(li)}" target="_blank" rel="noopener">View on LinkedIn <span aria-hidden="true">&#8599;</span></a>` : "";
+  const facts = [
+    row("Company", co ? `<a href="#/c/${esc(encodeURIComponent(co.key))}">${esc(p.company)}</a>` : esc(p.company)),
+    row("Role", esc(p.role)),
+    row("Vertical", vlab(p.vertical)),
+  ].join("");
+  return `<div class="dlayout"><article class="detail">
     <div class="detail__head">
       ${avatarHtml(p.name, "avatar--person")}
       <div>
@@ -1028,15 +1078,11 @@ function personDetail(p) {
       </div>
     </div>
     <div class="chips">${p.vertical ? `<span class="chip chip--v chip--${esc(p.vertical)}">${vlab(p.vertical)}</span>` : ""}</div>
+    ${li ? `<a class="detail__mcta" href="${esc(li)}" target="_blank" rel="noopener">View on LinkedIn &#8599;</a>` : ""}
     ${p.desc ? `<p class="detail__desc">${esc(p.desc)}</p>` : ""}
-    <dl class="detail__facts">
-      ${row("Company", esc(p.company))}
-      ${row("Vertical", vlab(p.vertical))}
-      ${row("LinkedIn", link(p.linkedin))}
-    </dl>
-    ${p.sources?.length ? `<h2>Sources</h2><ul class="detail__list">${p.sources.map((u) => `<li>${link(u)}</li>`).join("")}</ul>` : ""}
+    ${p.sources?.length ? `<h2>Sources</h2>${sourceCards(p.sources)}` : ""}
     ${relatedPeopleHtml(p)}
-  </article>`;
+  </article>${detailSide(cta, facts)}</div>`;
 }
 
 let WAS_DETAIL = false;
@@ -2016,7 +2062,7 @@ function renderWhatsNew() {
   // Whether there is anything to say. Where it may be said is decided in
   // showView, so the two rules never fight over the same flag.
   box.dataset.hasContent = "1";
-  box.hidden = !whatsNewBelongsHere();
+  box.hidden = !whatsNewBelongsHere() || !$("view-detail").hidden;
   box.innerHTML = `<div class="wnew">
     <span class="wnew__t">${bits.join(" · ")}</span>
     ${counts.new && readAny ? `<button class="wnew__b" data-act="unread" type="button">Show unopened</button>` : ""}
