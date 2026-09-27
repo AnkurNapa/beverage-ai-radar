@@ -567,7 +567,7 @@ function paintHomeLists() {
       .filter(([t]) => t !== "Other")
       .map(([t, n]) => `<button type="button" class="themechip" data-theme="${esc(t)}">${esc(t)} <span>${n}</span></button>`)
       .join("");
-    chips.hidden = false;
+    chips.hidden = CURRENT_TAB !== "home";
     chips.addEventListener("click", (e) => {
       const b = e.target.closest("[data-theme]");
       if (!b) return;
@@ -628,6 +628,11 @@ function showView(which) {
   }
   $("tabs").hidden = false;
   $("kpis").hidden = which === "about";
+  // Home keeps the big figures; on a list tab they are a one-line summary so
+  // the rows start on the first screen.
+  $("kpis").classList.toggle("kpis--compact", which !== "home");
+  const chips = $("home-themes");
+  if (chips && chips.innerHTML) chips.hidden = which !== "home";
   const wn = $("whatsnew");
   if (wn) wn.hidden = !(wn.dataset.hasContent && whatsNewBelongsHere());
   const hb = $("hintbar");
@@ -650,6 +655,9 @@ function showDetail(html, key) {
   if (key) setTimeout(() => { try { renderWhatsNew(); } catch { /* pre-init */ } }, 0);
   for (const v of VIEWS) $("view-" + v).hidden = true;
   $("tabs").hidden = true;
+  // The figures strip, hint and ticker belong to the tab you came from; left
+  // up, Heineken's page opened under "38 matching, of 49 events".
+  for (const id of ["kpis", "hintbar", "whatsnew", "eventstrip", "home-themes"]) { const el = $(id); if (el) el.hidden = true; }
   $("detail").innerHTML = html;
   $("view-detail").hidden = false;
   window.scrollTo(0, 0);
@@ -1917,14 +1925,14 @@ function renderViews(section, tab) {
 // and both, the first actual result sat 4.3 screens down: the page opened on
 // its own chrome rather than on its content. Both collapse behind a toggle
 // below 720px and stay open on desktop, where there is room for them.
-function makeCollapsible(el, label, openByDefault) {
+function makeCollapsible(el, label, openByDefault, always = false) {
   const bar = document.createElement("button");
   bar.type = "button";
-  bar.className = "disclose";
+  bar.className = always ? "disclose disclose--always" : "disclose";
   bar.setAttribute("aria-expanded", String(openByDefault));
   bar.innerHTML = `<span>${esc(label)}</span><span class="disclose__c"></span>`;
   el.insertAdjacentElement("beforebegin", bar);
-  el.classList.add("collapsible");
+  el.classList.add(always ? "collapsible--always" : "collapsible");
   const set = (open) => {
     el.classList.toggle("is-open", open);
     bar.setAttribute("aria-expanded", String(open));
@@ -1944,10 +1952,11 @@ function wireCollapsibles() {
   for (const card of document.querySelectorAll(".wmap-card")) {
     made.push(makeCollapsible(card, "Map", !phone.matches));
   }
-  // Breakdown bars are secondary analysis, and 646px of it on a phone sits
-  // between the reader and every result.
+  // Breakdown bars start closed at every width: open, they pushed the first
+  // result below the fold on desktop too. One click away, and left out of the
+  // breakpoint follower below.
   for (const bd of document.querySelectorAll(".breakdowns")) {
-    made.push(makeCollapsible(bd, "Breakdowns", !phone.matches));
+    makeCollapsible(bd, "Breakdowns by vertical, theme and maturity", false, true);
   }
   // Follow the breakpoint live rather than only at load, so rotating a phone
   // or resizing a window does not leave the page in the wrong mode.
@@ -2000,7 +2009,8 @@ function renderWhatsNew() {
   const stars = starCount();
   const bits = [];
   if (fresh.length) bits.push(`<strong>${fresh.length}</strong> added since your last visit`);
-  if (counts.new) bits.push(`<strong>${counts.new}</strong> you have not opened`);
+  const readAny = counts.new < ALL.length;
+  if (counts.new && readAny) bits.push(`<strong>${counts.new}</strong> you have not opened`);
   if (stars) bits.push(`<strong>${stars}</strong> shortlisted`);
   if (!bits.length) { box.hidden = true; return; }
   // Whether there is anything to say. Where it may be said is decided in
@@ -2009,7 +2019,7 @@ function renderWhatsNew() {
   box.hidden = !whatsNewBelongsHere();
   box.innerHTML = `<div class="wnew">
     <span class="wnew__t">${bits.join(" · ")}</span>
-    ${counts.new ? `<button class="wnew__b" data-act="unread" type="button">Show unopened</button>` : ""}
+    ${counts.new && readAny ? `<button class="wnew__b" data-act="unread" type="button">Show unopened</button>` : ""}
     ${stars ? `<button class="wnew__b" data-act="stars" type="button">Show shortlist</button>` : ""}
     <button class="wnew__b wnew__b--q" data-act="reset" type="button" title="Forget what I have read">Reset reading history</button>
   </div>`;
@@ -2032,8 +2042,6 @@ function renderWhatsNew() {
 const HINTS = {
   companies: "Companies &amp; ventures are who <em>builds</em> beverage AI. Click any country on the map to filter, or press <kbd>⌘K</kbd> to jump anywhere.",
   prospects: "Prospects are who might <em>buy</em> it — the opposite list. Tier 1-2 are named and sourced; tier 3-5 are curated categories.",
-  jobs: "Open roles applying AI and data in drinks. Every row links to the original posting.",
-  resources: "Papers, news, case studies, repositories and talks, each with a source.",
 };
 function renderHint(tab) {
   const bar = $("hintbar");

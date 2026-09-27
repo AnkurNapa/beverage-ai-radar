@@ -1825,3 +1825,32 @@ body[data-view="about"] .hero { padding-bottom: 1rem; }
   .themechip { transition: none; }
   .themechip:hover { transform: none; }
 }
+
+/* ---------- Phase 0: rows on the first screen ---------- */
+/* List tabs get the figures as one summary line (Arrfounder's "Founders
+   3,404 · Products 5,234"), not a 250px band of six big numbers. */
+.kpis.kpis--compact {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: .35rem 1.6rem;
+  padding-top: .9rem; padding-bottom: .9rem;
+}
+.kpis--compact .kpi {
+  flex-direction: row; align-items: baseline; gap: .4rem;
+  border-left: 0; padding: 0;
+}
+.kpis--compact .kpi__num { font-size: 1.35rem; }
+.kpis--compact .kpi__label { margin-top: 0; font-size: .72rem; color: var(--muted); }
+.kpis--compact .kpi__sub { display: none; }
+@media (max-width: 720px) {
+  .kpis.kpis--compact { display: flex; gap: .3rem 1rem; }
+  .kpis--compact .kpi { padding: 0; }
+  .kpis--compact .kpi__num { font-size: 1.1rem; }
+}
+
+/* Map and breakdowns: closed behind a toggle at every width. */
+.disclose.disclose--always { display: flex; }
+.collapsible--always { display: none; }
+.collapsible--always.is-open { display: block; }
+.breakdowns.collapsible--always.is-open { display: grid; }
+/* .wrap's 3.5rem bottom padding is for page sections; on these two thin
+   banners it opened a 56px hole above the figures line. */
+#hintbar.wrap, #whatsnew.wrap { padding-bottom: 0; }
