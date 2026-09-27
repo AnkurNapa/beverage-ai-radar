@@ -313,32 +313,19 @@ def build():
 
 
 def stamp_assets():
-    """Rewrite the ?v= on styles.css and app.js to a hash of their contents.
+    """Restamp the ?v= cache busters through the one shared routine.
 
-    GitHub Pages serves these with cache-control: max-age=600 and no
-    fingerprint, so a returning visitor keeps the old file. Hand-bumping a
-    version string failed twice: once shipping a restyle nobody could see, and
-    once pairing new JS with stale CSS, which rendered "43" and "38%" as
-    "4338%". Deriving it from the bytes removes the step a human forgets.
+    This used to carry its own copy hashing with MD5 while
+    scripts/stamp_assets.py used SHA-1, so every resources rebuild rewrote
+    correct stamps with different ones and tests/test_asset_stamps.py failed.
+    One implementation, called from both places, cannot drift.
     """
-    import hashlib
+    import importlib.util
 
-    html_path = ROOT / "dashboard" / "index.html"
-    html = html_path.read_text()
-    before = html
-    for asset in ("styles.css", "app.js"):
-        f = ROOT / "dashboard" / asset
-        if not f.exists():
-            continue
-        digest = hashlib.md5(f.read_bytes()).hexdigest()[:10]
-        html = re.sub(
-            rf'(["\']){re.escape(asset)}(\?v=[^"\']*)?\1',
-            lambda m, d=digest, a=asset: f"{m.group(1)}{a}?v={d}{m.group(1)}",
-            html,
-        )
-    if html != before:
-        html_path.write_text(html)
-        print("stamped asset versions in dashboard/index.html")
+    spec = importlib.util.spec_from_file_location("stamp_assets", ROOT / "scripts" / "stamp_assets.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    mod.main()
 
 
 if __name__ == "__main__":
