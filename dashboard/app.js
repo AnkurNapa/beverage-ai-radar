@@ -1485,6 +1485,33 @@ function eventCard(e) {
   </article>`;
 }
 
+/* Next dated event from today, counted down to the day and hour. Local
+ * midnight of the start date, built from the ISO parts so it cannot slip a
+ * day for readers west of Greenwich (see monthLabel). */
+const startOf = (iso) => { const [y, m, d] = iso.split("-").map(Number); return new Date(y, m - 1, d); };
+function paintNextEvent() {
+  const el = $("event-next");
+  if (!el) return;
+  const now = new Date();
+  const next = EVENTS.filter((e) => e.start && startOf(e.start) > now)
+    .sort((a, b) => a.start.localeCompare(b.start))[0];
+  if (!next) { el.hidden = true; return; }
+  const ms = startOf(next.start) - now;
+  const days = Math.floor(ms / 86400000), hrs = Math.floor((ms % 86400000) / 3600000);
+  const url = safeUrl(next.url);
+  el.innerHTML = `<div class="enext">
+    <span class="enext__eyebrow">Next up</span>
+    <div class="enext__main">
+      <h2 class="enext__title">${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(next.title)}</a>` : esc(next.title)}</h2>
+      <span class="enext__meta">${esc(dateRange(next))}${next.location ? " &middot; " + esc(next.location) : ""}</span>
+    </div>
+    <div class="enext__clock" aria-label="Starts in ${days} days ${hrs} hours">
+      <span><b>${days}</b> days</span><span><b>${hrs}</b> hrs</span>
+    </div>
+  </div>`;
+  el.hidden = false;
+}
+
 function applyEvents() {
   const q = $("eq").value.trim().toLowerCase();
   const fs = $("fe-state").value, fm = $("fe-mode").value;
@@ -1494,16 +1521,24 @@ function applyEvents() {
   // default upcoming filter showed 1, so the number on the map contradicted
   // what clicking it produced. Country is excluded from its own facet, or
   // picking one country would erase every other and you could never switch.
-  const base = EVENTS.filter((e) => {
-    if (fs && e.state !== fs) return false;
+  const pass = (e, skipState) => {
+    if (!skipState && fs && e.state !== fs) return false;
     if (fm && e.mode !== fm) return false;
     if (!matchesVertical(e, fv)) return false;
     if (fsp === "1" && !e.speaking) return false;
     if (fsp === "0" && e.speaking) return false;
     if (q && !`${e.title} ${e.organiser} ${e.location} ${e.summary} ${(e.speakers || []).join(" ")}`.toLowerCase().includes(q)) return false;
     return true;
-  });
+  };
+  const base = EVENTS.filter((e) => pass(e));
   const shown = base.filter((e) => !fc || e.country === fc);
+  // Every timeline always listed with its count, including at zero.
+  const tpool = EVENTS.filter((e) => pass(e, true) && (!fc || e.country === fc));
+  const tab = (v, label) => {
+    const n = v ? tpool.filter((e) => e.state === v).length : tpool.length;
+    return `<button type="button" class="ktab" data-state="${v}" aria-pressed="${fs === v}"${n ? "" : " disabled"}>${label} <span>${n}</span></button>`;
+  };
+  $("event-tabs").innerHTML = tab("upcoming", "Upcoming") + tab("past", "Past") + tab("undated", "Dates not yet published") + tab("", "All");
   // Same renderer the Jobs tab uses, so the two maps behave identically: click a
   // country to drive the country filter, click again to clear it.
   renderWorldMap($("world-events"), base, (e) => e.country, (place) => {
@@ -1511,8 +1546,15 @@ function applyEvents() {
     sel.value = place || "";
     sel.dispatchEvent(new Event("input", { bubbles: true }));
   }, $("fe-country").value, { unit: "countries", noun: "events", label: "Events by country" });
+  // Month headings between cards, so the list reads like a calendar.
+  let lastMonth = null;
   $("events-grid").innerHTML = shown.length
-    ? shown.map(eventCard).join("")
+    ? shown.map((e) => {
+        const m = e.start ? monthLabel(e.start) : "Dates not yet published";
+        const head = m !== lastMonth ? `<h3 class="emonth">${esc(m)}</h3>` : "";
+        lastMonth = m;
+        return head + eventCard(e);
+      }).join("")
     : '<p class="empty">No events match these filters.</p>';
   $("ecount").textContent = `${shown.length} of ${EVENTS.length}`;
   kpisFor("events", shown, EVENTS);
@@ -1531,6 +1573,14 @@ async function loadEvents() {
   for (const id of ["eq", "fe-state", "fe-mode", "fe-vertical", "fe-country", "fe-speaking"]) {
     $(id).addEventListener("input", applyEvents);
   }
+  $("event-tabs").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-state]");
+    if (!b || b.disabled) return;
+    $("fe-state").value = b.dataset.state;
+    $("fe-state").dispatchEvent(new Event("input", { bubbles: true }));
+  });
+  paintNextEvent();
+  setInterval(paintNextEvent, 60000);   // the hours tick over while the tab is open
   applyEvents();
   renderEventStrip();
 }

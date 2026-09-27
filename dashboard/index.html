@@ -132,7 +132,7 @@
 
   <!-- version query busts the 10-minute Pages cache on every restyle;
        bump it whenever styles.css changes -->
-  <link rel="stylesheet" href="styles.css?v=46eefdaac7" />
+  <link rel="stylesheet" href="styles.css?v=f7ca89ffc2" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha384-c6Rcwz4e4CITMbu/NBmnNS8yN2sC3cUElMEMfP3vqqKFp7GOYaaBBCqmaWBjmkjb" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" integrity="sha384-pmjIAcz2bAn0xukfxADbZIb3t8oRT9Sv0rvO+BR5Csr6Dhqq+nZs59P0pPKQJkEV" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" integrity="sha384-wgw+aLYNQ7dlhK47ZPK7FRACiq7ROZwgFNg0m04avm4CaXS+Z9Y7nMu8yNjBKYC+" crossorigin="anonymous">
@@ -428,6 +428,8 @@
 
   <section class="wrap view" id="view-events" hidden>
     <p class="res-intro">Where this industry gathers, and where Ankur has stood up in front of it. Trade fairs and technical conferences alongside his own talks, in person and online. Events whose organiser has not published dates are listed as undated rather than guessed. <span id="events-stamp" class="hero__meta"></span></p>
+    <!-- Next event with a live countdown (Uneed's "New launches in 13 hours"). -->
+    <section id="event-next" hidden aria-label="Next event"></section>
     <section class="controls" aria-label="Event filters">
       <input id="eq" type="search" placeholder="Search event, organiser, place…" aria-label="Search events" />
       <select id="fe-state" aria-label="When">
@@ -455,6 +457,7 @@
       <h2>Where they are <span class="wmap-hint">click a pin to filter</span></h2>
       <div id="world-events"></div>
     </section>
+    <nav class="kindtabs" id="event-tabs" aria-label="When"></nav>
     <section id="events-grid" class="grid" aria-live="polite"></section>
   </section>
 
@@ -646,7 +649,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha384-NElt3Op+9NBMCYaef5HxeJmU4Xeard/Lku8ek6hoPTvYkQPh3zLIrJP7KiRocsxO" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" integrity="sha384-eXVCORTRlv4FUUgS/xmOyr66XBVraen8ATNLMESp92FKXLAMiKkerixTiBvXriZr" crossorigin="anonymous"></script>
-  <script type="module" src="app.js?v=d3ed17b00d"></script>
+  <script type="module" src="app.js?v=aa47202dd6"></script>
 
 </body>
 </html>
