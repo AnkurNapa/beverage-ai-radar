@@ -455,16 +455,27 @@ function buildPeople() {
   return rows;
 }
 
-function personRow(p) {
-  const nm = safeUrl(p.linkedin)
-    ? `<a href="${esc(p.linkedin)}" target="_blank" rel="noopener">${esc(p.name)}</a>`
-    : esc(p.name);
-  return `<article class="person is-clickable" data-status="${esc(p.status)}" data-route="p/${esc(slug(p.name))}">
+/* One row per person (Arrfounder's founders table): who, where they work,
+ * where that is, and a LinkedIn link only when we actually hold one. The name
+ * opens the person's page; LinkedIn is its own control, not the name. */
+function personRow(p, co) {
+  const li = safeUrl(p.linkedin);
+  const cty = p.country && p.country !== "unknown" ? p.country : "";
+  return `<article class="prow is-clickable" data-status="${esc(p.status)}" data-route="p/${esc(slug(p.name))}">
     ${avatarHtml(p.name, "avatar--person")}
-    <div class="person__body">
-      <div class="person__name">${nm}${p.linkedin ? ' <span class="li">in</span>' : ""}</div>
-      <div class="person__meta">${esc(p.role)}${p.role ? " · " : ""}<strong>${esc(p.company)}</strong>${p.vertical ? ` · ${esc(p.vertical)}` : ""}</div>
-    </div>
+    <span class="prow__id">
+      <a class="prow__name" href="#/p/${esc(slug(p.name))}">${esc(p.name)}</a>
+      <span class="prow__role">${esc(p.role)}</span>
+    </span>
+    <span class="prow__co">${co && co.company_type === "individual"
+      // A solo practitioner's "company" row is themselves; say where they work.
+      ? `<span class="prow__indep">${esc(co.affiliated_company || "Independent")}</span>`
+      : co
+        ? `${logoHtml(co)}<a href="#/c/${esc(encodeURIComponent(co.key))}">${esc(p.company)}</a>`
+        : esc(p.company)}</span>
+    <span class="prow__v">${p.vertical ? `<span class="chip chip--v chip--${esc(p.vertical)}">${vlab(p.vertical)}</span>` : ""}</span>
+    <span class="prow__c">${esc(cty)}</span>
+    <span class="prow__li">${li ? `<a href="${esc(li)}" target="_blank" rel="noopener" aria-label="${esc(p.name)} on LinkedIn" title="LinkedIn">in</a>` : ""}</span>
   </article>`;
 }
 
@@ -482,6 +493,11 @@ function applyPeople() {
     if (q && !`${p.name} ${p.role} ${p.company}`.toLowerCase().includes(q)) return false;
     return true;
   });
+  const psort = $("fp-sort").value;
+  if (psort) {
+    const k = { name: (p) => p.name, company: (p) => p.company, country: (p) => p.country || "~" }[psort];
+    shown.sort((a, b) => k(a).localeCompare(k(b)) || a.name.localeCompare(b.name));
+  }
   const withLi = shown.filter((p) => p.linkedin).length;
   renderWorldMap($("world-people"), PEOPLE, (p) => p.country, (place) => {
     const sel = $("fp-country");
@@ -491,7 +507,7 @@ function applyPeople() {
   kpisFor("people", shown, PEOPLE);
   $("pcount").textContent = `${shown.length} people · ${withLi} with LinkedIn`;
   $("people-list").innerHTML = shown.length
-    ? shown.map(personRow).join("")
+    ? (() => { const byName = new Map(ALL.map((c) => [c.name, c])); return shown.map((p) => personRow(p, byName.get(p.company))).join(""); })()
     : `<p class="empty">No people match.</p>`;
 }
 
@@ -2188,7 +2204,7 @@ async function main() {
   fillSelect($("fp-country"), counts(PEOPLE.filter((p) => p.country && p.country !== "unknown"), "country"));
   fillSelect($("fp-theme"), counts(PEOPLE, "theme").map((x) => x[0]));
   fillSelect($("fp-source"), counts(PEOPLE, "source").map((x) => x[0]));
-  for (const id of ["pq", "fp-vertical", "fp-country", "fp-linkedin", "fp-theme", "fp-source"]) $(id).addEventListener("input", applyPeople);
+  for (const id of ["pq", "fp-vertical", "fp-country", "fp-linkedin", "fp-theme", "fp-source", "fp-sort"]) $(id).addEventListener("input", applyPeople);
   applyPeople();
   $("tab-home").addEventListener("click", () => showView("home"));
   const layoutBtns = document.querySelectorAll("[data-layout]");

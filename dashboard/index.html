@@ -132,7 +132,7 @@
 
   <!-- version query busts the 10-minute Pages cache on every restyle;
        bump it whenever styles.css changes -->
-  <link rel="stylesheet" href="styles.css?v=25a3cdee67" />
+  <link rel="stylesheet" href="styles.css?v=316e95c437" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha384-c6Rcwz4e4CITMbu/NBmnNS8yN2sC3cUElMEMfP3vqqKFp7GOYaaBBCqmaWBjmkjb" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" integrity="sha384-pmjIAcz2bAn0xukfxADbZIb3t8oRT9Sv0rvO+BR5Csr6Dhqq+nZs59P0pPKQJkEV" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" integrity="sha384-wgw+aLYNQ7dlhK47ZPK7FRACiq7ROZwgFNg0m04avm4CaXS+Z9Y7nMu8yNjBKYC+" crossorigin="anonymous">
@@ -375,13 +375,22 @@
         <option value="">Everyone</option>
         <option value="1">Has LinkedIn</option>
       </select>
+      <select id="fp-sort" aria-label="Sort people">
+        <option value="">Sort: reachable first</option>
+        <option value="name">Sort: name</option>
+        <option value="company">Sort: company</option>
+        <option value="country">Sort: country</option>
+      </select>
       <span id="pcount" class="count"></span>
     </section>
     <section class="card wmap-card" aria-label="Where the people are">
       <h2>Where they are <span class="wmap-hint">by their company's base · click a pin to filter</span></h2>
       <div id="world-people"></div>
     </section>
-    <section id="people-list" class="people-list" aria-live="polite"></section>
+    <div class="prow prow--head" aria-hidden="true">
+      <span></span><span>Person</span><span>Company</span><span>Drinks</span><span>Country</span><span></span>
+    </div>
+    <section id="people-list" class="people-list people-list--rows" aria-live="polite"></section>
   </section>
 
   <section class="wrap view" id="view-resources" hidden>
@@ -634,7 +643,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha384-NElt3Op+9NBMCYaef5HxeJmU4Xeard/Lku8ek6hoPTvYkQPh3zLIrJP7KiRocsxO" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" integrity="sha384-eXVCORTRlv4FUUgS/xmOyr66XBVraen8ATNLMESp92FKXLAMiKkerixTiBvXriZr" crossorigin="anonymous"></script>
-  <script type="module" src="app.js?v=d08ee90623"></script>
+  <script type="module" src="app.js?v=1923033bff"></script>
 
 </body>
 </html>

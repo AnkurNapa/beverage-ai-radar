@@ -1977,3 +1977,45 @@ body[data-view="about"] .hero { padding-bottom: 1rem; }
   .lrow .starb { grid-column: 3; grid-row: 1 / span 2; }
 }
 .lrow .starb { align-self: center; justify-self: end; }
+
+/* ---------- People: one row each (Arrfounder) ---------- */
+.people-list.people-list--rows { display: block; }
+.prow {
+  display: grid; align-items: center; gap: 1rem;
+  grid-template-columns: 36px minmax(0, 2.4fr) minmax(0, 2fr) 6.5rem 8rem 2.5rem;
+  padding: .6rem .5rem; border-bottom: 1px solid var(--line);
+}
+.people-list--rows .prow { cursor: pointer; transition: background .15s; }
+.people-list--rows .prow:hover { background: var(--surface); }
+.prow--head {
+  font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
+  border-bottom: 1px solid var(--line-strong); padding-top: 0; margin-top: 1rem;
+}
+.prow .avatar { width: 36px; height: 36px; font-size: .8rem; }
+.prow__id { display: flex; flex-direction: column; min-width: 0; }
+.prow__name { color: var(--ink); font-weight: 500; text-decoration: none; }
+.prow:hover .prow__name { color: var(--accent); }
+.prow__role, .prow__c { font-size: .8rem; color: var(--muted); }
+.prow__role, .prow__c, .prow__co a { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.prow__co { display: flex; align-items: center; gap: .5rem; min-width: 0; font-size: .88rem; }
+.prow__co .logo { width: 22px; height: 22px; flex: none; }
+.prow__co a { color: var(--body); text-decoration: none; min-width: 0; }
+.prow__co a:hover { color: var(--accent); text-decoration: underline; }
+.prow__li a {
+  display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px;
+  font-size: .75rem; font-weight: 700; color: var(--bg); background: var(--accent); text-decoration: none;
+}
+.prow__li a:hover { background: var(--accent-hover); }
+@media (max-width: 900px) {
+  .prow { grid-template-columns: 36px minmax(0, 1fr) minmax(0, 1fr) 2.5rem; }
+  .prow__v, .prow__c, .prow--head span:nth-child(4), .prow--head span:nth-child(5) { display: none; }
+}
+@media (max-width: 560px) {
+  .prow { grid-template-columns: 36px minmax(0, 1fr) 2.75rem; gap: .15rem .75rem; }
+  .prow--head { display: none; }
+  .prow__co { grid-column: 2; grid-row: 2; }
+  .prow__li { grid-column: 3; grid-row: 1 / span 2; }
+  .prow__li a { width: 44px; height: 44px; }
+}
+.prow__co .logo__fav { width: 18px; height: 18px; }
+.prow__indep { color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
