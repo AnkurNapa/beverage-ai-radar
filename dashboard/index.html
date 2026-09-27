@@ -91,7 +91,7 @@
           {
             "@type": "Question",
             "name": "Who is applying AI to beer, whiskey, and wine?",
-            "acceptedAnswer": { "@type": "Answer", "text": "The radar tracks over 100 companies and individuals across beer, whiskey, and wine, from flavor prediction and sensory analytics to demand forecasting, computer vision, and generative AI, each with links to public evidence." }
+            "acceptedAnswer": { "@type": "Answer", "text": "The radar tracks more than 1,000 companies and individuals across beer, whiskey, and wine, from flavor prediction and sensory analytics to demand forecasting, computer vision, and generative AI, each with links to public evidence." }
           },
           {
             "@type": "Question",
@@ -132,7 +132,7 @@
 
   <!-- version query busts the 10-minute Pages cache on every restyle;
        bump it whenever styles.css changes -->
-  <link rel="stylesheet" href="styles.css?v=f7ca89ffc2" />
+  <link rel="stylesheet" href="styles.css?v=a633e950c5" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha384-c6Rcwz4e4CITMbu/NBmnNS8yN2sC3cUElMEMfP3vqqKFp7GOYaaBBCqmaWBjmkjb" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" integrity="sha384-pmjIAcz2bAn0xukfxADbZIb3t8oRT9Sv0rvO+BR5Csr6Dhqq+nZs59P0pPKQJkEV" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" integrity="sha384-wgw+aLYNQ7dlhK47ZPK7FRACiq7ROZwgFNg0m04avm4CaXS+Z9Y7nMu8yNjBKYC+" crossorigin="anonymous">
@@ -501,6 +501,9 @@
 
   <section class="wrap view" id="view-about" hidden>
     <article class="about">
+      <aside class="about__disclaimer" aria-label="What the labels mean">
+        <p><strong>What the labels mean.</strong> Every entry cites at least two sources, one of them the company's own site. <em>AI claim, verified</em> means a person has checked the claim against those sources. <em>AI claim</em> on its own means an automated scout found it and nobody has confirmed it yet. <em>No AI claim</em> means the company was checked and makes none. Nothing here is investment, hiring or purchasing advice: confirm anything that matters with the company itself.</p>
+      </aside>
       <h2>Why this exists</h2>
       <p>I am Ankur Napa, a brewer who learned to code. I spent years on the brewery floor and then years in data, and I kept meeting people quietly doing the same thing: using AI, machine learning, and analytics to make better beer, whiskey, and wine. We were all working in parallel and rarely finding each other.</p>
       <p>Beverage-AI Radar is my attempt to fix that. It is one honest, source-cited map of who is applying AI and data across the drinks industry: the companies, the open-source projects, the research, the case studies, and above all the people. Every entry links to real evidence. Nothing here is invented.</p>
@@ -556,8 +559,16 @@
         <a href="https://github.com/AnkurNapa/beverage-ai-radar" target="_blank" rel="noopener">Suggest an entry on GitHub</a>
       </p>
 
+      <h2>Questions</h2>
+      <div class="faq" id="faq"></div>
+
       <h2>Updates</h2>
       <ul class="changelog" id="changelog">
+        <li><span class="cl-date">2026-09-27</span> Page-by-page redesign: list layouts for companies, people and jobs, timeline tabs on research and events with a live countdown to the next event, and company pages with a sidebar and source cards.</li>
+        <li><span class="cl-date">2026-09-23</span> A clustered city map on every tab, and events grown to 49 across every continent.</li>
+        <li><span class="cl-date">2026-09-21</span> Four new discovery surfaces: brewing institutes, scholarly research, generative AI adopted by drinks companies, and pooled benchmarking clubs.</li>
+        <li><span class="cl-date">2026-08-09</span> Non-alcoholic drinks and food added as adjacent lanes, and open datasets and white papers added as resource kinds.</li>
+        <li><span class="cl-date">2026-08-05</span> Companies that make no AI claim are now labelled as such rather than counted as shipping AI, and kept in so they can be found.</li>
         <li><span class="cl-date">2026-07-22</span> Added dedicated detail pages, an About and mission page, and full SEO. Extended the tracking window to 10 years.</li>
         <li><span class="cl-date">2026-07-22</span> Added a Research &amp; resources tab: 18 papers, 26 news and case studies, 23 repositories, and 16 talks, all source-cited.</li>
         <li><span class="cl-date">2026-07-22</span> Added a People discovery lane for data, BI, and market-intelligence practitioners.</li>
@@ -642,6 +653,10 @@
 
     </div>
 
+    <!-- Browse by (Arrfounder's "Founders by ARR" columns): one click opens
+         Companies already filtered. Filled from the data, so counts stay true. -->
+    <div class="foot__browse" id="foot-browse" hidden></div>
+
     <div class="foot__bar">
       <p>A source-cited landscape of who is applying AI and data across beer, whiskey and wine. People appear only with public professional profiles. No account needed, and no tracking of you: reading history and recommendations are computed in your own browser and never leave it. Anonymised visit stats via Google Analytics, with Do Not Track honoured.</p>
     </div>
@@ -649,7 +664,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha384-NElt3Op+9NBMCYaef5HxeJmU4Xeard/Lku8ek6hoPTvYkQPh3zLIrJP7KiRocsxO" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" integrity="sha384-eXVCORTRlv4FUUgS/xmOyr66XBVraen8ATNLMESp92FKXLAMiKkerixTiBvXriZr" crossorigin="anonymous"></script>
-  <script type="module" src="app.js?v=aa47202dd6"></script>
+  <script type="module" src="app.js?v=e239766979"></script>
 
 </body>
 </html>

@@ -603,6 +603,43 @@ function daysAgo(iso) {
   return d <= 0 ? "today" : d === 1 ? "yesterday" : d + " days ago";
 }
 
+/* About's Questions come from the FAQPage JSON-LD in the head, so the page
+ * and what search engines read can never say different things. */
+function paintFaq() {
+  const el = $("faq");
+  if (!el) return;
+  const qs = [];
+  for (const s of document.querySelectorAll('script[type="application/ld+json"]')) {
+    try {
+      const d = JSON.parse(s.textContent);
+      for (const x of d["@graph"] || [d]) if (x["@type"] === "FAQPage") qs.push(...x.mainEntity);
+    } catch { /* a malformed block is skipped, not fatal */ }
+  }
+  el.innerHTML = qs.map((q) => `<details class="faq__q"><summary>${esc(q.name)}</summary><p>${esc(q.acceptedAnswer?.text || "")}</p></details>`).join("");
+}
+
+function paintFootBrowse() {
+  const el = $("foot-browse");
+  if (!el) return;
+  const cos = ALL.filter(isCompany);
+  const themes = counts(cos, "_theme").filter(([t]) => t !== "Other");
+  const ctys = counts(cos.map((c) => ({ c: countryOf(c) })), "c").filter(([c]) => c && c !== "unknown").slice(0, 12);
+  const line = (label, attr, rows) => `<p class="foot__row"><span class="foot__h">${label}</span>${rows.map(([v, n]) =>
+    `<a href="#" ${attr}="${esc(v)}">${esc(v)} <span>${n}</span></a>`).join("")}</p>`;
+  el.innerHTML = line("By theme", "data-ftheme", themes) + line("By country", "data-fcountry", ctys);
+  el.hidden = false;
+  el.addEventListener("click", (e) => {
+    const a = e.target.closest("[data-ftheme], [data-fcountry]");
+    if (!a) return;
+    e.preventDefault();
+    $("tab-companies").click();
+    const sel = $(a.dataset.ftheme != null ? "f-usecase" : "f-country");
+    sel.value = a.dataset.ftheme ?? a.dataset.fcountry;
+    sel.dispatchEvent(new Event("input", { bubbles: true }));
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
 function paintHomeLists() {
   const chips = $("home-themes");
   if (chips) {
@@ -2397,6 +2434,7 @@ async function main() {
   try { paintDoors(); } catch (e) { /* doors are a convenience, never a blocker */ }
   try { paintPick(); } catch (e) { /* same for the daily pick: never block the page */ }
   try { paintHomeLists(); } catch (e) { /* the home lists are extras: never block the page */ }
+  try { paintFaq(); paintFootBrowse(); } catch (e) { /* extras: never block the page */ }
   await loadProspects();
 
   // global search: one box drives every tab + shows where matches are

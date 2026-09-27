@@ -2086,3 +2086,22 @@ a.jrow__title:hover { color: var(--accent); text-decoration: underline; }
   border-bottom: 1px solid var(--line);
 }
 .emonth:first-child { margin-top: 0; }
+
+/* ---------- About: label disclaimer, FAQ; footer browse rows ---------- */
+.about__disclaimer {
+  margin: 0 0 2rem; padding: 1rem 1.2rem; font-size: .92rem;
+  background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent);
+}
+.about__disclaimer p { margin: 0; }
+.faq { border-top: 1px solid var(--line); }
+.faq__q { border-bottom: 1px solid var(--line); }
+.faq__q summary { cursor: pointer; padding: .9rem 0; font-weight: 500; color: var(--ink); list-style-position: outside; }
+.faq__q summary:hover { color: var(--accent); }
+.faq__q p { margin: 0 0 1rem; color: var(--body); }
+
+.foot__browse { max-width: 78rem; margin: 0 auto; padding: 1.2rem 0; border-top: 1px solid rgba(255, 255, 255, .16); }
+.foot__row { display: flex; flex-wrap: wrap; align-items: baseline; gap: .35rem 1.1rem; margin: 0 0 .7rem; font-size: .85rem; }
+.foot__row .foot__h { margin: 0 .4rem 0 0; }
+.foot__row a { color: rgba(255, 255, 255, .78); text-decoration: none; }
+.foot__row a:hover { color: #fff; text-decoration: underline; }
+.foot__row a span { color: rgba(255, 255, 255, .5); font-variant-numeric: tabular-nums; }
