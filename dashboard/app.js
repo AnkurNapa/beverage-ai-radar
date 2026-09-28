@@ -2184,7 +2184,9 @@ function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
       .setView(WORLD_VIEW.center, WORLD_VIEW.zoom);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
       { maxZoom: 18, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
-    const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45 }).addTo(map);
+    // zoomToBoundsOnClick off: a cluster whose pins all share one place filters
+    // like a pin does, and only a mixed cluster zooms (handled below).
+    const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45, zoomToBoundsOnClick: false }).addTo(map);
     // The map sits in collapsible cards and hidden tabs; Leaflet measures 0x0
     // there and draws grey until told its real size.
     new ResizeObserver(() => { map.invalidateSize(); m.fit(); }).observe(el);
@@ -2197,9 +2199,14 @@ function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
     const back = el.querySelector(".wmap__back");
     L.DomEvent.disableClickPropagation(back);     // or the map reads it as a drag
     back.addEventListener("click", () => m.onPick(null));
-    el.addEventListener("click", (e) => {
-      const b = e.target.closest("[data-pick]");
-      if (b) { track("map_select", { tab: CURRENT_TAB, place: b.dataset.pick }); m.onPick(b.dataset.pick); }
+    // Clicking a pin used to only open a popup; the filter sat behind a small
+    // "Only X" button inside it, so "click a pin to filter" did nothing visible.
+    m.pick = (key) => { track("map_select", { tab: CURRENT_TAB, place: key }); m.onPick(key); };
+    cluster.on("click", (e) => m.pick(e.layer._key));
+    cluster.on("clusterclick", (e) => {
+      const keys = new Set(e.layer.getAllChildMarkers().map((mk) => mk._key));
+      if (keys.size === 1) m.pick([...keys][0]);
+      else e.layer.zoomToBounds({ padding: [30, 30] });
     });
   }
   m.onPick = onPick;
@@ -2224,8 +2231,7 @@ function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
         title: name, alt: name,
         icon: L.divIcon({ className: `pin pin--${esc(v)}`, iconSize: [14, 14] }),
       }).bindPopup(`<strong>${esc(name)}</strong>
-        <div class="pop__m">${esc(where)}${r.vertical ? ` · ${vlab(r.vertical)}` : ""}</div>
-        ${key ? `<button type="button" class="pop__pick" data-pick="${esc(key)}">Only ${esc(key)}</button>` : ""}`);
+        <div class="pop__m">${esc(where)}${r.vertical ? ` · ${vlab(r.vertical)}` : ""}</div>`);
       marker._key = key;
       m.markers.push(marker);
     }

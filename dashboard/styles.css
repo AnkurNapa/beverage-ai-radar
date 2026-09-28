@@ -859,12 +859,7 @@ a:hover { color: var(--accent-hover); }
 .pin--whiskey, .pin--whisky { background: var(--v-whiskey); }
 .pin--wine { background: var(--v-wine); }
 
-.pop__m { color: #555; font-size: .76rem; margin: .15rem 0 .4rem; }
-.pop__pick {
-  font: inherit; font-size: .74rem; cursor: pointer; padding: .2rem .55rem;
-  border-radius: 999px; background: #fff; border: 1px solid #999; color: #222;
-}
-.pop__pick:hover { border-color: var(--accent); color: var(--accent); }
+.pop__m { color: #555; font-size: .76rem; margin: .15rem 0 0; }
 
 .wmap__legend {
   display: flex; align-items: center; gap: .4rem; margin-top: .6rem;
