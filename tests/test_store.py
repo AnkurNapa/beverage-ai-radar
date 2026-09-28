@@ -57,3 +57,20 @@ def test_all_returns_every_company(tmp_path):
     s.upsert(Company(name="A", domain="a.com", last_seen=date(2026, 1, 1)))
     s.upsert(Company(name="B", domain="b.com", last_seen=date(2026, 1, 1)))
     assert len(s.all()) == 2
+
+
+def test_first_insert_sorts_source_urls(tmp_path):
+    # merge already sorts, so an unsorted first insert reordered itself on
+    # the next run and left a diff in data.json with nothing actually changed
+    s = make_store(tmp_path)
+    s.upsert(
+        Company(
+            name="Acme AI",
+            domain="acme-ai.com",
+            vertical=BeverageVertical.BEER,
+            source_urls=["https://z.com", "https://a.com", "https://a.com"],
+            first_seen=date(2026, 1, 1),
+            last_seen=date(2026, 1, 1),
+        )
+    )
+    assert s.get("acme-ai.com").source_urls == ["https://a.com", "https://z.com"]

@@ -3,7 +3,7 @@ import json
 import sqlite3
 from datetime import date
 from pathlib import Path
-from dataclasses import fields
+from dataclasses import fields, replace
 from radar.model import Company, BeverageVertical, AIMaturity, Status
 
 _ENUM_FIELDS = {"vertical": BeverageVertical, "ai_maturity": AIMaturity, "status": Status}
@@ -100,6 +100,7 @@ class Store:
         never pass this, or a scraped guess would overwrite a checked fact."""
         existing = self.get(company.key)
         merged = self._merge(existing, company, authoritative) if existing else company
+        merged = replace(merged, source_urls=sorted(set(merged.source_urls)))
         row = self._to_row(merged)
         cols = ", ".join(row.keys())
         placeholders = ", ".join("?" for _ in row)
@@ -156,7 +157,8 @@ class Store:
         gone: list[str] = []
         for company in emitted:
             rows = [
-                r["key"] for r in self.conn.execute(
+                r["key"]
+                for r in self.conn.execute(
                     "SELECT key FROM companies WHERE name = ? AND key != ?",
                     (company.name, company.key),
                 )

@@ -44,7 +44,7 @@ SAMPLES = {
     "people": [{"name": "A Person", "role": "CTO", "linkedin": None}],
     "notable_customers_partners": "A Brewery",
     "short_description": "Makes no AI claim; recorded honestly.",
-    "source_urls": ["https://roundtrip.co.uk/", "https://example.org/a"],
+    "source_urls": ["https://example.org/a", "https://roundtrip.co.uk/"],
     "first_seen": date(2024, 1, 1),
     "last_seen": date(2026, 8, 4),
     "status": Status.ACTIVE,
