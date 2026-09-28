@@ -4482,5 +4482,2987 @@
   ],
   "first_seen": "2026-09-28",
   "last_seen": "2026-09-28"
+ },
+ {
+  "name": "Rocío Ballesteros",
+  "role": "Published researcher, University of Castilla-La Mancha",
+  "company": "University of Castilla-La Mancha",
+  "company_is_current": null,
+  "location": "Ciudad Real, Spain",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Rocío Ballesteros has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Vineyard yield estimation by combining remote sensing, computer vision and artificial neural network techniques (2020), affiliated with University of Castilla-La Mancha.",
+  "source_urls": [
+   "https://doi.org/10.1007/s11119-020-09717-3",
+   "https://openalex.org/A5021692902"
+  ],
+  "first_seen": "2020-05-08",
+  "last_seen": "2020-05-08",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Miguel Ángel Moreno",
+  "role": "Published researcher, University of Castilla-La Mancha",
+  "company": "University of Castilla-La Mancha",
+  "company_is_current": null,
+  "location": "Ciudad Real, Spain",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Miguel Ángel Moreno has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Vineyard yield estimation by combining remote sensing, computer vision and artificial neural network techniques (2020), affiliated with University of Castilla-La Mancha.",
+  "source_urls": [
+   "https://doi.org/10.1007/s11119-020-09717-3",
+   "https://openalex.org/A5100393595"
+  ],
+  "first_seen": "2020-05-08",
+  "last_seen": "2020-05-08",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Piyush Bhardwaj",
+  "role": "Published researcher, Lincoln University",
+  "company": "Lincoln University",
+  "company_is_current": null,
+  "location": "Lincoln, New Zealand",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Piyush Bhardwaj has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A machine learning application in wine quality prediction (2022), affiliated with Lincoln University.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.mlwa.2022.100261",
+   "https://openalex.org/A5046313520"
+  ],
+  "first_seen": "2022-01-28",
+  "last_seen": "2022-01-28",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Don Kulasiri",
+  "role": "Published researcher, Lincoln University",
+  "company": "Lincoln University",
+  "company_is_current": null,
+  "location": "Lincoln, New Zealand",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Don Kulasiri has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A machine learning application in wine quality prediction (2022), affiliated with Lincoln University.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.mlwa.2022.100261",
+   "https://openalex.org/A5044216588"
+  ],
+  "first_seen": "2022-01-28",
+  "last_seen": "2022-01-28",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Roberto Marani",
+  "role": "Published researcher, National Research Council",
+  "company": "National Research Council",
+  "company_is_current": null,
+  "location": "Rome, Italy",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Roberto Marani has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Deep neural networks for grape bunch segmentation in natural images from a consumer-grade camera (2020), affiliated with National Research Council.",
+  "source_urls": [
+   "https://doi.org/10.1007/s11119-020-09736-0",
+   "https://openalex.org/A5084118255"
+  ],
+  "first_seen": "2020-06-25",
+  "last_seen": "2020-06-25",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Giulio Reina",
+  "role": "Published researcher, Polytechnic University of Bari",
+  "company": "Polytechnic University of Bari",
+  "company_is_current": null,
+  "location": "Bari, Italy",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Giulio Reina has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Deep neural networks for grape bunch segmentation in natural images from a consumer-grade camera (2020), affiliated with Polytechnic University of Bari.",
+  "source_urls": [
+   "https://doi.org/10.1007/s11119-020-09736-0",
+   "https://openalex.org/A5056616210"
+  ],
+  "first_seen": "2020-06-25",
+  "last_seen": "2020-06-25",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Luca Nicolotti",
+  "role": "Published researcher, Leibniz-Institute for Food Systems Biology at the Technical University of Munich",
+  "company": "Leibniz-Institute for Food Systems Biology at the Technical University of Munich",
+  "company_is_current": null,
+  "location": "Freising, Germany",
+  "linkedin": null,
+  "vertical": "multiple",
+  "verticals": [
+   "multiple"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Luca Nicolotti has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Characterization of Key Aroma Compounds in a Commercial Rum and an Australian Red Wine by Means of a New Sensomics-Based Expert System (SEBES)-An Approach To Use Artificial Intelligence in Determining Food Odor Codes (2019), affiliated with Leibniz-Institute for Food Systems Biology at the Technical University of Munich.",
+  "source_urls": [
+   "https://doi.org/10.1021/acs.jafc.9b00708",
+   "https://openalex.org/A5056984957"
+  ],
+  "first_seen": "2019-03-17",
+  "last_seen": "2019-03-17",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Peter Schieberle",
+  "role": "Published researcher, Technical University of Munich",
+  "company": "Technical University of Munich",
+  "company_is_current": null,
+  "location": "Munich, Germany",
+  "linkedin": null,
+  "vertical": "multiple",
+  "verticals": [
+   "multiple"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Peter Schieberle has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Characterization of Key Aroma Compounds in a Commercial Rum and an Australian Red Wine by Means of a New Sensomics-Based Expert System (SEBES)-An Approach To Use Artificial Intelligence in Determining Food Odor Codes (2019), affiliated with Technical University of Munich.",
+  "source_urls": [
+   "https://doi.org/10.1021/acs.jafc.9b00708",
+   "https://openalex.org/A5009963485"
+  ],
+  "first_seen": "2019-03-17",
+  "last_seen": "2019-03-17",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Massimo Vincenzo Ferro",
+  "role": "Published researcher, University of Palermo",
+  "company": "University of Palermo",
+  "company_is_current": null,
+  "location": "Palermo, Italy",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Massimo Vincenzo Ferro has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bayesian yield mapping and uncertainty analysis in vineyards using remote sensing data and grape harvester tracking (2025), affiliated with University of Palermo.",
+  "source_urls": [
+   "https://doi.org/10.1007/s11119-025-10258-w",
+   "https://doi.org/10.1016/j.biosystemseng.2023.06.001",
+   "https://openalex.org/A5047527074"
+  ],
+  "first_seen": "2023-06-15",
+  "last_seen": "2025-06-25",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Pietro Catania",
+  "role": "Published researcher, University of Palermo",
+  "company": "University of Palermo",
+  "company_is_current": null,
+  "location": "Palermo, Italy",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Pietro Catania has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bayesian yield mapping and uncertainty analysis in vineyards using remote sensing data and grape harvester tracking (2025), affiliated with University of Palermo.",
+  "source_urls": [
+   "https://doi.org/10.1007/s11119-025-10258-w",
+   "https://doi.org/10.1016/j.biosystemseng.2023.06.001",
+   "https://openalex.org/A5074869631"
+  ],
+  "first_seen": "2023-06-15",
+  "last_seen": "2025-06-25",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Mariangela Vallone",
+  "role": "Published researcher, University of Palermo",
+  "company": "University of Palermo",
+  "company_is_current": null,
+  "location": "Palermo, Italy",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Mariangela Vallone has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: Bayesian yield mapping and uncertainty analysis in vineyards using remote sensing data and grape harvester tracking (2025), affiliated with University of Palermo.",
+  "source_urls": [
+   "https://doi.org/10.1007/s11119-025-10258-w",
+   "https://doi.org/10.1016/j.biosystemseng.2023.06.001",
+   "https://openalex.org/A5063604113"
+  ],
+  "first_seen": "2023-06-15",
+  "last_seen": "2025-06-25",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Santo Orlando",
+  "role": "Published researcher, University of Palermo",
+  "company": "University of Palermo",
+  "company_is_current": null,
+  "location": "Palermo, Italy",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Santo Orlando has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bayesian yield mapping and uncertainty analysis in vineyards using remote sensing data and grape harvester tracking (2025), affiliated with University of Palermo.",
+  "source_urls": [
+   "https://doi.org/10.1007/s11119-025-10258-w",
+   "https://doi.org/10.1016/j.biosystemseng.2023.06.001",
+   "https://openalex.org/A5087124470"
+  ],
+  "first_seen": "2023-06-15",
+  "last_seen": "2025-06-25",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Hui‐Wen Gu",
+  "role": "Published researcher, Yangtze University",
+  "company": "Yangtze University",
+  "company_is_current": null,
+  "location": "Jingzhou, China",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Hui‐Wen Gu has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Geographical origin identification of Chinese red wines using ultraviolet-visible spectroscopy coupled with machine learning techniques (2023), affiliated with Yangtze University.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.jfca.2023.105265",
+   "https://openalex.org/A5031777663"
+  ],
+  "first_seen": "2023-03-05",
+  "last_seen": "2023-03-05",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Xiaoli Yin",
+  "role": "Published researcher, Yangtze University",
+  "company": "Yangtze University",
+  "company_is_current": null,
+  "location": "Jingzhou, China",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Xiaoli Yin has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Geographical origin identification of Chinese red wines using ultraviolet-visible spectroscopy coupled with machine learning techniques (2023), affiliated with Yangtze University.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.jfca.2023.105265",
+   "https://openalex.org/A5100568141"
+  ],
+  "first_seen": "2023-03-05",
+  "last_seen": "2023-03-05",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "З. А. Темердашев",
+  "role": "Published researcher, Kuban State University",
+  "company": "Kuban State University",
+  "company_is_current": null,
+  "location": "Krasnodar, Russia",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "З. А. Темердашев has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Authentication of selected white wines by geographical origin using ICP spectrometric and chemometric analysis (2024), affiliated with Kuban State University.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.heliyon.2024.e29607",
+   "https://openalex.org/A5030358151"
+  ],
+  "first_seen": "2024-04-01",
+  "last_seen": "2024-04-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "A. A. Kaunova",
+  "role": "Published researcher, Kuban State University",
+  "company": "Kuban State University",
+  "company_is_current": null,
+  "location": "Krasnodar, Russia",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "A. A. Kaunova has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Authentication of selected white wines by geographical origin using ICP spectrometric and chemometric analysis (2024), affiliated with Kuban State University.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.heliyon.2024.e29607",
+   "https://openalex.org/A5070904873"
+  ],
+  "first_seen": "2024-04-01",
+  "last_seen": "2024-04-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Jennifer Hoponick Redmon",
+  "role": "Published researcher, RTI International",
+  "company": "RTI International",
+  "company_is_current": null,
+  "location": "Durham, United States",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Jennifer Hoponick Redmon has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Hold My Beer: The Linkage between Municipal Water and Brewing Location on PFAS in Popular Beverages (2025), affiliated with RTI International.",
+  "source_urls": [
+   "https://doi.org/10.1021/acs.est.4c11265",
+   "https://openalex.org/A5085327322"
+  ],
+  "first_seen": "2025-04-24",
+  "last_seen": "2025-04-24",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Andrew J. Kondash",
+  "role": "Published researcher, RTI International",
+  "company": "RTI International",
+  "company_is_current": null,
+  "location": "Durham, United States",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Andrew J. Kondash has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Hold My Beer: The Linkage between Municipal Water and Brewing Location on PFAS in Popular Beverages (2025), affiliated with RTI International.",
+  "source_urls": [
+   "https://doi.org/10.1021/acs.est.4c11265",
+   "https://openalex.org/A5111473768"
+  ],
+  "first_seen": "2025-04-24",
+  "last_seen": "2025-04-24",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Pietro Chinnici",
+  "role": "Published researcher, University of Palermo",
+  "company": "University of Palermo",
+  "company_is_current": null,
+  "location": "Palermo, Italy",
+  "linkedin": null,
+  "vertical": "multiple",
+  "verticals": [
+   "multiple"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Pietro Chinnici has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: How will artificial intelligence drive marketing in the beverage industry? - A bibliometric literature review (2025), affiliated with University of Palermo.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.fufo.2025.100704",
+   "https://openalex.org/A5107182401"
+  ],
+  "first_seen": "2025-07-03",
+  "last_seen": "2025-07-03",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Marzia Ingrassia",
+  "role": "Published researcher, University of Palermo",
+  "company": "University of Palermo",
+  "company_is_current": null,
+  "location": "Palermo, Italy",
+  "linkedin": null,
+  "vertical": "multiple",
+  "verticals": [
+   "multiple"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Marzia Ingrassia has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: How will artificial intelligence drive marketing in the beverage industry? - A bibliometric literature review (2025), affiliated with University of Palermo.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.fufo.2025.100704",
+   "https://openalex.org/A5079788685"
+  ],
+  "first_seen": "2025-07-03",
+  "last_seen": "2025-07-03",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Ranaweera K.R. Ranaweera",
+  "role": "Published researcher, The University of Adelaide",
+  "company": "The University of Adelaide",
+  "company_is_current": null,
+  "location": "Adelaide, Australia",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Ranaweera K.R. Ranaweera has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A Review of Wine Authentication Using Spectroscopic Approaches in Combination with Chemometrics (2021), affiliated with The University of Adelaide.",
+  "source_urls": [
+   "https://doi.org/10.3390/molecules26144334",
+   "https://doi.org/10.1016/j.foodchem.2021.130149",
+   "https://openalex.org/A5014771539"
+  ],
+  "first_seen": "2021-05-18",
+  "last_seen": "2021-07-17",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Dimitra Liacopoulos Capone",
+  "role": "Published researcher, Australian Research Council",
+  "company": "Australian Research Council",
+  "company_is_current": null,
+  "location": "Canberra, Australia",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Dimitra Liacopoulos Capone has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: A Review of Wine Authentication Using Spectroscopic Approaches in Combination with Chemometrics (2021), affiliated with Australian Research Council.",
+  "source_urls": [
+   "https://doi.org/10.3390/molecules26144334",
+   "https://doi.org/10.1016/j.foodchem.2021.130149",
+   "https://openalex.org/A5063146739"
+  ],
+  "first_seen": "2021-05-18",
+  "last_seen": "2021-07-17",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Susan E.P. Bastian",
+  "role": "Published researcher, Australian Research Council",
+  "company": "Australian Research Council",
+  "company_is_current": null,
+  "location": "Canberra, Australia",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Susan E.P. Bastian has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: A Review of Wine Authentication Using Spectroscopic Approaches in Combination with Chemometrics (2021), affiliated with Australian Research Council.",
+  "source_urls": [
+   "https://doi.org/10.3390/molecules26144334",
+   "https://doi.org/10.1016/j.foodchem.2021.130149",
+   "https://openalex.org/A5073669425"
+  ],
+  "first_seen": "2021-05-18",
+  "last_seen": "2021-07-17",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "David W. Jeffery",
+  "role": "Published researcher, Australian Research Council",
+  "company": "Australian Research Council",
+  "company_is_current": null,
+  "location": "Canberra, Australia",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "David W. Jeffery has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A Review of Wine Authentication Using Spectroscopic Approaches in Combination with Chemometrics (2021), affiliated with Australian Research Council.",
+  "source_urls": [
+   "https://doi.org/10.3390/molecules26144334",
+   "https://doi.org/10.1016/j.foodchem.2021.130149",
+   "https://openalex.org/A5074669530"
+  ],
+  "first_seen": "2021-05-18",
+  "last_seen": "2021-07-17",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Carlos Herrero",
+  "role": "Published researcher, Universidade de Santiago de Compostela",
+  "company": "Universidade de Santiago de Compostela",
+  "company_is_current": null,
+  "location": "Santiago de Compostela, Spain",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Carlos Herrero has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Detection and quantification of adulterations in aged wine using RGB digital images combined with multivariate chemometric techniques (2019), affiliated with Universidade de Santiago de Compostela.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.fochx.2019.100046",
+   "https://openalex.org/A5021747547"
+  ],
+  "first_seen": "2019-07-05",
+  "last_seen": "2019-07-05",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Rosa M. Peña-Crecente",
+  "role": "Published researcher, Universidade de Santiago de Compostela",
+  "company": "Universidade de Santiago de Compostela",
+  "company_is_current": null,
+  "location": "Santiago de Compostela, Spain",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Rosa M. Peña-Crecente has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Detection and quantification of adulterations in aged wine using RGB digital images combined with multivariate chemometric techniques (2019), affiliated with Universidade de Santiago de Compostela.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.fochx.2019.100046",
+   "https://openalex.org/A5034731544"
+  ],
+  "first_seen": "2019-07-05",
+  "last_seen": "2019-07-05",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Ruby Brooks",
+  "role": "Published researcher, Deakin University",
+  "company": "Deakin University",
+  "company_is_current": null,
+  "location": "Burwood, Australia",
+  "linkedin": null,
+  "vertical": "multiple",
+  "verticals": [
+   "multiple"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Ruby Brooks has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Use of artificial intelligence to enable dark nudges by transnational food and beverage companies: analysis of company documents (2022), affiliated with Deakin University.",
+  "source_urls": [
+   "https://doi.org/10.1017/s1368980022000490",
+   "https://openalex.org/A5051270573"
+  ],
+  "first_seen": "2022-03-02",
+  "last_seen": "2022-03-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Kathryn Backholer",
+  "role": "Published researcher, Deakin University",
+  "company": "Deakin University",
+  "company_is_current": null,
+  "location": "Burwood, Australia",
+  "linkedin": null,
+  "vertical": "multiple",
+  "verticals": [
+   "multiple"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Kathryn Backholer has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Use of artificial intelligence to enable dark nudges by transnational food and beverage companies: analysis of company documents (2022), affiliated with Deakin University.",
+  "source_urls": [
+   "https://doi.org/10.1017/s1368980022000490",
+   "https://openalex.org/A5031028950"
+  ],
+  "first_seen": "2022-03-02",
+  "last_seen": "2022-03-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Mattia Rapa",
+  "role": "Published researcher, Sapienza University of Rome",
+  "company": "Sapienza University of Rome",
+  "company_is_current": null,
+  "location": "Rome, Italy",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Mattia Rapa has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Venetian Protected Designation of origin wines traceability: Multi-elemental, isotopes and chemometric analysis (2022), affiliated with Sapienza University of Rome.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.foodchem.2022.134771",
+   "https://openalex.org/A5001758269"
+  ],
+  "first_seen": "2022-10-28",
+  "last_seen": "2022-10-28",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Marcelo Enrique Conti",
+  "role": "Published researcher, Sapienza University of Rome",
+  "company": "Sapienza University of Rome",
+  "company_is_current": null,
+  "location": "Rome, Italy",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Marcelo Enrique Conti has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Venetian Protected Designation of origin wines traceability: Multi-elemental, isotopes and chemometric analysis (2022), affiliated with Sapienza University of Rome.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.foodchem.2022.134771",
+   "https://openalex.org/A5045445608"
+  ],
+  "first_seen": "2022-10-28",
+  "last_seen": "2022-10-28",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Rebecca Brendel",
+  "role": "Published researcher, Technische Hochschule Mannheim",
+  "company": "Technische Hochschule Mannheim",
+  "company_is_current": null,
+  "location": "Mannheim, Germany",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Rebecca Brendel has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Gas-phase volatilomic approaches for quality control of brewing hops based on simultaneous GC-MS-IMS and machine learning (2020), affiliated with Technische Hochschule Mannheim.",
+  "source_urls": [
+   "https://doi.org/10.1007/s00216-020-02842-y",
+   "https://openalex.org/A5015054085"
+  ],
+  "first_seen": "2020-08-04",
+  "last_seen": "2020-08-04",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Philipp Weller",
+  "role": "Published researcher, Technische Hochschule Mannheim",
+  "company": "Technische Hochschule Mannheim",
+  "company_is_current": null,
+  "location": "Mannheim, Germany",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Philipp Weller has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Gas-phase volatilomic approaches for quality control of brewing hops based on simultaneous GC-MS-IMS and machine learning (2020), affiliated with Technische Hochschule Mannheim.",
+  "source_urls": [
+   "https://doi.org/10.1007/s00216-020-02842-y",
+   "https://openalex.org/A5085607424"
+  ],
+  "first_seen": "2020-08-04",
+  "last_seen": "2020-08-04",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Barry Lee Smith",
+  "role": "Published researcher, University of Liverpool",
+  "company": "University of Liverpool",
+  "company_is_current": null,
+  "location": "Liverpool, United Kingdom",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Barry Lee Smith has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Rapid Scotch Whisky Analysis and Authentication using Desorption Atmospheric Pressure Chemical Ionisation Mass Spectrometry (2019), affiliated with University of Liverpool.",
+  "source_urls": [
+   "https://doi.org/10.1038/s41598-019-44456-0",
+   "https://openalex.org/A5041184803"
+  ],
+  "first_seen": "2019-05-29",
+  "last_seen": "2019-05-29",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Simon Maher",
+  "role": "Published researcher, University of Liverpool",
+  "company": "University of Liverpool",
+  "company_is_current": null,
+  "location": "Liverpool, United Kingdom",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Simon Maher has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Rapid Scotch Whisky Analysis and Authentication using Desorption Atmospheric Pressure Chemical Ionisation Mass Spectrometry (2019), affiliated with University of Liverpool.",
+  "source_urls": [
+   "https://doi.org/10.1038/s41598-019-44456-0",
+   "https://openalex.org/A5040114105"
+  ],
+  "first_seen": "2019-05-29",
+  "last_seen": "2019-05-29",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Georg Krebs",
+  "role": "Published researcher, Technical University of Munich",
+  "company": "Technical University of Munich",
+  "company_is_current": null,
+  "location": "Munich, Germany",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Georg Krebs has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Chemometric modeling of palate fullness in lager beers (2020), affiliated with Technical University of Munich.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.foodchem.2020.128253",
+   "https://openalex.org/A5067547290"
+  ],
+  "first_seen": "2020-10-01",
+  "last_seen": "2020-10-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Thomas Matthias Becker",
+  "role": "Published researcher, Technical University of Munich",
+  "company": "Technical University of Munich",
+  "company_is_current": null,
+  "location": "Munich, Germany",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Thomas Matthias Becker has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Chemometric modeling of palate fullness in lager beers (2020), affiliated with Technical University of Munich.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.foodchem.2020.128253",
+   "https://openalex.org/A5026778461"
+  ],
+  "first_seen": "2020-10-01",
+  "last_seen": "2020-10-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Leoš Uttl",
+  "role": "Published researcher, University of Chemistry and Technology, Prague",
+  "company": "University of Chemistry and Technology, Prague",
+  "company_is_current": null,
+  "location": "Prague, Czechia",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Leoš Uttl has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Critical assessment of chemometric models employed for varietal authentication of wine based on UHPLC-HRMS data (2022), affiliated with University of Chemistry and Technology, Prague.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.foodcont.2022.109336",
+   "https://openalex.org/A5054154401"
+  ],
+  "first_seen": "2022-08-29",
+  "last_seen": "2022-08-29",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Jana Hajšlová",
+  "role": "Published researcher, University of Chemistry and Technology, Prague",
+  "company": "University of Chemistry and Technology, Prague",
+  "company_is_current": null,
+  "location": "Prague, Czechia",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Jana Hajšlová has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Critical assessment of chemometric models employed for varietal authentication of wine based on UHPLC-HRMS data (2022), affiliated with University of Chemistry and Technology, Prague.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.foodcont.2022.109336",
+   "https://openalex.org/A5018276777"
+  ],
+  "first_seen": "2022-08-29",
+  "last_seen": "2022-08-29",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Marco Canicattì",
+  "role": "Published researcher, University of Palermo",
+  "company": "University of Palermo",
+  "company_is_current": null,
+  "location": "Palermo, Italy",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Marco Canicattì has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bayesian yield mapping and uncertainty analysis in vineyards using remote sensing data and grape harvester tracking (2025), affiliated with University of Palermo.",
+  "source_urls": [
+   "https://doi.org/10.1007/s11119-025-10258-w",
+   "https://openalex.org/A5093666390"
+  ],
+  "first_seen": "2025-06-25",
+  "last_seen": "2025-06-25",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Yifang Gao",
+  "role": "Published researcher, Northeast Agricultural University",
+  "company": "Northeast Agricultural University",
+  "company_is_current": null,
+  "location": "Harbin, China",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Yifang Gao has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Discrimination and quantification of volatile compounds in beer by FTIR combined with machine learning approaches (2024), affiliated with Northeast Agricultural University.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.fochx.2024.101300",
+   "https://openalex.org/A5088210972"
+  ],
+  "first_seen": "2024-03-18",
+  "last_seen": "2024-03-18",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Yinghua Zhang",
+  "role": "Published researcher, Northeast Agricultural University",
+  "company": "Northeast Agricultural University",
+  "company_is_current": null,
+  "location": "Harbin, China",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Yinghua Zhang has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Discrimination and quantification of volatile compounds in beer by FTIR combined with machine learning approaches (2024), affiliated with Northeast Agricultural University.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.fochx.2024.101300",
+   "https://openalex.org/A5100648513"
+  ],
+  "first_seen": "2024-03-18",
+  "last_seen": "2024-03-18",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Emily Fanning",
+  "role": "Published researcher, University of Otago",
+  "company": "University of Otago",
+  "company_is_current": null,
+  "location": "Dunedin, New Zealand",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Emily Fanning has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Near-Infrared Spectroscopy Combined with Multivariate Analysis for the Geographical Origin Traceability of New Zealand Hops (2025), affiliated with University of Otago.",
+  "source_urls": [
+   "https://doi.org/10.1007/s11947-025-03776-y",
+   "https://openalex.org/A5016723077"
+  ],
+  "first_seen": "2025-02-12",
+  "last_seen": "2025-02-12",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Biniam Kebede",
+  "role": "Published researcher, University of Otago",
+  "company": "University of Otago",
+  "company_is_current": null,
+  "location": "Dunedin, New Zealand",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Biniam Kebede has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Near-Infrared Spectroscopy Combined with Multivariate Analysis for the Geographical Origin Traceability of New Zealand Hops (2025), affiliated with University of Otago.",
+  "source_urls": [
+   "https://doi.org/10.1007/s11947-025-03776-y",
+   "https://openalex.org/A5050218107"
+  ],
+  "first_seen": "2025-02-12",
+  "last_seen": "2025-02-12",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Riccardo De Flaviis",
+  "role": "Published researcher, University of Teramo",
+  "company": "University of Teramo",
+  "company_is_current": null,
+  "location": "Teramo, Italy",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Riccardo De Flaviis has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A unifying approach to wheat beer flavour by chemometric analyses. Could we speak of 'terroir'? (2022), affiliated with University of Teramo.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.crfs.2022.100429",
+   "https://openalex.org/A5049353538"
+  ],
+  "first_seen": "2022-12-29",
+  "last_seen": "2022-12-29",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Giampiero Sacchetti",
+  "role": "Published researcher, University of Teramo",
+  "company": "University of Teramo",
+  "company_is_current": null,
+  "location": "Teramo, Italy",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Giampiero Sacchetti has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A unifying approach to wheat beer flavour by chemometric analyses. Could we speak of 'terroir'? (2022), affiliated with University of Teramo.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.crfs.2022.100429",
+   "https://openalex.org/A5072373088"
+  ],
+  "first_seen": "2022-12-29",
+  "last_seen": "2022-12-29",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Xuyan Zong",
+  "role": "Published researcher, Sichuan University of Science and Engineering",
+  "company": "Sichuan University of Science and Engineering",
+  "company_is_current": null,
+  "location": "Zigong, China",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Xuyan Zong has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Quantitative modelling of Plato and total flavonoids in Qingke wort at mashing and boiling stages based on FT-IR combined with deep learning and chemometrics (2024), affiliated with Sichuan University of Science and Engineering.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.fochx.2024.101673",
+   "https://openalex.org/A5101814105"
+  ],
+  "first_seen": "2024-07-18",
+  "last_seen": "2024-07-18",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Li Li",
+  "role": "Published researcher, Sichuan University of Science and Engineering",
+  "company": "Sichuan University of Science and Engineering",
+  "company_is_current": null,
+  "location": "Zigong, China",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Li Li has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Quantitative modelling of Plato and total flavonoids in Qingke wort at mashing and boiling stages based on FT-IR combined with deep learning and chemometrics (2024), affiliated with Sichuan University of Science and Engineering.",
+  "source_urls": [
+   "https://doi.org/10.1016/j.fochx.2024.101673",
+   "https://openalex.org/A5100361370"
+  ],
+  "first_seen": "2024-07-18",
+  "last_seen": "2024-07-18",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Andrea Springer",
+  "role": "Published researcher, Henkel (Germany)",
+  "company": "Henkel (Germany)",
+  "company_is_current": null,
+  "location": "Düsseldorf, Germany",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Andrea Springer has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Wine authentication: a fingerprinting multiclass strategy to classify red varietals through profound chemometric analysis of volatiles (2018), affiliated with Henkel (Germany).",
+  "source_urls": [
+   "https://doi.org/10.1007/s00217-018-3151-z",
+   "https://openalex.org/A5043027512"
+  ],
+  "first_seen": "2018-08-22",
+  "last_seen": "2018-08-22",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "William P. Kustas",
+  "role": "Published researcher, Agricultural Research Service",
+  "company": "Agricultural Research Service",
+  "company_is_current": null,
+  "location": "Washington, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "William P. Kustas has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with Agricultural Research Service.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5114257650"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Martha C. Anderson",
+  "role": "Published researcher, Agricultural Research Service",
+  "company": "Agricultural Research Service",
+  "company_is_current": null,
+  "location": "Washington, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Martha C. Anderson has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with Agricultural Research Service.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5082926470"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Joseph G. Alfieri",
+  "role": "Published researcher, Agricultural Research Service",
+  "company": "Agricultural Research Service",
+  "company_is_current": null,
+  "location": "Washington, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Joseph G. Alfieri has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with Agricultural Research Service.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5087846348"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "William A. White",
+  "role": "Published researcher, Agricultural Research Service",
+  "company": "Agricultural Research Service",
+  "company_is_current": null,
+  "location": "Washington, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "William A. White has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with Agricultural Research Service.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5081983851"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Feng Gao",
+  "role": "Published researcher, Agricultural Research Service",
+  "company": "Agricultural Research Service",
+  "company_is_current": null,
+  "location": "Washington, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Feng Gao has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with Agricultural Research Service.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5100362401"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Lynn G. McKee",
+  "role": "Published researcher, Agricultural Research Service",
+  "company": "Agricultural Research Service",
+  "company_is_current": null,
+  "location": "Washington, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Lynn G. McKee has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with Agricultural Research Service.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5113542160"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "John H. Prueger",
+  "role": "Published researcher, National Laboratory for Agriculture and the Environment",
+  "company": "National Laboratory for Agriculture and the Environment",
+  "company_is_current": null,
+  "location": "Ames, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "John H. Prueger has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with National Laboratory for Agriculture and the Environment.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5047557432"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "María Mar Alsina",
+  "role": "Published researcher, Ernest Gallo Clinic and Research Center",
+  "company": "Ernest Gallo Clinic and Research Center",
+  "company_is_current": null,
+  "location": "Emeryville, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "María Mar Alsina has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with Ernest Gallo Clinic and Research Center.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5041250416"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Luis Enrique Sanchez",
+  "role": "Published researcher, Ernest Gallo Clinic and Research Center",
+  "company": "Ernest Gallo Clinic and Research Center",
+  "company_is_current": null,
+  "location": "Emeryville, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Luis Enrique Sanchez has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with Ernest Gallo Clinic and Research Center.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5102913231"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "B. Sams",
+  "role": "Published researcher, Ernest Gallo Clinic and Research Center",
+  "company": "Ernest Gallo Clinic and Research Center",
+  "company_is_current": null,
+  "location": "Emeryville, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "B. Sams has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with Ernest Gallo Clinic and Research Center.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5077049785"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Kirk Post",
+  "role": "Published researcher, California State University, Monterey Bay",
+  "company": "California State University, Monterey Bay",
+  "company_is_current": null,
+  "location": "Seaside, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Kirk Post has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with California State University, Monterey Bay.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5077893719"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Forrest Melton",
+  "role": "Published researcher, Ames Research Center",
+  "company": "Ames Research Center",
+  "company_is_current": null,
+  "location": "Mountain View, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Forrest Melton has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with Ames Research Center.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5051237123"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Christopher Hain",
+  "role": "Published researcher, Marshall Space Flight Center",
+  "company": "Marshall Space Flight Center",
+  "company_is_current": null,
+  "location": "Redstone Arsenal, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Christopher Hain has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: The Grape Remote Sensing Atmospheric Profile and Evapotranspiration Experiment (2018), affiliated with Marshall Space Flight Center.",
+  "source_urls": [
+   "https://doi.org/10.1175/bams-d-16-0244.1",
+   "https://openalex.org/A5072480434"
+  ],
+  "first_seen": "2018-04-02",
+  "last_seen": "2018-04-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Damir D. Torrico",
+  "role": "Published researcher, Lincoln University",
+  "company": "Lincoln University",
+  "company_is_current": null,
+  "location": "Lincoln, New Zealand",
+  "linkedin": null,
+  "vertical": "multiple",
+  "verticals": [
+   "beer",
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Damir D. Torrico has 4 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: Review of the Effects of Grapevine Smoke Exposure and Technologies to Assess Smoke Contamination and Taint in Grapes and Wine (2021), affiliated with Lincoln University.",
+  "source_urls": [
+   "https://doi.org/10.3390/beverages7010007",
+   "https://doi.org/10.3390/s20133618",
+   "https://doi.org/10.3390/beverages5020033",
+   "https://doi.org/10.1111/1750-3841.14114",
+   "https://openalex.org/A5032923277"
+  ],
+  "first_seen": "2018-03-30",
+  "last_seen": "2021-01-25",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Frank Rowland Dunshea",
+  "role": "Published researcher, The University of Melbourne",
+  "company": "The University of Melbourne",
+  "company_is_current": null,
+  "location": "Melbourne, Australia",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Frank Rowland Dunshea has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Development of Artificial Neural Network Models to Assess Beer Acceptability Based on Sensory Properties Using a Robotic Pourer: A Comparative Model Approach to Achieve an Artificial Intelligence System (2019), affiliated with The University of Melbourne.",
+  "source_urls": [
+   "https://doi.org/10.3390/beverages5020033",
+   "https://doi.org/10.1111/1750-3841.14114",
+   "https://openalex.org/A5017327154"
+  ],
+  "first_seen": "2018-03-30",
+  "last_seen": "2019-05-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Salvador Gutiérrez",
+  "role": "Published researcher, Universidad de La Rioja",
+  "company": "Universidad de La Rioja",
+  "company_is_current": null,
+  "location": "Logroño, Spain",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Salvador Gutiérrez has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Vineyard water status assessment using on-the-go thermal imaging and machine learning (2018), affiliated with Universidad de La Rioja.",
+  "source_urls": [
+   "https://doi.org/10.1371/journal.pone.0192037",
+   "https://openalex.org/A5000846829"
+  ],
+  "first_seen": "2018-02-01",
+  "last_seen": "2018-02-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Javier Tardáguila",
+  "role": "Published researcher, Universidad de La Rioja",
+  "company": "Universidad de La Rioja",
+  "company_is_current": null,
+  "location": "Logroño, Spain",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Javier Tardáguila has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Vineyard water status assessment using on-the-go thermal imaging and machine learning (2018), affiliated with Universidad de La Rioja.",
+  "source_urls": [
+   "https://doi.org/10.1371/journal.pone.0192037",
+   "https://openalex.org/A5015899789"
+  ],
+  "first_seen": "2018-02-01",
+  "last_seen": "2018-02-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Nino Adamashvili",
+  "role": "Published researcher, University of Foggia",
+  "company": "University of Foggia",
+  "company_is_current": null,
+  "location": "Foggia, Italy",
+  "linkedin": null,
+  "vertical": "multiple",
+  "verticals": [
+   "multiple"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Nino Adamashvili has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: The Integration of the Internet of Things, Artificial Intelligence, and Blockchain Technology for Advancing the Wine Supply Chain (2024), affiliated with University of Foggia.",
+  "source_urls": [
+   "https://doi.org/10.3390/computers13030072",
+   "https://openalex.org/A5023862984"
+  ],
+  "first_seen": "2024-03-08",
+  "last_seen": "2024-03-08",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Caterina Tricase",
+  "role": "Published researcher, University of Foggia",
+  "company": "University of Foggia",
+  "company_is_current": null,
+  "location": "Foggia, Italy",
+  "linkedin": null,
+  "vertical": "multiple",
+  "verticals": [
+   "multiple"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Caterina Tricase has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: The Integration of the Internet of Things, Artificial Intelligence, and Blockchain Technology for Advancing the Wine Supply Chain (2024), affiliated with University of Foggia.",
+  "source_urls": [
+   "https://doi.org/10.3390/computers13030072",
+   "https://openalex.org/A5085276277"
+  ],
+  "first_seen": "2024-03-08",
+  "last_seen": "2024-03-08",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Zhujie Xu",
+  "role": "Published researcher, Jiangsu University",
+  "company": "Jiangsu University",
+  "company_is_current": null,
+  "location": "Zhenjiang, China",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Zhujie Xu has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Realtime Picking Point Decision Algorithm of Trellis Grape for High-Speed Robotic Cut-and-Catch Harvesting (2023), affiliated with Jiangsu University.",
+  "source_urls": [
+   "https://doi.org/10.3390/agronomy13061618",
+   "https://openalex.org/A5039656706"
+  ],
+  "first_seen": "2023-06-15",
+  "last_seen": "2023-06-15",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Binbin Xie",
+  "role": "Published researcher, Jiangsu University",
+  "company": "Jiangsu University",
+  "company_is_current": null,
+  "location": "Zhenjiang, China",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Binbin Xie has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Realtime Picking Point Decision Algorithm of Trellis Grape for High-Speed Robotic Cut-and-Catch Harvesting (2023), affiliated with Jiangsu University.",
+  "source_urls": [
+   "https://doi.org/10.3390/agronomy13061618",
+   "https://openalex.org/A5059751108"
+  ],
+  "first_seen": "2023-06-15",
+  "last_seen": "2023-06-15",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Thomas J. Kelly",
+  "role": "Published researcher, Teagasc - The Irish Agriculture and Food Development Authority",
+  "company": "Teagasc - The Irish Agriculture and Food Development Authority",
+  "company_is_current": null,
+  "location": "Carlow, Ireland",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Thomas J. Kelly has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Sources of Volatile Aromatic Congeners in Whiskey (2023), affiliated with Teagasc - The Irish Agriculture and Food Development Authority.",
+  "source_urls": [
+   "https://doi.org/10.3390/beverages9030064",
+   "https://openalex.org/A5101655724"
+  ],
+  "first_seen": "2023-08-02",
+  "last_seen": "2023-08-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Kieran N. Kilcawley",
+  "role": "Published researcher, Teagasc - The Irish Agriculture and Food Development Authority",
+  "company": "Teagasc - The Irish Agriculture and Food Development Authority",
+  "company_is_current": null,
+  "location": "Carlow, Ireland",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Kieran N. Kilcawley has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Sources of Volatile Aromatic Congeners in Whiskey (2023), affiliated with Teagasc - The Irish Agriculture and Food Development Authority.",
+  "source_urls": [
+   "https://doi.org/10.3390/beverages9030064",
+   "https://openalex.org/A5042318620"
+  ],
+  "first_seen": "2023-08-02",
+  "last_seen": "2023-08-02",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Alexander Lewis Bowler",
+  "role": "Published researcher, University of Nottingham",
+  "company": "University of Nottingham",
+  "company_is_current": null,
+  "location": "Nottingham, United Kingdom",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Alexander Lewis Bowler has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Domain Adaptation and Federated Learning for Ultrasonic Monitoring of Beer Fermentation (2021), affiliated with University of Nottingham.",
+  "source_urls": [
+   "https://doi.org/10.3390/fermentation7040253",
+   "https://doi.org/10.3390/fermentation7010034",
+   "https://openalex.org/A5067362644"
+  ],
+  "first_seen": "2021-03-04",
+  "last_seen": "2021-11-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Michael P. Pound",
+  "role": "Published researcher, University of Nottingham",
+  "company": "University of Nottingham",
+  "company_is_current": null,
+  "location": "Nottingham, United Kingdom",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Michael P. Pound has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: Domain Adaptation and Federated Learning for Ultrasonic Monitoring of Beer Fermentation (2021), affiliated with University of Nottingham.",
+  "source_urls": [
+   "https://doi.org/10.3390/fermentation7040253",
+   "https://doi.org/10.3390/fermentation7010034",
+   "https://openalex.org/A5072892248"
+  ],
+  "first_seen": "2021-03-04",
+  "last_seen": "2021-11-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Nicholas James Watson",
+  "role": "Published researcher, University of Nottingham",
+  "company": "University of Nottingham",
+  "company_is_current": null,
+  "location": "Nottingham, United Kingdom",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Nicholas James Watson has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Domain Adaptation and Federated Learning for Ultrasonic Monitoring of Beer Fermentation (2021), affiliated with University of Nottingham.",
+  "source_urls": [
+   "https://doi.org/10.3390/fermentation7040253",
+   "https://doi.org/10.3390/fermentation7010034",
+   "https://openalex.org/A5077837312"
+  ],
+  "first_seen": "2021-03-04",
+  "last_seen": "2021-11-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Sefater Gbashi",
+  "role": "Published researcher, University of Johannesburg",
+  "company": "University of Johannesburg",
+  "company_is_current": null,
+  "location": "Johannesburg, South Africa",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Sefater Gbashi has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Application of a generative adversarial network for multi-featured fermentation data synthesis and artificial neural network (ANN) modeling of bitter gourd-grape beverage production (2023), affiliated with University of Johannesburg.",
+  "source_urls": [
+   "https://doi.org/10.1038/s41598-023-38322-3",
+   "https://openalex.org/A5032978475"
+  ],
+  "first_seen": "2023-07-20",
+  "last_seen": "2023-07-20",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Oluwafemi Ayodeji Adebo",
+  "role": "Published researcher, University of Johannesburg",
+  "company": "University of Johannesburg",
+  "company_is_current": null,
+  "location": "Johannesburg, South Africa",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Oluwafemi Ayodeji Adebo has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Application of a generative adversarial network for multi-featured fermentation data synthesis and artificial neural network (ANN) modeling of bitter gourd-grape beverage production (2023), affiliated with University of Johannesburg.",
+  "source_urls": [
+   "https://doi.org/10.1038/s41598-023-38322-3",
+   "https://doi.org/10.1038/s41598-021-00097-w",
+   "https://openalex.org/A5084412953"
+  ],
+  "first_seen": "2021-10-18",
+  "last_seen": "2023-07-20",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Fernanda Cosme",
+  "role": "Published researcher, University of Trás-os-Montes and Alto Douro",
+  "company": "University of Trás-os-Montes and Alto Douro",
+  "company_is_current": null,
+  "location": "Vila Real, Portugal",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Fernanda Cosme has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: From Volatile Profiling to Sensory Prediction: Recent Advances in Wine Aroma Modeling Using Chemometrics and Sensor Technologies (2025), affiliated with University of Trás-os-Montes and Alto Douro.",
+  "source_urls": [
+   "https://doi.org/10.3390/chemosensors13090337",
+   "https://openalex.org/A5042950281"
+  ],
+  "first_seen": "2025-09-05",
+  "last_seen": "2025-09-05",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Berta C. Gonçalves",
+  "role": "Published researcher, University of Trás-os-Montes and Alto Douro",
+  "company": "University of Trás-os-Montes and Alto Douro",
+  "company_is_current": null,
+  "location": "Vila Real, Portugal",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Berta C. Gonçalves has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: From Volatile Profiling to Sensory Prediction: Recent Advances in Wine Aroma Modeling Using Chemometrics and Sensor Technologies (2025), affiliated with University of Trás-os-Montes and Alto Douro.",
+  "source_urls": [
+   "https://doi.org/10.3390/chemosensors13090337",
+   "https://openalex.org/A5072759181"
+  ],
+  "first_seen": "2025-09-05",
+  "last_seen": "2025-09-05",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Wei Yin",
+  "role": "Published researcher, Foshan University",
+  "company": "Foshan University",
+  "company_is_current": null,
+  "location": "Foshan, China",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Wei Yin has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Fruit Detection and Pose Estimation for Grape Cluster-Harvesting Robot Using Binocular Imagery Based on Deep Neural Networks (2021), affiliated with Foshan University.",
+  "source_urls": [
+   "https://doi.org/10.3389/frobt.2021.626989",
+   "https://openalex.org/A5014702970"
+  ],
+  "first_seen": "2021-06-22",
+  "last_seen": "2021-06-22",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Lufeng Luo",
+  "role": "Published researcher, Foshan University",
+  "company": "Foshan University",
+  "company_is_current": null,
+  "location": "Foshan, China",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Lufeng Luo has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Fruit Detection and Pose Estimation for Grape Cluster-Harvesting Robot Using Binocular Imagery Based on Deep Neural Networks (2021), affiliated with Foshan University.",
+  "source_urls": [
+   "https://doi.org/10.3389/frobt.2021.626989",
+   "https://openalex.org/A5060130626"
+  ],
+  "first_seen": "2021-06-22",
+  "last_seen": "2021-06-22",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Kate S. Howell",
+  "role": "Published researcher, The University of Melbourne",
+  "company": "The University of Melbourne",
+  "company_is_current": null,
+  "location": "Melbourne, Australia",
+  "linkedin": null,
+  "vertical": "multiple",
+  "verticals": [
+   "beer",
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Kate S. Howell has 3 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Development of a Rapid Method to Assess Beer Foamability Based on Relative Protein Content Using RoboBEER and Machine Learning Modeling (2020), affiliated with The University of Melbourne.",
+  "source_urls": [
+   "https://doi.org/10.3390/beverages6020028",
+   "https://doi.org/10.1111/1750-3841.14114",
+   "https://doi.org/10.3389/fchem.2017.00048",
+   "https://openalex.org/A5020314617"
+  ],
+  "first_seen": "2017-07-07",
+  "last_seen": "2020-05-03",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Roy Urvieta",
+  "role": "Published researcher, Consejo Nacional de Investigaciones Científicas y Técnicas",
+  "company": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+  "company_is_current": null,
+  "location": "Buenos Aires, Argentina",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Roy Urvieta has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Terroir and vintage discrimination of Malbec wines based on phenolic composition across multiple sites in Mendoza, Argentina (2021), affiliated with Consejo Nacional de Investigaciones Científicas y Técnicas.",
+  "source_urls": [
+   "https://doi.org/10.1038/s41598-021-82306-0",
+   "https://openalex.org/A5027803811"
+  ],
+  "first_seen": "2021-02-03",
+  "last_seen": "2021-02-03",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Ariel Fontana",
+  "role": "Published researcher, Universidad Nacional de Cuyo",
+  "company": "Universidad Nacional de Cuyo",
+  "company_is_current": null,
+  "location": "Mendoza, Argentina",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Ariel Fontana has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Terroir and vintage discrimination of Malbec wines based on phenolic composition across multiple sites in Mendoza, Argentina (2021), affiliated with Universidad Nacional de Cuyo.",
+  "source_urls": [
+   "https://doi.org/10.1038/s41598-021-82306-0",
+   "https://openalex.org/A5004709820"
+  ],
+  "first_seen": "2021-02-03",
+  "last_seen": "2021-02-03",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "John‐Lewis Zinia Zaukuu",
+  "role": "Published researcher, Magyar Agrár- és Élettudományi Egyetem",
+  "company": "Magyar Agrár- és Élettudományi Egyetem",
+  "company_is_current": null,
+  "location": "Gödöllő, Hungary",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "John‐Lewis Zinia Zaukuu has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Authentication of Tokaj Wine (Hungaricum) with the Electronic Tongue and Near Infrared Spectroscopy (2019), affiliated with Magyar Agrár- és Élettudományi Egyetem.",
+  "source_urls": [
+   "https://doi.org/10.1111/1750-3841.14956",
+   "https://openalex.org/A5035118056"
+  ],
+  "first_seen": "2019-11-24",
+  "last_seen": "2019-11-24",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Zoltán György Kovács",
+  "role": "Published researcher, Magyar Agrár- és Élettudományi Egyetem",
+  "company": "Magyar Agrár- és Élettudományi Egyetem",
+  "company_is_current": null,
+  "location": "Gödöllő, Hungary",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Zoltán György Kovács has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Authentication of Tokaj Wine (Hungaricum) with the Electronic Tongue and Near Infrared Spectroscopy (2019), affiliated with Magyar Agrár- és Élettudományi Egyetem.",
+  "source_urls": [
+   "https://doi.org/10.1111/1750-3841.14956",
+   "https://openalex.org/A5054602927"
+  ],
+  "first_seen": "2019-11-24",
+  "last_seen": "2019-11-24",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Pangzhen Zhang",
+  "role": "Published researcher, The University of Melbourne",
+  "company": "The University of Melbourne",
+  "company_is_current": null,
+  "location": "Melbourne, Australia",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Pangzhen Zhang has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: The Influence of Apical and Basal Defoliation on the Canopy Structure and Biochemical Composition of Vitis vinifera cv. Shiraz Grapes and Wine (2017), affiliated with The University of Melbourne.",
+  "source_urls": [
+   "https://doi.org/10.3389/fchem.2017.00048",
+   "https://openalex.org/A5079876716"
+  ],
+  "first_seen": "2017-07-07",
+  "last_seen": "2017-07-07",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Vasiliki Summerson",
+  "role": "Published researcher, The University of Melbourne",
+  "company": "The University of Melbourne",
+  "company_is_current": null,
+  "location": "Melbourne, Australia",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Vasiliki Summerson has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Review of the Effects of Grapevine Smoke Exposure and Technologies to Assess Smoke Contamination and Taint in Grapes and Wine (2021), affiliated with The University of Melbourne.",
+  "source_urls": [
+   "https://doi.org/10.3390/beverages7010007",
+   "https://openalex.org/A5077463809"
+  ],
+  "first_seen": "2021-01-25",
+  "last_seen": "2021-01-25",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Edwin Hlangwani",
+  "role": "Published researcher, University of Johannesburg",
+  "company": "University of Johannesburg",
+  "company_is_current": null,
+  "location": "Johannesburg, South Africa",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Edwin Hlangwani has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A modeling method for the development of a bioprocess to optimally produce umqombothi (a South African traditional beer) (2021), affiliated with University of Johannesburg.",
+  "source_urls": [
+   "https://doi.org/10.1038/s41598-021-00097-w",
+   "https://openalex.org/A5042258807"
+  ],
+  "first_seen": "2021-10-18",
+  "last_seen": "2021-10-18",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "André Aguiar",
+  "role": "Published researcher, University of Trás-os-Montes and Alto Douro",
+  "company": "University of Trás-os-Montes and Alto Douro",
+  "company_is_current": null,
+  "location": "Vila Real, Portugal",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "André Aguiar has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bringing Semantics to the Vineyard: An Approach on Deep Learning-Based Vine Trunk Detection (2021), affiliated with University of Trás-os-Montes and Alto Douro.",
+  "source_urls": [
+   "https://doi.org/10.3390/agriculture11020131",
+   "https://openalex.org/A5047226397"
+  ],
+  "first_seen": "2021-02-05",
+  "last_seen": "2021-02-05",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "José Boaventura‐Cunha",
+  "role": "Published researcher, University of Trás-os-Montes and Alto Douro",
+  "company": "University of Trás-os-Montes and Alto Douro",
+  "company_is_current": null,
+  "location": "Vila Real, Portugal",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "José Boaventura‐Cunha has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bringing Semantics to the Vineyard: An Approach on Deep Learning-Based Vine Trunk Detection (2021), affiliated with University of Trás-os-Montes and Alto Douro.",
+  "source_urls": [
+   "https://doi.org/10.3390/agriculture11020131",
+   "https://openalex.org/A5024946758"
+  ],
+  "first_seen": "2021-02-05",
+  "last_seen": "2021-02-05",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Achilleas Blekos",
+  "role": "Published researcher, Information Technologies Institute",
+  "company": "Information Technologies Institute",
+  "company_is_current": null,
+  "location": "Thessaloniki, Greece",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Achilleas Blekos has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A Grape Dataset for Instance Segmentation and Maturity Estimation (2023), affiliated with Information Technologies Institute.",
+  "source_urls": [
+   "https://doi.org/10.3390/agronomy13081995",
+   "https://openalex.org/A5092560711"
+  ],
+  "first_seen": "2023-07-27",
+  "last_seen": "2023-07-27",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Kosmas Dimitropoulos",
+  "role": "Published researcher, Information Technologies Institute",
+  "company": "Information Technologies Institute",
+  "company_is_current": null,
+  "location": "Thessaloniki, Greece",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Kosmas Dimitropoulos has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A Grape Dataset for Instance Segmentation and Maturity Estimation (2023), affiliated with Information Technologies Institute.",
+  "source_urls": [
+   "https://doi.org/10.3390/agronomy13081995",
+   "https://openalex.org/A5080005547"
+  ],
+  "first_seen": "2023-07-27",
+  "last_seen": "2023-07-27",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Walter M. Warren‐Vega",
+  "role": "Published researcher, Universidad Autónoma de Guadalajara",
+  "company": "Universidad Autónoma de Guadalajara",
+  "company_is_current": null,
+  "location": "Guadalajara, Mexico",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Walter M. Warren‐Vega has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Development of a Predictive Model for Agave Prices Employing Environmental, Economic, and Social Factors: Towards a Planned Supply Chain for Agave-Tequila Industry (2022), affiliated with Universidad Autónoma de Guadalajara.",
+  "source_urls": [
+   "https://doi.org/10.3390/foods11081138",
+   "https://openalex.org/A5061885963"
+  ],
+  "first_seen": "2022-04-14",
+  "last_seen": "2022-04-14",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Luis A. Romero Cano",
+  "role": "Published researcher, Universidad Autónoma de Guadalajara",
+  "company": "Universidad Autónoma de Guadalajara",
+  "company_is_current": null,
+  "location": "Guadalajara, Mexico",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Luis A. Romero Cano has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Development of a Predictive Model for Agave Prices Employing Environmental, Economic, and Social Factors: Towards a Planned Supply Chain for Agave-Tequila Industry (2022), affiliated with Universidad Autónoma de Guadalajara.",
+  "source_urls": [
+   "https://doi.org/10.3390/foods11081138",
+   "https://openalex.org/A5028118731"
+  ],
+  "first_seen": "2022-04-14",
+  "last_seen": "2022-04-14",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Lavínia Silva Veríssimo",
+  "role": "Published researcher, Instituto Federal do Espírito Santo",
+  "company": "Instituto Federal do Espírito Santo",
+  "company_is_current": null,
+  "location": "Vitória, Brazil",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Lavínia Silva Veríssimo has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Chemometric studies of hops degradation at different storage forms using UV-Vis, NIRS and UPLC analyses (2022), affiliated with Instituto Federal do Espírito Santo.",
+  "source_urls": [
+   "https://doi.org/10.1590/1981-6723.09321",
+   "https://openalex.org/A5092297195"
+  ],
+  "first_seen": "2022-01-01",
+  "last_seen": "2022-01-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Juliano Souza Ribeiro",
+  "role": "Published researcher, Instituto Federal do Espírito Santo",
+  "company": "Instituto Federal do Espírito Santo",
+  "company_is_current": null,
+  "location": "Vitória, Brazil",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Juliano Souza Ribeiro has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Chemometric studies of hops degradation at different storage forms using UV-Vis, NIRS and UPLC analyses (2022), affiliated with Instituto Federal do Espírito Santo.",
+  "source_urls": [
+   "https://doi.org/10.1590/1981-6723.09321",
+   "https://openalex.org/A5036123800"
+  ],
+  "first_seen": "2022-01-01",
+  "last_seen": "2022-01-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Christos Bazinas",
+  "role": "Published researcher, International Hellenic University",
+  "company": "International Hellenic University",
+  "company_is_current": null,
+  "location": "Thessaloniki, Greece",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Christos Bazinas has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A Non-Destructive Method for Grape Ripeness Estimation Using Intervals' Numbers (INs) Techniques (2022), affiliated with International Hellenic University.",
+  "source_urls": [
+   "https://doi.org/10.3390/agronomy12071564",
+   "https://openalex.org/A5020654756"
+  ],
+  "first_seen": "2022-06-29",
+  "last_seen": "2022-06-29",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Aikaterini Karampatea",
+  "role": "Published researcher, International Hellenic University",
+  "company": "International Hellenic University",
+  "company_is_current": null,
+  "location": "Thessaloniki, Greece",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Aikaterini Karampatea has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: A Deep Learning Approach for Precision Viticulture, Assessing Grape Maturity via YOLOv7 (2023), affiliated with International Hellenic University.",
+  "source_urls": [
+   "https://doi.org/10.3390/s23198126",
+   "https://doi.org/10.3390/agronomy12071564",
+   "https://openalex.org/A5011434269"
+  ],
+  "first_seen": "2022-06-29",
+  "last_seen": "2023-09-27",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Vassilis G. Kaburlasos",
+  "role": "Published researcher, International Hellenic University",
+  "company": "International Hellenic University",
+  "company_is_current": null,
+  "location": "Thessaloniki, Greece",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Vassilis G. Kaburlasos has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A Deep Learning Approach for Precision Viticulture, Assessing Grape Maturity via YOLOv7 (2023), affiliated with International Hellenic University.",
+  "source_urls": [
+   "https://doi.org/10.3390/s23198126",
+   "https://doi.org/10.3390/agronomy12071564",
+   "https://openalex.org/A5069693309"
+  ],
+  "first_seen": "2022-06-29",
+  "last_seen": "2023-09-27",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Iliana Ilieva",
+  "role": "Published researcher, University of Food Technologies",
+  "company": "University of Food Technologies",
+  "company_is_current": null,
+  "location": "Plovdiv, Bulgaria",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Iliana Ilieva has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: From Words to Ratings: Machine Learning and NLP for Wine Reviews (2025), affiliated with University of Food Technologies.",
+  "source_urls": [
+   "https://doi.org/10.3390/beverages11030080",
+   "https://openalex.org/A5074409280"
+  ],
+  "first_seen": "2025-06-01",
+  "last_seen": "2025-06-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Karla Hanousek Čiča",
+  "role": "Published researcher, University of Zagreb",
+  "company": "University of Zagreb",
+  "company_is_current": null,
+  "location": "Zagreb, Croatia",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Karla Hanousek Čiča has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Identification of phenolic and alcoholic compounds in wine spirits and their classification by use of multivariate analysis (2019), affiliated with University of Zagreb.",
+  "source_urls": [
+   "https://doi.org/10.2298/jsc190115020h",
+   "https://openalex.org/A5013399758"
+  ],
+  "first_seen": "2019-01-01",
+  "last_seen": "2019-01-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Jasenka Gajdoš Kljusurić",
+  "role": "Published researcher, University of Zagreb",
+  "company": "University of Zagreb",
+  "company_is_current": null,
+  "location": "Zagreb, Croatia",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Jasenka Gajdoš Kljusurić has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Identification of phenolic and alcoholic compounds in wine spirits and their classification by use of multivariate analysis (2019), affiliated with University of Zagreb.",
+  "source_urls": [
+   "https://doi.org/10.2298/jsc190115020h",
+   "https://openalex.org/A5068681639"
+  ],
+  "first_seen": "2019-01-01",
+  "last_seen": "2019-01-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Claudio Fredes",
+  "role": "Published researcher, Catholic University of the Maule",
+  "company": "Catholic University of the Maule",
+  "company_is_current": null,
+  "location": "Talca, Chile",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Claudio Fredes has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: An Analysis of Seed Colour During Ripening of Cabernet Sauvignon Grapes (2017), affiliated with Catholic University of the Maule.",
+  "source_urls": [
+   "https://doi.org/10.21548/38-1-809",
+   "https://openalex.org/A5037331540"
+  ],
+  "first_seen": "2017-03-23",
+  "last_seen": "2017-03-23",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Marcos Carrasco-Benavides",
+  "role": "Published researcher, Catholic University of the Maule",
+  "company": "Catholic University of the Maule",
+  "company_is_current": null,
+  "location": "Talca, Chile",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Marcos Carrasco-Benavides has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: An Analysis of Seed Colour During Ripening of Cabernet Sauvignon Grapes (2017), affiliated with Catholic University of the Maule.",
+  "source_urls": [
+   "https://doi.org/10.21548/38-1-809",
+   "https://openalex.org/A5072606134"
+  ],
+  "first_seen": "2017-03-23",
+  "last_seen": "2017-03-23",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Liang Sun",
+  "role": "Published researcher, Agricultural Research Service",
+  "company": "Agricultural Research Service",
+  "company_is_current": null,
+  "location": "Washington, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Liang Sun has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Daily Mapping of 30 m LAI and NDVI for Grape Yield Prediction in California Vineyards (2017), affiliated with Agricultural Research Service.",
+  "source_urls": [
+   "https://doi.org/10.3390/rs9040317",
+   "https://openalex.org/A5040645630"
+  ],
+  "first_seen": "2017-03-28",
+  "last_seen": "2017-03-28",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Huixiang Liu",
+  "role": "Published researcher, University of Science and Technology Beijing",
+  "company": "University of Science and Technology Beijing",
+  "company_is_current": null,
+  "location": "Beijing, China",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Huixiang Liu has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bionic Electronic Nose Based on MOS Sensors Array and Machine Learning Algorithms Used for Wine Properties Detection (2018), affiliated with University of Science and Technology Beijing.",
+  "source_urls": [
+   "https://doi.org/10.3390/s19010045",
+   "https://openalex.org/A5056403920"
+  ],
+  "first_seen": "2018-12-22",
+  "last_seen": "2018-12-22",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Yu Gu",
+  "role": "Published researcher, Goethe University Frankfurt",
+  "company": "Goethe University Frankfurt",
+  "company_is_current": null,
+  "location": "Frankfurt am Main, Germany",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Yu Gu has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bionic Electronic Nose Based on MOS Sensors Array and Machine Learning Algorithms Used for Wine Properties Detection (2018), affiliated with Goethe University Frankfurt.",
+  "source_urls": [
+   "https://doi.org/10.3390/s19010045",
+   "https://openalex.org/A5100706697"
+  ],
+  "first_seen": "2018-12-22",
+  "last_seen": "2018-12-22",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Keshab Raj Dahal",
+  "role": "Published researcher, Truman State University",
+  "company": "Truman State University",
+  "company_is_current": null,
+  "location": "Kirksville, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Keshab Raj Dahal has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Prediction of Wine Quality Using Machine Learning Algorithms (2021), affiliated with Truman State University.",
+  "source_urls": [
+   "https://doi.org/10.4236/ojs.2021.112015",
+   "https://openalex.org/A5000890501"
+  ],
+  "first_seen": "2021-01-01",
+  "last_seen": "2021-01-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Susan Gaire",
+  "role": "Published researcher, University of America",
+  "company": "University of America",
+  "company_is_current": null,
+  "location": "Murrieta, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Susan Gaire has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Prediction of Wine Quality Using Machine Learning Algorithms (2021), affiliated with University of America.",
+  "source_urls": [
+   "https://doi.org/10.4236/ojs.2021.112015",
+   "https://openalex.org/A5013323943"
+  ],
+  "first_seen": "2021-01-01",
+  "last_seen": "2021-01-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Gianmarco Alfieri",
+  "role": "Published researcher, Università degli Studi della Tuscia",
+  "company": "Università degli Studi della Tuscia",
+  "company_is_current": null,
+  "location": "Viterbo, Italy",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Gianmarco Alfieri has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Recent Advances and Future Perspectives in the E-Nose Technologies Addressed to the Wine Industry (2024), affiliated with Università degli Studi della Tuscia.",
+  "source_urls": [
+   "https://doi.org/10.3390/s24072293",
+   "https://openalex.org/A5093243321"
+  ],
+  "first_seen": "2024-04-04",
+  "last_seen": "2024-04-04",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Andrea Bellincontro",
+  "role": "Published researcher, Università degli Studi della Tuscia",
+  "company": "Università degli Studi della Tuscia",
+  "company_is_current": null,
+  "location": "Viterbo, Italy",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Andrea Bellincontro has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Recent Advances and Future Perspectives in the E-Nose Technologies Addressed to the Wine Industry (2024), affiliated with Università degli Studi della Tuscia.",
+  "source_urls": [
+   "https://doi.org/10.3390/s24072293",
+   "https://openalex.org/A5058687795"
+  ],
+  "first_seen": "2024-04-04",
+  "last_seen": "2024-04-04",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Eftichia Badeka",
+  "role": "Published researcher, International Hellenic University",
+  "company": "International Hellenic University",
+  "company_is_current": null,
+  "location": "Thessaloniki, Greece",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Eftichia Badeka has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A Deep Learning Approach for Precision Viticulture, Assessing Grape Maturity via YOLOv7 (2023), affiliated with International Hellenic University.",
+  "source_urls": [
+   "https://doi.org/10.3390/s23198126",
+   "https://openalex.org/A5091781097"
+  ],
+  "first_seen": "2023-09-27",
+  "last_seen": "2023-09-27",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Jeffrey A. Clarin",
+  "role": "Published researcher, Aklan State University",
+  "company": "Aklan State University",
+  "company_is_current": null,
+  "location": "Kalibo Town, Philippines",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Jeffrey A. Clarin has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Comparison of the Performance of Several Regression Algorithms in Predicting the Quality of White Wine in WEKA (2022), affiliated with Aklan State University.",
+  "source_urls": [
+   "https://doi.org/10.46338/ijetae0722_03",
+   "https://openalex.org/A5066651392"
+  ],
+  "first_seen": "2022-07-04",
+  "last_seen": "2022-07-04",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Yuhao Lu",
+  "role": "Published researcher, Heilongjiang Bayi Agricultural University",
+  "company": "Heilongjiang Bayi Agricultural University",
+  "company_is_current": null,
+  "location": "Daqing, China",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Yuhao Lu has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Quantitative Detection of Key Parameters and Authenticity Verification for Beer Using Near-Infrared Spectroscopy (2025), affiliated with Heilongjiang Bayi Agricultural University.",
+  "source_urls": [
+   "https://doi.org/10.3390/foods14223936",
+   "https://openalex.org/A5070480382"
+  ],
+  "first_seen": "2025-11-17",
+  "last_seen": "2025-11-17",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Elisabeta‐Irina Geană",
+  "role": "Published researcher, National Institute for Research and Development of Isotopic and Molecular Technologies",
+  "company": "National Institute for Research and Development of Isotopic and Molecular Technologies",
+  "company_is_current": null,
+  "location": "Cluj-Napoca, Romania",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Elisabeta‐Irina Geană has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Application of Spectroscopic UV-Vis and FT-IR Screening Techniques Coupled with Multivariate Statistical Analysis for Red Wine Authentication: Varietal and Vintage Year Discrimination (2019), affiliated with National Institute for Research and Development of Isotopic and Molecular Technologies.",
+  "source_urls": [
+   "https://doi.org/10.3390/molecules24224166",
+   "https://openalex.org/A5068803974"
+  ],
+  "first_seen": "2019-11-17",
+  "last_seen": "2019-11-17",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Hong Men",
+  "role": "Published researcher, Northeast Electric Power University",
+  "company": "Northeast Electric Power University",
+  "company_is_current": null,
+  "location": "Jilin, China",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Hong Men has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Mining Feature of Data Fusion in the Classification of Beer Flavor Information Using E-Tongue and E-Nose (2017), affiliated with Northeast Electric Power University.",
+  "source_urls": [
+   "https://doi.org/10.3390/s17071656",
+   "https://openalex.org/A5017329406"
+  ],
+  "first_seen": "2017-07-19",
+  "last_seen": "2017-07-19",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Jingjing Liu",
+  "role": "Published researcher, Northeast Electric Power University",
+  "company": "Northeast Electric Power University",
+  "company_is_current": null,
+  "location": "Jilin, China",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Jingjing Liu has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Mining Feature of Data Fusion in the Classification of Beer Flavor Information Using E-Tongue and E-Nose (2017), affiliated with Northeast Electric Power University.",
+  "source_urls": [
+   "https://doi.org/10.3390/s17071656",
+   "https://openalex.org/A5100442587"
+  ],
+  "first_seen": "2017-07-19",
+  "last_seen": "2017-07-19",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Yiying Zhao",
+  "role": "Published researcher, Ministry of Agriculture and Rural Affairs",
+  "company": "Ministry of Agriculture and Rural Affairs",
+  "company_is_current": null,
+  "location": "Beijing, China",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Yiying Zhao has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Non-Destructive and Rapid Variety Discrimination and Visualization of Single Grape Seed Using Near-Infrared Hyperspectral Imaging Technique and Multivariate Analysis (2018), affiliated with Ministry of Agriculture and Rural Affairs.",
+  "source_urls": [
+   "https://doi.org/10.3390/molecules23061352",
+   "https://openalex.org/A5069517714"
+  ],
+  "first_seen": "2018-06-04",
+  "last_seen": "2018-06-04",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Yong He",
+  "role": "Published researcher, Ministry of Agriculture and Rural Affairs",
+  "company": "Ministry of Agriculture and Rural Affairs",
+  "company_is_current": null,
+  "location": "Beijing, China",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Yong He has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Non-Destructive and Rapid Variety Discrimination and Visualization of Single Grape Seed Using Near-Infrared Hyperspectral Imaging Technique and Multivariate Analysis (2018), affiliated with Ministry of Agriculture and Rural Affairs.",
+  "source_urls": [
+   "https://doi.org/10.3390/molecules23061352",
+   "https://openalex.org/A5100342968"
+  ],
+  "first_seen": "2018-06-04",
+  "last_seen": "2018-06-04",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Christopher James Hacking",
+  "role": "Published researcher, Stellenbosch University",
+  "company": "Stellenbosch University",
+  "company_is_current": null,
+  "location": "Stellenbosch, South Africa",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Christopher James Hacking has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Investigating 2-D and 3-D Proximal Remote Sensing Techniques for Vineyard Yield Estimation (2019), affiliated with Stellenbosch University.",
+  "source_urls": [
+   "https://doi.org/10.3390/s19173652",
+   "https://openalex.org/A5007846169"
+  ],
+  "first_seen": "2019-08-22",
+  "last_seen": "2019-08-22",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Carlos Poblete-Echeverría",
+  "role": "Published researcher, Stellenbosch University",
+  "company": "Stellenbosch University",
+  "company_is_current": null,
+  "location": "Stellenbosch, South Africa",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Carlos Poblete-Echeverría has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Investigating 2-D and 3-D Proximal Remote Sensing Techniques for Vineyard Yield Estimation (2019), affiliated with Stellenbosch University.",
+  "source_urls": [
+   "https://doi.org/10.3390/s19173652",
+   "https://openalex.org/A5080270032"
+  ],
+  "first_seen": "2019-08-22",
+  "last_seen": "2019-08-22",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Anna Stój",
+  "role": "Published researcher, University of Life Sciences in Lublin",
+  "company": "University of Life Sciences in Lublin",
+  "company_is_current": null,
+  "location": "Lublin, Poland",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Anna Stój has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Classification of Red Wines Produced from Zweigelt and Rondo Grape Varieties Based on the Analysis of Phenolic Compounds by UPLC-PDA-MS/MS (2020), affiliated with University of Life Sciences in Lublin.",
+  "source_urls": [
+   "https://doi.org/10.3390/molecules25061342",
+   "https://openalex.org/A5009045903"
+  ],
+  "first_seen": "2020-03-16",
+  "last_seen": "2020-03-16",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Dorota Domagała",
+  "role": "Published researcher, University of Life Sciences in Lublin",
+  "company": "University of Life Sciences in Lublin",
+  "company_is_current": null,
+  "location": "Lublin, Poland",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Dorota Domagała has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Classification of Red Wines Produced from Zweigelt and Rondo Grape Varieties Based on the Analysis of Phenolic Compounds by UPLC-PDA-MS/MS (2020), affiliated with University of Life Sciences in Lublin.",
+  "source_urls": [
+   "https://doi.org/10.3390/molecules25061342",
+   "https://openalex.org/A5062660495"
+  ],
+  "first_seen": "2020-03-16",
+  "last_seen": "2020-03-16",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Cátia Martins",
+  "role": "Published researcher, Rede de Química e Tecnologia",
+  "company": "Rede de Química e Tecnologia",
+  "company_is_current": null,
+  "location": "Porto, Portugal",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Cátia Martins has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Enlarging Knowledge on Lager Beer Volatile Metabolites Using Multidimensional Gas Chromatography (2020), affiliated with Rede de Química e Tecnologia.",
+  "source_urls": [
+   "https://doi.org/10.3390/foods9091276",
+   "https://openalex.org/A5056837913"
+  ],
+  "first_seen": "2020-09-11",
+  "last_seen": "2020-09-11",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Sı́lvia M. Rocha",
+  "role": "Published researcher, Rede de Química e Tecnologia",
+  "company": "Rede de Química e Tecnologia",
+  "company_is_current": null,
+  "location": "Porto, Portugal",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Sı́lvia M. Rocha has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Enlarging Knowledge on Lager Beer Volatile Metabolites Using Multidimensional Gas Chromatography (2020), affiliated with Rede de Química e Tecnologia.",
+  "source_urls": [
+   "https://doi.org/10.3390/foods9091276",
+   "https://openalex.org/A5063110366"
+  ],
+  "first_seen": "2020-09-11",
+  "last_seen": "2020-09-11",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Žydrūnas Stanius",
+  "role": "Published researcher, Vytautas Magnus University",
+  "company": "Vytautas Magnus University",
+  "company_is_current": null,
+  "location": "Kaunas, Lithuania",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Žydrūnas Stanius has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Analysis of the Leaves and Cones of Lithuanian Hops (Humulus lupulus L.) Varieties by Chromatographic and Spectrophotometric Methods (2022), affiliated with Vytautas Magnus University.",
+  "source_urls": [
+   "https://doi.org/10.3390/molecules27092705",
+   "https://openalex.org/A5026754331"
+  ],
+  "first_seen": "2022-04-22",
+  "last_seen": "2022-04-22",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Audrius Maruška",
+  "role": "Published researcher, Vytautas Magnus University",
+  "company": "Vytautas Magnus University",
+  "company_is_current": null,
+  "location": "Kaunas, Lithuania",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Audrius Maruška has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Analysis of the Leaves and Cones of Lithuanian Hops (Humulus lupulus L.) Varieties by Chromatographic and Spectrophotometric Methods (2022), affiliated with Vytautas Magnus University.",
+  "source_urls": [
+   "https://doi.org/10.3390/molecules27092705",
+   "https://openalex.org/A5051384569"
+  ],
+  "first_seen": "2022-04-22",
+  "last_seen": "2022-04-22",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Olatunde David Akanbi",
+  "role": "Published researcher, Case Western Reserve University",
+  "company": "Case Western Reserve University",
+  "company_is_current": null,
+  "location": "Cleveland, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Olatunde David Akanbi has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Prediction of Wine Quality: Comparing Machine Learning Models in R Programming (2022), affiliated with Case Western Reserve University.",
+  "source_urls": [
+   "https://doi.org/10.51583/ijltemas.2022.11901",
+   "https://openalex.org/A5026784770"
+  ],
+  "first_seen": "2022-01-01",
+  "last_seen": "2022-01-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Sunday Olaniyi",
+  "role": "Published researcher, Obafemi Awolowo University",
+  "company": "Obafemi Awolowo University",
+  "company_is_current": null,
+  "location": "Ile-Ife, Nigeria",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Sunday Olaniyi has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Prediction of Wine Quality: Comparing Machine Learning Models in R Programming (2022), affiliated with Obafemi Awolowo University.",
+  "source_urls": [
+   "https://doi.org/10.51583/ijltemas.2022.11901",
+   "https://openalex.org/A5032893706"
+  ],
+  "first_seen": "2022-01-01",
+  "last_seen": "2022-01-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Jiang XiangHui",
+  "role": "Published researcher, Zhejiang University of Science and Technology",
+  "company": "Zhejiang University of Science and Technology",
+  "company_is_current": null,
+  "location": "Hangzhou, China",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Jiang XiangHui has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: White Wine Quality Prediction and Analysis with Machine Learning Techniques (2023), affiliated with Zhejiang University of Science and Technology.",
+  "source_urls": [
+   "https://doi.org/10.54097/hset.v39i.6548",
+   "https://openalex.org/A5017811361"
+  ],
+  "first_seen": "2023-04-01",
+  "last_seen": "2023-04-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Dehuai Yang",
+  "role": "Published researcher, Tongji University",
+  "company": "Tongji University",
+  "company_is_current": null,
+  "location": "Shanghai, China",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Dehuai Yang has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: White Wine Quality Prediction and Analysis with Machine Learning Techniques (2023), affiliated with Tongji University.",
+  "source_urls": [
+   "https://doi.org/10.54097/hset.v39i.6548",
+   "https://openalex.org/A5035363216"
+  ],
+  "first_seen": "2023-04-01",
+  "last_seen": "2023-04-01",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Quanyue Xie",
+  "role": "Published researcher, Oregon State University",
+  "company": "Oregon State University",
+  "company_is_current": null,
+  "location": "Corvallis, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Quanyue Xie has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Machine Learning on Wine Quality: Prediction and Feature Importance Analysis (2023), affiliated with Oregon State University.",
+  "source_urls": [
+   "https://doi.org/10.54097/hset.v41i.6803",
+   "https://openalex.org/A5004077020"
+  ],
+  "first_seen": "2023-03-30",
+  "last_seen": "2023-03-30",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Jialiang Yan",
+  "role": "Published researcher, Virginia Tech",
+  "company": "Virginia Tech",
+  "company_is_current": null,
+  "location": "Blacksburg, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Jialiang Yan has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: White Wine Quality Prediction and Feature Importance Analysis Based on Chemical Composition and Machine Learning Models (2023), affiliated with Virginia Tech.",
+  "source_urls": [
+   "https://doi.org/10.54097/hset.v41i.6800",
+   "https://openalex.org/A5100860068"
+  ],
+  "first_seen": "2023-03-30",
+  "last_seen": "2023-03-30",
+  "discovered_by": "harvest:openalex"
+ },
+ {
+  "name": "Zhuo Liu",
+  "role": "Published researcher, Columbia University",
+  "company": "Columbia University",
+  "company_is_current": null,
+  "location": "New York, United States",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "peer-reviewed ai and data research",
+  "ai_maturity": "research",
+  "short_description": "Zhuo Liu has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Comparison of the red wine quality prediction accuracy using 5 Machine Learning Model (2023), affiliated with Columbia University.",
+  "source_urls": [
+   "https://doi.org/10.54097/hset.v60i.10346",
+   "https://openalex.org/A5109623457"
+  ],
+  "first_seen": "2023-07-25",
+  "last_seen": "2023-07-25",
+  "discovered_by": "harvest:openalex"
  }
 ]

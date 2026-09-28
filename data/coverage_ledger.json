@@ -75,5 +75,12 @@
   "surface": "recovery_b",
   "found": 12,
   "added": 12
+ },
+ {
+  "date": "2026-09-28",
+  "lane": "people",
+  "surface": "harvest_openalex",
+  "found": 139,
+  "added": 134
  }
 ]

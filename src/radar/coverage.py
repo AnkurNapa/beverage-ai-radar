@@ -10,6 +10,7 @@ to look for, the agents decide what is out there.
 from __future__ import annotations
 
 import json
+import re
 from collections import defaultdict
 from datetime import date
 from pathlib import Path
@@ -58,7 +59,7 @@ def frontier(companies: list[dict], people: list[dict], jobs: list[dict]) -> dic
     untracked: dict[str, dict] = {}
     for p in people:
         emp = p.get("company")
-        if emp and not _tracked_match(emp, names):
+        if emp and not _UNIVERSITY.search(emp) and not _tracked_match(emp, names):
             row = untracked.setdefault(norm_name(emp), {"name": emp, "evidence": []})
             row["evidence"].append(f"employs {p['name']}")
     for j in jobs:
@@ -139,3 +140,37 @@ def record_briefed(path: Path, lane: str, surface: str, items: list[str], today:
     rows = _rows(path)
     rows.append({"date": today, "lane": lane, "surface": surface, "items": items})
     path.write_text(json.dumps(rows, indent=1) + "\n")
+
+
+# Universities are where published researchers work, not companies for the radar
+# (research institutes are, so they stay). Keeps the author harvest from flooding
+# the company frontier with every faculty on every paper.
+_UNIVERSITY = re.compile(r"universit|college|school|polytechnic|politecnico|hochschule", re.I)
+# Universities and institutes employ people worth tracking but never buy services.
+_ACADEMIC = re.compile(
+    r"universit|institut|college|school|academy|research cent|icar|csiro|inrae|cnrs", re.I
+)
+
+
+def prospect_frontier(prospects: list[dict], people: list[dict], jobs: list[dict]) -> list[dict]:
+    """Employers the public lanes know about that the private prospect list does not.
+
+    A beverage employer advertising a data role is the strongest buying signal the
+    radar sees, so hiring rows sort first. Output stays out of anything public:
+    the caller writes it only under .prospects/.
+    """
+    known = [p.get("company") or "" for p in prospects]
+    out: dict[str, dict] = {}
+
+    def add(name, evidence, hiring=False):
+        if not name or _ACADEMIC.search(name) or _tracked_match(name, known):
+            return
+        row = out.setdefault(norm_name(name), {"name": name, "evidence": [], "hiring": False})
+        row["evidence"].append(evidence)
+        row["hiring"] |= hiring
+
+    for j in jobs:
+        add(j.get("company"), f"hiring: {j.get('title')} {j.get('url') or ''}".strip(), hiring=True)
+    for p in people:
+        add(p.get("company"), f"employs {p['name']}")
+    return sorted(out.values(), key=lambda r: (not r["hiring"], -len(r["evidence"]), r["name"]))

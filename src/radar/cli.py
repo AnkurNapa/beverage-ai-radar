@@ -141,6 +141,13 @@ def _coverage(args) -> int:
     jobs = _json.loads(jobs_path.read_text()) if jobs_path.exists() else []
     front = cov.frontier(companies, people, jobs)
     today = date.today().isoformat()
+    # Prospects are private: read from the gitignored list, reported to the
+    # terminal, briefed and logged only under .prospects/. Never the public ledger.
+    root = config.SEED_PATH.parent.parent
+    p_path = config.DASHBOARD_DIR / "prospects.json"
+    prospects = _json.loads(p_path.read_text()) if p_path.exists() else None
+    p_ledger = root / ".prospects" / "coverage_ledger.json"
+    p_front = cov.prospect_frontier(prospects, people, jobs) if prospects is not None else []
 
     if args.cmd == "coverage":
         grid = cov.country_grid(companies, people, jobs)
@@ -152,6 +159,12 @@ def _coverage(args) -> int:
         print(
             f"employers named by people or jobs but not tracked: {len(front['untracked_employers'])}"
         )
+        if prospects is not None:
+            hiring = sum(1 for r in p_front if r["hiring"])
+            print(
+                f"prospects (private): {len(prospects)} tracked; {len(p_front)} employers "
+                f"known to the public lanes are not prospects yet, {hiring} of them hiring data roles"
+            )
         for (lane, surface), r in sorted(cov.last_sweeps(config.LEDGER_PATH).items()):
             print(
                 f"  last {lane}/{surface}: {r['date']} found {r.get('found', '-')} added {r.get('added', '-')}"
@@ -196,6 +209,31 @@ def _coverage(args) -> int:
             config.LEDGER_PATH, "frontier", "frontier_companies", [r["name"] for r in chunk], today
         )
         written.append(path)
+    if p_front:
+        from radar.prospects.briefs import render_brief as render_prospect_brief
+
+        p_skip = cov.recently_briefed(p_ledger, today, args.skip_days)
+        chunk = [r for r in p_front if r["name"] not in p_skip][: args.chunk]
+        if chunk:
+            surface = {
+                "id": "frontier_prospects",
+                "title": "Frontier: beverage employers the public lanes found",
+                "regions": ["Global"],
+                "scope": "Each employer below is hiring for a data role or employs someone on the "
+                "public radar, but is not on the prospect list. Judge each against the tiers; "
+                "vendors of beverage AI belong on the public radar, not here.\n\n"
+                + "\n".join(
+                    f"- {r['name']}{' [HIRING]' if r['hiring'] else ''} ({'; '.join(r['evidence'][:3])})"
+                    for r in chunk
+                ),
+            }
+            (root / ".prospects" / "briefs").mkdir(parents=True, exist_ok=True)
+            written.append(
+                render_prospect_brief(surface, prospects, root / ".prospects" / "briefs", today)
+            )
+            cov.record_briefed(
+                p_ledger, "prospects", "frontier_prospects", [r["name"] for r in chunk], today
+            )
     print(f"{len(todo_people)} companies need people, {len(todo_orgs)} employers need a check")
     for p in written:
         print(f"  {p}")

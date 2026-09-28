@@ -68,3 +68,24 @@ def test_briefed_items_are_skipped_until_the_window_passes(tmp_path):
     record_briefed(path, "frontier", "people_1", ["Brauerei A"], today="2026-09-01")
     assert recently_briefed(path, "2026-09-28", days=60) == {"Brauerei A"}
     assert recently_briefed(path, "2026-12-01", days=60) == set()
+
+
+def test_prospect_frontier_lists_hiring_and_employing_operators_not_yet_prospects():
+    from radar.coverage import prospect_frontier
+
+    prospects = [{"company": "Known Brewery Ltd"}]
+    jobs = [
+        {"company": "Known Brewery", "title": "Data Analyst", "url": "https://j/1"},
+        {"company": "New Winery", "title": "BI Lead", "url": "https://j/2"},
+    ]
+    people = [
+        {"name": "A", "company": "New Winery"},
+        {"name": "B", "company": "Stellenbosch University"},
+    ]
+    [row] = prospect_frontier(prospects, people, jobs)
+    assert row["name"] == "New Winery" and row["hiring"] is True and len(row["evidence"]) == 2
+
+
+def test_universities_are_not_company_frontier_items():
+    f = frontier([], people=[{"name": "R", "company": "University of Adelaide"}], jobs=[])
+    assert f["untracked_employers"] == []

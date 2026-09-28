@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-09-28. 1158 active, 35 dormant.
+Snapshot: 2026-09-28. 1171 active, 156 dormant.
 
 ## Active companies
 
@@ -76,6 +76,7 @@ Snapshot: 2026-09-28. 1158 active, 35 dormant.
 - **Andavi Solutions (GreatVines)** (multiple, sales execution and trade promotion analytics). Andavi Solutions sells a sales execution platform for beverage alcohol suppliers and distributors, covering CRM, trade promotion management, planogram compliance, pricing and analytics, marketed as powered by AI with an AI-powered billback management module. Named customers include Diageo, Heineken, William Grant and Sons and Pabst. The GreatVines CRM is its beverage alcohol sales management product.
 - **Anderson-Negele (Negele Messtechnik GmbH)** (beer, none claimed, hygienic process instrumentation). Anderson-Negele makes hygienic process instrumentation for dairy, food, beverage, pharma and life sciences, under a Hygienic by Design philosophy aligned to EHEDG, FDA and 3-A standards. Its sensors for temperature, level, flow, pressure, conductivity and turbidity are the measurement layer feeding brewery and beverage plant control systems, and the German entity Negele Messtechnik exhibits at BrauBeviale. It is a sensor vendor: the site makes no AI or machine-learning claim.
 - **Andrea Diebold** (beer, ai analytics products for brewing operations and sales). Head of Global Analytics Products at Heineken, quoted in the company's 'Brewing with AI' newsroom piece on integrating AI products into operations. Her stated goal is that AI tools are seamlessly integrated into operations and widely adopted by end users. People: Andrea Diebold (Head of Global Analytics Products, HEINEKEN).
+- **Andrew J. Kondash** (beer, peer-reviewed ai and data research). Andrew J. Kondash has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Hold My Beer: The Linkage between Municipal Water and Brewing Location on PFAS in Popular Beverages (2025), affiliated with RTI International. People: Andrew J. Kondash (Published researcher, RTI International).
 - **Andy Edmonds** (wine, vineyard yield, risk and irrigation forecasting). Chief Technical Officer on Terraview's current management team page. Terraview, merged with Gamaya, builds satellite and agronomic modelling software for vineyard yield, risk and irrigation decisions. Listed as CTO of the technology company itself, so the AI work is his function rather than a separately documented personal project. People: Andy Edmonds (CTO, Terraview).
 - **Angel Yeast Co., Ltd** (multiple, none (yeast and fermentation nutrient supply)). Angel Yeast is one of the largest yeast and yeast-derivative producers in the world, listed in Shanghai since 2000, and runs an Alcoholic Beverages and Biofuels business alongside baking, yeast extract, animal nutrition and enzymes. It publishes brewing solutions and fermentation nutrient literature and exhibited beverage fermentation products at Drinktec 2025, which puts it in the same raw-material layer as Lallemand, Fermentis and Lesaffre. Reading its English site and full sitemap, Angel Yeast makes no machine learning, genomics-prediction or predictive-sensory claim for its brewing or distilling strains; the only AI on the site is a customer-service chat assistant widget. Tracked as the major Chinese entry in the yeast supply layer, with no AI claim.
 - **Angela D'Orazio** (whiskey, ai-generated whisky recipes curated by master blender). Master blender at Swedish distillery Mackmyra, which launched Intelligens in 2019, described as the first whisky created with AI. A Fourkind model on Microsoft Azure generated recipe combinations from Mackmyra's recipes and cask data, and D'Orazio curated the output round by round before selecting recipe No. 36. Her current role is not confirmed. People: Angela D'Orazio (Master blender and chief nose officer, Mackmyra (as of 2019-2021)).
@@ -148,6 +149,7 @@ Snapshot: 2026-09-28. 1158 active, 35 dormant.
 - **Ben Walker** (beer, ai-powered data governance and business intelligence). Ben Walker is Data Director at Lion, the Australian and New Zealand brewer. In November 2024 he led Lion's selection of Informatica's AI-powered Intelligent Data Management Cloud to implement data governance and data-driven business intelligence. People: Ben Walker (Data Director, Lion).
 - **beON consult GmbH** (beer, IT, data, and AI consultancy for breweries). beON consult is an IT consultancy focused on IT, data, and AI for breweries and brewery groups. It helps brewers connect and evolve digital brewing processes across the full IT lifecycle.
 - **Berkeley Yeast** (multiple, synthetic biology strain engineering for flavour, no machine learning claim). Berkeley Yeast is a UC Berkeley spinout that uses synthetic biology to engineer brewing and wine yeast strains, selling FRESH low diacetyl strains, TROPICS and SUPERBLOOM thiol releasing strains for hop-like aroma, SUMMERSTONE, the GALACTIC souring strain and non-alcoholic beer strains in dry and liquid formats. It was co-founded by Charles Denby, Nick Harris and Rachel Li with UC Berkeley professor Jay Keasling as key inventor, and is funded by NSF, NIH and USDA grants plus venture capital. Its own website makes no machine learning claim: the AI angle in press coverage belongs to a separate Lawrence Berkeley National Laboratory project using the ART Bayesian recommendation tool to tune hop-flavour metabolite production, which does not name the company. Included as the flagship engineered-strain supplier on the ingredient layer, with the AI claim explicitly not attributed to it. People: Charles Denby (Co-founder), Nick Harris (Co-founder), Rachel Li (Co-founder).
+- **Berta C. Gonçalves** (whiskey, peer-reviewed ai and data research). Berta C. Gonçalves has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: From Volatile Profiling to Sensory Prediction: Recent Advances in Wine Aroma Modeling Using Chemometrics and Sensor Technologies (2025), affiliated with University of Trás-os-Montes and Alto Douro. People: Berta C. Gonçalves (Published researcher, University of Trás-os-Montes and Alto Douro).
 - **Bertsch Holding** (beer, no ai claim; brewhouse and process plant engineering). Bertsch Holding is an Austrian industrial group in Bludenz, Vorarlberg, founded in 1925, whose BERTSCHfoodtec division builds process plant and brewhouse systems for the food and beverage industry alongside energy and apparatus engineering. Verified via a browser pass after the site returned 403 to every non-browser client. No digital, control-software or machine-learning product is claimed on its public site; recorded as the plant engineering layer.
 - **Bestowal Systems and Services** (wine, vineyard yield forecasting and winery supply planning). Bestowal Systems and Services is an Indian SAP supply chain consultancy specialising in SAP IBP, SAP Digital Manufacturing, SAP Analytics Cloud and BTP. In February 2026 it published a vineyard to bottle blueprint for vertically integrated wineries combining SAP IBP for grape yield forecasting and harvest planning, SAP Digital Manufacturing for fermentation, blending and bottling execution, and Industry 4.0 sensing via IoT soil and tank probes plus drone and satellite imagery, with AI models proposed for yield variation, vintage quality and optimal harvest window. It is presented as a solution architecture rather than a named live winery deployment, so treat the AI as designed, not proven in production. People: Suryakant Baranwal (Founder and CEO).
 - **Bevchek** (beer, draft beverage flow telemetry and pour-to-sale variance reconciliation). Bevchek sells flow sensors and a cloud platform that meter every ounce of draft beer, wine and cocktail poured in bars, taprooms, stadiums and chain venues, then reconcile pour data against POS sales nightly to expose variance, overpour and waste. It integrates with over 150 POS systems including Oracle MICROS, and adds temperature, pressure and foam alerts plus live keg depletion tracking. The company states it has metered over 17 billion pints across 21 countries. Bevchek makes no machine-learning claim on its own site: the product is sensor telemetry plus rule-based reconciliation and alerting, and the word AI appears only in a partner press release headline, not in any described capability.
@@ -427,6 +429,7 @@ Snapshot: 2026-09-28. 1158 active, 35 dormant.
 - **FermentIQ** (multiple, brewery management with fermentation forecasting and voice assistant). All in one production and business management platform for craft breweries, microbreweries, distilleries, cideries, meaderies, kombucha and coffee producers. Covers batch tracking, inventory, CRM, compliance and QC. The AI layer is a voice assistant called BrewBuddy for hands free logging, AI assisted recipe generation, AI trend analysis in quality control, and demand forecasting. The site names no models or technical detail behind the forecasting claims, so the depth of the machine learning is unverified. Publicly priced from 30 US dollars per month for homebrewers up to 1,200 US dollars per month enterprise, which indicates a live product rather than a concept.
 - **Fermentis** (multiple, machine learning prediction of yeast contribution to beer aroma). Fermentis is the beverage fermentation arm of Lesaffre, selling active dry yeasts, bacteria and fermentation aids to brewers, winemakers, distillers, cider makers and mead makers under the SafBrew, SafOeno and SafSpirit lines. Its own corporate news reports a Sensory Machine Learning project run by Fermentis Academy with Lesaffre Group R&D that trained models on analytical and sensory datasets to explore and predict how yeast strains shape the aromatic profiles of beer, and which won an award at Lesaffre's first Digital, Data and Tech awards. The work is presented as an internal R&D project rather than a product brewers can buy today. People: Gabriela Montandon (Global R&D Manager).
 - **Fermly** (beer, subscription brewery QA/QC lab with a batch data platform). Fermly is a TTB certified craft beer QA/QC laboratory that ships monthly subscription sample boxes and returns results into a cloud data portal, covering ABV, pH, dissolved oxygen, bitterness and microbial contamination. Its lab data feeds brewery management systems: it has an integration with Beer30 from The 5th Ingredient so lab metrics sit alongside production and cost data. Fermly makes no AI or machine learning claim; it is a testing service plus a data platform. People: Frances Tietje-Wang (Founder, TTB certified brewing chemist), Danny Wang (Co-Founder, Information Architect).
+- **Fernanda Cosme** (whiskey, peer-reviewed ai and data research). Fernanda Cosme has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: From Volatile Profiling to Sensory Prediction: Recent Advances in Wine Aroma Modeling Using Chemometrics and Sensor Technologies (2025), affiliated with University of Trás-os-Montes and Alto Douro. People: Fernanda Cosme (Published researcher, University of Trás-os-Montes and Alto Douro).
 - **Fernando Fuentes-Penailillo** (wine, iot and sensor networks for wine grape irrigation). Fernando Fuentes-Penailillo is a researcher at Universidad de Talca working on agricultural automation and low-cost sensing. He is lead author of a 2023 Sensors paper on a smart crop water stress index IoT system for precision irrigation of wine grapes, and of a 2023 paper on a low-cost wireless sensor network to monitor vine flowering. People: Fernando Fuentes-Penailillo (Researcher, Instituto de Investigacion Interdisciplinaria (I3), Universidad de Talca).
 - **Figura Analytics** (multiple, particle fingerprinting of drinks samples with machine learning shape analysis). Figura Analytics is a Loughborough University spinout that built a patented nanopore flowcell using resistive pulse sensing to count and characterise every particle in a liquid sample in minutes, producing a fingerprint of what a normal sample should look like. Shape software is then applied to flag potential contaminants. Drinks analysis is one of its named target markets alongside healthcare, and co-founder Rhush Maugi is described as driving the software development and machine learning platform. Backed by SFC Capital, Innovate UK and angel investors since the January 2021 spinout. It exhibited at drinktec. People: Nick Whitehurst (CEO), Mark Platt (Co-founder), Rhush Maugi (Co-founder, software and machine learning).
 - **FILTEC** (beer, inline container and fill level inspection). FILTEC supplies inline container inspection for glass, PET and can filling lines, covering empty container inspection, fill level verification, closure and pressure checks, foreign object detection and label inspection, using machine vision, photon, thermal and X-ray sensing. Its INTELLECT platform is the data layer: a touchscreen station that tracks, monitors and reports container quality through each packaging step and stores operator events and diagnostics in a database. There is no AI or machine learning claim on the product pages; INTELLECT is quality reporting, not prediction. FILTEC serves breweries and cideries and is part of the Kestrel Vision group alongside Pressco.
@@ -517,6 +520,7 @@ Snapshot: 2026-09-28. 1158 active, 35 dormant.
 - **IGS Ingenieurbuero fuer Energie- und Umwelttechnik** (beer, brewery energy and water benchmarking club). IGS is a German engineering practice specialising in energy and environmental technology for the brewing and food industries. Since 1993 it has run the Betriebevergleich Energie fuer Brauereien (BVE), a brewery energy benchmark created jointly with the Bayerischer Brauerbund, in which participating breweries submit heat, electricity and water demand and cost figures and receive their position against industry averages and best values drawn from the pooled data set, segmented by plant size class and with year-on-year comparison. Around 1,200 participations have been recorded and many breweries take part annually, which keeps the statistic current; IGS also offers fixed-price Scope 1 and 2 carbon footprinting for breweries. No AI or machine learning claim is made anywhere on the site. People: Dr. Georg Schu (Founder and Owner), Matthias Kern (Managing Partner).
 - **iGulu (AlBrew Corp)** (beer, automated brewing control with app and cloud recipe platform). Shanghai company selling smart all in one brewing machines together with recipe and ingredient kits, in two lines: Pro Brewing M and N series for restaurants, bars, hotels and event venues, and home units sold internationally as iGulu F1 and S1. Its own description of the product system is smart device plus multiple recipes plus an app cloud platform, with patents around the device structure, control system and brewing flow. Products were recognised at CES, CES Asia and IFA in 2017. No machine learning claim is made: the intelligence described is automated process control and app connectivity.
 - **Ilai Englard** (wine, grape yield, quality and harvest timing prediction). Israeli founder of Trellis, an AI company that helps wineries with growing, harvesting, winemaking and marketing decisions, reported in 2022 as working with Gallo. In 2021 Pernod Ricard Winemakers selected Trellis to predict grape yield, quality, harvest timing and procurement cost across Australia and New Zealand. Current status not confirmed after 2022. People: Ilai Englard (Founder, Trellis).
+- **Iliana Ilieva** (wine, peer-reviewed ai and data research). Iliana Ilieva has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: From Words to Ratings: Machine Learning and NLP for Wine Reviews (2025), affiliated with University of Food Technologies. People: Iliana Ilieva (Published researcher, University of Food Technologies).
 - **IMDvista (IMD AG)** (multiple, vision inspection of bottles, closures and preforms). Swiss vision inspection company building inline systems for beverage closures, preforms, bottles and barrier coatings, sold into drinks packaging lines. Its V5 inspection software includes reflection suppression, an automatic setup wizard and a component the company calls Neuron artificial intelligence, which it says allows a complete bottle to be inspected while virtually eliminating false rejects. The AI claim is specific to defect classification in the vision stack, not to the rest of the product line.
 - **Impact Databank** (multiple, no substantiated ai claim). Impact Databank, part of M. Shanken Communications, publishes the wine and spirits industry's long running Review and Forecast reports covering consumption trends, brand depletions, advertising spend, pricing and retail sales analysis, state by state consumption and top wholesalers. Its 2026 edition carries 2026 estimates and projections to 2030 for both the wine and spirits markets. The reports explicitly incorporate IRI and NIQ scan data alongside Impact's own brand depletion estimates, which makes it the standard reconciliation source for US wine and spirits brand volumes. It makes no AI or machine learning claim.
 - **Improvin'** (beer, farm level barley supply chain emissions modelling). Improvin' builds farm level data infrastructure for agri-food supply chains: collecting, standardising and modelling grower data so processors can track sourcing and emissions. Its beverage relevance is the malting barley layer. Viking Malt is a named customer and runs the platform across more than 1200 European barley farmers, and Viking Malt describes it on its own site as an AI-driven platform for measuring and reducing the carbon footprint of its malting barley. Improvin's own site makes no explicit AI or machine learning claim, referring only to multi-source modeled data, so the AI framing here is the customer's word, not the vendor's.
@@ -566,6 +570,7 @@ Snapshot: 2026-09-28. 1158 active, 35 dormant.
 - **Jayantrao D. Mohite** (wine, Multispectral and hyperspectral deep learning for grape sugar, freshness and pesticide residue). Co-author of TCS Research papers predicting grape sugar levels and freshness from multispectral imaging with deep learning (IGARSS 2024) and detecting pesticide residue on grapes with hyperspectral sensing alongside ICAR-NRCG scientists. People: [Jayantrao D. Mohite](https://www.linkedin.com/in/jayant-mohite-3667386b/) (Scientist, Geospatial AI-ML, TCS Research (per LinkedIn headline)).
 - **Jean Rovani** (wine, computer vision for plant level vineyard and crop monitoring). Leads AI engineering at Bloomfield Robotics, whose imaging platform produces plant level health and performance insights for vineyards and other specialty crops. Listed on the company's current team page. People: [Jean Rovani](https://www.linkedin.com/in/jean-rovani-a7a34b339) (Director of AI Engineering, Bloomfield Robotics).
 - **Jelle van Etten** (beer, global data platform and data shared service). Head of Global Data at Heineken, interviewed by diginomica in July 2025 on the data modernisation and global shared service model for data he has led. Earlier, as head of global data platform, he led the B1 Analytics Enablement Platform on AWS, ingesting data from around 50 SAP environments. People: Jelle van Etten (Head of Global Data, HEINEKEN).
+- **Jennifer Hoponick Redmon** (beer, peer-reviewed ai and data research). Jennifer Hoponick Redmon has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Hold My Beer: The Linkage between Municipal Water and Brewing Location on PFAS in Popular Beverages (2025), affiliated with RTI International. People: Jennifer Hoponick Redmon (Published researcher, RTI International).
 - **Jitka Kumhalova** (beer, uav multispectral hop yield and alpha acid prediction). Researcher at the Czech University of Life Sciences Prague and co-author, with the Hop Research Institute Zatec, of a 2025 Remote Sensing study using four years of UAV multispectral imagery to predict hop yield and alpha acid content. The study found vegetation indices explain up to 61% of hop yield variation. People: Jitka Kumhalova (Researcher, Faculty of Engineering, Czech University of Life Sciences Prague).
 - **Jochen Forster** (beer, sensor and ai flavour fingerprinting of beer). Originator of Carlsberg's Beer Fingerprinting Project, announced in 2017 as Director and Professor Yeast Fermentation at the Carlsberg Research Laboratory. The project combined sensors from Aarhus University and DTU with Microsoft AI and machine learning to build a flavour fingerprint of beer samples and predict the taste of new beers. His current role is not confirmed. People: Jochen Forster (Director and Professor Yeast Fermentation, Carlsberg Research Laboratory (as of 2017)).
 - **Jochen Vestner** (wine, digitalisation and ai in winemaking). Took over the professorship of oenology at Hochschule Geisenheim on 1 August 2026, after leading wine aroma research at DLR Rheinpfalz. He aims to connect digitalisation, artificial intelligence and process automation with winemaking research and practice. People: Jochen Vestner (Professor of Oenology, Hochschule Geisenheim University).
@@ -656,16 +661,20 @@ Snapshot: 2026-09-28. 1158 active, 35 dormant.
 - **MakeItDEX (Link Technology Group)** (multiple, no ai claim, dex direct store delivery data exchange). Link Technology Group builds MakeItDEX, an iOS and Android SDK, cloud service and store simulator for DEX, the electronic invoice exchange standard used at retail receiving doors in direct store delivery, which is how most US beer and beverage wholesalers deliver. It replaces the legacy Honeywell Intermec DEX Storefront for certification testing and ships a B1DEX hardware adapter for cable free connection. The company claims real time data analytics dashboards but makes no artificial intelligence or machine learning claim. Exhibiting at the NBWA 89th Annual Convention Product Showcase, October 2026.
 - **MaltIQ** (whiskey, computer-vision bottle identification and recommendation for whisky collectors). MaltIQ is a consumer whisky app that identifies bottles from a phone camera and makes personalised recommendations. The vendor's own site describes an AI Sommelier that returns recommendations from a stated preference profile and a Smart Scanner using computer vision for instant bottle identification with details and tasting notes, alongside collection tracking and investment tools. Distributed on the Apple App Store and Google Play with a seven-day trial; developer named as Petr Kursin. Headquarters and founding year are not stated by the vendor.
 - **Mamselle Torres** (beer, corporate venturing for ai, iot and data analytics pilots). Mamselle Torres has been quoted as BeerTech and Innovation Director (also Tech Innovation Director) at AB InBev MAZ, leading Levadura de Ideas, the zone's corporate venturing platform. The platform identifies and tests projects using artificial intelligence, IoT, machine learning, cloud and data analytics across procurement, production, packaging and logistics. The sources date from 2023, so her current role is unconfirmed. People: Mamselle Torres (BeerTech and Innovation Director, AB InBev Middle Americas Zone).
+- **Marco Canicattì** (wine, peer-reviewed ai and data research). Marco Canicattì has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bayesian yield mapping and uncertainty analysis in vineyards using remote sensing data and grape harvester tracking (2025), affiliated with University of Palermo. People: Marco Canicattì (Published researcher, University of Palermo).
 - **Margin** (multiple, AI for beer, wine and liquor store retail operations: invoice receiving from a phone photo, and AI-generated purchase orders that predict demand across thousands of SKUs to cut deadstock.). Y Combinator S23 POS and operating system for beer, wine and liquor retailers, built by liquor store owners.
 - **Maria Paz Diago** (wine, computer vision yield and cluster assessment). Profesora Titular at the University of La Rioja in the Televitis precision viticulture group, where she leads spectral data analysis and modelling. Co-author of machine learning and computer vision work on early grape yield prediction and non-invasive cluster compactness assessment. People: Maria Paz Diago (Associate Professor, University of La Rioja (Televitis)).
+- **Mariangela Vallone** (wine, peer-reviewed ai and data research). Mariangela Vallone has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages. Most recent: Bayesian yield mapping and uncertainty analysis in vineyards using remote sensing data and grape harvester tracking (2025), affiliated with University of Palermo. People: Mariangela Vallone (Published researcher, University of Palermo).
 - **Mario Elias M. Vieira** (beer, enterprise ai strategy and analytics at a brewer). Mario Elias M. Vieira is Director of Data & Analytics at Ambev Tech and spoke at TDC Summit Sao Paulo 2026 on how Ambev uses AI to scale the business of the world's largest brewer. In a 2022 interview he was Analytics Manager for Supply Chain & Capabilities at Ambev, describing analytics training programmes and AI-powered chatbots for internal learning. People: [Mario Elias M. Vieira](https://www.linkedin.com/in/mario-elias-m-vieira/) (Director of Data & Analytics, Ambev Tech).
 - **MarshallAI** (beer, deep learning machine vision for production line quality assurance). MarshallAI is a deep learning computer vision platform that runs on any camera or sensor and integrates with MES, SCADA and ERP systems. In manufacturing it does automated optical inspection for defect detection, assembly verification, and OCR of barcodes and expiry or batch codes, with the site showing AI-powered OCR read from an aluminium can. It exhibited at BrauBeviale Nuremberg, which is where it enters the beverage landscape. Bittium invested in the company in 2017. People: Marcus Nordstrom (CEO), Tomi Niittumaki (CTO).
 - **Marta Ladanyi** (wine, wine origin and variety classification from nmr data). Applied statistician at the Hungarian University of Agriculture and Life Sciences and co-author, with the Institute of Viticulture and Oenology, of a study applying machine learning to 1H NMR spectra of 861 Hungarian wines to separate grape variety and wine region effects. People: Marta Ladanyi (Researcher, Department of Applied Statistics, Hungarian University of Agriculture and Life Sciences).
 - **Marta Sidorkiewicz** (wine, ai adoption in viticulture, winemaking and enotourism). Lead author of a 2025 study on AI-driven management in viticulture, wine production and enotourism, based on a survey of 75 Polish wineries. The paper covers predictive analytics, machine learning and computer vision for vineyards and wineries and finds most Polish winemakers do not yet use AI. People: Marta Sidorkiewicz (Researcher, Institute of Management, University of Szczecin).
 - **Martin McCoustra** (whiskey, cask spectroscopy for maturation modelling). Heriot-Watt professor who coordinated the cross-disciplinary team on the 2023 Diageo whisky maturation project, using imaging and spectroscopy of barrels to feed a machine learning tool predicting maturation outcomes. People: Martin McCoustra (Professor, Heriot-Watt University).
+- **Marzia Ingrassia** (multiple, peer-reviewed ai and data research). Marzia Ingrassia has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: How will artificial intelligence drive marketing in the beverage industry? - A bibliometric literature review (2025), affiliated with University of Palermo. People: Marzia Ingrassia (Published researcher, University of Palermo).
 - **Maselli Misure S.p.A.** (multiple, inline and laboratory beverage analysers). Maselli Misure builds inline and laboratory analysers for the beverage industry, with product families dedicated to beer (Brix, alcohol, CO2 and oxygen analysers) and to wine (maturation, receiving area and fermentation process analysers), plus refractometers and spectrophotometers. It exhibited at both BrauBeviale and drinktec under measurement data acquisition and IT solutions for production control. The company is a measurement instrument maker and makes no AI or machine learning claim; it matters here as a source of inline process data in beer and wine plants.
 - **Masitek Instruments Inc.** (multiple, instrumented container sensors for bottling line analytics). Masitek makes smart in-line sensor products (ShockQC, VerticalQC, PressureQC+Scuff) shaped like real containers that travel a filling line and record impact, pressure and scuffing so producers can find where breakage and damage originate. It runs dedicated beer, wine and alcohol and spirits industry lines and names Carlsberg, Heineken and O-I Glass among its customers, stating the top four breweries globally deploy its sensors. It exhibited at drinktec 2025 under digital solutions and inspection. The output is measurement and diagnostic analytics; no machine learning claim is made.
 - **Mason Earles** (wine, computer vision vineyard yield estimation and disease detection). UC Davis assistant professor applying machine learning and computer vision to vineyards, including ATV-mounted systems that estimate yield in real time and work on detecting leaf reddening in wine grapes. He is a cofounder of the AI farm management platform Scout, which counts and measures grape clusters to forecast yield, and previously worked as a data science engineer at Apple. He is also listed in AIFS leadership. People: Mason Earles (Assistant Professor, Viticulture and Enology and Biological and Agricultural Engineering, UC Davis).
+- **Massimo Vincenzo Ferro** (wine, peer-reviewed ai and data research). Massimo Vincenzo Ferro has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bayesian yield mapping and uncertainty analysis in vineyards using remote sensing data and grape harvester tracking (2025), affiliated with University of Palermo. People: Massimo Vincenzo Ferro (Published researcher, University of Palermo).
 - **MasterDistiller** (whiskey, unspecified use case). MasterDistiller is an end to end distillery management system for whisky, rum, gin and kombucha producers, bottlers and warehouse keepers. It is built as a custom application layer on the open source Odoo ERP platform, so distillery-specific apps for production and distillation, maturation and warehousing, vatting and bottling and a grain to glass provenance journey sit alongside Odoo inventory, manufacturing, purchase, sales and accounting. It sells on integration, traceability and regulatory reporting rather than analytics, and makes no AI or machine learning claim anywhere on its site.
 - **Matic Serc** (wine, iot vineyard data and disease spray advice). Founded eVineyard in Gornja Radgona, Slovenia in 2014, vineyard management software that combines in-vineyard IoT microclimate data with analysis and advice for on-time spraying and irrigation. eVineyard serves about 100 organisations and 1300 vineyards and was later acquired by vintrace, so his current role may have changed. People: Matic Serc (Founder and CEO, eVineyard (Elmibit)).
 - **Matrix Technologies** (multiple, wine and spirits plant engineering with historian and oee, no ai claim). Multidiscipline engineering and automation consultancy, a founding member of the Control System Integrators Association, that runs a dedicated Wine and Distilled Spirits practice alongside food and beverage. The practice covers distillery planning, fermentation, batching and blending, continuous column and pot still distillation, mass balancing and filling line design, plus automation deliverables that explicitly include historian and trending, PLC and HMI development and line efficiency and OEE tracking. Its Manufacturing Intelligence page uses predictive analytics and algorithmic learning language generically, but no machine learning is claimed for any wine or spirits project and its drinks testimonials are anonymised.
@@ -779,6 +788,8 @@ Snapshot: 2026-09-28. 1158 active, 35 dormant.
 - **PhoenixBev (Phoenix Beverages)** (beer, power bi reporting on dynamics 365 business central). PhoenixBev Ltd is the leading beverage company in Mauritius and the country's largest brewery, listed on the Stock Exchange of Mauritius, with over 1,200 staff, three production plants and beer brands Phoenix, Manawa, Guinness and Stella alongside the Coca-Cola bottling franchise. It acquired a majority stake in Seychelles Breweries from Diageo, giving it a regional footprint. Its corporate pages make no AI claim at all: the only published evidence of a data capability is its own recruitment, a Digital Transformation team hiring a Power BI report developer to model data out of Microsoft Dynamics 365 Business Central, sales, production, supply chain and finance, and a Manager Data and AI role scoped to build BI, data engineering and AI/ML initiatives from ideation to production. That is a hiring intention, not a shipped system, so this is recorded as a plain BI operator with no AI claim.
 - **Phytech** (wine, ai based irrigation and vine stress recommendations). Phytech runs an IoT platform combining plant based sensors, in field irrigation hardware and satellite imagery, and states plainly that it delivers AI based agronomic recommendations that can be executed automatically. It is listed as a supplier in the Wine Industry Network directory and publishes vineyard case studies, including Gorton Drive Estates in the Swan Hill region of Victoria, Australia. The company reports over 1000 grower customers across wine grapes and other permanent crops. The AI is a recommendation engine over sensor and irrigation telemetry, not a claim about generative models.
 - **Pierre-Yves Calloc'h** (whiskey, sales force recommendations and marketing mix optimisation). Global Chief Digital Officer at Pernod Ricard, interviewed by CDO Magazine in July 2025 on the group's AI strategy. He launched Pernod Ricard's data and AI programme and describes use cases in field sales recommendations, marketing mix, pricing and promotion optimisation and brand placement in outlets. People: Pierre-Yves Calloc'h (Global Chief Digital Officer, Pernod Ricard).
+- **Pietro Catania** (wine, peer-reviewed ai and data research). Pietro Catania has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bayesian yield mapping and uncertainty analysis in vineyards using remote sensing data and grape harvester tracking (2025), affiliated with University of Palermo. People: Pietro Catania (Published researcher, University of Palermo).
+- **Pietro Chinnici** (multiple, peer-reviewed ai and data research). Pietro Chinnici has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: How will artificial intelligence drive marketing in the beverage industry? - A bibliometric literature review (2025), affiliated with University of Palermo. People: Pietro Chinnici (Published researcher, University of Palermo).
 - **Pinpointed** (multiple, conversational ai sommelier for drinks retailers). Pinpointed sells an AI Sommelier that wine, beer and spirits retailers install on their own storefronts. It connects to the retailer's live product catalogue, inventory and store information, then answers shopper questions in natural language and narrows a large catalogue down to specific in-stock bottles by food pairing, occasion, gift, budget or preference; a voice version and an analytics layer with click-through and conversion tracking are also sold. It ships as a Shopify app and a WooCommerce plugin and serves English, French, German and Dutch. The founder describes building it after more than 20 years working in wine and spirits retail. No named retailer customer is published on the site.
 - **PlantCT (SmartVineyard)** (wine, vineyard disease forecasting from in-canopy sensors). PlantCT, sold internationally under the SmartVineyard name, is a Hungarian in-vineyard plant-protection station: leaf wetness, humidity and temperature sensors report every 20 minutes to a cloud backend that runs disease forecast models and shows hyper-local risk on web and mobile. Subscriptions start around 19,900 HUF a month with add-on forecast models. The forecasts are documented as agronomic risk models built on measured microclimate; the company makes no machine learning claim.
 - **PlantVoice** (multiple, grapevine stress and disease prediction from in-trunk sap biosensors). PlantVoice makes a toothpick-sized biocompatible biosensor inserted into the plant stem that analyses sap in real time, paired with cloud software that classifies stress signatures. Its own site claims AI-based software processing the physiological signal, with stated accuracy of 94 percent for forecasts and 97 percent for stress identification. Vineyards are a core crop, with named grapevine deployments at Italian wineries Cantina Mezzacorona and Cantina Cavit, and it was one of eight startups selected for the 2026 Wine Tech Challenge in Verona. It also covers kiwi, apple and peach, so it is not wine-only. People: Matteo Beccatelli (CEO and Co-founder), Tommaso Beccatelli (Head of Production and Co-founder), Pierluigi Lodi Rizzini (Legal and Co-founder).
@@ -870,6 +881,7 @@ Snapshot: 2026-09-28. 1158 active, 35 dormant.
 - **Samuel Ortega-Farias** (wine, ml evapotranspiration models for vineyard irrigation). Samuel Ortega-Farias is a researcher at CITRA, Universidad de Talca. He co-authored a 2024 Agricultural Water Management paper building machine learning models to estimate actual evapotranspiration and energy balance in Talca vineyards for precision irrigation, and a 2022 Remote Sensing paper on UAV-based evapotranspiration mapping in vineyards. People: Samuel Ortega-Farias (Director, CITRA (Research and Extension Center for Irrigation and Agroclimatology), Universidad de Talca).
 - **Sanjay Shringarpure** (wine, vineyard harvest data app and gis). Was CIO of E. and J. Gallo Winery (joined 2014). In 2017 he led a mobile app for grower representatives to collect grape data in vineyards and schedule harvests, with plans to overlay GIS and satellite imagery; a 2019 interview covers Gallo's IT transformation and Wine OS platform. Current role not verified. People: Sanjay Shringarpure (Chief Information Officer, E. and J. Gallo Winery (as of 2019)).
 - **Sante** (multiple, supply chain). AI and fintech operating system for wine and liquor retailers combining POS, inventory, e-commerce, delivery, marketing and payments, with AI automating invoice intake, catalog creation and customer segmentation. Founded by Darren Fike (YC S23).
+- **Santo Orlando** (wine, peer-reviewed ai and data research). Santo Orlando has 2 peer-reviewed papers in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bayesian yield mapping and uncertainty analysis in vineyards using remote sensing data and grape harvester tracking (2025), affiliated with University of Palermo. People: Santo Orlando (Published researcher, University of Palermo).
 - **SAP SE** (multiple, embedded business ai in erp plus a smart winery solution with predictive fermentation models). SAP is the enterprise software vendor whose S/4HANA, Business One, IBP and Business Technology Platform sit underneath a large share of the beer, whiskey and wine companies already tracked in this database, yet it was not tracked itself. Its own AI layer, SAP Business AI and the Joule assistant, is embedded across those products, and SAP IBP for Demand ships statistical and machine learning forecasting used by drinks manufacturers. SAP also owns a beverage specific application, Smart Winery on SAP BTP, which combines winemaker knowledge with operational and sensor data behind two AI models, one predicting future wine quality and one predicting the end of maceration; it was recognised with an honourable mention at the 2023 SAP Innovation Awards for the Vina Concha y Toro deployment. Where partner apps in this database claim AI that comes from SAP AI Core, Joule or IBP, the model belongs to SAP rather than to the partner.
 - **Sapporo Breweries** (beer, recipe / flavor prediction). Sapporo partnered with IBM Japan to build an AI system for product development, where marketers input a concept plus up to ten flavor descriptors and a reference product from 170 past Sapporo beverages to generate new recipe candidates. People: Masaki Oga (President, Sapporo Holdings).
 - **SAPTOOLS (a valantic company)** (beer, machine learning demand forecasting in sap ibp for a brewing group). SAPTOOLS is a Spanish SAP supply chain consultancy, now part of the valantic group, specialising in SAP IBP, APO, PP/DS and Digital Manufacturing. It delivered SAP IBP demand planning and DRP plus tactical S&OP at Hijos de Rivera, the Galician brewing group behind Estrella Galicia beer, 1906, Maeloc cider and Ponta da Boga wine, using its own easyDP accelerator over a 5.5 month project. The forecasting capability is SAP IBP's built-in statistical and machine learning models rather than SAPTOOLS' own algorithms; the firm also lists machine learning in supply chain as a separate service line.
@@ -1155,6 +1167,7 @@ Snapshot: 2026-09-28. 1158 active, 35 dormant.
 - **Yokogawa Electric** (beer, reinforcement-learning autonomous control of fermentation temperature scheduling). Japanese industrial automation and measurement group. Its autonomous control AI, Factorial Kernel Dynamic Policy Programming (FKDPP), was applied to beer fermentation in a 2025 proof of concept run by Yokogawa Digital with Craft Bank, a Kyoto Prefecture craft brewer: brewers manually implemented the AI-generated temperature setting schedule and cut fermentation from 336 hours to 240 hours, a 28 percent reduction, as stated in Yokogawa's own release. The AI claim is specific and quantified rather than promotional. Yokogawa also sells conventional beer fermentation instrumentation, including continuous monitoring by liquid density meter, which carries no ML claim. Recorded as pilot, not shipping: this is a published proof of concept, not a productised brewing offering.
 - **YoLong Brewtech** (beer, none claimed, plc brewery control and process automation). Chinese brewery equipment manufacturer in Xiangshan County, Ningbo, supplying nano, micro, brewpub and commercial brewing systems plus in-house automated control systems. Its control panels are built on Siemens, Allen-Bradley and Omron platforms with CE and UL certification, and range from semi-automatic temperature controllers for nano breweries up to full PLC and HMI brewhouse automation. No AI or machine-learning claim is made; the value is process data capture and batch-to-batch consistency control.
 - **Yu Jiang** (wine, autonomous vineyard robots and grapevine phenotyping). Leads the Cyber-Agricultural Intelligence and Robotics lab at Cornell AgriTech, working on systems engineering, data analytics and AI for specialty crops. He develops autonomous vineyard robots that use computer vision to gather per-vine data for the grape and wine industry, and is a senior author on the 2026 HyperBird grape disease imaging work. People: Yu Jiang (Assistant Professor, School of Integrative Plant Science, Cornell AgriTech).
+- **Yuhao Lu** (beer, peer-reviewed ai and data research). Yuhao Lu has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Quantitative Detection of Key Parameters and Authenticity Verification for Beer Using Near-Infrared Spectroscopy (2025), affiliated with Heilongjiang Bayi Agricultural University. People: Yuhao Lu (Published researcher, Heilongjiang Bayi Agricultural University).
 - **Yuyang Song** (multiple, machine learning across the grape and wine value chain). Researcher at the College of Enology, Northwest A&F University. Senior author of a 2026 review of machine learning technologies across the grape and wine value chain, from vineyard sensing and precision viticulture to winemaking optimisation. Also senior author of a 2026 study using machine learning to screen ester-producing strains from Fengxiang Taibai baijiu fermentation. People: Yuyang Song (Researcher, College of Enology, Northwest A&F University).
 - **Zap (Zap Data Hub)** (beer, erp data warehouse automation with analytics copilots). Zap builds a data warehouse automation and governed analytics platform for ERP data, with a supported connector for SAP Business One alongside Sage, Syspro and Dynamics. Beavertown Brewery, the London craft brewer, uses Zap Data Hub on top of SAP Business One to replace manual SQL and spreadsheet reporting across sales, supply chain and finance, and for specialist beer duty and traceability reporting. Zap AI is the vendor's own LLM layer, offering an analytics copilot, a modeling copilot and a natural language query experience called Talk Data To Me, which the company states is in active rollout. People: Max Smith (Data and Analytics Manager, Beavertown Brewery).
 - **Zaptic** (multiple, AI-native connected worker platform). Zaptic is an AI-native connected worker platform that digitizes frontline manufacturing work and uses AI to share knowledge and guide continuous improvement. Global beverage manufacturers use it to accelerate digital transformation programs.
@@ -1165,52 +1178,174 @@ Snapshot: 2026-09-28. 1158 active, 35 dormant.
 
 ## Dormant companies
 
+- A. A. Kaunova (last seen 2024-04-01)
+- Achilleas Blekos (last seen 2023-07-27)
+- Aikaterini Karampatea (last seen 2023-09-27)
+- Alexander Lewis Bowler (last seen 2021-11-01)
 - Analytical Flavor Systems (Gastrograph AI) (last seen 2025-01-01)
+- Andrea Bellincontro (last seen 2024-04-04)
+- Andrea Springer (last seen 2018-08-22)
+- André Aguiar (last seen 2021-02-05)
+- Anna Stój (last seen 2020-03-16)
+- Ariel Fontana (last seen 2021-02-03)
 - Aromyx (last seen 2023-01-01)
+- Audrius Maruška (last seen 2022-04-22)
+- B. Sams (last seen 2018-04-02)
+- Barry Lee Smith (last seen 2019-05-29)
 - BarTrack (last seen 2022-04-28)
 - Bespoken Spirits (last seen 2020-10-07)
+- Binbin Xie (last seen 2023-06-15)
+- Biniam Kebede (last seen 2025-02-12)
 - Bira 91 (B9 Beverages) (last seen 2023-07-18)
 - Bloomfield Robotics (last seen 2024-06-01)
 - Bodegas Cepa 21 (last seen 2020-08-18)
 - Bright Cellars (last seen 2017-05-24)
+- Carlos Herrero (last seen 2019-07-05)
+- Carlos Poblete-Echeverría (last seen 2019-08-22)
+- Caterina Tricase (last seen 2024-03-08)
 - Ceres Imaging (Ceres AI) (last seen 2021-09-01)
+- Christopher Hain (last seen 2018-04-02)
+- Christopher James Hacking (last seen 2019-08-22)
+- Christos Bazinas (last seen 2022-06-29)
 - Circumstance Distillery (last seen 2020-07-01)
+- Claudio Fredes (last seen 2017-03-23)
+- Cátia Martins (last seen 2020-09-11)
+- Damir D. Torrico (last seen 2021-01-25)
+- David W. Jeffery (last seen 2021-07-17)
 - Deep Liquid (last seen 2025-03-19)
 - Deep Planet (last seen 2025-03-02)
+- Dehuai Yang (last seen 2023-04-01)
 - Deschutes Brewery (last seen 2019-08-12)
+- Dimitra Liacopoulos Capone (last seen 2021-07-17)
+- Don Kulasiri (last seen 2022-01-28)
+- Dorota Domagała (last seen 2020-03-16)
+- Edwin Hlangwani (last seen 2021-10-18)
+- Eftichia Badeka (last seen 2023-09-27)
+- Elisabeta‐Irina Geană (last seen 2019-11-17)
+- Emily Fanning (last seen 2025-02-12)
+- Feng Gao (last seen 2018-04-02)
+- Forrest Melton (last seen 2018-04-02)
+- Frank Rowland Dunshea (last seen 2019-05-01)
+- Georg Krebs (last seen 2020-10-01)
+- Giampiero Sacchetti (last seen 2022-12-29)
+- Gianmarco Alfieri (last seen 2024-04-04)
+- Giulio Reina (last seen 2020-06-25)
+- Hong Men (last seen 2017-07-19)
 - Horta (vite.net) (last seen 2024-04-30)
+- Huixiang Liu (last seen 2018-12-22)
+- Hui‐Wen Gu (last seen 2023-03-05)
 - IntelligentX (last seen 2019-02-01)
 - ITK (Vintel) (last seen 2023-01-04)
+- Jana Hajšlová (last seen 2022-08-29)
+- Jasenka Gajdoš Kljusurić (last seen 2019-01-01)
+- Javier Tardáguila (last seen 2018-02-01)
+- Jeffrey A. Clarin (last seen 2022-07-04)
+- Jialiang Yan (last seen 2023-03-30)
+- Jiang XiangHui (last seen 2023-04-01)
+- Jingjing Liu (last seen 2017-07-19)
+- John H. Prueger (last seen 2018-04-02)
+- John‐Lewis Zinia Zaukuu (last seen 2019-11-24)
+- Joseph G. Alfieri (last seen 2018-04-02)
+- José Boaventura‐Cunha (last seen 2021-02-05)
+- Juliano Souza Ribeiro (last seen 2022-01-01)
+- Karla Hanousek Čiča (last seen 2019-01-01)
+- Kate S. Howell (last seen 2020-05-03)
+- Kathryn Backholer (last seen 2022-03-02)
+- Keshab Raj Dahal (last seen 2021-01-01)
+- Kieran N. Kilcawley (last seen 2023-08-02)
+- Kirk Post (last seen 2018-04-02)
+- Kosmas Dimitropoulos (last seen 2023-07-27)
+- Lavínia Silva Veríssimo (last seen 2022-01-01)
+- Leoš Uttl (last seen 2022-08-29)
+- Li Li (last seen 2024-07-18)
+- Liang Sun (last seen 2017-03-28)
+- Luca Nicolotti (last seen 2019-03-17)
+- Lufeng Luo (last seen 2021-06-22)
+- Luis A. Romero Cano (last seen 2022-04-14)
+- Luis Enrique Sanchez (last seen 2018-04-02)
+- Lynn G. McKee (last seen 2018-04-02)
 - Mackmyra (last seen 2019-06-19)
+- Marcelo Enrique Conti (last seen 2022-10-28)
+- Marcos Carrasco-Benavides (last seen 2017-03-23)
+- Martha C. Anderson (last seen 2018-04-02)
+- María Mar Alsina (last seen 2018-04-02)
+- Mattia Rapa (last seen 2022-10-28)
 - McCoy & Partners (last seen 2024-04-02)
+- Michael P. Pound (last seen 2021-11-01)
+- Miguel Ángel Moreno (last seen 2020-05-08)
 - Molson Coors (Atwater Brewery) (last seen 2023-01-31)
 - Next Century Spirits (last seen 2024-02-08)
+- Nicholas James Watson (last seen 2021-11-01)
+- Nino Adamashvili (last seen 2024-03-08)
+- Olatunde David Akanbi (last seen 2022-01-01)
+- Oluwafemi Ayodeji Adebo (last seen 2023-07-20)
+- Pangzhen Zhang (last seen 2017-07-07)
+- Peter Schieberle (last seen 2019-03-17)
+- Philipp Weller (last seen 2020-08-04)
+- Piyush Bhardwaj (last seen 2022-01-28)
 - PLAATO (last seen 2024-05-28)
 - Preferabli (last seen 2024-12-16)
 - Propagate Lab (last seen 2024-08-13)
+- Quanyue Xie (last seen 2023-03-30)
+- Ranaweera K.R. Ranaweera (last seen 2021-07-17)
+- Rebecca Brendel (last seen 2020-08-04)
+- Riccardo De Flaviis (last seen 2022-12-29)
+- Roberto Marani (last seen 2020-06-25)
+- Rocío Ballesteros (last seen 2020-05-08)
+- Rosa M. Peña-Crecente (last seen 2019-07-05)
+- Roy Urvieta (last seen 2021-02-03)
+- Ruby Brooks (last seen 2022-03-02)
 - SACMI (last seen 2023-11-12)
+- Salvador Gutiérrez (last seen 2018-02-01)
 - Scanopy (last seen 2019-06-01)
+- Sefater Gbashi (last seen 2023-07-20)
+- Simon Maher (last seen 2019-05-29)
 - SmartMachine (Oxin) (last seen 2024-05-23)
 - Sommify (last seen 2023-01-01)
+- Sunday Olaniyi (last seen 2022-01-01)
+- Susan E.P. Bastian (last seen 2021-07-17)
+- Susan Gaire (last seen 2021-01-01)
+- Sı́lvia M. Rocha (last seen 2020-09-11)
 - Tastry (last seen 2024-03-01)
+- Thomas J. Kelly (last seen 2023-08-02)
+- Thomas Matthias Becker (last seen 2020-10-01)
 - Tule Technologies (last seen 2023-01-31)
+- Vasiliki Summerson (last seen 2021-01-25)
+- Vassilis G. Kaburlasos (last seen 2023-09-27)
 - VineForecast (last seen 2023-11-09)
 - VinoVoss (BetterAI) (last seen 2024-12-29)
 - Vivino (last seen 2017-08-01)
+- Walter M. Warren‐Vega (last seen 2022-04-14)
 - Watgrid (WINEGRID) (last seen 2022-10-13)
+- Wei Yin (last seen 2021-06-22)
 - Whiskey Wise Group (last seen 2024-01-01)
+- William A. White (last seen 2018-04-02)
+- William P. Kustas (last seen 2018-04-02)
+- Xiaoli Yin (last seen 2023-03-05)
+- Xuyan Zong (last seen 2024-07-18)
+- Yifang Gao (last seen 2024-03-18)
+- Yinghua Zhang (last seen 2024-03-18)
+- Yiying Zhao (last seen 2018-06-04)
+- Yong He (last seen 2018-06-04)
+- Yu Gu (last seen 2018-12-22)
+- Zhujie Xu (last seen 2023-06-15)
+- Zhuo Liu (last seen 2023-07-25)
+- Zoltán György Kovács (last seen 2019-11-24)
 - Zymoscope (last seen 2024-08-01)
+- Žydrūnas Stanius (last seen 2022-04-22)
+- З. А. Темердашев (last seen 2024-04-01)
 
 ## By vertical (active)
 
-- multiple: 388
-- beer: 325
-- wine: 324
-- whiskey: 111
+- multiple: 390
+- wine: 330
+- beer: 328
+- whiskey: 113
 - non_alcoholic: 10
 
 ## By use case (active)
 
+- peer-reviewed ai and data research: 13
 - quality control / computer vision: 10
 - data analytics / BI / market intelligence for beverage: 10
 - demand forecasting: 9
