@@ -340,7 +340,7 @@ def build():
     jobs = {}
     locations = sweep_locations()
     keyword_sweep(tracked, jobs, locations)
-    print(f"keyword sweep over {', '.join(l or 'worldwide' for l in locations)}: {len(jobs)} jobs")
+    print(f"keyword sweep over {', '.join(loc or 'worldwide' for loc in locations)}: {len(jobs)} jobs")
     company_sweep(tracked, jobs)
     rows = sorted(jobs.values(), key=lambda j: (j["posted"] or "", j["company"]), reverse=True)
     OUT.write_text(json.dumps(rows, indent=2) + "\n")
