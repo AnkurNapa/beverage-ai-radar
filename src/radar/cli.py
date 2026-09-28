@@ -89,6 +89,34 @@ def _prospects(args) -> int:
     return 0
 
 
+def _people(args) -> int:
+    import json as _json
+    from radar.scout.people import merge_people, render_people_briefs
+
+    seed = _json.loads(config.PEOPLE_SEED_PATH.read_text())
+    if args.cmd == "people-brief":
+        surfaces = _json.loads(config.PEOPLE_SURFACES_PATH.read_text())
+        written = render_people_briefs(surfaces, seed, config.SCOUT_DIR, date.today())
+        print(f"{len(written)} briefs in {config.SCOUT_DIR / 'people_briefs'}")
+        return 0
+    incoming = []
+    for f in args.files:
+        data = _json.loads(open(f).read())
+        incoming += data.get("people", []) if isinstance(data, dict) else data
+    seed, added, quarantined = merge_people(seed, incoming)
+    config.PEOPLE_SEED_PATH.write_text(_json.dumps(seed, indent=1, ensure_ascii=False) + "\n")
+    (config.SCOUT_DIR / "people_quarantine.json").write_text(_json.dumps(quarantined, indent=2))
+    print(f"added {len(added)}: {', '.join(p['name'] for p in added)}")
+    for state in ("duplicate", "rejected"):
+        hits = [q for q in quarantined if q["state"] == state]
+        if hits:
+            print(
+                f"{state} {len(hits)}: {'; '.join(q['name'] + ' (' + q['reason'] + ')' for q in hits)}"
+            )
+    print(f"people seed now {len(seed)}")
+    return 0
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(prog="radar")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -101,6 +129,9 @@ def main(argv=None) -> int:
     p_merge.add_argument("files", nargs="+")
     p_merge.add_argument("--check-domains", action="store_true")
     sub.add_parser("scout-liveness")
+    sub.add_parser("people-brief")
+    p_people = sub.add_parser("people-merge")
+    p_people.add_argument("files", nargs="+")
     # Prospects: the PRIVATE outreach list. Separate verbs and a separate file
     # from the vendor seed, because this data must never reach the public site.
     sub.add_parser("prospect-gaps")
@@ -158,6 +189,8 @@ def main(argv=None) -> int:
             if hits:
                 print(f"{state} {len(hits)}: {'; '.join(q['name'] for q in hits)}")
         print(f"seed now {len(seed)}")
+    elif args.cmd in ("people-brief", "people-merge"):
+        return _people(args)
     elif args.cmd in ("prospect-gaps", "prospect-brief", "prospect-merge"):
         return _prospects(args)
     elif args.cmd == "scout-liveness":
