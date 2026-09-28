@@ -2189,7 +2189,15 @@ function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
     const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45, zoomToBoundsOnClick: false }).addTo(map);
     // The map sits in collapsible cards and hidden tabs; Leaflet measures 0x0
     // there and draws grey until told its real size.
-    new ResizeObserver(() => { map.invalidateSize(); m.fit(); }).observe(el);
+    // Refit only when the map goes from hidden to visible. Refitting on every
+    // resize threw away any drill-down the moment a window or phone rotated.
+    let wasHidden = true;
+    new ResizeObserver(() => {
+      map.invalidateSize();
+      const hidden = !el.offsetWidth;
+      if (wasHidden && !hidden) m.fit();
+      wasHidden = hidden;
+    }).observe(el);
     m = el._map = { map, cluster, markers: [], rowsKey: null, active: undefined, onPick };
     m.fit = () => {
       const pts = m.markers.filter((mk) => !m.active || mk._key === m.active).map((mk) => mk.getLatLng());
@@ -2202,10 +2210,18 @@ function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
     // Clicking a pin used to only open a popup; the filter sat behind a small
     // "Only X" button inside it, so "click a pin to filter" did nothing visible.
     m.pick = (key) => { track("map_select", { tab: CURRENT_TAB, place: key }); m.onPick(key); };
-    cluster.on("click", (e) => m.pick(e.layer._key));
+    // Inside the country already picked, every cluster is "one place", so
+    // re-picking it changed nothing and the map never went deeper than the
+    // country. There a click drills in instead: clusters zoom to their pins,
+    // a pin zooms to street level.
+    cluster.on("click", (e) => {
+      if (e.layer._key === m.active) map.setView(e.layer.getLatLng(), Math.max(map.getZoom() + 3, 9));
+      else m.pick(e.layer._key);
+    });
     cluster.on("clusterclick", (e) => {
       const keys = new Set(e.layer.getAllChildMarkers().map((mk) => mk._key));
-      if (keys.size === 1) m.pick([...keys][0]);
+      const only = keys.size === 1 ? [...keys][0] : null;
+      if (only && only !== m.active) m.pick(only);
       else e.layer.zoomToBounds({ padding: [30, 30] });
     });
   }
