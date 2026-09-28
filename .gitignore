@@ -23,3 +23,4 @@ radar.err.log
 .gstack/
 .scout/
 .jobs_cursor
+.jobs_loc_cursor

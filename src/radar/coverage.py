@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 from collections import defaultdict
+from datetime import date
 from pathlib import Path
 
 from radar.geo import country_of
@@ -42,7 +43,8 @@ def frontier(companies: list[dict], people: list[dict], jobs: list[dict]) -> dic
     company check. Evidence rides along so a brief can cite why each is listed.
     """
     orgs = [c for c in companies if c.get("company_type") != "individual"]
-    names = [c["name"] for c in orgs]
+    # aliases: the name an org trades under when the seed holds its legal name
+    names = [n for c in orgs for n in [c["name"], *(c.get("aliases") or [])]]
     employers = [p.get("company") or "" for p in people]
 
     without = [
@@ -106,16 +108,34 @@ def rotate_locations(
 
 
 def record_sweep(path: Path, lane: str, surface: str, found: int, added: int, today: str) -> None:
-    path = Path(path)
-    rows = json.loads(path.read_text()) if path.exists() else []
+    rows = _rows(path)
     rows.append({"date": today, "lane": lane, "surface": surface, "found": found, "added": added})
     path.write_text(json.dumps(rows, indent=1) + "\n")
 
 
 def last_sweeps(path: Path) -> dict:
     """(lane, surface) -> most recent ledger row."""
+    return {(r["lane"], r["surface"]): r for r in _rows(path)}
+
+
+def _rows(path: Path) -> list[dict]:
     path = Path(path)
-    out = {}
-    for r in json.loads(path.read_text()) if path.exists() else []:
-        out[(r["lane"], r["surface"])] = r
-    return out
+    return json.loads(path.read_text()) if path.exists() else []
+
+
+def recently_briefed(path: Path, today: str, days: int) -> set[str]:
+    """Items handed to a frontier brief within `days`, so a company where the
+    scouts find nobody does not sit at the head of the queue forever."""
+    cutoff = date.fromisoformat(today).toordinal() - days
+    return {
+        item
+        for r in _rows(path)
+        if date.fromisoformat(r["date"]).toordinal() >= cutoff
+        for item in r.get("items", [])
+    }
+
+
+def record_briefed(path: Path, lane: str, surface: str, items: list[str], today: str) -> None:
+    rows = _rows(path)
+    rows.append({"date": today, "lane": lane, "surface": surface, "items": items})
+    path.write_text(json.dumps(rows, indent=1) + "\n")

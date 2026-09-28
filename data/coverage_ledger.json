@@ -61,5 +61,19 @@
   "surface": "southeast_asia_oceania",
   "found": 11,
   "added": 11
+ },
+ {
+  "date": "2026-09-28",
+  "lane": "people",
+  "surface": "recovery_a",
+  "found": 15,
+  "added": 15
+ },
+ {
+  "date": "2026-09-28",
+  "lane": "people",
+  "surface": "recovery_b",
+  "found": 12,
+  "added": 12
  }
 ]

@@ -12,6 +12,8 @@ against the landscape.
 Run: python3 scripts/build_jobs.py
 """
 import html
+import sys
+from collections import Counter
 import json
 import os
 import re
@@ -159,6 +161,13 @@ PAGES = 3  # the guest endpoint returns 10 cards a page; 3 covers most employers
 BUDGET_SECS = int(os.environ.get("RADAR_JOBS_BUDGET", "900"))
 CURSOR = ROOT / ".jobs_cursor"  # where the last budget-truncated sweep stopped
 
+# LOCATIONS alone left every country but the US, UK and India at zero jobs while
+# the radar tracks 72 German and 58 French companies. Each run adds a rotating
+# window of the countries tracked companies sit in, so every one is reached in
+# turn without multiplying the run time.
+EXTRA_PER_RUN = int(os.environ.get("RADAR_JOBS_EXTRA_COUNTRIES", "3"))
+LOC_CURSOR = ROOT / ".jobs_loc_cursor"
+
 
 def fetch_pages(query, loc="", pages=PAGES):
     """Walk the guest endpoint page by page.
@@ -245,10 +254,36 @@ def tag(card, tracked, query, company=""):
     return card
 
 
-def keyword_sweep(tracked, jobs):
+def seed_countries():
+    """Countries tracked companies sit in, most companies first. Uses the radar's
+    canonical geo mapping, not country_of above, so "USA" and "United States"
+    count as one country."""
+    sys.path.insert(0, str(ROOT / "src"))
+    from radar.geo import country_of as canonical
+
+    seed = json.loads(SEED.read_text())
+    counts = Counter(canonical(c.get("hq_location")) for c in seed
+                     if c.get("company_type") != "individual")
+    return [c for c, _ in counts.most_common() if c and c != "unknown"]
+
+
+def sweep_locations():
+    sys.path.insert(0, str(ROOT / "src"))
+    from radar.coverage import rotate_locations
+
+    try:
+        cursor = int(LOC_CURSOR.read_text())
+    except (OSError, ValueError):
+        cursor = 0
+    locs, nxt = rotate_locations(LOCATIONS, seed_countries(), EXTRA_PER_RUN, cursor)
+    LOC_CURSOR.write_text(str(nxt))
+    return locs
+
+
+def keyword_sweep(tracked, jobs, locations=LOCATIONS):
     """Pass 1: the field at large. Fuzzy search, so both gates apply."""
     for kw in QUERIES:
-        for loc in LOCATIONS:
+        for loc in locations:
             for card in fetch_pages(kw, loc):
                 if card["id"] in jobs or not keep(card, tracked):
                     continue
@@ -303,8 +338,9 @@ def company_sweep(tracked, jobs):
 def build():
     tracked = tracked_names()
     jobs = {}
-    keyword_sweep(tracked, jobs)
-    print(f"keyword sweep: {len(jobs)} jobs")
+    locations = sweep_locations()
+    keyword_sweep(tracked, jobs, locations)
+    print(f"keyword sweep over {', '.join(l or 'worldwide' for l in locations)}: {len(jobs)} jobs")
     company_sweep(tracked, jobs)
     rows = sorted(jobs.values(), key=lambda j: (j["posted"] or "", j["company"]), reverse=True)
     OUT.write_text(json.dumps(rows, indent=2) + "\n")

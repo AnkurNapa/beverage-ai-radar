@@ -126,6 +126,82 @@ def _people(args) -> int:
     return 0
 
 
+def _coverage(args) -> int:
+    """coverage: where every lane stands. frontier-brief: turn what the lanes
+    know about each other into agent briefs, reusing the lane brief writers so
+    the verification rules live in one place."""
+    import json as _json
+    from radar import coverage as cov
+    from radar.scout.briefs import render_brief
+    from radar.scout.people import render_people_brief
+
+    companies = _json.loads(config.SEED_PATH.read_text())
+    people = _json.loads(config.PEOPLE_SEED_PATH.read_text())
+    jobs_path = config.DASHBOARD_DIR / "jobs.json"
+    jobs = _json.loads(jobs_path.read_text()) if jobs_path.exists() else []
+    front = cov.frontier(companies, people, jobs)
+    today = date.today().isoformat()
+
+    if args.cmd == "coverage":
+        grid = cov.country_grid(companies, people, jobs)
+        print(f"{'country':<22}{'companies':>10}{'people':>8}{'jobs':>6}")
+        for k, v in sorted(grid.items(), key=lambda kv: -kv[1]["companies"])[:30]:
+            flag = "  <- thin" if v["thin"] else ""
+            print(f"{k:<22}{v['companies']:>10}{v['people']:>8}{v['jobs']:>6}{flag}")
+        print(f"\ncompanies with no people yet: {len(front['companies_without_people'])}")
+        print(
+            f"employers named by people or jobs but not tracked: {len(front['untracked_employers'])}"
+        )
+        for (lane, surface), r in sorted(cov.last_sweeps(config.LEDGER_PATH).items()):
+            print(
+                f"  last {lane}/{surface}: {r['date']} found {r.get('found', '-')} added {r.get('added', '-')}"
+            )
+        return 0
+
+    skip = cov.recently_briefed(config.LEDGER_PATH, today, args.skip_days)
+    todo_people = [n for n in front["companies_without_people"] if n not in skip]
+    todo_orgs = [r for r in front["untracked_employers"] if r["name"] not in skip]
+    people_names = sorted(f"{p['name']} | {p.get('company') or ''}" for p in people)
+    (config.SCOUT_DIR / "people_skip.txt").write_text("\n".join(people_names) + "\n")
+    written = []
+    for i in range(args.max_briefs):
+        chunk = todo_people[i * args.chunk : (i + 1) * args.chunk]
+        if not chunk:
+            break
+        sid = f"frontier_people_{i + 1}"
+        surface = {
+            "id": sid,
+            "label": "Frontier: tracked companies with nobody named yet",
+            "hint": "Find the AI, data, analytics or digital leads AT these already-tracked "
+            "companies (any country). Team pages, press, speaker lists and papers. Set "
+            "company to the exact name below.\n\n" + "\n".join(f"- {n}" for n in chunk),
+        }
+        path = config.SCOUT_DIR / "people_briefs" / f"{sid}.md"
+        path.write_text(render_people_brief(surface, people_names, config.SCOUT_DIR))
+        cov.record_briefed(config.LEDGER_PATH, "frontier", sid, chunk, today)
+        written.append(path)
+    if todo_orgs:
+        chunk = todo_orgs[: args.chunk]
+        surface = {
+            "id": "frontier_companies",
+            "label": "Frontier: employers named by tracked people or open jobs",
+            "hint": "Check each employer below against the scope rules. Include it only if it "
+            "passes them; retailers, distributors and general IT firms usually do not.\n\n"
+            + "\n".join(f"- {r['name']} ({'; '.join(r['evidence'][:3])})" for r in chunk),
+        }
+        existing = [f"{c['name']} | {c.get('domain') or ''}" for c in companies]
+        path = config.SCOUT_DIR / "briefs" / "frontier_companies.md"
+        path.write_text(render_brief(surface, [], existing, config.SCOUT_DIR, date.today()))
+        cov.record_briefed(
+            config.LEDGER_PATH, "frontier", "frontier_companies", [r["name"] for r in chunk], today
+        )
+        written.append(path)
+    print(f"{len(todo_people)} companies need people, {len(todo_orgs)} employers need a check")
+    for p in written:
+        print(f"  {p}")
+    return 0
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(prog="radar")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -138,6 +214,11 @@ def main(argv=None) -> int:
     p_merge.add_argument("files", nargs="+")
     p_merge.add_argument("--check-domains", action="store_true")
     sub.add_parser("scout-liveness")
+    sub.add_parser("coverage")
+    p_front = sub.add_parser("frontier-brief")
+    p_front.add_argument("--max-briefs", type=int, default=4)
+    p_front.add_argument("--chunk", type=int, default=30)
+    p_front.add_argument("--skip-days", type=int, default=60)
     sub.add_parser("people-brief")
     p_people = sub.add_parser("people-merge")
     p_people.add_argument("files", nargs="+")
@@ -188,7 +269,23 @@ def main(argv=None) -> int:
 
         seed = _json.loads(config.SEED_PATH.read_text())
         reachable = check if args.check_domains else None
-        seed, added, quarantined = merge(seed, load_finds(args.files), reachable)
+        from radar.coverage import record_sweep
+
+        added, quarantined = [], []
+        for f in args.files:
+            found = load_finds([f])
+            seed, a, q = merge(seed, found, reachable)
+            added += a
+            quarantined += q
+            surface = Path(f).stem.removeprefix("find_")
+            record_sweep(
+                config.LEDGER_PATH,
+                "companies",
+                surface,
+                len(found),
+                len(a),
+                date.today().isoformat(),
+            )
         config.SEED_PATH.write_text(_json.dumps(seed, indent=2, ensure_ascii=False) + "\n")
         config.SCOUT_DIR.mkdir(parents=True, exist_ok=True)
         (config.SCOUT_DIR / "quarantine.json").write_text(_json.dumps(quarantined, indent=2))
@@ -198,6 +295,8 @@ def main(argv=None) -> int:
             if hits:
                 print(f"{state} {len(hits)}: {'; '.join(q['name'] for q in hits)}")
         print(f"seed now {len(seed)}")
+    elif args.cmd in ("coverage", "frontier-brief"):
+        return _coverage(args)
     elif args.cmd in ("people-brief", "people-merge"):
         return _people(args)
     elif args.cmd in ("prospect-gaps", "prospect-brief", "prospect-merge"):

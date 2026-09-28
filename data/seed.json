@@ -737,6 +737,7 @@
  },
  {
   "name": "Anheuser-Busch InBev",
+  "aliases": ["AB InBev"],
   "domain": "ab-inbev.com",
   "hq_location": "Leuven, Belgium",
   "founded_year": 2008,

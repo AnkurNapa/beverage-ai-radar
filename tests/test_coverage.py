@@ -53,3 +53,18 @@ def test_record_sweep_appends_to_ledger(tmp_path):
 
     rows = json.loads(path.read_text())
     assert [r["added"] for r in rows] == [8, 0] and rows[1]["date"] == "2026-10-05"
+
+
+def test_alias_matches_trading_name():
+    abi = {**co("Anheuser-Busch InBev"), "aliases": ["AB InBev"]}
+    f = frontier([abi], people=[{"name": "X", "company": "AB InBev APAC"}], jobs=[])
+    assert f["untracked_employers"] == []
+
+
+def test_briefed_items_are_skipped_until_the_window_passes(tmp_path):
+    from radar.coverage import recently_briefed, record_briefed
+
+    path = tmp_path / "ledger.json"
+    record_briefed(path, "frontier", "people_1", ["Brauerei A"], today="2026-09-01")
+    assert recently_briefed(path, "2026-09-28", days=60) == {"Brauerei A"}
+    assert recently_briefed(path, "2026-12-01", days=60) == set()
