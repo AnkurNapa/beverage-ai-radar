@@ -52,12 +52,20 @@ def test_duplicate_by_linkedin_url_even_if_name_spelled_differently():
     assert added == [] and q[0]["state"] == "duplicate"
 
 
-def test_same_name_different_company_is_a_different_person():
-    _, added, _ = merge_people([person()], [person(company="Cervejaria Y")])
-    assert len(added) == 1
+def test_same_name_different_company_goes_to_review():
+    # could be a namesake or the same person after a job move; a human decides
+    _, added, q = merge_people([person()], [person(company="Cervejaria Y")])
+    assert added == [] and q[0]["state"] == "review"
 
 
 def test_brief_names_region_and_output_path(tmp_path):
     surface = {"id": "latam", "label": "Latin America", "hint": "Brazil, Chile, Argentina"}
     text = render_people_brief(surface, ["Ana Lima | Vinicola X"], tmp_path)
     assert "Latin America" in text and "find_latam.json" in text and "people_skip.txt" in text
+
+
+def test_unevidenced_former_becomes_unconfirmed():
+    _, added, _ = merge_people([], [person(company_is_current=False)])
+    assert added[0]["company_is_current"] is None
+    _, added, _ = merge_people([], [person(role="Former Head of Data", company_is_current=False)])
+    assert added[0]["company_is_current"] is False

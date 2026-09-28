@@ -1,6 +1,6 @@
 # Beverage-AI Radar
 
-> A curated, source-cited landscape of 1067 companies applying artificial intelligence, machine learning and data analytics to the beer, whiskey and wine industries, plus the wider food and beverage majors and data platforms working alongside them. Maintained by Ankur Napa. Last updated 2026-09-28.
+> A curated, source-cited landscape of 1166 companies applying artificial intelligence, machine learning and data analytics to the beer, whiskey and wine industries, plus the wider food and beverage majors and data platforms working alongside them. Maintained by Ankur Napa. Last updated 2026-09-28.
 
 ## What this is
 
@@ -11,8 +11,8 @@ human confirms them. Treat `verified: false` as provisional.
 
 ## Coverage
 
-- Verticals: multiple (380), wine (290), beer (290), whiskey (97), non_alcoholic (10)
-- Countries: United States (296), unknown (174), India (87), Germany (73), United Kingdom (72), France (59), Italy (37), Canada (31), Australia (30), Japan (20), Spain (16), New Zealand (15)
+- Verticals: multiple (389), wine (332), beer (321), whiskey (114), non_alcoholic (10)
+- Countries: United States (306), unknown (176), India (87), United Kingdom (85), Germany (77), France (65), Italy (38), Australia (33), Canada (32), Japan (22), New Zealand (21), Spain (20)
 
 ## Data
 

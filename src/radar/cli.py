@@ -1,5 +1,6 @@
 from __future__ import annotations
 import argparse
+from pathlib import Path
 from datetime import date
 from radar import config
 from radar.store import Store
@@ -99,15 +100,23 @@ def _people(args) -> int:
         written = render_people_briefs(surfaces, seed, config.SCOUT_DIR, date.today())
         print(f"{len(written)} briefs in {config.SCOUT_DIR / 'people_briefs'}")
         return 0
-    incoming = []
+    from radar.coverage import record_sweep
+
+    added, quarantined = [], []
     for f in args.files:
         data = _json.loads(open(f).read())
-        incoming += data.get("people", []) if isinstance(data, dict) else data
-    seed, added, quarantined = merge_people(seed, incoming)
+        found = data.get("people", []) if isinstance(data, dict) else data
+        surface = Path(f).stem.removeprefix("find_")
+        seed, a, q = merge_people(seed, found)
+        added += a
+        quarantined += q
+        record_sweep(
+            config.LEDGER_PATH, "people", surface, len(found), len(a), date.today().isoformat()
+        )
     config.PEOPLE_SEED_PATH.write_text(_json.dumps(seed, indent=1, ensure_ascii=False) + "\n")
     (config.SCOUT_DIR / "people_quarantine.json").write_text(_json.dumps(quarantined, indent=2))
     print(f"added {len(added)}: {', '.join(p['name'] for p in added)}")
-    for state in ("duplicate", "rejected"):
+    for state in ("review", "duplicate", "rejected"):
         hits = [q for q in quarantined if q["state"] == state]
         if hits:
             print(

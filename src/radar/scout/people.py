@@ -54,7 +54,8 @@ RULES = """## Who counts
    press article, podcast episode page.
 2. A search-results URL (bing, google, duckduckgo) is never a source.
 3. short_description states only what the sources say. If the role may be past tense, say so
-   and set company_is_current to false.
+   there and set company_is_current to null. false prints "(former)" on the site, so use it
+   only when a source says the person has left, and then put "Former" in the role.
 4. Plain ASCII punctuation only. No em dashes, en dashes or curly quotes.
 """
 
@@ -88,6 +89,7 @@ def merge_people(
 ) -> tuple[list[dict], list[dict], list[dict]]:
     """Returns (seed, added, quarantined). Dedupes on (name, company) and on LinkedIn slug."""
     keys = {_key(p) for p in seed}
+    names = {k[0] for k in keys}
     slugs = {_linkedin_slug(p.get("linkedin")) for p in seed} - {""}
     added, quarantined = [], []
 
@@ -103,11 +105,19 @@ def merge_people(
         if _key(p) in keys or (slug and slug in slugs):
             reject(p, "already tracked", "duplicate")
             continue
+        if _key(p)[0] in names:
+            reject(p, "same name as a tracked person, different employer", "review")
+            continue
         problem = _evidence_problem(p)
         if problem:
             reject(p, problem)
             continue
+        # false renders "(former)"; unless the role says so it is only "unconfirmed"
+        role = (p.get("role") or "").lower()
+        if p.get("company_is_current") is False and "former" not in role and "ex-" not in role:
+            p = {**p, "company_is_current": None}
         keys.add(_key(p))
+        names.add(_key(p)[0])
         if slug:
             slugs.add(slug)
         added.append(p)

@@ -47691,5 +47691,5029 @@
     ],
     "country": "India",
     "scope": "beverage-native"
+  },
+  {
+    "name": "Steve Janoo",
+    "domain": null,
+    "hq_location": "London, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "enterprise data, analytics and ai",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Steve Janoo (Chief Data Analytics Officer and Digital Technology SVP, Diageo)",
+    "people": [
+      {
+        "name": "Steve Janoo",
+        "role": "Chief Data Analytics Officer and Digital Technology SVP, Diageo",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Chief Data Analytics Officer at Diageo, listed in the DataIQ 100 Brands in 2024 (EMEA) and 2025 (Europe). DataIQ describes him as shaping Diageo through data, analytics, insights and AI, with data literacy programmes and advanced analytics across the spirits portfolio.",
+    "source_urls": [
+      "https://www.dataiq.global/dataiq100/steve-janoo-chief-data-analytics-officer-and-digital-technology-senior-vice-president-diageo/",
+      "https://www.dataiq.global/dataiq100/steve-janoo-chief-data-analytics-officer-diageo-plc/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Diageo",
+    "affiliated_company_current": true,
+    "key": "steve-janoo::united-kingdom",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Steve McCrystal",
+    "domain": null,
+    "hq_location": "London, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "digital, data and ai strategy",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Steve McCrystal (Chief Digital Information Officer, Diageo)",
+    "people": [
+      {
+        "name": "Steve McCrystal",
+        "role": "Chief Digital Information Officer, Diageo",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Appointed Diageo Chief Digital Information Officer in January 2026, tasked with the company's digital and data strategy and AI-led transformation across demand generation and fulfilment. Previously SVP Global Business Services at Diageo and a Unilever technology leader.",
+    "source_urls": [
+      "https://creativebrandsmag.com/diageo-taps-steve-mccrystal-to-lead-ai-driven-digital-transformation/",
+      "https://www.storyboard18.com/amp/brand-makers/diageo-appoints-steve-mccrystal-as-chief-digital-information-officer-to-lead-ai-and-data-push-93025.htm"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Diageo",
+    "affiliated_company_current": true,
+    "key": "steve-mccrystal::united-kingdom",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ewan Andrew",
+    "domain": null,
+    "hq_location": "United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "cask maturation and inventory optimisation",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ewan Andrew (President, Global Supply Chain and Procurement and Chief Sustainability Officer, Diageo)",
+    "people": [
+      {
+        "name": "Ewan Andrew",
+        "role": "President, Global Supply Chain and Procurement and Chief Sustainability Officer, Diageo",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Leads Diageo's global supply chain and procurement. Diginomica (August 2026) quotes him on Diageo's Spirits Intelligence Platform, an AI data platform for cask maturation modelling, Angel's Share loss reduction, warehouse digital twins and demand-led inventory allocation.",
+    "source_urls": [
+      "https://diginomica.com/sip-success-how-large-dram-ai-has-pepped-diageos-whisky-production-processes",
+      "https://www.diageo.com/en/our-business/executive-committee/ewan-andrew"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Diageo",
+    "affiliated_company_current": true,
+    "key": "ewan-andrew::united-kingdom",
+    "theme": "Supply chain",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Matthew Crow",
+    "domain": null,
+    "hq_location": "Scotland, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "cask maturation prediction",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Matthew Crow (Research Partnerships Manager, Global Technical, Diageo)",
+    "people": [
+      {
+        "name": "Matthew Crow",
+        "role": "Research Partnerships Manager, Global Technical, Diageo",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Research partnerships manager in Diageo's Global Technical team, quoted in 2023 on the Diageo and Heriot-Watt project to build a machine learning tool that predicts which barrels to use and for how long to reach target whisky flavour. Role is as of 2023 and may have changed.",
+    "source_urls": [
+      "https://thewhiskeywash.com/whiskey-styles/scotch-whiskey/diageo-heriot-watt-university-project-peeks-into-whisky-maturation-magic/",
+      "https://www.hw.ac.uk/news/2023/diageo-and-heriot-watt-project-to-give-a-sneak-peek-into-the-magic-of-whisky-maturation"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Diageo",
+    "affiliated_company_current": false,
+    "key": "matthew-crow::united-kingdom",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Martin McCoustra",
+    "domain": null,
+    "hq_location": "Edinburgh, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "cask spectroscopy for maturation modelling",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Martin McCoustra (Professor, Heriot-Watt University)",
+    "people": [
+      {
+        "name": "Martin McCoustra",
+        "role": "Professor, Heriot-Watt University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Heriot-Watt professor who coordinated the cross-disciplinary team on the 2023 Diageo whisky maturation project, using imaging and spectroscopy of barrels to feed a machine learning tool predicting maturation outcomes.",
+    "source_urls": [
+      "https://thewhiskeywash.com/whiskey-styles/scotch-whiskey/diageo-heriot-watt-university-project-peeks-into-whisky-maturation-magic/",
+      "https://www.hw.ac.uk/news/2023/diageo-and-heriot-watt-project-to-give-a-sneak-peek-into-the-magic-of-whisky-maturation"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Heriot-Watt University",
+    "affiliated_company_current": true,
+    "key": "martin-mccoustra::united-kingdom",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Annie Hill",
+    "domain": null,
+    "hq_location": "Edinburgh, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "maturation prediction and carbon footprint tooling",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Annie Hill (Professor of Brewing and Distilling, ICBD, Heriot-Watt University)",
+    "people": [
+      {
+        "name": "Annie Hill",
+        "role": "Professor of Brewing and Distilling, ICBD, Heriot-Watt University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Professor at Heriot-Watt's International Centre for Brewing and Distilling. Worked on the Diageo machine learning whisky maturation project (2023) and co-authored the 2025 Journal of the Institute of Brewing paper behind the AI4Whisky carbon footprint calculator.",
+    "source_urls": [
+      "https://jib.cibd.org.uk/index.php/jib/article/view/77",
+      "https://www.hw.ac.uk/news/2023/diageo-and-heriot-watt-project-to-give-a-sneak-peek-into-the-magic-of-whisky-maturation"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "whiskey"
+    ],
+    "affiliated_company": "Heriot-Watt University",
+    "affiliated_company_current": true,
+    "key": "annie-hill::united-kingdom",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML",
+      "ESG & sustainability"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Shiwen Zhuang",
+    "domain": null,
+    "hq_location": "Edinburgh, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "distillery carbon footprint calculator",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Shiwen Zhuang (Researcher, ICBD, Heriot-Watt University)",
+    "people": [
+      {
+        "name": "Shiwen Zhuang",
+        "role": "Researcher, ICBD, Heriot-Watt University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Heriot-Watt ICBD researcher specialising in beverage and biotech industries. Lead author of the 2025 Journal of the Institute of Brewing paper on a web-based carbon footprint calculator for single malt Scotch whisky production (AI4Whisky).",
+    "source_urls": [
+      "https://jib.cibd.org.uk/index.php/jib/article/view/77",
+      "https://www.hw.ac.uk/news/blog/2026/why-data-and-ai-are-central-to-realising-brewing-and-distillings-decarbonisation-targets"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Heriot-Watt University",
+    "affiliated_company_current": true,
+    "key": "shiwen-zhuang::united-kingdom",
+    "theme": "ESG & sustainability",
+    "capabilities": [
+      "ESG & sustainability"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Luo Mai",
+    "domain": null,
+    "hq_location": "Edinburgh, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "distillery carbon footprint calculator",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Luo Mai (Researcher, School of Informatics, University of Edinburgh)",
+    "people": [
+      {
+        "name": "Luo Mai",
+        "role": "Researcher, School of Informatics, University of Edinburgh",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "University of Edinburgh informatics researcher and co-author, with Heriot-Watt ICBD, of the 2025 paper introducing the AI4Whisky carbon footprint calculator for Scotch whisky distilleries.",
+    "source_urls": [
+      "https://jib.cibd.org.uk/index.php/jib/article/view/77",
+      "https://www.hw.ac.uk/news/blog/2026/why-data-and-ai-are-central-to-realising-brewing-and-distillings-decarbonisation-targets"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "University of Edinburgh",
+    "affiliated_company_current": true,
+    "key": "luo-mai::united-kingdom",
+    "theme": "ESG & sustainability",
+    "capabilities": [
+      "ESG & sustainability"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Nathan Skillen",
+    "domain": null,
+    "hq_location": "Edinburgh, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "data and ai for decarbonisation",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Nathan Skillen (Assistant Professor of Sustainability, ICBD, Heriot-Watt University)",
+    "people": [
+      {
+        "name": "Nathan Skillen",
+        "role": "Assistant Professor of Sustainability, ICBD, Heriot-Watt University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Assistant Professor of Sustainability at Heriot-Watt's International Centre for Brewing and Distilling. Wrote in 2026 for Heriot-Watt and The Brewers Journal on why data and AI are central to brewing and distilling decarbonisation, citing the AI4Whisky calculator.",
+    "source_urls": [
+      "https://www.brewersjournal.info/why-data-and-ai-are-key-to-realising-brewings-decarbonisation-targets/",
+      "https://www.hw.ac.uk/news/blog/2026/why-data-and-ai-are-central-to-realising-brewing-and-distillings-decarbonisation-targets"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "whiskey"
+    ],
+    "affiliated_company": "Heriot-Watt University",
+    "affiliated_company_current": true,
+    "key": "nathan-skillen::united-kingdom",
+    "theme": "ESG & sustainability",
+    "capabilities": [
+      "AI & ML",
+      "ESG & sustainability"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Lei Su",
+    "domain": null,
+    "hq_location": "London, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "grape ripeness sensing",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Lei Su (Professor of Photonics, Queen Mary University of London)",
+    "people": [
+      {
+        "name": "Lei Su",
+        "role": "Professor of Photonics, Queen Mary University of London",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Co-inventor of RipenAI, a portable optical sensor using machine learning to estimate grape ripeness on the vine, field trialled with Saffron Grange Vineyard in Essex (announced January 2026).",
+    "source_urls": [
+      "https://www.eurekalert.org/news-releases/1114771",
+      "https://www.newfoodmagazine.com/queen-mary-university-of-london-develops-handheld-ai-grape-ripeness-sensor-for-winemakers/2132942.article"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Queen Mary University of London",
+    "affiliated_company_current": true,
+    "key": "lei-su::united-kingdom",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Xuechun Wang",
+    "domain": null,
+    "hq_location": "London, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "grape ripeness sensing",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Xuechun Wang (Post-doctoral Researcher, Queen Mary University of London)",
+    "people": [
+      {
+        "name": "Xuechun Wang",
+        "role": "Post-doctoral Researcher, Queen Mary University of London",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "QMUL post-doc specialising in machine learning for intelligent sensors and co-inventor of RipenAI, a handheld optical grape ripeness sensor trialled at Saffron Grange Vineyard (2026).",
+    "source_urls": [
+      "https://www.eurekalert.org/news-releases/1114771",
+      "https://www.newfoodmagazine.com/queen-mary-university-of-london-develops-handheld-ai-grape-ripeness-sensor-for-winemakers/2132942.article"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Queen Mary University of London",
+    "affiliated_company_current": true,
+    "key": "xuechun-wang::united-kingdom",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Rob McInerney",
+    "domain": null,
+    "hq_location": "London, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "ai beer recipe development from consumer feedback",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Rob McInerney (Co-founder, IntelligentX)",
+    "people": [
+      {
+        "name": "Rob McInerney",
+        "role": "Co-founder, IntelligentX",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Oxford machine learning PhD who co-founded London's IntelligentX, which brewed beers whose recipes were iterated by an algorithm fed by customer feedback via a chatbot. IntelligentX is reported as closed, so this is past tense.",
+    "source_urls": [
+      "https://www.beeradvocate.com/articles/14417/beer-by-robot-london-company-brews-using-ai/",
+      "https://www.newsweek.com/robo-beer-worlds-first-beer-brewed-artificial-intelligence-480341"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "IntelligentX",
+    "affiliated_company_current": false,
+    "key": "rob-mcinerney::united-kingdom",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Matt Ovenden",
+    "domain": null,
+    "hq_location": "London, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "ai wine recommendation",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Matt Ovenden (Founder, The Wine Engine)",
+    "people": [
+      {
+        "name": "Matt Ovenden",
+        "role": "Founder, The Wine Engine",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Serial entrepreneur (Borrow a Boat) who founded The Wine Engine in 2025, a UK wine club built on GrapevineAI, an OpenAI-powered digital sommelier trained on 600+ wines that gives personalised recommendations and pairings.",
+    "source_urls": [
+      "https://techinformed.com/the-wine-engine-qa-matt-ovenden/",
+      "https://www.money.co.uk/business/case-studies/the-wine-engine"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "The Wine Engine",
+    "affiliated_company_current": true,
+    "key": "matt-ovenden::united-kingdom",
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Kevin Verstrepen",
+    "domain": null,
+    "hq_location": "Leuven, Belgium",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "machine learning beer flavour and consumer appreciation prediction",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Kevin Verstrepen (Professor, KU Leuven; Director, VIB-KU Leuven Center for Microbiology and Leuven Institute for Beer Research)",
+    "people": [
+      {
+        "name": "Kevin Verstrepen",
+        "role": "Professor, KU Leuven; Director, VIB-KU Leuven Center for Microbiology and Leuven Institute for Beer Research",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Professor at KU Leuven and director of the VIB-KU Leuven Center for Microbiology and the Leuven Institute for Beer Research. Senior author of the 2024 Nature Communications paper that trained machine learning models on chemical and sensory data from 250 Belgian beers to predict aroma and consumer appreciation. The work, part-sponsored by AB InBev, was used to improve a commercial Belgian ale and to design aroma blends for alcohol-free beer.",
+    "source_urls": [
+      "https://press.vib.be/ai-predicts-the-taste-and-quality-of-beer",
+      "https://pubmed.ncbi.nlm.nih.gov/38531860/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "VIB-KU Leuven Center for Microbiology",
+    "affiliated_company_current": true,
+    "key": "kevin-verstrepen::belgium",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Belgium",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Michiel Schreurs",
+    "domain": null,
+    "hq_location": "Leuven, Belgium",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "machine learning beer flavour prediction",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Michiel Schreurs (Lead author, VIB-KU Leuven Center for Microbiology (as of 2024))",
+    "people": [
+      {
+        "name": "Michiel Schreurs",
+        "role": "Lead author, VIB-KU Leuven Center for Microbiology (as of 2024)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Lead author of the 2024 Nature Communications study 'Predicting and improving complex beer flavor through machine learning', carried out at the VIB-KU Leuven Center for Microbiology. The models predicted beer aromas and appreciation scores from chemical measurements of 250 beers. His current role after the study is not confirmed.",
+    "source_urls": [
+      "https://press.vib.be/ai-predicts-the-taste-and-quality-of-beer",
+      "https://pubmed.ncbi.nlm.nih.gov/38531860/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "VIB-KU Leuven Center for Microbiology",
+    "affiliated_company_current": false,
+    "key": "michiel-schreurs::belgium",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Belgium",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Luk Daenen",
+    "domain": null,
+    "hq_location": "Leuven, Belgium",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "machine learning beer flavour prediction",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Luk Daenen (Global Director Yeast & Fermentation, AB InBev)",
+    "people": [
+      {
+        "name": "Luk Daenen",
+        "role": "Global Director Yeast & Fermentation, AB InBev",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Global Director Yeast & Fermentation at AB InBev's Global Innovation & Technology Center in Leuven, where he oversees the Global Yeast Bank (2019 AB InBev release). Co-author, with AB InBev affiliation, of the 2024 Nature Communications paper using machine learning to predict and improve beer flavour from 250 Belgian beers.",
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/38531860/",
+      "https://www.webwire.com/ViewPressRel.asp?aId=250295"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "AB InBev",
+    "affiliated_company_current": true,
+    "key": "luk-daenen::belgium",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Belgium",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Jochen Forster",
+    "domain": null,
+    "hq_location": "Copenhagen, Denmark",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "sensor and ai flavour fingerprinting of beer",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Jochen Forster (Director and Professor Yeast Fermentation, Carlsberg Research Laboratory (as of 2017))",
+    "people": [
+      {
+        "name": "Jochen Forster",
+        "role": "Director and Professor Yeast Fermentation, Carlsberg Research Laboratory (as of 2017)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Originator of Carlsberg's Beer Fingerprinting Project, announced in 2017 as Director and Professor Yeast Fermentation at the Carlsberg Research Laboratory. The project combined sensors from Aarhus University and DTU with Microsoft AI and machine learning to build a flavour fingerprint of beer samples and predict the taste of new beers. His current role is not confirmed.",
+    "source_urls": [
+      "https://news.microsoft.com/europe/2017/12/05/beer-fingerprinting-project-artificial-intelligence-create-next-pint/",
+      "https://tech.au.dk/en/about-the-faculty/news/show/artikel/big-investment-in-beer-research-based-on-sensors-and-artificial-intelligence/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Carlsberg Research Laboratory",
+    "affiliated_company_current": false,
+    "key": "jochen-forster::denmark",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Denmark",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Angela D'Orazio",
+    "domain": null,
+    "hq_location": "Sweden",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "ai-generated whisky recipes curated by master blender",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Angela D'Orazio (Master blender and chief nose officer, Mackmyra (as of 2019-2021))",
+    "people": [
+      {
+        "name": "Angela D'Orazio",
+        "role": "Master blender and chief nose officer, Mackmyra (as of 2019-2021)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Master blender at Swedish distillery Mackmyra, which launched Intelligens in 2019, described as the first whisky created with AI. A Fourkind model on Microsoft Azure generated recipe combinations from Mackmyra's recipes and cask data, and D'Orazio curated the output round by round before selecting recipe No. 36. Her current role is not confirmed.",
+    "source_urls": [
+      "https://news.microsoft.com/source/emea/features/the-story-behind-the-worlds-first-ai-created-whisky/",
+      "https://www.geekwire.com/2019/microsoft-got-creation-worlds-first-whisky-formulated-ai/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Mackmyra",
+    "affiliated_company_current": false,
+    "key": "angela-d-orazio::sweden",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Sweden",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Jarno Kartela",
+    "domain": null,
+    "hq_location": "Finland",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "generative ai whisky recipe formulation",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Jarno Kartela (Principal Machine Learning Partner, Fourkind (as of 2019))",
+    "people": [
+      {
+        "name": "Jarno Kartela",
+        "role": "Principal Machine Learning Partner, Fourkind (as of 2019)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Principal machine learning partner at Finnish consultancy Fourkind, which built the Azure Machine Learning model that generated recipes for Mackmyra's Intelligens whisky in 2019. The model evaluated more than 70 million combinations from Mackmyra's original recipes. His current role is not confirmed.",
+    "source_urls": [
+      "https://news.microsoft.com/source/emea/features/the-story-behind-the-worlds-first-ai-created-whisky/",
+      "https://www.geekwire.com/2019/microsoft-got-creation-worlds-first-whisky-formulated-ai/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Fourkind",
+    "affiliated_company_current": false,
+    "key": "jarno-kartela::finland",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML",
+      "Consultancy & services"
+    ],
+    "country": "Finland",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ronald den Elzen",
+    "domain": null,
+    "hq_location": "Amsterdam, Netherlands",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "enterprise ai for revenue management and sales execution",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ronald den Elzen (Chief Digital and Technology Officer, HEINEKEN)",
+    "people": [
+      {
+        "name": "Ronald den Elzen",
+        "role": "Chief Digital and Technology Officer, HEINEKEN",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Heineken's first Chief Digital and Technology Officer, appointed in 2020 after roles including MD of Heineken USA. Leads Heineken's AI programme across revenue management, commercial mix optimisation and sales execution, and the Global Generative AI Lab launched in Singapore. Discussed Heineken's AI use on MIT Sloan Management Review's podcast.",
+    "source_urls": [
+      "https://sloanreview.mit.edu/audio/how-a-160-year-old-startup-uses-ai-the-heineken-companys-ronald-den-elzen/",
+      "https://www.aidataanalytics.network/data-science-ai/articles/how-heineken-is-brewing-innovation-with-ai",
+      "https://www.rsm.nl/discovery/2024/how-heineken-wins-with-ai/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "HEINEKEN",
+    "affiliated_company_current": true,
+    "key": "ronald-den-elzen::netherlands",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Netherlands",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Andrea Diebold",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "ai analytics products for brewing operations and sales",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Andrea Diebold (Head of Global Analytics Products, HEINEKEN)",
+    "people": [
+      {
+        "name": "Andrea Diebold",
+        "role": "Head of Global Analytics Products, HEINEKEN",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Head of Global Analytics Products at Heineken, quoted in the company's 'Brewing with AI' newsroom piece on integrating AI products into operations. Her stated goal is that AI tools are seamlessly integrated into operations and widely adopted by end users.",
+    "source_urls": [
+      "https://www.aidataanalytics.network/data-science-ai/articles/how-heineken-is-brewing-innovation-with-ai",
+      "https://www.theheinekencompany.com/newsroom/brewing-with-ai/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "HEINEKEN",
+    "affiliated_company_current": true,
+    "key": "andrea-diebold::unknown",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Jelle van Etten",
+    "domain": null,
+    "hq_location": "Amsterdam, Netherlands",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "global data platform and data shared service",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Jelle van Etten (Head of Global Data, HEINEKEN)",
+    "people": [
+      {
+        "name": "Jelle van Etten",
+        "role": "Head of Global Data, HEINEKEN",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Head of Global Data at Heineken, interviewed by diginomica in July 2025 on the data modernisation and global shared service model for data he has led. Earlier, as head of global data platform, he led the B1 Analytics Enablement Platform on AWS, ingesting data from around 50 SAP environments.",
+    "source_urls": [
+      "https://diginomica.com/cdo-interview-jelle-van-etten-brews-heinekens-data-standards",
+      "https://lemongrasscloud.com/case-studies/heineken/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "HEINEKEN",
+    "affiliated_company_current": true,
+    "key": "jelle-van-etten::netherlands",
+    "theme": "Process & operations",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "Netherlands",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Thomas Becker",
+    "domain": null,
+    "hq_location": "Freising, Germany",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "neural network soft sensors for fermentation monitoring",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Thomas Becker (Professor, Chair of Brewing and Beverage Technology, TUM Weihenstephan)",
+    "people": [
+      {
+        "name": "Thomas Becker",
+        "role": "Professor, Chair of Brewing and Beverage Technology, TUM Weihenstephan",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Holds the Chair of Brewing and Beverage Technology at TUM Weihenstephan since 2009. His group publishes on machine learning for process monitoring, including a 2025 paper predicting Saccharomyces cell counts from ultrasonic measurements with artificial neural networks, and PAT-based fermentation monitoring in brewing (BrewPAT).",
+    "source_urls": [
+      "https://www.lse.ls.tum.de/en/bgt/publikationen/reviewed-paper/",
+      "https://www.lse.ls.tum.de/en/bgt/staff/thomas-becker/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Technical University of Munich",
+    "affiliated_company_current": true,
+    "key": "thomas-becker::germany",
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Jochen Vestner",
+    "domain": null,
+    "hq_location": "Geisenheim, Germany",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "digitalisation and ai in winemaking",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Jochen Vestner (Professor of Oenology, Hochschule Geisenheim University)",
+    "people": [
+      {
+        "name": "Jochen Vestner",
+        "role": "Professor of Oenology, Hochschule Geisenheim University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Took over the professorship of oenology at Hochschule Geisenheim on 1 August 2026, after leading wine aroma research at DLR Rheinpfalz. He aims to connect digitalisation, artificial intelligence and process automation with winemaking research and practice.",
+    "source_urls": [
+      "https://idw-online.de/en/news875762",
+      "https://www.hs-geisenheim.de/en/research/overview/mit-forschung-praxis-und-innovation-in-die-zukunft-prof-dr-jochen-vestner-uebernimmt-professur-fuer-oenologie"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Hochschule Geisenheim University",
+    "affiliated_company_current": true,
+    "key": "jochen-vestner::germany",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Rene Wostmann",
+    "domain": null,
+    "hq_location": "Dortmund, Germany",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "machine learning process optimisation in breweries",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Rene Wostmann (Project coordinator DaPro, RIF Institut fur Forschung und Transfer (as of 2022-2023))",
+    "people": [
+      {
+        "name": "Rene Wostmann",
+        "role": "Project coordinator DaPro, RIF Institut fur Forschung und Transfer (as of 2022-2023)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Coordinator of DaPro, a German federally funded project on data-driven process optimisation with machine learning in the beverage industry, with Bitburger Braugruppe and Augustiner-Brau as users. Co-author of the 2023 BRAUWELT International series 'Machine learning in breweries', which included a malt yield prediction model at Bitburger.",
+    "source_urls": [
+      "https://brauwelt.com/en/topics/management/645761-machine-learning-in-breweri-es-part-2-straightforward-introduction-to-ai",
+      "https://www.dapro-projekt.de/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "RIF Institut fur Forschung und Transfer e.V.",
+    "affiliated_company_current": false,
+    "key": "rene-wostmann::germany",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Josef Kimberger",
+    "domain": null,
+    "hq_location": "Bitburg, Germany",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "malt yield prediction and model monitoring",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Josef Kimberger (Bitburger Braugruppe (DaPro project, as of 2022-2023))",
+    "people": [
+      {
+        "name": "Josef Kimberger",
+        "role": "Bitburger Braugruppe (DaPro project, as of 2022-2023)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Presented, for Bitburger Braugruppe, the DaPro malt yield prediction use case and model monitoring tools at Predictive Analytics World 2022. Co-author of the 2023 BRAUWELT International articles on machine learning in breweries. Current role is not confirmed.",
+    "source_urls": [
+      "https://brauwelt.com/en/topics/management/645761-machine-learning-in-breweri-es-part-2-straightforward-introduction-to-ai",
+      "https://dapro-projekt.de/2022/10/07/predictive-analytics-world-2022-for-industry-4-0-konferenz-in-berlin/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Bitburger Braugruppe",
+    "affiliated_company_current": false,
+    "key": "josef-kimberger::germany",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Mads Andersen",
+    "domain": null,
+    "hq_location": "Copenhagen, Denmark",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "sensor and algorithm fermentation monitoring",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Mads Andersen (Co-founder and former CTO, Zymoscope)",
+    "people": [
+      {
+        "name": "Mads Andersen",
+        "role": "Co-founder and former CTO, Zymoscope",
+        "linkedin": "https://www.linkedin.com/in/mads-andersen-021998182"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Co-founder and CTO of Copenhagen startup Zymoscope, which builds a fermentation management platform of tank-mounted sensors, algorithms and an app for breweries, piloted with microbreweries Empirical and Flying Couch. The platform's algorithms assess when a beer has finished fermenting and compare batches. Later described as former CTO.",
+    "source_urls": [
+      "https://startupmafia.eu/startup-of-the-week-were-one-of-the-worlds-most-beer-brewing-countries-new-technology-will-make-us-one-of-the-best",
+      "https://thehub.io/startups/biranalyzers-aps"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/mads-andersen-021998182",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine"
+    ],
+    "affiliated_company": "Zymoscope",
+    "affiliated_company_current": false,
+    "key": "mads-andersen::denmark",
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Denmark",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Pierre-Yves Calloc'h",
+    "domain": null,
+    "hq_location": "Paris, France",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "sales force recommendations and marketing mix optimisation",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Pierre-Yves Calloc'h (Global Chief Digital Officer, Pernod Ricard)",
+    "people": [
+      {
+        "name": "Pierre-Yves Calloc'h",
+        "role": "Global Chief Digital Officer, Pernod Ricard",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Global Chief Digital Officer at Pernod Ricard, interviewed by CDO Magazine in July 2025 on the group's AI strategy. He launched Pernod Ricard's data and AI programme and describes use cases in field sales recommendations, marketing mix, pricing and promotion optimisation and brand placement in outlets.",
+    "source_urls": [
+      "https://londonspiritscompetition.com/en/blog/interviews-2518/pernod-ricards-ai-transformation-with-pierre-yves-calloch-634.htm",
+      "https://www.cdomagazine.tech/aiml/the-biggest-complexity-with-ai-is-identifying-the-right-use-cases-pernod-ricard-global-chief-digital-officer",
+      "https://www.just-drinks.com/interviews/pernod-ricard-ai-chief-digital-officer-interview/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey",
+      "wine"
+    ],
+    "affiliated_company": "Pernod Ricard",
+    "affiliated_company_current": true,
+    "key": "pierre-yves-calloc-h::france",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "France",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Caroline Connan",
+    "domain": null,
+    "hq_location": "Paris, France",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "enterprise data and ai foundations",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Caroline Connan (Global Chief Data Officer, Pernod Ricard)",
+    "people": [
+      {
+        "name": "Caroline Connan",
+        "role": "Global Chief Data Officer, Pernod Ricard",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Named Global Chief Data Officer of Pernod Ricard in June 2026, joining from Forvia where she was group chief data officer. She reports to the global CIO and is tasked with the group's business-oriented data and AI strategy.",
+    "source_urls": [
+      "https://retailtechinnovationhub.com/home/2026/7/27/pernod-ricard-hires-caroline-connan-as-cdo-and-mauve-croizat-as-executive-vp-finance-technology",
+      "https://www.cio-online.com/actualites/lire-pernod-ricard-nomme-caroline-connan-au-poste-de-global-chief-data-officer-17078.html"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey",
+      "wine"
+    ],
+    "affiliated_company": "Pernod Ricard",
+    "affiliated_company_current": true,
+    "key": "caroline-connan::france",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "France",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Baptiste Bon",
+    "domain": null,
+    "hq_location": "Paris, France",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "forecasting, distribution and marketing effectiveness",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Baptiste Bon (Head of Data & AI Demand and Value, Moet Hennessy)",
+    "people": [
+      {
+        "name": "Baptiste Bon",
+        "role": "Head of Data & AI Demand and Value, Moet Hennessy",
+        "linkedin": "https://www.linkedin.com/in/databybbon/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Leads Data & AI strategy and value at Moet Hennessy, the wine and spirits division of LVMH. Spoke at the CDOIQ European Symposium 2024 on maximising value from data and AI, with priorities in forecast improvement, distribution optimisation and marketing effectiveness.",
+    "source_urls": [
+      "https://cdoiq-europe.org/2024/07/baptiste-bon-head-of-data-ai-demand-and-value-at-moet-hennessy/",
+      "https://www.linkedin.com/in/databybbon/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/databybbon/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "Moet Hennessy",
+    "affiliated_company_current": true,
+    "key": "baptiste-bon::france",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "France",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Paul-Mehdy M'Rabet",
+    "domain": null,
+    "hq_location": "Paris, France",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "data and ai centre of expertise",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Paul-Mehdy M'Rabet (Former Head of Data & AI Center of Expertise, Moet Hennessy)",
+    "people": [
+      {
+        "name": "Paul-Mehdy M'Rabet",
+        "role": "Former Head of Data & AI Center of Expertise, Moet Hennessy",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Listed as Head of Data & AI center of expertise at Moet Hennessy and speaker at its Data & AI Day in June 2023, and interviewed in September 2024 on the DeepTalk podcast about AI for innovation at Moet Hennessy. Current employment not confirmed, so the role may be past.",
+    "source_urls": [
+      "https://podcast.ausha.co/yunik/paul-mehdy-m-rabet-head-of-data-ai-atmoet-hennessy-l-ia-au-service-de-l-innovation",
+      "https://www.data-ai-day.moethennessy.com/speaker/24e27905-5fee-ed11-907a-000d3a474dec/paul-mehdy-m-rabet"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "Moet Hennessy",
+    "affiliated_company_current": false,
+    "key": "paul-mehdy-m-rabet::france",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "France",
+    "scope": "horizontal"
+  },
+  {
+    "name": "Sebastien Huet",
+    "domain": null,
+    "hq_location": "Paris, France",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "real-time sales and production data platform",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Sebastien Huet (Digital & Data Director, Remy Cointreau (as of 2021))",
+    "people": [
+      {
+        "name": "Sebastien Huet",
+        "role": "Digital & Data Director, Remy Cointreau (as of 2021)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Joined Remy Cointreau in 2015 and was promoted from CTO to Digital & Data Director in August 2021. As CTO he led the move of SAP to Google Cloud with a BigQuery connection giving live analysis of customer and production data. Current role not confirmed after 2021.",
+    "source_urls": [
+      "https://www.cio-online.com/actualites/lire-sebastien-huet-promu-digital-et-data-director-de-remy-cointreau-13453.html",
+      "https://www.larevuedudigital.com/remy-cointreau-accelere-enfin-lacces-a-ses-donnees-clients-et-de-production/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Remy Cointreau",
+    "affiliated_company_current": false,
+    "key": "sebastien-huet::france",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "France",
+    "scope": "horizontal"
+  },
+  {
+    "name": "Laura Gil",
+    "domain": null,
+    "hq_location": "Barcelona, Spain",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "data and ai hub for hospitality customer service",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Laura Gil (Chief Digital and Data Officer, Damm)",
+    "people": [
+      {
+        "name": "Laura Gil",
+        "role": "Chief Digital and Data Officer, Damm",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Chief Digital and Data Officer of Damm, the Barcelona brewer. In March 2025 she presented IAmm, Damm's data and AI hub of about 100 professionals, aimed at democratising data access and applying AI across the company including service to hospitality customers.",
+    "source_urls": [
+      "https://cronicaglobal.elespanol.com/vida/20250303/damm-presenta-iamm-hub-datos-inteligencia-artificial/928407251_0.html",
+      "https://www.dammcorporate.com/en/damm-presents-iamm-its-data-and-artificial-intelligence-hub"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Damm",
+    "affiliated_company_current": true,
+    "key": "laura-gil::spain",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Spain",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Guillermo Arrieta",
+    "domain": null,
+    "hq_location": "Madrid, Spain",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "end-to-end data products and generative ai",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Guillermo Arrieta (General Manager of Transformation and Information Systems, Mahou San Miguel)",
+    "people": [
+      {
+        "name": "Guillermo Arrieta",
+        "role": "General Manager of Transformation and Information Systems, Mahou San Miguel",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Heads transformation, information systems, data and knowledge and the application of AI at Mahou San Miguel, after earlier roles there in commercial intelligence and a career that included Diageo. In an October 2025 El Espanol interview he described data as the brewer's 'new yeast' and AI as the bridge from data to action.",
+    "source_urls": [
+      "https://www.elespanol.com/invertia/disruptores/grandes-actores/corporaciones/20251002/guillermo-arrieta-cio-mahou-san-miguel-nueva-levadura-dato/1003743949916_0.html",
+      "https://www.mahou-sanmiguel.com/es-es/sala-de-prensa/notas-de-prensa/guillermo-arrieta-nuevo-director-general-de-transformacion-y-sistemas-de-informacion"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Mahou San Miguel",
+    "affiliated_company_current": true,
+    "key": "guillermo-arrieta::spain",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Spain",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Javier Tardaguila",
+    "domain": null,
+    "hq_location": "Logrono, Spain",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "vineyard robotics and deep learning disease detection",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Javier Tardaguila (Full Professor of Precision Viticulture, University of La Rioja)",
+    "people": [
+      {
+        "name": "Javier Tardaguila",
+        "role": "Full Professor of Precision Viticulture, University of La Rioja",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Full Professor of Precision Viticulture at the University of La Rioja and lead of the Televitis group. He coordinated the VineRobot EU project and publishes on AI for grapevines, including deep learning disease detection from RGB images and computer vision yield prediction.",
+    "source_urls": [
+      "https://investigacion.unirioja.es/investigadores/184/detalle?lang=en",
+      "https://link.springer.com/article/10.1007/s11119-022-09950-y",
+      "https://researchgate.net/publication/376266516_Using_artificial_intelligence_AI_for_grapevine_disease_detection_based_on_images"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "University of La Rioja (Televitis)",
+    "affiliated_company_current": true,
+    "key": "javier-tardaguila::spain",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Spain",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Maria Paz Diago",
+    "domain": null,
+    "hq_location": "Logrono, Spain",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "computer vision yield and cluster assessment",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Maria Paz Diago (Associate Professor, University of La Rioja (Televitis))",
+    "people": [
+      {
+        "name": "Maria Paz Diago",
+        "role": "Associate Professor, University of La Rioja (Televitis)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Profesora Titular at the University of La Rioja in the Televitis precision viticulture group, where she leads spectral data analysis and modelling. Co-author of machine learning and computer vision work on early grape yield prediction and non-invasive cluster compactness assessment.",
+    "source_urls": [
+      "https://doi.org/10.3390/s19173799",
+      "https://investigacion.unirioja.es/investigadores/313/detalle",
+      "https://link.springer.com/article/10.1007/s11119-022-09950-y"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "University of La Rioja",
+    "affiliated_company_current": true,
+    "key": "maria-paz-diago::spain",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Spain",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Charles Nespoulous",
+    "domain": null,
+    "hq_location": "Paris and Begles, France",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "drone and camera vine health detection",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Charles Nespoulous (Co-founder, Chouette)",
+    "people": [
+      {
+        "name": "Charles Nespoulous",
+        "role": "Co-founder, Chouette",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Co-founded Chouette in 2015 with Cyril de Chassey after both worked at Airbus. Chouette analyses drone and tractor-mounted camera imagery of vineyards with AI to assess vigour, missing vines and disease and to recommend treatments; a June 2023 report quotes him as co-founder with an office at Begles near Bordeaux.",
+    "source_urls": [
+      "https://france3-regions.blog.franceinfo.fr/cote-chateaux/2023/06/07/chouette-sinstalle-a-begles-quand-lintelligence-artificielle-sinvite-dans-la-vigne.html",
+      "https://www.frenchweb.fr/fw-radar-chouette-la-start-up-qui-surveille-les-vignes-via-un-drone/323724"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Chouette",
+    "affiliated_company_current": true,
+    "key": "charles-nespoulous::france",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "France",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Stefano Poni",
+    "domain": null,
+    "hq_location": "Piacenza, Italy",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "deep learning pruning region detection",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Stefano Poni (Full Professor of Viticulture, Universita Cattolica del Sacro Cuore)",
+    "people": [
+      {
+        "name": "Stefano Poni",
+        "role": "Full Professor of Viticulture, Universita Cattolica del Sacro Cuore",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Professor of viticulture at the Department of Sustainable Crop Production, Universita Cattolica del Sacro Cuore, Piacenza. Co-author with the Istituto Italiano di Tecnologia of deep learning work detecting pruning regions and segmenting organs in dormant grapevines toward automated winter pruning.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10032262/",
+      "https://sciprofiles.com/profile/3183"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Universita Cattolica del Sacro Cuore",
+    "affiliated_company_current": true,
+    "key": "stefano-poni::italy",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML",
+      "ESG & sustainability"
+    ],
+    "country": "Italy",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Bhuvan Panwar",
+    "domain": null,
+    "hq_location": "Prague, Czech Republic",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "ai trade promotion optimisation and automation",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Bhuvan Panwar (Head of Emerging Tech Innovation & Automation, Asahi Europe & International)",
+    "people": [
+      {
+        "name": "Bhuvan Panwar",
+        "role": "Head of Emerging Tech Innovation & Automation, Asahi Europe & International",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Head of Emerging Tech Innovation & Automation at Asahi Europe & International (the Asahi beer business that owns Plzensky Prazdroj and Kompania Piwowarska), listed as Prague-based. EY names him among the Asahi leads on an AI-enabled trade promotion optimisation tool built on Azure machine learning, used across five European markets by 2025. He speaks on moving AI and automation from POC to production at AI and agentic AI conferences.",
+    "source_urls": [
+      "https://theorg.com/org/asahi-europe-international/org-chart/bhuvan-panwar",
+      "https://www.aidataanalytics.network/events-agentic-ai-summit/speakers/bhuvan-panwar",
+      "https://www.ey.com/en_us/alliances/asahi-ai-transformation"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Asahi Europe & International",
+    "affiliated_company_current": true,
+    "key": "bhuvan-panwar::czech-republic",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "Czech Republic",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Tomas Drahonovsky",
+    "domain": null,
+    "hq_location": "Plzen, Czech Republic",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "generative ai recipe design",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Tomas Drahonovsky (Development Manager and head of the Volba sladku programme, Plzensky Prazdroj)",
+    "people": [
+      {
+        "name": "Tomas Drahonovsky",
+        "role": "Development Manager and head of the Volba sladku programme, Plzensky Prazdroj",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Development manager at Plzensky Prazdroj and head of its Volba sladku special-beer programme. He led Cybeer, which Prazdroj describes as the first Czech beer where AI (ChatGPT) was involved in recipe design and marketing, refined over five test batches. He spoke on AI in brewing at the Technica Futura conference in Plzen.",
+    "source_urls": [
+      "https://plzen.eu/o-meste/aktuality/aktuality-z-mesta/technica-futura-predstavi-plzenanum-umelou-inteligenci/",
+      "https://www.prazdroj.cz/poprve-v-cesku-sladci-prazdroje-vytvorili-pivo-pro-volbu-sladku-s-pomoci-umele-inteligence"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Plzensky Prazdroj",
+    "affiliated_company_current": true,
+    "key": "tomas-drahonovsky::czech-republic",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Czech Republic",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Tomas Vrzal",
+    "domain": null,
+    "hq_location": "Prague, Czech Republic",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "beer sensory stability prediction from infrared spectra",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Tomas Vrzal (Head of Analytical Laboratory, Research Institute of Brewing and Malting)",
+    "people": [
+      {
+        "name": "Tomas Vrzal",
+        "role": "Head of Analytical Laboratory, Research Institute of Brewing and Malting",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Head of the analytical laboratory at the Research Institute of Brewing and Malting in Prague and one of its technology transfer specialists. His research profile lists current projects on predicting the sensory stability of beer with infrared spectroscopy and artificial intelligence, and on using AI for compound identification.",
+    "source_urls": [
+      "https://beerresearch.cz/en/home/research-development-innovation/",
+      "https://www.researchgate.net/profile/Tomas-Vrzal"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Research Institute of Brewing and Malting (RIBM)",
+    "affiliated_company_current": true,
+    "key": "tomas-vrzal::czech-republic",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Czech Republic",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Jitka Kumhalova",
+    "domain": null,
+    "hq_location": "Prague, Czech Republic",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "uav multispectral hop yield and alpha acid prediction",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Jitka Kumhalova (Researcher, Faculty of Engineering, Czech University of Life Sciences Prague)",
+    "people": [
+      {
+        "name": "Jitka Kumhalova",
+        "role": "Researcher, Faculty of Engineering, Czech University of Life Sciences Prague",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Researcher at the Czech University of Life Sciences Prague and co-author, with the Hop Research Institute Zatec, of a 2025 Remote Sensing study using four years of UAV multispectral imagery to predict hop yield and alpha acid content. The study found vegetation indices explain up to 61% of hop yield variation.",
+    "source_urls": [
+      "https://doi.org/10.3390/rs17060970",
+      "https://www.mdpi.com/2072-4292/17/6/970"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Czech University of Life Sciences Prague",
+    "affiliated_company_current": true,
+    "key": "jitka-kumhalova::czech-republic",
+    "theme": "Agriculture & crop",
+    "capabilities": [],
+    "country": "Czech Republic",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Radim Tvrdon",
+    "domain": null,
+    "hq_location": "Prague, Czech Republic",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "conversational ai training for bartenders",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Radim Tvrdon (Co-founder, WeBoard)",
+    "people": [
+      {
+        "name": "Radim Tvrdon",
+        "role": "Co-founder, WeBoard",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Co-founder, with Martin Moznar and Jan Sebesta, of the Prague startup WeBoard, which builds conversational AI trainers. WeBoard built a tool for Plzensky Prazdroj that uses AI to train over four thousand Czech bartenders to pour and serve beer correctly.",
+    "source_urls": [
+      "https://www.e15.cz/byznys/technologie-a-media/umela-inteligence-nauci-tisice-vycepnich-cepovat-pivo-startup-weboard-expanduje-do-zahranici-1395953",
+      "https://www.lupa.cz/aktuality/ceska-skolici-virtualni-asistentka-aila-od-weboardu-ziskava-investici-deset-milionu/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "WeBoard",
+    "affiliated_company_current": true,
+    "key": "radim-tvrdon::czech-republic",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Czech Republic",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Marta Sidorkiewicz",
+    "domain": null,
+    "hq_location": "Szczecin, Poland",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "ai adoption in viticulture, winemaking and enotourism",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Marta Sidorkiewicz (Researcher, Institute of Management, University of Szczecin)",
+    "people": [
+      {
+        "name": "Marta Sidorkiewicz",
+        "role": "Researcher, Institute of Management, University of Szczecin",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Lead author of a 2025 study on AI-driven management in viticulture, wine production and enotourism, based on a survey of 75 Polish wineries. The paper covers predictive analytics, machine learning and computer vision for vineyards and wineries and finds most Polish winemakers do not yet use AI.",
+    "source_urls": [
+      "https://arxiv.org/abs/2507.21098",
+      "https://www.researchgate.net/publication/394101061_Artificial_intelligence_for_sustainable_wine_industry_AI-driven_management_in_viticulture_wine_production_and_enotourism"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "University of Szczecin",
+    "affiliated_company_current": true,
+    "key": "marta-sidorkiewicz::poland",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Poland",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Lucia Cintia Colibaba",
+    "domain": null,
+    "hq_location": "Iasi, Romania",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "cnn grapevine cultivar recognition",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Lucia Cintia Colibaba (Researcher, Faculty of Horticulture, Ion Ionescu de la Brad Iasi University of Life Sciences)",
+    "people": [
+      {
+        "name": "Lucia Cintia Colibaba",
+        "role": "Researcher, Faculty of Horticulture, Ion Ionescu de la Brad Iasi University of Life Sciences",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Researcher at the Faculty of Horticulture of Iasi University of Life Sciences and lead author of a study building an AI recognition tool for 10 indigenous Romanian wine grape cultivars, including Feteasca alba and Grasa de Cotnari, using Xception convolutional neural networks on leaf images. Co-authors include Valeriu V. Cotea and Liliana Rotaru.",
+    "source_urls": [
+      "https://doi.org/10.1007/978-3-032-22615-0_10",
+      "https://www.uaiasi.ro/horticultura/CV_CColibaba.php"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Iasi University of Life Sciences",
+    "affiliated_company_current": true,
+    "key": "lucia-cintia-colibaba::romania",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Romania",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Marta Ladanyi",
+    "domain": null,
+    "hq_location": "Budapest, Hungary",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "wine origin and variety classification from nmr data",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Marta Ladanyi (Researcher, Department of Applied Statistics, Hungarian University of Agriculture and Life Sciences)",
+    "people": [
+      {
+        "name": "Marta Ladanyi",
+        "role": "Researcher, Department of Applied Statistics, Hungarian University of Agriculture and Life Sciences",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Applied statistician at the Hungarian University of Agriculture and Life Sciences and co-author, with the Institute of Viticulture and Oenology, of a study applying machine learning to 1H NMR spectra of 861 Hungarian wines to separate grape variety and wine region effects.",
+    "source_urls": [
+      "https://doi.org/10.3390/d14020074",
+      "https://www.mdpi.com/1424-2818/14/2/74"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Hungarian University of Agriculture and Life Sciences (MATE)",
+    "affiliated_company_current": true,
+    "key": "marta-ladanyi::hungary",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Hungary",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Matic Serc",
+    "domain": null,
+    "hq_location": "Gornja Radgona, Slovenia",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "iot vineyard data and disease spray advice",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Matic Serc (Founder and CEO, eVineyard (Elmibit))",
+    "people": [
+      {
+        "name": "Matic Serc",
+        "role": "Founder and CEO, eVineyard (Elmibit)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founded eVineyard in Gornja Radgona, Slovenia in 2014, vineyard management software that combines in-vineyard IoT microclimate data with analysis and advice for on-time spraying and irrigation. eVineyard serves about 100 organisations and 1300 vineyards and was later acquired by vintrace, so his current role may have changed.",
+    "source_urls": [
+      "https://vintrace.com/vintrace-evineyard-bringing-the-winery-and-vineyard-closer-than-ever",
+      "https://www.crunchbase.com/person/matic-serc",
+      "https://www.evineyardapp.com/blog/2024/01/25/10-years-of-growth-evineyards-evolution-in-transforming-viticulture/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "eVineyard",
+    "affiliated_company_current": false,
+    "key": "matic-serc::slovenia",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "Slovenia",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Katerina Axelsson",
+    "domain": null,
+    "hq_location": "California, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "wine chemistry and consumer palate prediction",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Katerina Axelsson (Founder and CEO, Tastry)",
+    "people": [
+      {
+        "name": "Katerina Axelsson",
+        "role": "Founder and CEO, Tastry",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founder and CEO of Tastry, a sensory science company combining AI, machine learning and chemistry with consumer data. A Cal Poly chemistry graduate, she analysed wine compounds and used AI to model how they create flavour profiles, powering a retail wine recommendation app and palate data used by wineries for blending, targeting and distribution decisions.",
+    "source_urls": [
+      "https://edition.cnn.com/2021/05/28/business/tastry-wine-ai-spc-intl/index.html",
+      "https://mag.sommtv.com/2022/03/katerina-axelsson/",
+      "https://www.wineenthusiast.com/culture/wine/katerina-axelsson-tastry-on-teaching-computers-to-taste-wine/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Tastry",
+    "affiliated_company_current": true,
+    "key": "katerina-axelsson::usa",
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Jason Cohen",
+    "domain": null,
+    "hq_location": "State College, Pennsylvania, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "flavour drift and consumer preference prediction",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Jason Cohen (Founder and Chief Scientist, Gastrograph AI (Analytical Flavor Systems))",
+    "people": [
+      {
+        "name": "Jason Cohen",
+        "role": "Founder and Chief Scientist, Gastrograph AI (Analytical Flavor Systems)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founder of Analytical Flavor Systems, which became Gastrograph AI, an AI platform modelling sensory perception and consumer preference. Press coverage describes the platform helping brewers detect flavour drift, flaws and batch deviations and decide which flavours consumers want in their next beer. Earlier sources title him CEO; later coverage lists him as Chief Scientist.",
+    "source_urls": [
+      "https://agfundernews.com/gastrograph-ai-closes-4m-series-a-to-predict-consumer-flavor-preferences",
+      "https://datainnovation.org/2018/07/5-qs-for-jason-cohen-ceo-of-analytical-flavor-systems/",
+      "https://www.craftbrewingbusiness.com/news/analytical-flavor-systems-creates-artificial-intelligence-for-predictive-manufacturing-in-beverage-industry/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Gastrograph AI (Analytical Flavor Systems)",
+    "affiliated_company_current": true,
+    "key": "jason-cohen::usa",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Terry Bates",
+    "domain": null,
+    "hq_location": "Portland, New York, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "precision viticulture spatial data and crop load modelling",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Terry Bates (Director, Cornell Lake Erie Research and Extension Laboratory, Cornell AgriTech)",
+    "people": [
+      {
+        "name": "Terry Bates",
+        "role": "Director, Cornell Lake Erie Research and Extension Laboratory, Cornell AgriTech",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Leads the Efficient Vineyard project, a USDA-funded national precision viticulture effort for wine, juice and table grapes that measures soil, canopy and crop data with sensors, models it spatially and drives variable-rate management. Cornell reported in 2024 that the Efficient Vineyard tools had passed 1,000 farm users.",
+    "source_urls": [
+      "https://cals.cornell.edu/news/2024/05/cornells-digital-viticulture-tools-help-grape-growers-worldwide",
+      "https://graperesearch.org/research/projects/vineyard-efficiency-through-highresolution-spatiotemporal-crop-load-measurement-and-management/",
+      "https://www.efficientvineyard.com/overview"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Cornell University",
+    "affiliated_company_current": true,
+    "key": "terry-bates::usa",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Mason Earles",
+    "domain": null,
+    "hq_location": "Davis, California, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "computer vision vineyard yield estimation and disease detection",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Mason Earles (Assistant Professor, Viticulture and Enology and Biological and Agricultural Engineering, UC Davis)",
+    "people": [
+      {
+        "name": "Mason Earles",
+        "role": "Assistant Professor, Viticulture and Enology and Biological and Agricultural Engineering, UC Davis",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "UC Davis assistant professor applying machine learning and computer vision to vineyards, including ATV-mounted systems that estimate yield in real time and work on detecting leaf reddening in wine grapes. He is a cofounder of the AI farm management platform Scout, which counts and measures grape clusters to forecast yield, and previously worked as a data science engineer at Apple. He is also listed in AIFS leadership.",
+    "source_urls": [
+      "https://aifs.ucdavis.edu/about/people/mason-earles",
+      "https://caes.ucdavis.edu/news/bringing-big-data-vineyard",
+      "https://wineserver.ucdavis.edu/people/mason-earles"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "University of California, Davis",
+    "affiliated_company_current": true,
+    "key": "mason-earles::usa",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Katie Gold",
+    "domain": null,
+    "hq_location": "Geneva, New York, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "hyperspectral early grape disease detection",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Katie Gold (Assistant Professor of Grape Pathology, Cornell AgriTech)",
+    "people": [
+      {
+        "name": "Katie Gold",
+        "role": "Assistant Professor of Grape Pathology, Cornell AgriTech",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Leads the GrapeSPEC lab at Cornell AgriTech, combining plant pathology, machine learning and remote sensing for grape disease sensing. Her team built HyperBird, a hyperspectral imaging system reported in 2026 to detect grapevine mildew days before symptoms are visible, and she is co-PI with Yu Jiang on vineyard robotics work.",
+    "source_urls": [
+      "https://digitalagriculture.cornell.edu/faculty/katie-gold",
+      "https://news.cornell.edu/stories/2026/09/hyperbird-spots-grape-diseases-theyre-visible",
+      "https://www.news.cornell.edu/stories/2022/11/autonomous-robots-help-modernize-grape-wine-industry"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Cornell University",
+    "affiliated_company_current": true,
+    "key": "katie-gold::usa",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Yu Jiang",
+    "domain": null,
+    "hq_location": "Geneva, New York, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "autonomous vineyard robots and grapevine phenotyping",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Yu Jiang (Assistant Professor, School of Integrative Plant Science, Cornell AgriTech)",
+    "people": [
+      {
+        "name": "Yu Jiang",
+        "role": "Assistant Professor, School of Integrative Plant Science, Cornell AgriTech",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Leads the Cyber-Agricultural Intelligence and Robotics lab at Cornell AgriTech, working on systems engineering, data analytics and AI for specialty crops. He develops autonomous vineyard robots that use computer vision to gather per-vine data for the grape and wine industry, and is a senior author on the 2026 HyperBird grape disease imaging work.",
+    "source_urls": [
+      "https://news.cornell.edu/stories/2021/08/facial-recognition-ai-helps-save-multibillion-dollar-grape-crop",
+      "https://news.cornell.edu/stories/2026/09/hyperbird-spots-grape-diseases-theyre-visible",
+      "https://www.news.cornell.edu/stories/2022/11/autonomous-robots-help-modernize-grape-wine-industry"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Cornell University",
+    "affiliated_company_current": true,
+    "key": "yu-jiang::usa",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Luca Brillante",
+    "domain": null,
+    "hq_location": "Fresno, California, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "hyperspectral and machine learning grapevine virus detection",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Luca Brillante (Bronco Endowed Chair in Viticulture Research and Associate Professor of Viticulture, California State University, Fresno)",
+    "people": [
+      {
+        "name": "Luca Brillante",
+        "role": "Bronco Endowed Chair in Viticulture Research and Associate Professor of Viticulture, California State University, Fresno",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Viticulture researcher at Fresno State working on precision viticulture, remote sensing, AI and data analytics. He leads a hyperspectral imaging project using machine learning to detect grapevine leafroll and red blotch virus infections in vineyards, and is a listed speaker at the 2026 WIN Expo conference.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10036814/",
+      "https://progressivecrop.com/2024/11/24/developing-new-technologies-to-monitor-virus-infected-vines-in-the-vineyard/",
+      "https://wineindustryexpo.com/conference/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "California State University, Fresno",
+    "affiliated_company_current": true,
+    "key": "luca-brillante::usa",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Yifeng Li",
+    "domain": null,
+    "hq_location": "St. Catharines, Ontario, Canada",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "early grapevine virus detection from images",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Yifeng Li (Associate Professor of Computer Science, Brock University)",
+    "people": [
+      {
+        "name": "Yifeng Li",
+        "role": "Associate Professor of Computer Science, Brock University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Brock University computer scientist and Canada Research Chair in machine learning who built an AI model to detect grapevine viruses early from smartphone and hyperspectral images collected at Niagara farms. The work sits under CCOVI's VINO Solutions initiative and aims at a grower app; it was presented at CCOVI Knowledge Transfer Day in 2026.",
+    "source_urls": [
+      "https://brocku.ca/brock-news/2021/11/ccovi-research-looks-to-specialized-camera-technology-for-early-detection-of-grapevine-viruses/",
+      "https://brocku.ca/brock-news/2026/07/ai-virus-detection-among-research-shared-at-ccovi-knowledge-transfer-day/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Brock University",
+    "affiliated_company_current": true,
+    "key": "yifeng-li::canada",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Canada",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Amit Parulekar",
+    "domain": null,
+    "hq_location": "USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "enterprise ai strategy and governance",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Amit Parulekar (Director, Global Advanced Analytics and AI Strategy, Brown-Forman)",
+    "people": [
+      {
+        "name": "Amit Parulekar",
+        "role": "Director, Global Advanced Analytics and AI Strategy, Brown-Forman",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Leads Brown-Forman's global data science team as Director of Advanced Analytics and AI Strategy, including an AI Centre of Excellence and a hybrid AI governance model. He presented on generative AI in the alcohol beverage industry at NABCA's 30th Annual Administrator's Conference and was interviewed in NABCA's generative AI series.",
+    "source_urls": [
+      "https://www.cdomagazine.tech/aiml/us-canada-video-ai-is-not-a-substitute-for-business-strategy-brown-forman-director-of-advanced-analytics-and-ai-strategy",
+      "https://www.nabca.org/ai-beverage-alcohol-marketplace",
+      "https://www.nabca.org/news-release/nabca-explores-generative-ai-alcohol-marketplace-part-2"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Brown-Forman",
+    "affiliated_company_current": true,
+    "key": "amit-parulekar::usa",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Gabriel Sanchez",
+    "domain": null,
+    "hq_location": "California, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "generative ai adoption",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Gabriel Sanchez (Director of Innovation and Artificial Intelligence, E. and J. Gallo Winery)",
+    "people": [
+      {
+        "name": "Gabriel Sanchez",
+        "role": "Director of Innovation and Artificial Intelligence, E. and J. Gallo Winery",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Director of Innovation and Artificial Intelligence at Gallo, interviewed in NABCA's series on generative AI in beverage alcohol about its opportunities and challenges. Current status is taken from the NABCA pages, which are undated.",
+    "source_urls": [
+      "https://www.nabca.org/ai-beverage-alcohol-marketplace",
+      "https://www.nabca.org/news-release/nabca-explores-generative-ai-alcohol-marketplace-part-2"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "E. and J. Gallo Winery",
+    "affiliated_company_current": true,
+    "key": "gabriel-sanchez::usa",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Sanjay Shringarpure",
+    "domain": null,
+    "hq_location": "California, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "vineyard harvest data app and gis",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Sanjay Shringarpure (Chief Information Officer, E. and J. Gallo Winery (as of 2019))",
+    "people": [
+      {
+        "name": "Sanjay Shringarpure",
+        "role": "Chief Information Officer, E. and J. Gallo Winery (as of 2019)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Was CIO of E. and J. Gallo Winery (joined 2014). In 2017 he led a mobile app for grower representatives to collect grape data in vineyards and schedule harvests, with plans to overlay GIS and satellite imagery; a 2019 interview covers Gallo's IT transformation and Wine OS platform. Current role not verified.",
+    "source_urls": [
+      "https://www.cio.com/article/230368/e-j-gallo-deploys-data-driven-app-to-harvest-a-better-grape.html",
+      "https://www.metisstrategy.com/interview/sanjay-shringarpure/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "E. and J. Gallo Winery",
+    "affiliated_company_current": false,
+    "key": "sanjay-shringarpure::usa",
+    "theme": "Agriculture & crop",
+    "capabilities": [],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Mario Elias M. Vieira",
+    "domain": null,
+    "hq_location": "Brazil",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "enterprise ai strategy and analytics at a brewer",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Mario Elias M. Vieira (Director of Data & Analytics, Ambev Tech)",
+    "people": [
+      {
+        "name": "Mario Elias M. Vieira",
+        "role": "Director of Data & Analytics, Ambev Tech",
+        "linkedin": "https://www.linkedin.com/in/mario-elias-m-vieira/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Mario Elias M. Vieira is Director of Data & Analytics at Ambev Tech and spoke at TDC Summit Sao Paulo 2026 on how Ambev uses AI to scale the business of the world's largest brewer. In a 2022 interview he was Analytics Manager for Supply Chain & Capabilities at Ambev, describing analytics training programmes and AI-powered chatbots for internal learning.",
+    "source_urls": [
+      "https://liga.ventures/insights/entrevistas/mario-vieira-analytics-manager-supply-chain-capabilities-na-ambev/",
+      "https://thedevconf.com/tdc/2026/summit-sao-paulo/programacao"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/mario-elias-m-vieira/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Ambev Tech (Ambev)",
+    "affiliated_company_current": true,
+    "key": "mario-elias-m-vieira::brazil",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "Brazil",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Bruno Stefani",
+    "domain": null,
+    "hq_location": "Brazil",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "ai process control and predictive assortment",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Bruno Stefani (Head of Innovation, Ambev (as of 2022))",
+    "people": [
+      {
+        "name": "Bruno Stefani",
+        "role": "Head of Innovation, Ambev (as of 2022)",
+        "linkedin": "https://www.linkedin.com/in/brunonstefani/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Bruno Stefani was Head of Innovation at Ambev in a September 2022 interview. He described AI technologies that increase process-control precision for product quality, big data analytics to raise productivity and cut losses, and a partnership with Symphony RetailAI using predictive algorithms to personalise assortment by location. His current role is not confirmed.",
+    "source_urls": [
+      "https://liga.ventures/insights/entrevistas/bruno-stefani-head-de-inovacao-da-cervejaria-ambev/",
+      "https://www.linkedin.com/in/brunonstefani/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/brunonstefani/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Ambev",
+    "affiliated_company_current": false,
+    "key": "bruno-stefani::brazil",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Brazil",
+    "scope": "horizontal"
+  },
+  {
+    "name": "Rodrigo Furriel",
+    "domain": null,
+    "hq_location": "Brazil",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "ai advanced process control in brewhouse",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Rodrigo Furriel (Coordinator, Cervejaria do Futuro, Ambev (as of 2023))",
+    "people": [
+      {
+        "name": "Rodrigo Furriel",
+        "role": "Coordinator, Cervejaria do Futuro, Ambev (as of 2023)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Rodrigo Furriel was coordinator of Ambev's Cervejaria do Futuro (Brewery of the Future) programme in 2023 press coverage. He spoke for Ambev on the rollout of iSystems' Leaf AI control software across 76 pieces of equipment, credited with a 70% reduction in the standard deviation of brewhouse evaporation rate and a 4% cut in plant energy use.",
+    "source_urls": [
+      "https://tiinside.com.br/29/08/2023/ambev-impulsiona-eficiencia-na-producao-com-implementacao-de-ia/",
+      "https://www.apras.org.br/noticias/ambev-impulsiona-eficiencia-na-producao-com-implementacao-de-ia-pela-isystems/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Ambev",
+    "affiliated_company_current": false,
+    "key": "rodrigo-furriel::brazil",
+    "theme": "Engineering & equipment",
+    "capabilities": [
+      "AI & ML",
+      "ESG & sustainability"
+    ],
+    "country": "Brazil",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Danilo Halla",
+    "domain": null,
+    "hq_location": "Campinas, Brazil",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "ai advanced process control for brewing",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Danilo Halla (Co-CEO and co-founder, iSystems)",
+    "people": [
+      {
+        "name": "Danilo Halla",
+        "role": "Co-CEO and co-founder, iSystems",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Danilo Halla is Co-CEO of iSystems, a Brazilian industrial AI company whose Leaf platform performs AI-based advanced process control. Press coverage in 2023 reported that more than half of Ambev's beer in Brazil passes through at least one iSystems technology, with Leaf running on 76 pieces of Ambev equipment.",
+    "source_urls": [
+      "https://isystems.ai/leaf/",
+      "https://tiinside.com.br/29/08/2023/ambev-impulsiona-eficiencia-na-producao-com-implementacao-de-ia/",
+      "https://www.apras.org.br/noticias/ambev-impulsiona-eficiencia-na-producao-com-implementacao-de-ia-pela-isystems/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "iSystems",
+    "affiliated_company_current": true,
+    "key": "danilo-halla::brazil",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Brazil",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ricardo Luna",
+    "domain": null,
+    "hq_location": "Pencahue, Chile",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "ml fermentation time and wine quality prediction",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ricardo Luna (Leader, Smart Winery / Intelligent Wine Industry programme, Centro de Investigacion e Innovacion, Vina Concha y Toro)",
+    "people": [
+      {
+        "name": "Ricardo Luna",
+        "role": "Leader, Smart Winery / Intelligent Wine Industry programme, Centro de Investigacion e Innovacion, Vina Concha y Toro",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Ricardo Luna leads the Smart Winery programme at Concha y Toro's Research and Innovation Center. He built a digital platform on SAP BTP that uses predictive algorithms to simulate fermentation times and wine quality from grape analysis, deployed at the Lourdes and Lolol wineries and given an honourable mention at the 2023 SAP Innovation Awards. A 2026 Xinhua report still names him as the centre's R&D&I engineering representative.",
+    "source_urls": [
+      "http://spanish.peopledaily.com.cn/n3/2026/0729/c31617-20483096.html",
+      "https://forbes.cl/tecnologia/2023-06-06/inteligencia-artificial-machine-learning-produccion-vinos-conchaytoro",
+      "https://www.eldinamo.cl/mundo/2023/07/06/vina-concha-y-toro-recibe-mencion-honrosa-en-los-sap-innovation-awards/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Vina Concha y Toro",
+    "affiliated_company_current": true,
+    "key": "ricardo-luna::chile",
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "Chile",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Sebastian Vargas",
+    "domain": null,
+    "hq_location": "Pencahue, Chile",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "data-driven irrigation recommendations for vineyards",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Sebastian Vargas (R&D Leader, Viticulture and Oenology, Centro de Investigacion e Innovacion, Vina Concha y Toro)",
+    "people": [
+      {
+        "name": "Sebastian Vargas",
+        "role": "R&D Leader, Viticulture and Oenology, Centro de Investigacion e Innovacion, Vina Concha y Toro",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Sebastian Vargas leads viticulture and climate change R&D at Concha y Toro's Research and Innovation Center. He developed a platform that combines geographic data and weather-station networks to recommend irrigation amounts, reported at 18% water savings over 1,116 hectares. A 2026 report says the company's 12,000 planted hectares are digitised and he uses the variables to predict impacts and improve irrigation.",
+    "source_urls": [
+      "http://spanish.peopledaily.com.cn/n3/2026/0729/c31617-20483096.html",
+      "https://forbes.cl/tecnologia/2023-06-06/inteligencia-artificial-machine-learning-produccion-vinos-conchaytoro"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Vina Concha y Toro",
+    "affiliated_company_current": true,
+    "key": "sebastian-vargas::chile",
+    "theme": "Agriculture & crop",
+    "capabilities": [],
+    "country": "Chile",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Samuel Ortega-Farias",
+    "domain": null,
+    "hq_location": "Talca, Chile",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "ml evapotranspiration models for vineyard irrigation",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Samuel Ortega-Farias (Director, CITRA (Research and Extension Center for Irrigation and Agroclimatology), Universidad de Talca)",
+    "people": [
+      {
+        "name": "Samuel Ortega-Farias",
+        "role": "Director, CITRA (Research and Extension Center for Irrigation and Agroclimatology), Universidad de Talca",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Samuel Ortega-Farias is a researcher at CITRA, Universidad de Talca. He co-authored a 2024 Agricultural Water Management paper building machine learning models to estimate actual evapotranspiration and energy balance in Talca vineyards for precision irrigation, and a 2022 Remote Sensing paper on UAV-based evapotranspiration mapping in vineyards.",
+    "source_urls": [
+      "https://doi.org/10.3390/rs14092259",
+      "https://ideas.repec.org/a/eee/agiwat/v297y2024ics0378377424001690.html"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Universidad de Talca",
+    "affiliated_company_current": true,
+    "key": "samuel-ortega-farias::chile",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Chile",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Fernando Fuentes-Penailillo",
+    "domain": null,
+    "hq_location": "Talca, Chile",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "iot and sensor networks for wine grape irrigation",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Fernando Fuentes-Penailillo (Researcher, Instituto de Investigacion Interdisciplinaria (I3), Universidad de Talca)",
+    "people": [
+      {
+        "name": "Fernando Fuentes-Penailillo",
+        "role": "Researcher, Instituto de Investigacion Interdisciplinaria (I3), Universidad de Talca",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Fernando Fuentes-Penailillo is a researcher at Universidad de Talca working on agricultural automation and low-cost sensing. He is lead author of a 2023 Sensors paper on a smart crop water stress index IoT system for precision irrigation of wine grapes, and of a 2023 paper on a low-cost wireless sensor network to monitor vine flowering.",
+    "source_urls": [
+      "https://doi.org/10.1016/j.compag.2021.106233",
+      "https://doi.org/10.3390/s24010025"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Universidad de Talca",
+    "affiliated_company_current": true,
+    "key": "fernando-fuentes-penailillo::chile",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "Chile",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Sigfredo Fuentes",
+    "domain": null,
+    "hq_location": "Monterrey, Mexico",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "ml beer and wine quality and sensory prediction",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Sigfredo Fuentes (Distinguished Visiting Professor, Digital Agriculture and Food Sciences, Tecnologico de Monterrey)",
+    "people": [
+      {
+        "name": "Sigfredo Fuentes",
+        "role": "Distinguished Visiting Professor, Digital Agriculture and Food Sciences, Tecnologico de Monterrey",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Sigfredo Fuentes is a Distinguished Visiting Professor at Tecnologico de Monterrey and Associate Professor at the University of Melbourne, working on AI, machine learning and digital agriculture, including Mexican wine quality. He co-authored a 2025 paper using through-bottle spectroscopy and machine learning for beer authentication and quality control, and a 2026 study of Mexican beers, both with a Tec de Monterrey affiliation.",
+    "source_urls": [
+      "https://doi.org/10.1016/j.foodres.2026.119037",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11745409/",
+      "https://tec.mx/en/our-faculty/eic/sigfredo-fuentes"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine"
+    ],
+    "affiliated_company": "Tecnologico de Monterrey",
+    "affiliated_company_current": true,
+    "key": "sigfredo-fuentes::mexico",
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Mexico",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Carmen Hernandez-Brenes",
+    "domain": null,
+    "hq_location": "Monterrey, Mexico",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "ml beer authentication, fault detection and consumer liking",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Carmen Hernandez-Brenes (Researcher, Escuela de Ingenieria y Ciencias, Tecnologico de Monterrey)",
+    "people": [
+      {
+        "name": "Carmen Hernandez-Brenes",
+        "role": "Researcher, Escuela de Ingenieria y Ciencias, Tecnologico de Monterrey",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Carmen Hernandez-Brenes is a researcher at Tecnologico de Monterrey's School of Engineering and Sciences. She co-authored a 2025 study using non-invasive through-bottle spectroscopy and machine learning for beer authentication and quality control, and studies on consumer liking of Mexican commercial beers that combine chemometrics and sensometrics (2024, 2026).",
+    "source_urls": [
+      "https://doi.org/10.1002/fsn3.4066",
+      "https://doi.org/10.1016/j.foodres.2026.119037",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11745409/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Tecnologico de Monterrey",
+    "affiliated_company_current": true,
+    "key": "carmen-hernandez-brenes::mexico",
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Mexico",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Carlos Poblete-Echeverria",
+    "domain": null,
+    "hq_location": "Stellenbosch, South Africa",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "deep learning and proximal sensing for vineyard phenology and yield",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Carlos Poblete-Echeverria (Associate Professor, Digital Viticulture, South African Grape and Wine Research Institute, Stellenbosch University)",
+    "people": [
+      {
+        "name": "Carlos Poblete-Echeverria",
+        "role": "Associate Professor, Digital Viticulture, South African Grape and Wine Research Institute, Stellenbosch University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Viticulture and oenology academic at Stellenbosch University. Senior author on a 2025 OENO One paper comparing ResNet-34, YOLOv11 and Vision Transformer models to classify grapevine phenological stages from RGB canopy images, and co-author of a 2019 Sensors paper on 2-D and 3-D proximal remote sensing for vineyard yield estimation.",
+    "source_urls": [
+      "https://doi.org/10.3390/s19173652",
+      "https://oeno-one.eu/article/view/9306"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Stellenbosch University",
+    "affiliated_company_current": true,
+    "key": "carlos-poblete-echeverria::south-africa",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "South Africa",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Albert Strever",
+    "domain": null,
+    "hq_location": "Stellenbosch, South Africa",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "hyperspectral imaging and machine learning for vineyard water stress",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Albert Strever (Lecturer, Agriculture Innovation, Stellenbosch University (South African Grape and Wine Research Institute))",
+    "people": [
+      {
+        "name": "Albert Strever",
+        "role": "Lecturer, Agriculture Innovation, Stellenbosch University (South African Grape and Wine Research Institute)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Stellenbosch University viticulture researcher who co-authored a Remote Sensing paper modelling water stress in a Shiraz vineyard with hyperspectral imaging and machine learning, and a 2024 review of optical remote sensing for precision viticulture. Quoted in 2025 as the university lead on the Telkom, Aizatron and South Africa Wine Smart Agritech platform, with vineyard trials at Welgevallen.",
+    "source_urls": [
+      "https://doi.org/10.3390/ijgi13110385",
+      "https://doi.org/10.3390/rs10020202",
+      "https://www.itweb.co.za/article/smart-agritech-initiative-to-boost-sas-wine-industry/mYZRXM9gwrOvOgA8"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Stellenbosch University",
+    "affiliated_company_current": true,
+    "key": "albert-strever::south-africa",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "South Africa",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Kyle Loggenberg",
+    "domain": null,
+    "hq_location": "Stellenbosch, South Africa",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "machine learning on hyperspectral vineyard imagery",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Kyle Loggenberg (Researcher, Department of Geography and Environmental Studies, Stellenbosch University)",
+    "people": [
+      {
+        "name": "Kyle Loggenberg",
+        "role": "Researcher, Department of Geography and Environmental Studies, Stellenbosch University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Lead author of a Remote Sensing paper that modelled water stress in a Shiraz vineyard using hyperspectral imaging and machine learning, and lead author of a 2024 review of optical remote sensing advances for precision viticulture, both from Stellenbosch University.",
+    "source_urls": [
+      "https://doi.org/10.3390/ijgi13110385",
+      "https://doi.org/10.3390/rs10020202"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Stellenbosch University",
+    "affiliated_company_current": true,
+    "key": "kyle-loggenberg::south-africa",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "South Africa",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Helene Nieuwoudt",
+    "domain": null,
+    "hq_location": "Stellenbosch, South Africa",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "infrared spectroscopy and chemometrics for grape and wine analysis",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Helene Nieuwoudt (Researcher, South African Grape and Wine Research Institute, Stellenbosch University)",
+    "people": [
+      {
+        "name": "Helene Nieuwoudt",
+        "role": "Researcher, South African Grape and Wine Research Institute, Stellenbosch University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "SAGWRI researcher at Stellenbosch University working on infrared spectroscopy with chemometric and multivariate models for grape and wine composition. Co-author of a 2024 Applied Spectroscopy paper on global and specialised near-infrared calibrations for grapevine organs and berry phenological stages.",
+    "source_urls": [
+      "https://doi.org/10.1177/00037028241232004",
+      "https://doi.org/10.3389/fpls.2021.723247"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Stellenbosch University",
+    "affiliated_company_current": true,
+    "key": "helene-nieuwoudt::south-africa",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "South Africa",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Hanjo Odendaal",
+    "domain": null,
+    "hq_location": "Stellenbosch, South Africa",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "nlp and topic modelling on wine reviews",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Hanjo Odendaal (Quant Economist, Bureau for Economic Research; Research Associate, Department of Economics, Stellenbosch University)",
+    "people": [
+      {
+        "name": "Hanjo Odendaal",
+        "role": "Quant Economist, Bureau for Economic Research; Research Associate, Department of Economics, Stellenbosch University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Stellenbosch economist whose listed research interests are machine learning and NLP applied to macroeconomics, wine economics and economic history. Co-authored a 2025 International Journal of Wine Business Research paper analysing 60 million Vivino wine reviews with network analysis and structural topic modelling.",
+    "source_urls": [
+      "https://doi.org/10.1108/ijwbr-06-2025-0039",
+      "https://www.ekon.sun.ac.za/staff/research-fellows/odendaalhanjo"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Bureau for Economic Research, Stellenbosch University",
+    "affiliated_company_current": true,
+    "key": "hanjo-odendaal::south-africa",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "South Africa",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Tara Southey",
+    "domain": null,
+    "hq_location": "Stellenbosch, South Africa",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "high-resolution vineyard climate data platform",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Tara Southey (Founder and CEO, TerraClim)",
+    "people": [
+      {
+        "name": "Tara Southey",
+        "role": "Founder and CEO, TerraClim",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founder and CEO of TerraClim, a Stellenbosch University spin-out that models hyper-local climate for vineyards and orchards from weather station and terrain data. Led the Winetech-funded TerraClim climate database and tool project, and South Africa Wine won a 2026 Western Cape innovation award for funding the platform.",
+    "source_urls": [
+      "https://winetech.co.za/terraclim-2022-climate-database-and-terraclim-tool-development/",
+      "https://www.foodformzansi.co.za/south-africa-wine-wins-top-award-for-climate-intelligence-tech/",
+      "https://www.stellenboschnetwork.co.za/turning-climate-research-into-agricultural-impact/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "TerraClim",
+    "affiliated_company_current": true,
+    "key": "tara-southey::south-africa",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "South Africa",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ansu Sooful",
+    "domain": null,
+    "hq_location": "South Africa",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "ai and iot vineyard monitoring platform",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ansu Sooful (Founder and CEO, Aizatron)",
+    "people": [
+      {
+        "name": "Ansu Sooful",
+        "role": "Founder and CEO, Aizatron",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "CEO of Aizatron, an AI, IoT and cloud provider. Aizatron is a partner with Telkom, Stellenbosch University and South Africa Wine in the Smart Agritech initiative launched in 2025 at Lanzerac Wine Estate, a 5G, AI and IoT platform for real-time vineyard health and resource monitoring.",
+    "source_urls": [
+      "https://stuff.co.za/2025/02/18/telkom-smart-agritech-stellenbosch-aizatron/",
+      "https://www.itweb.co.za/article/smart-agritech-initiative-to-boost-sas-wine-industry/mYZRXM9gwrOvOgA8"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Aizatron",
+    "affiliated_company_current": true,
+    "key": "ansu-sooful::south-africa",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "South Africa",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Corlia van Zyl",
+    "domain": null,
+    "hq_location": "Stellenbosch, South Africa",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "genai adoption and route-to-market analytics",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Corlia van Zyl (Digital and Technology Director, Heineken Beverages South Africa)",
+    "people": [
+      {
+        "name": "Corlia van Zyl",
+        "role": "Digital and Technology Director, Heineken Beverages South Africa",
+        "linkedin": "https://www.linkedin.com/in/corlia-van-zyl-480a3214"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Digital and technology director at Heineken Beverages South Africa (the former Distell), having joined Stellenbosch Farmers Winery in 1995 and later served as Distell group ICT manager. CIO South Africa reports she is introducing AI with governance and training, driving Microsoft Copilot adoption and AI-driven insights with retail partners. Appointed vice-chair of the African SAP User Group in 2025.",
+    "source_urls": [
+      "https://cio-sa.co.za/articles/heineken-beverages-tech-lead-corlia-van-zyl-is-brewing-a-better-world-through-innovation/",
+      "https://news.sap.com/africa/2025/08/afsug-appoints-corlia-van-zyl-as-vice-chair/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/corlia-van-zyl-480a3214",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "Heineken Beverages",
+    "affiliated_company_current": true,
+    "key": "corlia-van-zyl::south-africa",
+    "theme": "GenAI & marketing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "South Africa",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Philomena Aneke",
+    "domain": null,
+    "hq_location": "Lagos, Nigeria",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "digital transformation and erp",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Philomena Aneke (Digital and Technology Director, Nigerian Breweries)",
+    "people": [
+      {
+        "name": "Philomena Aneke",
+        "role": "Digital and Technology Director, Nigerian Breweries",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Digital and Technology Director at Nigerian Breweries since 2020, a HEINEKEN career that began in 1990. Before this role she was BASE Program Manager for Africa, Middle East and the Caribbean, supporting 14 HEINEKEN operating companies with ERP implementation and change management.",
+    "source_urls": [
+      "https://theorg.com/org/nigerian-breweries-plc/org-chart/philomena-aneke",
+      "https://www.nbplc.com/executive-team/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Nigerian Breweries (HEINEKEN)",
+    "affiliated_company_current": true,
+    "key": "philomena-aneke::nigeria",
+    "theme": "Process & operations",
+    "capabilities": [
+      "ERP & systems of record"
+    ],
+    "country": "Nigeria",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Abigail Britton",
+    "domain": null,
+    "hq_location": "Johannesburg, South Africa",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "brewery and draught analytics",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Abigail Britton (Data Science Lead, Anheuser-Busch InBev (Africa), as of 2019)",
+    "people": [
+      {
+        "name": "Abigail Britton",
+        "role": "Data Science Lead, Anheuser-Busch InBev (Africa), as of 2019",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Described in a 2019 Corinium interview as Data Science Lead at AB InBev, joining in 2018 and working across functions on analytics such as brewery boiler steam demand and draught tap optimisation. Listed as a DataCon Africa 2019 speaker. The role may be past tense.",
+    "source_urls": [
+      "https://cdn2.hubspot.net/hubfs/2631050/0216%20DataCon%20Africa%202019/DataCon%20Speakers%20download-1.pdf",
+      "https://www.coriniumintelligence.com/insights/interview-with-abigail-britton"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Anheuser-Busch InBev",
+    "affiliated_company_current": false,
+    "key": "abigail-britton::south-africa",
+    "theme": "Process & operations",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "South Africa",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ilai Englard",
+    "domain": null,
+    "hq_location": "Israel",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "grape yield, quality and harvest timing prediction",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ilai Englard (Founder, Trellis)",
+    "people": [
+      {
+        "name": "Ilai Englard",
+        "role": "Founder, Trellis",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Israeli founder of Trellis, an AI company that helps wineries with growing, harvesting, winemaking and marketing decisions, reported in 2022 as working with Gallo. In 2021 Pernod Ricard Winemakers selected Trellis to predict grape yield, quality, harvest timing and procurement cost across Australia and New Zealand. Current status not confirmed after 2022.",
+    "source_urls": [
+      "https://siliconangle.com/2021/01/26/pernod-ricard-winemakers-taps-trellis-predict-grape-harvests-ai/",
+      "https://www.jpost.com/food-recipes/article-723844"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Trellis",
+    "affiliated_company_current": false,
+    "key": "ilai-englard::israel",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Israel",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Yan Xu",
+    "domain": null,
+    "hq_location": "Wuxi, China",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "baijiu flavour and daqu quality prediction with machine learning",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Yan Xu (Professor, Laboratory of Brewing Microbiology and Applied Enzymology, Jiangnan University)",
+    "people": [
+      {
+        "name": "Yan Xu",
+        "role": "Professor, Laboratory of Brewing Microbiology and Applied Enzymology, Jiangnan University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Corresponding author at Jiangnan University's Laboratory of Brewing Microbiology and Applied Enzymology. Co-authored a 2026 study that built a 2048-sample baijiu flavour database and used machine learning to predict baijiu flavour and quality, and a 2026 study coupling ensemble learning with multi-omics for Daqu quality assessment. Also co-authored a 2026 paper using EEG features and machine learning to analyse consumer preference for whisky.",
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/41956682/",
+      "https://pubmed.ncbi.nlm.nih.gov/42470882/",
+      "https://pubmed.ncbi.nlm.nih.gov/42668646/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Jiangnan University",
+    "affiliated_company_current": true,
+    "key": "yan-xu::china",
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "China",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Xinguang Guo",
+    "domain": null,
+    "hq_location": "Beijing, China",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "interpretable ml for baijiu origin and aroma-type authentication",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Xinguang Guo (Researcher, China National Research Institute of Food and Fermentation Industries)",
+    "people": [
+      {
+        "name": "Xinguang Guo",
+        "role": "Researcher, China National Research Institute of Food and Fermentation Industries",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Corresponding author at the China National Research Institute of Food and Fermentation Industries in Beijing. Published 2026 studies applying interpretable machine learning to SICRIT-Q-TOF-MS data for geographical authentication of sauce-flavour baijiu across 134 samples from 10 provinces, and to GC-FID and GC-MS/MS quantification of 249 compounds for differentiating baijiu aroma types.",
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/42762701/",
+      "https://pubmed.ncbi.nlm.nih.gov/42800105/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "China National Research Institute of Food and Fermentation Industries Co., Ltd.",
+    "affiliated_company_current": true,
+    "key": "xinguang-guo::china",
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "China",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Dan Huang",
+    "domain": null,
+    "hq_location": "Yibin, China",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "deep learning for baijiu fermentation prediction and adulteration detection",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Dan Huang (Researcher, Sichuan University of Science and Engineering and Brewing Science and Technology Key Laboratory of Sichuan Province)",
+    "people": [
+      {
+        "name": "Dan Huang",
+        "role": "Researcher, Sichuan University of Science and Engineering and Brewing Science and Technology Key Laboratory of Sichuan Province",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Senior author on a run of baijiu machine learning papers from Yibin, Sichuan. A 2026 paper built a deep neural network multi-task framework on industrial-scale microbial and physicochemical data to predict the sauce-flavour baijiu pit fermentation process. A 2025 paper combined hyperspectral imaging with PSO-SVM and a CNN-LSTM-Attention network to detect baijiu adulteration.",
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/40541145/",
+      "https://pubmed.ncbi.nlm.nih.gov/42537944/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Sichuan University of Science and Engineering",
+    "affiliated_company_current": true,
+    "key": "dan-huang::china",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "China",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Dongrui Zhao",
+    "domain": null,
+    "hq_location": "Beijing, China",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "machine learning for beer and baijiu flavour factors and grading",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Dongrui Zhao (Researcher, Beijing Technology and Business University)",
+    "people": [
+      {
+        "name": "Dongrui Zhao",
+        "role": "Researcher, Beijing Technology and Business University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Corresponding author at Beijing Technology and Business University working on both beer and baijiu. A 2026 paper integrated flavoromics, sensory analysis and machine learning to map key flavour factors during industrial pale lager fermentation. Another 2026 paper combined HS-GC-IMS with interpretable machine learning to predict the grade of strong-flavour baijiu.",
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/42006646/",
+      "https://pubmed.ncbi.nlm.nih.gov/42195875/",
+      "https://pubmed.ncbi.nlm.nih.gov/42594660/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "whiskey"
+    ],
+    "affiliated_company": "Beijing Technology and Business University",
+    "affiliated_company_current": true,
+    "key": "dongrui-zhao::china",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "China",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Chunlin Zhang",
+    "domain": null,
+    "hq_location": "Renhuai, Guizhou, China",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "ml classification of maotai-flavour base baijiu and daqu",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Chunlin Zhang (Researcher, School of Brewing Engineering, Moutai Institute)",
+    "people": [
+      {
+        "name": "Chunlin Zhang",
+        "role": "Researcher, School of Brewing Engineering, Moutai Institute",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Researcher at the Moutai Institute School of Brewing Engineering, with affiliations to Kweichow Moutai Group laboratories. A 2025 paper used GC-FID and machine learning to classify maotai-flavour base baijiu by fermentation round, style and grade to support blending and quality control. A 2026 paper built multi-omics and machine learning discrimination models for high-temperature Daqu from six regions.",
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/40486062/",
+      "https://pubmed.ncbi.nlm.nih.gov/41777630/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Moutai Institute",
+    "affiliated_company_current": true,
+    "key": "chunlin-zhang::china",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "China",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Cuiying Zhang",
+    "domain": null,
+    "hq_location": "Tianjin, China",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "machine learning and genetic algorithm assisted baijiu blending",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Cuiying Zhang (Researcher, College of Biotechnology, Tianjin University of Science and Technology)",
+    "people": [
+      {
+        "name": "Cuiying Zhang",
+        "role": "Researcher, College of Biotechnology, Tianjin University of Science and Technology",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Corresponding author at Tianjin University of Science and Technology. A 2026 paper titled as digital transformation of Jiangxiangxing baijiu production combined flavour compound analysis, machine learning recognition and a genetic algorithm to support blending of base liquors from different distillation rounds. A 2025 paper used microbiomics and machine learning to reveal amino acid patterns in high-temperature Daqu.",
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/40645058/",
+      "https://pubmed.ncbi.nlm.nih.gov/41794499/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Tianjin University of Science and Technology",
+    "affiliated_company_current": true,
+    "key": "cuiying-zhang::china",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "China",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Yuyang Song",
+    "domain": null,
+    "hq_location": "Yangling, Shaanxi, China",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "machine learning across the grape and wine value chain",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Yuyang Song (Researcher, College of Enology, Northwest A&F University)",
+    "people": [
+      {
+        "name": "Yuyang Song",
+        "role": "Researcher, College of Enology, Northwest A&F University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Researcher at the College of Enology, Northwest A&F University. Senior author of a 2026 review of machine learning technologies across the grape and wine value chain, from vineyard sensing and precision viticulture to winemaking optimisation. Also senior author of a 2026 study using machine learning to screen ester-producing strains from Fengxiang Taibai baijiu fermentation.",
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/42117750/",
+      "https://pubmed.ncbi.nlm.nih.gov/42212409/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "Northwest A&F University",
+    "affiliated_company_current": true,
+    "key": "yuyang-song::china",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "China",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Takuya Nagasawa",
+    "domain": null,
+    "hq_location": "Japan",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "group-wide generative ai rollout (buddyai) and ai personas for marketing",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Takuya Nagasawa (Shusa (senior manager), Digital ICT Strategy Department, Kirin Holdings)",
+    "people": [
+      {
+        "name": "Takuya Nagasawa",
+        "role": "Shusa (senior manager), Digital ICT Strategy Department, Kirin Holdings",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Shusa in the Digital ICT Strategy Department at Kirin Holdings (Japanese name \u6c38\u6ca2\u62d3\u4e5f). In a 2026 AI Watch interview he describes Kirin building a machine learning team from around 2020, launching Kirin GPT on Azure OpenAI around 2023, and group generative AI usage of 70 to 80 percent. DIME reports him leading the KIRIN BuddyAI Project, including BuddyAI for Marketing and AI personas used for simulated consumer interviews.",
+    "source_urls": [
+      "https://ai.watch.impress.co.jp/docs/interview/2134728.html",
+      "https://dime.jp/genre/1957640/2/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Kirin Holdings",
+    "affiliated_company_current": true,
+    "key": "takuya-nagasawa::japan",
+    "theme": "GenAI & marketing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Japan",
+    "scope": "horizontal"
+  },
+  {
+    "name": "Okada (\u5ca1\u7530\u7406\u5fd7)",
+    "domain": null,
+    "hq_location": "Japan",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "beer recipe prediction and recipe search (brewing takumi ai)",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Okada (\u5ca1\u7530\u7406\u5fd7) (Senior Researcher, Research Planning Unit, Beverages Future Research Laboratory, Kirin Holdings R&D Division)",
+    "people": [
+      {
+        "name": "Okada (\u5ca1\u7530\u7406\u5fd7)",
+        "role": "Senior Researcher, Research Planning Unit, Beverages Future Research Laboratory, Kirin Holdings R&D Division",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Kirin Holdings researcher (\u5ca1\u7530\u7406\u5fd7, given-name romanisation not confirmed) interviewed by Mitsubishi Research Institute about Brewing Takumi AI, the machine learning tool that predicts trial-brew results and proposes beer recipes from target component values. He reported around 90 percent accuracy on beer component prediction. Nikkei xTECH quoted him in 2021 on AI recipe search at the Beverages Future Research Laboratory; current role not re-verified.",
+    "source_urls": [
+      "https://www.mri.co.jp/service/dia6ou00000390ol-att/takumi-ai_kirin.pdf",
+      "https://xtech.nikkei.com/atcl/nxt/column/18/00001/06036/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Kirin Holdings",
+    "affiliated_company_current": false,
+    "key": "okada::japan",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Japan",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ralph Ostertag",
+    "domain": null,
+    "hq_location": "Singapore",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "generative ai lab for brewer operations and marketing",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ralph Ostertag (Director Digital and Technology APAC and Global GenAI Lab, HEINEKEN)",
+    "people": [
+      {
+        "name": "Ralph Ostertag",
+        "role": "Director Digital and Technology APAC and Global GenAI Lab, HEINEKEN",
+        "linkedin": "https://www.linkedin.com/in/ralphostertag/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Dr Ralph Ostertag is HEINEKEN's Director Digital and Technology for Asia Pacific and leads the company's Global GenAI Lab, launched in Singapore in March 2025 with AI Singapore. The lab builds scalable GenAI solutions, including agentic systems for marketing content, financial reporting and knowledge management.",
+    "source_urls": [
+      "https://futurecio.tech/heineken-taps-genai-with-aim-to-brew-better-as-it-seeks-real-time-data/",
+      "https://www.theheinekencompany.com/newsroom/heineken-launches-global-genai-lab-in-singapore/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/ralphostertag/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "HEINEKEN Asia Pacific",
+    "affiliated_company_current": true,
+    "key": "ralph-ostertag::singapore",
+    "theme": "GenAI & marketing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Singapore",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ben Walker",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "ai-powered data governance and business intelligence",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ben Walker (Data Director, Lion)",
+    "people": [
+      {
+        "name": "Ben Walker",
+        "role": "Data Director, Lion",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Ben Walker is Data Director at Lion, the Australian and New Zealand brewer. In November 2024 he led Lion's selection of Informatica's AI-powered Intelligent Data Management Cloud to implement data governance and data-driven business intelligence.",
+    "source_urls": [
+      "https://ecommercenews.com.au/story/lion-partners-with-informatica-for-data-transformation",
+      "https://itwire.com/it-industry-news/deals/leading-brewer-lion-chooses-informatica-to-support-data-management-transformation.html"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Lion",
+    "affiliated_company_current": true,
+    "key": "ben-walker::unknown",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ali Alomari",
+    "domain": null,
+    "hq_location": "Auckland, New Zealand",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "tractor-mounted computer vision vine scanning",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ali Alomari (Co-founder and CEO, Cropsy Technologies)",
+    "people": [
+      {
+        "name": "Ali Alomari",
+        "role": "Co-founder and CEO, Cropsy Technologies",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Ali Alomari co-founded Cropsy Technologies with Leila Deljkovic after meeting as engineering students at the University of Auckland, and is its CEO. Cropsy's tractor-mounted AI vision system scans vineyards vine by vine for pruning quality, disease and yield estimation, with around 40 systems deployed in New Zealand, California and Cognac.",
+    "source_urls": [
+      "https://www.cropsy.tech/about.html",
+      "https://www.scoop.co.nz/stories/BU2202/S00037/nz-agritech-start-up-cropsy-technologies-successfully-raises-15-million-in-an-over-subscribed-capital-raise.htm",
+      "https://www.sproutagritech.com/blog/post/68858/meet-the-founders-cropsy-technologies/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Cropsy Technologies",
+    "affiliated_company_current": true,
+    "key": "ali-alomari::new-zealand",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "New Zealand",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Leila Deljkovic",
+    "domain": null,
+    "hq_location": "Auckland, New Zealand",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "tractor-mounted computer vision vine scanning",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Leila Deljkovic (Co-founder and COO, Cropsy Technologies)",
+    "people": [
+      {
+        "name": "Leila Deljkovic",
+        "role": "Co-founder and COO, Cropsy Technologies",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Leila Deljkovic is co-founder and COO of Cropsy Technologies, a University of Auckland spin-out. She has spoken publicly about Cropsy's AI and computer vision scanners, which analysed around 20 million vines in twelve months across New Zealand, California and Cognac.",
+    "source_urls": [
+      "https://www.auckland.ac.nz/en/news/2025/05/13/agritech-start-up-cropsy-technologies-changing-viticulture.html",
+      "https://www.cropsy.tech/about.html",
+      "https://www.ruralnewsgroup.co.nz/wine-grower/wg-machinery/cropsy-cutting-edge-ai-vineyard"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Cropsy Technologies",
+    "affiliated_company_current": true,
+    "key": "leila-deljkovic::new-zealand",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "New Zealand",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Winston Su",
+    "domain": null,
+    "hq_location": "Auckland, New Zealand",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "computer vision models for vineyard monitoring",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Winston Su (Co-founder and Head of AI, Cropsy Technologies)",
+    "people": [
+      {
+        "name": "Winston Su",
+        "role": "Co-founder and Head of AI, Cropsy Technologies",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Winston Su is a co-founder and Head of AI at Cropsy Technologies, the New Zealand vineyard AI company whose tractor-mounted vision system profiles vines for disease, pruning and yield. He joined founders Leila Deljkovic and Ali Alomari as a co-founder.",
+    "source_urls": [
+      "https://www.cropsy.tech/about.html",
+      "https://www.scoop.co.nz/stories/BU2202/S00037/nz-agritech-start-up-cropsy-technologies-successfully-raises-15-million-in-an-over-subscribed-capital-raise.htm",
+      "https://www.sproutagritech.com/blog/post/68858/meet-the-founders-cropsy-technologies/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Cropsy Technologies",
+    "affiliated_company_current": true,
+    "key": "winston-su::new-zealand",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "New Zealand",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Rory Buchanan",
+    "domain": null,
+    "hq_location": "Auckland, New Zealand",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "vineyard crop vision hardware",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Rory Buchanan (Co-founder and CTO, Cropsy Technologies)",
+    "people": [
+      {
+        "name": "Rory Buchanan",
+        "role": "Co-founder and CTO, Cropsy Technologies",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Rory Buchanan is a co-founder and CTO of Cropsy Technologies, which builds AI-enabled crop vision systems mounted on vineyard tractors. The system captures GPS-tracked imagery and analyses every vine for pests, disease and growth.",
+    "source_urls": [
+      "https://www.cropsy.tech/about.html",
+      "https://www.scoop.co.nz/stories/BU2202/S00037/nz-agritech-start-up-cropsy-technologies-successfully-raises-15-million-in-an-over-subscribed-capital-raise.htm",
+      "https://www.sproutagritech.com/blog/post/68858/meet-the-founders-cropsy-technologies/"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Cropsy Technologies",
+    "affiliated_company_current": true,
+    "key": "rory-buchanan::new-zealand",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "New Zealand",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Javen Shi",
+    "domain": null,
+    "hq_location": "Adelaide, Australia",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "vineyard advisory and predictive analytics platform",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Javen Shi (Professor, Director of Probabilistic Graphical Model Group, Australian Institute for Machine Learning, University of Adelaide)",
+    "people": [
+      {
+        "name": "Javen Shi",
+        "role": "Professor, Director of Probabilistic Graphical Model Group, Australian Institute for Machine Learning, University of Adelaide",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Professor Javen Shi of the University of Adelaide's Australian Institute for Machine Learning worked on VitiVisor, a $5 million project with Riverland Wine and Wine Australia to turn vineyard camera and sensor data into AI-driven advice on irrigation, pruning and spraying. He is a named author of the project's 2022 final report to Wine Australia. His current title may have changed since.",
+    "source_urls": [
+      "https://lotfourteen.com.au/news/artificial-intelligence-to-help-cut-vineyard-costs-and-grow-profits",
+      "https://www.wineaustralia.com/getmedia/b8e6e81e-87e3-411f-8d5b-a24f10ffe2e3/VitiVisor_finalReport_FINAL.pdf"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "University of Adelaide",
+    "affiliated_company_current": true,
+    "key": "javen-shi::australia",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics",
+      "Consultancy & services"
+    ],
+    "country": "Australia",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Vinay Pagay",
+    "domain": null,
+    "hq_location": "Adelaide, Australia",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "remote sensing and ml for grapevine yield and berry composition",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Vinay Pagay (Associate Professor, School of Agriculture, Food and Wine, University of Adelaide)",
+    "people": [
+      {
+        "name": "Vinay Pagay",
+        "role": "Associate Professor, School of Agriculture, Food and Wine, University of Adelaide",
+        "linkedin": "https://www.linkedin.com/in/vinay-pagay-8980643"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Dr Vinay Pagay is an Associate Professor in viticulture at the University of Adelaide working on proximal and remote sensing of vineyards. He co-authored a 2024 study integrating hyperspectral, thermal and ground data with machine learning to predict grapevine yield and berry composition.",
+    "source_urls": [
+      "https://doi.org/10.3390/rs16234539",
+      "https://researchers.adelaide.edu.au/profile/vinay.pagay"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/vinay-pagay-8980643",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "University of Adelaide",
+    "affiliated_company_current": true,
+    "key": "vinay-pagay::australia",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Australia",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Miles Grafton",
+    "domain": null,
+    "hq_location": "Palmerston North, New Zealand",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "remote sensing and ml grape quality prediction",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Miles Grafton (Researcher, School of Agriculture and Environment, Massey University)",
+    "people": [
+      {
+        "name": "Miles Grafton",
+        "role": "Researcher, School of Agriculture and Environment, Massey University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Miles Grafton of Massey University's School of Agriculture and Environment co-authored a 2023 study using remote and proximal sensing data and vine vigour parameters for rapid, non-destructive prediction of grape quality with machine learning. Current title not verified.",
+    "source_urls": [
+      "https://doi.org/10.3390/rs15225412",
+      "https://mro.massey.ac.nz/server/api/core/bitstreams/2909e55f-5d0a-48a2-8d66-71e4e3c3fc6b/content"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Massey University",
+    "affiliated_company_current": true,
+    "key": "miles-grafton::new-zealand",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "New Zealand",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ros Harvey",
+    "domain": null,
+    "hq_location": "Australia",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "microclimate and harvest prediction for vineyards",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ros Harvey (Founder and Managing Director, The Yield)",
+    "people": [
+      {
+        "name": "Ros Harvey",
+        "role": "Founder and Managing Director, The Yield",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Ros Harvey founded The Yield, an Australian agtech company whose microclimate sensing and AI platform predicted weather, growth stage and harvest timing for Treasury Wine Estates vineyards. She was quoted as founder and managing director on a joint yield-prediction trial with Yamaha robots; her current role is not verified.",
+    "source_urls": [
+      "https://www.itnews.com.au/news/treasury-wine-estates-predictive-ai-and-self-driving-vehicles-pay-off-600932",
+      "https://www.itnews.com.au/news/treasury-wine-estates-to-trial-robots-for-yield-prediction-crop-spraying-565760"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "The Yield",
+    "affiliated_company_current": false,
+    "key": "ros-harvey::australia",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Australia",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Steve Saunders",
+    "domain": null,
+    "hq_location": "Tauranga, New Zealand",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "autonomous ai vineyard spraying robot",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Steve Saunders (Co-founder and CEO, Robotics Plus (acquired by Yamaha Motor, 2025))",
+    "people": [
+      {
+        "name": "Steve Saunders",
+        "role": "Co-founder and CEO, Robotics Plus (acquired by Yamaha Motor, 2025)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Steve Saunders co-founded Robotics Plus and was its CEO when Yamaha Motor acquired it in March 2025. Its Prospr autonomous hybrid vehicle uses AI for vineyard and orchard tasks such as intelligent spraying, and Treasury Wine Estates was an early adopter. His role after the acquisition is not verified.",
+    "source_urls": [
+      "https://www.futurefarming.com/tech-in-focus/field-robots/yamaha-motor-acquires-robotics-plus-to-drive-agricultural-automation/",
+      "https://www.ruralnewsgroup.co.nz/wine-grower/wg-machinery/yamaha-acquires-robotics-plus-nz-agricultural-automation"
+    ],
+    "first_seen": "2026-09-28",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Robotics Plus",
+    "affiliated_company_current": false,
+    "key": "steve-saunders::new-zealand",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "New Zealand",
+    "scope": "beverage-native"
   }
 ]

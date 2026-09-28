@@ -11,6 +11,7 @@ PEOPLE_SEED_PATH = PROJECT_ROOT / "data" / "people_seed.json"
 SCOUT_DIR = PROJECT_ROOT / ".scout"
 SCOUT_SURFACES_PATH = PROJECT_ROOT / "data" / "scout_surfaces.json"
 PEOPLE_SURFACES_PATH = PROJECT_ROOT / "data" / "people_surfaces.json"
+LEDGER_PATH = PROJECT_ROOT / "data" / "coverage_ledger.json"
 
 # A slice counts as a coverage gap when it is both a small share of the corpus
 # and a small absolute count. Either test alone misfires: share flags every
