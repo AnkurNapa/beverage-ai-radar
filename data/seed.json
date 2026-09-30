@@ -2721,7 +2721,8 @@
     "short_description": "Business-management software for craft beverage producers (breweries, wineries, cideries, distilleries, seltzer), covering inventory, production, sales and accounting with reporting on top. Serves close to 2,000 businesses on six continents. Ekos makes no public AI or machine-learning claims; it is tracked here as the system of record that brewery production data comes out of, not as an AI vendor.",
     "source_urls": [
       "https://www.goekos.com/",
-      "https://www.goekos.com/blog/ekos-raises-21-million-series-b-to-digitally-connect"
+      "https://www.goekos.com/blog/ekos-raises-21-million-series-b-to-digitally-connect",
+      "https://www.brewersassociation.org/presentations/easy-valuable-ai-wins-any-brewer-can-tackle-without-the-slop/"
     ],
     "first_seen": "2014-01-01",
     "last_seen": "2026-07-23",
@@ -4033,7 +4034,8 @@
     "short_description": "VIP builds route accounting, ecommerce, pricing and analytics software used across the beverage alcohol three tier system (beer, wine and spirits suppliers, distributors and retailers). In July 2026 it launched VIP Intelligence, a bundle of AI features: AI-powered revenue management inside PriceStream, AI Predictive Order in Connect and the VIP Sales App, and natural language AI reporting in iDIG. The underlying products are mature route accounting and BI systems, so the AI is a prediction and language layer on top of an existing transactional data estate rather than a new modelling company.",
     "source_urls": [
       "https://vipinsights.com/",
-      "https://www.brewbound.com/pr/2026/07/24/vip-introduces-vip-intelligence-the-beverage-industrys-purposebuilt-ai"
+      "https://www.brewbound.com/pr/2026/07/24/vip-introduces-vip-intelligence-the-beverage-industrys-purposebuilt-ai",
+      "https://www.brewersassociation.org/presentations/ai-in-action-how-vip-is-enhancing-your-applications/"
     ],
     "first_seen": "2026-07-26",
     "last_seen": "2026-07-26",
@@ -4185,10 +4187,11 @@
     "short_description": "The Brewers Association, the US craft brewing trade body, launched Barley in February 2026, a chat assistant that answers member questions about brewing techniques, industry data, legislative updates and regulatory guidance. It is deliberately constrained to Brewers Association content rather than the open web, and improves through thumbs up and down feedback from members. Technically this is a retrieval assistant over a curated corpus, not novel brewing ML, but it is a notable signal of institutional AI adoption in craft beer.",
     "source_urls": [
       "https://www.brewersassociation.org/association-news/meet-barley-your-new-guide-to-brewers-association-resources/",
-      "https://washingtonbeerblog.com/maintaining-the-human-touch-in-an-ai-driven-beer-world/"
+      "https://washingtonbeerblog.com/maintaining-the-human-touch-in-an-ai-driven-beer-world/",
+      "https://www.brewersassociation.org/association-news/new-tutorial-get-more-out-of-barley-your-ba-resource-assistant/"
     ],
     "first_seen": "2026-07-26",
-    "last_seen": "2026-07-26",
+    "last_seen": "2026-08-14",
     "discovered_by": "scout:beer",
     "verified": false
   },
@@ -6980,7 +6983,8 @@
     "source_urls": [
       "https://nielseniq.com/global/en/industries/beverage-alcohol/",
       "https://nielseniq.com/global/en/",
-      "https://nielseniq.com/global/en/landing-page/byzzer/"
+      "https://nielseniq.com/global/en/landing-page/byzzer/",
+      "https://www.brewersassociation.org/association-news/3-tier-beverages-nielsen-iq-dashboard-update/"
     ],
     "first_seen": "2026-08-04",
     "last_seen": "2026-08-04",
@@ -14316,7 +14320,8 @@
     "short_description": "Ollie is brewery management software for craft producers from 1 BBL to 20,000+ BBL, covering production planning, inventory, order fulfilment, TTB compliance reporting, QuickBooks integration and sales analytics. It is now part of Next Glass, alongside Ekos, Untappd and Oznr. Checked its own site and its Next Glass product page: Ollie makes no AI or machine learning claim, it is a system of record with reporting and dashboards.",
     "source_urls": [
       "https://getollie.com/",
-      "https://www.nextglass.co/ollie/"
+      "https://www.nextglass.co/ollie/",
+      "https://www.brewersassociation.org/presentations/easy-valuable-ai-wins-any-brewer-can-tackle-without-the-slop/"
     ],
     "first_seen": "2026-08-20",
     "last_seen": "2026-08-20",
@@ -16494,7 +16499,8 @@
     "short_description": "3 Tier Beverages is a Chicago data services firm that sits on top of the two main US beverage alcohol data sources: it is an NIQ Connected partner for syndicated scan data and a founding member of the VIP Collective for distributor depletion data. It builds depletion and scan dashboards, pricing and promotion analysis, distribution tracking and distributor or retailer presentations for suppliers, distributors, retailers and trade associations, with over 300 clients across beer, wine and spirits and named customers including Terlato Wines. This is exactly the reseller and analytics layer the market measurement vendors feed. The company makes no AI or machine-learning claim anywhere on its site; the work is dashboards, analysis and consulting.",
     "source_urls": [
       "https://3tierbeverages.com/",
-      "https://www.linkedin.com/in/donnbichsel"
+      "https://www.linkedin.com/in/donnbichsel",
+      "https://www.brewersassociation.org/association-news/3-tier-beverages-nielsen-iq-dashboard-update/"
     ],
     "first_seen": "2026-08-29",
     "last_seen": "2026-08-29",
