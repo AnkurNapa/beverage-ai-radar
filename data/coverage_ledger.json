@@ -323,5 +323,12 @@
   "surface": "ba_suppliers",
   "found": 8,
   "added": 8
+ },
+ {
+  "date": "2026-10-01",
+  "lane": "people",
+  "surface": "ba_software_partners",
+  "found": 6,
+  "added": 6
  }
 ]

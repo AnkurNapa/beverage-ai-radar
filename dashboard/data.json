@@ -37801,6 +37801,8 @@
     "notable_customers_partners": null,
     "short_description": "Samsara sells connected fleet operations: GPS tracking, routing and dispatch, equipment and trailer tracking, reefer temperature monitoring and AI dash cams that detect risky driving events in cab. Two of its published customer stories are beverage alcohol operators: Glazer's Beer and Beverage, a large US beer wholesaler, reports an 86 percent reduction in at-fault accident costs after deploying AI dash cams, and craft brewer Fort Point Beer Company uses live GPS, dash cams and temperature monitoring to run its own in-house distribution fleet. This is the telematics and cold chain slice of beverage logistics that the radar had almost no coverage of.",
     "source_urls": [
+      "https://developers.samsara.com/",
+      "https://github.com/samsarahq/api-docs",
       "https://www.samsara.com/blog/customer-spotlight-samsara-x-fort-point-beer",
       "https://www.samsara.com/customers/glazers-beer-beverage"
     ],
@@ -37808,8 +37810,8 @@
     "last_seen": "2026-08-29",
     "status": "active",
     "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
+    "github_url": "https://github.com/samsarahq/api-docs",
+    "product_url": "https://developers.samsara.com/",
     "latest_news_headline": null,
     "why_interesting": null,
     "discovered_by": "scout:logistics",
@@ -62351,6 +62353,320 @@
       "ERP & systems of record"
     ],
     "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Magnus Valmot",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "fermentation monitoring and production analytics",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Magnus Valmot (CEO, PLAATO)",
+    "people": [
+      {
+        "name": "Magnus Valmot",
+        "role": "CEO, PLAATO",
+        "linkedin": "https://www.linkedin.com/in/magnusvalmot/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Magnus Valmot is CEO of PLAATO Technologies, which makes fermentation sensors and a production monitoring and analytics platform for breweries and distilleries. In a June 2025 Telenor IoT press release on a collaboration to AI-enable brewing and fermentation production data, he described PLAATO as building the industry's leading platform for production monitoring, analytics and optimization. He spoke at the Craft Beer Professionals Spring 2025 virtual conference on when breweries should and should not invest in technology.",
+    "source_urls": [
+      "https://craftbeerprofessionals.org/virtual-conferences/spring-2025/",
+      "https://iot.telenor.com/iot-case/plaato-brewing-better-with-smarter-data/",
+      "https://telenor-connexion-com.mynewsdesk.com/pressreleases/telenor-iot-and-plaato-announce-their-collaboration-to-ai-enable-production-data-in-brewing-and-fermentation-based-industries-3392331",
+      "https://www.linkedin.com/in/magnusvalmot/"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/magnusvalmot/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "whiskey"
+    ],
+    "affiliated_company": "PLAATO",
+    "affiliated_company_current": null,
+    "key": "magnus-valmot::unknown",
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "P\u00e5l Ingebrigtsen",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "fermentation data capture via co2 sensing",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "P\u00e5l Ingebrigtsen (Founder, PLAATO)",
+    "people": [
+      {
+        "name": "P\u00e5l Ingebrigtsen",
+        "role": "Founder, PLAATO",
+        "linkedin": "https://www.linkedin.com/in/p-ingebrigtsen/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Pal Ingebrigtsen is an engineer who co-founded PLAATO with Michael Kononsky in Norway, developing the PLAATO Airlock, which measures fermentation activity by tracking CO2 without contact with the beer. Digi.no in 2019 quoted him as CEO and co-founder while PLAATO launched the PLAATO Keg smart keg monitor. The sources are from 2019, so his current role is not independently confirmed.",
+    "source_urls": [
+      "https://formlabs.com/blog/prototyping-an-optically-clear-airlock-for-homebrewing-with-3d-printing/",
+      "https://www.digi.no/artikler/gjorde-suksess-med-digital-gjaerlas-na-vil-norske-plaato-gjore-alle-verdens-olfat-smarte/466622",
+      "https://www.linkedin.com/in/p-ingebrigtsen/"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/p-ingebrigtsen/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "PLAATO",
+    "affiliated_company_current": null,
+    "key": "p-l-ingebrigtsen::unknown",
+    "theme": "Process & operations",
+    "capabilities": [],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Donn Bichsel Jr.",
+    "domain": null,
+    "hq_location": "Chicago, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "beverage alcohol sales data analytics",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Donn Bichsel Jr. (Founder, 3 Tier Beverages)",
+    "people": [
+      {
+        "name": "Donn Bichsel Jr.",
+        "role": "Founder, 3 Tier Beverages",
+        "linkedin": "https://www.linkedin.com/in/donnbichsel/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Donn Bichsel founded 3 Tier Beverages in Chicago's Logan Square in 2019, a data provider that builds VIP depletion and NIQ scan data dashboards and analysis for beer, wine and spirits brands. The company team page credits him with three decades at SAB, Goose Island, Heineken USA, Dogfish Head and Revolution Brewing. Sources describe sales data analytics, not AI.",
+    "source_urls": [
+      "https://3tierbeverages.com/",
+      "https://www.foodbusinessreview.com/tier-beverages",
+      "https://www.linkedin.com/in/donnbichsel/"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/donnbichsel/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "3 Tier Beverages",
+    "affiliated_company_current": true,
+    "key": "donn-bichsel-jr::usa",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Joe Sepka",
+    "domain": null,
+    "hq_location": "Chicago, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "beverage alcohol sales data analytics",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Joe Sepka (Co-Founder, Data and Insights, 3 Tier Beverages)",
+    "people": [
+      {
+        "name": "Joe Sepka",
+        "role": "Co-Founder, Data and Insights, 3 Tier Beverages",
+        "linkedin": "https://www.linkedin.com/in/josephsepka/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Joe Sepka co-founded 3 Tier Beverages, a Chicago data and analytics consultancy for beer, wine and spirits suppliers, after analytics roles at PepsiCo and Revolution Brewing. He has presented Nielsen-based beer category analysis in Brewing Industry Guide (2023) and at CSP's 2024 Cold Vault Forum. He is not listed on the current company team page, so current status is unconfirmed. Sources describe data analytics, not AI.",
+    "source_urls": [
+      "https://www.brewingindustryguide.com/the-stovepipe-challenge-weighing-19-2-fluid-ounces-of-risk",
+      "https://www.cspdailynews.com/beverages/packaged-beverages-imports-are-beers-best-friend-expert-says",
+      "https://www.foodbusinessreview.com/tier-beverages",
+      "https://www.linkedin.com/in/josephsepka/"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/josephsepka/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "3 Tier Beverages",
+    "affiliated_company_current": null,
+    "key": "joe-sepka::usa",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "BI & analytics",
+      "Consultancy & services"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Jackson Kirk",
+    "domain": null,
+    "hq_location": "Chicago, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "beverage alcohol sales data analytics",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Jackson Kirk (Director of Analytics, 3 Tier Beverages)",
+    "people": [
+      {
+        "name": "Jackson Kirk",
+        "role": "Director of Analytics, 3 Tier Beverages",
+        "linkedin": "https://www.linkedin.com/in/jackson-kirk/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Jackson Kirk is Director of Analytics at 3 Tier Beverages, the Chicago data provider building VIP depletion and NIQ scan data dashboards for beer, wine and spirits brands. The company team page lists him as a Computer Science graduate of Stockton University with a background in bev-alc sales, e-commerce and start-up project management. Sources describe analytics, not AI.",
+    "source_urls": [
+      "https://3tierbeverages.com/",
+      "https://www.linkedin.com/in/jackson-kirk/"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/jackson-kirk/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "3 Tier Beverages",
+    "affiliated_company_current": true,
+    "key": "jackson-kirk::usa",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Jared Resnick",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "fermentation sensing and predictive control",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Jared Resnick (CEO and Founder, Sennos)",
+    "people": [
+      {
+        "name": "Jared Resnick",
+        "role": "CEO and Founder, Sennos",
+        "linkedin": "https://www.linkedin.com/in/jared-resnick-9b8745115/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Jared Resnick is CEO and Founder of Sennos, listed on the company's live about page. Sennos, founded in 2017 as a spin-off from Mimetics, builds intelligent sensing for fermentation and states a mission of replacing outdated systems in fluid, fermentation and bio-manufacturing with intelligent sensing and AI-driven predictive control. Its team includes brewers and Certified Cicerones.",
+    "source_urls": [
+      "https://sennos.com/about",
+      "https://www.linkedin.com/in/jared-resnick-9b8745115/"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/jared-resnick-9b8745115/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Sennos",
+    "affiliated_company_current": true,
+    "key": "jared-resnick::unknown",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "unknown",
     "scope": "beverage-native"
   }
 ]

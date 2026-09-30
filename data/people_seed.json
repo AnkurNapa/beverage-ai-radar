@@ -7769,5 +7769,140 @@
   ],
   "first_seen": "2026-09-30",
   "last_seen": "2026-09-30"
+ },
+ {
+  "name": "Magnus Valmot",
+  "role": "CEO, PLAATO",
+  "company": "PLAATO",
+  "company_is_current": null,
+  "linkedin": "https://www.linkedin.com/in/magnusvalmot/",
+  "vertical": "multiple",
+  "verticals": [
+   "beer",
+   "whiskey"
+  ],
+  "ai_use_case": "fermentation monitoring and production analytics",
+  "ai_maturity": "shipping",
+  "short_description": "Magnus Valmot is CEO of PLAATO Technologies, which makes fermentation sensors and a production monitoring and analytics platform for breweries and distilleries. In a June 2025 Telenor IoT press release on a collaboration to AI-enable brewing and fermentation production data, he described PLAATO as building the industry's leading platform for production monitoring, analytics and optimization. He spoke at the Craft Beer Professionals Spring 2025 virtual conference on when breweries should and should not invest in technology.",
+  "source_urls": [
+   "https://www.linkedin.com/in/magnusvalmot/",
+   "https://telenor-connexion-com.mynewsdesk.com/pressreleases/telenor-iot-and-plaato-announce-their-collaboration-to-ai-enable-production-data-in-brewing-and-fermentation-based-industries-3392331",
+   "https://iot.telenor.com/iot-case/plaato-brewing-better-with-smarter-data/",
+   "https://craftbeerprofessionals.org/virtual-conferences/spring-2025/"
+  ],
+  "first_seen": "2026-10-01",
+  "last_seen": "2026-10-01"
+ },
+ {
+  "name": "Pål Ingebrigtsen",
+  "role": "Founder, PLAATO",
+  "company": "PLAATO",
+  "company_is_current": null,
+  "linkedin": "https://www.linkedin.com/in/p-ingebrigtsen/",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "fermentation data capture via co2 sensing",
+  "ai_maturity": "shipping",
+  "short_description": "Pal Ingebrigtsen is an engineer who co-founded PLAATO with Michael Kononsky in Norway, developing the PLAATO Airlock, which measures fermentation activity by tracking CO2 without contact with the beer. Digi.no in 2019 quoted him as CEO and co-founder while PLAATO launched the PLAATO Keg smart keg monitor. The sources are from 2019, so his current role is not independently confirmed.",
+  "source_urls": [
+   "https://www.linkedin.com/in/p-ingebrigtsen/",
+   "https://formlabs.com/blog/prototyping-an-optically-clear-airlock-for-homebrewing-with-3d-printing/",
+   "https://www.digi.no/artikler/gjorde-suksess-med-digital-gjaerlas-na-vil-norske-plaato-gjore-alle-verdens-olfat-smarte/466622"
+  ],
+  "first_seen": "2026-10-01",
+  "last_seen": "2026-10-01"
+ },
+ {
+  "name": "Donn Bichsel Jr.",
+  "role": "Founder, 3 Tier Beverages",
+  "company": "3 Tier Beverages",
+  "company_is_current": true,
+  "location": "Chicago, USA",
+  "linkedin": "https://www.linkedin.com/in/donnbichsel/",
+  "vertical": "multiple",
+  "verticals": [
+   "beer",
+   "wine",
+   "whiskey"
+  ],
+  "ai_use_case": "beverage alcohol sales data analytics",
+  "ai_maturity": "none",
+  "short_description": "Donn Bichsel founded 3 Tier Beverages in Chicago's Logan Square in 2019, a data provider that builds VIP depletion and NIQ scan data dashboards and analysis for beer, wine and spirits brands. The company team page credits him with three decades at SAB, Goose Island, Heineken USA, Dogfish Head and Revolution Brewing. Sources describe sales data analytics, not AI.",
+  "source_urls": [
+   "https://www.linkedin.com/in/donnbichsel/",
+   "https://3tierbeverages.com/",
+   "https://www.foodbusinessreview.com/tier-beverages"
+  ],
+  "first_seen": "2026-10-01",
+  "last_seen": "2026-10-01"
+ },
+ {
+  "name": "Joe Sepka",
+  "role": "Co-Founder, Data and Insights, 3 Tier Beverages",
+  "company": "3 Tier Beverages",
+  "company_is_current": null,
+  "location": "Chicago, USA",
+  "linkedin": "https://www.linkedin.com/in/josephsepka/",
+  "vertical": "multiple",
+  "verticals": [
+   "beer",
+   "wine",
+   "whiskey"
+  ],
+  "ai_use_case": "beverage alcohol sales data analytics",
+  "ai_maturity": "none",
+  "short_description": "Joe Sepka co-founded 3 Tier Beverages, a Chicago data and analytics consultancy for beer, wine and spirits suppliers, after analytics roles at PepsiCo and Revolution Brewing. He has presented Nielsen-based beer category analysis in Brewing Industry Guide (2023) and at CSP's 2024 Cold Vault Forum. He is not listed on the current company team page, so current status is unconfirmed. Sources describe data analytics, not AI.",
+  "source_urls": [
+   "https://www.linkedin.com/in/josephsepka/",
+   "https://www.cspdailynews.com/beverages/packaged-beverages-imports-are-beers-best-friend-expert-says",
+   "https://www.brewingindustryguide.com/the-stovepipe-challenge-weighing-19-2-fluid-ounces-of-risk",
+   "https://www.foodbusinessreview.com/tier-beverages"
+  ],
+  "first_seen": "2026-10-01",
+  "last_seen": "2026-10-01"
+ },
+ {
+  "name": "Jackson Kirk",
+  "role": "Director of Analytics, 3 Tier Beverages",
+  "company": "3 Tier Beverages",
+  "company_is_current": true,
+  "location": "Chicago, USA",
+  "linkedin": "https://www.linkedin.com/in/jackson-kirk/",
+  "vertical": "multiple",
+  "verticals": [
+   "beer",
+   "wine",
+   "whiskey"
+  ],
+  "ai_use_case": "beverage alcohol sales data analytics",
+  "ai_maturity": "none",
+  "short_description": "Jackson Kirk is Director of Analytics at 3 Tier Beverages, the Chicago data provider building VIP depletion and NIQ scan data dashboards for beer, wine and spirits brands. The company team page lists him as a Computer Science graduate of Stockton University with a background in bev-alc sales, e-commerce and start-up project management. Sources describe analytics, not AI.",
+  "source_urls": [
+   "https://www.linkedin.com/in/jackson-kirk/",
+   "https://3tierbeverages.com/"
+  ],
+  "first_seen": "2026-10-01",
+  "last_seen": "2026-10-01"
+ },
+ {
+  "name": "Jared Resnick",
+  "role": "CEO and Founder, Sennos",
+  "company": "Sennos",
+  "company_is_current": true,
+  "linkedin": "https://www.linkedin.com/in/jared-resnick-9b8745115/",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "fermentation sensing and predictive control",
+  "short_description": "Jared Resnick is CEO and Founder of Sennos, listed on the company's live about page. Sennos, founded in 2017 as a spin-off from Mimetics, builds intelligent sensing for fermentation and states a mission of replacing outdated systems in fluid, fermentation and bio-manufacturing with intelligent sensing and AI-driven predictive control. Its team includes brewers and Certified Cicerones.",
+  "source_urls": [
+   "https://www.linkedin.com/in/jared-resnick-9b8745115/",
+   "https://sennos.com/about"
+  ],
+  "first_seen": "2026-10-01",
+  "last_seen": "2026-10-01"
  }
 ]
