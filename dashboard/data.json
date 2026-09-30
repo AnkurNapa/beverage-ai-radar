@@ -62309,5 +62309,48 @@
     ],
     "country": "unknown",
     "scope": "beverage-native"
+  },
+  {
+    "name": "Burkert Fluid Control Systems",
+    "domain": "burkert.com",
+    "hq_location": "Ingelfingen, Germany",
+    "founded_year": 1946,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": null,
+    "ai_use_case": "networked process sensors and brewery automation",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "Burkert makes valves, sensors, controllers and automation for fluid processes and sells into food and beverage, including craft and industrial breweries, which it pitches as Brewery 4.0. Its networked sensors measure flow, level, pressure, temperature and liquid analysis and feed batch data into the control system or MES for traceability. It is a Brewers Association member supplier. No AI claim.",
+    "source_urls": [
+      "https://de.wikipedia.org/wiki/B%C3%BCrkert_Fluid_Control_Systems",
+      "https://www.burkert.com/en/industries-solutions/industries/food-and-beverage-industry"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "burkert.com",
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "ERP & systems of record"
+    ],
+    "country": "Germany",
+    "scope": "beverage-native"
   }
 ]
