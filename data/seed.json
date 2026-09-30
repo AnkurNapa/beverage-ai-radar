@@ -19727,5 +19727,145 @@
     "last_seen": "2026-10-01",
     "discovered_by": "scout:tradeshow_us",
     "verified": false
+  },
+  {
+    "name": "Secret Hopper",
+    "domain": "secrethopper.com",
+    "vertical": "beer",
+    "ai_use_case": "taproom mystery shopping experience data",
+    "ai_maturity": "none",
+    "short_description": "Secret Hopper sends mystery shoppers into craft brewery taprooms and returns feedback data and metrics on guest and staff experience. It says it has worked with 600+ taprooms since 2017. It makes no AI claim; the data comes from human shopper visits.",
+    "source_urls": [
+      "https://www.secrethopper.com/",
+      "https://matadornetwork.com/read/company-will-pay-visit-breweries-drink-beer/"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:ba_suppliers",
+    "verified": false
+  },
+  {
+    "name": "OneVision Corporation",
+    "domain": "craftbrewquality.com",
+    "hq_location": "Ohio, United States",
+    "founded_year": 1994,
+    "vertical": "multiple",
+    "ai_use_case": "can double seam inspection and spc",
+    "ai_maturity": "none",
+    "short_description": "OneVision makes can double seam inspection systems (SeamMate, optical imaging gauges) sold to craft brewers and food canners, with a database of seam measurements and SPC graphics. Its AutoAlert feature flags process drift using statistical criteria, which is statistical process control, not machine learning. No AI claim.",
+    "source_urls": [
+      "https://www.craftbrewquality.com/seammate-system",
+      "https://www.craftbrewquality.com/about",
+      "https://onevisioncorp.com/30-years-in-business/"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "key_people": "Neil E. Morris (Co-founder), Stephen F. Bean (Co-founder)",
+    "discovered_by": "scout:ba_suppliers",
+    "verified": false
+  },
+  {
+    "name": "Define Instruments",
+    "domain": "defineinstruments.com",
+    "hq_location": "Auckland, New Zealand",
+    "founded_year": 2011,
+    "vertical": "multiple",
+    "ai_use_case": "iot remote monitoring of fermentation and equipment",
+    "ai_maturity": "none",
+    "short_description": "Define Instruments sells IoT gateways and a cloud dashboard for remote equipment monitoring, with a food and beverage offer that includes real-time fermentation tank monitoring of temperature, pH and CO2 with alerts. It serves water, food and beverage and service businesses, not brewing alone. No AI claim found on its site.",
+    "source_urls": [
+      "https://www.defineinstruments.com/iot-remote-monitoring-food-beverage-processing",
+      "https://www.defineinstruments.com/about",
+      "https://catalog.defineinstruments.com/"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:ba_suppliers",
+    "verified": false
+  },
+  {
+    "name": "ControlTec, Inc",
+    "domain": "craftbeveragecontrol.com",
+    "hq_location": "Canonsburg, United States",
+    "vertical": "multiple",
+    "ai_use_case": "brewhouse and cellar control with remote data",
+    "ai_maturity": "none",
+    "short_description": "ControlTec builds PLC-based brewhouse and fermentation cellar control panels and tank-mounted controllers for craft breweries, with a sister Wine Tank Control line for wineries. Its CellarSentry and PLC systems push temperature data to a secure web interface for remote alarms and trends. It lists dozens of brewery installations. No AI claim.",
+    "source_urls": [
+      "https://craftbeveragecontrol.com/products/remote-connectivity-solutions/",
+      "https://craftbeveragecontrol.com/clients/",
+      "https://winetankcontrol.com/"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:ba_suppliers",
+    "verified": false
+  },
+  {
+    "name": "TapWyse",
+    "domain": "tapwyse.com",
+    "vertical": "beer",
+    "ai_use_case": "brewery branded apps for memberships and loyalty",
+    "ai_maturity": "none",
+    "short_description": "TapWyse builds branded mobile apps for craft breweries covering taproom memberships, loyalty punch cards, push messages and events, with member reporting. It partners with taproom POS Arryved on membership programmes. No AI claim.",
+    "source_urls": [
+      "https://tapwyse.com/",
+      "https://arryved.com/resources/arryved-and-tapwyse-memberships/",
+      "https://craftbeerprofessionals.org/partner/tapwyse/"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:ba_suppliers",
+    "verified": false
+  },
+  {
+    "name": "EZBrew, Inc",
+    "domain": "ezbrew.beer",
+    "vertical": "beer",
+    "ai_use_case": "genai brewing assistant in automated brewing system app",
+    "ai_maturity": "shipping",
+    "short_description": "EZBrew sells a fully automated all-in-one brewing system run from an iPad, plus Brew-Ready wort kits, aimed at bars and restaurants brewing house beer. Its app includes Zymo, which the company calls a proprietary AI assistant for flavour profile development, menu beer descriptions and troubleshooting trained on the EZBrew process. The AI claim is the vendor's own; no independent validation seen.",
+    "source_urls": [
+      "https://ezbrew.beer/automated-brewery-equipment/",
+      "https://www.fbtechreview.com/ezbrew"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:ba_suppliers",
+    "verified": false
+  },
+  {
+    "name": "BinTrac (HerdStar)",
+    "domain": "bintrac.com",
+    "founded_year": 2001,
+    "vertical": "multiple",
+    "ai_use_case": "load cell bin weighing and cloud inventory",
+    "ai_maturity": "none",
+    "short_description": "BinTrac, a HerdStar brand, makes load cell weighing systems for silos and bins with BinCloud software for remote inventory, alerts and reports. It markets them to breweries, wineries, distilleries and cideries for malt and ingredient inventory, alongside its core agriculture market. No AI claim.",
+    "source_urls": [
+      "https://bintrac.com/beverage-processing/",
+      "https://bintrac.com/news/control-your-brew-accurate-grain-inventory/",
+      "https://www.hogslat.com/bintrac-feed-bin-weighing-system"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:ba_suppliers",
+    "verified": false
+  },
+  {
+    "name": "ABM Equipment",
+    "domain": "abmequipment.com",
+    "vertical": "multiple",
+    "ai_use_case": "grain handling automation and reporting software",
+    "ai_maturity": "none",
+    "short_description": "ABM Equipment supplies grain handling equipment for breweries and distilleries (silos, mills, spent grain) and its own DSO Sentinel software, which controls grain equipment from recipes and generates reports and alerts on equipment data. It also serves food processing and x-ray inspection. No AI claim.",
+    "source_urls": [
+      "https://abmequipment.com/grain-handling-automation-software/",
+      "https://abmequipment.com/about/"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:ba_suppliers",
+    "verified": false
   }
 ]

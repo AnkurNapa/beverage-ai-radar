@@ -316,5 +316,12 @@
   "surface": "tradeshow_us",
   "found": 2,
   "added": 2
+ },
+ {
+  "date": "2026-10-01",
+  "lane": "companies",
+  "surface": "ba_suppliers",
+  "found": 8,
+  "added": 8
  }
 ]
