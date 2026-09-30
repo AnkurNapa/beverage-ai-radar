@@ -1,5 +1,85 @@
 [
   {
+    "title": "A Responsible AI Playbook for a Small Beverage Business, and Where It Breaks",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/responsible-ai-playbook-small-beverage-business/",
+    "summary": "Part 8 of Responsible AI for Beer, Whisky and Wine. A lightweight version of ISO/IEC 42001 for a craft brewery, small distillery or winery with no AI team: a use-case register, a one-page impact assessment, an eval harness, monitoring, an incident log and a quarterly review, mapped to the NIST AI RMF. Plus AI's own energy and water footprint against your ESG claims, the regulatory calendar as of September 2026, and a 90-day plan.",
+    "featured": true
+  },
+  {
+    "title": "Accountability When an Agent Drafts the Decision: Owners, Audit Logs, Red Teams and Safety Cameras That Are Not Surveillance",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/agent-accountability-audit-logs-worker-monitoring/",
+    "summary": "Part 7 of Responsible AI for Beer, Whisky and Wine. When an AI agent drafts the work order, the batch note or the supplier query, who answers for it? A named owner for every tool, an append-only audit log of every tool call, a query that catches rubber-stamp approvals, red-teaming against prompt injection from operator notes and supplier PDFs, and computer-vision safety cameras that detect events, not people.",
+    "featured": true
+  },
+  {
+    "title": "Provenance, Fakes and Synthetic Labels: A Hash-Chained Cask Ledger, C2PA and Label Claims You Can Prove",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "whiskey",
+    "url": "https://ankurnapa.github.io/2026/provenance-fakes-c2pa-traceability-whisky-wine/",
+    "summary": "Part 6 of Responsible AI for Beer, Whisky and Wine. GenAI makes a convincing fake label, bottle photo or heritage story in seconds, and it can just as easily draft an illegal age statement for your own product. How an append-only, hash-chained traceability ledger from cask or tank to bottle, label claims derived from that ledger, and C2PA Content Credentials on your images give you provenance you can actually prove.",
+    "featured": true
+  },
+  {
+    "title": "Whose Palate Did the Model Learn? Bias in Sensory AI, and Evals That Catch Hallucinated Tasting Notes",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/sensory-ai-bias-tasting-note-hallucination-evals/",
+    "summary": "Part 5 of Responsible AI for Beer, Whisky and Wine. Flavour models and LLMs learn a Western tasting vocabulary and a narrow panel, then write confident notes that invent casks, vineyards and awards. How to find the bias in descriptor data and panels, how to ground note drafting in the batch record, and how to build an eval set that checks every claim in a tasting note against its source.",
+    "featured": true
+  },
+  {
+    "title": "When the Model Touches Food Safety: Flag-Only Release Gates, Abstain Thresholds and Model Cards for Beer, Whisky and Wine",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/ai-food-safety-human-release-model-cards/",
+    "summary": "Part 4 of Responsible AI for Beer, Whisky and Wine. Reliability and safety in practice: AI may rank risk and raise flags, but a person releases the batch and validated methods stay on the HACCP critical control points. Worked through soft sensors, mycotoxin and gushing risk in malt, methanol and the spirit cut, and SO2 and Brett in wine, with a model card, an abstain threshold, drift monitoring and a release gate where the model can block but never release.",
+    "featured": true
+  },
+  {
+    "title": "Responsible Recommenders: Harm Caps, Consent-Aware Features and Why the Heaviest Drinkers Should Not Get the Best Offers",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/responsible-recommenders-harm-caps-consent/",
+    "summary": "Part 3 of Responsible AI for Beer, Whisky and Wine. A recommender tuned for clicks and volume quietly over-serves the top decile of drinkers. How to fix it with harm-aware re-ranking, frequency caps, low and no-alcohol swaps, age gating, a consent-filtered feature view with purpose tags, and an offline eval that measures who the model is really talking to. With India's DPDP Act and Rules and GDPR in view.",
+    "featured": true
+  },
+  {
+    "title": "GenAI Marketing for a Product You Cannot Sell to Minors: Policy-as-Code, a Pre-Publish Classifier and a Red-Team Eval Set",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "multiple",
+    "url": "https://ankurnapa.github.io/2026/genai-alcohol-marketing-guardrails-age-codes/",
+    "summary": "Part 2 of Responsible AI for Beer, Whisky and Wine. How to use generative AI for beer, whisky and wine marketing without breaking the alcohol codes: the Portman Group under-25 rule, the 73.8 and 73.6 percent adult audience standards in the US, India's surrogate advertising rules and the EU AI Act transparency duties. Built as guardrails in code: a policy file, a pre-publish classifier, a red-team eval set, human sign-off and a log.",
+    "featured": true
+  },
+  {
+    "title": "What Responsible AI Actually Means for a Drinks Business: Six Principles and a Use-Case Register in SQL",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "beer",
+    "url": "https://ankurnapa.github.io/2026/responsible-ai-beverage-principles-use-case-register/",
+    "summary": "Part 1 of Responsible AI for Beer, Whisky and Wine. The six Responsible AI principles, mapped to breweries, distilleries and wineries, the frameworks behind them (NIST AI RMF, ISO/IEC 42001, the EU AI Act, India's AI Governance Guidelines and the DPDP Act), and the one artefact every drinks business should build first: an AI use-case register with a risk-tiering query.",
+    "featured": true
+  },
+  {
     "title": "The AI for OpEx Roadmap, and Where It Breaks: Data First, Pilots by Loss Value, Honest ROI and the AGI Hype",
     "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
     "author": "Ankur Napa",
@@ -167,86 +247,6 @@
     "vertical": "whiskey",
     "url": "https://ankurnapa.github.io/2026/cask-inventory-data-engineering-scd2/",
     "summary": "Part 4 of The Still and the Model. A cask lives in the warehouse for twelve years or more, moves, gets sampled and regauged, and loses spirit every year. Model its attributes as slowly changing dimensions, its life as events, and angel's share as a calculation, so any question about any cask on any date has one answer.",
-    "featured": true
-  },
-  {
-    "title": "An LLM Copilot for the Still Operator: RAG Over SOPs, Read-Only Tools, No Setpoints",
-    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
-    "author": "Ankur Napa",
-    "date": "2026",
-    "vertical": "whiskey",
-    "url": "https://ankurnapa.github.io/2026/llm-copilot-still-operator/",
-    "summary": "Part 3 of The Still and the Model. What a GenAI copilot on the still house floor should and should not do: answer from controlled SOPs and run logs with citations, read live values through read-only tools, write the shift handover, and never touch a setpoint, an interlock or a cut.",
-    "featured": true
-  },
-  {
-    "title": "Soft Sensors and Proactive Bands Instead of Alarms at the Spirit Safe",
-    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
-    "author": "Ankur Napa",
-    "date": "2026",
-    "vertical": "whiskey",
-    "url": "https://ankurnapa.github.io/2026/soft-sensors-proactive-bands-spirit-safe/",
-    "summary": "Part 2 of The Still and the Model. Estimate distillate strength between hydrometer readings from temperatures and flow, compare every run with a band built from good runs, and flag drift while there is still time to act. Why this beats another fixed alarm on a panel the operator has learned to ignore.",
-    "featured": true
-  },
-  {
-    "title": "A Physics-Informed Digital Twin of a Pot Still: Why Pure ML Twins Drift",
-    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
-    "author": "Ankur Napa",
-    "date": "2026",
-    "vertical": "whiskey",
-    "url": "https://ankurnapa.github.io/2026/physics-informed-digital-twin-pot-still/",
-    "summary": "Part 1 of The Still and the Model. A batch pot still follows the Rayleigh equation, and alcohol in must equal alcohol out. Why a purely data-driven twin quietly breaks that law, and how a hybrid model, with physics for the structure and run data for a few fitted parameters, stays honest.",
-    "featured": true
-  },
-  {
-    "title": "Where Winery AI Breaks: Ten Vintages Is Ten Rows",
-    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
-    "author": "Ankur Napa",
-    "date": "2026",
-    "vertical": "wine",
-    "url": "https://ankurnapa.github.io/2026/where-winery-ai-breaks-ten-vintages-ten-rows/",
-    "summary": "Part 6 of The Cellar Ledger. A brewery brews hundreds of batches a year. A winery gets one vintage. Why models that predict vintage outcomes overfit, where winery data is actually rich, and what time-series foundation models, synthetic data and LLMs can and cannot do about a small-data problem.",
-    "featured": true
-  },
-  {
-    "title": "Excise Returns as Data Contracts: Tests Reconcile, the LLM Drafts, a Person Signs",
-    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
-    "author": "Ankur Napa",
-    "date": "2026",
-    "vertical": "wine",
-    "url": "https://ankurnapa.github.io/2026/wine-excise-returns-data-contracts-genai/",
-    "summary": "Part 5 of The Cellar Ledger. A winery excise return is a balance equation per tax class. Treat its inputs as a data contract, test the equation in the pipeline every night, and use GenAI for what it is good at here: classifying messy removal notes, drafting the explanations and finding the right paragraph of guidance.",
-    "featured": true
-  },
-  {
-    "title": "Lot Genealogy as a Graph: Recursive Queries and a Recall Agent Built on MCP Tools",
-    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
-    "author": "Ankur Napa",
-    "date": "2026",
-    "vertical": "wine",
-    "url": "https://ankurnapa.github.io/2026/wine-lot-genealogy-graph-recall-agent/",
-    "summary": "Part 4 of The Cellar Ledger. Which bottles contain fruit from block 7, and how much? Model the cellar as a graph of lots and volume-weighted movements, trace it with a recursive query, and put a GenAI agent in front of it through MCP tools that do the maths so the model does not have to.",
-    "featured": true
-  },
-  {
-    "title": "The Loss Map: A Medallion Pipeline, Anomaly Flags and an LLM That Drafts the Variance Note",
-    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
-    "author": "Ankur Napa",
-    "date": "2026",
-    "vertical": "wine",
-    "url": "https://ankurnapa.github.io/2026/winery-loss-map-medallion-pipeline-genai/",
-    "summary": "Part 3 of The Cellar Ledger. Every winery loses wine between crush and bottle. Build the loss map as a bronze, silver and gold pipeline over the movement ledger, flag unusual stages with robust statistics, and let an LLM draft the monthly variance note without ever doing the arithmetic.",
-    "featured": true
-  },
-  {
-    "title": "Event-Sourcing the Cellar: Why Winery Volumes Should Be Derived, Never Stored",
-    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
-    "author": "Ankur Napa",
-    "date": "2026",
-    "vertical": "wine",
-    "url": "https://ankurnapa.github.io/2026/event-sourced-cellar-records-winery/",
-    "summary": "Part 2 of The Cellar Ledger. When tank volumes are an editable field, losses disappear without a reason. An append-only movement ledger in the lakehouse makes every balance a calculation, gives an AI agent real provenance to explain, and keeps the agent from ever overwriting the truth.",
     "featured": true
   }
 ]
