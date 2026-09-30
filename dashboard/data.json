@@ -27282,15 +27282,17 @@
     "notable_customers_partners": null,
     "short_description": "BrewLedger is a mobile first brewery operations platform built around an immutable, append only inventory ledger, covering production, inventory, TTB compliance and taproom workflows with QuickBooks integration at a flat monthly price. It was founded in 2025 by John Jusko under the StoreGuard LLC holding company in Ohio, and also publishes an MIT licensed self hosted version. The company makes no AI claim; its own 2026 comparison article notes that none of the six brewery platforms it compares advertise AI.",
     "source_urls": [
+      "https://getbrewledger.com",
       "https://getbrewledger.com/blog/brewery-management-software-comparison-2026",
+      "https://github.com/jackjusko/brewledger-oss",
       "https://www.crunchbase.com/organization/brewledger"
     ],
     "first_seen": "2026-08-11",
     "last_seen": "2026-08-11",
     "status": "active",
     "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
+    "github_url": "https://github.com/jackjusko/brewledger-oss",
+    "product_url": "https://getbrewledger.com",
     "latest_news_headline": null,
     "why_interesting": null,
     "discovered_by": "scout:erp",
@@ -33270,6 +33272,7 @@
       "https://doi.org/10.1016/j.compag.2023.108439",
       "https://doi.org/10.1094/phyto-01-23-0030-r",
       "https://fortune.com/2016/01/09/ibm-bringing-watson-wine/",
+      "https://www.cio.com/article/230368/e-j-gallo-deploys-data-driven-app-to-harvest-a-better-grape.html",
       "https://www.gallo.com/"
     ],
     "first_seen": "2026-08-11",
@@ -60834,6 +60837,881 @@
       "AI & ML"
     ],
     "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Brown-Forman",
+    "domain": "brown-forman.com",
+    "hq_location": "Louisville, Kentucky, USA",
+    "founded_year": 1870,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": null,
+    "ai_use_case": "price elasticity modelling, creative content testing, whiskey color prediction",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Amit Parulekar (Director, Global Advanced Analytics and AI Strategy)",
+    "people": [
+      {
+        "name": "Amit Parulekar",
+        "role": "Director, Global Advanced Analytics and AI Strategy"
+      },
+      {
+        "name": "Lynette Green",
+        "role": "E-commerce Manager, Jack Daniel's family of brands"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Jack Daniel's and Woodford Reserve maker that runs AI and advanced analytics itself. Its director of global advanced analytics and AI strategy says it generates more than 180,000 'glass box' elasticity models globally each month using random forest and regression techniques for pricing and demand. It also uses Vizit to test creative content and has described ML predicting whiskey color accuracy.",
+    "source_urls": [
+      "https://consumergoods.com/glass-box-models-and-ai-fueled-creative-how-brown-forman-evolving-win-digital-shelf",
+      "https://www.brown-forman.com/",
+      "https://www.nabca.org/ai-beverage-alcohol-marketplace"
+    ],
+    "first_seen": "2024-01-02",
+    "last_seen": "2024-01-02",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:frontier_companies",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "brown-forman.com",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Moet Hennessy",
+    "domain": "moethennessy.com",
+    "hq_location": "Paris, France",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": null,
+    "ai_use_case": "demand forecasting, distribution optimisation, agri and industry 4.0 data science",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Baptiste Bon (Head of Data & AI Demand and Value)",
+    "people": [
+      {
+        "name": "Baptiste Bon",
+        "role": "Head of Data & AI Demand and Value",
+        "linkedin": "https://www.linkedin.com/in/databybbon/"
+      },
+      {
+        "name": "Paul-Mehdy M'Rabet",
+        "role": "Former Head of Data & AI"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Wine, champagne and cognac group with a dedicated Data and AI function and an internal Data&AI Day (30 June 2023) covering agribusiness ML, industry 4.0 and AI demand forecasting and inventory optimisation. Its Head of Data and AI demand and value names forecast quality, distribution and marketing effectiveness as priorities. Public evidence is talks and event programmes, not named production models.",
+    "source_urls": [
+      "https://cdoiq-europe.org/2024/07/baptiste-bon-head-of-data-ai-demand-and-value-at-moet-hennessy/",
+      "https://www.data-ai-day.moethennessy.com/"
+    ],
+    "first_seen": "2023-06-30",
+    "last_seen": "2024-07-01",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:frontier_companies",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "moethennessy.com",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "France",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Bitburger Braugruppe",
+    "domain": "bitburger-braugruppe.de",
+    "hq_location": "Bitburg, Germany",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "machine learning on brewing process variables, internal process AI",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Josef Kimberger (presented the DaPro machine learning project, 2019)",
+    "people": [
+      {
+        "name": "Josef Kimberger",
+        "role": "Presented the DaPro brewing machine learning project, 2019"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "German brewing group that took part in the DaPro research project, which applied machine learning to the large number of variables that natural raw materials introduce into the brewing process. In October 2025 it was reported to be testing AI with Tobit Software to optimise internal processes. Public evidence is a research project and a trial, not a named production model.",
+    "source_urls": [
+      "http://dapro-projekt.de/2019/11/28/auftaktveranstaltung-des-arbeitskreises-data-science-im-mittelstand-bei-der-bitburger-braugruppe/",
+      "https://www.bitburger-braugruppe.de/",
+      "https://www.food-service.de/industrie/industrie/tobit-bitburger-mit-ki-auf-zukunftskurs-64839"
+    ],
+    "first_seen": "2019-11-28",
+    "last_seen": "2025-10-17",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:frontier_companies",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "bitburger-braugruppe.de",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Maxim Swinbourne",
+    "domain": null,
+    "hq_location": "Birmingham, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "sensor data analytics for clean-in-place optimisation",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Maxim Swinbourne (CEO and Co-founder, 4T2 Sensors)",
+    "people": [
+      {
+        "name": "Maxim Swinbourne",
+        "role": "CEO and Co-founder, 4T2 Sensors",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Co-founder and CEO of 4T2 Sensors, which sells CIPSense, a real-time sensor and data system that monitors clean-in-place cycles in food and beverage plants. The company's site lists Diageo (2021) among its partners and Ecolab as a 2025 worldwide partner. The sources describe sensor fingerprint measurement and data insight rather than machine learning by name.",
+    "source_urls": [
+      "https://www.4t2sensors.com/about",
+      "https://www.crunchbase.com/person/max-swinbourne"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "whiskey"
+    ],
+    "affiliated_company": "4T2 Sensors",
+    "affiliated_company_current": true,
+    "key": "maxim-swinbourne::united-kingdom",
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Alexander Smith",
+    "domain": null,
+    "hq_location": "Birmingham, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "sensor fingerprinting and data analytics for clean-in-place",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Alexander Smith (CTO and Co-founder, 4T2 Sensors)",
+    "people": [
+      {
+        "name": "Alexander Smith",
+        "role": "CTO and Co-founder, 4T2 Sensors",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Co-founder and CTO (Dr., physics and engineering science background) of 4T2 Sensors, the Birmingham company behind CIPSense real-time clean-in-place monitoring for food and beverage. The company lists Diageo among its partners. The team page also lists a graduate data scientist, so data work is part of the product.",
+    "source_urls": [
+      "https://www.4t2sensors.com/about",
+      "https://www.cbinsights.com/company/4t2-sensors/people"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "whiskey"
+    ],
+    "affiliated_company": "4T2 Sensors",
+    "affiliated_company_current": true,
+    "key": "alexander-smith::united-kingdom",
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing",
+      "BI & analytics"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Paul Egidio",
+    "domain": null,
+    "hq_location": "Sonoma, California, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "cloud fermentation monitoring and tank control analytics",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Paul Egidio (Founder and CEO, Acrolon Technologies)",
+    "people": [
+      {
+        "name": "Paul Egidio",
+        "role": "Founder and CEO, Acrolon Technologies",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founder and CEO of Acrolon Technologies, maker of TankNET, a cloud-connected fermentation control platform with brix, redox and temperature monitoring and fermentation analytics for wineries and breweries. Acrolon's site cites customers including Opus One, Jackson Family Wines and Cigar City Brewing. A 2015 Palmaz Vineyards article quotes him as Chief Technical Officer on TankNET's history.",
+    "source_urls": [
+      "https://palmazvineyards.com/Blog/Detail/146",
+      "https://www.acrolon.com/About"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine",
+      "beer"
+    ],
+    "affiliated_company": "Acrolon Technologies (TankNET)",
+    "affiliated_company_current": true,
+    "key": "paul-egidio::usa",
+    "theme": "Process & operations",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Mark Greenspan",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "vineyard sensor telemetry and data portal",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Mark Greenspan (Founder, Advanced Viticulture)",
+    "people": [
+      {
+        "name": "Mark Greenspan",
+        "role": "Founder, Advanced Viticulture",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Dr. Mark Greenspan founded the Advanced Viticulture consulting firm in 2005. Its site describes a data-driven practice using soil moisture probes and plant stress sensors, and an AV Data Portal that aggregates vineyard telemetry from multiple devices. The sources do not describe machine learning specifically.",
+    "source_urls": [
+      "https://advancedvit.com/about/",
+      "https://www.linkedin.com/company/advanced-viticulture-inc"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Advanced Viticulture",
+    "affiliated_company_current": true,
+    "key": "mark-greenspan::unknown",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "Consultancy & services"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ricardo Jurado",
+    "domain": null,
+    "hq_location": "Spain",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "sensor and data monitoring of fermentation and barrel ageing",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ricardo Jurado (Technical Director (R&D), Agrovin Group)",
+    "people": [
+      {
+        "name": "Ricardo Jurado",
+        "role": "Technical Director (R&D), Agrovin Group",
+        "linkedin": "https://www.linkedin.com/in/ricardo-jurado-fuentes-8b903755/"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Technical Director of Grupo Agrovin, managing technological innovation, the laboratory and R&D. He presented the SMARTWINERY experimental winery, whose sensors and smart stoppers feed a control panel to monitor remontage, redox potential and oxygenation, and Agrovin has launched the ActiveBarrel smart barrel bung. Sources describe sensors and data analysis rather than named machine-learning models.",
+    "source_urls": [
+      "https://agrovin.com/en/rd-projects/",
+      "https://revistaenologos.es/grupo-agrovin-invierte-casi-un-millon-de-euros-en-idi-durante-2024/",
+      "https://www.tecnovino.com/asi-es-el-proyecto-smartwinery-una-bodega-inteligente-y-conectada-con-tecnologia-innovadora/"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/ricardo-jurado-fuentes-8b903755/",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Agrovin",
+    "affiliated_company_current": true,
+    "key": "ricardo-jurado::spain",
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "Spain",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Nina Vellayan",
+    "domain": null,
+    "hq_location": "United States",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "AI and machine learning platform for beverage alcohol trade promotion and pricing insight",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Nina Vellayan (Chief Executive Officer, Andavi Solutions)",
+    "people": [
+      {
+        "name": "Nina Vellayan",
+        "role": "Chief Executive Officer, Andavi Solutions",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "CEO of Andavi Solutions, which owns the GreatVines sales execution platform for beverage alcohol suppliers and distributors. Her team profile says she leads data-driven AI and machine learning solutions for the beverage alcohol industry; she has 25+ years in payments and SaaS and reportedly started in 2025.",
+    "source_urls": [
+      "https://andavisolutions.com/company-info/our-team/",
+      "https://www.zoominfo.com/p/Nina-Vellayan/2423284846"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "whiskey",
+      "wine"
+    ],
+    "affiliated_company": "Andavi Solutions (GreatVines)",
+    "affiliated_company_current": true,
+    "key": "nina-vellayan::united-states",
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Brian Anderson",
+    "domain": null,
+    "hq_location": "Nashville, Tennessee, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "machine learning on RF signals to measure proof, volume and maturation in sealed barrels",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Brian Anderson (CEO and Co-Founder, Barrel Proof Technologies)",
+    "people": [
+      {
+        "name": "Brian Anderson",
+        "role": "CEO and Co-Founder, Barrel Proof Technologies",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "CEO and co-founder of Barrel Proof Technologies, a Nashville company building non-invasive RF sensing with an AI layer to verify barrel contents. He is named inventor on U.S. Patent 12,609,185, which covers the machine learning layer that turns raw RF readings into proof, volume, colour and maturation measurements. The patents explicitly cover wine, beer and distilled spirits.",
+    "source_urls": [
+      "https://www.fredminnick.com/2026/07/14/barrel-proof-technologies-appoints-hopmayer-to-board/",
+      "https://www.prnewswire.com/news-releases/barrel-proof-technologies-strengthens-its-leadership-in-non-invasive-barrel-verification-with-two-new-us-patents-302819019.html"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey",
+      "wine",
+      "beer"
+    ],
+    "affiliated_company": "Barrel Proof Technologies",
+    "affiliated_company_current": true,
+    "key": "brian-anderson::usa",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Miayan Yeremi",
+    "domain": null,
+    "hq_location": "Vancouver, Canada",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "barrel sensing and automated free sulfite tracking in wine ageing",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Miayan Yeremi (Co-founder, BarrelWise Technologies)",
+    "people": [
+      {
+        "name": "Miayan Yeremi",
+        "role": "Co-founder, BarrelWise Technologies",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Mechanical engineering PhD (UBC) who co-founded BarrelWise Technologies, a Vancouver startup for wine barrel ageing. He developed the sensor that measures free sulfites in barrels as an early warning system, alongside an automated topping cart. Sources date from 2020 to 2022, so the current role is unconfirmed.",
+    "source_urls": [
+      "https://www.bcbusiness.ca/Vancouver-based-company-seeks-to-revolutionize-wine-industry-one-barrel-at-a-time",
+      "https://www.sauder.ubc.ca/news/school-news/wine-tech-startup-takes-next-step-towards-commercialization"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "BarrelWise Technologies",
+    "affiliated_company_current": null,
+    "key": "miayan-yeremi::canada",
+    "theme": "Other",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "Canada",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Marc de Vos",
+    "domain": null,
+    "hq_location": "London, United Kingdom",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "draught beer sales, yield and quality analytics from connected sensors",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Marc de Vos (Founder, Bar Analytics)",
+    "people": [
+      {
+        "name": "Marc de Vos",
+        "role": "Founder, Bar Analytics",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founder of Bar Analytics, which builds analytics software and hardware so brewers and bars can monitor sales, yield and dispense quality of draught beer. PhD in electrical and electronics engineering from the University of Southampton (2016), previously CTO and co-founder of Flowbot Bars. The Future Worlds profile dates from 2016 and also lists him as an analyst at Pensato Capital, so his current role may differ.",
+    "source_urls": [
+      "https://futureworlds.com/bar-analytics/",
+      "https://www.baranalytics.co.uk/"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Bar Analytics",
+    "affiliated_company_current": null,
+    "key": "marc-de-vos::united-kingdom",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "BI & analytics"
+    ],
+    "country": "United Kingdom",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Philipp Ramin",
+    "domain": null,
+    "hq_location": "Germany",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "board-level guidance on data analytics, AI and digital business models for a hop company",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Philipp Ramin (Member of the Board of Directors, BarthHaas; founder and CEO, i40)",
+    "people": [
+      {
+        "name": "Philipp Ramin",
+        "role": "Member of the Board of Directors, BarthHaas; founder and CEO, i40",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Dr. Philipp V. Ramin joined the BarthHaas board of directors in October 2021 to provide impetus in digital competence, data analytics, artificial intelligence and digital business models. He is founder and CEO of the Innovation Center for Industry 4.0 (i40.de), which offers AI consulting and training. BarthHaas is a global hop marketer; the sources describe an advisory board role rather than hands-on brewing AI delivery.",
+    "source_urls": [
+      "https://www.barthhaas.com/company/corporate-governance",
+      "https://www.i40.de/en/"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "BarthHaas",
+    "affiliated_company_current": true,
+    "key": "philipp-ramin::germany",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics",
+      "Consultancy & services"
+    ],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Rory Crawford",
+    "domain": null,
+    "hq_location": "Boston, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "bar beverage inventory analytics and profit recommendations",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Rory Crawford (Co-Founder and CEO, BevSpot)",
+    "people": [
+      {
+        "name": "Rory Crawford",
+        "role": "Co-Founder and CEO, BevSpot",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Co-founder and CEO of BevSpot, a Boston bar and restaurant beverage inventory, ordering and sales-data platform founded in 2014. In a 2018 Hospitality Net piece he describes the software surfacing which beverages sell and earn most and recommending changes to lift profit. The sources describe analytics rather than machine learning.",
+    "source_urls": [
+      "https://www.bevspot.com/about",
+      "https://www.hospitalitynet.org/opinion/4088969.html"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "BevSpot",
+    "affiliated_company_current": true,
+    "key": "rory-crawford::usa",
+    "theme": "Supply chain",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Lewis Collins",
+    "domain": null,
+    "hq_location": "Sydney, Australia",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "machine learning spore identification for vineyard disease early warning",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Lewis Collins (Founder and CEO, BioScout)",
+    "people": [
+      {
+        "name": "Lewis Collins",
+        "role": "Founder and CEO, BioScout",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founder and CEO of BioScout, holder of a University of Sydney PhD. BioScout automates airborne spore traps with robotic microscopy and machine learning to identify fungal spores in images. Its sensors monitor botrytis, downy and powdery mildew in vineyards, including a 2024/25 South Australian deployment.",
+    "source_urls": [
+      "https://agfundernews.com/bioscout-raises-4-8m-for-early-warning-system-for-fungal-pathogens",
+      "https://www.growag.com/organisation/bioscout-1"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "BioScout",
+    "affiliated_company_current": true,
+    "key": "lewis-collins::australia",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Australia",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Shea Martin",
+    "domain": null,
+    "hq_location": "Regina, Canada",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "brewery ERP with inventory, sales, reporting and compliance data",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Shea Martin (CEO and Founder, Brew Ninja)",
+    "people": [
+      {
+        "name": "Shea Martin",
+        "role": "CEO and Founder, Brew Ninja",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "CEO and founder of Brew Ninja, a brewery management system covering inventory, accounting, sales, reporting and compliance. He built the original prototype for a Regina craft brewery and holds a University of Saskatchewan computer science degree. Sources do not mention AI or machine learning.",
+    "source_urls": [
+      "https://www.brewninja.net/",
+      "https://www.cultivator.ca/crafting-brewery-efficiency-one-pint-at-a-time"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Brew Ninja",
+    "affiliated_company_current": true,
+    "key": "shea-martin::canada",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "Canada",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Hugo Amos",
+    "domain": null,
+    "hq_location": "London, UK",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "machine learning trend prediction for alcohol categories",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Hugo Amos (Co-founder, Black Swan Data (named CEO in a February 2022 article))",
+    "people": [
+      {
+        "name": "Hugo Amos",
+        "role": "Co-founder, Black Swan Data (named CEO in a February 2022 article)",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Co-founded Black Swan Data in 2011. The company's TPV algorithm analysed 36 million social conversations about beer, cider and spirits for Twitter's 2022 alcohol trends report, claiming 89 percent accuracy six months ahead. Current role may have changed since 2022.",
+    "source_urls": [
+      "https://blackswan.com/resources/our-thinking/how-we-predicted-alcohol-trends-for-twitter",
+      "https://en.wikipedia.org/wiki/Black_Swan_Data"
+    ],
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "whiskey"
+    ],
+    "affiliated_company": "Black Swan Data",
+    "affiliated_company_current": null,
+    "key": "hugo-amos::uk",
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United Kingdom",
     "scope": "beverage-native"
   }
 ]
