@@ -14265,7 +14265,9 @@
   },
   {
     "name": "E. & J. Gallo Winery",
-    "aliases": ["E. and J. Gallo Winery"],
+    "aliases": [
+      "E. and J. Gallo Winery"
+    ],
     "domain": "gallo.com",
     "hq_location": "Modesto, California, USA",
     "founded_year": 1933,
@@ -19619,6 +19621,111 @@
       }
     ],
     "discovered_by": "scout:frontier_companies",
+    "verified": false
+  },
+  {
+    "name": "ER Informatica",
+    "domain": "erinformatica.it",
+    "hq_location": "Santo Stefano Belbo, Italy",
+    "founded_year": 1999,
+    "vertical": "wine",
+    "ai_use_case": "computer vision and iot research alongside scada and erp for wineries",
+    "ai_maturity": "research",
+    "short_description": "Italian software house offering SCADA and system integration for food and beverage plants, Zucchetti G2 and Panthera ERP, and wine-sector registers and cellar software. Its site says it takes part in R&D projects applying AI to computer vision (image classification, object recognition) and IoT data-acquisition units. No shipping AI product for beverage is claimed; the core offer is conventional plant and back-office software.",
+    "source_urls": [
+      "https://www.erinformatica.it/",
+      "https://www.simei.it/espositore?id=10008383"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "DNA Phone",
+    "domain": "dnaphone.it",
+    "hq_location": "Parma, Italy",
+    "vertical": "multiple",
+    "ai_use_case": "portable enzymatic analyser with app-based data management",
+    "ai_maturity": "none",
+    "short_description": "Parma company selling Smart Analysis, a patented portable optical-fibre and LED enzymatic analyser with a mobile app and cloud data handling, with wine and beer kits for small producers. The site describes it as a smart lab but makes no AI or machine-learning claim. Relevant as a lab-analytics data source for small breweries and wineries.",
+    "source_urls": [
+      "https://www.dnaphone.it/smart-analysis-birra/",
+      "https://www.simei.it/espositore?id=101236"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "TecSense",
+    "domain": "tecsense.com",
+    "hq_location": "Grambach (Raaba), Austria",
+    "vertical": "multiple",
+    "ai_use_case": "optochemical oxygen sensing for beverage quality control",
+    "ai_maturity": "none",
+    "short_description": "Austrian maker of optochemical sensors. Its TecPen Fluid and HSA products measure O2, CO2 and headspace in bottled beverages for quality control, with USB data transfer. A sensor vendor with no AI claim, exhibiting at SIMEI 2026.",
+    "source_urls": [
+      "https://www.tecsense.com/",
+      "https://www.simei.it/espositore?id=10008580"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "Prooftag",
+    "domain": "prooftag.net",
+    "hq_location": "Montauban, France",
+    "vertical": "multiple",
+    "ai_use_case": "bottle authentication and traceability tags with software",
+    "ai_maturity": "none",
+    "short_description": "French anti-counterfeiting firm supplying bubble-code seals, smart labels, RFID and NFC tags for wine and spirits, with the Cerv and CertiTRACK software for verification and tracking. Plain authentication and traceability data product; no AI claim found on its site.",
+    "source_urls": [
+      "https://www.prooftag.net/",
+      "https://www.simei.it/espositore?id=10008151"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:tradeshow_de",
+    "verified": false
+  },
+  {
+    "name": "WinePOS",
+    "domain": "winepos.com",
+    "hq_location": "Manasquan, NJ, USA",
+    "founded_year": 1980,
+    "vertical": "wine",
+    "ai_use_case": "none claimed, point of sale and inventory system for wine and liquor stores",
+    "ai_maturity": "none",
+    "short_description": "Point of sale software built for wine and liquor retailers, covering sizes, singles, packs and cases, multi-location sync, reporting, age verification and e-commerce and QuickBooks integrations. Lists itself as an exhibitor on the WSWA Access LIVE 2027 floorplan. Makes no AI or machine learning claim on its site; it is a retail system of record.",
+    "source_urls": [
+      "https://winepos.com/",
+      "https://winepos.com/about-us/",
+      "https://www.conferenceharvester.com/floorplan/v2/index.asp?EventKey=ASZIPXSS"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:tradeshow_us",
+    "verified": false
+  },
+  {
+    "name": "FasTrax POS",
+    "domain": "fastraxpos.com",
+    "hq_location": "New York, USA",
+    "vertical": "multiple",
+    "ai_use_case": "none claimed, retail POS with scan data and multi-pack discount management",
+    "ai_maturity": "none",
+    "short_description": "Cloud retail POS (FTx Control Center) handling pricing, buydowns, multi-pack discounts, inventory, loyalty and manufacturer scan data, built by a retail chain operator in 2008 and sold to retailers and wholesalers. Exhibitor on the WSWA Access LIVE 2027 floorplan. No AI or machine learning claim appears on its homepage; it is a transaction and scan-data system of record.",
+    "source_urls": [
+      "https://fastraxpos.com/",
+      "https://www.conferenceharvester.com/floorplan/v2/index.asp?EventKey=ASZIPXSS"
+    ],
+    "first_seen": "2026-10-01",
+    "last_seen": "2026-10-01",
+    "discovered_by": "scout:tradeshow_us",
     "verified": false
   }
 ]

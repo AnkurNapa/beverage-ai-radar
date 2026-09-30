@@ -302,5 +302,19 @@
   "surface": "frontier_companies",
   "found": 3,
   "added": 2
+ },
+ {
+  "date": "2026-10-01",
+  "lane": "companies",
+  "surface": "tradeshow_de",
+  "found": 4,
+  "added": 4
+ },
+ {
+  "date": "2026-10-01",
+  "lane": "companies",
+  "surface": "tradeshow_us",
+  "found": 2,
+  "added": 2
  }
 ]
