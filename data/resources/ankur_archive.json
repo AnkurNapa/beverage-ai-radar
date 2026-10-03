@@ -470,6 +470,16 @@
     "featured": false
   },
   {
+    "title": "Whose Palate Did the Model Learn? Bias in Sensory AI, and Evals That Catch Hallucinated Tasting Notes",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/sensory-ai-bias-tasting-note-hallucination-evals/",
+    "summary": "Part 5 of Responsible AI for Beer, Whisky and Wine. Flavour models and LLMs learn a Western tasting vocabulary and a narrow panel, then write confident notes that invent casks, vineyards and awards. How to find the bias in descriptor data and panels, how to ground note drafting in the batch record, and how to build an eval set that checks every claim in a tasting note against its source.",
+    "featured": false
+  },
+  {
     "title": "Scraping and Trend-Mining 250 Public Homebrew Recipes: Regex Where You Can, LLM Where You Must",
     "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
     "author": "Ankur Napa",
@@ -510,6 +520,36 @@
     "featured": false
   },
   {
+    "title": "Responsible Recommenders: Harm Caps, Consent-Aware Features and Why the Heaviest Drinkers Should Not Get the Best Offers",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/responsible-recommenders-harm-caps-consent/",
+    "summary": "Part 3 of Responsible AI for Beer, Whisky and Wine. A recommender tuned for clicks and volume quietly over-serves the top decile of drinkers. How to fix it with harm-aware re-ranking, frequency caps, low and no-alcohol swaps, age gating, a consent-filtered feature view with purpose tags, and an offline eval that measures who the model is really talking to. With India’s DPDP Act and Rules and GDPR in view.",
+    "featured": false
+  },
+  {
+    "title": "A Responsible AI Playbook for a Small Beverage Business, and Where It Breaks",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/responsible-ai-playbook-small-beverage-business/",
+    "summary": "Part 8 of Responsible AI for Beer, Whisky and Wine. A lightweight version of ISO/IEC 42001 for a craft brewery, small distillery or winery with no AI team: a use-case register, a one-page impact assessment, an eval harness, monitoring, an incident log and a quarterly review, mapped to the NIST AI RMF. Plus AI’s own energy and water footprint against your ESG claims, the regulatory calendar as of September 2026, and a 90-day plan.",
+    "featured": false
+  },
+  {
+    "title": "What Responsible AI Actually Means for a Drinks Business: Six Principles and a Use-Case Register in SQL",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/responsible-ai-beverage-principles-use-case-register/",
+    "summary": "Part 1 of Responsible AI for Beer, Whisky and Wine. The six Responsible AI principles, mapped to breweries, distilleries and wineries, the frameworks behind them (NIST AI RMF, ISO/IEC 42001, the EU AI Act, India’s AI Governance Guidelines and the DPDP Act), and the one artefact every drinks business should build first: an AI use-case register with a risk-tiering query.",
+    "featured": false
+  },
+  {
     "title": "RAG Over the Brewing Literature Without Hallucinated Maths",
     "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
     "author": "Ankur Napa",
@@ -517,6 +557,16 @@
     "vertical": "beer",
     "url": "https://ankurnapa.github.io/2026/rag-brewing-literature-without-hallucinated-maths/",
     "summary": "Part 1 of The Brewer’s Agent. Retrieval-augmented generation is good at finding what the brewing literature says and bad at doing what it says. How to chunk formulas and tables, why brewing needs hybrid search, why every answer needs a citation, and why the arithmetic goes to a tool.",
+    "featured": false
+  },
+  {
+    "title": "Provenance, Fakes and Synthetic Labels: A Hash-Chained Cask Ledger, C2PA and Label Claims You Can Prove",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/provenance-fakes-c2pa-traceability-whisky-wine/",
+    "summary": "Part 6 of Responsible AI for Beer, Whisky and Wine. GenAI makes a convincing fake label, bottle photo or heritage story in seconds, and it can just as easily draft an illegal age statement for your own product. How an append-only, hash-chained traceability ledger from cask or tank to bottle, label claims derived from that ledger, and C2PA Content Credentials on your images give you provenance you can actually prove.",
     "featured": false
   },
   {
@@ -907,6 +957,16 @@
     "vertical": "beer",
     "url": "https://ankurnapa.github.io/2026/genai-copilot-malt-certificate-analysis/",
     "summary": "A grounded LLM copilot can read a malt certificate of analysis, explain every parameter, flag out-of-spec values against your recipe and draft the brew sheet — if you stop it inventing numbers.",
+    "featured": false
+  },
+  {
+    "title": "GenAI Marketing for a Product You Cannot Sell to Minors: Policy-as-Code, a Pre-Publish Classifier and a Red-Team Eval Set",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/genai-alcohol-marketing-guardrails-age-codes/",
+    "summary": "Part 2 of Responsible AI for Beer, Whisky and Wine. How to use generative AI for beer, whisky and wine marketing without breaking the alcohol codes: the Portman Group under-25 rule, the 73.8 and 73.6 percent adult audience standards in the US, India’s surrogate advertising rules and the EU AI Act transparency duties. Built as guardrails in code: a policy file, a pre-publish classifier, a red-team eval set, human sign-off and a log.",
     "featured": false
   },
   {
@@ -1610,6 +1670,16 @@
     "featured": false
   },
   {
+    "title": "When the Model Touches Food Safety: Flag-Only Release Gates, Abstain Thresholds and Model Cards for Beer, Whisky and Wine",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/ai-food-safety-human-release-model-cards/",
+    "summary": "Part 4 of Responsible AI for Beer, Whisky and Wine. Reliability and safety in practice: AI may rank risk and raise flags, but a person releases the batch and validated methods stay on the HACCP critical control points. Worked through soft sensors, mycotoxin and gushing risk in malt, methanol and the spirit cut, and SO2 and Brett in wine, with a model card, an abstain threshold, drift monitoring and a release gate where the model can block but never release.",
+    "featured": false
+  },
+  {
     "title": "AI Demand Forecasting for Breweries: Useful, Until It Isn’t",
     "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
     "author": "Ankur Napa",
@@ -1687,6 +1757,16 @@
     "vertical": "multiple",
     "url": "https://ankurnapa.github.io/2026/agentic-ai-opex-oee-agent-cmms-guardrails/",
     "summary": "Part 7 of AI for Operational Excellence in Beverage Plants. An agent that watches OEE losses every shift, finds recurring faults, checks the CMMS and drafts work orders and changeover plans for people to approve. Plus the guardrails that matter: the Purdue model, read-only access to OT data, no writes to PLC or SCADA, approvals, an audit log and replay evals.",
+    "featured": false
+  },
+  {
+    "title": "Accountability When an Agent Drafts the Decision: Owners, Audit Logs, Red Teams and Safety Cameras That Are Not Surveillance",
+    "blog": "Beer, Wine & Whiskey AI (Ankur Napa)",
+    "author": "Ankur Napa",
+    "date": "2026",
+    "vertical": "wine",
+    "url": "https://ankurnapa.github.io/2026/agent-accountability-audit-logs-worker-monitoring/",
+    "summary": "Part 7 of Responsible AI for Beer, Whisky and Wine. When an AI agent drafts the work order, the batch note or the supplier query, who answers for it? A named owner for every tool, an append-only audit log of every tool call, a query that catches rubber-stamp approvals, red-teaming against prompt injection from operator notes and supplier PDFs, and computer-vision safety cameras that detect events, not people.",
     "featured": false
   },
   {

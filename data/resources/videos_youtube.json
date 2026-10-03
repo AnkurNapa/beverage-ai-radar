@@ -1752,5 +1752,29 @@
     "url": "https://www.youtube.com/watch?v=JY6J9hDL2Lw",
     "vertical": "multiple",
     "summary": "What does Industry 4.0 mean for the future of the food and beverage industry? This is the question our experts explored at ..."
+  },
+  {
+    "title": "Semantic Engineering at Southern Glazer's: AI That Knows Your Business",
+    "channel": "Databricks Events",
+    "video_id": "nbDbY5kYUs8",
+    "url": "https://www.youtube.com/watch?v=nbDbY5kYUs8",
+    "vertical": "whiskey",
+    "summary": "AI gives wrong answers about company data because it lacks business context. Southern Glazer's Wine and Spirits—the world's ..."
+  },
+  {
+    "title": "Grapes Breeding Recognition and Classification",
+    "channel": "Cliento Clarify AI",
+    "video_id": "psI9EfSGQF4",
+    "url": "https://www.youtube.com/watch?v=psI9EfSGQF4",
+    "vertical": "wine",
+    "summary": "ClientoClarify.AI Private Limited is Build Grapes Breeding Recognition and Classification Agricultural applications such as yield ..."
+  },
+  {
+    "title": "#AIReady factories: Make digital disruption work for you",
+    "channel": "Tetra Pak",
+    "video_id": "L-ox_GHImKc",
+    "url": "https://www.youtube.com/watch?v=L-ox_GHImKc",
+    "vertical": "multiple",
+    "summary": "What makes a factory truly AI-ready? Digital disruption is rapidly reshaping the food and beverage industry, and for those ..."
   }
 ]
