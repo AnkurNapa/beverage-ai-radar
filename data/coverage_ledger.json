@@ -555,5 +555,59 @@
   "surface": "singapore",
   "found": 0,
   "added": 0
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "digital_transformation_recheck",
+  "found": 1,
+  "added": 1
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "research",
+  "found": 3,
+  "added": 3,
+  "back_from": "2023-10-08"
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "grants_patents",
+  "found": 3,
+  "added": 3
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "tradeshow_us",
+  "found": 3,
+  "added": 3,
+  "back_from": "2023-10-08"
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "tradeshow_de",
+  "found": 4,
+  "added": 4,
+  "back_from": "2023-10-08"
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "logistics",
+  "found": 6,
+  "added": 4,
+  "back_from": "2023-10-08"
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "whiskey",
+  "found": 3,
+  "added": 3,
+  "back_from": "2023-10-08"
  }
 ]
