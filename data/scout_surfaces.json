@@ -208,5 +208,12 @@
     "hint": "Named ERP and cloud migrations (SAP S/4HANA, Dynamics 365, Oracle), data platform builds (Databricks, Snowflake, Microsoft Fabric, Google Cloud), chief digital or data officer appointments, analytics and BI rollouts, and GenAI pilots at breweries, distillers, wineries and bottlers. Evidence: vendor and systems-integrator case studies, annual reports, trade press interviews.",
     "yield": "unknown",
     "note": "Distinct from genai (GenAI adopted by drinks companies) and erp (ERP vendors): this surface is the buyer's programme as a whole. A programme with no AI component is kept and labelled no AI claim."
+  },
+  {
+    "id": "singapore",
+    "label": "Singapore beverage AI and data",
+    "hint": "Companies in Singapore applying AI or data to beer, wine and spirits, and the regional hubs run from there: APAC headquarters of the drinks majors (HEINEKEN Asia Pacific and Asia Pacific Breweries, Diageo, Pernod Ricard, AB InBev, Moet Hennessy, Treasury Wine Estates), Singapore drinks-tech and wine-commerce startups, beverage distributors and logistics with analytics (DKSH, Hillebrand), craft breweries and distilleries with data or automation work, and research at A*STAR (SIFBI), NUS and NTU food science on fermentation, sensory or quality analytics. Evidence: company sites, Enterprise Singapore and EDB announcements, ProWine Singapore and Food and Hotel Asia exhibitor lists, Straits Times and Business Times trade coverage, university and A*STAR news pages.",
+    "yield": "unknown",
+    "note": "Added 2026-10-07 at Ankur's request: Singapore had 5 companies and 1 person on the coverage grid. Regional headquarters count when the AI or data work is run from Singapore, not when the parent merely has an office there. ProWine Singapore data API returns {} to fetch clients (see tradeshow_asia note)."
   }
 ]

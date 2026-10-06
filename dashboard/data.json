@@ -520,12 +520,13 @@
     "short_description": "Portuguese company whose WINEGRID system pairs multiparameter fermentation sensors with an IoT platform and an AI engine for real-time classification, anomaly detection and prediction during winemaking.",
     "source_urls": [
       "https://wineindustryadvisor.com/2022/10/13/winegrid-developed-a-new-solution-to-monitor-wine-storage/",
+      "https://www.burgosconecta.es/provincia/ribera/sector-vino-burgos-adopta-inteligencia-artificial-gran-20260307113154-nt.html",
       "https://www.watgrid.com/",
       "https://www.winegrid.com/en/"
     ],
     "first_seen": "2017-01-01",
-    "last_seen": "2022-10-13",
-    "status": "dormant",
+    "last_seen": "2026-10-07",
+    "status": "active",
     "linkedin_url": null,
     "github_url": null,
     "product_url": null,
@@ -1293,11 +1294,13 @@
     "short_description": "Kirin built a proprietary AI recipe system, developed with Mitsubishi Research Institute, that draws on roughly 20 years of internal ingredient and tasting data to translate desired sensory profiles into ingredient combinations. Kirin plans to bring AI-supported beers to market from March 2026.",
     "source_urls": [
       "https://finance.yahoo.com/news/ai-beer-production-still-early-123137866.html",
+      "https://prtimes.jp/main/html/rd/p/000000006.000158747.html",
+      "https://prtimes.jp/main/html/rd/p/000001586.000073077.html",
       "https://www.inside.beer/news/detail/japan-kirin-accelerates-beer-innovation-with-ai-driven-brewing",
       "https://www.kirinholdings.com/en/newsroom/release/2021/0831_01.html"
     ],
     "first_seen": "2021-08-31",
-    "last_seen": "2026-09-21",
+    "last_seen": "2026-10-07",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -1394,11 +1397,14 @@
       "https://consumergoods.com/heineken-adds-gen-ai-diagnostics-query-tool-connected-ecosystem",
       "https://doi.org/10.1016/j.foodchem.2024.141532",
       "https://finance.yahoo.com/news/ai-beer-production-still-early-123137866.html",
+      "https://www.apbsingapore.com.sg/news-media/heineken-to-strengthen-its-presence-in-singapore-as-a-regional-hub-for-logistics-innovation-and-genai-capabilities/",
       "https://www.theheinekencompany.com/newsroom/brewing-with-ai/",
-      "https://www.theheinekencompany.com/newsroom/connected-brewery--simplifying-and-automating-our-end-to-end-business/"
+      "https://www.theheinekencompany.com/newsroom/connected-brewery--simplifying-and-automating-our-end-to-end-business/",
+      "https://www.theheinekencompany.com/newsroom/heineken-launches-global-genai-lab-in-singapore/",
+      "https://www.theheinekencompany.com/newsroom/heineken-shifts-singapore-to-an-import-led-supply-model-strengthening-the-countrys-regional-hub-role-and-maintaining-tiger-beers-global-brand-home/"
     ],
     "first_seen": "2024-04-24",
-    "last_seen": "2026-09-21",
+    "last_seen": "2026-10-07",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -2547,10 +2553,11 @@
     "short_description": "Bordeaux startup whose Tastee AI tool digitizes wine tasting notes into structured, comparable taste data, developed with French research institute INRIA and able to analyze comments in 32 languages.",
     "source_urls": [
       "https://winespace.fr/en",
+      "https://winespace.fr/en/news",
       "https://www.forbes.com/sites/jillbarth/2024/02/23/how-ai-helps-winemakers-understand-what-people-taste/"
     ],
     "first_seen": "2024-02-23",
-    "last_seen": "2025-06-01",
+    "last_seen": "2026-10-07",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -11379,10 +11386,11 @@
     "short_description": "Parsec builds automation and control systems for wineries, covering micro-oxygenation, fermentation control, selective extraction and real-time monitoring, with patented technology installed in more than 30 countries. Its named products are the SAEn5000 monitoring and vinification automation platform, ADCF (dynamic analysis of fermentation kinetics), which measures CO2 output continuously to track sugar consumption and flag slowdowns or stuck fermentations, EVO2FERM, which adapts yeast nutrient additions in real time, and Aphromate for sparkling wine prise de mousse. Parsec describes these as intelligent algorithms developed experimentally; there is no machine learning claim. Parsec is being acquired by Enartis.",
     "source_urls": [
       "https://parsecsrl.net/en/alcoholic-fermentation/",
-      "https://parsecsrl.net/en/company/"
+      "https://parsecsrl.net/en/company/",
+      "https://www.burgosconecta.es/provincia/ribera/sector-vino-burgos-adopta-inteligencia-artificial-gran-20260307113154-nt.html"
     ],
     "first_seen": "2026-08-01",
-    "last_seen": "2026-08-01",
+    "last_seen": "2026-10-07",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -13557,11 +13565,12 @@
     "short_description": "Italian winemaking inputs company making stabilising agents, fining agents, oak alternatives and mannoproteins, part of the Esseco group. It is the worldwide exclusive distributor of WINEGRID, the Portuguese SaaS fermentation monitoring system from Watgrid whose algorithms read production parameters in real time and support predictive analysis of a vinification, which Enartis markets under a Smart Enology positioning. Enartis has also announced the acquisition of Parsec, the Italian winery automation and intelligent control company. The AI is not Enartis's own: it is built by WINEGRID and Parsec, and Enartis is the commercial, integration and distribution layer around it.",
     "source_urls": [
       "https://doi.org/10.3390/foods12112191",
+      "https://www.burgosconecta.es/provincia/ribera/sector-vino-burgos-adopta-inteligencia-artificial-gran-20260307113154-nt.html",
       "https://www.enartis.com/en/",
       "https://www.interempresas.net/Vitivinicola/Articulos/467205-Enartis-lleva-inteligencia-artificial-bodegas-inspira-vision-Enologia-Digital.html"
     ],
     "first_seen": "2026-08-04",
-    "last_seen": "2026-09-21",
+    "last_seen": "2026-10-07",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -14068,11 +14077,12 @@
     "short_description": "Soufflet Malt, part of the InVivo group, is one of the largest maltsters in the world with 2,200 employees, 35 malthouses in 20 countries and about 3.6 million tonnes of capacity, supplying brewers, distillers and food manufacturers. Its MAITE project (Malt Artificial Intelligence Technologies), developed with a startup partner from 2018 and first deployed at the Canteleu malthouse near Rouen, collects data recorded through the malting process and recommends the production parameters a plant manager should apply to reach a target malt spec; it has since been extended to other sites in France and abroad. In 2026 the company launched MALTimize, a group data platform built with InVivo's IT and Digital Factory that consolidates production and commercial data for predictive analytics and decision support, with an AI chatbot layer announced for the second half of 2026. The AI is malting process optimisation and quality prediction, not barley genomics.",
     "source_urls": [
       "https://innovationsfood.com/soufflet-malt-launches-maltimize-to-unleash-the-full-power-of-data-and-ai/",
+      "https://www.foodbev.com/news/soufflet-malt-invests-100m-in-india-to-build-ai-driven-malthouse",
       "https://www.souffletmalt.com/innovation/",
       "https://www.souffletmalt.com/wp-content/uploads/2026/07/PR_Soufflet_Malt_launches_MALTimize.pdf"
     ],
     "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
+    "last_seen": "2026-10-07",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -16131,11 +16141,12 @@
     "notable_customers_partners": null,
     "short_description": "iStill B.V. builds modular automated mashing, fermentation and distillation equipment for craft distilleries and says it serves more than 1,500 distilleries worldwide. Its stills run what the company calls level three automation and robotization: sensors drive the cuts between heads, hearts and tails, reflux and air pressure compensation are handled by the controller, and validated recipes replay with no operator intervention. That control layer is deterministic process logic, not machine learning, and iStill does not claim otherwise. Separately the company has added DistillingAI to its website, a generative assistant it describes as the easiest way to learn about everything related to distilling and iStill, which is a customer facing language model rather than anything running on the still.",
     "source_urls": [
+      "https://istill.com/",
       "https://istill.com/blog/2021-02-22-automation-what-equipment-do-i-need/",
       "https://istill.com/distillery-equipment/"
     ],
     "first_seen": "2026-08-04",
-    "last_seen": "2026-08-04",
+    "last_seen": "2026-10-07",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -30944,10 +30955,11 @@
     "short_description": "Budejovicky Budvar is the Czech national brewery, founded in 1895 and exporting to more than 70 countries. It replaced about a quarter of its legacy applications with SAP S/4HANA Cloud private edition, implemented by NTT DATA Business Solutions, and now runs more than 200 domestic and export distribution routes on the single system, reporting 22 percent higher finance team productivity and 99.7 percent IT availability. The brewery makes no machine learning claim: this is a system of record and reporting modernization, with SAP Extended Warehouse Management named as the next step.",
     "source_urls": [
       "https://news.sap.com/cz/2025/09/budvar-ridi-200-tras-pres-novy-system-cloudova-platforma-sap-nahradila-ctvrtinu-aplikaci/",
-      "https://www.budejovickybudvar.cz/tiskove-zpravy/budejovicku-budvar-zaznamenal-po-zavedeni-sap-s-4hana-rekordni-distribuci"
+      "https://www.budejovickybudvar.cz/tiskove-zpravy/budejovicku-budvar-zaznamenal-po-zavedeni-sap-s-4hana-rekordni-distribuci",
+      "https://www.e15.cz/byznys/unfiltered/dva-mesice-po-nasazeni-systemu-jsme-dosahli-expedicniho-rekordu-rika-pavel-stengl-z-budejovickeho-budvaru-1434559"
     ],
     "first_seen": "2026-08-11",
-    "last_seen": "2025-09-11",
+    "last_seen": "2026-10-07",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -43850,7 +43862,7 @@
       "https://www.headwaters.co.jp/news/2026/"
     ],
     "first_seen": "2026-09-21",
-    "last_seen": "2026-09-21",
+    "last_seen": "2026-10-07",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -43895,7 +43907,7 @@
       "https://www.headwaters.co.jp/news/2026/"
     ],
     "first_seen": "2026-09-21",
-    "last_seen": "2026-09-09",
+    "last_seen": "2026-10-07",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -44782,10 +44794,11 @@
     "short_description": "Portuguese research and technology institute based in Porto. Its Centre for Robotics in Industry and Intelligent Systems runs a sustained precision viticulture programme, including the PRySM autonomous precision sprayer ground robot built for the narrow, steep-slope vineyards of the Douro. The institute has published a long run of applied deep learning work on grape bunch and vine trunk detection, vineyard segmentation from satellite imagery, grapevine variety identification and prediction of grapevine water status from hyperspectral data, much of it with Portuguese wine producers as field sites.",
     "source_urls": [
       "https://doi.org/10.3390/agronomy11091890",
+      "https://noticias.up.pt/2025/10/24/ivdp-premeia-projeto-da-fcup-que-leva-inovacao-as-vinhas-do-douro/",
       "https://www.inesctec.pt/en/projects/prysm"
     ],
     "first_seen": "2026-09-21",
-    "last_seen": "2026-09-21",
+    "last_seen": "2026-10-07",
     "status": "active",
     "linkedin_url": null,
     "github_url": null,
@@ -47616,7 +47629,7 @@
       {
         "name": "Tushar Agrawal",
         "role": "Full-stack engineer and builder of Liquor Pro; Software Developer, Dr. Dangs Lab",
-        "linkedin": "https://www.linkedin.com/in/tushar-agrawal-91b67a28a/"
+        "linkedin": "https://www.linkedin.com/in/tushar-agrawal-589205192/"
       }
     ],
     "notable_customers_partners": null,
@@ -47628,7 +47641,7 @@
     "first_seen": "2026-09-27",
     "last_seen": "2026-09-27",
     "status": "active",
-    "linkedin_url": "https://www.linkedin.com/in/tushar-agrawal-91b67a28a/",
+    "linkedin_url": "https://www.linkedin.com/in/tushar-agrawal-589205192/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -48026,7 +48039,7 @@
       {
         "name": "Shiwen Zhuang",
         "role": "Researcher, ICBD, Heriot-Watt University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/shiwenzhuang/"
       }
     ],
     "notable_customers_partners": null,
@@ -48038,7 +48051,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/shiwenzhuang/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -48076,7 +48089,7 @@
       {
         "name": "Luo Mai",
         "role": "Researcher, School of Informatics, University of Edinburgh",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/luo-mai-72253242/"
       }
     ],
     "notable_customers_partners": null,
@@ -48088,7 +48101,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/luo-mai-72253242/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -48229,7 +48242,7 @@
       {
         "name": "Xuechun Wang",
         "role": "Post-doctoral Researcher, Queen Mary University of London",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/xuechun-wang-720693312/"
       }
     ],
     "notable_customers_partners": null,
@@ -48241,7 +48254,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/xuechun-wang-720693312/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -48280,7 +48293,7 @@
       {
         "name": "Rob McInerney",
         "role": "Co-founder, IntelligentX",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/remcinerney/"
       }
     ],
     "notable_customers_partners": null,
@@ -48292,7 +48305,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/remcinerney/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -48531,7 +48544,7 @@
       {
         "name": "Jochen Forster",
         "role": "Director and Professor Yeast Fermentation, Carlsberg Research Laboratory (as of 2017)",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/jochen-f%C3%B6rster-a9970711/"
       }
     ],
     "notable_customers_partners": null,
@@ -48543,7 +48556,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/jochen-f%C3%B6rster-a9970711/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -48582,7 +48595,7 @@
       {
         "name": "Angela D'Orazio",
         "role": "Master blender and chief nose officer, Mackmyra (as of 2019-2021)",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/angela-d-orazio-6a306761/"
       }
     ],
     "notable_customers_partners": null,
@@ -48594,7 +48607,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/angela-d-orazio-6a306761/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -48632,7 +48645,7 @@
       {
         "name": "Jarno Kartela",
         "role": "Principal Machine Learning Partner, Fourkind (as of 2019)",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/kartela/"
       }
     ],
     "notable_customers_partners": null,
@@ -48644,7 +48657,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/kartela/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -48835,7 +48848,7 @@
       {
         "name": "Thomas Becker",
         "role": "Professor, Chair of Brewing and Beverage Technology, TUM Weihenstephan",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/thomas-becker-2a048110b/"
       }
     ],
     "notable_customers_partners": null,
@@ -48847,7 +48860,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/thomas-becker-2a048110b/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -48886,7 +48899,7 @@
       {
         "name": "Jochen Vestner",
         "role": "Professor of Oenology, Hochschule Geisenheim University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/jochen-vestner-87a9b4296/"
       }
     ],
     "notable_customers_partners": null,
@@ -48898,7 +48911,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/jochen-vestner-87a9b4296/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -48986,7 +48999,7 @@
       {
         "name": "Josef Kimberger",
         "role": "Bitburger Braugruppe (DaPro project, as of 2022-2023)",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/josef-kimberger/"
       }
     ],
     "notable_customers_partners": null,
@@ -48998,7 +49011,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/josef-kimberger/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -49243,7 +49256,7 @@
       {
         "name": "Paul-Mehdy M'Rabet",
         "role": "Former Head of Data & AI Center of Expertise, Moet Hennessy",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/paulmehdy/"
       }
     ],
     "notable_customers_partners": null,
@@ -49255,7 +49268,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/paulmehdy/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -49294,7 +49307,7 @@
       {
         "name": "Sebastien Huet",
         "role": "Digital & Data Director, Remy Cointreau (as of 2021)",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/sebastien-huet-1840548/"
       }
     ],
     "notable_customers_partners": null,
@@ -49306,7 +49319,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/sebastien-huet-1840548/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -49344,7 +49357,7 @@
       {
         "name": "Laura Gil",
         "role": "Chief Digital and Data Officer, Damm",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/lgilcenteno/"
       }
     ],
     "notable_customers_partners": null,
@@ -49356,7 +49369,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/lgilcenteno/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -53449,7 +53462,7 @@
       {
         "name": "Karel Krofta",
         "role": "Researcher, Hop Research Institute Zatec",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/karel-krofta-a2471a140/"
       }
     ],
     "notable_customers_partners": null,
@@ -53461,7 +53474,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/karel-krofta-a2471a140/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -53497,7 +53510,7 @@
       {
         "name": "Pedro Garavito",
         "role": "VP Technology and Transformation, AB InBev Middle Americas Zone",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/pedrogaravito/"
       }
     ],
     "notable_customers_partners": null,
@@ -53510,7 +53523,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/pedrogaravito/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -53649,7 +53662,7 @@
       {
         "name": "Dusty Kline",
         "role": "Chief Technology Officer, Next Glass",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/dkline/"
       }
     ],
     "notable_customers_partners": null,
@@ -53661,7 +53674,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/dkline/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -53802,7 +53815,7 @@
       {
         "name": "Chad Rich",
         "role": "Vice President, IT, E. and J. Gallo Winery",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/chad-w-rich/"
       }
     ],
     "notable_customers_partners": null,
@@ -53814,7 +53827,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/chad-w-rich/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -53852,7 +53865,7 @@
       {
         "name": "Seth Westra",
         "role": "Professor, University of Adelaide; Chief Investigator, VitiVisor",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/sethwestra/"
       }
     ],
     "notable_customers_partners": null,
@@ -53864,7 +53877,7 @@
     "first_seen": "2026-09-28",
     "last_seen": "2026-09-28",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/sethwestra/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -54203,7 +54216,7 @@
       {
         "name": "Piyush Bhardwaj",
         "role": "Published researcher, Lincoln University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/piyush-bhardwaj-5665b872/"
       }
     ],
     "notable_customers_partners": null,
@@ -54215,7 +54228,7 @@
     "first_seen": "2022-01-28",
     "last_seen": "2022-01-28",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/piyush-bhardwaj-5665b872/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -54907,7 +54920,7 @@
       {
         "name": "Jennifer Hoponick Redmon",
         "role": "Published researcher, RTI International",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/jenniferhoponickredmon/"
       }
     ],
     "notable_customers_partners": null,
@@ -54919,7 +54932,7 @@
     "first_seen": "2025-04-24",
     "last_seen": "2025-04-24",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/jenniferhoponickredmon/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -54957,7 +54970,7 @@
       {
         "name": "Andrew J. Kondash",
         "role": "Published researcher, RTI International",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/andrewkondash/"
       }
     ],
     "notable_customers_partners": null,
@@ -54969,7 +54982,7 @@
     "first_seen": "2025-04-24",
     "last_seen": "2025-04-24",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/andrewkondash/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -55415,7 +55428,7 @@
       {
         "name": "Ruby Brooks",
         "role": "Published researcher, Deakin University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/ruby-brooks-974a02122/"
       }
     ],
     "notable_customers_partners": null,
@@ -55427,7 +55440,7 @@
     "first_seen": "2022-03-02",
     "last_seen": "2022-03-02",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/ruby-brooks-974a02122/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -55465,7 +55478,7 @@
       {
         "name": "Kathryn Backholer",
         "role": "Published researcher, Deakin University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/kathryn-backholer/"
       }
     ],
     "notable_customers_partners": null,
@@ -55477,7 +55490,7 @@
     "first_seen": "2022-03-02",
     "last_seen": "2022-03-02",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/kathryn-backholer/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -55515,7 +55528,7 @@
       {
         "name": "Mattia Rapa",
         "role": "Published researcher, Sapienza University of Rome",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/mattia-rapa-089125100/"
       }
     ],
     "notable_customers_partners": null,
@@ -55527,7 +55540,7 @@
     "first_seen": "2022-10-28",
     "last_seen": "2022-10-28",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/mattia-rapa-089125100/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -55566,7 +55579,7 @@
       {
         "name": "Marcelo Enrique Conti",
         "role": "Published researcher, Sapienza University of Rome",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/marcelo-enrique-conti-72ba1650/"
       }
     ],
     "notable_customers_partners": null,
@@ -55578,7 +55591,7 @@
     "first_seen": "2022-10-28",
     "last_seen": "2022-10-28",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/marcelo-enrique-conti-72ba1650/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -55917,7 +55930,7 @@
       {
         "name": "Leo\u0161 Uttl",
         "role": "Published researcher, University of Chemistry and Technology, Prague",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/leo%C5%A1-uttl-b32b26258/"
       }
     ],
     "notable_customers_partners": null,
@@ -55929,7 +55942,7 @@
     "first_seen": "2022-08-29",
     "last_seen": "2022-08-29",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/leo%C5%A1-uttl-b32b26258/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -56019,7 +56032,7 @@
       {
         "name": "Marco Canicatt\u00ec",
         "role": "Published researcher, University of Palermo",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/marco-canicatti-7b63a4226/"
       }
     ],
     "notable_customers_partners": null,
@@ -56031,7 +56044,7 @@
     "first_seen": "2025-06-25",
     "last_seen": "2025-06-25",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/marco-canicatti-7b63a4226/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -56321,7 +56334,7 @@
       {
         "name": "Giampiero Sacchetti",
         "role": "Published researcher, University of Teramo",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/giampiero-sacchetti-02178978/"
       }
     ],
     "notable_customers_partners": null,
@@ -56333,7 +56346,7 @@
     "first_seen": "2022-12-29",
     "last_seen": "2022-12-29",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/giampiero-sacchetti-02178978/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -57084,7 +57097,7 @@
       {
         "name": "Forrest Melton",
         "role": "Published researcher, Ames Research Center",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/forrest-s-melton/"
       }
     ],
     "notable_customers_partners": null,
@@ -57097,7 +57110,7 @@
     "first_seen": "2017-03-28",
     "last_seen": "2018-04-02",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/forrest-s-melton/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -57186,7 +57199,7 @@
       {
         "name": "Damir D. Torrico",
         "role": "Published researcher, Lincoln University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/damir-torrico-61b25069/"
       }
     ],
     "notable_customers_partners": null,
@@ -57201,7 +57214,7 @@
     "first_seen": "2018-03-30",
     "last_seen": "2021-01-25",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/damir-torrico-61b25069/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -57392,7 +57405,7 @@
       {
         "name": "Nino Adamashvili",
         "role": "Published researcher, University of Foggia",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/nino-adamashvili/"
       }
     ],
     "notable_customers_partners": null,
@@ -57404,7 +57417,7 @@
     "first_seen": "2024-03-08",
     "last_seen": "2024-03-08",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/nino-adamashvili/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -57642,7 +57655,7 @@
       {
         "name": "Kieran N. Kilcawley",
         "role": "Published researcher, Teagasc - The Irish Agriculture and Food Development Authority",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/kieran-kilcawley-6437ba42/"
       }
     ],
     "notable_customers_partners": null,
@@ -57654,7 +57667,7 @@
     "first_seen": "2023-08-02",
     "last_seen": "2023-08-02",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/kieran-kilcawley-6437ba42/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -57743,7 +57756,7 @@
       {
         "name": "Michael P. Pound",
         "role": "Published researcher, University of Nottingham",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/michael-pound-b1b3a5121/"
       }
     ],
     "notable_customers_partners": null,
@@ -57756,7 +57769,7 @@
     "first_seen": "2021-03-04",
     "last_seen": "2021-11-01",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/michael-pound-b1b3a5121/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -57846,7 +57859,7 @@
       {
         "name": "Sefater Gbashi",
         "role": "Published researcher, University of Johannesburg",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/sefater-gbashi-7484b778/"
       }
     ],
     "notable_customers_partners": null,
@@ -57858,7 +57871,7 @@
     "first_seen": "2023-07-20",
     "last_seen": "2023-07-20",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/sefater-gbashi-7484b778/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -57896,7 +57909,7 @@
       {
         "name": "Oluwafemi Ayodeji Adebo",
         "role": "Published researcher, University of Johannesburg",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/oluwafemi-adebo-2696b524/"
       }
     ],
     "notable_customers_partners": null,
@@ -57909,7 +57922,7 @@
     "first_seen": "2021-10-18",
     "last_seen": "2023-07-20",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/oluwafemi-adebo-2696b524/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -57999,7 +58012,7 @@
       {
         "name": "Berta C. Gon\u00e7alves",
         "role": "Published researcher, University of Tr\u00e1s-os-Montes and Alto Douro",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/berta-gon%C3%A7alves-abb589/"
       }
     ],
     "notable_customers_partners": null,
@@ -58011,7 +58024,7 @@
     "first_seen": "2025-09-05",
     "last_seen": "2025-09-05",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/berta-gon%C3%A7alves-abb589/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -58101,7 +58114,7 @@
       {
         "name": "Lufeng Luo",
         "role": "Published researcher, Foshan University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/lufeng-luo-54676490/"
       }
     ],
     "notable_customers_partners": null,
@@ -58113,7 +58126,7 @@
     "first_seen": "2021-06-22",
     "last_seen": "2021-06-22",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/lufeng-luo-54676490/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -58151,7 +58164,7 @@
       {
         "name": "Kate S. Howell",
         "role": "Published researcher, The University of Melbourne",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/kshowell/"
       }
     ],
     "notable_customers_partners": null,
@@ -58165,7 +58178,7 @@
     "first_seen": "2017-07-07",
     "last_seen": "2020-05-03",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/kshowell/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -58404,7 +58417,7 @@
       {
         "name": "Pangzhen Zhang",
         "role": "Published researcher, The University of Melbourne",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/pangzhenzhang/"
       }
     ],
     "notable_customers_partners": null,
@@ -58416,7 +58429,7 @@
     "first_seen": "2017-07-07",
     "last_seen": "2017-07-07",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/pangzhenzhang/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -58504,7 +58517,7 @@
       {
         "name": "Edwin Hlangwani",
         "role": "Published researcher, University of Johannesburg",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/dr-edwin-hlangwani-6a36b7142/"
       }
     ],
     "notable_customers_partners": null,
@@ -58516,7 +58529,7 @@
     "first_seen": "2021-10-18",
     "last_seen": "2021-10-18",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/dr-edwin-hlangwani-6a36b7142/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -58554,7 +58567,7 @@
       {
         "name": "Andr\u00e9 Aguiar",
         "role": "Published researcher, University of Tr\u00e1s-os-Montes and Alto Douro",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/andr%C3%A9-aguiar-313517180/"
       }
     ],
     "notable_customers_partners": null,
@@ -58566,7 +58579,7 @@
     "first_seen": "2021-02-05",
     "last_seen": "2021-02-05",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/andr%C3%A9-aguiar-313517180/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -58905,7 +58918,7 @@
       {
         "name": "Juliano Souza Ribeiro",
         "role": "Published researcher, Instituto Federal do Esp\u00edrito Santo",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/juliano-souza-ribeiro-21946a252/"
       }
     ],
     "notable_customers_partners": null,
@@ -58917,7 +58930,7 @@
     "first_seen": "2022-01-01",
     "last_seen": "2022-01-01",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/juliano-souza-ribeiro-21946a252/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -59057,7 +59070,7 @@
       {
         "name": "Vassilis G. Kaburlasos",
         "role": "Published researcher, International Hellenic University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/vassilis-kaburlasos-52799915/"
       }
     ],
     "notable_customers_partners": null,
@@ -59070,7 +59083,7 @@
     "first_seen": "2022-06-29",
     "last_seen": "2023-09-27",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/vassilis-kaburlasos-52799915/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -59158,7 +59171,7 @@
       {
         "name": "Karla Hanousek \u010ci\u010da",
         "role": "Published researcher, University of Zagreb",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/karla-hanousek-%C4%8Di%C4%8Da-a1ab7490/"
       }
     ],
     "notable_customers_partners": null,
@@ -59170,7 +59183,7 @@
     "first_seen": "2019-01-01",
     "last_seen": "2019-01-01",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/karla-hanousek-%C4%8Di%C4%8Da-a1ab7490/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -59308,7 +59321,7 @@
       {
         "name": "Marcos Carrasco-Benavides",
         "role": "Published researcher, Catholic University of the Maule",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/marcos-carrasco-benavides-3971a139/"
       }
     ],
     "notable_customers_partners": null,
@@ -59320,7 +59333,7 @@
     "first_seen": "2017-03-23",
     "last_seen": "2017-03-23",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/marcos-carrasco-benavides-3971a139/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -59610,7 +59623,7 @@
       {
         "name": "Gianmarco Alfieri",
         "role": "Published researcher, Universit\u00e0 degli Studi della Tuscia",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/gianmarco-alfieri-3969a7195/"
       }
     ],
     "notable_customers_partners": null,
@@ -59622,7 +59635,7 @@
     "first_seen": "2024-04-04",
     "last_seen": "2024-04-04",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/gianmarco-alfieri-3969a7195/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -59660,7 +59673,7 @@
       {
         "name": "Andrea Bellincontro",
         "role": "Published researcher, Universit\u00e0 degli Studi della Tuscia",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/andrea-bellincontro-07102047/"
       }
     ],
     "notable_customers_partners": null,
@@ -59672,7 +59685,7 @@
     "first_seen": "2024-04-04",
     "last_seen": "2024-04-04",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/andrea-bellincontro-07102047/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -59710,7 +59723,7 @@
       {
         "name": "Eftichia Badeka",
         "role": "Published researcher, International Hellenic University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/eftichia-badeka/"
       }
     ],
     "notable_customers_partners": null,
@@ -59722,7 +59735,7 @@
     "first_seen": "2023-09-27",
     "last_seen": "2023-09-27",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/eftichia-badeka/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -59760,7 +59773,7 @@
       {
         "name": "Jeffrey A. Clarin",
         "role": "Published researcher, Aklan State University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/jeffrey-clarin-0b16233b/"
       }
     ],
     "notable_customers_partners": null,
@@ -59772,7 +59785,7 @@
     "first_seen": "2022-07-04",
     "last_seen": "2022-07-04",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/jeffrey-clarin-0b16233b/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -60162,7 +60175,7 @@
       {
         "name": "Carlos Poblete-Echeverr\u00eda",
         "role": "Published researcher, Stellenbosch University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/prof-carlos-poblete-echeverr%C3%ADa-60299454/"
       }
     ],
     "notable_customers_partners": null,
@@ -60174,7 +60187,7 @@
     "first_seen": "2019-08-22",
     "last_seen": "2019-08-22",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/prof-carlos-poblete-echeverr%C3%ADa-60299454/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -60514,7 +60527,7 @@
       {
         "name": "Olatunde David Akanbi",
         "role": "Published researcher, Case Western Reserve University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/oakanbid/"
       }
     ],
     "notable_customers_partners": null,
@@ -60526,7 +60539,7 @@
     "first_seen": "2022-01-01",
     "last_seen": "2022-01-01",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/oakanbid/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -60714,7 +60727,7 @@
       {
         "name": "Quanyue Xie",
         "role": "Published researcher, Oregon State University",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/quanyue-xie-666213259/"
       }
     ],
     "notable_customers_partners": null,
@@ -60726,7 +60739,7 @@
     "first_seen": "2023-03-30",
     "last_seen": "2023-03-30",
     "status": "dormant",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/quanyue-xie-666213259/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -61071,7 +61084,7 @@
       {
         "name": "Alexander Smith",
         "role": "CTO and Co-founder, 4T2 Sensors",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/dr-alexander-smith/"
       }
     ],
     "notable_customers_partners": null,
@@ -61083,7 +61096,7 @@
     "first_seen": "2026-09-30",
     "last_seen": "2026-09-30",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/dr-alexander-smith/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -61174,7 +61187,7 @@
       {
         "name": "Mark Greenspan",
         "role": "Founder, Advanced Viticulture",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/markdgreenspan/"
       }
     ],
     "notable_customers_partners": null,
@@ -61186,7 +61199,7 @@
     "first_seen": "2026-09-30",
     "last_seen": "2026-09-30",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/markdgreenspan/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -61328,7 +61341,7 @@
       {
         "name": "Brian Anderson",
         "role": "CEO and Co-Founder, Barrel Proof Technologies",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/banderson621/"
       }
     ],
     "notable_customers_partners": null,
@@ -61340,7 +61353,7 @@
     "first_seen": "2026-09-30",
     "last_seen": "2026-09-30",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/banderson621/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -61533,7 +61546,7 @@
       {
         "name": "Rory Crawford",
         "role": "Co-Founder and CEO, BevSpot",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/rory-crawford/"
       }
     ],
     "notable_customers_partners": null,
@@ -61545,7 +61558,7 @@
     "first_seen": "2026-09-30",
     "last_seen": "2026-09-30",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/rory-crawford/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -61586,7 +61599,7 @@
       {
         "name": "Lewis Collins",
         "role": "Founder and CEO, BioScout",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/lewis~collins/"
       }
     ],
     "notable_customers_partners": null,
@@ -61598,7 +61611,7 @@
     "first_seen": "2026-09-30",
     "last_seen": "2026-09-30",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/lewis~collins/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -61637,7 +61650,7 @@
       {
         "name": "Shea Martin",
         "role": "CEO and Founder, Brew Ninja",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/sheamartin/"
       }
     ],
     "notable_customers_partners": null,
@@ -61649,7 +61662,7 @@
     "first_seen": "2026-09-30",
     "last_seen": "2026-09-30",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/sheamartin/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -61688,7 +61701,7 @@
       {
         "name": "Hugo Amos",
         "role": "Co-founder, Black Swan Data (named CEO in a February 2022 article)",
-        "linkedin": null
+        "linkedin": "https://www.linkedin.com/in/hugo-amos-76824724/"
       }
     ],
     "notable_customers_partners": null,
@@ -61700,7 +61713,7 @@
     "first_seen": "2026-09-30",
     "last_seen": "2026-09-30",
     "status": "active",
-    "linkedin_url": null,
+    "linkedin_url": "https://www.linkedin.com/in/hugo-amos-76824724/",
     "github_url": null,
     "product_url": null,
     "latest_news_headline": null,
@@ -62673,6 +62686,1203 @@
       "AI & ML"
     ],
     "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "ALFHA (Ale Lager Fermentation Hub Association / Kijo-kun)",
+    "domain": "alfha-craftbeer.com",
+    "hq_location": "Osaka, Japan",
+    "founded_year": 2019,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "brewing record data for recipe and sensory ai poc",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Koji Matsuo (Director; CEO, Brewpub Standard), \u5e02\u6a4b \u5065 Ken Ichihashi (board member; Golden Rabbit Beer), \u4e95\u53e3 \u4e00\u8f1d (Director; CEO, Mountain Gorilla)",
+    "people": [
+      {
+        "name": "Koji Matsuo (\u677e\u5c3e \u5f18\u5bff)",
+        "role": "Director, ALFHA; CEO, Brewpub Standard"
+      },
+      {
+        "name": "\u5e02\u6a4b \u5065",
+        "role": "Board member, ALFHA; head of Golden Rabbit Beer"
+      },
+      {
+        "name": "\u4e95\u53e3 \u4e00\u8f1d",
+        "role": "Director, ALFHA; CEO, Mountain Gorilla"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Osaka craft beer association that sells Kijo-kun, a browser-based record-keeping system for small breweries covering raw material stock, production logs, product shipments and liquor tax return preparation, built with Osaka developer Mountain Gorilla. Its board includes Brewpub Standard founder Koji Matsuo, who in 2026 presented an ALFHA AI proof of concept that trains models on recipe design, sensory evaluation and production data. The AI work is a PoC presented at an Osaka manufacturing AI study group, not a shipped product; Kijo-kun itself is a system of record.",
+    "source_urls": [
+      "https://alfha-craftbeer.com/about.html",
+      "https://kobe-dxotasuketai.jp/jirei/page05.html",
+      "https://prtimes.jp/main/html/rd/p/000000003.000175695.html"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-09-16",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "alfha-craftbeer.com",
+    "theme": "Sensory & recipe",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "Japan",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Brewtope",
+    "domain": "brewtope.jp",
+    "hq_location": "Meguro, Tokyo, Japan",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "ai assortment and auto-replenishment of craft beer for retail",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "\u91d1\u6fa4 \u4fca\u660c (CEO)",
+    "people": [
+      {
+        "name": "\u91d1\u6fa4 \u4fca\u660c",
+        "role": "CEO"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Tokyo craft beer enablement company that trades directly with over 500 Japanese breweries and runs the Otomoni Wholesale shelf service, holding more than 200,000 consumer reviews. In April 2026 it partnered with demand-forecasting vendor Synops on an AI craft beer auto-assortment and delivery service that picks and rotates brands per store from POS data and Brewtope's review data, with test marketing in grocery stores from May 2026. The forecasting engine is Synops' sinops product; Brewtope supplies the brewery network and review data.",
+    "source_urls": [
+      "https://brewtope.jp/company",
+      "https://prtimes.jp/main/html/rd/p/000000046.000103807.html"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-04-23",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:tradeshow_asia",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "brewtope.jp",
+    "theme": "ESG & sustainability",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Japan",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "BeVine",
+    "domain": "bevine.wine",
+    "hq_location": "Bulgaria",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "vineyard disease prediction",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Blagoy Anastasov (Co-founder, Chief BeViner)",
+    "people": [
+      {
+        "name": "Blagoy Anastasov",
+        "role": "Co-founder, Chief BeViner"
+      },
+      {
+        "name": "Nikolay Sapundzhiev",
+        "role": "Co-founder, Technology"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Bulgarian vineyard and winery management platform combining in-vineyard weather stations with disease forecasting, phenological and fermentation-kinetics models, plus a digital diary, cellar records and EU e-label creation. The vendor says more than 100 Bulgarian wineries use it and cites Terra Tangra Winery reporting over 90% accuracy from its disease prediction model. The models are described as disease and phenology forecasting; the site frames the mission as intelligent software for wine but does not detail the model type.",
+    "source_urls": [
+      "https://bevine.wine/en/about-us/",
+      "https://bevine.wine/en/bevine-vineyard-analytics-and-management-software/",
+      "https://bevine.wine/en/partnership-for-a-revolution-in-precision-viticulture-2/",
+      "https://therecursive.com/wine-loves-tech-how-iot-is-helping-vineyard-owners-in-bulgaria/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "bevine.wine",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "Bulgaria",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "VitiVisor",
+    "domain": "vitivisor.com.au",
+    "hq_location": "Adelaide, Australia",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "vineyard vision system and yield prediction",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "Information, prediction and advisory platform for Australian wine grape growers, built in a 5 million AUD project led by the University of Adelaide and its Australian Institute for Machine Learning with Riverland Wine and Wine Australia. It includes an AI ground-based vision system and end-of-season prediction, and is released as open-source resources rather than a commercial product.",
+    "source_urls": [
+      "https://lotfourteen.com.au/news/artificial-intelligence-to-help-cut-vineyard-costs-and-grow-profits/",
+      "https://vitivisor.com.au/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "vitivisor.com.au",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML",
+      "Consultancy & services"
+    ],
+    "country": "Australia",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "mySense (UTAD)",
+    "domain": "mysense.utad.pt",
+    "hq_location": "Vila Real, Portugal",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "grape variety identification and vine disease advisory",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "Precision agriculture IoT platform run by the University of Tras-os-Montes e Alto Douro (UTAD). Its live services include vine disease and pest advisory, georeferenced vine phenology records and a grapevine variety classifier that the platform says uses artificial intelligence algorithms on ampelographic images. The platform reports 526 devices, 4500 sensors and 287 users.",
+    "source_urls": [
+      "https://mysense.utad.pt/",
+      "https://www.agroportal.pt/utad-desenvolve-plataforma-mysense-com-ferramentas-para-viticultura-de-precisao/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "utad.pt",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "Consultancy & services"
+    ],
+    "country": "Portugal",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Bacchus Software GmbH",
+    "domain": "bacchus-software.de",
+    "hq_location": "Karlsruhe, Germany",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "vineyard operations system of record",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Philipp Bletzer (Co-founder, Managing Director)",
+    "people": [
+      {
+        "name": "Philipp Bletzer",
+        "role": "Co-founder, Managing Director"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "German vineyard management software for larger wine estates: digital parcel register with import from state systems, work campaign planning, plant protection and fertiliser documentation, stock and a field tracker app. It grew out of a 2019 KIT research project with Weingut Heinz Pfaffmann as first partner. It makes no AI claim; included as a vineyard data system of record.",
+    "source_urls": [
+      "https://bacchus-software.de/de/",
+      "https://bacchus-software.de/de/impressum/",
+      "https://techtag.de/startups/startup-bacchus-software-im-gruenderview/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "bacchus-software.de",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "ERP & systems of record"
+    ],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Betacom (Vine AI)",
+    "domain": "betacom.tech",
+    "hq_location": "Turin, Italy",
+    "founded_year": 2002,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "drone imagery vine stress and pest detection",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "Italian IT services firm whose Vine AI system uses drone and ground imagery analysed by an AI model trained to detect abiotic stress and specific pests in grapevines, with 2D and 3D vineyard reconstruction in a web dashboard. Built with the National Research Council (CNR) as a 15-month NODES (PNRR) industrial proof of concept starting April 2024, with Linear System and the Leggero farm as partners.",
+    "source_urls": [
+      "https://ecs-nodes.eu/en/6-primary-agroindustry/progetti-imprese/vine-ai",
+      "https://www.betacom.tech/en/sectors/agritech/smart-monitoring-of-vines-through-vine-ai"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "betacom.tech",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics",
+      "Consultancy & services"
+    ],
+    "country": "Italy",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "SoilScale",
+    "domain": "soilscale.com",
+    "hq_location": "Bratislava, Slovakia",
+    "founded_year": 2025,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "multispectral drone vine stress and nutrient detection",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "Slovak student-founded agritech project building CropGuard AI: drones with multispectral sensors feeding cloud AI models for plant stress, vegetation indices and nutrient imbalance in vineyards and orchards. Its own roadmap shows weather monitoring and RGB prediction models done in late 2025 with the drone and software MVP still ahead. It won the Slovak final of Red Bull Basement 2026.",
+    "source_urls": [
+      "https://www.soilscale.com/",
+      "https://www.techbox.sk/co-je-to-soilscale-slovenska-ai-strazi-vinice-a-mieri-do-usa"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "soilscale.com",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Slovakia",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Vineyard Angel (TIS Grupa)",
+    "domain": "vineyardangel.com",
+    "hq_location": "Croatia",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "drone multispectral vine analysis and quality zoning",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "Croatian precision viticulture platform from TIS Grupa with ALTI AGRO that applies AI algorithms to multispectral drone imagery of vine rows for vigour and health analysis, quality zoning for selective harvest and automatic counting of missing vines, plus sensor-based disease prediction. Kutjevo d.d. reports using it for quality zoning across 180 hectares.",
+    "source_urls": [
+      "https://poslovnifm.com/podcast-emisija/agrovizija/agrovizija-hrvatski-startup-uz-pomoc-dronova-i-umjetne-inteligencije-mijenja-buducnost-vinogradarstva/",
+      "https://vineyardangel.com/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:wine",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "vineyardangel.com",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Croatia",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Flottweg SE",
+    "domain": "flottweg.com",
+    "hq_location": "Vilsbiburg, Germany",
+    "founded_year": 1932,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": null,
+    "ai_use_case": "centrifuge condition monitoring and remote maintenance, no ai claim",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Kersten Christoph Link (Chairman of the Executive Board)",
+    "people": [
+      {
+        "name": "Kersten Christoph Link",
+        "role": "Chairman of the Executive Board"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "German maker of decanter centrifuges and separators used for beer clarification, wort and beer recovery and wine clarification. Ships named digital products: the Ingo machine controller interface, Motice condition monitoring of drum bearings with remote diagnosis, and a remote maintenance service. Motice is marketed as predictive maintenance but is sensor-based condition monitoring with status reports; the company makes no machine-learning claim.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Flottweg",
+      "https://www.flottweg.com/applications/beverages/beer-overview/",
+      "https://www.flottweg.com/applications/beverages/wine/",
+      "https://www.flottweg.com/engineering/automation/motice/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:equipment",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "flottweg.com",
+    "theme": "Process & operations",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "G&D Chillers",
+    "domain": "gdchillers.com",
+    "hq_location": "Junction City, Oregon, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": null,
+    "ai_use_case": "glycol chiller remote monitoring, no ai claim",
+    "ai_maturity": "none",
+    "funding_stage": "acquired (Ingersoll Rand, 2025)",
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "US glycol chiller manufacturer that has built brewery chillers since 1993 and says it is installed in over 2,400 breweries, also serving wineries and distilleries. Offers an offsite remote monitoring system built on Carel controls with live trends, alarm emails, data logging and reports. Acquired by Ingersoll Rand in April 2025 (with Advanced Gas Technologies, about USD 27 million combined). Plant-layer equipment with no AI claim.",
+    "source_urls": [
+      "https://gdchillers.com/applications/breweries/",
+      "https://gdchillers.com/products/remote-monitoring-communications/",
+      "https://www.mdm.com/news/operations/manufacturing/ingersoll-rand-acquires-2-air-treatment-suppliers/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:equipment",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "gdchillers.com",
+    "theme": "Engineering & equipment",
+    "capabilities": [],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "SECOBRA Recherches",
+    "domain": "secobra.com",
+    "hq_location": "Maule, France",
+    "founded_year": 1979,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "genomic prediction for malting barley and hop breeding",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Pierre A. Pin (corresponding author, hop genomic pipeline)",
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "French cereal breeder whose roots are in malting barley; it sells brewing barley varieties such as LAROCHEL and ATOMIC to the malting and brewing chain. Its own site says it uses marker-assisted selection and genome-based modelling to select for complex traits including malting quality. At the 2025 International Hop Growers' Convention it presented, with InterHoublon and partners, a 5K SNP array for hops and cross-validated genomic selection equations for alpha-acid content. This is statistical genomic prediction, not deep learning, and the hop pipeline is still at the research and validation stage.",
+    "source_urls": [
+      "https://secobra.com/entreprise/histoire/",
+      "https://secobra.com/entreprise/metiers/",
+      "https://www.ihgc.org/wp-content/uploads/2025_06_IHGC-STC-Proceedings.pdf"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2025-06-01",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:ingredients",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "secobra.com",
+    "theme": "Agriculture & crop",
+    "capabilities": [],
+    "country": "France",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "HOPEN (Terre de Houblon)",
+    "domain": "hopenhoublon.fr",
+    "hq_location": "Agen, France",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "machine learning hop yield and alpha-acid forecasting",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Lucie Le Bouteiller (Co-founder and President); P. Loussert (R&D, hop yield model author)",
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "French hop supplier that helps farmers set up hop gardens and sells French organic hops to craft brewers, with an in-house R&D function on climate change and hop aroma. Its R&D built random forest models that predict hop yield and alpha-acid content from weather data, trained on BarthHaas global yield records since 1961 and alpha data since 1997, presented at the 2025 International Hop Growers' Convention. It is also a partner in the French genomic hop-breeding programme with SECOBRA. The model is published research, not a product it sells.",
+    "source_urls": [
+      "https://hopenhoublon.fr/content/30-qui-sommes-nous",
+      "https://hopenhoublon.fr/content/31-presentation-de-l-equipe",
+      "https://www.ihgc.org/wp-content/uploads/2025_06_IHGC-STC-Proceedings.pdf"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2025-06-01",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:ingredients",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "hopenhoublon.fr",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "France",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Bavarian State Research Center for Agriculture (LfL), Hop Research Center Huell",
+    "domain": "lfl.bayern.de",
+    "hq_location": "Wolnzach, Germany",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "genomic prediction for hop breeding under drought",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Dr. Sebastian Gresset (Head of hop breeding research); Dr. Theresa Albrecht (Genome-based breeding methods)",
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "The state research centre that runs the Huell hop breeding programme behind most German aroma and bitter varieties. Its HOPTIMIZE project (May 2025 to April 2029) builds statistical genomic prediction models for yield stability, water-use efficiency and brewing-relevant metabolites, and runs in-silico selection of young hop lines on those predictions. It reports that genomic selection is already established in the Huell programme for basic traits. Statistical genomic prediction, not deep learning.",
+    "source_urls": [
+      "https://www.ihgc.org/wp-content/uploads/2025_06_IHGC-STC-Proceedings.pdf",
+      "https://www.lfl.bayern.de/ipz/biotechnologie/406302/index.php",
+      "https://www.lfl.bayern.de/ipz/hopfen/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:ingredients",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "bayern.de",
+    "theme": "Agriculture & crop",
+    "capabilities": [],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Hoparoma (ArtFactory K.K.)",
+    "domain": "hoparoma.com",
+    "hq_location": "Tokyo, Japan",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "aroma forecast from hop, yeast and malt chemistry with llm co-pilot",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "iOS and web app that forecasts the tropical thiol aroma of an IPA from its hop, yeast and malt bill, using a literature-based engine built on published thiol and hop-aroma research and lot-level crop-year hop analytics. The forecast engine itself is rule and equation based, not machine learning. Version 2.0 adds an on-device Apple Intelligence language model that writes the tasting note and acts as a recipe co-pilot, with every number taken from the engine. Aimed at homebrewers and craft brewers.",
+    "source_urls": [
+      "https://apps.apple.com/app/hoparoma/id6764503200",
+      "https://hoparoma.com/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:ingredients",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "hoparoma.com",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Japan",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "DataVine (Sipi)",
+    "domain": "datavine.us",
+    "hq_location": "Hillsboro, United States",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "llm agents over winery dtc data",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Jacob Hart (contact)",
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "DataVine sells Sipi, a set of AI agents for wineries that connect to Commerce7, Tock, email marketing, Google Workspace and Search Console, load each winery's data into its own isolated AWS warehouse, and push scheduled briefings to email or team chat: VIP tasting room briefings, club churn alerts with drafted outreach, campaign recaps and reply-to-ask analysis. The site says it builds on seven years of reporting and analysis work for wineries. No customer is named on the site.",
+    "source_urls": [
+      "https://datavine.us/",
+      "https://wbbuyersguide.com/company/73850/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:directories",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "datavine.us",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Fieldin",
+    "domain": "fieldin.com",
+    "hq_location": "Fresno, United States",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": null,
+    "ai_use_case": "vineyard operations telematics data",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "Fieldin is a smart farming operations platform for high value crops, including wine grapes and hops, that tracks mechanised and operator activity from spraying to harvest and turns it into equipment utilisation, crew and compliance reporting. Viticultural Management Inc. is a named wine grape customer case study. The site makes no AI or machine learning claim; it is an operational data system.",
+    "source_urls": [
+      "https://fieldin.com/about/",
+      "https://fieldin.com/crop/grapes/",
+      "https://wbbuyersguide.com/company/58881/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:directories",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "fieldin.com",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "fermsoft (Amphora Wine Log)",
+    "domain": "fermsoft.com",
+    "hq_location": "Oakville, Canada",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "winery production system of record",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "fermsoft makes Amphora, winery production and management software covering batches, containers, vineyard activities, inventory and tasks with vineyard to bottle traceability, cloud or local database, 100+ reports and charting. It says Amphora is used in hundreds of wineries, breweries and cideries in more than 30 countries. No AI claim; it is a system of record.",
+    "source_urls": [
+      "https://wbbuyersguide.com/company/30475/",
+      "https://www.fermsoft.com/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:directories",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "fermsoft.com",
+    "theme": "Process & operations",
+    "capabilities": [
+      "ERP & systems of record"
+    ],
+    "country": "Canada",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Sentia (Universal Biosensors)",
+    "domain": "sentiaanalysis.com",
+    "hq_location": "Rowville, Australia",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "handheld wine chemistry analyser",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "Sentia is a handheld wine analyser from Universal Biosensors that uses disposable electrochemical test strips to measure free SO2, malic acid, glucose, fructose, acetic acid and titratable acidity in the cellar from a droplet sample. It replaces bench lab runs for in-production wine testing. No AI claim; it is a point of use sensor producing wine chemistry data.",
+    "source_urls": [
+      "https://sentiaanalysis.com/about-us/",
+      "https://sentiaanalysis.com/shop/",
+      "https://wbbuyersguide.com/company/65178/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:directories",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "sentiaanalysis.com",
+    "theme": "Other",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "Australia",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Mark Anthony Group",
+    "domain": "markanthony.com",
+    "hq_location": "Vancouver, Canada",
+    "founded_year": 1972,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": null,
+    "ai_use_case": "sales performance recommendations on a snowflake data platform",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Sam Wong (Senior Director of Data, Analytics and AI)",
+    "people": [
+      {
+        "name": "Sam Wong",
+        "role": "Senior Director of Data, Analytics and AI"
+      },
+      {
+        "name": "Anthony von Mandl",
+        "role": "Founder and Chairman"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Family-owned drinks group behind White Claw hard seltzer and Mike's Hard Lemonade, which also owns estate wineries in the Okanagan Valley, British Columbia. Snowflake reports that the group consolidated data from multiple CRMs, ERPs and market sources into Snowflake, has built AI/ML engines that generate sales performance recommendations, and is adopting Snowflake Intelligence for text-to-SQL and voice queries over a merged business glossary. The AI claims come from the platform vendor's own blog rather than from the company.",
+    "source_urls": [
+      "https://markanthony.com/who-we-are",
+      "https://www.snowflake.com/en/blog/intelligence-retail-enterprise-ai/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-03-30",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:digital_transformation",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "markanthony.com",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "Canada",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Tanduay Distillers",
+    "domain": "tanduay.com",
+    "hq_location": "Philippines",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": null,
+    "ai_use_case": "sap s/4hana erp programme",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Nestor Mendones (SVP Finance and CFO)",
+    "people": [
+      {
+        "name": "Nestor Mendones",
+        "role": "Senior Vice President of Finance and Chief Financial Officer"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Philippine rum and spirits producer (Tanduay rum, Scottish Legacy, Ginto). It adopted SAP S/4HANA across materials management, production planning, warehouse, sales and distribution, asset management and finance, cutting monthly book closing from 20 to 10 working days. Coverage repeats SAP's description of S/4HANA as containing AI and ML, but Tanduay itself makes no AI claim; this is an ERP and finance digitalisation programme with no AI claim.",
+    "source_urls": [
+      "https://insidesap.asia/tanduay-distillers-inc-leverages-sap-s-4hana-in-finance-digitalisation/",
+      "https://www.philstar.com/business/2022/01/03/2151414/tanduay-taps-sap-digitize-plants",
+      "https://www.tanduay.com/news"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2022-01-27",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:digital_transformation",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "tanduay.com",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "Philippines",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Duvel Moortgat",
+    "domain": "duvelmoortgat.be",
+    "hq_location": "Belgium",
+    "founded_year": 1871,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "supply chain planning rollout",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Yasmin De Wolf (Chief Supply Chain Officer)",
+    "people": [
+      {
+        "name": "Yasmin De Wolf",
+        "role": "Chief Supply Chain Officer"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Fourth-generation family brewer with 13 breweries and brands including Duvel, Vedett, Chouffe, Liefmans and 805. In May 2026 it activated OMP's Unison Express for demand planning, operational planning and scheduling across its three Belgian breweries. Neither the company nor OMP makes an AI claim for this deployment; it is a planning system rollout with no AI claim.",
+    "source_urls": [
+      "https://omp.com/news-events/news/2026/duvel-moortgat-taps-into-faster-supply-chain-planning-with-omp-unison-express",
+      "https://www.duvelmoortgat.be/en"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-05-27",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:digital_transformation",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "duvelmoortgat.be",
+    "theme": "Supply chain",
+    "capabilities": [],
+    "country": "Belgium",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Taiwan Tobacco and Liquor Corporation",
+    "domain": "ttl.com.tw",
+    "hq_location": "Taipei, Taiwan",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": null,
+    "ai_use_case": "b2b e-commerce; llm training for a future customer service bot",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Huang Yu-mei (Deputy Director, Information Department)",
+    "people": [
+      {
+        "name": "Huang Yu-mei",
+        "role": "Deputy Director, Information Department (acting Director)"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "State-owned producer of Taiwan Beer, rice and sorghum spirits and wine, holding most of the island's beer market. Its information department has consolidated sales outlets from over 130 to under 60, built a B2B ordering platform for traditional trade customers and a consumer e-shop. In a May 2025 interview the deputy head of IT said the team is training on large language models to prepare for a possible intelligent customer service bot; nothing is deployed yet.",
+    "source_urls": [
+      "https://en.ttl.com.tw/about/about_09.aspx",
+      "https://www.ithome.com.tw/people/168863",
+      "https://www.ttl.com.tw"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2025-05-09",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:digital_transformation",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "ttl.com.tw",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Taiwan",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Le Ble d'Or",
+    "domain": "lebledor.com",
+    "hq_location": "Taiwan",
+    "founded_year": 2004,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "ai ordering kiosk, dish image recognition, purchasing forecasts",
+    "ai_maturity": "pilot",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Quentin Yeh (CEO)",
+    "people": [
+      {
+        "name": "Quentin Yeh",
+        "role": "CEO"
+      },
+      {
+        "name": "Wu Guan-da",
+        "role": "IT Operations Director"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Taiwanese craft brewery restaurant chain (Jin Se San Mai) known for its longan honey beer, with more than 20 brewpub restaurants in Taiwan and two in China. With Star Yixin it opened an AI restaurant lab in May 2025 combining a voice-guided ordering kiosk, image recognition to check dishes and AI purchasing forecasts, slated for its Xinyi flagship. Business Weekly reports a four-year process review, a self-service beer wall, a planned AI beer recommender linked to membership data, and a delivery robot trial that ran into practical limits.",
+    "source_urls": [
+      "https://cdnfinance.technews.tw/2025/05/21/ai-wine-lab/",
+      "https://www.businessweekly.com.tw/Archive/Article?StrId=7011983",
+      "https://www.lebledor.com/about"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2025-05-21",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:digital_transformation",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "lebledor.com",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "Taiwan",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Boston Beer Company",
+    "domain": "bostonbeer.com",
+    "hq_location": "Boston, United States",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": null,
+    "ai_use_case": "genai extraction of ingredient specification data",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ryen Gunning (Enterprise Data Director)",
+    "people": [
+      {
+        "name": "Ryen Gunning",
+        "role": "Enterprise Data Director"
+      },
+      {
+        "name": "Tori Pesek",
+        "role": "Senior Manager Master Data"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "US brewer of Samuel Adams, Truly Hard Seltzer and Twisted Tea. Its enterprise data team used Syniti's generative AI tooling to read about 5,000 unstructured ingredient specification documents (PDF and Word) and load structured data for around 400 ingredients into its SAP-linked master data, cutting the job from about six months to one week. The AI is Syniti's product applied inside Boston Beer's data quality and governance programme, not an in-house model.",
+    "source_urls": [
+      "https://www.bostonbeer.com",
+      "https://www.enterpriseaiworld.com/Articles/News/Enterprise-AI-Case-Studies/Boston-Beer-Company-Leverages-Synitis-AI-Solutions-to-Transform-its-Data-Quality-Management-169910.aspx",
+      "https://www.syniti.com/customer-stories/brewing-success-boston-beer-company-leverages-synitis-ai-to-revolutionize-data-quality-management/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2025-02-12",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:digital_transformation",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "bostonbeer.com",
+    "theme": "GenAI & marketing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Gonzalez Byass",
+    "domain": "gonzalezbyass.com",
+    "hq_location": "Jerez de la Frontera, Spain",
+    "founded_year": 1835,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": null,
+    "ai_use_case": "sap packaging and plastic tax data",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "Family-owned sherry, wine and spirits group (Tio Pepe) with wineries in Spain, Chile and Mexico. With Minsait it deployed SAP Responsible Design and Production, connected to its SAP ERP, to track plastic packaging data, calculate plastic taxes and extended producer responsibility fees across markets. This is a compliance and sustainability data programme with no AI claim.",
+    "source_urls": [
+      "https://news.sap.com/2023/12/gonzalez-byass-tracks-plastics-sap-responsible-design-and-production/",
+      "https://www.computing.es/casos-de-exito/sap-contribuye-a-cumplir-los-objetivos-de-sostenibilidad-de-gonzalez-byass/",
+      "https://www.gonzalezbyass.com/en/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2024-02-14",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "scout:digital_transformation",
+    "verified": false,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "gonzalezbyass.com",
+    "theme": "Compliance & licensing",
+    "capabilities": [
+      "ERP & systems of record",
+      "ESG & sustainability"
+    ],
+    "country": "Spain",
     "scope": "beverage-native"
   }
 ]

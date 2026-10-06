@@ -1,5 +1,181 @@
 [
  {
+  "date": "2026-08-29",
+  "lane": "companies",
+  "surface": "aws",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-08-29",
+  "lane": "companies",
+  "surface": "google",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-08-29",
+  "lane": "companies",
+  "surface": "ibm",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-08-29",
+  "lane": "companies",
+  "surface": "oracle",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-08-29",
+  "lane": "companies",
+  "surface": "salesforce",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-15",
+  "lane": "companies",
+  "surface": "microsoft",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-15",
+  "lane": "companies",
+  "surface": "industrial",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-15",
+  "lane": "companies",
+  "surface": "whiskey",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-15",
+  "lane": "companies",
+  "surface": "beer",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-15",
+  "lane": "companies",
+  "surface": "logistics",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-15",
+  "lane": "companies",
+  "surface": "esg",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-15",
+  "lane": "companies",
+  "surface": "engineering",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-15",
+  "lane": "companies",
+  "surface": "erp",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-15",
+  "lane": "companies",
+  "surface": "sap",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-15",
+  "lane": "companies",
+  "surface": "tableau",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-15",
+  "lane": "companies",
+  "surface": "marketdata",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-15",
+  "lane": "companies",
+  "surface": "rag",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-21",
+  "lane": "companies",
+  "surface": "institutes",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-21",
+  "lane": "companies",
+  "surface": "research",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-21",
+  "lane": "companies",
+  "surface": "genai",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-21",
+  "lane": "companies",
+  "surface": "benchmarking",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
+  "date": "2026-09-27",
+  "lane": "companies",
+  "surface": "fnb_majors",
+  "found": null,
+  "added": null,
+  "baseline": "pre-ledger sweep, date from the surface note"
+ },
+ {
   "date": "2026-09-28",
   "lane": "people",
   "surface": "uk_ireland",
@@ -330,5 +506,54 @@
   "surface": "ba_software_partners",
   "found": 6,
   "added": 6
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "tradeshow_asia",
+  "found": 2,
+  "added": 2
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "wine",
+  "found": 7,
+  "added": 7
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "equipment",
+  "found": 3,
+  "added": 2
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "ingredients",
+  "found": 4,
+  "added": 4
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "directories",
+  "found": 4,
+  "added": 4
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "digital_transformation",
+  "found": 9,
+  "added": 7
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "singapore",
+  "found": 0,
+  "added": 0
  }
 ]
