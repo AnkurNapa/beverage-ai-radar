@@ -296,10 +296,22 @@ def main(argv=None) -> int:
             f"{c['name']} | {c.get('domain') or ''}"
             for c in _json.loads(config.SEED_PATH.read_text())
         ]
-        written = render_briefs(surfaces, gaps, existing, config.SCOUT_DIR, date.today())
+        from radar.coverage import _rows
+        from radar.scout.windows import sweep_window
+
+        ledger = _rows(config.LEDGER_PATH)
+        windows = {s["id"]: sweep_window(ledger, s["id"], date.today()) for s in surfaces}
+        written = render_briefs(surfaces, gaps, existing, config.SCOUT_DIR, date.today(), windows)
         print(f"{len(written)} briefs in {config.SCOUT_DIR / 'briefs'}")
         for p in written:
-            print(f"  {p}")
+            w = windows[p.stem]
+            span = (
+                f"fresh since {w['fresh_since']}" if w["fresh_since"] else "never swept, open"
+            ) + (
+                f", backfill {w['back_from']} to {w['back_to']}" if w["back_to"]
+                else ", backfill complete" if w["complete"] else ""
+            )
+            print(f"  {p}  ({span})")
     elif args.cmd == "scout-merge":
         import json as _json
         from radar.scout.merge import load_finds, merge
@@ -309,6 +321,8 @@ def main(argv=None) -> int:
         reachable = check if args.check_domains else None
         from radar.coverage import record_sweep
 
+        windows_path = config.SCOUT_DIR / "windows.json"
+        windows = _json.loads(windows_path.read_text()) if windows_path.exists() else {}
         added, quarantined = [], []
         for f in args.files:
             found = load_finds([f])
@@ -323,6 +337,7 @@ def main(argv=None) -> int:
                 len(found),
                 len(a),
                 date.today().isoformat(),
+                window=windows.get(surface),
             )
         config.SEED_PATH.write_text(_json.dumps(seed, indent=2, ensure_ascii=False) + "\n")
         config.SCOUT_DIR.mkdir(parents=True, exist_ok=True)

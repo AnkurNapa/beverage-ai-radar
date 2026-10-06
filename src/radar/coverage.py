@@ -108,9 +108,21 @@ def rotate_locations(
     return list(base) + window, (start + len(window)) % len(extra)
 
 
-def record_sweep(path: Path, lane: str, surface: str, found: int, added: int, today: str) -> None:
+def record_sweep(
+    path: Path,
+    lane: str,
+    surface: str,
+    found: int,
+    added: int,
+    today: str,
+    window: dict | None = None,
+) -> None:
     rows = _rows(path)
-    rows.append({"date": today, "lane": lane, "surface": surface, "found": found, "added": added})
+    row = {"date": today, "lane": lane, "surface": surface, "found": found, "added": added}
+    # back_from is the backfill cursor: the next sweep starts one slice before it.
+    if window and window.get("back_from"):
+        row["back_from"] = window["back_from"]
+    rows.append(row)
     path.write_text(json.dumps(rows, indent=1) + "\n")
 
 

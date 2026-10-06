@@ -76,16 +76,51 @@ def _gap_lines(gaps: list[dict]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def _window_block(window: dict | None, enrich_path: Path) -> str:
+    """Split the sweep into what is new and one older slice, so repeat sweeps
+    read different pages instead of rediscovering the same recent ones."""
+    if not window or not (window.get("fresh_since") or window.get("back_to")):
+        return ""
+    parts = ["## Time window\n"]
+    if window.get("fresh_since"):
+        parts.append(
+            f"**A. Fresh (most of your effort): evidence dated on or after "
+            f"{window['fresh_since'].isoformat()}.** This surface was last swept just after that "
+            "date. Look for launches, case studies, customer wins, papers and exhibitor lists "
+            "published since then. Fresh evidence for a company that is ALREADY tracked is "
+            f"valuable too: write it to `{enrich_path}` as a plain array of "
+            "{company, domain, source_url, title, year, what_it_evidences}, never into the "
+            "finds file.\n"
+        )
+    if window.get("back_to"):
+        parts.append(
+            f"**B. Backfill: evidence dated {window['back_from'].isoformat()} to "
+            f"{window['back_to'].isoformat()}.** Earlier sweeps never read this period. Go back "
+            "in time on purpose: past editions of exhibitor lists through the Wayback Machine "
+            "(`web.archive.org/cdx/search/cdx?url=<page>&from=<YYYY>&to=<YYYY>&output=json` lists "
+            "the snapshots), year-filtered OpenAlex queries "
+            "(`from_publication_date` / `to_publication_date`), press and news archives paged by "
+            "year, and sitemap `lastmod` dates. A company whose evidence all sits in this slice "
+            "is still in scope if it is active today; if it has folded or pivoted, reject it with "
+            "that reason.\n"
+        )
+    elif window.get("complete"):
+        parts.append("**B. Backfill: complete.** The full 10-year history has been swept.\n")
+    return "\n".join(parts) + "\n"
+
+
 def render_brief(
     surface: dict,
     gaps: list[dict],
     existing: list[str],
     out_dir: Path,
     today: date | None = None,
+    window: dict | None = None,
 ) -> str:
     today = today or date.today()
     skip_path = Path(out_dir) / "existing_names.txt"
     finds_path = Path(out_dir) / "finds" / f"find_{surface['id']}.json"
+    enrich_path = Path(out_dir) / "finds" / f"enrich_{surface['id']}.json"
     return f"""# Scout brief: {surface['label']}
 
 Generated {today.isoformat()}. You are one of several scouts growing a curated database of
@@ -105,7 +140,7 @@ These are the thinnest slices of the database right now. Weight your search towa
 your surface can plausibly fill. Do not force a bad entry to fill a gap.
 
 {_gap_lines(gaps)}
-## Already tracked (skip these)
+{_window_block(window, enrich_path)}## Already tracked (skip these)
 
 {len(existing)} companies are already in the database. Read `{skip_path}` and skip anything
 there, matching on company name OR domain. Other scouts are sweeping other surfaces in
@@ -142,16 +177,29 @@ def render_briefs(
     existing: list[str],
     out_dir: Path,
     today: date | None = None,
+    windows: dict[str, dict] | None = None,
 ) -> list[Path]:
     out_dir = Path(out_dir)
+    windows = windows or {}
     (out_dir / "briefs").mkdir(parents=True, exist_ok=True)
     (out_dir / "finds").mkdir(parents=True, exist_ok=True)
     (out_dir / "existing_names.txt").write_text("\n".join(sorted(existing)) + "\n")
+    # The merge reads this back so the ledger records which slice was swept.
+    (out_dir / "windows.json").write_text(
+        json.dumps(
+            {k: {f: (v.isoformat() if hasattr(v, "isoformat") else v) for f, v in w.items()}
+             for k, w in windows.items()},
+            indent=1,
+        )
+        + "\n"
+    )
 
     written = []
     for surface in surfaces:
         path = out_dir / "briefs" / f"{surface['id']}.md"
-        path.write_text(render_brief(surface, gaps, existing, out_dir, today))
+        path.write_text(
+            render_brief(surface, gaps, existing, out_dir, today, windows.get(surface["id"]))
+        )
         written.append(path)
     return written
 
