@@ -7904,5 +7904,29 @@
   ],
   "first_seen": "2026-10-01",
   "last_seen": "2026-10-01"
+ },
+ {
+  "name": "Kollu Namratha",
+  "role": "Sensory and Consumer Science, R&D Transformation (EMEA, APAC), PepsiCo",
+  "company": "PepsiCo",
+  "company_key": "pepsico.com",
+  "company_is_current": true,
+  "linkedin": "https://www.linkedin.com/in/kollu-namratha-87524463/",
+  "linkedin_id": "kollu-namratha-87524463",
+  "location": "Hyderabad, India",
+  "vertical": "multiple",
+  "verticals": [
+   "beer",
+   "non_alcoholic",
+   "food"
+  ],
+  "ai_use_case": "digital sensory and consumer science",
+  "short_description": "Sensory and consumer scientist building digital sensory and consumer experience in PepsiCo R&D Transformation for EMEA and APAC, based in Hyderabad, since April 2026. Brewing background: Manager Brewing and Innovation, then Manufacturing Manager and Senior Manager Supply QA and Innovation at Bira 91 (2019 to 2023), with earlier quality roles at AB InBev India, SABMiller India and Diageo India. Previously a sensory and product development scientist at Dr. Reddy's Laboratories. Profile states no specific AI or machine learning claim.",
+  "source_urls": [
+   "https://www.linkedin.com/in/kollu-namratha-87524463/"
+  ],
+  "discovered_by": "curated",
+  "first_seen": "2026-10-07",
+  "last_seen": "2026-10-07"
  }
 ]

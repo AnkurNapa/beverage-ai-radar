@@ -21586,5 +21586,553 @@
     "last_seen": "2026-10-07",
     "discovered_by": "scout:microsoft",
     "verified": false
+  },
+  {
+    "name": "TTB Tamer",
+    "domain": "ttbtamer.com",
+    "vertical": "multiple",
+    "ai_use_case": "ttb compliance reporting",
+    "ai_maturity": "none",
+    "short_description": "Web software that generates US federal TTB operations reports and state reporting for breweries, wineries and distilleries from entered batch, inventory and sales records. First brewery offering in early 2014, winery app in 2018 and distillery app in 2019, per the founder's own account. It is a compliance system of record and makes no AI claim.",
+    "source_urls": [
+      "https://www.ttbtamer.com/",
+      "https://www.ttbtamer.com/about/",
+      "https://www.crunchbase.com/organization/ttb-tamer"
+    ],
+    "founded_year": 2013,
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "key_people": "Daniel Hicks (Founder)",
+    "discovered_by": "scout:nb_software",
+    "verified": false
+  },
+  {
+    "name": "Central Coast Analytics",
+    "domain": "centralcoast-analytics.com",
+    "vertical": "beer",
+    "ai_use_case": "brewery bi dashboards",
+    "ai_maturity": "none",
+    "short_description": "Data analytics firm building live dashboards for craft breweries by integrating POS, financial, CRM and brewery management data, with taproom, wholesale, financial and operations analytics plus Ekos, BrewMap and QuickBooks Online integrations. Founder Jeremy Carney demonstrated automated brewery KPI dashboards on the Craft Brewery Financial Training podcast. This is plain BI and the company makes no AI claim.",
+    "source_urls": [
+      "https://www.centralcoast-analytics.com/",
+      "https://www.centralcoast-analytics.com/about",
+      "https://craftbreweryfinance.buzzsprout.com/979747/episodes/19578340-the-financial-dashboard-every-brewery-should-have"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "key_people": "Jeremy Carney (Founder)",
+    "discovered_by": "scout:nb_software",
+    "verified": false
+  },
+  {
+    "name": "Fermecraft",
+    "domain": "fermecraft.com",
+    "hq_location": "Melbourne, Australia",
+    "vertical": "multiple",
+    "ai_use_case": "fermentation vessel automation",
+    "ai_maturity": "none",
+    "short_description": "Automated fermentation and brewhouse control system from Australian OEM Deacam Pty Ltd, used by craft breweries, distilleries and wineries for vessel temperature control, recipe storage and remote alerts. Built on Siemens automation and a Siemens MindSphere cloud application with historical batch data, and installed at breweries such as BentSpoke. Marketing calls it an intelligent Industry 4.0 system, but there is no machine learning claim: it is automation and process data, so no AI.",
+    "source_urls": [
+      "https://fermecraft.com/",
+      "https://www.frontier-enterprise.com/oz-micro-breweries-mushroom-under-cloud-based-app/",
+      "https://news.siemens.com/de-ch/brogans-way",
+      "https://www.bentspokebrewing.com.au/blogs/blog/bentspoke-cellar-and-brewhouse-upgrades"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_software",
+    "verified": false
+  },
+  {
+    "name": "Craft Automation",
+    "domain": "craftautomation.com",
+    "hq_location": "Michigan, USA",
+    "vertical": "multiple",
+    "ai_use_case": "brewhouse and cellar controls",
+    "ai_maturity": "none",
+    "short_description": "Industrial automation integrator that began in beverage production and builds UL-listed brewhouse control panels, system integration and data integration and analytics for brewers and distillers, now also serving wider food manufacturing. Customers include Big Grove Brewery. It sells controls, instruments and data integration and makes no AI claim.",
+    "source_urls": [
+      "https://craftautomation.com/",
+      "https://craftautomation.com/about/",
+      "https://craftautomation.com/industries/",
+      "https://www.probrewer.com/?p=27628"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "key_people": "Ryan Stockinger (Founder)",
+    "discovered_by": "scout:nb_software",
+    "verified": false
+  },
+  {
+    "name": "Beer Business Daily",
+    "domain": "beernet.com",
+    "vertical": "multiple",
+    "ai_use_case": "beer industry news and data",
+    "ai_maturity": "none",
+    "short_description": "Subscription trade publisher of Beer Business Daily, Craft Business Daily and Wine & Spirits Daily, covering US beer, wine and spirits business news and numbers, plus the Beernet Radio podcast and the Beer Industry Summit. It is an industry intelligence source for the US beverage alcohol trade and makes no AI claim.",
+    "source_urls": [
+      "https://beernet.com/",
+      "https://brookstonbeerbulletin.com/beer-birthday-harry-schuhmacher"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-06",
+    "key_people": "Harry Schuhmacher (Editor and Publisher)",
+    "discovered_by": "scout:nb_software",
+    "verified": false
+  },
+  {
+    "name": "Brewers Marketing (Daruma Tech)",
+    "domain": "brewersmarketing.com",
+    "vertical": "beer",
+    "ai_use_case": "brewery guild engagement apps",
+    "ai_maturity": "none",
+    "short_description": "Specialty division of software developer Daruma Tech that builds branded consumer engagement apps for craft brewers guilds and breweries, with beer trails, digital passports, leaderboards and an AR element. Clients include the Ohio Craft Brewers Association, the Mass Brewers Guild and the Texas Craft Brewers Guild's Texas Brewery Explorer. It is app development and makes no AI claim.",
+    "source_urls": [
+      "https://www.brewersmarketing.com/",
+      "https://www.darumatech.com/",
+      "https://www.brewbound.com/news/new-app-helps-beer-lovers-find-visit-craft-breweries-across-texas"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_software",
+    "verified": false
+  },
+  {
+    "name": "Zahm & Nagel",
+    "domain": "zahmnagel.com",
+    "hq_location": "Holland, NY, USA",
+    "founded_year": 1908,
+    "vertical": "beer",
+    "ai_use_case": "co2 and headspace air testing",
+    "ai_maturity": "none",
+    "short_description": "Maker of CO2 volume meters, headspace air testers, CO2 purity testers and carbonation stones used by breweries and other carbonated beverage producers. The instruments are manual quality-control tools. It makes no AI or software claim.",
+    "source_urls": [
+      "https://www.zahmnagel.com/",
+      "https://www.zahmnagel.com/history/",
+      "https://gasworlddirectory.com/listing/zahm-nagel-co-inc/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_sensors",
+    "verified": false
+  },
+  {
+    "name": "CO2Meter",
+    "domain": "co2meter.com",
+    "hq_location": "Ormond Beach, FL, USA",
+    "founded_year": 2006,
+    "vertical": "multiple",
+    "ai_use_case": "co2 safety monitoring and data logging",
+    "ai_maturity": "none",
+    "short_description": "Gas detection company selling fixed and portable CO2 safety monitors, data loggers and gas analyzers, with a dedicated breweries and wineries line built around fire code and OSHA compliance. Its products log and alarm on gas readings. It makes no AI claim.",
+    "source_urls": [
+      "https://www.co2meter.com/",
+      "https://www.co2meter.com/collections/breweries-wineries",
+      "https://www.co2meter.com/pages/about-us",
+      "https://www.plantautomation-technology.com/index.php/suppliers/co2meter-inc"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_sensors",
+    "verified": false
+  },
+  {
+    "name": "QuantiPerm",
+    "domain": "quantiperm.com",
+    "hq_location": "Chandler, AZ, USA",
+    "founded_year": 2001,
+    "vertical": "multiple",
+    "ai_use_case": "inline carbonation control and off-gas monitoring",
+    "ai_maturity": "none",
+    "short_description": "Builds the xFlowCO2 and xFlowMini inline carbonation systems, deoxygenation equipment and an off-gas analyzer for real-time fermentation monitoring, sold to craft breweries, cideries, wineries and spirits producers. Software controls CO2 dosing and logs off-gas mass flow. It makes no AI claim.",
+    "source_urls": [
+      "https://www.quantiperm.com/",
+      "https://beerandbrewing.com/better-carbonation-with-xflow-technology"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_sensors",
+    "verified": false
+  },
+  {
+    "name": "Barby + Kuhner",
+    "domain": "barby-kuehner.de",
+    "hq_location": "Untersiemau, Germany",
+    "founded_year": 1906,
+    "vertical": "beer",
+    "ai_use_case": "pressure and temperature measurement",
+    "ai_maturity": "none",
+    "short_description": "Family-owned maker of stainless steel pressure and temperature measurement, spunding pressure regulators, bottle pressure testers, safety valves, saccharometers and hydrometers used mainly in brewing and the wider food and beverage industry. It makes no AI or software claim.",
+    "source_urls": [
+      "https://barby-kuehner.de/",
+      "https://barby-kuehner.de/ueber-uns/",
+      "https://www.infranken.de/unternehmen/barby-kuehner-gmbh-129985"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_sensors",
+    "verified": false
+  },
+  {
+    "name": "ifm efector",
+    "domain": "ifm.com",
+    "hq_location": "Essen, Germany",
+    "vertical": "multiple",
+    "ai_use_case": "sensor anomaly detection (horizontal iiot platform)",
+    "ai_maturity": "shipping",
+    "short_description": "Industrial sensor maker whose brewing relevance is its IO-Link process-tank sensor line (level, flow, pressure, temperature), with a published brewery application at Skanderborg Bryghus. Separately, its moneo platform is a general industrial IIoT platform with AI anomaly detection and remaining-service-life prediction. moneo is not a brewing-specific product.",
+    "source_urls": [
+      "https://www.ifm.com/us/en",
+      "https://ifm.com/au/en/shared/moneo-iiot-platform/products/datascience",
+      "https://www.ifm.com/au/en/shared/machine/food/process-tank",
+      "https://de.wikipedia.org/wiki/Ifm-Unternehmensgruppe"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_sensors",
+    "verified": false
+  },
+  {
+    "name": "ChillerTron",
+    "domain": "chillertron.com",
+    "hq_location": "Vista, CA, USA",
+    "vertical": "multiple",
+    "ai_use_case": "fermentation temperature control and data logging",
+    "ai_maturity": "none",
+    "short_description": "Fermentation temperature control package for craft breweries, wineries and distilleries using proportional valves, an adaptive PID loop, continuous data logging, remote viewing and alarms, plus a separate Chiller Monitor. The control is classical PID and rules, not machine learning. It makes no AI claim.",
+    "source_urls": [
+      "https://chillertron.com/",
+      "https://chillertron.com/about-us/",
+      "https://thebrewermagazine.com/qa-chillertron-can-better-brewery/"
+    ],
+    "key_people": "Burt Munger, Rob Esposito",
+    "people": [
+      {
+        "name": "Burt Munger",
+        "role": "Founder, automation engineer"
+      },
+      {
+        "name": "Rob Esposito",
+        "role": "Team member, former head brewer Aztec Brewing"
+      }
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_sensors",
+    "verified": false
+  },
+  {
+    "name": "Wayne Automation",
+    "domain": "wayneautomation.com",
+    "hq_location": "Norristown, PA, USA",
+    "founded_year": 1976,
+    "vertical": "beer",
+    "ai_use_case": "packaging machine condition monitoring",
+    "ai_maturity": "none",
+    "short_description": "Privately held maker of end-of-line packaging machines (case erectors, partition inserters, tray formers, case sealers, vision inspection) with brewery customers such as Devils Backbone and Altstadt Brewery. Its Machine Condition Monitoring package puts machine sensors on IO-Link and logs data to the PLC and HMI. It makes no AI claim.",
+    "source_urls": [
+      "https://wayneautomation.com/",
+      "https://wayneautomation.com/packaging-machines/machine-condition-monitoring/",
+      "https://prosource.org/company/wayne-automation-corporation"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_sensors",
+    "verified": false
+  },
+  {
+    "name": "Tel-Tru Manufacturing",
+    "domain": "teltru.com",
+    "hq_location": "Rochester, NY, USA",
+    "founded_year": 1916,
+    "vertical": "beer",
+    "ai_use_case": "temperature monitoring and data logging",
+    "ai_maturity": "none",
+    "short_description": "Maker of bimetal and digital thermometers, RTD sensors and transmitters used in sanitary processes including commercial and home brewing. Its Remo-Tel cellular system logs temperatures to a 24/7 online dashboard with alerts, and Check-Set calibrators keep digital records. It makes no AI claim.",
+    "source_urls": [
+      "https://www.teltru.com/",
+      "https://foodmanufacturing.com/products/mnet-product-categories/manufacturingnet/mro/condition-monitoring/product/22894246/teltru-manufacturing-temperature-monitoring-system-offers-advanced-automation-datadriven-decision-capabilities"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_sensors",
+    "verified": false
+  },
+  {
+    "name": "Industrial Physics",
+    "domain": "industrialphysics.com",
+    "vertical": "multiple",
+    "ai_use_case": "beverage container test and inspection",
+    "ai_maturity": "none",
+    "short_description": "Group of about a dozen test and measurement brands, including CMC-KUHNKE can seam inspection and Steinfurth, selling beverage can, bottle and package testing instruments. It was built by Union Park Capital from 2014. It makes no AI or analytics claim.",
+    "source_urls": [
+      "https://www.industrialphysics.com/",
+      "https://union-park.com/industrial-physics.html",
+      "https://www.union-park.com/union-park-announces-acquisition-of-cmc-kuhnke.html"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_sensors",
+    "verified": false
+  },
+  {
+    "name": "Archon Industries",
+    "domain": "archonind.com",
+    "hq_location": "Suffern, NY, USA",
+    "founded_year": 1993,
+    "vertical": "beer",
+    "ai_use_case": "brewery process components",
+    "ai_maturity": "none",
+    "short_description": "US maker and distributor of process equipment for brewers and other processors: tank lights, sight glasses, manways, level gauges, spray balls, spunding valves, carbonation stones, valves and washdown stations, sold to craft breweries among others. It makes no AI or data claim.",
+    "source_urls": [
+      "https://archonind.com/",
+      "https://archonind.com/about/",
+      "https://www.probrewer.com/?p=25825"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_sensors",
+    "verified": false
+  },
+  {
+    "name": "OCS Process Systems",
+    "domain": "ocsprocess.com",
+    "hq_location": "Westlake, OH, USA",
+    "founded_year": 1902,
+    "vertical": "beer",
+    "ai_use_case": "sanitary process integration",
+    "ai_maturity": "none",
+    "short_description": "Sanitary process design, fabrication, installation and service firm and stocking distributor serving food, dairy and beverage plants, including breweries (custom CIP carts, brewing equipment, brewery testing equipment). It integrates third-party instrumentation from Anderson-Negele, Pentair Haffmans and Endress+Hauser rather than making its own. It makes no AI or data claim.",
+    "source_urls": [
+      "https://ocsprocess.com/",
+      "https://ocsprocess.com/about-us/",
+      "https://www.thomasnet.com/company/ocs-process-systems-30221799/profile"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_sensors",
+    "verified": false
+  },
+  {
+    "name": "bioMerieux",
+    "domain": "biomerieux.com",
+    "hq_location": "Marcy-l'Etoile, France",
+    "vertical": "multiple",
+    "ai_use_case": "rapid pcr and sequencing based spoilage detection",
+    "ai_maturity": "none",
+    "short_description": "In vitro diagnostics group with a beverage testing line that includes GENE-UP PRO BREW, a PCR spoilage assessment system for breweries covering yeast slurry to packaged beer, and wine testing. In February 2026 it launched SMARTBIOME, a spoilage investigation platform combining DNA sequencing, bioinformatics, data science, a knowledge base of more than 3,000 microorganisms and expert consulting, with results shown as visualisations in the platform. It makes no explicit AI or machine learning claim for these products; the data layer is sequencing analytics and a curated knowledge base.",
+    "source_urls": [
+      "https://www.biomerieux.com/us/en/our-offer/food-safety-and-quality/beverage-testing.html",
+      "https://www.biomerieux.com/us/en/our-offer/industry-products/smartbiome.html",
+      "https://www.biomerieux.com/us/en/our-offer/industry-products/gene-up-pro-brew-spoilage-assessment-system.html",
+      "https://www.fccsingapore.com/news/n/news/biomerieux-launches-smartbiometm-to-help-food-manufacturers-prevent-microbiological-spoilage.html"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_lab",
+    "verified": false
+  },
+  {
+    "name": "Midwest Microbio",
+    "domain": "midwestmicrobio.com",
+    "vertical": "beer",
+    "ai_use_case": "qpcr spoilage organism detection",
+    "ai_maturity": "none",
+    "short_description": "Sells an in-house qPCR system for brewery labs, with a Core Four assay set screening for Saccharomyces, diastaticus genes, Brettanomyces and wild yeasts, and hop resistance genes in bacteria, plus more than 40 further assays for beer, wine, kombucha and other beverages. Its site lists dozens of craft breweries and yeast labs as users. It is a molecular testing and instrument vendor and makes no AI claim.",
+    "source_urls": [
+      "https://www.midwestmicrobio.com/",
+      "https://www.midwestmicrobio.com/qpcr/core",
+      "https://www.beerandbrewing.com/make-your-brewery-a-leader-in-quality"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_lab",
+    "verified": false
+  },
+  {
+    "name": "Industrial Test Systems (SenSafe)",
+    "domain": "sensafe.com",
+    "hq_location": "Rock Hill, SC, United States",
+    "vertical": "beer",
+    "ai_use_case": "connected brewing water testing",
+    "ai_maturity": "none",
+    "short_description": "Water test manufacturer selling Smart Brew kits for brewers built on its eXact iDip smart photometer, which pairs with a smartphone app over Bluetooth to measure hardness, alkalinity, chloride, sulfate, sodium and pH and to log and export results for batch consistency. The current Smart Brew PRO II kit adds a pH meter and targets breweries and quality control. It is a connected sensor and app vendor and makes no AI claim.",
+    "source_urls": [
+      "https://sensafe.com/smart-brew-pro-ii-water-test-kit-for-beer/",
+      "https://www.watertechonline.com/home/article/15548314/smart-photometer-systems"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_lab",
+    "verified": false
+  },
+  {
+    "name": "OLIS",
+    "domain": "olisclarity.com",
+    "founded_year": 1970,
+    "vertical": "beer",
+    "ai_use_case": "beer and malt colour measurement instrument",
+    "ai_maturity": "none",
+    "short_description": "Spectroscopy instrument maker whose CLARiTY IC430 integrating cavity spectrophotometer measures SRM and EBC colour of malt and beer, including hazy product, from 2 mL without filtration, and can send results over WiFi. A peer-reviewed Journal of the ASBC study found its SRM readings equivalent to standard methods and better for hazy beers. It is an instrument vendor and makes no AI claim. Founded in the 1970s; founded_year is approximate to the decade.",
+    "source_urls": [
+      "https://olisclarity.com/clarity-1-for-maltsters-and-brewers",
+      "https://olisclarity.com/about-us",
+      "https://doi.org/10.1080/03610470.2023.2209224"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "key_people": "Julie DeSa Lorenz (Owner and CEO)",
+    "people": [
+      {
+        "name": "Julie DeSa Lorenz",
+        "role": "Owner and CEO"
+      },
+      {
+        "name": "Richard J. DeSa",
+        "role": "Founder"
+      }
+    ],
+    "discovered_by": "scout:nb_lab",
+    "verified": false
+  },
+  {
+    "name": "Gusmer Enterprises",
+    "domain": "gusmerenterprises.com",
+    "hq_location": "Mountainside, NJ, United States",
+    "founded_year": 1918,
+    "vertical": "multiple",
+    "ai_use_case": "beverage lab analysis services and instrumentation",
+    "ai_maturity": "none",
+    "short_description": "Family-owned supplier of filtration, fermentation aids, processing equipment and lab instrumentation to wine, brewing and distilling, and exclusive partner for brands such as Hamilton, mbt Brautechnik and Bucher Denwel. Runs Napa Analytical Services, a TTB-certified lab for wine, beer and spirits that recently added flow cytometry viability testing for Brettanomyces. It is a distributor and lab services provider and makes no AI claim.",
+    "source_urls": [
+      "https://www.gusmerenterprises.com/brewing/",
+      "https://www.gusmerenterprises.com/blog/beyond-pcr-see-whats-truly-alive-in-your-wine/",
+      "https://en.wikipedia.org/wiki/Gusmer_Enterprises,_Inc."
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "key_people": "Marla Jeffrey (President)",
+    "people": [
+      {
+        "name": "Marla Jeffrey",
+        "role": "President"
+      }
+    ],
+    "discovered_by": "scout:nb_lab",
+    "verified": false
+  },
+  {
+    "name": "MISCO Refractometer",
+    "domain": "misco.com",
+    "hq_location": "Solon, OH, United States",
+    "vertical": "multiple",
+    "ai_use_case": "handheld and inline refractometry",
+    "ai_maturity": "none",
+    "short_description": "Specialist refractometer maker of more than 70 years selling handheld digital models, including dual and multi-scale beer refractometers reading Plato and wort specific gravity, plus sanitary inline process refractometers for beverage lines. Its applications page lists beer and wine. It is a sensor vendor; its site mentions no software, cloud or AI features. Plain curl returns 403, the homepage and applications page were read through a fetch proxy.",
+    "source_urls": [
+      "https://www.misco.com/",
+      "https://www.misco.com/refractometer-applications/",
+      "https://welcome.etesters.com/catalog/BC0DBB84-D2B7-9832-BAF5-26DA8BA00C5D/misco-refractometer"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_lab",
+    "verified": false
+  },
+  {
+    "name": "Alpha Biosciences",
+    "domain": "alphabiosciences.com",
+    "hq_location": "Baltimore, MD, United States",
+    "founded_year": 1999,
+    "vertical": "beer",
+    "ai_use_case": "brewing microbiology culture media",
+    "ai_maturity": "none",
+    "short_description": "Manufacturer of dehydrated microbiological culture media, molecular biology reagents and bioingredients, with a brewing media range for detecting organisms such as Lactobacillus, Pediococcus, wild yeast and molds in brewery quality control. It sells lab consumables only and makes no AI or data claim.",
+    "source_urls": [
+      "https://alphabiosciences.com/microbiology/brewing/",
+      "https://medindexer.com/directory/alpha-biosciences"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_lab",
+    "verified": false
+  },
+  {
+    "name": "VEE GEE Scientific",
+    "domain": "veegee.com",
+    "hq_location": "Kirkland, WA, United States",
+    "founded_year": 1981,
+    "vertical": "multiple",
+    "ai_use_case": "hydrometers and refractometers",
+    "ai_maturity": "none",
+    "short_description": "Designer and importer of lab glassware and instruments sold through dealers, including IRS-certified, NIST-traceable alcohol proof hydrometers for distilleries and handheld Brix refractometers marketed for wine and beer. It sells measurement instruments only and makes no AI or data claim.",
+    "source_urls": [
+      "https://www.veegee.com/products/certified-alcohol-hydrometers",
+      "https://www.veegee.com/collections/best-sellers/products/handheld-brix-refractometers",
+      "https://www.bioprocessonline.com/doc/vee-gee-scientific-inc-0001"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_lab",
+    "verified": false
+  },
+  {
+    "name": "corosys",
+    "domain": "corosys.com",
+    "hq_location": "Hofheim am Taunus, Germany",
+    "vertical": "beer",
+    "ai_use_case": "deaeration and dealcoholisation process plants",
+    "ai_maturity": "none",
+    "short_description": "German process engineering group building hot and high-vacuum water deaeration plants (HWD, V2WD), blending, carbonation, filtration and dealcoholisation systems for breweries and beverage producers, with reference installations at German breweries. The plants are automated process equipment. It makes no AI or data product claim.",
+    "source_urls": [
+      "https://www.corosys.com/en/",
+      "https://corosys.de/",
+      "https://brauwelt.com/en/topics/water/621699-emission-free-water-degasification"
+    ],
+    "key_people": "Stephan Dittrich (Managing Director)",
+    "people": [
+      {
+        "name": "Stephan Dittrich",
+        "role": "Managing Director"
+      }
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_ua_retry",
+    "verified": false
+  },
+  {
+    "name": "Weber Scientific",
+    "domain": "weberscientific.com",
+    "hq_location": "Hamilton, NJ, United States",
+    "vertical": "multiple",
+    "ai_use_case": "brewery and winery lab supply distribution",
+    "ai_maturity": "none",
+    "short_description": "Distributor of laboratory supplies for food and beverage quality control, with dedicated beer testing and wine testing catalogue categories. For brewers it resells items such as beer pH meters, Smart Brew water test kits, hemacytometers, culture media and portable PCR thermocyclers. It is a reseller of third-party consumables and instruments and makes no AI or data claim of its own.",
+    "source_urls": [
+      "https://www.weberscientific.com/food-beverage-beer-testing",
+      "https://www.selectscience.net/company/weber-scientific"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_ua_retry",
+    "verified": false
+  },
+  {
+    "name": "Reichert Technologies (AMETEK)",
+    "domain": "reichertai.com",
+    "hq_location": "Buffalo, NY, United States",
+    "vertical": "multiple",
+    "ai_use_case": "digital refractometers for beverages",
+    "ai_maturity": "none",
+    "short_description": "AMETEK business making refractometers and analytical instruments; its beverage line, including the Refractix digital refractometer and Brix/RI-Chek handheld, is marketed to brewers, distillers and winemakers for sugar, wort and alcohol measurement. It is an instrument vendor and makes no AI or data claim.",
+    "source_urls": [
+      "https://www.reichertai.com/industries/beverages",
+      "https://www.ametek.com/newsroom/news/business/2023/december/ametek-reichert-revolutionizes-refractometry-with-refractix"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "discovered_by": "scout:nb_ua_retry",
+    "verified": false
   }
 ]
