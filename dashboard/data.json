@@ -70747,5 +70747,52 @@
     ],
     "country": "France",
     "scope": "beverage-native"
+  },
+  {
+    "name": "Global Wine Business Institute (GWBI)",
+    "domain": "globalwineinstitute.org",
+    "hq_location": "Geneva, Switzerland",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": null,
+    "ai_use_case": "wine business research network",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Nicolas Depetris Chauvin (Founder, HEG Geneva)",
+    "people": [
+      {
+        "name": "Nicolas Depetris Chauvin",
+        "role": "Founder, HEG Geneva",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Open-access platform connecting wine researchers, industry and policymakers, founded by Nicolas Depetris Chauvin of HEG Geneva with EHL, the Changins school of viticulture and oenology and 14 other international universities. Its public site presents a firm-level atlas of 21 wine-producing countries covering exports, organic share, premiumisation and climate, alongside a research feed, events and member profiles. It makes no AI claim and is tracked as a channel to wine academics and producers.",
+    "source_urls": [
+      "https://globalwineinstitute.org/",
+      "https://hesge.ch/heg/en/news/2024/swiss-wine-day-2024-firm-level-study-global-wine-industry",
+      "https://hesge.ch/heg/en/news/2025/trois-nouveaux-professeur-hes-ordinaires-la-heg-geneve"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "globalwineinstitute.org",
+    "theme": "Other",
+    "capabilities": [],
+    "country": "Switzerland",
+    "scope": "beverage-native"
   }
 ]

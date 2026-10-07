@@ -178,5 +178,131 @@
     "vertical": "whiskey",
     "url": "https://link.springer.com/article/10.1007/s10489-025-06425-1",
     "finding": "An electronic-nose sensor array streamed over 5G IoT, with learning algorithms classifying whiskies from their volatile profile."
+  },
+  {
+    "title": "Development of predictive models for quality and maturation stage attributes of wine grapes using vis-nir reflectance spectroscopy",
+    "authors": "Daniel dos Santos Costa, et al.",
+    "year": 2019,
+    "venue": "Postharvest Biology and Technology",
+    "vertical": "wine",
+    "url": "https://doi.org/10.1016/j.postharvbio.2018.12.010",
+    "finding": "Builds vis-NIR reflectance spectroscopy models that predict quality and maturation stage attributes of wine grapes."
+  },
+  {
+    "title": "The Integration of the Internet of Things, Artificial Intelligence, and Blockchain Technology for Advancing the Wine Supply Chain",
+    "authors": "Nino Adamashvili, et al.",
+    "year": 2024,
+    "venue": "Computers",
+    "vertical": "wine",
+    "url": "https://doi.org/10.3390/computers13030072",
+    "finding": "Reviews how IoT, AI and blockchain are applied across the wine supply chain, from vineyard management and quality control to supply chain traceability and the efficiency, transparency and cost benefits reported."
+  },
+  {
+    "title": "Spectrofluorometric analysis combined with machine learning for geographical and varietal authentication, and prediction of phenolic compound concentrations in red wine",
+    "authors": "Ranaweera K.R. Ranaweera, et al.",
+    "year": 2021,
+    "venue": "Food Chemistry",
+    "vertical": "wine",
+    "url": "https://doi.org/10.1016/j.foodchem.2021.130149",
+    "finding": "Combines spectrofluorometry with machine learning to authenticate red wines by geographical origin and variety and to predict phenolic compound concentrations."
+  },
+  {
+    "title": "Application of Hyperspectral Imaging and Deep Learning for Robust Prediction of Sugar and pH Levels in Wine Grape Berries",
+    "authors": "Véronique Gomes, et al.",
+    "year": 2021,
+    "venue": "Sensors",
+    "vertical": "wine",
+    "url": "https://doi.org/10.3390/s21103459",
+    "finding": "A one-dimensional convolutional neural network predicts sugar content and pH in wine grape berries from hyperspectral reflectance, built to stay robust across varieties, terroirs and vintages."
+  },
+  {
+    "title": "Assessment of Smoke Contamination in Grapevine Berries and Taint in Wines Due to Bushfires Using a Low-Cost E-Nose and an Artificial Intelligence Approach",
+    "authors": "Sigfredo Fuentes, et al.",
+    "year": 2020,
+    "venue": "Sensors",
+    "vertical": "wine",
+    "url": "https://doi.org/10.3390/s20185108",
+    "finding": "A low-cost electronic nose with machine learning classifies smoke exposure in wines from field-trial grapevines with 97% accuracy, a rapid screen for bushfire smoke taint."
+  },
+  {
+    "title": "Machine Learning Modeling of Wine Sensory Profiles and Color of Vertical Vintages of Pinot Noir Based on Chemical Fingerprinting, Weather and Management Data",
+    "authors": "Sigfredo Fuentes, et al.",
+    "year": 2020,
+    "venue": "Sensors",
+    "vertical": "wine",
+    "url": "https://doi.org/10.3390/s20133618",
+    "finding": "Artificial neural networks trained on nine vintages (2008 to 2016) of wine NIR fingerprints plus weather and management data predict sensory profile and colour, giving growers a quality forecast before winemaking."
+  },
+  {
+    "title": "Variety seeking behavior in the wine domain: A consumers segmentation using big data",
+    "authors": "Francesco Caracciolo, et al.",
+    "year": 2021,
+    "venue": "Food Quality and Preference",
+    "vertical": "wine",
+    "url": "https://doi.org/10.1016/j.foodqual.2021.104481",
+    "finding": "Segments wine consumers by variety-seeking behaviour using big data."
+  },
+  {
+    "title": "Applying AI Tools for Modeling, Predicting and Managing the White Wine Fermentation Process",
+    "authors": "Adrian Florea, et al.",
+    "year": 2022,
+    "venue": "Fermentation",
+    "vertical": "wine",
+    "url": "https://doi.org/10.3390/fermentation8040137",
+    "finding": "A pre-trained multi-layer perceptron tuned with genetic algorithms predicts alcohol and substrate concentration during white wine fermentation, proposed as a low-cost route to digitalising Romanian wineries."
+  },
+  {
+    "title": "Saccharomyces cerevisiae and S. kudriavzevii Synthetic Wine Fermentation Performance Dissected by Predictive Modeling",
+    "authors": "David Henriques, et al.",
+    "year": 2018,
+    "venue": "Frontiers in Microbiology",
+    "vertical": "wine",
+    "url": "https://doi.org/10.3389/fmicb.2018.00088",
+    "finding": "A model selection, reduction and cross-validation pipeline dissects fermentation performance of S. cerevisiae and S. kudriavzevii, supporting the design of fermentations with non-conventional yeasts."
+  },
+  {
+    "title": "Identifying veraison process of colored wine grapes in field conditions combining deep learning and image analysis",
+    "authors": "Lei Shen, et al.",
+    "year": 2022,
+    "venue": "Computers and Electronics in Agriculture",
+    "vertical": "wine",
+    "url": "https://doi.org/10.1016/j.compag.2022.107268",
+    "finding": "Combines deep learning and image analysis to identify the veraison stage of coloured wine grapes in field conditions."
+  },
+  {
+    "title": "An exploratory study of the adoption of artificial intelligence in Burgundy's wine industry",
+    "authors": "Glyn Atwal, et al.",
+    "year": 2021,
+    "venue": "Strategic Change",
+    "vertical": "wine",
+    "url": "https://doi.org/10.1002/jsc.2413",
+    "finding": "Finds that Burgundy winegrowers' intention to adopt AI depends on perceived benefits, organisational readiness and external pressure."
+  },
+  {
+    "title": "Using Neural Network Models for Wine Review Classification",
+    "authors": "Duwani Katumullage, et al.",
+    "year": 2022,
+    "venue": "Journal of Wine Economics",
+    "vertical": "wine",
+    "url": "https://doi.org/10.1017/jwe.2022.2",
+    "finding": "Applies CNN, BiLSTM and BERT models to Wine Spectator reviews to classify wines into rating classes, with BERT performing best."
+  },
+  {
+    "title": "Digital transformation in wine business – from Marketing 5.0 to Industry 5.0 in the world of wine adopting artificial intelligence",
+    "authors": "Giuseppe Festa, et al.",
+    "year": 2025,
+    "venue": "European Journal of Innovation Management",
+    "vertical": "wine",
+    "url": "https://doi.org/10.1108/ejim-04-2024-0465",
+    "finding": "An exploratory study of wine business operators examines how AI, particularly generative AI, fits a human-centred Industry 5.0 framework in the wine sector."
+  },
+  {
+    "title": "Automated Density Measurement With Real-Time Predictive Modeling of Wine Fermentations",
+    "authors": "James Nelson, et al.",
+    "year": 2022,
+    "venue": "IEEE Transactions on Instrumentation and Measurement",
+    "vertical": "wine",
+    "url": "https://doi.org/10.1109/tim.2022.3162289",
+    "finding": "Pairs in situ differential-pressure density sensing with a wine kinetic model and parameter estimation to predict the progress of a 1,500 litre fermentation in real time, replacing manual density checks."
   }
 ]

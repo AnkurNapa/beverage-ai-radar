@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-10-07. 1369 active, 172 dormant.
+Snapshot: 2026-10-07. 1370 active, 172 dormant.
 
 ## Active companies
 
@@ -552,6 +552,7 @@ Snapshot: 2026-10-07. 1369 active, 172 dormant.
 - **Geocarta** (wine, geophysical soil mapping for viticulture). French subsoil imaging company that acquires geo-referenced geophysical data with its own equipment (electrical resistivity by the ARP method, magnetic gradient, electromagnetic and multi-antenna ground penetrating radar) and interprets it in GIS software it develops itself. Viticulture is one of the three named precision agriculture segments, and the output is high resolution soil maps plus prescription maps that feed variable-rate vineyard equipment. It runs two web platforms, GCServer for map hosting and GCAgri for the field-to-map agronomy workflow. The company makes no artificial intelligence claim; this is geophysics, GIS and rule-based agronomy.
 - **Gerber Systems & Networks (ComptaCave-Pro)** (wine, wine cellar accounting and regulatory reporting (no ai claim)). Swiss Microsoft Business Central partner whose 'solutions globales pour le vin' suite serves encaveurs, wine merchants and grower-producers: harvest intake synced with VV20/e-Vendanges, tank-to-bottle production lots, cellar stock and sales. Its ComptaCave-Pro extension, listed on AppSource since 2024-05-17, produces cellar accounting, bulk-wine and sales-by-vintage reports plus the declarations required by the Swiss Wine Trade Control. It is a system of record with dashboards and makes no AI or machine-learning claim.
 - **GetGenAI** (multiple, ai review of alcohol labels and marketing for ttb compliance). GetGenAI runs AI-powered compliance review over marketing content, packaging and labels for regulated industries and sells a dedicated TTB solution for alcohol brands. The product flags TTB-sensitive claims, prohibited health references and labeling violations before submission, and says it tracks over 100 regulation sources covering TTB guidelines, COLA requirements and state rules. The company does not name the models it uses. It lists Andreessen Horowitz, Index Ventures, DVC, Act One Ventures and the NVIDIA Inception program as backers.
+- **Global Wine Business Institute (GWBI)** (wine, wine business research network). Open-access platform connecting wine researchers, industry and policymakers, founded by Nicolas Depetris Chauvin of HEG Geneva with EHL, the Changins school of viticulture and oenology and 14 other international universities. Its public site presents a firm-level atlas of 21 wine-producing countries covering exports, organic share, premiumisation and climate, alongside a research feed, events and member profiles. It makes no AI claim and is tracked as a channel to wine academics and producers. People: Nicolas Depetris Chauvin (Founder, HEG Geneva).
 - **GMware** (multiple, demand forecasting). Retail-intelligence software vendor whose Shield Suite sells AI demand forecasting to beverage-alcohol distributors. Its models blend depletions, POS data, weather, and event calendars to predict event-driven demand across tens of thousands of storefronts.
 - **goerp.ai (Mawai Infotech)** (multiple, none). goerp.ai is the ERP suite of Mawai, an SAP Gold partner in Noida, India, established in 1998. It sells a dedicated alcohol and distillery edition covering sugarcane and ethanol inputs, master production scheduling, recipe and BOM management, quality control, brewing stage monitoring, regulatory compliance and supply chain for producers of spirits, ale and malt beverages. Despite the .ai domain the product pages describe only conventional ERP modules and dashboards; no machine learning capability is claimed for the drinks solution.
 - **Gomberg, Fredrikson & Associates** (wine, no ai claim, us wine market shipment and pricing data). Gomberg, Fredrikson & Associates has published US wine market intelligence since 1948, covering production, wholesale shipments, imports, exports and long term industry trends, and its reports are a primary reference series for the American wine trade. bw166 became a partner in 2015 and from 2025 distributes and supports the GFA reports. It is a research and reporting house and makes no AI or machine learning claim.
@@ -1552,7 +1553,7 @@ Snapshot: 2026-10-07. 1369 active, 172 dormant.
 ## By vertical (active)
 
 - multiple: 449
-- wine: 417
+- wine: 418
 - beer: 376
 - whiskey: 117
 - non_alcoholic: 10
@@ -2760,3 +2761,4 @@ Snapshot: 2026-10-07. 1369 active, 172 dormant.
 - geospatial and ai analysis of wine-growing regions: 1
 - costs and benefits of farm digitalisation; wine cooperative governance: 1
 - generative AI in HR and finance: 1
+- wine business research network: 1
