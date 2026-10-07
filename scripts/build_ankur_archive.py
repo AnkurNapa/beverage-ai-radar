@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from html import unescape
 import re
 import sys
 import urllib.request
@@ -50,7 +51,9 @@ def _meta(html: str, *patterns: str) -> str:
     for p in patterns:
         m = re.search(p, html, re.S | re.I)
         if m:
-            return re.sub(r"\s+", " ", m.group(1)).strip()
+            # Meta content arrives HTML-escaped (&#39; and friends) once the blog
+            # renders straight quotes, so unescape before it reaches the radar.
+            return unescape(re.sub(r"\s+", " ", m.group(1)).strip())
     return ""
 
 
