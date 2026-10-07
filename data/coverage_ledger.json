@@ -699,5 +699,12 @@
   "surface": "nb_people_2",
   "found": 10,
   "added": 10
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "people",
+  "surface": "gwbi_leads",
+  "found": 7,
+  "added": 7
  }
 ]

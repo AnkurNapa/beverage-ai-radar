@@ -68269,5 +68269,365 @@
     ],
     "country": "United States",
     "scope": "beverage-native"
+  },
+  {
+    "name": "Jan Erik Meidell",
+    "domain": null,
+    "hq_location": "Geneva, Switzerland",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "digital visibility metrics for winery tourism performance",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Jan Erik Meidell (Lecturer (Charge de cours), HES-SO Geneve)",
+    "people": [
+      {
+        "name": "Jan Erik Meidell",
+        "role": "Lecturer (Charge de cours), HES-SO Geneve",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Lecturer at HES-SO Geneve who studies winery tourism through digital metrics. His 2025 and 2026 papers compare winery performance globally using digital visibility and visitor satisfaction data. He has also published on applying GPT-4 Turbo to SEO and software development, though that work is not wine specific.",
+    "source_urls": [
+      "https://doi.org/10.1080/15378020.2025.2585879",
+      "https://doi.org/10.1177/13548166261447094",
+      "https://orcid.org/0009-0004-6836-6161"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "HES-SO Geneve",
+    "affiliated_company_current": true,
+    "key": "jan-erik-meidell::switzerland",
+    "theme": "Other",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "Switzerland",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Michael Paul Kramer",
+    "domain": null,
+    "hq_location": "Geisenheim, Germany",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "blockchain traceability and multi-agent simulation of technology adoption in wine",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Michael Paul Kramer (Senior Lecturer Information Technology and Digital Commerce, Hochschule Geisenheim University)",
+    "people": [
+      {
+        "name": "Michael Paul Kramer",
+        "role": "Senior Lecturer Information Technology and Digital Commerce, Hochschule Geisenheim University",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Senior lecturer in information technology and digital commerce in the wine and beverage economics department at Hochschule Geisenheim. He publishes on blockchain for wine supply networks, including anti-fraud provenance and blockchain-based tokens. He has also proposed a taxonomy of multi-agent simulation models for disruptive technology adoption in the wine industry.",
+    "source_urls": [
+      "https://doi.org/10.1007/978-3-031-45742-5_5",
+      "https://doi.org/10.1051/bioconf/20236803024",
+      "https://orcid.org/0000-0002-1474-3484"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Hochschule Geisenheim University",
+    "affiliated_company_current": true,
+    "key": "michael-paul-kramer::germany",
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "ERP & systems of record"
+    ],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Jochen Heussner",
+    "domain": null,
+    "hq_location": "Giessen, Germany",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "blockchain authenticity and algorithmic trust in ai wine recommendations",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Jochen Heussner (Researcher, Justus Liebig University Giessen)",
+    "people": [
+      {
+        "name": "Jochen Heussner",
+        "role": "Researcher, Justus Liebig University Giessen",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Researcher at Justus Liebig University Giessen working on digitalisation in wine and spirits. His 2026 papers cover a conceptual framework for consumer trust in AI wine recommendations and blockchain against counterfeiting in the spirits industry. He has also written on digitalisation and sustainability in the Armenian wine sector.",
+    "source_urls": [
+      "https://doi.org/10.3280/ecag2026oa21357",
+      "https://doi.org/10.36253/wep-17795",
+      "https://orcid.org/0009-0008-1493-1128"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "Justus Liebig University Giessen",
+    "affiliated_company_current": true,
+    "key": "jochen-heussner::germany",
+    "theme": "Quality & inspection",
+    "capabilities": [
+      "AI & ML",
+      "ESG & sustainability"
+    ],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Sarah Marx Quintanar",
+    "domain": null,
+    "hq_location": "Texas, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "cost analysis of winery barrel purchasing",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Sarah Marx Quintanar (Interim Chair and Clinical Associate Professor, Department of Data Analytics and Statistics, University of North Texas)",
+    "people": [
+      {
+        "name": "Sarah Marx Quintanar",
+        "role": "Interim Chair and Clinical Associate Professor, Department of Data Analytics and Statistics, University of North Texas",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Interim chair of the Department of Data Analytics and Statistics at the University of North Texas since 2025. Her wine work is economics rather than AI: papers in 2017 and 2018 analysed barrel purchasing decisions and their effect on winery costs. The wine papers date from her earlier post at the University of Arkansas at Little Rock.",
+    "source_urls": [
+      "https://doi.org/10.22004/ag.econ.253849",
+      "https://doi.org/10.33423/jabe.v20i2.330",
+      "https://orcid.org/0000-0002-8826-7898"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "University of North Texas",
+    "affiliated_company_current": true,
+    "key": "sarah-marx-quintanar::usa",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ivana Rendulic Jelusic",
+    "domain": null,
+    "hq_location": "Zagreb, Croatia",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "ai analysis of multispectral drone imagery for vineyard health",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ivana Rendulic Jelusic (Founder and CEO, Alti Agro)",
+    "people": [
+      {
+        "name": "Ivana Rendulic Jelusic",
+        "role": "Founder and CEO, Alti Agro",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founder and CEO of Zagreb start-up Alti Agro with a PhD in viticulture. Its Vineyard Angel platform, built with TIS Grupa, uses AI on multispectral drone imagery of vine rows to count missing vines and diagnose vine health, with sensor-based disease models. She co-authored a 2022 study on grape quality zoning and selective harvesting in small vineyards.",
+    "source_urls": [
+      "https://doi.org/10.3390/agriculture12060852",
+      "https://www.interreg-central.eu/news/an-angel-above-the-vineyards-in-croatia-2/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Alti Agro",
+    "affiliated_company_current": true,
+    "key": "ivana-rendulic-jelusic::croatia",
+    "theme": "Agriculture & crop",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "Croatia",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Radmila Jovanovic",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "geospatial and ai analysis of wine-growing regions",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Radmila Jovanovic (Researcher, Institute of Agricultural Economics Belgrade and University of Malaga)",
+    "people": [
+      {
+        "name": "Radmila Jovanovic",
+        "role": "Researcher, Institute of Agricultural Economics Belgrade and University of Malaga",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Researcher affiliated with the Institute of Agricultural Economics in Belgrade and the University of Malaga. Her 2026 paper applies AI with a human influence index to predict cultural heritage risk in Danube wine-growing areas of Serbia. She has also published data-driven vineyard zoning from satellite images and vegetation indices, plus open geodata work for wine tourism.",
+    "source_urls": [
+      "https://doi.org/10.2478/picbe-2026-0189",
+      "https://doi.org/10.4018/979-8-3693-2069-3.ch019",
+      "https://orcid.org/0000-0001-5428-0472"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "University of Malaga",
+    "affiliated_company_current": true,
+    "key": "radmila-jovanovic::unknown",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Constantine Iliopoulos",
+    "domain": null,
+    "hq_location": "Greece",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "costs and benefits of farm digitalisation; wine cooperative governance",
+    "ai_maturity": "research",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Constantine Iliopoulos (Director, Agricultural Economics Research Institute, ELGO DIMITRA)",
+    "people": [
+      {
+        "name": "Constantine Iliopoulos",
+        "role": "Director, Agricultural Economics Research Institute, ELGO DIMITRA",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Agricultural economist who directs the Agricultural Economics Research Institute at ELGO DIMITRA in Greece. His wine work is on cooperative governance, including Santo Wines in Santorini and organisational models in the Greek wine industry. His digital work covers farm digitalisation costs and benefits plus electronic traceability adoption, which is agri-food wide rather than wine specific.",
+    "source_urls": [
+      "https://doi.org/10.1111/apce.12056",
+      "https://doi.org/10.22434/ifamr.1274",
+      "https://orcid.org/0000-0002-1770-8270"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "ELGO DIMITRA",
+    "affiliated_company_current": true,
+    "key": "constantine-iliopoulos::greece",
+    "theme": "Other",
+    "capabilities": [
+      "ERP & systems of record"
+    ],
+    "country": "Greece",
+    "scope": "beverage-native"
   }
 ]
