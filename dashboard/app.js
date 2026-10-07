@@ -190,7 +190,7 @@ function renderBars(el, pairs, filterId, kind) {
   }
   const pct = (n) => Math.round((n / total) * 100);
   const seg = (r) => `<span class="seg" style="flex:${r.n};--paint:${r.paint[0]};--paint-dark:${r.paint[1]}"
-      title="${esc(r.label)} · ${r.n} of ${total} · ${pct(r.n)}%${r.folded ? ` — includes ${esc(r.folded)}` : ""}"
+      title="${esc(r.label)} · ${r.n} of ${total} · ${pct(r.n)}%${r.folded ? `, includes ${esc(r.folded)}` : ""}"
       ${filterId && r.real ? `data-filter="${esc(filterId)}" data-value="${esc(r.label)}"` : ""}></span>`;
   const key = (r) => `
     <button class="key" type="button" aria-pressed="false"
@@ -771,6 +771,44 @@ function paintPersonPick(id = "personoftheday", label = "Person of the day", kee
       <a class="potd__go potd__li" href="${esc(safeUrl(p.linkedin))}" target="_blank" rel="noopener">Say hello on LinkedIn &#8599;</a>
     </article>`;
   el.hidden = false;
+}
+
+/* Paper, video and article of the day, from the Research library. Same day
+ * formula as the person pick; the salt keeps the three slots from moving in
+ * step. Pre-2018 items and ones with no summary line are left out, so the
+ * card always says what the reader will get. */
+function resourceOfTheDay(rows, kinds, salt, today) {
+  const pool = rows
+    .filter((r) => kinds.includes(r.kind) && safeUrl(r.url) && (r.finding || r.summary) && !(r.year && r.year < 2018))
+    .sort((a, b) => a.url.localeCompare(b.url));
+  if (!pool.length) return null;
+  const day = Math.floor((today || new Date()).setHours(0, 0, 0, 0) / 86400000);
+  return pool[(((day * 7 + salt) % pool.length) + pool.length) % pool.length];
+}
+
+function paintReadPick(id, label, kinds, salt, cta) {
+  const el = $(id);
+  const r = el && resourceOfTheDay(RES, kinds, salt);
+  if (!r) { if (el) el.hidden = true; return; }
+  const when = new Date().toLocaleDateString(undefined, { day: "numeric", month: "short" });
+  const meta = r.kind === "paper" ? [r.venue, r.year].filter(Boolean).join(", ") : (r.meta || r.year || "");
+  const text = r.finding || r.summary || "";
+  el.innerHTML = `<article class="potd potd--read">
+      <div class="potd__eyebrow">${esc(label)} <span class="potd__date">${esc(when)}</span></div>
+      ${r.thumb ? `<a class="potd__thumb" href="${esc(safeUrl(r.url))}" target="_blank" rel="noopener"><img src="${esc(safeUrl(r.thumb))}" alt="" loading="lazy" width="480" height="270"></a>` : ""}
+      <h2 class="potd__name potd__name--read"><a href="${esc(safeUrl(r.url))}" target="_blank" rel="noopener">${esc(r.title)}</a></h2>
+      ${meta ? `<p class="potd__use">${esc(String(meta))}</p>` : ""}
+      ${text ? `<p class="potd__desc">${esc(trim(text, 220))}</p>` : ""}
+      <div class="chips">${r.vertical ? `<span class="chip chip--v chip--${esc(r.vertical)}">${vlab(r.vertical)}</span>` : ""}</div>
+      <a class="potd__go" href="${esc(safeUrl(r.url))}" target="_blank" rel="noopener">${esc(cta)} &#8599;</a>
+    </article>`;
+  el.hidden = false;
+}
+
+function paintReads() {
+  paintReadPick("paperoftheday", "Paper of the day", ["paper"], 5, "Read the paper");
+  paintReadPick("videooftheday", "Video of the day", ["video"], 13, "Watch");
+  paintReadPick("articleoftheday", "Article of the day", ["news", "blog"], 17, "Read the article");
 }
 
 const trim = (s, n) => (s.length > n ? s.slice(0, s.lastIndexOf(" ", n)) + "..." : s);
@@ -1883,7 +1921,7 @@ async function loadProspects() {
   fillSelect($("fpr-region"), regions);
   fillSelect($("fpr-vertical"), counts(PROSPECTS.filter((p) => p.vertical), "vertical"));
   fillSelect($("fpr-tier"), [...new Set(PROSPECTS.map((p) => p.tier))].sort()
-    .map((t) => `${t} — ${TIER_LABEL[t] || ""}`));
+    .map((t) => `${t}: ${TIER_LABEL[t] || ""}`));
   const pcap = {};
   for (const p of PROSPECTS) for (const c of p.capabilities || []) pcap[c] = (pcap[c] || 0) + 1;
   fillSelect($("fpr-capability"),
@@ -2489,7 +2527,7 @@ function renderWhatsNew() {
 // --- First-run guidance ---------------------------------------------------
 const HINTS = {
   companies: "Companies &amp; ventures are who <em>builds</em> beverage AI. Click any country on the map to filter, or press <kbd>⌘K</kbd> to jump anywhere.",
-  prospects: "Prospects are who might <em>buy</em> it — the opposite list. Tier 1-2 are named and sourced; tier 3-5 are curated categories.",
+  prospects: "Prospects are who might <em>buy</em> it, the opposite list. Tier 1-2 are named and sourced; tier 3-5 are curated categories.",
 };
 function renderHint(tab) {
   const bar = $("hintbar");
@@ -2656,6 +2694,7 @@ async function main() {
   // cards never land on the same person when an Indian is the global pick.
   try { paintPersonPick("indiapersonoftheday", "Person of the day from India", isIndia, 11); } catch (e) { /* extra */ }
   try { paintHomeLists(); } catch (e) { /* the home lists are extras: never block the page */ }
+  try { paintReads(); } catch (e) { /* daily reading is an extra: never block the page */ }
   try { paintFaq(); paintFootBrowse(); } catch (e) { /* extras: never block the page */ }
   await loadProspects();
 

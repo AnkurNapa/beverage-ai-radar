@@ -1,11 +1,11 @@
-/* Beverage-AI Radar — McKinsey editorial design language.
+/* Beverage-AI Radar: McKinsey editorial design language.
    Captured from mckinsey.com/about-us/case-studies (2026-07-22): Bower serif
    display over a light-weight McKinsey Sans body, white ground, one saturated
    blue accent (#2251FF), square flat surfaces, hairline rules, and a chevron
    affordance on every linked headline.
 
    Both brand faces are licensed, so this uses the fallback chains McKinsey's
-   own CSS declares — Georgia for the serif, Helvetica Neue/Calibri/Corbel for
+   own CSS declares: Georgia for the serif, Helvetica Neue/Calibri/Corbel for
    the sans. No webfont request, nothing to license, same silhouette. */
 /* The hidden attribute is enforced by a USER-AGENT display:none, and any
    author display declaration outranks it. .kpis is display:grid, so
@@ -1047,8 +1047,8 @@ a:hover { color: var(--accent-hover); }
 }
 
 /* --- Ambient background ---------------------------------------------------
-   The geometry has to mean something to THIS audience — brewers, distillers,
-   winemakers and the data people who work with them — or it is just wallpaper.
+   The geometry has to mean something to THIS audience, brewers, distillers,
+   winemakers and the data people who work with them, or it is just wallpaper.
    Three layers, each a literal reference held at an abstract distance:
 
    1. RIPPLE   concentric rings on a liquid surface. Doubles as a radar sweep,
@@ -2160,3 +2160,12 @@ a.jrow__title:hover { color: var(--accent); text-decoration: underline; }
 @media (max-width: 860px) { .dailies { grid-template-columns: minmax(0, 1fr); } }
 #indiapersonoftheday .potd { border-left-color: var(--v-whiskey); }
 .dailies { margin-bottom: 1.25rem; }
+.potd--read { display: flex; flex-direction: column; }
+.potd--read .potd__go { margin-top: auto; padding-top: .6rem; }
+.potd__name--read { font-size: 1.05rem; line-height: 1.35; }
+.potd__name--read a { color: inherit; text-decoration: none; }
+.potd__name--read a:hover, .potd__name--read a:focus-visible { color: var(--accent-hover); text-decoration: underline; }
+.potd__thumb { display: block; margin: .2rem 0 .7rem; border-radius: 4px; overflow: hidden; aspect-ratio: 16 / 9; background: var(--line); }
+.potd__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+#videooftheday .potd { border-left-color: var(--v-wine); }
+#articleoftheday .potd { border-left-color: var(--v-beer); }
