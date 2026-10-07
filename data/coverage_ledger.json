@@ -609,5 +609,53 @@
   "found": 3,
   "added": 3,
   "back_from": "2023-10-08"
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "beer",
+  "found": 5,
+  "added": 5,
+  "back_from": "2023-10-08"
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "erp",
+  "found": 5,
+  "added": 5,
+  "back_from": "2023-10-08"
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "genai",
+  "found": 2,
+  "added": 2,
+  "back_from": "2023-10-08"
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "institutes",
+  "found": 4,
+  "added": 4,
+  "back_from": "2023-10-08"
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "esg",
+  "found": 7,
+  "added": 7,
+  "back_from": "2023-10-08"
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "companies",
+  "surface": "microsoft",
+  "found": 1,
+  "added": 1,
+  "back_from": "2023-10-08"
  }
 ]
