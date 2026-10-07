@@ -67367,5 +67367,907 @@
     ],
     "country": "India",
     "scope": "beverage-native"
+  },
+  {
+    "name": "Daniel Hicks",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "ttb compliance reporting software",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Daniel Hicks (Founder, TTB Tamer)",
+    "people": [
+      {
+        "name": "Daniel Hicks",
+        "role": "Founder, TTB Tamer",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founder of TTB Tamer, which he started in 2013 after asking professional brewer friends what non-brewing task caused them the most pain; the answer was government paperwork. The software launched for breweries in early 2014, added state reporting in 2016, wineries in 2018 and distilleries in 2019. It is compliance reporting software with no AI claim.",
+    "source_urls": [
+      "https://www.crunchbase.com/organization/ttb-tamer",
+      "https://www.ttbtamer.com/about/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "TTB Tamer",
+    "affiliated_company_current": true,
+    "key": "daniel-hicks::unknown",
+    "theme": "Compliance & licensing",
+    "capabilities": [
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Jeremy Carney",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "brewery kpi dashboards",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Jeremy Carney (Founder, Central Coast Analytics)",
+    "people": [
+      {
+        "name": "Jeremy Carney",
+        "role": "Founder, Central Coast Analytics",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founder of Central Coast Analytics with about 20 years of analytics experience, building live dashboards that give craft breweries an overview of their business. On the Craft Brewery Financial Training podcast he demonstrated how breweries can automate their key KPIs into a single live dashboard. The work is BI and data integration, not AI.",
+    "source_urls": [
+      "https://craftbreweryfinance.buzzsprout.com/979747/episodes/19578340-the-financial-dashboard-every-brewery-should-have",
+      "https://www.centralcoast-analytics.com/about"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Central Coast Analytics",
+    "affiliated_company_current": true,
+    "key": "jeremy-carney::unknown",
+    "theme": "Other",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Warren Bradford",
+    "domain": null,
+    "hq_location": "Melbourne, Australia",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "brewery and distillery automation",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Warren Bradford (Founder, Fermecraft and Director, Deacam)",
+    "people": [
+      {
+        "name": "Warren Bradford",
+        "role": "Founder, Fermecraft and Director, Deacam",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founded Fermecraft in 2012 as a subsidiary of his electrical engineering firm Deacam in Melbourne, which builds automated fermentation and process control systems for brewers, winemakers and distillers. In a Siemens release on the Brogan's Way gin distillery he said automation is critical for craft distilling to enable data capture and repeatable product. No AI claim.",
+    "source_urls": [
+      "https://fermecraft.com/",
+      "https://news.siemens.com/de-ch/brogans-way"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "Fermecraft",
+    "affiliated_company_current": true,
+    "key": "warren-bradford::australia",
+    "theme": "Process & operations",
+    "capabilities": [],
+    "country": "Australia",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "David Koch",
+    "domain": null,
+    "hq_location": "Holland, NY, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "co2 and headspace air testing instruments",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "David Koch (CEO, Zahm & Nagel)",
+    "people": [
+      {
+        "name": "David Koch",
+        "role": "CEO, Zahm & Nagel",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Described on the company history page as the current CEO of Zahm & Nagel, the family business his grandfather bought in 1954. The company makes CO2 volume meters, air testers and carbonation equipment used by breweries and beverage producers. No AI or data work is claimed.",
+    "source_urls": [
+      "https://www.probrewer.com/?p=26167",
+      "https://www.zahmnagel.com/history/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Zahm & Nagel",
+    "affiliated_company_current": true,
+    "key": "david-koch::usa",
+    "theme": "Engineering & equipment",
+    "capabilities": [
+      "IoT & sensing",
+      "ESG & sustainability"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Travis Lenander",
+    "domain": null,
+    "hq_location": "Ormond Beach, FL, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "co2 safety monitoring and data logging",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Travis Lenander (CEO, CO2Meter)",
+    "people": [
+      {
+        "name": "Travis Lenander",
+        "role": "CEO, CO2Meter",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Joined CO2Meter in 2017 as Vice President of Operations, then bought the company and became CEO in 2019. CO2Meter sells CO2 safety monitors, data loggers and gas analyzers, including a dedicated breweries and wineries line. Earlier experience includes GE and PwC. No AI claim.",
+    "source_urls": [
+      "https://www.co2meter.com/blogs/news/co2meter-inc-names-travis-lenander-as-next-ceo",
+      "https://www.co2meter.com/pages/about-us",
+      "https://www.gasworld.com/story/changing-of-the-guard-at-co2meter/2087123.article"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine"
+    ],
+    "affiliated_company": "CO2Meter",
+    "affiliated_company_current": true,
+    "key": "travis-lenander::usa",
+    "theme": "Other",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Murthy Tata",
+    "domain": null,
+    "hq_location": "Chandler, AZ, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "inline carbonation and fermentation off-gas monitoring",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Murthy Tata (Founder and President, QuantiPerm)",
+    "people": [
+      {
+        "name": "Murthy Tata",
+        "role": "Founder and President, QuantiPerm",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Dr. Murthy Tata founded QuantiPerm in 2001 and is its President; he also founded NitroBrew in 2014 and holds several patents. QuantiPerm diversified into brewing in 2011 with xFlow inline carbonation, deoxygenation and an off-gas analyzer for fermentation monitoring. He authored a Craft Beer & Brewing piece on xFlow carbonation. No AI claim.",
+    "source_urls": [
+      "https://beerandbrewing.com/better-carbonation-with-xflow-technology",
+      "https://www.quantiperm.com/about/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine"
+    ],
+    "affiliated_company": "QuantiPerm",
+    "affiliated_company_current": true,
+    "key": "murthy-tata::usa",
+    "theme": "ESG & sustainability",
+    "capabilities": [
+      "IoT & sensing",
+      "ESG & sustainability"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Rob Esposito",
+    "domain": null,
+    "hq_location": "Vista, CA, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "fermentation temperature control",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Rob Esposito (Brewery automation, ChillerTron)",
+    "people": [
+      {
+        "name": "Rob Esposito",
+        "role": "Brewery automation, ChillerTron",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Listed on the ChillerTron team page as an award-winning brewer and electronics technician who left his head brewer role at Aztec Brewing Company in 2014 to work on brewery automation full time. Wikipedia confirms he joined Aztec in 2010 and left in 2014. The team page may be dated, so current status is unconfirmed. ChillerTron is PID-based control, not AI.",
+    "source_urls": [
+      "https://chillertron.com/about-us/",
+      "https://en.wikipedia.org/wiki/Aztec_Brewing_Company"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "ChillerTron",
+    "affiliated_company_current": null,
+    "key": "rob-esposito::usa",
+    "theme": "Process & operations",
+    "capabilities": [],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Harry Schuhmacher",
+    "domain": null,
+    "hq_location": "San Antonio, TX, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "beverage alcohol trade intelligence",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Harry Schuhmacher (Editor and Publisher, Beer Business Daily)",
+    "people": [
+      {
+        "name": "Harry Schuhmacher",
+        "role": "Editor and Publisher, Beer Business Daily",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Editor and Publisher of Beer Business Daily, Craft Business Daily and Wine & Spirits Daily, and producer of the Beer Industry Summit. He has published Beer Business Daily for over twenty years and is widely quoted on the business side of US beer. No AI claim.",
+    "source_urls": [
+      "https://beernet.com/team-member/harry-schuhmacher/",
+      "https://brookstonbeerbulletin.com/beer-birthday-harry-schuhmacher"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "Beer Business Daily",
+    "affiliated_company_current": true,
+    "key": "harry-schuhmacher::usa",
+    "theme": "Other",
+    "capabilities": [],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Daniel Gusmer",
+    "domain": null,
+    "hq_location": "Santa Rosa, CA, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "flow cytometry yeast and brett testing",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Daniel Gusmer (Product Manager, Gusmer Enterprises)",
+    "people": [
+      {
+        "name": "Daniel Gusmer",
+        "role": "Product Manager, Gusmer Enterprises",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Gusmer Enterprises product manager who, for the 2025-2026 school year, worked with Colorado State University students on a capstone using the Sysmex flow cytometer to measure and monitor yeast in beer. An earlier Gusmer article quotes him as a program scientist in fermentation development on rapid Brett detection in wine with CyFlow BrettCount, which Gusmer now distributes. No AI work is described.",
+    "source_urls": [
+      "https://www.gusmerenterprises.com/blog/gusmer-collabs-with-csu-on-sysmex-flow-cytometry/",
+      "https://www.gusmerenterprises.com/blog/rapid-brett-detection/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine"
+    ],
+    "affiliated_company": "Gusmer Enterprises",
+    "affiliated_company_current": true,
+    "key": "daniel-gusmer::usa",
+    "theme": "Other",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Dave Gusmer",
+    "domain": null,
+    "hq_location": "Mountainside, NJ, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "lab instrumentation distribution",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Dave Gusmer (Executive Vice President, Gusmer Enterprises)",
+    "people": [
+      {
+        "name": "Dave Gusmer",
+        "role": "Executive Vice President, Gusmer Enterprises",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Executive vice president of the family-owned Gusmer Enterprises, a supplier of filtration, fermentation aids and lab instrumentation to wine, brewing and distilling. He is quoted in the press release announcing Gusmer's exclusive US distribution of Sysmex CyFlow flow cytometers for the fermented beverage industry. No AI work is described.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gusmer_Enterprises,_Inc.",
+      "https://www.gusmerenterprises.com/blog/sysmex-america-signs-exclusive-agreement-with-gusmer-enterprises-inc-for-distribution-of-its-cyflow-products/"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine",
+      "whiskey"
+    ],
+    "affiliated_company": "Gusmer Enterprises",
+    "affiliated_company_current": true,
+    "key": "dave-gusmer::usa",
+    "theme": "Engineering & equipment",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Stephan Dittrich",
+    "domain": null,
+    "hq_location": "Hofheim am Taunus, Germany",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "brewery process plant automation",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Stephan Dittrich (Managing Director, corosys)",
+    "people": [
+      {
+        "name": "Stephan Dittrich",
+        "role": "Managing Director, corosys",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Dipl.-Ing. Stephan Dittrich is listed as managing director (Geschaeftsfuehrung) of the corosys group and of its brewing and beverage technology unit, which builds deaeration, carbonation, dealcoholisation and yeast management plants for breweries. No AI work is described.",
+    "source_urls": [
+      "https://bbt.corosys.com/en/imprint.php",
+      "https://www.corosys.com/de/impressum.php"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "corosys",
+    "affiliated_company_current": true,
+    "key": "stephan-dittrich::germany",
+    "theme": "Process & operations",
+    "capabilities": [
+      "ESG & sustainability"
+    ],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Christoph Over",
+    "domain": null,
+    "hq_location": "Hofheim am Taunus, Germany",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "brewery process plant automation",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Christoph Over (Managing Director, corosys brewing and beverage technology)",
+    "people": [
+      {
+        "name": "Christoph Over",
+        "role": "Managing Director, corosys brewing and beverage technology",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Dr.-Ing. Christoph Over represents corosys Management GmbH, alongside Stephan Dittrich, as managing director of corosys beverage technology, the unit selling dealcoholisation, deaeration, CO2 recovery and yeast management systems to breweries. No AI work is described.",
+    "source_urls": [
+      "https://bbt.corosys.com/de/impressum.php",
+      "https://bbt.corosys.com/en/imprint.php"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "corosys",
+    "affiliated_company_current": true,
+    "key": "christoph-over::germany",
+    "theme": "Process & operations",
+    "capabilities": [],
+    "country": "Germany",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Richard J. DeSa",
+    "domain": null,
+    "hq_location": "Bogart, GA, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "spectrophotometry for beer colour",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Richard J. DeSa (Founder, OLIS)",
+    "people": [
+      {
+        "name": "Richard J. DeSa",
+        "role": "Founder, OLIS",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founder of OLIS (On-Line Instrument Systems), a former tenured University of Georgia biochemistry professor who computerised kinetic spectrometers from the 1960s. OLIS credits him as developer of the CLARiTY integrating cavity spectrophotometer, which it markets for SRM beer colour on hazy samples. No AI work is described.",
+    "source_urls": [
+      "https://olisclarity.com/about-us",
+      "https://www.bioprocessonline.com/doc/olis-inc-on-line-instrument-systems-inc-0001"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "OLIS",
+    "affiliated_company_current": true,
+    "key": "richard-j-desa::usa",
+    "theme": "Other",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Julie Ann DeSa Lorenz",
+    "domain": null,
+    "hq_location": "Bogart, GA, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "spectrophotometry for beer colour",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Julie Ann DeSa Lorenz (Owner and CEO, OLIS)",
+    "people": [
+      {
+        "name": "Julie Ann DeSa Lorenz",
+        "role": "Owner and CEO, OLIS",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Owner and CEO of OLIS, the spectroscopy company founded by her father Richard DeSa, which she runs after decades with the business. OLIS sells the CLARiTY integrating cavity spectrophotometer, pitched for 430 nm beer colour readings without filtration. No AI work is described.",
+    "source_urls": [
+      "https://olisclarity.com",
+      "https://olisclarity.com/about-us"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "OLIS",
+    "affiliated_company_current": true,
+    "key": "julie-ann-desa-lorenz::usa",
+    "theme": "Other",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Aras Klimas",
+    "domain": null,
+    "hq_location": "Cleveland, OH, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "qpcr spoilage detection for breweries",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Aras Klimas (Founder and CTO, Midwest Microbio)",
+    "people": [
+      {
+        "name": "Aras Klimas",
+        "role": "Founder and CTO, Midwest Microbio",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founder and chief technology officer of Midwest Microbio, quoted in Brewing Industry Guide on its brewing-optimised qPCR testing for STA1 diastaticus yeast. A Quantabio case study says he was hired as principal biochemist at Masthead Brewing and built the qPCR programme that was spun out as Midwest Microbio. Current role not confirmed by a dated source. No AI work is described.",
+    "source_urls": [
+      "https://www.brewingindustryguide.com/uunder-the-microscope-dealing-with-diastaticus-in-the-brewhouse",
+      "https://www.quantabio.com/wp-content/uploads/2021/12/MK-CS-0003_REV03_Masthead_Brewing_0823_lr.pdf"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Midwest Microbio",
+    "affiliated_company_current": null,
+    "key": "aras-klimas::usa",
+    "theme": "Other",
+    "capabilities": [],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Frank Luther",
+    "domain": null,
+    "hq_location": "Cleveland, OH, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "qpcr spoilage detection for breweries",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Frank Luther (CEO, Midwest Microbio and Masthead Brewing)",
+    "people": [
+      {
+        "name": "Frank Luther",
+        "role": "CEO, Midwest Microbio and Masthead Brewing",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Founder and CEO of Masthead Brewing in Cleveland and, per a Quantabio case study, CEO of Midwest Microbio, the qPCR testing company Masthead spun out to help other breweries test on site. A former Procter and Gamble engineer. Role as stated in the case study; current status not confirmed by a dated source. No AI work is described.",
+    "source_urls": [
+      "https://clevelandmagazine.com/articles/downtown-now-the-growth-of-masthead-brewing-co/",
+      "https://www.quantabio.com/wp-content/uploads/2021/12/MK-CS-0003_REV03_Masthead_Brewing_0823_lr.pdf"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Midwest Microbio",
+    "affiliated_company_current": null,
+    "key": "frank-luther::usa",
+    "theme": "Other",
+    "capabilities": [],
+    "country": "United States",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Alejo Migones",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "spoilage investigation with sequencing and data science",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Alejo Migones (Senior Vice President, Food Safety and Quality, bioMerieux)",
+    "people": [
+      {
+        "name": "Alejo Migones",
+        "role": "Senior Vice President, Food Safety and Quality, bioMerieux",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Senior vice president of bioMerieux's Food Safety and Quality business, the unit behind the GENE-UP PRO BREW spoilage system for breweries and its wine testing. He is quoted in the February 2026 launch of SMARTBIOME, a spoilage investigation platform combining DNA sequencing, bioinformatics and data science.",
+    "source_urls": [
+      "https://www.biomerieux.com/content/dam/biomerieux-com/investor/regulated-informations/2026/press-releases/PR_SMARTBIOME_bioMerieux_20260218.pdf",
+      "https://www.biomerieux.com/us/en/journalists/press-releases/smartbiome-food-industry-spoilage.html"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer",
+      "wine"
+    ],
+    "affiliated_company": "bioMerieux",
+    "affiliated_company_current": true,
+    "key": "alejo-migones::unknown",
+    "theme": "Other",
+    "capabilities": [],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ivars Jaunakais",
+    "domain": null,
+    "hq_location": "Rock Hill, SC, USA",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "brewing water test kits with app logging",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ivars Jaunakais (Co-founder and President, Industrial Test Systems)",
+    "people": [
+      {
+        "name": "Ivars Jaunakais",
+        "role": "Co-founder and President, Industrial Test Systems",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Co-founded Industrial Test Systems with Daryl Jaunakais in Rock Hill in 1989, per the company's about page; a business directory lists him as president. ITS sells SenSafe Smart Brew water test kits for brewers built on a Bluetooth photometer and app. Current title not confirmed by the company. No AI work is described.",
+    "source_urls": [
+      "https://sensafe.com/about-us/",
+      "https://www.zoominfo.com/c/industrial-test-systems-inc/19120663"
+    ],
+    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Industrial Test Systems (SenSafe)",
+    "affiliated_company_current": null,
+    "key": "ivars-jaunakais::usa",
+    "theme": "Other",
+    "capabilities": [
+      "IoT & sensing"
+    ],
+    "country": "United States",
+    "scope": "beverage-native"
   }
 ]

@@ -685,5 +685,19 @@
   "surface": "nb_ua_retry",
   "found": 3,
   "added": 3
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "people",
+  "surface": "nb_people_1",
+  "found": 8,
+  "added": 8
+ },
+ {
+  "date": "2026-10-07",
+  "lane": "people",
+  "surface": "nb_people_2",
+  "found": 10,
+  "added": 10
  }
 ]
