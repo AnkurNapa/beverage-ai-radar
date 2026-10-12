@@ -25,6 +25,10 @@ def test_two_label_public_suffix_is_not_the_registrable_domain():
     assert norm_domain("https://node4.co.uk/") == "node4.co.uk"
     assert norm_domain("https://bioscout.com.au/") == "bioscout.com.au"
     assert norm_domain("kegtracker.co.uk") != norm_domain("node4.co.uk")
+    # Academic suffixes: btbu.edu.cn collided with jiangnan.edu.cn on 2026-10-12.
+    assert norm_domain("https://www.btbu.edu.cn/") == "btbu.edu.cn"
+    assert norm_domain("jiangnan.edu.cn") != norm_domain("btbu.edu.cn")
+    assert norm_domain("https://www.adelaide.edu.au/") == "adelaide.edu.au"
     # Ordinary domains must keep behaving.
     assert norm_domain("https://www.crafted-erp.com/x") == "crafted-erp.com"
     assert norm_domain("https://sub.example.com/") == "example.com"

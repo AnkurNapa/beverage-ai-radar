@@ -25,6 +25,11 @@ _MULTI_SUFFIXES = {
     "com.cn", "com.sg", "co.kr", "com.tr", "com.pl", "co.il", "com.hk",
     "com.tw", "com.my", "co.th", "com.ua", "com.ph", "co.id", "com.vn",
     "co.at", "com.es", "com.pt", "com.pe", "com.co", "com.uy", "com.ec",
+    # Academic and government suffixes, where the research lane lives.
+    "edu.cn", "ac.cn", "gov.cn", "org.cn", "net.cn", "edu.au", "gov.au",
+    "ac.jp", "go.jp", "ac.kr", "re.kr", "edu.tw", "edu.hk", "edu.sg",
+    "ac.in", "edu.in", "res.in", "ac.nz", "ac.za", "ac.il", "edu.br",
+    "edu.mx", "edu.ar", "edu.pl", "edu.tr", "ac.at", "edu.es", "edu.pt",
 }
 # Below this, one name being a substring of another is coincidence, not
 # identity: "ies" sits inside "international wineries for climate action".
