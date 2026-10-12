@@ -706,5 +706,261 @@
   "surface": "gwbi_leads",
   "found": 7,
   "added": 7
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "microsoft",
+  "found": 0,
+  "added": 0,
+  "back_from": "2022-10-08"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "aws",
+  "found": 0,
+  "added": 0,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "google",
+  "found": 0,
+  "added": 0,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "industrial",
+  "found": 3,
+  "added": 3,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "whiskey",
+  "found": 5,
+  "added": 4,
+  "back_from": "2022-10-08"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "wine",
+  "found": 9,
+  "added": 6,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "beer",
+  "found": 3,
+  "added": 3,
+  "back_from": "2022-10-08"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "logistics",
+  "found": 4,
+  "added": 3,
+  "back_from": "2022-10-08"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "esg",
+  "found": 3,
+  "added": 3,
+  "back_from": "2022-10-08"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "engineering",
+  "found": 1,
+  "added": 1,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "equipment",
+  "found": 4,
+  "added": 4,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "ingredients",
+  "found": 1,
+  "added": 1,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "erp",
+  "found": 6,
+  "added": 5,
+  "back_from": "2022-10-08"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "ibm",
+  "found": 0,
+  "added": 0,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "oracle",
+  "found": 1,
+  "added": 1,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "sap",
+  "found": 1,
+  "added": 1,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "salesforce",
+  "found": 0,
+  "added": 0,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "tableau",
+  "found": 1,
+  "added": 1,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "marketdata",
+  "found": 4,
+  "added": 4,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "tradeshow_de",
+  "found": 4,
+  "added": 3,
+  "back_from": "2022-10-08"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "tradeshow_asia",
+  "found": 3,
+  "added": 3,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "tradeshow_us",
+  "found": 2,
+  "added": 2,
+  "back_from": "2022-10-08"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "directories",
+  "found": 2,
+  "added": 1,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "rag",
+  "found": 4,
+  "added": 4,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "institutes",
+  "found": 3,
+  "added": 3,
+  "back_from": "2022-10-08"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "research",
+  "found": 3,
+  "added": 3,
+  "back_from": "2022-10-08"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "genai",
+  "found": 4,
+  "added": 4,
+  "back_from": "2022-10-08"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "benchmarking",
+  "found": 3,
+  "added": 2,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "fnb_majors",
+  "found": 4,
+  "added": 4,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "digital_transformation",
+  "found": 4,
+  "added": 4,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "singapore",
+  "found": 3,
+  "added": 2,
+  "back_from": "2023-10-13"
+ },
+ {
+  "date": "2026-10-12",
+  "lane": "companies",
+  "surface": "grants_patents",
+  "found": 3,
+  "added": 2,
+  "back_from": "2023-10-13"
  }
 ]

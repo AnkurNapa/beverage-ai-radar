@@ -4500,10 +4500,11 @@
   "short_description": "Rocío Ballesteros has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Vineyard yield estimation by combining remote sensing, computer vision and artificial neural network techniques (2020), affiliated with University of Castilla-La Mancha.",
   "source_urls": [
    "https://doi.org/10.1007/s11119-020-09717-3",
-   "https://openalex.org/A5021692902"
+   "https://openalex.org/A5021692902",
+   "https://doi.org/10.1109/icara69401.2026.11480353"
   ],
   "first_seen": "2020-05-08",
-  "last_seen": "2020-05-08",
+  "last_seen": "2026-10-12",
   "discovered_by": "harvest:openalex"
  },
  {
@@ -4566,7 +4567,8 @@
   "short_description": "Don Kulasiri has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A machine learning application in wine quality prediction (2022), affiliated with Lincoln University.",
   "source_urls": [
    "https://doi.org/10.1016/j.mlwa.2022.100261",
-   "https://openalex.org/A5044216588"
+   "https://openalex.org/A5044216588",
+   "https://doi.org/10.3390/foods13193091"
   ],
   "first_seen": "2022-01-28",
   "last_seen": "2022-01-28",
@@ -4588,7 +4590,8 @@
   "short_description": "Roberto Marani has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Deep neural networks for grape bunch segmentation in natural images from a consumer-grade camera (2020), affiliated with National Research Council.",
   "source_urls": [
    "https://doi.org/10.1007/s11119-020-09736-0",
-   "https://openalex.org/A5084118255"
+   "https://openalex.org/A5084118255",
+   "https://doi.org/10.1016/j.compag.2024.108712"
   ],
   "first_seen": "2020-06-25",
   "last_seen": "2020-06-25",
@@ -4610,10 +4613,11 @@
   "short_description": "Giulio Reina has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Deep neural networks for grape bunch segmentation in natural images from a consumer-grade camera (2020), affiliated with Polytechnic University of Bari.",
   "source_urls": [
    "https://doi.org/10.1007/s11119-020-09736-0",
-   "https://openalex.org/A5056616210"
+   "https://openalex.org/A5056616210",
+   "https://doi.org/10.1080/15397734.2026.2652526"
   ],
   "first_seen": "2020-06-25",
-  "last_seen": "2020-06-25",
+  "last_seen": "2026-10-12",
   "discovered_by": "harvest:openalex"
  },
  {
@@ -4945,7 +4949,8 @@
   "source_urls": [
    "https://doi.org/10.3390/molecules26144334",
    "https://doi.org/10.1016/j.foodchem.2021.130149",
-   "https://openalex.org/A5014771539"
+   "https://openalex.org/A5014771539",
+   "https://doi.org/10.1007/978-1-0716-3650-3_3"
   ],
   "first_seen": "2021-05-18",
   "last_seen": "2021-07-17",
@@ -5014,10 +5019,11 @@
   "source_urls": [
    "https://doi.org/10.3390/molecules26144334",
    "https://doi.org/10.1016/j.foodchem.2021.130149",
-   "https://openalex.org/A5074669530"
+   "https://openalex.org/A5074669530",
+   "https://doi.org/10.1016/j.foodchem.2026.151199"
   ],
   "first_seen": "2021-05-18",
-  "last_seen": "2021-07-17",
+  "last_seen": "2026-10-12",
   "discovered_by": "harvest:openalex"
  },
  {
@@ -5124,10 +5130,11 @@
   "short_description": "Mattia Rapa has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Venetian Protected Designation of origin wines traceability: Multi-elemental, isotopes and chemometric analysis (2022), affiliated with Sapienza University of Rome.",
   "source_urls": [
    "https://doi.org/10.1016/j.foodchem.2022.134771",
-   "https://openalex.org/A5001758269"
+   "https://openalex.org/A5001758269",
+   "https://doi.org/10.3390/app16031266"
   ],
   "first_seen": "2022-10-28",
-  "last_seen": "2022-10-28",
+  "last_seen": "2026-10-12",
   "discovered_by": "harvest:openalex"
  },
  {
@@ -5146,10 +5153,11 @@
   "short_description": "Marcelo Enrique Conti has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Venetian Protected Designation of origin wines traceability: Multi-elemental, isotopes and chemometric analysis (2022), affiliated with Sapienza University of Rome.",
   "source_urls": [
    "https://doi.org/10.1016/j.foodchem.2022.134771",
-   "https://openalex.org/A5045445608"
+   "https://openalex.org/A5045445608",
+   "https://doi.org/10.3390/app16031266"
   ],
   "first_seen": "2022-10-28",
-  "last_seen": "2022-10-28",
+  "last_seen": "2026-10-12",
   "discovered_by": "harvest:openalex"
  },
  {
@@ -5911,7 +5919,8 @@
   "short_description": "Salvador Gutiérrez has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Vineyard water status assessment using on-the-go thermal imaging and machine learning (2018), affiliated with Universidad de La Rioja.",
   "source_urls": [
    "https://doi.org/10.1371/journal.pone.0192037",
-   "https://openalex.org/A5000846829"
+   "https://openalex.org/A5000846829",
+   "https://doi.org/10.3390/agriculture15141495"
   ],
   "first_seen": "2018-02-01",
   "last_seen": "2018-02-01",
@@ -5933,10 +5942,11 @@
   "short_description": "Javier Tardáguila has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Vineyard water status assessment using on-the-go thermal imaging and machine learning (2018), affiliated with Universidad de La Rioja.",
   "source_urls": [
    "https://doi.org/10.1371/journal.pone.0192037",
-   "https://openalex.org/A5015899789"
+   "https://openalex.org/A5015899789",
+   "https://doi.org/10.1109/cai68641.2026.11536446"
   ],
   "first_seen": "2018-02-01",
-  "last_seen": "2018-02-01",
+  "last_seen": "2026-10-12",
   "discovered_by": "harvest:openalex"
  },
  {
@@ -6201,10 +6211,11 @@
   "short_description": "Fernanda Cosme has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: From Volatile Profiling to Sensory Prediction: Recent Advances in Wine Aroma Modeling Using Chemometrics and Sensor Technologies (2025), affiliated with University of Trás-os-Montes and Alto Douro.",
   "source_urls": [
    "https://doi.org/10.3390/chemosensors13090337",
-   "https://openalex.org/A5042950281"
+   "https://openalex.org/A5042950281",
+   "https://doi.org/10.1016/j.fochx.2026.104263"
   ],
   "first_seen": "2025-09-05",
-  "last_seen": "2025-09-05",
+  "last_seen": "2026-10-12",
   "discovered_by": "harvest:openalex"
  },
  {
@@ -6223,10 +6234,11 @@
   "short_description": "Berta C. Gonçalves has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: From Volatile Profiling to Sensory Prediction: Recent Advances in Wine Aroma Modeling Using Chemometrics and Sensor Technologies (2025), affiliated with University of Trás-os-Montes and Alto Douro.",
   "source_urls": [
    "https://doi.org/10.3390/chemosensors13090337",
-   "https://openalex.org/A5072759181"
+   "https://openalex.org/A5072759181",
+   "https://doi.org/10.3390/su18147257"
   ],
   "first_seen": "2025-09-05",
-  "last_seen": "2025-09-05",
+  "last_seen": "2026-10-12",
   "discovered_by": "harvest:openalex"
  },
  {
@@ -6490,7 +6502,8 @@
   "short_description": "José Boaventura‐Cunha has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Bringing Semantics to the Vineyard: An Approach on Deep Learning-Based Vine Trunk Detection (2021), affiliated with University of Trás-os-Montes and Alto Douro.",
   "source_urls": [
    "https://doi.org/10.3390/agriculture11020131",
-   "https://openalex.org/A5024946758"
+   "https://openalex.org/A5024946758",
+   "https://doi.org/10.3390/s24216774"
   ],
   "first_seen": "2021-02-05",
   "last_seen": "2021-02-05",
@@ -6512,10 +6525,11 @@
   "short_description": "Achilleas Blekos has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: A Grape Dataset for Instance Segmentation and Maturity Estimation (2023), affiliated with Information Technologies Institute.",
   "source_urls": [
    "https://doi.org/10.3390/agronomy13081995",
-   "https://openalex.org/A5092560711"
+   "https://openalex.org/A5092560711",
+   "https://doi.org/10.1016/j.atech.2026.102040"
   ],
   "first_seen": "2023-07-27",
-  "last_seen": "2023-07-27",
+  "last_seen": "2026-10-12",
   "discovered_by": "harvest:openalex"
  },
  {
@@ -7174,10 +7188,11 @@
   "short_description": "Carlos Poblete-Echeverría has 1 peer-reviewed paper in the radar's research library applying AI or data to beverages as a lead or senior author. Most recent: Investigating 2-D and 3-D Proximal Remote Sensing Techniques for Vineyard Yield Estimation (2019), affiliated with Stellenbosch University.",
   "source_urls": [
    "https://doi.org/10.3390/s19173652",
-   "https://openalex.org/A5080270032"
+   "https://openalex.org/A5080270032",
+   "https://doi.org/10.1109/icir70631.2026.11628290"
   ],
   "first_seen": "2019-08-22",
-  "last_seen": "2019-08-22",
+  "last_seen": "2026-10-12",
   "discovered_by": "harvest:openalex"
  },
  {
