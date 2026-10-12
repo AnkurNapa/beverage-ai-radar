@@ -270,6 +270,8 @@ def build():
     # re-sweep never overwrites the hand-verified papers.json, and so the
     # provenance of any given row is obvious from where it lives.
     items += list(_norm_papers(_load("papers_openalex.json")))
+    # Reference lists of beverage AI reviews, by scripts/import_review_refs.py.
+    items += list(_norm_papers(_load("papers_review_refs.json")))
     items += list(_norm_news(_load("news.json")))
     items += list(_norm_blogs(_fetch_ankur_blogs()))  # auto-pulled newest, featured
     items += list(_norm_blogs(_load("blogs.json")))  # other curated blogs
