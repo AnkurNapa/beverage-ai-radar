@@ -33,6 +33,7 @@ ALIASES = {
     "south korea": "Korea",
     "republic of korea": "Korea",
     "uae": "United Arab Emirates",
+    "czech republic": "Czechia",
 }
 
 UNKNOWN = "unknown"

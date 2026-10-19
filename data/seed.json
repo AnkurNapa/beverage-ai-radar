@@ -2896,12 +2896,18 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "short_description": "Guided manufacturing intelligence built for beverage packaging lines, targeting OEE gains and production visibility. Fills the packaging end of the chain, which sits between brewing and distribution and is thinly covered elsewhere on this radar.",
+    "short_description": "Guided manufacturing intelligence built for beverage packaging lines, targeting OEE gains and production visibility. Fills the packaging end of the chain, which sits between brewing and distribution and is thinly covered elsewhere on this radar. It publishes six named beverage customers. Coca-Cola Europacific Partners made it the standard line monitoring system for its supply chain division and rolled it out over three years to more than 70 European lines. It reports a 20% rise in average site OEE within 24 months (November 2025). Vikos, the Greek water bottler, runs 13 lines on it and reports 14% more output on its critical lines (November 2025). Older cases from August 2024 cover AB InBev's Wuhan brewery, a 17% efficiency gain on one Chivas Brothers line at Kilmalid, a GBP 5.4M capacity gain from line balancing on Britvic's Rugby can lines and a leadership programme at William Grant & Sons. Every case describes OEE monitoring, true causal loss analysis or consulting method, not machine learning; the AI claim rests on Lineview's separate SmartWorker connected worker module.",
     "source_urls": [
-      "https://www.lineview.com/"
+      "https://www.lineview.com/",
+      "https://www.lineview.com/case-studies/coca-cola-europacific-partners",
+      "https://www.lineview.com/case-studies/vikos-case-study",
+      "https://www.lineview.com/case-studies/ab-inbev-casestudy",
+      "https://www.lineview.com/case-studies/chivas-brothers-casestudy",
+      "https://www.lineview.com/case-studies/britvic-casestudy",
+      "https://www.lineview.com/case-studies/william-grant-casestudy"
     ],
     "first_seen": "2022-01-01",
-    "last_seen": "2026-07-23",
+    "last_seen": "2026-10-19",
     "key_people": "",
     "people": [],
     "discovered_by": "curated",

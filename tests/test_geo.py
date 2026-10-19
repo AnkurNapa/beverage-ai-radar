@@ -11,6 +11,11 @@ def test_uk_constituent_countries_collapse():
         assert normalise(n) == "United Kingdom"
 
 
+def test_czech_republic_and_czechia_collapse():
+    """They were two map places, so the People map split 8 people across two."""
+    assert country_of("Prague, Czech Republic") == normalise("Czechia") == "Czechia"
+
+
 def test_country_is_the_last_component_of_hq_location():
     assert country_of("San Luis Obispo, United States") == "United States"
     assert country_of("Bengaluru, India") == "India"

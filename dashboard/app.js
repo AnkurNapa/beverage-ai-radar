@@ -2211,6 +2211,8 @@ const WORLD_VIEW = { center: [25, 10], zoom: 2 };
 // Synchronous and cheap on repeat calls: apply() runs this on every keystroke,
 // so the Leaflet map is built once per element and only its pins are swapped
 // when the rows actually change.
+const MAP_DOMINANT_SHARE = 0.8;
+
 function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
   if (!window.L) { el.innerHTML = ""; return; }
   let m = el._map;
@@ -2256,10 +2258,16 @@ function renderWorldMap(el, rows, keyOf, onPick, activeKey, opts = {}) {
       if (e.layer._key === m.active) map.setView(e.layer.getLatLng(), Math.max(map.getZoom() + 3, 9));
       else m.pick(e.layer._key);
     });
+    // A cluster that is mostly one place filters to that place. At world zoom
+    // the US and Canada share bubbles (98 US + 6 Canada), so "one place only"
+    // meant the biggest bubbles on the map only zoomed and the list never changed.
+    // ponytail: 80% dominance heuristic; a truly mixed cluster (Europe) still zooms.
     cluster.on("clusterclick", (e) => {
-      const keys = new Set(e.layer.getAllChildMarkers().map((mk) => mk._key));
-      const only = keys.size === 1 ? [...keys][0] : null;
-      if (only && only !== m.active) m.pick(only);
+      const tally = new Map();
+      for (const mk of e.layer.getAllChildMarkers()) tally.set(mk._key, (tally.get(mk._key) || 0) + 1);
+      const [top, n] = [...tally].sort((a, b) => b[1] - a[1])[0];
+      const main = n / e.layer.getChildCount() >= MAP_DOMINANT_SHARE ? top : null;
+      if (main && main !== m.active) m.pick(main);
       else e.layer.zoomToBounds({ padding: [30, 30] });
     });
   }
