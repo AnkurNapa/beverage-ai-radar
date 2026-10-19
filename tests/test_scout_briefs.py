@@ -45,3 +45,12 @@ def test_scope_and_verification_rules_are_present(tmp_path):
 def test_surface_note_is_passed_through(tmp_path):
     written = render_briefs(SURFACES, GAPS, EXISTING, tmp_path, date(2026, 7, 26))
     assert "thin on SaaS" in written[1].read_text()
+
+
+def test_food_lane_brief_drops_beverage_gaps(tmp_path):
+    food = [{"id": "food_pm", "label": "Packaging materials", "hint": "converters", "lane": "food"}]
+    written = render_briefs(food, GAPS, EXISTING, tmp_path, date(2026, 7, 26))
+    text = written[0].read_text()
+    assert "## Food lane" in text and "FOOD (the food lane" in text
+    assert "9 of 109" not in text
+    assert "## Food lane" not in render_briefs(SURFACES, GAPS, EXISTING, tmp_path)[0].read_text()

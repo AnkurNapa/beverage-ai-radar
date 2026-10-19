@@ -17,7 +17,7 @@ SCHEMA_BLOCK = """{
   "domain": "example.com",
   "hq_location": "City, Country",
   "founded_year": 2015,
-  "vertical": "beer" | "whiskey" | "wine" | "multiple" | "non_alcoholic",
+  "vertical": "beer" | "whiskey" | "wine" | "multiple" | "non_alcoholic" | "food",
   "ai_use_case": "short lowercase phrase",
   "ai_maturity": "none" | "research" | "pilot" | "shipping",
   "funding_stage": "...",
@@ -51,6 +51,26 @@ SCOPE_RULES = """## Scope rules
 4. **Blocked is not rejected.** If a site returns 403, is Cloudflare-walled or otherwise
    unfetchable, do NOT silently drop it. Add it to the "blocked" array of your output file
    with the URL and what you could establish, so a browser-equipped pass can finish the job.
+"""
+
+# Food is an adjacent lane: same gate, different subject. Kept separate so the
+# beverage briefs never invite food rows.
+FOOD_SCOPE = """## Food lane
+
+This surface feeds the FOOD lane, not beer, whiskey or wine. Set `"vertical": "food"` on
+every row. In short_description say who it serves in food and what the AI actually is.
+If the same product also names a brewer, distiller or winery customer, keep `"food"` and
+name that customer: the crossover into drinks is the reason this lane exists.
+
+1. Big ingredient, packaging and food groups make broad AI claims. Grade above "none" only
+   when their own domain names a model, a product or a customer case with a result.
+2. A food company that only buys someone else's AI is a lead, not a row. Name the vendor.
+3. Drinks-led groups (PepsiCo, Coca-Cola system, brewers) belong to the beverage surfaces.
+   Skip them here.
+4. Scope rule 3 is narrower here. A food company with no AI claim is in only when it is a
+   category leader whose data platform others build on. Otherwise leave it out.
+5. Coverage gaps: the food lane is new, so there are none to chase. Spread across regions
+   (Europe, North America, India, Japan, China, Latin America) rather than one market.
 """
 
 VERIFY_RULES = """## Verification rules (strict)
@@ -118,13 +138,20 @@ def render_brief(
     window: dict | None = None,
 ) -> str:
     today = today or date.today()
+    is_food = surface.get("lane") == "food"
+    if is_food:
+        # Every computed gap is a beverage gap (whiskey thin, Malta thin, a stale
+        # brewery). Fed to a food scout it would aim the sweep back at drinks.
+        gaps = []
+    subject = "FOOD (the food lane of the Beverage-AI Radar)" if is_food \
+        else "BEER, WHISKEY and WINE (the Beverage-AI Radar)"
     skip_path = Path(out_dir) / "existing_names.txt"
     finds_path = Path(out_dir) / "finds" / f"find_{surface['id']}.json"
     enrich_path = Path(out_dir) / "finds" / f"enrich_{surface['id']}.json"
     return f"""# Scout brief: {surface['label']}
 
 Generated {today.isoformat()}. You are one of several scouts growing a curated database of
-companies applying AI and data to BEER, WHISKEY and WINE (the Beverage-AI Radar).
+companies applying AI and data to {subject}.
 
 ## Your assigned surface
 
@@ -139,7 +166,7 @@ companies applying AI and data to BEER, WHISKEY and WINE (the Beverage-AI Radar)
 These are the thinnest slices of the database right now. Weight your search toward the ones
 your surface can plausibly fill. Do not force a bad entry to fill a gap.
 
-{_gap_lines(gaps)}
+{"None yet: see Food lane rule 5 below." + chr(10) if is_food else _gap_lines(gaps)}
 {_window_block(window, enrich_path)}## Already tracked (skip these)
 
 {len(existing)} companies are already in the database. Read `{skip_path}` and skip anything
@@ -147,6 +174,7 @@ there, matching on company name OR domain. Other scouts are sweeping other surfa
 parallel, so an overlap is expected and harmless: the merge step dedupes on name and domain.
 
 {SCOPE_RULES}
+{FOOD_SCOPE if is_food else ""}
 {VERIFY_RULES}
 ## Output
 
