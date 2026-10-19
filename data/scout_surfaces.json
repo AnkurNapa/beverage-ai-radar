@@ -235,7 +235,7 @@
     "label": "Food raw materials and agricultural commodities with AI",
     "hint": "Raw materials for food: grain, dairy milk, cocoa, coffee, sugar, edible oils, fruit and vegetables, meat, poultry and seafood. Crop yield and quality models, vision and NIR grading, commodity price and supply forecasting, farm-to-plant sourcing AI. Traders and processors (Cargill, ADM, ofi, Bunge, Louis Dreyfus, Wilmar, Barry Callebaut, Olam Agri) plus AI vendors built for them (fruit grading, milk quality, cocoa and coffee traceability). Hops, malt, barley and yeast belong to the ingredients surface: skip them.",
     "yield": "unknown",
-    "note": "New food lane surface, first sweep 2026-10-19.",
+    "note": "New food lane surface, first sweep 2026-10-19. 2026-10-19: 10 finds. China empty. Big traders skipped unchecked, handed to food_majors.",
     "lane": "food"
   },
   {
@@ -243,7 +243,7 @@
     "label": "Flavours, fragrances, ingredients, enzymes and cultures using AI",
     "hint": "Flavour and fragrance houses and food ingredient suppliers applying AI to creation, sensory prediction, formulation or strain design: Givaudan, IFF, dsm-firmenich, Symrise, Kerry, Novonesis, Tate and Lyle, Ingredion, Sensient, T. Hasegawa, Takasago, Mane, Robertet, Synergy, Firmenich India, Ajinomoto ingredients. Also sweetener, colour, enzyme, culture and probiotic suppliers. Evidence: their own innovation pages, patents, annual reports and named customer cases.",
     "yield": "unknown",
-    "note": "New food lane surface, first sweep 2026-10-19.",
+    "note": "New food lane surface, first sweep 2026-10-19. 2026-10-19: 7 finds. IFF blocked (403). Kerry, Takasago and other houses claim AI with no named tool. Japan and China empty.",
     "lane": "food"
   },
   {
@@ -251,7 +251,7 @@
     "label": "Food packaging materials and converters using AI",
     "hint": "Packaging materials and converters for food: Tetra Pak, SIG, Elopak, Amcor, Mondi, Smurfit Westrock, Huhtamaki, Sealed Air, Crown, Ball, Ardagh, Berry Global, Constantia Flexibles, UFlex, EPL, Toppan, Dai Nippon Printing. AI for print and seal defect vision, packaging design and shelf-life modelling, smart and connected labels (Avery Dennison atma.io), recycling sort AI (AMP, Greyparrot, TOMRA Recycling). Filling and packing line OEMs belong to the industrial surface: skip them.",
     "yield": "unknown",
-    "note": "New food lane surface, first sweep 2026-10-19.",
+    "note": "New food lane surface, first sweep 2026-10-19. 2026-10-19: 6 finds. Big converters (Amcor, Mondi, Huhtamaki, Toppan, DNP and others) have no named AI product. Constantia SSL error.",
     "lane": "food"
   },
   {
@@ -259,7 +259,7 @@
     "label": "AI built for food processing plants",
     "hint": "AI and data vendors built for food manufacturing: vision sorting and inspection, process control, predictive maintenance, scheduling, yield and OEE. TOMRA Food, Key Technology, Marel, JBT, GEA, Buhler, Mettler-Toledo, Ishida, Heat and Control, Bizerba, Satake, Braincube, plus startups for bakery, meat, dairy, confectionery and snack lines. Prefer vendors with a named food plant customer and a result on their own domain.",
     "yield": "unknown",
-    "note": "New food lane surface, first sweep 2026-10-19.",
+    "note": "New food lane surface, first sweep 2026-10-19. 2026-10-19: 8 finds. Key Technology, Ishida and Satake show no AI claim. Latin America empty.",
     "lane": "food"
   },
   {
@@ -267,7 +267,7 @@
     "label": "Food safety, quality, compliance and traceability AI",
     "hint": "Food safety and quality: testing labs and platforms (Neogen, bioMerieux, Merieux NutriSciences, SGS, Bureau Veritas, Intertek, Eurofins), spec and supplier compliance software (TraceGains, Trustwell, Agroknow FOODAKAI), hygiene and handwash vision (PathSpot), pathogen and recall risk prediction, allergen detection, blockchain and AI traceability. SGS Food Nexus redirects to sgs.com: cite the redirect target, not the vanity domain.",
     "yield": "unknown",
-    "note": "New food lane surface, first sweep 2026-10-19.",
+    "note": "New food lane surface, first sweep 2026-10-19. 2026-10-19: 11 finds. Neogen 403, Hazel refused. China empty.",
     "lane": "food"
   },
   {
@@ -275,7 +275,7 @@
     "label": "AI formulation, new food science and sensory intelligence",
     "hint": "Food R&D with AI: recipe and formulation platforms (NotCo, Journey Foods), bioactive and protein discovery (Brightseed, Shiru), precision fermentation and alt protein companies that name an ML method, sensory and consumer flavour intelligence (Ai Palette, Tastewise, Spoonshot), digital olfaction and electronic tongues. Precision fermentation crosses into brewing yeast: note any brewer, distiller or winery customer.",
     "yield": "unknown",
-    "note": "New food lane surface, first sweep 2026-10-19.",
+    "note": "New food lane surface, first sweep 2026-10-19. 2026-10-20: 4 merged. Aryballe, DE3PBIO and Compusense failed the gate for want of a dated source. Insent 403; Spoonshot TLS expired, reportedly acquired 2023.",
     "lane": "food"
   },
   {
@@ -283,15 +283,15 @@
     "label": "Food demand planning, cold chain, waste and foodservice AI",
     "hint": "Food supply chain AI: demand forecasting and replenishment for fresh food (Afresh, Crisp, Wasteless), cold chain monitoring (Controlant, Tive, Sensitech), food waste measurement (Winnow, Leanpath, Orbisk), kitchen and foodservice automation and forecasting, route planning for food distribution. Retailers and delivery apps are out unless the AI is a product they sell.",
     "yield": "unknown",
-    "note": "New food lane surface, first sweep 2026-10-19.",
+    "note": "New food lane surface, first sweep 2026-10-19. 2026-10-20: 7 finds. Not reached: Crisp, Wasteless, Sensitech, Delicious Data. Foodforecast is a JS shell (browser). Controlant is now pharma only. India, Japan and China empty.",
     "lane": "food"
   },
   {
     "id": "food_majors",
     "label": "Food majors with named AI programmes",
-    "hint": "Food operators running their own named AI: Nestle, Unilever, Mondelez, Kraft Heinz, Danone, Mars, General Mills, Kellanova, Tyson, JBS, BRF, Grupo Bimbo, Ajinomoto, Meiji, Nissin, CJ CheilJedang, Arla, FrieslandCampina, Lactalis, Britannia, ITC Foods, Amul, Haldiram's, Nestle India. Evidence: annual reports, investor decks, their own newsroom and vendor case studies that name them. Drinks-led groups (PepsiCo, Coca-Cola system, brewers, distillers) belong to fnb_majors: skip them.",
+    "hint": "Food operators running their own named AI: Nestle, Unilever, Mondelez, Kraft Heinz, Danone, Mars, General Mills, Kellanova, Tyson, JBS, BRF, Grupo Bimbo, Ajinomoto, Meiji, Nissin, CJ CheilJedang, Arla, FrieslandCampina, Lactalis, Britannia, ITC Foods, Amul, Haldiram's, Nestle India. Evidence: annual reports, investor decks, their own newsroom and vendor case studies that name them. Drinks-led groups (PepsiCo, Coca-Cola system, brewers, distillers) belong to fnb_majors: skip them. Also check the commodity traders Cargill, ADM, ofi, Bunge, Louis Dreyfus and Wilmar for a named AI tool or customer result: the food_rm scout skipped them unchecked on 19 Oct.",
     "yield": "unknown",
-    "note": "New food lane surface, first sweep 2026-10-19.",
+    "note": "New food lane surface, first sweep 2026-10-19. 2026-10-20: 5 finds (CJ, Cargill, Unilever, Kraft Heinz, Mars). Blocked: Amul, Mondelez, Kellanova, Meiji. Leads with a named vendor: JBS (uMov.me), Nissin (Blue Yonder), Louis Dreyfus (Siemens Senseye). ADM, Bunge, ofi, Wilmar show no named AI tool.",
     "lane": "food"
   },
   {
@@ -299,7 +299,7 @@
     "label": "Food trade shows, accelerators and food AI research",
     "hint": "Food shows: Fi Europe, Fi Asia, SIAL, Anuga FoodTec, Future Food-Tech, FoodTech Japan, IFFA, Fispal. Accelerators and portfolios: EIT Food, Big Idea Ventures, Rockstart AgriFood, AgFunder portfolio, Nestle R+D Accelerator, Kraft Heinz Springboard, Unilever Foundry. Research: Wageningen, Quadram Institute, CFTRI Mysore, NIFTEM, Teagasc, Fraunhofer IVV, food AI papers via Europe PMC and grants. Halls already read by the beverage trade show surfaces (Anuga, Interpack, Pack Expo, ProPak, Gulfood, IFT) may be re-read for food rows only.",
     "yield": "unknown",
-    "note": "New food lane surface, first sweep 2026-10-19.",
+    "note": "New food lane surface, first sweep 2026-10-19. 2026-10-20: 8 finds. NOT YET READ, start here next time: exhibitor catalogues of Fi Europe, Fi Asia, SIAL, Anuga FoodTec, IFFA and Fispal, plus Big Idea Ventures, Rockstart, AgFunder and Springboard portfolios.",
     "lane": "food"
   }
 ]

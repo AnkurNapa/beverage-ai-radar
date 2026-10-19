@@ -1209,5 +1209,68 @@
   "found": 3,
   "added": 3,
   "back_from": "2021-10-08"
+ },
+ {
+  "date": "2026-10-20",
+  "lane": "companies",
+  "surface": "food_rm",
+  "found": 10,
+  "added": 10
+ },
+ {
+  "date": "2026-10-20",
+  "lane": "companies",
+  "surface": "food_flavours",
+  "found": 7,
+  "added": 7
+ },
+ {
+  "date": "2026-10-20",
+  "lane": "companies",
+  "surface": "food_pm",
+  "found": 6,
+  "added": 6
+ },
+ {
+  "date": "2026-10-20",
+  "lane": "companies",
+  "surface": "food_processing",
+  "found": 8,
+  "added": 5
+ },
+ {
+  "date": "2026-10-20",
+  "lane": "companies",
+  "surface": "food_safety",
+  "found": 11,
+  "added": 8
+ },
+ {
+  "date": "2026-10-20",
+  "lane": "companies",
+  "surface": "food_majors",
+  "found": 5,
+  "added": 5
+ },
+ {
+  "date": "2026-10-20",
+  "lane": "companies",
+  "surface": "food_supply",
+  "found": 7,
+  "added": 7
+ },
+ {
+  "date": "2026-10-20",
+  "lane": "companies",
+  "surface": "food_rd",
+  "found": 7,
+  "added": 4
+ },
+ {
+  "date": "2026-10-20",
+  "lane": "companies",
+  "surface": "food_events_research",
+  "found": 8,
+  "added": 6
  }
 ]
