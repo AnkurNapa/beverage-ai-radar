@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-10-12. 1447 active, 176 dormant.
+Snapshot: 2026-10-19. 1448 active, 176 dormant.
 
 ## Active companies
 
@@ -568,6 +568,7 @@ Snapshot: 2026-10-12. 1447 active, 176 dormant.
 - **Fratelli Martini Secondo Luigi S.p.A.** (wine, wine production). Piedmont private wine bottler based in Cossano Belbo, Italy. Fratelli Martini turned over 218 million euros in 2025, tenth in Italy, in a year when the top 120 Italian wineries lost 1.4% of revenue. It makes no public AI or machine-learning claim and is tracked as a wine producer.
 - **Fraunhofer Portugal AICOS** (wine, computer vision pest monitoring in vineyards). Fraunhofer Portugal research centre in Porto working on assistive information and communication technology. Its own project list describes EyesOnTraps+, a mobile solution that automates insect detection in vineyard traps in the Douro Wine Region, logs local temperature and recommends treatment for the pests it detects. The group has published the underlying computer vision work on automatic image quality assessment and pest counting for viticulture trap monitoring, and is now extending it with generative models for synthetic pest datasets.
 - **Freepour** (multiple, patented pour and bottle weighing telemetry reconciled to pos sales, no ai claim). Freepour Beverage Management sells patented hardware and a cloud platform that monitors draft beer, spirits, wine and packaged beverages in bars and restaurants, timestamping usage and interfacing to the venue POS and to back office inventory systems such as Optimum Control. Its bottle weighing line is quoted at 20 bottles a minute and 97.7 percent accuracy, and the company says it has been in the business for around 35 years with thousands of clients in over a dozen countries. The stated purpose is loss prevention: reports drive bartender behaviour and cut the labour cost of frequent manual inventories. Freepour makes no AI or machine learning claim; what ships is metering, reconciliation and reporting.
+- **FreightFox** (multiple, freight procurement, visibility and analytics for alcobev distribution). Pune based transportation management and control tower platform for Indian manufacturers, with a named Alcohol and Beverage vertical covering contract and spot freight auctions, state excise compliance pushed to dispatch, bonded and distributor movement tracking, breakage attribution by carrier, route and driver, detention chargebacks at government warehouses and Scope 3 freight emissions. Its published alcobev case study describes a large beer and spirits conglomerate moving procurement across 700 origin destination lanes and about 3,000 lane and vehicle type combinations onto the platform, reporting about 96 percent shipment visibility, 70 percent less procurement effort and about 3 percent lower freight spend. The homepage calls the product an AI powered, AI native TMS and a Freight IQ module benchmarks rates against market intelligence, but the beverage evidence published is auction procurement, visibility and analytics with no model described. Raised $300K in April 2021 and a $600K seed round led by Aeravti Ventures in October 2023. People: Nitish Rai (CEO and Co-founder), Vikas Singh (COO and Co-founder), Sandeep Mukhopadhyay (CTO and Co-founder), Dhananjaya Shetty (CPO and Co-founder).
 - **Fruition Sciences** (wine, vine water status and grape maturation prediction from sap flow and climate data). Fruition Sciences runs a vineyard monitoring platform that links climate, irrigation, soil maps, fertilisation and plant development data to fruit maturation, delivered as cloud and mobile software for winemakers. In-vine sap flow sensors report every 15 minutes and proprietary algorithms compute reference evapotranspiration, plant transpiration and vine stress. The company states on its own site that it applies machine learning techniques alongside plant physiology and GIS expertise to generate predictive alerts. Montpellier is the French base, with a second office in Napa, California. People: Sebastien Payen (Co-founder), Thibaut Scholasch (Co-founder).
 - **Fujitsu** (beer, brewing process prediction and recipe design). Fujitsu is a Japanese IT group with a long-running named research line in fermented beverage AI. In April 2018 Fujitsu and Fujitsu Laboratories ran a joint trial with sake maker Asahi Shuzo on its Dassai brand, combining a mathematical model of the sake brewing sequence with machine learning over the brewery's historical temperature and gravity data to produce an AI prediction model that advised on optimal process steps, built on the Fujitsu Human Centric AI Zinrai stack. In 2026 Fujitsu's causal AI is the engine behind the AI Beer Project with Hanoi University of Science and Technology, generating lager recipes from consumer preference survey data for lab-scale trial brewing, presented jointly at SPISE 2026. Both are demonstration projects rather than a shipping beverage product.
 - **FuturMaster** (multiple, supply chain planning with AI forecasting and digital twin). FuturMaster is a supply chain planning software vendor whose Bloom platform spans demand planning, supply planning, and scheduling. It uses technologies such as Forecast at Scale, digital twin, and global optimization for more than 650 clients.
@@ -1633,7 +1634,7 @@ Snapshot: 2026-10-12. 1447 active, 176 dormant.
 
 ## By vertical (active)
 
-- multiple: 464
+- multiple: 465
 - wine: 453
 - beer: 393
 - whiskey: 123
@@ -2912,3 +2913,4 @@ Snapshot: 2026-10-12. 1447 active, 176 dormant.
 - cellar alcoholometry, gauging and blend optimisation software: 1
 - vineyard and cellar work tracking and traceability: 1
 - baijiu aroma compound ranking and olfactory language models: 1
+- freight procurement, visibility and analytics for alcobev distribution: 1
