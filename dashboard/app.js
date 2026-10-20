@@ -513,7 +513,7 @@ function buildPeople() {
         // A person inherits their company's category and discovery surface, so
         // the People tab can be narrowed the same way the Companies tab is
         // ("who works in ESG?", "who did the logistics sweep turn up?").
-        theme: c._theme || themeOf(c), source: sourceOf(c),
+        theme: c._theme || themeOf(c), source: sourceOf(c), foodSeg: foodSegmentOf(c),
         // A person has no location of their own in the data, so they inherit
         // their company's. Honest for a map: it says where the WORK is, not
         // necessarily where the person sits.
@@ -558,10 +558,16 @@ function applyPeople() {
   const q = $("pq").value.trim().toLowerCase();
   const fv = $("fp-vertical").value, fl = $("fp-linkedin").value;
   const fth = $("fp-theme").value, fsrc = $("fp-source").value;
+  // Same rule as the Companies tab: the segment control lives only under food.
+  const segSel = $("fp-foodseg");
+  segSel.hidden = fv !== "food";
+  if (segSel.hidden) segSel.value = "";
+  const fseg = segSel.value;
   const shown = PEOPLE.filter((p) => {
     if (exHit("people", p)) return false;
     if (fpc && p.country !== fpc) return false;
     if (!matchesVertical(p, fv)) return false;
+    if (fseg && p.foodSeg !== fseg) return false;
     if (fth && p.theme !== fth) return false;
     if (fsrc && p.source !== fsrc) return false;
     if (fl && !p.linkedin) return false;
@@ -2639,10 +2645,11 @@ async function main() {
   // People view
   PEOPLE = buildPeople();
   fillSelect($("fp-vertical"), verticalCounts(PEOPLE.filter((p) => p.vertical)));
+  fillSelect($("fp-foodseg"), counts(PEOPLE.filter((p) => p.foodSeg), "foodSeg"));
   fillSelect($("fp-country"), counts(PEOPLE.filter((p) => p.country && p.country !== "unknown"), "country"));
   fillSelect($("fp-theme"), counts(PEOPLE, "theme").map((x) => x[0]));
   fillSelect($("fp-source"), counts(PEOPLE, "source").map((x) => x[0]));
-  for (const id of ["pq", "fp-vertical", "fp-country", "fp-linkedin", "fp-theme", "fp-source", "fp-sort"]) $(id).addEventListener("input", applyPeople);
+  for (const id of ["pq", "fp-vertical", "fp-foodseg", "fp-country", "fp-linkedin", "fp-theme", "fp-source", "fp-sort"]) $(id).addEventListener("input", applyPeople);
   applyPeople();
   makeExcluder("people", $("pq").closest(".controls"), PEOPLE, [
     { label: "Drinks", get: verticalsOf, show: vlab },
