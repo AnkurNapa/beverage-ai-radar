@@ -85,6 +85,23 @@ function sourceOf(c) {
   return "Web research";
 }
 
+// Food rows have no sub-vertical field, but each food scout covers one stage of
+// the chain, so the surface that found a row doubles as its segment. A new
+// food surface still shows up, just with its raw name until it gets a label.
+const FOOD_SEGMENT = {
+  food_rm: "Raw materials & grading", food_processing: "Processing & sorting",
+  food_safety: "Food safety & hygiene", food_flavours: "Flavours & ingredients",
+  food_rd: "R&D & discovery", food_pm: "Packaging & recycling",
+  food_supply: "Fresh supply & waste", food_majors: "Food majors",
+  food_events_research: "Research bodies & events",
+};
+function foodSegmentOf(c) {
+  const s = String(c.discovered_by || "");
+  if (!s.startsWith("scout:food_")) return null;
+  const surface = s.slice(6);
+  return FOOD_SEGMENT[surface] || surface.slice(5).replace(/_/g, " ");
+}
+
 // Normalize free-text funding stage into a few clean buckets (seed/Seed -> Seed).
 function fundingBucket(c) {
   const f = (c.funding_stage || "").toLowerCase();
@@ -412,11 +429,17 @@ function apply() {
     ffund = $("f-funding").value, fcty = $("f-country").value, sort = $("s-sort").value,
     fplat = $("f-platform").value, fcap = $("f-capability").value, fseen = $("f-seen").value, fscope = $("f-scope").value,
     fera = $("f-era").value;
+  // The segment control only exists for food; drop a stale pick when Vertical moves off it.
+  const segSel = $("f-foodseg");
+  segSel.hidden = fv !== "food";
+  if (segSel.hidden) segSel.value = "";
+  const fseg = segSel.value;
   const shown = ALL.filter((c) => {
     if (exHit("companies", c)) return false;
     if (fplat && !c._platforms.includes(fplat)) return false;
     if (!inEra(c.founded_year, fera)) return false;
     if (!matchesVertical(c, fv)) return false;
+    if (fseg && foodSegmentOf(c) !== fseg) return false;
     if (fu && c._theme !== fu) return false;
     if (fcap && !(c.capabilities || []).includes(fcap)) return false;
     if (fscope && c.scope !== fscope) return false;
@@ -2575,6 +2598,7 @@ async function main() {
   renderBreakdowns();
 
   fillSelect($("f-vertical"), verticalCounts(ALL));
+  fillSelect($("f-foodseg"), counts(ALL.map((c) => ({ s: foodSegmentOf(c) })).filter((x) => x.s), "s"));
   fillSelect($("f-usecase"), counts(ALL, "_theme").map((p) => p[0]));
   fillSelect($("f-maturity"), counts(ALL, "ai_maturity"));
   // Multi-valued, so counts() (which reads one field) does not apply here.
@@ -2597,7 +2621,7 @@ async function main() {
     `When the company was founded. ${noYear} of ${ALL.length} entries carry no founding year; ` +
     `those stay visible whichever period you pick, so this narrows rather than empties.`;
 
-  for (const id of ["q", "f-vertical", "f-usecase", "f-capability", "f-scope", "f-seen", "f-maturity", "f-status", "f-type",
+  for (const id of ["q", "f-vertical", "f-foodseg", "f-usecase", "f-capability", "f-scope", "f-seen", "f-maturity", "f-status", "f-type",
     "f-platform", "f-funding", "f-country", "f-source", "f-era", "f-people", "s-sort"]) {
     $(id).addEventListener("input", apply);
   }
