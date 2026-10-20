@@ -26878,11 +26878,13 @@
     "people": [
       {
         "name": "Milan Sharma",
-        "role": "Co-founder and CEO"
+        "role": "Co-founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/milansharmaintellolabs"
       },
       {
         "name": "Nishant Mishra",
-        "role": "Co-founder and CTO"
+        "role": "Co-founder and CTO",
+        "linkedin": "https://www.linkedin.com/in/nishantmishra09"
       }
     ],
     "discovered_by": "scout:food_rm",
@@ -26909,11 +26911,13 @@
     "people": [
       {
         "name": "Taranjeet Singh Bhamra",
-        "role": "Founder and CEO"
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/taranjeetsingh"
       },
       {
         "name": "Sparsh Kaur",
-        "role": "Founder and Chief of Staff"
+        "role": "Founder and Chief of Staff",
+        "linkedin": "https://www.linkedin.com/in/sparshkaur"
       }
     ],
     "discovered_by": "scout:food_rm",
@@ -26934,7 +26938,22 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-08",
     "discovered_by": "scout:food_rm",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Elad Mardix",
+        "role": "CEO and Co-founder"
+      },
+      {
+        "name": "Ruby Boyarski",
+        "role": "CTO and Co-founder"
+      },
+      {
+        "name": "Avi Schwartzer",
+        "role": "COO and Co-founder"
+      }
+    ],
+    "key_people": "Elad Mardix (CEO and Co-founder); Ruby Boyarski (CTO and Co-founder); Avi Schwartzer (COO and Co-founder)"
   },
   {
     "name": "Vesper",
@@ -26955,7 +26974,8 @@
     "people": [
       {
         "name": "Alexander Sterk",
-        "role": "Founder and CEO"
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/sterkalexander"
       }
     ],
     "discovered_by": "scout:food_rm",
@@ -26975,7 +26995,22 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-05-05",
     "discovered_by": "scout:food_rm",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Tristan Fletcher",
+        "role": "CEO and Co-founder"
+      },
+      {
+        "name": "Michael Button",
+        "role": "Co-founder and CTO"
+      },
+      {
+        "name": "Marcus Dixon",
+        "role": "COO and Co-founder"
+      }
+    ],
+    "key_people": "Tristan Fletcher (CEO and Co-founder); Michael Button (Co-founder and CTO); Marcus Dixon (COO and Co-founder)"
   },
   {
     "name": "P&P Optica",
@@ -26996,7 +27031,8 @@
     "people": [
       {
         "name": "Olga Pawluczyk",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/olgapawluczyk"
       }
     ],
     "discovered_by": "scout:food_rm",
@@ -27020,7 +27056,18 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-20",
     "discovered_by": "scout:food_rm",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Erik Zeegers",
+        "role": "CEO"
+      },
+      {
+        "name": "Erwin Bakker",
+        "role": "Founder"
+      }
+    ],
+    "key_people": "Erik Zeegers (CEO); Erwin Bakker (Founder)"
   },
   {
     "name": "Demetria",
@@ -27040,7 +27087,8 @@
     "people": [
       {
         "name": "Felipe Ayerbe",
-        "role": "CEO and Co-founder"
+        "role": "CEO and Co-founder",
+        "linkedin": "https://www.linkedin.com/in/felipe-ayerbe-24745a47"
       }
     ],
     "discovered_by": "scout:food_rm",
@@ -27062,7 +27110,18 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-20",
     "discovered_by": "scout:food_rm",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Igor Chalfoun Pomarico de Souza",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Joel Yutaka Sugano",
+        "role": "Co-founder"
+      }
+    ],
+    "key_people": "Igor Chalfoun Pomarico de Souza (Co-founder); Joel Yutaka Sugano (Co-founder)"
   },
   {
     "name": "Kewpie Corporation",
@@ -27081,7 +27140,14 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-09-20",
     "discovered_by": "scout:food_rm",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Hiroyuki Shiino",
+        "role": "Executive Officer and Head of Digital Promotion Division"
+      }
+    ],
+    "key_people": "Hiroyuki Shiino (Executive Officer and Head of Digital Promotion Division)"
   },
   {
     "name": "Givaudan",
@@ -27098,7 +27164,14 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-09-30",
     "discovered_by": "scout:food_flavours",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Fabio Campanile",
+        "role": "Head of Global Science and Technology, Taste and Wellbeing"
+      }
+    ],
+    "key_people": "Fabio Campanile (Head of Global Science and Technology, Taste and Wellbeing)"
   },
   {
     "name": "dsm-firmenich",
@@ -27116,7 +27189,14 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-09-14",
     "discovered_by": "scout:food_flavours",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Sarah Reisinger",
+        "role": "Chief Science and Research Officer"
+      }
+    ],
+    "key_people": "Sarah Reisinger (Chief Science and Research Officer)"
   },
   {
     "name": "Boltz PBC",
@@ -27132,7 +27212,18 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-09-14",
     "discovered_by": "scout:food_flavours",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Gabriele Corso",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Francesco Capponi",
+        "role": "Head of Engineering"
+      }
+    ],
+    "key_people": "Gabriele Corso (Co-founder and CEO); Francesco Capponi (Head of Engineering)"
   },
   {
     "name": "Brightseed",
@@ -27152,7 +27243,18 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-05-13",
     "discovered_by": "scout:food_flavours",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Jim Flatt",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Lee Chae",
+        "role": "Co-founder, CSO and CTO"
+      }
+    ],
+    "key_people": "Jim Flatt (Co-founder and CEO); Lee Chae (Co-founder, CSO and CTO)"
   },
   {
     "name": "Shiru",
@@ -27169,9 +27271,15 @@
     ],
     "first_seen": "2026-10-20",
     "last_seen": "2026-03-18",
-    "key_people": "Jasmin Hume (Founder)",
+    "key_people": "Jasmin Hume (Founder and CEO)",
     "discovered_by": "scout:food_flavours",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Jasmin Hume",
+        "role": "Founder and CEO"
+      }
+    ]
   },
   {
     "name": "NotCo",
@@ -27189,9 +27297,19 @@
     ],
     "first_seen": "2026-10-20",
     "last_seen": "2026-09-08",
-    "key_people": "Matias Muchnick (CEO)",
+    "key_people": "Matias Muchnick (Founder and CEO); Karim Pichara (Co-founder and CTO)",
     "discovered_by": "scout:food_flavours",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Matias Muchnick",
+        "role": "Founder and CEO"
+      },
+      {
+        "name": "Karim Pichara",
+        "role": "Co-founder and CTO"
+      }
+    ]
   },
   {
     "name": "Agrizy",
@@ -27211,9 +27329,19 @@
     ],
     "first_seen": "2026-10-20",
     "last_seen": "2026-06-08",
-    "key_people": "Vicky Dodani (Co-founder); Saket Chirania (Co-founder); Arun Markish (Co-founder and CTO)",
+    "key_people": "Vicky Dodani (Co-founder and CEO); Saket Chirania (Co-founder)",
     "discovered_by": "scout:food_flavours",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Vicky Dodani",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Saket Chirania",
+        "role": "Co-founder"
+      }
+    ]
   },
   {
     "name": "Greyparrot",
@@ -27238,15 +27366,18 @@
     "people": [
       {
         "name": "Mikela Druckman",
-        "role": "CEO and Co-Founder"
+        "role": "CEO and Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/mikeladruckman"
       },
       {
         "name": "Ambarish Mitra",
-        "role": "Co-Founder"
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/ambarishmitra"
       },
       {
         "name": "Nikola Sivacki",
-        "role": "Co-Founder and Head of Deep Learning"
+        "role": "Co-Founder and Head of Deep Learning",
+        "linkedin": "https://www.linkedin.com/in/nikolasivacki"
       }
     ],
     "discovered_by": "scout:food_pm",
@@ -27270,7 +27401,18 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-11",
     "discovered_by": "scout:food_pm",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Tim Stuart",
+        "role": "CEO"
+      },
+      {
+        "name": "Matanya Horowitz",
+        "role": "Founder and CTO"
+      }
+    ],
+    "key_people": "Tim Stuart (CEO); Matanya Horowitz (Founder and CTO)"
   },
   {
     "name": "TOMRA (Food and Recycling)",
@@ -27290,7 +27432,18 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-05-08",
     "discovered_by": "scout:food_pm",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Lars Enge",
+        "role": "EVP and Head of TOMRA Recycling"
+      },
+      {
+        "name": "Nicolas Braem",
+        "role": "PolyPerception CEO and Co-founder"
+      }
+    ],
+    "key_people": "Lars Enge (EVP and Head of TOMRA Recycling); Nicolas Braem (PolyPerception CEO and Co-founder)"
   },
   {
     "name": "Wiliot",
@@ -27308,7 +27461,22 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-08-26",
     "discovered_by": "scout:food_pm",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Tal Tamir",
+        "role": "CEO and Co-founder"
+      },
+      {
+        "name": "Alon Yehezkley",
+        "role": "CTO and Co-founder"
+      },
+      {
+        "name": "Yaron Elboim",
+        "role": "COO and Co-founder"
+      }
+    ],
+    "key_people": "Tal Tamir (CEO and Co-founder); Alon Yehezkley (CTO and Co-founder); Yaron Elboim (COO and Co-founder)"
   },
   {
     "name": "Recykal",
@@ -27329,11 +27497,13 @@
     "people": [
       {
         "name": "Abhay Deshpande",
-        "role": "Founder and CEO"
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/abhay--deshpande"
       },
       {
         "name": "Vikram Prabhakar",
-        "role": "Co-Founder and Chief Product Officer"
+        "role": "Co-Founder and Chief Product Officer",
+        "linkedin": "https://www.linkedin.com/in/vikram-prabakar"
       }
     ],
     "discovered_by": "scout:food_pm",
@@ -27355,7 +27525,14 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-18",
     "discovered_by": "scout:food_pm",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Alice Rackley",
+        "role": "CEO"
+      }
+    ],
+    "key_people": "Alice Rackley (CEO)"
   },
   {
     "name": "Braincube",
@@ -27376,7 +27553,18 @@
     "first_seen": "2026-10-20",
     "last_seen": "2025-06-13",
     "discovered_by": "scout:food_processing",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Laurent Laporte",
+        "role": "Co-founder, President and CEO"
+      },
+      {
+        "name": "Sylvain Rubat du Merac",
+        "role": "Co-founder and CTO"
+      }
+    ],
+    "key_people": "Laurent Laporte (Co-founder, President and CEO); Sylvain Rubat du Merac (Co-founder and CTO)"
   },
   {
     "name": "OAL Group",
@@ -27395,9 +27583,19 @@
     ],
     "first_seen": "2026-10-20",
     "last_seen": "2026-05-11",
-    "key_people": "Harry Norman (Founder)",
+    "key_people": "Jake Norman (Managing Director); Mike O'Sullivan (Technology Director)",
     "discovered_by": "scout:food_processing",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Jake Norman",
+        "role": "Managing Director"
+      },
+      {
+        "name": "Mike O'Sullivan",
+        "role": "Technology Director"
+      }
+    ]
   },
   {
     "name": "Qcify",
@@ -27419,7 +27617,8 @@
     "people": [
       {
         "name": "Pieter Ieven",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/pieter-ieven"
       }
     ],
     "discovered_by": "scout:food_processing",
@@ -27445,7 +27644,8 @@
     "people": [
       {
         "name": "Mark J. Chiappetta",
-        "role": "President and CEO"
+        "role": "President and CEO",
+        "linkedin": "https://www.linkedin.com/in/markchiappetta"
       }
     ],
     "discovered_by": "scout:food_processing",
@@ -27467,7 +27667,18 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-09-08",
     "discovered_by": "scout:food_processing",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Tian Ming",
+        "role": "Chairman"
+      },
+      {
+        "name": "Shen Haibin",
+        "role": "Vice Chairman and General Manager"
+      }
+    ],
+    "key_people": "Tian Ming (Chairman); Shen Haibin (Vice Chairman and General Manager)"
   },
   {
     "name": "Trustwell",
@@ -27485,7 +27696,14 @@
     "vertical": "food",
     "first_seen": "2026-10-19",
     "discovered_by": "scout:food_safety",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Katy Jones",
+        "role": "Chief Executive Officer"
+      }
+    ],
+    "key_people": "Katy Jones (Chief Executive Officer)"
   },
   {
     "name": "FoodDocs",
@@ -27502,11 +27720,21 @@
       "https://www.foodnavigator.com/Article/2022/02/22/the-food-safety-sector-is-hungry-for-disruption-fooddocs-steps-up-expansion-of-its-haccp-ai-solution/"
     ],
     "last_seen": "2026-10-14",
-    "key_people": "Katrin Liivat (CEO and Co-founder), Karin Repp (Co-founder)",
+    "key_people": "Katrin Liivat (Co-founder and CEO); Karin Repp (Co-founder)",
     "vertical": "food",
     "first_seen": "2026-10-19",
     "discovered_by": "scout:food_safety",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Katrin Liivat",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Karin Repp",
+        "role": "Co-founder"
+      }
+    ]
   },
   {
     "name": "FoodReady",
@@ -27522,7 +27750,14 @@
     "vertical": "food",
     "first_seen": "2026-10-19",
     "discovered_by": "scout:food_safety",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Gerry Galloway",
+        "role": "Co-founder and Co-CEO"
+      }
+    ],
+    "key_people": "Gerry Galloway (Co-founder and Co-CEO)"
   },
   {
     "name": "SafetyChain",
@@ -27542,7 +27777,18 @@
     "vertical": "food",
     "first_seen": "2026-10-19",
     "discovered_by": "scout:food_safety",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Dean Brown",
+        "role": "Chief Executive Officer"
+      },
+      {
+        "name": "Randal Burrier",
+        "role": "Chief Product and Technology Officer"
+      }
+    ],
+    "key_people": "Dean Brown (Chief Executive Officer); Randal Burrier (Chief Product and Technology Officer)"
   },
   {
     "name": "PathSpot",
@@ -27558,11 +27804,21 @@
       "https://techcrunch.com/2020/05/21/pathspot-sells-a-scanner-that-fact-checks-your-handwashing-efficacy/"
     ],
     "last_seen": "2026-10-19",
-    "key_people": "Christine Schindler (CEO and Co-founder)",
+    "key_people": "Christine Schindler (Co-founder and CEO); Dutch Waanders (Co-founder and CTO)",
     "vertical": "food",
     "first_seen": "2026-10-19",
     "discovered_by": "scout:food_safety",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Christine Schindler",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Dutch Waanders",
+        "role": "Co-founder and CTO"
+      }
+    ]
   },
   {
     "name": "Spore.Bio",
@@ -27582,7 +27838,22 @@
     "vertical": "food",
     "first_seen": "2026-10-19",
     "discovered_by": "scout:food_safety",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Amine Raji",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Maxime Mistretta",
+        "role": "Co-founder and CTO"
+      },
+      {
+        "name": "Mohamed Tazi",
+        "role": "Co-founder and COO"
+      }
+    ],
+    "key_people": "Amine Raji (Co-founder and CEO); Maxime Mistretta (Co-founder and CTO); Mohamed Tazi (Co-founder and COO)"
   },
   {
     "name": "MENOU",
@@ -27620,7 +27891,14 @@
     "vertical": "food",
     "first_seen": "2026-10-19",
     "discovered_by": "scout:food_safety",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Alan Lai",
+        "role": "Founder and CEO"
+      }
+    ],
+    "key_people": "Alan Lai (Founder and CEO)"
   },
   {
     "name": "CJ CheilJedang",
@@ -27656,11 +27934,13 @@
     "people": [
       {
         "name": "Jennifer Hartsock",
-        "role": "Chief Information and Digital Officer"
+        "role": "Chief Information and Digital Officer",
+        "linkedin": "https://www.linkedin.com/in/jenniferhartsock"
       },
       {
         "name": "Brian Sikes",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/briansikes"
       }
     ],
     "discovered_by": "scout:food_majors",
@@ -27684,11 +27964,13 @@
     "people": [
       {
         "name": "Meenakshi Burra",
-        "role": "Foods Chief Digital and Information Officer and Chief Data Officer"
+        "role": "Foods Chief Digital and Information Officer and Chief Data Officer",
+        "linkedin": "https://www.linkedin.com/in/meenakshi-burra-7945171"
       },
       {
         "name": "Adam Raeburn-James",
-        "role": "Global VP Digital Business Operations"
+        "role": "Global VP Digital Business Operations",
+        "linkedin": "https://www.linkedin.com/in/adam-raeburn-james"
       }
     ],
     "discovered_by": "scout:food_majors",
@@ -27712,7 +27994,8 @@
     "people": [
       {
         "name": "Pat Nestor",
-        "role": "Head of Decision Intelligence Products and Platforms"
+        "role": "Former Head of Decision Intelligence Products and Platforms",
+        "linkedin": "https://www.linkedin.com/in/patnestor"
       }
     ],
     "discovered_by": "scout:food_majors",
@@ -27737,7 +28020,8 @@
     "people": [
       {
         "name": "Shubham Mehrish",
-        "role": "Global Head of Generative AI"
+        "role": "Chief AI and Technology Officer",
+        "linkedin": "https://www.linkedin.com/in/shubham-mehrish"
       }
     ],
     "discovered_by": "scout:food_majors",
@@ -27767,15 +28051,18 @@
     "people": [
       {
         "name": "Matt Schwartz",
-        "role": "CEO, Co-Founder"
+        "role": "CEO, Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/matt-schwartz-0b76a326"
       },
       {
         "name": "Nathan Fenner",
-        "role": "Chief Product Officer, Co-Founder"
+        "role": "Chief Product Officer, Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/nathan-fenner"
       },
       {
         "name": "Adam Litle",
-        "role": "Chief Revenue Officer"
+        "role": "Chief Revenue Officer",
+        "linkedin": "https://www.linkedin.com/in/adamlitle"
       }
     ],
     "discovered_by": "scout:food_supply",
@@ -27834,15 +28121,18 @@
     "people": [
       {
         "name": "Marco Perlman",
-        "role": "CEO, Co-Founder"
+        "role": "CEO, Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/marcoperlman"
       },
       {
         "name": "Aline Azevedo",
-        "role": "CPO, Co-Founder"
+        "role": "CPO, Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/alineazevedo"
       },
       {
         "name": "Bruno Schrappe",
-        "role": "CTO, Co-Founder"
+        "role": "CTO, Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/brunoschrappe"
       }
     ],
     "discovered_by": "scout:food_supply",
@@ -27869,11 +28159,13 @@
     "people": [
       {
         "name": "Marc Zornes",
-        "role": "Co-Founder"
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/marczornes"
       },
       {
         "name": "Kevin Duffy",
-        "role": "Co-Founder"
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/kevin-duffy"
       }
     ],
     "discovered_by": "scout:food_supply",
@@ -27900,7 +28192,8 @@
     "people": [
       {
         "name": "Andrew Shakman",
-        "role": "Founder, CEO"
+        "role": "Founder, CEO",
+        "linkedin": "https://www.linkedin.com/in/andrew-shakman-3861"
       }
     ],
     "discovered_by": "scout:food_supply",
@@ -27926,7 +28219,8 @@
     "people": [
       {
         "name": "Anastasia Dellis",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/anastasia-dellis"
       }
     ],
     "discovered_by": "scout:food_supply",
@@ -27951,7 +28245,8 @@
     "people": [
       {
         "name": "Krenar Komoni",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/komoni"
       }
     ],
     "discovered_by": "scout:food_supply",
@@ -27978,7 +28273,8 @@
     "people": [
       {
         "name": "Riana Lynn",
-        "role": "Founder and CEO"
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/rianalynn"
       }
     ],
     "discovered_by": "scout:food_rd",
@@ -28006,7 +28302,8 @@
     "people": [
       {
         "name": "Nora Khaldi",
-        "role": "Founder and CEO"
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/drnorakhaldi"
       }
     ],
     "discovered_by": "scout:food_rd",
@@ -28033,11 +28330,13 @@
     "people": [
       {
         "name": "Shannon Hall",
-        "role": "CEO and co-founder"
+        "role": "CEO and co-founder",
+        "linkedin": "https://www.linkedin.com/in/shannon-hall-sf"
       },
       {
         "name": "Ouwei Wang",
-        "role": "CTO"
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/ouwei-wang-2a0418158"
       }
     ],
     "discovered_by": "scout:food_rd",
@@ -28063,7 +28362,8 @@
     "people": [
       {
         "name": "Carla Borini Etichetti",
-        "role": "Co-founder and CTO"
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/carla-borini-etichetti"
       }
     ],
     "discovered_by": "scout:food_rd",
@@ -28088,11 +28388,13 @@
     "people": [
       {
         "name": "Anastasia Hofmann",
-        "role": "Co-founder"
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/anastasiahofmann"
       },
       {
         "name": "Naomi MacKenzie",
-        "role": "Co-founder"
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/naomimack"
       }
     ],
     "discovered_by": "scout:food_events_research",
@@ -28118,7 +28420,8 @@
     "people": [
       {
         "name": "Panos Kostopoulos",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/panos-ko"
       }
     ],
     "discovered_by": "scout:food_events_research",
@@ -28142,7 +28445,8 @@
     "people": [
       {
         "name": "Jay Gilbert",
-        "role": "Lead, CoDeveloper"
+        "role": "Lead, CoDeveloper",
+        "linkedin": "https://www.linkedin.com/in/jaytgilbert"
       }
     ],
     "discovered_by": "scout:food_events_research",
@@ -28165,7 +28469,8 @@
     "people": [
       {
         "name": "Francois Wayenberg",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/namasthay"
       },
       {
         "name": "Joel Bellenson",
@@ -28191,7 +28496,19 @@
     "first_seen": "2026-10-20",
     "last_seen": "2026-10-05",
     "discovered_by": "scout:food_events_research",
-    "verified": false
+    "verified": false,
+    "people": [
+      {
+        "name": "Martijn Bekker",
+        "role": "Program Manager Bioprocess Innovation and Analytics",
+        "linkedin": "https://www.linkedin.com/in/martijnbekker"
+      },
+      {
+        "name": "Rianne Ruijschop",
+        "role": "Food Tech Research Manager"
+      }
+    ],
+    "key_people": "Martijn Bekker (Program Manager Bioprocess Innovation and Analytics); Rianne Ruijschop (Food Tech Research Manager)"
   },
   {
     "name": "CSIR-Central Food Technological Research Institute (CFTRI)",
@@ -28212,7 +28529,8 @@
     "people": [
       {
         "name": "Sridevi Annapurna Singh",
-        "role": "Director"
+        "role": "Former Director",
+        "linkedin": "https://www.linkedin.com/in/sridevi-annapurna-35b083174"
       }
     ],
     "discovered_by": "scout:food_events_research",

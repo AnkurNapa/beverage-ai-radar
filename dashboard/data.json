@@ -22746,6 +22746,8 @@
     "notable_customers_partners": null,
     "short_description": "Impact Databank, part of M. Shanken Communications, publishes the wine and spirits industry's long running Review and Forecast reports covering consumption trends, brand depletions, advertising spend, pricing and retail sales analysis, state by state consumption and top wholesalers. Its 2026 edition carries 2026 estimates and projections to 2030 for both the wine and spirits markets. The reports explicitly incorporate IRI and NIQ scan data alongside Impact's own brand depletion estimates, which makes it the standard reconciliation source for US wine and spirits brand volumes. It makes no AI or machine learning claim.",
     "source_urls": [
+      "https://github.com/mshanken/impact-databank",
+      "https://www.impactdatabank.com",
       "https://www.impactdatabank.com/",
       "https://www.shankennewsdaily.com/"
     ],
@@ -22753,8 +22755,8 @@
     "last_seen": "2026-08-05",
     "status": "active",
     "linkedin_url": null,
-    "github_url": null,
-    "product_url": null,
+    "github_url": "https://github.com/mshanken/impact-databank",
+    "product_url": "https://www.impactdatabank.com",
     "latest_news_headline": null,
     "why_interesting": null,
     "discovered_by": "scout:marketdata",
@@ -77839,11 +77841,13 @@
     "people": [
       {
         "name": "Milan Sharma",
-        "role": "Co-founder and CEO"
+        "role": "Co-founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/milansharmaintellolabs"
       },
       {
         "name": "Nishant Mishra",
-        "role": "Co-founder and CTO"
+        "role": "Co-founder and CTO",
+        "linkedin": "https://www.linkedin.com/in/nishantmishra09"
       }
     ],
     "notable_customers_partners": null,
@@ -77890,11 +77894,13 @@
     "people": [
       {
         "name": "Taranjeet Singh Bhamra",
-        "role": "Founder and CEO"
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/taranjeetsingh"
       },
       {
         "name": "Sparsh Kaur",
-        "role": "Founder and Chief of Staff"
+        "role": "Founder and Chief of Staff",
+        "linkedin": "https://www.linkedin.com/in/sparshkaur"
       }
     ],
     "notable_customers_partners": null,
@@ -77939,8 +77945,21 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Elad Mardix (CEO and Co-founder); Ruby Boyarski (CTO and Co-founder); Avi Schwartzer (COO and Co-founder)",
+    "people": [
+      {
+        "name": "Elad Mardix",
+        "role": "CEO and Co-founder"
+      },
+      {
+        "name": "Ruby Boyarski",
+        "role": "CTO and Co-founder"
+      },
+      {
+        "name": "Avi Schwartzer",
+        "role": "COO and Co-founder"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Sells a quality control platform for growers, marketers, wholesalers and retailers of fresh produce. Press describes the technology as computer vision plus data analysis on fruit and vegetable condition. Its own site carries testimonials from Dole Sunshine and Zespri. Grapevine Capital Partners made an initial investment in October 2026; Sun World signed up for grape quality control in April 2025.",
     "source_urls": [
@@ -77986,7 +78005,8 @@
     "people": [
       {
         "name": "Alexander Sterk",
-        "role": "Founder and CEO"
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/sterkalexander"
       }
     ],
     "notable_customers_partners": null,
@@ -78030,8 +78050,21 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Tristan Fletcher (CEO and Co-founder); Michael Button (Co-founder and CTO); Marcus Dixon (COO and Co-founder)",
+    "people": [
+      {
+        "name": "Tristan Fletcher",
+        "role": "CEO and Co-founder"
+      },
+      {
+        "name": "Michael Button",
+        "role": "Co-founder and CTO"
+      },
+      {
+        "name": "Marcus Dixon",
+        "role": "COO and Co-founder"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "UK company (Commodities AI Limited, FCA authorised) selling AI commodity price forecasts (ChAI Insight) and raw material price insurance (ChAI Protect) across metals, energy, plastics and agricultural markets. Horizontal rather than food only. Its own site quotes miller GoodMills Group on grain price forecasting since mid 2020 and shows Mondelez and AB InBev logos without describing the work. Lockton formed a partnership with it in May 2026.",
     "source_urls": [
@@ -78076,7 +78109,8 @@
     "people": [
       {
         "name": "Olga Pawluczyk",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/olgapawluczyk"
       }
     ],
     "notable_customers_partners": null,
@@ -78120,8 +78154,17 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Erik Zeegers (CEO); Erwin Bakker (Founder)",
+    "people": [
+      {
+        "name": "Erik Zeegers",
+        "role": "CEO"
+      },
+      {
+        "name": "Erwin Bakker",
+        "role": "Founder"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Optical grading software and machines (with group companies Elisam and Elifab) for potatoes, onions, apples, citrus, cherries and other produce. Its own site sells True-AI, a deep learning grading layer that can be retrofitted to existing graders. Trade press reported a deep learning system going live at Tzur Farms in January 2022. No brewer, distiller or winery customer is named.",
     "source_urls": [
@@ -78168,7 +78211,8 @@
     "people": [
       {
         "name": "Felipe Ayerbe",
-        "role": "CEO and Co-founder"
+        "role": "CEO and Co-founder",
+        "linkedin": "https://www.linkedin.com/in/felipe-ayerbe-24745a47"
       }
     ],
     "notable_customers_partners": null,
@@ -78212,8 +78256,17 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Igor Chalfoun Pomarico de Souza (Co-founder); Joel Yutaka Sugano (Co-founder)",
+    "people": [
+      {
+        "name": "Igor Chalfoun Pomarico de Souza",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Joel Yutaka Sugano",
+        "role": "Co-founder"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Brazilian maker of the GroundEye image analysis system for seeds, leaves and grain, including automatic soybean grain classification. Trade press in 2018 described GroundEye as using AI and computer vision to classify grain ten times faster than manual grading, in a project with inspection firm GenesisGroup. Its live site lists grain classification and impurity counting applications.",
     "source_urls": [
@@ -78256,8 +78309,13 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Hiroyuki Shiino (Executive Officer and Head of Digital Promotion Division)",
+    "people": [
+      {
+        "name": "Hiroyuki Shiino",
+        "role": "Executive Officer and Head of Digital Promotion Division"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Japanese food maker (mayonnaise, dressings, deli) that built its own AI raw material inspection device to reject defective diced potato and cut vegetables. Its own February 2019 release says the self-developed device went into carrot inspection at a Delia Foods deli plant in January 2019. An October 2020 release covers a three-year publicly funded project to add internal foreign body detection. Development partners cited in press are BrainPad and Google TensorFlow.",
     "source_urls": [
@@ -78301,8 +78359,13 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Fabio Campanile (Head of Global Science and Technology, Taste and Wellbeing)",
+    "people": [
+      {
+        "name": "Fabio Campanile",
+        "role": "Head of Global Science and Technology, Taste and Wellbeing"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Swiss flavour and fragrance house. Its Taste and Wellbeing unit runs ATOM (Advanced Tools for Modelling), machine learning that finds positive and negative flavour drivers and ingredient synergies to cut physical trials. Givaudan's own release names a cheese snack project where ATOM-predicted recipes gave a 33% salt cut that blind tasters rated equal to the original. The September 2026 investor deck lists digital and AI-enabled flavour creation as a pillar but names no newer tool; ATOM evidence dates from 2021.",
     "source_urls": [
@@ -78345,8 +78408,13 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Sarah Reisinger (Chief Science and Research Officer)",
+    "people": [
+      {
+        "name": "Sarah Reisinger",
+        "role": "Chief Science and Research Officer"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Flavour, fragrance and nutrition group formed by the DSM and Firmenich merger. Firmenich launched what it called the first AI-created flavour in October 2020, a lightly grilled beef taste for plant-based meat. On 14 September 2026 it signed Boltz PBC to put Boltz biomolecular foundation models to work with its taste and odour receptor library to design new flavour and fragrance molecules. The Boltz work is new and has no published result yet.",
     "source_urls": [
@@ -78388,8 +78456,17 @@
     "ai_maturity": "pilot",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Gabriele Corso (Co-founder and CEO); Francesco Capponi (Head of Engineering)",
+    "people": [
+      {
+        "name": "Gabriele Corso",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Francesco Capponi",
+        "role": "Head of Engineering"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "AI startup founded by former MIT scientists that builds open and proprietary biomolecular models (Boltz-2, BoltzGen) sold through Boltz Lab and an API. Its food crossover is dsm-firmenich, which signed in September 2026 to apply Boltz models to taste and odour receptor data for flavour and fragrance molecule design. Graded pilot because the partnership is new and no result is published.",
     "source_urls": [
@@ -78430,8 +78507,17 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Jim Flatt (Co-founder and CEO); Lee Chae (Co-founder, CSO and CTO)",
+    "people": [
+      {
+        "name": "Jim Flatt",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Lee Chae",
+        "role": "Co-founder, CSO and CTO"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Runs Forager, an AI platform that maps plant bioactives and their mechanisms, now on a proprietary dataset of 21 million compounds (April 2026). In May 2026 it launched Hummingbird, an agentic AI layer for product development decisions. Its first ingredient, Brightseed Bio 01 gut health fibre, went into a protein crisp with Puris. Its customers page cites Haleon cutting insight time by 70%.",
     "source_urls": [
@@ -78474,8 +78560,13 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": "Jasmin Hume (Founder)",
-    "people": [],
+    "key_people": "Jasmin Hume (Founder and CEO)",
+    "people": [
+      {
+        "name": "Jasmin Hume",
+        "role": "Founder and CEO"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Ingredient discovery company founded by Dr. Jasmin Hume. Its Flourish platform mines more than 77 million natural protein sequences to find functional proteins. Two Flourish ingredients are on sale: OleoPro structured fat and uPro texturising protein. Ingredion describes a joint programme with Shiru on prebiotic ingredients in a March 2026 article on its own site.",
     "source_urls": [
@@ -78517,8 +78608,17 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": "Matias Muchnick (CEO)",
-    "people": [],
+    "key_people": "Matias Muchnick (Founder and CEO); Karim Pichara (Co-founder and CTO)",
+    "people": [
+      {
+        "name": "Matias Muchnick",
+        "role": "Founder and CEO"
+      },
+      {
+        "name": "Karim Pichara",
+        "role": "Co-founder and CTO"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Plant-based food maker turned B2B AI vendor. NotCo AI (tech.notco.com) sells the Giuseppe platform for concept generation, formulation and simulated experiments to consumer goods makers. Its own case pages name PepsiCo (August 2026) and The Magnum Ice Cream Company (August 2026). The PepsiCo case is the drinks crossover. La Tercera reported on 8 September 2026 that NotCo is selling its Brazil consumer business after leaving Argentina and Uruguay.",
     "source_urls": [
@@ -78562,8 +78662,17 @@
     "ai_maturity": "pilot",
     "funding_stage": "Series A",
     "total_raised": "USD 9.8 million (Series A)",
-    "key_people": "Vicky Dodani (Co-founder); Saket Chirania (Co-founder); Arun Markish (Co-founder and CTO)",
-    "people": [],
+    "key_people": "Vicky Dodani (Co-founder and CEO); Saket Chirania (Co-founder)",
+    "people": [
+      {
+        "name": "Vicky Dodani",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Saket Chirania",
+        "role": "Co-founder"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Indian contract research, development and manufacturing firm for food, beverage and wellness brands. In May 2026 it launched a GenAI Formulation Studio (with an assistant called Aura on its site) that turns a brief into ranked formulations with quantities, costing, nutrition, allergen and compliance checks. The company claims up to 40% shorter development but names no customer result, so it is graded pilot. Series A funded (USD 9.8 million, August 2024, led by Accion and Omnivore).",
     "source_urls": [
@@ -78611,15 +78720,18 @@
     "people": [
       {
         "name": "Mikela Druckman",
-        "role": "CEO and Co-Founder"
+        "role": "CEO and Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/mikeladruckman"
       },
       {
         "name": "Ambarish Mitra",
-        "role": "Co-Founder"
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/ambarishmitra"
       },
       {
         "name": "Nikola Sivacki",
-        "role": "Co-Founder and Head of Deep Learning"
+        "role": "Co-Founder and Head of Deep Learning",
+        "linkedin": "https://www.linkedin.com/in/nikolasivacki"
       }
     ],
     "notable_customers_partners": null,
@@ -78666,8 +78778,17 @@
     "ai_maturity": "shipping",
     "funding_stage": "Project debt financing (USD 70M led by Galvanize, Sep 2026)",
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Tim Stuart (CEO); Matanya Horowitz (Founder and CTO)",
+    "people": [
+      {
+        "name": "Tim Stuart",
+        "role": "CEO"
+      },
+      {
+        "name": "Matanya Horowitz",
+        "role": "Founder and CTO"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "AMP builds and runs AI sorting systems and whole recovery facilities (AMP ONE) for single stream recycling and municipal solid waste. amprobotics.com now redirects to ampsortation.com. Its Sonoco case study trains its AMP Neuron neural network to recognise rigid paper food containers (coffee, nut and snack cans, refrigerated dough, infant formula) so recovery facilities can capture them. It also sells organics sorting that separates food waste down to 12 mm. The Sonoco case is undated on its site.",
     "source_urls": [
@@ -78711,8 +78832,17 @@
     "ai_maturity": "shipping",
     "funding_stage": "Public (Oslo Bors: TOM)",
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Lars Enge (EVP and Head of TOMRA Recycling); Nicolas Braem (PolyPerception CEO and Co-founder)",
+    "people": [
+      {
+        "name": "Lars Enge",
+        "role": "EVP and Head of TOMRA Recycling"
+      },
+      {
+        "name": "Nicolas Braem",
+        "role": "PolyPerception CEO and Co-founder"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "TOMRA Recycling sells sensor based sorting machines with GAINnext deep learning add-ons. In May 2026 it launched a GAINnext application that tells food grade PET trays (takeaway and supermarket) apart from other packaging, at over 95 percent purity. It also launched a used beverage can application, the drinks crossover. In the same release TOMRA raised its stake in AI waste analytics firm PolyPerception to 51 percent. tomra.com is Cloudflare walled to curl but WebFetch read the homepage, which carries the GAINnext and PolyPerception story. Its separate TOMRA Food division runs LUCAi deep learning grading on Spectrim lines for apples, citrus, stonefruit and kiwifruit. Freshplaza reported an AI-powered TOMRA 4C sorter for nuts and IQF at Interpack 2026.",
     "source_urls": [
@@ -78759,8 +78889,21 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Tal Tamir (CEO and Co-founder); Alon Yehezkley (CTO and Co-founder); Yaron Elboim (COO and Co-founder)",
+    "people": [
+      {
+        "name": "Tal Tamir",
+        "role": "CEO and Co-founder"
+      },
+      {
+        "name": "Alon Yehezkley",
+        "role": "CTO and Co-founder"
+      },
+      {
+        "name": "Yaron Elboim",
+        "role": "COO and Co-founder"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Wiliot makes battery free Bluetooth IoT Pixels, stamp sized smart labels that report location, temperature and humidity. Its Physical AI platform runs AI and ML models over that data for food traceability, grocery cold chain and quick service restaurant deliveries. FoodNavigator reports (10 Aug 2026) that Walmart will deploy 90 million Wiliot tags by end of 2026 to monitor cold chain compliance. Its own farm to fork case names only an unnamed grocery retailer.",
     "source_urls": [
@@ -78809,11 +78952,13 @@
     "people": [
       {
         "name": "Abhay Deshpande",
-        "role": "Founder and CEO"
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/abhay--deshpande"
       },
       {
         "name": "Vikram Prabhakar",
-        "role": "Co-Founder and Chief Product Officer"
+        "role": "Co-Founder and Chief Product Officer",
+        "linkedin": "https://www.linkedin.com/in/vikram-prabakar"
       }
     ],
     "notable_customers_partners": null,
@@ -78857,8 +79002,13 @@
     "ai_maturity": "none",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Alice Rackley (CEO)",
+    "people": [
+      {
+        "name": "Alice Rackley",
+        "role": "CEO"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Polytag prints invisible GS1 standard UV tags and Smart QR codes into food and drink labels, then reads the tags on sorting lines at 14 UK recycling sites to prove which packs were recycled. Its site cites an Ocado digital deposit return trial (2023). Press reports an Aldi and Arla milk bottle pilot (Aug 2026). It makes no AI claim: its site pitches the tags as data that AI cannot give. Included as the UK data layer brands and sorters build on. Named among TIME Best Inventions of 2026.",
     "source_urls": [
@@ -78900,8 +79050,17 @@
     "ai_maturity": "shipping",
     "funding_stage": "Series B",
     "total_raised": "EUR 12M Series A (2018) plus EUR 84M Series B (2023), per own milestones page",
-    "key_people": null,
-    "people": [],
+    "key_people": "Laurent Laporte (Co-founder, President and CEO); Sylvain Rubat du Merac (Co-founder and CTO)",
+    "people": [
+      {
+        "name": "Laurent Laporte",
+        "role": "Co-founder, President and CEO"
+      },
+      {
+        "name": "Sylvain Rubat du Merac",
+        "role": "Co-founder and CTO"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Industrial AI platform that prescribes optimal process settings for mixing, forming and cooking in food plants. Its food page names Avril as a customer. The Avril story describes running up to 1,000 process parameters per production cycle under current conditions. Food is one of five target industries, alongside paper, building materials, tyres and mining.",
     "source_urls": [
@@ -78946,8 +79105,17 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": "Harry Norman (Founder)",
-    "people": [],
+    "key_people": "Jake Norman (Managing Director); Mike O'Sullivan (Technology Director)",
+    "people": [
+      {
+        "name": "Jake Norman",
+        "role": "Managing Director"
+      },
+      {
+        "name": "Mike O'Sullivan",
+        "role": "Technology Director"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "UK food factory automation firm whose APRIL Eye AI vision system verifies date codes, labels and seals on packing lines and runs AI 3D inspection on products such as croissants, dough, meat and seafood. OAL says APRIL Eye was first developed with a major UK retailer in 2019 and that label verification is powered by Cognex. The second source (Peterborough Today, 11 May 2026, on a GBP 5 million investment and 100 jobs) was walled and not loaded by the scout.",
     "source_urls": [
@@ -78994,7 +79162,8 @@
     "people": [
       {
         "name": "Pieter Ieven",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/pieter-ieven"
       }
     ],
     "notable_customers_partners": null,
@@ -79043,7 +79212,8 @@
     "people": [
       {
         "name": "Mark J. Chiappetta",
-        "role": "President and CEO"
+        "role": "President and CEO",
+        "linkedin": "https://www.linkedin.com/in/markchiappetta"
       }
     ],
     "notable_customers_partners": null,
@@ -79087,8 +79257,17 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Tian Ming (Chairman); Shen Haibin (Vice Chairman and General Manager)",
+    "people": [
+      {
+        "name": "Tian Ming",
+        "role": "Chairman"
+      },
+      {
+        "name": "Shen Haibin",
+        "role": "Vice Chairman and General Manager"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Chinese optical sorter maker listed in Shenzhen (002690) whose MEYER sorters use deep learning on colour and shape data for rice, nuts, grains, tea, dried fruit, meat and seafood. The cited domain is the site of MEYER Europe, the exclusive official European representative; the Hefei parent site was not loaded. Named in September 2026 among 18 AI-sector firms in China's first batch of national emerging industry demonstration bases.",
     "source_urls": [
@@ -79130,8 +79309,13 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Katy Jones (Chief Executive Officer)",
+    "people": [
+      {
+        "name": "Katy Jones",
+        "role": "Chief Executive Officer"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Food compliance software covering formulation, labelling, specifications, traceability and recall (FoodLogiQ, Genesis Foods). Its site markets Trustwell AI across labels, specifications and recalls. On 15 Oct 2026 it launched Playbook, an AI supported tool inside FoodLogiQ Compliance that drafts compliance documentation. Customer quotes on its own site include Giraffe Food & Beverage; no brewery, distillery or winery named.",
     "source_urls": [
@@ -79174,8 +79358,17 @@
     "ai_maturity": "shipping",
     "funding_stage": "Seed",
     "total_raised": "GBP 1.8M (2022 round)",
-    "key_people": "Katrin Liivat (CEO and Co-founder), Karin Repp (Co-founder)",
-    "people": [],
+    "key_people": "Katrin Liivat (Co-founder and CEO); Karin Repp (Co-founder)",
+    "people": [
+      {
+        "name": "Katrin Liivat",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Karin Repp",
+        "role": "Co-founder"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Food safety management software that builds HACCP plans and daily monitoring tasks for restaurants, retail, care homes and producers. Its own site says the system uses machine learning on previous users data to set up tasks and cites more than 30,000 users, mostly in the US and UK. FoodNavigator reported its 2022 funding round for the HACCP AI product. Serves foodservice and food production; no drinks producer named.",
     "source_urls": [
@@ -79218,8 +79411,13 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Gerry Galloway (Co-founder and Co-CEO)",
+    "people": [
+      {
+        "name": "Gerry Galloway",
+        "role": "Co-founder and Co-CEO"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Food safety, HACCP, traceability, inventory and supplier compliance software that it describes as AI native, with an AI layer that flags problems in quality and production data and drafts records. A December 2025 release says its AI traceability platform is live in hundreds of food and beverage plants. Customers shown on its own site include Bushwick Tea and Leelanau Coffee alongside bakeries and co-packers.",
     "source_urls": [
@@ -79261,8 +79459,17 @@
     "ai_maturity": "none",
     "funding_stage": "Growth equity",
     "total_raised": "USD 50M (JMI Equity, 2021)",
-    "key_people": null,
-    "people": [],
+    "key_people": "Dean Brown (Chief Executive Officer); Randal Burrier (Chief Product and Technology Officer)",
+    "people": [
+      {
+        "name": "Dean Brown",
+        "role": "Chief Executive Officer"
+      },
+      {
+        "name": "Randal Burrier",
+        "role": "Chief Product and Technology Officer"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Plant management software that digitises quality checks, compliance records and CAPA for food and beverage manufacturers, used in 2,500+ facilities per its own site. Its homepage makes no AI claim, so it is listed as a system of record only. In December 2025 it added CAPA workflows. No brewery, distillery or winery named on the pages read.",
     "source_urls": [
@@ -79304,8 +79511,17 @@
     "ai_maturity": "none",
     "funding_stage": "Series A",
     "total_raised": "USD 6.5M (2020 Series A)",
-    "key_people": "Christine Schindler (CEO and Co-founder)",
-    "people": [],
+    "key_people": "Christine Schindler (Co-founder and CEO); Dutch Waanders (Co-founder and CTO)",
+    "people": [
+      {
+        "name": "Christine Schindler",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Dutch Waanders",
+        "role": "Co-founder and CTO"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Wall mounted HandScanner that images washed hands and flags contaminants in about two seconds, plus a SafetySuite of temperature, task and label tools for food service and food plants. TechCrunch (2020) describes image filters and algorithms; its own site makes no AI or machine learning claim, so it is graded none. Customers quoted include SSP America.",
     "source_urls": [
@@ -79347,8 +79563,21 @@
     "ai_maturity": "pilot",
     "funding_stage": "Series A",
     "total_raised": "USD 23M Series A (2025) after EUR 8M pre-seed",
-    "key_people": null,
-    "people": [],
+    "key_people": "Amine Raji (Co-founder and CEO); Maxime Mistretta (Co-founder and CTO); Mohamed Tazi (Co-founder and COO)",
+    "people": [
+      {
+        "name": "Amine Raji",
+        "role": "Co-founder and CEO"
+      },
+      {
+        "name": "Maxime Mistretta",
+        "role": "Co-founder and CTO"
+      },
+      {
+        "name": "Mohamed Tazi",
+        "role": "Co-founder and COO"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Microbiology testing device that detects, counts and identifies microorganisms without culture using a transformer based multimodal spectral imaging model. Its own site lists food and beverages among target fields. TechCrunch (Feb 2025) reported commercial contracts covering up to 200 factories; no named food or drinks customer found, so graded pilot. In January 2026 it hired a VP of scientific and regulatory affairs.",
     "source_urls": [
@@ -79435,8 +79664,13 @@
     "ai_maturity": "shipping",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Alan Lai (Founder and CEO)",
+    "people": [
+      {
+        "name": "Alan Lai",
+        "role": "Founder and CEO"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Portable analyser plus AI software that assesses and predicts the quality profile of ingredients such as coffee, tea, cocoa, grains, dairy and spices. In 2023 it signed contracts with Louis Dreyfus Company Brasil, Olam Agricola Brazil and Sucafina Brasil (backfill, missed by earlier sweeps). The coffee and tea work is the drinks crossover; Sucafina CEO is quoted on its own site.",
     "source_urls": [
@@ -79524,11 +79758,13 @@
     "people": [
       {
         "name": "Jennifer Hartsock",
-        "role": "Chief Information and Digital Officer"
+        "role": "Chief Information and Digital Officer",
+        "linkedin": "https://www.linkedin.com/in/jenniferhartsock"
       },
       {
         "name": "Brian Sikes",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/briansikes"
       }
     ],
     "notable_customers_partners": null,
@@ -79576,11 +79812,13 @@
     "people": [
       {
         "name": "Meenakshi Burra",
-        "role": "Foods Chief Digital and Information Officer and Chief Data Officer"
+        "role": "Foods Chief Digital and Information Officer and Chief Data Officer",
+        "linkedin": "https://www.linkedin.com/in/meenakshi-burra-7945171"
       },
       {
         "name": "Adam Raeburn-James",
-        "role": "Global VP Digital Business Operations"
+        "role": "Global VP Digital Business Operations",
+        "linkedin": "https://www.linkedin.com/in/adam-raeburn-james"
       }
     ],
     "notable_customers_partners": null,
@@ -79629,7 +79867,8 @@
     "people": [
       {
         "name": "Pat Nestor",
-        "role": "Head of Decision Intelligence Products and Platforms"
+        "role": "Former Head of Decision Intelligence Products and Platforms",
+        "linkedin": "https://www.linkedin.com/in/patnestor"
       }
     ],
     "notable_customers_partners": null,
@@ -79678,7 +79917,8 @@
     "people": [
       {
         "name": "Shubham Mehrish",
-        "role": "Global Head of Generative AI"
+        "role": "Chief AI and Technology Officer",
+        "linkedin": "https://www.linkedin.com/in/shubham-mehrish"
       }
     ],
     "notable_customers_partners": null,
@@ -79728,15 +79968,18 @@
     "people": [
       {
         "name": "Matt Schwartz",
-        "role": "CEO, Co-Founder"
+        "role": "CEO, Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/matt-schwartz-0b76a326"
       },
       {
         "name": "Nathan Fenner",
-        "role": "Chief Product Officer, Co-Founder"
+        "role": "Chief Product Officer, Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/nathan-fenner"
       },
       {
         "name": "Adam Litle",
-        "role": "Chief Revenue Officer"
+        "role": "Chief Revenue Officer",
+        "linkedin": "https://www.linkedin.com/in/adamlitle"
       }
     ],
     "notable_customers_partners": null,
@@ -79838,15 +80081,18 @@
     "people": [
       {
         "name": "Marco Perlman",
-        "role": "CEO, Co-Founder"
+        "role": "CEO, Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/marcoperlman"
       },
       {
         "name": "Aline Azevedo",
-        "role": "CPO, Co-Founder"
+        "role": "CPO, Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/alineazevedo"
       },
       {
         "name": "Bruno Schrappe",
-        "role": "CTO, Co-Founder"
+        "role": "CTO, Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/brunoschrappe"
       }
     ],
     "notable_customers_partners": null,
@@ -79896,11 +80142,13 @@
     "people": [
       {
         "name": "Marc Zornes",
-        "role": "Co-Founder"
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/marczornes"
       },
       {
         "name": "Kevin Duffy",
-        "role": "Co-Founder"
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/kevin-duffy"
       }
     ],
     "notable_customers_partners": null,
@@ -79950,7 +80198,8 @@
     "people": [
       {
         "name": "Andrew Shakman",
-        "role": "Founder, CEO"
+        "role": "Founder, CEO",
+        "linkedin": "https://www.linkedin.com/in/andrew-shakman-3861"
       }
     ],
     "notable_customers_partners": null,
@@ -80001,7 +80250,8 @@
     "people": [
       {
         "name": "Anastasia Dellis",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/anastasia-dellis"
       }
     ],
     "notable_customers_partners": null,
@@ -80054,7 +80304,8 @@
     "people": [
       {
         "name": "Krenar Komoni",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/komoni"
       }
     ],
     "notable_customers_partners": null,
@@ -80103,7 +80354,8 @@
     "people": [
       {
         "name": "Riana Lynn",
-        "role": "Founder and CEO"
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/rianalynn"
       }
     ],
     "notable_customers_partners": null,
@@ -80153,7 +80405,8 @@
     "people": [
       {
         "name": "Nora Khaldi",
-        "role": "Founder and CEO"
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/drnorakhaldi"
       }
     ],
     "notable_customers_partners": null,
@@ -80202,11 +80455,13 @@
     "people": [
       {
         "name": "Shannon Hall",
-        "role": "CEO and co-founder"
+        "role": "CEO and co-founder",
+        "linkedin": "https://www.linkedin.com/in/shannon-hall-sf"
       },
       {
         "name": "Ouwei Wang",
-        "role": "CTO"
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/ouwei-wang-2a0418158"
       }
     ],
     "notable_customers_partners": null,
@@ -80256,7 +80511,8 @@
     "people": [
       {
         "name": "Carla Borini Etichetti",
-        "role": "Co-founder and CTO"
+        "role": "Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/carla-borini-etichetti"
       }
     ],
     "notable_customers_partners": null,
@@ -80304,11 +80560,13 @@
     "people": [
       {
         "name": "Anastasia Hofmann",
-        "role": "Co-founder"
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/anastasiahofmann"
       },
       {
         "name": "Naomi MacKenzie",
-        "role": "Co-founder"
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/naomimack"
       }
     ],
     "notable_customers_partners": null,
@@ -80358,7 +80616,8 @@
     "people": [
       {
         "name": "Panos Kostopoulos",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/panos-ko"
       }
     ],
     "notable_customers_partners": null,
@@ -80407,7 +80666,8 @@
     "people": [
       {
         "name": "Jay Gilbert",
-        "role": "Lead, CoDeveloper"
+        "role": "Lead, CoDeveloper",
+        "linkedin": "https://www.linkedin.com/in/jaytgilbert"
       }
     ],
     "notable_customers_partners": null,
@@ -80455,7 +80715,8 @@
     "people": [
       {
         "name": "Francois Wayenberg",
-        "role": "CEO"
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/namasthay"
       },
       {
         "name": "Joel Bellenson",
@@ -80503,8 +80764,18 @@
     "ai_maturity": "research",
     "funding_stage": null,
     "total_raised": null,
-    "key_people": null,
-    "people": [],
+    "key_people": "Martijn Bekker (Program Manager Bioprocess Innovation and Analytics); Rianne Ruijschop (Food Tech Research Manager)",
+    "people": [
+      {
+        "name": "Martijn Bekker",
+        "role": "Program Manager Bioprocess Innovation and Analytics",
+        "linkedin": "https://www.linkedin.com/in/martijnbekker"
+      },
+      {
+        "name": "Rianne Ruijschop",
+        "role": "Food Tech Research Manager"
+      }
+    ],
     "notable_customers_partners": null,
     "short_description": "Applied research arm of Wageningen University and Research serving food producers. It offers FLAVOUR-AI, a fermentation screening tool that uses AI to choose microbe, substrate and enzyme combinations that cut off-flavours in plant-based products. It also applies optical sensing with AI to automated agri-food quality inspection. Green Queen (5 Oct 2026) reports its new Cibia future foods scale-up facility uses AI for data analysis. Services are offered to companies; no named customer result found.",
     "source_urls": [
@@ -80550,7 +80821,8 @@
     "people": [
       {
         "name": "Sridevi Annapurna Singh",
-        "role": "Director"
+        "role": "Former Director",
+        "linkedin": "https://www.linkedin.com/in/sridevi-annapurna-35b083174"
       }
     ],
     "notable_customers_partners": null,
