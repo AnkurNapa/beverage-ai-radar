@@ -7987,6 +7987,24 @@
     "verified": true
   },
   {
+    "name": "EasyBrew.ai",
+    "domain": "easybrew.ai",
+    "hq_location": "Virginia, United States",
+    "vertical": "beer",
+    "ai_use_case": "brewery management platform with computer vision yeast cell counting and demand forecasting",
+    "ai_maturity": "shipping",
+    "short_description": "Cloud brewery management platform owned by Aventurine Technologies Inc., a Virginia software company. It covers brewing, fermentation, inventory, purchasing, packaging, quality control, TTB compliance, sales and reporting, with BrewSphere 360, Yeast Vision and BrewLog as named products. The AI claims are its own: Yeast Vision counts yeast cells and reads viability from microscope images (stated at 99.5% accuracy), plus a chatbot over brewery data, demand forecasting and computer vision use cases for packaging loss and warehouse tracking. Named customers include Honors Brewing and Dynasty Brewery. No independent source was found on 21 Oct 2026, so every figure here is the vendor's.",
+    "source_urls": [
+      "https://easybrew.ai/about",
+      "https://easybrew.ai/customers",
+      "https://easybrew.ai/use-cases"
+    ],
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "discovered_by": "curated",
+    "verified": true
+  },
+  {
     "name": "Yokogawa Electric",
     "domain": "yokogawa.com",
     "hq_location": "Tokyo, Japan",

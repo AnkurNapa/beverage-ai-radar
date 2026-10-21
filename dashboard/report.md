@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-10-20. 1561 active, 181 dormant.
+Snapshot: 2026-10-21. 1562 active, 181 dormant.
 
 ## Active companies
 
@@ -500,6 +500,7 @@ Snapshot: 2026-10-20. 1561 active, 181 dormant.
 - **Earth Platforms** (wine, no ai claim, vineyard irrigation sensing and scheduling). Earth Platforms is an Oregon precision irrigation vendor selling the Stevens-Connect and Steelhead telemetry platforms, HydraGO soil sensing, a portable plant water status console and the HandiTrase TDR meter, listed in the wine buyer's guide under irrigation, flow meters and irrigation design. It serves Willamette Valley vineyards and other specialty crop growers. It is a sensing and scheduling vendor and makes no AI or machine learning claim.
 - **Earthly Labs (Chart Industries)** (multiple, co2 capture monitoring and performance tracking). Earthly Labs sells CiCi, a small footprint carbon capture and purification system that recovers fermentation CO2 at breweries and wineries and repurifies it to ISBT beverage grade for reuse in carbonation and production. It was acquired by Chart Industries and its installations are monitored through the Howden Uptime remote monitoring dashboard, which tracks capture volume and key performance indicators and interfaces with the Earthly Labs team. Named beverage installations include Real Ale Brewing Company and Maine Beer Company in beer and Opus One in Napa Valley in wine. The monitoring layer is telemetry and KPI dashboarding; no machine learning claim is made in the product material. People: Alex Calkins (Technical Solutions Manager, Earthly Labs).
 - **Easybeer (EASYLABS Solutions)** (beer, llm assistant over brewery erp data via mcp). French-language SaaS management platform for craft breweries covering brews, stock forecasts, orders, keg deposits, e-invoicing, French customs DRM returns and accounting, with a distillation module. Its Premium plan includes an AI assistant connected through an MCP server that answers natural-language questions about orders, customers and brews, plus AI pre-filling of customer and supplier orders and AI support. The AI is an LLM integration layer over the ERP data, not a proprietary brewing model. The publisher of record is EASYLABS Solutions Ltd in Mauritius, run by founder Brice Arrive. People: Brice Arrive (Founder and President, EASYLABS Solutions Ltd).
+- **EasyBrew.ai** (beer, brewery management platform with computer vision yeast cell counting and demand forecasting). Cloud brewery management platform owned by Aventurine Technologies Inc., a Virginia software company. It covers brewing, fermentation, inventory, purchasing, packaging, quality control, TTB compliance, sales and reporting, with BrewSphere 360, Yeast Vision and BrewLog as named products. The AI claims are its own: Yeast Vision counts yeast cells and reads viability from microscope images (stated at 99.5% accuracy), plus a chatbot over brewery data, demand forecasting and computer vision use cases for packaging loss and warehouse tracking. Named customers include Honors Brewing and Dynasty Brewery. No independent source was found on 21 Oct 2026, so every figure here is the vendor's.
 - **EasyCheck** (multiple, no ai claim, photo and gps verified retail execution records). EasyCheck sells field execution and point-of-sale asset tracking software to beer, wine and spirits distributors and the suppliers they represent. Reps log store visits with timestamped, GPS tagged photos so display setups, cooler placements and tap handle surveys become an auditable chain of custody record for supplier compliance disputes. Its own site and beverage distribution page make no artificial intelligence or machine learning claim: the product is a structured execution record and reporting layer, not a model. Exhibiting at the NBWA 89th Annual Convention Product Showcase in Orlando, October 2026.
 - **ebizframe (Eastern Software Systems)** (whiskey, erp for distillery and alcohol manufacturing). Indian enterprise software vendor (Eastern Software Systems, head office Noida) selling ebizframe Intelligent ERP with a dedicated distillery and alcohol manufacturing edition covering raw material purchase, production, inventory, quality control, regulatory compliance and distribution. The vendor markets the suite as AI enabled ERP and documents robotic process automation, natural language processing and an embedded business intelligence layer. Those are the vendor's own descriptions; no specific machine learning model applied to distillation or maturation is documented publicly, so the AI here is a platform-level claim rather than a demonstrated production model.
 - **eBottli** (wine, no ai claim; wine and spirits traceability ERP, MES and WMS). eBottli sells an integrated ERP, MES, WMS and automation platform for manufacturers needing real-time visibility, traceability and paperless operations, with a wine and spirits focus and a combination of software and smart hardware. Verified on the vendor site after a browser pass. The product is positioned on digitisation, connection and asset tracking; no machine-learning or AI claim is made anywhere on it, so it is tracked as a system of record rather than an AI vendor.
@@ -1754,7 +1755,7 @@ Snapshot: 2026-10-20. 1561 active, 181 dormant.
 
 - multiple: 483
 - wine: 474
-- beer: 405
+- beer: 406
 - whiskey: 129
 - food: 56
 - non_alcoholic: 14
@@ -3146,3 +3147,4 @@ Snapshot: 2026-10-20. 1561 active, 181 dormant.
 - ai sensory intelligence for taste and smell: 1
 - ai fermentation screening and optical quality inspection: 1
 - ai iron quantification in fortified foods: 1
+- brewery management platform with computer vision yeast cell counting and demand forecasting: 1
