@@ -23,8 +23,21 @@ def check(domain: str, get=None) -> bool | None:
         return False
     if get is None:
         get = _default_get
+    host = domain.removeprefix("https://").removeprefix("http://")
+    state = _check_host(host, get)
+    # Big corporate sites often serve only the www host: nongshim.com is a 404
+    # while fonterra.com refuses the connection, yet both companies are trading.
+    # The www answer can only improve the verdict (alive over blocked over dead).
+    if state is not True and not host.startswith("www."):
+        www = _check_host(f"www.{host}", get)
+        if www is True or (www is None and state is False):
+            return www
+    return state
+
+
+def _check_host(host: str, get) -> bool | None:
     try:
-        status = get(f"https://{domain.removeprefix('https://').removeprefix('http://')}")
+        status = get(f"https://{host}")
     except Exception:
         return None
     if status == DNS_MARKER:
