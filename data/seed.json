@@ -5262,10 +5262,11 @@
     "source_urls": [
       "https://www.proleit.com/",
       "https://www.se.com/ww/en/product-range/64119-plant-it/",
-      "https://cordis.europa.eu/project/id/853719"
+      "https://cordis.europa.eu/project/id/853719",
+      "https://www.braubeviale.de/de-DE/programm/"
     ],
     "first_seen": "1987-01-01",
-    "last_seen": "2026-10-07",
+    "last_seen": "2026-10-26",
     "key_people": "",
     "people": [],
     "discovered_by": "curated",
@@ -13962,10 +13963,12 @@
     "source_urls": [
       "https://www.gqm.de/loesungen/getraenkeindustrie/",
       "https://www.linkedin.com/company/gqm-mbh",
-      "https://www.braubeviale.com/en-US/exhibitors-and-products/"
+      "https://www.braubeviale.com/en-US/exhibitors-and-products/",
+      "https://gqm.de/ki-gestuetzte-liniensequenzoptimierung/",
+      "https://gqm.de/meckatzer-setzt-auf-digitales-energiemanagement-im-gqm-mes/"
     ],
     "first_seen": "2026-08-11",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-26",
     "discovered_by": "scout:tradeshow_de",
     "verified": false
   },
@@ -19954,10 +19957,11 @@
       "https://cdoiq-europe.org/2024/07/baptiste-bon-head-of-data-ai-demand-and-value-at-moet-hennessy/",
       "https://www.bevnet.com/pr/2024/06/26/mo%C3%ABt-hennessy-wine-estates-launches-interactive-ai-sommeli%C3%A8re-divine",
       "https://wineindustryadvisor.com/2026/10/07/moet-hennessy-directs-ai-to-sniff-out-a-stubborn-problem-in-winemaking/",
-      "https://www.thedrinksbusiness.com/2026/10/ai-learns-to-detect-wine-faults-before-humans-can/"
+      "https://www.thedrinksbusiness.com/2026/10/ai-learns-to-detect-wine-faults-before-humans-can/",
+      "https://www.vinetur.com/de/20261012108754/wine-industry-partners-unveil-ai-system-that-detects-defects-before-standard-tests.html"
     ],
     "first_seen": "2023-06-30",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "key_people": "Baptiste Bon (Head of Data & AI Demand and Value)",
     "people": [
       {
@@ -28552,6 +28556,41 @@
       }
     ],
     "discovered_by": "scout:food_events_research",
+    "verified": false
+  },
+  {
+    "name": "Palmaz Vineyards",
+    "domain": "palmazvineyards.com",
+    "hq_location": "Napa, USA",
+    "vertical": "wine",
+    "ai_use_case": "in-house fermentation control and vineyard irrigation prediction",
+    "ai_maturity": "shipping",
+    "short_description": "Napa Valley winery that built its own software on the production line. FILCS (Fermentation Intelligence Logic Control System) reads temperature and density sensors in the tanks and adjusts cooling and heating settings, and in 2017 it ran fermentation without staff during the Atlas Fire. VIGOR uses infrared imagery from biweekly flyovers to guide irrigation, which the winery says cut water use by 20 to 30 percent. These figures are the winery's own statements and are not independently verified.",
+    "source_urls": [
+      "https://palmazvineyards.com/Blog/Detail/2347",
+      "https://palmazvineyards.com/Blog/Detail/719",
+      "https://spectrumnews1.com/ca/la/business/2025/05/06/ai-helps-winemakers"
+    ],
+    "first_seen": "2017-10-11",
+    "last_seen": "2025-05-06",
+    "discovered_by": "scout:tradeshow_global",
+    "verified": false
+  },
+  {
+    "name": "LEVN GmbH",
+    "domain": "levn.io",
+    "hq_location": "Munich, Germany",
+    "vertical": "multiple",
+    "ai_use_case": "self-learning agents over production and ERP data for beverage plants",
+    "ai_maturity": "pilot",
+    "short_description": "Munich start-up showing a Weihenstephan-built AI platform in the BrauBeviale 2026 Pilot Area. Its self-learning agents make production and ERP data queryable so beverage plants can ask questions of their factory, run fully local. The company website is a one-line holding page (tagline 'Just ask your factory'), so there is no public product detail, pricing or customer evidence yet.",
+    "source_urls": [
+      "https://levn.io",
+      "https://www.braubeviale.de/de-DE/aussteller-und-produkte/"
+    ],
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "discovered_by": "scout:tradeshow_de",
     "verified": false
   }
 ]

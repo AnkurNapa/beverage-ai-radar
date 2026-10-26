@@ -1272,5 +1272,68 @@
   "surface": "food_events_research",
   "found": 8,
   "added": 6
+ },
+ {
+  "date": "2026-10-26",
+  "lane": "companies",
+  "surface": "tradeshow_global",
+  "found": 1,
+  "added": 1
+ },
+ {
+  "date": "2026-10-26",
+  "lane": "companies",
+  "surface": "tradeshow_asia",
+  "found": 0,
+  "added": 0,
+  "back_from": "2021-10-13"
+ },
+ {
+  "date": "2026-10-26",
+  "lane": "companies",
+  "surface": "tradeshow_de",
+  "found": 1,
+  "added": 1,
+  "back_from": "2021-10-08"
+ },
+ {
+  "date": "2026-10-26",
+  "lane": "companies",
+  "surface": "beer",
+  "found": 0,
+  "added": 0,
+  "back_from": "2020-10-08"
+ },
+ {
+  "date": "2026-10-26",
+  "lane": "companies",
+  "surface": "wine",
+  "found": 0,
+  "added": 0,
+  "back_from": "2021-10-13"
+ },
+ {
+  "date": "2026-10-26",
+  "lane": "companies",
+  "surface": "whiskey",
+  "found": 0,
+  "added": 0,
+  "back_from": "2020-10-08"
+ },
+ {
+  "date": "2026-10-26",
+  "lane": "companies",
+  "surface": "singapore",
+  "found": 0,
+  "added": 0,
+  "back_from": "2021-10-13"
+ },
+ {
+  "date": "2026-10-26",
+  "lane": "companies",
+  "surface": "equipment",
+  "found": 0,
+  "added": 0,
+  "back_from": "2021-10-13"
  }
 ]
