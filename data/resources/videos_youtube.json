@@ -1880,5 +1880,61 @@
     "url": "https://www.youtube.com/watch?v=ZPnXBR6p8fI",
     "vertical": "non_alcoholic",
     "summary": "Welcome to Factory Inside! Have you ever wondered how soft drinks are made? In this video, we take you inside a modern ..."
+  },
+  {
+    "title": "Hidden industrial AI secrets from beer, bees and more",
+    "channel": "Siemens Knowledge Hub",
+    "video_id": "VMAJPeZikTE",
+    "url": "https://www.youtube.com/watch?v=VMAJPeZikTE",
+    "vertical": "beer",
+    "summary": "As industrial AI becomes a necessity, process industry experts will face many challenges implementing the digital transformations ..."
+  },
+  {
+    "title": "Technology Challenge: Unlocking Unstructured Wine Reviews using OpenText Magellan",
+    "channel": "OpenText",
+    "video_id": "D8a44hItcgo",
+    "url": "https://www.youtube.com/watch?v=D8a44hItcgo",
+    "vertical": "wine",
+    "summary": "... extracting topics, categories, entities, and sentiment, visualizing the data, and then apply machine learning on the data to extract ..."
+  },
+  {
+    "title": "Talitha Venter, Part 1: Can AI Predict Harvests? | The Vineyard of Tomorrow | The Vinimark Podcast",
+    "channel": "Vinimark - The Wine Company",
+    "video_id": "jGw0u5Ftb4g",
+    "url": "https://www.youtube.com/watch?v=jGw0u5Ftb4g",
+    "vertical": "wine",
+    "summary": "AI is changing our world. The question is whether we can teach it to solve the problems that matter. In Part 1 of The Vineyard of ..."
+  },
+  {
+    "title": "Office Hours with Dave and Anita, Episode 4: Vineyard Automation and Mechanization",
+    "channel": "UC Davis Viticulture & Enology",
+    "video_id": "W39RAEaV7to",
+    "url": "https://www.youtube.com/watch?v=W39RAEaV7to",
+    "vertical": "wine",
+    "summary": "Vineyard Automation and Mechanization. In this Zoomcast, we feature Drs. Mason Earles and Kaan Kurtural. Mason discusses the ..."
+  },
+  {
+    "title": "Coca-Cola's Factory of the Future: Digital Twins and Industrial AI in Beverage Manufacturing",
+    "channel": "Siemens",
+    "video_id": "CjVsewDPX3w",
+    "url": "https://www.youtube.com/watch?v=CjVsewDPX3w",
+    "vertical": "multiple",
+    "summary": "This session brings together Coca-Cola Europacific Partners, Accenture, and Siemens to discuss the Coca-Cola system's factory ..."
+  },
+  {
+    "title": "5 Vision AI Use Cases for Food and Beverage Manufacturing",
+    "channel": "ClearObject",
+    "video_id": "_k2g5cmliKA",
+    "url": "https://www.youtube.com/watch?v=_k2g5cmliKA",
+    "vertical": "multiple",
+    "summary": "Explore 5 Vision AI Use Cases for Food & Beverage Manufacturing and how this cutting-edge technology revolutionizes the ..."
+  },
+  {
+    "title": "Webinar: AI for the Food and Beverage Industry",
+    "channel": "Synaptiq",
+    "video_id": "j-rivGDz27Q",
+    "url": "https://www.youtube.com/watch?v=j-rivGDz27Q",
+    "vertical": "multiple",
+    "summary": "Discover how leading food and beverage manufacturers are using AI to overcome industry challenges. From preventing supply ..."
   }
 ]
