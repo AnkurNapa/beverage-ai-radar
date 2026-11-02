@@ -1147,7 +1147,7 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
 /* --- Radar sweep ----------------------------------------------------------
    The rings above stop being decoration once this is over them: they read as
    range rings. A conic gradient gives the whole beam, including its trailing
-   decay, in one paint, rotated on the compositor.
+   decay, in one paint.
 
    Slow on purpose. A real radar sweeps every few seconds and that speed is
    what makes most radar backgrounds feel cheap: it demands attention on a loop.
@@ -1155,21 +1155,21 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
    round, so you catch it at the edge of vision and then forget about it. 26s
    was tried first and still read as motion rather than as atmosphere. */
 .ambient__sweep {
-  background: conic-gradient(from 0deg at var(--ax, 50%) var(--ay, 40%),
+  background: conic-gradient(from var(--sweep) at var(--ax, 50%) var(--ay, 40%),
     color-mix(in oklab, var(--radar) 60%, transparent) 0deg,
     transparent 26deg, transparent 360deg);
   opacity: .3;
   mask-image: radial-gradient(circle at var(--ax, 50%) var(--ay, 40%),
     #000 0 42%, transparent 66%);
+  /* The gradient angle turns, not the layer. Rotating this oversized masked
+     layer made Chrome on Windows draw it in tiles out of step with each
+     other, so the beam strobed across the page in pieces. */
   animation: ambient-sweep 72s linear infinite;
-  /* Pivot on the beam's own apex. The default centre made the apex orbit the
-     page whenever a view moved --ax or --ay off 50%. */
-  transform-origin: var(--ax, 50%) var(--ay, 40%);
-  will-change: transform;
 }
+@property --sweep { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
 @keyframes ambient-sweep {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
+  from { --sweep: 0deg; }
+  to   { --sweep: 360deg; }
 }
 
 /* Blips. Each one's animation-delay is derived from its angle in the markup,
