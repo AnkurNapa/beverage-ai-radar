@@ -1372,8 +1372,16 @@ function resCard(r) {
       <h3 class="res__title">${title}</h3>
       ${r.meta ? `<div class="res__meta">${esc(r.meta)}</div>` : ""}
       ${r.summary ? `<p class="res__sum">${esc(r.summary)}</p>` : ""}
+      ${mapLink(r)}
     </div>
   </article>`;
+}
+
+// Papers with a DOI open the Paper map started from that paper.
+function mapLink(r) {
+  if (r.kind !== "paper") return "";
+  const m = /10\.\d{4,9}\/[^\s?#]+/.exec(r.url || "");
+  return m ? `<a class="res__map" href="papermap.html?q=${encodeURIComponent(m[0])}">Map related papers</a>` : "";
 }
 
 // The publisher lives in a different field per kind: videos carry channel,

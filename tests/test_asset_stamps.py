@@ -19,3 +19,12 @@ def test_stamps_match_file_contents():
         assert m, f"{name} has no ?v= stamp in index.html"
         want = hashlib.sha1((DASH / name).read_bytes()).hexdigest()[:10]
         assert m.group(1) == want, f"{name} stamp is stale: run python3 scripts/stamp_assets.py"
+
+
+def test_papermap_stamps_match_file_contents():
+    page = (DASH / "papermap.html").read_text()
+    for name in ("styles.css", "ux.js", "papermap.js"):
+        m = re.search(re.escape(name) + r"\?v=([0-9a-f]+)", page)
+        assert m, f"{name} has no ?v= stamp in papermap.html"
+        want = hashlib.sha1((DASH / name).read_bytes()).hexdigest()[:10]
+        assert m.group(1) == want, f"{name} stamp is stale in papermap.html: run python3 scripts/stamp_assets.py"

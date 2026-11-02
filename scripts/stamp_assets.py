@@ -20,6 +20,8 @@ ASSETS = ("app.js", "styles.css")
 # ES module imports carry their own cache-bust query. app.js imports ux.js, and
 # a stale cached module is exactly as invisible as a stale cached app.js was.
 MODULE_IMPORTS = {"dashboard/app.js": ("ux.js",)}
+# Standalone pages that load shared assets carry their own stamps.
+PAGES = {"papermap.html": ("styles.css", "ux.js", "papermap.js")}
 
 
 def main() -> int:
@@ -55,6 +57,17 @@ def main() -> int:
         name = Path(importer).name
         html2 = re.sub(rf"({re.escape(name)}\?v=)([0-9a-f]+)", rf"\g<1>{d2}", html2)
         INDEX.write_text(html2)
+    for page, assets in PAGES.items():
+        path = ROOT / "dashboard" / page
+        text = path.read_text()
+        for name in assets:
+            digest = hashlib.sha1((ROOT / "dashboard" / name).read_bytes()).hexdigest()[:10]
+            pattern = re.compile(rf"({re.escape(name)}\?v=)([0-9a-f]+)")
+            m = pattern.search(text)
+            if m and m.group(2) != digest:
+                changed.append(f"{page} -> {name}: {m.group(2)} -> {digest}")
+            text = pattern.sub(rf"\g<1>{digest}", text)
+        path.write_text(text)
     print("\n".join(f"  {c}" for c in changed) if changed else "  already current")
     return 0
 

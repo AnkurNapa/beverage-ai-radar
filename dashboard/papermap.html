@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Paper Map | Beverage-AI Radar</title>
+<meta name="description" content="Start from any paper on beer, whiskey or wine science and see the research around it: shared references, citations and topics, drawn as a map. Built on OpenAlex." />
+<meta name="author" content="Ankur Napa" />
+<link rel="canonical" href="https://ankurnapa.github.io/beverage-ai-radar/papermap.html" />
+<meta name="robots" content="index, follow" />
+<script>
+  // Before first paint, same as index.html, so dark readers get no light flash.
+  (function () {
+    try {
+      var t = localStorage.getItem("radar-theme");
+      if (t === "dark" || t === "light") document.documentElement.dataset.theme = t;
+    } catch (e) { /* private mode: follow the OS preference */ }
+  })();
+</script>
+<meta name="theme-color" content="#F5F4F1" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#0b0f14" media="(prefers-color-scheme: dark)" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📡</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400&display=swap" />
+<link rel="stylesheet" href="styles.css?v=e0cc394519" />
+<style>
+  .pm-hero { padding: 2.75rem 2.5rem 2rem; border-bottom: 1px solid var(--line); background: var(--surface); }
+  .pm-hero .hero__title { font-size: clamp(2.2rem, 1.4rem + 2.6vw, 3.2rem); margin: .8rem 0 .9rem; }
+  .pm-hero .hero__lede { font-size: clamp(1.05rem, .95rem + .4vw, 1.3rem); margin: 0; max-width: 70ch; }
+  .pm-hero .hero__eyebrow { justify-content: flex-start; }
+  .pm-inner { max-width: 1240px; margin: 0 auto; }
+  .pm-search { display: flex; gap: 1rem; margin-top: 1.75rem; align-items: end; flex-wrap: wrap; }
+  .pm-search input {
+    flex: 1 1 360px; font: inherit; font-size: 1.05rem; font-weight: 300; padding: .8rem 0;
+    color: var(--ink); background: transparent; border: 0; border-bottom: 1px solid var(--line-strong); border-radius: 0;
+  }
+  .pm-search input::placeholder { color: var(--muted); }
+  .pm-search input:focus { outline: none; border-bottom: 2px solid var(--accent); }
+  .pm-topics { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.1rem; }
+  .pm-status { margin: 1rem 0 0; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); min-height: 1.3em; }
+  .pm-status.is-err { color: #a4262c; }
+  .pm-main {
+    display: grid; grid-template-columns: 330px minmax(0, 1fr) 380px;
+    max-width: 1440px; margin: 0 auto; border-bottom: 1px solid var(--line);
+    height: calc(100vh - 76px); min-height: 560px;
+  }
+  .pm-col { overflow: auto; min-width: 0; }
+  .pm-list { border-right: 1px solid var(--line); }
+  .pm-panel { border-left: 1px solid var(--line); padding: 1.75rem 1.75rem 2.5rem; }
+  .pm-tabs { display: flex; position: sticky; top: 0; z-index: 2; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .pm-tabs .tab { flex: 1 1 auto; padding: 1rem .2rem; font-size: .66rem; letter-spacing: .06em; text-align: center; }
+  /* styles.css hides the hero outside the home view; this page needs it */
+  body[data-view="papermap"] .pm-hero .hero__eyebrow { display: flex; }
+  body[data-view="papermap"] .pm-hero .hero__title, body[data-view="papermap"] .pm-hero .hero__lede { display: block; }
+  .pm-items { list-style: none; margin: 0; padding: 0; }
+  .pm-items li { padding: 1rem 1.25rem; border-bottom: 1px solid var(--line); cursor: pointer; transition: background .15s ease; }
+  .pm-items li:hover, .pm-items li.is-on { background: var(--surface); }
+  .pm-items li.is-on { box-shadow: inset 3px 0 var(--accent); }
+  .pm-items .t { color: var(--ink); font-family: var(--serif); font-size: 1.02rem; line-height: 1.3; }
+  .pm-items .m { color: var(--muted); font-size: .78rem; margin-top: .3rem; }
+  .pm-items .is-empty { cursor: default; color: var(--muted); font-size: .9rem; }
+  .pm-items .is-empty:hover { background: none; }
+  .pm-items .pm-actions { display: flex; gap: .5rem; flex-wrap: wrap; cursor: default; }
+  .pm-graph { position: relative; background: var(--bg); }
+  .pm-graph svg { width: 100%; height: 100%; display: block; }
+  .pm-graph .node circle { fill: var(--accent); stroke: var(--bg); stroke-width: 1.5; cursor: pointer; transition: stroke .15s ease; }
+  .pm-graph .node.is-radar circle { stroke: var(--v-beer); stroke-width: 3; }
+  .pm-graph .node.is-origin circle { stroke: var(--ink); stroke-width: 3.5; }
+  .pm-graph .node.is-on circle { stroke: var(--accent-hover); stroke-width: 4; }
+  .pm-graph .node text { font: 10px var(--font); fill: var(--body); pointer-events: none; paint-order: stroke; stroke: var(--bg); stroke-width: 3px; }
+  .pm-graph .link { stroke: var(--line-strong); stroke-opacity: .7; }
+  .pm-graph .is-dim { opacity: .12; }
+  .pm-legend {
+    position: absolute; left: 1.25rem; bottom: 1rem; right: 1.25rem; display: flex; flex-wrap: wrap; gap: .4rem 1.25rem;
+    font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); pointer-events: none;
+  }
+  .pm-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: .4rem; vertical-align: -1px; }
+  .pm-empty-graph { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 2rem; color: var(--muted); }
+  .pm-empty-graph p { font-family: var(--serif); font-size: 1.4rem; color: var(--ink); margin: 0 0 .5rem; }
+  .pm-panel h2 { font-family: var(--serif); font-weight: 400; font-size: 1.6rem; line-height: 1.2; color: var(--ink); margin: .75rem 0 .6rem; }
+  .pm-panel .res__meta { color: var(--muted); font-size: .85rem; }
+  .pm-panel .pm-abs { font-size: .95rem; line-height: 1.6; }
+  .pm-panel .pm-row { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.25rem 0; }
+  .pm-panel .pm-hint { color: var(--muted); }
+  .pm-key { max-width: 1240px; margin: 0 auto; padding: 1.5rem 2.5rem 3rem; color: var(--muted); font-size: .9rem; }
+  .pm-key summary { cursor: pointer; letter-spacing: .1em; text-transform: uppercase; font-size: .75rem; }
+  .pm-key form { display: flex; gap: .75rem; align-items: end; margin-top: .75rem; flex-wrap: wrap; }
+  .pm-key input { font: inherit; padding: .5rem 0; background: transparent; color: var(--ink); border: 0; border-bottom: 1px solid var(--line-strong); flex: 0 1 340px; }
+  .ghint.is-solid { background: var(--accent); color: #fff; }
+  :root[data-theme="dark"] .ghint.is-solid { color: var(--navy); }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ghint.is-solid { color: var(--navy); } }
+  a.tab { text-decoration: none; display: inline-flex; align-items: center; }
+  @media (max-width: 1100px) {
+    .pm-main { grid-template-columns: 300px minmax(0, 1fr); }
+    .pm-panel { grid-column: 1 / -1; border-left: 0; border-top: 1px solid var(--line); }
+  }
+  @media (max-width: 760px) {
+    .pm-hero { padding: 2rem 1rem 1.5rem; }
+    .pm-main { grid-template-columns: 1fr; height: auto; }
+    .pm-graph { height: 72vh; order: -1; }
+    .pm-list { border-right: 0; border-top: 1px solid var(--line); max-height: 70vh; }
+    .pm-panel { padding: 1.5rem 1rem 2rem; }
+    .pm-key { padding: 1.5rem 1rem 2.5rem; }
+  }
+</style>
+</head>
+<body data-view="papermap">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="topbar__brand" href="./">Beverage-AI&nbsp;Radar</a>
+      <nav class="topnav" aria-label="Sections">
+        <a class="tab" data-short="Radar" href="./">Radar home</a>
+        <a class="tab is-active" data-short="Paper map" href="papermap.html" aria-current="page">Paper map</a>
+      </nav>
+      <div class="topbar__util">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch between light and dark theme">
+          <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+          <span class="theme-toggle__label">Theme</span>
+        </button>
+        <span aria-hidden="true">|</span>
+        <a href="https://github.com/AnkurNapa/beverage-ai-radar" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <header class="pm-hero">
+    <div class="pm-inner">
+      <div class="hero__eyebrow"><span aria-hidden="true">📡</span> Paper map</div>
+      <h1 class="hero__title">Map the research around a paper</h1>
+      <p class="hero__lede">Pick a paper on beer, whiskey or wine science. The map shows the papers around it: the ones it builds on, the ones that cite it and the ones on the same question. Papers sit closer when they share references, cite each other or share topics.</p>
+      <form class="pm-search" id="pm-form">
+        <input type="search" id="pm-q" placeholder="Paper title, topic, DOI (10.xxxx) or OpenAlex ID (W123)" aria-label="Search for a paper" />
+        <button class="ghint is-solid" type="submit">Search</button>
+      </form>
+      <div class="pm-topics" id="pm-topics" aria-label="Start from a topic"></div>
+      <p class="pm-status" id="pm-status" role="status"></p>
+    </div>
+  </header>
+
+  <main id="main" class="pm-main">
+    <aside class="pm-col pm-list" aria-label="Paper lists">
+      <div class="pm-tabs" role="tablist">
+        <button class="tab is-active" type="button" role="tab" data-tab="radar" aria-selected="true">On the Radar</button>
+        <button class="tab" type="button" role="tab" data-tab="graph" aria-selected="false">In the map</button>
+        <button class="tab" type="button" role="tab" data-tab="prior" aria-selected="false">Prior works</button>
+        <button class="tab" type="button" role="tab" data-tab="saved" aria-selected="false">Saved</button>
+      </div>
+      <ol class="pm-items" id="pm-items"></ol>
+    </aside>
+    <section class="pm-col pm-graph" id="pm-graph" aria-label="Paper map">
+      <svg id="pm-svg" role="img" aria-label="Map of related papers"></svg>
+      <div class="pm-empty-graph" id="pm-empty">
+        <div><p>No map yet</p>Search above, pick a topic or start from a paper on the Radar.</div>
+      </div>
+      <div class="pm-legend" id="pm-legend" hidden>
+        <span>Size: citations</span>
+        <span>Shade: older (pale) to newer (solid)</span>
+        <span><i style="background: var(--accent); box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--ink)"></i>Starting paper</span>
+        <span><i style="background: var(--accent); box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--v-beer)"></i>Also on the Radar</span>
+      </div>
+    </section>
+    <aside class="pm-col pm-panel" id="pm-panel" aria-label="Paper details">
+      <p class="pm-hint">Click a paper to read its abstract, open it or start a new map from it.</p>
+    </aside>
+  </main>
+
+  <details class="pm-key">
+    <summary>Data source and API key</summary>
+    <p>Papers, references and citations come from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>, an open index of research. Without a key, OpenAlex gives a small free daily budget shared by your network; one map uses about five calls. A free key from openalex.org/settings/api gives you your own budget. The key stays in this browser.</p>
+    <form id="pm-keyform">
+      <input type="password" id="pm-key" placeholder="OpenAlex api_key" aria-label="OpenAlex API key" />
+      <button class="ghint" type="submit">Save key</button>
+    </form>
+  </details>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js" integrity="sha384-su5kReKyYlIFrI62mbQRKXHzFobMa7BHp1cK6julLPbnYcCW9NIZKJiTODjLPeDh" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="module" src="ux.js?v=41fa1b8bbe"></script>
+  <script src="papermap.js?v=bb949d0f42"></script>
+</body>
+</html>
