@@ -1079,6 +1079,8 @@ body > *:not(.ambient) { position: relative; z-index: 1; }
     transparent 79.5px 160px);
   opacity: .05;
   animation: ambient-drift 38s cubic-bezier(.42, 0, .58, 1) infinite alternate;
+  /* Grow and turn about the ring centre so the rings stay put. */
+  transform-origin: var(--ax, 50%) var(--ay, 40%);
   will-change: transform;
 }
 
@@ -1160,6 +1162,9 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
   mask-image: radial-gradient(circle at var(--ax, 50%) var(--ay, 40%),
     #000 0 42%, transparent 66%);
   animation: ambient-sweep 72s linear infinite;
+  /* Pivot on the beam's own apex. The default centre made the apex orbit the
+     page whenever a view moved --ax or --ay off 50%. */
+  transform-origin: var(--ax, 50%) var(--ay, 40%);
   will-change: transform;
 }
 @keyframes ambient-sweep {
