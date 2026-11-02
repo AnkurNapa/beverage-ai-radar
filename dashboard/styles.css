@@ -1131,10 +1131,12 @@ body[data-view="about"]     .ambient__rings { --ax: 50%; --ay: 42%; opacity: .07
 
 
 /* Motion is a preference. Reduced motion holds the geometry still rather than
-   removing it, so the page does not restyle for those readers. */
+   removing it, so the page does not restyle for those readers. The .ambient
+   prefix outranks the sweep and blip rules further down. Without it they won
+   on source order. The global .01ms rule then spun the beam every frame. */
 @media (prefers-reduced-motion: reduce) {
-  .ambient__rings, .ambient__grid, .ambient__sweep { animation: none; }
-  .ambient__blips i { animation: none; opacity: .5; }
+  .ambient .ambient__rings, .ambient .ambient__grid, .ambient .ambient__sweep { animation: none; }
+  .ambient .ambient__blips i { animation: none; opacity: .5; }
 }
 
 /* A phone is a small canvas held close to the face; the field is heavier there
