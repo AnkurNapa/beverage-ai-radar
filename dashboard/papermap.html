@@ -92,12 +92,16 @@
   :root[data-theme="dark"] .ghint.is-solid { color: var(--navy); }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ghint.is-solid { color: var(--navy); } }
   a.tab { text-decoration: none; display: inline-flex; align-items: center; }
-  .pm-split { position: absolute; top: 0; bottom: 0; width: 9px; margin-left: -4px; z-index: 3; cursor: col-resize; touch-action: none; }
-  .pm-split::after { content: ""; position: absolute; inset: 0 4px; background: transparent; transition: background .15s ease; }
+  .pm-split { position: absolute; top: 0; bottom: 0; width: 15px; margin-left: -7px; z-index: 3; cursor: col-resize; touch-action: none; }
+  .pm-split::after { content: ""; position: absolute; top: 0; bottom: 0; left: 6px; width: 3px; background: transparent; transition: background .15s ease; }
+  .pm-split::before { content: ""; position: absolute; top: 50%; left: 3px; width: 9px; height: 44px; margin-top: -22px; z-index: 1;
+    background: var(--bg) radial-gradient(circle, var(--muted) 1.2px, transparent 1.6px) center / 9px 8px repeat-y;
+    border: 1px solid var(--line-strong); }
   .pm-split:hover::after, .pm-split:focus-visible::after, .pm-split.is-drag::after { background: var(--accent); }
+  .pm-split:hover::before, .pm-split:focus-visible::before, .pm-split.is-drag::before { border-color: var(--accent); }
   .pm-split:focus-visible { outline: none; }
   .pm-split--l { left: var(--pm-l); }
-  .pm-split--r { right: var(--pm-r); margin-left: 0; margin-right: -4px; }
+  .pm-split--r { right: var(--pm-r); margin-left: 0; margin-right: -8px; }
   .pm-main.is-resizing { cursor: col-resize; user-select: none; }
   @media (max-width: 1100px) {
     .pm-split { display: none; }
