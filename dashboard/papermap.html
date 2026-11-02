@@ -41,7 +41,8 @@
   .pm-status { margin: 1rem 0 0; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); min-height: 1.3em; }
   .pm-status.is-err { color: #a4262c; }
   .pm-main {
-    display: grid; grid-template-columns: 330px minmax(0, 1fr) 380px;
+    --pm-l: 330px; --pm-r: 380px; position: relative;
+    display: grid; grid-template-columns: var(--pm-l) minmax(0, 1fr) var(--pm-r);
     max-width: 1440px; margin: 0 auto; border-bottom: 1px solid var(--line);
     height: calc(100vh - 76px); min-height: 560px;
   }
@@ -91,7 +92,15 @@
   :root[data-theme="dark"] .ghint.is-solid { color: var(--navy); }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ghint.is-solid { color: var(--navy); } }
   a.tab { text-decoration: none; display: inline-flex; align-items: center; }
+  .pm-split { position: absolute; top: 0; bottom: 0; width: 9px; margin-left: -4px; z-index: 3; cursor: col-resize; touch-action: none; }
+  .pm-split::after { content: ""; position: absolute; inset: 0 4px; background: transparent; transition: background .15s ease; }
+  .pm-split:hover::after, .pm-split:focus-visible::after, .pm-split.is-drag::after { background: var(--accent); }
+  .pm-split:focus-visible { outline: none; }
+  .pm-split--l { left: var(--pm-l); }
+  .pm-split--r { right: var(--pm-r); margin-left: 0; margin-right: -4px; }
+  .pm-main.is-resizing { cursor: col-resize; user-select: none; }
   @media (max-width: 1100px) {
+    .pm-split { display: none; }
     .pm-main { grid-template-columns: 300px minmax(0, 1fr); }
     .pm-panel { grid-column: 1 / -1; border-left: 0; border-top: 1px solid var(--line); }
   }
@@ -161,6 +170,8 @@
         <span><i style="background: var(--accent); box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--v-beer)"></i>Also on the Radar</span>
       </div>
     </section>
+    <div class="pm-split pm-split--l" data-side="l" role="separator" aria-orientation="vertical" aria-label="Resize the list panel" tabindex="0" title="Drag to resize, double click to reset"></div>
+    <div class="pm-split pm-split--r" data-side="r" role="separator" aria-orientation="vertical" aria-label="Resize the details panel" tabindex="0" title="Drag to resize, double click to reset"></div>
     <aside class="pm-col pm-panel" id="pm-panel" aria-label="Paper details">
       <p class="pm-hint">Click a paper to read its abstract, open it or start a new map from it.</p>
     </aside>
@@ -177,6 +188,6 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js" integrity="sha384-su5kReKyYlIFrI62mbQRKXHzFobMa7BHp1cK6julLPbnYcCW9NIZKJiTODjLPeDh" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script type="module" src="ux.js?v=41fa1b8bbe"></script>
-  <script src="papermap.js?v=bb949d0f42"></script>
+  <script src="papermap.js?v=16f945a753"></script>
 </body>
 </html>

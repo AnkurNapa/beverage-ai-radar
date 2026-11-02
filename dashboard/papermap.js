@@ -324,11 +324,56 @@
     }
   }
 
+  // Drag handles set the side panel widths; the map keeps at least MAP_MIN pixels.
+  function setupSplits() {
+    const main = $(".pm-main");
+    const DEF = { l: 330, r: 380 }, MIN = 220, MAP_MIN = 320;
+    const cols = Object.assign({}, DEF, store.get("pm-cols", {}));
+    const apply = () => {
+      const room = main.clientWidth - MAP_MIN;
+      ["l", "r"].forEach((k) => {
+        const other = cols[k === "l" ? "r" : "l"];
+        cols[k] = Math.round(Math.max(MIN, Math.min(cols[k], room - other)));
+        main.style.setProperty("--pm-" + k, cols[k] + "px");
+      });
+      document.querySelectorAll(".pm-split").forEach((h) => h.setAttribute("aria-valuenow", cols[h.dataset.side]));
+    };
+    const save = () => store.set("pm-cols", cols);
+    document.querySelectorAll(".pm-split").forEach((h) => {
+      const k = h.dataset.side;
+      h.addEventListener("pointerdown", (e) => {
+        e.preventDefault(); h.setPointerCapture(e.pointerId);
+        h.classList.add("is-drag"); main.classList.add("is-resizing");
+        const box = main.getBoundingClientRect();
+        const move = (ev) => { cols[k] = k === "l" ? ev.clientX - box.left : box.right - ev.clientX; apply(); };
+        const up = () => { h.removeEventListener("pointermove", move); h.classList.remove("is-drag"); main.classList.remove("is-resizing"); save(); };
+        h.addEventListener("pointermove", move);
+        h.addEventListener("pointerup", up, { once: true });
+      });
+      h.addEventListener("dblclick", () => { cols[k] = DEF[k]; apply(); save(); });
+      h.addEventListener("keydown", (e) => {
+        const step = e.shiftKey ? 60 : 20;
+        const grow = k === "l" ? { ArrowRight: step, ArrowLeft: -step } : { ArrowLeft: step, ArrowRight: -step };
+        if (!(e.key in grow)) return;
+        e.preventDefault(); cols[k] += grow[e.key]; apply(); save();
+      });
+    });
+    apply();
+    window.addEventListener("resize", apply);
+    // Re-centre the map when its column changes width.
+    new ResizeObserver(() => {
+      if (!sim) return;
+      const b = $("#pm-svg").getBoundingClientRect();
+      sim.force("x", d3.forceX(b.width / 2).strength(0.05)).force("y", d3.forceY(b.height / 2).strength(0.05)).alpha(0.3).restart();
+    }).observe($("#pm-graph"));
+  }
+
   document.querySelectorAll(".pm-tabs .tab").forEach((b) => b.addEventListener("click", () => setTab(b.dataset.tab)));
   $("#pm-form").addEventListener("submit", (e) => { e.preventDefault(); search($("#pm-q").value); });
   $("#pm-keyform").addEventListener("submit", (e) => { e.preventDefault(); store.set("pm-key", $("#pm-key").value.trim()); status("Key saved in this browser."); });
   TOPICS.forEach((t) => $("#pm-topics").append(button(t, () => { $("#pm-q").value = t; search(t); })));
   $("#pm-key").value = store.get("pm-key", "");
+  setupSplits();
   renderList();
   loadRadar();
   const start = new URLSearchParams(location.search).get("q");
