@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-10-29. 1613 active, 195 dormant.
+Snapshot: 2026-11-02. 1609 active, 199 dormant.
 
 ## Active companies
 
@@ -868,7 +868,6 @@ Snapshot: 2026-10-29. 1613 active, 195 dormant.
 - **Last Call Analytics** (multiple, retail sales analytics for beverage alcohol). Last Call Analytics turns store-level retail and distributor sales data into dashboards for beverage alcohol producers, agencies, distributors and industry associations in Canada and the United States. It covers performance benchmarking, competitor comparison, distribution gap detection and inventory visibility, with published case studies including Social Lite Vodka and Bruce Ashley Group. Its site describes an Assisted Insight Engine that flags declining SKUs, underperforming stores and distribution gaps, but it makes no explicit machine learning claim, so this reads as rules-driven exception reporting rather than a predictive model. It was acquired by cannabis software company Ample Organics in January 2019 and continues to operate under its own brand.
 - **Latitudo (Automate Group)** (wine, sensorless vineyard phenology and drought forecasting). Italian data analytics and AI software company in the Automate Group, with an office at Via Modonesi 12, Piacenza. Its BIG VITE APP predicts budburst, flowering and veraison dates and warns of water stress in vineyards from weather big data, without field sensors. A 2023 Scientific Reports paper co-authored by Latitudo Srl staff with Universita Cattolica del Sacro Cuore describes the web app, calibrated on 25 vineyards in Emilia Romagna over 2021 and 2022.
 - **Laura Gil** (beer, data and ai hub for hospitality customer service). Chief Digital and Data Officer of Damm, the Barcelona brewer. In March 2025 she presented IAmm, Damm's data and AI hub of about 100 professionals, aimed at democratising data access and applying AI across the company including service to hospitality customers. People: [Laura Gil](https://www.linkedin.com/in/lgilcenteno/) (Chief Digital and Data Officer, Damm).
-- **Le Ble d'Or** (beer, ai ordering kiosk, dish image recognition, purchasing forecasts). Taiwanese craft brewery restaurant chain (Jin Se San Mai) known for its longan honey beer, with more than 20 brewpub restaurants in Taiwan and two in China. With Star Yixin it opened an AI restaurant lab in May 2025 combining a voice-guided ordering kiosk, image recognition to check dishes and AI purchasing forecasts, slated for its Xinyi flagship. Business Weekly reports a four-year process review, a self-service beer wall, a planned AI beer recommender linked to membership data, and a delivery robot trial that ran into practical limits. People: Quentin Yeh (CEO), Wu Guan-da (IT Operations Director).
 - **leadity** (beer, llm assistant for esg, iso and co2 reporting). Hamburg ESG, CO2 and ISO management software for the German Mittelstand. Its BrauBeviale 2026 listing offers brewery-specific products: ESG and ISO management for breweries, product carbon footprints for breweries and PPWR packaging compliance. The AI is clea AI, an assistant built into the software that drafts report text, suggests emission factors, reads documents and checks green claims. It is a generative text assistant, not process or production AI. Its beverage trade ESG page lists Radeberger Gruppe among the companies that co-developed the solution and quotes Team Beverage AG as a user (page undated).
 - **LEAFIO AI** (multiple, demand forecasting and shelf space optimisation for alcohol retail). LEAFIO AI sells a retail supply chain and merchandising suite with a dedicated liquor, beer and wine store product. It runs multi echelon demand forecasting and automated replenishment across distribution centres and stores, plus automated planogram generation, assortment rationalisation for slow movers and promotion forecasting, handling long lead time imports and seasonal alcohol peaks. It claims deployment across 250 plus retailers and 30,000 plus stores in 40 plus countries. The forecasting is genuine algorithmic work but the site does not publish model architecture, and alcohol is one vertical of a broader retail platform rather than the whole business.
 - **Leanpath** (food, ai food waste tracking for foodservice kitchens). Leanpath sells food waste tracking hardware and software to contract caterers, hospitals, universities, hotels and restaurants. Its trackers use AI to identify wasted food and the platform gives AI-driven recommendations and early warnings. It launched Floor Scale AI in October 2025 and Snap AI, a mobile tracker for off-site catering, in May 2026. It says it has prevented more than 200M lbs of food waste. Press releases give Beaverton and Portland, Oregon as its base. No drinks customer named. People: [Andrew Shakman](https://www.linkedin.com/in/andrew-shakman-3861) (Founder, CEO).
@@ -1075,7 +1074,6 @@ Snapshot: 2026-10-29. 1613 active, 195 dormant.
 - **Oznr** (beer, craft beer direct to consumer release and membership commerce). Oznr is a craft beverage marketplace and direct to consumer commerce platform for breweries: limited release pre-orders, automated random draws for allocated beer, mug clubs and bottle societies, event and festival ticketing, local pickup and proxy collection, with an Untappd integration and its own consumer mobile app. Breweries shown on its site include Sierra Nevada, Cigar City Brewing, Resident Culture, North Park Beer Co, Angry Chair and Tripping Animals, and it is bundled free to customers of the brewery ERPs Ekos and Ollie, both already tracked. The site carries no claim of AI, machine learning, recommendation engines or predictive analytics anywhere, so this is recorded as a beer DTC commerce system with no AI claim. Founding year and head office are not published on the site and are therefore omitted.
 - **Oztera (TeraVina)** (wine, no ai claim, winery erp and power bi reporting). Oztera is a Microsoft Dynamics 365 Business Central partner that publishes TeraVina, a wine industry vertical listed on the Microsoft marketplace. TeraVina gives wineries unified customer visibility across tasting rooms and points of sale and lets them see production cost mid process rather than after the fact. Oztera makes no machine learning claim, the analytics are Business Central plus Power BI reporting, which makes it a system of record rather than an AI vendor.
 - **P&P Optica** (food, hyperspectral foreign material detection in meat). Makes the Smart Imaging System for meat and poultry processors, combining hyperspectral imaging with AI and machine learning to find low-density foreign materials. Its own site says it also measures fat, lean, moisture, pH and woody breast in line. It reports systems in beef, pork and poultry plants in North America, Europe and Australia. No brewer, distiller or winery customer is named. People: [Olga Pawluczyk](https://www.linkedin.com/in/olgapawluczyk) (CEO).
-- **Palmaz Vineyards** (wine, in-house fermentation control and vineyard irrigation prediction). Napa Valley winery that built its own software on the production line. FILCS (Fermentation Intelligence Logic Control System) reads temperature and density sensors in the tanks and adjusts cooling and heating settings, and in 2017 it ran fermentation without staff during the Atlas Fire. VIGOR uses infrared imagery from biweekly flyovers to guide irrigation, which the winery says cut water use by 20 to 30 percent. These figures are the winery's own statements and are not independently verified.
 - **ParallelDots (ShelfWatch)** (multiple, computer vision shelf auditing for drinks brands). ParallelDots builds ShelfWatch, an image recognition product that reads shelf and cooler photos taken by field reps to score availability, planogram compliance and share of shelf. Its own site names Heineken, Asahi and Bacardi Limited among its clients, which puts it directly on beer and spirits execution, and it lists alcohol as an industry solution. The company reports coverage of 2.5 million retail outlets across 50 plus countries and 15 million photos processed monthly, and raised a 4.5 million dollar Series A led by Btomorrow Ventures, the venture arm of BAT. It supplies the image recognition layer behind Repsly's retail execution product under a partnership announced 30 September 2025.
 - **Park Street** (multiple, back office automation for importing and compliance). Park Street runs outsourced back office, regulatory compliance, importing, logistics and working capital for wine, spirits and beer brands entering the United States and EU markets, reporting over 3,000 brands served. It states that it invests heavily in AI driven systems to streamline importing, distribution, logistics and back office operations, but names no model, product or measurable AI capability, so the claim should be read as automation and workflow rather than demonstrated machine learning. Founded by McKinsey alumni Harry Kohlmann and Chris Mehringer. It co-runs the annual Craft Spirits Data Project with the American Craft Spirits Association. People: Harry Kohlmann (Chief Executive Officer and co-founder).
 - **Parsable** (multiple, connected worker SaaS with AI-powered analytics). Parsable is a SaaS connected worker platform that moves plant floors from paper to digital instructions with AI-powered analytics. It helps manufacturers improve production and operational KPIs.
@@ -1357,7 +1355,6 @@ Snapshot: 2026-10-29. 1613 active, 195 dormant.
 - **Symrise (SymVision)** (multiple, consumer insight / trend prediction). Global flavour and fragrance house whose SymVision platform uses AI to predict taste, nutrition and health trends and steer food and beverage product development. Beverage is one of several categories it serves, not its sole focus.
 - **Syscona Kontrollsysteme GmbH** (beer, none claimed, container and pallet inspection vision). Syscona builds optical inspection systems for beverage filling lines, covering empty-bottle inspection, empty-can inspection, foreign-bottle detection, fill-height, closure, vacuum and residual-liquid checks, keg inspection, pallet inspection and crate sorting. Its own industry page names breweries from small private brewers to industrial plants, plus beverage logistics, as its core market, and it publishes a Getraenkeindustrie 4.0 digitalisation piece with LinMot. The systems are camera and sensor based image processing; the company makes no AI or machine-learning claim on its site.
 - **Sysmex Partec** (multiple, no ai claim; flow cytometry microbiological qc for beer and wine). German flow cytometry instrument maker, part of the Sysmex group, with a dedicated beverage line of business and separate product pages for beer, wine and non-alcoholic drinks. Its cytometers and CellTrics reagents are used in brewery and winery labs for microbiological quality control and yeast work, replacing slower plate-count methods across the fermentation to packaging chain. It makes no artificial intelligence or machine learning claim anywhere on its site; it is a lab instrument and reagent vendor, included here because it is one of the primary generators of microbiological QC data inside breweries and wineries. Exhibited at drinktec 2026 in Munich.
-- **Taiwan Tobacco and Liquor Corporation** (multiple, b2b e-commerce; llm training for a future customer service bot). State-owned producer of Taiwan Beer, rice and sorghum spirits and wine, holding most of the island's beer market. Its information department has consolidated sales outlets from over 130 to under 60, built a B2B ordering platform for traditional trade customers and a consumer e-shop. In a May 2025 interview the deputy head of IT said the team is training on large language models to prepare for a possible intelligent customer service bot; nothing is deployed yet. People: Huang Yu-mei (Deputy Director, Information Department (acting Director)).
 - **Takuya Nagasawa** (beer, group-wide generative ai rollout (buddyai) and ai personas for marketing). Shusa in the Digital ICT Strategy Department at Kirin Holdings (Japanese name 永沢拓也). In a 2026 AI Watch interview he describes Kirin building a machine learning team from around 2020, launching Kirin GPT on Azure OpenAI around 2023, and group generative AI usage of 70 to 80 percent. DIME reports him leading the KIRIN BuddyAI Project, including BuddyAI for Marketing and AI personas used for simulated consumer interviews. People: Takuya Nagasawa (Shusa (senior manager), Digital ICT Strategy Department, Kirin Holdings).
 - **Talitha Venter** (wine, deep learning classification of grapevine phenology from rgb images). Talitha Venter is a viticulture academic at the South African Grape and Wine Research Institute, Stellenbosch University, whose stated focus is digital viticulture. She co-authored a 2025 OENO One paper classifying grapevine phenological stages from RGB images with deep learning models (YOLOv11, ResNet-34, ViT). People: Talitha Venter (Lecturer in Viticulture, SAGWRI, Stellenbosch University).
 - **Tamanend Wine Consulting (Alpha Wine Services)** (wine, no ai claim, wine analytical lab and process services). Tamanend Wine Consulting, which trades as Alpha Wine Services, is a full service wine consultancy in Pennsylvania that also runs a wine analysis laboratory and rents analytical instruments including CloudSpec, Sentia and Tartarcheck, plus a Smart Lab Analyzer. Its process side covers cross flow filtration, reverse osmosis, taint removal and micro-oxygenation, and it offers independent validation of client products. It makes no AI or machine learning claim.
@@ -1431,7 +1428,6 @@ Snapshot: 2026-10-29. 1613 active, 195 dormant.
 - **Tushar Agrawal** (multiple, AI invoice scanning and stock-register extraction for Indian liquor retail). Built Liquor Pro, a free app for Indian liquor stores, wine shops and beer distributors that uses AI to read purchase invoices line by line and extract stock from photographed registers. His own site says LiquorPro serves 20+ businesses and 80+ users across Uttar Pradesh. People: [Tushar Agrawal](https://www.linkedin.com/in/tushar-agrawal-589205192/) (Full-stack engineer and builder of Liquor Pro; Software Developer, Dr. Dangs Lab).
 - **UB Technology Innovations** (multiple, conversational analytics over spirits depletion and pricing data). UB Technology Innovations is a Microsoft Solutions Partner in Anaheim, California doing data, cloud and AI enablement work on Azure, Microsoft Fabric, Power Platform and Copilot. Its AppSource consulting offer, AI Conversational Commercial Analytics, is built on a delivered engagement for a multi brand spirits supplier where depletion, pricing and third party market data were unified in a cloud platform and exposed as plain English self service commercial insights. This is a services and Copilot style natural language layer over a beverage alcohol data estate rather than a packaged product.
 - **Unhyped AI (Vintelligence)** (wine, terroir and vineyard parcel intelligence API). Unhyped AI runs a spatial intelligence engine over roughly 7.3 million land parcels, scoring more than 800,000 vineyard plots on bedrock geology, slope, elevation, aspect and classification across 19 to 23 regions in France, Spain, Italy, Germany and Australia. It sells the data two ways: Vintelligence, a REST and MCP native API for wine businesses and AI assistants, and Unhyped, a consumer app that surfaces bottles sharing terroir with Grand Cru sites at lower prices. The engine is geological and geospatial scoring plus producer lineage mapping rather than a learned taste model, and the company says so on its own site.
-- **Unicorn Auctions** (multiple, quality control / computer vision). Online auction platform for rare spirits and fine wine that authenticates every bottle through a proprietary system combining expert review with machine-learning algorithms trained on 500,000-plus historical transactions and 1 million-plus photos to detect inconsistencies. People: [Phil Mikhaylov](https://www.linkedin.com/in/philmikhaylov) (CEO and Co-founder), [A.J. Heindel](https://www.linkedin.com/in/ajheindel) (Co-founder).
 - **Unify Dots** (wine, winery erp with copilot based assistants). Unify Dots is a Microsoft Dynamics 365 consulting firm that publishes Winery Management for Dynamics 365 Supply Chain Management on the Microsoft marketplace, covering vineyard, crush, cellar and bottling operations for wineries. The company positions itself as an AI enabled Dynamics partner and reached Ready Tier in Microsoft Copilot Jumpstart in March 2026. The AI is Microsoft Copilot and agent tooling applied to the ERP, there is no wine specific model claimed.
 - **Unilever** (food, ai digital twins in factories and ai assisted food innovation). Consumer goods group whose Foods business (Knorr, Hellmann's, Unilever Food Solutions) reports named AI results on its own site. A digital twin at its Poznan plant stabilises mayonnaise viscosity, cuts minor stoppages by up to 20% and waste by nearly 30%; Unilever plans more than 40 new twins with Accenture over 18 months. Its Foods unit says AI halved development time for Knorr Fast and Flavourful Paste and uses AI search visibility platforms for brands such as Hellmann's. No brewer, distiller or winery customer is named. People: [Meenakshi Burra](https://www.linkedin.com/in/meenakshi-burra-7945171) (Foods Chief Digital and Information Officer and Chief Data Officer), [Adam Raeburn-James](https://www.linkedin.com/in/adam-raeburn-james) (Global VP Digital Business Operations).
 - **UNISENSOR Sensorsysteme GmbH** (beer, none claimed, inline spectroscopic beverage measurement). UNISENSOR is a family-owned German instrument maker building spectroscopic process-analysis systems, with a dedicated beverage-industry product line. CARBOSCAN 150 is a factory-calibrated system for fully automatic online CO2 process control during carbonation, ALCOQUICK 4000 determines alcohol content in all types of alcoholic drinks by a patented multi-beam spectroscopic method, and AQUASCREEN and UNISPECTRE sniff returnable containers for contaminants at up to 4000 containers per hour. These are physics-based measurement instruments and the company makes no AI or machine-learning claim.
@@ -1725,6 +1721,7 @@ Snapshot: 2026-10-29. 1613 active, 195 dormant.
 - Kosmas Dimitropoulos (last seen 2023-07-27)
 - Krombacher Brauerei (last seen 2023-02-17)
 - Lavínia Silva Veríssimo (last seen 2022-01-01)
+- Le Ble d'Or (last seen 2025-05-21)
 - Leoš Uttl (last seen 2022-08-29)
 - Li Li (last seen 2024-07-18)
 - Liang Sun (last seen 2017-03-28)
@@ -1751,6 +1748,7 @@ Snapshot: 2026-10-29. 1613 active, 195 dormant.
 - Oluwafemi Ayodeji Adebo (last seen 2023-07-20)
 - OPTITOOL (last seen 2025-03-13)
 - Pago de Carraovejas (last seen 2024-06-01)
+- Palmaz Vineyards (last seen 2025-05-06)
 - Pangzhen Zhang (last seen 2017-07-07)
 - Peter Schieberle (last seen 2019-03-17)
 - Philipp Weller (last seen 2020-08-04)
@@ -1781,12 +1779,14 @@ Snapshot: 2026-10-29. 1613 active, 195 dormant.
 - Susan E.P. Bastian (last seen 2021-07-17)
 - Susan Gaire (last seen 2021-01-01)
 - Sı́lvia M. Rocha (last seen 2020-09-11)
+- Taiwan Tobacco and Liquor Corporation (last seen 2025-05-09)
 - Tanduay Distillers (last seen 2022-01-27)
 - Tastry (last seen 2024-03-01)
 - Tellspec (last seen 2025-04-03)
 - Thomas J. Kelly (last seen 2023-08-02)
 - Thomas Matthias Becker (last seen 2020-10-01)
 - Tule Technologies (last seen 2023-01-31)
+- Unicorn Auctions (last seen 2025-05-12)
 - United Breweries Limited (Kingfisher, Heineken-owned) (last seen 2025-04-01)
 - Vaayu (last seen 2022-03-31)
 - Vasiliki Summerson (last seen 2021-01-25)
@@ -1818,9 +1818,9 @@ Snapshot: 2026-10-29. 1613 active, 195 dormant.
 
 ## By vertical (active)
 
-- multiple: 488
-- wine: 477
-- beer: 409
+- multiple: 486
+- wine: 476
+- beer: 408
 - whiskey: 129
 - food: 95
 - non_alcoholic: 15
@@ -1829,7 +1829,7 @@ Snapshot: 2026-10-29. 1613 active, 195 dormant.
 
 - wine production: 50
 - peer-reviewed ai and data research: 19
-- quality control / computer vision: 12
+- quality control / computer vision: 11
 - data analytics / BI / market intelligence for beverage: 10
 - demand forecasting: 9
 - no substantiated ai claim: 9
@@ -2946,8 +2946,6 @@ Snapshot: 2026-10-29. 1613 active, 195 dormant.
 - handheld wine chemistry analyser: 1
 - sales performance recommendations on a snowflake data platform: 1
 - supply chain planning rollout: 1
-- b2b e-commerce; llm training for a future customer service bot: 1
-- ai ordering kiosk, dish image recognition, purchasing forecasts: 1
 - genai extraction of ingredient specification data: 1
 - demand forecasting, barley quality models, sales genai assistant: 1
 - ai classification of airborne mildew spores for vineyard spray decisions: 1
@@ -3213,7 +3211,6 @@ Snapshot: 2026-10-29. 1613 active, 195 dormant.
 - ai fermentation screening and optical quality inspection: 1
 - ai iron quantification in fortified foods: 1
 - brewery management platform with computer vision yeast cell counting and demand forecasting: 1
-- in-house fermentation control and vineyard irrigation prediction: 1
 - self-learning agents over production and ERP data for beverage plants: 1
 - ai-led digital transformation under a new chief information officer; sap erp: 1
 - process and controls engineering with historians and reporting, no AI claim: 1
