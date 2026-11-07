@@ -1936,5 +1936,45 @@
     "url": "https://www.youtube.com/watch?v=j-rivGDz27Q",
     "vertical": "multiple",
     "summary": "Discover how leading food and beverage manufacturers are using AI to overcome industry challenges. From preventing supply ..."
+  },
+  {
+    "title": "Can AI write a good hazy IPA recipe?",
+    "channel": "Tree House Brewing Company",
+    "video_id": "4IdASK02RKg",
+    "url": "https://www.youtube.com/watch?v=4IdASK02RKg",
+    "vertical": "beer",
+    "summary": "Can artificial intelligence help brewers and breweries? It remains to be seen. If you enjoy this content, please subscribe to the ..."
+  },
+  {
+    "title": "Peter Brewer's \"Digital Twin\" presentation at DEPOT[x]",
+    "channel": "businessDEPOT",
+    "video_id": "iOpxQmg3hUs",
+    "url": "https://www.youtube.com/watch?v=iOpxQmg3hUs",
+    "vertical": "beer",
+    "summary": "Peter Brewer talks all things \"digital twin\" at businessDEPOT's first ever DEPOT[x] event. DEPOT[x] is a businessDEPOT initiative ..."
+  },
+  {
+    "title": "Efficient Image Search and Identification - The Making of Wine O.AI | SciPy 2017 | Michelle Gill",
+    "channel": "Enthought",
+    "video_id": "3CUWMZ1304I",
+    "url": "https://www.youtube.com/watch?v=3CUWMZ1304I",
+    "vertical": "wine",
+    "summary": "This presentation will discuss the implementation of an image-based identification system for wine labels using Python scientific ..."
+  },
+  {
+    "title": "AI in Beverage Manufacturing: Enhancing Safety & Supply Chain Efficiency",
+    "channel": "FoodResearchLab",
+    "video_id": "htpLWf4PNcc",
+    "url": "https://www.youtube.com/watch?v=htpLWf4PNcc",
+    "vertical": "multiple",
+    "summary": "How is AI transforming food safety and supply chain efficiency in the beverage industry across the USA and Canada? In this video ..."
+  },
+  {
+    "title": "#Siemens Digitalization Solutions in Food & Beverage: Digital Twin Delivered with #Grantek",
+    "channel": "Grantek",
+    "video_id": "BmRI-qnwgxM",
+    "url": "https://www.youtube.com/watch?v=BmRI-qnwgxM",
+    "vertical": "multiple",
+    "summary": "Siemens and Grantek have released a new video. \"Siemens Digitalization Solutions in Food & Beverage: Digital Twin Delivered ..."
   }
 ]

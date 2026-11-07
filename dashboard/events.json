@@ -1,21 +1,5 @@
 [
   {
-    "title": "Gulfood Manufacturing 2026",
-    "url": "https://gulfoodmanufacturing.com/",
-    "organiser": "Dubai World Trade Centre",
-    "location": "Dubai World Trade Centre, Dubai, United Arab Emirates",
-    "country": "United Arab Emirates",
-    "vertical": "multiple",
-    "summary": "The Middle East's largest food and beverage manufacturing show: bottling, packaging, automation and traceability.",
-    "speakers": [],
-    "mode": "in-person",
-    "speaking": false,
-    "start": "2026-11-03",
-    "end": "2026-11-05",
-    "state": "upcoming",
-    "sort": "2026-11-03"
-  },
-  {
     "title": "Hong Kong International Wine & Spirits Fair 2026",
     "url": "https://www.hktdc.com/event/hkwinefair/en",
     "organiser": "Hong Kong Trade Development Council",
@@ -542,6 +526,22 @@
     "end": "",
     "state": "undated",
     "sort": "1900-01-01"
+  },
+  {
+    "title": "Gulfood Manufacturing 2026",
+    "url": "https://gulfoodmanufacturing.com/",
+    "organiser": "Dubai World Trade Centre",
+    "location": "Dubai World Trade Centre, Dubai, United Arab Emirates",
+    "country": "United Arab Emirates",
+    "vertical": "multiple",
+    "summary": "The Middle East's largest food and beverage manufacturing show: bottling, packaging, automation and traceability.",
+    "speakers": [],
+    "mode": "in-person",
+    "speaking": false,
+    "start": "2026-11-03",
+    "end": "2026-11-05",
+    "state": "past",
+    "sort": "2026-11-03"
   },
   {
     "title": "drinktec India 2026",
