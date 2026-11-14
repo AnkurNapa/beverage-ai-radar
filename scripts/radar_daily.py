@@ -38,7 +38,7 @@ def main() -> None:
     _git("add", "dashboard", "SIGNALS.md")
     _git("commit", "-m", f"data: refresh {date.today().isoformat()} (+{sig['new']} signals)")
     _git("push")
-    # digest to stdout (email wiring is manual/optional; send from napaankur@gmail.com)
+    # digest to stdout (email wiring is manual/optional; send from your own Gmail)
     print(build_digest(Store(config.DB_PATH), date.today()))
     print(f"signals: {sig['new']} new, {sig['total']} total")
 

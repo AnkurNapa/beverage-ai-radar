@@ -135,6 +135,11 @@ def merge(
         if missing:
             reject(c, f"missing required fields: {', '.join(missing)}")
             continue
+        partial = [f for f in ("first_seen", "last_seen")
+                   if c.get(f) and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(c[f]))]
+        if partial:
+            reject(c, f"{', '.join(partial)} is not a full date (YYYY-MM-DD)")
+            continue
         if norm_name(c["name"]) in names:
             reject(c, "duplicate name", "duplicate")
             continue

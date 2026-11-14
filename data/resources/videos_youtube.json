@@ -1938,6 +1938,78 @@
     "summary": "Discover how leading food and beverage manufacturers are using AI to overcome industry challenges. From preventing supply ..."
   },
   {
+    "title": "AI Discussing: Making Beer at Home",
+    "channel": "AI Digest Discussions",
+    "video_id": "T1c9xK9F8eQ",
+    "url": "https://www.youtube.com/watch?v=T1c9xK9F8eQ",
+    "vertical": "beer",
+    "summary": "In this episode of AI Digest Discussions, we dive into the world of Homebrewing and explore the essentials of Making Beer at ..."
+  },
+  {
+    "title": "(Best for CTR & Clarity): How Budweiser Beer Is Made in a Mega-Factory | Full Process (AI Video)",
+    "channel": "Bilal Ramzan",
+    "video_id": "Ia2zLMt84Dw",
+    "url": "https://www.youtube.com/watch?v=Ia2zLMt84Dw",
+    "vertical": "beer",
+    "summary": "Ever wondered how millions of bottles and cans of Budweiser beer are brewed, aged, and packaged every single day?"
+  },
+  {
+    "title": "Brewing Revolution: The AI Coffee Experience",
+    "channel": "Need To Watch This",
+    "video_id": "APyPTI0qdts",
+    "url": "https://www.youtube.com/watch?v=APyPTI0qdts",
+    "vertical": "beer",
+    "summary": "Discover how artificial intelligence is revolutionizing the coffee-making process in our latest video, \"AI Makes Better Coffee Than ..."
+  },
+  {
+    "title": "Understanding Brewery Datasets with Arryved's Aaron Gore",
+    "channel": "Brewer Magazine",
+    "video_id": "N-KYDQoGQ-Y",
+    "url": "https://www.youtube.com/watch?v=N-KYDQoGQ-Y",
+    "vertical": "beer",
+    "summary": "Breweries are leveraging data analytics to enhance every facet of operations — from optimizing production processes to tailoring ..."
+  },
+  {
+    "title": "Distillery: Turning Field Knowledge into Trusted AI Work Intelligence",
+    "channel": "EON Reality",
+    "video_id": "87c_ch17v0Q",
+    "url": "https://www.youtube.com/watch?v=87c_ch17v0Q",
+    "vertical": "whiskey",
+    "summary": "What if every lesson learned in the field could make your organization's AI smarter—without giving away your proprietary ..."
+  },
+  {
+    "title": "When AI Makes Us Better, Who Are We Becoming? | AI Whiskey",
+    "channel": "Crafted Clarity",
+    "video_id": "HxYfrbYGows",
+    "url": "https://www.youtube.com/watch?v=HxYfrbYGows",
+    "vertical": "whiskey",
+    "summary": "Can AI make us better leaders but also change who we're becoming? AI is helping leaders make better decisions, improve ..."
+  },
+  {
+    "title": "Classification of Wine (Machine Learning)",
+    "channel": "Anvesh Verma",
+    "video_id": "jlpaqf_M8xU",
+    "url": "https://www.youtube.com/watch?v=jlpaqf_M8xU",
+    "vertical": "wine",
+    "summary": "Medium blog link ..."
+  },
+  {
+    "title": "AI in Beverage Manufacturing: Enhancing Safety & Supply Chain Efficiency",
+    "channel": "FoodResearchLab",
+    "video_id": "htpLWf4PNcc",
+    "url": "https://www.youtube.com/watch?v=htpLWf4PNcc",
+    "vertical": "multiple",
+    "summary": "How is AI transforming food safety and supply chain efficiency in the beverage industry across the USA and Canada? In this video ..."
+  },
+  {
+    "title": "#Siemens Digitalization Solutions in Food & Beverage: Digital Twin Delivered with #Grantek",
+    "channel": "Grantek",
+    "video_id": "BmRI-qnwgxM",
+    "url": "https://www.youtube.com/watch?v=BmRI-qnwgxM",
+    "vertical": "multiple",
+    "summary": "Siemens and Grantek have released a new video. \"Siemens Digitalization Solutions in Food & Beverage: Digital Twin Delivered ..."
+  },
+  {
     "title": "Can AI write a good hazy IPA recipe?",
     "channel": "Tree House Brewing Company",
     "video_id": "4IdASK02RKg",
@@ -1960,21 +2032,5 @@
     "url": "https://www.youtube.com/watch?v=3CUWMZ1304I",
     "vertical": "wine",
     "summary": "This presentation will discuss the implementation of an image-based identification system for wine labels using Python scientific ..."
-  },
-  {
-    "title": "AI in Beverage Manufacturing: Enhancing Safety & Supply Chain Efficiency",
-    "channel": "FoodResearchLab",
-    "video_id": "htpLWf4PNcc",
-    "url": "https://www.youtube.com/watch?v=htpLWf4PNcc",
-    "vertical": "multiple",
-    "summary": "How is AI transforming food safety and supply chain efficiency in the beverage industry across the USA and Canada? In this video ..."
-  },
-  {
-    "title": "#Siemens Digitalization Solutions in Food & Beverage: Digital Twin Delivered with #Grantek",
-    "channel": "Grantek",
-    "video_id": "BmRI-qnwgxM",
-    "url": "https://www.youtube.com/watch?v=BmRI-qnwgxM",
-    "vertical": "multiple",
-    "summary": "Siemens and Grantek have released a new video. \"Siemens Digitalization Solutions in Food & Beverage: Digital Twin Delivered ..."
   }
 ]

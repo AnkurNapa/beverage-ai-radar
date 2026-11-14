@@ -8484,5 +8484,925 @@
   ],
   "first_seen": "2026-10-07",
   "last_seen": "2026-10-07"
+ },
+ {
+  "name": "Chelsey Wroe",
+  "role": "Head of Sustainability, HEINEKEN UK",
+  "company": "HEINEKEN UK",
+  "company_is_current": null,
+  "location": "Manchester, United Kingdom",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "decarbonisation, heat pump and heat network at the Manchester brewery",
+  "ai_maturity": "none",
+  "short_description": "Chelsey Wroe is named as Head of Sustainability at HEINEKEN UK in a GEA press release on the heat pump supply for Heineken. She is quoted on the GEA heat pump system for the Manchester brewery, part of a GBP 25m decarbonisation investment that replaces gas fired steam boilers.",
+  "source_urls": [
+   "https://www.gea.com/en/news/corporate/2023/gea-supplies-heineken-with-heat-pumps",
+   "https://www.esgtoday.com/heineken-invests-30-million-in-low-carbon-heat-network-to-reduce-emissions/"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2023-07-18"
+ },
+ {
+  "name": "Kerrin Petty",
+  "role": "Chief Supply and Sustainability Officer, Treasury Wine Estates",
+  "company": "Treasury Wine Estates",
+  "company_is_current": null,
+  "location": "South Australia, Australia",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "decarbonisation, winery solar and renewable electricity",
+  "ai_maturity": "none",
+  "short_description": "Kerrin Petty is named as Chief Supply and Sustainability Officer at Treasury Wine Estates. At the July 2023 launch of the solar system at the Barossa Winery and Production Centre she said solar is the most significant contribution the company can make toward net zero direct emissions.",
+  "source_urls": [
+   "https://esdnews.com.au/bottling-sunshine-with-australias-largest-winery-solar-system/",
+   "https://wineindustryadvisor.com/2023/07/26/treasury-wine-estates-switches-on-largest-winery-solar-system-in-australia"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2023-07-26"
+ },
+ {
+  "name": "Neil Haywood",
+  "role": "Supply Chain Director UK and Ireland, Molson Coors",
+  "company": "Molson Coors",
+  "company_is_current": true,
+  "location": "Burton upon Trent, United Kingdom",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "decarbonisation, heat pump system at Burton Brewery",
+  "ai_maturity": "none",
+  "short_description": "Neil Haywood is named as Supply Chain Director for UK and Ireland at Molson Coors. He is quoted on the new heat pump system at Burton Brewery, supported by the Industrial Energy Transformation Fund. He links it to the aim of operational net zero across UK production sites by 2035.",
+  "source_urls": [
+   "https://www.foodbeverage-outlook.com/food-beverage-insights/molson-coors-installs-heat-pump-system-at-key-uk-brewery-as-part-of-major-decarbonisation-investment",
+   "https://metalpackager.com/2026/03/molson-coors-heat-pump-burton-brewery/"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-03-24"
+ },
+ {
+  "name": "Andree Piddington",
+  "role": "Sustainability Manager, Yealands Wines",
+  "company": "Yealands Wines",
+  "company_is_current": true,
+  "location": "Marlborough, New Zealand",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "decarbonisation, winery heat pump, solar and diesel reduction",
+  "ai_maturity": "none",
+  "short_description": "Andree Piddington is Sustainability Manager at Yealands Wines in the Awatere Valley. NZ Winegrower reports a 120kW heat pump replacing a biomass burner, thermal storage tanks, a move to Carbon Reduce certification and work on diesel use. She has joined the board of International Wineries for Climate Action.",
+  "source_urls": [
+   "https://ruralnewsgroup.co.nz/wine-grower/wg-industry/yealands-wines-carbon-reduction-sustainability",
+   "https://ruralnewsgroup.co.nz/wine-grower/wg-general-news/yealands-says-carbon-reduction-gets-harder-as-progress-deepens"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-04-11"
+ },
+ {
+  "name": "Edwin Massey",
+  "role": "General Manager Sustainability, New Zealand Winegrowers",
+  "company": "New Zealand Winegrowers",
+  "company_is_current": null,
+  "location": "Wellington, New Zealand",
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "decarbonisation, industry roadmap to net zero 2050",
+  "ai_maturity": "none",
+  "short_description": "Dr Edwin Massey is named as General Manager Sustainability at New Zealand Winegrowers in its 30 August 2024 release launching the Roadmap to Net Zero 2050. NZ Winegrower describes him as leading the industry Carbon Zero Road Map with EECA, which covers the winery sector.",
+  "source_urls": [
+   "https://www.nzwine.com/en/media/media-releases/new-zealand-winegrowers-launches-roadmap-to-net-zero-2050/",
+   "https://www.ruralnewsgroup.co.nz/wine-grower/wg-industry/decarbonising-wine-wineries-seek-clean-and-clever-energy-solutions"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2024-08-30"
+ },
+ {
+  "name": "Markus Ronde",
+  "role": "Chief Executive Officer, Exergy3",
+  "company": "Exergy3",
+  "company_is_current": true,
+  "location": "Edinburgh, United Kingdom",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "decarbonisation, zero carbon high temperature heat at Annandale Distillery",
+  "ai_maturity": "none",
+  "short_description": "Dr Markus Ronde is CEO of Exergy3, a University of Edinburgh spinout. Exergy3 commissioned a high temperature heat system powered by renewable electricity at Annandale Distillery in Dumfries and Galloway in April 2026. He says the aim is to decarbonise a key Scottish export.",
+  "source_urls": [
+   "https://projectscot.com/2026/04/annandale-distillery-opts-for-first-of-a-kind-decarbonised-heat-project/",
+   "https://esdnews.com.au/whisky-business-decarbonisation-machine-to-power-distillery/"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-04-14"
+ },
+ {
+  "name": "David Thomson",
+  "role": "Co-founder, Annandale Distillery",
+  "company": "Annandale Distillery",
+  "company_is_current": true,
+  "location": "Dumfries and Galloway, United Kingdom",
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "decarbonisation, zero carbon high temperature heat system at the distillery",
+  "ai_maturity": "none",
+  "short_description": "Professor David Thomson is named as co-founder of Annandale Distillery. He is quoted on the first of a kind decarbonised heat system commissioned at the distillery in April 2026, built by Exergy3 with Cochran and funded in part by the UK government.",
+  "source_urls": [
+   "https://projectscot.com/2026/04/annandale-distillery-opts-for-first-of-a-kind-decarbonised-heat-project/",
+   "https://www.electricaltimes.co.uk/?p=34995"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-04-14"
+ },
+ {
+  "name": "Mauricio Coindreau",
+  "role": "Head of Procurement and Sustainability, Budweiser Brewing Group",
+  "company": "Budweiser Brewing Group",
+  "company_is_current": null,
+  "location": "United Kingdom",
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "decarbonisation, brewery supplier emissions and returnable packaging",
+  "ai_maturity": "none",
+  "short_description": "Mauricio Coindreau is described as Head of Procurement and Sustainability for Budweiser Brewing Group across the UK, Ireland and Spain. Raconteur reports he works on cutting the brewer's emissions through returnable bottles and supplier emissions targets. The sources date from 2022 and earlier.",
+  "source_urls": [
+   "https://www.raconteur.net/sustainability/raising-a-pint-to-sustainability-how-budweiser-plans-to-cut-its-emissions/",
+   "https://www.fooddigital.com/interviews/mauricio-coindreau"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2022-07-01"
+ },
+ {
+  "name": "Jared Grace",
+  "role": "Founder and CEO, BRBNFNDR (FNDR Technologies LLC)",
+  "company": "BRBNFNDR (FNDR Technologies LLC)",
+  "company_is_current": true,
+  "location": "Pittsburgh, USA",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "ai bottle scan, market insights and ai tasting notes for bourbon collectors",
+  "ai_maturity": "shipping",
+  "short_description": "Founder of BRBNFNDR, a bourbon and rare spirits app. He signs the company's release posts as founder and CEO and wrote the March 2026 version 1.4.0 notes covering AI bottle scan, buy/hold/sell market insights and AI tasting notes. The July 2026 version 2.0.0 post adds improved scanning and Bulk Bar Scan, which identifies multiple bottles from one photo.",
+  "source_urls": [
+   "https://brbnfndr.com/blog/app-update-version-1-4-0/",
+   "https://brbnfndr.com/blog/app-update-version-2-0-0/",
+   "https://brbnfndr.com/blog/why-we-started-brbnfndr/"
+  ],
+  "first_seen": "2025-10-08",
+  "last_seen": "2026-07-03"
+ },
+ {
+  "name": "Jose Carlos Fernandes",
+  "role": "Viticulture Director (Diretor de Viticultura), Aveleda",
+  "company": "Aveleda S.A.",
+  "company_is_current": true,
+  "location": "Penafiel, Portugal",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "computer vision to identify grape varieties at the winery reception",
+  "ai_maturity": "pilot",
+  "short_description": "Viticulture director at Aveleda, quoted in an October 2026 Sapo interview on the company's AI system that identifies grape varieties from berries and bunches at harvest reception. The project is run by Aveleda's in-house team with Pendao & Prior and Splnet and runs in real operating conditions on about 12 million kg of grapes a year. A Jornal de Negocios piece of 24 October 2026 also reports Aveleda using AI to detect varieties arriving at the winery, though it does not name him.",
+  "source_urls": [
+   "https://www.sapo.pt/artigo/aveleda-usa-inteligencia-artificial-para-identificar-castas-de-uva-a-entrada-da-adega-6ac90c9071bdbe0b74996cb8",
+   "https://www.jornaldenegocios.pt/weekend/vinhos/detalhe/aveleda-ensina-a-inteligencia-artificial-a-ler-as-uvas"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-10-24"
+ },
+ {
+  "name": "Sara Leoni",
+  "role": "Researcher, Mycology Group, Agroscope Changins",
+  "company": "Agroscope",
+  "company_is_current": true,
+  "location": "Nyon, Switzerland",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "ai classification of airborne downy and powdery mildew spores for vineyard spray decisions",
+  "ai_maturity": "research",
+  "short_description": "Author at Agroscope Changins (Mycology Group, Plant Protection) and the University of Geneva on a stand-alone spore detector that combines digital holography with AI to detect and classify airborne downy and powdery mildew spores in vineyards. The work is aimed at targeting fungicide sprays in viticulture. Listed on a 2023 conference paper and a September 2026 Frontiers in Plant Science paper.",
+  "source_urls": [
+   "https://doi.org/10.3389/fpls.2026.1871510",
+   "https://doi.org/10.1051/bioconf/20236801020"
+  ],
+  "first_seen": "2023-01-01",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "name": "Pierre-Henri Dubuis",
+  "role": "Researcher, Research Department Plant Protection, Agroscope Changins",
+  "company": "Agroscope",
+  "company_is_current": true,
+  "location": "Nyon, Switzerland",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "ai classification of airborne downy and powdery mildew spores for vineyard spray decisions",
+  "ai_maturity": "research",
+  "short_description": "Author at Agroscope Changins (Plant Protection) on the digital holography and AI spore detector for downy and powdery mildew in vineyards, developed with the University of Geneva and tested with a Swiss wine estate. Listed as the last Agroscope author on a 2023 conference paper and on the September 2026 Frontiers in Plant Science paper.",
+  "source_urls": [
+   "https://doi.org/10.3389/fpls.2026.1871510",
+   "https://doi.org/10.1051/bioconf/20236801020"
+  ],
+  "first_seen": "2023-01-01",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "name": "David Ceaser",
+  "role": "Lead Agronomist, Agritecture (as of 2021 and 2022 posts)",
+  "company": "Agritecture",
+  "company_is_current": null,
+  "location": null,
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "machine learning climate and drought monitoring for Saaz hop growers",
+  "ai_maturity": "pilot",
+  "short_description": "Named as Agritecture's lead agronomist in 2021 and 2022 posts on its Czech Saaz hops project with Microsoft and Asahi, where AI and machine learning combine historical and real-time climate data for hop farmers. He is quoted on the sensors and software helping growers manage irrigation and water budgets. The role may be past, so current status is unconfirmed.",
+  "source_urls": [
+   "https://www.agritecture.com/blog/2021/10/19/ai-powered-drought-monitoring-will-strengthen-beer-amp-hops-production-in-the-face-of-a-changing-climate",
+   "https://www.agritecture.com/blog/2022/4/12/building-climate-resilience-for-hops-using-real-time-data-and-artificial-intelligence"
+  ],
+  "first_seen": "2021-10-19",
+  "last_seen": "2022-04-12"
+ },
+ {
+  "name": "Ruiyang Yin",
+  "role": "Researcher (Technology Center), Beijing Yanjing Beer",
+  "company": "Beijing Yanjing Beer",
+  "company_is_current": null,
+  "location": "Beijing, China",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "machine learning on beer flavour and fermentation data",
+  "ai_maturity": "research",
+  "short_description": "Ruiyang Yin is listed as an author, affiliated with the Technology Center of Beijing Yanjing Beer Co., Ltd., on the August 2026 Food Chemistry paper on machine learning-driven investigation of key flavour factors in pale lager fermentation samples. The study combined flavoromics, sensory analysis and machine learning to trace flavour evolution during fermentation. The sources give an affiliation, not a job title. They do not say whether Ruiyang Yin still works there.",
+  "source_urls": [
+   "https://europepmc.org/article/MED/42594660",
+   "https://doi.org/10.1016/j.foodchem.2026.150733"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-08-11"
+ },
+ {
+  "name": "Liyun Guo",
+  "role": "Researcher (Technology Center), Beijing Yanjing Beer",
+  "company": "Beijing Yanjing Beer",
+  "company_is_current": null,
+  "location": "Beijing, China",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "machine learning on beer flavour and fermentation data",
+  "ai_maturity": "research",
+  "short_description": "Liyun Guo is listed as an author, affiliated with the Technology Center of Beijing Yanjing Beer Co., Ltd., on the August 2026 Food Chemistry paper on machine learning-driven investigation of key flavour factors in pale lager fermentation samples. The study combined flavoromics, sensory analysis and machine learning to trace flavour evolution during fermentation. The sources give an affiliation, not a job title. They do not say whether Liyun Guo still works there.",
+  "source_urls": [
+   "https://europepmc.org/article/MED/42594660",
+   "https://doi.org/10.1016/j.foodchem.2026.150733"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-08-11"
+ },
+ {
+  "name": "Yumei Song",
+  "role": "Researcher (Technology Center), Beijing Yanjing Beer",
+  "company": "Beijing Yanjing Beer",
+  "company_is_current": null,
+  "location": "Beijing, China",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "machine learning on beer flavour and fermentation data",
+  "ai_maturity": "research",
+  "short_description": "Yumei Song is listed as an author, affiliated with the Technology Center of Beijing Yanjing Beer Co., Ltd., on the August 2026 Food Chemistry paper on machine learning-driven investigation of key flavour factors in pale lager fermentation samples. The study combined flavoromics, sensory analysis and machine learning to trace flavour evolution during fermentation. The sources give an affiliation, not a job title. They do not say whether Yumei Song still works there.",
+  "source_urls": [
+   "https://europepmc.org/article/MED/42594660",
+   "https://doi.org/10.1016/j.foodchem.2026.150733"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-08-11"
+ },
+ {
+  "name": "Krzysztof Rewak",
+  "role": "Researcher and engineer, Blumilk",
+  "company": "Blumilk",
+  "company_is_current": true,
+  "location": "Legnica, Poland",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "AI literature review and digital twin for brewery fermentation planning",
+  "ai_maturity": "research",
+  "short_description": "Co-author of the October 2026 Beverages review Artificial Intelligence in Beer Brewing, which covers 188 publications, with a Blumilk affiliation. Blumilk's news page says he presented Dependable Resource Planning in Smart Breweries through a Digital Twin of Flexible Batch Fermentation Processes at DepCoS-RELCOMEX in July 2026, with Andrzej Rusiecki. He is also named as a speaker at a Polish brewery trail conference on 20 November 2026. The sources give no formal job title.",
+  "source_urls": [
+   "https://blumilk.pl/en/news",
+   "https://doi.org/10.3390/beverages12100118"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-11-04"
+ },
+ {
+  "name": "Karol Zygadło",
+  "role": "Researcher and engineer, Blumilk",
+  "company": "Blumilk",
+  "company_is_current": true,
+  "location": "Legnica, Poland",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "AI literature review of beer brewing",
+  "ai_maturity": "research",
+  "short_description": "Co-author, with a Blumilk affiliation, of the October 2026 Beverages review Artificial Intelligence in Beer Brewing, which synthesises 188 publications on AI in brewing. Blumilk's news page names him among the Blumilk team presenting at the 20 November 2026 Polish Brewery Trail conference in Legnica. The sources give no formal job title.",
+  "source_urls": [
+   "https://doi.org/10.3390/beverages12100118",
+   "https://blumilk.pl/en/news"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-10-08"
+ },
+ {
+  "name": "Elena Pilo",
+  "role": "Director of Vino y Experiencias, Bodegas Franco-Espanolas",
+  "company": "Bodegas Franco-Espanolas",
+  "company_is_current": true,
+  "location": "Logrono, Spain",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "AI virtual assistant for winery visits, bookings and wine recommendation",
+  "ai_maturity": "shipping",
+  "short_description": "Director of the Vino y Experiencias division of Bodegas Franco-Espanolas, the Rioja winery. She fronted the 3 November 2026 launch of LucIA, an AI virtual assistant on the winery's new online store that handles visit and event bookings and recommends wine by occasion and food. The assistant was built with The Torre Wine Platform, the wine arm of the technology firm JIG.",
+  "source_urls": [
+   "https://www.democrata.es/en/economy/bodegas-franco-espanolas-launches-lucia-its-virtual-assistant-with-ai-for-reservations-and-wine-selection/",
+   "https://nuevecuatrouno.com/2026/11/03/bodegas-franco-espanola-lucia-asistente-virtual-elegir-vino-inteligencia-artificial/"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-11-03"
+ },
+ {
+  "name": "Julio Pinto",
+  "role": "Director general (CEO), Bodegas Familiares Matarromera",
+  "company": "Bodegas Familiares Matarromera",
+  "company_is_current": null,
+  "location": "Valbuena de Duero, Spain",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "generative AI (Copilot) and cloud data platform across eleven wineries",
+  "ai_maturity": "shipping",
+  "short_description": "Described as director general and CEO of Bodegas Familiares Matarromera in September 2024 coverage. He set out the group's IT strategy as cloud, data centralisation, KPI analysis and progressive adoption of generative AI, with Microsoft Copilot running on the VinoTEC platform built on Dynamics 365 Business Central. He also toured the press through a machine-vision grape sorting line. The sources date from 2024, so the current role is unconfirmed.",
+  "source_urls": [
+   "https://news.microsoft.com/es-es/2024/09/26/bodegas-familiares-matarromera-multiplica-su-eficiencia-operativa-apoyada-en-la-nube-y-la-ia-de-microsoft/",
+   "https://www.cio.com/article/3542469/bodegas-matarromera-une-tradicion-y-tecnologia-en-busca-de-la-excelencia-vitivinicola.html",
+   "https://www.tipsa.net/bodegas-matarromera-microsoft-dynamics-vinotec/"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2024-09-30"
+ },
+ {
+  "name": "Anurag Pandey",
+  "role": "Chief Technology Officer, Carlsberg Group",
+  "company": "Carlsberg India (Carlsberg Group India GCC)",
+  "company_is_current": null,
+  "location": "Gurugram, India",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "global IT backbone, ERP consolidation and scaled AI implementations from the India capability centre",
+  "ai_maturity": "pilot",
+  "short_description": "Named as Group CTO in Carlsberg's September 2025 announcement of its first IT Global Capability Centre in Gurugram. He said the centre would focus on agile technology, smarter use of data and secure enterprise operations, with global roles shipping products end to end. The same coverage describes AI pilots across Carlsberg markets and a scale-up of AI implementations from the centre. Role is as of September 2025.",
+  "source_urls": [
+   "https://www.bwmarketingworld.com/article/carlsberg-taps-into-indias-tech-talent-pool-with-first-gcc-embeds-ai-automation-571467",
+   "https://www.carlsberggroup.com/newsroom/carlsberg-group-launches-its-first-ever-it-global-capability-centre-in-gurugram/"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2025-09-03"
+ },
+ {
+  "name": "Dimitrios Gerogiorgis",
+  "role": "Personal Chair of Process Systems Engineering, University of Edinburgh",
+  "company": "University of Edinburgh",
+  "company_is_current": true,
+  "location": "Edinburgh, United Kingdom",
+  "linkedin": null,
+  "vertical": "wine",
+  "verticals": [
+   "wine"
+  ],
+  "ai_use_case": "machine learning for wine fermentation quality prediction",
+  "ai_maturity": "research",
+  "short_description": "Holds a Personal Chair of Process Systems Engineering in the School of Engineering at the University of Edinburgh. Co-authored a 2026 paper on a machine learning implementation for fermentation quality prediction in wine manufacturing, aimed at cutting energy cost and alcohol level while keeping quality.",
+  "source_urls": [
+   "https://www.research.ed.ac.uk/en/persons/dimitrios-gerogiorgis",
+   "https://doi.org/10.69997/sct.144767"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-06-19"
+ },
+ {
+  "name": "Kishan Dholakia",
+  "role": "Professor, School of Physics and Astronomy, University of St Andrews",
+  "company": "University of St Andrews",
+  "company_is_current": true,
+  "location": "St Andrews, United Kingdom",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "learning algorithms and Raman spectroscopy to identify whisky",
+  "ai_maturity": "research",
+  "short_description": "Professor in the School of Physics and Astronomy at St Andrews and a co-author of a 2024 paper on learning algorithms for identifying whisky with portable Raman spectroscopy.",
+  "source_urls": [
+   "https://research-portal.st-andrews.ac.uk/en/persons/kishan-dholakia",
+   "https://doi.org/10.1016/j.crfs.2024.100729"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2024-01-01"
+ },
+ {
+  "name": "Graham Bruce",
+  "role": "Senior Research Laboratory Manager, School of Physics and Astronomy, University of St Andrews",
+  "company": "University of St Andrews",
+  "company_is_current": true,
+  "location": "St Andrews, United Kingdom",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "learning algorithms and Raman spectroscopy to identify whisky",
+  "ai_maturity": "research",
+  "short_description": "Senior Research Laboratory Manager at the Centre for Biophotonics, St Andrews. First author of a 2024 paper on learning algorithms for identification of whisky using portable Raman spectroscopy.",
+  "source_urls": [
+   "https://research-portal.st-andrews.ac.uk/en/persons/graham-bruce",
+   "https://doi.org/10.1016/j.crfs.2024.100729"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2024-01-01"
+ },
+ {
+  "name": "Mohammad Majid al-Rifaie",
+  "role": "Researcher, University of Greenwich",
+  "company": "University of Greenwich",
+  "company_is_current": null,
+  "location": "London, United Kingdom",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "evolutionary optimisation of craft beer properties",
+  "ai_maturity": "research",
+  "short_description": "Author of a 2022 paper in Foods on evolutionary optimisation of beer organoleptic properties, a simulation framework for personalising craft beer production. Affiliated with the University of Greenwich on that paper; current role not checked.",
+  "source_urls": [
+   "https://gala.gre.ac.uk/view/creators/Al-Rifaie=3AMohammad_Majid=3A=3A.html",
+   "https://doi.org/10.3390/foods11030351"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2022-01-26"
+ },
+ {
+  "name": "Barry Harrison",
+  "role": "Researcher, Scotch Whisky Research Institute",
+  "company": "Scotch Whisky Research Institute",
+  "company_is_current": null,
+  "location": "Edinburgh, United Kingdom",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "hyperspectral imaging and machine learning to measure phenolics in peated barley malt",
+  "ai_maturity": "research",
+  "short_description": "Listed at the Scotch Whisky Research Institute on a 2024 arXiv paper on non-destructive peat analysis with hyperspectral imaging and machine learning. Also on a 2026 IEEE Transactions on Industrial Informatics paper on hyperspectral imaging and machine learning for phenolic compound measurement. Current role not checked.",
+  "source_urls": [
+   "https://arxiv.org/abs/2405.02191",
+   "https://doi.org/10.1109/tii.2025.3622366"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-02-01"
+ },
+ {
+  "name": "Oliver Lewis",
+  "role": "Researcher, Scotch Whisky Research Institute",
+  "company": "Scotch Whisky Research Institute",
+  "company_is_current": null,
+  "location": "Edinburgh, United Kingdom",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "hyperspectral imaging and machine learning to measure phenolics in peated barley malt",
+  "ai_maturity": "research",
+  "short_description": "Listed at the Scotch Whisky Research Institute on a 2024 arXiv paper on non-destructive peat analysis with hyperspectral imaging and machine learning. Also on a 2026 IEEE Transactions on Industrial Informatics paper on the same theme. Current role not checked.",
+  "source_urls": [
+   "https://arxiv.org/abs/2405.02191",
+   "https://doi.org/10.1109/tii.2025.3622366"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-02-01"
+ },
+ {
+  "name": "Jinchang Ren",
+  "role": "Researcher, Robert Gordon University",
+  "company": "Robert Gordon University",
+  "company_is_current": null,
+  "location": "Aberdeen, United Kingdom",
+  "linkedin": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "hyperspectral imaging and machine learning for peated malt analysis",
+  "ai_maturity": "research",
+  "short_description": "Lead author on a 2024 arXiv paper on non-destructive peat analysis with hyperspectral imaging and machine learning, written with Scotch Whisky Research Institute staff. Also on a 2021 IEEE paper on phenolic measurement and origin discrimination of peated barley malt. Affiliation on those papers was Robert Gordon University; current role not checked.",
+  "source_urls": [
+   "https://arxiv.org/abs/2405.02191",
+   "https://doi.org/10.1109/tim.2021.3082274"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2024-05-03"
+ },
+ {
+  "name": "Nicholas Watson",
+  "role": "Researcher, University of Nottingham",
+  "company": "University of Nottingham",
+  "company_is_current": null,
+  "location": "Nottingham, United Kingdom",
+  "linkedin": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "ultrasonic sensing and machine learning to monitor beer fermentation",
+  "ai_maturity": "research",
+  "short_description": "Co-author of two 2021 Fermentation papers from the University of Nottingham: predicting alcohol concentration during beer fermentation with ultrasonic measurements and machine learning. The second covers domain adaptation and federated learning for ultrasonic monitoring of beer fermentation. Current role not checked.",
+  "source_urls": [
+   "https://doi.org/10.3390/fermentation7010034",
+   "https://doi.org/10.3390/fermentation7040253"
+  ],
+  "first_seen": "2026-11-14",
+  "last_seen": "2021-11-01"
+ },
+ {
+  "name": "Andreas T. Grasskamp",
+  "role": "Corresponding author, Department of Sensory Analytics and Technologies, Fraunhofer IVV",
+  "company": "Fraunhofer Institute for Process Engineering and Packaging IVV",
+  "company_is_current": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "machine learning odor prediction for whisky",
+  "ai_maturity": "research",
+  "short_description": "Corresponding author of a December 2024 Communications Chemistry paper that combined automated analytics, panel sensory data and machine learning (a linear classifier and a convolutional neural network) to predict the odour attributes of 16 Scotch and American whiskies. Also an author of a 2023 Analytical and Bioanalytical Chemistry paper on rapid sensory and chemical methods for whisky. Affiliation is as printed on the 2024 paper, so current role is not confirmed.",
+  "source_urls": [
+   "https://www.nature.com/articles/s42004-024-01373-2",
+   "https://doi.org/10.1007/s00216-023-04883-5"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Freising, Germany",
+  "last_seen": "2024-12-19"
+ },
+ {
+  "name": "Helen Haug",
+  "role": "Author, Fraunhofer IVV Sensory Analytics and Technologies (Department of Chemistry and Pharmacy, FAU Erlangen-Nuernberg)",
+  "company": "Fraunhofer Institute for Process Engineering and Packaging IVV",
+  "company_is_current": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "machine learning odor prediction for whisky",
+  "ai_maturity": "research",
+  "short_description": "Author of the 2024 Communications Chemistry paper on machine learning odour prediction for whiskies and first author of the 2023 Analytical and Bioanalytical Chemistry paper on rapid sensory evaluation of 16 whiskies. Listed at Fraunhofer IVV in Freising and at the Department of Chemistry and Pharmacy at FAU Erlangen-Nuernberg. Current role is not confirmed.",
+  "source_urls": [
+   "https://www.nature.com/articles/s42004-024-01373-2",
+   "https://doi.org/10.1007/s00216-023-04883-5"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Freising, Germany",
+  "last_seen": "2024-12-19"
+ },
+ {
+  "name": "Tilman Sauerwald",
+  "role": "Author, Fraunhofer IVV and Department of Systems Engineering, Saarland University",
+  "company": "Saarland University",
+  "company_is_current": null,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "machine learning odor prediction for whisky",
+  "ai_maturity": "research",
+  "short_description": "Author on both the 2024 Communications Chemistry whisky odour prediction paper (machine learning on analytical and panel data) and the 2023 Analytical and Bioanalytical Chemistry paper on rapid whisky evaluation. Affiliated with the Fraunhofer IVV sensory department and with Saarland University systems engineering. Current role is not confirmed.",
+  "source_urls": [
+   "https://www.nature.com/articles/s42004-024-01373-2",
+   "https://doi.org/10.1007/s00216-023-04883-5"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Saarbruecken, Germany",
+  "last_seen": "2024-12-19"
+ },
+ {
+  "name": "Philipp Nettesheim",
+  "role": "Author, University of Siegen",
+  "company": "University of Siegen",
+  "company_is_current": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "machine learning in brewing and micro-brewery sensor architecture",
+  "ai_maturity": "research",
+  "short_description": "Lead author of a 2024 systematic review of machine learning applications in the brewing process and of a 2026 paper proposing a sensor-based system architecture and ML applications for sustainability in micro-breweries, both in Discover Artificial Intelligence. Affiliation is University of Siegen. Current role is not confirmed.",
+  "source_urls": [
+   "https://doi.org/10.1007/s44163-024-00177-6",
+   "https://doi.org/10.1007/s44163-026-01175-6"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Siegen, Germany",
+  "last_seen": "2026-04-02"
+ },
+ {
+  "name": "Peter Burggräf",
+  "role": "Author, University of Siegen",
+  "company": "University of Siegen",
+  "company_is_current": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "machine learning in brewing and micro-brewery sensor architecture",
+  "ai_maturity": "research",
+  "short_description": "Co-author of the 2024 systematic review of machine learning in the brewing process and the 2026 design concept for data-driven brewing in micro-breweries, both in Discover Artificial Intelligence. Affiliation is University of Siegen. Current role is not confirmed.",
+  "source_urls": [
+   "https://doi.org/10.1007/s44163-024-00177-6",
+   "https://doi.org/10.1007/s44163-026-01175-6"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Siegen, Germany",
+  "last_seen": "2026-04-02"
+ },
+ {
+  "name": "Dominik Geier",
+  "role": "Group leader, RG BioPat and Digitalization, Chair of Brewing and Beverage Technology, TUM",
+  "company": "Technical University of Munich",
+  "company_is_current": true,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "neural network monitoring of yeast cell count in fermentation",
+  "ai_maturity": "research",
+  "short_description": "Group leader of the BioPat and Digitalization research group at the TUM Chair of Brewing and Beverage Technology in Weihenstephan. First author of a November 2025 paper using ultrasonic measurements and artificial neural networks to predict Saccharomyces cell count without sampling.",
+  "source_urls": [
+   "https://www.lse.ls.tum.de/en/bgt/staff/",
+   "https://www.lse.ls.tum.de/en/bgt/staff/dominik-ulrich-geier/",
+   "https://doi.org/10.1007/s00216-025-06175-6"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Freising, Germany",
+  "last_seen": "2025-11-21"
+ },
+ {
+  "name": "Iain Whitehead",
+  "role": "Scientist, RG BioPat and Digitalization, Chair of Brewing and Beverage Technology, TUM",
+  "company": "Technical University of Munich",
+  "company_is_current": true,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "neural network monitoring of yeast cell count in fermentation",
+  "ai_maturity": "research",
+  "short_description": "Scientist in the BioPat and Digitalization group at the TUM Chair of Brewing and Beverage Technology. Co-author of the November 2025 paper that predicts Saccharomyces cell count from ultrasonic measurements using artificial neural networks.",
+  "source_urls": [
+   "https://www.lse.ls.tum.de/en/bgt/staff/iain-whitehead/",
+   "https://doi.org/10.1007/s00216-025-06175-6"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Freising, Germany",
+  "last_seen": "2025-11-21"
+ },
+ {
+  "name": "Günther Gaßner",
+  "role": "Research associate, Chair of Brewing and Beverage Technology, TUM",
+  "company": "Technical University of Munich",
+  "company_is_current": true,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "data-driven beverage technology systems",
+  "ai_maturity": "research",
+  "short_description": "Research associate at the TUM Chair of Brewing and Beverage Technology, described in the BrauBeviale 2026 programme as focusing on data-driven food and beverage technology systems. Listed as scientific staff on the chair's staff page.",
+  "source_urls": [
+   "https://www.braubeviale.de/en-US/programme/",
+   "https://www.lse.ls.tum.de/en/bgt/staff/"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Freising, Germany",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "name": "Nicolas Wolf",
+  "role": "Project Engineer Data Science, Bitburger Braugruppe",
+  "company": "Bitburger Braugruppe",
+  "company_is_current": true,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "digital twin and data analytics for brewery energy efficiency",
+  "ai_maturity": "research",
+  "short_description": "Data analytics project engineer on the Data Strategy Team in Supply Chain Management at Bitburger Braugruppe, per his BrauBeviale 2026 programme biography. Works on the BeverGreen initiative, a project building a green digital twin for breweries that also plans machine learning for energy savings, with Bitburger named as a project partner.",
+  "source_urls": [
+   "https://www.braubeviale.de/en-US/programme/",
+   "https://www.bevergreen.de"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Bitburg, Germany",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "name": "Anna Buchberger",
+  "role": "Brewery & IT Expert and Product Owner of BrewQuanta, beON consult",
+  "company": "beON consult GmbH",
+  "company_is_current": true,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "machine learning forecasting of brewing quality and process metrics",
+  "ai_maturity": "pilot",
+  "short_description": "Trained brewer who studied Brewing and Beverage Technology in Weihenstephan. She is Product Owner of BrewQuanta at beON consult, per her BrauBeviale 2026 biography. beON says BrewQuanta uses machine-learning models on raw material, process and laboratory data to forecast quality and process metrics, flags deviations early and was to be shown at BrauBeviale 2026.",
+  "source_urls": [
+   "https://www.braubeviale.de/en-US/programme/",
+   "https://www.beon.net/news/brewquanta-the-new-it-ai-software-solution-for-the-entire-brewing-process/"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Germany",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "name": "Patrick Schnöll",
+  "role": "Principal Consultant AI Initiatives, beON consult",
+  "company": "beON consult GmbH",
+  "company_is_current": true,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "AI and machine learning initiatives for breweries",
+  "ai_maturity": "pilot",
+  "short_description": "Principal Consultant for AI initiatives at beON consult, a consultancy that positions itself on IT, data and AI for the brewery. Former Head of AI Enterprise Applications at Continental, per his BrauBeviale 2026 biography. beON's BrewQuanta product applies machine learning to brewing data.",
+  "source_urls": [
+   "https://www.braubeviale.de/en-US/programme/",
+   "https://www.beon.net/news/brewquanta-the-new-it-ai-software-solution-for-the-entire-brewing-process/"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Germany",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "name": "Dirk Widmann",
+  "role": "Managing Director, Flowsight GmbH (Brewcast)",
+  "company": "Flowsight GmbH",
+  "company_is_current": true,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "AI and sensor-data predictive maintenance for breweries",
+  "ai_maturity": "shipping",
+  "short_description": "Managing director of Flowsight, an Augsburg company that makes Brewcast maintenance software for breweries and is named as legal representative in the company imprint. Flowsight's site quotes brewery staff at Einbecker Brauhaus and Rothaus on using Brewcast with process and sensor data and artificial intelligence to detect anomalies.",
+  "source_urls": [
+   "https://flowsight.de",
+   "https://flowsight.de/Impressum",
+   "https://www.braubeviale.de/en-US/programme/"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Augsburg, Germany",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "name": "Jens Varnskühler",
+  "role": "Co-founder, seedalive GmbH",
+  "company": "seedalive GmbH",
+  "company_is_current": true,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "AI-evaluated rapid germination test for malting barley",
+  "ai_maturity": "shipping",
+  "short_description": "Biologist who co-founded seedalive in 2021 as a University of Osnabrueck spin-off. The company sells a rapid germination test kit for malting barley covering the A-EBC 3.6.1 and 3.6.2 methods. Its site and BrauBeviale 2026 listing describe AI evaluation of the bioassay.",
+  "source_urls": [
+   "https://seedalive.de/ueberuns/",
+   "https://seedalive.de/produkte/braugerste/",
+   "https://www.braubeviale.de/en-US/programme/"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Osnabrueck, Germany",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "name": "Laura Grotenhoff",
+  "role": "R&D Project Manager, Ziemann Holvrieka",
+  "company": "Ziemann Holvrieka GmbH",
+  "company_is_current": true,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "AI-supported analytics platform for breweries",
+  "ai_maturity": "shipping",
+  "short_description": "R&D project manager at Ziemann Holvrieka who coordinates customers, development and brewing experts on digital solutions such as Ziemann AnalytiX, per her BrauBeviale 2026 biography. Ziemann describes AnalytiX, built on Indeex's platform, as a brewery analytics SaaS with real-time data, batch analytics and AI-supported recommendations.",
+  "source_urls": [
+   "https://www.braubeviale.de/en-US/programme/",
+   "https://www.ziemann-holvrieka.com/en/beer/ziemann-analytix/"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "location": "Germany",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "name": "Dimitris Garagounis",
+  "role": "Founder and Managing Director, Indeex",
+  "company": "Indeex",
+  "company_is_current": true,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "industrial data analytics and AI platform behind brewery analytics",
+  "ai_maturity": "shipping",
+  "short_description": "Founder and managing director of Indeex, an industrial digitalisation company, per his BrauBeviale 2026 biography. Ziemann Holvrieka's AnalytiX brewery analytics platform is built on Indeex's platform and offers real-time data and AI-supported recommendations.",
+  "source_urls": [
+   "https://www.braubeviale.de/en-US/programme/",
+   "https://www.ziemann-holvrieka.com/en/beer/ziemann-analytix/"
+  ],
+  "linkedin": null,
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-11-12"
  }
 ]

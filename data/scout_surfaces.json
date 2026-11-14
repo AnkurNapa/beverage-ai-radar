@@ -301,5 +301,27 @@
     "yield": "unknown",
     "note": "New food lane surface, first sweep 2026-10-19. 2026-10-20: 8 finds. NOT YET READ, start here next time: exhibitor catalogues of Fi Europe, Fi Asia, SIAL, Anuga FoodTec, IFFA and Fispal, plus Big Idea Ventures, Rockstart, AgFunder and Springboard portfolios.",
     "lane": "food"
+  },
+  {
+    "id": "fabcon",
+    "label": "FabCon and Microsoft Fabric: beverage sessions, speakers, sponsors and partners",
+    "hint": "FabCon (Microsoft Fabric Community Conference, fabriccon.com) in Atlanta, Las Vegas and Europe (Barcelona, Vienna): session catalogue, speaker list, sponsor and exhibitor halls. FabCon TV and session recordings on the Microsoft Fabric YouTube channel. Look for beer, wine, spirits, soft drink and bottler companies that present or are named on stage. Also Fabric partners or ISVs whose session or case study names a drinks client. Also the Fabric Workload Hub and Fabric partner case studies with a beverage customer. A drinks company running Fabric with no AI claim is an honest none entry. Local start point with zero searches: ~/Documents/fabcon-fnb-leadership (notes plus 8 transcripts, already found Coca-Cola, Coca-Cola Icecek and Iceland Foods).",
+    "yield": "unknown",
+    "note": "Added 2026-11-14 at Ankur's request. First sweep. Known so far from the local language bank: Coca-Cola Icecek (FabCon TV Barcelona), The Coca-Cola Company (FabCon Atlanta sessions and keynote), Iceland Foods (grocer, food lane). No CPG company outside beverage spoke at FabCon (checked 14 Nov). Event rows for FabCon editions go to the events candidates file, not the finds file."
+  },
+  {
+    "id": "decarbonisation",
+    "label": "Decarbonisation of beer, whiskey and wine production",
+    "hint": "Companies cutting carbon on the plant floor of breweries, distilleries and wineries: CO2 recovery and capture (Earthly Labs is tracked), heat pumps and mechanical vapour recompression, electrified or hydrogen-fired stills and boilers, biogas from spent grain or pot ale, heat recovery, solar thermal, energy management and optimisation software with a named drinks site, low-carbon glass and packaging suppliers with a drinks customer. Also the drinks producers running a named decarbonisation project with a measured result. Sources: Green Distilleries Competition (UK DESNZ) winners, Scotch Whisky Association net zero case studies, Brewers Association sustainability benchmarking, Beverage Industry Environmental Roundtable (BIER), Carbon Trust and EU Innovation Fund project lists. Carbon reporting software belongs to the esg surface. A real decarbonisation supplier with no AI claim is an honest none entry.",
+    "yield": "unknown",
+    "note": "Added 2026-11-14 at Ankur's request. First sweep. Kept apart from esg, which covers carbon accounting and reporting software."
+  },
+  {
+    "id": "food_esg",
+    "label": "Food ESG, carbon accounting and decarbonisation",
+    "hint": "ESG and decarbonisation for food makers: carbon accounting and product footprint platforms with named food customers (CarbonCloud, Foodsteps, Klim, HowGood), regenerative agriculture and scope 3 programmes with a measured result, food factory energy and refrigeration optimisation, food waste to energy, water stewardship in food plants. Also food majors with a named decarbonisation or ESG data programme. Beverage producers belong to the esg and decarbonisation surfaces: skip them. A real supplier with no AI claim is an honest none entry.",
+    "yield": "unknown",
+    "note": "Added 2026-11-14 at Ankur's request. First sweep. CarbonCloud was rejected by the beverage esg scout on 2026-09-15 for want of a drinks customer: it may fit here.",
+    "lane": "food"
   }
 ]

@@ -109,3 +109,11 @@ def test_liveness_transport_failure_is_blocked_not_dead():
     assert check("arryved.com", get=boom) is None
     assert check("x.com", get=lambda u: None) is None
     assert check("gone.example", get=lambda u: "dns") is False
+
+
+def test_partial_dates_are_rejected_not_merged():
+    """A month-only last_seen passed the gate on 2026-11-14 and broke radar run."""
+    _, added, q = merge(list(SEED), [_co("Month Co", last_seen="2026-03"),
+                                     _co("First Co", "first.co", first_seen="2026")])
+    assert added == []
+    assert all("not a full date" in x["reason"] for x in q)

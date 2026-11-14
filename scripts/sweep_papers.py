@@ -21,6 +21,7 @@ Run: python3 scripts/sweep_papers.py [--per-query 50]
 from __future__ import annotations
 
 import argparse
+import os
 import json
 import re
 import sys
@@ -34,8 +35,9 @@ OUT = ROOT / "data" / "resources" / "papers_openalex.json"
 EXISTING = ROOT / "dashboard" / "resources.json"
 
 # A contact address is how OpenAlex's polite pool works; it buys a higher rate
-# limit and is the documented way to identify a client.
-MAILTO = "napaankur@gmail.com"
+# limit. It comes from the environment so no address lives in this public repo.
+# Unset means keyless requests, which still work at a lower rate.
+MAILTO = os.environ.get("OPENALEX_MAILTO", "")
 API = "https://api.openalex.org/works"
 
 QUERIES = [
@@ -95,11 +97,11 @@ def fetch(query: str, per_page: int) -> list[dict]:
     params = urllib.parse.urlencode({
         "search": query,
         "per-page": per_page,
-        "mailto": MAILTO,
+        **({"mailto": MAILTO} if MAILTO else {}),
         "filter": "type:article",
         "sort": "relevance_score:desc",
     })
-    req = urllib.request.Request(f"{API}?{params}", headers={"User-Agent": f"beverage-ai-radar ({MAILTO})"})
+    req = urllib.request.Request(f"{API}?{params}", headers={"User-Agent": "beverage-ai-radar"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.loads(r.read()).get("results", [])
 

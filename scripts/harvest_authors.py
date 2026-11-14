@@ -46,7 +46,7 @@ def beverage_title(title: str) -> bool:
 
 
 def get(path: str, params: dict) -> list[dict]:
-    params = {**params, "mailto": MAILTO, "per-page": BATCH}
+    params = {**params, **({"mailto": MAILTO} if MAILTO else {}), "per-page": BATCH}
     url = f"https://api.openalex.org/{path}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url, headers={"User-Agent": f"beverage-ai-radar ({MAILTO})"})
     with urllib.request.urlopen(req, timeout=30) as r:

@@ -20,6 +20,11 @@
       "publisher": "Endress+Hauser",
       "url": "https://www.endress.com/en/field-instruments-overview/beverage-industry",
       "reason": "returns a 1.8KB JS shell with no links to a plain client"
+    },
+    {
+      "publisher": "Snowflake",
+      "url": "https://www.snowflake.com/en/resources/?_sft_resource-type=white-paper",
+      "reason": "HTTP 403"
     }
   ]
 }

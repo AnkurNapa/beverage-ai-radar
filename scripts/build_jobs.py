@@ -35,6 +35,9 @@ QUERIES = [
     "distillery data analyst", "spirits analytics", "whiskey data",
     "beverage data scientist", "beverage AI", "drinks category analytics",
     "fermentation machine learning", "sensory data scientist",
+    "brewery sustainability manager", "distillery decarbonisation",
+    "winery sustainability", "beverage sustainability manager",
+    "brewery energy manager", "drinks net zero",
 ]
 LOCATIONS = ["", "United States", "United Kingdom", "India"]
 
@@ -51,6 +54,10 @@ BEV_EMPLOYER = re.compile(
 AI = re.compile(r"data|analyt|machine learning|\bml\b|\bai\b|artificial intelligence|"
                 r"scien|insight|business intelligence|\bbi\b|power ?bi|tableau|"
                 r"forecast|sensory|digital", re.I)
+# Decarbonisation and ESG roles at drinks employers sit beside the data roles:
+# the radar tracks who is cutting carbon in beer, whiskey and wine too.
+DECARB = re.compile(r"sustainab|decarboni[sz]|\bcarbon\b|net[ -]?zero|\besg\b|"
+                    r"emission|climate|energy (manager|engineer|lead)|environmental (manager|lead)", re.I)
 BAD = re.compile(r"intern\b|internship|fresher|commission only|server\b|bartend|"
                  # "entreprise fictive" is a French training-school mock company:
                  # it posts mock vacancies, which are never real openings.
@@ -136,7 +143,8 @@ def keep(card, tracked=()):
     company = card["company"].lower()
     beverage = (BEV.search(blob) or BEV_EMPLOYER.search(company)
                 or any(t in company for t in tracked))
-    return bool(beverage and AI.search(blob) and not BAD.search(blob))
+    signal = AI.search(blob) or DECARB.search(blob)
+    return bool(beverage and signal and not BAD.search(blob))
 
 
 def fetch(kw, loc, start=0):
@@ -325,7 +333,7 @@ def company_sweep(tracked, jobs):
             if card["id"] in jobs or lower not in card["company"].lower():
                 continue
             blob = f"{card['title']} {card['company']}"
-            if BAD.search(blob) or not AI.search(blob):
+            if BAD.search(blob) or not (AI.search(blob) or DECARB.search(blob)):
                 continue
             jobs[card["id"]] = tag(card, tracked, name, company=name)
     CURSOR.write_text(str((offset + covered) % len(items)))

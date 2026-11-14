@@ -133,7 +133,10 @@ def fetch(url: str) -> str:
 def load_seen() -> set[str]:
     seen: set[str] = set()
     if OUT.exists():
-        seen.update(r["url"] for r in json.loads(OUT.read_text()) if r.get("url"))
+        prev = json.loads(OUT.read_text())
+        # main() writes {"whitepapers": [...], "blocked": [...]}; older files were a bare list.
+        rows = prev.get("whitepapers", []) if isinstance(prev, dict) else prev
+        seen.update(r["url"] for r in rows if r.get("url"))
     if EXISTING.exists():
         for r in json.loads(EXISTING.read_text()):
             if r.get("url"):

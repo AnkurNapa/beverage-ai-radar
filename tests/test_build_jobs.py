@@ -146,3 +146,11 @@ def test_company_sweep_resumes_from_cursor(monkeypatch, tmp_path):
     build_jobs.company_sweep({"a": "A", "b": "B", "c": "C", "d": "D"}, {})
     assert seen == ["c", "d", "a", "b"]
     assert cursor.read_text() == "2"  # a full pass lands back where it began
+
+
+def test_keep_passes_decarbonisation_roles_at_drinks_employers():
+    assert build_jobs.keep(card("Sustainability Manager", "Sierra Nevada Brewing"))
+    assert build_jobs.keep(card("Decarbonisation Lead", "Diageo"))
+    assert build_jobs.keep(card("Energy and Net Zero Engineer, Winery"))
+    assert not build_jobs.keep(card("Sustainability Manager", "Acme Insurance"))
+    assert not build_jobs.keep(card("Sustainability Intern", "Heineken"))
