@@ -2032,5 +2032,21 @@
     "url": "https://www.youtube.com/watch?v=3CUWMZ1304I",
     "vertical": "wine",
     "summary": "This presentation will discuss the implementation of an image-based identification system for wine labels using Python scientific ..."
+  },
+  {
+    "title": "How AI and Technologies Can Drive Brewery Growth, Efficiency, & Strategic Advantage",
+    "channel": "Craft Beer Professionals",
+    "video_id": "2L0Ht_IPLdc",
+    "url": "https://www.youtube.com/watch?v=2L0Ht_IPLdc",
+    "vertical": "beer",
+    "summary": "The craft beer industry is more competitive than ever. Rising costs, shifting consumer preferences, and complex supply chains ..."
+  },
+  {
+    "title": "DIFME Data Analytics Wine Quality",
+    "channel": "Brian Byrne",
+    "video_id": "sTcrK31Lv8M",
+    "url": "https://www.youtube.com/watch?v=sTcrK31Lv8M",
+    "vertical": "wine",
+    "summary": "To access code please follow link: https://sites.google.com/view/difme-data-analytics/predicting-wine-quality."
   }
 ]
