@@ -2252,5 +2252,26 @@
   "surface": "dach_benelux_nordics",
   "found": 15,
   "added": 15
+ },
+ {
+  "date": "2026-11-16",
+  "lane": "people",
+  "surface": "wave6_1",
+  "found": 5,
+  "added": 5
+ },
+ {
+  "date": "2026-11-16",
+  "lane": "people",
+  "surface": "wave6_2",
+  "found": 5,
+  "added": 5
+ },
+ {
+  "date": "2026-11-16",
+  "lane": "people",
+  "surface": "wave6_3",
+  "found": 5,
+  "added": 5
  }
 ]

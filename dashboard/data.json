@@ -89614,5 +89614,760 @@
     ],
     "country": "unknown",
     "scope": "beverage-native"
+  },
+  {
+    "name": "Abby Czarniecki",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "retail media and e-commerce with AI readiness",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Abby Czarniecki (Ecommerce Manager)",
+    "people": [
+      {
+        "name": "Abby Czarniecki",
+        "role": "Ecommerce Manager",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Abby Czarniecki is Ecommerce Manager at New Belgium Brewing in Fort Collins. A Pear Commerce case study and a podcast episode describe her work on retail media, e-commerce growth and AI readiness.",
+    "source_urls": [
+      "https://etaileast.wbresearch.com/speakers/abby-czarniecki",
+      "https://www.pearcommerce.com/case-study/brewing-innovation-why-new-belgium-chose-pear-to-power-whats-next-in-alcbev-commerce",
+      "https://www.youtube.com/watch?v=RXtAdgaZCu8"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2025-11-24",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "New Belgium Brewing",
+    "affiliated_company_current": true,
+    "key": "abby-czarniecki::unknown",
+    "theme": "Other",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Brad Feinberg",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "AI-enabled media and personalised marketing",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Brad Feinberg (North American VP of Media and Consumer Engagement)",
+    "people": [
+      {
+        "name": "Brad Feinberg",
+        "role": "North American VP of Media and Consumer Engagement",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Brad Feinberg leads media strategy and investment at Molson Coors, including the in-house agency VOLT Studio. His public remarks cover AI-driven personalisation at scale.",
+    "source_urls": [
+      "https://adexchanger.com/ad-exchange-news/molson-coors-is-brewing-a-full-bodied-data-strategy",
+      "https://mmaglobal.com/pt-br/node/28688",
+      "https://www.youtube.com/watch?v=M_vkpPriLp8"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2026-06-16",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Molson Coors",
+    "affiliated_company_current": true,
+    "key": "brad-feinberg::unknown",
+    "theme": "GenAI & marketing",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Gabriela Cadenas",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "digital route to consumer and digital transformation",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Gabriela Cadenas (SVP Digital and Technology Americas)",
+    "people": [
+      {
+        "name": "Gabriela Cadenas",
+        "role": "SVP Digital and Technology Americas",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Gabriela Cadenas leads Digital and Technology for the Americas at The Heineken Company. A Thoughtworks interview and Heineken coverage describe the Americas digital transformation under her lead.",
+    "source_urls": [
+      "https://www.mobileworldlive.com/industry/heineken-svp-pours-over-digitalisation-details/",
+      "https://www.thoughtworks.com/en-sg/about-us/events/webinars/dto-transformed-series/a-conversation-with-gabriela-cadenas--svp-digital-and-technology",
+      "https://www.youtube.com/watch?v=Oh1Rcra6Hpg"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2023-04-26",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "The Heineken Company",
+    "affiliated_company_current": true,
+    "key": "gabriela-cadenas::unknown",
+    "theme": "Consumer & personalization",
+    "capabilities": [],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Kyle Kotaich",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "machine learning on sensor data for fermentation and glycol capacity",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Kyle Kotaich (Senior Data Analyst)",
+    "people": [
+      {
+        "name": "Kyle Kotaich",
+        "role": "Senior Data Analyst",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Kyle Kotaich is described as senior data analyst and operations technology lead at Deschutes Brewery. Microsoft and Beer and Brewing coverage credit his machine learning work with cutting fermentation time. Sources date from 2018 to 2021 so the role may be past tense.",
+    "source_urls": [
+      "https://beerandbrewing.com/beautiful-future-how-deschutes-uses-artificial-intelligence-and-machine",
+      "https://news.microsoft.com/transform/how-data-and-ai-are-helping-deschutes-brewery-respond-to-beer-trends-faster/",
+      "https://www.youtube.com/watch?v=fRCLsHeZH7E"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2021-01-21",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Deschutes Brewery",
+    "affiliated_company_current": null,
+    "key": "kyle-kotaich::unknown",
+    "theme": "Engineering & equipment",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Susan Jones",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "AI adoption and consumer digital engagement",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Susan Jones (Chief Digital Officer)",
+    "people": [
+      {
+        "name": "Susan Jones",
+        "role": "Chief Digital Officer",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Susan Jones is Chief Digital Officer at Diageo, leading consumer digital transformation. She has spoken on how Diageo uses AI for efficiency and personalised consumer experiences.",
+    "source_urls": [
+      "https://emarsys.com/learn/webinars/the-future-of-marketing-unlocking-the-power-of-ai/",
+      "https://themarketingacademy.org/profile/susan-jones/",
+      "https://www.youtube.com/watch?v=FnIVceVPUYY"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2025-05-30",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Diageo",
+    "affiliated_company_current": true,
+    "key": "susan-jones::unknown",
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "AI & ML"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Amar Swain",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "S/4HANA ERP core as base for analytics and agentic AI",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Amar Swain (Transformation Director)",
+    "people": [
+      {
+        "name": "Amar Swain",
+        "role": "Transformation Director",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Bain describes Amar Pradeep Swain as the Diageo transformation director who led Project Voyager through the reset, go-live and hypercare. He calls the new core the substrate on which Diageo can scale analytics and, increasingly, agentic AI.",
+    "source_urls": [
+      "https://www.bain.com/client-results/how-diageo-refocused-its-erp-transformationand-defied-the-odds/",
+      "https://www.youtube.com/watch?v=abdusnkRNKM"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2026-09-24",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey",
+      "beer"
+    ],
+    "affiliated_company": "Diageo",
+    "affiliated_company_current": true,
+    "key": "amar-swain::unknown",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record",
+      "BI & analytics"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Matt Higgs",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "data science and analytics for a data-informed culture",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Matt Higgs (Analytics Lead)",
+    "people": [
+      {
+        "name": "Matt Higgs",
+        "role": "Analytics Lead",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "The A.I Right podcast lists him as Analytics Lead at Edrington, the whisky company behind The Macallan and Highland Park. He discusses building a data-informed culture and turning insights into decisions. The Org lists a Dr Matthew Higgs-McCallum as data science lead at Edrington.",
+    "source_urls": [
+      "https://shows.acast.com/the-ai-leader/episodes/distilling-data-analytics-at-edrington-ft-matt-higgs",
+      "https://www.youtube.com/watch?v=W_-32hg_ZaA"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2025-05-07",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Edrington",
+    "affiliated_company_current": true,
+    "key": "matt-higgs::unknown",
+    "theme": "Process & operations",
+    "capabilities": [
+      "BI & analytics"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Pamela Forbus",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": "individual",
+    "ai_use_case": "data-led digital marketing and consumer centricity",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Pamela Forbus (SVP and Chief Marketing Officer, Pernod Ricard North America)",
+    "people": [
+      {
+        "name": "Pamela Forbus",
+        "role": "SVP and Chief Marketing Officer, Pernod Ricard North America",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Marketing Dive reported her appointment as CMO of Pernod Ricard North America in 2020. Podcast pages list her talking about digital transformation and data for consumer-centric marketing. One 2023 report says she left the role, so the title may be past tense.",
+    "source_urls": [
+      "https://www.marketingdive.com/news/pernod-ricard-names-pam-forbus-as-cmo-for-north-america/579861/",
+      "https://www.youtube.com/watch?v=edpxPJFUD8Q"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2022-07-26",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey",
+      "wine"
+    ],
+    "affiliated_company": "Pernod Ricard North America",
+    "affiliated_company_current": null,
+    "key": "pamela-forbus::unknown",
+    "theme": "Consumer & personalization",
+    "capabilities": [],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Rob Blumhof",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "SAP S/4HANA business transformation for data-driven insights",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Rob Blumhof (D&T Transformation Director, Project Voyager)",
+    "people": [
+      {
+        "name": "Rob Blumhof",
+        "role": "D&T Transformation Director, Project Voyager",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Diageo describes him as Transformation Director for Project Voyager, its largest digital transformation programme. Diageo says the programme gives greater data-driven insights. The role is from 2023 and 2024 sources so it may be past tense.",
+    "source_urls": [
+      "https://www.diageo.com/en/careers/life-at-diageo/2023/digital-transformation-at-diageo-qa-with-transformation-director-rob-blumhof",
+      "https://www.youtube.com/watch?v=KI4RCZTSfB4"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2024-06-14",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey",
+      "beer"
+    ],
+    "affiliated_company": "Diageo",
+    "affiliated_company_current": null,
+    "key": "rob-blumhof::unknown",
+    "theme": "Consumer & personalization",
+    "capabilities": [],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Ruth Bromley",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "digital procurement with data-driven insights and automation",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Ruth Bromley (Director Procurement Enablement)",
+    "people": [
+      {
+        "name": "Ruth Bromley",
+        "role": "Director Procurement Enablement",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "HiCX describes her as Director Procurement Enablement at Heineken, speaking at Supplier Experience Live 2023. She sets out four digital pillars including data-driven insights. She says source to contract was standardised in seventy countries. The caption spelling Brumley is corrected to Bromley.",
+    "source_urls": [
+      "https://www.hicx.com/blog/heineken-digital-transformation-journey/",
+      "https://www.youtube.com/watch?v=pvuJwIAw2_o"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2024-03-15",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Heineken",
+    "affiliated_company_current": true,
+    "key": "ruth-bromley::unknown",
+    "theme": "Consumer & personalization",
+    "capabilities": [],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Dirkie Gertenbach",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "B2B digital commerce platform engineering",
+    "ai_maturity": "shipping",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Dirkie Gertenbach (Global Product & Engineering Director: Platform & Operations)",
+    "people": [
+      {
+        "name": "Dirkie Gertenbach",
+        "role": "Global Product & Engineering Director: Platform & Operations",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "An org chart page lists him as Global Product & Engineering Director: Platform & Operations at BEES. In the 2019 talk he was global B2B engineering lead at AB InBev.",
+    "source_urls": [
+      "https://theorg.com/org/bees/org-chart/dirkie-gertenbach",
+      "https://www.youtube.com/watch?v=WpKpRld4yZE"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2019-09-19",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "BEES",
+    "affiliated_company_current": true,
+    "key": "dirkie-gertenbach::unknown",
+    "theme": "Engineering & equipment",
+    "capabilities": [],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Justin Noland",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "wine",
+    "company_type": "individual",
+    "ai_use_case": "AI for consumer trend analysis and digital marketing",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Justin Noland (Vice President of Digital Experience, Treasury Americas)",
+    "people": [
+      {
+        "name": "Justin Noland",
+        "role": "Vice President of Digital Experience, Treasury Americas",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "A March 2025 Vinitaly article names him Vice President of Digital Experience, Treasury Americas, at Treasury Wine Estates. It describes his view of AI for trend analysis, digital marketing, task automation and personalised wine experiences.",
+    "source_urls": [
+      "https://www.vinitaly.com/en/magazine/ai-and-digital-innovation-at-treasury-wine-estates-with-justin-noland",
+      "https://www.youtube.com/watch?v=qIEDq_xWGww"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2026-03-24",
+    "status": "active",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "wine"
+    ],
+    "affiliated_company": "Treasury Wine Estates",
+    "affiliated_company_current": true,
+    "key": "justin-noland::unknown",
+    "theme": "Consumer & personalization",
+    "capabilities": [
+      "AI & ML",
+      "ERP & systems of record"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Paul Ditterline",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "whiskey",
+    "company_type": "individual",
+    "ai_use_case": "Data science and AI for forecasting and inventory planning",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Paul Ditterline (Director of Data Services)",
+    "people": [
+      {
+        "name": "Paul Ditterline",
+        "role": "Director of Data Services",
+        "linkedin": "https://www.linkedin.com/in/paul-ditterline-106b096b"
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "Heaven Hill's site introduced him as Director, Data Science after he joined in October 2020. A November 2025 company article calls him Director of Data Services and says he joined an AI panel at the NABCA Conference on forecasting, inventory planning and operations. His LinkedIn profile lists Heaven Hill Brands among past roles and a later analytics role at Texas Roadhouse, so the Heaven Hill role may be past tense.",
+    "source_urls": [
+      "https://heavenhill.com/news-and-notes/exploring-the-future-of-ai-at-nabca/",
+      "https://www.linkedin.com/in/paul-ditterline-106b096b",
+      "https://www.youtube.com/watch?v=l3825QyCpbE"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2025-11-14",
+    "status": "active",
+    "linkedin_url": "https://www.linkedin.com/in/paul-ditterline-106b096b",
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "whiskey"
+    ],
+    "affiliated_company": "Heaven Hill Brands",
+    "affiliated_company_current": null,
+    "key": "paul-ditterline::unknown",
+    "theme": "Sales, demand & pricing",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics"
+    ],
+    "country": "unknown",
+    "scope": "horizontal"
+  },
+  {
+    "name": "Tassilo Festetics",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "In-house digital products, B2B reorder algorithms and brewery AI",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Tassilo Festetics (Vice President of Global Solutions)",
+    "people": [
+      {
+        "name": "Tassilo Festetics",
+        "role": "Vice President of Global Solutions",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "A January 2020 CIO.com feature calls him vice president of global solutions at AB InBev. It covers the B2B reorder app, AI and sensors at more than 350 breweries and a distributor credit scoring project. He may have left since, so the role may be past tense.",
+    "source_urls": [
+      "https://www.cio.com/article/3516388/anheuser-busch-inbev-brews-data-driven-transformation-to-lure-talent.html",
+      "https://www.youtube.com/watch?v=g7PufLUS1T0"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2020-01-28",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Anheuser-Busch InBev",
+    "affiliated_company_current": null,
+    "key": "tassilo-festetics::unknown",
+    "theme": "Other",
+    "capabilities": [
+      "IoT & sensing",
+      "AI & ML"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
+  },
+  {
+    "name": "Walter Hannemann",
+    "domain": null,
+    "hq_location": null,
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "beer",
+    "company_type": "individual",
+    "ai_use_case": "Enterprise architecture and ERP data layer for digital transformation",
+    "ai_maturity": null,
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": "Walter Hannemann (Global Enterprise Architect)",
+    "people": [
+      {
+        "name": "Walter Hannemann",
+        "role": "Global Enterprise Architect",
+        "linkedin": null
+      }
+    ],
+    "notable_customers_partners": null,
+    "short_description": "A March 2022 Ardoq article calls him Global Enterprise Architect at Carlsberg, who joined in April 2021. It covers the Smartcore ERP replacement and a data layer linking its components. He may have left since, so the role may be past tense.",
+    "source_urls": [
+      "https://www.ardoq.com/blog/carlsbergs-digital-journey",
+      "https://www.youtube.com/watch?v=vwXouJ1OB2M"
+    ],
+    "first_seen": "2026-11-16",
+    "last_seen": "2022-03-10",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [
+      "beer"
+    ],
+    "affiliated_company": "Carlsberg",
+    "affiliated_company_current": null,
+    "key": "walter-hannemann::unknown",
+    "theme": "Process & operations",
+    "capabilities": [
+      "ERP & systems of record"
+    ],
+    "country": "unknown",
+    "scope": "beverage-native"
   }
 ]

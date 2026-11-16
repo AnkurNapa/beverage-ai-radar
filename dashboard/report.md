@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-11-14. 1704 active, 228 dormant.
+Snapshot: 2026-11-16. 1709 active, 238 dormant.
 
 ## Active companies
 
@@ -15,6 +15,7 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - **9Ways** (wine, winery visitor, tasting and direct to consumer management). 9Ways Srl is an Italian Microsoft partner in Venice that publishes Winery Hospitality for Power Apps on Microsoft AppSource. The app runs winery cellar door operations: visit calendar and tour planning, guide management, grouping visitors into tours, structured data capture during tastings, retail purchases from the visit, contact management and targeted campaigns through Dynamics 365 Marketing, with requests collected from the website and email. It is multi-language and multi-brand and runs on desktop, tablet and phone. 9Ways makes no AI or machine learning claim for the product.
 - **ABB (ABB Ability BeerMaker)** (beer, brewery process control system). ABB Ability BeerMaker is a brewery-specific process control package built on the ABB Ability System 800xA distributed control system, with ready-made master recipes, templates and objects for hot block and malting, plus a cold block module (fermentation, maturation, yeast, filtration, BBT, CIP) launched in January 2024. It was shown with B&R packaging automation at drinktec 2025. ABB markets it as 'intelligent process control' and cites a digital twin for recipe testing and advanced process control, but makes no machine learning claim, so it is recorded as the control layer brewing data originates from, not as AI.
 - **Abbl** (beer, brewery erp system of record). Australian brewery ERP built by the sister and brother team behind Five Barrels Brewing in Wollongong: brew-day and tank scheduling, recipe management, inventory with material requirements projected from the production schedule, delivery planning, batch costing and Xero integration. It was the first recipient of the Scalapay Scale Up Scholarship at the University of Wollongong's iAccelerate incubator in 2023. Its inventory forecasting is schedule arithmetic, and it makes no AI claim. People: Lucy Timpano (Co-founder), Phil O'Shea (Co-founder).
+- **Abby Czarniecki** (beer, retail media and e-commerce with AI readiness). Abby Czarniecki is Ecommerce Manager at New Belgium Brewing in Fort Collins. A Pear Commerce case study and a podcast episode describe her work on retail media, e-commerce growth and AI readiness. People: Abby Czarniecki (Ecommerce Manager).
 - **ABE Beverage Equipment (American Beer Equipment)** (beer, brewhouse assisted brewing automation). ABE Beverage Equipment, formerly American Beer Equipment and a division of Norland International, builds brewhouses, fermentation, grain handling and canning lines for craft breweries. Its named control offering is the Brewhouse Automation Plus assisted brewing package, standard on new brewhouses, which automates liquor blending, vorlauf and wort grant, sparge control, lauter to kettle and whirlpool transfers, knockout to fermenter at a regulated pitch temperature, and liquor tank management with volumetric auto-stop and remote viewing and control. BrewPilot is its entry-level system for nano and brewpub scale. ABE deliberately uses off-the-shelf automation components and makes no AI or machine learning claim.
 - **Aber Instruments** (beer, inline yeast biomass measurement for pitching control). Aber Instruments makes radio frequency impedance biomass sensors that measure live yeast concentration inline during pitching and cropping, sold to breweries as the COMPACT inline system, the portable Perfect Pitch unit and the Countstar image analysis cell counter. It is a measurement and control vendor, not an analytics vendor: the site makes no machine learning or predictive claim, and the value proposition is replacing offline cell counts with a direct live-cell signal. The company is employee owned and names Heineken, SABMiller, AB InBev, Royal Unibrew, Meantime, Marble and Summit among its brewing users.
 - **Abhay Singh** (multiple, liquor shop billing software with an AI bill scanner and excise (FL2) reporting). Founder of DukaanWale, shop software built from running his own wine and beer shop in Shahjahanpur, Uttar Pradesh. The product targets country liquor and wine-beer shops with an AI bill scanner, FL2 excise reports and shop-wise analytics. People: Abhay Singh (Founder, DukaanWale).
@@ -91,6 +92,7 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - **Alvaro Gonzalez** (wine, harvest volume prediction from drone multispectral imagery). Named in Concha y Toro's own account of the Center for Research and Innovation project that built an AI harvest volume prediction model from drone multispectral imagery and terrain data, reporting 2 to 9 percent prediction error against 20 to 30 percent for traditional methods. company_is_current is false only because the source article is dated March 2018 and no later confirmation of his role was found. People: Alvaro Gonzalez (Deputy Manager of Research and Development, Vina Concha y Toro).
 - **Amanda Dobbyn** (beer, data analytics / BI / market intelligence for beverage). Built a public clustering and classification analysis of 45,000-plus beers to test whether beer styles hold up statistically, a well-known beer data science project. People: [Amanda Dobbyn](https://www.linkedin.com/in/amanda-dobbyn/) (Data scientist / senior data engineer; author of a widely cited beer-styles data science project, independent (beer project); now Indigo).
 - **Amar Sinha** (whiskey, ML automation, sales force analytics, track and trace and predictive planning at an IMFL distiller). Managing Director of Allied Blenders and Distillers since early 2026, after nine years as COO of Radico Khaitan. As Radico's COO he told ET the company used machine learning to automate routine tasks, a sales force app covering 60,500 retailers, track and trace for factory dispatches and an SAP SAC planning tool with predictive analytics. His AI and ML evidence dates from his time as Radico Khaitan COO. People: [Amar Sinha](https://www.linkedin.com/in/amar-sinha-5803123a/) (Managing Director, Allied Blenders and Distillers).
+- **Amar Swain** (whiskey, S/4HANA ERP core as base for analytics and agentic AI). Bain describes Amar Pradeep Swain as the Diageo transformation director who led Project Voyager through the reset, go-live and hypercare. He calls the new core the substrate on which Diageo can scale analytics and, increasingly, agentic AI. People: Amar Swain (Transformation Director).
 - **Amatera** (wine, machine learning cell-level screening for grape variety breeding). French biotechnology start-up that combines plant cell culture, high-throughput robotics and machine learning to screen crop traits at the cell stage instead of in the field. Its stated wine product is a mildew-resistant Merlot, alongside coffee and banana programmes. It offers its CellTera platform to seed companies and agrifood partners. The machine learning claim is the company's own and the varieties are still in development, so this is an upstream grape breeding pilot rather than a shipped product. People: Omar Dekkiche (CEO).
 - **American Craft Spirits Association (Craft Spirits Data Project)** (whiskey, craft distiller industry data set). US trade body for craft distillers that runs the annual Craft Spirits Data Project with Park Street, recurring since 2016. Data is collected directly from craft distilled spirits producers (June to August 2026 for the 2025 year) and pooled into volume, value, channel mix, employment and investment benchmarks for 2,131 active craft distillers. It is an aggregate industry fact base rather than a per member ranking club. Makes no AI claim. Park Street is already tracked and its own post is the shared second source. People: Emily Pennington (CEO), Tom Bard (President).
 - **Amit Parulekar** (whiskey, enterprise ai strategy and governance). Leads Brown-Forman's global data science team as Director of Advanced Analytics and AI Strategy, including an AI Centre of Excellence and a hybrid AI governance model. He presented on generative AI in the alcohol beverage industry at NABCA's 30th Annual Administrator's Conference and was interviewed in NABCA's generative AI series. People: [Amit Parulekar](https://www.linkedin.com/in/amit-parulekar-6aba175/) (Director, Global Advanced Analytics and AI Strategy, Brown-Forman).
@@ -272,6 +274,7 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - **Bottle360** (wine, dtc commerce, club and tasting room data platform). Bottle360, operated by November 2nd, Inc., is an all-in-one direct-to-consumer platform for wineries covering ecommerce, wine club and subscription management, tasting room POS, loyalty, CRM, reporting, inventory, wholesale, shipping and compliance. It matters to the wine data landscape as a system of record for DTC customer and sales data, and it is listed under Business Intelligence in the WineBusiness Analytics Buyer's Guide. It makes no AI claim.
 - **BottleCapps** (multiple, loyalty and personalisation for liquor retail e-commerce). BottleCapps builds branded online storefronts and mobile apps for liquor retailers, beverage alcohol brands and suppliers across the USA and Canada, with email, SMS and push marketing and order management across channels, on a flat 300 to 500 dollar monthly subscription with no transaction markup. Its own marketing describes an AI layer over loyalty that reads behavioural micro-signals such as shifts in purchase frequency, category experimentation, seasonality and basket pairings across POS, email, mobile and e-commerce, and predicts taste migration to drive members-only allocations rather than blanket discounts. That claim appears only in company blog copy and carries no model, benchmark or customer evidence, and the main product site makes no AI claim at all, so treat the machine learning as unsubstantiated. HQ, founding year and leadership are not published on the site.
 - **Bowimi** (multiple, on-trade prospect scoring). Field sales software for drinks brands and their agencies, covering route planning, rep activity tracking, outlet surveys and distributor customer lists across the UK on-trade and off-trade. Its Prospecting AI feature scores a database of over 100,000 venues daily against the customer profile a brand uploads and returns a ranked personalised prospect list inside the app. Named drinks customers include Amie Wine and House of Theakston. Bowimi Limited is registered in England and Wales, company number 11641407, at Podium Space, Henry Street, Bath.
+- **Brad Feinberg** (beer, AI-enabled media and personalised marketing). Brad Feinberg leads media strategy and investment at Molson Coors, including the in-house agency VOLT Studio. His public remarks cover AI-driven personalisation at scale. People: Brad Feinberg (North American VP of Media and Consumer Engagement).
 - **Braeburn Whisky** (whiskey, cask investment advisory, no ai claim). Braeburn is an international Scotch whisky cask investment advisor with offices in Edinburgh, New York, Barcelona and Shanghai, selling casks from emerging and heritage distilleries as an alternative asset and managing client portfolios through to exit. It publishes historical client exit performance, quoting a 12.14 percent median and 18.42 percent average IRR, attributed to its own internal data rather than any model. The site makes no artificial intelligence, machine learning or algorithmic valuation claim: the only technology language is a general reference to innovative technology combined with a team of whisky investment professionals. It is recorded here as a significant cask investment player with no substantiated AI claim, which is the common pattern in this segment.
 - **Bragato Research Institute** (wine, predicting wine quality from wine chemistry). Bragato Research Institute is the research arm of the New Zealand wine industry, wholly owned by New Zealand Winegrowers and set up in 2015 as the country's first Regional Research Institute. Its Pinot Noir programme applies machine learning to predict relationships between wine chemistry and perceptions of wine quality. Other data work includes grapevine genomic sequencing for the Sauvignon Blanc 2.0 clone programme, 5 km granularity climate change projections for all nine New Zealand wine regions using NIWA data, and an industry-wide research data catalogue and structured database. People: Jeffrey Clarke (CEO), Darrell Lizamore (Principal Research Scientist, Grapevine Improvement).
 - **Brain Brew Custom Whiskey (Brain Brew Ventures 3.0)** (whiskey, consumer custom bourbon blend recommendation). Ohio bourbon maker behind Dexter Bourbon and the WoodCraft Finishing process, selling custom blended bourbon online and through WoodCraft Bourbon Blender franchises such as Barrels & Billets in Louisville. Its own site describes an A.I. powered Bourbon Wizard, built and validated by sister company Eureka! Ranch, that turns answers to 13 taste questions into a personal blend recipe with tasting notes and cocktail suggestions. The site gives no technical detail on the model. Earliest coverage dates from 2021 and was missed by earlier sweeps. People: Doug Hall (CEO and Co-Founder), Joe Girgash (Co-Founder).
@@ -863,6 +866,7 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - **Journey Foods** (food, ai formulation and ingredient sourcing agents). Journey AI is a formulation and ingredient platform for food, beverage, supplier and CPG teams. Its engine, Operations Scientist, scores ingredients on nutrition, cost and sustainability, proposes recipe swaps and runs supplier quotes and orders through agents. The company says food scientists review every recommendation. No brewer, distiller or winery customer is named on its own site. People: [Riana Lynn](https://www.linkedin.com/in/rianalynn) (Founder and CEO).
 - **Julie Ann DeSa Lorenz** (beer, spectrophotometry for beer colour). Owner and CEO of OLIS, the spectroscopy company founded by her father Richard DeSa, which she runs after decades with the business. OLIS sells the CLARiTY integrating cavity spectrophotometer, pitched for 430 nm beer colour readings without filtration. No AI work is described. People: Julie Ann DeSa Lorenz (Owner and CEO, OLIS).
 - **Julius Kuehn Institute, Institute for Grapevine Breeding Geilweilerhof** (wine, computer vision phenotyping of grapevines). Federal German research institute for grapevine breeding at Geilweilerhof, part of the Julius Kuehn Institute. Its automated phenotyping field, which it calls the digitalised vineyard, runs three sensor platforms, Phenobot, Phenoliner and PhenoQuad, plus high throughput imaging of leaf disc assays for downy mildew, 3D bunch architecture for yield and Botrytis, and berry surface properties; the institute states the work includes data management, efficient data evaluation and statistical modelling of the sensor data. The group publishes applied deep learning on this data, for example shallow convolutional neural networks scoring grapevine downy mildew infection on leaf discs (Agronomy 2021, DOI 10.3390/agronomy11091768, all authors affiliated to the institute). The output is breeding decision support for wine grape varieties, not a commercial product. People: Anna Kicherer (named contact for automated phenotyping).
+- **Justin Noland** (wine, AI for consumer trend analysis and digital marketing). A March 2025 Vinitaly article names him Vice President of Digital Experience, Treasury Americas, at Treasury Wine Estates. It describes his view of AI for trend analysis, digital marketing, task automation and personalised wine experiences. People: Justin Noland (Vice President of Digital Experience, Treasury Americas).
 - **Kagome** (food, AI genomic analysis to find tomato disease-resistance genes for breeding). Japanese tomato and vegetable juice and food maker. On 8 Oct 2026 AgNavigator reported a research programme with US agtech Heritable Agriculture that combines Kagome's germplasm and breeding data with Heritable's AI genomic analysis to find genes for resistance to an undisclosed tomato pathogen. The AI belongs to Heritable and the work is at research stage.
 - **Kantar** (multiple, predictive and genai models over brand and shopper panels). Kantar is a global marketing data and analytics group whose drinks work runs through household purchase panels and shopper research. Its named alcohol services are the Kantar purchase panel of 30,000 GB households, Kantar Alcovision, a continuous survey of 30,000 respondents a year measuring drinking occasions, and Alcoshop, which links off-trade alcohol purchasing to in-store decisions; these panels now sit inside the Worldpanel business acquired by Numerator. Kantar itself still publishes beverage alcohol category and shopper research through Kantar Retail IQ. Its AI suite, including Link AI for advertising testing and Trend AI, is general purpose across categories, and no drinks-specific model is named on the site.
 - **Karel Krofta** (beer, uav and satellite imagery to estimate hop plant condition). Hop researcher at the Hop Research Institute in Zatec, mainly publishing on hop chemistry and cultivation. Co-author of a 2021 Acta Horticulturae paper evaluating UAV and Sentinel 2 images and spectral indices to estimate hop plant condition. People: [Karel Krofta](https://www.linkedin.com/in/karel-krofta-a2471a140/) (Researcher, Hop Research Institute Zatec).
@@ -1152,6 +1156,7 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - **Parul M. Jadhav** (wine, Vineyard image datasets and AI grape yield prediction). Co-author of GrapesNet, the Indian vineyard RGB and RGB-D image datasets, and of AI-based 2D versus 3D vineyard yield prediction work from MIT World Peace University. People: [Parul M. Jadhav](https://www.linkedin.com/in/dr-parul-jadhav-28b52b37/) (Faculty, Dr. Vishwanath Karad MIT World Peace University).
 - **PathSpot** (food, hand contamination scanning and hygiene data). Wall mounted HandScanner that images washed hands and flags contaminants in about two seconds, plus a SafetySuite of temperature, task and label tools for food service and food plants. TechCrunch (2020) describes image filters and algorithms; its own site makes no AI or machine learning claim, so it is graded none. Customers quoted include SSP America. People: Christine Schindler (Co-founder and CEO), Dutch Waanders (Co-founder and CTO).
 - **Patrick Schnöll** (beer, AI and machine learning initiatives for breweries). Principal Consultant for AI initiatives at beON consult, a consultancy that positions itself on IT, data and AI for the brewery. Former Head of AI Enterprise Applications at Continental, per his BrauBeviale 2026 biography. beON's BrewQuanta product applies machine learning to brewing data. People: Patrick Schnöll (Principal Consultant AI Initiatives, beON consult).
+- **Paul Ditterline** (whiskey, Data science and AI for forecasting and inventory planning). Heaven Hill's site introduced him as Director, Data Science after he joined in October 2020. A November 2025 company article calls him Director of Data Services and says he joined an AI panel at the NABCA Conference on forecasting, inventory planning and operations. His LinkedIn profile lists Heaven Hill Brands among past roles and a later analytics role at Texas Roadhouse, so the Heaven Hill role may be past tense. People: [Paul Ditterline](https://www.linkedin.com/in/paul-ditterline-106b096b) (Director of Data Services).
 - **Paul Egidio** (multiple, cloud fermentation monitoring and tank control analytics). Founder and CEO of Acrolon Technologies, maker of TankNET, a cloud-connected fermentation control platform with brix, redox and temperature monitoring and fermentation analytics for wineries and breweries. Acrolon's site cites customers including Opus One, Jackson Family Wines and Cigar City Brewing. A 2015 Palmaz Vineyards article quotes him as Chief Technical Officer on TankNET's history. People: Paul Egidio (Founder and CEO, Acrolon Technologies).
 - **Paul-Mehdy M'Rabet** (multiple, data and ai centre of expertise). Listed as Head of Data & AI center of expertise at Moet Hennessy and speaker at its Data & AI Day in June 2023, and interviewed in September 2024 on the DeepTalk podcast about AI for innovation at Moet Hennessy. Current employment not confirmed, so the role may be past. People: [Paul-Mehdy M'Rabet](https://www.linkedin.com/in/paulmehdy/) (Former Head of Data & AI Center of Expertise, Moet Hennessy).
 - **Peco InspX** (beer, x-ray and fill level inspection of beverage containers). Peco InspX builds x-ray systems, fill level monitors and dud detectors for beverage and food packaging lines, with a dedicated beverage applications section covering empty and filled cans, glass containers, can seam defects and foreign material detection. It exhibited at drinktec 2025 under inspection, control and analysis. The site references detection algorithms but makes no machine learning or AI claim; it is inspection instrumentation generating per-container quality data.
@@ -1773,6 +1778,7 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - Demetria (last seen 2021-08-04)
 - Deschutes Brewery (last seen 2019-08-12)
 - Dimitra Liacopoulos Capone (last seen 2021-07-17)
+- Dirkie Gertenbach (last seen 2019-09-19)
 - Don Kulasiri (last seen 2022-01-28)
 - Dorota Domagała (last seen 2020-03-16)
 - dunnhumby (last seen 2023-10-31)
@@ -1789,6 +1795,7 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - FourKites (last seen 2020-06-09)
 - Frank Rowland Dunshea (last seen 2019-05-01)
 - Fraunhofer Institute for Process Engineering and Packaging IVV (last seen 2025-04-15)
+- Gabriela Cadenas (last seen 2023-04-26)
 - General Mills (last seen 2024-02-22)
 - Georg Krebs (last seen 2020-10-01)
 - Giampiero Sacchetti (last seen 2022-12-29)
@@ -1833,6 +1840,7 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - KnowledgeLake (last seen 2024-10-16)
 - Kosmas Dimitropoulos (last seen 2023-07-27)
 - Krombacher Brauerei (last seen 2023-02-17)
+- Kyle Kotaich (last seen 2021-01-21)
 - Lavínia Silva Veríssimo (last seen 2022-01-01)
 - Le Ble d'Or (last seen 2025-05-21)
 - Leoš Uttl (last seen 2022-08-29)
@@ -1850,6 +1858,7 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - Marcos Carrasco-Benavides (last seen 2017-03-23)
 - Martha C. Anderson (last seen 2018-04-02)
 - María Mar Alsina (last seen 2018-04-02)
+- Matt Higgs (last seen 2025-05-07)
 - Mauricio Coindreau (last seen 2022-07-01)
 - McCoy & Partners (last seen 2024-04-02)
 - Michael P. Pound (last seen 2021-11-01)
@@ -1865,6 +1874,7 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - OPTITOOL (last seen 2025-03-13)
 - Pago de Carraovejas (last seen 2024-06-01)
 - Palmaz Vineyards (last seen 2025-05-06)
+- Pamela Forbus (last seen 2022-07-26)
 - Pangzhen Zhang (last seen 2017-07-07)
 - PerkinElmer (last seen 2024-12-10)
 - Peter Schieberle (last seen 2019-03-17)
@@ -1880,10 +1890,12 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - Rebecca Brendel (last seen 2020-08-04)
 - ReelData AI (last seen 2023-01-12)
 - Riccardo De Flaviis (last seen 2022-12-29)
+- Rob Blumhof (last seen 2024-06-14)
 - Roberto Marani (last seen 2020-06-25)
 - Rosa M. Peña-Crecente (last seen 2019-07-05)
 - Roy Urvieta (last seen 2021-02-03)
 - Ruby Brooks (last seen 2022-03-02)
+- Ruth Bromley (last seen 2024-03-15)
 - SABECO (Saigon Beer-Alcohol-Beverage Corporation) (last seen 2022-04-27)
 - Salvador Gutiérrez (last seen 2018-02-01)
 - Scanopy (last seen 2019-06-01)
@@ -1898,9 +1910,11 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - Sunday Olaniyi (last seen 2022-01-01)
 - Susan E.P. Bastian (last seen 2021-07-17)
 - Susan Gaire (last seen 2021-01-01)
+- Susan Jones (last seen 2025-05-30)
 - Sı́lvia M. Rocha (last seen 2020-09-11)
 - Taiwan Tobacco and Liquor Corporation (last seen 2025-05-09)
 - Tanduay Distillers (last seen 2022-01-27)
+- Tassilo Festetics (last seen 2020-01-28)
 - Tastry (last seen 2024-03-01)
 - Tellspec (last seen 2025-04-03)
 - Terrascope (last seen 2023-03-10)
@@ -1919,6 +1933,7 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - Vispera (last seen 2025-04-01)
 - Vivino (last seen 2017-08-01)
 - Volatile AI (Volatile Technologies) (last seen 2025-03-30)
+- Walter Hannemann (last seen 2022-03-10)
 - Walter M. Warren‐Vega (last seen 2022-04-14)
 - Wei Yin (last seen 2021-06-22)
 - Whiskey Wise Group (last seen 2024-01-01)
@@ -1943,9 +1958,9 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 ## By vertical (active)
 
 - multiple: 496
-- wine: 492
-- beer: 432
-- whiskey: 140
+- wine: 493
+- beer: 434
+- whiskey: 142
 - food: 125
 - non_alcoholic: 19
 
@@ -3473,3 +3488,8 @@ Snapshot: 2026-11-14. 1704 active, 228 dormant.
 - AI-evaluated rapid germination test for malting barley: 1
 - AI-supported analytics platform for breweries: 1
 - industrial data analytics and AI platform behind brewery analytics: 1
+- retail media and e-commerce with AI readiness: 1
+- AI-enabled media and personalised marketing: 1
+- S/4HANA ERP core as base for analytics and agentic AI: 1
+- AI for consumer trend analysis and digital marketing: 1
+- Data science and AI for forecasting and inventory planning: 1
