@@ -1723,5 +1723,995 @@
     "vertical": "multiple",
     "year": 2022,
     "summary": "drinktec talk on data, AI or digital operations."
+  },
+  {
+    "title": "brewmaxx V9 - Process control technology for the brewing industry - ProLeiT - English",
+    "channel": "ProLeiT",
+    "video_id": "UCH35huv0gc",
+    "url": "https://www.youtube.com/watch?v=UCH35huv0gc",
+    "vertical": "beer",
+    "year": 2015,
+    "summary": "ProLeiT talk on data, AI or digital operations."
+  },
+  {
+    "title": "Helping Allagash Brewing Co. Deliver a Superior Brew",
+    "channel": "Schneider Electric",
+    "video_id": "wxxw23BHRnQ",
+    "url": "https://www.youtube.com/watch?v=wxxw23BHRnQ",
+    "vertical": "beer",
+    "year": 2016,
+    "summary": "Allagash Brewing Co. on data and AI: \"It's vital to have all your instrumentation and everything be very repeatable. If we miss the mash temperature by half a degree, we'll end up with a whole different profile of fermentables. It'll be a different beer.\""
+  },
+  {
+    "title": "Sleeman Breweries Increases Production Capacity by 50 Percent in Two Weeks with Virtualized Process",
+    "channel": "Rockwell Automation",
+    "video_id": "MyfzCuMMhZ8",
+    "url": "https://www.youtube.com/watch?v=MyfzCuMMhZ8",
+    "vertical": "beer",
+    "year": 2019,
+    "summary": "Sleeman Breweries on data and AI: \"It's consistency and the only way you can get that consistency is with automation.\""
+  },
+  {
+    "title": "PepsiCo Agentic AI - Interview with Tracy Matis VP Transformation & CX at Dreamforce",
+    "channel": "Bernard Marr",
+    "video_id": "8_A0hTboEa8",
+    "url": "https://www.youtube.com/watch?v=8_A0hTboEa8",
+    "vertical": "non_alcoholic",
+    "year": 2025,
+    "summary": "PepsiCo on data and AI: \"Prior to this partnership we had all of our data siloed in different functions.\""
+  },
+  {
+    "title": "BrauBeviale 2024 I brewmaxx Fermentation Book I Matthias Schmaelzlin I ProLeiT",
+    "channel": "ProLeiT",
+    "video_id": "4eWBbKftJHc",
+    "url": "https://www.youtube.com/watch?v=4eWBbKftJHc",
+    "vertical": "beer",
+    "year": 2025,
+    "summary": "ProLeiT talk on data, AI or digital operations."
+  },
+  {
+    "title": "Supplier Experience: The HEINEKEN Journey - Supplier Experience Live 2023",
+    "channel": "HICX",
+    "video_id": "pvuJwIAw2_o",
+    "url": "https://www.youtube.com/watch?v=pvuJwIAw2_o",
+    "vertical": "beer",
+    "year": 2023,
+    "summary": "Heineken on data and AI: \"We want to become the best connected Brewer and actually that was really talking about our digital ambition.\""
+  },
+  {
+    "title": "Beer and big data: A beginner's guide with Heineken",
+    "channel": "Web Summit",
+    "video_id": "ratp0HYLzLU",
+    "url": "https://www.youtube.com/watch?v=ratp0HYLzLU",
+    "vertical": "beer",
+    "year": 2018,
+    "summary": "Heineken on data and AI: \"Our beer is sold in bars in stores we don't know who's buying it we have very little first party data.\""
+  },
+  {
+    "title": "#11 Maximizing performance of craft beer production at Deschutes Brewery",
+    "channel": "OSIsoft News is now part of AVEVA",
+    "video_id": "fRCLsHeZH7E",
+    "url": "https://www.youtube.com/watch?v=fRCLsHeZH7E",
+    "vertical": "beer",
+    "year": 2021,
+    "summary": "Deschutes Brewery on data and AI: \"Using an AI model to predict phase changes or specific points of operator intervention in our fermentation process.\""
+  },
+  {
+    "title": "Vispera Success Story Interview: Carlsberg Poland",
+    "channel": "Vispera",
+    "video_id": "GvtWI-sZ5EA",
+    "url": "https://www.youtube.com/watch?v=GvtWI-sZ5EA",
+    "vertical": "beer",
+    "year": 2023,
+    "summary": "Carlsberg Poland on data and AI: \"Our main assumption was that image recognition can support us with a contract execution based on pay for performance rules.\""
+  },
+  {
+    "title": "AB InBev, Interos, Carlyle on Supply Chain Emissions",
+    "channel": "Bloomberg Live",
+    "video_id": "A7m8xUG0dBY",
+    "url": "https://www.youtube.com/watch?v=A7m8xUG0dBY",
+    "vertical": "beer",
+    "year": 2022,
+    "summary": "AB InBev on data and AI: \"The way we'd like to think of beer at ABI is beer is inclusive natural and local.\""
+  },
+  {
+    "title": "Marketing Innovation: PepsiCo & Google Featured Fireside Chat",
+    "channel": "Brand Innovators",
+    "video_id": "gZEteEFl2XE",
+    "url": "https://www.youtube.com/watch?v=gZEteEFl2XE",
+    "vertical": "non_alcoholic",
+    "year": 2022,
+    "summary": "PepsiCo on data and AI: \"Technology enables you to do that in a much lower risk way than you would before.\""
+  },
+  {
+    "title": "Planning for CPG Companies in an Era of Exponential Change",
+    "channel": "o9 Solutions, Inc.",
+    "video_id": "Nd1dFUIR8Qs",
+    "url": "https://www.youtube.com/watch?v=Nd1dFUIR8Qs",
+    "vertical": "beer",
+    "year": 2024,
+    "summary": "AB InBev on data and AI: \"We also invested and implemented Advanced planning Tool to better forecast our demand and optimize inventory levels and this helped us to have the right inventory at the right place.\""
+  },
+  {
+    "title": "Breno Gentil - Senior Director Digital & Technology at Heineken - Thriving in a fast-changing world",
+    "channel": "CIONET TV",
+    "video_id": "HSkA_VOMGak",
+    "url": "https://www.youtube.com/watch?v=HSkA_VOMGak",
+    "vertical": "beer",
+    "year": 2022,
+    "summary": "Heineken on data and AI: \"Creates the idea of assembling legos because you have standard pieces that you can combine assemble and disassemble with obviously harmonized data.\""
+  },
+  {
+    "title": "Ronald den Elzen, Heineken | IBM think 2025",
+    "channel": "SiliconANGLE theCUBE",
+    "video_id": "8QJW8-m7HQc",
+    "url": "https://www.youtube.com/watch?v=8QJW8-m7HQc",
+    "vertical": "beer",
+    "year": 2025,
+    "summary": "Heineken on data and AI: \"And this is not about tech. It's also not about data. Actually, it is a lot about transformation of the business.\""
+  },
+  {
+    "title": "The New Industrialists | How Tetra Pak Scales AI for Smarter, Context-Driven Decisions",
+    "channel": "Microsoft Cloud",
+    "video_id": "FHBvFMSiLpI",
+    "url": "https://www.youtube.com/watch?v=FHBvFMSiLpI",
+    "vertical": "multiple",
+    "year": 2026,
+    "summary": "Tetra Pak talk on data, AI or digital operations."
+  },
+  {
+    "title": "Eric Lim, Tetra Pak & Lalitha Kompella, Capgemini | UiPath Fusion 2025",
+    "channel": "SiliconANGLE theCUBE",
+    "video_id": "DcYoN5m-UWc",
+    "url": "https://www.youtube.com/watch?v=DcYoN5m-UWc",
+    "vertical": "multiple",
+    "year": 2025,
+    "summary": "Tetra Pak on data and AI: \"One of our key business experts was working previously in a warehouse environment performing more of the tasks in the warehouse itself. Now he has moved to become an analyst.\""
+  },
+  {
+    "title": "Dave Dohnalik & Johannes Evenblij Garza, PepsiCo | Dreamforce 2025",
+    "channel": "SiliconANGLE theCUBE",
+    "video_id": "xNoxGnpcBDg",
+    "url": "https://www.youtube.com/watch?v=xNoxGnpcBDg",
+    "vertical": "non_alcoholic",
+    "year": 2025,
+    "summary": "PepsiCo on data and AI: \"We always say, \"If half of them are working well, hey, we're doing great because we need to fail, because otherwise, we're not really pushing the boundaries.\""
+  },
+  {
+    "title": "Driving digital transformation in smart manufacturing at scale l PepsiCo x Fractal",
+    "channel": "Fractal",
+    "video_id": "TclgzdHRtVE",
+    "url": "https://www.youtube.com/watch?v=TclgzdHRtVE",
+    "vertical": "non_alcoholic",
+    "year": 2025,
+    "summary": "PepsiCo on data and AI: \"We leveraged fractal expertise with our internal competency that created 1 + 1 into three right for us in the packaging line.\""
+  },
+  {
+    "title": "Henning Ochsenfeld - Cheers to Data Science",
+    "channel": "Siemens Knowledge Hub",
+    "video_id": "4PTKhEIQPdU",
+    "url": "https://www.youtube.com/watch?v=4PTKhEIQPdU",
+    "vertical": "beer",
+    "year": 2026,
+    "summary": "Siemens talk on data, AI or digital operations."
+  },
+  {
+    "title": "Explore how Diageo & Wella Transform CX with AI",
+    "channel": "SAP Engagement Cloud [formerly SAP Emarsys]",
+    "video_id": "FnIVceVPUYY",
+    "url": "https://www.youtube.com/watch?v=FnIVceVPUYY",
+    "vertical": "whiskey",
+    "year": 2025,
+    "summary": "Diageo on data and AI: \"The first is productivity and how it can bring efficiency into the business. But increasingly, I think we're thinking about how it can inspire, how it can inspire innovation.\""
+  },
+  {
+    "title": "SAP Festival 2025:  Pernod Ricard Meta Blending Creativity & Innovation",
+    "channel": "SAP Engagement Cloud [formerly SAP Emarsys]",
+    "video_id": "TwYTxRJbjUE",
+    "url": "https://www.youtube.com/watch?v=TwYTxRJbjUE",
+    "vertical": "multiple",
+    "year": 2026,
+    "summary": "Pernod Ricard on data and AI: \"The more sure you are as a brand team and a brand marketer about what your values are, what's the DNA, what are your ethos, what are your platforms, what your tone of voice as Marie was saying earlier, I think the more you can loosen the reins.\""
+  },
+  {
+    "title": "The Shiproom / Episode 2 / Anheuser-Busch InBev",
+    "channel": "Microsoft Copilot",
+    "video_id": "g7PufLUS1T0",
+    "url": "https://www.youtube.com/watch?v=g7PufLUS1T0",
+    "vertical": "beer",
+    "year": 2018,
+    "summary": "AB InBev on data and AI: \"Data indeed was and is still a problem for us, especially in our case because we've been made out of so many different companies.\""
+  },
+  {
+    "title": "Towards Industry 4.0: Conversation with Ayush Hirwani, #DigitalTransformation at ABInBev #Maximl",
+    "channel": "Maximl",
+    "video_id": "hNZiXsFu__Y",
+    "url": "https://www.youtube.com/watch?v=hNZiXsFu__Y",
+    "vertical": "beer",
+    "year": 2021,
+    "summary": "AB InBev on data and AI: \"Digital transformation is not only about technology as i always say it's all about transforming the whole process.\""
+  },
+  {
+    "title": "Project description of the project at Meckatzer Löwenbräu in Germany | Brewery | ProLeiT",
+    "channel": "ProLeiT",
+    "video_id": "Vxa6DDjaJXc",
+    "url": "https://www.youtube.com/watch?v=Vxa6DDjaJXc",
+    "vertical": "beer",
+    "year": 2024,
+    "summary": "Meckatzer Löwenbräu on data and AI: \"Cleaning is performed automatically on the weekends without the need for an operator to start the process all the operator has to do at the end is to come around and take a sample.\""
+  },
+  {
+    "title": "drinktec 2025 Munich I Dominik Schneider & Hernán Alvarado I ProLeiT",
+    "channel": "ProLeiT",
+    "video_id": "lHRzrHwN10c",
+    "url": "https://www.youtube.com/watch?v=lHRzrHwN10c",
+    "vertical": "beer",
+    "year": 2025,
+    "summary": "ProLeiT talk on data, AI or digital operations."
+  },
+  {
+    "title": "drinktec 2025 Munich I  Axel Kather and Neil Smith about Clean in Place (CIP) I Schneider Electric",
+    "channel": "ProLeiT",
+    "video_id": "3dQJsRDTHkg",
+    "url": "https://www.youtube.com/watch?v=3dQJsRDTHkg",
+    "vertical": "beer",
+    "year": 2025,
+    "summary": "Schneider Electric talk on data, AI or digital operations."
+  },
+  {
+    "title": "NIRAS Brewing Benchmark Club, NBBC",
+    "channel": "NIRAS",
+    "video_id": "oVd_pCoUHnA",
+    "url": "https://www.youtube.com/watch?v=oVd_pCoUHnA",
+    "vertical": "beer",
+    "year": 2023,
+    "summary": "NIRAS talk on data, AI or digital operations."
+  },
+  {
+    "title": "Nestlé Waters' Antonio Sciuto at Salesforce Connections 2016 CNX16",
+    "channel": "BlueTriton Brands",
+    "video_id": "qOJ_IM0vFDw",
+    "url": "https://www.youtube.com/watch?v=qOJ_IM0vFDw",
+    "vertical": "non_alcoholic",
+    "year": 2016,
+    "summary": "Nestlé Waters North America on data and AI: \"The first one it's to understand what is the role and relevance of the touchpoints not just thinking about the campaign.\""
+  },
+  {
+    "title": "Amazon re:MARS 2022 - PepsiCo’s business transformation through data and ML (MLR338-S)",
+    "channel": "AWS Events",
+    "video_id": "c1gBaI0BY50",
+    "url": "https://www.youtube.com/watch?v=c1gBaI0BY50",
+    "vertical": "non_alcoholic",
+    "year": 2022,
+    "summary": "PepsiCo on data and AI: \"It's not really how many models did you build, or how many pipelines did you automate, but it's about how much sales did you deliver with these tools.\""
+  },
+  {
+    "title": "The Unstuck Series. Scaling Ambition: Insights from a Global Beverage Manufacturer",
+    "channel": "Schneider Electric",
+    "video_id": "BHxFf4ZKT9c",
+    "url": "https://www.youtube.com/watch?v=BHxFf4ZKT9c",
+    "vertical": "beer",
+    "year": 2026,
+    "summary": "Schneider Electric talk on data, AI or digital operations."
+  },
+  {
+    "title": "TW23 I Diageo's Business Transformation on S/4HANA and RISE with SAP",
+    "channel": "SNP",
+    "video_id": "RqPc27juTe4",
+    "url": "https://www.youtube.com/watch?v=RqPc27juTe4",
+    "vertical": "whiskey",
+    "year": 2024,
+    "summary": "Diageo on data and AI: \"We had migrated six terabytes of data all of it was not selective migration because that's what we wanted to check as to what would it take to migrate everything one to one treating it like a Brownfield migration.\""
+  },
+  {
+    "title": "Winning with Siemens Operations Software and Coca Cola - live from Hannover Messe",
+    "channel": "Siemens Knowledge Hub",
+    "video_id": "353hu_2o39s",
+    "url": "https://www.youtube.com/watch?v=353hu_2o39s",
+    "vertical": "non_alcoholic",
+    "year": 2026,
+    "summary": "Coca-Cola Europacific Partners on data and AI: \"AI will change how we interact with the machines. The machines are going to be more autonomous and we are going to be doing better decisions based on real time.\""
+  },
+  {
+    "title": "AB InBev’s E2E Planning Journey with o9 Solutions",
+    "channel": "o9 Solutions, Inc.",
+    "video_id": "wxd-M532g4w",
+    "url": "https://www.youtube.com/watch?v=wxd-M532g4w",
+    "vertical": "beer",
+    "year": 2024,
+    "summary": "AB InBev on data and AI: \"Over communicate everything that you do over communicate Q&A Town Halls use all the available channels of communications and never assume that people know all and everything that they should know repeat it 10 times and that's the best strategy.\""
+  },
+  {
+    "title": "Data Matters Customer Story: Heineken Making Every Touchpoint Count | Salesforce",
+    "channel": "Salesforce",
+    "video_id": "45yyvcVi8_s",
+    "url": "https://www.youtube.com/watch?v=45yyvcVi8_s",
+    "vertical": "beer",
+    "year": 2017,
+    "summary": "Heineken on data and AI: \"The key thing is not just the data but using it to create new theories new personas or new initiatives or new creative.\""
+  },
+  {
+    "title": "How AI Powered the Grammys and Sugar Creek Brewing Company",
+    "channel": "jpcrmexpertsny",
+    "video_id": "oebZ-QQFKa0",
+    "url": "https://www.youtube.com/watch?v=oebZ-QQFKa0",
+    "vertical": "beer",
+    "year": 2020,
+    "summary": "Sugar Creek Brewing Company on data and AI: \"Every bottle that passes through our packaging line will have a picture taken in real time.\""
+  },
+  {
+    "title": "Brau Beviale 2023 | Strategy of ProLeiT | Dr. Thomas Wunderlich",
+    "channel": "ProLeiT",
+    "video_id": "X_7KUWV3JuE",
+    "url": "https://www.youtube.com/watch?v=X_7KUWV3JuE",
+    "vertical": "beer",
+    "year": 2023,
+    "summary": "ProLeiT talk on data, AI or digital operations."
+  },
+  {
+    "title": "HEINEKEN Trade Census project on R&R Software's FusionR SFA solution",
+    "channel": "R\\u0026R Software Zrt.",
+    "video_id": "dIFmLoqewdY",
+    "url": "https://www.youtube.com/watch?v=dIFmLoqewdY",
+    "vertical": "beer",
+    "year": 2016,
+    "summary": "Heineken Hungary on data and AI: \"We need to be more accurate and detailed data to able to win in the market that's why we made the decision to map every corner of Hungary and to discover all the retail and Oracle places of the country.\""
+  },
+  {
+    "title": "Milwaukee Brewing Company: Automation turns a dream into reality",
+    "channel": "Rockwell Automation",
+    "video_id": "zjRSDuCkC_M",
+    "url": "https://www.youtube.com/watch?v=zjRSDuCkC_M",
+    "vertical": "beer",
+    "year": 2020,
+    "summary": "Milwaukee Brewing Company on data and AI: \"Every step of the way there's smells there's taste there's things that we interact with and the automation system doesn't take that out of the Brewers hands.\""
+  },
+  {
+    "title": "Arca Continental: Food & Beverage Manufacturing Digital Transformation",
+    "channel": "Siemens Software",
+    "video_id": "Gmufz-s_irs",
+    "url": "https://www.youtube.com/watch?v=Gmufz-s_irs",
+    "vertical": "non_alcoholic",
+    "year": 2025,
+    "summary": "Arca Continental on data and AI: \"One of the big challenge we want to tackle was having a reliable way of gathering those information to take better and more consistent decisions.\""
+  },
+  {
+    "title": "Carlsberg-Denmark optimizes customer service with IBM business process software",
+    "channel": "IBM Technology",
+    "video_id": "NaON2ArJFf0",
+    "url": "https://www.youtube.com/watch?v=NaON2ArJFf0",
+    "vertical": "beer",
+    "year": 2017,
+    "summary": "Carlsberg Denmark on data and AI: \"By implementing the process on BPM we've actually gone from a old-fashioned data non-driven world into something where we can streamline everything that we do.\""
+  },
+  {
+    "title": "Desigo Automation enables Marble Distilling Co. to operate 75% more efficiently",
+    "channel": "Siemens Knowledge Hub",
+    "video_id": "1G0d71WQH0Y",
+    "url": "https://www.youtube.com/watch?v=1G0d71WQH0Y",
+    "vertical": "whiskey",
+    "year": 2023,
+    "summary": "Marble Distilling Co. on data and AI: \"Has enabled us to run a vodka run from five distillations down to one distillation.\""
+  },
+  {
+    "title": "OSIsoft: Heineken uses the PI System to Improve Water and Energy Management",
+    "channel": "OSIsoft News is now part of AVEVA",
+    "video_id": "VclBqvbt2g4",
+    "url": "https://www.youtube.com/watch?v=VclBqvbt2g4",
+    "vertical": "beer",
+    "year": 2018,
+    "summary": "Heineken on data and AI: \"When you are close to the technological limit it's not visible to identify the opportunities for improvement.\""
+  },
+  {
+    "title": "Coopers Brewery's digital journey to optimise laboratory operations",
+    "channel": "Siemens Knowledge Hub",
+    "video_id": "HUhrU9C46l0",
+    "url": "https://www.youtube.com/watch?v=HUhrU9C46l0",
+    "vertical": "beer",
+    "year": 2021,
+    "summary": "Coopers Brewery on data and AI: \"So our laboratory information management system and our manufacturing execution system help us to manage our incoming raw materials our in-process product and our finished goods analysis making sure that the product that we're producing is right first time every time.\""
+  },
+  {
+    "title": "Hannover Messe I Schneider Electric & ProLeiT I Innovation in CIP Clean In Place",
+    "channel": "ProLeiT",
+    "video_id": "-7jPgandi5A",
+    "url": "https://www.youtube.com/watch?v=-7jPgandi5A",
+    "vertical": "beer",
+    "year": 2025,
+    "summary": "ProLeiT talk on data, AI or digital operations."
+  },
+  {
+    "title": "Brains Brewery's new production plant in Cardiff - The Dragon Brewery",
+    "channel": "NIRAS",
+    "video_id": "RZL-MqeujWM",
+    "url": "https://www.youtube.com/watch?v=RZL-MqeujWM",
+    "vertical": "beer",
+    "year": 2020,
+    "summary": "Brains Brewery talk on data, AI or digital operations."
+  },
+  {
+    "title": "Carlsberg fulfils water reuse dream",
+    "channel": "Grundfos",
+    "video_id": "5Vvk7vxF2ZM",
+    "url": "https://www.youtube.com/watch?v=5Vvk7vxF2ZM",
+    "vertical": "beer",
+    "year": 2022,
+    "summary": "Carlsberg on data and AI: \"Back in time, brewers would be bragging about how much water they were using.\""
+  },
+  {
+    "title": "Tap the potential of craft brewing",
+    "channel": "Siemens Knowledge Hub",
+    "video_id": "IRByAw7sTWg",
+    "url": "https://www.youtube.com/watch?v=IRByAw7sTWg",
+    "vertical": "beer",
+    "year": 2019,
+    "summary": "Siemens talk on data, AI or digital operations."
+  },
+  {
+    "title": "Heineken USA Raises A Glass To Its Digitally Inclined Target (Extended)",
+    "channel": "Forbes",
+    "video_id": "FIiNrIkwC_g",
+    "url": "https://www.youtube.com/watch?v=FIiNrIkwC_g",
+    "vertical": "beer",
+    "year": 2012,
+    "summary": "Heineken USA on data and AI: \"The Heineken brand had been declining for five years before i joined we had changed campaigns we had changed agencies.\""
+  },
+  {
+    "title": "AWS re:Invent 2020: Driving innovation in consumer packaged goods with Coca-Cola",
+    "channel": "AWS Events",
+    "video_id": "ncF-ODmiS70",
+    "url": "https://www.youtube.com/watch?v=ncF-ODmiS70",
+    "vertical": "non_alcoholic",
+    "year": 2021,
+    "summary": "Coca-Cola on data and AI: \"The Freestyle Dispenser is actually a small beverage factory. The machines 36 pumps have all the ingredients to mix hundreds of still and sparkling beverages, literally in mid-air, on demand.\""
+  },
+  {
+    "title": "Why AB InBev’s Supply Chain KPIs are at an All-time High",
+    "channel": "o9 Solutions, Inc.",
+    "video_id": "G7AQcXN2px0",
+    "url": "https://www.youtube.com/watch?v=G7AQcXN2px0",
+    "vertical": "beer",
+    "year": 2024,
+    "summary": "AB InBev on data and AI: \"We were able to build a global template and with that we put all the learnings from those countries that we're piloting so the next one we could always kind of enhance that so we had a good playbook to roll out to other countries.\""
+  },
+  {
+    "title": "Tiger Pistol & AB InBev Digital Food and Beverage Event",
+    "channel": "Tiger Pistol",
+    "video_id": "isjS016idII",
+    "url": "https://www.youtube.com/watch?v=isjS016idII",
+    "vertical": "beer",
+    "year": 2020,
+    "summary": "AB InBev on data and AI: \"These connections must happen at the local level because beer with its rich history and traditions is truly a local product.\""
+  },
+  {
+    "title": "The Coca-Cola Company Keynote",
+    "channel": "RCR Wireless News",
+    "video_id": "CzQHYO9c3IA",
+    "url": "https://www.youtube.com/watch?v=CzQHYO9c3IA",
+    "vertical": "non_alcoholic",
+    "year": 2015,
+    "summary": "Coca-Cola on data and AI: \"There are a lot more people holding a phone than there are holding a Coke so here's what we're going to do about it we're going to use those mobile phones to put more Cokes into more hands.\""
+  },
+  {
+    "title": "Dirkie Gertenbach, AB InBev | New Relic FutureStack 2019",
+    "channel": "SiliconANGLE theCUBE",
+    "video_id": "WpKpRld4yZE",
+    "url": "https://www.youtube.com/watch?v=WpKpRld4yZE",
+    "vertical": "beer",
+    "year": 2019,
+    "summary": "AB InBev on data and AI: \"It's helping us to be more proactive and we rely less and less on our customers to tell us, \"Hey, there's a problem on application.\""
+  },
+  {
+    "title": "NIRAS and BFBi Briefing: Benchmarking & Maximising Your ROI on Equipment",
+    "channel": "NIRAS",
+    "video_id": "EabihGfZu7U",
+    "url": "https://www.youtube.com/watch?v=EabihGfZu7U",
+    "vertical": "beer",
+    "year": 2020,
+    "summary": "NIRAS talk on data, AI or digital operations."
+  },
+  {
+    "title": "AWS re:Invent 2014 | (APP315) Coca-Cola: Migrating to AWS",
+    "channel": "Amazon Web Services",
+    "video_id": "3Iqz_YFXLF0",
+    "url": "https://www.youtube.com/watch?v=3Iqz_YFXLF0",
+    "vertical": "non_alcoholic",
+    "year": 2014,
+    "summary": "Coca-Cola on data and AI: \"Lift and shift is idea that we could pick up an application drop it in the cloud and it was going to miraculously work and that's absolutely not the case.\""
+  },
+  {
+    "title": "Coca Cola EP and Siemens - a MindSphere Open Space Success Story",
+    "channel": "Siemens Knowledge Hub",
+    "video_id": "XCgBkTtvj4M",
+    "url": "https://www.youtube.com/watch?v=XCgBkTtvj4M",
+    "vertical": "non_alcoholic",
+    "year": 2019,
+    "summary": "Coca-Cola Europacific Partners on data and AI: \"You need to pay to put the people first it's not about the technology.\""
+  },
+  {
+    "title": "Power-up Digital Transformation in Breweries with MQTT Sparkplug",
+    "channel": "HiveMQ",
+    "video_id": "0b6v6gIk8Y0",
+    "url": "https://www.youtube.com/watch?v=0b6v6gIk8Y0",
+    "vertical": "beer",
+    "year": 2022,
+    "summary": "HiveMQ talk on data, AI or digital operations."
+  },
+  {
+    "title": "The story of AB InBev’s end-to-end planning transformation",
+    "channel": "o9 Solutions, Inc.",
+    "video_id": "AX2S37wXTJY",
+    "url": "https://www.youtube.com/watch?v=AX2S37wXTJY",
+    "vertical": "beer",
+    "year": 2024,
+    "summary": "AB InBev on data and AI: \"You're really shifting from being you know very reactive to hopefully having most of the solution of the day or the week of the month on cruise control on autopilot.\""
+  },
+  {
+    "title": "A Journey to Touchless Planning ft. AB InBev",
+    "channel": "o9 Solutions, Inc.",
+    "video_id": "9jFcRr8Cb2Q",
+    "url": "https://www.youtube.com/watch?v=9jFcRr8Cb2Q",
+    "vertical": "beer",
+    "year": 2025,
+    "summary": "AB InBev on data and AI: \"It was not just about the technology that we have to improve but to make sure that our process and our people we're also at the right level.\""
+  },
+  {
+    "title": "NRF 2026: PepsiCo + AWS: AI-Driven Transformation Across Operations | AWS Events",
+    "channel": "AWS Events",
+    "video_id": "pyb_b8escEk",
+    "url": "https://www.youtube.com/watch?v=pyb_b8escEk",
+    "vertical": "non_alcoholic",
+    "year": 2026,
+    "summary": "PepsiCo on data and AI: \"We've been fairly public as a company in terms of we will be an agentic first enterprise.\""
+  },
+  {
+    "title": "FY18 The Year of Einstein - Ch. 2: Coca-Cola | Salesforce",
+    "channel": "Salesforce",
+    "video_id": "_wKOk3Gtmac",
+    "url": "https://www.youtube.com/watch?v=_wKOk3Gtmac",
+    "vertical": "non_alcoholic",
+    "year": 2017,
+    "summary": "Coca-Cola talk on data, AI or digital operations."
+  },
+  {
+    "title": "Optimistic Outlook Ep. 47 - Sustainable Beer Brewing and Scaling Climate Solutions",
+    "channel": "Siemens Knowledge Hub",
+    "video_id": "CBW7m2QmOyg",
+    "url": "https://www.youtube.com/watch?v=CBW7m2QmOyg",
+    "vertical": "beer",
+    "year": 2023,
+    "summary": "AB InBev on data and AI: \"One of our biggest areas of improvement on decarbonization is Refrigeration so around 40 percent of our emissions profile comes from Refrigeration.\""
+  },
+  {
+    "title": "Stepan Pushkarev, Provectus & Russell Lamb, PepsiCo | Amazon re:MARS 2022",
+    "channel": "SiliconANGLE theCUBE",
+    "video_id": "vy6fcG_5-vY",
+    "url": "https://www.youtube.com/watch?v=vy6fcG_5-vY",
+    "vertical": "non_alcoholic",
+    "year": 2022,
+    "summary": "PepsiCo talk on data, AI or digital operations."
+  },
+  {
+    "title": "Wild Turkey Distillery Customer Success Story",
+    "channel": "Rockwell Automation",
+    "video_id": "DbD1p7FunZQ",
+    "url": "https://www.youtube.com/watch?v=DbD1p7FunZQ",
+    "vertical": "whiskey",
+    "year": 2013,
+    "summary": "Wild Turkey Distillery on data and AI: \"The control that we get through every aspect of the process means less waste fewer injuries and a more consistent product.\""
+  },
+  {
+    "title": "SNP at Sapphire 2024 - Interview with Rob Blumhof from Diageo",
+    "channel": "SNP",
+    "video_id": "KI4RCZTSfB4",
+    "url": "https://www.youtube.com/watch?v=KI4RCZTSfB4",
+    "vertical": "whiskey",
+    "year": 2024,
+    "summary": "Diageo on data and AI: \"We thought we were going to have to knock the whole house down and build it from scratch.\""
+  },
+  {
+    "title": "Voices of Innovation - The future of AI in the food industry",
+    "channel": "Tetra Pak",
+    "video_id": "cCvVSoV9jMY",
+    "url": "https://www.youtube.com/watch?v=cCvVSoV9jMY",
+    "vertical": "multiple",
+    "year": 2022,
+    "summary": "Tetra Pak talk on data, AI or digital operations."
+  },
+  {
+    "title": "Constellation Brands Nava Brewery - Long Version",
+    "channel": "Siemens Knowledge Hub",
+    "video_id": "F87AEp-bExA",
+    "url": "https://www.youtube.com/watch?v=F87AEp-bExA",
+    "vertical": "beer",
+    "year": 2017,
+    "summary": "Constellation Brands on data and AI: \"Process is important to keep the consistency in every single bottle of beer.\""
+  },
+  {
+    "title": "Project at Dogfish Head Craft Brewery in the USA | Brewery | brewmaxx | ProLeiT",
+    "channel": "ProLeiT",
+    "video_id": "M8xjh1aOlIM",
+    "url": "https://www.youtube.com/watch?v=M8xjh1aOlIM",
+    "vertical": "beer",
+    "year": 2019,
+    "summary": "Dogfish Head on data and AI: \"The solution we've implemented has allowed us to have greater troubleshooting and data tracking capabilities and the data is really important to us for consistent products.\""
+  },
+  {
+    "title": "OSIsoft: End Users Create Displays and Reports to Save Water and Energy at Heineken",
+    "channel": "OSIsoft News is now part of AVEVA",
+    "video_id": "Mdx9mvAHTlc",
+    "url": "https://www.youtube.com/watch?v=Mdx9mvAHTlc",
+    "vertical": "beer",
+    "year": 2014,
+    "summary": "Heineken on data and AI: \"We need a powerful tool to calculate to identify any deviation in our energy or water consumption in real time.\""
+  },
+  {
+    "title": "Hannover Messe 2023: How to make plant processes more sustainable with ProLeiT | Schneider Electric",
+    "channel": "Schneider Electric",
+    "video_id": "XZJya2dGwcc",
+    "url": "https://www.youtube.com/watch?v=XZJya2dGwcc",
+    "vertical": "beer",
+    "year": 2023,
+    "summary": "Schneider Electric talk on data, AI or digital operations."
+  },
+  {
+    "title": "Data Science Hangout | Paul Ditterline, Heaven Hill Brands | Getting Buy-in to Adopt New Tools",
+    "channel": "Posit PBC",
+    "video_id": "l3825QyCpbE",
+    "url": "https://www.youtube.com/watch?v=l3825QyCpbE",
+    "vertical": "whiskey",
+    "year": 2021,
+    "summary": "Heaven Hill Brands on data and AI: \"A couple percent changes in that amount that's a big deal i mean that's product that you thought you would have that you don't have.\""
+  },
+  {
+    "title": "AI Unlocked with Brown Formans Lucas Elliott, M.S., Data Science",
+    "channel": "Guardian Owl Digital",
+    "video_id": "lMczRZWTu3M",
+    "url": "https://www.youtube.com/watch?v=lMczRZWTu3M",
+    "vertical": "whiskey",
+    "year": 2024,
+    "summary": "Brown-Forman on data and AI: \"It's really about the integration of tech and people to make data a little bit more powerful a little bit more useful for people.\""
+  },
+  {
+    "title": "AI in Winery Ops: Three Workflows That Cut Down On Busywork",
+    "channel": "InnoVint",
+    "video_id": "GI68xkvw9f0",
+    "url": "https://www.youtube.com/watch?v=GI68xkvw9f0",
+    "vertical": "wine",
+    "year": 2026,
+    "summary": "InnoVint talk on data, AI or digital operations."
+  },
+  {
+    "title": "Winery Business Decision-making Empowered by AI Data Capture",
+    "channel": "Wine Industry Network",
+    "video_id": "w3a4wZcruWI",
+    "url": "https://www.youtube.com/watch?v=w3a4wZcruWI",
+    "vertical": "wine",
+    "year": 2026,
+    "summary": "InnoVint talk on data, AI or digital operations."
+  },
+  {
+    "title": "Taking An Authentic Approach To Digital: The Value Of Brewdog’s North Star",
+    "channel": "Big Data LDN",
+    "video_id": "fgALx-yt5BA",
+    "url": "https://www.youtube.com/watch?v=fgALx-yt5BA",
+    "vertical": "beer",
+    "year": 2022,
+    "summary": "BrewDog on data and AI: \"If you're a technologist that everything looks like a technology problem right when invariably it's the people problem.\""
+  },
+  {
+    "title": "Transformation Realized| EP: 4 How a global beverage company adopted a digital strategy to add value",
+    "channel": "EY India",
+    "video_id": "ZmpYGRw7DVw",
+    "url": "https://www.youtube.com/watch?v=ZmpYGRw7DVw",
+    "vertical": "multiple",
+    "year": 2022,
+    "summary": "Pernod Ricard India on data and AI: \"You need to First Define the need before jumping to the solution.\""
+  },
+  {
+    "title": "AI for Spirits Marketing Pt. I: The Great Equalizer for Craft Beverage Brands",
+    "channel": "Park Street University",
+    "video_id": "qIEDq_xWGww",
+    "url": "https://www.youtube.com/watch?v=qIEDq_xWGww",
+    "vertical": "wine",
+    "year": 2026,
+    "summary": "Treasury Wine Estates on data and AI: \"I always think about AI first and foremost is how can it save you time, right? When it comes to small teams, time is everything. time is the one resource that you're never going to get more of.\""
+  },
+  {
+    "title": "Pernod Ricard India And Accenture: Transforming Manufacturing Through Digital",
+    "channel": "Business Today",
+    "video_id": "bvFb8-hhlcM",
+    "url": "https://www.youtube.com/watch?v=bvFb8-hhlcM",
+    "vertical": "multiple",
+    "year": 2025,
+    "summary": "Pernod Ricard India on data and AI: \"After 30 years of being in India we are the number one in value in India at a group level we surpassed China last year.\""
+  },
+  {
+    "title": "How Jackson Family Wines Fixed Its Digital Asset Management Chaos",
+    "channel": "Acquia",
+    "video_id": "-XbXUjcCyNo",
+    "url": "https://www.youtube.com/watch?v=-XbXUjcCyNo",
+    "vertical": "wine",
+    "year": 2026,
+    "summary": "Jackson Family Wines on data and AI: \"We needed to have the clean data so that when building an integration, you're able to properly map it 1 to 1 to where it needs to go.\""
+  },
+  {
+    "title": "Inside Diageo's Global ERP Transformation",
+    "channel": "BCG Platinion",
+    "video_id": "abdusnkRNKM",
+    "url": "https://www.youtube.com/watch?v=abdusnkRNKM",
+    "vertical": "whiskey",
+    "year": 2026,
+    "summary": "Diageo on data and AI: \"Sometimes you have to kind of take a step back, go slow, get some clarity before you can go fast.\""
+  },
+  {
+    "title": "Diageo D&T | Becoming the Best Data Insights-Driven Consumer Product Company | Yuga Films, Bangalore",
+    "channel": "Yuga Films",
+    "video_id": "bvmshJzhR7w",
+    "url": "https://www.youtube.com/watch?v=bvmshJzhR7w",
+    "vertical": "whiskey",
+    "year": 2025,
+    "summary": "Diageo talk on data, AI or digital operations."
+  },
+  {
+    "title": "Intellect Connected Worker Case Study - Digitally Accelerating Carlsberg Excellence",
+    "channel": "Intellect",
+    "video_id": "tdB_URhB1ok",
+    "url": "https://www.youtube.com/watch?v=tdB_URhB1ok",
+    "vertical": "beer",
+    "year": 2026,
+    "summary": "Carlsberg on data and AI: \"Our view is that by digitalizing work processes we will accelerate the continuous improvement process delivering savings and improving efficiency.\""
+  },
+  {
+    "title": "Campari Group Drinks to Success with a Centralized Data Hub",
+    "channel": "TIBCOSoftware",
+    "video_id": "2CxNu1xrjBA",
+    "url": "https://www.youtube.com/watch?v=2CxNu1xrjBA",
+    "vertical": "multiple",
+    "year": 2020,
+    "summary": "Campari Group on data and AI: \"I really think that access to data should be easy fast and reliable.\""
+  },
+  {
+    "title": "How Bourbon Is Really Made: Inside a Smart, Digital Distillery of the Future",
+    "channel": "Rockwell Automation",
+    "video_id": "WDIQ2SuPWkI",
+    "url": "https://www.youtube.com/watch?v=WDIQ2SuPWkI",
+    "vertical": "beer",
+    "year": 2026,
+    "summary": "Opus Integration talk on data, AI or digital operations."
+  },
+  {
+    "title": "Transformation Realized | How Pernod Ricard Built a Future‑Ready Finance COE with Richa Singh",
+    "channel": "EY India",
+    "video_id": "bqiVNYqnUnE",
+    "url": "https://www.youtube.com/watch?v=bqiVNYqnUnE",
+    "vertical": "multiple",
+    "year": 2026,
+    "summary": "Pernod Ricard on data and AI: \"A leader cannot do anything without having people with her or him. So that's my philosophy and secondly I strongly believe when you make people accountable and empowered.\""
+  },
+  {
+    "title": "Molson Coors’ Brad Feinberg on AI, Media & Next-Gen Consumers",
+    "channel": "Matt Britton",
+    "video_id": "M_vkpPriLp8",
+    "url": "https://www.youtube.com/watch?v=M_vkpPriLp8",
+    "vertical": "beer",
+    "year": 2026,
+    "summary": "Molson Coors on data and AI: \"We need to really kind of invent what firstparty data, what data strategy means for a company such as ours.\""
+  },
+  {
+    "title": "The Reality of AI: Why \"Push-Button\" Marketing is a Myth | Colleen Meenan and Brad Feinberg",
+    "channel": "Dylan Conroy",
+    "video_id": "oYPrxQks79Y",
+    "url": "https://www.youtube.com/watch?v=oYPrxQks79Y",
+    "vertical": "beer",
+    "year": 2026,
+    "summary": "Molson Coors on data and AI: \"Our learnings to date have been that it does take time to get to output that we're proud of sharing with in front of consumers.\""
+  },
+  {
+    "title": "Gabriela Cadenas - SVP Digital and Technology Americas, The Heineken Company – HITEC Transform.ed",
+    "channel": "Thoughtworks",
+    "video_id": "Oh1Rcra6Hpg",
+    "url": "https://www.youtube.com/watch?v=Oh1Rcra6Hpg",
+    "vertical": "beer",
+    "year": 2023,
+    "summary": "Heineken on data and AI: \"We created Digital and Technology as a separate function, no longer reporting to the CFO, reporting straight to the CEO.\""
+  },
+  {
+    "title": "Distilling Data: Analytics with Edrington Ft. Matt Higgs",
+    "channel": "AI Connect",
+    "video_id": "W_-32hg_ZaA",
+    "url": "https://www.youtube.com/watch?v=W_-32hg_ZaA",
+    "vertical": "whiskey",
+    "year": 2025,
+    "summary": "Edrington on data and AI: \"One of the most impactful decisions that we can influence as a data team is where we send our very limited supply.\""
+  },
+  {
+    "title": "Flexible and Scalable Automation Solutions for Craft Brewing and Distilling Sponsored by Siemens",
+    "channel": "Control System Integrators Association (CSIA)",
+    "video_id": "8PpiE4tA_aY",
+    "url": "https://www.youtube.com/watch?v=8PpiE4tA_aY",
+    "vertical": "beer",
+    "year": 2021,
+    "summary": "Siemens talk on data, AI or digital operations."
+  },
+  {
+    "title": "HfS Webinar   How a leading wine producer is making digital order management a reality",
+    "channel": "HFS Research",
+    "video_id": "vuZPsR8L8og",
+    "url": "https://www.youtube.com/watch?v=vuZPsR8L8og",
+    "vertical": "wine",
+    "year": 2019,
+    "summary": "Concha y Toro on data and AI: \"Order management starts with the custom order and we believe it doesn't finish until the invoice is paid and the cash is collected.\""
+  },
+  {
+    "title": "168 - Innovation Isn’t Linear: Inside Pernod Ricard’s Strategy",
+    "channel": "Greenbook",
+    "video_id": "jxHHsNHZ3bg",
+    "url": "https://www.youtube.com/watch?v=jxHHsNHZ3bg",
+    "vertical": "multiple",
+    "year": 2026,
+    "summary": "Pernod Ricard on data and AI: \"I still think the core of insights generation is a human task especially understanding the stakeholders that we sit next to every day.\""
+  },
+  {
+    "title": "New IoT technologies for wine quality",
+    "channel": "Infowine",
+    "video_id": "G36mHxIbaLw",
+    "url": "https://www.youtube.com/watch?v=G36mHxIbaLw",
+    "vertical": "wine",
+    "year": 2020,
+    "summary": "IoF2020 wine use cases talk on data, AI or digital operations."
+  },
+  {
+    "title": "How New Belgium Is Transforming Retail Media, E-Commerce & AI Innovation",
+    "channel": "TheMindfulInnovator",
+    "video_id": "RXtAdgaZCu8",
+    "url": "https://www.youtube.com/watch?v=RXtAdgaZCu8",
+    "vertical": "beer",
+    "year": 2025,
+    "summary": "New Belgium Brewing on data and AI: \"What we're really focusing on is what problem is it solving and making sure that there's no downfunnel streams that are going to be impacted that might actually be negatively impacted.\""
+  },
+  {
+    "title": "From Vines to Virtual: The New Age of Digital Wine Experiences with Justin Noland - 017",
+    "channel": "DRINKS",
+    "video_id": "7AERCKPD0bM",
+    "url": "https://www.youtube.com/watch?v=7AERCKPD0bM",
+    "vertical": "wine",
+    "year": 2024,
+    "summary": "Treasury Wine Estates on data and AI: \"Most wine marketers didn't really consider themselves to be digital marketers they thought of themselves purely as sort of brand storytellers.\""
+  },
+  {
+    "title": "Accelerating digital transformation with Pamela Forbus, CMO Pernod-Ricard North America",
+    "channel": "CMO Pulse",
+    "video_id": "edpxPJFUD8Q",
+    "url": "https://www.youtube.com/watch?v=edpxPJFUD8Q",
+    "vertical": "multiple",
+    "year": 2022,
+    "summary": "Pernod Ricard on data and AI: \"We actually over invested in some foundational research large sample sizes we have continuous tracking going on so we know just week by week how consumption shifts are changing.\""
+  },
+  {
+    "title": "The Greatest Digital Transformation Journey in the Spirits Industry: Sazerac's Story",
+    "channel": "Intevity",
+    "video_id": "uOTr7rBIaeA",
+    "url": "https://www.youtube.com/watch?v=uOTr7rBIaeA",
+    "vertical": "whiskey",
+    "year": 2021,
+    "summary": "Sazerac on data and AI: \"It has been like flying the plane and building it at the same time.\""
+  },
+  {
+    "title": "Optimistic Outlook Ep. 67 - Fizz Forward: Michelle DeFeo on Laurent-Perrier’s Sustainable Champagne",
+    "channel": "Siemens Knowledge Hub",
+    "video_id": "A-u6XOTaaX4",
+    "url": "https://www.youtube.com/watch?v=A-u6XOTaaX4",
+    "vertical": "wine",
+    "year": 2025,
+    "summary": "Laurent-Perrier on data and AI: \"We may be competitors in the market but we really are Partners in sustainability.\""
+  },
+  {
+    "title": "[CRM Day 2026] AI, Data & Customer Experience, the ingredients for a successful CRM - Pernod Ricard",
+    "channel": "Numberly",
+    "video_id": "Bg7Ct9URHXE",
+    "url": "https://www.youtube.com/watch?v=Bg7Ct9URHXE",
+    "vertical": "multiple",
+    "year": 2026,
+    "summary": "Pernod Ricard on data and AI: \"Behind every data point, there is a consumer; behind every email, there is a potential relationship. Above all, we must not lose sight of that.\""
+  },
+  {
+    "title": "Mastering Transformation - A Case Study at Heineken",
+    "channel": "FP\\u0026A Trends Group",
+    "video_id": "otpSNdmBv0w",
+    "url": "https://www.youtube.com/watch?v=otpSNdmBv0w",
+    "vertical": "beer",
+    "year": 2024,
+    "summary": "Heineken on data and AI: \"We want to connect the maturity with our process performance so logically the higher the maturity the higher the process performance but also the vice versa.\""
+  },
+  {
+    "title": "Sustainability and Compliance for the Tequila Industry",
+    "channel": "Rockwell Automation",
+    "video_id": "yj9Mcdx22JA",
+    "url": "https://www.youtube.com/watch?v=yj9Mcdx22JA",
+    "vertical": "multiple",
+    "year": 2023,
+    "summary": "Techno Productos talk on data, AI or digital operations."
+  },
+  {
+    "title": "Customer Testimonial - United Breweries [Beverage] [Salesforce Platinum]",
+    "channel": "Marlabs",
+    "video_id": "1da-XA5GI7s",
+    "url": "https://www.youtube.com/watch?v=1da-XA5GI7s",
+    "vertical": "beer",
+    "year": 2018,
+    "summary": "United Breweries on data and AI: \"Bulk of our success comes from external execution at the front line and therefore winning at the point of sale is a most critical battle that we have.\""
+  },
+  {
+    "title": "What Artificial Intelligence (AI) Can Do for Your Wine Brand",
+    "channel": "Wine Industry Network",
+    "video_id": "73XFImxZ1f8",
+    "url": "https://www.youtube.com/watch?v=73XFImxZ1f8",
+    "vertical": "wine",
+    "year": 2023,
+    "summary": "Treasury Wine Estates on data and AI: \"There's still somebody at the wheel there's still somebody managing this is what we want this is what we're trying to accomplish.\""
+  },
+  {
+    "title": "Achieving Agility in Procurement Operations: Beam’s Transformation Journey",
+    "channel": "Workday",
+    "video_id": "DEzsPHxZh2M",
+    "url": "https://www.youtube.com/watch?v=DEzsPHxZh2M",
+    "vertical": "whiskey",
+    "year": 2020,
+    "summary": "Beam Suntory on data and AI: \"Moving away from savings as the only metric and moving towards total value delivery.\""
+  },
+  {
+    "title": "16. Sebastian Micozzi, SVP at Bacardi on Branding, Digital and Talent",
+    "channel": "The FMCG Guys",
+    "video_id": "v59wGKfWumg",
+    "url": "https://www.youtube.com/watch?v=v59wGKfWumg",
+    "vertical": "multiple",
+    "year": 2023,
+    "summary": "Bacardi on data and AI: \"Digital transformation in our view is you know intersection of Technology consumer and commerce.\""
+  },
+  {
+    "title": "Behind the Future Ep. 5: Carlsberg's Digital Journey With Enterprise Architecture | Walter Hannemann",
+    "channel": "Ardoq",
+    "video_id": "vwXouJ1OB2M",
+    "url": "https://www.youtube.com/watch?v=vwXouJ1OB2M",
+    "vertical": "beer",
+    "year": 2021,
+    "summary": "Carlsberg on data and AI: \"Smart breweries and even kegs that have their own sensors and order new or more beer for the bar when is running low.\""
+  },
+  {
+    "title": "Ep. 2282 Adopting AI at Treasury Wine Estates with Justin Noland | wine2wine Business Forum 2024",
+    "channel": "Italian Wine Travel with Stevie Kim",
+    "video_id": "exbrhpmXkKg",
+    "url": "https://www.youtube.com/watch?v=exbrhpmXkKg",
+    "vertical": "wine",
+    "year": 2025,
+    "summary": "Treasury Wine Estates on data and AI: \"It's not taking away the decision power of our wine makers and our viticulture team, but it's allowing them to be far more precise.\""
+  },
+  {
+    "title": "Digital transformation of the wine industry",
+    "channel": "ZDNET",
+    "video_id": "1Gw8t3aezgs",
+    "url": "https://www.youtube.com/watch?v=1Gw8t3aezgs",
+    "vertical": "wine",
+    "year": 2019,
+    "summary": "Emma tree talk on data, AI or digital operations."
+  },
+  {
+    "title": "Understanding Customer Sentiment for Better LI : The Case of Campari | The Data Appeal Company",
+    "channel": "CARTO",
+    "video_id": "jue_AJsW51o",
+    "url": "https://www.youtube.com/watch?v=jue_AJsW51o",
+    "vertical": "multiple",
+    "year": 2023,
+    "summary": "The Data Appeal Company talk on data, AI or digital operations."
+  },
+  {
+    "title": "Crafting excellence: Carlsberg's tech transformation with GitHub",
+    "channel": "GitHub",
+    "video_id": "G-GcuzNOLuE",
+    "url": "https://www.youtube.com/watch?v=G-GcuzNOLuE",
+    "vertical": "beer",
+    "year": 2024,
+    "summary": "Carlsberg on data and AI: \"I don’t think I have a single developer who would want to live without GitHub Copilot today.\""
   }
 ]
