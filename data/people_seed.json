@@ -9420,15 +9420,16 @@
   "source_urls": [
    "https://www.youtube.com/watch?v=RXtAdgaZCu8",
    "https://www.pearcommerce.com/case-study/brewing-innovation-why-new-belgium-chose-pear-to-power-whats-next-in-alcbev-commerce",
-   "https://etaileast.wbresearch.com/speakers/abby-czarniecki"
+   "https://etaileast.wbresearch.com/speakers/abby-czarniecki",
+   "https://www.linkedin.com/in/abby-czarniecki-966a89105/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/abby-czarniecki-966a89105/",
   "first_seen": "2026-11-16",
   "last_seen": "2025-11-24"
  },
  {
   "name": "Brad Feinberg",
-  "role": "North American VP of Media and Consumer Engagement",
+  "role": "NA Vice President Media and Marketing Operations, Molson Coors Beverage Company",
   "company": "Molson Coors",
   "company_is_current": true,
   "vertical": "beer",
@@ -9441,9 +9442,10 @@
   "source_urls": [
    "https://www.youtube.com/watch?v=M_vkpPriLp8",
    "https://mmaglobal.com/pt-br/node/28688",
-   "https://adexchanger.com/ad-exchange-news/molson-coors-is-brewing-a-full-bodied-data-strategy"
+   "https://adexchanger.com/ad-exchange-news/molson-coors-is-brewing-a-full-bodied-data-strategy",
+   "https://www.linkedin.com/in/brad-feinberg-92a4055/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/brad-feinberg-92a4055/",
   "first_seen": "2026-11-16",
   "last_seen": "2026-06-16"
  },
@@ -9451,41 +9453,43 @@
   "name": "Gabriela Cadenas",
   "role": "SVP Digital and Technology Americas",
   "company": "The Heineken Company",
-  "company_is_current": true,
+  "company_is_current": null,
   "vertical": "beer",
   "verticals": [
    "beer"
   ],
   "ai_use_case": "digital route to consumer and digital transformation",
   "ai_maturity": "scaled",
-  "short_description": "Gabriela Cadenas leads Digital and Technology for the Americas at The Heineken Company. A Thoughtworks interview and Heineken coverage describe the Americas digital transformation under her lead.",
+  "short_description": "Gabriela Cadenas leads Digital and Technology for the Americas at The Heineken Company. A Thoughtworks interview and Heineken coverage describe the Americas digital transformation under her lead. Her LinkedIn headline now reads CIO, CDO and enterprise transformation leader without naming Heineken, so the Heineken role may be past tense.",
   "source_urls": [
    "https://www.youtube.com/watch?v=Oh1Rcra6Hpg",
    "https://www.thoughtworks.com/en-sg/about-us/events/webinars/dto-transformed-series/a-conversation-with-gabriela-cadenas--svp-digital-and-technology",
-   "https://www.mobileworldlive.com/industry/heineken-svp-pours-over-digitalisation-details/"
+   "https://www.mobileworldlive.com/industry/heineken-svp-pours-over-digitalisation-details/",
+   "https://www.linkedin.com/in/gabriela-cadenas-8471636/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/gabriela-cadenas-8471636/",
   "first_seen": "2026-11-16",
   "last_seen": "2023-04-26"
  },
  {
   "name": "Kyle Kotaich",
-  "role": "Senior Data Analyst",
+  "role": "Former Senior Data Analyst, Deschutes Brewery",
   "company": "Deschutes Brewery",
-  "company_is_current": null,
+  "company_is_current": false,
   "vertical": "beer",
   "verticals": [
    "beer"
   ],
   "ai_use_case": "machine learning on sensor data for fermentation and glycol capacity",
   "ai_maturity": "shipping",
-  "short_description": "Kyle Kotaich is described as senior data analyst and operations technology lead at Deschutes Brewery. Microsoft and Beer and Brewing coverage credit his machine learning work with cutting fermentation time. Sources date from 2018 to 2021 so the role may be past tense.",
+  "short_description": "Kyle Kotaich is described as senior data analyst and operations technology lead at Deschutes Brewery. Microsoft and Beer and Brewing coverage credit his machine learning work with cutting fermentation time. Sources date from 2018 to 2021 so the role may be past tense. His LinkedIn now shows a business analyst role at the City of Bend.",
   "source_urls": [
    "https://www.youtube.com/watch?v=fRCLsHeZH7E",
    "https://news.microsoft.com/transform/how-data-and-ai-are-helping-deschutes-brewery-respond-to-beer-trends-faster/",
-   "https://beerandbrewing.com/beautiful-future-how-deschutes-uses-artificial-intelligence-and-machine"
+   "https://beerandbrewing.com/beautiful-future-how-deschutes-uses-artificial-intelligence-and-machine",
+   "https://www.linkedin.com/in/kyle-kotaich-0b444953/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/kyle-kotaich-0b444953/",
   "first_seen": "2026-11-16",
   "last_seen": "2021-01-21"
  },
@@ -9504,9 +9508,10 @@
   "source_urls": [
    "https://www.youtube.com/watch?v=FnIVceVPUYY",
    "https://themarketingacademy.org/profile/susan-jones/",
-   "https://emarsys.com/learn/webinars/the-future-of-marketing-unlocking-the-power-of-ai/"
+   "https://emarsys.com/learn/webinars/the-future-of-marketing-unlocking-the-power-of-ai/",
+   "https://www.linkedin.com/in/susan-jones-452454a/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/susan-jones-452454a/",
   "first_seen": "2026-11-16",
   "last_seen": "2025-05-30"
  },
@@ -9514,7 +9519,7 @@
   "name": "Amar Swain",
   "role": "Transformation Director",
   "company": "Diageo",
-  "company_is_current": true,
+  "company_is_current": null,
   "vertical": "whiskey",
   "verticals": [
    "whiskey",
@@ -9525,15 +9530,16 @@
   "short_description": "Bain describes Amar Pradeep Swain as the Diageo transformation director who led Project Voyager through the reset, go-live and hypercare. He calls the new core the substrate on which Diageo can scale analytics and, increasingly, agentic AI.",
   "source_urls": [
    "https://www.youtube.com/watch?v=abdusnkRNKM",
-   "https://www.bain.com/client-results/how-diageo-refocused-its-erp-transformationand-defied-the-odds/"
+   "https://www.bain.com/client-results/how-diageo-refocused-its-erp-transformationand-defied-the-odds/",
+   "https://www.linkedin.com/in/amar-pradeep-swain-cio/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/amar-pradeep-swain-cio/",
   "first_seen": "2026-11-16",
   "last_seen": "2026-09-24"
  },
  {
   "name": "Matt Higgs",
-  "role": "Analytics Lead",
+  "role": "Principal Data Science Manager, The Edrington Group",
   "company": "Edrington",
   "company_is_current": true,
   "vertical": "whiskey",
@@ -9542,20 +9548,21 @@
   ],
   "ai_use_case": "data science and analytics for a data-informed culture",
   "ai_maturity": "scaled",
-  "short_description": "The A.I Right podcast lists him as Analytics Lead at Edrington, the whisky company behind The Macallan and Highland Park. He discusses building a data-informed culture and turning insights into decisions. The Org lists a Dr Matthew Higgs-McCallum as data science lead at Edrington.",
+  "short_description": "The A.I Right podcast lists him as Analytics Lead at Edrington, the whisky company behind The Macallan and Highland Park. He discusses building a data-informed culture and turning insights into decisions. The Org lists a Dr Matthew Higgs-McCallum as data science lead at Edrington. LinkedIn lists him as Dr Matthew Higgs-McCallum.",
   "source_urls": [
    "https://www.youtube.com/watch?v=W_-32hg_ZaA",
-   "https://shows.acast.com/the-ai-leader/episodes/distilling-data-analytics-at-edrington-ft-matt-higgs"
+   "https://shows.acast.com/the-ai-leader/episodes/distilling-data-analytics-at-edrington-ft-matt-higgs",
+   "https://www.linkedin.com/in/theleanacademic/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/theleanacademic/",
   "first_seen": "2026-11-16",
   "last_seen": "2025-05-07"
  },
  {
   "name": "Pamela Forbus",
-  "role": "SVP and Chief Marketing Officer, Pernod Ricard North America",
+  "role": "Former SVP and Chief Marketing Officer, Pernod Ricard North America",
   "company": "Pernod Ricard North America",
-  "company_is_current": null,
+  "company_is_current": false,
   "vertical": "multiple",
   "verticals": [
    "whiskey",
@@ -9563,20 +9570,21 @@
   ],
   "ai_use_case": "data-led digital marketing and consumer centricity",
   "ai_maturity": "scaled",
-  "short_description": "Marketing Dive reported her appointment as CMO of Pernod Ricard North America in 2020. Podcast pages list her talking about digital transformation and data for consumer-centric marketing. One 2023 report says she left the role, so the title may be past tense.",
+  "short_description": "Marketing Dive reported her appointment as CMO of Pernod Ricard North America in 2020. Podcast pages list her talking about digital transformation and data for consumer-centric marketing. One 2023 report says she left the role, so the title may be past tense. Her LinkedIn now shows SVP, Global Chief of Insights and Analytics at Mondelez International.",
   "source_urls": [
    "https://www.youtube.com/watch?v=edpxPJFUD8Q",
-   "https://www.marketingdive.com/news/pernod-ricard-names-pam-forbus-as-cmo-for-north-america/579861/"
+   "https://www.marketingdive.com/news/pernod-ricard-names-pam-forbus-as-cmo-for-north-america/579861/",
+   "https://www.linkedin.com/in/pamforbus/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/pamforbus/",
   "first_seen": "2026-11-16",
   "last_seen": "2022-07-26"
  },
  {
   "name": "Rob Blumhof",
-  "role": "D&T Transformation Director, Project Voyager",
+  "role": "VP Digital and Technology, Transformation Director, Diageo",
   "company": "Diageo",
-  "company_is_current": null,
+  "company_is_current": true,
   "vertical": "whiskey",
   "verticals": [
    "whiskey",
@@ -9587,15 +9595,16 @@
   "short_description": "Diageo describes him as Transformation Director for Project Voyager, its largest digital transformation programme. Diageo says the programme gives greater data-driven insights. The role is from 2023 and 2024 sources so it may be past tense.",
   "source_urls": [
    "https://www.youtube.com/watch?v=KI4RCZTSfB4",
-   "https://www.diageo.com/en/careers/life-at-diageo/2023/digital-transformation-at-diageo-qa-with-transformation-director-rob-blumhof"
+   "https://www.diageo.com/en/careers/life-at-diageo/2023/digital-transformation-at-diageo-qa-with-transformation-director-rob-blumhof",
+   "https://www.linkedin.com/in/robertblumhof/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/robertblumhof/",
   "first_seen": "2026-11-16",
   "last_seen": "2024-06-14"
  },
  {
   "name": "Ruth Bromley",
-  "role": "Director Procurement Enablement",
+  "role": "Senior Director Project Advisory, The HEINEKEN Company",
   "company": "Heineken",
   "company_is_current": true,
   "vertical": "beer",
@@ -9604,18 +9613,19 @@
   ],
   "ai_use_case": "digital procurement with data-driven insights and automation",
   "ai_maturity": "scaled",
-  "short_description": "HiCX describes her as Director Procurement Enablement at Heineken, speaking at Supplier Experience Live 2023. She sets out four digital pillars including data-driven insights. She says source to contract was standardised in seventy countries. The caption spelling Brumley is corrected to Bromley.",
+  "short_description": "HiCX describes her as Director Procurement Enablement at Heineken, speaking at Supplier Experience Live 2023. She sets out four digital pillars including data-driven insights. She says source to contract was standardised in seventy countries. The caption spelling Brumley is corrected to Bromley. LinkedIn lists her current role as Senior Director Project Advisory at The HEINEKEN Company, after Senior Director Digital Backbone Transformation.",
   "source_urls": [
    "https://www.youtube.com/watch?v=pvuJwIAw2_o",
-   "https://www.hicx.com/blog/heineken-digital-transformation-journey/"
+   "https://www.hicx.com/blog/heineken-digital-transformation-journey/",
+   "https://www.linkedin.com/in/ruth-bromley-heineken/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/ruth-bromley-heineken/",
   "first_seen": "2026-11-16",
   "last_seen": "2024-03-15"
  },
  {
   "name": "Dirkie Gertenbach",
-  "role": "Global Product & Engineering Director: Platform & Operations",
+  "role": "Director of Platform and Integrations, BEES",
   "company": "BEES",
   "company_is_current": true,
   "vertical": "beer",
@@ -9627,9 +9637,10 @@
   "short_description": "An org chart page lists him as Global Product & Engineering Director: Platform & Operations at BEES. In the 2019 talk he was global B2B engineering lead at AB InBev.",
   "source_urls": [
    "https://www.youtube.com/watch?v=WpKpRld4yZE",
-   "https://theorg.com/org/bees/org-chart/dirkie-gertenbach"
+   "https://theorg.com/org/bees/org-chart/dirkie-gertenbach",
+   "https://www.linkedin.com/in/dirkieg/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/dirkieg/",
   "first_seen": "2026-11-16",
   "last_seen": "2019-09-19"
  },
@@ -9688,30 +9699,132 @@
   "short_description": "A January 2020 CIO.com feature calls him vice president of global solutions at AB InBev. It covers the B2B reorder app, AI and sensors at more than 350 breweries and a distributor credit scoring project. He may have left since, so the role may be past tense.",
   "source_urls": [
    "https://www.youtube.com/watch?v=g7PufLUS1T0",
-   "https://www.cio.com/article/3516388/anheuser-busch-inbev-brews-data-driven-transformation-to-lure-talent.html"
+   "https://www.cio.com/article/3516388/anheuser-busch-inbev-brews-data-driven-transformation-to-lure-talent.html",
+   "https://www.linkedin.com/in/tassilo-festetics-08511b4/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/tassilo-festetics-08511b4/",
   "first_seen": "2026-11-16",
   "last_seen": "2020-01-28"
  },
  {
   "name": "Walter Hannemann",
-  "role": "Global Enterprise Architect",
+  "role": "Former Global Enterprise Architect, Carlsberg Group",
   "company": "Carlsberg",
-  "company_is_current": null,
+  "company_is_current": false,
   "vertical": "beer",
   "verticals": [
    "beer"
   ],
   "ai_use_case": "Enterprise architecture and ERP data layer for digital transformation",
   "ai_maturity": "exploring",
-  "short_description": "A March 2022 Ardoq article calls him Global Enterprise Architect at Carlsberg, who joined in April 2021. It covers the Smartcore ERP replacement and a data layer linking its components. He may have left since, so the role may be past tense.",
+  "short_description": "A March 2022 Ardoq article calls him Global Enterprise Architect at Carlsberg, who joined in April 2021. It covers the Smartcore ERP replacement and a data layer linking its components. He may have left since, so the role may be past tense. LinkedIn lists Global Enterprise Architect at Carlsberg Group as a past role; he now describes himself as a business transformation leader, enterprise architect and AI and data strategist.",
   "source_urls": [
    "https://www.youtube.com/watch?v=vwXouJ1OB2M",
-   "https://www.ardoq.com/blog/carlsbergs-digital-journey"
+   "https://www.ardoq.com/blog/carlsbergs-digital-journey",
+   "https://www.linkedin.com/in/walterhannemann/"
   ],
-  "linkedin": null,
+  "linkedin": "https://www.linkedin.com/in/walterhannemann/",
   "first_seen": "2026-11-16",
   "last_seen": "2022-03-10"
+ },
+ {
+  "name": "Breno Gentil",
+  "role": "Senior Director Digital and Technology Europe, Heineken (2022 talk)",
+  "company": "Heineken",
+  "company_is_current": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "ERP core, cloud platforms and digital products for brewing",
+  "ai_maturity": "shipping",
+  "short_description": "In a 2022 CIONET talk as Heineken's senior director of digital and technology for Europe he described a single ERP core with harmonised data and digital products such as ML models that predict order quantities. His LinkedIn now describes him as a tech and digital executive, CIO and CTO with 25 years in consumer goods, so the Heineken role may be past tense.",
+  "source_urls": [
+   "https://www.youtube.com/watch?v=HSkA_VOMGak",
+   "https://www.linkedin.com/in/bg-digital/"
+  ],
+  "linkedin": "https://www.linkedin.com/in/bg-digital/",
+  "first_seen": "2026-11-16",
+  "last_seen": "2022-06-02"
+ },
+ {
+  "name": "Lucas Elliott",
+  "role": "Former Director of Global Intelligence and Integrated Marketing, Brown-Forman",
+  "company": "Brown-Forman",
+  "company_is_current": false,
+  "vertical": "whiskey",
+  "verticals": [
+   "whiskey"
+  ],
+  "ai_use_case": "marketing data integration and applied AI",
+  "ai_maturity": "piloting",
+  "short_description": "In a 2024 podcast as Brown-Forman's director of global intelligence and integrated marketing he described pulling systems, processes and data together and bringing AI into existing marketing systems. His LinkedIn lists Brown-Forman as a past role and now describes digital analytics, marketing and applied AI.",
+  "source_urls": [
+   "https://www.youtube.com/watch?v=lMczRZWTu3M",
+   "https://www.linkedin.com/in/lucaskelliott/"
+  ],
+  "linkedin": "https://www.linkedin.com/in/lucaskelliott/",
+  "first_seen": "2026-11-16",
+  "last_seen": "2024-06-28"
+ },
+ {
+  "name": "Michal Bobrowski",
+  "role": "Market manager, Carlsberg Poland (2023 talk)",
+  "company": "Carlsberg Poland",
+  "company_is_current": null,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "image recognition for retail contract execution",
+  "ai_maturity": "shipping",
+  "short_description": "In a 2023 Vispera case study interview (captions spell him Borowski) he described Carlsberg Poland using image recognition to check pay for performance contracts in shops, with field reps as pilot ambassadors. His LinkedIn describes market development and revenue management in FMCG and exploring AI in commercial operations.",
+  "source_urls": [
+   "https://www.youtube.com/watch?v=GvtWI-sZ5EA",
+   "https://www.linkedin.com/in/bobrowskimichal/"
+  ],
+  "linkedin": "https://www.linkedin.com/in/bobrowskimichal/",
+  "first_seen": "2026-11-16",
+  "last_seen": "2023-03-16"
+ },
+ {
+  "name": "Sebastian Micozzi",
+  "role": "Former Global SVP Digital Marketing and Transformation, Bacardi",
+  "company": "Bacardi",
+  "company_is_current": false,
+  "vertical": "multiple",
+  "verticals": [
+   "multiple"
+  ],
+  "ai_use_case": "digital marketing, ecommerce and data-informed testing",
+  "ai_maturity": "piloting",
+  "short_description": "In a 2023 podcast as Bacardi's global SVP of digital marketing and transformation he described machines taking leg work out of testing and moving teams from managing processes to owning products. His LinkedIn lists Bacardi, PepsiCo and BAT as past employers.",
+  "source_urls": [
+   "https://www.youtube.com/watch?v=v59wGKfWumg",
+   "https://www.linkedin.com/in/sebastian-micozzi1/"
+  ],
+  "linkedin": "https://www.linkedin.com/in/sebastian-micozzi1/",
+  "first_seen": "2026-11-16",
+  "last_seen": "2023-04-26"
+ },
+ {
+  "name": "Ayush Hirwani",
+  "role": "Director, AB InBev",
+  "company": "AB InBev",
+  "company_is_current": true,
+  "vertical": "beer",
+  "verticals": [
+   "beer"
+  ],
+  "ai_use_case": "digital transformation and AI for business impact",
+  "ai_maturity": "shipping",
+  "short_description": "In a 2021 Maximl interview he described leading digital transformation at AB InBev, fixing basics and ways of working before deploying technology. His LinkedIn lists him as Director at AB InBev working on AI for business impact.",
+  "source_urls": [
+   "https://www.youtube.com/watch?v=hNZiXsFu__Y",
+   "https://www.linkedin.com/in/ayush-hirwani-94457376/"
+  ],
+  "linkedin": "https://www.linkedin.com/in/ayush-hirwani-94457376/",
+  "first_seen": "2026-11-16",
+  "last_seen": "2021-09-23"
  }
 ]
