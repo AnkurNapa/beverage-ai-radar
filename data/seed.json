@@ -31492,5 +31492,37 @@
     "last_seen": "2026-11-02",
     "discovered_by": "scout:wine",
     "verified": false
+  },
+  {
+    "name": "Sommy",
+    "domain": "sommy.ai",
+    "hq_location": "Edwards, Colorado, United States",
+    "vertical": "wine",
+    "ai_use_case": "personal palate model for consumer wine picks, label and shelf scanning, food pairing",
+    "ai_maturity": "pilot",
+    "funding_stage": "unknown",
+    "short_description": "Pre-launch consumer wine app from the Vail Valley that builds a taste profile from a short quiz or from ratings imported from Vivino, CellarTracker or VinoCell, then scores wines against that one palate instead of crowd ratings. A camera mode identifies single labels, reads every bottle and price tag on a shop shelf, parses restaurant lists by section and works out a dish from a photo or recipe to suggest a pairing. A chat answers from what the user has rated, saved and cellared. The founder writes about predicting one person's palate from 150,000 bottles, but no model is described in detail. Not yet on the App Store or Google Play: a waitlist only, with a free plan and a paid Cellar plan at $7.99 a month announced. No independent coverage found as of November 2026.",
+    "source_urls": [
+      "https://www.sommy.ai/",
+      "https://www.sommy.ai/about-us",
+      "https://www.sommy.ai/features/vision"
+    ],
+    "first_seen": "2026-11-17",
+    "last_seen": "2026-11-16",
+    "key_people": "Curt Tudor (CEO and Co-founder), Jane Tudor (CPO and Co-founder)",
+    "people": [
+      {
+        "name": "Curt Tudor",
+        "role": "CEO and Co-founder",
+        "linkedin": null
+      },
+      {
+        "name": "Jane Tudor",
+        "role": "CPO and Co-founder",
+        "linkedin": null
+      }
+    ],
+    "discovered_by": "curated",
+    "verified": true
   }
 ]
