@@ -1,6 +1,6 @@
 # Beverage-AI Landscape Radar
 
-Snapshot: 2026-11-18. 1775 active, 280 dormant.
+Snapshot: 2026-11-18. 1775 active, 281 dormant.
 
 ## Active companies
 
@@ -1872,6 +1872,7 @@ Snapshot: 2026-11-18. 1775 active, 280 dormant.
 - Eurecat (Centre Tecnologic de Catalunya) (last seen 2024-02-29)
 - Feng Gao (last seen 2018-04-02)
 - Fernando Buscema (last seen 2021-04-23)
+- Ferrum (last seen 2023-08-16)
 - Florian A. Theßeling (last seen 2024-03-26)
 - Forrest Melton (last seen 2018-04-02)
 - FourKites (last seen 2020-06-09)

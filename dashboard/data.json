@@ -95631,5 +95631,50 @@
     ],
     "country": "Turkey",
     "scope": "horizontal"
+  },
+  {
+    "name": "Ferrum",
+    "domain": "ferrum.net",
+    "hq_location": "Schafisheim, Switzerland",
+    "founded_year": null,
+    "size_employees": null,
+    "vertical": "multiple",
+    "company_type": null,
+    "ai_use_case": "no ai claim; can seamers for beer and soft drink lines, former owner of qualysense ai grain sorting",
+    "ai_maturity": "none",
+    "funding_stage": null,
+    "total_raised": null,
+    "key_people": null,
+    "people": [],
+    "notable_customers_partners": null,
+    "short_description": "Swiss maker of can seamers for beer, craft beer, soft drinks and juice, plus industrial centrifuges, with a long can filling partnership with KHS. Its own site makes no machine learning claim for the seamers. The group's only AI came from QualySense, whose QSorter grades grains, seeds and beans one by one with 3D vision, spectroscopy and AI. Ferrum bought those operations in August 2023 as Ferrum Analytics and Sorting AG, then IEH Laboratories and Consulting Group acquired the unit in January 2026. Listed as a packaging line supplier to breweries with no current AI of its own.",
+    "source_urls": [
+      "https://www.ferrum.net/en/applications/can-seamers/overviews/beer.php",
+      "https://www.ferrum.net/en/news/fr/ferrum-launches-third-business-division-ferrum-analytics-and-sorting-ag.php",
+      "https://www.qualysense.com/company"
+    ],
+    "first_seen": "2023-08-16",
+    "last_seen": "2023-08-16",
+    "status": "dormant",
+    "linkedin_url": null,
+    "github_url": null,
+    "product_url": null,
+    "latest_news_headline": null,
+    "why_interesting": null,
+    "discovered_by": "curated",
+    "verified": true,
+    "links": [],
+    "verticals": [],
+    "affiliated_company": null,
+    "affiliated_company_current": null,
+    "key": "ferrum.net",
+    "theme": "Process & operations",
+    "capabilities": [
+      "AI & ML",
+      "BI & analytics",
+      "Consultancy & services"
+    ],
+    "country": "Switzerland",
+    "scope": "beverage-native"
   }
 ]
