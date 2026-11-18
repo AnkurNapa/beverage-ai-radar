@@ -2280,5 +2280,442 @@
   "surface": "wave6_li",
   "found": 5,
   "added": 5
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "people",
+  "surface": "africa_middle_east",
+  "found": 7,
+  "added": 7
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "people",
+  "surface": "central_eastern_europe",
+  "found": 8,
+  "added": 0
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "people",
+  "surface": "dach_benelux_nordics",
+  "found": 9,
+  "added": 9
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "people",
+  "surface": "east_asia",
+  "found": 2,
+  "added": 2
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "people",
+  "surface": "latam",
+  "found": 3,
+  "added": 3
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "people",
+  "surface": "north_america",
+  "found": 6,
+  "added": 4
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "people",
+  "surface": "southeast_asia_oceania",
+  "found": 6,
+  "added": 6
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "people",
+  "surface": "southern_europe",
+  "found": 5,
+  "added": 5
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "people",
+  "surface": "uk_ireland",
+  "found": 3,
+  "added": 3
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "people",
+  "surface": "central_eastern_europe",
+  "found": 8,
+  "added": 8
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "aws",
+  "found": 0,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "beer",
+  "found": 2,
+  "added": 1,
+  "back_from": "2018-10-09"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "benchmarking",
+  "found": 1,
+  "added": 1,
+  "back_from": "2020-10-13"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "carryover_tableau",
+  "found": 1,
+  "added": 1
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "decarbonisation",
+  "found": 12,
+  "added": 3,
+  "back_from": "2023-11-19"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "digital_transformation",
+  "found": 1,
+  "added": 1,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "directories",
+  "found": 2,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "engineering",
+  "found": 2,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "equipment",
+  "found": 0,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "erp",
+  "found": 2,
+  "added": 2,
+  "back_from": "2018-10-09"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "esg",
+  "found": 2,
+  "added": 0,
+  "back_from": "2018-10-09"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "fabcon",
+  "found": 0,
+  "added": 0,
+  "back_from": "2023-11-19"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "fnb_majors",
+  "found": 1,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "food_esg",
+  "found": 15,
+  "added": 3,
+  "back_from": "2023-11-19"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "food_flavours",
+  "found": 1,
+  "added": 1,
+  "back_from": "2021-10-27"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "food_majors",
+  "found": 3,
+  "added": 0,
+  "back_from": "2021-10-27"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "food_pm",
+  "found": 2,
+  "added": 2,
+  "back_from": "2021-10-27"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "food_processing",
+  "found": 4,
+  "added": 3,
+  "back_from": "2021-10-27"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "food_rd",
+  "found": 1,
+  "added": 1,
+  "back_from": "2021-10-27"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "food_rm",
+  "found": 8,
+  "added": 7,
+  "back_from": "2021-10-27"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "food_safety",
+  "found": 3,
+  "added": 3,
+  "back_from": "2021-10-27"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "food_supply",
+  "found": 6,
+  "added": 6,
+  "back_from": "2021-10-27"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "genai",
+  "found": 0,
+  "added": 0,
+  "back_from": "2018-10-09"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "google",
+  "found": 0,
+  "added": 0,
+  "back_from": "2020-10-13"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "grants_patents",
+  "found": 4,
+  "added": 2,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "ibm",
+  "found": 0,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "industrial",
+  "found": 4,
+  "added": 1,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "ingredients",
+  "found": 2,
+  "added": 2,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "institutes",
+  "found": 0,
+  "added": 0,
+  "back_from": "2018-10-09"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "logistics",
+  "found": 3,
+  "added": 3,
+  "back_from": "2018-10-09"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "marketdata",
+  "found": 0,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "microsoft",
+  "found": 0,
+  "added": 0,
+  "back_from": "2018-10-09"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "oracle",
+  "found": 0,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "rag",
+  "found": 0,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "research",
+  "found": 1,
+  "added": 1,
+  "back_from": "2019-10-09"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "salesforce",
+  "found": 0,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "sap",
+  "found": 0,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "singapore",
+  "found": 0,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "tableau",
+  "found": 0,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "tradeshow_asia",
+  "found": 1,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "tradeshow_de",
+  "found": 2,
+  "added": 2,
+  "back_from": "2019-10-09"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "tradeshow_global",
+  "found": 3,
+  "added": 3,
+  "back_from": "2022-11-15"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "tradeshow_us",
+  "found": 0,
+  "added": 0,
+  "back_from": "2018-10-09"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "whiskey",
+  "found": 2,
+  "added": 1,
+  "back_from": "2018-10-09"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "wine",
+  "found": 5,
+  "added": 0,
+  "back_from": "2019-10-14"
+ },
+ {
+  "date": "2026-11-18",
+  "lane": "companies",
+  "surface": "food_events_research",
+  "found": 13,
+  "added": 4,
+  "back_from": "2021-10-27"
  }
 ]
